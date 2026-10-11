@@ -1,5 +1,21 @@
 # Changelog
 
+## Unreleased — 2026-10-11: a site for children and their parents
+
+- Catalog narrowed to readers aged 6 to 15 and up: nine papers. The adult and
+  professional papers (The Bridge, The Global Ledger, Asia Watch, The Morning
+  Signal) and two 15–18 papers (The World Brief, Planet Weekly) are removed;
+  The Current Affairs Digest stays as the one larger paper for ages 15+.
+- Website: "The Kids' Newsstand", a parents' introduction (`intro_title`,
+  `intro` and `steps` in `site.yaml`), a parent-facing "How it's made" page,
+  and age bands 6–8, 9–11, 12–14 and 15+. Fixed the filters, which never hid
+  any card.
+- Builder: adult and professional readers and the professional purpose
+  removed; at most four pages from the tiles; family papers that are not daily
+  no longer get the "The day's news" tagline by default.
+- New craft rule: records and "firsts" must be stated by a source.
+- Weekly papers pinned to a weekday no longer skip a week after an off-day issue.
+
 ## 5.0.0 — 2026-10-10: automatic publishing and the website
 
 - `python -m ygc auto`: research each desk once (Claude with web search, facts

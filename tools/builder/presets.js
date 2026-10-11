@@ -10,14 +10,8 @@ const PRESETS = {
   "science-learner": { label: "Science learner", name: "The Lab Notebook", pages: 4, age: "12-14", purpose: "school", depth: "balanced",
     geos: ["World"], topics: ["science", "climate", "health", "history"], cadence: "weekly", language: "en",
     location: "Washington, USA", timezone: "America/Los_Angeles", modules: {} },
-  "world-affairs-adult": { label: "World affairs, adult", name: "The Global Ledger", pages: 6, age: "adult", purpose: "global", depth: "deep",
-    geos: ["World", "United States", "United Kingdom", "Europe", "China", "Middle East"], topics: ["politics", "economics", "business"],
-    cadence: "daily", language: "en", location: "Washington, USA", timezone: "America/Los_Angeles", modules: { sports: false, vocab: false } },
   "exam-prep-india": { label: "Exam prep, India", name: "The Current Affairs Digest", pages: 4, age: "15-18", purpose: "exam", depth: "balanced",
     geos: ["India", "World"], topics: ["politics", "economics", "science", "history"], cadence: "daily", language: "en",
     location: "New Delhi, India", timezone: "Asia/Kolkata", modules: {} },
-  "executive-brief": { label: "Executive brief", name: "The Morning Signal", pages: 2, age: "pro", purpose: "pro", depth: "quick",
-    geos: ["United States", "World", "China"], topics: ["business", "economics", "science"], cadence: "daily", language: "en",
-    location: "Seattle, USA", timezone: "America/Los_Angeles", modules: {} },
 };
 if (typeof module !== "undefined") module.exports = PRESETS;

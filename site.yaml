@@ -1,6 +1,17 @@
 # Website settings for `python -m ygc site` (and the daily publishing workflow).
-title: The Newsstand
-tagline: Free printable newspapers, written for each reader from verified sources.
+title: The Kids' Newsstand
+tagline: Free printable newspapers for ages 6 to 15, written for their age from verified sources.
 base_url: https://devendr-ai.github.io/teen-newspaper-builder/
 contact: ""            # an email address readers can send corrections to
 keep_issues: 30        # how many past issues per paper stay downloadable
+
+# The box at the top of the home page, written for parents.
+intro_title: Get your child into the news, on paper
+intro: >-
+  Most news isn't written for children, and a phone feed isn't where you want them to meet it.
+  Each paper here is written for one age group: short, calm and accurate, honest about hard news
+  without graphic detail, and built only from sources you can check.
+steps:
+  - Pick your child's age below.
+  - Download the latest PDF and print it on US Letter paper.
+  - Leave it on the breakfast table, then talk about it together.
