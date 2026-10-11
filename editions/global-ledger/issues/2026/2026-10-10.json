@@ -1,0 +1,365 @@
+{
+  "edition": "global-ledger",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF WAR",
+      "headline": "Yemen's War Reaches Riyadh, Threatening Saudi Arabia's Last Oil Route",
+      "deck": "A strike on the Saudi capital's main airport killed at least 12 people. With Hormuz choked, the Houthis are pressing on the Red Sea exit beside Yemen.",
+      "body": [
+        "On Saturday an attack on King Khalid International Airport in Riyadh killed at least 12 people and injured 309, the Saudi aviation authority said, among them travellers from Bangladesh, Egypt, Jordan and the United States. It followed a missile strike on the same airport on Thursday that killed three Saudis, one of them a pilot. Yemen's Houthis, the Iran-backed movement that has held northern Yemen since 2014, claimed Thursday's attack and told airlines to stay out of Saudi airspace.",
+        "The strikes are retaliation. On October 4 Yemen's Saudi-backed government launched an offensive to retake Houthi territory, supported by Saudi-led air strikes on the capital, Sanaa. The UN's envoy for Yemen warned on Friday that the country has slid back into full-scale war.",
+        "Washington is weighing whether to join. Asked whether the US would fight alongside the Saudis, President Trump said: \"We may. We're going to look at it.\"",
+        "The geography explains the alarm. The US-Iran war has cut crude exports through the Strait of Hormuz to about 8.5 million barrels a day, roughly 40% below pre-war levels, according to Kpler. Saudi Arabia has compensated by moving oil west to the Red Sea, but tankers leaving that sea must pass the Bab el-Mandeb, the strait beside Yemen. In September the Houthis seized the coast along it, which is what the new offensive aims to reverse."
+      ],
+      "map": {
+        "title": "BAB EL-MANDEB, THE GATE OF TEARS",
+        "label_top": "YEMEN (ARABIAN PENINSULA)",
+        "label_bottom": "DJIBOUTI AND ERITREA (AFRICA)",
+        "footnote": "About 30 km of water at its narrowest point",
+        "caption": "With Hormuz disrupted, Saudi crude now exits through this strait."
+      },
+      "why": "This is how a proxy war escalates without a declaration. Iran need not strike Saudi Arabia directly if a movement it backs can threaten the one export route Riyadh has left, putting both of the Gulf's exits at risk.",
+      "analyst": "Brent closed near $104.50 on Friday, about two-thirds above a year ago yet slightly below a month ago: markets are pricing a contained Red Sea risk. Watch tanker insurance and Saudi exports from Yanbu for signs that is changing.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
+        "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-putin-oil-energy-prices-10-10-26",
+        "https://tradingeconomics.com/commodity/brent-crude-oil"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EBOLA",
+      "headline": "Ebola Reaches Nairobi as an Outbreak Without a Vaccine Passes 8,700 Cases",
+      "deck": "A traveller from Congo died in Kenya's capital of the Bundibugyo strain, the outbreak's first case in East Africa's biggest hub.",
+      "body": [
+        "Kenya's health ministry confirmed on October 6 the country's first imported case of Bundibugyo virus disease, one of the forms of Ebola. The patient, a Kenyan citizen who fell ill while living in the Democratic Republic of the Congo, travelled through Uganda and flew into Nairobi on October 3, was isolated on arrival, and died on October 5. Authorities have listed 28 contacts and are tracing 23 passengers and four crew from the flight. Kenya is the fourth country to report a case in this outbreak, and officials stress that it does not have an outbreak of its own.",
+        "The scale in Congo is large. As of October 6 the World Health Organization counted 8,728 confirmed cases and 4,205 confirmed deaths, a fatality rate of about 48%, with Ituri province the hardest hit, followed by North Kivu. WHO declared the outbreak a public health emergency of international concern on May 17.",
+        "In Congo the epicentre is Ituri, where one report counts about 6,450 cases across 28 of the province's 36 health zones. In Kenya, the 28 contacts will be monitored for 21 days, the longest incubation period for Ebola, before officials can declare the import contained.",
+        "The defining problem is the absence of tools. Unlike the Zaire strain, for which vaccines and antibody treatments now exist, Bundibugyo has no approved vaccine or specific therapy. Containment depends on isolation, contact tracing and safe burials, in provinces where armed conflict makes all three dangerous.",
+        "WHO is supporting Kenya's response, and the regional bloc IGAD has stepped up preparedness. Elsewhere, WHO asked Russia to respond formally to reports of a suspected pneumonic plague case in a laboratory worker in Irkutsk, who died; Moscow called reports of a second case false."
+      ],
+      "illustration": {
+        "title": "CONTAINING EBOLA",
+        "subtitle": "Nairobi, Kenya",
+        "motif": "hospital",
+        "caption": "8,728 confirmed cases and 4,205 deaths as of October 6."
+      },
+      "connect": "Ebola's history is a history of tools arriving late. The largest outbreak on record, in West Africa in 2014-16, was caused by the Zaire strain before any vaccine was approved; the shot developed during that crisis later helped contain outbreaks in Congo. Bundibugyo, first identified in Uganda in 2007, never attracted the same investment because its outbreaks were small. This one is not, and a single flight to Nairobi shows why preparedness for neglected pathogens is a global, not a local, concern.",
+      "sources": [
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+        "https://www.health.go.ke/kenya-confirms-first-imported-case-bundibugyo-ebola-virus-disease",
+        "https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts",
+        "https://igad.int/igad-and-kenya-step-up-ebola-preparedness-and-response-after-imported-bundibugyo-case/",
+        "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information"
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ENERGY AND SANCTIONS",
+      "headline": "Trump Strikes a Diesel Deal With Putin, Weeks After Signing Sweeping Sanctions",
+      "deck": "A Treasury waiver lets Russian diesel flow to US and global markets until April 2027. Ukraine says it rewards Moscow without a ceasefire.",
+      "body": [
+        "Diesel has become the war's most acute shortage: it moves freight, farms and ships, and G7 governments released emergency reserves earlier this month as prices soared. On Friday President Trump announced on Truth Social that Russia would supply more than 300,000 tons immediately, 500,000 tons in November and 1 million tons thereafter, followed by another 3 million tons depending on the condition of Russia's refineries.",
+        "To make that possible, the Treasury issued a general licence waiving sanctions on Russian diesel through April 2027. The reversal is sharp: Trump signed sweeping new sanctions on Russia only weeks ago. The Kremlin said the call covered global energy markets; Putin said he was confident the move would benefit the global economy, and his envoy Kirill Dmitriev said energy cooperation with the US would continue.",
+        "Ukraine's President Zelensky condemned the deal, warning that easing sanctions without a Russian commitment to de-escalate will only prolong the war. It landed while special envoy Steve Witkoff and Jared Kushner were meeting Ukrainian officials in Miami about a proposal to end the fighting. Britain said it would keep supporting Ukraine militarily and financially and maintain sanctions pressure on Russia.",
+        "Trump framed the deal as part of a broader push to end wars on his terms. At his Syracuse rally he paired the Russia-Ukraine war with the Iran war as the two conflicts he was \"about to settle, or win\", and afterwards repeated on social media his claim to have settled eight wars. Fortune described the diesel deal as a sharp reversal of US policy; PBS noted its timing, weeks before the midterms.",
+        "Analysts doubt the oil will matter much. An Atlantic Council analyst said the volumes are uncertain to materialise and too small to address the global diesel shortage."
+      ],
+      "chart": {
+        "title": "PROMISED RUSSIAN DIESEL",
+        "subtitle": "Million tons, as announced",
+        "labels": [
+          "Now",
+          "November",
+          "Next",
+          "Later"
+        ],
+        "values": [
+          0.3,
+          0.5,
+          1.0,
+          3.0
+        ],
+        "max": 3.5,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "The final tranche depends on the state of Russia's refineries."
+      },
+      "why": "Sanctions are a finite currency: each waiver lowers the cost to Moscow of refusing a ceasefire, and signals to other sanctioned states that energy shortages buy relief. With midterms on November 3, the administration is betting voters weigh fuel prices above sanctions consistency.",
+      "analyst": "Track three things: whether the first 300,000 tons actually load, how European allies respond at their October 15-16 summit, and whether the Miami talks produce any Russian commitment the waiver could be tied to.",
+      "sources": [
+        "https://www.axios.com/2026/10/09/trump-putin-diesel-agreement-ukraine-war",
+        "https://www.pbs.org/newshour/world/trump-strikes-deal-with-putin-for-russian-diesel-in-sharp-reversal-of-u-s-policy-ahead-of-midterms",
+        "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html",
+        "https://fortune.com/2026/10/09/trump-putin-russian-diesel-deal-zelenskyy-sanctions/",
+        "https://www.gov.uk/government/news/uk-government-response-to-agreement-between-us-and-russia-9-october"
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  BURNHAM'S AGENDA",
+      "headline": "Burnham Courts Berlin and Takes Aim at Non-Compete Clauses",
+      "deck": "Britain's new prime minister made his first visit to Germany and promised to legislate against contracts that stop millions of workers moving jobs.",
+      "body": [
+        "Andy Burnham, who replaced Keir Starmer as prime minister on July 20, made his first official trip to Germany on Thursday for talks with Chancellor Friedrich Merz. Downing Street said the two countries would deepen cooperation on cyber security and on countering sabotage and other hybrid threats from Russia.",
+        "Burnham inherited a country beset by low wages and political infighting, and he has moved quickly to define himself. The economy gives him a little room: GDP grew 0.4% in the second quarter and 0.4% in July alone, though the August figure, due on October 15, is expected to be much weaker.",
+        "The visit carried a larger subtext. At his first Labour conference as leader, Burnham promised to put Britain on \"a new path\" of more equitable growth, with a publicly owned grid body among his policies, and said he would set out options for a closer relationship with the EU later this year, without ruling out eventually rejoining. Berlin is the capital whose support any such move would most need, and the visit came as he faces questions about what Britain's future relationship with the bloc should look like.",
+        "At home, the government announced it will legislate to curb non-compete clauses, which it estimates bind about 5 million employees in Great Britain, typically for around six months. Burnham said such clauses should no longer be a barrier to hiring by promising start-ups and scaling firms; long notice periods are also in scope. No bill has been published, and details may come in the Budget on October 28. A previous government planned a three-month cap in 2023 that never became law. A review under Starmer had considered options ranging from an outright ban to a cap on how long the clauses can last.",
+        "On Ukraine, Downing Street drew a polite line under Washington's diesel deal with Moscow, saying Britain would keep supporting Kyiv militarily and financially, maintain sanctions pressure on Russia, and monitor the deal's effect on energy prices and the cost of living. Under current English law, a non-compete is already unenforceable unless an employer can show it is reasonable, so the reform's real target may be the chilling effect of clauses that few workers dare to test."
+      ],
+      "illustration": {
+        "title": "LONDON TO BERLIN",
+        "subtitle": "Downing Street",
+        "motif": "podium",
+        "caption": "Burnham met Chancellor Friedrich Merz in Berlin on Thursday."
+      },
+      "why": "Burnham is trying to show voters both a European reset and a pro-worker economic agenda without spending much money. Both are cheaper in political capital than in cash, which matters for a government facing low wages and a tight Budget.",
+      "sources": [
+        "https://www.euronews.com/2026/10/08/uk-pm-burnham-to-discuss-sabotage-and-cybersecurity-with-merz-in-berlin",
+        "https://www.aljazeera.com/news/2026/9/29/new-path-uks-burnham-promises-huge-expansion-of-public-services",
+        "https://www.nbcnews.com/world/united-kingdom/andy-burnham-british-prime-minister-keir-starmer-labour-king-charles-rcna588324",
+        "https://www.cityam.com/burnham-to-clamp-down-on-unfair-non-compete-clauses/",
+        "https://www.personneltoday.com/hr/burnham-set-to-announce-non-compete-clause-crackdown/",
+        "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/july2026",
+        "https://www.gov.uk/government/news/uk-government-response-to-agreement-between-us-and-russia-9-october",
+        "https://www.punchline-gloucester.com/articles/aanews/burnham-announces-crackdown-on-non-compete-clauses-in-contracts"
+      ]
+    },
+    "europe": {
+      "kicker": "EUROPE  •  ENLARGEMENT",
+      "headline": "Brussels Proposes Fewer Vetoes and a Smaller Commission for an EU of 30-Plus",
+      "deck": "The Commission's reform plan would let the bloc take more decisions by majority. Diplomats doubt the capitals will agree.",
+      "body": [
+        "The European Commission this week laid out how it thinks the EU should change to absorb new members, with Ukraine, Moldova and several Western Balkan states in the queue. Its enlargement package, presented by Enlargement Commissioner Marta Kos, would expand qualified majority voting wherever existing treaties allow, so that a single government could no longer block decisions on matters such as sanctions, tax fraud and interim steps in accession talks. Final ratification of a new member would still require unanimity.",
+        "The Commission also suggested a smaller college: future members would not automatically get their own commissioner, and the same principle would apply to existing members. It proposed using the treaties' \"passerelle\" clauses, which let the Council switch from unanimity to majority voting, although activating them itself requires unanimity.",
+        "The size of the Commission has been argued over before. Under the Lisbon Treaty, the college was supposed to shrink to two-thirds of the number of member states, chosen by strictly equal rotation, but governments later agreed to keep one commissioner each. Giving that up is the most politically sensitive part of the plan, because for many small states their commissioner is their clearest seat at the table.",
+        "Future members would be asked to pledge not to use their veto to block later enlargements over bilateral disputes, and new members that breach rule-of-law commitments could face restricted voting rights and cuts in EU funding. EU diplomats told reporters that capitals were unlikely to agree. Roadmaps for four front-running candidates are due on October 28, and EU leaders meet on October 15-16.",
+        "Other business this week showed the bloc's priorities. The Commission named 46 new strategic projects to secure supplies of critical raw materials, part of its effort to reduce dependence on China for the minerals behind batteries and electronics. And a green group alleged that New Zealand had breached the binding environmental provisions of its trade deal with the EU, which would be the first real test of Brussels' climate clauses in trade agreements."
+      ],
+      "illustration": {
+        "title": "THE VETO QUESTION",
+        "subtitle": "Brussels, Belgium",
+        "motif": "ballot",
+        "caption": "Final ratification of new members would still need unanimity."
+      },
+      "why": "Every enlargement adds a potential veto. Hungary's repeated blocking of Ukraine aid showed how one capital can stall 26 others; adding members without changing the rules multiplies that risk.",
+      "analyst": "The catch is circular: changing unanimity rules mostly requires unanimity. Watch whether smaller states, which value their veto and their commissioner most, offer any opening at the October summit.",
+      "sources": [
+        "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc",
+        "https://europeanwesternbalkans.com/2026/10/07/european-commission-outlines-reforms-to-prepare-eu-for-new-members/",
+        "https://en.interfax.com.ua/news/general/1215315.html",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/09/forward-look-2026/",
+        "https://www.climatechangenews.com/",
+        "https://european-union.europa.eu/news-and-events_en"
+      ]
+    },
+    "china": {
+      "kicker": "CHINA  •  TRADE WITH EUROPE",
+      "headline": "Beijing Agrees to Halve Hybrid Exports to the EU",
+      "deck": "The EU's trade chief says Chinese hybrid shipments will fall by more than half over four years. Beijing confirms an understanding, without details.",
+      "body": [
+        "After two days of talks in Beijing, EU Trade Commissioner Maros Sefcovic said on Friday that China would cut exports of hybrid and plug-in hybrid cars to the EU by more than half over four years, or several million vehicles. He called it a crucial first step, but only a first step. China's commerce ministry confirmed an understanding but gave no details; it had previously said voluntary export restraints would breach WTO rules.",
+        "Hybrids became the loophole after the EU's 2024 tariffs of up to 35% on Chinese battery-electric cars. Eurostat data show EU imports of Chinese plug-in hybrids rose from about 57,000 in 2022 to about 218,000 in the first seven months of this year, and conventional hybrids from 659 to about 161,000. The Commission had been preparing safeguard measures, and Germany had joined France in backing tougher defences.",
+        "The two sides also said they would explore cooperation in artificial intelligence and new energy. Chinese brands took about 6% of Europe's car market last year, roughly double their share in 2024, and the hybrid surge was a large part of that growth. In plug-in hybrids specifically, Chinese brands' share of Europe's market jumped from 2.5% to 13.7% in a single year.",
+        "The talks sat on a record imbalance: in 2025 the EU imported €559.4 billion of goods from China and exported €199.6 billion, a deficit of €359.8 billion. China's own economy is slowing, with growth of 4.3% in the second quarter, and Golden Week spending per trip fell about 2% this month even as travel rose. Its central bank denied holding down the yuan to boost exports.",
+        "The holiday numbers captured the mood. China's culture and tourism ministry counted 826 million domestic trips and about 738 billion yuan of spending over the seven-day Golden Week; on a daily basis trips rose 6.3% and spending 4.3% from last year. Travel agencies' sales jumped 26%, and outbound crossings rose 9% to about 4.4 million. Beijing also restarted October fuel exports of about 3.7 million tonnes after a holiday pause, published its first draft labour rules for platform workers such as delivery riders, and charged a technology company with smuggling dual-use products abroad. The Peterson Institute expects growth to slow further next year as export strength fades and household demand stays weak."
+      ],
+      "illustration": {
+        "title": "EU-CHINA TRADE",
+        "subtitle": "Beijing talks",
+        "motif": "ship",
+        "caption": "The EU's goods deficit with China hit €359.8 billion in 2025."
+      },
+      "why": "Beijing chose restraint over a tariff fight it might have lost in Brussels. For Europe, the template matters more than hybrids: if volume deals work, they could be tried in other sectors where Chinese imports are surging.",
+      "sources": [
+        "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
+        "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
+        "https://asiatimes.com/2026/10/chinas-hybrid-ev-surge-widens-trade-rift-with-eu-over-quotas/",
+        "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260410-2",
+        "https://www.micetraveladvisor.com/news/article/chinas-golden-week-travel-surge-delivers-826-million-tourist-trips/",
+        "https://www.scmp.com/news/china/diplomacy/article/3369965/chinas-economy-slow-global-growth-stays-solid-us-think-tank-report-says",
+        "https://cepa.org/article/europe-embraces-chinese-evs/",
+        "https://money.usnews.com/investing/news/articles/2026-10-08/china-to-resume-october-fuel-exports-after-a-brief-halt-four-trade-sources-say"
+      ]
+    },
+    "middle_east": {
+      "kicker": "MIDDLE EAST  •  IRAN",
+      "headline": "No Ceasefire, No Talks, and a Strait Still Half-Closed",
+      "deck": "Six months into the US-Iran war, diplomacy has stalled and attacks on shipping continue. Both sides say the other must move first.",
+      "body": [
+        "There is no ceasefire in force between the United States and Iran. A 14-point memorandum that had paused much of the fighting expired without extension on August 17, and an open-source conflict tracker reports six consecutive days of US strikes reaching around Tehran and Semnan, alongside a continuing US naval blockade, though no ground fighting between the two countries' forces.",
+        "The arc of the past four months explains the frustration. A memorandum of understanding signed in June was supposed to reopen Hormuz, toll-free, for 60 days. In July the Revolutionary Guards insisted that ships use routes designated by Tehran and rejected a new corridor through Omani waters, attacks resumed, and on July 14 the US reinstated its naval blockade. By early October, Iranian International was reporting a third tanker hit near Hormuz in two days.",
+        "Shipping remains the battlefield. Fox News counts 11 ships struck in or near the Strait of Hormuz so far in October; around October 4 a tanker's engine room was hit by an unknown projectile, with the crew safe. Iran's parliament speaker, Mohammad Baqer Qalibaf, has said the attacks will not stop until seven Iranian conditions are met.",
+        "Diplomacy is stuck. Iran's President Masoud Pezeshkian has ruled out talks with the US, while Foreign Minister Abbas Araghchi says Tehran expects a formal US reply to its latest proposal for a ceasefire and a phased reopening of Hormuz. Trump rejected an earlier seven-day plan on September 26 as unacceptable. Reports differ on his intentions: CBS reported a pledge of no new strikes before the November 3 midterms, while Trump told a rally on Friday that he was \"about to settle, or win\" the war.",
+        "Trump's rally rhetoric left little room for compromise: he said Iran must either give the United States everything or cease to exist. Meanwhile the economic damage mounts. Crude exports through Hormuz were about 8.5 million barrels a day in the week to October 7, according to Kpler, roughly 40% below normal, and Gulf tanker freight rates have hit records."
+      ],
+      "illustration": {
+        "title": "THE HORMUZ STANDOFF",
+        "subtitle": "Strait of Hormuz",
+        "motif": "strait",
+        "caption": "Crude exports through Hormuz are about 40% below pre-war levels."
+      },
+      "why": "Neither side can easily climb down before the US midterms. Iran gains leverage the longer Hormuz stays constricted; Washington gains leverage the longer its blockade bites. That is a recipe for a long, low-intensity war at sea.",
+      "analyst": "The Yemen front is the new variable. If Washington joins Saudi strikes on the Houthis, Iran may see its proxies' war and its own as one, and the Red Sea route could close too.",
+      "sources": [
+        "https://iranwarlive.com/",
+        "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+        "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/",
+        "https://www.foxnews.com/live-news/us-iran-war-hormuz-strait-peace-talks-donald-trump-october-4",
+        "https://www.iranintl.com/en/liveblog/202610033293",
+        "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-putin-oil-energy-prices-10-10-26",
+        "https://www.aljazeera.com/news/2026/7/9/strait-of-hormuz-what-has-happened-since-the-us-iran-mou-on-june-17",
+        "https://tradingeconomics.com/commodity/brent-crude-oil"
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  INTERNATIONAL LAW",
+      "headline": "A Nobel for International Justice, and Sanctions on Its Court the Same Day",
+      "deck": "Navi Pillay, a former ICC judge, won the Peace Prize. Hours later the US designated the International Criminal Court itself.",
+      "body": [
+        "The Norwegian Nobel Committee on Friday gave the Peace Prize to Navi Pillay, 85, a South African who fought apartheid as a lawyer, helped convict perpetrators of the Rwandan genocide as a UN tribunal judge, sat on the International Criminal Court from 2003 to 2008 and served as UN High Commissioner for Human Rights. Last year a UN commission she led concluded that Israel had committed genocide in Gaza, which Israel rejects; Prime Minister Netanyahu said the committee had \"lost its moral compass\". President Trump said the US \"should have received\" the prize.",
+        "Pillay met the news with humour. She said she first thought it \"must be a joke\", quipped that she might share the prize with Trump if the audience clapped a little more, and dedicated it to all the survivors of international crimes. Trump, at his rally, called her \"a liberal person who works at the United Nations, who nobody has ever heard of\".",
+        "Hours later, Secretary of State Marco Rubio announced that the US was sanctioning the ICC as an institution, after earlier penalties on individual judges and prosecutors under a February 2025 executive order. The move bans transactions with the court and could expose companies that serve it. Washington cites the court's Afghanistan investigation, which could reach US personnel, and its warrants for Israel's prime minister and former defence minister.",
+        "The court called it an assault on the rule of law and urged its 125 member states to act. UN Secretary-General Antonio Guterres called it a serious blow, and Japan, a close US ally, said it was deeply concerned. Human Rights Watch is already suing in US federal court to overturn the earlier sanctions.",
+        "The court was created by the Rome Statute of 1998 and began work in 2002 as the first permanent tribunal for genocide, war crimes and crimes against humanity. Its reach has always depended on cooperation: it has no police force, and the United States, Russia, China and India have never joined. Human Rights Watch's lawsuit, filed on August 11, argues that the earlier sanctions violate Americans' constitutional rights; the new designation is likely to draw further legal challenges."
+      ],
+      "illustration": {
+        "title": "THE HAGUE",
+        "subtitle": "Netherlands",
+        "motif": "court",
+        "caption": "The ICC has 125 member states. The US, Russia, China and India are not among them."
+      },
+      "why": "The ICC depends on states to arrest suspects and on banks and contractors to function. Sanctioning the institution tests whether its members will shield it, and whether a court can operate when the world's largest economy treats it as an adversary.",
+      "sources": [
+        "https://time.com/article/2026/10/09/navanethem-navi-pillay-wins-the-2026-nobel-peace-prize/",
+        "https://www.axios.com/2026/10/10/trump-nobel-peace-prize-reaction",
+        "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court",
+        "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation",
+        "https://news.un.org/en/story/2026/10/1168562",
+        "https://www.hrw.org/news/2026/10/09/us-sanctions-international-criminal-court",
+        "https://www.bloomberg.com/news/articles/2026-10-10/takaichi-says-japan-deeply-concerned-by-us-sanctions-on-icc",
+        "https://www.jpost.com/international/article-911201",
+        "https://www.cnn.com/2026/10/09/world/navi-pillay-nobel-peace-prize-2026-message-impact-intl"
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  INTEREST RATES",
+      "headline": "From Mumbai to Sydney to Tokyo, the Price of Money Is Rising",
+      "deck": "Energy-driven inflation is pushing central banks to tighten and long-term borrowing costs to records, while America's labour market cools.",
+      "body": [
+        "On October 7 the Reserve Bank of India raised its repo rate to 5.50%, its first increase since February 2023, and lifted its inflation forecast to 5.2%. A week earlier, on September 29, the Reserve Bank of Australia raised its cash rate to 4.60%, its fourth increase this year and the highest since 2011, after inflation jumped to 4.0% in August; it cited higher global energy prices among the pressures. The RBI described its new stance as \"calibrated tightening\".",
+        "Long-term rates are rising faster still. Japan's 30-year government bond yield hit a record 4.235% on October 5, a level it first crossed 4% only in May, and the Bank of Japan has pointed to heavy bond issuance by AI companies as one force pushing long rates up. In the US, the 10-year Treasury yield ended the week near 5.24%.",
+        "The bond market is sending its own message. Japan's 10-year yield reached 3.055% in late September, its highest since August 1996, and the gap between short- and long-term yields has widened as investors demand more compensation for lending over decades. Brent crude, the trigger for much of this, closed near $104.50 a barrel, about two-thirds higher than a year ago.",
+        "Diesel is the sharpest pain point. G7 governments released emergency diesel reserves earlier this month as prices soared, and Washington's deal for Russian diesel shows how far governments will now go to ease the shortage.",
+        "America's job market offers no cover. Payrolls grew by only 29,000 in September, far below forecasts of about 84,000, revisions removed another 60,000 jobs from July and August, and unemployment edged up to 4.2%. Economists describe a low-hire, low-fire market; policymakers, by most accounts, still see inflation as the bigger threat.",
+        "There are signs of resilience too. Labour force participation rose to 61.8% in September, its highest since May, and the broad U-6 measure of unemployment fell to 7.6%, its lowest since January 2025. In Australia, the central bank said it would do what is necessary to bring inflation back to its 2-3% target; in India, the RBI still projects growth of 7.1%."
+      ],
+      "illustration": {
+        "title": "THE COST OF MONEY",
+        "subtitle": "Global markets",
+        "motif": "skyline",
+        "caption": "Brent crude closed near $104.50 on Friday."
+      },
+      "why": "Higher rates feed through to mortgages, car loans and business investment. Households facing expensive fuel are now facing more expensive credit too, which is how an energy shock turns into a broad slowdown.",
+      "analyst": "The open question is whether central banks are fighting a temporary oil shock or a lasting rise in inflation. Watch wage growth: if pay starts chasing prices, the hikes will continue.",
+      "sources": [
+        "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+        "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/",
+        "https://www.publicdebtnet.org/pdm/.content/News/2026/10/05/News-00007.html",
+        "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/",
+        "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+        "https://www.cnbc.com/2026/09/24/japan-jgb-bond-yield-treasurys.html",
+        "https://tradingeconomics.com/commodity/brent-crude-oil",
+        "https://www.bls.gov/opub/ted/2026/unemployment-rate-little-changed-at-4-2-percent-in-september-2026.htm"
+      ]
+    },
+    "business_and_markets": {
+      "kicker": "BUSINESS & MARKETS  •  TELECOMS",
+      "headline": "SpaceX Buys $8 Billion of Airwaves to Turn Starlink Into a Phone Carrier",
+      "deck": "The deal for low-band spectrum knocked tens of billions of dollars off America's big three wireless carriers.",
+      "body": [
+        "SpaceX has agreed to buy a nationwide portfolio of low-band spectrum from Grain Management, up to 14 MHz of paired airwaves in the 800 MHz band, for about $8 billion, according to The Wall Street Journal; the company itself did not disclose the price. The licences are intended for Starlink Mobile, the company's push to offer phone service directly, and low-band frequencies can pass through walls to reach devices indoors, the weakness of satellite-to-phone service so far. The deal needs approval from the Federal Communications Commission.",
+        "Investors read it as a threat to incumbents. Shares of AT&amp;T, Verizon and T-Mobile fell, losing about $36 billion in combined market value by one estimate, while shares of tower companies rose. Grain itself acquired the airwaves only in August, as part of a $2.9 billion swap. That quick resale suggests how much more the spectrum is worth to a company building a new network than to a financial owner.",
+        "The strategic logic is vertical integration. SpaceX already launches its own rockets and operates thousands of Starlink satellites; owning terrestrial-grade spectrum lets it offer a standalone mobile service rather than renting capacity through partnerships with existing carriers. Regulators will have to decide whether one company controlling launch, satellites and airwaves raises competition concerns. Until now, Starlink's direct-to-phone service has worked through partnerships with existing carriers, most prominently T-Mobile; owning spectrum turns a partner into a potential rival, which helps explain why carrier shares fell.",
+        "The deal landed in a buoyant week for US stocks. The S&amp;P 500 rose 0.6% on Friday to 7,811.54, within a whisker of the record it set three days earlier, and the Dow gained 0.8% to 51,654.95, capping a record-setting week despite a war, $100 oil and a 10-year Treasury yield above 5%. In Europe, carmaker shares rose on the China hybrid deal.",
+        "Elsewhere, trade policy moved markets. European carmakers' shares rose after China agreed to cut hybrid exports to the EU. In Japan, record long-term bond yields raised borrowing costs for companies, with the Bank of Japan pointing to heavy bond issuance by AI firms as one cause. And in China, travel agency sales rose 26% over Golden Week, a rare bright spot for consumer spending."
+      ],
+      "illustration": {
+        "title": "STARLINK GOES MOBILE",
+        "subtitle": "800 MHz band",
+        "motif": "rocket",
+        "caption": "The deal needs approval from the Federal Communications Commission."
+      },
+      "why": "Spectrum is the scarcest input in wireless. A rocket company that controls its own satellites and low-band licences can bypass the towers and contracts that have protected the big carriers for decades.",
+      "sources": [
+        "https://www.axios.com/2026/10/09/spacex-8-billion-spectrum",
+        "https://www.datacenterdynamics.com/en/news/spacex-to-acquire-grains-800mhz-spectrum-assets-to-further-advance-carrier-ambitions/",
+        "https://satnews.com/2026/10/09/spacex-acquires-grain-managements-800-mhz-spectrum-portfolio-to-launch-standalone-starlink-mobile-carrier/",
+        "https://www.kucoin.com/news/flash/spacex-acquires-800mhz-spectrum-impacts-major-us-carriers-and-boosts-tower-stocks",
+        "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/",
+        "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/",
+        "https://www.micetraveladvisor.com/news/article/chinas-golden-week-travel-surge-delivers-826-million-tourist-trips/"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Hurricane Isaias, the Atlantic's first of the season, hit Florida's Panhandle as a Category 2; at least four people died and more than 858,000 customers lost power.",
+        "Panama: a magnitude 7.7 earthquake injured 27 people and damaged more than 400 homes; the government declared a state of emergency.",
+        "India: police shut 57 Delhi metro stations to stop a youth protest over the removal of more than 130 million names from voter rolls.",
+        "Nobel Prizes: optogenetics won medicine, the IceCube neutrino detector won physics, mirror-image chemistry won chemistry, and Canadian poet Anne Carson won literature.",
+        "Japan: a US Marine was arrested on suspicion of murdering a woman in Okinawa; Prime Minister Takaichi lodged a strong protest and the US imposed a curfew."
+      ]
+    },
+    "did_you_know": {
+      "text": "Low-band radio waves, like the 800 MHz frequencies SpaceX is buying, travel farther and pass through walls better than high-band ones because their longer wavelengths are less easily absorbed by buildings and foliage. That is why carriers prize them for rural coverage and indoor calls, even though they carry less data."
+    },
+    "explainer": {
+      "title": "What it means to sanction an institution",
+      "body": [
+        "US sanctions usually target people or companies: the Treasury adds them to a list, their US assets are frozen, and Americans may not do business with them. Because so much of the world's finance runs through US dollars and US banks, foreign firms usually comply too, to protect their own access.",
+        "Most sanctions are \"primary\": they bind Americans and anything that touches the US financial system. Some are \"secondary\": they threaten foreigners who deal with the target with losing access to the US market. Even without formal secondary sanctions, foreign banks tend to steer clear of designated entities, a phenomenon known as over-compliance.",
+        "Designating an entire international institution goes further. Banks that process the court's payroll, firms that host its data or supply its software, and insurers that cover its staff must now weigh the risk of US penalties against their contracts with the court.",
+        "The legal basis is usually an executive order under the International Emergency Economic Powers Act, which lets the president block transactions in response to an \"unusual and extraordinary threat\". The Treasury's Office of Foreign Assets Control then lists the targets and enforces the rules. Penalties for violations can run to millions of dollars per breach, and individuals can face prison.",
+        "Europe has a tool designed for this: the EU's blocking statute forbids European companies from complying with certain foreign sanctions and lets them sue for damages. It has rarely been tested at scale, because firms often fear losing US business more than EU fines.",
+        "There is a precedent for pressure on international bodies, but not on this scale. Previous US administrations have cut funding to UN agencies or withdrawn from them; designating a court as a sanctioned entity puts it in the same legal category as targets such as terrorist groups and hostile governments, which is why the court and the UN described it in such stark terms."
+      ]
+    },
+    "analysis": {
+      "title": "Energy is now steering foreign policy",
+      "body": [
+        "Read this week's stories side by side and a pattern appears: fuel prices are driving decisions that used to be made on strategic grounds. Washington waived sanctions on Russian diesel weeks after tightening them. Saudi Arabia's war in Yemen is, in large part, a fight over the export route it needs while Hormuz is constricted. Central banks from India to Australia are raising rates because energy is pushing inflation up.",
+        "The argument for this approach is straightforward. Voters feel pump prices directly, shortages of diesel ripple through food and freight, and governments facing elections, including the US midterms on November 3, cannot ignore them. Supporters of the diesel deal argue that easing a shortage protects households across the West.",
+        "There is also a security case. Saudi Arabia's offensive in Yemen aims to retake the coast the Houthis seized beside the Bab el-Mandeb; if it succeeds, the Red Sea export route becomes safer, easing pressure on prices worldwide. Seen that way, energy and security goals point in the same direction, and the question is only how much risk Washington accepts by joining in.",
+        "The pattern is not only American. India and Australia have raised rates partly because of imported energy costs; China resumed fuel exports after a holiday pause partly to ease regional shortages; Europe is negotiating with Beijing over cars while trying to keep its own carmakers afloat. Every government is managing the same shock from a different angle.",
+        "The argument against is that leverage spent cannot be reclaimed. Ukraine's president warned that easing sanctions without a Russian commitment to de-escalate will only prolong the war. Analysts doubt the Russian volumes will even arrive. And each concession tells other adversaries that creating scarcity can buy relief.",
+        "Meanwhile the institutions meant to set rules are under strain: the ICC is sanctioned by its most powerful critic, the EU is debating whether it can even take decisions by majority, and the UN's Yemen envoy is warning of full-scale war. The common thread is that power is being exercised through supply chains and sanctions lists more than through treaties.",
+        "Two dates will test the pattern. On October 15-16 Europe's leaders meet with the diesel deal, China trade and Ukraine on their agenda. On November 3 American voters deliver their verdict on an administration that has made fuel prices a central promise. If oil falls before then, the bet will look shrewd; if the Red Sea closes too, every government in this issue will be revising its plans."
+      ],
+      "sources": [
+        "https://fortune.com/2026/10/09/trump-putin-russian-diesel-deal-zelenskyy-sanctions/",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://www.rba.gov.au/media-releases/2026/mr-26-27.html",
+        "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court"
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "October 15-16: EU leaders meet in Brussels on Ukraine, defence, the Middle East and enlargement.",
+        "October 28: Britain's Budget, with possible details of the non-compete crackdown.",
+        "November 3: US midterm elections, the backdrop to every decision on Iran, Russia and fuel prices."
+      ]
+    },
+    "quote": {
+      "text": "Iran will be very quick one way or the other.",
+      "by": "President Trump, at a rally in Syracuse, New York"
+    },
+    "sign_off": {
+      "text": "Thanks for reading. See you next week."
+    }
+  },
+  "sources": []
+}

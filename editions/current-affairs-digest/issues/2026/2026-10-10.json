@@ -1,0 +1,258 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  WEST ASIA",
+      "headline": "Attack on Riyadh Airport Kills 12 as Yemen's War Spills Into Saudi Arabia",
+      "deck": "The Iran-backed Houthis are hitting back at a Saudi-backed offensive. The fighting sits beside the Bab el-Mandeb, a chokepoint on India's trade route to Europe.",
+      "body": [
+        "On Saturday an attack on King Khalid International Airport in Riyadh, the Saudi capital, killed at least 12 people and injured 309, according to the Saudi aviation authority. The victims included travellers from Bangladesh, Egypt, Jordan and the United States. Two days earlier, on Thursday, a missile strike on the same airport killed three Saudis, one of them a pilot.",
+        "The likely attackers are the Houthis, an armed movement backed by Iran that has controlled northern Yemen, including the capital Sanaa, since 2014. They claimed Thursday's strike and warned airlines to stay out of Saudi airspace. Yemen is Saudi Arabia's southern neighbour.",
+        "Their attacks answer an offensive launched on October 4 by Yemen's internationally recognised, Saudi-backed government to retake Houthi territory, supported by Saudi-led air strikes on Sanaa. The UN Special Envoy for Yemen warned on Friday that the country has slid back into full-scale war.",
+        "The conflict is now linked to the wider war between the United States and Iran, which has disrupted the Strait of Hormuz. Asked whether the US would join the Saudis against the Houthis, President Donald Trump said: \"We may. We're going to look at it.\"",
+        "Key facts for revision: Houthis (Ansar Allah) control northern Yemen since 2014; offensive began October 4; Bab el-Mandeb links the Red Sea and the Gulf of Aden; the Strait of Hormuz links the Persian Gulf and the Gulf of Oman."
+      ],
+      "map": {
+        "title": "BAB EL-MANDEB STRAIT",
+        "label_top": "YEMEN (ARABIAN PENINSULA)",
+        "label_bottom": "DJIBOUTI AND ERITREA (AFRICA)",
+        "footnote": "About 30 km of water at its narrowest point",
+        "caption": "It joins the Red Sea to the Gulf of Aden and the Arabian Sea."
+      },
+      "why": "Two of India's lifelines run through this region. Ships carrying Indian goods to Europe use the Red Sea and Suez Canal route, which must pass the Bab el-Mandeb. And India imports most of its crude oil, much of it from the Gulf. With Hormuz flows about 40% below pre-war levels, Saudi Arabia has been sending oil out via the Red Sea, so any threat to this strait raises fuel and shipping costs for India.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
+        "https://tradingeconomics.com/commodity/brent-crude-oil"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  NOBEL PEACE PRIZE 2026",
+      "headline": "Navi Pillay, a South African of Indian Origin, Wins the Nobel Peace Prize",
+      "deck": "The former UN human rights chief and ICC judge was honoured as the US imposed sanctions on the International Criminal Court itself.",
+      "body": [
+        "The Norwegian Nobel Committee on Friday awarded the 2026 Nobel Peace Prize to Navanethem \"Navi\" Pillay, 85. She was born in Durban, South Africa, in 1941, the daughter of a bus driver, into the country's community of Indian descent, and is of Tamil heritage.",
+        "Her career spans the fight against apartheid, South Africa's system of racial segregation, as a lawyer; service as a judge, and later president, of the UN's International Criminal Tribunal for Rwanda, which convicted people for the 1994 genocide; a term as a judge of the International Criminal Court (ICC) from 2003 to 2008; and six years as UN High Commissioner for Human Rights, from 2008 to 2014.",
+        "The award is contested. A UN commission of inquiry she chaired concluded last year that Israel had committed genocide in Gaza, which Israel rejects; Prime Minister Netanyahu said the committee had \"lost its moral compass\". US President Donald Trump said the United States should have received the prize.",
+        "Hours after the announcement, the US imposed sanctions on the ICC as an institution, not only on its officials, banning transactions with it. The court called it an assault on the rule of law, and UN Secretary-General Antonio Guterres called it a serious blow. Pillay dedicated her prize to all the survivors of international crimes. The prize, worth about one million euros, will be presented in Oslo on December 10.",
+        "Key facts for revision: Pillay was born in Durban (KwaZulu-Natal) in 1941; ICTR judge 1995-2003; ICC judge 2003-2008; UN High Commissioner for Human Rights 2008-2014. The Nobel Peace Prize is awarded by a committee appointed by Norway's parliament."
+      ],
+      "illustration": {
+        "title": "NOBEL PEACE PRIZE 2026",
+        "subtitle": "Oslo, Norway",
+        "motif": "court",
+        "caption": "The Peace Prize is the only Nobel presented in Oslo; the rest are given in Stockholm."
+      },
+      "connect": "Pillay's story begins with a voyage from India. From 1860, British colonial rulers took Indian indentured labourers to Natal, the province around Durban, to work on sugar plantations, and a large Indian community grew there. In 1893 Mohandas Karamchand Gandhi arrived in Natal, was thrown off a train at Pietermaritzburg for refusing to leave a whites-only carriage, and developed satyagraha, non-violent resistance to unjust laws, during two decades in South Africa. Pillay grew up about 80 km from that station.",
+      "sources": [
+        "https://time.com/article/2026/10/09/navanethem-navi-pillay-wins-the-2026-nobel-peace-prize/",
+        "https://www.cnn.com/2026/10/09/world/navi-pillay-nobel-peace-prize-2026-message-impact-intl",
+        "https://www.arabnews.com/world/israels-scorn-of-nobel-peace-prize-laureate-highlights-its-combative-relationship-with-un-bodies-3005561",
+        "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court",
+        "https://news.un.org/en/story/2026/10/1168562"
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  IT SECTOR AND US IMMIGRATION",
+      "headline": "US Suspends Infosys, TCS, Wipro and HCL From Its Green-Card Programme",
+      "deck": "The US Labor Department will not accept or process PERM applications from eight companies while it investigates alleged misuse.",
+      "body": [
+        "Most employer-sponsored green cards, which give foreign workers permanent residence in the United States, begin with PERM labour certification: the US Department of Labor's confirmation that no qualified American worker was available for the job.",
+        "On Thursday, US Labor Secretary Keith Sonderling suspended eight companies from the programme: Cognizant, Infosys, Tata Consultancy Services (TCS), Wipro, HCL Technologies, Capgemini, Microsoft and Adobe. The department said it will neither accept new nor process pending PERM applications involving them.",
+        "Officials cited ongoing federal investigations into alleged misuse of immigration programmes and practices that could disadvantage American workers. The allegations are unproven. The suspension does not cancel existing H-1B visas, the temporary work visas many Indian IT professionals hold, and it does not cancel green cards already approved.",
+        "The two programmes work together. The H-1B is a temporary visa for specialised workers, capped at 85,000 new visas a year for private employers, and Indian nationals receive the large majority of them. Many H-1B holders then apply for a green card through PERM, a process that can take years for Indians because of per-country limits on green cards.",
+        "Sonderling said the eight companies had received more than 230,000 H-1B approvals and over 100,000 permanent labour certifications. Infosys said it expects no material impact on its business.",
+        "Announcing the move, Sonderling said: \"You've got to hire American workers.\" The list includes four of India's largest IT services firms (Infosys, TCS, Wipro and HCL) alongside four American and European companies (Cognizant, Capgemini, Microsoft and Adobe).",
+        "Key facts for revision: PERM = Program Electronic Review Management, run by the US Department of Labor; H-1B = temporary specialty-occupation visa; green card = US permanent residence; suspension announced October 8 (US time); eight firms named."
+      ],
+      "illustration": {
+        "title": "A FREEZE ON GREEN CARDS",
+        "subtitle": "Washington, USA",
+        "motif": "capitol",
+        "caption": "Existing H-1B visas and approved green cards are not cancelled."
+      },
+      "why": "India's IT services industry earns much of its revenue in the US and relies on moving skilled staff there. A pause in the green-card pipeline makes the US less attractive to workers already waiting, and signals tighter US scrutiny of the outsourcing model, an issue that touches India-US trade and diplomatic talks. Infosys, TCS, Wipro and HCL are among India's largest private employers and its biggest earners of export revenue from services, so any lasting restriction would be felt well beyond the four companies.",
+      "sources": [
+        "https://www.deccanherald.com/world/us/youve-got-to-hire-american-workers-us-suspends-infosys-tcs-wipro-hcl-and-other-it-firms-from-green-card-programme-4175485",
+        "https://www.businessworld.in/article/us-suspends-infosys-tcs-wipro-from-green-card-programme-627671",
+        "https://zeenews.india.com/world/us-green-card-freeze-infosys-tcs-wipro-microsoft-perm-2026-3075207.html",
+        "https://organiser.org/2026/10/09/385467/world/trump-administration-targets-indian-it-giants-infosys-tcs-wipro-hcl-hit-by-us-green-card-crackdown/"
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  ELECTION COMMISSION",
+      "headline": "Delhi Shuts 57 Metro Stations Ahead of a Youth Protest Over Voter Lists",
+      "deck": "More than 130 million names have been removed from electoral rolls. Opposition parties question the Election Commission's neutrality; the Commission and the BJP deny wrongdoing.",
+      "body": [
+        "India has about a billion registered voters, and for more than a year the Election Commission of India (ECI) has been revising the electoral rolls. More than 130 million names have been removed in the process. The scale matters: in the 2024 general election, about 640 million people voted, the largest electoral exercise in the world.",
+        "Opposition parties allege that many genuine voters were deleted to benefit the ruling BJP. The ECI and the BJP deny any wrongdoing. Pressure on the Chief Election Commissioner, Gyanesh Kumar, grew after a newspaper reported that his fellow Election Commissioners had disagreed with him over the process. Protests demanding his resignation spread in early October.",
+        "On Saturday a youth group that began as online satire, the Cockroach Janta Party, called a rally in New Delhi. The police refused permission, shut 57 metro stations, suspended mobile internet in nearby areas and detained thousands of people.",
+        "The protest itself raises a second constitutional question. Article 19(1)(b) guarantees citizens the right to assemble peaceably and without arms, but Article 19(3) lets the state impose reasonable restrictions in the interests of public order. Whether shutting a city's metro and its mobile internet is \"reasonable\" is the kind of question courts are asked to decide.",
+        "How the referee is chosen: the ECI has a Chief Election Commissioner and two Election Commissioners. Under a 2023 law, they are appointed by the President on the recommendation of a committee of the Prime Minister, a Union Cabinet Minister and the Leader of the Opposition in the Lok Sabha. Critics argue that a committee with a government majority weakens the Commission's independence; the government says the law brings transparency to appointments.",
+        "Key facts for revision: ECI set up 25 January 1950; Article 324 (superintendence of elections), Article 325 (no exclusion from rolls on grounds of religion, race, caste or sex), Article 326 (adult suffrage at 18); voting age lowered from 21 to 18 by the 61st Amendment, 1988."
+      ],
+      "illustration": {
+        "title": "WHO KEEPS THE ROLLS",
+        "subtitle": "New Delhi, India",
+        "motif": "ballot",
+        "caption": "Article 324 gives the ECI control of electoral rolls and elections."
+      },
+      "why": "The Constitution makes the ECI independent precisely so that voters can trust the rolls. Article 324 vests in it the superintendence, direction and control of the preparation of electoral rolls and the conduct of elections; Article 326 guarantees adult suffrage to every citizen aged 18 or more. A Chief Election Commissioner can be removed only in the same way as a Supreme Court judge. When the referee's neutrality is questioned, the legitimacy of the result is at stake, whichever party wins.",
+      "sources": [
+        "https://www.arabnews.pk/world/delhi-sealed-off-ahead-of-youth-protest-against-indian-election-chief-3003734",
+        "https://thefinancialexpress.com.bd/world/pressure-mounts-on-india-poll-chief-gyanesh-kumar-over-voter-list-changes",
+        "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day"
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  MONETARY POLICY",
+      "headline": "RBI's First Rate Hike Since 2023 Lifts the Repo Rate to 5.50%",
+      "deck": "The Monetary Policy Committee raised rates by 25 basis points and shifted to 'calibrated tightening' as inflation risks rise.",
+      "body": [
+        "The Reserve Bank of India's Monetary Policy Committee (MPC), chaired by Governor Sanjay Malhotra, raised the policy repo rate by 25 basis points, from 5.25% to 5.50%, in its October review. It was the RBI's first rate increase since February 2023, and the decision was unanimous.",
+        "The other rates in the policy corridor moved with it: the Standing Deposit Facility (SDF) rate rose to 5.25%, and the Marginal Standing Facility (MSF) rate and the Bank Rate to 5.75%. The MPC changed its stance to \"calibrated tightening\".",
+        "The RBI raised its inflation forecast for 2026-27 to 5.2% from 5.0%, while projecting real GDP growth of 7.1%. Global oil prices are a key pressure: Brent crude closed near $104.50 a barrel on Friday, about two-thirds higher than a year ago, because of the war involving Iran. After the decision, the rupee slipped to a five-month low of 96.78 to the US dollar.",
+        "India is not alone in facing higher borrowing costs. The yield on 10-year US government bonds, a benchmark for loans worldwide, ended Friday around 5.24%, and Japan's 30-year bond yield hit a record 4.235% this month, as investors demand more interest to lend in a world of higher inflation and heavy government borrowing.",
+        "How the MPC works: it has six members, three from the RBI including the Governor, who has a casting vote, and three external experts appointed by the government. Under the RBI Act, amended in 2016, the government sets an inflation target of 4%, with a band of 2% to 6%, measured by the Consumer Price Index.",
+        "Key terms for revision: one basis point is one-hundredth of a percentage point, so 25 basis points is 0.25 percentage points. The repo rate is the rate at which banks borrow from the RBI against government securities; the SDF rate is what the RBI pays banks to park surplus money; the MSF is an emergency window at a higher rate."
+      ],
+      "chart": {
+        "title": "THE RBI'S POLICY CORRIDOR",
+        "subtitle": "Interest rates, per cent, after the October review",
+        "labels": [
+          "Old repo",
+          "New repo",
+          "SDF",
+          "MSF"
+        ],
+        "values": [
+          5.25,
+          5.5,
+          5.25,
+          5.75
+        ],
+        "max": 6,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "The SDF is the floor of the corridor and the MSF its ceiling; the repo rate sits between."
+      },
+      "why": "A higher repo rate raises banks' cost of funds, which feeds into loan rates for homes, vehicles and businesses. That cools demand and limits second-round effects of expensive oil on other prices. The cost is somewhat slower growth, which is why the RBI moved by only 25 basis points.",
+      "analyst": "The RBI's target is 4% CPI inflation, with a tolerance band of 2% to 6%. Its forecast of 5.2% is inside the band. Why might it raise rates anyway? Consider what a weaker rupee does to the price of imported oil, and how long rate changes take to work.",
+      "sources": [
+        "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+        "https://shoonya.com/blog/rbi-repo-rate-oct-2026/",
+        "https://www.corplawupdates.in/rbi/repo-rate",
+        "https://www.newsbytesapp.com/news/business/indian-rupee-slips-to-96-78-as-rbi-turns-more-hawkish/story",
+        "https://tradingeconomics.com/commodity/brent-crude-oil",
+        "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/",
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45R02E:0-japan-s-30-year-bond-yields-hit-record-high-ahead-of-pm-s-remarks/"
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  NOBEL PRIZES 2026",
+      "headline": "This Year's Science Nobels: Light Switches for the Brain, Mirror Molecules and Ghost Particles",
+      "deck": "One prize honoured a detector buried in Antarctic ice; another, a way to switch brain cells on with light. Here is what each prize was for.",
+      "body": [
+        "<b>Medicine (October 5).</b> Karl Deisseroth of Stanford University (US), Peter Hegemann of Humboldt University of Berlin and Georg Nagel of the University of Würzburg (both Germany) won for discoveries concerning light-gated ion channels and optogenetics. Hegemann and Nagel identified channelrhodopsin, a light-sensitive protein in a single-celled alga; Deisseroth turned it into a tool that switches individual nerve cells on or off with light, revealing how the brain shapes memory, feelings and behaviour.",
+        "Optogenetics is now used in laboratories worldwide to study conditions such as Parkinson's disease, depression and addiction in animals, and researchers are testing whether similar light-sensitive proteins could restore some sight to people with certain kinds of blindness.",
+        "<b>Physics (October 6).</b> Francis Halzen won for IceCube, a detector made of thousands of light sensors buried deep in the ice at the South Pole. It catches neutrinos, nearly massless particles that pass through almost everything, and has traced high-energy neutrinos to sources beyond our galaxy, opening a new way to observe the universe.",
+        "<b>Chemistry (October 7).</b> Henri Kagan (Université Paris-Saclay, France) and Kenso Soai (Tokyo University of Science, Japan) won \"for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis\": ways to favour one mirror-image form, or hand, of a molecule. The work matters for safe medicines, as the thalidomide tragedy showed, and for explaining why life uses molecules of only one hand.",
+        "<b>Literature (October 8).</b> Canadian poet and classics scholar Anne Carson, 76, won for work that plays with the classical tradition and creates new forms for contemporary literature. Born in Toronto, she has also held Icelandic citizenship since 2022; her best-known books include Autobiography of Red and Eros the Bittersweet. Each prize is worth 12 million Swedish kronor.",
+        "Key facts for revision: Medicine was announced by the Nobel Assembly at the Karolinska Institute; Physics and Chemistry by the Royal Swedish Academy of Sciences; Literature by the Swedish Academy; Peace by the Norwegian Nobel Committee. The prizes were first awarded in 1901 under the will of Alfred Nobel, the inventor of dynamite."
+      ],
+      "illustration": {
+        "title": "NOBEL PRIZES 2026",
+        "subtitle": "Stockholm, Sweden",
+        "motif": "podium",
+        "caption": "Each prize is presented on December 10, the anniversary of Alfred Nobel's death."
+      },
+      "why": "Two of the three science prizes reward new tools rather than single discoveries: a way to control brain cells with light, and a telescope that looks for particles instead of light. Tools like these open whole fields, which is why they often win Nobels.",
+      "sources": [
+        "https://nobelprize.org/prizes/medicine/2026/press-release",
+        "https://www.aljazeera.com/news/2026/10/5/nobel-medicine-prize-honours-us-and-german-scientists-for-optogenetics-work",
+        "https://physicsworld.com/?p=130829",
+        "https://www.wunc.org/2026-10-06/francis-halzen-wins-nobel-prize-in-physics-for-work-on-high-energy-neutrinos-from-space",
+        "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+        "https://www.aljazeera.com/news/2026/10/8/canadian-anne-carson-wins-2026-nobel-prize-in-literature",
+        "https://www.npr.org/2026/10/08/nx-s1-5984350/nobel-prize-in-literature-anne-carson"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "US-Russia: President Trump said Russia will supply diesel to the US, and the US Treasury waived sanctions on Russian diesel until April 2027. Ukraine condemned the deal.",
+        "EU-China: China agreed to cut hybrid car exports to the European Union by more than half over four years, EU Trade Commissioner Maros Sefcovic said.",
+        "Panama: a magnitude 7.7 earthquake struck Herrera province; 27 people were injured and the government declared a state of emergency.",
+        "Cricket: West Indies chased 250 to beat India by six wickets in the second T20I at Ranchi, levelling the five-match series 1-1."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Repo rate",
+          "def": "The rate at which the RBI lends short-term funds to banks. Today: raised to 5.50%."
+        },
+        {
+          "word": "Labour certification",
+          "def": "US approval that hiring a foreign worker will not harm American workers (PERM). Today: eight firms suspended."
+        },
+        {
+          "word": "Electoral roll",
+          "def": "The official list of eligible voters in a constituency. Today: over 130 million names removed."
+        },
+        {
+          "word": "Proxy war",
+          "def": "A conflict in which a power backs another group to fight on its behalf. Today: Iran-backed Houthis versus Saudi Arabia."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The Election Commission of India was set up on 25 January 1950, a day before India became a republic. That date is now celebrated every year as National Voters' Day. The first general election, held in 1951-52, took about four months to complete."
+    },
+    "explainer": {
+      "title": "The ICC, and why India is not a member",
+      "body": [
+        "The International Criminal Court, based in The Hague, tries individuals for genocide, crimes against humanity, war crimes and aggression. It was created by the Rome Statute, adopted in 1998, and began work in 2002. It has 125 member states. Unlike the International Court of Justice, which settles disputes between states, the ICC prosecutes people.",
+        "India is not a member, and neither are the United States, China or Russia. India's objections have included the power the statute gives the UN Security Council to refer and defer cases, the independent powers of the prosecutor, and the absence of terrorism and the use of nuclear weapons from its list of crimes.",
+        "When the Rome Statute was adopted in 1998, India abstained from the vote. It has argued that a court which can investigate citizens of non-member states, while leaving permanent members of the Security Council able to block or defer cases, does not treat all countries equally.",
+        "This week's US sanctions target the court itself, after earlier sanctions on its judges and prosecutors. The US objects to the court's investigation in Afghanistan, which could involve US personnel, and its arrest warrants for Israel's prime minister and former defence minister."
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> The Bab el-Mandeb strait connects the Red Sea with the:",
+        "(a) Persian Gulf  (b) Gulf of Aden  (c) Mediterranean  (d) Gulf of Oman",
+        "<b>2.</b> Navi Pillay served as UN High Commissioner for Human Rights from:",
+        "(a) 2003-2008  (b) 2008-2014  (c) 2014-2018  (d) 2018-2022",
+        "<b>3.</b> After the October review, the RBI's repo rate is:",
+        "(a) 5.25%  (b) 5.50%  (c) 5.75%  (d) 6.50%",
+        "<b>4.</b> Which Article of the Constitution vests control of electoral rolls in the Election Commission?",
+        "(a) 280  (b) 312  (c) 324  (d) 356",
+        "<b>5.</b> The 2026 Nobel Prize in Physics was awarded for:",
+        "(a) optogenetics  (b) the IceCube neutrino detector  (c) chirality  (d) quantum computing",
+        "<b>6.</b> PERM is part of the process for:",
+        "(a) US student visas  (b) US employment-based green cards  (c) UK work permits  (d) H-1B renewals",
+        "<b>7.</b> The ICC was created by the:",
+        "(a) Treaty of Versailles  (b) Geneva Convention  (c) Rome Statute  (d) UN Charter",
+        "<b>8.</b> The 2026 Nobel Prize in Literature went to a writer from:",
+        "(a) Canada  (b) India  (c) Kenya  (d) Japan",
+        "<b>Answers.</b> 1 (b): the Bab el-Mandeb joins the Red Sea to the Gulf of Aden. 2 (b): Pillay was UN human rights chief from 2008 to 2014. 3 (b): up 25 basis points from 5.25%. 4 (c): Article 324. 5 (b): IceCube, at the South Pole, detects neutrinos. 6 (b): PERM labour certification is the first step for most employer-sponsored green cards. 7 (c): the Rome Statute of 1998; the court began work in 2002. 8 (a): Anne Carson, born in Toronto."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the Election Commission responds to protesters' demands, and whether more rallies follow.",
+        "How Indian IT firms and the Ministry of External Affairs respond to the US green-card suspension.",
+        "Whether the US joins Saudi strikes on the Houthis, and the effect on crude prices."
+      ]
+    },
+    "sign_off": {
+      "text": "You are not just reading the news — you are learning to think about it. See you tomorrow."
+    }
+  },
+  "sources": []
+}

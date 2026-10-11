@@ -18,7 +18,16 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     assert 'href="e/young-global-citizen/latest.pdf"' in index
     page = (ygc / "index.html").read_text(encoding="utf-8")
     assert "aljazeera.com" in page                       # sources are shown to readers
-    assert "First issue coming soon" in index             # papers without issues yet
     assert (out / "about.html").exists() and (out / "builder.html").exists() and (out / ".nojekyll").exists()
     for facet in ("Ages 6–8", "Professionals", "1 page", "5+ pages", "Weekly", "Exam preparation"):
         assert f'data-v="{facet}"' in index
+
+
+def test_site_shows_a_placeholder_for_papers_without_issues(tmp_path, monkeypatch):
+    real = site.issues_of
+    monkeypatch.setattr(site, "issues_of", lambda ed: [] if ed["id"] == "junior-daily" else real(ed))
+    out = tmp_path / "_site"
+    site.build(str(out), keep=1, log=lambda *a: None)
+    index = (out / "index.html").read_text(encoding="utf-8")
+    assert "First issue coming soon" in index
+    assert not (out / "e" / "junior-daily" / "latest.pdf").exists()
