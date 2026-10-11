@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ygc edition",
+  "description": "One paper's identity: reader, purpose, coverage, cadence and page plan. Validated in full by `python -m ygc editions`.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "masthead",
+    "reader",
+    "purpose",
+    "voice",
+    "cadence",
+    "desks",
+    "blocks",
+    "pages"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Must equal the folder name under editions/."
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name, used in the footer and PDF metadata."
+    },
+    "masthead": {
+      "type": "object",
+      "required": [
+        "title",
+        "location"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Big masthead title; shrinks automatically if too wide."
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Letter-spaced line under the title, e.g. DAILY or WEEKLY."
+        },
+        "tagline": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        }
+      }
+    },
+    "reader": {
+      "type": "object",
+      "required": [
+        "age",
+        "profile"
+      ],
+      "properties": {
+        "age": {
+          "type": [
+            "integer",
+            "string"
+          ],
+          "description": "A number or a range such as '12-14'."
+        },
+        "profile": {
+          "type": "string",
+          "description": "Who reads this paper, in a sentence."
+        },
+        "reading_level": {
+          "type": "string"
+        }
+      }
+    },
+    "purpose": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "description": "What every issue should build in the reader."
+    },
+    "voice": {
+      "type": "string"
+    },
+    "cadence": {
+      "type": "object",
+      "required": [
+        "every_days",
+        "window_hours",
+        "timezone"
+      ],
+      "properties": {
+        "every_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "window_hours": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "timezone": {
+          "type": "string",
+          "description": "IANA timezone, e.g. America/Los_Angeles or Asia/Kolkata."
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "properties": {
+        "type_scale": {
+          "type": "number",
+          "minimum": 0.8,
+          "maximum": 1.6,
+          "description": "1.0 is the original size. Larger for younger readers."
+        }
+      }
+    },
+    "desks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "scope"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string",
+            "description": "Kicker prefix, e.g. INDIA or SCIENCE."
+          },
+          "scope": {
+            "type": "string",
+            "description": "What belongs on this desk: the country, region or topic, and the bar it must meet."
+          },
+          "rules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "labels": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "teaching": {
+      "type": "object",
+      "properties": {
+        "repeat_window": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "vocab_today": {
+          "type": "boolean"
+        },
+        "chart_label_limits": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "sources_required": {
+      "type": "boolean"
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blocks": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "story",
+              "feature",
+              "briefs",
+              "vocab",
+              "did_you_know",
+              "sports",
+              "watchlist",
+              "quote",
+              "sign_off"
+            ]
+          },
+          "desk": {
+            "type": "string"
+          },
+          "size": {
+            "enum": [
+              "lead",
+              "standard",
+              "compact"
+            ]
+          },
+          "graphics": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "map",
+                "illustration",
+                "chart"
+              ]
+            }
+          },
+          "extras": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "why",
+                "connect",
+                "analyst"
+              ]
+            }
+          },
+          "also": {
+            "type": "object",
+            "properties": {
+              "count": {
+                "type": "integer"
+              },
+              "title": {
+                "type": "string"
+              }
+            }
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "brief": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "columns"
+        ],
+        "properties": {
+          "masthead": {
+            "type": "boolean"
+          },
+          "banner": {
+            "type": "string",
+            "description": "Full-width strip across the top of the page; <b> allowed."
+          },
+          "columns": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 3,
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": "One list of block ids per column, top to bottom. 'rule' draws a divider."
+          }
+        }
+      }
+    }
+  }
+}

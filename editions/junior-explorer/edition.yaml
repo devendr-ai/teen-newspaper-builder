@@ -1,0 +1,110 @@
+# yaml-language-server: $schema=../../schema/edition.schema.json
+#
+# The Junior Explorer — a demonstration of how far an edition can differ from
+# the original with no code changes: younger reader, larger type, three pages,
+# weekly, science-first, no India desk, no map, and an activity page.
+
+id: junior-explorer
+name: The Junior Explorer
+
+masthead:
+  title: THE JUNIOR EXPLORER
+  subtitle: WEEKLY
+  tagline: Big news, explained for curious minds.
+  location: Washington, USA
+
+reader:
+  age: 9
+  profile: A curious US fourth-grader, reading with a parent at the weekend.
+  reading_level: Grade 4. Short sentences, one idea each. Explain every new word the first time it appears.
+
+purpose:
+  - Wonder about science, space and nature.
+  - Knowing where places are, and what life is like there.
+  - Understanding big news calmly, without fear.
+  - Learning a few new words every week and using them.
+
+voice: >-
+  Warm, simple and exact, like a favourite teacher. Mostly sentences of fifteen
+  words or fewer. Be honest about sad news, but never graphic: say what
+  happened and who is helping, and skip frightening detail.
+
+cadence:
+  every_days: 7
+  window_hours: 168
+  timezone: America/Los_Angeles
+
+style:
+  type_scale: 1.3         # bigger type for younger eyes; layout scales with it
+
+desks:
+  - id: top
+    label: BIG STORY
+    scope: The week's most important story that a nine-year-old will hear about at school.
+    rules:
+      - Prefer stories a child can understand and act on. Skip stories whose core facts are too frightening for the age.
+  - id: science
+    label: SCIENCE
+    scope: The week's most exciting discovery or achievement in science, space or nature.
+  - id: world
+    label: AROUND THE WORLD
+    scope: An important story from outside the United States, ideally a place the reader has never heard of.
+
+labels:
+  why: WHY IT MATTERS
+  sports: GAME TIME
+  watchlist: COMING UP
+  vocab_tag: WORD WALL
+  vocab_title: New words this week
+
+teaching:
+  repeat_window: 4
+  vocab_today: true
+
+blocks:
+  lead:      {type: story, desk: top, size: lead, graphics: [chart], extras: [why]}
+  science:   {type: story, desk: science, graphics: [illustration], extras: [why]}
+  world:     {type: story, desk: world, graphics: [illustration], extras: [connect]}
+  briefs:    {type: briefs, count: 5, title: NEWS IN A NUTSHELL}
+  sports:    {type: sports}
+  vocab:     {type: vocab, count: 4}
+  did_you_know: {type: did_you_know}
+  challenge:
+    type: feature
+    label: EXPLORER CHALLENGE
+    brief: A hands-on activity or puzzle that uses this week's stories, needing only things found at home.
+    sources: false
+  explainer:
+    type: feature
+    label: HOW IT WORKS
+    brief: An evergreen explainer of the science behind one of this week's stories, from well-established facts.
+    sources: false
+  watchlist: {type: watchlist, count: 3}
+  quote:     {type: quote}
+  sign_off:  {type: sign_off, text: Keep exploring. See you next week!}
+
+pages:
+  - masthead: true
+    columns:
+      - [lead]
+      - [science]
+  - banner: "<b>AROUND THE WORLD</b>  •  people and places"
+    columns:
+      - [world]
+      - [briefs, sports, vocab]
+  - banner: "<b>EXPLORER TOOLKIT</b>  •  think, try, wonder"
+    columns:
+      - [challenge, did_you_know]
+      - [explainer, watchlist, quote, sign_off]
+
+rules:
+  - Three stories per issue — big story, science, around the world — plus short briefs and the toolkit page.
+  - Every number in a story is compared with something a child knows (a school bus, a football field, a year of birthdays).
+
+# Website and automatic publishing
+automation:
+  enabled: true
+  weekday: saturday
+site:
+  focus: "Science and nature"
+  blurb: "Three pages every week for ages 8–10: a big story, a science discovery, the world, and a hands-on challenge."

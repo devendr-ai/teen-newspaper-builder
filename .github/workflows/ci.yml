@@ -1,0 +1,39 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install poppler (page previews)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+      - name: Validate every edition
+        run: python -m ygc editions
+      - name: Newspaper builder page is up to date
+        run: python tools/builder/build.py --verify
+      - name: Tests (editions, prompts, gates, builder, every archived issue)
+        run: python -m pytest -q
+      - name: Build every archived issue
+        run: |
+          for f in editions/*/issues/*/*.json editions/*/examples/*.json; do
+            [ -e "$f" ] || continue
+            python -m ygc check "$f" --archive --out build || exit 1
+          done
+      - name: Keep PDFs and page previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newspapers
+          path: build/
