@@ -102,6 +102,7 @@ nav a{margin-left:16px;font-weight:700;text-decoration:none}
 .frow button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:22px}
+[hidden]{display:none!important}
 .card{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:9px}
 .cover{display:block;aspect-ratio:8.5/11;background:#FAF7F1;border:1px solid #B9C3C1;overflow:hidden}
 .cover img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}

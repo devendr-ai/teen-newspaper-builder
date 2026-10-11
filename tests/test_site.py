@@ -31,3 +31,12 @@ def test_site_shows_a_placeholder_for_papers_without_issues(tmp_path, monkeypatc
     index = (out / "index.html").read_text(encoding="utf-8")
     assert "First issue coming soon" in index
     assert not (out / "e" / "junior-daily" / "latest.pdf").exists()
+
+
+def test_filters_can_hide_cards(tmp_path):
+    # The filter script sets `hidden` on cards; .card's display:flex would override the
+    # browser default for [hidden] unless the stylesheet restores it.
+    out = tmp_path / "_site"
+    site.build(str(out), keep=1, log=lambda *a: None)
+    index = (out / "index.html").read_text(encoding="utf-8")
+    assert "[hidden]{display:none!important}" in index and "c.hidden=!ok" in index
