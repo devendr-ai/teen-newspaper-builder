@@ -1,0 +1,8 @@
+# Tested together. Upgrading reportlab can change line breaks, so bump it
+# deliberately and run `python -m pytest -q` afterwards.
+reportlab==4.4.10
+pypdf==5.9.0
+PyYAML==6.0.3
+pytest==9.1.1
+# System package (not pip) for page previews: poppler
+#   macOS: brew install poppler      Ubuntu/Debian: sudo apt install poppler-utils

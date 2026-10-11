@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Design your newspaper — ygc edition builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F5F4; --surface:#FFFFFF; --ink:#16232B; --muted:#56646C; --line:#CDD5D3;
+  --cyan:#007C89; --cyan-tint:#E1F1F2; --magenta:#B8336A; --magenta-tint:#F7E3EC;
+  --yellow:#E8B10A; --yellow-tint:#FBF1D2; --sheet:#FFFFFF; --story:#16232B; --story-ink:#FFFFFF;
+  --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --text:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#11181C; --surface:#182226; --ink:#E5ECEA; --muted:#9AA8AE; --line:#2D3A40;
+    --cyan:#41B6C1; --cyan-tint:#173438; --magenta:#E0709A; --magenta-tint:#3A1E2A;
+    --yellow:#E8B10A; --yellow-tint:#3A3015; --sheet:#E9EEEC; --story:#16232B; --story-ink:#FFFFFF;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#11181C; --surface:#182226; --ink:#E5ECEA; --muted:#9AA8AE; --line:#2D3A40;
+  --cyan:#41B6C1; --cyan-tint:#173438; --magenta:#E0709A; --magenta-tint:#3A1E2A;
+  --yellow:#E8B10A; --yellow-tint:#3A3015; --sheet:#E9EEEC;
+}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--text)}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0}
+a{color:var(--cyan)}
+.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+header.top{display:grid;gap:10px;margin-bottom:22px;max-width:760px}
+header.top h1{font-size:clamp(2rem,4.6vw,3.3rem);font-weight:800;letter-spacing:-.02em}
+header.top p{margin:0;color:var(--muted);max-width:62ch}
+.presets{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 26px;align-items:center}
+.presets span{color:var(--muted);margin-right:4px}
+.presets button{font:inherit;font-size:.92rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:7px 13px;border-radius:999px;cursor:pointer}
+.presets button[aria-pressed="true"]{border-color:var(--cyan);background:var(--cyan-tint);color:var(--ink)}
+.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:920px){.grid{grid-template-columns:minmax(0,1fr)}}
+#form,.proof{min-width:0}
+fieldset{border:0;margin:0 0 26px;padding:0;min-width:0}
+legend{font-family:var(--display);font-weight:700;font-size:1.25rem;margin-bottom:4px;padding:0}
+.hint{color:var(--muted);font-size:.9rem;margin:0 0 10px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,160px),1fr));gap:8px}
+.tile{position:relative}
+.tile input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.tile label{display:block;height:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer}
+.tile label b{display:block;font-weight:700}
+.tile label small{display:block;color:var(--muted);font-size:.84rem;line-height:1.35;margin-top:2px}
+.tile input:checked + label{border-color:var(--cyan);background:var(--cyan-tint)}
+.tile input:focus-visible + label{outline:3px solid var(--cyan);outline-offset:2px}
+.tile input:disabled + label{opacity:.55;cursor:not-allowed}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.chip label{display:inline-block;padding:6px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;font-size:.95rem}
+.chip input:checked + label{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.chip input:focus-visible + label{outline:3px solid var(--cyan);outline-offset:2px}
+.chip input:disabled + label{opacity:.5;cursor:not-allowed}
+.custom{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+input[type=text],input[type=number],textarea,select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);
+  border-radius:8px;padding:8px 10px;min-width:0}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.custom input{flex:1 1 220px}
+.btn{font:inherit;font-weight:700;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:8px 14px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink)}
+.added{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.added button{font:inherit;font-size:.9rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:5px 10px;cursor:pointer}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.row label{display:grid;gap:4px;font-size:.92rem;color:var(--muted)}
+.row label > *{color:var(--ink)}
+textarea{min-height:64px;resize:vertical}
+.pages-exact{display:flex;align-items:center;gap:8px;margin-top:10px;color:var(--muted);font-size:.92rem}
+.pages-exact input{width:84px}
+.note{font-size:.88rem;color:var(--muted);margin-top:8px}
+
+/* proof panel */
+.proof{position:sticky;top:16px;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:18px}
+@media (max-width:920px){.proof{position:static}}
+.proof h2{font-size:1.45rem;font-weight:800}
+.summary{margin:6px 0 12px;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 14px;padding:0;list-style:none;font-size:.95rem}
+.facts b{font-family:var(--display);font-size:1.15rem}
+.sheets{display:flex;flex-wrap:wrap;gap:16px 14px;padding:14px 6px 10px;margin:0 -6px}
+.sheet-wrap{flex:0 0 auto;text-align:center;font-size:.8rem;color:var(--muted)}
+.sheet{position:relative;width:var(--sw,150px);aspect-ratio:8.5/11;background:var(--sheet);border:1px solid #B9C3C1;padding:9px 8px 10px;display:flex;flex-direction:column;gap:4px;margin-bottom:6px}
+/* registration and crop marks */
+.sheet::before,.sheet::after{content:"";position:absolute;width:9px;height:9px;border:0 solid var(--muted)}
+.sheet::before{top:-6px;left:-6px;border-top-width:1px;border-left-width:1px}
+.sheet::after{bottom:-6px;right:-6px;border-bottom-width:1px;border-right-width:1px}
+.mast{height:15%;border-bottom:2px solid #16232B;display:flex;align-items:center;justify-content:center}
+.mast i{display:block;width:70%;height:34%;background:#16232B;border-radius:1px}
+.ban{height:5%;border-top:1.5px solid #16232B;border-bottom:1px solid #16232B;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ban span{font-size:6px;color:#0B3D5C;white-space:nowrap;font-weight:700;padding:0 2px;text-overflow:ellipsis;overflow:hidden}
+.cols{flex:1;display:flex;gap:4px;min-height:0}
+.col{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0;border-radius:1px;position:relative}
+.blk{border-radius:2px;font-size:6.5px;line-height:1.1;padding:2px 3px;overflow:hidden;color:#16232B;min-height:5px}
+.blk.lead,.blk.story{background:#16232B;color:#FFF}
+.blk.lead{background:#0B3D5C}
+.blk.module{background:#CDEBEE}
+.blk.feature{background:#F2CFDD}
+.blk.over{outline:2px solid var(--yellow);outline-offset:-2px}
+.blk em{font-style:normal;opacity:.75;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.82rem;color:var(--muted);margin:2px 0 14px}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
+.alerts{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.alerts li{padding:9px 11px;border-radius:8px;font-size:.92rem;line-height:1.4}
+.alerts .warn{background:var(--yellow-tint);border-left:4px solid var(--yellow)}
+.alerts .info{background:var(--paper);border-left:4px solid var(--line);color:var(--muted)}
+.alerts .err{background:var(--magenta-tint);border-left:4px solid var(--magenta)}
+details{border-top:1px solid var(--line);padding-top:12px}
+summary{cursor:pointer;font-weight:700}
+pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;max-height:340px;font-size:.78rem;line-height:1.45;white-space:pre}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px;align-items:center}
+.status{font-size:.88rem;color:var(--cyan)}
+.next{font-size:.9rem;color:var(--muted)}
+.next code{font-size:.82rem;background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:1px 5px;color:var(--ink)}
+@media (prefers-reduced-motion: no-preference){ .blk{transition:height .25s ease} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Design your newspaper</h1>
+    <p>Choose who it's for and what it covers. You get a ready-to-use edition file for the ygc engine, and a proof of how every page will be laid out. Accuracy and sourcing rules stay the same whatever you choose.</p>
+  </header>
+
+  <div class="presets" id="presets"><span>Start from</span></div>
+
+  <div class="grid">
+    <form id="form" novalidate>
+      <fieldset>
+        <legend>Length</legend>
+        <p class="hint">More pages add coverage and features, never filler.</p>
+        <div class="tiles" id="pages"></div>
+        <div class="pages-exact"><label for="pagesExact">Or an exact number of pages</label>
+          <input id="pagesExact" type="number" min="1" max="12" step="1"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Reader</legend>
+        <p class="hint">Age sets vocabulary, explanation and type size. It never lowers the standard of accuracy.</p>
+        <div class="tiles" id="age"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Purpose</legend>
+        <div class="tiles" id="purpose"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Countries and regions</legend>
+        <p class="hint">Each becomes a desk with its own story when there's room.</p>
+        <div class="chips" id="geos"></div>
+        <div class="custom">
+          <input id="geoInput" type="text" placeholder="Add any country, region or city" aria-label="Add a country, region or city">
+          <button type="button" class="btn ghost" id="geoAdd">Add</button>
+        </div>
+        <div class="added" id="geoAdded" aria-live="polite"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Topics</legend>
+        <div class="chips" id="topics"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Depth</legend>
+        <div class="tiles" id="depth"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sections</legend>
+        <p class="hint">Your purpose sets sensible defaults. Change any of them.</p>
+        <div class="chips" id="modules"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>How often</legend>
+        <div class="tiles" id="cadence"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Language</legend>
+        <div class="tiles" id="language"></div>
+        <p class="note">Hindi and bilingual editions need Unicode fonts in the engine. That upgrade isn't built yet, so they can't be selected.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Details</legend>
+        <div class="row">
+          <label>Paper name<input id="name" type="text" autocomplete="off"></label>
+          <label>Reader's exact age (optional)<input id="exactAge" type="text" placeholder="e.g. 13"></label>
+          <label>Location on the masthead<input id="location" type="text"></label>
+          <label>Timezone for "today"<select id="timezone"></select></label>
+        </div>
+        <div class="row" style="margin-top:12px">
+          <label>Who is the reader?<textarea id="profile"></textarea></label>
+        </div>
+      </fieldset>
+    </form>
+
+    <aside class="proof" aria-labelledby="proofTitle">
+      <h2 id="proofTitle">Proof</h2>
+      <p class="summary" id="summary"></p>
+      <ul class="facts" id="facts"></ul>
+      <div class="sheets" id="sheets" aria-label="Page layout preview"></div>
+      <div class="legend">
+        <span style="--c:#0B3D5C">Lead</span><span style="--c:#16232B">Story</span>
+        <span style="--c:#F2CFDD">Feature</span><span style="--c:#CDEBEE">Learning and extras</span>
+      </div>
+      <ul class="alerts" id="alerts" aria-live="polite"></ul>
+      <details id="yamlBox" open>
+        <summary>Edition file</summary>
+        <div class="actions">
+          <button type="button" class="btn" id="copy">Copy edition file</button>
+          <span class="status" id="status" role="status"></span>
+        </div>
+        <pre id="yaml" tabindex="0"></pre>
+        <p class="next" id="next"></p>
+      </details>
+    </aside>
+  </div>
+</div>
+
+<script>
+/* ygc edition generator: reader choices -> a valid editions/<id>/edition.yaml.
+ * Pure function, no DOM. Embedded in the configurator page and tested with node
+ * against the real Python validator (python -m ygc). */
+(function (root) {
+  "use strict";
+
+  const AGES = {
+    "6-8":   { label: "Ages 6–8", scale: 1.35, wpm: 90, vocab: 3, kid: true,
+               level: "Early reader (grades 1–3). Very short sentences, one idea each. Explain every new word.",
+               voice: "Warm, gentle and concrete, like reading aloud together. Honest about sad news but never frightening or graphic: say what happened and who is helping.",
+               profile: "A curious young child, reading with a parent." },
+    "9-11":  { label: "Ages 9–11", scale: 1.25, wpm: 130, vocab: 4, kid: true,
+               level: "Upper elementary. Short sentences. Explain every new word the first time it appears.",
+               voice: "Warm, simple and exact, like a favourite teacher. Honest about hard news without graphic detail.",
+               profile: "A curious upper-elementary reader." },
+    "12-14": { label: "Ages 12–14", scale: 1.0, wpm: 180, vocab: 4, kid: false,
+               level: "Elevated middle school. Never childish; explain without dumbing down.",
+               voice: "Clear, engaging and intelligent. Use analogies a middle-schooler knows. Where people genuinely disagree, give each side in its own terms.",
+               profile: "A middle-school reader, reading once at breakfast." },
+    "15-18": { label: "Ages 15–18", scale: 0.95, wpm: 220, vocab: 4, kid: false,
+               level: "High school. Adult news vocabulary, with technical terms defined on first use.",
+               voice: "Direct and analytical. Show the evidence, name the trade-offs and present competing arguments fairly.",
+               profile: "A high-school student building a serious understanding of the world." },
+    "adult": { label: "Adult", scale: 0.95, wpm: 240, vocab: 3, kid: false,
+               level: "General adult reader.",
+               voice: "Plain, precise and fair-minded. Respect the reader's time: lead with what changed and why it matters.",
+               profile: "A general-interest adult reader." },
+    "pro":   { label: "Professional", scale: 0.9, wpm: 250, vocab: 0, kid: false,
+               level: "Specialist. Assume domain knowledge; never explain the basics.",
+               voice: "Concise and decision-oriented. Lead with implications, quantify where possible, flag uncertainty explicitly.",
+               profile: "A professional who needs the implications, not the basics." },
+  };
+
+  const PURPOSES = {
+    global: { label: "Global awareness and learning",
+      lines: ["Strong general knowledge of the world and the regions it covers.",
+              "Early political and economic awareness.",
+              "Curiosity and independent thinking.",
+              "The habit of connecting events to history, geography and cause and effect."],
+      modules: { vocab: true, dyk: true, watchlist: true, quote: true, sports: true, explainer: false, quiz: false, discussion: false } },
+    school: { label: "School curriculum and current affairs",
+      lines: ["Connections between the news and school subjects: history, geography, science, civics and economics.",
+              "Confident use of subject vocabulary.",
+              "Questions worth discussing in class."],
+      modules: { vocab: true, dyk: true, watchlist: false, quote: true, sports: false, explainer: true, quiz: true, discussion: true } },
+    exam: { label: "Exam preparation and general knowledge",
+      lines: ["Facts worth remembering: names, dates, places and numbers, stated precisely.",
+              "Understanding of why events matter, not just what happened.",
+              "Regular self-testing through quizzes."],
+      modules: { vocab: true, dyk: true, watchlist: true, quote: false, sports: false, explainer: true, quiz: true, discussion: false } },
+    pro: { label: "Professional and business intelligence",
+      lines: ["What changed in the window and what it means for decisions.",
+              "Quantified implications for markets, policy and operations.",
+              "Early signals worth monitoring."],
+      modules: { vocab: false, dyk: false, watchlist: true, quote: false, sports: false, explainer: false, quiz: false, discussion: false } },
+    family: { label: "Family-friendly daily briefing",
+      lines: ["A shared picture of the day's news for every age at the table.",
+              "Something to talk about together.",
+              "Calm, accurate understanding of hard news."],
+      modules: { vocab: true, dyk: true, watchlist: true, quote: true, sports: true, explainer: false, quiz: false, discussion: true } },
+  };
+
+  const DEPTHS = {
+    quick:    { label: "Quick facts and key implications",
+                rule: "Keep each story to its essentials: what happened, the key numbers and why it matters." },
+    balanced: { label: "News plus context and explanation",
+                rule: "Give each story enough context that the reader could explain it to someone else." },
+    deep:     { label: "Background, evidence, competing perspectives",
+                rule: "Give background, the evidence behind each claim, and the strongest version of each competing perspective." },
+  };
+
+  const TOPICS = {
+    world:     { label: "WORLD", name: "World affairs", world: true },
+    politics:  { label: "POLITICS & CIVICS", name: "Politics and civics", scope: "How power and government work, shown through the window's most important political story." },
+    science:   { label: "SCIENCE & TECH", name: "Science and technology", scope: "The most significant discovery, research result or technology development of the window.", rules: ["Prefer peer-reviewed findings and official data over company announcements."] },
+    economics: { label: "ECONOMY", name: "Economics", scope: "The economic story with the widest effect on households: prices, jobs, trade, interest rates or public money." },
+    business:  { label: "BUSINESS & MARKETS", name: "Business and markets", scope: "The most consequential company, industry or market development of the window." },
+    history:   { label: "HISTORY & GEOGRAPHY", name: "History and geography", scope: "A current story whose roots in history or geography are worth explaining." },
+    climate:   { label: "CLIMATE & ENVIRONMENT", name: "Climate and environment", scope: "The most significant climate, weather or environmental story, with evidence and scale." },
+    health:    { label: "HEALTH", name: "Health", scope: "The most significant public-health or medical-science story, reported with care and evidence." },
+    sports:    { label: "SPORTS", name: "Sports", sports: true },
+    arts:      { label: "ARTS & CULTURE", name: "Arts and culture", scope: "A significant story from books, film, music, art or heritage." },
+    education: { label: "EDUCATION", name: "Education", scope: "The most significant story about schools, universities, exams or learning." },
+    local:     { label: "LOCAL", name: "Local community news", local: true },
+  };
+
+  const GEOS = ["World", "United States", "India", "United Kingdom", "Canada", "China",
+                "Europe", "Middle East", "Australia", "Japan"];
+
+  const CADENCE = {
+    daily:   { every_days: 1, window_hours: 24, subtitle: "DAILY", watch: "TOMORROW'S WATCHLIST", see: "See you tomorrow." },
+    two_day: { every_days: 2, window_hours: 48, subtitle: "DAILY", watch: "WHAT TO WATCH NEXT", see: "See you in two days." },
+    weekly:  { every_days: 7, window_hours: 168, subtitle: "WEEKLY", watch: "COMING UP", see: "See you next week." },
+  };
+
+  // Share of one column each fixed-size block uses at type scale 1.0, calibrated
+  // by measuring real issues (Young Global Citizen and Junior Explorer). Stories
+  // are elastic: writers fill them to whatever their column leaves.
+  const FIXED = { rule: 0.017, did_you_know: 0.1, sports: 0.12, quote: 0.04, sign_off: 0.035,
+                  explainer: 0.36, quiz: 0.42, discussion: 0.2, analysis: 0.48 };
+  const STORY_MIN = 0.42;          // a story squeezed below this reads as a brief
+
+  const SHORT = { "united states": "us", "united kingdom": "uk", "usa": "us", "uk": "uk" };
+  const slug = (s) => SHORT[s.toLowerCase()] || s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
+  const idSlug = (s) => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const q = (s) => JSON.stringify(String(s));            // double-quoted YAML scalar
+  const printable = (s) => /^[\x20-\x7E\u00A0-\u00FF\u2013\u2014\u2018\u2019\u201C\u201D\u2022\u2026\u20AC]*$/.test(s);
+
+  function storyCount(pages) {
+    if (pages <= 1) return 2;
+    if (pages === 2) return 4;
+    if (pages <= 6) return 2 * (pages - 1);
+    return 2 * (pages - 2);
+  }
+
+  function generate(o) {
+    const errors = [], warnings = [];
+    const age = AGES[o.age], purpose = PURPOSES[o.purpose], depth = DEPTHS[o.depth];
+    const cad = CADENCE[o.cadence];
+    const pages = Math.max(1, Math.min(12, parseInt(o.pages, 10) || 2));
+    if (!age || !purpose || !depth || !cad) errors.push("Choose a reader, purpose, depth and frequency.");
+    if (o.language && o.language !== "en")
+      errors.push("Hindi and bilingual editions need the Unicode font upgrade, which the engine doesn't have yet. Choose English for now.");
+    const name = (o.name || "").trim();
+    if (!name) errors.push("Give the paper a name.");
+    if (name && !printable(name)) errors.push("The paper's name uses characters the PDF fonts can't print.");
+    const geos = (o.geos || []).filter(Boolean);
+    const topics = (o.topics || []).filter((t) => TOPICS[t]);
+    if (!geos.length && !topics.length) errors.push("Choose at least one country, region or topic to cover.");
+    for (const g of geos) if (!printable(g)) errors.push(`"${g}" uses characters the PDF fonts can't print.`);
+    if (o.purpose === "pro" && age && age.kid)
+      errors.push("A professional-intelligence paper for young children is contradictory. Pick an older reader or another purpose.");
+    if (o.purpose === "exam" && (o.age === "6-8"))
+      warnings.push("Exam preparation for ages 6–8 is unusual; the quiz will be kept short and gentle.");
+    if (errors.length) return { errors, warnings };
+
+    // ---- modules: purpose defaults, then the reader's overrides, then age limits
+    const m = Object.assign({}, purpose.modules, o.modules || {});
+    if (topics.includes("sports")) m.sports = true;
+    if (age.vocab === 0) m.vocab = false;
+    if (o.purpose === "exam") m.quiz = true;
+
+    // ---- desks
+    const desks = [];
+    const worldWanted = geos.includes("World") || topics.includes("world");
+    const where = geos.filter((g) => g !== "World");
+    const coverage = [worldWanted ? "the world" : null, ...where].filter(Boolean);
+    desks.push({ id: "top", label: "TOP STORY",
+      scope: `The single most important story of the window for this reader${coverage.length ? `, from ${listJoin(coverage)}` : ""}.`,
+      rules: ["If a running story is still the biggest, it leads again, written as the new development."] });
+    const order = [];
+    if (worldWanted) { desks.push({ id: "world", label: "WORLD", scope: "The next most important world story, from a region or field the lead doesn't cover." }); order.push("world"); }
+    for (const g of where) {
+      const id = slug(g);
+      desks.push({ id, label: g.toUpperCase(), scope: `The most important story from ${g} in the window: one that teaches something, not filler.` });
+      order.push(id);
+    }
+    for (const t of topics) {
+      const T = TOPICS[t];
+      if (T.world || T.sports) continue;
+      if (T.local) {
+        desks.push({ id: "local", label: "LOCAL", scope: `The most important community story from around ${o.location || "the reader's home"}.` });
+      } else {
+        desks.push(Object.assign({ id: slug(T.name) }, { label: T.label, scope: T.scope }, T.rules ? { rules: T.rules } : {}));
+      }
+      order.push(T.local ? "local" : slug(T.name));
+    }
+    if (!order.length) order.push("top");
+
+    // ---- blocks
+    const kid = age.kid;
+    const briefsCount = pages <= 2 ? 2 : pages <= 4 ? 4 : pages <= 6 ? 5 : 6;
+    const vocabCount = Math.max(age.vocab, 0);
+    const blocks = {};
+    const tail = [];   // non-story modules, in reading order
+    tail.push(["briefs", { type: "briefs", count: briefsCount }]);
+    if (m.vocab && vocabCount) tail.push(["vocab", { type: "vocab", count: vocabCount }]);
+    if (m.dyk) tail.push(["did_you_know", { type: "did_you_know" }]);
+    const featurePage = pages >= 7;
+    if (m.explainer || featurePage || (o.depth === "deep" && pages >= 6)) tail.push(["explainer", { type: "feature", label: kid ? "HOW IT WORKS" : "EXPLAINER",
+      brief: "Background behind one of this issue's stories, from well-established facts.", sources: false }]);
+    if (featurePage || (o.purpose === "pro" || o.depth === "deep") && pages >= 4) tail.push(["analysis", { type: "feature", label: "THE BIG PICTURE",
+      brief: "Analysis connecting several of this issue's stories, with the evidence and the strongest competing perspectives." }]);
+    const quizN = o.purpose === "exam" || pages >= 6 ? 8 : 5;
+    if (m.quiz) tail.push(["quiz", { type: "feature", label: "QUIZ",
+      brief: `${quizN} multiple-choice questions on this issue, with the answers at the end.`, sources: false, questions: quizN }]);
+    if (m.discussion) tail.push(["discussion", { type: "feature", label: kid ? "TALK ABOUT IT" : "DISCUSS",
+      brief: "Three open questions about this issue for discussion at home or in class. Questions only, never answers.", sources: false }]);
+    if (m.sports) tail.push(["sports", { type: "sports" }]);
+    if (m.watchlist) tail.push(["watchlist", { type: "watchlist", count: pages >= 4 ? 3 : 2, title: cad.watch }]);
+    if (m.quote) tail.push(["quote", { type: "quote" }]);
+    const signText = kid ? `Keep exploring. ${cad.see}` : age === AGES.pro || o.age === "adult" ? `Thanks for reading. ${cad.see}`
+                   : `You are not just reading the news — you are learning to think about it. ${cad.see}`;
+    tail.push(["sign_off", { type: "sign_off", text: signText }]);
+    for (const [id, b] of tail) blocks[id] = b;
+    const tailIds = tail.map((t) => t[0]);
+
+    // A closing page whose sections fill under one column gets one more story instead of white space.
+    const ELASTIC = ["explainer", "analysis"];
+    const tailFixedOn = (ids) => ids.reduce((a, id) => a + (ELASTIC.includes(id) ? 0.3 : fixedOf(id, blocks[id])), 0) * age.scale * age.scale;
+    const closingIds = tailIds.filter((id) => !(pages >= 7 && ELASTIC.includes(id)));
+    const tailSize = tailFixedOn(closingIds);
+    const closingStories = pages < 3 ? 0 : tailSize < 0.55 ? 2 : tailSize < 0.95 ? 1 : 0;
+
+    // ---- story slots
+    const nStories = storyCount(pages) + closingStories;
+    const slots = [{ id: "lead", desk: "top", size: "lead" }];
+    const storyBlocks = () => slots.forEach((x) => { if (!blocks[x.id]) blocks[x.id] = { type: "story", desk: x.desk }; });
+    const used = {};
+    for (let i = 0; slots.length < nStories; i++) {
+      const d = order[i % order.length];
+      used[d] = (used[d] || 0) + 1;
+      slots.push({ id: used[d] > 1 ? `${d}_${used[d]}` : d, desk: d, size: pages === 1 ? "compact" : "standard" });
+    }
+    const notes = [];
+    const unplaced = order.filter((d) => !slots.some((s) => s.desk === d));
+    const geoIds = where.map(slug).concat(worldWanted ? ["world"] : []);
+    const lostGeo = unplaced.filter((d) => geoIds.includes(d)), lostTopic = unplaced.filter((d) => !geoIds.includes(d));
+    const nm = (ids) => listJoin(ids.map((d) => titleCase(desks.find((x) => x.id === d).label)));
+    if (lostGeo.length)
+      warnings.push(`${nm(lostGeo)} won't get ${lostGeo.length === 1 ? "its" : "their"} own story at ${pages} page${pages > 1 ? "s" : ""}, only briefs. Add pages or remove a region.`);
+    if (lostTopic.length)
+      notes.push(`${nm(lostTopic)} will be covered as angles within other stories and in briefs, not as stories of ${lostTopic.length === 1 ? "its" : "their"} own. Add pages to give ${lostTopic.length === 1 ? "it its" : "each its"} own story.`);
+    if (pages >= 4 && order.length < nStories / 2)
+      warnings.push(`${nStories} stories but only ${order.length} desk${order.length > 1 ? "s" : ""}: most desks will carry two or more stories. Add countries or topics, or choose fewer pages.`);
+
+    storyBlocks();
+    // keep stories first in the YAML for readability
+    for (const id of tailIds) { const b = blocks[id]; delete blocks[id]; blocks[id] = b; }
+
+    // ---- page plan
+    const plan = [];
+    const s = slots.map((x) => x.id);
+    const take = (ids) => ids.filter((id) => tailIds.includes(id));
+    if (pages === 1) {
+      plan.push({ masthead: true, columns: [[s[0]], [s[1], ...take(["briefs", "vocab", "watchlist", "sign_off"])]] });
+      const dropped = tailIds.filter((id) => !["briefs", "vocab", "watchlist", "sign_off"].includes(id));
+      dropped.forEach((id) => delete blocks[id]);
+      if (dropped.length) warnings.push(`A one-page paper has no room for: ${listJoin(dropped.map(nice))}.`);
+    } else if (pages === 2) {
+      plan.push({ masthead: true, columns: [[s[0]], [s[1]]] });
+      const left = [s[2]], right = [s[3]];
+      const leftMods = ["briefs", "vocab", "did_you_know", "explainer", "discussion"];
+      left.push(...take(leftMods));
+      const rightMods = tailIds.filter((id) => !leftMods.includes(id));
+      right.push("rule", ...rightMods);
+      // at large type the left column can't hold its story plus every module: move modules across
+      const sq = age.scale * age.scale, cap = 1 - STORY_MIN;
+      const fx = (col) => col.reduce((a, id) => a + fixedOf(id, blocks[id]), 0) * sq;
+      while (left.length > 2 && fx(left) > cap) right.splice(1, 0, left.pop());
+      plan.push({ banner: banner(2, [blocks[s[2]].desk, blocks[s[3]].desk], desks), columns: [left, right] });
+    } else {
+      const storyPages = featurePage ? pages - 2 : pages - 1;
+      for (let p = 0; p < storyPages; p++) {
+        const pair = [s[2 * p], s[2 * p + 1]];
+        plan.push(Object.assign(p === 0 ? { masthead: true } : { banner: banner(p + 1, pair.map((id) => blocks[id].desk), desks) },
+          { columns: [[pair[0]], [pair[1]]] }));
+      }
+      let mods = tailIds.slice();
+      if (featurePage) {
+        plan.push({ banner: `<b>PAGE ${storyPages + 1}</b>  •  ${kid ? "Go deeper" : "Analysis"}`, columns: [["explainer"], ["analysis"]] });
+        mods = mods.filter((id) => id !== "explainer" && id !== "analysis");
+      }
+      const closingBanner = `<b>PAGE ${pages}</b>  •  ${o.purpose === "pro" ? "Briefing" : kid ? "Learn and play" : "Your toolkit"}`;
+      let closing;
+      if (closingStories === 2) {
+        const [a, b] = balance(mods.filter((id) => id !== "rule"), blocks);
+        closing = [[s[s.length - 2], ...a], [s[s.length - 1], ...b]];
+      } else if (closingStories === 1) closing = [[s[s.length - 1]], mods];
+      else closing = balance(mods, blocks);
+      plan.push({ banner: closingBanner, columns: closing });
+    }
+
+    // ---- graphics, extras and "also" lists, now that we know who shares a column
+    const colOf = {}, colFixed = {};
+    plan.forEach((pg, p) => pg.columns.forEach((col, c) => {
+      const f = col.reduce((a, id) => a + fixedOf(id, blocks[id]), 0) * age.scale * age.scale;
+      col.forEach((id) => { colOf[id] = `${p}:${c}`; });
+      colFixed[`${p}:${c}`] = f;
+    }));
+    const roomy = (s) => (colFixed[colOf[s.id]] || 0) <= 0.4;
+    const chartDesks = ["economics", "business_and_markets", "us"];
+    let chartGiven = false;
+    slots.forEach((s, i) => {
+      if (i === 0) s.graphics = [worldWanted ? "map" : "illustration"];
+      else if (!roomy(s)) s.graphics = [];
+      else if (chartDesks.includes(s.desk) && !chartGiven) { s.graphics = ["chart"]; chartGiven = true; }
+      else s.graphics = ["illustration"];
+    });
+    if (!chartGiven) {
+      const c = slots.slice(2).reverse().find((s) => s.graphics.length) || slots.slice(1).find((s) => s.graphics.length);
+      if (c) { c.graphics = ["chart"]; chartGiven = true; }
+    }
+    slots.forEach((s, i) => {
+      if (i === 0) s.extras = o.depth === "deep" ? ["why", "analyst"] : ["why"];
+      else if (i === 1 && o.depth !== "quick") s.extras = ["connect"];
+      else if (s.graphics[0] === "chart" && o.depth !== "quick") s.extras = ["why", "analyst"];
+      else s.extras = o.depth === "deep" && i % 2 === 0 ? ["why", "analyst"] : ["why"];
+    });
+    if (pages <= 2) {
+      const c = slots.find((s, i) => i >= 2 && where.map(slug).includes(s.desk) && s.graphics[0] !== "chart");
+      if (c) c.also = { count: 2, title: `Also in ${where.find((g) => slug(g) === c.desk)}` };
+    }
+    for (const s of slots) {
+      const b = blocks[s.id];
+      if (s.size !== "standard") b.size = s.size;
+      if (s.graphics.length) b.graphics = s.graphics;
+      b.extras = s.extras;
+      if (s.also) b.also = s.also;
+    }
+
+    // ---- fill estimate per column: fixed blocks plus the elastic story share
+    const fill = plan.map((pg, p) => pg.columns.map((col, c) => {
+      const elasticHere = col.filter((id) => ELASTIC.includes(id));
+      const fixed = (colFixed[`${p}:${c}`] - elasticHere.reduce((a, id) => a + fixedOf(id, blocks[id]), 0) * age.scale * age.scale)
+                    * (pg.masthead ? 1.13 : 1) + (slots.some((s) => s.id === col[0] && s.also) ? 0.07 : 0);
+      const story = col.some((id) => blocks[id] && blocks[id].type === "story") || elasticHere.length > 0;
+      return { fixed: Math.min(fixed, 1.5), story: story ? Math.max(0, 1 - fixed) : 0, hasStory: story };
+    }));
+    fill.forEach((cols, p) => cols.forEach((f, c) => {
+      const where = `Page ${p + 1}, column ${c + 1}`;
+      if (f.hasStory && f.fixed > 1 - STORY_MIN)
+        warnings.push(`${where} leaves too little room for its story. Turn off a section or add a page.`);
+      else if (!f.hasStory && f.fixed > 1.02)
+        warnings.push(`${where} probably overflows at this type size. Turn off a section or add a page.`);
+      else if (!f.hasStory && f.fixed < 0.55)
+        warnings.push(`${where} will look sparse. Turn on more sections or choose fewer pages.`);
+    }));
+
+    // ---- thumbnail geometry for previews: fixed blocks at their size, stories share what's left
+    const NICE = { briefs: "Briefs", vocab: "Vocabulary", did_you_know: "Did you know", explainer: "Explainer",
+                   analysis: "Big picture", quiz: "Quiz", discussion: kid ? "Talk about it" : "Discuss", sports: "Sports",
+                   watchlist: "Watchlist", quote: "Quote", sign_off: "Sign-off" };
+    const thumbs = plan.map((pg, p) => ({ masthead: !!pg.masthead, banner: pg.banner ? pg.banner.replace(/<[^>]+>/g, "") : "",
+      columns: pg.columns.map((col, c) => {
+        const items = col.filter((id) => id !== "rule").map((id) => {
+          const b = blocks[id];
+          if (b.type === "story") {
+            const d = desks.find((x) => x.id === b.desk);
+            return { id, kind: id === "lead" ? "lead" : "story", label: d ? titleCase(d.label) : id,
+                     graphic: (b.graphics || [])[0] || "", h: 0 };
+          }
+          return { id, kind: b.type === "feature" ? "feature" : "module", label: NICE[id] || id,
+                   h: fixedOf(id, b) * age.scale * age.scale };
+        });
+        items.forEach((x) => { if (ELASTIC.includes(x.id)) x.h = 0; });
+        const fixed = items.reduce((a, x) => a + x.h, 0);
+        const stories = items.filter((x) => x.kind === "lead" || x.kind === "story" || ELASTIC.includes(x.id));
+        stories.forEach((x) => { x.h = Math.max(STORY_MIN, 1 - fixed) / stories.length; });
+        return items;
+      }) }));
+
+    // ---- reading time
+    const words = Math.round(pages * 700 / (age.scale * age.scale));
+    const minutes = Math.max(2, Math.round(words / age.wpm));
+
+    // ---- YAML
+    const id = idSlug(o.id || name) || "my-paper";
+    // The name is used exactly as typed. The masthead drops a trailing "Daily"/"Weekly" because the
+    // subtitle line carries it; a paper every two days gets no misleading subtitle unless asked for.
+    const fullName = name;
+    const mastTitle = name.replace(/\s+(Daily|Weekly)$/i, "").toUpperCase();
+    const subtitle = o.subtitle !== undefined ? o.subtitle : (o.cadence === "daily" ? "DAILY" : o.cadence === "weekly" ? "WEEKLY" : "");
+    const y = [];
+    y.push("# yaml-language-server: $schema=../../schema/edition.schema.json");
+    y.push(`# Generated by the ygc configurator. Edit freely, then run:`);
+    y.push(`#   python -m ygc editions && python -m ygc prompt ${id}`);
+    y.push("");
+    y.push(`id: ${id}`);
+    y.push(`name: ${q(fullName)}`);
+    y.push("");
+    y.push("masthead:");
+    y.push(`  title: ${q(mastTitle)}`);
+    if (subtitle) y.push(`  subtitle: ${subtitle}`);
+    y.push(`  tagline: ${q(o.tagline || defaultTagline(o.purpose))}`);
+    y.push(`  location: ${q(o.location || "Washington, USA")}`);
+    y.push("");
+    y.push("reader:");
+    y.push(`  age: ${q(o.exactAge || o.age.replace("pro", "adult professional"))}`);
+    y.push(`  profile: ${q(o.profile || age.profile)}`);
+    y.push(`  reading_level: ${q(age.level)}`);
+    y.push("");
+    y.push("purpose:");
+    for (const l of purpose.lines) y.push(`  - ${q(l)}`);
+    y.push("");
+    y.push(`voice: ${q(age.voice)}`);
+    y.push("");
+    y.push("cadence:");
+    y.push(`  every_days: ${cad.every_days}`);
+    y.push(`  window_hours: ${cad.window_hours}`);
+    y.push(`  timezone: ${o.timezone || "America/Los_Angeles"}`);
+    y.push("");
+    y.push("style:");
+    y.push(`  type_scale: ${age.scale}`);
+    y.push("");
+    if (kid || o.purpose === "pro") {
+      y.push("labels:");
+      if (kid) { y.push(`  why: "WHY IT MATTERS"`); y.push(`  vocab_title: "New words this time"`); }
+      if (o.purpose === "pro") { y.push(`  why: "WHAT IT MEANS"`); y.push(`  analyst: "WHAT TO WATCH FOR"`); y.push(`  briefs: "IN BRIEF"`); }
+      y.push("");
+    }
+    y.push("teaching:");
+    y.push(`  repeat_window: ${cad.every_days >= 7 ? 4 : 2}`);
+    y.push(`  vocab_today: ${m.vocab ? "true" : "false"}`);
+    y.push("");
+    y.push("sources_required: true");
+    y.push("");
+    y.push("desks:");
+    for (const d of desks) {
+      if (d.id !== "top" && !Object.values(blocks).some((b) => b.desk === d.id)) continue;
+      y.push(`  - id: ${d.id}`);
+      y.push(`    label: ${q(d.label)}`);
+      y.push(`    scope: ${q(d.scope)}`);
+      if (d.rules) { y.push("    rules:"); for (const r of d.rules) y.push(`      - ${q(r)}`); }
+    }
+    y.push("");
+    y.push("blocks:");
+    for (const [bid, b] of Object.entries(blocks)) {
+      const parts = Object.entries(b).filter(([k]) => k !== "questions").map(([k, v]) => `${k}: ${yamlInline(v)}`);
+      y.push(`  ${bid}: {${parts.join(", ")}}`);
+    }
+    y.push("");
+    y.push("pages:");
+    for (const pg of plan) {
+      y.push(pg.masthead ? "  - masthead: true" : `  - banner: ${q(pg.banner)}`);
+      y.push("    columns:");
+      for (const col of pg.columns) y.push(`      - [${col.join(", ")}]`);
+    }
+    y.push("");
+    y.push("rules:");
+    const rules = [
+      `${slots.length} stories per issue, one per story block, each chosen on news value against its desk's scope.`,
+      depth.rule,
+      "Age and purpose change vocabulary, explanation and emphasis, never the standard of accuracy or sourcing.",
+      "Graphics are formatting requirements, not selection criteria: choose the story first, then fit the graphic.",
+    ];
+    if (unplaced.length) rules.push(`Also follow ${listJoin(unplaced.map((d) => TOPIC_NAME(d, desks)))}: cover them in briefs, or as angles within other stories, when the news warrants.`);
+    for (const r of rules) y.push(`  - ${q(r)}`);
+
+    return { errors, warnings, notes, id, yaml: y.join("\n") + "\n", plan, blocks, desks, fill, thumbs,
+             stats: { pages, stories: slots.length, words, minutes, desks: order.length } };
+  }
+
+  function fixedOf(id, b) {
+    if (id === "rule") return FIXED.rule;
+    if (!b || b.type === "story") return b && b.also ? 0.07 : 0;
+    if (b.type === "vocab") return 0.06 + 0.058 * b.count;
+    if (b.type === "briefs") return 0.03 + 0.036 * b.count;
+    if (b.type === "watchlist") return 0.04 + 0.026 * b.count;
+    if (id === "quiz") return 0.1 + 0.064 * (b.questions || 5);
+    return FIXED[id] != null ? FIXED[id] : 0.3;
+  }
+
+  function balance(ids, blocks) {
+    // keep order, split where the two columns come closest to even
+    const w = ids.map((id) => fixedOf(id, blocks[id]));
+    const total = w.reduce((a, b) => a + b, 0);
+    let best = 1, bestDiff = Infinity, run = 0;
+    for (let i = 0; i < ids.length - 1; i++) {
+      run += w[i];
+      const diff = Math.abs(total - 2 * run);
+      if (diff < bestDiff) { bestDiff = diff; best = i + 1; }
+    }
+    const left = ids.slice(0, best), right = ids.slice(best);
+    const r = right.length ? right : [];
+    const k = r.findIndex((id) => ["sports", "watchlist", "quote"].includes(id));
+    if (k > 0) r.splice(k, 0, "rule");          // divider between features and the closing run
+    return [left, r.length ? r : ["sign_off"]];
+  }
+
+  function banner(n, deskIds, desks) {
+    const names = [...new Set(deskIds)].map((d) => {
+      const n = titleCase(desks.find((x) => x.id === d).label);
+      return /^(United |Middle East|Netherlands|Philippines|Gulf)/.test(n) ? "the " + n : n;
+    });
+    const t = listJoin(names);
+    return `<b>PAGE ${n}</b>  •  ${t.charAt(0).toUpperCase()}${t.slice(1)}`;
+  }
+
+  function TOPIC_NAME(id, desks) { return titleCase(desks.find((x) => x.id === id).label).replace(/^(United )/, "the $1"); }
+  function titleCase(s) {
+    return s.toLowerCase().replace(/(^|[\s&-])([a-z])/g, (a, b, c) => b + c.toUpperCase())
+            .replace(/\bAnd\b/g, "and").replace(/ & /g, " and ");
+  }
+  function listJoin(a) { return a.length <= 1 ? (a[0] || "") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1]; }
+  function nice(id) { return id.replace(/_/g, " "); }
+  function defaultTagline(p) {
+    return { global: "News that helps you think like a global thinker.", school: "The news, connected to what you learn.",
+             exam: "The news you need to know, and remember.", pro: "What changed, and what it means.",
+             family: "The day's news, for everyone at the table." }[p];
+  }
+  function yamlInline(v) {
+    if (Array.isArray(v)) return `[${v.join(", ")}]`;
+    if (v && typeof v === "object") return `{${Object.entries(v).map(([k, x]) => `${k}: ${yamlInline(x)}`).join(", ")}}`;
+    if (typeof v === "string") return /^[a-z_]+$/.test(v) ? v : q(v);
+    return String(v);
+  }
+
+  const api = { generate, AGES, PURPOSES, DEPTHS, TOPICS, GEOS, CADENCE };
+  if (typeof module !== "undefined" && module.exports) module.exports = api; else root.YGC = api;
+})(typeof window !== "undefined" ? window : globalThis);
+
+const PRESETS = {
+  "young-global-citizen": { label: "Young Global Citizen", name: "The Young Global Citizen Daily", subtitle: "DAILY", pages: 2, age: "12-14", exactAge: "13",
+    profile: "A US-based reader of Indian origin, reading once, at breakfast.", purpose: "global", depth: "balanced",
+    geos: ["World", "India", "United States"], topics: ["world", "politics", "science", "economics"], cadence: "two_day",
+    language: "en", location: "Washington, USA", timezone: "America/Los_Angeles", modules: {} },
+  "junior-explorer": { label: "Junior Explorer", name: "The Junior Explorer", pages: 3, age: "9-11", exactAge: "9",
+    profile: "A curious US fourth-grader, reading with a parent at the weekend.", purpose: "school", depth: "balanced",
+    geos: ["World", "United States"], topics: ["science", "climate"], cadence: "weekly", language: "en",
+    location: "Washington, USA", timezone: "America/Los_Angeles", modules: { sports: true, discussion: false, quiz: false } },
+  "science-learner": { label: "Science learner", name: "The Lab Notebook", pages: 4, age: "12-14", purpose: "school", depth: "balanced",
+    geos: ["World"], topics: ["science", "climate", "health", "history"], cadence: "weekly", language: "en",
+    location: "Washington, USA", timezone: "America/Los_Angeles", modules: {} },
+  "world-affairs-adult": { label: "World affairs, adult", name: "The Global Ledger", pages: 6, age: "adult", purpose: "global", depth: "deep",
+    geos: ["World", "United States", "United Kingdom", "Europe", "China", "Middle East"], topics: ["politics", "economics", "business"],
+    cadence: "daily", language: "en", location: "Washington, USA", timezone: "America/Los_Angeles", modules: { sports: false, vocab: false } },
+  "exam-prep-india": { label: "Exam prep, India", name: "The Current Affairs Digest", pages: 4, age: "15-18", purpose: "exam", depth: "balanced",
+    geos: ["India", "World"], topics: ["politics", "economics", "science", "history"], cadence: "daily", language: "en",
+    location: "New Delhi, India", timezone: "Asia/Kolkata", modules: {} },
+  "executive-brief": { label: "Executive brief", name: "The Morning Signal", pages: 2, age: "pro", purpose: "pro", depth: "quick",
+    geos: ["United States", "World", "China"], topics: ["business", "economics", "science"], cadence: "daily", language: "en",
+    location: "Seattle, USA", timezone: "America/Los_Angeles", modules: {} },
+};
+
+
+(function () {
+  const G = window.YGC;
+  const $ = (id) => document.getElementById(id);
+  const PAGES = [
+    [1, "One page", "Just the essentials"], [2, "Two pages", "Compact daily paper"],
+    [4, "Four pages", "More regions, explainers, a learning page"], [6, "Six pages", "Wide coverage, bigger quiz"],
+    [8, "Eight pages", "Chapters, analysis and a features page"]];
+  const AGE_DESC = { "6-8": "Simple, gentle, big type", "9-11": "Curious upper elementary", "12-14": "Middle school, never childish",
+    "15-18": "Sophisticated analysis", "adult": "General-interest reader", "pro": "Specialist, implications first" };
+  const DEPTH_DESC = { quick: "Headlines, key facts, why it matters", balanced: "Context so you could explain it",
+    deep: "Evidence and competing perspectives" };
+  const CAD = [["daily", "Daily", "Last 24 hours"], ["two_day", "Every two days", "Last 48 hours"], ["weekly", "Weekly", "Last 7 days"]];
+  const MODS = [["vocab", "Vocabulary"], ["dyk", "Did you know"], ["explainer", "Explainer"], ["quiz", "Quiz"],
+    ["discussion", "Discussion questions"], ["sports", "Sports"], ["watchlist", "Watchlist"], ["quote", "Closing quote"]];
+  const TZ = ["America/Los_Angeles", "America/Denver", "America/Chicago", "America/New_York", "America/Toronto",
+    "Europe/London", "Europe/Berlin", "Asia/Kolkata", "Asia/Dubai", "Asia/Singapore", "Asia/Tokyo", "Australia/Sydney"];
+
+  let st = {}, presetId = "young-global-citizen";
+  function load(id) {
+    presetId = id;
+    st = JSON.parse(JSON.stringify(PRESETS[id]));
+    st.modules = st.modules || {};
+    st.custom = st.geos.filter((g) => !G.GEOS.includes(g));
+    syncForm(); update();
+  }
+
+  function tiles(el, name, items, value, onPick, disabled) {
+    el.innerHTML = "";
+    items.forEach(([v, title, desc]) => {
+      const id = `${name}-${v}`, d = document.createElement("div");
+      d.className = "tile";
+      d.innerHTML = `<input type="radio" name="${name}" id="${id}" value="${v}"><label for="${id}"><b>${title}</b>${desc ? `<small>${desc}</small>` : ""}</label>`;
+      const inp = d.querySelector("input");
+      inp.checked = String(v) === String(value);
+      if (disabled && disabled(v)) inp.disabled = true;
+      inp.addEventListener("change", () => { onPick(v); update(); });
+      el.appendChild(d);
+    });
+  }
+  function chips(el, name, items, isOn, onToggle, disabled) {
+    el.innerHTML = "";
+    items.forEach(([v, title]) => {
+      const id = `${name}-${String(v).replace(/\W+/g, "_")}`, d = document.createElement("div");
+      d.className = "chip";
+      d.innerHTML = `<input type="checkbox" id="${id}"><label for="${id}">${title}</label>`;
+      const inp = d.querySelector("input");
+      inp.checked = isOn(v);
+      if (disabled && disabled(v)) { inp.disabled = true; inp.checked = false; }
+      inp.addEventListener("change", () => { onToggle(v, inp.checked); update(); });
+      el.appendChild(d);
+    });
+  }
+  const effectiveModules = () => Object.assign({}, G.PURPOSES[st.purpose].modules, st.modules);
+
+  function syncForm() {
+    tiles($("pages"), "pages", PAGES, PAGES.some((p) => p[0] === +st.pages) ? st.pages : -1, (v) => { st.pages = v; $("pagesExact").value = ""; });
+    $("pagesExact").value = PAGES.some((p) => p[0] === +st.pages) ? "" : st.pages;
+    tiles($("age"), "age", Object.entries(G.AGES).map(([k, a]) => [k, a.label, AGE_DESC[k]]), st.age, (v) => { st.age = v; syncForm(); });
+    tiles($("purpose"), "purpose", Object.entries(G.PURPOSES).map(([k, p]) => [k, p.label]), st.purpose,
+      (v) => { st.purpose = v; st.modules = {}; syncForm(); });
+    tiles($("depth"), "depth", Object.entries(G.DEPTHS).map(([k, d]) => [k, d.label, DEPTH_DESC[k]]), st.depth, (v) => { st.depth = v; });
+    tiles($("cadence"), "cadence", CAD, st.cadence, (v) => { st.cadence = v; });
+    tiles($("language"), "language", [["en", "English"], ["hi", "Hindi", "Needs Unicode fonts"], ["bi", "English and Hindi", "Needs Unicode fonts"]],
+      st.language || "en", (v) => { st.language = v; }, (v) => v !== "en");
+    chips($("geos"), "geo", G.GEOS.map((g) => [g, g]), (g) => st.geos.includes(g),
+      (g, on) => { st.geos = on ? [...st.geos, g] : st.geos.filter((x) => x !== g); });
+    chips($("topics"), "topic", Object.entries(G.TOPICS).map(([k, t]) => [k, t.name]), (t) => st.topics.includes(t),
+      (t, on) => { st.topics = on ? [...st.topics, t] : st.topics.filter((x) => x !== t); });
+    const em = effectiveModules();
+    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); },
+      (m) => m === "vocab" && st.age === "pro");
+    renderCustom();
+    $("name").value = st.name || ""; $("exactAge").value = st.exactAge || "";
+    $("location").value = st.location || ""; $("profile").value = st.profile || G.AGES[st.age].profile;
+    $("timezone").innerHTML = TZ.concat(TZ.includes(st.timezone) ? [] : [st.timezone]).map((t) => `<option ${t === st.timezone ? "selected" : ""}>${t}</option>`).join("");
+    document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === presetId)));
+  }
+  function renderCustom() {
+    $("geoAdded").innerHTML = "";
+    st.geos.filter((g) => !G.GEOS.includes(g)).forEach((g) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = `${g} ✕`; b.setAttribute("aria-label", `Remove ${g}`);
+      b.addEventListener("click", () => { st.geos = st.geos.filter((x) => x !== g); renderCustom(); update(); });
+      $("geoAdded").appendChild(b);
+    });
+  }
+  function addGeo() {
+    const v = $("geoInput").value.trim().replace(/\s+/g, " ");
+    if (v && !st.geos.some((g) => g.toLowerCase() === v.toLowerCase())) st.geos.push(v);
+    $("geoInput").value = ""; renderCustom(); update();
+  }
+  $("geoAdd").addEventListener("click", addGeo);
+  $("geoInput").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); addGeo(); } });
+  $("pagesExact").addEventListener("input", (e) => {
+    const n = parseInt(e.target.value, 10);
+    if (n >= 1 && n <= 12) { st.pages = n; document.querySelectorAll('input[name="pages"]').forEach((i) => { i.checked = +i.value === n; }); update(); }
+  });
+  [["name", "name"], ["exactAge", "exactAge"], ["location", "location"], ["profile", "profile"], ["timezone", "timezone"]]
+    .forEach(([id, k]) => $(id).addEventListener("input", (e) => { st[k] = e.target.value; presetId = ""; update(); }));
+  $("form").addEventListener("change", () => { presetId = presetId && JSON.stringify(st) === JSON.stringify(PRESETS[presetId]) ? presetId : ""; 
+    document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === presetId))); });
+
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  let last = null;
+  function update() {
+    const r = G.generate(Object.assign({ id: presetId || undefined }, st, { modules: effectiveModules() }));
+    last = r;
+    const alerts = [...(r.errors || []).map((e) => `<li class="err">${esc(e)}</li>`),
+      ...(r.warnings || []).map((w) => `<li class="warn">${esc(w)}</li>`),
+      ...(r.notes || []).map((w) => `<li class="info">${esc(w)}</li>`)];
+    $("alerts").innerHTML = alerts.join("");
+    if (r.errors && r.errors.length) {
+      $("summary").textContent = "Fix the highlighted choices to generate an edition.";
+      $("facts").innerHTML = ""; $("sheets").innerHTML = ""; $("yaml").textContent = ""; $("next").textContent = "";
+      $("copy").disabled = true; return;
+    }
+    $("copy").disabled = false;
+    const a = G.AGES[st.age], p = G.PURPOSES[st.purpose];
+    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${({ adult: "adults", pro: "professionals" }[st.age] || a.label.toLowerCase().replace("ages", "ages"))}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
+    $("facts").innerHTML = [[r.stats.pages, r.stats.pages === 1 ? "page" : "pages"], [r.stats.stories, "stories"],
+      [r.stats.desks, r.stats.desks === 1 ? "desk" : "desks"], [`~${r.stats.minutes}`, "min read"]]
+      .map(([n, l]) => `<li><b>${n}</b> ${l}</li>`).join("");
+    $("sheets").style.setProperty("--sw", r.thumbs.length <= 2 ? "170px" : r.thumbs.length <= 4 ? "140px" : "120px");
+    $("sheets").innerHTML = r.thumbs.map((pg, i) => {
+      const head = pg.masthead ? `<div class="mast"><i></i></div>` : `<div class="ban"><span>${esc(pg.banner)}</span></div>`;
+      const over = r.fill[i];
+      const cols = pg.columns.map((col, c) => {
+        const tot = col.reduce((s, x) => s + x.h, 0), scale = tot > 1 ? 1 / tot : 1;
+        const flag = (over[c] && ((over[c].hasStory && over[c].fixed > 0.58) || (!over[c].hasStory && over[c].fixed > 1.02)));
+        return `<div class="col">${col.map((x) => `<div class="blk ${x.kind}${flag ? " over" : ""}" style="height:${(x.h * scale * 100).toFixed(1)}%" title="${esc(x.label)}">${x.h * scale >= 0.06 ? esc(x.label) : ""}${x.graphic && x.h * scale >= 0.2 ? `<em>+ ${x.graphic}</em>` : ""}</div>`).join("")}</div>`;
+      }).join("");
+      return `<div class="sheet-wrap"><div class="sheet" role="img" aria-label="Page ${i + 1}: ${esc(pg.columns.map((c) => c.map((x) => x.label).join(", ")).join("; "))}">${head}<div class="cols">${cols}</div></div>Page ${i + 1}</div>`;
+    }).join("");
+    $("yaml").textContent = r.yaml;
+    $("next").innerHTML = `Save it as <code>editions/${esc(r.id)}/edition.yaml</code>, then run <code>python -m ygc editions</code>, <code>python -m ygc prompt ${esc(r.id)}</code> and <code>python -m ygc new ${esc(r.id)}</code>.`;
+  }
+
+  $("copy").addEventListener("click", async () => {
+    if (!last || !last.yaml) return;
+    try { await navigator.clipboard.writeText(last.yaml); $("status").textContent = "Copied edition file"; }
+    catch (e) {
+      const range = document.createRange(); range.selectNodeContents($("yaml"));
+      const sel = getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      $("status").textContent = "Selected. Press Ctrl+C or Cmd+C to copy.";
+    }
+    setTimeout(() => { $("status").textContent = ""; }, 3000);
+  });
+
+  Object.entries(PRESETS).forEach(([id, p]) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = p.label; b.dataset.id = id;
+    b.addEventListener("click", () => load(id));
+    $("presets").appendChild(b);
+  });
+  load("young-global-citizen");
+})();
+</script>
+</body>
+</html>

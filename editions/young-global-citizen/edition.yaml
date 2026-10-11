@@ -1,0 +1,101 @@
+# yaml-language-server: $schema=../../schema/edition.schema.json
+#
+# The Young Global Citizen Daily — the original edition.
+# Everything that makes this paper *this* paper lives in this file:
+# reader, purpose, desks (countries and topics), cadence and page plan.
+# Change it, run `python -m ygc prompt young-global-citizen`, and the AI
+# instructions, checks and layout all follow.
+
+id: young-global-citizen
+name: The Young Global Citizen Daily
+
+masthead:
+  title: THE YOUNG GLOBAL CITIZEN
+  subtitle: DAILY
+  tagline: News that helps you think like a global thinker.
+  location: Washington, USA
+
+reader:
+  age: 13
+  profile: A US-based reader of Indian origin, reading once, at breakfast.
+  reading_level: Elevated middle school. Never childish; explain without dumbing down.
+
+purpose:
+  - Strong general knowledge across the world, the United States and India.
+  - Early political and economic awareness.
+  - Curiosity and independent thinking.
+  - The habit of connecting events to history, geography, economics and cause and effect.
+
+voice: >-
+  Clear, engaging and intelligent: The Week Junior crossed with Time for Kids
+  and Reader's Digest. Use analogies a middle-schooler knows. Avoid bias; where
+  people genuinely disagree, give each side in its own terms.
+
+cadence:
+  every_days: 2
+  window_hours: 48
+  timezone: America/Los_Angeles
+
+style:
+  type_scale: 1.0
+
+# Desks decide coverage. Add, remove or rename desks to change which countries
+# and topics the paper covers; each desk's scope tells the editor what belongs.
+desks:
+  - id: top
+    label: TOP STORY
+    scope: The single most important story in the world in the news window.
+    rules:
+      - If a running story is still the biggest in the world, it leads again,
+        written as the new development.
+  - id: world
+    label: WORLD
+    scope: The next most important world story, ideally from a different region or field than the lead.
+  - id: india
+    label: INDIA
+    scope: The most meaningful Indian story of the window.
+    rules:
+      - It must teach something. A story that connects world events to an Indian household beats a domestic story with no teaching content.
+  - id: us
+    label: UNITED STATES
+    scope: The top US story of the window, held to the same bar as the lead.
+    rules:
+      - Never pick a second-tier US story because it charts neatly. Choose the story, then build the chart from the real numbers it offers.
+
+blocks:
+  lead:         {type: story, desk: top, size: lead, graphics: [map], extras: [why]}
+  world:        {type: story, desk: world, graphics: [illustration], extras: [connect]}
+  india:        {type: story, desk: india, extras: [why], also: {count: 2, title: Also in India}}
+  us:           {type: story, desk: us, graphics: [chart], extras: [why, analyst]}
+  briefs:       {type: briefs, count: 2}
+  vocab:        {type: vocab, count: 4}
+  did_you_know: {type: did_you_know}
+  sports:       {type: sports}
+  watchlist:    {type: watchlist, count: 2}
+  quote:        {type: quote}
+  sign_off:
+    type: sign_off
+    text: You are not just reading the news — you are learning to think about it. See you in two days.
+
+pages:
+  - masthead: true
+    columns:
+      - [lead]
+      - [world]
+  - banner: "<b>PAGE 2</b>  •  <b>HOME FRONT &amp; LEARN</b>  •  India, the United States, and your toolkit"
+    columns:
+      - [india, briefs, vocab, did_you_know]
+      - [us, rule, sports, watchlist, quote, sign_off]
+
+# Edition-specific editorial rules (universal craft rules live in docs/CRAFT_RULES.md).
+rules:
+  - Exactly four stories per issue — lead, world, India, US — chosen on news value alone.
+  - Graphics are formatting requirements, not selection criteria. Pick the story first, then fit the graphic.
+  - A story from the previous issue returns only as a genuinely new development.
+
+# Website and automatic publishing
+automation:
+  enabled: true
+site:
+  focus: "World affairs"
+  blurb: "The original: two pages every other day on the world, India and the US for ages 12–14, with a map, a chart and new words."

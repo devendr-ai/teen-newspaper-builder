@@ -1,0 +1,179 @@
+{
+  "edition": "junior-explorer",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "BIG STORY  •  HURRICANE ISAIAS",
+      "headline": "A Hurricane Hits Florida",
+      "deck": "Isaias was the first hurricane of the year in the Atlantic Ocean. It reached land on Friday night.",
+      "body": [
+        "A hurricane is a giant spinning storm that grows over warm ocean water. Hurricane Isaias came ashore near the beach town of Destin, Florida, late on Friday.",
+        "Its winds blew at 105 miles an hour. That is much faster than a car on the highway. Out at sea, before it reached land, Isaias was even stronger.",
+        "Many Waffle House restaurants closed before the storm. That is a big clue. They almost never close, so people use them to judge how dangerous a storm is.",
+        "The storm knocked down trees and power lines. Nearly 900,000 homes and businesses lost electricity. Sadly, at least four people died. About 5,000 members of Florida's National Guard are helping people clean up."
+      ],
+      "chart": {
+        "title": "HOW FAST IS 105 MPH?",
+        "subtitle": "Speed in miles per hour",
+        "labels": [
+          "Car on hwy",
+          "Landfall",
+          "At sea"
+        ],
+        "values": [
+          65,
+          105,
+          120
+        ],
+        "max": 130,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "A car on the highway goes about 65 mph. Isaias blew almost twice as fast."
+      },
+      "why": "Most hurricane danger comes from water, not wind. Storms push seawater onto land and drop huge amounts of rain. That is why families leave the coast when they are told to.",
+      "sources": [
+        "https://www.arabnews.com/world/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding-3005572",
+        "https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/",
+        "https://www.wftv.com/news/local/live-updates-hurricane-isaias-weakened-post-tropical-cyclone-after-hitting-florida/TFHKTG6M5FG4NGPNM4TKANEVYE/"
+      ]
+    },
+    "science": {
+      "kicker": "SCIENCE  •  NOBEL PRIZE IN PHYSICS",
+      "headline": "He Caught Ghost Particles in the Ice",
+      "deck": "Francis Halzen won science's most famous prize for a telescope buried deep under the South Pole.",
+      "body": [
+        "Neutrinos are tiny particles that come from space. They are so small that trillions of them pass through your body every second without touching anything.",
+        "In 1988, a scientist named Francis Halzen had an idea. The ice at the South Pole is very clear and very deep. If a neutrino ever bumped into it, the ice would give off a tiny flash of blue light.",
+        "His team built IceCube, a detector inside a huge block of ice. It has caught neutrinos from far beyond our galaxy, sent by exploding stars and black holes. On Tuesday he won the Nobel Prize in Physics.",
+        "Building it took about twenty years. Workers drilled deep holes into the ice with hot water and lowered thousands of light sensors into them.",
+        "He is the first person since 1991 to win the physics prize alone. He will receive about $1.2 million."
+      ],
+      "illustration": {
+        "title": "LISTENING THROUGH ICE",
+        "subtitle": "South Pole, Antarctica",
+        "motif": "globe",
+        "caption": "IceCube watches a block of ice one kilometre wide on every side."
+      },
+      "why": "Telescopes usually look for light. IceCube looks for neutrinos instead, which is a brand-new way of seeing the universe.",
+      "sources": [
+        "https://physicsworld.com/?p=130829",
+        "https://www.wunc.org/2026-10-06/francis-halzen-wins-nobel-prize-in-physics-for-work-on-high-energy-neutrinos-from-space",
+        "https://www.moroccoworldnews.com/2026/10/340844/francis-halzen-wins-2026-nobel-prize-in-physics-for-neutrino-research/"
+      ]
+    },
+    "world": {
+      "kicker": "AROUND THE WORLD  •  NOBEL PEACE PRIZE",
+      "headline": "A Judge Who Fought Unfair Laws Wins a Peace Prize",
+      "deck": "Navi Pillay grew up in South Africa, where the law treated people differently because of their skin colour.",
+      "body": [
+        "When Navi Pillay was young, South Africa had a system called apartheid. It kept people apart by skin colour, and it was very unfair.",
+        "Pillay was born in the city of Durban in 1941. Her father drove a bus. Many families in Durban, including hers, trace their roots to India. Her family could not afford much, but she studied hard.",
+        "Pillay became a lawyer and fought those laws. Later she became a judge for the whole world, deciding cases about people who had done terrible things in wars.",
+        "A judge listens to both sides of an argument and then decides what is fair, using the law. Pillay believed that even the most powerful people should have to answer to a court.",
+        "On Friday she won the Nobel Peace Prize. Not everyone cheered. Her latest report was about the war in Gaza, and Israel's government says it was unfair. She says her report is based on facts.",
+        "The prize will be handed to her in Oslo, Norway, on December 10."
+      ],
+      "illustration": {
+        "title": "THE PEACE PRIZE",
+        "subtitle": "Oslo, Norway",
+        "motif": "court",
+        "caption": "The Peace Prize is given out in Oslo, the capital of Norway."
+      },
+      "connect": "Pillay is not the first person from South Africa to fight unfair laws peacefully. Mahatma Gandhi lived there more than 100 years ago and learned to protest without violence. Martin Luther King Jr. later used Gandhi's ideas in America.",
+      "sources": [
+        "https://www.arabnews.com/world/israels-scorn-of-nobel-peace-prize-laureate-highlights-its-combative-relationship-with-un-bodies-3005561",
+        "https://www.newsweek.com/navi-pillay-nobel-peace-prize-israel-backlash-12548140"
+      ]
+    },
+    "sports": {
+      "title": "A fan's catch changes a game",
+      "body": "The <b>Tampa Bay Rays</b> beat the <b>New York Yankees</b> 4-3 on Wednesday to win their playoff series three games to none. One hit nearly went over the wall, but a Yankees fan reached out and caught it. Fans may not touch a ball in play, so the umpires called a double instead of a home run.",
+      "sources": [
+        "https://www.mysuncoast.com/2026/10/08/tampa-bay-rays-sweep-yankees-advance-alcs/",
+        "https://abc7ny.com/post/rays-complete-sweep-yankees-advance-alcs/19920223/"
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Landfall",
+          "def": "The moment a storm moves from the sea onto land. Today: Isaias made landfall near Destin, Florida."
+        },
+        {
+          "word": "Particle",
+          "def": "A very, very small piece of something. Today: neutrinos are particles from space."
+        },
+        {
+          "word": "Detector",
+          "def": "A tool that notices something too small or faint to see. Today: IceCube is a neutrino detector."
+        },
+        {
+          "word": "Interference",
+          "def": "Getting in the way of something. Today: a fan's catch was called fan interference."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "When Hurricane Andrew hit Miami in 1992, zookeepers needed a safe place for dozens of flamingos. They chose a concrete public restroom. The birds waited out the storm next to the sinks and all came through safely. Zoo Miami did it again for Hurricane Georges in 1998."
+    },
+    "challenge": {
+      "title": "Find this week's places",
+      "body": [
+        "Get a globe, an atlas or a map on a screen. Can you find all five places from this week's news?",
+        "<b>1.</b> Destin, Florida  <b>2.</b> The South Pole  <b>3.</b> Oslo, Norway  <b>4.</b> Durban, South Africa  <b>5.</b> Tampa, Florida",
+        "Now put a finger on your home. Which place is closest to you? Which is farthest? Bonus: which one is covered in ice all year?",
+        "<b>Spin a storm.</b> Fill a clear plastic bottle three-quarters full of water. Add one drop of dish soap and screw the cap on tightly.",
+        "Now swirl the bottle in fast circles, then stop. A spinning funnel appears in the middle. Hurricanes spin around a calm centre too, called the eye.",
+        "<b>Talk about it.</b> Navi Pillay believed even the most powerful people should answer to a court. Why might that be hard? Why might it matter?"
+      ],
+      "illustration": {
+        "title": "FIND IT ON A GLOBE",
+        "subtitle": "Five places, one week",
+        "motif": "globe",
+        "caption": "Tip: the South Pole is at the very bottom of every globe."
+      }
+    },
+    "watchlist": {
+      "items": [
+        "Hurricane Simon is expected to reach Mexico's Pacific coast this weekend.",
+        "The Rays begin the next round of the playoffs on Monday.",
+        "Francis Halzen and Navi Pillay receive their Nobel Prizes on December 10."
+      ]
+    },
+    "quote": {
+      "text": "Every big discovery starts with someone asking a small question."
+    },
+    "briefs": {
+      "items": [
+        "Panama: A strong earthquake shook buildings and hurt at least 27 people. Rescue teams are helping families.",
+        "Mexico: Another hurricane, named Simon, grew to Category 4 in the Pacific Ocean off Mexico's coast.",
+        "Chemistry: Henri Kagan and Kenso Soai won a Nobel Prize for their work on molecules that are mirror images of each other, like your left and right hands.",
+        "Medicine: Three scientists won a Nobel Prize for a tool that uses light to study how the brain works.",
+        "Soccer: Cristiano Ronaldo, 41, has been suspended from Portugal's team after walking out of a training camp."
+      ]
+    },
+    "explainer": {
+      "title": "How does a hurricane spin?",
+      "body": [
+        "A hurricane starts over warm ocean water, at least 80 degrees Fahrenheit. The warm water heats the air above it, and the warm, wet air rises.",
+        "As the air rises, more air rushes in underneath to take its place. Because the Earth is spinning, that rushing air starts to turn. North of the equator, hurricanes always spin counterclockwise.",
+        "In the middle is the eye, a calm circle where the sky can even be blue. Around it is the eyewall, where the strongest winds blow.",
+        "Scientists sort hurricanes into five categories by wind speed. Category 1 starts at 74 miles an hour. Category 5 is 157 miles an hour or more. Isaias reached land as a Category 2."
+      ],
+      "illustration": {
+        "title": "INSIDE A HURRICANE",
+        "subtitle": "Warm water is the fuel",
+        "motif": "flood",
+        "caption": "Hurricanes weaken over land because they lose their warm-water fuel."
+      }
+    }
+  },
+  "sources": [
+    "https://www.usnews.com/news/world",
+    "https://www.pbs.org/newshour/world/watch-live-winner-of-the-2026-nobel-peace-prize-is",
+    "https://www.euronews.com/2026/10/10/cristiano-ronaldo-suspended-by-portuguese-fa-for-leaving-training-camp",
+    "https://www.npr.org/2017/09/07/548981618/flamingos-in-the-men-s-room-how-zoos-and-aquariums-handle-hurricanes"
+  ]
+}

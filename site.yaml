@@ -1,0 +1,6 @@
+# Website settings for `python -m ygc site` (and the daily publishing workflow).
+title: The Newsstand
+tagline: Free printable newspapers, written for each reader from verified sources.
+base_url: https://devendr-ai.github.io/teen-newspaper-builder/
+contact: ""            # an email address readers can send corrections to
+keep_issues: 30        # how many past issues per paper stay downloadable

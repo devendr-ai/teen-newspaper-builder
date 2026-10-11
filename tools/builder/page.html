@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Design your newspaper — ygc edition builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F5F4; --surface:#FFFFFF; --ink:#16232B; --muted:#56646C; --line:#CDD5D3;
+  --cyan:#007C89; --cyan-tint:#E1F1F2; --magenta:#B8336A; --magenta-tint:#F7E3EC;
+  --yellow:#E8B10A; --yellow-tint:#FBF1D2; --sheet:#FFFFFF; --story:#16232B; --story-ink:#FFFFFF;
+  --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --text:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#11181C; --surface:#182226; --ink:#E5ECEA; --muted:#9AA8AE; --line:#2D3A40;
+    --cyan:#41B6C1; --cyan-tint:#173438; --magenta:#E0709A; --magenta-tint:#3A1E2A;
+    --yellow:#E8B10A; --yellow-tint:#3A3015; --sheet:#E9EEEC; --story:#16232B; --story-ink:#FFFFFF;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#11181C; --surface:#182226; --ink:#E5ECEA; --muted:#9AA8AE; --line:#2D3A40;
+  --cyan:#41B6C1; --cyan-tint:#173438; --magenta:#E0709A; --magenta-tint:#3A1E2A;
+  --yellow:#E8B10A; --yellow-tint:#3A3015; --sheet:#E9EEEC;
+}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--text)}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0}
+a{color:var(--cyan)}
+.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+header.top{display:grid;gap:10px;margin-bottom:22px;max-width:760px}
+header.top h1{font-size:clamp(2rem,4.6vw,3.3rem);font-weight:800;letter-spacing:-.02em}
+header.top p{margin:0;color:var(--muted);max-width:62ch}
+.presets{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 26px;align-items:center}
+.presets span{color:var(--muted);margin-right:4px}
+.presets button{font:inherit;font-size:.92rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:7px 13px;border-radius:999px;cursor:pointer}
+.presets button[aria-pressed="true"]{border-color:var(--cyan);background:var(--cyan-tint);color:var(--ink)}
+.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:920px){.grid{grid-template-columns:minmax(0,1fr)}}
+#form,.proof{min-width:0}
+fieldset{border:0;margin:0 0 26px;padding:0;min-width:0}
+legend{font-family:var(--display);font-weight:700;font-size:1.25rem;margin-bottom:4px;padding:0}
+.hint{color:var(--muted);font-size:.9rem;margin:0 0 10px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,160px),1fr));gap:8px}
+.tile{position:relative}
+.tile input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.tile label{display:block;height:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer}
+.tile label b{display:block;font-weight:700}
+.tile label small{display:block;color:var(--muted);font-size:.84rem;line-height:1.35;margin-top:2px}
+.tile input:checked + label{border-color:var(--cyan);background:var(--cyan-tint)}
+.tile input:focus-visible + label{outline:3px solid var(--cyan);outline-offset:2px}
+.tile input:disabled + label{opacity:.55;cursor:not-allowed}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.chip label{display:inline-block;padding:6px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;font-size:.95rem}
+.chip input:checked + label{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.chip input:focus-visible + label{outline:3px solid var(--cyan);outline-offset:2px}
+.chip input:disabled + label{opacity:.5;cursor:not-allowed}
+.custom{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+input[type=text],input[type=number],textarea,select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);
+  border-radius:8px;padding:8px 10px;min-width:0}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.custom input{flex:1 1 220px}
+.btn{font:inherit;font-weight:700;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:8px 14px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink)}
+.added{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.added button{font:inherit;font-size:.9rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:5px 10px;cursor:pointer}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.row label{display:grid;gap:4px;font-size:.92rem;color:var(--muted)}
+.row label > *{color:var(--ink)}
+textarea{min-height:64px;resize:vertical}
+.pages-exact{display:flex;align-items:center;gap:8px;margin-top:10px;color:var(--muted);font-size:.92rem}
+.pages-exact input{width:84px}
+.note{font-size:.88rem;color:var(--muted);margin-top:8px}
+
+/* proof panel */
+.proof{position:sticky;top:16px;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:18px}
+@media (max-width:920px){.proof{position:static}}
+.proof h2{font-size:1.45rem;font-weight:800}
+.summary{margin:6px 0 12px;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 14px;padding:0;list-style:none;font-size:.95rem}
+.facts b{font-family:var(--display);font-size:1.15rem}
+.sheets{display:flex;flex-wrap:wrap;gap:16px 14px;padding:14px 6px 10px;margin:0 -6px}
+.sheet-wrap{flex:0 0 auto;text-align:center;font-size:.8rem;color:var(--muted)}
+.sheet{position:relative;width:var(--sw,150px);aspect-ratio:8.5/11;background:var(--sheet);border:1px solid #B9C3C1;padding:9px 8px 10px;display:flex;flex-direction:column;gap:4px;margin-bottom:6px}
+/* registration and crop marks */
+.sheet::before,.sheet::after{content:"";position:absolute;width:9px;height:9px;border:0 solid var(--muted)}
+.sheet::before{top:-6px;left:-6px;border-top-width:1px;border-left-width:1px}
+.sheet::after{bottom:-6px;right:-6px;border-bottom-width:1px;border-right-width:1px}
+.mast{height:15%;border-bottom:2px solid #16232B;display:flex;align-items:center;justify-content:center}
+.mast i{display:block;width:70%;height:34%;background:#16232B;border-radius:1px}
+.ban{height:5%;border-top:1.5px solid #16232B;border-bottom:1px solid #16232B;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ban span{font-size:6px;color:#0B3D5C;white-space:nowrap;font-weight:700;padding:0 2px;text-overflow:ellipsis;overflow:hidden}
+.cols{flex:1;display:flex;gap:4px;min-height:0}
+.col{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0;border-radius:1px;position:relative}
+.blk{border-radius:2px;font-size:6.5px;line-height:1.1;padding:2px 3px;overflow:hidden;color:#16232B;min-height:5px}
+.blk.lead,.blk.story{background:#16232B;color:#FFF}
+.blk.lead{background:#0B3D5C}
+.blk.module{background:#CDEBEE}
+.blk.feature{background:#F2CFDD}
+.blk.over{outline:2px solid var(--yellow);outline-offset:-2px}
+.blk em{font-style:normal;opacity:.75;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.82rem;color:var(--muted);margin:2px 0 14px}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
+.alerts{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.alerts li{padding:9px 11px;border-radius:8px;font-size:.92rem;line-height:1.4}
+.alerts .warn{background:var(--yellow-tint);border-left:4px solid var(--yellow)}
+.alerts .info{background:var(--paper);border-left:4px solid var(--line);color:var(--muted)}
+.alerts .err{background:var(--magenta-tint);border-left:4px solid var(--magenta)}
+details{border-top:1px solid var(--line);padding-top:12px}
+summary{cursor:pointer;font-weight:700}
+pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;max-height:340px;font-size:.78rem;line-height:1.45;white-space:pre}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px;align-items:center}
+.status{font-size:.88rem;color:var(--cyan)}
+.next{font-size:.9rem;color:var(--muted)}
+.next code{font-size:.82rem;background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:1px 5px;color:var(--ink)}
+@media (prefers-reduced-motion: no-preference){ .blk{transition:height .25s ease} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Design your newspaper</h1>
+    <p>Choose who it's for and what it covers. You get a ready-to-use edition file for the ygc engine, and a proof of how every page will be laid out. Accuracy and sourcing rules stay the same whatever you choose.</p>
+  </header>
+
+  <div class="presets" id="presets"><span>Start from</span></div>
+
+  <div class="grid">
+    <form id="form" novalidate>
+      <fieldset>
+        <legend>Length</legend>
+        <p class="hint">More pages add coverage and features, never filler.</p>
+        <div class="tiles" id="pages"></div>
+        <div class="pages-exact"><label for="pagesExact">Or an exact number of pages</label>
+          <input id="pagesExact" type="number" min="1" max="12" step="1"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Reader</legend>
+        <p class="hint">Age sets vocabulary, explanation and type size. It never lowers the standard of accuracy.</p>
+        <div class="tiles" id="age"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Purpose</legend>
+        <div class="tiles" id="purpose"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Countries and regions</legend>
+        <p class="hint">Each becomes a desk with its own story when there's room.</p>
+        <div class="chips" id="geos"></div>
+        <div class="custom">
+          <input id="geoInput" type="text" placeholder="Add any country, region or city" aria-label="Add a country, region or city">
+          <button type="button" class="btn ghost" id="geoAdd">Add</button>
+        </div>
+        <div class="added" id="geoAdded" aria-live="polite"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Topics</legend>
+        <div class="chips" id="topics"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Depth</legend>
+        <div class="tiles" id="depth"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sections</legend>
+        <p class="hint">Your purpose sets sensible defaults. Change any of them.</p>
+        <div class="chips" id="modules"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>How often</legend>
+        <div class="tiles" id="cadence"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Language</legend>
+        <div class="tiles" id="language"></div>
+        <p class="note">Hindi and bilingual editions need Unicode fonts in the engine. That upgrade isn't built yet, so they can't be selected.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Details</legend>
+        <div class="row">
+          <label>Paper name<input id="name" type="text" autocomplete="off"></label>
+          <label>Reader's exact age (optional)<input id="exactAge" type="text" placeholder="e.g. 13"></label>
+          <label>Location on the masthead<input id="location" type="text"></label>
+          <label>Timezone for "today"<select id="timezone"></select></label>
+        </div>
+        <div class="row" style="margin-top:12px">
+          <label>Who is the reader?<textarea id="profile"></textarea></label>
+        </div>
+      </fieldset>
+    </form>
+
+    <aside class="proof" aria-labelledby="proofTitle">
+      <h2 id="proofTitle">Proof</h2>
+      <p class="summary" id="summary"></p>
+      <ul class="facts" id="facts"></ul>
+      <div class="sheets" id="sheets" aria-label="Page layout preview"></div>
+      <div class="legend">
+        <span style="--c:#0B3D5C">Lead</span><span style="--c:#16232B">Story</span>
+        <span style="--c:#F2CFDD">Feature</span><span style="--c:#CDEBEE">Learning and extras</span>
+      </div>
+      <ul class="alerts" id="alerts" aria-live="polite"></ul>
+      <details id="yamlBox" open>
+        <summary>Edition file</summary>
+        <div class="actions">
+          <button type="button" class="btn" id="copy">Copy edition file</button>
+          <span class="status" id="status" role="status"></span>
+        </div>
+        <pre id="yaml" tabindex="0"></pre>
+        <p class="next" id="next"></p>
+      </details>
+    </aside>
+  </div>
+</div>
+
+<script>
+/*__GENERATOR__*/
+/*__PRESETS__*/
+(function () {
+  const G = window.YGC;
+  const $ = (id) => document.getElementById(id);
+  const PAGES = [
+    [1, "One page", "Just the essentials"], [2, "Two pages", "Compact daily paper"],
+    [4, "Four pages", "More regions, explainers, a learning page"], [6, "Six pages", "Wide coverage, bigger quiz"],
+    [8, "Eight pages", "Chapters, analysis and a features page"]];
+  const AGE_DESC = { "6-8": "Simple, gentle, big type", "9-11": "Curious upper elementary", "12-14": "Middle school, never childish",
+    "15-18": "Sophisticated analysis", "adult": "General-interest reader", "pro": "Specialist, implications first" };
+  const DEPTH_DESC = { quick: "Headlines, key facts, why it matters", balanced: "Context so you could explain it",
+    deep: "Evidence and competing perspectives" };
+  const CAD = [["daily", "Daily", "Last 24 hours"], ["two_day", "Every two days", "Last 48 hours"], ["weekly", "Weekly", "Last 7 days"]];
+  const MODS = [["vocab", "Vocabulary"], ["dyk", "Did you know"], ["explainer", "Explainer"], ["quiz", "Quiz"],
+    ["discussion", "Discussion questions"], ["sports", "Sports"], ["watchlist", "Watchlist"], ["quote", "Closing quote"]];
+  const TZ = ["America/Los_Angeles", "America/Denver", "America/Chicago", "America/New_York", "America/Toronto",
+    "Europe/London", "Europe/Berlin", "Asia/Kolkata", "Asia/Dubai", "Asia/Singapore", "Asia/Tokyo", "Australia/Sydney"];
+
+  let st = {}, presetId = "young-global-citizen";
+  function load(id) {
+    presetId = id;
+    st = JSON.parse(JSON.stringify(PRESETS[id]));
+    st.modules = st.modules || {};
+    st.custom = st.geos.filter((g) => !G.GEOS.includes(g));
+    syncForm(); update();
+  }
+
+  function tiles(el, name, items, value, onPick, disabled) {
+    el.innerHTML = "";
+    items.forEach(([v, title, desc]) => {
+      const id = `${name}-${v}`, d = document.createElement("div");
+      d.className = "tile";
+      d.innerHTML = `<input type="radio" name="${name}" id="${id}" value="${v}"><label for="${id}"><b>${title}</b>${desc ? `<small>${desc}</small>` : ""}</label>`;
+      const inp = d.querySelector("input");
+      inp.checked = String(v) === String(value);
+      if (disabled && disabled(v)) inp.disabled = true;
+      inp.addEventListener("change", () => { onPick(v); update(); });
+      el.appendChild(d);
+    });
+  }
+  function chips(el, name, items, isOn, onToggle, disabled) {
+    el.innerHTML = "";
+    items.forEach(([v, title]) => {
+      const id = `${name}-${String(v).replace(/\W+/g, "_")}`, d = document.createElement("div");
+      d.className = "chip";
+      d.innerHTML = `<input type="checkbox" id="${id}"><label for="${id}">${title}</label>`;
+      const inp = d.querySelector("input");
+      inp.checked = isOn(v);
+      if (disabled && disabled(v)) { inp.disabled = true; inp.checked = false; }
+      inp.addEventListener("change", () => { onToggle(v, inp.checked); update(); });
+      el.appendChild(d);
+    });
+  }
+  const effectiveModules = () => Object.assign({}, G.PURPOSES[st.purpose].modules, st.modules);
+
+  function syncForm() {
+    tiles($("pages"), "pages", PAGES, PAGES.some((p) => p[0] === +st.pages) ? st.pages : -1, (v) => { st.pages = v; $("pagesExact").value = ""; });
+    $("pagesExact").value = PAGES.some((p) => p[0] === +st.pages) ? "" : st.pages;
+    tiles($("age"), "age", Object.entries(G.AGES).map(([k, a]) => [k, a.label, AGE_DESC[k]]), st.age, (v) => { st.age = v; syncForm(); });
+    tiles($("purpose"), "purpose", Object.entries(G.PURPOSES).map(([k, p]) => [k, p.label]), st.purpose,
+      (v) => { st.purpose = v; st.modules = {}; syncForm(); });
+    tiles($("depth"), "depth", Object.entries(G.DEPTHS).map(([k, d]) => [k, d.label, DEPTH_DESC[k]]), st.depth, (v) => { st.depth = v; });
+    tiles($("cadence"), "cadence", CAD, st.cadence, (v) => { st.cadence = v; });
+    tiles($("language"), "language", [["en", "English"], ["hi", "Hindi", "Needs Unicode fonts"], ["bi", "English and Hindi", "Needs Unicode fonts"]],
+      st.language || "en", (v) => { st.language = v; }, (v) => v !== "en");
+    chips($("geos"), "geo", G.GEOS.map((g) => [g, g]), (g) => st.geos.includes(g),
+      (g, on) => { st.geos = on ? [...st.geos, g] : st.geos.filter((x) => x !== g); });
+    chips($("topics"), "topic", Object.entries(G.TOPICS).map(([k, t]) => [k, t.name]), (t) => st.topics.includes(t),
+      (t, on) => { st.topics = on ? [...st.topics, t] : st.topics.filter((x) => x !== t); });
+    const em = effectiveModules();
+    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); },
+      (m) => m === "vocab" && st.age === "pro");
+    renderCustom();
+    $("name").value = st.name || ""; $("exactAge").value = st.exactAge || "";
+    $("location").value = st.location || ""; $("profile").value = st.profile || G.AGES[st.age].profile;
+    $("timezone").innerHTML = TZ.concat(TZ.includes(st.timezone) ? [] : [st.timezone]).map((t) => `<option ${t === st.timezone ? "selected" : ""}>${t}</option>`).join("");
+    document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === presetId)));
+  }
+  function renderCustom() {
+    $("geoAdded").innerHTML = "";
+    st.geos.filter((g) => !G.GEOS.includes(g)).forEach((g) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = `${g} ✕`; b.setAttribute("aria-label", `Remove ${g}`);
+      b.addEventListener("click", () => { st.geos = st.geos.filter((x) => x !== g); renderCustom(); update(); });
+      $("geoAdded").appendChild(b);
+    });
+  }
+  function addGeo() {
+    const v = $("geoInput").value.trim().replace(/\s+/g, " ");
+    if (v && !st.geos.some((g) => g.toLowerCase() === v.toLowerCase())) st.geos.push(v);
+    $("geoInput").value = ""; renderCustom(); update();
+  }
+  $("geoAdd").addEventListener("click", addGeo);
+  $("geoInput").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); addGeo(); } });
+  $("pagesExact").addEventListener("input", (e) => {
+    const n = parseInt(e.target.value, 10);
+    if (n >= 1 && n <= 12) { st.pages = n; document.querySelectorAll('input[name="pages"]').forEach((i) => { i.checked = +i.value === n; }); update(); }
+  });
+  [["name", "name"], ["exactAge", "exactAge"], ["location", "location"], ["profile", "profile"], ["timezone", "timezone"]]
+    .forEach(([id, k]) => $(id).addEventListener("input", (e) => { st[k] = e.target.value; presetId = ""; update(); }));
+  $("form").addEventListener("change", () => { presetId = presetId && JSON.stringify(st) === JSON.stringify(PRESETS[presetId]) ? presetId : ""; 
+    document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === presetId))); });
+
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  let last = null;
+  function update() {
+    const r = G.generate(Object.assign({ id: presetId || undefined }, st, { modules: effectiveModules() }));
+    last = r;
+    const alerts = [...(r.errors || []).map((e) => `<li class="err">${esc(e)}</li>`),
+      ...(r.warnings || []).map((w) => `<li class="warn">${esc(w)}</li>`),
+      ...(r.notes || []).map((w) => `<li class="info">${esc(w)}</li>`)];
+    $("alerts").innerHTML = alerts.join("");
+    if (r.errors && r.errors.length) {
+      $("summary").textContent = "Fix the highlighted choices to generate an edition.";
+      $("facts").innerHTML = ""; $("sheets").innerHTML = ""; $("yaml").textContent = ""; $("next").textContent = "";
+      $("copy").disabled = true; return;
+    }
+    $("copy").disabled = false;
+    const a = G.AGES[st.age], p = G.PURPOSES[st.purpose];
+    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${({ adult: "adults", pro: "professionals" }[st.age] || a.label.toLowerCase().replace("ages", "ages"))}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
+    $("facts").innerHTML = [[r.stats.pages, r.stats.pages === 1 ? "page" : "pages"], [r.stats.stories, "stories"],
+      [r.stats.desks, r.stats.desks === 1 ? "desk" : "desks"], [`~${r.stats.minutes}`, "min read"]]
+      .map(([n, l]) => `<li><b>${n}</b> ${l}</li>`).join("");
+    $("sheets").style.setProperty("--sw", r.thumbs.length <= 2 ? "170px" : r.thumbs.length <= 4 ? "140px" : "120px");
+    $("sheets").innerHTML = r.thumbs.map((pg, i) => {
+      const head = pg.masthead ? `<div class="mast"><i></i></div>` : `<div class="ban"><span>${esc(pg.banner)}</span></div>`;
+      const over = r.fill[i];
+      const cols = pg.columns.map((col, c) => {
+        const tot = col.reduce((s, x) => s + x.h, 0), scale = tot > 1 ? 1 / tot : 1;
+        const flag = (over[c] && ((over[c].hasStory && over[c].fixed > 0.58) || (!over[c].hasStory && over[c].fixed > 1.02)));
+        return `<div class="col">${col.map((x) => `<div class="blk ${x.kind}${flag ? " over" : ""}" style="height:${(x.h * scale * 100).toFixed(1)}%" title="${esc(x.label)}">${x.h * scale >= 0.06 ? esc(x.label) : ""}${x.graphic && x.h * scale >= 0.2 ? `<em>+ ${x.graphic}</em>` : ""}</div>`).join("")}</div>`;
+      }).join("");
+      return `<div class="sheet-wrap"><div class="sheet" role="img" aria-label="Page ${i + 1}: ${esc(pg.columns.map((c) => c.map((x) => x.label).join(", ")).join("; "))}">${head}<div class="cols">${cols}</div></div>Page ${i + 1}</div>`;
+    }).join("");
+    $("yaml").textContent = r.yaml;
+    $("next").innerHTML = `Save it as <code>editions/${esc(r.id)}/edition.yaml</code>, then run <code>python -m ygc editions</code>, <code>python -m ygc prompt ${esc(r.id)}</code> and <code>python -m ygc new ${esc(r.id)}</code>.`;
+  }
+
+  $("copy").addEventListener("click", async () => {
+    if (!last || !last.yaml) return;
+    try { await navigator.clipboard.writeText(last.yaml); $("status").textContent = "Copied edition file"; }
+    catch (e) {
+      const range = document.createRange(); range.selectNodeContents($("yaml"));
+      const sel = getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      $("status").textContent = "Selected. Press Ctrl+C or Cmd+C to copy.";
+    }
+    setTimeout(() => { $("status").textContent = ""; }, 3000);
+  });
+
+  Object.entries(PRESETS).forEach(([id, p]) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = p.label; b.dataset.id = id;
+    b.addEventListener("click", () => load(id));
+    $("presets").appendChild(b);
+  });
+  load("young-global-citizen");
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 170,
+  "location": "Washington, USA",
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Missiles Hit Riyadh's Airport as Yemen's War Spills Over",
+      "deck": "Saudi officials say an attack on the capital's main airport killed 12 people and injured 309. President Trump says the United States may join the fight.",
+      "byline": "By the Editor-in-Chief",
+      "body": [
+        "Saudi Arabia's capital is meant to be one of the safest cities in the Middle East. On Saturday its main airport became a target. An attack on King Khalid International Airport in Riyadh killed at least 12 people and injured 309, the Saudi aviation authority said, including travellers from Bangladesh, Egypt, Jordan and the United States. Two days earlier, a missile strike there had killed three Saudis, one of them a pilot.",
+        "The likely attackers are the Houthis, a rebel movement backed by Iran that has ruled northern Yemen, Saudi Arabia's southern neighbour, since 2014. They claimed Thursday's strike and warned airlines to stay out of Saudi skies. Their missiles are a reply: on October 4, Yemen's Saudi-backed government launched an offensive to retake Houthi land, and Saudi-led jets have pounded the Houthi-held capital, Sanaa.",
+        "Asked whether America would join in, President Trump said: \"We may. We're going to look at it.\" The UN's envoy for Yemen warned on Friday that the country has slid back into full-scale war."
+      ],
+      "map": {
+        "title": "BAB EL-MANDEB, THE GATE OF TEARS",
+        "label_top": "YEMEN (ARABIAN PENINSULA)",
+        "label_bottom": "DJIBOUTI AND ERITREA (AFRICA)",
+        "footnote": "About 30 km of water at its narrowest point",
+        "caption": "With the Strait of Hormuz shut, Saudi oil now leaves through this gate."
+      },
+      "why": "Yemen's war looks local, but it sits beside one of the world's great doorways. Every ship passing between the Red Sea and the Indian Ocean squeezes through the Bab el-Mandeb strait, along Yemen's coast. With the Iran war closing the Strait of Hormuz, Saudi Arabia has been sending its oil out this way instead. In September the Houthis seized the coast beside the strait, which is why the new offensive aims to win it back. This is how a proxy war works: Iran does not have to fire at Saudi Arabia itself if a group it backs can threaten the one route Saudi oil has left.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  THE NOBEL PEACE PRIZE",
+      "headline": "A Judge Who Fought Apartheid Wins the Nobel Peace Prize",
+      "deck": "Navi Pillay spent six decades building international law. Israel calls the award a disgrace, and on the same day the United States moved against a court where she once sat as a judge.",
+      "body": [
+        "Navi Pillay was born in 1941 in Durban, South Africa, the daughter of a bus driver, in a country whose laws ranked people by the colour of their skin. That system was called apartheid. As a young lawyer she fought it and campaigned for the release of Nelson Mandela. On Friday, at 85, she was awarded the Nobel Peace Prize.",
+        "Her career has followed one idea: people who commit the worst crimes should face a court. As a judge on the UN tribunal for Rwanda, she helped convict people who took part in the 1994 genocide there. She later sat on the International Criminal Court, and served as the UN's human rights chief from 2008 to 2014.",
+        "Her most recent job is why the prize is contested. Last year a UN panel she led concluded that Israel had committed genocide in Gaza. Israel denies this, has rejected the panel as biased from the start, and called the award a weaponisation of the prize. Pillay has challenged her critics to say which of the panel's facts are wrong. Hours after the announcement, the US announced sanctions aimed at dismantling the International Criminal Court."
+      ],
+      "illustration": {
+        "title": "THE PEACE PRIZE",
+        "subtitle": "Oslo, Norway",
+        "motif": "court",
+        "caption": "This year's prize is worth about one million euros. It is presented on December 10."
+      },
+      "connect": "Pillay's story begins with a voyage from India. From 1860, British colonial rulers shipped Indian labourers to Natal, the province around Durban, to cut sugar cane, and a large community of Indian descent grew there. Pillay, of Tamil heritage, is part of it. In 1893 a young Indian lawyer named Mohandas Gandhi arrived in the same province, was thrown off a train at Pietermaritzburg for refusing to leave a whites-only carriage, and spent the next two decades in South Africa learning to resist unjust laws without violence. Pillay grew up about 80 km from that station. A century apart, both concluded that the answer to injustice is law, not revenge.",
+      "sources": [
+        "https://www.arabnews.com/world/israels-scorn-of-nobel-peace-prize-laureate-highlights-its-combative-relationship-with-un-bodies-3005561",
+        "https://www.newsweek.com/navi-pillay-nobel-peace-prize-israel-backlash-12548140"
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DEMOCRACY",
+      "headline": "Delhi Shuts Down to Stop a Youth Protest",
+      "deck": "More than 130 million names have been cut from India's voter lists. The Election Commission and the BJP deny wrongdoing.",
+      "body": [
+        "Before anyone can vote, their name must be on a list. India, with about a billion voters, has spent more than a year checking those lists, and over 130 million names have been removed, more than the population of Japan.",
+        "Opposition parties say many were real voters struck off to help Prime Minister Modi's party. Anger grew when a newspaper reported that the deputies of the chief election commissioner, Gyanesh Kumar, had disagreed with him over the process.",
+        "On Saturday a youth group that began as online satire, the Cockroach Janta Party, called a rally in New Delhi. Police refused permission, shut 57 metro stations, cut mobile internet nearby and detained thousands."
+      ],
+      "why": "An election is only as fair as its list of voters. Removing people who have died or moved is necessary; removing real voters is a way to win without persuading anyone. From outside the two can look alike, which is why trust in the referee matters. Here, the referee is the one under question.",
+      "also": [
+        "The US froze green-card paperwork at eight tech firms, including Infosys, TCS, Wipro and HCL, alleging misuse. Infosys expects no material impact.",
+        "The rupee hit a five-month low of 96.78 to the dollar after the RBI raised rates for the first time since 2023."
+      ],
+      "sources": [
+        "https://www.arabnews.pk/world/delhi-sealed-off-ahead-of-youth-protest-against-indian-election-chief-3003734",
+        "https://thefinancialexpress.com.bd/world/pressure-mounts-on-india-poll-chief-gyanesh-kumar-over-voter-list-changes",
+        "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day"
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  HURRICANE ISAIAS",
+      "headline": "Isaias Batters the Gulf Coast, Cutting Power to Nearly 900,000",
+      "deck": "The season's first hurricane came ashore near Destin, Florida, on Friday night. At least four people have died.",
+      "body": [
+        "A hurricane is a storm with winds of at least 74 miles an hour. Isaias, the first of this Atlantic season, reached land near Destin in the Florida Panhandle late Friday with 105 mph winds, a Category 2.",
+        "At sea it had been stronger. Hurricane Hunter aircraft measured 120 mph, enough for Category 3, or \"major\" status, before it weakened near the coast. The damage came anyway: flooded roads, torn roofs, and nearly 900,000 homes and businesses in Florida, Alabama and Georgia without power on Saturday.",
+        "At least four people have died, two in Florida and two in Alabama. Two were killed by trees falling onto homes."
+      ],
+      "chart": {
+        "title": "HOW STRONG WAS ISAIAS?",
+        "subtitle": "Maximum sustained winds, miles per hour",
+        "labels": [
+          "At peak",
+          "Cat 3 line",
+          "Landfall"
+        ],
+        "values": [
+          120,
+          111,
+          105
+        ],
+        "max": 130,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Category 3 starts at 111 mph. Isaias crossed that line at sea, then dropped below it."
+      },
+      "why": "Wind is not what usually kills in a hurricane. Water, from storm surge and flooding rain, has historically been the bigger danger, and falling trees threaten people long after the gusts die down.",
+      "analyst": "Think like an analyst: outage counts measure \"customers\", meaning electricity accounts, not people. One account can be a family of five, an empty holiday home or a hospital. Estimate how many people 900,000 accounts might cover. What would you need to know?",
+      "sources": [
+        "https://www.arabnews.com/world/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding-3005572",
+        "https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/",
+        "https://www.wftv.com/news/local/live-updates-hurricane-isaias-weakened-post-tropical-cyclone-after-hitting-florida/TFHKTG6M5FG4NGPNM4TKANEVYE/",
+        "https://www.cnn.com/2026/10/09/weather/live-news/hurricane-isaias-gulf-storm"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Panama: a magnitude 7.7 earthquake damaged buildings and injured at least 27 people, and the government declared a state of emergency.",
+        "Ukraine: Russian strikes killed at least eight people, including three children, as President Trump said Ukraine needs a new president willing to end the war."
+      ]
+    },
+    "vocab": {
+      "title": "Words that unlock today's news",
+      "items": [
+        {
+          "word": "Proxy",
+          "def": "Someone who acts for another. In a proxy war, a big power arms a smaller group to fight for it. Today: Iran-backed Houthis against Saudi Arabia."
+        },
+        {
+          "word": "Electoral roll",
+          "def": "The official list of people allowed to vote. Today: India has struck 130 million names off its rolls."
+        },
+        {
+          "word": "Laureate",
+          "def": "A person honoured with a major prize. Today: Navi Pillay is the 2026 Nobel Peace laureate."
+        },
+        {
+          "word": "Storm surge",
+          "def": "Seawater pushed onto land by a hurricane's winds. Today: up to six feet along Florida's Panhandle."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Hurricane names are recycled. The World Meteorological Organization keeps six lists of Atlantic names and uses one a year, so each list returns every six years. Isaias was last used in 2020, when a hurricane of that name struck North Carolina. A name is retired only after a very deadly storm, as Katrina was in 2005."
+    },
+    "sports": {
+      "title": "Ronaldo suspended by his own country",
+      "body": "<b>Cristiano Ronaldo</b>, Portugal's 41-year-old captain, has been provisionally suspended by the <b>Portuguese Football Federation</b>, which opened a disciplinary case on Friday. He walked out of the team's camp in Copenhagen on September 30 after a dispute with coach <b>Jorge Jesus</b>. The rules allow a ban of one to six months.",
+      "sources": [
+        "https://www.euronews.com/2026/10/10/cristiano-ronaldo-suspended-by-portuguese-fa-for-leaving-training-camp",
+        "https://worldsoccertalk.com/news/cristiano-ronaldo-hit-with-preventive-suspension-as-portugal-investigates-shock-camp-exit-possible-ban-length-and-when-he-could-return/"
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether President Trump decides to join Saudi strikes on the Houthis in Yemen.",
+        "Whether India's Election Commission answers the protesters, or more rallies follow."
+      ],
+      "title": "WHAT TO WATCH NEXT"
+    },
+    "quote": {
+      "text": "A court is a promise that the powerful and the powerless must answer the same questions."
+    },
+    "sign_off": {
+      "text": "You are not just reading the news — you are learning to think about it. See you in two days."
+    }
+  },
+  "sources": [
+    "https://manifestlaw.com/news/dol-halts-perm-news-10-08-26",
+    "https://www.newsbytesapp.com/news/business/indian-rupee-slips-to-96-78-as-rbi-turns-more-hawkish/story",
+    "https://www.usnews.com/news/world",
+    "https://www.arabnews.com/world/eight-killed-including-3-children-in-russian-strikes-ukrainian-authorities-3005580"
+  ]
+}
