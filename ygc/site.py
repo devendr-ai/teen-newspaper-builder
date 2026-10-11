@@ -26,6 +26,9 @@ def site_config():
     cfg.setdefault("base_url", "")
     cfg.setdefault("contact", "")
     cfg.setdefault("keep_issues", 30)
+    cfg.setdefault("intro_title", "")
+    cfg.setdefault("intro", "")
+    cfg.setdefault("steps", [])
     return cfg
 
 
@@ -36,10 +39,9 @@ def audience(ed):
     a = str(ed["reader"]["age"])
     try:
         n = int(a.split("-")[0])
-        return "Ages 6–8" if n <= 8 else "Ages 9–11" if n <= 11 else "Ages 12–14" if n <= 14 else \
-               "Ages 15–18" if n <= 18 else "Adults"
+        return "Ages 6–8" if n <= 8 else "Ages 9–11" if n <= 11 else "Ages 12–14" if n <= 14 else "Ages 15+"
     except ValueError:
-        return "Professionals" if "prof" in a else "Adults"
+        return "Ages 15+"
 
 
 def length_band(n):
@@ -116,6 +118,11 @@ table{width:100%;border-collapse:collapse;font-size:.95rem}td,th{text-align:left
 details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
 .lede{display:grid;grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:24px;margin-bottom:28px;align-items:start}
 @media (max-width:640px){.lede{grid-template-columns:minmax(0,1fr)}}
+.intro{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:18px 20px;margin:0 0 24px}
+.intro h2{font-size:1.45rem;margin-bottom:6px}.intro p{margin:0 0 12px;max-width:72ch}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px;margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{counter-increment:s;padding-left:34px;position:relative;font-size:.95rem}
+.steps li::before{content:counter(s);position:absolute;left:0;top:-1px;width:24px;height:24px;border-radius:50%;background:var(--cyan);color:var(--paper);font-weight:700;display:grid;place-items:center;font-size:.85rem}
 footer{margin-top:40px;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line);padding-top:14px}
 """
 
@@ -217,14 +224,22 @@ document.querySelectorAll('.frow button').forEach(b=>b.addEventListener('click',
   let shown=0;document.querySelectorAll('.card').forEach(c=>{const ok=Object.entries(st).every(([k,v])=>!v||c.dataset[k]===v);c.hidden=!ok;if(ok)shown++;});
   document.getElementById('none').hidden=shown>0;}));
 </script>"""
-    body = filters + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
+    intro = ""
+    if cfg["intro_title"] or cfg["intro"]:
+        heading = f'<h2>{E(cfg["intro_title"])}</h2>' if cfg["intro_title"] else ""
+        text = f'<p>{E(cfg["intro"])}</p>' if cfg["intro"] else ""
+        steps = "".join(f"<li>{E(x)}</li>" for x in cfg["steps"])
+        steps = f'<ol class="steps">{steps}</ol>' if steps else ""
+        intro = f'<section class="intro">{heading}{text}{steps}</section>'
+    body = intro + filters + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
     about = f"""<h2 style="font-size:2rem;margin-bottom:10px">How it's made</h2><div style="max-width:68ch">
-<p>Each paper is defined by its reader: their age, what the paper is for, which countries and topics it covers, how long it is and how often it comes out.</p>
-<p><b>Every morning</b> an AI research desk (Claude, by Anthropic) searches the news for each topic once. Only facts that point to a page the search actually returned are kept. Each paper is then written from that verified research alone, in language suited to its reader.</p>
-<p><b>Before anything is published</b>, automatic checks confirm every section is complete, the layout fits, nothing is cut off, and every story lists its sources. A separate fact-check compares each claim with the research. An issue that fails isn't published, and the previous issue stays up.</p>
-<p><b>It can still be wrong.</b> AI makes mistakes and early reports change. Every issue lists its sources on its paper's page, so you can check anything.{f' To report an error, email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>.' if cfg.get("contact") else ""}</p>
-<p>You can <a href="builder.html">design your own paper</a> and run it yourself: the engine is open source.</p></div>"""
+<p>Each paper is written for one kind of reader: their age, what the paper is for, which countries and topics it covers, how long it is and how often it comes out.</p>
+<p><b>Written for their age.</b> Age changes the vocabulary, the explanations and the size of the type, never the standard of accuracy. Hard news such as wars and disasters is reported honestly but without graphic detail; papers for the youngest readers say what happened and who is helping. New words are explained, and many papers end with questions to talk about together.</p>
+<p><b>Built from verified research.</b> An AI research desk (Claude, by Anthropic) searches the news for each topic. Only facts that point to a page the search actually returned are kept, and each paper is written from that research alone.</p>
+<p><b>Checked before it is published.</b> Automatic checks confirm every section is complete, the layout fits the printed page, nothing is cut off, and every story lists its sources. A separate fact-check compares each claim with the research. An issue that fails isn't published, and the previous issue stays up.</p>
+<p><b>It can still be wrong.</b> AI makes mistakes and early reports change. Every issue lists its sources on its paper's page, so you can check anything before handing it over.{f' To report an error, email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>.' if cfg.get("contact") else ""}</p>
+<p>You can <a href="builder.html">design a paper for your own child</a> and run it yourself: the engine is open source.</p></div>"""
     open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
@@ -234,5 +249,5 @@ document.querySelectorAll('.frow button').forEach(b=>b.addEventListener('click',
     return out
 
 
-FACET_ORDER = {"Ages 6–8": 1, "Ages 9–11": 2, "Ages 12–14": 3, "Ages 15–18": 4, "Adults": 5, "Professionals": 6,
+FACET_ORDER = {"Ages 6–8": 1, "Ages 9–11": 2, "Ages 12–14": 3, "Ages 15+": 4,
                "1 page": 1, "2 pages": 2, "3–4 pages": 3, "5+ pages": 4, "Daily": 1, "Every 2 days": 2, "Weekly": 3}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Design your newspaper — ygc edition builder</title>
+<title>Design a kids' newspaper</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
@@ -129,8 +129,8 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
 <body>
 <div class="wrap">
   <header class="top">
-    <h1>Design your newspaper</h1>
-    <p>Choose who it's for and what it covers. You get a ready-to-use edition file for the ygc engine, and a proof of how every page will be laid out. Accuracy and sourcing rules stay the same whatever you choose.</p>
+    <h1>Design a paper for your child</h1>
+    <p>Choose your child's age and what the paper should cover. You get a proof of how every page will be laid out, and a ready-to-use edition file for the open-source engine that writes these papers. Accuracy and sourcing rules stay the same whatever you choose.</p>
   </header>
 
   <div class="presets" id="presets"><span>Start from</span></div>
@@ -239,10 +239,9 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
   const $ = (id) => document.getElementById(id);
   const PAGES = [
     [1, "One page", "Just the essentials"], [2, "Two pages", "Compact daily paper"],
-    [4, "Four pages", "More regions, explainers, a learning page"], [6, "Six pages", "Wide coverage, bigger quiz"],
-    [8, "Eight pages", "Chapters, analysis and a features page"]];
+    [4, "Four pages", "More regions, explainers, a learning page"]];
   const AGE_DESC = { "6-8": "Simple, gentle, big type", "9-11": "Curious upper elementary", "12-14": "Middle school, never childish",
-    "15-18": "Sophisticated analysis", "adult": "General-interest reader", "pro": "Specialist, implications first" };
+    "15-18": "Sophisticated analysis, exam-ready" };
   const DEPTH_DESC = { quick: "Headlines, key facts, why it matters", balanced: "Context so you could explain it",
     deep: "Evidence and competing perspectives" };
   const CAD = [["daily", "Daily", "Last 24 hours"], ["two_day", "Every two days", "Last 48 hours"], ["weekly", "Weekly", "Last 7 days"]];
@@ -303,8 +302,7 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     chips($("topics"), "topic", Object.entries(G.TOPICS).map(([k, t]) => [k, t.name]), (t) => st.topics.includes(t),
       (t, on) => { st.topics = on ? [...st.topics, t] : st.topics.filter((x) => x !== t); });
     const em = effectiveModules();
-    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); },
-      (m) => m === "vocab" && st.age === "pro");
+    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); });
     renderCustom();
     $("name").value = st.name || ""; $("exactAge").value = st.exactAge || "";
     $("location").value = st.location || ""; $("profile").value = st.profile || G.AGES[st.age].profile;
@@ -352,7 +350,7 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     }
     $("copy").disabled = false;
     const a = G.AGES[st.age], p = G.PURPOSES[st.purpose];
-    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${({ adult: "adults", pro: "professionals" }[st.age] || a.label.toLowerCase().replace("ages", "ages"))}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
+    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${a.label.toLowerCase()}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
     $("facts").innerHTML = [[r.stats.pages, r.stats.pages === 1 ? "page" : "pages"], [r.stats.stories, "stories"],
       [r.stats.desks, r.stats.desks === 1 ? "desk" : "desks"], [`~${r.stats.minutes}`, "min read"]]
       .map(([n, l]) => `<li><b>${n}</b> ${l}</li>`).join("");

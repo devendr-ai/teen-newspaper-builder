@@ -7,8 +7,8 @@ installed on your computer.
 
 **What it costs:** GitHub Pages and Actions are free for public repositories.
 The AI is paid per use through your Claude API account. Expect very roughly
-$5–10 on a day when around ten of the fifteen papers are due, so roughly
-$150–300 a month for the full catalog. Fewer or less frequent papers cost
+$3–6 on a typical day for the nine-paper catalog (about five papers are due
+on an average day), so roughly $90–180 a month. Fewer or less frequent papers cost
 proportionally less. Every run records its actual cost in `data/runs/`, and a
 daily cap stops spending if a run goes over.
 

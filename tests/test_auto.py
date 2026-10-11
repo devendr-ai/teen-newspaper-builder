@@ -102,12 +102,12 @@ def test_nothing_due_twice_on_the_same_day(sandbox):
 
 
 def test_off_day_issue_does_not_make_a_weekly_paper_skip_its_day(tmp_path):
-    ed = copy.deepcopy(edition.load("asia-watch"))              # weekly, pinned to Friday
+    ed = copy.deepcopy(edition.load("little-explorers"))        # weekly, pinned to Saturday
     ed["_dir"] = str(tmp_path)
     os.makedirs(tmp_path / "issues" / "2026")
-    (tmp_path / "issues" / "2026" / "2026-10-10.json").write_text('{"issue": 1}')   # a Saturday
-    days = {d: run.is_due(ed, run.dt.date(2026, 10, d)) for d in range(10, 24)}
-    assert [d for d, due in days.items() if due] == [16, 23]    # the following Fridays, no skip
+    (tmp_path / "issues" / "2026" / "2026-10-11.json").write_text('{"issue": 1}')   # a Sunday
+    days = {d: run.is_due(ed, run.dt.date(2026, 10, d)) for d in range(11, 25)}
+    assert [d for d, due in days.items() if due] == [17, 24]    # the following Saturdays, no skip
 
 
 def test_budget_cap_stops_spending(sandbox):

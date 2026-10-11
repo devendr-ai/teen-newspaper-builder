@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Design your newspaper — ygc edition builder</title>
+<title>Design a kids' newspaper</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
@@ -129,8 +129,8 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
 <body>
 <div class="wrap">
   <header class="top">
-    <h1>Design your newspaper</h1>
-    <p>Choose who it's for and what it covers. You get a ready-to-use edition file for the ygc engine, and a proof of how every page will be laid out. Accuracy and sourcing rules stay the same whatever you choose.</p>
+    <h1>Design a paper for your child</h1>
+    <p>Choose your child's age and what the paper should cover. You get a proof of how every page will be laid out, and a ready-to-use edition file for the open-source engine that writes these papers. Accuracy and sourcing rules stay the same whatever you choose.</p>
   </header>
 
   <div class="presets" id="presets"><span>Start from</span></div>
@@ -255,14 +255,6 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
                level: "High school. Adult news vocabulary, with technical terms defined on first use.",
                voice: "Direct and analytical. Show the evidence, name the trade-offs and present competing arguments fairly.",
                profile: "A high-school student building a serious understanding of the world." },
-    "adult": { label: "Adult", scale: 0.95, wpm: 240, vocab: 3, kid: false,
-               level: "General adult reader.",
-               voice: "Plain, precise and fair-minded. Respect the reader's time: lead with what changed and why it matters.",
-               profile: "A general-interest adult reader." },
-    "pro":   { label: "Professional", scale: 0.9, wpm: 250, vocab: 0, kid: false,
-               level: "Specialist. Assume domain knowledge; never explain the basics.",
-               voice: "Concise and decision-oriented. Lead with implications, quantify where possible, flag uncertainty explicitly.",
-               profile: "A professional who needs the implications, not the basics." },
   };
 
   const PURPOSES = {
@@ -282,11 +274,6 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
               "Understanding of why events matter, not just what happened.",
               "Regular self-testing through quizzes."],
       modules: { vocab: true, dyk: true, watchlist: true, quote: false, sports: false, explainer: true, quiz: true, discussion: false } },
-    pro: { label: "Professional and business intelligence",
-      lines: ["What changed in the window and what it means for decisions.",
-              "Quantified implications for markets, policy and operations.",
-              "Early signals worth monitoring."],
-      modules: { vocab: false, dyk: false, watchlist: true, quote: false, sports: false, explainer: false, quiz: false, discussion: false } },
     family: { label: "Family-friendly daily briefing",
       lines: ["A shared picture of the day's news for every age at the table.",
               "Something to talk about together.",
@@ -362,8 +349,6 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     const topics = (o.topics || []).filter((t) => TOPICS[t]);
     if (!geos.length && !topics.length) errors.push("Choose at least one country, region or topic to cover.");
     for (const g of geos) if (!printable(g)) errors.push(`"${g}" uses characters the PDF fonts can't print.`);
-    if (o.purpose === "pro" && age && age.kid)
-      errors.push("A professional-intelligence paper for young children is contradictory. Pick an older reader or another purpose.");
     if (o.purpose === "exam" && (o.age === "6-8"))
       warnings.push("Exam preparation for ages 6–8 is unusual; the quiz will be kept short and gentle.");
     if (errors.length) return { errors, warnings };
@@ -413,7 +398,7 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     const featurePage = pages >= 7;
     if (m.explainer || featurePage || (o.depth === "deep" && pages >= 6)) tail.push(["explainer", { type: "feature", label: kid ? "HOW IT WORKS" : "EXPLAINER",
       brief: "Background behind one of this issue's stories, from well-established facts.", sources: false }]);
-    if (featurePage || (o.purpose === "pro" || o.depth === "deep") && pages >= 4) tail.push(["analysis", { type: "feature", label: "THE BIG PICTURE",
+    if (featurePage || o.depth === "deep" && pages >= 4) tail.push(["analysis", { type: "feature", label: "THE BIG PICTURE",
       brief: "Analysis connecting several of this issue's stories, with the evidence and the strongest competing perspectives." }]);
     const quizN = o.purpose === "exam" || pages >= 6 ? 8 : 5;
     if (m.quiz) tail.push(["quiz", { type: "feature", label: "QUIZ",
@@ -423,8 +408,7 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     if (m.sports) tail.push(["sports", { type: "sports" }]);
     if (m.watchlist) tail.push(["watchlist", { type: "watchlist", count: pages >= 4 ? 3 : 2, title: cad.watch }]);
     if (m.quote) tail.push(["quote", { type: "quote" }]);
-    const signText = kid ? `Keep exploring. ${cad.see}` : age === AGES.pro || o.age === "adult" ? `Thanks for reading. ${cad.see}`
-                   : `You are not just reading the news — you are learning to think about it. ${cad.see}`;
+    const signText = kid ? `Keep exploring. ${cad.see}` : `You are not just reading the news — you are learning to think about it. ${cad.see}`;
     tail.push(["sign_off", { type: "sign_off", text: signText }]);
     for (const [id, b] of tail) blocks[id] = b;
     const tailIds = tail.map((t) => t[0]);
@@ -495,7 +479,7 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
         plan.push({ banner: `<b>PAGE ${storyPages + 1}</b>  •  ${kid ? "Go deeper" : "Analysis"}`, columns: [["explainer"], ["analysis"]] });
         mods = mods.filter((id) => id !== "explainer" && id !== "analysis");
       }
-      const closingBanner = `<b>PAGE ${pages}</b>  •  ${o.purpose === "pro" ? "Briefing" : kid ? "Learn and play" : "Your toolkit"}`;
+      const closingBanner = `<b>PAGE ${pages}</b>  •  ${kid ? "Learn and play" : "Your toolkit"}`;
       let closing;
       if (closingStories === 2) {
         const [a, b] = balance(mods.filter((id) => id !== "rule"), blocks);
@@ -606,11 +590,11 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     y.push("masthead:");
     y.push(`  title: ${q(mastTitle)}`);
     if (subtitle) y.push(`  subtitle: ${subtitle}`);
-    y.push(`  tagline: ${q(o.tagline || defaultTagline(o.purpose))}`);
+    y.push(`  tagline: ${q(o.tagline || defaultTagline(o.purpose, o.cadence))}`);
     y.push(`  location: ${q(o.location || "Washington, USA")}`);
     y.push("");
     y.push("reader:");
-    y.push(`  age: ${q(o.exactAge || o.age.replace("pro", "adult professional"))}`);
+    y.push(`  age: ${q(o.exactAge || o.age)}`);
     y.push(`  profile: ${q(o.profile || age.profile)}`);
     y.push(`  reading_level: ${q(age.level)}`);
     y.push("");
@@ -627,10 +611,9 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     y.push("style:");
     y.push(`  type_scale: ${age.scale}`);
     y.push("");
-    if (kid || o.purpose === "pro") {
+    if (kid) {
       y.push("labels:");
-      if (kid) { y.push(`  why: "WHY IT MATTERS"`); y.push(`  vocab_title: "New words this time"`); }
-      if (o.purpose === "pro") { y.push(`  why: "WHAT IT MEANS"`); y.push(`  analyst: "WHAT TO WATCH FOR"`); y.push(`  briefs: "IN BRIEF"`); }
+      y.push(`  why: "WHY IT MATTERS"`); y.push(`  vocab_title: "New words this time"`);
       y.push("");
     }
     y.push("teaching:");
@@ -718,10 +701,10 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
   }
   function listJoin(a) { return a.length <= 1 ? (a[0] || "") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1]; }
   function nice(id) { return id.replace(/_/g, " "); }
-  function defaultTagline(p) {
+  function defaultTagline(p, cadence) {
     return { global: "News that helps you think like a global thinker.", school: "The news, connected to what you learn.",
-             exam: "The news you need to know, and remember.", pro: "What changed, and what it means.",
-             family: "The day's news, for everyone at the table." }[p];
+             exam: "The news you need to know, and remember.",
+             family: cadence === "daily" ? "The day's news, for everyone at the table." : "The news, for everyone at the table." }[p];
   }
   function yamlInline(v) {
     if (Array.isArray(v)) return `[${v.join(", ")}]`;
@@ -746,15 +729,9 @@ const PRESETS = {
   "science-learner": { label: "Science learner", name: "The Lab Notebook", pages: 4, age: "12-14", purpose: "school", depth: "balanced",
     geos: ["World"], topics: ["science", "climate", "health", "history"], cadence: "weekly", language: "en",
     location: "Washington, USA", timezone: "America/Los_Angeles", modules: {} },
-  "world-affairs-adult": { label: "World affairs, adult", name: "The Global Ledger", pages: 6, age: "adult", purpose: "global", depth: "deep",
-    geos: ["World", "United States", "United Kingdom", "Europe", "China", "Middle East"], topics: ["politics", "economics", "business"],
-    cadence: "daily", language: "en", location: "Washington, USA", timezone: "America/Los_Angeles", modules: { sports: false, vocab: false } },
   "exam-prep-india": { label: "Exam prep, India", name: "The Current Affairs Digest", pages: 4, age: "15-18", purpose: "exam", depth: "balanced",
     geos: ["India", "World"], topics: ["politics", "economics", "science", "history"], cadence: "daily", language: "en",
     location: "New Delhi, India", timezone: "Asia/Kolkata", modules: {} },
-  "executive-brief": { label: "Executive brief", name: "The Morning Signal", pages: 2, age: "pro", purpose: "pro", depth: "quick",
-    geos: ["United States", "World", "China"], topics: ["business", "economics", "science"], cadence: "daily", language: "en",
-    location: "Seattle, USA", timezone: "America/Los_Angeles", modules: {} },
 };
 
 
@@ -763,10 +740,9 @@ const PRESETS = {
   const $ = (id) => document.getElementById(id);
   const PAGES = [
     [1, "One page", "Just the essentials"], [2, "Two pages", "Compact daily paper"],
-    [4, "Four pages", "More regions, explainers, a learning page"], [6, "Six pages", "Wide coverage, bigger quiz"],
-    [8, "Eight pages", "Chapters, analysis and a features page"]];
+    [4, "Four pages", "More regions, explainers, a learning page"]];
   const AGE_DESC = { "6-8": "Simple, gentle, big type", "9-11": "Curious upper elementary", "12-14": "Middle school, never childish",
-    "15-18": "Sophisticated analysis", "adult": "General-interest reader", "pro": "Specialist, implications first" };
+    "15-18": "Sophisticated analysis, exam-ready" };
   const DEPTH_DESC = { quick: "Headlines, key facts, why it matters", balanced: "Context so you could explain it",
     deep: "Evidence and competing perspectives" };
   const CAD = [["daily", "Daily", "Last 24 hours"], ["two_day", "Every two days", "Last 48 hours"], ["weekly", "Weekly", "Last 7 days"]];
@@ -827,8 +803,7 @@ const PRESETS = {
     chips($("topics"), "topic", Object.entries(G.TOPICS).map(([k, t]) => [k, t.name]), (t) => st.topics.includes(t),
       (t, on) => { st.topics = on ? [...st.topics, t] : st.topics.filter((x) => x !== t); });
     const em = effectiveModules();
-    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); },
-      (m) => m === "vocab" && st.age === "pro");
+    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); });
     renderCustom();
     $("name").value = st.name || ""; $("exactAge").value = st.exactAge || "";
     $("location").value = st.location || ""; $("profile").value = st.profile || G.AGES[st.age].profile;
@@ -876,7 +851,7 @@ const PRESETS = {
     }
     $("copy").disabled = false;
     const a = G.AGES[st.age], p = G.PURPOSES[st.purpose];
-    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${({ adult: "adults", pro: "professionals" }[st.age] || a.label.toLowerCase().replace("ages", "ages"))}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
+    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${a.label.toLowerCase()}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
     $("facts").innerHTML = [[r.stats.pages, r.stats.pages === 1 ? "page" : "pages"], [r.stats.stories, "stories"],
       [r.stats.desks, r.stats.desks === 1 ? "desk" : "desks"], [`~${r.stats.minutes}`, "min read"]]
       .map(([n, l]) => `<li><b>${n}</b> ${l}</li>`).join("");

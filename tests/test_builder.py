@@ -33,7 +33,6 @@ for (let i = 0; i < 150; i++) cases.push({ id: `rand-${i}`, name: `Paper ${i}`,
 cases.push({ id: "bad-lang", name: "X", pages: 2, age: "12-14", purpose: "global", depth: "quick", cadence: "daily",
              language: "hi", geos: ["India"], topics: [] });
 cases.push({ id: "bad-empty", name: "X", pages: 2, age: "12-14", purpose: "global", depth: "quick", cadence: "daily", geos: [], topics: [] });
-cases.push({ id: "bad-contradiction", name: "X", pages: 2, age: "6-8", purpose: "pro", depth: "quick", cadence: "daily", geos: ["World"], topics: [] });
 console.log(JSON.stringify(cases.map((o) => { const r = G.generate(o); return { id: o.id, pages: o.pages, errors: r.errors, yaml: r.yaml }; })));
 """
 
@@ -68,8 +67,7 @@ def test_every_generated_edition_validates_and_builds(generated, tmp_path, monke
         assert len(PdfReader(pdf).pages) == min(max(int(g["pages"]), 1), 12), g["id"]
 
 
-@pytest.mark.parametrize("case,needle", [("bad-lang", "Unicode font"), ("bad-empty", "at least one"),
-                                         ("bad-contradiction", "contradictory")])
+@pytest.mark.parametrize("case,needle", [("bad-lang", "Unicode font"), ("bad-empty", "at least one")])
 def test_bad_configurations_are_refused(generated, case, needle):
     g = next(x for x in generated if x["id"] == case)
     assert any(needle in e for e in g["errors"]), g["errors"]

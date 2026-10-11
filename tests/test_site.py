@@ -19,8 +19,10 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     page = (ygc / "index.html").read_text(encoding="utf-8")
     assert "aljazeera.com" in page                       # sources are shown to readers
     assert (out / "about.html").exists() and (out / "builder.html").exists() and (out / ".nojekyll").exists()
-    for facet in ("Ages 6–8", "Professionals", "1 page", "5+ pages", "Weekly", "Exam preparation"):
+    for facet in ("Ages 6–8", "Ages 12–14", "Ages 15+", "1 page", "3–4 pages", "Weekly", "Exam preparation"):
         assert f'data-v="{facet}"' in index
+    assert 'data-v="Adults"' not in index and 'data-v="Professionals"' not in index   # a site for ages 6-15+
+    assert 'class="intro"' in index and "Pick your child" in index            # the parents' intro from site.yaml
 
 
 def test_site_shows_a_placeholder_for_papers_without_issues(tmp_path, monkeypatch):
