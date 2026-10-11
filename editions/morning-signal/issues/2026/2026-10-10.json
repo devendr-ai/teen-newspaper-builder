@@ -1,0 +1,153 @@
+{
+  "edition": "morning-signal",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  GULF ENERGY ROUTES",
+      "headline": "Riyadh Airport Strike Puts Saudi Arabia's Last Oil Exit in Play",
+      "deck": "An attack killed 12 at the Saudi capital's main airport. With Hormuz flows 40% below normal, the Red Sea route is now the pressure point.",
+      "body": [
+        "An attack on King Khalid International Airport in Riyadh on Saturday killed at least 12 people and injured 309, according to the Saudi aviation authority. Travellers from Bangladesh, Egypt, Jordan and the United States were among the casualties. It followed a missile strike on the same airport on Thursday that killed three Saudis, including a pilot, claimed by Yemen's Iran-backed Houthis, who then told airlines to stay out of Saudi airspace.",
+        "The Houthis are answering an offensive that Yemen's Saudi-backed government began on October 4 to retake their territory, backed by Saudi-led air strikes on Sanaa, the Houthi-held capital. The UN envoy for Yemen warned on Friday that the country has slid back into full-scale war. Asked whether the US would join in, President Trump said: \"We may.\"",
+        "The wider US-Iran war has no ceasefire in force. A 14-point memorandum expired unextended on August 17, and an open-source tracker reports six straight days of US strikes reaching around Tehran and Semnan, alongside a continuing naval blockade. Fox News counts 11 ships struck in or near Hormuz so far this month. Tehran says it expects a US reply to its latest proposal for a ceasefire and a phased reopening of the strait; Trump rejected an earlier seven-day plan on September 26. At a rally in Syracuse on Friday, he said he was \"about to settle, or win\" the war. Iran's parliament speaker, Mohammad Baqer Qalibaf, has said attacks in the strait will not stop until seven Iranian conditions are met.",
+        "Energy markets are already stretched. Crude exports through the Strait of Hormuz fell to about 8.5 million barrels a day in the week to October 7, roughly 40% below pre-war levels, according to Kpler data, and Gulf tanker freight rates have hit records. Brent settled near $104.50 on Friday, up about two-thirds on a year ago but down about 3% over the past month."
+      ],
+      "map": {
+        "title": "STRAIT OF HORMUZ",
+        "label_top": "IRAN",
+        "label_bottom": "OMAN AND THE UAE (ARABIA)",
+        "footnote": "Crude flows ~40% below pre-war",
+        "caption": "Saudi Arabia has rerouted exports west to the Red Sea, past Yemen."
+      },
+      "why": "Saudi Arabia's workaround for a blocked Hormuz is to pump crude west and ship it through the Red Sea, which can only be reached via the Bab el-Mandeb strait beside Yemen. The Houthis seized the coast along that strait in September. A sustained campaign there would threaten the one Gulf export route still running near capacity. Pricing so far implies traders expect it to hold.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-putin-oil-energy-prices-10-10-26",
+        "https://tradingeconomics.com/commodity/brent-crude-oil",
+        "https://iranwarlive.com/",
+        "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+        "https://www.foxnews.com/live-news/us-iran-war-hormuz-strait-peace-talks-donald-trump-october-4"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  INTERNATIONAL CRIMINAL COURT",
+      "headline": "US Sanctions the ICC Itself, Putting Its Suppliers at Risk",
+      "deck": "Washington designated the whole court, not just officials, hours after a former ICC judge won the Nobel Peace Prize.",
+      "body": [
+        "The ICC, which began work in 2002, is the only permanent international court that tries individuals for genocide, war crimes and crimes against humanity. The Treasury had already sanctioned some of its judges and prosecutors under an executive order President Trump signed in February 2025. On Friday Secretary of State Marco Rubio announced that the US is designating the court as an institution, banning transactions with it and cutting off its resources.",
+        "That widens exposure from named individuals to banks, software and cloud providers, insurers and other firms that serve the court, which is based in The Hague and has 125 member states. Washington cites the court's investigation into abuses in Afghanistan, which could implicate US military and intelligence personnel, and its arrest warrants for Israel's prime minister and former defence minister over Gaza.",
+        "The timing sharpened the reaction. Hours earlier, Navi Pillay, an ICC judge from 2003 to 2008 and later the UN's human rights chief, won the Nobel Peace Prize. President Trump said the US should have received it; Israel's prime minister said the Nobel committee had lost its moral compass.",
+        "Reporting differs on how far the earlier rounds went; one account puts the number of judges and prosecutors already under US sanctions at 13. Trump, speaking at a rally in Syracuse, dismissed Pillay as \"a liberal person who works at the United Nations\". She dedicated her prize to all the survivors of international crimes.",
+        "The court called the designation an assault on the rule of law and urged its member states to act. UN Secretary-General Guterres called it a serious blow, and Japan's prime minister, Sanae Takaichi, a close US ally, said the sanctions are incompatible with Japan's position and that Tokyo will keep pressing Washington while supporting the court's work. Human Rights Watch is already suing in US federal court to overturn the earlier sanctions."
+      ],
+      "illustration": {
+        "title": "THE HAGUE",
+        "subtitle": "Netherlands",
+        "motif": "court",
+        "caption": "Sanctions now reach any business dealing with the court."
+      },
+      "why": "Firms with US exposure that provide services to the ICC face a compliance decision now, and many will exit rather than test the rules. Watch European governments: the EU's blocking statute exists to stop European firms complying with some foreign sanctions, and the court's members will be asked to use it.",
+      "sources": [
+        "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court",
+        "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation",
+        "https://news.un.org/en/story/2026/10/1168562",
+        "https://www.bloomberg.com/news/articles/2026-10-10/takaichi-says-japan-deeply-concerned-by-us-sanctions-on-icc",
+        "https://www.hrw.org/news/2026/10/09/us-sanctions-international-criminal-court",
+        "https://www.axios.com/2026/10/10/trump-nobel-peace-prize-reaction"
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ENERGY AND SANCTIONS",
+      "headline": "Trump Waives Sanctions to Buy Russian Diesel",
+      "deck": "A Treasury licence lets Russian diesel flow until April 2027, weeks after the president signed new Russia sanctions.",
+      "body": [
+        "Diesel is the fuel most exposed to the Gulf war: it moves trucks, ships, trains and farm machinery, and G7 governments released emergency diesel reserves earlier this month as prices soared. President Trump said on Friday that Russia will supply more than 300,000 tons of diesel immediately, 500,000 tons in November and 1 million tons after that, with a further 3 million tons depending on the condition of Russian refineries.",
+        "To allow it, the Treasury issued a general licence waiving sanctions on Russian diesel through April 2027. That reverses course only weeks after Trump signed sweeping new sanctions on Russia. The Kremlin said the call covered global energy markets, Putin said he was confident the move would benefit the global economy, and Putin's envoy Kirill Dmitriev said energy cooperation with the US would continue.",
+        "Ukraine's President Zelensky condemned the deal, warning that easing sanctions without a Russian commitment to de-escalate will only prolong the war. It landed while special envoy Steve Witkoff and Jared Kushner were meeting Ukrainian officials in Miami about a proposal to end the fighting. An Atlantic Council analyst said the volumes are uncertain and too small to address the global diesel shortage.",
+        "Trump framed the deal as part of a wider push. At his Syracuse rally on Friday he paired the Russia-Ukraine war with the Iran war as the two conflicts he was \"about to settle, or win\", and he repeated his claim to have settled eight wars. Fortune called the diesel deal a sharp reversal of US policy.",
+        "The domestic backdrop explains the urgency. The deal comes three weeks before the November 3 midterms, with the labour market cooling: payrolls grew by only 29,000 in September against forecasts of about 84,000, and unemployment edged up to 4.2%. Revisions cut a further 60,000 jobs from July and August, and economists describe a low-hire, low-fire market."
+      ],
+      "chart": {
+        "title": "PROMISED RUSSIAN DIESEL",
+        "subtitle": "Million tons, as announced by Trump",
+        "labels": [
+          "Now",
+          "November",
+          "Next",
+          "Later"
+        ],
+        "values": [
+          0.3,
+          0.5,
+          1.0,
+          3.0
+        ],
+        "max": 3.5,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "The final 3 million tons depends on Russia's refineries."
+      },
+      "why": "Expect pressure on diesel cracks if cargoes actually move, and on European sanctions policy if they do not. The bigger signal is political: with midterms on November 3, fuel prices now outrank sanctions consistency. For Europe, which has spent four years cutting its dependence on Russian fuel, the deal reopens a settled question; for Kyiv, it removes leverage just as peace talks resume.",
+      "sources": [
+        "https://www.axios.com/2026/10/09/trump-putin-diesel-agreement-ukraine-war",
+        "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html",
+        "https://fortune.com/2026/10/09/trump-putin-russian-diesel-deal-zelenskyy-sanctions/",
+        "https://www.pbs.org/newshour/world/trump-strikes-deal-with-putin-for-russian-diesel-in-sharp-reversal-of-u-s-policy-ahead-of-midterms",
+        "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+        "https://www.bls.gov/opub/ted/2026/unemployment-rate-little-changed-at-4-2-percent-in-september-2026.htm"
+      ]
+    },
+    "china": {
+      "kicker": "CHINA  •  EU TRADE",
+      "headline": "Beijing Agrees to Halve Hybrid Car Exports to the EU",
+      "deck": "Brussels gets volume cuts without tariffs. Beijing confirms an understanding but no details.",
+      "body": [
+        "EU Trade Commissioner Maros Sefcovic said on Friday, after two days of talks in Beijing, that China would cut exports of hybrids and plug-in hybrids to the EU by more than half over four years, or several million cars. He called it a crucial first step, but only a first step, and gave no detail on how Beijing would enforce it.",
+        "Chinese makers pivoted to hybrids after the EU's 2024 tariffs of up to 35% on battery-electric cars, which do not apply to hybrids. Eurostat data show EU imports of Chinese plug-in hybrids rose from about 57,000 in all of 2022 to about 218,000 in the first seven months of this year; conventional hybrids jumped from 659 to about 161,000.",
+        "China's commerce ministry confirmed an understanding but gave no details; it had earlier said voluntary export restraints would breach WTO rules. The Commission had been preparing safeguard measures, potentially tariff-rate quotas, and Germany has joined France in backing tougher trade defences. European carmaker shares rose on the news, a sign investors see the deal as easing price pressure at home.",
+        "The backdrop is a record imbalance: in 2025 the EU exported €199.6 billion of goods to China and imported €559.4 billion, a deficit of €359.8 billion, or roughly €1 billion a day. China, for its part, is slowing: growth eased to 4.3% in the second quarter from 5.0% in the first.",
+        "The Peterson Institute expects China's growth to slow further next year as export strength fades and domestic demand stays weak. Beijing has also proposed its first labour rules for platform workers such as delivery riders, including a requirement that pay cycles not exceed one month."
+      ],
+      "illustration": {
+        "title": "EU-CHINA TRADE",
+        "subtitle": "Beijing talks",
+        "motif": "ship",
+        "caption": "The EU ran a record €360 billion goods deficit with China in 2025."
+      },
+      "why": "A voluntary restraint lets Chinese exporters keep the price premium that a tariff would hand to EU budgets. Watch whether Brussels still files safeguard quotas as a backstop. The deal is also a template: if Beijing accepts volume cuts on hybrids, Brussels may try the same approach in other sectors where Chinese imports are surging.",
+      "also": [
+        "The central bank rejected claims it is holding down the yuan, saying it has no need to devalue to support exports.",
+        "Refined fuel exports resume after Golden Week, with about 3.7 million tons approved for October."
+      ],
+      "sources": [
+        "https://www.cnbc.com/2026/10/09/china-europe-hybrid-vehicle-exports-deal.html",
+        "https://www.autonews.com/regulation-safety/ane-china-to-halve-hybrid-auto-exports-to-eu-0910/",
+        "https://asiatimes.com/2026/10/chinas-hybrid-ev-surge-widens-trade-rift-with-eu-over-quotas/",
+        "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260410-2",
+        "https://money.usnews.com/investing/news/articles/2026-10-08/china-to-resume-october-fuel-exports-after-a-brief-halt-four-trade-sources-say",
+        "https://www.japantimes.co.jp/business/2026/10/10/economy/china-eu-hybrid-exports/",
+        "https://www.scmp.com/news/china/diplomacy/article/3369965/chinas-economy-slow-global-growth-stays-solid-us-think-tank-report-says"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Markets: the S&amp;P 500 rose 0.6% to 7,811.54 on Friday, capping a record-setting week, as the 10-year Treasury yield ended around 5.24%.",
+        "Telecoms: SpaceX agreed to buy Grain Management's 800 MHz spectrum for about $8 billion for Starlink Mobile; AT&amp;T, Verizon and T-Mobile fell while tower stocks rose."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Washington joins Saudi strikes on the Houthis, and tanker rates on the Red Sea route.",
+        "EU leaders' summit on October 15-16: China trade defences and the response to the US-Russia diesel deal."
+      ]
+    },
+    "sign_off": {
+      "text": "Thanks for reading. See you tomorrow."
+    }
+  },
+  "sources": []
+}

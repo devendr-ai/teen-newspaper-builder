@@ -1,0 +1,70 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Attacks Hit a Big Airport in Saudi Arabia",
+      "deck": "A war next door in Yemen has reached Saudi Arabia's capital. The United States may join in.",
+      "body": [
+        "Saudi Arabia is a large desert country in the Middle East. On Saturday, an attack hit the main airport in its capital city, Riyadh. Saudi officials said 12 people were killed and 309 were hurt, including travellers from Bangladesh, Egypt, Jordan and the United States.",
+        "The likely attackers are the Houthis, a rebel group that controls the north of Yemen, Saudi Arabia's neighbour to the south. The Houthis get help from Iran. Two days earlier, they said they fired a missile at the same airport.",
+        "The Houthis say they are hitting back. Since October 4, Yemen's government, with Saudi help, has been fighting to take back Houthi land. Asked if America would join the fight, President Trump said, \"We may.\""
+      ],
+      "map": {
+        "title": "BAB EL-MANDEB STRAIT",
+        "label_top": "YEMEN (ARABIAN PENINSULA)",
+        "label_bottom": "DJIBOUTI AND ERITREA (AFRICA)",
+        "footnote": "About 30 km of water at its narrowest point",
+        "caption": "Ships sailing between the Red Sea and the Indian Ocean must pass Yemen."
+      },
+      "why": "Yemen sits beside a narrow sea passage called a strait. Ships carrying oil and goods squeeze through it every day. When fighting comes close to a passage like this, ships may have to slow down or go the long way, and fuel and goods can cost more far away.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  THE PACIFIC OCEAN",
+      "headline": "The Pacific Ocean Has a Record Fever",
+      "deck": "A warm-water pattern called El Niño is heading for its strongest level ever measured.",
+      "body": [
+        "Every few years, the winds over the Pacific Ocean get weaker. Warm water then spreads east toward South America. Scientists call this El Niño, which means \"the boy\" in Spanish.",
+        "This El Niño is on track to be the strongest ever measured. The UN's weather agency expects the ocean to be 3.7 degrees Celsius warmer than normal from October to December. The old record, from 2015, was 2.6 degrees.",
+        "Scientists say it is almost certain to last until February."
+      ],
+      "chart": {
+        "title": "HOW WARM IS THE PACIFIC?",
+        "subtitle": "Degrees Celsius above normal",
+        "labels": ["June", "August", "2015", "Forecast"],
+        "values": [1.6, 2.5, 2.6, 3.7],
+        "max": 4,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "2015 was the old record. The forecast is for October to December."
+      },
+      "why": "El Niño changes the weather far away. It can bring floods to some places and dry spells to others, so farmers and cities get ready when it comes.",
+      "sources": [
+        "https://wmo.int/news/media-centre/sea-surface-temperatures-reflect-strengthening-el-nino",
+        "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+        "https://bostonglobe.com/2026/10/08/metro/2026-super-el-nino-strength-record"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Hurricane Isaias hit Florida on Friday with winds of 105 miles an hour. At least four people died, and hundreds of thousands of homes lost power.",
+        "Peace prize: Navi Pillay, a judge from South Africa who fought unfair laws, won the Nobel Peace Prize."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the United States joins the fighting in Yemen.",
+        "How quickly power comes back along the Gulf Coast after Isaias."
+      ]
+    }
+  },
+  "sources": []
+}

@@ -1,0 +1,144 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Yemen's War Reaches Saudi Arabia's Capital",
+      "deck": "An attack on Riyadh's main airport killed 12 people. President Trump says America may get involved.",
+      "body": [
+        "Airports are supposed to be busy, ordinary places. On Saturday, the main airport in Riyadh, the capital of Saudi Arabia, was attacked. Saudi officials said 12 people were killed and 309 were hurt.",
+        "The likely attackers are the Houthis, a rebel group backed by Iran that has controlled the north of Yemen, Saudi Arabia's southern neighbour, since 2014. On Thursday they said they had fired a missile at the same airport, and warned airlines to stay out of Saudi skies.",
+        "Their attacks answer a new fight inside Yemen. Since October 4, Yemen's Saudi-backed government has been trying to take back Houthi land.",
+        "Asked whether America would join in, President Trump said, \"We may. We're going to look at it.\""
+      ],
+      "map": {
+        "title": "BAB EL-MANDEB STRAIT",
+        "label_top": "YEMEN (ARABIAN PENINSULA)",
+        "label_bottom": "DJIBOUTI AND ERITREA (AFRICA)",
+        "footnote": "About 30 km of water at its narrowest point",
+        "caption": "Ships between the Red Sea and the Indian Ocean pass along Yemen's coast."
+      },
+      "why": "Yemen's coast lines one of the world's busiest sea lanes. Ships carrying oil and goods between Asia and Europe squeeze through the narrow Bab el-Mandeb strait. With the Iran war closing another route, the Strait of Hormuz, Saudi Arabia has been sending its oil out this way. Fighting near the strait can make fuel and goods cost more far from Yemen.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+        "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EL NIÑO",
+      "headline": "The Pacific Heads for Its Warmest El Niño on Record",
+      "deck": "Scientists expect the ocean to be warmer than ever measured by the end of the year.",
+      "body": [
+        "Every few years, the trade winds that blow across the Pacific Ocean get weaker. Warm water that usually piles up near Asia then spreads east toward South America. This is called El Niño.",
+        "This one is breaking records. The World Meteorological Organization, the UN's weather agency, expects the central Pacific to be 3.7 degrees Celsius warmer than normal from October to December. The old record, set in the winter of 2015, was 2.6 degrees.",
+        "The agency says it is almost certain to last until February. The US weather agency gives an 83% chance that this will be the strongest El Niño since records began in 1950.",
+        "Its effects reach far beyond the ocean. Strong El Niños have brought floods to some regions and droughts to others, so countries are already preparing."
+      ],
+      "chart": {
+        "title": "HOW WARM IS THE PACIFIC?",
+        "subtitle": "Degrees Celsius above normal, central Pacific",
+        "labels": [
+          "June",
+          "August",
+          "2015",
+          "Forecast"
+        ],
+        "values": [
+          1.6,
+          2.5,
+          2.6,
+          3.7
+        ],
+        "max": 4,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "2015 held the old record. The forecast covers October to December."
+      },
+      "connect": "El Niño may explain something about this year's hurricanes. When it is strong, winds high above the Atlantic tend to blow the tops off growing storms, so fewer hurricanes form there. This year, the Atlantic's first hurricane did not arrive until October: Isaias, which hit Florida on Friday.",
+      "sources": [
+        "https://wmo.int/news/media-centre/sea-surface-temperatures-reflect-strengthening-el-nino",
+        "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+        "https://www.npr.org/sections/climate"
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  HURRICANE ISAIAS",
+      "headline": "Isaias Knocks Out Power Across the South",
+      "deck": "The first Atlantic hurricane of the year came ashore in Florida. At least four people died.",
+      "body": [
+        "A hurricane is a storm with winds of at least 74 miles an hour. Isaias reached land near Destin, on Florida's Panhandle, late on Friday, with winds of 105 miles an hour.",
+        "It then weakened as it moved inland over Alabama and Georgia. More than 858,000 homes and businesses lost power at one point. At least four people died, two in Florida and two in Alabama. Two were killed by falling trees.",
+        "By Saturday night, power was back for about half of them. Alabama Power said more than 5,000 extra repair crews were arriving from nearly 25 states."
+      ],
+      "why": "Storms keep causing harm after the wind dies down. Fallen trees, flooded roads and power cuts are dangerous, and a generator run indoors can fill a home with poisonous fumes. That is why officials tell families to stay careful for days afterwards.",
+      "also": [
+        "The US placed sanctions on the International Criminal Court, the world court that tries people accused of war crimes.",
+        "SpaceX agreed to buy airwaves for about $8 billion so its Starlink phone service can work indoors."
+      ],
+      "sources": [
+        "https://weather.com/2026/10/10/storms/hurricane/liveblogs/live-updates-isaias-pushes-across-southeast",
+        "https://www.fox10tv.com/2026/10/10/isaias-leaves-2-dead-widespread-outages-after-category-2-landfall-near-destin/",
+        "https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/",
+        "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court",
+        "https://www.axios.com/2026/10/09/spacex-8-billion-spectrum"
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ELECTIONS",
+      "headline": "Delhi Closes Train Stations to Stop a Youth Protest",
+      "deck": "Young people are angry that millions of names have been cut from India's lists of voters.",
+      "body": [
+        "Before anyone can vote, their name has to be on an official list. India, with about a billion voters, has spent more than a year checking its lists, and more than 130 million names have been removed.",
+        "Opposition parties say many real voters were struck off to help Prime Minister Modi's party. The Election Commission, which runs India's elections, and Modi's party deny doing anything wrong.",
+        "On Saturday, a youth group called a rally in New Delhi. Police refused permission, shut 57 metro stations and detained thousands of people.",
+        "The protesters want the chief election commissioner, Gyanesh Kumar, to resign. Pressure on him grew after a newspaper reported that his own deputies had disagreed with him about how the lists were checked."
+      ],
+      "why": "Removing people who have died or moved away keeps a voter list accurate. Removing real voters would be unfair. From the outside the two can look alike, which is why people need to trust whoever keeps the list.",
+      "sources": [
+        "https://www.arabnews.pk/world/delhi-sealed-off-ahead-of-youth-protest-against-indian-election-chief-3003734",
+        "https://thefinancialexpress.com.bd/world/pressure-mounts-on-india-poll-chief-gyanesh-kumar-over-voter-list-changes",
+        "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Panama: A magnitude 7.7 earthquake damaged more than 400 homes and injured 27 people, and the government declared a state of emergency.",
+        "Nobel Prize: Navi Pillay, a South African judge who fought her country's unfair race laws, won the Nobel Peace Prize."
+      ]
+    },
+    "discussion": {
+      "title": "Questions for the table",
+      "body": [
+        "<b>1.</b> Why might a war in one country spread to its neighbours? What could stop it?",
+        "<b>2.</b> Who should be in charge of the list of voters, and how could everyone be sure it is fair?",
+        "<b>3.</b> If a big storm knocked out your power for three days, what would your family need most?"
+      ]
+    },
+    "sports": {
+      "title": "West Indies chase down 250",
+      "body": "India scored 249 runs in their T20 cricket match in Ranchi on Friday, with <b>Sanju Samson</b> hitting 82. It was not enough. <b>Shai Hope</b> made an unbeaten 102 as the <b>West Indies</b> reached 252 with nine balls to spare, their highest successful chase in this format. The five-match series is now tied 1-1.",
+      "sources": [
+        "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-2nd-t20i-1529231/match-report",
+        "https://www.olympics.com/en/news/india-vs-west-indies-t20-cricket-2026-match-2-report"
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the United States joins Saudi Arabia's fight against the Houthis in Yemen.",
+        "How quickly power comes back for families along the Gulf Coast."
+      ]
+    },
+    "quote": {
+      "text": "I thought it must be a joke.",
+      "by": "Navi Pillay, on hearing she had won the Nobel Peace Prize"
+    },
+    "sign_off": {
+      "text": "Keep exploring. See you tomorrow."
+    }
+  },
+  "sources": []
+}

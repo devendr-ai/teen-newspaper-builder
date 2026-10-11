@@ -1,0 +1,251 @@
+{
+  "edition": "lab-notebook",
+  "date": "2026-10-10",
+  "volume": 1,
+  "issue": 1,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  EL NIÑO",
+      "headline": "The Pacific Is Heading for Its Strongest El Niño Ever Measured",
+      "deck": "A patch of ocean near the equator is forecast to run 3.7°C warmer than normal by the end of the year. The old record, from 2015, was 2.6°C.",
+      "body": [
+        "Most of the time, steady trade winds blow from east to west across the tropical Pacific. They push warm surface water toward Indonesia and Australia, where it piles up, while cold, nutrient-rich water rises off the coast of South America. Every few years those winds weaken. The warm water then sloshes back east, and the weather above it shifts with it. Scientists call this El Niño.",
+        "This year's event is breaking records. The World Meteorological Organization, the UN's weather agency, tracks the temperature of one box of ocean in the central Pacific, called Niño 3.4. It was about 1.6°C above normal in June and 2.5°C in August. For October to December, the agency forecasts about 3.7°C, the highest since measurements began.",
+        "Daily readings have already passed the 2015 peak, the Boston Globe reported. On October 8 the US Climate Prediction Center gave an 83% chance that this will be the strongest El Niño since its records began in 1950, and the WMO says it is almost certain to last until February.",
+        "Different agencies measure it in slightly different ways. The US agency now uses a \"relative\" index that subtracts the ocean's long-term warming, so its numbers run lower. All of them agree on the direction."
+      ],
+      "map": {
+        "title": "THE TROPICAL PACIFIC",
+        "label_top": "ASIA AND AUSTRALIA",
+        "label_bottom": "SOUTH AMERICA",
+        "footnote": "Warm water drifts east when trade winds weaken",
+        "caption": "El Niño shifts the Pacific's warm pool from Asia toward the Americas."
+      },
+      "why": "Where the warmest water goes, rain follows. Strong El Niños have brought droughts to Australia, Indonesia and parts of India and southern Africa, floods to Peru, and wetter winters to the southern United States. They also add heat to the atmosphere, so the year after a big El Niño is often among the hottest on record.",
+      "sources": [
+        "https://wmo.int/news/media-centre/sea-surface-temperatures-reflect-strengthening-el-nino",
+        "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+        "https://bostonglobe.com/2026/10/08/metro/2026-super-el-nino-strength-record"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  HURRICANE ISAIAS",
+      "headline": "The Atlantic's First Hurricane Arrives, Months Late",
+      "deck": "Isaias hit Florida's Panhandle on Friday night. It was the first Atlantic hurricane of a season that had been unusually quiet.",
+      "body": [
+        "A hurricane is a spinning storm with winds of at least 74 miles an hour, fuelled by warm ocean water. Isaias reached land near Destin, Florida, late on Friday as a Category 2 hurricane, with winds of 105 mph. Out at sea, Hurricane Hunter aircraft had measured 120 mph, enough for Category 3.",
+        "Scientists rank hurricanes on the Saffir-Simpson scale, from Category 1 to Category 5, using the strongest wind that lasts at least a minute. Category 3 and above count as \"major\" hurricanes. The scale measures only wind, though, and that can mislead: in most hurricanes, water does more harm than wind, through storm surge, the seawater the wind pushes onto land, and flooding rain.",
+        "It weakened quickly over land, as hurricanes do once they lose their supply of warm water. But it still knocked out power to more than 858,000 homes and businesses in Florida, Alabama and Georgia at its peak. At least four people died, two of them when trees fell onto homes.",
+        "Repairs began at once. Alabama Power said more than 5,000 extra crews were arriving from nearly 25 states, and by Saturday night the number of customers without power had fallen to about 438,000. Not all the danger had passed: one Florida man died in a closed garage with a running generator, which gives off carbon monoxide, a poisonous gas with no smell.",
+        "What made Isaias unusual was its timing. The Atlantic hurricane season runs from June to November, and most years produce several hurricanes before October. This year, Isaias was the first."
+      ],
+      "illustration": {
+        "title": "A LATE-SEASON STORM",
+        "subtitle": "Florida Panhandle",
+        "motif": "flood",
+        "caption": "Storms weaken over land because they lose their warm-water fuel."
+      },
+      "connect": "The quiet season and the record El Niño on page 1 are probably linked. When the Pacific's warm pool shifts east, it changes winds around the world, including the winds high above the Atlantic. Stronger winds up there blow across the tops of growing storms and tear them apart before they can organise, which scientists call wind shear. That is why El Niño years usually bring fewer Atlantic hurricanes, and often more in the eastern Pacific, where Hurricane Simon was forecast to reach Category 4 this weekend as it neared Mexico.",
+      "sources": [
+        "https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/",
+        "https://weather.com/2026/10/10/storms/hurricane/liveblogs/live-updates-isaias-pushes-across-southeast",
+        "https://www.npr.org/sections/climate",
+        "https://www.cnn.com/2026/10/09/weather/live-news/hurricane-isaias-gulf-storm",
+        "https://www.fox10tv.com/2026/10/10/isaias-leaves-2-dead-widespread-outages-after-category-2-landfall-near-destin/",
+        "https://www.ksat.com/news/world/2026/10/09/hurricane-simon-forecast-to-get-much-stronger-as-it-heads-to-mexicos-pacific-coast/"
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  NOBEL PRIZE IN CHEMISTRY",
+      "headline": "A Nobel for Molecules That Come in Left and Right Hands",
+      "deck": "Henri Kagan and Kenso Soai discovered reactions that can favour one mirror-image version of a molecule, and even multiply it.",
+      "body": [
+        "Hold up your hands. They have the same parts in the same order, but you cannot stack one perfectly on top of the other: they are mirror images. Many molecules work the same way. Chemists call this handedness chirality.",
+        "It matters because living things are fussy. Your body is built from left-handed amino acids, and its receptors can tell the two hands of a drug apart, so one hand may heal while the other does nothing, or harm.",
+        "Scientists have known about molecular handedness for a long time. In 1848 the French chemist Louis Pasteur noticed that crystals of a salt from wine came in two mirror-image shapes, and separated them by hand with tweezers. The challenge ever since has been to make only the hand you want, instead of a 50-50 mix.",
+        "On October 7 the Nobel committee honoured Henri Kagan of Université Paris-Saclay and Kenso Soai of the Tokyo University of Science \"for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis\". Kagan showed that a catalyst only slightly biased toward one hand can produce a product strongly biased toward it. Soai found a reaction whose product speeds up the making of more of itself, so a tiny excess of one hand snowballs into almost pure product.",
+        "Soai's reaction offers a clue to one of science's oldest puzzles: why life on Earth uses molecules of only one hand. A small, random imbalance on the early Earth might have been amplified in the same way.",
+        "This is not the first Nobel for that challenge. In 2001 the chemistry prize went to three chemists who invented catalysts that make mostly one hand, methods now used to produce medicines. Kagan was a pioneer of that field; this year's prize honours his discovery that the relationship between a catalyst's purity and the product's purity is not a straight line, and Soai's demonstration that a reaction can copy its own handedness."
+      ],
+      "illustration": {
+        "title": "MIRROR-IMAGE MOLECULES",
+        "subtitle": "Stockholm, Sweden",
+        "motif": "podium",
+        "caption": "The two winners share a prize of 12 million Swedish crowns."
+      },
+      "why": "Getting the hand wrong can be deadly. In the 1950s and 60s, the drug thalidomide was sold as a mixture of both hands, and thousands of babies were born with severe birth defects. Work like Kagan's and Soai's helps chemists make medicines with just the hand they want. Today, medicine regulators expect drug makers to study each hand of a new molecule separately.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+        "https://www.chemistryworld.com/news/reactions-that-demonstrate-how-homochirality-can-emerge-take-chemistry-nobel-prize/4024187.article",
+        "https://cen.acs.org/people/nobel-prize/chemistry-nobel-chirality-kagan-soai/104/web/2026/10",
+        "https://edition.cnn.com/2026/10/07/science/nobel-prize-chemistry-2026-henri-kagan-kenso-soai-winner-intl"
+      ]
+    },
+    "climate_and_environment": {
+      "kicker": "CLIMATE & ENVIRONMENT  •  COP31",
+      "headline": "On Islands Barely Above the Sea, Leaders Prepare to Admit 1.5°C Will Be Passed",
+      "deck": "A meeting in Fiji and Tuvalu set the stage for November's UN climate summit, where Australia will lead the talks.",
+      "body": [
+        "Tuvalu is a nation of nine small islands in the Pacific, most of them only a few metres above the sea. This week its leaders hosted a day of a \"pre-COP\" meeting, held from October 5 to 8 with Fiji and Australia to prepare for COP31, the UN climate summit in Antalya, Turkey, from November 9 to 20. It was Australian Prime Minister Anthony Albanese's first official visit to Tuvalu. There, he said, climate change is not a problem for the future.",
+        "Not everyone came. Only two leaders from outside the Pacific accepted Australia's invitation, and Albanese used the trip to warn Australians to expect an extreme-weather summer, with the record El Niño building nearby. The meeting's message to the world was to close the gap between what countries have promised and what they have actually done.",
+        "The goal at the heart of these talks comes from the 2015 Paris Agreement: keeping global warming well below 2°C, and trying to hold it to 1.5°C, compared with temperatures before the industrial age. COP31's president, Murat Kurum of Turkey, called 1.5°C \"a matter of survival\" for the Pacific.",
+        "Half a degree sounds small, but scientists have measured what it means. The IPCC has estimated that at 1.5°C of warming, 70 to 90% of the world's warm-water coral reefs would decline; at 2°C, more than 99% would. For low islands like Tuvalu, which depend on reefs to protect their shores and feed their people, that difference is the whole argument.",
+        "Yet Australia's climate minister, Chris Bowen, said the summit's main decision could acknowledge that overshooting 1.5°C is now inevitable. The UN's response: \"overshoot is not a reason to surrender\". Every tenth of a degree avoided still means less heat, less sea-level rise and less damage.",
+        "Scientists are working on their next big assessment, too. From October 12 to 16, the UN's climate science panel, the IPCC, meets in Addis Ababa, Ethiopia, to try again to agree a timetable for its next set of reports, which governments use to judge how fast warming is advancing."
+      ],
+      "illustration": {
+        "title": "RISING SEAS",
+        "subtitle": "Tuvalu, Pacific Ocean",
+        "motif": "globe",
+        "caption": "COP31 runs from November 9 to 20 in Antalya, Turkey."
+      },
+      "why": "Admitting a target will be missed changes the conversation from prevention to damage control: how far past 1.5°C, for how long, and who pays to protect places like Tuvalu.",
+      "sources": [
+        "https://www.pm.gov.au/media/pre-cop-leaders-event-fiji-and-tuvalu",
+        "https://www.sprep.org/news/world-leaders-at-pre-cop-urged-to-close-gap-between-commitments-and-delivery",
+        "https://news.un.org/en/story/2026/10/1168555",
+        "https://www.climatechangenews.com/",
+        "https://www.thenewdaily.com.au/opinion/2026/10/02/albanese-domestic-pacific",
+        "https://www.climatechangenews.com/2026/10/01/whats-on-the-climate-calendar-for-october-2026/",
+        "https://www.ipcc.ch/sr15/chapter/spm/"
+      ]
+    },
+    "health": {
+      "kicker": "HEALTH  •  EBOLA",
+      "headline": "Ebola Reaches Kenya in an Outbreak With No Vaccine",
+      "deck": "A traveller from Congo died in Nairobi of the Bundibugyo strain. More than 8,700 people have been confirmed infected since the outbreak began.",
+      "body": [
+        "Ebola disease is caused by several related viruses. It spreads through contact with the blood or body fluids of a sick person, and kills by damaging blood vessels and organs. The current outbreak, centred in the Democratic Republic of the Congo, is caused by one called Bundibugyo virus.",
+        "Like other Ebola viruses, Bundibugyo is thought to live in wild animals, most likely fruit bats, and occasionally to jump into people. It is named after the district in western Uganda where it was first identified in 2007.",
+        "On October 6 Kenya confirmed its first case. The patient, a Kenyan who fell ill while living in Congo, travelled through Uganda and flew to Nairobi on October 3, was isolated on arrival, and died on October 5. Health workers are tracing 28 contacts, including 23 passengers and four crew from the flight. Kenya is the fourth country to report a case, and officials stress there is no outbreak in Kenya itself.",
+        "As of October 6, the World Health Organization counted 8,728 confirmed cases and 4,205 confirmed deaths, mostly in Congo's Ituri and North Kivu provinces. WHO declared the outbreak a global health emergency in May.",
+        "Contact tracing is slow, careful work. Health workers list everyone a patient touched or shared space with, then check on each person every day for 21 days, the longest time it can take for symptoms to appear. In eastern Congo, where armed groups operate, simply reaching those people can be dangerous.",
+        "The hardest part is that there are no approved vaccines or medicines for Bundibugyo. Doctors can only give supportive care, such as fluids and oxygen, while the body fights the virus.",
+        "Elsewhere, disease detectives were busy too. The WHO asked Russia to formally respond to reports of a suspected case of pneumonic plague in a laboratory worker at a research institute in Irkutsk, who died; Russia dismissed reports of a second case as false. In Nigeria's Borno State, a cholera outbreak has passed 68,000 suspected cases."
+      ],
+      "illustration": {
+        "title": "TRACING EVERY CONTACT",
+        "subtitle": "Nairobi, Kenya",
+        "motif": "hospital",
+        "caption": "About 48% of confirmed patients in this outbreak have died."
+      },
+      "why": "Without a vaccine, the oldest tools are the only tools: find every sick person, isolate them, and check on everyone they met for 21 days. One traveller reaching a capital city shows how fast a local outbreak can test that system.",
+      "sources": [
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+        "https://www.health.go.ke/kenya-confirms-first-imported-case-bundibugyo-ebola-virus-disease",
+        "https://afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts",
+        "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information",
+        "https://travelhealthpro.org.uk/outbreaks"
+      ]
+    },
+    "history_and_geography": {
+      "kicker": "HISTORY & GEOGRAPHY  •  PANAMA",
+      "headline": "A 7.7 Earthquake Shakes the Land Bridge Between the Americas",
+      "deck": "The powerful quake damaged hundreds of homes. It struck in one of the most restless corners of the Earth's crust.",
+      "body": [
+        "On Friday at 12:56 pm, a magnitude 7.7 earthquake struck central Panama, near Pitaloza Arriba in Herrera province, about 10 kilometres below the surface. Buildings collapsed near the epicentre, power went out in six provinces, and Tocumen International Airport, a major regional hub, briefly stopped flights.",
+        "About three hours later, a magnitude 6.6 aftershock followed, and more than 170 more aftershocks shook the country by Saturday. Panama's civil protection agency counted 27 injured, no deaths, and damage to more than 426 homes and 21 health facilities. The government declared a state of emergency, and US rescue teams arrived to help.",
+        "The shaking set off alarms across the region. US tsunami warning centres issued alerts for the Pacific coasts of countries from Mexico to Peru. Power cuts also interrupted several water treatment plants.",
+        "Panama sits on the Ring of Fire, the horseshoe of earthquakes and volcanoes around the Pacific Ocean. Beneath it, several of the Earth's tectonic plates grind against each other, and the stress released as they slip is what we feel as an earthquake.",
+        "Panama has been shaken before. In 1882 a powerful earthquake damaged Panama City and the railway across the isthmus, just as French engineers were starting their attempt to dig a canal. That effort failed; the United States finished the Panama Canal in 1914, joining the Atlantic and Pacific for ships."
+      ],
+      "chart": {
+        "title": "TWO BIG SHOCKS",
+        "subtitle": "Magnitude, US Geological Survey",
+        "labels": [
+          "Main quake",
+          "Aftershock"
+        ],
+        "values": [
+          7.7,
+          6.6
+        ],
+        "max": 8,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "The aftershock struck about three hours after the main quake."
+      },
+      "why": "Panama exists because of plate movements. About three million years ago, the rising land of the isthmus joined North and South America, letting animals cross between continents and splitting the Atlantic from the Pacific, which changed ocean currents around the world.",
+      "analyst": "Think like an analyst: the bars look similar, but the magnitude scale is logarithmic. Each whole step means about 32 times more energy, so the main quake released roughly 45 times more energy than the 6.6. Why might scientists use a scale like this?",
+      "sources": [
+        "https://www.cnn.com/2026/10/09/americas/panama-earthquake-latam-intl",
+        "https://www.nbcnews.com/world/panama/magnitude-77-earthquake-rocks-panama-rcna602557",
+        "https://www.rnz.co.nz/news/world/1825882/strong-panama-quake-damages-buildings-disrupts-power-and-air-travel",
+        "https://www.riotimesonline.com/panama-state-of-emergency-earthquake-2026/"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Physics: Francis Halzen won the Nobel Prize for IceCube, a detector buried in Antarctic ice that catches ghostly particles called neutrinos from deep space.",
+        "Medicine: Karl Deisseroth, Peter Hegemann and Georg Nagel won the Nobel Prize for optogenetics, which uses light to switch brain cells on and off.",
+        "Russia: the World Health Organization asked Russia to formally respond to reports of a suspected plague case in a laboratory worker in Irkutsk, who died.",
+        "Saudi Arabia: an attack on Riyadh's main airport killed at least 12 people, as the war in neighbouring Yemen spilled across the border."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Anomaly",
+          "def": "How far a measurement is from its normal value. Today: the Pacific's temperature anomaly may reach 3.7°C."
+        },
+        {
+          "word": "Chirality",
+          "def": "Handedness: having a mirror image you cannot stack on the original. Today: it won the chemistry Nobel."
+        },
+        {
+          "word": "Aftershock",
+          "def": "A smaller earthquake that follows a big one. Today: Panama felt a 6.6 aftershock."
+        },
+        {
+          "word": "Wind shear",
+          "def": "A change in wind speed or direction with height. Today: it may explain the quiet Atlantic hurricane season."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "IceCube, the neutrino detector behind this year's physics Nobel, is buried in Antarctic ice between about 1.5 and 2.5 kilometres deep. Engineers melted holes with hot-water drills and lowered more than 5,000 light sensors on cables before the water froze around them for good."
+    },
+    "explainer": {
+      "title": "How scientists measure an earthquake",
+      "body": [
+        "Seismometers record the ground's shaking as wiggly lines. From the size of those wiggles at stations around the world, scientists calculate the earthquake's magnitude: a single number for how much energy it released.",
+        "Today they use the moment magnitude scale, which replaced the older Richter scale. It is logarithmic: each step up of 1 means about 32 times more energy. A magnitude 8 releases about 1,000 times the energy of a magnitude 6.",
+        "Magnitude is not the same as damage. Shallow quakes, like Panama's at about 10 kilometres deep, shake the surface harder, and soft ground and weak buildings make things worse. That is why a quake of the same size can be a nuisance in one place and a disaster in another.",
+        "Scientists also map where the shaking was strongest, using reports from people and instruments, on a separate scale called intensity. Those maps help rescue teams decide where to go first."
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What is the forecast temperature anomaly for the central Pacific from October to December?",
+        "(a) 1.6°C  (b) 2.6°C  (c) 3.7°C  (d) 5.0°C",
+        "<b>2.</b> What do chemists call a molecule's handedness?",
+        "(a) Catalysis  (b) Chirality  (c) Polarity  (d) Symmetry",
+        "<b>3.</b> Which virus is causing the current Ebola outbreak?",
+        "(a) Zaire  (b) Marburg  (c) Bundibugyo  (d) Sudan",
+        "<b>4.</b> How much more energy does each whole step on the magnitude scale mean?",
+        "(a) 2 times  (b) 10 times  (c) 32 times  (d) 100 times",
+        "<b>5.</b> Which 2015 agreement set the 1.5°C warming goal?",
+        "(a) Kyoto  (b) Paris  (c) Montreal  (d) Glasgow",
+        "<b>Answers.</b> 1 (c): 3.7°C would beat the 2015 record of 2.6°C by more than a degree. 2 (b): chirality, from the Greek word for hand. 3 (c): Bundibugyo, named after a district in Uganda; there is no approved vaccine for it. 4 (c): about 32 times, which is why a 7.7 is far stronger than a 6.6. 5 (b): the 2015 Paris Agreement, which aims to keep warming well below 2°C and to try for 1.5°C."
+      ]
+    },
+    "discussion": {
+      "title": "Talk it over",
+      "body": [
+        "Choose one question. Write down what you think in one sentence, then list one piece of evidence from this issue that supports it and one that might challenge it.",
+        "<b>1.</b> Scientists can predict El Niño months ahead. If you ran a farming region likely to face drought, what would you do with that warning?",
+        "<b>2.</b> Should world leaders admit that the 1.5°C target will be missed, or keep it as a goal to aim for? What changes either way?",
+        "<b>3.</b> With no vaccine for Bundibugyo, how should countries balance stopping the virus with letting people travel?"
+      ]
+    },
+    "quote": {
+      "text": "A matter of survival.",
+      "by": "COP31 president Murat Kurum, on the 1.5°C limit for the Pacific"
+    },
+    "sign_off": {
+      "text": "You are not just reading the news — you are learning to think about it. See you next week."
+    }
+  },
+  "sources": []
+}
