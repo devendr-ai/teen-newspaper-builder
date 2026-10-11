@@ -19,11 +19,15 @@ def is_due(ed, date):
     if not auto.get("enabled"):
         return False
     every = ed["cadence"]["every_days"]
-    for d, _, _ in checks.archived(ed, date + dt.timedelta(days=1), n=1):
-        if (date - d).days < every:
-            return False
     weekday = auto.get("weekday")          # weekly papers can pin a publishing day, e.g. "saturday"
-    if weekday and every >= 7 and date.strftime("%A").lower() != weekday.lower():
+    pinned = bool(weekday) and every >= 7
+    # An issue published off its pinned day (by hand, or a retry) must not push the next
+    # pinned day back a whole cycle, so pinned papers only need a gap of one day less.
+    gap = every - 1 if pinned else every
+    for d, _, _ in checks.archived(ed, date + dt.timedelta(days=1), n=1):
+        if (date - d).days < gap:
+            return False
+    if pinned and date.strftime("%A").lower() != weekday.lower():
         return False
     return True
 

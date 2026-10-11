@@ -42,6 +42,13 @@ Threats, promises and legal claims earn a quote; everything else is paraphrased.
 Evergreen sections (Did You Know, explainers) may use well-established facts. Sources are never printed. They let a parent or editor verify any figure in
 thirty seconds, which is what makes the paper trustworthy for a young reader.
 
+### Rule: Records and firsts ("the first since", "the largest ever", "a record") must be stated by a source you read; never work them out yourself.
+
+*Set 2026-10-11.* An issue said a Nobel laureate was the first person since
+1991 to win the physics prize alone; Georges Charpak won it alone in 1992.
+Superlatives are the facts most often wrong and the ones readers repeat, so
+if no source says it, describe what happened without the superlative.
+
 ### Rule: News value beats novelty: a running story that is still the biggest leads again, written as the new development.
 
 *Set 2026-08-13.* A lead was once demoted only because it had run before.
