@@ -1,0 +1,228 @@
+{
+ "edition": "breakfast-table",
+ "date": "2026-10-13",
+ "volume": 1,
+ "issue": 3,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+   "headline": "Leaders Condemn Riyadh Airport Attack",
+   "deck": "It was the third strike on the airport in one week. Saudi Arabia calls it a war crime.",
+   "body": [
+    "Riyadh is the capital of Saudi Arabia. Its main airport, King Khalid International, was hit three times in a week. On Thursday, a missile attack killed an airline pilot and two other Saudis. The deadliest strike came on Saturday: Saudi Arabia says at least 12 people died and about 300 were wounded.",
+    "The attacks are blamed on the Houthis, a group from Yemen that gets help from Iran. The dead and wounded came from many countries, including Saudi Arabia, Bangladesh and the United States.",
+    "Leaders around the world have condemned the attack, which means they said it was wrong. UN Secretary-General Antonio Guterres said he was \"deeply shocked\". President Trump called it \"terrible\" and said the United States is weighing whether to join the campaign against the Houthis. Saudi Arabia called it a war crime."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+   },
+   "why": "An airport links people from many countries, so an attack on one worries many governments at once. The fighting in Yemen is no longer far from Saudi Arabia's biggest cities.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Houthi attack on Riyadh airport killed three Saudi nationals",
+     "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Saudi Arabia extends airport closure as Houthis threaten more attacks",
+     "url": "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+   "headline": "The Energy Pause That Wasn't, Yet",
+   "deck": "President Trump announced a truce on energy sites. Attacks went on, and Russia has not agreed.",
+   "body": [
+    "Russia and Ukraine have both attacked each other's power plants and fuel sites. On Sunday, President Trump said on social media that the two sides had agreed to an \"energy ceasefire\", starting immediately. A ceasefire is a promise to stop fighting.",
+    "It had not taken hold by Monday. Ukraine's president, Volodymyr Zelenskyy, said he heard about it from the media. He said Ukraine would back a truce if Russia did too, and would stop hitting Russian oil refineries if Russia stopped hitting Ukraine's energy sites. A power plant in Kharkiv was attacked that evening.",
+    "Russia's foreign minister, Sergey Lavrov, rejected the idea and called it an attempt by Mr Zelenskyy to regroup and rearm. The Kremlin, which is the Russian government, said contacts were continuing. Mr Trump made a similar announcement a month earlier, and both sides kept attacking."
+   ],
+   "chart": {
+    "title": "BRENT CRUDE OIL PRICE",
+    "subtitle": "Dollars a barrel, per two news reports",
+    "labels": [
+     "Fri close",
+     "Weekend",
+     "Monday"
+    ],
+    "values": [
+     104.72,
+     105.48,
+     106.8
+    ],
+    "max": 110,
+    "value_prefix": "$",
+    "highlight_after": 0,
+    "caption": "Prices from different reports and times of day; they differ a little."
+   },
+   "connect": "Brent crude is a main world price for oil. When fuel sites are attacked, oil can cost more everywhere, and that can raise the price of fuel for trucks, buses and farms. Mr Trump said the truce was a way to lower fuel costs before the US midterm elections.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Zelenskyy says Russia violated energy truce announced by Trump",
+     "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+    },
+    {
+     "outlet": "FinanceFeeds",
+     "title": "Brent Crude Price at $104",
+     "url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+    },
+    {
+     "outlet": "Oilprice.com",
+     "title": "Oil Jumps 2% as Saudi Attacks and Tanker Strikes Revive Hormuz Fears",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  WEATHER",
+   "headline": "Two Storms Hit Opposite Coasts",
+   "deck": "Hurricane Isaias struck Florida. Rachel battered Southern California.",
+   "body": [
+    "Hurricane Isaias came ashore near Destin, Florida, on Friday as a Category 2 hurricane. At least four deaths are linked to the storm, in Florida and Alabama. Falling trees were involved in three of them.",
+    "On Sunday afternoon, about 311,000 customers had no power in southern Alabama and the Florida Panhandle. More than 16,000 crew workers were restoring it. Heavy rain also caused water rescues and landslides in North Carolina.",
+    "On the other side of the country, Rachel became a post-tropical cyclone and brought damaging rain and waves to Southern California. Waves battered the historic wooden boardwalk in Long Beach, and more than half a dozen coastal houses were declared structurally unsafe."
+   ],
+   "why": "Storms test how well towns can protect people and bring back power.",
+   "also": [
+    "North Carolina: five landslides hit McDowell County, with no injuries or deaths reported.",
+    "Alabama: a person died when a tree fell on a house in Birmingham."
+   ],
+   "sources": [
+    {
+     "outlet": "NBC News",
+     "title": "Isaias moves north into Appalachians and mid-Atlantic; Southern California battered by Rachel",
+     "url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Isaias moves north as Rachel batters Southern California",
+     "url": "https://www.pbs.org/newshour/nation/isaias-moves-north-as-rachel-batters-southern-california"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+     "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Economics: The Nobel prize went to work on how governments and banks can help steady the economy through booms and busts.",
+    "Oil: Brent crude cost about $103 to $107 a barrel on Monday, depending on the report."
+   ]
+  },
+  "discussion": {
+   "title": "Questions for the table",
+   "body": [
+    "<b>1.</b> Why might a war in one country spread to its neighbours? What could help stop it?",
+    "<b>2.</b> A leader says a truce has begun, but the other side has not agreed. Is it a truce?",
+    "<b>3.</b> Who should check the list of voters, and how could everyone be sure the job is fair?"
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+    },
+    {
+     "outlet": "The News Mill",
+     "title": "Opposition INDIA bloc marches from Connaught Place against Election Commission",
+     "url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  VOTING",
+   "headline": "Delhi's Protests Over Voter Lists Go On",
+   "deck": "Young protesters vow to return, and opposition parties march on the Election Commission.",
+   "body": [
+    "Before people can vote, their names must be on a list. India's Election Commission has been revising its voter lists. Protesters say the revision would drop about 130 million names. The government denies wrongdoing and says the revision aims to remove duplicate entries.",
+    "On Saturday, police in New Delhi detained hundreds of protesters from the \"Cockroach\" youth movement, who want Chief Election Commissioner Gyanesh Kumar to resign. Some reports say thousands were detained. The protesters have vowed to return.",
+    "On Monday, leaders of the opposition INDIA bloc, a group of parties, marched from Connaught Place in central Delhi against the Election Commission. They accuse the government of using it for political ends, and the Congress leader KC Venugopal said they will go to the Supreme Court. Police named new places for protests after Jantar Mantar was de-notified as a protest venue."
+   ],
+   "why": "A fair vote needs a fair list of voters. Removing people who have died or moved is sensible, but removing real voters would be unfair, so people care who checks the lists and how.",
+   "sources": [
+    {
+     "outlet": "NPR",
+     "title": "India cracks down on youth protests as anger grows against Modi and election chief",
+     "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "India detains youth protest leader to defuse rally against election chief",
+     "url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "'Cockroach Party' protesters vow to return after hundreds detained in Delhi",
+     "url": "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114"
+    },
+    {
+     "outlet": "The News Mill",
+     "title": "Opposition INDIA bloc marches from Connaught Place against Election Commission",
+     "url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+    }
+   ]
+  },
+  "sports": {
+   "title": "City win at Liverpool",
+   "body": "<b>Manchester City</b> beat <b>Liverpool</b> 3-0 at Liverpool in the Premier League on Sunday. <b>Erling Haaland</b> scored for City.",
+   "sources": [
+    {
+     "outlet": "Fox Sports",
+     "title": "Liverpool vs. Man. City - Final Score",
+     "url": "https://www.foxsports.com/soccer/premier-league-liverpool-vs-man-city-oct-11-2026-game-boxscore-891123"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether Russia agrees to the energy ceasefire.",
+    "Whether the United States joins Saudi Arabia's fight against the Houthis."
+   ]
+  },
+  "quote": {
+   "text": "Ask one more question before you decide what you think.",
+   "by": "The Editor"
+  }
+ },
+ "sources": [
+  "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/",
+  "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html",
+  "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/",
+  "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114",
+  "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
+  "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2",
+  "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+  "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+  "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+  "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html",
+  "https://www.foxsports.com/soccer/premier-league-liverpool-vs-man-city-oct-11-2026-game-boxscore-891123",
+  "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773",
+  "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+  "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+  "https://www.pbs.org/newshour/nation/isaias-moves-north-as-rachel-batters-southern-california"
+ ]
+}
