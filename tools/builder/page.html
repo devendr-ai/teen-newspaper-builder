@@ -580,7 +580,8 @@ details.dev summary{cursor:pointer;font-weight:700}
     const bytes = py.FS.readFile(res.pdf);
     const url = URL.createObjectURL(new Blob([bytes], { type: "application/pdf" }));
     urls.push(url);
-    el.innerHTML = `<div class="done"><b>Your ${what} is ready.</b> It passed every check our papers pass.</div>
+    const trimmed = (res.trimmed || []).length ? `<p class="next">To fit the page we trimmed, as a newspaper editor would: ${res.trimmed.map(esc).join("; ")}.</p>` : "";
+    el.innerHTML = `<div class="done"><b>Your ${what} is ready.</b> It passed every check our papers pass.</div>${trimmed}
       <div class="actions"><a class="btn go" href="${url}" download="${esc(file)}">Download the PDF</a><a class="btn ghost" href="${url}" target="_blank" rel="noopener">Open it</a></div>`
       + (res.fill ? `<p class="next">Optional: some columns have empty space. To fill them, copy this request into the chatbot and paste its new reply above.</p><pre>${esc(res.fill)}</pre><div class="actions"><button type="button" class="btn ghost">Copy the request</button><span class="status" role="status"></span></div>` : "");
     const b = el.querySelector("button");

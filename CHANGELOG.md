@@ -20,6 +20,10 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Design your own, first-time fit: chatbot instructions state every format
+  rule and a word budget for each story and section, measured on the paper's
+  own layout; the page refuses layouts that can't fit and trims a slightly long
+  reply from the end of its stories, like a sub-editor, saying what it cut.
 - Design your own, with the parent's own chatbot: the builder page writes
   instructions for ChatGPT, Claude or Gemini, then checks the reply with the
   same checks as published issues and builds the same PDF in the browser

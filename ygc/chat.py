@@ -5,10 +5,12 @@ instructions a parent pastes into ChatGPT, Claude or Gemini, then checks the
 chatbot's reply with the same checks as every published issue and builds the
 same PDF. A reply that fails gets a list of fixes to paste back.
 """
+import copy
 import datetime as dt
 import io
 import json
 import os
+import re
 
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen.canvas import Canvas
@@ -182,7 +184,9 @@ def length_text(ed):
         return ""
     words = lambda n: max(20, round(n * 0.9 / 10) * 10)
     stories = [b for b in g if ed["blocks"][b]["type"] == "story"]
-    lines = ["**Length.** Everything must fit the printed page, so aim for about this many words in each `body`:"]
+    lines = ["**Length.** Everything must fit the printed page, so aim for about this many words in each `body`. "
+             "Put the most important facts first in every story and section: if one runs long, the page trims its "
+             "last sentences to fit."]
     lines += [f"- `{b}`: about {words(n)} words" + (f" (3 to 5 paragraphs), plus about {BOX_WORDS} in each of its boxes"
                                                     if b in stories else "") for b, n in g.items()]
     return "\n".join(lines) + "\n"
@@ -205,18 +209,97 @@ def _fix_message(kind, errors, name):
             f"everything else the same, and reply with the complete corrected JSON only.\n\n{items}")
 
 
+# ------------------------------------------------------------------ fitting: trim like a sub-editor
+TRIM_LIMIT = 0.35       # the most of a column's story and section writing the page may cut to fit
+_ABBREV = re.compile(r"(\b[A-Z]\.|\b(?:Mr|Mrs|Ms|Dr|St|Mt|No|vs|etc|e\.g|i\.e|U\.S|U\.K|U\.N|Jr|Sr|Inc|Ltd|Co))\.?$")
+
+
+def sentences(text):
+    """Split a paragraph into sentences, keeping abbreviations such as U.S. and Dr. intact."""
+    out, start = [], 0
+    for m in re.finditer(r"(?<=[.!?])[\"”’)]?\s+(?=[\"“(A-Z0-9])", text):
+        head = text[start:m.start()].rstrip("\"”’)")
+        if _ABBREV.search(head):
+            continue
+        out.append(text[start:m.end()].strip())
+        start = m.end()
+    out.append(text[start:].strip())
+    return [x for x in out if x]
+
+
+def _name(ed, b):
+    cfg = ed["blocks"][b]
+    if b == "lead":
+        return "the top story"
+    if cfg["type"] == "story":
+        return f"the {edition.desk(ed, cfg['desk'])['label'].title()} story".replace(" And ", " and ")
+    return f"\"{cfg.get('label', b).capitalize()}\""
+
+
+def _column_fits(ed, issue, p, i, geo):
+    x, y, w, h = geo
+    fl = render.column_flowables(ed["pages"][p]["columns"][i], render.Ctx(ed, issue), w)
+    Frame(x, y, w, h, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0
+          ).addFromList(fl, Canvas(io.BytesIO(), pagesize=letter))
+    return not fl
+
+
+def fit(ed, issue):
+    """Trim whole sentences from the end of the stories and stretching sections in each
+    overflowing column, as a sub-editor would, up to TRIM_LIMIT of their words. Columns that
+    still don't fit are left untouched. Returns (issue, {block: sentences cut})."""
+    issue = copy.deepcopy(issue)
+    cut = {}
+    try:
+        over = [(m["page"] - 1, m["column"] - 1) for m in render.measure(ed, issue) if m["over"] > 0.5]
+    except Exception:
+        return issue, cut
+    geos = [cols for _, cols in render.page_geometry(ed)]
+    for p, i in over:
+        ids = ed["pages"][p]["columns"][i]
+        elastic = [b for b in ids if isinstance((issue["blocks"].get(b) or {}).get("body"), list) and (
+            ed["blocks"][b]["type"] == "story" or b in ELASTIC_FEATURES)]
+        words = lambda b: len(" ".join(issue["blocks"][b]["body"]).split())
+        budget = TRIM_LIMIT * sum(words(b) for b in elastic)
+        trial = copy.deepcopy(issue)
+        done, removed, ok = {}, 0, False
+        while True:
+            if _column_fits(ed, trial, p, i, geos[p][i]):
+                ok = True
+                break
+            paras = {b: [sentences(x) for x in trial["blocks"][b]["body"] if x.strip()] for b in elastic}
+            can = [b for b in elastic if sum(len(x) for x in paras[b]) > 2]
+            if not can:
+                break
+            b = max(can, key=lambda b: sum(len(" ".join(x).split()) for x in paras[b]))
+            last = paras[b][-1].pop()
+            removed += len(last.split())
+            if removed > budget:
+                break
+            trial["blocks"][b]["body"] = [" ".join(x) for x in paras[b] if x]
+            done[b] = done.get(b, 0) + 1
+        if ok:
+            issue = trial
+            for b, n in done.items():
+                cut[b] = cut.get(b, 0) + n
+    return issue, cut
+
+
 def check_paper(ed, text, date, number=1, out_pdf=None):
     """Check a chatbot's reply. Returns a dict the page shows:
     ok, problem (a sentence for the parent), errors, fix (text to paste back to the chatbot),
-    fill (optional text asking for fuller columns), pdf (path) and issue (the JSON, cleaned)."""
+    fill (optional text asking for fuller columns), trimmed (what was cut to fit), pdf (path)
+    and issue (the JSON as printed)."""
     issue, problem = _parse(text)
     if problem:
         return {"ok": False, "problem": problem, "errors": [], "fix": ""}
     issue.update({"edition": ed["id"], "date": date, "issue": int(number), "volume": issue.get("volume") or 1})
+    issue, cut = fit(ed, issue)
     path = os.path.join(checks.issues_dir(ed), date[:4], f"{date}.json")
     r = checks.check_issue(ed, issue, path, archive=False, as_of=dt.date.fromisoformat(date))
     res = {"ok": r.ok, "errors": r.errors, "issue": json.dumps(issue, ensure_ascii=False, indent=2),
-           "problem": "", "fix": "", "fill": ""}
+           "problem": "", "fix": "", "fill": "",
+           "trimmed": [f"{n} sentence{'s' if n > 1 else ''} from the end of {_name(ed, b)}" for b, n in cut.items()]}
     if not r.ok:
         res["problem"] = (f"{len(r.errors)} thing{'s' if len(r.errors) != 1 else ''} to fix before it can print. "
                           "Copy the fix list below into the chatbot, then paste its new reply here.")
