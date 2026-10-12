@@ -3,101 +3,117 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Design a kids' newspaper</title>
+<title>Design your own paper</title>
+<meta name="description" content="Design a newspaper for your child, have your own AI chatbot write it from today's news, and print it laid out like ours.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#F3F5F4; --surface:#FFFFFF; --ink:#16232B; --muted:#56646C; --line:#CDD5D3;
-  --cyan:#007C89; --cyan-tint:#E1F1F2; --magenta:#B8336A; --magenta-tint:#F7E3EC;
-  --yellow:#E8B10A; --yellow-tint:#FBF1D2; --sheet:#FFFFFF; --story:#16232B; --story-ink:#FFFFFF;
+  --cyan:#007C89; --cyan-tint:#E1F1F2; --magenta:#B8336A; --magenta-tint:#F7E3EC; --coral:#E2584D;
+  --yellow:#E8B10A; --yellow-tint:#FBF1D2; --green:#2E7D4F; --green-tint:#E2F2E8; --sheet:#FFFFFF;
   --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --text:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
 }
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --paper:#11181C; --surface:#182226; --ink:#E5ECEA; --muted:#9AA8AE; --line:#2D3A40;
     --cyan:#41B6C1; --cyan-tint:#173438; --magenta:#E0709A; --magenta-tint:#3A1E2A;
-    --yellow:#E8B10A; --yellow-tint:#3A3015; --sheet:#E9EEEC; --story:#16232B; --story-ink:#FFFFFF;
+    --yellow:#E8B10A; --yellow-tint:#3A3015; --green:#5CC08A; --green-tint:#173326; --sheet:#E9EEEC;
   }
 }
 :root[data-theme="dark"]{
   --paper:#11181C; --surface:#182226; --ink:#E5ECEA; --muted:#9AA8AE; --line:#2D3A40;
   --cyan:#41B6C1; --cyan-tint:#173438; --magenta:#E0709A; --magenta-tint:#3A1E2A;
-  --yellow:#E8B10A; --yellow-tint:#3A3015; --sheet:#E9EEEC;
+  --yellow:#E8B10A; --yellow-tint:#3A3015; --green:#5CC08A; --green-tint:#173326; --sheet:#E9EEEC;
 }
 *,*::before,*::after{box-sizing:inherit}
 body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--text)}
 h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0}
 a{color:var(--cyan)}
-.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
-header.top{display:grid;gap:10px;margin-bottom:22px;max-width:760px}
-header.top h1{font-size:clamp(2rem,4.6vw,3.3rem);font-weight:800;letter-spacing:-.02em}
-header.top p{margin:0;color:var(--muted);max-width:62ch}
+.wrap{max-width:1240px;margin:0 auto;padding:22px 16px 110px}
+.site{display:flex;justify-content:space-between;align-items:baseline;gap:6px 16px;flex-wrap:wrap;border-bottom:1.5px solid var(--ink);padding-bottom:12px;margin-bottom:22px}
+.site b{font-family:var(--display);font-size:1.35rem;font-weight:800}
+.site b a{color:inherit;text-decoration:none}
+.site nav a{margin-left:16px;font-weight:700;text-decoration:none}
+.site nav a:first-child{margin-left:0}
+.site nav a[aria-current]{color:var(--ink)}
+header.top{display:grid;gap:10px;margin-bottom:18px;max-width:780px}
+header.top h1{font-size:clamp(2rem,4.6vw,3.2rem);font-weight:800;letter-spacing:-.02em}
+header.top p{margin:0;color:var(--muted);max-width:66ch}
+.how{display:flex;flex-wrap:wrap;gap:6px 18px;margin:4px 0 0;padding:0;list-style:none;font-size:.92rem;counter-reset:h}
+.how li{counter-increment:h}
+.how li::before{content:counter(h);display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--cyan);color:var(--paper);font-weight:700;font-size:.78rem;margin-right:6px}
 .presets{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 26px;align-items:center}
 .presets span{color:var(--muted);margin-right:4px}
-.presets button{font:inherit;font-size:.92rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);
-  padding:7px 13px;border-radius:999px;cursor:pointer}
-.presets button[aria-pressed="true"]{border-color:var(--cyan);background:var(--cyan-tint);color:var(--ink)}
-.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;align-items:start}
+.presets button{font:inherit;font-size:.9rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  padding:6px 12px;border-radius:999px;cursor:pointer}
+.presets button[aria-pressed="true"]{border-color:var(--cyan);background:var(--cyan-tint)}
+.grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:start}
 @media (max-width:920px){.grid{grid-template-columns:minmax(0,1fr)}}
 #form,.proof{min-width:0}
-fieldset{border:0;margin:0 0 26px;padding:0;min-width:0}
-legend{font-family:var(--display);font-weight:700;font-size:1.25rem;margin-bottom:4px;padding:0}
+fieldset{border:0;margin:0 0 28px;padding:0;min-width:0}
+legend{font-family:var(--display);font-weight:700;font-size:1.3rem;margin-bottom:4px;padding:0;display:flex;align-items:center;gap:10px}
+legend i{font-style:normal;display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--ink);color:var(--paper);font-size:.95rem}
+h3.sub{font-family:var(--text);font-size:.95rem;font-weight:700;margin:14px 0 6px}
 .hint{color:var(--muted);font-size:.9rem;margin:0 0 10px}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,160px),1fr));gap:8px}
+.tiles.wide{grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
 .tile{position:relative}
 .tile input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
 .tile label{display:block;height:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer}
 .tile label b{display:block;font-weight:700}
 .tile label small{display:block;color:var(--muted);font-size:.84rem;line-height:1.35;margin-top:2px}
 .tile input:checked + label{border-color:var(--cyan);background:var(--cyan-tint)}
+.tile input[type=checkbox]:checked + label b::after{content:" ✓";color:var(--cyan)}
 .tile input:focus-visible + label{outline:3px solid var(--cyan);outline-offset:2px}
-.tile input:disabled + label{opacity:.55;cursor:not-allowed}
+.tile input:disabled + label{opacity:.5;cursor:not-allowed}
 .chips{display:flex;flex-wrap:wrap;gap:7px}
 .chip{position:relative}
 .chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
 .chip label{display:inline-block;padding:6px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;font-size:.95rem}
 .chip input:checked + label{border-color:var(--ink);background:var(--ink);color:var(--paper)}
 .chip input:focus-visible + label{outline:3px solid var(--cyan);outline-offset:2px}
-.chip input:disabled + label{opacity:.5;cursor:not-allowed}
+.chip input:disabled + label{opacity:.45;cursor:not-allowed}
 .custom{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 input[type=text],input[type=number],textarea,select{font:inherit;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);
-  border-radius:8px;padding:8px 10px;min-width:0}
-input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
-.custom input{flex:1 1 220px}
-.btn{font:inherit;font-weight:700;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:8px 14px;cursor:pointer}
+  border-radius:8px;padding:8px 10px;min-width:0;width:100%}
+input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.custom input{flex:1 1 220px;width:auto}
+.btn{font:inherit;font-weight:700;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:9px 14px;cursor:pointer;text-decoration:none;display:inline-block}
 .btn.ghost{background:transparent;color:var(--ink)}
+.btn.go{background:var(--coral);border-color:var(--coral);color:#fff}
+.btn:disabled{opacity:.45;cursor:not-allowed}
 .added{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .added button{font:inherit;font-size:.9rem;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:5px 10px;cursor:pointer}
 .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
 .row label{display:grid;gap:4px;font-size:.92rem;color:var(--muted)}
 .row label > *{color:var(--ink)}
+.check{display:flex;gap:9px;align-items:flex-start;font-size:.95rem;margin-top:10px;cursor:pointer}
+.check input{width:20px;height:20px;margin:1px 0 0;accent-color:var(--cyan)}
 textarea{min-height:64px;resize:vertical}
 .pages-exact{display:flex;align-items:center;gap:8px;margin-top:10px;color:var(--muted);font-size:.92rem}
 .pages-exact input{width:84px}
-.note{font-size:.88rem;color:var(--muted);margin-top:8px}
+details.more{border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--surface)}
+details.more > summary{cursor:pointer;font-weight:700}
+details.more[open] > summary{margin-bottom:12px}
 
-/* proof panel */
-.proof{position:sticky;top:16px;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:18px}
-@media (max-width:920px){.proof{position:static}}
-.proof h2{font-size:1.45rem;font-weight:800}
+/* right panel */
+.proof{position:sticky;top:12px;display:grid;gap:16px;max-height:calc(100vh - 24px);overflow-y:auto;overscroll-behavior:contain;padding-bottom:4px}
+@media (max-width:920px){.proof{position:static;max-height:none;overflow:visible}}
+.card{background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:18px}
+.card h2{font-size:1.4rem;font-weight:800}
 .summary{margin:6px 0 12px;color:var(--muted)}
-.facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 14px;padding:0;list-style:none;font-size:.95rem}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 12px;padding:0;list-style:none;font-size:.95rem}
 .facts b{font-family:var(--display);font-size:1.15rem}
-.sheets{display:flex;flex-wrap:wrap;gap:16px 14px;padding:14px 6px 10px;margin:0 -6px}
+.sheets{display:flex;flex-wrap:wrap;gap:16px 14px;padding:12px 6px 8px;margin:0 -6px}
 .sheet-wrap{flex:0 0 auto;text-align:center;font-size:.8rem;color:var(--muted)}
 .sheet{position:relative;width:var(--sw,150px);aspect-ratio:8.5/11;background:var(--sheet);border:1px solid #B9C3C1;padding:9px 8px 10px;display:flex;flex-direction:column;gap:4px;margin-bottom:6px}
-/* registration and crop marks */
-.sheet::before,.sheet::after{content:"";position:absolute;width:9px;height:9px;border:0 solid var(--muted)}
-.sheet::before{top:-6px;left:-6px;border-top-width:1px;border-left-width:1px}
-.sheet::after{bottom:-6px;right:-6px;border-bottom-width:1px;border-right-width:1px}
-.mast{height:15%;border-bottom:2px solid #16232B;display:flex;align-items:center;justify-content:center}
-.mast i{display:block;width:70%;height:34%;background:#16232B;border-radius:1px}
+.mast{height:15%;border-bottom:2px solid #16232B;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.mast span{font-family:var(--display);font-weight:800;color:#16232B;font-size:9px;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:95%}
 .ban{height:5%;border-top:1.5px solid #16232B;border-bottom:1px solid #16232B;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .ban span{font-size:6px;color:#0B3D5C;white-space:nowrap;font-weight:700;padding:0 2px;text-overflow:ellipsis;overflow:hidden}
 .cols{flex:1;display:flex;gap:4px;min-height:0}
@@ -109,127 +125,197 @@ textarea{min-height:64px;resize:vertical}
 .blk.feature{background:#F2CFDD}
 .blk.over{outline:2px solid var(--yellow);outline-offset:-2px}
 .blk em{font-style:normal;opacity:.75;display:block}
-.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.82rem;color:var(--muted);margin:2px 0 14px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.82rem;color:var(--muted);margin:2px 0 12px}
 .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;background:var(--c)}
-.alerts{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.alerts{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 .alerts li{padding:9px 11px;border-radius:8px;font-size:.92rem;line-height:1.4}
 .alerts .warn{background:var(--yellow-tint);border-left:4px solid var(--yellow)}
 .alerts .info{background:var(--paper);border-left:4px solid var(--line);color:var(--muted)}
 .alerts .err{background:var(--magenta-tint);border-left:4px solid var(--magenta)}
-details{border-top:1px solid var(--line);padding-top:12px}
-summary{cursor:pointer;font-weight:700}
-pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;max-height:340px;font-size:.78rem;line-height:1.45;white-space:pre}
-.actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px;align-items:center}
-.status{font-size:.88rem;color:var(--cyan)}
-.next{font-size:.9rem;color:var(--muted)}
-.next code{font-size:.82rem;background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:1px 5px;color:var(--ink)}
+.get ol{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:16px;counter-reset:g}
+.get ol > li{counter-increment:g;position:relative;padding-left:38px}
+.get ol > li::before{content:counter(g);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--cyan);color:var(--paper);font-weight:700;display:grid;place-items:center}
+.get h3{font-size:1.05rem;margin-bottom:4px}
+.get p{margin:0 0 8px;font-size:.92rem;color:var(--muted)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 4px;align-items:center}
+.status{font-size:.88rem;color:var(--muted)}
+.status.ok{color:var(--green)}
+.engine{font-size:.85rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.engine::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--yellow);flex:0 0 auto}
+.engine.ready::before{background:var(--green)}
+.engine.failed::before{background:var(--magenta)}
+#reply,#posterReply{min-height:110px;font-size:.85rem}
+.result{margin-top:10px;display:grid;gap:8px}
+.result .done{background:var(--green-tint);border-left:4px solid var(--green);padding:10px 12px;border-radius:8px}
+.result .bad{background:var(--magenta-tint);border-left:4px solid var(--magenta);padding:10px 12px;border-radius:8px}
+pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;max-height:260px;font-size:.78rem;line-height:1.45;white-space:pre-wrap;word-break:break-word;margin:0}
+pre.yaml{white-space:pre;word-break:normal;max-height:340px}
+details.dev{border-top:1px solid var(--line);padding-top:12px}
+details.dev summary{cursor:pointer;font-weight:700}
+.next{font-size:.88rem;color:var(--muted)}
+.next code{font-size:.8rem;background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:1px 5px;color:var(--ink)}
+.poster-box{border-top:1px dashed var(--line);margin-top:6px;padding-top:14px}
+.tag{display:inline-block;background:var(--coral);color:#fff;font-size:.72rem;font-weight:700;border-radius:999px;padding:2px 8px;vertical-align:2px;margin-left:6px}
+.private{font-size:.85rem;color:var(--muted)}
+/* phone summary bar */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:var(--paper);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));
+  display:none;gap:10px;align-items:center;justify-content:space-between;font-size:.9rem;z-index:5}
+.bar a{color:var(--paper);font-weight:700;white-space:nowrap}
+@media (max-width:920px){.bar{display:flex}}
 @media (prefers-reduced-motion: no-preference){ .blk{transition:height .25s ease} }
 </style>
 </head>
 <body>
 <div class="wrap">
+  <div class="site"><b><a href="index.html">The Kids' Newsstand</a></b>
+    <nav><a href="index.html">Papers</a><a href="builder.html" aria-current="page">Design your own</a><a href="about.html">How it's made</a></nav></div>
+
   <header class="top">
     <h1>Design a paper for your child</h1>
-    <p>Choose your child's age and what the paper should cover. You get a proof of how every page will be laid out, and a ready-to-use edition file for the open-source engine that writes these papers. Accuracy and sourcing rules stay the same whatever you choose.</p>
+    <p>Pick what your child loves. This page writes instructions for your own AI chatbot (ChatGPT, Claude or Gemini). It searches today's news and writes the paper; this page checks it and turns it into a PDF laid out just like ours. It's free, and nothing you type leaves your browser.</p>
+    <ol class="how"><li>Choose below</li><li>Copy the instructions into your chatbot</li><li>Paste its reply back here</li><li>Download and print</li></ol>
   </header>
 
-  <div class="presets" id="presets"><span>Start from</span></div>
+  <div class="presets" id="presets"><span>Start from one of our papers:</span></div>
 
   <div class="grid">
     <form id="form" novalidate>
       <fieldset>
-        <legend>Length</legend>
-        <p class="hint">More pages add coverage and features, never filler.</p>
-        <div class="tiles" id="pages"></div>
-        <div class="pages-exact"><label for="pagesExact">Or an exact number of pages</label>
-          <input id="pagesExact" type="number" min="1" max="12" step="1"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Reader</legend>
-        <p class="hint">Age sets vocabulary, explanation and type size. It never lowers the standard of accuracy.</p>
+        <legend><i>1</i>Who is it for?</legend>
+        <p class="hint">Age sets the words, the explanations and the size of the type. It never lowers the standard of accuracy.</p>
         <div class="tiles" id="age"></div>
+        <div class="row" style="margin-top:12px">
+          <label>Child's first name (optional)<input id="childName" type="text" autocomplete="off" placeholder="e.g. Aanya"></label>
+        </div>
+        <label class="check"><input type="checkbox" id="largePrint"><span><b>Large print</b> — bigger type for early or struggling readers</span></label>
       </fieldset>
 
       <fieldset>
-        <legend>Purpose</legend>
+        <legend><i>2</i>What kind of paper?</legend>
+        <div class="tiles wide" id="format"></div>
+        <h3 class="sub">How should it feel?</h3>
+        <div class="tiles wide" id="tone"></div>
+        <h3 class="sub">What is it for?</h3>
         <div class="tiles" id="purpose"></div>
       </fieldset>
 
       <fieldset>
-        <legend>Countries and regions</legend>
-        <p class="hint">Each becomes a desk with its own story when there's room.</p>
+        <legend><i>3</i>What are they into?</legend>
+        <p class="hint">Each choice becomes its own story when there's room. Otherwise it appears in the briefs.</p>
+        <h3 class="sub">Countries and regions</h3>
         <div class="chips" id="geos"></div>
         <div class="custom">
-          <input id="geoInput" type="text" placeholder="Add any country, region or city" aria-label="Add a country, region or city">
+          <input id="geoInput" type="text" placeholder="Add any country or region" aria-label="Add a country or region">
           <button type="button" class="btn ghost" id="geoAdd">Add</button>
         </div>
         <div class="added" id="geoAdded" aria-live="polite"></div>
+        <div id="topicGroups"></div>
+        <div class="row" style="margin-top:12px">
+          <label id="cityLabel" hidden>Your city<input id="city" type="text" autocomplete="off" placeholder="e.g. Pune"></label>
+          <label>Favourite team or player (optional)<input id="favourite" type="text" autocomplete="off" placeholder="e.g. Mumbai Indians"></label>
+        </div>
       </fieldset>
 
       <fieldset>
-        <legend>Topics</legend>
-        <div class="chips" id="topics"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Depth</legend>
-        <div class="tiles" id="depth"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Sections</legend>
-        <p class="hint">Your purpose sets sensible defaults. Change any of them.</p>
+        <legend><i>4</i>Learning sections</legend>
+        <p class="hint">Your choices above set sensible ones. Add or remove any.</p>
         <div class="chips" id="modules"></div>
       </fieldset>
 
       <fieldset>
-        <legend>How often</legend>
+        <legend><i>5</i>How long, and how often?</legend>
+        <div class="tiles" id="pages"></div>
+        <div class="pages-exact" id="pagesExactRow"><label for="pagesExact">Or an exact number of pages</label>
+          <input id="pagesExact" type="number" min="1" max="12" step="1"></div>
+        <h3 class="sub">How often</h3>
         <div class="tiles" id="cadence"></div>
       </fieldset>
 
-      <fieldset>
-        <legend>Language</legend>
-        <div class="tiles" id="language"></div>
-        <p class="note">Hindi and bilingual editions need Unicode fonts in the engine. That upgrade isn't built yet, so they can't be selected.</p>
-      </fieldset>
-
-      <fieldset>
-        <legend>Details</legend>
-        <div class="row">
+      <details class="more">
+        <summary>More options</summary>
+        <h3 class="sub">How deep</h3>
+        <div class="tiles" id="depth"></div>
+        <div class="row" style="margin-top:14px">
           <label>Paper name<input id="name" type="text" autocomplete="off"></label>
-          <label>Reader's exact age (optional)<input id="exactAge" type="text" placeholder="e.g. 13"></label>
-          <label>Location on the masthead<input id="location" type="text"></label>
-          <label>Timezone for "today"<select id="timezone"></select></label>
+          <label>Place on the masthead<input id="location" type="text" placeholder="e.g. Pune, India"></label>
+          <label>Exact age (optional)<input id="exactAge" type="text" placeholder="e.g. 7"></label>
         </div>
         <div class="row" style="margin-top:12px">
-          <label>Who is the reader?<textarea id="profile"></textarea></label>
+          <label>About the reader<textarea id="profile"></textarea></label>
         </div>
-      </fieldset>
+      </details>
     </form>
 
-    <aside class="proof" aria-labelledby="proofTitle">
-      <h2 id="proofTitle">Proof</h2>
-      <p class="summary" id="summary"></p>
-      <ul class="facts" id="facts"></ul>
-      <div class="sheets" id="sheets" aria-label="Page layout preview"></div>
-      <div class="legend">
-        <span style="--c:#0B3D5C">Lead</span><span style="--c:#16232B">Story</span>
-        <span style="--c:#F2CFDD">Feature</span><span style="--c:#CDEBEE">Learning and extras</span>
-      </div>
-      <ul class="alerts" id="alerts" aria-live="polite"></ul>
-      <details id="yamlBox" open>
-        <summary>Edition file</summary>
-        <div class="actions">
-          <button type="button" class="btn" id="copy">Copy edition file</button>
-          <span class="status" id="status" role="status"></span>
+    <aside class="proof">
+      <section class="card" aria-labelledby="proofTitle">
+        <h2 id="proofTitle">Your paper</h2>
+        <p class="summary" id="summary"></p>
+        <ul class="facts" id="facts"></ul>
+        <div class="sheets" id="sheets" aria-label="Page layout preview"></div>
+        <div class="legend">
+          <span style="--c:#0B3D5C">Lead</span><span style="--c:#16232B">Story</span>
+          <span style="--c:#F2CFDD">Feature</span><span style="--c:#CDEBEE">Learning and extras</span>
         </div>
-        <pre id="yaml" tabindex="0"></pre>
-        <p class="next" id="next"></p>
-      </details>
+        <ul class="alerts" id="alerts" aria-live="polite"></ul>
+      </section>
+
+      <section class="card get" id="get" aria-labelledby="getTitle">
+        <h2 id="getTitle">Get today's paper</h2>
+        <p class="engine" id="engine" role="status">Getting the printing engine ready (about 10 seconds the first time)…</p>
+        <ol>
+          <li>
+            <h3>Copy the instructions</h3>
+            <p>They're written for today, so come back here for each new issue.</p>
+            <div class="actions">
+              <button type="button" class="btn go" id="copyInstr" disabled>Copy instructions</button>
+              <span class="status" id="instrStatus" role="status"></span>
+            </div>
+          </li>
+          <li>
+            <h3>Paste them into your chatbot, with web search on</h3>
+            <div class="actions">
+              <a class="btn ghost" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a>
+              <a class="btn ghost" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a>
+              <a class="btn ghost" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a>
+            </div>
+            <p>Make sure it can search the web, or it will refuse rather than write from memory. It replies with a block of code. You don't need to read it.</p>
+          </li>
+          <li>
+            <h3>Paste its whole reply here</h3>
+            <textarea id="reply" placeholder="Paste the chatbot's reply here" aria-label="The chatbot's reply"></textarea>
+            <div class="actions"><button type="button" class="btn go" id="makePdf" disabled>Check and make my PDF</button></div>
+            <div class="result" id="result" aria-live="polite"></div>
+          </li>
+        </ol>
+        <div class="poster-box" id="posterBox" hidden>
+          <h3>Also make the Big Question poster<span class="tag">Ages 6–8</span></h3>
+          <p>One idea from this week's news on one page: a big picture, something to try, and questions to talk about together.</p>
+          <div class="actions">
+            <button type="button" class="btn ghost" id="copyPoster" disabled>Copy poster instructions</button>
+            <span class="status" id="posterStatus" role="status"></span>
+          </div>
+          <textarea id="posterReply" placeholder="Paste the chatbot's poster reply here" aria-label="The chatbot's poster reply"></textarea>
+          <div class="actions"><button type="button" class="btn ghost" id="makePoster" disabled>Check and make the poster</button></div>
+          <div class="result" id="posterResult" aria-live="polite"></div>
+        </div>
+        <p class="private">The paper is checked and built inside your browser, using the same engine as our papers. AI can still get things wrong, so skim it before you hand it over: every story lists its sources.</p>
+      </section>
+
+      <section class="card">
+        <details class="dev">
+          <summary>For developers: the edition file</summary>
+          <p class="next">Run this paper automatically with the open-source engine. Save the file as <code id="devPath"></code>; see the <a href="https://github.com/devendr-ai/teen-newspaper-builder">project on GitHub</a>.</p>
+          <div class="actions">
+            <button type="button" class="btn ghost" id="copy">Copy edition file</button>
+            <span class="status" id="status" role="status"></span>
+          </div>
+          <pre class="yaml" id="yaml" tabindex="0"></pre>
+        </details>
+      </section>
     </aside>
   </div>
 </div>
+<div class="bar" id="bar"><span id="barText"></span><a href="#get">Get the paper ↓</a></div>
 
 <script>
 /*__GENERATOR__*/
@@ -237,38 +323,48 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
 (function () {
   const G = window.YGC;
   const $ = (id) => document.getElementById(id);
-  const PAGES = [
-    [1, "One page", "Just the essentials"], [2, "Two pages", "Compact daily paper"],
-    [4, "Four pages", "More regions, explainers, a learning page"]];
+  const PAGES = [[1, "One page", "Just the essentials"], [2, "Two pages", "Compact and quick"],
+    [4, "Four pages", "More stories, explainers and a learning page"]];
+  const BIG_PAGES = [[2, "Two pages", "The story, explained"], [3, "Three pages", "Plus different views and what's next"],
+    [4, "Four pages", "Everything, with room to breathe"]];
   const AGE_DESC = { "6-8": "Simple, gentle, big type", "9-11": "Curious upper elementary", "12-14": "Middle school, never childish",
-    "15-18": "Sophisticated analysis, exam-ready" };
+    "15-18": "Serious analysis, exam-ready" };
   const DEPTH_DESC = { quick: "Headlines, key facts, why it matters", balanced: "Context so you could explain it",
     deep: "Evidence and competing perspectives" };
+  const FORMATS = [["news", "The day's news", "Several stories, briefs and learning sections"],
+    ["big_story", "One big story", "One story explained across 2–4 pages: timeline, who's who, the numbers, what's next"]];
   const CAD = [["daily", "Daily", "Last 24 hours"], ["two_day", "Every two days", "Last 48 hours"], ["weekly", "Weekly", "Last 7 days"]];
-  const MODS = [["vocab", "Vocabulary"], ["dyk", "Did you know"], ["explainer", "Explainer"], ["quiz", "Quiz"],
-    ["discussion", "Discussion questions"], ["sports", "Sports"], ["watchlist", "Watchlist"], ["quote", "Closing quote"]];
-  const TZ = ["America/Los_Angeles", "America/Denver", "America/Chicago", "America/New_York", "America/Toronto",
-    "Europe/London", "Europe/Berlin", "Asia/Kolkata", "Asia/Dubai", "Asia/Singapore", "Asia/Tokyo", "Australia/Sydney"];
+  const MODS = [["vocab", "New words"], ["dyk", "Did you know"], ["explainer", "How it works"], ["quiz", "Quiz"],
+    ["discussion", "Talk about it"], ["sports", "Sports corner"], ["watchlist", "What to watch"], ["quote", "Closing quote"]]
+    .concat(Object.entries(G.EXTRA_SECTIONS).map(([k, x]) => [k, x.name]));
+  const GROUPS = [["News and ideas", ["world", "politics", "economics", "business", "history", "climate", "health", "arts", "education"]],
+    ["Science and nature", ["science", "space", "animals", "tech_ai", "inventions", "money"]],
+    ["Sport", ["sports", "cricket", "football", "f1", "olympics", "tennis"]],
+    ["Close to home", ["local"]]];
+  const TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "America/Los_Angeles";
+  const tzCity = (tz) => (tz.split("/").pop() || "").replace(/_/g, " ");
+  const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+  const store = { get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
+                  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode */ } } };
 
-  let st = {}, presetId = "young-global-citizen";
+  let st = {}, presetId = "";
   function load(id) {
     presetId = id;
     st = JSON.parse(JSON.stringify(PRESETS[id]));
-    st.modules = st.modules || {};
-    st.custom = st.geos.filter((g) => !G.GEOS.includes(g));
+    st.modules = st.modules || {}; st.tone = {}; st.format = "news"; st.baseName = st.name; st.manualName = false;
     syncForm(); update();
   }
 
-  function tiles(el, name, items, value, onPick, disabled) {
+  function tiles(el, name, items, isOn, onPick, opts = {}) {
     el.innerHTML = "";
     items.forEach(([v, title, desc]) => {
       const id = `${name}-${v}`, d = document.createElement("div");
       d.className = "tile";
-      d.innerHTML = `<input type="radio" name="${name}" id="${id}" value="${v}"><label for="${id}"><b>${title}</b>${desc ? `<small>${desc}</small>` : ""}</label>`;
+      d.innerHTML = `<input type="${opts.multi ? "checkbox" : "radio"}" name="${name}" id="${id}" value="${v}"><label for="${id}"><b>${title}</b>${desc ? `<small>${desc}</small>` : ""}</label>`;
       const inp = d.querySelector("input");
-      inp.checked = String(v) === String(value);
-      if (disabled && disabled(v)) inp.disabled = true;
-      inp.addEventListener("change", () => { onPick(v); update(); });
+      inp.checked = isOn(v);
+      if (opts.disabled && opts.disabled(v)) inp.disabled = true;
+      inp.addEventListener("change", () => { onPick(v, inp.checked); update(); });
       el.appendChild(d);
     });
   }
@@ -286,28 +382,50 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     });
   }
   const effectiveModules = () => Object.assign({}, G.PURPOSES[st.purpose].modules, st.modules);
+  const big = () => st.format === "big_story";
+  const autoName = () => (st.childName || "").trim() ? `${st.childName.trim()}'s ${st.cadence === "weekly" ? "Weekly" : "Morning"} News` : st.baseName;
 
   function syncForm() {
-    tiles($("pages"), "pages", PAGES, PAGES.some((p) => p[0] === +st.pages) ? st.pages : -1, (v) => { st.pages = v; $("pagesExact").value = ""; });
-    $("pagesExact").value = PAGES.some((p) => p[0] === +st.pages) ? "" : st.pages;
-    tiles($("age"), "age", Object.entries(G.AGES).map(([k, a]) => [k, a.label, AGE_DESC[k]]), st.age, (v) => { st.age = v; syncForm(); });
-    tiles($("purpose"), "purpose", Object.entries(G.PURPOSES).map(([k, p]) => [k, p.label]), st.purpose,
+    tiles($("age"), "age", Object.entries(G.AGES).map(([k, a]) => [k, a.label, AGE_DESC[k]]), (v) => v === st.age,
+      (v) => { st.age = v; syncForm(); });
+    tiles($("format"), "format", FORMATS, (v) => v === st.format, (v) => {
+      st.format = v;
+      if (v === "big_story" && !(st.pages >= 2 && st.pages <= 4)) st.pages = 2;
+      syncForm();
+    });
+    tiles($("tone"), "tone", Object.entries(G.TONES).map(([k, t]) => [k, t.label, t.desc]), (v) => !!st.tone[v],
+      (v, on) => { st.tone[v] = on; }, { multi: true });
+    tiles($("purpose"), "purpose", Object.entries(G.PURPOSES).map(([k, p]) => [k, p.label]), (v) => v === st.purpose,
       (v) => { st.purpose = v; st.modules = {}; syncForm(); });
-    tiles($("depth"), "depth", Object.entries(G.DEPTHS).map(([k, d]) => [k, d.label, DEPTH_DESC[k]]), st.depth, (v) => { st.depth = v; });
-    tiles($("cadence"), "cadence", CAD, st.cadence, (v) => { st.cadence = v; });
-    tiles($("language"), "language", [["en", "English"], ["hi", "Hindi", "Needs Unicode fonts"], ["bi", "English and Hindi", "Needs Unicode fonts"]],
-      st.language || "en", (v) => { st.language = v; }, (v) => v !== "en");
+    const P = big() ? BIG_PAGES : PAGES;
+    tiles($("pages"), "pages", P, (v) => +v === +st.pages, (v) => { st.pages = v; $("pagesExact").value = ""; });
+    $("pagesExactRow").hidden = big();
+    $("pagesExact").value = P.some((p) => p[0] === +st.pages) ? "" : st.pages;
+    tiles($("depth"), "depth", Object.entries(G.DEPTHS).map(([k, d]) => [k, d.label, DEPTH_DESC[k]]), (v) => v === st.depth, (v) => { st.depth = v; });
+    tiles($("cadence"), "cadence", CAD, (v) => v === st.cadence, (v) => { st.cadence = v; if (!st.manualName) st.name = autoName(); syncText(); });
     chips($("geos"), "geo", G.GEOS.map((g) => [g, g]), (g) => st.geos.includes(g),
       (g, on) => { st.geos = on ? [...st.geos, g] : st.geos.filter((x) => x !== g); });
-    chips($("topics"), "topic", Object.entries(G.TOPICS).map(([k, t]) => [k, t.name]), (t) => st.topics.includes(t),
-      (t, on) => { st.topics = on ? [...st.topics, t] : st.topics.filter((x) => x !== t); });
+    $("topicGroups").innerHTML = "";
+    GROUPS.forEach(([title, keys]) => {
+      const h = document.createElement("h3"); h.className = "sub"; h.textContent = title;
+      const c = document.createElement("div"); c.className = "chips";
+      $("topicGroups").append(h, c);
+      chips(c, "topic", keys.map((k) => [k, G.TOPICS[k].name]), (t) => st.topics.includes(t),
+        (t, on) => { st.topics = on ? [...st.topics, t] : st.topics.filter((x) => x !== t); $("cityLabel").hidden = !st.topics.includes("local"); });
+    });
+    $("cityLabel").hidden = !st.topics.includes("local");
     const em = effectiveModules();
-    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; syncForm(); });
-    renderCustom();
-    $("name").value = st.name || ""; $("exactAge").value = st.exactAge || "";
-    $("location").value = st.location || ""; $("profile").value = st.profile || G.AGES[st.age].profile;
-    $("timezone").innerHTML = TZ.concat(TZ.includes(st.timezone) ? [] : [st.timezone]).map((t) => `<option ${t === st.timezone ? "selected" : ""}>${t}</option>`).join("");
+    chips($("modules"), "mod", MODS, (m) => em[m], (m, on) => { st.modules[m] = on; },
+      (m) => big() && ["sports", "watchlist"].includes(m));
+    $("largePrint").checked = !!st.largePrint;
+    renderCustom(); syncText();
     document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === presetId)));
+  }
+  function syncText() {
+    $("name").value = st.name || ""; $("exactAge").value = st.exactAge || ""; $("childName").value = st.childName || "";
+    $("city").value = st.city || ""; $("favourite").value = st.favourite || "";
+    $("location").value = st.location || ""; $("location").placeholder = st.city ? `${st.city}` : tzCity(TZ);
+    $("profile").value = st.profile || G.AGES[st.age].profile;
   }
   function renderCustom() {
     $("geoAdded").innerHTML = "";
@@ -329,34 +447,44 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     const n = parseInt(e.target.value, 10);
     if (n >= 1 && n <= 12) { st.pages = n; document.querySelectorAll('input[name="pages"]').forEach((i) => { i.checked = +i.value === n; }); update(); }
   });
-  [["name", "name"], ["exactAge", "exactAge"], ["location", "location"], ["profile", "profile"], ["timezone", "timezone"]]
-    .forEach(([id, k]) => $(id).addEventListener("input", (e) => { st[k] = e.target.value; presetId = ""; update(); }));
-  $("form").addEventListener("change", () => { presetId = presetId && JSON.stringify(st) === JSON.stringify(PRESETS[presetId]) ? presetId : ""; 
-    document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.id === presetId))); });
+  $("largePrint").addEventListener("change", (e) => { st.largePrint = e.target.checked; update(); });
+  $("childName").addEventListener("input", (e) => { st.childName = e.target.value; if (!st.manualName) { st.name = autoName(); $("name").value = st.name; } update(); });
+  $("name").addEventListener("input", (e) => { st.name = e.target.value; st.manualName = !!e.target.value.trim(); update(); });
+  [["exactAge", "exactAge"], ["location", "location"], ["profile", "profile"], ["city", "city"], ["favourite", "favourite"]]
+    .forEach(([id, k]) => $(id).addEventListener("input", (e) => { st[k] = e.target.value; if (k === "city") $("location").placeholder = e.target.value || tzCity(TZ); update(); }));
+  $("form").addEventListener("change", () => { presetId = ""; document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", "false")); });
+  $("form").addEventListener("input", () => { presetId = ""; document.querySelectorAll("#presets button").forEach((b) => b.setAttribute("aria-pressed", "false")); });
 
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   let last = null;
+  function options() {
+    return Object.assign({}, st, { id: presetId || undefined, modules: effectiveModules(), timezone: TZ,
+      location: (st.location || "").trim() || (st.city || "").trim() || tzCity(TZ), profile: st.profile || undefined });
+  }
   function update() {
-    const r = G.generate(Object.assign({ id: presetId || undefined }, st, { modules: effectiveModules() }));
+    const r = G.generate(options());
     last = r;
+    clearResults();
     const alerts = [...(r.errors || []).map((e) => `<li class="err">${esc(e)}</li>`),
       ...(r.warnings || []).map((w) => `<li class="warn">${esc(w)}</li>`),
       ...(r.notes || []).map((w) => `<li class="info">${esc(w)}</li>`)];
     $("alerts").innerHTML = alerts.join("");
+    $("posterBox").hidden = st.age !== "6-8";
     if (r.errors && r.errors.length) {
-      $("summary").textContent = "Fix the highlighted choices to generate an edition.";
-      $("facts").innerHTML = ""; $("sheets").innerHTML = ""; $("yaml").textContent = ""; $("next").textContent = "";
-      $("copy").disabled = true; return;
+      $("summary").textContent = "Fix the highlighted choices to make your paper.";
+      $("facts").innerHTML = ""; $("sheets").innerHTML = ""; $("yaml").textContent = "";
+      $("barText").textContent = "Fix the highlighted choices"; setButtons(); return;
     }
-    $("copy").disabled = false;
-    const a = G.AGES[st.age], p = G.PURPOSES[st.purpose];
-    $("summary").textContent = `${st.name || "Your paper"}: ${p.label.toLowerCase()} for ${a.label.toLowerCase()}, ${G.DEPTHS[st.depth].label.toLowerCase()}.`;
-    $("facts").innerHTML = [[r.stats.pages, r.stats.pages === 1 ? "page" : "pages"], [r.stats.stories, "stories"],
-      [r.stats.desks, r.stats.desks === 1 ? "desk" : "desks"], [`~${r.stats.minutes}`, "min read"]]
+    const a = G.AGES[st.age];
+    const feel = Object.keys(G.TONES).filter((t) => st.tone[t]).map((t) => G.TONES[t].label.toLowerCase());
+    $("summary").textContent = `${st.name || "Your paper"}: ${big() ? "one big story" : "the news"} for ${a.label.toLowerCase()}${feel.length ? `, ${feel.join(" and ")}` : ""}.`;
+    $("facts").innerHTML = [[r.stats.pages, r.stats.pages === 1 ? "page" : "pages"],
+      big() ? [1, "big story"] : [r.stats.stories, "stories"], [`~${r.stats.minutes}`, "min read"]]
       .map(([n, l]) => `<li><b>${n}</b> ${l}</li>`).join("");
-    $("sheets").style.setProperty("--sw", r.thumbs.length <= 2 ? "170px" : r.thumbs.length <= 4 ? "140px" : "120px");
+    $("barText").textContent = `${r.stats.pages} page${r.stats.pages > 1 ? "s" : ""} · ${a.label} · ${CAD.find((c) => c[0] === st.cadence)[1].toLowerCase()}`;
+    $("sheets").style.setProperty("--sw", r.thumbs.length <= 2 ? "160px" : r.thumbs.length <= 4 ? "132px" : "112px");
     $("sheets").innerHTML = r.thumbs.map((pg, i) => {
-      const head = pg.masthead ? `<div class="mast"><i></i></div>` : `<div class="ban"><span>${esc(pg.banner)}</span></div>`;
+      const head = pg.masthead ? `<div class="mast"><span>${esc((st.name || "").toUpperCase())}</span></div>` : `<div class="ban"><span>${esc(pg.banner)}</span></div>`;
       const over = r.fill[i];
       const cols = pg.columns.map((col, c) => {
         const tot = col.reduce((s, x) => s + x.h, 0), scale = tot > 1 ? 1 / tot : 1;
@@ -366,19 +494,113 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
       return `<div class="sheet-wrap"><div class="sheet" role="img" aria-label="Page ${i + 1}: ${esc(pg.columns.map((c) => c.map((x) => x.label).join(", ")).join("; "))}">${head}<div class="cols">${cols}</div></div>Page ${i + 1}</div>`;
     }).join("");
     $("yaml").textContent = r.yaml;
-    $("next").innerHTML = `Save it as <code>editions/${esc(r.id)}/edition.yaml</code>, then run <code>python -m ygc editions</code>, <code>python -m ygc prompt ${esc(r.id)}</code> and <code>python -m ygc new ${esc(r.id)}</code>.`;
+    $("devPath").textContent = `editions/${r.id}/edition.yaml`;
+    setButtons();
   }
 
-  $("copy").addEventListener("click", async () => {
-    if (!last || !last.yaml) return;
-    try { await navigator.clipboard.writeText(last.yaml); $("status").textContent = "Copied edition file"; }
-    catch (e) {
-      const range = document.createRange(); range.selectNodeContents($("yaml"));
-      const sel = getSelection(); sel.removeAllRanges(); sel.addRange(range);
-      $("status").textContent = "Selected. Press Ctrl+C or Cmd+C to copy.";
+  // ---------------------------------------------------------------- the engine, in the browser
+  const PYODIDE = "https://cdn.jsdelivr.net/pyodide/v0.27.7/full/";
+  let py = null, engineFailed = false;
+  function loadScript(src) {
+    return new Promise((ok, bad) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = () => bad(new Error(`could not load ${src}`)); document.head.appendChild(s); });
+  }
+  async function startEngine() {
+    try {
+      await loadScript(PYODIDE + "pyodide.js");
+      const p = await loadPyodide({ indexURL: PYODIDE });
+      await p.loadPackage(["pyyaml", "tzdata", "pillow", "charset-normalizer"]);
+      const zip = await (await fetch("builder-engine.zip")).arrayBuffer();
+      p.unpackArchive(zip, "zip", { extractDir: "/app" });
+      p.runPython("import sys, json; sys.path.insert(0, '/app')\nfrom ygc import chat, edition\nedition.EDITIONS = '/tmp/editions'");
+      py = p;
+      $("engine").textContent = "Printing engine ready.";
+      $("engine").className = "engine ready";
+    } catch (e) {
+      engineFailed = true;
+      $("engine").textContent = "The printing engine couldn't load. Check your connection and reload the page.";
+      $("engine").className = "engine failed";
+      console.error(e);
     }
-    setTimeout(() => { $("status").textContent = ""; }, 3000);
+    setButtons();
+  }
+  function setButtons() {
+    const ok = !!py && last && !(last.errors && last.errors.length);
+    ["copyInstr", "makePdf", "copyPoster", "makePoster"].forEach((id) => { $(id).disabled = !ok; });
+  }
+  function run(code, vars) {
+    for (const [k, v] of Object.entries(vars)) py.globals.set(k, v);
+    return JSON.parse(py.runPython(code));
+  }
+  function issueNumber(id, date, bump) {
+    const k = `ygc-issue-${id}`, s = store.get(k) || {};
+    if (s.date === date) return s.number;
+    const n = s.number ? s.number + 1 : 1;
+    if (bump) store.set(k, { date, number: n });
+    return n;
+  }
+  async function copyText(text, statusEl, what) {
+    try { await navigator.clipboard.writeText(text); statusEl.textContent = `Copied ${what}.`; statusEl.className = "status ok"; }
+    catch (e) {
+      const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); statusEl.textContent = `Copied ${what}.`; statusEl.className = "status ok"; }
+      catch (e2) { statusEl.textContent = "Couldn't copy. Select the text and copy it yourself."; }
+      t.remove();
+    }
+    setTimeout(() => { statusEl.textContent = ""; }, 4000);
+  }
+  function engineCall(code, vars, statusEl) {
+    try { return run(code, vars); }
+    catch (e) { const msg = String(e.message || e).split("\n").filter(Boolean).pop(); statusEl.innerHTML = `<div class="bad">${esc(msg)}</div>`; return null; }
+  }
+  $("copyInstr").addEventListener("click", () => {
+    const date = today(), n = issueNumber(last.id, date, true);
+    const out = engineCall("ed = chat.install(Y)\njson.dumps(chat.instructions(ed, D, N))", { Y: last.yaml, D: date, N: n }, $("result"));
+    if (out) copyText(out, $("instrStatus"), "the instructions");
   });
+  $("copyPoster").addEventListener("click", () => {
+    const out = engineCall("ed = chat.install(Y)\njson.dumps(chat.poster_instructions(ed, D))", { Y: last.yaml, D: today() }, $("posterResult"));
+    if (out) copyText(out, $("posterStatus"), "the poster instructions");
+  });
+  let urls = [];
+  function clearResults() { urls.forEach((u) => URL.revokeObjectURL(u)); urls = []; $("result").innerHTML = ""; $("posterResult").innerHTML = ""; }
+  function showResult(el, res, file, what) {
+    if (!res) return;
+    if (!res.ok) {
+      el.innerHTML = `<div class="bad">${esc(res.problem)}</div>` + (res.fix ? `<pre>${esc(res.fix)}</pre><div class="actions"><button type="button" class="btn">Copy the fix list</button><span class="status" role="status"></span></div>` : "");
+      const b = el.querySelector("button");
+      if (b) b.addEventListener("click", () => copyText(res.fix, el.querySelector(".status"), "the fix list"));
+      return;
+    }
+    const bytes = py.FS.readFile(res.pdf);
+    const url = URL.createObjectURL(new Blob([bytes], { type: "application/pdf" }));
+    urls.push(url);
+    el.innerHTML = `<div class="done"><b>Your ${what} is ready.</b> It passed every check our papers pass.</div>
+      <div class="actions"><a class="btn go" href="${url}" download="${esc(file)}">Download the PDF</a><a class="btn ghost" href="${url}" target="_blank" rel="noopener">Open it</a></div>`
+      + (res.fill ? `<p class="next">Optional: some columns have empty space. To fill them, copy this request into the chatbot and paste its new reply above.</p><pre>${esc(res.fill)}</pre><div class="actions"><button type="button" class="btn ghost">Copy the request</button><span class="status" role="status"></span></div>` : "");
+    const b = el.querySelector("button");
+    if (b) b.addEventListener("click", () => copyText(res.fill, el.querySelector(".status"), "the request"));
+  }
+  $("makePdf").addEventListener("click", () => {
+    const text = $("reply").value.trim();
+    if (!text) { $("result").innerHTML = `<div class="bad">Paste the chatbot's reply first.</div>`; return; }
+    const date = today(), n = issueNumber(last.id, date, true);
+    $("result").innerHTML = `<p class="status">Checking every column…</p>`;
+    setTimeout(() => {
+      const res = engineCall("ed = chat.install(Y)\nr = chat.check_paper(ed, T, D, N)\njson.dumps({k: v for k, v in r.items() if k != 'issue'})",
+        { Y: last.yaml, T: text, D: date, N: n }, $("result"));
+      showResult($("result"), res, `${last.id}_${date}.pdf`, "paper");
+    }, 30);
+  });
+  $("makePoster").addEventListener("click", () => {
+    const text = $("posterReply").value.trim();
+    if (!text) { $("posterResult").innerHTML = `<div class="bad">Paste the chatbot's poster reply first.</div>`; return; }
+    const date = today();
+    setTimeout(() => {
+      const res = engineCall("ed = chat.install(Y)\njson.dumps(chat.check_poster(ed, T, D))", { Y: last.yaml, T: text, D: date }, $("posterResult"));
+      showResult($("posterResult"), res, `${last.id}_${date}_poster.pdf`, "poster");
+    }, 30);
+  });
+  $("copy").addEventListener("click", () => { if (last && last.yaml) copyText(last.yaml, $("status"), "the edition file"); });
 
   Object.entries(PRESETS).forEach(([id, p]) => {
     const b = document.createElement("button");
@@ -386,7 +608,8 @@ pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;paddi
     b.addEventListener("click", () => load(id));
     $("presets").appendChild(b);
   });
-  load("young-global-citizen");
+  load("little-explorers");
+  startEngine();
 })();
 </script>
 </body>

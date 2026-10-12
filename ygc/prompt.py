@@ -25,15 +25,19 @@ def _graphic_note(g):
             "chart": "a 2-4 bar chart built only from real, sourced numbers"}[g]
 
 
-def generate(ed):
+def generate(ed, chat=None):
+    """The edition's system prompt. With chat={"date": "YYYY-MM-DD", "number": n} it is
+    written for pasting into a chatbot: the date is stated, web search is required, and
+    the reply is checked by the builder page instead of `python -m ygc check`."""
     r, c = ed["reader"], ed["cadence"]
     npages = len(ed["pages"])
     L = []
-    L.append(f"# System prompt: Editor-in-Chief, {ed['name']}\n")
-    L.append(f"<!-- Generated from editions/{ed['id']}/edition.yaml by "
-             f"`python -m ygc prompt {ed['id']}`. Edit the YAML, not this file. -->\n")
-    L.append("Paste everything below the line into any AI tool that can search the web.\n")
-    L.append("---\n")
+    if not chat:
+        L.append(f"# System prompt: Editor-in-Chief, {ed['name']}\n")
+        L.append(f"<!-- Generated from editions/{ed['id']}/edition.yaml by "
+                 f"`python -m ygc prompt {ed['id']}`. Edit the YAML, not this file. -->\n")
+        L.append("Paste everything below the line into any AI tool that can search the web.\n")
+        L.append("---\n")
     art = "an" if str(npages)[0] == "8" or npages in (11, 18) else "a"
     pages_word = "one-page" if npages == 1 else f"{npages}-page"
     art = "a" if npages == 1 else art
@@ -47,9 +51,20 @@ def generate(ed):
     L.append("")
     L.append(f"**Voice.** {ed['voice']}\n")
     every = "every day" if c["every_days"] == 1 else f"every {c['every_days']} days"
-    L.append(f"**Cadence.** One issue {every}, covering the last {c['window_hours']} hours "
-             f"of news. Take today's date from the device clock in {c['timezone']}, never "
-             f"from this prompt. The issue number is the previous issue's number plus one.\n")
+    if chat:
+        import datetime as dt
+        day = dt.date.fromisoformat(chat["date"])
+        L.append(f"**Today.** Today is {day.strftime('%A')} {day.day} {day.strftime('%B %Y')}. Write issue "
+                 f"No. {chat['number']}, dated {chat['date']}, covering the last {c['window_hours']} hours of news. "
+                 f"One issue comes out {every}.\n")
+        L.append(f"**Research first.** Search the web for the news of the last {c['window_hours']} hours before you write anything. Every fact, "
+                 "number, name and date must come from a page you found in this search, never from memory. "
+                 "If you cannot search the web, reply only: \"I can't search the web, so I can't write today's "
+                 "paper.\" and stop.\n")
+    else:
+        L.append(f"**Cadence.** One issue {every}, covering the last {c['window_hours']} hours "
+                 f"of news. Take today's date from the device clock in {c['timezone']}, never "
+                 f"from this prompt. The issue number is the previous issue's number plus one.\n")
 
     L.append("**Stories.** Choose each on news value alone, then fit its graphic. "
              "Read the primary articles, not just search snippets, and list every URL "
@@ -102,7 +117,10 @@ def generate(ed):
     n = ed["teaching"]["repeat_window"]
     types = {ed["blocks"][b]["type"] for b in placed_blocks(ed)}
     things = [x for t, x in (("vocab", "Vocabulary words"), ("did_you_know", "Did You Know facts")) if t in types]
-    if n and things:
+    if n and things and chat:
+        L.append(f"**No repeats.** If earlier issues of this paper appear in this conversation, "
+                 f"{' and '.join(things).lower()} never repeat theirs. Stories may continue if still important.\n")
+    elif n and things:
         L.append(f"**No repeats.** {' and '.join(things)} never repeat anything from the last {n} "
                  f"issues. Stories may continue if still important.\n")
     if ed.get("rules"):
@@ -110,18 +128,35 @@ def generate(ed):
         L += [f"- {x}" for x in ed["rules"]]
         L.append("")
     L.append("**Craft rules.**")
-    L += [f"- {x}" for x in craft_rules()]
+    for x in craft_rules():
+        if chat and "device clock" in x:       # a chatbot can't read the clock: the date is stated above
+            x = f"Use the date stated above, {chat['date']}, never one from memory or an assumption."
+        L.append(f"- {x}")
     L.append("")
-    L.append("**Output.** Reply with only one JSON object, shaped exactly like this skeleton: "
-             "fill every empty string, replace the zeros, keep every key, and set `date` and "
-             "`issue`. Each source may be a URL or {\"outlet\", \"title\", \"url\"}.\n")
-    sk = skeleton.make(ed, date="YYYY-MM-DD", number=0)
+    if chat:
+        L.append("**Output.** Reply with only one JSON object in a single ```json code block, with "
+                 "nothing before or after it, shaped exactly like this skeleton: fill every empty "
+                 "string, replace the zeros and keep every key. Each source may be a URL or "
+                 "{\"outlet\", \"title\", \"url\"}.\n")
+        sk = skeleton.make(ed, date=chat["date"], number=chat["number"])
+    else:
+        L.append("**Output.** Reply with only one JSON object, shaped exactly like this skeleton: "
+                 "fill every empty string, replace the zeros, keep every key, and set `date` and "
+                 "`issue`. Each source may be a URL or {\"outlet\", \"title\", \"url\"}.\n")
+        sk = skeleton.make(ed, date="YYYY-MM-DD", number=0)
     L.append("```json\n" + json.dumps(sk, ensure_ascii=False, indent=2) + "\n```\n")
-    L.append("Use only characters the PDF fonts can print: plain English punctuation plus "
-             "• — “ ” é ü. No ₹, ł or Devanagari, and never `…`. Length is set by space, "
-             "not character counts: if you can run code, the issue is done only when "
-             f"`python -m ygc check editions/{ed['id']}/issues/<year>/<date>.json` prints "
-             "PASS and you have looked at every page image.")
+    if chat:
+        L.append("Use only characters the PDF fonts can print: plain English punctuation plus "
+                 "• — “ ” é ü. No ₹, ł or Devanagari, and never `…`. Length is set by space, not "
+                 "character counts. A grown-up will paste your reply into a page that measures every "
+                 "column of the printed paper. If they send you back a list of fixes, make every fix and "
+                 "reply with the complete corrected JSON.")
+    else:
+        L.append("Use only characters the PDF fonts can print: plain English punctuation plus "
+                 "• — “ ” é ü. No ₹, ł or Devanagari, and never `…`. Length is set by space, "
+                 "not character counts: if you can run code, the issue is done only when "
+                 f"`python -m ygc check editions/{ed['id']}/issues/<year>/<date>.json` prints "
+                 "PASS and you have looked at every page image.")
     return "\n".join(L) + "\n"
 
 

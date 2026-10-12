@@ -84,3 +84,59 @@ def test_young_global_citizen_preset_is_a_drop_in(generated, tmp_path, monkeypat
         issue = json.load(open(os.path.join(ROOT, "editions", "young-global-citizen", rel), encoding="utf-8"))
         assert checks.check_issue(ed, issue, os.path.join(str(tmp_path), "young-global-citizen", rel),
                                   archive=True).errors == []
+
+
+NEW_OPTIONS = r"""
+const G = require(process.argv[1] + "/generator.js");
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const pick = (a) => a[Math.floor(rnd() * a.length)], some = (a, k) => a.filter(() => rnd() < k);
+const cases = [];
+for (let i = 0; i < 120; i++) {
+  const big = rnd() < 0.4;
+  cases.push({ id: `new-${i}`, name: pick(["Aanya's Morning News", "The Explorer", "Ravi's Weekly"]),
+    format: big ? "big_story" : "news", pages: big ? pick([2, 3, 4]) : pick([1, 2, 3, 4, 6]),
+    age: pick(Object.keys(G.AGES)), purpose: pick(Object.keys(G.PURPOSES)), depth: pick(Object.keys(G.DEPTHS)),
+    cadence: pick(Object.keys(G.CADENCE)), language: "en", geos: some(G.GEOS, 0.25),
+    topics: some(Object.keys(G.TOPICS), 0.25).concat(["space"]), city: pick(["", "Pune", "Leeds"]),
+    childName: pick(["", "Aanya", "Zoë"]), favourite: pick(["", "Mumbai Indians", "Lionel Messi"]),
+    largePrint: rnd() < 0.3, tone: Object.fromEntries(some(Object.keys(G.TONES), 0.3).map((t) => [t, true])),
+    modules: Object.fromEntries(Object.keys(G.EXTRA_SECTIONS).map((k) => [k, rnd() < 0.3])),
+    location: "Pune, India", timezone: "Asia/Kolkata" });
+}
+console.log(JSON.stringify(cases.map((o) => { const r = G.generate(o); return { id: o.id, o, errors: r.errors, yaml: r.yaml }; })));
+"""
+
+
+def test_new_options_always_make_a_printable_edition(tmp_path, monkeypatch):
+    """Formats, tones, learning sections and personal touches: every combination the
+    builder allows must validate, get chatbot instructions and print the planned pages."""
+    from ygc import chat
+    out = subprocess.run(["node", "-e", NEW_OPTIONS, BUILDER], capture_output=True, text=True, check=True)
+    cases = json.loads(out.stdout)
+    monkeypatch.setattr(edition, "EDITIONS", str(tmp_path))
+    ok = [c for c in cases if not c["errors"]]
+    assert len(ok) == len(cases), [c["errors"] for c in cases if c["errors"]][:3]
+    seen = set()
+    for c in ok:
+        ed = chat.install(c["yaml"].replace("id: ", f"id: {c['id']}-", 1))
+        text = chat.instructions(ed, "2026-10-17")
+        o = c["o"]
+        if o["format"] == "big_story":
+            assert "THE BIG STORY" in text and "TIMELINE" in text and "`numbers`" in text
+            seen.add("big")
+        for t, x in (("gentle", "Gentle mode"), ("good_news", "Good news paper"), ("both_sides", "Both sides"),
+                     ("solutions", "Solutions lens")):
+            if o["tone"].get(t):
+                assert x in text
+                seen.add(t)
+        if o["favourite"] and o["pages"] > 1:
+            assert o["favourite"] in text
+        sk = skeleton.make(ed, "2026-10-17", 1)
+        for b in sk["blocks"].values():
+            if "illustration" in b:
+                b["illustration"]["motif"] = "globe"
+            if "chart" in b:
+                b["chart"].update(labels=["A", "B"], values=[1, 2], max=3)
+        pdf = render.build(ed, sk, str(tmp_path / "x.pdf"))
+        assert len(PdfReader(pdf).pages) == o["pages"], c["id"]
+    assert seen >= {"big", "gentle", "good_news", "both_sides", "solutions"}

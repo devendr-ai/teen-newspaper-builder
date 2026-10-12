@@ -271,14 +271,36 @@ document.querySelectorAll('.frow button').forEach(b=>b.addEventListener('click',
 <p><b>Built from verified research.</b> An AI research desk (Claude, by Anthropic) searches the news for each topic. Only facts that point to a page the search actually returned are kept, and each paper is written from that research alone.</p>
 <p><b>Checked before it is published.</b> Automatic checks confirm every section is complete, the layout fits the printed page, nothing is cut off, and every story lists its sources. A separate fact-check compares each claim with the research. An issue that fails isn't published, and the previous issue stays up.</p>
 <p><b>It can still be wrong.</b> AI makes mistakes and early reports change. Every issue lists its sources on its paper's page, so you can check anything before handing it over.{f' To report an error, email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>.' if cfg.get("contact") else ""}</p>
-<p>You can <a href="builder.html">design a paper for your own child</a> and run it yourself: the engine is open source.</p></div>"""
+<p>You can also <a href="builder.html">design a paper for your own child</a>: the page writes instructions for your own AI chatbot, then checks its reply and prints it with the same engine. The engine is open source.</p></div>"""
     open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
         shutil.copy(b, os.path.join(out, "builder.html"))
+        engine_zip(os.path.join(out, "builder-engine.zip"))
     open(os.path.join(out, ".nojekyll"), "w").close()
     log(f"site written to {out}")
     return out
+
+
+def engine_zip(path):
+    """The engine for the builder page, which runs it in the browser (Pyodide): the ygc
+    package, the craft rules and poster guide its chatbot instructions quote, and the
+    pure-Python ReportLab it draws with (the same version as the published papers)."""
+    import zipfile
+    import reportlab
+    rl = os.path.dirname(reportlab.__file__)
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
+        for base, rel_to, keep in ((os.path.join(ROOT, "ygc"), ROOT, (".py",)),
+                                   (rl, os.path.dirname(rl), (".py",))):
+            for d, dirs, files in os.walk(base):      # papers use only the built-in PDF fonts
+                dirs[:] = sorted(x for x in dirs if x not in ("__pycache__", "fonts"))
+                for f in sorted(files):
+                    if f.endswith(keep):
+                        full = os.path.join(d, f)
+                        z.write(full, os.path.relpath(full, rel_to))
+        for f in ("CRAFT_RULES.md", "POSTERS.md"):
+            z.write(os.path.join(ROOT, "docs", f), f"docs/{f}")
+    return path
 
 
 FACET_ORDER = {"Ages 6–8": 1, "Ages 9–11": 2, "Ages 12–14": 3, "Ages 15+": 4,

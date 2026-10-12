@@ -20,6 +20,23 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Design your own, with the parent's own chatbot: the builder page writes
+  instructions for ChatGPT, Claude or Gemini, then checks the reply with the
+  same checks as published issues and builds the same PDF in the browser
+  (Pyodide), with a fix list to paste back when something fails. Also makes the
+  Big Question poster for ages 6–8. New `ygc/chat.py`; `prompt.generate(ed,
+  chat=...)` writes the chatbot version; the site publishes `builder-engine.zip`.
+- New builder choices: *One big story* papers (2–4 pages on a single story);
+  gentle mode, good news paper, both sides and solutions lens; space, animals
+  and nature, technology and AI, inventions, money for kids, cricket, football,
+  Formula 1, Olympic sports, tennis and "my city"; on this day, number of the
+  day, fact or fiction, spot the clue, jobs behind the news, try this at home
+  and map challenge; the child's name on the masthead, a favourite team or
+  player, and large print. Existing choices produce exactly the same editions.
+- Builder page redesigned for parents: five short steps, the site header, "start
+  from one of our papers", neutral defaults (timezone and place from the
+  visitor), "Ages 15+", Hindi hidden until it's supported, the edition file under
+  "For developers", and a summary bar on phones.
 - Publishing with Claude Code: a daily Routine (about 02:00 IST) runs the
   repository's `/publish-today` skill instead of the API pipeline, whose
   schedule is switched off (it still runs by hand). New `python -m ygc due`
