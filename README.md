@@ -3,7 +3,9 @@
 **Run a website of automatically published papers for children:** nine
 ready-made editions for ages 6 to 15 and up, researched, written, checked and
 published every morning by GitHub Actions and Claude. Parents pick a paper for
-their child's age, download today's PDF and print it. Setup takes about 20 minutes: [docs/PUBLISHING.md](docs/PUBLISHING.md).
+their child's age, download today's PDF and print it. The youngest readers also get a
+one-page "Big Question" poster: one idea, pictures, something to try and questions
+to talk about together ([docs/POSTERS.md](docs/POSTERS.md)). Setup takes about 20 minutes: [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
 Build a real, printable newspaper for any reader: choose their age, what the
 paper is for, which countries and topics it covers, how many pages it runs to

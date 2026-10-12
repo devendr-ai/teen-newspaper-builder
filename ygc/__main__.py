@@ -9,6 +9,8 @@
   migrate <v3.json> --edition <id>  convert a template-v3 issue to this format
   auto [--dry-run] [--only id,id]   research, write, check and save every due edition (needs ANTHROPIC_API_KEY)
   site [--out _site]                build the website: every edition, latest PDFs, archives, RSS
+  new-poster <edition> [--date D]   start a "Big Question" poster from a skeleton
+  poster <poster.json>              check a poster and build its PDF and page image
 """
 import argparse
 import datetime as dt
@@ -176,6 +178,41 @@ def cmd_auto(a):
         any(r["status"] == "passed" for r in rep.get("editions", {}).values()) or not rep.get("editions") else 1
 
 
+def cmd_new_poster(a):
+    from . import poster
+    ed = edition.load(a.edition)
+    d = a.date or checks.today(ed).isoformat()
+    path = poster.path_for(ed, d)
+    if os.path.exists(path):
+        sys.exit(f"{path} already exists")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    json.dump(poster.skeleton(ed, d), open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print(f"created {path}\nnext: fill it in following docs/POSTERS.md, then run: "
+          f"python -m ygc poster {os.path.relpath(path, edition.ROOT)}")
+
+
+def cmd_poster(a):
+    from . import poster
+    ed, p = poster.load(a.poster)
+    r = poster.check(ed, p, a.poster)
+    pdf = None
+    if r.ok:
+        os.makedirs(a.out, exist_ok=True)
+        stem = f"{ed['id']}_{p['date']}_poster"
+        pdf = poster.build(ed, p, os.path.join(a.out, stem + ".pdf"))
+        if _render_pngs(pdf, stem, a.out):
+            r.note(f"now LOOK at {os.path.relpath(a.out, edition.ROOT)}/{stem}_page-1.png: checks cannot judge whether it reads well")
+    print(f"\n{a.poster}  [{ed['name']}, Big Question poster]")
+    for e in r.errors:
+        print(f"  ERROR    {e}")
+    for n in r.notes:
+        print(f"  note     {n}")
+    if pdf:
+        print(f"  pdf      {pdf}")
+    print("  RESULT   " + ("PASS" if r.ok else "FAIL"))
+    return 0 if r.ok else 1
+
+
 def cmd_site(a):
     from . import site
     site.build(a.out, keep=a.keep)
@@ -199,11 +236,14 @@ def main(argv=None):
     p.add_argument("--date"); p.add_argument("--budget", type=float)
     p = sub.add_parser("site"); p.add_argument("--out", default=os.path.join(edition.ROOT, "_site"))
     p.add_argument("--keep", type=int)
+    p = sub.add_parser("new-poster"); p.add_argument("edition"); p.add_argument("--date")
+    p = sub.add_parser("poster"); p.add_argument("poster"); p.add_argument("--out", default=OUT)
     a = ap.parse_args(argv)
     try:
         return {"editions": cmd_editions, "new": cmd_new, "check": cmd_check, "build": cmd_build,
                 "prompt": cmd_prompt, "create-edition": cmd_create_edition,
-                "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site}[a.cmd](a) or 0
+                "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site,
+                "new-poster": cmd_new_poster, "poster": cmd_poster}[a.cmd](a) or 0
     except edition.EditionError as e:
         print(f"edition error: {e}", file=sys.stderr)
         return 2

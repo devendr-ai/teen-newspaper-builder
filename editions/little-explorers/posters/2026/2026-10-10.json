@@ -1,0 +1,68 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-10",
+  "question": "Why do so many big ships squeeze through one tiny gap?",
+  "skill": "Ripple effect",
+  "happened": "Far away, beside a country called Iran, there is a narrow strip of sea called the Strait of Hormuz. Every day, big ships carry oil through it. Because of fighting nearby, fewer ships have been getting through. This week, much less oil than usual made it out.",
+  "hero": {
+    "motif": "bottleneck",
+    "caption": "Lots of ships, one narrow gap"
+  },
+  "steps": [
+    {
+      "title": "Wide sea",
+      "motif": "ship",
+      "text": "Ships sail across the big, open sea."
+    },
+    {
+      "title": "Narrow gap",
+      "motif": "strait",
+      "text": "To get out, they all must pass one narrow gap."
+    },
+    {
+      "title": "Traffic jam",
+      "motif": "bottleneck",
+      "text": "When the gap is slow, ships wait in a long line."
+    }
+  ],
+  "home": {
+    "chain": [
+      "Ship",
+      "Oil",
+      "Truck",
+      "Shop",
+      "Home"
+    ],
+    "text": "Oil becomes fuel for trucks, and trucks bring milk, bread and fruit to your shop. When less oil gets through, fuel can cost more, and so can the things trucks carry. That is a ripple effect."
+  },
+  "find_it": {
+    "map": {
+      "title": "STRAIT OF HORMUZ",
+      "label_top": "IRAN",
+      "label_bottom": "OMAN",
+      "footnote": ""
+    },
+    "text": "Find Iran on a map or globe. The strait is the narrow sea just below it. Draw a ship sailing through!"
+  },
+  "try_it": {
+    "title": "Make a bottleneck",
+    "steps": [
+      "Pour a cup of dry rice into a funnel, or a paper cone with a small hole at the bottom.",
+      "Watch: the rice goes in fast, but comes out slowly.",
+      "Now make the hole bigger. What changes?"
+    ]
+  },
+  "talk": {
+    "questions": [
+      "What is one thing in our home that came on a ship or a truck?",
+      "Where else do you see a bottleneck? A door at home time? A slide?"
+    ],
+    "tip": "Today's skill is the ripple effect: one change causing another. Ask \"and then what?\" Don't correct; add a step."
+  },
+  "next_week": "Will more ships get through the gap next week, or fewer? Write or draw your guess, then check next week.",
+  "sources": [
+    "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-putin-oil-energy-prices-10-10-26",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/"
+  ]
+}
