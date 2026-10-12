@@ -372,7 +372,17 @@
       const pb = (n, t) => `<b>PAGE ${n}</b>  •  ${t}`;
       const closingBanner = pb(pages, kid ? "Learn and play" : "Your toolkit");
       plan.push({ masthead: true, columns: [["lead"], ["timeline", "people"]] });
-      if (pages === 2) plan.push({ banner: pb(2, "The big story, explained"), columns: [["numbers", "background"], ["explainer", ...tailIds]] });
+      if (pages === 2) {
+        // share the learning sections between both columns, lightest first, sign-off last on the right
+        const left = ["numbers", "background"], right = ["explainer"];
+        let lw = 2 * STORY_MIN, rw = 0.3;
+        for (const id of tailIds.filter((x) => x !== "sign_off")) {
+          const f = fixedOf(id, blocks[id]);
+          if (lw + f < rw + f || lw < rw) { left.push(id); lw += f; } else { right.push(id); rw += f; }
+        }
+        if (tailIds.includes("sign_off")) right.push("sign_off");
+        plan.push({ banner: pb(2, "The big story, explained"), columns: [left, right] });
+      }
       else if (pages === 3) {
         plan.push({ banner: pb(2, "The big story, explained"), columns: [["numbers", "background"], ["explainer", "sides", "next"]] });
         plan.push({ banner: closingBanner, columns: balance(tailIds, blocks) });

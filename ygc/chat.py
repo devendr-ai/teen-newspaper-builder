@@ -117,20 +117,33 @@ def render_ready(ed, sk):
     return sk
 
 
+# Sections that stretch to fill their column, like stories (the rest have a typical length).
+ELASTIC_FEATURES = {"explainer", "analysis", "background", "timeline", "people", "sides", "next"}
+FEATURE_WORDS = {"quiz": 110}           # typical length of a fixed section; others 70
+
+
 def length_guide(ed):
-    """{story block: words of body} that fill each story's column, measured by laying out the page."""
+    """{block: words of body} for every story and section, measured by laying out the page:
+    stories and stretching sections share what their column leaves after typical-length extras.
+    A column of sections only shares its whole height between them."""
     sk = _probe(ed)
     out = {}
     for p, (_, cols) in enumerate(render.page_geometry(ed)):
         for i, (x, y, w, h) in enumerate(cols):
             ids = ed["pages"][p]["columns"][i]
-            stories = [b for b in ids if ed["blocks"].get(b, {}).get("type") == "story"]
-            if not stories:
+            kind = lambda b: ed["blocks"].get(b, {}).get("type")
+            elastic = [b for b in ids if kind(b) == "story" or (kind(b) == "feature" and b in ELASTIC_FEATURES)]
+            if not elastic:
+                elastic = [b for b in ids if kind(b) == "feature"]
+            for b in ids:
+                if kind(b) == "feature" and b not in elastic:
+                    out[b] = FEATURE_WORDS.get(b, 70)
+            if not elastic:
                 continue
 
             def fits(n):
-                for s in stories:
-                    sk["blocks"][s]["body"] = _words(n)
+                for b in elastic:
+                    sk["blocks"][b]["body"] = _words(n, paras=5 if kind(b) == "story" else 3)
                 fl = render.column_flowables(ids, render.Ctx(ed, sk), w)
                 Frame(x, y, w, h, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0
                       ).addFromList(fl, Canvas(io.BytesIO(), pagesize=letter))
@@ -140,9 +153,24 @@ def length_guide(ed):
                 mid = (lo + hi) // 2
                 lo, hi = (mid, hi) if fits(mid) else (lo, mid)
             fits(lo)
-            for s in stories:
-                out[s] = lo
+            for b in elastic:
+                out[b] = lo
     return out
+
+
+MIN_WORDS = 30          # a story or section with less room than this means the layout can't fit
+
+
+def layout_problems(ed):
+    """Plain-English reasons the chosen layout can't fit the page, whatever the chatbot writes."""
+    full = []
+    for b, n in length_guide(ed).items():
+        if n < MIN_WORDS and (ed["blocks"][b]["type"] == "story" or b in ELASTIC_FEATURES):
+            where = next(f"Page {p + 1}, column {c + 1}" for p, pg in enumerate(ed["pages"])
+                         for c, col in enumerate(pg["columns"]) if b in col)
+            if where not in full:
+                full.append(where)
+    return [f"{w} is too full to leave room for its writing." for w in full]
 
 
 def length_text(ed):
@@ -152,10 +180,11 @@ def length_text(ed):
         return ""
     if not g:
         return ""
-    lines = ["**Length.** Each story fills its column of the printed page. Aim for about this many words in the "
-             f"story's `body` (3 to 5 paragraphs), plus about {BOX_WORDS} words in each of its boxes "
-             "(why it matters, connect the dots, think like an analyst):"]
-    lines += [f"- `{b}`: about {max(30, round(n * 0.9 / 10) * 10)} words" for b, n in g.items()]
+    words = lambda n: max(20, round(n * 0.9 / 10) * 10)
+    stories = [b for b in g if ed["blocks"][b]["type"] == "story"]
+    lines = ["**Length.** Everything must fit the printed page, so aim for about this many words in each `body`:"]
+    lines += [f"- `{b}`: about {words(n)} words" + (f" (3 to 5 paragraphs), plus about {BOX_WORDS} in each of its boxes"
+                                                    if b in stories else "") for b, n in g.items()]
     return "\n".join(lines) + "\n"
 
 

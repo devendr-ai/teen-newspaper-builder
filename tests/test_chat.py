@@ -89,17 +89,35 @@ def test_length_guide_fits_the_page(eid):
     ed = edition.load(eid)
     guide = chat.length_guide(ed)
     stories = [b for b in edition.placed_blocks(ed) if ed["blocks"][b]["type"] == "story"]
-    assert set(guide) == set(stories) and all(40 <= n <= 700 for n in guide.values()), guide
+    assert set(stories) <= set(guide) and all(40 <= guide[b] <= 700 for b in stories), guide
+    assert chat.layout_problems(ed) == []
     sk = chat._probe(ed)
     for b, n in guide.items():
-        sk["blocks"][b]["body"] = chat._words(int(n * 0.9))
+        sk["blocks"][b]["body"] = chat._words(int(n * 0.9), paras=5 if b in stories else 3)
     from ygc import render
     assert all(m["over"] <= 0.5 for m in render.measure(ed, sk))
     text = chat.instructions(ed, "2026-10-12")
     assert "**Field rules.**" in text and "**Length.**" in text and text.index("**Length.**") < text.index("**Output.**")
     real = json.load(open(sorted(__import__("glob").glob(os.path.join(ROOT, "editions", eid, "issues", "2026", "*.json")))[-1]))
-    for b, n in guide.items():                  # published issues, which fit, sit close to the budget
+    for b, n in ((b, guide[b]) for b in stories):   # published issues, which fit, sit close to the budget
         v = real["blocks"][b]
         words = len(" ".join(v["body"]).split()) + sum(len(str(v.get(k, "")).split()) for k in ("why", "connect", "analyst"))
         boxes = sum(1 for k in ("why", "connect", "analyst") if k in v)
         assert 0.5 <= words / (n + chat.BOX_WORDS * boxes) <= 1.15, (b, words, n)
+
+
+@pytest.mark.skipif(not shutil.which("node"), reason="node not installed")
+def test_a_layout_that_cannot_fit_is_caught_before_copying(tmp_path, monkeypatch):
+    """A 2-page big story for ages 6-8 with every section on can't fit: say so up front."""
+    monkeypatch.setattr(edition, "EDITIONS", str(tmp_path))
+    js = ('const G=require(process.argv[1]+"/generator.js"),P=require(process.argv[1]+"/presets.js");'
+          'const b=Object.assign({},P["little-explorers"],{format:"big_story",pages:+process.argv[2],location:"Pune",timezone:"Asia/Kolkata"});'
+          'const m=Object.assign({},G.PURPOSES[b.purpose].modules,b.modules,{quiz:true,discussion:true,dyk:true,quote:true});'
+          'console.log(G.generate(Object.assign({},b,{modules:m})).yaml)')
+    for pages, ok in ((2, False), (3, True)):
+        y = subprocess.run(["node", "-e", js, os.path.join(ROOT, "tools", "builder"), str(pages)],
+                           capture_output=True, text=True, check=True).stdout
+        problems = chat.layout_problems(chat.install(y.replace("id: ", f"id: p{pages}-", 1)))
+        assert (problems == []) == ok, problems
+        if not ok:
+            assert problems[0].startswith("Page 2, column") and "too full" in problems[0]
