@@ -1,0 +1,85 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-12",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "The Airport Attacks in Saudi Arabia Go On",
+      "deck": "Rebels from Yemen hit the main airport in Riyadh again. Saudi Arabia says it will hit back.",
+      "body": [
+        "Riyadh is the capital city of Saudi Arabia, a large country in the Middle East. On Saturday, a missile hit its main airport. Officials said 12 people were killed and 309 were hurt.",
+        "The attackers are the Houthis, a rebel group from Yemen, the country just south of Saudi Arabia. The Houthis get help from Iran. On Sunday they said they had attacked the airport, and a second strike that evening hurt more people. The fighting grew after Yemen's government, helped by Saudi Arabia, began a push on October 4 to take back land the Houthis hold. A peace deal that had mostly held since 2022 has now fallen apart.",
+        "All flights at the airport have stopped, and schools in Riyadh are learning from home for a week. Saudi Arabia says it will hit back hard. President Trump says the United States may join in."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "A war that was far from Saudi cities has now reached its capital. Airports are how people and goods travel, so when one closes, many other people are affected too.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "A Pause on Hitting Energy Sites?",
+      "deck": "President Trump says Russia and Ukraine agreed to stop attacking energy sites. Neither has said so.",
+      "body": [
+        "Russia and Ukraine have been at war since 2022. Both have hit each other's energy sites, such as oil refineries.",
+        "On Sunday, President Trump said the two sides had agreed to an \"energy ceasefire\", starting right away. A ceasefire is a promise to stop fighting. He gave no details, and neither Moscow nor Kyiv had confirmed it.",
+        "Ukraine's president, Volodymyr Zelenskyy, said Ukraine would stop hitting Russian refineries if Russia stopped hitting Ukraine's energy system. Mr Trump says Russia will also send diesel fuel to the US."
+      ],
+      "chart": {
+        "title": "RUSSIAN DIESEL FOR THE US",
+        "subtitle": "Tons in thousands, as Mr Trump described it",
+        "labels": [
+          "Now",
+          "November",
+          "December",
+          "Later"
+        ],
+        "values": [
+          300,
+          500,
+          1000,
+          3000
+        ],
+        "max": 3000,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "These are the amounts Mr Trump said Russia would release."
+      },
+      "why": "Attacks on energy sites can cause shortages and higher prices.",
+      "sources": [
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: Police in Delhi stopped a big youth protest about voter lists and detained more than 2,000 people.",
+        "Formula 1: Max Verstappen won the Singapore Grand Prix and led every lap of the race."
+      ],
+      "sources": null
+    },
+    "watchlist": {
+      "items": [
+        "Whether Russia and Ukraine say they really agree to the energy ceasefire.",
+        "Whether the United States joins Saudi Arabia in fighting the Houthis."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+    "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+    "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+    "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+  ]
+}
