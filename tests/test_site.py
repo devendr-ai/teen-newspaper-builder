@@ -23,6 +23,10 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
         assert f'data-v="{facet}"' in index
     assert 'data-v="Adults"' not in index and 'data-v="Professionals"' not in index   # a site for ages 6-15+
     assert 'class="intro"' in index and "Pick your child" in index            # the parents' intro from site.yaml
+    le = out / "e" / "little-explorers"                     # the Big Question poster is a second download
+    assert (le / "latest-poster.pdf").exists() and (le / "2026-10-10-poster.pdf").exists()
+    assert 'href="e/little-explorers/latest-poster.pdf"' in index
+    assert 'href="2026-10-10-poster.pdf"' in (le / "index.html").read_text(encoding="utf-8")
 
 
 def test_site_shows_a_placeholder_for_papers_without_issues(tmp_path, monkeypatch):

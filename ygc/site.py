@@ -12,7 +12,7 @@ import subprocess
 
 import yaml
 
-from . import checks, edition, render
+from . import checks, edition, poster, render
 
 ROOT = edition.ROOT
 E = html.escape
@@ -113,6 +113,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offse
 .meta{font-size:.84rem;color:var(--muted)}
 .btn{display:inline-block;text-align:center;font-weight:700;background:var(--ink);color:var(--paper);text-decoration:none;border-radius:8px;padding:9px 12px}
 .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.btn.poster{background:#E2584D;color:#fff}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.empty{color:var(--muted);padding:30px 0}
 table{width:100%;border-collapse:collapse;font-size:.95rem}td,th{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
 details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
@@ -156,6 +157,17 @@ def build(out, keep=None, log=print):
         edir = os.path.join(out, "e", eid)
         os.makedirs(edir, exist_ok=True)
         rows, items, latest = [], [], None
+        posters, latest_poster = {}, None          # "Big Question" posters, a companion download
+        for date, p in poster.posters_of(ed)[:keep]:
+            spec = json.load(open(p, encoding="utf-8"))
+            try:
+                poster.build(ed, spec, os.path.join(edir, f"{date}-poster.pdf"))
+            except Exception as e:
+                log(f"  ! {eid} poster {date}: {e}"); continue
+            posters[date] = spec
+            if latest_poster is None:
+                latest_poster = date
+                shutil.copy(os.path.join(edir, f"{date}-poster.pdf"), os.path.join(edir, "latest-poster.pdf"))
         for date, p in issues_of(ed)[:keep]:
             issue = json.load(open(p, encoding="utf-8"))
             pdf = f"{date}.pdf"
@@ -171,10 +183,12 @@ def build(out, keep=None, log=print):
                                     os.path.join(edir, pdf), os.path.join(edir, "cover")], check=False)
             d = dt.date.fromisoformat(date)
             srcs = "".join(f'<li><a href="{E(x.get("url", ""))}" rel="noopener">{E(x.get("title") or x.get("url", ""))}</a>'
-                           f'{" — " + E(x["outlet"]) if x.get("outlet") else ""}</li>' for x in sources_of(issue))
+                           f'{" — " + E(x["outlet"]) if x.get("outlet") else ""}</li>'
+                           for x in sources_of({"sources": sources_of(issue) + sources_of(posters.get(date, {}))}))
+            ptd = f' <a class="btn ghost" href="{date}-poster.pdf" download>Poster</a>' if date in posters else ""
             rows.append(f'<tr><td>{d:%a %d %b %Y}</td><td>No. {issue.get("issue", "")}</td>'
                         f'<td>{E(lead_headline(ed, issue))}<details><summary>Sources</summary><ul>{srcs}</ul></details></td>'
-                        f'<td><a class="btn ghost" href="{pdf}" download>PDF</a></td></tr>')
+                        f'<td><a class="btn ghost" href="{pdf}" download>PDF</a>{ptd}</td></tr>')
             link = f'{cfg["base_url"].rstrip("/")}/e/{eid}/{pdf}' if cfg["base_url"] else pdf
             items.append(f"<item><title>{E(ed['name'])}, No. {issue.get('issue', '')}: {E(lead_headline(ed, issue))}</title>"
                          f"<link>{E(link)}</link><guid>{E(link)}</guid>"
@@ -187,6 +201,9 @@ def build(out, keep=None, log=print):
                  if latest and has_png else f'<a class="cover soon" href="e/{eid}/index.html">{"Latest issue" if latest else "First issue coming soon"}</a>')
         dl = (f'<a class="btn" href="e/{eid}/latest.pdf" download="{eid}-{latest[0]}.pdf">Download latest PDF</a>'
               if latest else "")
+        if latest_poster:
+            dl += (f'<a class="btn poster" href="e/{eid}/latest-poster.pdf" download="{eid}-{latest_poster}-poster.pdf"'
+                   f' title="A one-page Big Question poster: one idea, pictures, an activity and questions to talk about">Download poster</a>')
         cards.append((latest is None, FACET_ORDER.get(audience(ed), 50), ed["name"], f'''<article class="card" data-audience="{E(audience(ed))}" data-length="{E(length_band(n))}" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
 {cover}<h2>{E(ed['name'])}</h2><p>{E(blurb)}</p><div class="meta">{E(meta)}{f" · latest {dt.date.fromisoformat(latest[0]):%d %b}" if latest else ""}</div>
 <div class="actions">{dl}<a class="btn ghost" href="e/{eid}/index.html">All issues</a></div></article>'''))
@@ -194,6 +211,11 @@ def build(out, keep=None, log=print):
         desks = ", ".join(d["label"].title() for d in ed["desks"] if d["id"] != "top")
         top = (f'<a class="btn" href="latest.pdf" download="{eid}-{latest[0]}.pdf">Download the latest issue (PDF)</a>'
                if latest else '<p class="empty">The first issue hasn\'t been published yet.</p>')
+        if latest_poster:
+            q = posters[latest_poster]["question"]
+            top += (f' <a class="btn poster" href="latest-poster.pdf" download="{eid}-{latest_poster}-poster.pdf">Download the poster (PDF)</a>'
+                    f'<p class="meta">Also this week: a one-page <b>Big Question</b> poster, &ldquo;{E(q)}&rdquo;, with pictures, '
+                    f'something to try and questions to talk about together.</p>')
         img = f'<img src="cover.png" alt="" style="width:100%;border:1px solid #B9C3C1">' if latest and has_png else ""
         body = (f'<section class="lede"><div>{img}</div><div><h2 style="font-size:2rem">{E(ed["name"])}</h2>'
                 f'<p>{E(blurb)}</p><p class="meta">{E(meta)}<br>Covers: {E(desks)}</p><p>{top}</p>'

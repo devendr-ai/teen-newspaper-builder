@@ -31,6 +31,12 @@ jobs:
             [ -e "$f" ] || continue
             python -m ygc check "$f" --archive --out build || exit 1
           done
+      - name: Build every Big Question poster
+        run: |
+          for f in editions/*/posters/*/*.json; do
+            [ -e "$f" ] || continue
+            python -m ygc poster "$f" --out build || exit 1
+          done
       - name: Keep PDFs and page previews
         if: always()
         uses: actions/upload-artifact@v4

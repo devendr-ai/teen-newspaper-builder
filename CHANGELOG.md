@@ -13,6 +13,13 @@
 - Builder: adult and professional readers and the professional purpose
   removed; at most four pages from the tiles; family papers that are not daily
   no longer get the "The day's news" tagline by default.
+- "Big Question" posters (`ygc/poster.py`, `docs/POSTERS.md`): a one-page
+  companion for ages 6–8 that turns one story into one idea, with a big drawing,
+  three how-it-works pictures, a chain to the child's home, a map, a hands-on
+  activity, questions for the grown-up and a guess to check next week. Checked
+  like issues (every box measured), built by `python -m ygc poster`, and offered
+  on the website as "Download poster". First poster: The Little Explorer,
+  10 October ("Why do so many big ships squeeze through one tiny gap?").
 - New craft rule: records and "firsts" must be stated by a source.
 - Weekly papers pinned to a weekday no longer skip a week after an off-day issue.
 
