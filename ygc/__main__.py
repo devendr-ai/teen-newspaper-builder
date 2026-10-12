@@ -2,15 +2,18 @@
 
   editions                          list editions
   new <edition> [--date D]          start today's issue from a skeleton
-  check <issue.json> [--archive]    the quality gate: content, fit, build, page images
+  check <issue.json> [--archive] [--pool P]   the quality gate: content, fit, build, page images
   build <issue.json>                build the PDF only (no checks)
   prompt <edition> [--stdout]       regenerate the edition's PROMPT.md
   create-edition <new-id> --from <id>   copy an edition as a starting point
   migrate <v3.json> --edition <id>  convert a template-v3 issue to this format
+  due [--date D] [--json]           what is due today: issue numbers, files, research desks, words to avoid
   auto [--dry-run] [--only id,id]   research, write, check and save every due edition (needs ANTHROPIC_API_KEY)
   site [--out _site]                build the website: every edition, latest PDFs, archives, RSS
   new-poster <edition> [--date D]   start a "Big Question" poster from a skeleton
-  poster <poster.json>              check a poster and build its PDF and page image
+  poster <poster.json> [--pool P]   check a poster and build its PDF and page image
+
+  --pool data/pools/<date>.json also fails any source URL that is not in that research pool.
 """
 import argparse
 import datetime as dt
@@ -76,9 +79,23 @@ def cmd_new(a):
           f"      returns over this file, then run: python -m ygc check {os.path.relpath(path, edition.ROOT)}")
 
 
+def _pool_errors(pool_file, urls, where):
+    """Source URLs missing from a saved research pool (data/pools/<date>.json)."""
+    from .auto.llm import norm_url
+    from .auto.research import pool_urls
+    allowed = pool_urls(json.load(open(pool_file, encoding="utf-8")))
+    return [f"{w}: {u} is not in the research pool; cite only pool sources"
+            for w, u in zip(where, urls) if norm_url(u) not in allowed]
+
+
 def cmd_check(a):
     issue, ed = _load_issue(a.issue)
     r = checks.check_issue(ed, issue, a.issue, archive=a.archive)
+    if a.pool:
+        found = [(f"blocks.{bid}.sources", s.get("url", "") if isinstance(s, dict) else str(s))
+                 for bid, b in issue.get("blocks", {}).items() if isinstance(b, dict)
+                 for s in b.get("sources", []) or []]
+        r.errors += _pool_errors(a.pool, [u for _, u in found], [w for w, _ in found])
     pdf = None
     if a.no_build:
         pass
@@ -166,6 +183,37 @@ def cmd_migrate(a):
     print(f"wrote {out}")
 
 
+def cmd_due(a):
+    from .auto import research, run, writer
+    out = []
+    for eid in edition.list_editions():
+        ed = edition.load(eid)
+        d = dt.date.fromisoformat(a.date) if a.date else checks.today(ed)
+        if not run.is_due(ed, d):
+            continue
+        number, volume = run.next_number(ed, d)
+        vocab, dyk, heads = writer._avoid_list(ed, d)
+        out.append({"edition": eid, "name": ed["name"], "date": d.isoformat(), "issue": number,
+                    "volume": volume,
+                    "file": os.path.relpath(os.path.join(checks.issues_dir(ed), str(d.year), f"{d}.json"),
+                                            edition.ROOT),
+                    "poster": bool((ed.get("automation") or {}).get("poster")),
+                    "avoid_vocab": vocab, "avoid_did_you_know": dyk, "previous_headlines": heads[:8]})
+    eds = [edition.load(x["edition"]) for x in out]
+    desks = {k: {"label": g["label"], "hours": g["hours"], "scopes": g["scopes"], "editions": g["editions"]}
+             for k, g in research.desk_groups(eds).items()}
+    if a.json:
+        print(json.dumps({"due": out, "research_desks": desks}, ensure_ascii=False, indent=1))
+        return 0
+    if not out:
+        print("Nothing is due.")
+    for x in out:
+        print(f"{x['edition']:24} No. {x['issue']:<5} {x['file']}" + ("   + poster" if x["poster"] else ""))
+    for k, g in desks.items():
+        print(f"research  {g['label']:12} {g['hours']}h  for {', '.join(g['editions'])}")
+    return 0
+
+
 def cmd_auto(a):
     from .auto import run
     if not a.dry_run and not os.environ.get("ANTHROPIC_API_KEY"):
@@ -195,6 +243,9 @@ def cmd_poster(a):
     from . import poster
     ed, p = poster.load(a.poster)
     r = poster.check(ed, p, a.poster)
+    if a.pool:
+        urls = [u.get("url", "") if isinstance(u, dict) else str(u) for u in p.get("sources", [])]
+        r.errors += _pool_errors(a.pool, urls, ["sources"] * len(urls))
     pdf = None
     if r.ok:
         os.makedirs(a.out, exist_ok=True)
@@ -226,6 +277,7 @@ def main(argv=None):
     p = sub.add_parser("new"); p.add_argument("edition"); p.add_argument("--date")
     p = sub.add_parser("check"); p.add_argument("issue"); p.add_argument("--archive", action="store_true")
     p.add_argument("--out", default=OUT); p.add_argument("--no-build", action="store_true")
+    p.add_argument("--pool")
     p = sub.add_parser("build"); p.add_argument("issue"); p.add_argument("--out", default=OUT)
     p = sub.add_parser("prompt"); p.add_argument("edition")
     p.add_argument("--stdout", action="store_true"); p.add_argument("--verify", action="store_true")
@@ -238,12 +290,14 @@ def main(argv=None):
     p.add_argument("--keep", type=int)
     p = sub.add_parser("new-poster"); p.add_argument("edition"); p.add_argument("--date")
     p = sub.add_parser("poster"); p.add_argument("poster"); p.add_argument("--out", default=OUT)
+    p.add_argument("--pool")
+    p = sub.add_parser("due"); p.add_argument("--date"); p.add_argument("--json", action="store_true")
     a = ap.parse_args(argv)
     try:
         return {"editions": cmd_editions, "new": cmd_new, "check": cmd_check, "build": cmd_build,
                 "prompt": cmd_prompt, "create-edition": cmd_create_edition,
                 "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site,
-                "new-poster": cmd_new_poster, "poster": cmd_poster}[a.cmd](a) or 0
+                "new-poster": cmd_new_poster, "poster": cmd_poster, "due": cmd_due}[a.cmd](a) or 0
     except edition.EditionError as e:
         print(f"edition error: {e}", file=sys.stderr)
         return 2

@@ -2,7 +2,8 @@
 
 **Run a website of automatically published papers for children:** nine
 ready-made editions for ages 6 to 15 and up, researched, written, checked and
-published every morning by GitHub Actions and Claude. Parents pick a paper for
+published every morning by Claude (a daily Claude Code Routine, or the API through
+GitHub Actions). Parents pick a paper for
 their child's age, download today's PDF and print it. The youngest readers also get a
 one-page "Big Question" poster: one idea, pictures, something to try and questions
 to talk about together ([docs/POSTERS.md](docs/POSTERS.md)). Setup takes about 20 minutes: [docs/PUBLISHING.md](docs/PUBLISHING.md).
