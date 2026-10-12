@@ -692,7 +692,17 @@ details.dev summary{cursor:pointer;font-weight:700}
       const pb = (n, t) => `<b>PAGE ${n}</b>  •  ${t}`;
       const closingBanner = pb(pages, kid ? "Learn and play" : "Your toolkit");
       plan.push({ masthead: true, columns: [["lead"], ["timeline", "people"]] });
-      if (pages === 2) plan.push({ banner: pb(2, "The big story, explained"), columns: [["numbers", "background"], ["explainer", ...tailIds]] });
+      if (pages === 2) {
+        // share the learning sections between both columns, lightest first, sign-off last on the right
+        const left = ["numbers", "background"], right = ["explainer"];
+        let lw = 2 * STORY_MIN, rw = 0.3;
+        for (const id of tailIds.filter((x) => x !== "sign_off")) {
+          const f = fixedOf(id, blocks[id]);
+          if (lw + f < rw + f || lw < rw) { left.push(id); lw += f; } else { right.push(id); rw += f; }
+        }
+        if (tailIds.includes("sign_off")) right.push("sign_off");
+        plan.push({ banner: pb(2, "The big story, explained"), columns: [left, right] });
+      }
       else if (pages === 3) {
         plan.push({ banner: pb(2, "The big story, explained"), columns: [["numbers", "background"], ["explainer", "sides", "next"]] });
         plan.push({ banner: closingBanner, columns: balance(tailIds, blocks) });
@@ -1160,9 +1170,15 @@ const PRESETS = {
     catch (e) { const msg = String(e.message || e).split("\n").filter(Boolean).pop(); statusEl.innerHTML = `<div class="bad">${esc(msg)}</div>`; return null; }
   }
   $("copyInstr").addEventListener("click", () => {
+    const tight = engineCall("ed = chat.install(Y)\njson.dumps(chat.layout_problems(ed))", { Y: last.yaml }, $("result"));
+    if (!tight) return;
+    if (tight.length) {
+      $("result").innerHTML = `<div class="bad"><b>This paper won't fit on ${last.stats.pages} page${last.stats.pages > 1 ? "s" : ""} yet.</b> ${tight.map(esc).join(" ")} Turn off a learning section, choose fewer interests, or add a page, then copy again.</div>`;
+      return;
+    }
     const date = today(), n = issueNumber(last.id, date, true);
     const out = engineCall("ed = chat.install(Y)\njson.dumps(chat.instructions(ed, D, N))", { Y: last.yaml, D: date, N: n }, $("result"));
-    if (out) copyText(out, $("instrStatus"), "the instructions");
+    if (out) { $("result").innerHTML = ""; copyText(out, $("instrStatus"), "the instructions"); }
   });
   $("copyPoster").addEventListener("click", () => {
     const out = engineCall("ed = chat.install(Y)\njson.dumps(chat.poster_instructions(ed, D))", { Y: last.yaml, D: today() }, $("posterResult"));
