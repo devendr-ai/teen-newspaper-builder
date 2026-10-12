@@ -1,0 +1,111 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-10-13",
+ "volume": 1,
+ "issue": 3,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+   "headline": "The World Reacts to the Riyadh Airport Attack",
+   "deck": "Leaders in many countries say the strike on a busy airport was wrong. Saudi Arabia calls it a war crime.",
+   "body": [
+    "Last Saturday, a missile hit the main airport in Riyadh, the capital of Saudi Arabia. Saudi Arabia says at least 12 people died and about 300 were hurt. It was the third attack on that airport in one week. People from eight countries were among the dead and hurt.",
+    "Many countries have spoken out. The United Nations leader, Antonio Guterres, said he was \"deeply shocked\". The attackers are the Houthis, a rebel group from Yemen that gets help from Iran. India, Japan, Canada and Malaysia also condemned the attack, which means they said it was wrong.",
+    "President Trump called it \"terrible\" and said the United States is thinking about joining Saudi Arabia against the Houthis. Saudi Arabia called the attack a war crime and promised to answer it. Saudi Arabia also kept its airport closed for longer while the Houthis threatened more attacks."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+   },
+   "why": "An airport is where people from many countries meet. That is why so many leaders have spoken up.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Saudi Arabia extends airport closure as Houthis threaten more attacks",
+     "url": "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+   "headline": "Russia Has Not Said Yes to the Energy Pause",
+   "deck": "Ukraine says attacks went on after President Trump announced a truce.",
+   "body": [
+    "Russia and Ukraine have hit each other's power plants and fuel sites. On Sunday, President Trump said they had agreed to an \"energy ceasefire\", a promise to stop attacking energy sites.",
+    "But the pause had not taken hold. Ukraine's president, Volodymyr Zelenskyy, said he heard about it from the news, and a power plant in Kharkiv was attacked that evening. Russia's foreign minister, Sergey Lavrov, rejected the idea.",
+    "Oil costs more when fuel sites are attacked. Brent crude, a main world oil price, closed Friday at $104.72 a barrel."
+   ],
+   "chart": {
+    "title": "BRENT CRUDE OIL PRICE",
+    "subtitle": "Dollars a barrel",
+    "labels": [
+     "Fri close",
+     "Weekend",
+     "Monday"
+    ],
+    "values": [
+     104.72,
+     105.48,
+     106.8
+    ],
+    "max": 110,
+    "value_prefix": "$",
+    "highlight_after": 0,
+    "caption": "Oil rose as attacks continued."
+   },
+   "why": "Attacks on fuel sites can raise prices for families.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Zelenskyy says Russia violated energy truce announced by Trump",
+     "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+    },
+    {
+     "outlet": "FinanceFeeds",
+     "title": "Brent Crude Price at $104",
+     "url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+    },
+    {
+     "outlet": "Oilprice.com",
+     "title": "Oil Jumps 2% as Saudi Attacks and Tanker Strikes Revive Hormuz Fears",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Economics: Robert Hall and Michael Woodford won the Nobel prize in economics.",
+    "United States: Hurricane Isaias has been linked to at least four deaths."
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether Russia agrees to the energy pause.",
+    "Whether the US joins Saudi Arabia."
+   ]
+  }
+ },
+ "sources": [
+  "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/",
+  "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html",
+  "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
+  "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2",
+  "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+  "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+  "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773",
+  "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+ ]
+}
