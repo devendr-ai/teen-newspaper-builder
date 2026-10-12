@@ -1,8 +1,9 @@
 """The website builds every listed edition, with downloadable PDFs and visible sources."""
 import os
 import re
+import shutil
 
-from ygc import edition, site
+from ygc import edition, poster, site
 
 
 def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
@@ -10,7 +11,9 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     site.build(str(out), keep=5, log=lambda *a: None)
     index = (out / "index.html").read_text(encoding="utf-8")
     eds = edition.list_editions()
-    assert index.count('class="card"') == len(eds)
+    with_posters = [e for e in eds if poster.posters_of(edition.load(e))]
+    assert index.count('class="card"') == len(eds) + len(with_posters)      # a poster has its own card
+    assert index.count('data-audience="Ages 6–8"') == 2                      # the paper and its poster
     for eid in eds:
         assert (out / "e" / eid / "index.html").exists() and (out / "e" / eid / "feed.xml").exists()
     ygc = out / "e" / "young-global-citizen"
@@ -26,6 +29,7 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     le = out / "e" / "little-explorers"                     # the Big Question poster is a second download
     assert (le / "latest-poster.pdf").exists() and (le / "2026-10-10-poster.pdf").exists()
     assert 'href="e/little-explorers/latest-poster.pdf"' in index
+    assert (le / "poster-cover.png").exists() or not shutil.which("pdftoppm")
     assert 'href="2026-10-10-poster.pdf"' in (le / "index.html").read_text(encoding="utf-8")
 
 

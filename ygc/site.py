@@ -114,6 +114,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offse
 .btn{display:inline-block;text-align:center;font-weight:700;background:var(--ink);color:var(--paper);text-decoration:none;border-radius:8px;padding:9px 12px}
 .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
 .btn.poster{background:#E2584D;color:#fff}
+.tag{align-self:flex-start;background:#E2584D;color:#fff;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.empty{color:var(--muted);padding:30px 0}
 table{width:100%;border-collapse:collapse;font-size:.95rem}td,th{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
 details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;padding-left:18px;font-size:.88rem}
@@ -201,12 +202,21 @@ def build(out, keep=None, log=print):
                  if latest and has_png else f'<a class="cover soon" href="e/{eid}/index.html">{"Latest issue" if latest else "First issue coming soon"}</a>')
         dl = (f'<a class="btn" href="e/{eid}/latest.pdf" download="{eid}-{latest[0]}.pdf">Download latest PDF</a>'
               if latest else "")
-        if latest_poster:
-            dl += (f'<a class="btn poster" href="e/{eid}/latest-poster.pdf" download="{eid}-{latest_poster}-poster.pdf"'
-                   f' title="A one-page Big Question poster: one idea, pictures, an activity and questions to talk about">Download poster</a>')
         cards.append((latest is None, FACET_ORDER.get(audience(ed), 50), ed["name"], f'''<article class="card" data-audience="{E(audience(ed))}" data-length="{E(length_band(n))}" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
 {cover}<h2>{E(ed['name'])}</h2><p>{E(blurb)}</p><div class="meta">{E(meta)}{f" · latest {dt.date.fromisoformat(latest[0]):%d %b}" if latest else ""}</div>
 <div class="actions">{dl}<a class="btn ghost" href="e/{eid}/index.html">All issues</a></div></article>'''))
+        if latest_poster:                          # the poster gets its own card, thumbnail and download
+            if has_png:
+                subprocess.run(["pdftoppm", "-png", "-r", "60", "-singlefile", os.path.join(edir, "latest-poster.pdf"),
+                                os.path.join(edir, "poster-cover")], check=False)
+            pq = posters[latest_poster]["question"]
+            pcover = (f'<a class="cover" href="e/{eid}/latest-poster.pdf"><img src="e/{eid}/poster-cover.png" '
+                      f'alt="The latest Big Question poster: {E(pq)}" loading="lazy"></a>' if has_png
+                      else f'<a class="cover soon" href="e/{eid}/latest-poster.pdf">{E(pq)}</a>')
+            pmeta = f"{audience(ed)} · 1-page poster · {frequency(ed)} · latest {dt.date.fromisoformat(latest_poster):%d %b}"
+            cards.append((False, FACET_ORDER.get(audience(ed), 50), ed["name"] + " poster", f'''<article class="card" data-audience="{E(audience(ed))}" data-length="1 page" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
+{pcover}<span class="tag">Poster</span><h2>The Big Question</h2><p>One big idea from this week's news on a single page: a picture to explore, something to try at home and questions to talk about together. This week: &ldquo;{E(pq)}&rdquo;</p><div class="meta">{E(pmeta)} · from {E(ed["name"])}</div>
+<div class="actions"><a class="btn poster" href="e/{eid}/latest-poster.pdf" download="{eid}-{latest_poster}-poster.pdf">Download poster</a><a class="btn ghost" href="e/{eid}/index.html">All posters</a></div></article>'''))
         # edition page
         desks = ", ".join(d["label"].title() for d in ed["desks"] if d["id"] != "top")
         top = (f'<a class="btn" href="latest.pdf" download="{eid}-{latest[0]}.pdf">Download the latest issue (PDF)</a>'
