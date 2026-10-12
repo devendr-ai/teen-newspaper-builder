@@ -1,0 +1,263 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-12",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Riyadh's Airport Is Hit Again as Yemen's War Reaches Saudi Arabia",
+      "deck": "A missile killed 12 people on Saturday. A second strike on the airport followed on Sunday evening.",
+      "body": [
+        "On Saturday 10 October a missile hit King Khalid International Airport in Riyadh, the capital of Saudi Arabia. Saudi aviation officials said 12 people were killed and 309 wounded, the deadliest attack on the kingdom in more than a decade. The dead came from many countries, including four Saudis, two Bangladeshis and one American.",
+        "On Sunday the Houthis, an Iran-backed movement that controls much of northern Yemen, claimed attacks on the airport, and a second strike that evening caused injuries. Airport operations were suspended and Riyadh's schools moved online for a week. Saudi Arabia says it will retaliate \"firmly\".",
+        "The fighting has grown since a UN-brokered truce that had largely held since 2022 collapsed. On 4 October Yemen's Saudi-backed government launched an offensive to retake Houthi-held territory. The Houthis imposed a maritime embargo on Saudi Arabia in July. President Trump says the United States \"may\" join Saudi operations against the Houthis, though one US senator warned the war is \"spiraling out of control\". On 5 October Turkey, Pakistan and Saudi Arabia agreed to activate \"deterrence measures\" under a mutual defence agreement signed in August, and the UN Secretary-General condemned the strike."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Yemen's war used to stay mostly inside Yemen. Now it is hitting a capital city's main airport. It is also linked to a bigger conflict: the US-Iran war, in which talks to end the fighting are stalled. For families in India and the US, a wider war in the Gulf can mean higher fuel prices and worry for relatives who live or work in the region.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+        "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "An 'Energy Ceasefire' Is Announced, but Not Confirmed",
+      "deck": "President Trump says Russia and Ukraine agreed to stop hitting each other's energy sites. Neither has confirmed it.",
+      "body": [
+        "On Sunday President Trump said Russia and Ukraine had agreed to an \"energy ceasefire\", effective immediately. A ceasefire is an agreement to stop fighting. He gave no details, and neither Moscow nor Kyiv immediately confirmed it. Ukraine's president, Volodymyr Zelenskyy, said Ukraine would stop striking Russian refineries if Moscow stopped attacking Ukraine's energy system.",
+        "A White House official said a deal to stop hitting power plants and energy grids could come next if refinery attacks stop. The announcement followed a deal Mr Trump struck on Friday for Russia to supply diesel to the US, which Ukrainian and European officials criticised as funding Russia's war. On Saturday Mr Trump said it was time for Ukraine to get a new president.",
+        "Mr Zelenskyy said a vote during the war would be unlawful, as Ukraine's constitution bars elections under martial law, in place since February 2022. He said elections could be held if Russia agreed to a 60-day ceasefire, with security guarantees so people could vote safely.",
+        "Both countries are fighting a long-range war from the air while their armies remain largely deadlocked on the ground. On Sunday a Ukrainian drone attack shut a data centre run by the Russian tech company Yandex, the third strike on its facilities in four days. Roughly a fifth of Ukraine is under Russian occupation, and millions of Ukrainians have been displaced abroad."
+      ],
+      "illustration": {
+        "title": "ENERGY AND WAR",
+        "subtitle": "Refineries and grids",
+        "motif": "grid",
+        "caption": "Both sides have been striking each other's energy sites from the air."
+      },
+      "connect": "Geography and economics meet here. Crude oil is pumped in one place, refined in another and burned in a third, so a strike on a refinery in one country can change prices in another. On the latest AAA figure, US diesel averaged $6.28 a gallon, against $3.68 a year earlier. That is why a deal for Russian diesel is controversial: it may ease prices at home while, critics say, paying for the war.",
+      "sources": [
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DEMOCRACY",
+      "headline": "Over 2,000 Detained in Delhi at 'Cockroach' Youth Protest",
+      "deck": "The movement's founder was released on Sunday. The Election Commission and the BJP deny the allegations.",
+      "body": [
+        "Before anyone can vote, their name must be on the electoral list. India's Election Commission has been revising those lists in an exercise called the Special Intensive Revision, and roughly 130 million names have reportedly been removed. The Commission says it is removing duplicate and ineligible entries.",
+        "A youth movement called the Cockroach Janta Party, which began online in May, says the revision favours Prime Minister Modi's BJP and wants Chief Election Commissioner Gyanesh Kumar to resign. The Commission and the BJP deny wrongdoing. On Saturday 10 October police in Delhi detained more than 2,000 people, according to Reuters, before and during a planned protest at Jantar Mantar.",
+        "Authorities closed dozens of metro stations and markets and suspended mobile internet in the central business district. On Sunday a court released the founder, Abhijeet Dipke, and two other leaders on condition of no breach of peace for a year. The UN Human Rights Office expressed concern over the detentions, and India's UN mission in Geneva said the concern was misplaced.",
+        "The movement's earlier protests over exam paper leaks led to the education minister's resignation in July, according to NBC. State elections in Uttar Pradesh and Gujarat are due next year.",
+        "Those detained on 10 October included the YouTuber Dhruv Rathee, the Supreme Court lawyer Prashant Bhushan, and former chief ministers Mamata Banerjee, Arvind Kejriwal and Pinarayi Vijayan. About 600 people were detained in Mumbai, according to ANI. The BJP's spokesman called the demonstrators \"anarchic elements\"; Congress president Mallikarjun Kharge said the government had muzzled democracy.",
+        "The trigger was a report in the Indian Express that two election commissioners had questioned Mr Kumar's revisions. National elections are not due until 2029, so for now the dispute plays out in the streets, the courts and public opinion."
+      ],
+      "illustration": {
+        "title": "RIGHT TO ASSEMBLE",
+        "subtitle": "Jantar Mantar, Delhi",
+        "motif": "protest",
+        "caption": "Gatherings of five or more people were banned in parts of the capital."
+      },
+      "why": "Civics class teaches that a democracy needs fair elections and the freedom to protest. This story tests both. The protesters say voters were struck off unfairly; the Commission says it is cleaning the lists. Both sides say they want an accurate list, so the question is who checks the checkers. In India, the Constitution gives the Election Commission control over elections, and the Commission's own credibility rests on being seen as neutral by every party.",
+      "sources": [
+        "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+        "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  THE MIDTERMS",
+      "headline": "Weeks Before the Midterms, Costs Weigh on Trump's Poll Numbers",
+      "deck": "A Reuters/Ipsos poll puts the president's approval at 32 percent. Voters elect a new Congress on 3 November.",
+      "body": [
+        "On 3 November Americans vote in the midterm elections, so called because they fall halfway through a president's four-year term. All 435 seats in the House of Representatives, 35 seats in the Senate and 39 governorships are up for election.",
+        "A Reuters/Ipsos poll published on 5 October found President Trump's approval at 32%, a record low first reached in September. 52% of respondents named the cost of living as the most important issue, including 53% of Republicans and 49% of Democrats. Among registered voters, 44% planned to vote for Democrats and 37% for Republicans.",
+        "Prices are visible at the pump: diesel averaged $6.28 a gallon, according to AAA, against $3.68 a year earlier. Mr Trump said the US will not attack Iran before the midterms, and that the naval blockade of Iran will stay.",
+        "Voters will also hear about the war. Senator Chris Murphy, a Democrat, argued on \"Face the Nation\" against US retaliation on Saudi Arabia's behalf after the Riyadh airport attack, saying the Iran war is \"spiraling out of control\".",
+        "A different poll in September found only 17% approved of the president's handling of the cost of living. Mr Trump has blamed Ukraine for high diesel prices, rather than the US-led war in Iran."
+      ],
+      "chart": {
+        "title": "WHAT THE POLL SAYS",
+        "subtitle": "Reuters/Ipsos, percent. Costs = top issue",
+        "labels": [
+          "Approval",
+          "Costs",
+          "Dem vote",
+          "GOP vote"
+        ],
+        "values": [
+          32,
+          52,
+          44,
+          37
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Published October 5. The last two bars are registered voters."
+      },
+      "why": "Congress writes laws and approves spending, so the midterms decide what a president can get done. A poll is a snapshot, not a result: opinions can change before voting day, and who actually turns out decides the outcome. In the US system the president leads the executive branch, while Congress, elected separately, passes laws and controls government spending. That separation is why a midterm result can change what a president can do without changing who the president is.",
+      "analyst": "Think like an analyst: the last two bars count registered voters only, while the first two may count everyone polled. Why might that matter? What else could change voters' minds before 3 November?",
+      "sources": [
+        "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+        "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  PHYSICS",
+      "headline": "A Clock That Uses the Nucleus Runs for More Than a Day",
+      "deck": "Researchers in Austria and Germany built a prototype 'nuclear clock' that corrects itself, reported in the journal Nature.",
+      "body": [
+        "Today's best clocks keep time using electrons jumping between energy levels inside atoms. A nuclear clock uses a change inside an atom's nucleus instead. Researchers at TU Wien in Vienna and Germany's PTB, led by Thorsten Schumm and Ekkehard Peik, built a prototype from a crystal containing thorium-229 nuclei.",
+        "A laser excites the thorium nuclei, and how much light they absorb is used to correct the laser automatically, so the clock stabilises itself. It ran for more than 24 hours without anyone adjusting it. It does not yet beat the best atomic clocks, and a first search for dark matter with it found no significant signal.",
+        "A separate thorium-229 clock from Tsinghua University in Beijing was published the same week. The South China Morning Post reports that it is more stable than the Vienna clock.",
+        "This is how science often moves: two independent teams, in different countries, build versions of the same idea and compare results. Neither clock is ready to replace the clocks that define the second, but each result tells other scientists what to improve next.",
+        "The details show why it is difficult. The nuclear transition is at about 8.4 electron volts of energy, at 148 nanometres in the ultraviolet. The clock's frequency was stable to the low parts in 10^14 in continuous operation. It was checked against an ytterbium-ion optical clock at Austria's BEV, and the team worked with the Max Born Institute in Berlin.",
+        "The researchers also note limits. Results from run to run were only reproducible to about 5 parts in 10^13, and they suspect strain in the crystal, though this is not confirmed. Their dark-matter search set only upper limits on possible interactions, which depend on uncertain nuclear properties."
+      ],
+      "illustration": {
+        "title": "THE NUCLEAR CLOCK",
+        "subtitle": "Thorium-229",
+        "motif": "globe",
+        "caption": "The nuclear transition lies in ultraviolet light, at about 148 nanometres."
+      },
+      "why": "Better clocks make better tests of physics, because the nucleus is less disturbed by outside influences than electrons are. For students, the lesson is about method: a prototype is a demonstration, and a new standard needs repeated, independent confirmation. Ask of any science headline: what was actually shown, how long, and what did the authors say they have not yet shown?",
+      "sources": [
+        "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/",
+        "https://scmp.com/news/china/science/article/3370006/chinas-thorium-229-nuclear-clock-beats-viennas-stability-studies-show"
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  FUEL PRICES",
+      "headline": "US Diesel Hits $6.28 a Gallon as Governments Release Oil",
+      "deck": "Diesel is up from $3.68 a year ago. The G7 has agreed to release 100 million barrels of oil from stocks.",
+      "body": [
+        "Diesel averaged $6.28 a gallon in the United States, according to AAA, against $5.94 a month earlier and $3.68 a year earlier. The record is $6.53, set on 22 September. Brent crude, the global benchmark, was about $103 to $105 a barrel on 9 October.",
+        "Governments are responding. On 2 October G7 leaders agreed to coordinate a release of 100 million barrels of oil over four months. Germany will release up to 15 million barrels of diesel, crude oil and heating oil. Mr Trump said Russia would release 300,000 tons of diesel immediately, 500,000 tons in November and 1 million tons in December, and the US Treasury has temporarily waived sanctions on Russia's energy sector.",
+        "Behind the prices is the Iran war, which began with US-Israeli strikes in late February. A ceasefire collapsed in July and a US blockade of Iranian ports began on 14 July. Ship attacks in the Strait of Hormuz have risen since Iran's latest proposal was rejected.",
+        "Europe feels the pressure too. Eurozone inflation reached 3.8% in September, and investors demanded up to 5% a year to lend to France for 10 years, the highest since July 2002. Rising fuel costs and rising borrowing costs can hit households at the same time.",
+        "Reading the numbers: diesel is now far above where it was a year ago, but just below its record. Whether prices keep easing depends on shipping through the Strait of Hormuz and on whether the proposed energy ceasefire holds.",
+        "Another strand is shipping. Iran's Revolutionary Guard navy has warned that ships in the Strait of Hormuz that switch off their navigation and identification systems will be treated as hostile, and Brent crude has stayed around $100. Mr Trump has claimed that 22 million barrels moved through the Strait in one night, a figure to treat with care until independent shipping data confirm it."
+      ],
+      "illustration": {
+        "title": "FUEL AND PRICES",
+        "subtitle": "Diesel per gallon",
+        "motif": "farm",
+        "caption": "Diesel runs trucks, trains, ships and farm machines."
+      },
+      "why": "Diesel carries food and goods, so its price shows up in many other prices. Families that spend most of their income on essentials feel it first. Governments can respond by releasing stored oil or changing trade rules, but each choice has a cost, such as the temporary waiver of sanctions on Russia's energy sector.",
+      "sources": [
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+        "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: Security chief Mohsen Rezaei called the latest US reply to Iran's seven conditions \"insufficient\", though the sides remain in contact.",
+        "Israel: A general election is set for 27 October, and Prime Minister Netanyahu's corruption trial continues. He denies wrongdoing.",
+        "Formula 1: Max Verstappen won the Singapore Grand Prix and led every lap.",
+        "Cricket: India beat the West Indies by 14 runs in Indore and lead the five-match T20 series 2-1."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Ceasefire",
+          "def": "An agreement to stop fighting, for a time or for good. Today: Mr Trump announced an energy ceasefire that Russia and Ukraine have not confirmed."
+        },
+        {
+          "word": "Midterms",
+          "def": "US elections held halfway through a president's four-year term. Today: voters choose the House, 35 Senate seats and governors on 3 November."
+        },
+        {
+          "word": "Embargo",
+          "def": "An official ban on trade with a country. Today: the Houthis imposed a maritime embargo on Saudi Arabia in July."
+        },
+        {
+          "word": "Refinery",
+          "def": "A factory that turns crude oil into fuels such as diesel. Today: Ukraine says it will stop hitting Russian refineries if Russia stops attacking its energy system."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Diesel fuel is named after Rudolf Diesel, the German engineer who invented the diesel engine in the 1890s. Jantar Mantar in Delhi, where the Cockroach protest was planned, is also older than it looks: it is an observatory built in the early 1700s by Maharaja Jai Singh II."
+    },
+    "explainer": {
+      "title": "How crude oil becomes diesel",
+      "body": [
+        "Crude oil is a thick mixture of many substances. A refinery heats it and separates it into parts, called fractions, that boil at different temperatures. Lighter parts become fuels such as petrol, and heavier parts become diesel, heating oil and other products.",
+        "That is why refineries matter in war: crude oil has to be refined before most engines can use it, so a refinery is a bottleneck between the oil wells and the pump. It is also why an oil price like Brent, which is a price for crude oil, does not always move in step with diesel prices at the pump.",
+        "Prices at the pump also include costs that crude oil does not: transport, storage, taxes and the refiner's own costs. When a refinery is damaged, less diesel can be made even if crude oil is plentiful, so the price of diesel can rise faster than the price of crude."
+      ],
+      "sources": [
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> The Houthis control much of which country?",
+        "(a) Oman  (b) Iraq  (c) Yemen  (d) Jordan",
+        "<b>2.</b> The Red Sea separates Saudi Arabia from:",
+        "(a) Europe  (b) Africa  (c) Australia  (d) Antarctica",
+        "<b>3.</b> What day are the US midterm elections?",
+        "(a) 27 October  (b) 3 November  (c) 10 November  (d) 1 December",
+        "<b>4.</b> Which job do protesters in Delhi want Gyanesh Kumar to leave?",
+        "(a) Chief Justice  (b) Chief Election Commissioner  (c) Finance Minister  (d) Governor of the RBI",
+        "<b>5.</b> The new nuclear clock uses the nucleus of:",
+        "(a) uranium-235  (b) thorium-229  (c) carbon-14  (d) cesium-133",
+        "<b>Answers.</b> 1 (c): Yemen. 2 (b): Africa lies on the western shore of the Red Sea. 3 (b): 3 November 2026. 4 (b): Chief Election Commissioner. 5 (b): thorium-229."
+      ],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+        "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+        "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+        "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+      ]
+    },
+    "discussion": {
+      "title": "Talk it over",
+      "body": [
+        "Pick one question. Argue one side for two minutes, then switch and argue the other. Which side was harder to argue, and why?",
+        "<b>1.</b> If two countries at war agree to stop attacking only energy sites, who benefits most? Who might still be at risk?",
+        "<b>2.</b> Who should check a country's list of voters, and how could everyone, on every side, be sure the job is done fairly?",
+        "<b>3.</b> Prices for fuel rose because of a war far away. Should governments release stored oil to bring prices down, even if the war continues? What are the trade-offs?"
+      ],
+      "sources": [
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "quote": {
+      "text": "Ask what each side is counting before you pick a side.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+    "https://scmp.com/news/china/science/article/3370006/chinas-thorium-229-nuclear-clock-beats-viennas-stability-studies-show",
+    "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+    "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+    "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+    "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+    "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636",
+    "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+    "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes",
+    "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/",
+    "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds"
+  ]
+}
