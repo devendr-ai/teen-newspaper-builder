@@ -68,8 +68,19 @@ Rules for the pool (these are what make the papers trustworthy):
   for ages 6–14. Those stories are never used in papers for under-15s.
 - Use the desk keys exactly as `research_desks` gives them (`world`, `india`,
   `science & tech`, ...). Five stories per desk is plenty.
-- If a news site won't open, work from the search results' own text; if that
-  doesn't state the fact, the fact doesn't go in.
+- **Search results count as sources.** WebSearch returns each page's URL with
+  text taken from that page. A fact stated in that text may go in the pool,
+  cited to that URL. Opening the full page (WebFetch) is better when it works,
+  but in the cloud it often fails (DNS errors). That is normal and is **not**
+  a reason to skip a paper or the day. What stays out: a fact that no search
+  result's text actually states.
+- When sources disagree, use the most recent and most official source, or leave
+  the detail out. Don't drop the whole story.
+- **Running stories count.** A big story that was in an earlier issue can lead
+  again when there's a genuinely new development (the paper's PROMPT.md allows
+  it). Check the `previous_headlines` and write the new part.
+- Skip a paper only after really trying to write it. Never skip the whole day
+  before you've written and checked each due paper.
 
 ## 2. Write and check each due paper
 
