@@ -3,8 +3,8 @@ import datetime as dt
 import json
 import os
 
-from .. import checks, edition
-from . import research, writer
+from .. import checks, edition, poster
+from . import poster_writer, research, writer
 from .llm import BudgetExceeded, Client, Usage
 
 DATA = os.path.join(edition.ROOT, "data")
@@ -40,10 +40,11 @@ def next_number(ed, date):
 
 
 def estimate(eds):
-    """Rough cost before running: research per desk group plus writing per edition."""
+    """Rough cost before running: research per desk group, writing per edition, and posters."""
     groups = research.desk_groups(eds)
     pages = sum(len(e["pages"]) for e in eds)
-    return round(len(groups) * 0.30 + len(eds) * 0.25 + pages * 0.06, 2), len(groups)
+    posters = sum(1 for e in eds if (e.get("automation") or {}).get("poster"))
+    return round(len(groups) * 0.30 + len(eds) * 0.25 + pages * 0.06 + posters * 0.10, 2), len(groups)
 
 
 def run(only=None, date_override=None, dry_run=False, budget=None, transport=None, log=print):
@@ -109,6 +110,8 @@ def run(only=None, date_override=None, dry_run=False, budget=None, transport=Non
         report["editions"][ed["id"]] = rep
         log(f"  {rep['status']}" + (f" ({rep.get('reason') or ''})" if rep["status"] != "passed" else "")
             + f"  ${rep['usd']:.2f}")
+        if issue and (ed.get("automation") or {}).get("poster") and "stopped" not in report:
+            rep["poster"] = write_poster(client, usage, ed, d, issue, pool, log)
 
     report["usage"] = usage.as_dict()
     rpath = os.path.join(DATA, "runs", f"{run_date.isoformat()}.json")
@@ -119,4 +122,28 @@ def run(only=None, date_override=None, dry_run=False, budget=None, transport=Non
     for eid, r in report["editions"].items():
         if r["status"] != "passed" and os.environ.get("GITHUB_ACTIONS"):
             print(f"::warning title={eid} not published::{r.get('reason') or r.get('last_feedback', '')[:300]}")
+        p = r.get("poster") or {}
+        if p and p["status"] != "passed" and os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning title={eid} poster not published::{p.get('reason') or p.get('last_feedback', '')[:300]}")
     return report
+
+
+def write_poster(client, usage, ed, d, issue, pool, log=print):
+    """The paper is already saved; whatever happens here, it stays published."""
+    log(f"poster: {ed['id']} {d}")
+    spent0 = usage.usd
+    try:
+        spec, rep = poster_writer.write_poster(client, ed, d, issue, pool, log=log)
+    except BudgetExceeded as e:
+        spec, rep = None, {"status": "skipped", "reason": str(e)}
+    except Exception as e:
+        spec, rep = None, {"status": "failed", "reason": str(e)[:300]}
+    rep["usd"] = round(usage.usd - spent0, 4)
+    if spec:
+        path = poster.path_for(ed, d.isoformat())
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        json.dump(spec, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        rep["file"] = os.path.relpath(path, edition.ROOT)
+    log(f"  poster {rep['status']}" + (f" ({rep.get('reason') or ''})" if rep.get("reason") else "")
+        + f"  ${rep['usd']:.2f}")
+    return rep

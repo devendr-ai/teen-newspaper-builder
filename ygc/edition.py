@@ -165,6 +165,8 @@ def validate(ed, edition_id):
     auto = ed.get("automation") or {}
     if auto and not isinstance(auto.get("enabled", False), bool):
         e.append("automation.enabled must be true or false")
+    if auto and not isinstance(auto.get("poster", False), bool):
+        e.append("automation.poster must be true or false")
     if auto.get("weekday") and str(auto["weekday"]).lower() not in (
             "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"):
         e.append("automation.weekday must be a day name, e.g. saturday")

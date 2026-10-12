@@ -15,6 +15,25 @@ python -m ygc poster editions/little-explorers/posters/2026/2026-10-10.json   # 
 `poster` prints PASS or a located error ("talk tip is OVER by 7 pt"), the same way
 `check` does for issues. Look at the page image before publishing.
 
+## Automatic posters
+
+A paper with `poster: true` under `automation:` in its `edition.yaml` (The Little
+Explorer has it) gets its poster from the daily job. On the day the paper is due,
+after its issue passes and is saved, the job:
+
+1. writes that week's poster from the same research pool, with this file as the
+   instructions, the issue's headlines as the starting point, and last week's
+   `next_week` guess so the poster can check it;
+2. runs the poster checker (every box measured, motifs, characters) and requires
+   every URL in `sources` to be in the research pool;
+3. sends any errors back for repair (up to 4 rounds), then an independent
+   fact-check against the pool;
+4. saves `editions/<id>/posters/<year>/<date>.json` only if all of that passes.
+
+A failed poster never blocks the paper: the issue is already saved, the run report
+(`data/runs/<date>.json`) records the poster's result under the paper, and the
+workflow shows a warning. It costs about one or two extra Claude calls a week.
+
 ## The layout (same every week)
 
 | Field | What it is | Size |

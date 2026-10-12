@@ -82,6 +82,9 @@ India). Change the `cron` line in `.github/workflows/daily.yml` to move it.
 - **Pause a paper:** set `automation: enabled: false` in its `edition.yaml`.
 - **Hide a paper from the site:** add `listed: false` under `site:`.
 - **Weekly papers** publish on the day named in `automation: weekday:`.
+- **Posters:** papers with `automation: poster: true` also get that week's Big
+  Question poster, written and checked after the issue passes. A failed poster
+  is skipped; the paper still publishes. See [POSTERS.md](POSTERS.md).
 - **Add a paper:** design it in the builder, save it as
   `editions/<id>/edition.yaml`, and add the `automation` and `site` sections
   (copy them from any catalog edition). It appears on the site at the next run.
