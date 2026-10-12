@@ -1,0 +1,670 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "riyadh-airport",
+    "headline": "Houthi strikes on Riyadh's airport kill at least 12",
+    "what_happened": "Saudi Arabia says the Houthis, an Iran-backed group from Yemen, attacked Riyadh's King Khalid International Airport three times in one week. Saturday 10 October's attack was the deadliest: at least 12 people died and about 300 were wounded.",
+    "why_it_matters": "Yemen's war has reached Saudi Arabia's capital, and the US says it is weighing whether to join the Saudi campaign.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Saudi Arabia accused the Houthis of killing at least 12 people and wounding about 300 in an attack on Riyadh's international airport on Saturday 10 October; it was the third attack on the airport that week.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "The dead and wounded included citizens of Saudi Arabia (four), Bangladesh (two), and one each from the US, Jordan, Palestine, Syria, Sudan and Egypt, according to the General Authority of Civil Aviation.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Reporting describes it as the deadliest attack on the kingdom in more than a decade.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Houthi missiles hit the airport on Thursday 8 October; Saudi civil aviation authorities said an airline pilot and two other Saudis were killed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three"
+     },
+     {
+      "fact": "Trump called the attack 'terrible', said he would speak with Crown Prince Mohammed bin Salman soon and that Washington was weighing whether to join the campaign against the Houthis.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "UN Secretary-General Antonio Guterres said he was 'deeply shocked'; UN envoy Hans Grundberg called strikes on civilian airports 'a grave escalation'.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Saudi Arabia is running an air campaign against the Houthis to support the Yemeni government's ground offensive; the Houthis are Iran-backed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Saudi Arabia called the attack a war crime and vowed a response; Saudi Arabia extended its airport closure as the Houthis threatened more attacks.",
+      "source_url": "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872"
+     },
+     {
+      "fact": "India, Japan, Canada and Malaysia condemned the attack.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Egypt condemned the attacks as a 'flagrant violation' of international law; Qatar called it a serious violation of Saudi sovereignty; Pakistan's PM Shehbaz Sharif called it a 'heinous attack'; Oman urged restraint to avoid wider escalation.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Secretary of State Marco Rubio said the attack killed an American and called for an end to 'these reprehensible attacks'; Australia's Foreign Minister Penny Wong advised Australians to reconsider travelling to Saudi Arabia.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Killed in Saturday's attack",
+      "value": 12,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "label": "Wounded in Saturday's attack",
+      "value": 300,
+      "unit": "people (about)",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "label": "Attacks on the airport that week",
+      "value": 3,
+      "unit": "attacks",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     }
+    ],
+    "geography": "Riyadh, Saudi Arabia; Yemen lies to the south. The Red Sea separates Saudi Arabia from Africa to the west.",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+      "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Houthi attack on Riyadh airport killed three Saudi nationals",
+      "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Saudi Arabia extends airport closure as Houthis threaten more attacks",
+      "url": "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "energy-ceasefire",
+    "headline": "Trump announces a Russia-Ukraine 'energy ceasefire' but attacks go on",
+    "what_happened": "On Sunday 11 October Trump said on social media that Russia and Ukraine had agreed to an 'energy ceasefire', meaning no attacks on each other's energy sites, starting immediately. Ukraine's President Zelenskyy said he heard about it from the media, and Ukrainian officials reported more strikes on energy sites, including a power plant in Kharkiv.",
+    "why_it_matters": "Attacks on fuel and power sites push up energy prices around the world, and Trump framed the truce as a way to lower fuel costs before the US midterm elections.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump announced on social media that Russia and Ukraine agreed to an 'energy ceasefire', effective immediately, and wrote 'Do not break it!'.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+     },
+     {
+      "fact": "Zelenskyy said Kyiv would back such a truce but Moscow must also comply; a power plant in Kharkiv was attacked the evening of the announcement.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+     },
+     {
+      "fact": "Zelenskyy said on Sunday Ukraine was ready to halt attacks on Russian oil refineries if Moscow stopped attacking Ukrainian energy infrastructure.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+     },
+     {
+      "fact": "The Kremlin said contacts are ongoing and it would provide more information in due course; Foreign Minister Sergey Lavrov rejected the idea, calling it an attempt by Zelenskyy to regroup and rearm.",
+      "source_url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+     },
+     {
+      "fact": "Trump made a similar announcement a month earlier and both sides kept attacking each other's energy facilities.",
+      "source_url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+     },
+     {
+      "fact": "Trump framed the truce as a way to lower fuel costs ahead of the US midterm elections.",
+      "source_url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+     },
+     {
+      "fact": "Brent crude closed Friday at $104.72 a barrel and jumped to $105.48 over the weekend, before giving some back on Monday 12 October.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+     },
+     {
+      "fact": "Oilprice.com showed Brent up $2.09, or 2.00%, at $106.80 a barrel on Monday morning.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html"
+     },
+     {
+      "fact": "On Saturday 10 October a Russian attack on Zaporizhzhia killed 16 people, according to a photo caption; Zelenskyy said Russia dropped five glide bombs on residential buildings the day after the US lifted sanctions on Russian diesel exports.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+     },
+     {
+      "fact": "Trump criticised Ukraine's attacks on Russian oil refineries on Saturday 10 October, saying 'He better damn well stop', and said 'it's time for Ukraine to get a new president'; Zelenskyy replied that the leader is for Ukrainians to decide.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+     },
+     {
+      "fact": "Zelenskyy said on Sunday he would organise elections if Putin agreed to a 60-day full ceasefire.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude, Friday 9 Oct close",
+      "value": 104.72,
+      "unit": "dollars a barrel",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+     },
+     {
+      "label": "Brent crude, weekend high",
+      "value": 105.48,
+      "unit": "dollars a barrel",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+     },
+     {
+      "label": "Brent crude, Monday 12 Oct morning",
+      "value": 106.8,
+      "unit": "dollars a barrel",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html"
+     }
+    ],
+    "geography": "Russia and Ukraine, north of the Black Sea; Kharkiv is in north-east Ukraine.",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Zelenskyy says Russia violated energy truce announced by Trump",
+      "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "NPR",
+      "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price at $104",
+      "url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+     },
+     {
+      "outlet": "Oilprice.com",
+      "title": "Oil Jumps 2% as Saudi Attacks and Tanker Strikes Revive Hormuz Fears",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "isaias-rachel",
+    "headline": "Two storms hit opposite ends of the United States",
+    "what_happened": "Hurricane Isaias came ashore near Destin, Florida, on Friday 9 October as a Category 2 hurricane and has been linked to at least four deaths. On the other coast, Rachel, by then a post-tropical cyclone, battered Southern California with rain and waves.",
+    "why_it_matters": "Storms test how well towns can protect people and restore power, and repair crews are still at work.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Isaias came ashore Friday 9 October near Destin, Florida, as a Category 2 hurricane.",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     },
+     {
+      "fact": "At least four deaths are linked to the storm, in Florida and Alabama; falling trees were involved in three, and a generator's carbon monoxide in one.",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     },
+     {
+      "fact": "About 311,000 customers were without power in southern Alabama and the Florida Panhandle as of 4 p.m. Sunday; more than 16,000 crew workers were restoring power, which officials expected to finish by Monday.",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     },
+     {
+      "fact": "Heavy rain caused water rescues in Burke County, North Carolina, and five landslides in McDowell County, North Carolina, with no injuries or deaths reported there.",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     },
+     {
+      "fact": "Rachel became a post-tropical cyclone overnight; waves battered the historic wooden boardwalk in Long Beach and more than half a dozen coastal houses were declared structurally unsafe.",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Deaths linked to Isaias (at least)",
+      "value": 4,
+      "unit": "people",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     },
+     {
+      "label": "Customers without power, Sunday 4pm",
+      "value": 311000,
+      "unit": "customers",
+      "source_url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773"
+     }
+    ],
+    "geography": "Gulf Coast (Florida Panhandle, Alabama) and the Appalachians; Long Beach, Southern California on the Pacific coast.",
+    "sources": [
+     {
+      "outlet": "NBC News",
+      "title": "Isaias moves north into Appalachians and mid-Atlantic; Southern California battered by Rachel",
+      "url": "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Isaias moves north as Rachel batters Southern California",
+      "url": "https://www.pbs.org/newshour/nation/isaias-moves-north-as-rachel-batters-southern-california",
+      "published": "2026-10-11"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cockroach-protest",
+    "headline": "Delhi's youth protesters vow to return; opposition marches on the Election Commission",
+    "what_happened": "On Saturday 10 October police in New Delhi detained hundreds of protesters from the 'Cockroach' youth movement, who want Chief Election Commissioner Gyanesh Kumar to resign over a revision of the voter list. On Monday 12 October leaders of the opposition INDIA bloc marched from Connaught Place against the Election Commission and said they will go to the Supreme Court.",
+    "why_it_matters": "Voter lists decide who can vote, so a dispute over them goes to the heart of how a democracy works.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Police in New Delhi detained hundreds of protesters at demonstrations by the 'Cockroach' youth movement on 10 October; some outlets cite thousands.",
+      "source_url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html"
+     },
+     {
+      "fact": "The protesters demand the resignation of Chief Election Commissioner Gyanesh Kumar over a voter list revision.",
+      "source_url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html"
+     },
+     {
+      "fact": "The Commission's revision would drop some 130 million names from the voter list, the protesters allege; the government denies the allegations and says the revision aims to eliminate duplicate entries.",
+      "source_url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"
+     },
+     {
+      "fact": "Cockroach Janta Party founder Abhijeet Dipke was among the leaders detained.",
+      "source_url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html"
+     },
+     {
+      "fact": "The protesters have vowed to return after hundreds were detained.",
+      "source_url": "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114"
+     },
+     {
+      "fact": "On 12 October leaders and parliamentarians of the opposition INDIA bloc marched from Connaught Place in central Delhi, including KC Venugopal and Mamata Banerjee.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "The opposition alleges electoral manipulation and says the government is using the Election Commission for political ends; Venugopal said the party will file a petition in the Supreme Court.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Jantar Mantar was de-notified as a protest venue; Delhi Police named Ramlila Ground, Burari Ground and the CBD Ground in East Delhi as alternatives.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Police also detained Cockroach Janta Party founder Abhijeet Dipke and senior leaders Saurav Das and Ashutosh Ranka as the aircraft bringing them to Delhi arrived from Mumbai.",
+      "source_url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Names the protesters say the revision would drop",
+      "value": 130000000,
+      "unit": "names (about)",
+      "source_url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"
+     }
+    ],
+    "geography": "New Delhi: Connaught Place, Jantar Mantar.",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "India detains youth protest leader to defuse rally against election chief",
+      "url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "NPR",
+      "title": "India cracks down on youth protests as anger grows against Modi and election chief",
+      "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "'Cockroach Party' protesters vow to return after hundreds detained in Delhi",
+      "url": "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "The News Mill",
+      "title": "Opposition INDIA bloc marches from Connaught Place against Election Commission",
+      "url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ec-appointment",
+    "headline": "Who picks India's election chiefs? The opposition marches and a Constitution Bench awaits",
+    "what_happened": "On 12 October the INDIA bloc marched against the Election Commission and said it will petition the Supreme Court. Separately, the Supreme Court has referred petitions challenging the law on appointing election commissioners to a Constitution Bench.",
+    "why_it_matters": "The body that runs elections is chosen by a panel, and who sits on that panel is now in dispute.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Supreme Court referred petitions challenging the law governing Election Commissioner appointments to a Constitution Bench.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+     },
+     {
+      "fact": "The petitions challenge the provision under which the selection panel includes the Prime Minister, a Union Cabinet Minister and the Leader of Opposition.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+     },
+     {
+      "fact": "The government argues that Article 324 leaves the appointment mechanism to Parliament.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+     },
+     {
+      "fact": "The Supreme Court's 2023 ruling added the leader of the opposition to the panel that selects election commissioners; Parliament later passed a 2023 law that replaced the Chief Justice of India with a Union Cabinet Minister on the three-member panel.",
+      "source_url": "https://gulfnews.com/world/asia/india/indias-top-court-overhauls-election-commissioner-appointment-in-historic-judgment-1.94187525"
+     },
+     {
+      "fact": "On 12 October, leaders of the INDIA bloc marched from Connaught Place against the Election Commission; Congress leader KC Venugopal said the party will file a petition in the Supreme Court.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Venugopal accused Prime Minister Modi and Amit Shah of using the Chief Election Commissioner as a tool; the government denies wrongdoing over the voter-list revision and says it aims to remove duplicate entries.",
+      "source_url": "https://www.aninews.in/news/national/politics/india-bloc-stages-mega-protest-march-from-connaught-place-against-election-commission-vows-to-move-supreme-court20261012134525"
+     },
+     {
+      "fact": "Marchers named included Congress general secretary KC Venugopal, Congress MP Renuka Chowdhury and former West Bengal Chief Minister Mamata Banerjee; Banerjee said 'We want justice and nothing else'.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Chowdhury said the protest was declared unlawful and that an FIR had been filed against the marchers; Venugopal called it the 'biggest andolan' against the Election Commission.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Venugopal said the Chief Justice's office had indicated the Supreme Court registry is ready to receive the petition between 10:00 and 4:00.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Jantar Mantar was de-notified as a protest venue; Delhi Police named Ramlila Ground, Burari Ground and the CBD Ground in East Delhi as alternatives, and Police Commissioner Anurag Kumar said a revised SOP for protests at these venues will be notified separately.",
+      "source_url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+     },
+     {
+      "fact": "Justice Datta questioned the present appointment process for election commissioners when the Supreme Court referred the petitions to a Constitution Bench.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi",
+    "sources": [
+     {
+      "outlet": "LiveLaw",
+      "title": "Supreme Court Refers Pleas Challenging Election Commissioners' Law To Constitution Bench",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "India's top court overhauls election commissioner appointment in 'historic' judgment",
+      "url": "https://gulfnews.com/world/asia/india/indias-top-court-overhauls-election-commissioner-appointment-in-historic-judgment-1.94187525"
+     },
+     {
+      "outlet": "The News Mill",
+      "title": "Opposition INDIA bloc marches from Connaught Place against Election Commission",
+      "url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "ANI",
+      "title": "INDIA bloc stages mega protest march from Connaught Place against Election Commission",
+      "url": "https://www.aninews.in/news/national/politics/india-bloc-stages-mega-protest-march-from-connaught-place-against-election-commission-vows-to-move-supreme-court20261012134525",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "nobel-economics",
+    "headline": "Nobel economics prize goes to Robert Hall and Michael Woodford",
+    "what_happened": "On Monday 12 October the Royal Swedish Academy of Sciences announced the economics prize for Robert Hall of Stanford and Michael Woodford of Columbia, for work on how monetary and fiscal policy can help steady the economy through booms and busts.",
+    "why_it_matters": "Central banks and governments use their models when shocks such as energy crises hit.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The 2026 prize in economic sciences was announced on Monday 12 October and went to US academics Robert Hall and Michael Woodford; it was the last Nobel prize of the year.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "They were recognised for their work on how monetary and fiscal policy can help stabilise economic fluctuations.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "During the 1970s oil crises the existing Keynesian models for responding to recessions stopped working; Hall and Woodford built new models on microeconomic foundations, capturing how the combined actions of households and businesses affect the economy.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "Committee chair John Hassler says the models are 'now used by central banks and governments around the world'.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The prize is formally the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, first awarded in 1969, and is not one of the five original Nobel awards.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The prize is a gold medal, a diploma and a 1.2 million US dollar cheque.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "Woodford is at Columbia University.",
+      "source_url": "https://news.columbia.edu/news/columbias-michael-woodford-wins-2026-nobel-memorial-prize-economics"
+     },
+     {
+      "fact": "India's central bank, the RBI, raised its repo rate by 25 basis points to 5.50% on 7 October and moved to a 'calibrated tightening' stance, citing rising inflation.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "The Indian basket of crude rose from $82.04 a barrel in July to $90.19 in August and $109.76 in September, according to SBI Research.",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     },
+     {
+      "fact": "India's retail inflation was 4.82% in August, up from 4.45% in July.",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     },
+     {
+      "fact": "The RBI's October hike was its first repo rate hike since February 2023, when it raised the rate by 25 basis points to 6.50%.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "The RBI changed its stance from neutral to calibrated tightening, in response to rising inflation and global economic uncertainty.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "SBI Research urged two 25-basis-point repo rate hikes, one in October and one in December; it projects retail inflation at 6.70% in October, 6.19% in November and 5.64% in December, and expects crude to stay over $100 a barrel in the near future.",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     },
+     {
+      "fact": "The RBI raised its FY27 real GDP growth projection to 7.1% and projected FY27 CPI inflation at 5.2%, according to one source.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "Food inflation rose to 5.66% and core inflation to 4.16% in August, from 3.87% in July.",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Indian crude basket, July",
+      "value": 82.04,
+      "unit": "dollars a barrel",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     },
+     {
+      "label": "Indian crude basket, August",
+      "value": 90.19,
+      "unit": "dollars a barrel",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     },
+     {
+      "label": "Indian crude basket, September",
+      "value": 109.76,
+      "unit": "dollars a barrel",
+      "source_url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     },
+     {
+      "label": "RBI repo rate after 7 Oct",
+      "value": 5.5,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     }
+    ],
+    "geography": "Stockholm, Sweden (prize); Stanford and Columbia universities in the US; Mumbai (RBI).",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+      "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Two U.S. professors win Nobel prize in economics",
+      "url": "https://www.axios.com/2026/10/12/nobel-prize-economics-2026-hall-woodford",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "SCC Online",
+      "title": "RBI hikes repo rate to 5.50%",
+      "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "DT Next",
+      "title": "RBI should hike rate by 25 bps in Oct: SBI Research",
+      "url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "hubble-planet",
+    "headline": "Astronomers find a possible planet born from a dead star's ashes",
+    "what_happened": "Astronomers re-examining 1999 Hubble data on the white dwarf HS 0209+0832 found about 100 unidentified chemical signals and matched many of them to niobium. Their best explanation is a Jupiter-sized gas giant, a 'second-generation' planet that formed from material shed by the dying star.",
+    "why_it_matters": "It is a candidate, not a confirmed planet, but it shows planets may form after a star dies.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A study in Nature Astronomy reports that the white dwarf HS 0209+0832 may host a second-generation planet formed from material shed by a dying star; CNN covered it on 5 October.",
+      "source_url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf"
+     },
+     {
+      "fact": "Astronomers reanalysing Hubble data from 1999 found about 100 unidentified spectral features and matched many to niobium, at more than 1000 times the Sun's level.",
+      "source_url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf"
+     },
+     {
+      "fact": "The team's best explanation is a gas giant similar in size to Jupiter orbiting at about 6 million km; a faint signal from TESS repeating every 4.4 days is consistent with a giant planet.",
+      "source_url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf"
+     },
+     {
+      "fact": "It is a candidate, not a confirmed detection; NASA calls it a possible explanation for the chemical abundances.",
+      "source_url": "https://esahubble.org/news/heic2613/"
+     },
+     {
+      "fact": "Coverage says that if confirmed, this would be the first second-generation planet ever confirmed.",
+      "source_url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf"
+     },
+     {
+      "fact": "ESA/Hubble's release is headlined 'Suspected second-generation planet solves Hubble cold case'.",
+      "source_url": "https://esahubble.org/news/heic2613/"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "sources": [
+     {
+      "outlet": "ESA/Hubble",
+      "title": "Suspected second-generation planet solves Hubble cold case",
+      "url": "https://esahubble.org/news/heic2613/"
+     },
+     {
+      "outlet": "CNN",
+      "title": "Astronomers detect possible planet born from a dead star's ashes",
+      "url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf",
+      "published": "2026-10-05"
+     },
+     {
+      "outlet": "ScienceDaily",
+      "title": "Hubble Space Telescope may have found a planet born after its star died",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042106.htm",
+      "published": "2026-10-07"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "city-liverpool",
+    "headline": "Manchester City beat Liverpool 3-0",
+    "what_happened": "Manchester City beat Liverpool 3-0 at Liverpool in the Premier League on Sunday 11 October; Erling Haaland scored.",
+    "why_it_matters": "A big Premier League result.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Manchester City beat Liverpool 3-0 at Liverpool on Sunday 11 October.",
+      "source_url": "https://www.foxsports.com/soccer/premier-league-liverpool-vs-man-city-oct-11-2026-game-boxscore-891123"
+     },
+     {
+      "fact": "Erling Haaland scored for City.",
+      "source_url": "https://www.foxsports.com/soccer/premier-league-liverpool-vs-man-city-oct-11-2026-game-boxscore-891123"
+     }
+    ],
+    "numbers": [],
+    "geography": "Liverpool, England",
+    "sources": [
+     {
+      "outlet": "Fox Sports",
+      "title": "Liverpool vs. Man. City - Final Score - October 11, 2026",
+      "url": "https://www.foxsports.com/soccer/premier-league-liverpool-vs-man-city-oct-11-2026-game-boxscore-891123",
+      "published": "2026-10-11"
+     }
+    ]
+   }
+  ]
+ }
+}
