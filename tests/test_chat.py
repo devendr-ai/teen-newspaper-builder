@@ -80,3 +80,26 @@ def test_a_builder_edition_installs_and_gets_instructions(tmp_path, monkeypatch)
     assert ed["id"] == "aanya-s-morning-news" and os.path.exists(tmp_path / ed["id"] / "edition.yaml")
     t = chat.instructions(ed, "2026-10-17")
     assert "Gentle mode" in t and "TRY THIS AT HOME" in t and "Keep exploring, Aanya" not in t
+
+
+@pytest.mark.parametrize("eid", ["little-explorers", "junior-daily", "young-global-citizen", "lab-notebook",
+                                 "current-affairs-digest"])
+def test_length_guide_fits_the_page(eid):
+    """A paper written to the word budgets in the instructions fits every column."""
+    ed = edition.load(eid)
+    guide = chat.length_guide(ed)
+    stories = [b for b in edition.placed_blocks(ed) if ed["blocks"][b]["type"] == "story"]
+    assert set(guide) == set(stories) and all(40 <= n <= 700 for n in guide.values()), guide
+    sk = chat._probe(ed)
+    for b, n in guide.items():
+        sk["blocks"][b]["body"] = chat._words(int(n * 0.9))
+    from ygc import render
+    assert all(m["over"] <= 0.5 for m in render.measure(ed, sk))
+    text = chat.instructions(ed, "2026-10-12")
+    assert "**Field rules.**" in text and "**Length.**" in text and text.index("**Length.**") < text.index("**Output.**")
+    real = json.load(open(sorted(__import__("glob").glob(os.path.join(ROOT, "editions", eid, "issues", "2026", "*.json")))[-1]))
+    for b, n in guide.items():                  # published issues, which fit, sit close to the budget
+        v = real["blocks"][b]
+        words = len(" ".join(v["body"]).split()) + sum(len(str(v.get(k, "")).split()) for k in ("why", "connect", "analyst"))
+        boxes = sum(1 for k in ("why", "connect", "analyst") if k in v)
+        assert 0.5 <= words / (n + chat.BOX_WORDS * boxes) <= 1.15, (b, words, n)
