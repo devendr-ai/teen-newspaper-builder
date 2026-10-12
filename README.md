@@ -8,6 +8,11 @@ their child's age, download today's PDF and print it. The youngest readers also 
 one-page "Big Question" poster: one idea, pictures, something to try and questions
 to talk about together ([docs/POSTERS.md](docs/POSTERS.md)). Setup takes about 20 minutes: [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
+**Or let parents make their own:** the website's *Design your own* page writes
+instructions for the parent's own AI chatbot (ChatGPT, Claude or Gemini), then
+checks the chatbot's reply and builds the same PDF, all inside the browser.
+See [docs/DESIGN_YOUR_OWN.md](docs/DESIGN_YOUR_OWN.md).
+
 Build a real, printable newspaper for any reader: choose their age, what the
 paper is for, which countries and topics it covers, how many pages it runs to
 and how often it comes out. All of that lives in one YAML file. The engine
@@ -36,10 +41,12 @@ cloning to a printed paper of your own design.
 
 ## Make your own paper
 
-The easy way: open **`tools/newspaper-builder.html`** in a browser. Pick a
-length, reader, purpose, countries, topics, depth and sections, and it shows a
-proof of every page and gives you a ready-to-use edition file. Everything it
-produces is tested against the engine.
+The easy way: the **Design your own** page (`tools/newspaper-builder.html`,
+published as `builder.html`). Pick the reader, the kind of paper, interests,
+sections and length; it shows a proof of every page, writes instructions for
+your own chatbot and prints its reply ([docs/DESIGN_YOUR_OWN.md](docs/DESIGN_YOUR_OWN.md)).
+Under "For developers" it also gives the edition file. Everything it produces is
+tested against the engine.
 
 The hands-on way:
 

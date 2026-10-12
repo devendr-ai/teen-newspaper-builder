@@ -10,24 +10,27 @@ python -m ygc prompt <id>          # regenerates the AI instructions from the YA
 python -m ygc check <issue.json>   # shows how the content now fits, column by column
 ```
 
-The fastest start is the **newspaper builder**, `tools/newspaper-builder.html`.
-Open it in any browser and choose:
+The fastest start is the **newspaper builder**, `tools/newspaper-builder.html`
+(the website's *Design your own* page). Choose:
 
 | Choice | What it sets |
 |---|---|
-| Length (1–12 pages) | Number of stories, page plan, briefs and quiz size; 7+ pages add an analysis page |
-| Reader (ages 6–8 to professional) | Reading level, voice, type size, vocabulary count, labels |
+| Reader (ages 6–8 to 15+), child's name, large print | Reading level, voice, type size, vocabulary count, labels; the name goes on the masthead and sign-off |
+| Kind of paper | *The day's news* (several stories) or *One big story* (one story across 2–4 pages: lead, the numbers, how we got here, timeline, who's who, how it works, different views, what's next) |
+| How it should feel | Gentle mode, good news paper, both sides, solutions lens: each adds an edition rule |
 | Purpose | Purpose lines in the prompt and default sections (quiz, explainer, discussion…) |
 | Countries and regions (any, including custom) | One desk per place |
-| Topics | One desk per topic; topics that don't get their own story become angles and briefs |
+| Interests | One desk per topic, from world affairs to space, animals, AI, inventions, money, cricket, football, F1, Olympic sports, tennis and your city; topics that don't get their own story become angles and briefs |
+| Favourite team or player | A rule to cover them in the sports section when they're in the news |
+| Learning sections | Vocabulary, quiz, explainer and the rest, plus on this day, number of the day, fact or fiction, spot the clue, jobs behind the news, try this at home and map challenge |
+| Length and how often | Number of stories, page plan, cadence, news window and sign-off |
 | Depth | Which stories carry "why", "connect the dots" and "think like an analyst" |
-| Sections | Turn vocabulary, quiz, explainer, sports and the rest on or off |
-| How often | Cadence, news window, sign-off and watchlist wording |
 
-It draws a proof of every page, estimates reading time, flags contradictions
-(a professional brief for six-year-olds) and columns likely to overflow or look
-sparse, and gives you the `edition.yaml`. Its generator lives in
-`tools/builder/`; after editing it, run `python tools/builder/build.py`.
+It draws a proof of every page, estimates reading time and flags columns likely
+to overflow or look sparse. It writes chatbot instructions and prints the reply
+([DESIGN_YOUR_OWN.md](DESIGN_YOUR_OWN.md)), and under "For developers" gives you
+the `edition.yaml`. Its generator lives in `tools/builder/`; after editing it,
+run `python tools/builder/build.py`.
 
 Or copy an existing edition:
 

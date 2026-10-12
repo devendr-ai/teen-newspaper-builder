@@ -54,14 +54,17 @@ Open `build/junior-explorer_2026-10-10.pdf` to see what the engine makes.
 ## 5. Design your paper
 
 Open `tools/newspaper-builder.html` in any browser (double-click it). Choose
-the length, reader, purpose, countries, topics, depth, sections and frequency,
-and give the paper a name. Read the proof on the right:
+the reader, kind of paper, interests, sections, length and frequency, and give
+the paper a name (under "More options"). Read the proof on the right:
 
 - **Yellow** warnings mean a trade-off you should decide on, such as a region
   that won't get its own story, or a column that will overflow or look empty.
 - **Grey** notes are for information only.
 
-When you're happy, select **Copy edition file**.
+When you're happy, open **For developers: the edition file** and select
+**Copy edition file**. (Copying instructions for a chatbot and printing its reply
+need the page to be served by a web server, as on the website; see
+[DESIGN_YOUR_OWN.md](DESIGN_YOUR_OWN.md).)
 
 ## 6. Save the edition file
 

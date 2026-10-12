@@ -22,6 +22,11 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     page = (ygc / "index.html").read_text(encoding="utf-8")
     assert "aljazeera.com" in page                       # sources are shown to readers
     assert (out / "about.html").exists() and (out / "builder.html").exists() and (out / ".nojekyll").exists()
+    import zipfile                                       # the builder page runs the engine in the browser
+    names = zipfile.ZipFile(out / "builder-engine.zip").namelist()
+    assert {"ygc/chat.py", "ygc/render.py", "ygc/auto/llm.py", "docs/CRAFT_RULES.md", "docs/POSTERS.md",
+            "reportlab/__init__.py", "reportlab/platypus/__init__.py"} <= set(names)
+    assert not any("__pycache__" in n or n.startswith("editions/") for n in names)
     for facet in ("Ages 6–8", "Ages 12–14", "Ages 15+", "1 page", "3–4 pages", "Weekly", "Exam preparation"):
         assert f'data-v="{facet}"' in index
     assert 'data-v="Adults"' not in index and 'data-v="Professionals"' not in index   # a site for ages 6-15+
