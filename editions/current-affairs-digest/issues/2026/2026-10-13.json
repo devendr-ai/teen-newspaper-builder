@@ -1,0 +1,368 @@
+{
+ "edition": "current-affairs-digest",
+ "date": "2026-10-13",
+ "volume": 1,
+ "issue": 3,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+   "headline": "Leaders Condemn Houthi Strikes on Riyadh Airport; Saudi Arabia Calls Them a War Crime",
+   "deck": "Three attacks hit King Khalid International Airport in a week. Washington says it is weighing whether to join Saudi operations.",
+   "body": [
+    "Saudi Arabia says the Houthis, an Iran-backed group from Yemen, attacked Riyadh's King Khalid International Airport three times in one week. On Thursday 8 October, missiles killed an airline pilot and two other Saudis. Saturday's attack was the deadliest: Saudi Arabia says at least 12 people died and about 300 were wounded. Reports describe it as the deadliest attack on the kingdom in more than a decade.",
+    "The dead and wounded included citizens of Saudi Arabia (four), Bangladesh (two), and one each from the US, Jordan, Palestine, Syria, Sudan and Egypt, according to the General Authority of Civil Aviation. UN Secretary-General Antonio Guterres said he was \"deeply shocked\", and UN envoy Hans Grundberg called attacks on civilian airports \"a grave escalation\". India, Japan, Canada and Malaysia condemned the attack. Egypt called it a \"flagrant violation\" of international law, Qatar a serious violation of Saudi sovereignty, and Oman urged restraint to avoid wider escalation.",
+    "Mr Trump called the attack \"terrible\" and said Washington was weighing whether to join the campaign against the Houthis; Secretary of State Marco Rubio said an American was among the dead, and Australia advised its citizens to reconsider travelling to Saudi Arabia. Saudi Arabia, which is running an air campaign against the Houthis to support Yemen's government offensive, called the attack a war crime. It extended its airport closure as the Houthis threatened more attacks."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+   },
+   "why": "Civilian airports are shared infrastructure: people from many countries pass through them. Attacks on one draw in governments far from Yemen, which is why the diplomacy now matters as much as the fighting.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Houthi attack on Riyadh airport killed three Saudi nationals",
+     "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Saudi Arabia extends airport closure as Houthis threaten more attacks",
+     "url": "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+   "headline": "Kyiv Says Russia Is Still Striking Energy Sites After Trump's 'Energy Ceasefire'",
+   "deck": "Foreign Minister Lavrov rejected the idea; the Kremlin says contacts continue.",
+   "body": [
+    "President Trump announced on social media on Sunday 11 October that Russia and Ukraine had agreed to an \"energy ceasefire\", effective immediately, and wrote \"Do not break it!\". It had not taken hold by Monday. Ukrainian officials reported further strikes on energy sites, including an evening attack on a power plant in Kharkiv.",
+    "Ukraine's President Volodymyr Zelenskyy said he learned of the deal from the media. He said Kyiv would back a truce if Moscow complied, and that Ukraine was ready to halt attacks on Russian oil refineries if Russia stopped attacking Ukrainian energy infrastructure.",
+    "Russia's response was mixed. Foreign Minister Sergey Lavrov rejected the idea, calling it an attempt by Mr Zelenskyy to regroup and rearm, while the Kremlin said contacts were continuing and it would give more information in due course. Mr Trump made a similar announcement a month earlier, and both sides kept attacking each other's energy facilities. He framed this one as a way to lower fuel costs before the US midterms.",
+    "The truce talk came amid harder news. On Saturday 10 October a Russian attack on Zaporizhzhia killed 16 people, according to a photo caption, and Mr Zelenskyy said Russia dropped five glide bombs on homes the day after the US lifted sanctions on Russian diesel exports. Mr Trump also criticised Ukraine's refinery strikes, saying \"He better damn well stop\", and said it was time for Ukraine to get a new president. Mr Zelenskyy replied that the choice is for Ukrainians, and said he would organise elections if Mr Putin agreed to a 60-day full ceasefire."
+   ],
+   "illustration": {
+    "title": "ENERGY UNDER ATTACK",
+    "subtitle": "Plants and refineries",
+    "motif": "grid",
+    "caption": "Each side says the other should stop first."
+   },
+   "connect": "Energy is a lever in this war: refineries turn crude oil into fuel, so hitting them cuts supply and raises prices abroad as well as at home. Brent crude, a main world oil price, closed Friday at $104.72 a barrel, according to one report.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Zelenskyy says Russia violated energy truce announced by Trump",
+     "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+    },
+    {
+     "outlet": "FinanceFeeds",
+     "title": "Brent Crude Price at $104",
+     "url": "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  VOTING",
+   "headline": "Delhi's 'Cockroach' Protesters Vow to Return After Mass Detentions",
+   "deck": "Hundreds were detained on Saturday; protesters want the Chief Election Commissioner to resign.",
+   "body": [
+    "On Saturday 10 October, police in New Delhi detained hundreds of protesters from the \"Cockroach\" youth movement, who demand the resignation of Chief Election Commissioner Gyanesh Kumar over a revision of the voter list. Some outlets put the number detained in the thousands. Police also detained founder Abhijeet Dipke and senior leaders Saurav Das and Ashutosh Ranka as their flight from Mumbai arrived in Delhi.",
+    "The protesters allege the revision would drop some 130 million names from the list. The government denies the allegations and says the revision aims to eliminate duplicate entries. Cockroach Janta Party founder Abhijeet Dipke was among the leaders detained, and the protesters have vowed to return.",
+    "Delhi Police have also changed where protests may be held. Jantar Mantar was de-notified as a protest venue, and police named Ramlila Ground, Burari Ground and the CBD Ground in East Delhi as alternatives. Police Commissioner Anurag Kumar said a revised standard operating procedure for protests at these venues will be notified separately.",
+    "The movement's name traces to a May 2026 remark by Chief Justice Surya Kant, who used the word \"cockroaches\" for some activists and unemployed youth; he later said he meant people who obtain fraudulent degrees."
+   ],
+   "illustration": {
+    "title": "A LIST AT THE CENTRE",
+    "subtitle": "Who is on the voter list",
+    "motif": "protest",
+    "caption": "Young protesters have vowed to return."
+   },
+   "why": "A voter list decides who can vote. Both sides agree duplicates should go; the dispute is over whether real voters are being removed and who should check. The protesters and the government make opposite claims about the same revision, and neither claim is settled by the reports so far.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "India detains youth protest leader to defuse rally against election chief",
+     "url": "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html"
+    },
+    {
+     "outlet": "NPR",
+     "title": "India cracks down on youth protests as anger grows against Modi and election chief",
+     "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "'Cockroach Party' protesters vow to return after hundreds detained in Delhi",
+     "url": "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114"
+    }
+   ]
+  },
+  "politics_and_civics": {
+   "kicker": "POLITICS & CIVICS  •  ELECTIONS",
+   "headline": "Opposition Marches on the Election Commission as a Constitution Bench Awaits",
+   "deck": "Who picks India's election commissioners is itself in dispute.",
+   "body": [
+    "On Monday 12 October, leaders of the opposition INDIA bloc marched from Connaught Place in central Delhi against the Election Commission. They accuse the government of using the Commission for political ends. Congress leader KC Venugopal, calling it the \"biggest andolan\" against the Commission, said the party will file a petition in the Supreme Court and that the Chief Justice's office had indicated the registry is ready to receive it between 10:00 and 4:00. Former West Bengal Chief Minister Mamata Banerjee said, \"We want justice and nothing else.\"",
+    "Congress MP Renuka Chowdhury condemned the police response, saying the protest was declared unlawful and that an FIR had been filed against the marchers.",
+    "Behind the march is a question about who appoints the commissioners. The Supreme Court's 2023 ruling added the Leader of Opposition to the panel that selects them. Parliament later passed a 2023 law that replaced the Chief Justice of India on the three-member panel with a Union Cabinet Minister.",
+    "The Supreme Court has referred petitions challenging that law to a Constitution Bench. The government argues that Article 324 of the Constitution leaves the appointment mechanism to Parliament. Justice Datta questioned the present appointment process when the case was referred.",
+    "The two readings can be put side by side. The opposition accuses the government of using the Commission for political ends, and the panel includes the Prime Minister and a Union Cabinet Minister. The government says the Constitution lets Parliament decide how the panel is made. A Constitution Bench is the kind of larger Supreme Court bench that settles such a question of principle."
+   ],
+   "illustration": {
+    "title": "WHO CHOOSES THE REFEREE?",
+    "subtitle": "The selection panel",
+    "motif": "court",
+    "caption": "A Constitution Bench will hear the challenge."
+   },
+   "why": "In a democracy the body that runs elections must be trusted by all sides. How its members are chosen, and by whom, is part of that trust.",
+   "sources": [
+    {
+     "outlet": "The News Mill",
+     "title": "Opposition INDIA bloc marches from Connaught Place against Election Commission",
+     "url": "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/"
+    },
+    {
+     "outlet": "LiveLaw",
+     "title": "Supreme Court Refers Pleas Challenging Election Commissioners' Law To Constitution Bench",
+     "url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+    },
+    {
+     "outlet": "Gulf News",
+     "title": "India's top court overhauls election commissioner appointment in 'historic' judgment",
+     "url": "https://gulfnews.com/world/asia/india/indias-top-court-overhauls-election-commissioner-appointment-in-historic-judgment-1.94187525"
+    }
+   ]
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  INTEREST RATES",
+   "headline": "Nobel Economics Prize Goes to Hall and Woodford as Central Banks Fight Oil-Driven Inflation",
+   "deck": "Their models guide how policymakers respond to energy shocks.",
+   "body": [
+    "On Monday 12 October, the Royal Swedish Academy of Sciences gave the economics prize to US academics Robert Hall (Stanford) and Michael Woodford (Columbia). They were recognised for work on how monetary and fiscal policy can help stabilise the economy. The academy says that during the 1970s oil crises, existing Keynesian models stopped working, and Hall and Woodford built models on microeconomic foundations, capturing how households and firms act together.",
+    "Committee chair John Hassler says the models are now used by central banks and governments around the world. Energy shocks are one test: India's central bank, the RBI, raised its repo rate by 25 basis points to 5.50% on 7 October and moved to a \"calibrated tightening\" stance, citing rising inflation and global uncertainty.",
+    "Oil is one reason. According to SBI Research, the Indian basket of crude rose from $82.04 a barrel in July to $109.76 in September. India's retail inflation was 4.82% in August, up from 4.45% in July. Food inflation rose to 5.66% and core inflation to 4.16%.",
+    "Forecasters expect more pressure. SBI Research urged two 25-basis-point hikes, one in October and one in December, and projects retail inflation at 6.70% in October. It expects crude to stay above $100 a barrel in the near future. The RBI itself raised its FY27 growth projection to 7.1% and projected FY27 inflation at 5.2%, according to one report."
+   ],
+   "chart": {
+    "title": "INDIAN CRUDE BASKET",
+    "subtitle": "Dollars a barrel, per SBI Research",
+    "labels": [
+     "July",
+     "August",
+     "September"
+    ],
+    "values": [
+     82.04,
+     90.19,
+     109.76
+    ],
+    "max": 120,
+    "value_prefix": "$",
+    "highlight_after": 0,
+    "caption": "Higher oil prices feed into inflation."
+   },
+   "why": "Interest rates affect loan costs, savings and prices. Central banks use models like these to decide when to raise or hold them.",
+   "analyst": "Why might a central bank raise rates when inflation is driven by oil, which rates cannot lower? What would a government's fiscal tools add? Which households are hit hardest by dearer fuel?",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+     "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+    },
+    {
+     "outlet": "SCC Online",
+     "title": "RBI hikes repo rate to 5.50%",
+     "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+    },
+    {
+     "outlet": "DT Next",
+     "title": "RBI should hike rate by 25 bps in Oct: SBI Research",
+     "url": "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+   "headline": "Hubble Data May Reveal a Planet Born From a Dead Star's Ashes",
+   "deck": "A candidate gas giant orbits a white dwarf; this week's most notable peer-reviewed finding, reported 5 October.",
+   "body": [
+    "Astronomers re-examining 1999 Hubble data on the white dwarf HS 0209+0832 found about 100 unidentified spectral features. Using an updated chemical database, they matched many to niobium, at more than 1000 times the Sun's level. The result appears in Nature Astronomy.",
+    "The team's best explanation is a gas giant similar in size to Jupiter orbiting about 6 million km from the star. It would be a \"second-generation\" planet, formed from material shed by the dying star. A faint signal from the TESS telescope, repeating every 4.4 days, is consistent with a giant planet.",
+    "It is a candidate, not a confirmed detection: NASA calls it a possible explanation for the chemical abundances.",
+    "The finding is a reminder that archives matter. ESA/Hubble headlined its release \"Suspected second-generation planet solves Hubble cold case\", because the unexplained signals had sat in 1999 data for decades until a better chemical database let astronomers match them. Coverage says that if confirmed, it would be the first second-generation planet ever confirmed. The reported Nature Astronomy study is from 5 October, so it falls slightly before this issue's 24-hour window; it is included because no peer-reviewed result of the last 24 hours was found."
+   ],
+   "illustration": {
+    "title": "A SECOND-GENERATION PLANET?",
+    "subtitle": "Hubble data, re-read",
+    "motif": "globe",
+    "caption": "A candidate planet, not yet confirmed."
+   },
+   "why": "Old data can hold new discoveries. If confirmed, it would show that planets can form after their star has died.",
+   "sources": [
+    {
+     "outlet": "CNN",
+     "title": "Astronomers detect possible planet born from a dead star's ashes",
+     "url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf"
+    },
+    {
+     "outlet": "ESA/Hubble",
+     "title": "Suspected second-generation planet solves Hubble cold case",
+     "url": "https://esahubble.org/news/heic2613/"
+    },
+    {
+     "outlet": "ScienceDaily",
+     "title": "Hubble Space Telescope may have found a planet born after its star died",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "United States: Hurricane Isaias, which came ashore near Destin, Florida, as a Category 2 storm, has been linked to at least four deaths.",
+    "Saudi Arabia: The Houthis threatened more attacks on airports, and Saudi Arabia extended its airport closure.",
+    "England: Manchester City beat Liverpool 3-0 at Liverpool in the Premier League, with Erling Haaland scoring.",
+    "Oil: Brent crude traded between about $103 and $107 a barrel on Monday, depending on the report."
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Condemn",
+     "def": "To say publicly that something is wrong. Today: India, Japan, Canada and Malaysia condemned the Riyadh airport attack."
+    },
+    {
+     "word": "Monetary policy",
+     "def": "How a central bank uses interest rates to steer prices and growth. Today: the RBI raised its repo rate to 5.50% on 7 October."
+    },
+    {
+     "word": "Constitution Bench",
+     "def": "A larger group of Supreme Court judges that hears major questions about the Constitution. Today: petitions on how election commissioners are chosen were referred to one."
+    },
+    {
+     "word": "White dwarf",
+     "def": "The hot, dense core left when a star like our Sun dies. Today: a candidate planet may orbit the white dwarf HS 0209+0832."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The economics Nobel is not one of the five original Nobel prizes. It is formally the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, set up by Sweden's central bank and first awarded in 1969."
+  },
+  "explainer": {
+   "title": "Why central banks change interest rates",
+   "body": [
+    "A central bank sets the rate at which it lends to banks. In India that rate is the repo rate. When it rises, borrowing generally becomes more expensive across the economy, which tends to cool spending and slow price rises.",
+    "On 7 October the RBI raised the repo rate by 25 basis points (a quarter of one percentage point) to 5.50%, citing rising inflation and global uncertainty. It was the first repo rate hike since February 2023, when the rate rose to 6.50%.",
+    "The Nobel committee's work this year explains why this matters: Hall and Woodford built models showing how households and firms respond to policy, which governments and banks now use when energy shocks hit."
+   ],
+   "sources": [
+    {
+     "outlet": "SCC Online",
+     "title": "RBI hikes repo rate to 5.50%",
+     "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+     "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Eight questions on this issue",
+   "body": [
+    "<b>1.</b> How many times was Riyadh's airport attacked in one week?",
+    "(a) One  (b) Two  (c) Three  (d) Five",
+    "<b>2.</b> Who is the UN Secretary-General who said he was \"deeply shocked\"?",
+    "(a) Antonio Guterres  (b) Hans Grundberg  (c) Marco Rubio  (d) Sergey Lavrov",
+    "<b>3.</b> Who rejected the energy ceasefire idea?",
+    "(a) Volodymyr Zelenskyy  (b) Sergey Lavrov  (c) John Hassler  (d) Gyanesh Kumar",
+    "<b>4.</b> What did Ukraine say it would stop hitting if Russia stopped attacking its energy sites?",
+    "(a) Russian airports  (b) Russian oil refineries  (c) Russian ships  (d) Russian bridges",
+    "<b>5.</b> What is the RBI's repo rate after 7 October?",
+    "(a) 5.25%  (b) 5.50%  (c) 6.50%  (d) 4.82%",
+    "<b>6.</b> Which article does the government cite on appointing election commissioners?",
+    "(a) Article 21  (b) Article 324  (c) Article 370  (d) Article 14",
+    "<b>7.</b> Who won the 2026 economics Nobel?",
+    "(a) Hall and Woodford  (b) Halzen and Kagan  (c) Hassler and Soai  (d) Hall and Hassler",
+    "<b>8.</b> Which star may host a second-generation planet?",
+    "(a) Sirius  (b) HS 0209+0832  (c) Proxima  (d) Vega",
+    "<b>Answers.</b> 1 (c): three. 2 (a): Antonio Guterres. 3 (b): Sergey Lavrov. 4 (b): Russian oil refineries. 5 (b): 5.50%. 6 (b): Article 324. 7 (a): Robert Hall and Michael Woodford. 8 (b): HS 0209+0832."
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+     "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+    },
+    {
+     "outlet": "SCC Online",
+     "title": "RBI hikes repo rate to 5.50%",
+     "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+    },
+    {
+     "outlet": "LiveLaw",
+     "title": "Supreme Court Refers Pleas Challenging Election Commissioners' Law To Constitution Bench",
+     "url": "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+     "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+    },
+    {
+     "outlet": "CNN",
+     "title": "Astronomers detect possible planet born from a dead star's ashes",
+     "url": "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether Russia agrees to the energy ceasefire, and what it covers.",
+    "Whether the US joins Saudi operations against the Houthis.",
+    "Whether the opposition files its petition in the Supreme Court, and whether the Cockroach protesters return."
+   ]
+  }
+ },
+ "sources": [
+  "https://esahubble.org/news/heic2613/",
+  "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/",
+  "https://gulfnews.com/world/asia/india/indias-top-court-overhauls-election-commissioner-appointment-in-historic-judgment-1.94187525",
+  "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html",
+  "https://thenewsmill.com/2026/10/opposition-india-bloc-marches-from-connaught-place-against-election-commission/",
+  "https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114",
+  "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
+  "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2",
+  "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+  "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+  "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+  "https://www.aninews.in/news/national/politics/india-bloc-stages-mega-protest-march-from-connaught-place-against-election-commission-vows-to-move-supreme-court20261012134525",
+  "https://www.cnbc.com/2026/10/10/india-detains-youth-protest-leader-over-rally-against-election-chief.html",
+  "https://www.cnn.com/2026/10/05/science/second-generation-planet-discovery-white-dwarf",
+  "https://www.dtnext.in/news/business/rbi-should-hike-rate-by-25-bps-in-oct-to-counter-external-shocks-sbi-research",
+  "https://www.foxsports.com/soccer/premier-league-liverpool-vs-man-city-oct-11-2026-game-boxscore-891123",
+  "https://www.livelaw.in/top-stories/supreme-court-refers-challenge-to-eci-law-to-constitution-bench-justice-datta-questions-present-appointment-process-551423",
+  "https://www.nbcnews.com/weather/hurricanes/florida-alabama-residents-powerless-isaias-moves-north-rcna602773",
+  "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+  "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+  "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+  "https://www.sciencedaily.com/releases/2026/10/261007042106.htm"
+ ]
+}
