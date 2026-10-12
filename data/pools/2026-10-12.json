@@ -1,0 +1,1106 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "riyadh-airport",
+    "headline": "Houthis strike Riyadh's main airport; Saudi Arabia vows to retaliate",
+    "what_happened": "A missile struck King Khalid International Airport in Riyadh on Saturday 10 October, killing 12 people and wounding 309. The Houthis, an Iran-backed group from Yemen, claimed attacks on the airport on Sunday 11 October, and a second strike hit a terminal that evening. Riyadh schools moved to remote learning for a week.",
+    "why_it_matters": "Yemen's war has reached Saudi Arabia's capital and the US says it may join Saudi operations.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A missile struck King Khalid International Airport in Riyadh on Saturday 10 October; the Saudi aviation authority said 12 were killed and 309 wounded.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "fact": "The dead included four Saudis, two Bangladeshis and one citizen each of the US, Egypt, Jordan, Syria, Palestine and Sudan.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "fact": "The Houthis claimed responsibility on Sunday 11 October; spokesman Yahya Saree said the group carried out multiple operations targeting the airport.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "fact": "A second attack on Sunday evening targeted the airport and caused injuries; airport operations were suspended and Riyadh schools switched to remote learning for a week.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "fact": "The Saudi-backed Yemeni government launched the 'Dawn of Yemen' offensive on 4 October to retake Houthi-held territory including the port city of Mocha.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "fact": "A UN-brokered ceasefire, largely in place since 2022, has collapsed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "fact": "Trump said on 10 October that the US 'may' join Saudi operations against the Houthis.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Saudi Arabia said it will 'firmly' retaliate.",
+      "source_url": "https://www.cbc.ca/news/world/riyadh-airport-blast-9.7377189"
+     },
+     {
+      "fact": "The Houthis imposed a maritime embargo on Saudi Arabia in July.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "killed at Riyadh airport",
+      "value": 12,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     },
+     {
+      "label": "wounded",
+      "value": 309,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+     }
+    ],
+    "geography": "Riyadh, Saudi Arabia; Yemen; Red Sea; Bab el-Mandeb strait between Yemen and Djibouti/Eritrea",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know",
+      "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Live Updates: Iran calls U.S. response insufficient",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "CBC News",
+      "title": "Saudi-led coalition vows retaliation after deadly Houthi attack on Riyadh airport",
+      "url": "https://www.cbc.ca/news/world/riyadh-airport-blast-9.7377189",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "iran-talks",
+    "headline": "Iran calls latest US response 'insufficient' as war talks stall",
+    "what_happened": "Mohsen Rezaei, head of Iran's Supreme National Security Council, said on 11 October the US had accepted some of Iran's seven conditions but its reply was inadequate. Attacks on ships in the Strait of Hormuz have risen.",
+    "why_it_matters": "The war has pushed oil and diesel prices up worldwide.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Mohsen Rezaei, head of Iran's Supreme National Security Council, called the latest US response 'insufficient'; the US has accepted some of Iran's seven conditions.",
+      "source_url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes"
+     },
+     {
+      "fact": "The Revolutionary Guard's navy warned that ships in the Strait of Hormuz switching off navigation and identification systems would be treated as hostile.",
+      "source_url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes"
+     },
+     {
+      "fact": "The war began with US-Israeli strikes on Iran in late February 2026; a ceasefire collapsed in July; a US blockade of Iranian ports began on July 14.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Brent crude was about $103 to $105 a barrel on October 9.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Israel's election is set for Oct. 27.",
+      "source_url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude",
+      "value": 104,
+      "unit": "dollars a barrel (about)",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     }
+    ],
+    "geography": "Strait of Hormuz; Iran",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Iran calls latest U.S. proposal to end war 'insufficient'",
+      "url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Live Updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "energy-ceasefire",
+    "headline": "Trump announces Russia-Ukraine 'energy ceasefire'; neither side confirms details",
+    "what_happened": "On Sunday 11 October Trump said Russia and Ukraine had agreed to an energy ceasefire, effective immediately, giving no details. Zelenskyy said Ukraine would stop hitting Russian refineries if Moscow stopped striking Ukraine's energy system.",
+    "why_it_matters": "Energy plants are targets on both sides, and fuel prices are high.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump said Sunday that Russia and Ukraine agreed to an 'energy ceasefire' that took effect immediately, but gave no details; neither Moscow nor Kyiv immediately confirmed it.",
+      "source_url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+     },
+     {
+      "fact": "Zelenskyy said Ukraine would stop striking Russian refineries if Moscow halted attacks on Ukraine's energy system.",
+      "source_url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+     },
+     {
+      "fact": "On Saturday Trump said it was time for Ukraine to get a new president; Ukraine's constitution bars elections under martial law, in place since February 2022.",
+      "source_url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+     },
+     {
+      "fact": "On Friday Trump struck a deal with Putin for Russia to supply diesel to the US; Ukrainian and European officials criticised it, saying it helps fund Russia's war.",
+      "source_url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+     },
+     {
+      "fact": "Roughly a fifth of Ukraine is under Russian occupation.",
+      "source_url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire"
+     },
+     {
+      "fact": "A White House official said a deal to stop hitting power plants and energy grids could come next if refinery attacks cease.",
+      "source_url": "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky"
+     }
+    ],
+    "numbers": [],
+    "geography": "Ukraine; Russia",
+    "sources": [
+     {
+      "outlet": "FOX 13",
+      "title": "Trump says Russia, Ukraine agree to immediate 'energy ceasefire'",
+      "url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Trump bears down on Zelensky as Russia keeps up attacks on Ukraine",
+      "url": "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+      "published": "2026-10-11"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "diesel-prices",
+    "headline": "US diesel prices stay near record as Trump turns to Russian fuel",
+    "what_happened": "Diesel averaged $6.28 a gallon per AAA, against $5.94 a month earlier and $3.68 a year earlier. The record was $6.53 on September 22.",
+    "why_it_matters": "Diesel moves trucks, farms and goods, so it feeds into prices of many things.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Diesel averaged $6.28/gallon per AAA, up from $5.94 a month earlier and $3.68 a year earlier; the record was $6.53 on September 22.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Trump said Russia would release 300,000 tons of diesel immediately, 500,000 tons in November, 1 million tons in December, and later 3 million tons; the Treasury temporarily waived sanctions on Russia's energy sector.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "US midterm elections are on November 3, 2026.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Trump said on Truth Social the US will not attack Iran before the midterms and the naval blockade of Iran will stay.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Germany will release up to 15 million barrels of diesel, crude and heating oil.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "On 2 October G7 leaders agreed to coordinate a release of 100 million barrels of oil over four months.",
+      "source_url": "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "diesel a year ago",
+      "value": 3.68,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "label": "diesel a month ago",
+      "value": 5.94,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "label": "diesel now",
+      "value": 6.28,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "label": "record",
+      "value": 6.53,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Live Updates: Iran calls U.S. response insufficient",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "FOX 13",
+      "title": "Trump says Russia, Ukraine agree to energy ceasefire",
+      "url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "NetNewsLedger",
+      "title": "EU news for October 7, 2026",
+      "url": "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+      "published": "2026-10-07"
+     }
+    ]
+   },
+   {
+    "id": "trump-approval",
+    "headline": "Trump's approval stuck at 32% as voters worry about costs before the midterms",
+    "what_happened": "A Reuters/Ipsos poll published October 5 put Trump's approval at 32%, matching his record low. 52% named cost of living the most important issue; 44% of registered voters planned to vote Democratic and 37% Republican in November's midterms.",
+    "why_it_matters": "Midterms on Nov 3 decide who controls Congress.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A Reuters/Ipsos poll published Oct. 5 found Trump's approval at 32%, a record low first reached in September.",
+      "source_url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll"
+     },
+     {
+      "fact": "52% ranked cost of living as the most important issue, including 53% of Republicans and 49% of Democrats; 44% of registered voters planned to vote for Democrats and 37% for Republicans.",
+      "source_url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll"
+     },
+     {
+      "fact": "In the September 17-20 poll just 17% approved of his handling of the cost of living.",
+      "source_url": "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds"
+     },
+     {
+      "fact": "Voting is on November 3, 2026, for all 435 House seats, 35 Senate seats and 39 governorships.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Trump approval",
+      "value": 32,
+      "unit": "percent",
+      "source_url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Forbes",
+      "title": "Trump's Approval Rating Stagnates At Record Low 32% In Latest Poll",
+      "url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "U.S. News / Reuters",
+      "title": "Trump approval falls to record low of 32%",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds",
+      "published": "2026-09-21"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cockroach-protest",
+    "headline": "Delhi locked down as 'Cockroach' youth protest over voter lists; thousands detained",
+    "what_happened": "On Saturday 10 October police in New Delhi detained more than 2,000 people before and during a youth protest demanding Chief Election Commissioner Gyanesh Kumar resign over a voter-list revision. Founder Abhijeet Dipke and two other leaders were released on Sunday.",
+    "why_it_matters": "Fair voter lists are the base of fair elections.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Cockroach Janta Party is a youth movement with a satirically chosen name; its founder is Abhijeet Dipke.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Protesters want Chief Election Commissioner Gyanesh Kumar to resign over the Special Intensive Revision (SIR) of voter lists, which they say benefits PM Modi's BJP; the Election Commission and the BJP deny wrongdoing.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Delhi detentions: more than 2,000 per Reuters, citing a Home Affairs official; the revision reportedly removed roughly 130 million names from voter lists.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Mobile internet was suspended in the central business district and dozens of metro stations and markets closed.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Dipke and others were released on Sunday 11 October on condition of no breach of peace for one year.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "The Indian Express reported that two election commissioners questioned Kumar's revisions.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "The movement began online in May 2026; its protests over exam paper leaks led to the education minister's resignation in July.",
+      "source_url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+     },
+     {
+      "fact": "State elections next year (2027) in Uttar Pradesh and Gujarat will test the BJP; national elections are not due until 2029.",
+      "source_url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+     },
+     {
+      "fact": "The UN Human Rights Office expressed concern over mass detentions; India's UN mission in Geneva called the concerns misplaced.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "names removed from voter lists",
+      "value": 130,
+      "unit": "million (reported)",
+      "source_url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+     },
+     {
+      "label": "detained in Delhi",
+      "value": 2000,
+      "unit": "people (more than)",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     }
+    ],
+    "geography": "New Delhi, Jantar Mantar",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "India arrests 2,000, including 'Cockroach' leaders, in New Delhi crackdown",
+      "url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "NBC News",
+      "title": "India cracks down on 'Cockroach' youth protests",
+      "url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636",
+      "published": "2026-10-10"
+     }
+    ]
+   },
+   {
+    "id": "ind-wi-t20",
+    "headline": "India beat West Indies by 14 runs in Indore",
+    "what_happened": "India won the third T20I in Indore on October 11 by 14 runs and lead the five-match series 2-1. Abhishek Sharma made 69 off 30 balls and Arshdeep Singh took 3 for 44.",
+    "why_it_matters": "",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India beat West Indies by 14 runs in the third T20I in Indore on October 11, 2026, taking a 2-1 lead in the five-match series.",
+      "source_url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-live-score-updates-wi-tour-2026"
+     },
+     {
+      "fact": "India 223 (Abhishek Sharma 69 off 30 balls) beat West Indies 209/7 (Hetmyer 43; Arshdeep Singh 3-44).",
+      "source_url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/match-report"
+     }
+    ],
+    "numbers": [],
+    "geography": "Indore, India",
+    "sources": [
+     {
+      "outlet": "Outlook India",
+      "title": "India Vs West Indies Highlights, 3rd T20I",
+      "url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-live-score-updates-wi-tour-2026",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "ESPNcricinfo",
+      "title": "IND vs WI 3rd T20I Match Report",
+      "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/match-report",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "rbi-hike",
+    "headline": "RBI raises its repo rate to 5.50%",
+    "what_happened": "The Monetary Policy Committee, chaired by Governor Sanjay Malhotra, raised the repo rate by 25 basis points to 5.50% on 7 October and shifted its stance to calibrated tightening.",
+    "why_it_matters": "Loan rates follow the repo rate.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The repo rate rose 25 basis points to 5.50%; the stance changed from neutral to calibrated tightening (Monetary Policy Statement dated 7 October 2026).",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "CPI inflation rose to 4.8% in August 2026 from 4.5% in July, driven mainly by food and fuel prices; projected 5.2% for 2026-27 and 6.0% in Q3.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "Real GDP growth is projected at 7.1% for 2026-27.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "The MPC said rate cuts are off the table near term; next meeting 2 to 4 December 2026.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "Risks cited include geopolitical tensions, crude oil volatility, a deficient monsoon and El Nino.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "CPI July 2026",
+      "value": 4.5,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "label": "CPI August 2026",
+      "value": 4.8,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "label": "CPI forecast 2026-27",
+      "value": 5.2,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "label": "CPI forecast Oct-Dec 2026",
+      "value": 6.0,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     }
+    ],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "SCC Online",
+      "title": "RBI hikes repo rate to 5.50% in October 2026",
+      "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+      "published": "2026-10-09"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "trump-approval",
+    "headline": "Trump's approval stuck at 32% as voters worry about costs before the midterms",
+    "what_happened": "A Reuters/Ipsos poll published October 5 put Trump's approval at 32%, matching his record low. 52% named cost of living the most important issue; 44% of registered voters planned to vote Democratic and 37% Republican in November's midterms.",
+    "why_it_matters": "Midterms on Nov 3 decide who controls Congress.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A Reuters/Ipsos poll published Oct. 5 found Trump's approval at 32%, a record low first reached in September.",
+      "source_url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll"
+     },
+     {
+      "fact": "52% ranked cost of living as the most important issue, including 53% of Republicans and 49% of Democrats; 44% of registered voters planned to vote for Democrats and 37% for Republicans.",
+      "source_url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll"
+     },
+     {
+      "fact": "In the September 17-20 poll just 17% approved of his handling of the cost of living.",
+      "source_url": "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds"
+     },
+     {
+      "fact": "Voting is on November 3, 2026, for all 435 House seats, 35 Senate seats and 39 governorships.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Trump approval",
+      "value": 32,
+      "unit": "percent",
+      "source_url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Forbes",
+      "title": "Trump's Approval Rating Stagnates At Record Low 32% In Latest Poll",
+      "url": "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "U.S. News / Reuters",
+      "title": "Trump approval falls to record low of 32%",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds",
+      "published": "2026-09-21"
+     }
+    ]
+   },
+   {
+    "id": "cockroach-protest",
+    "headline": "Delhi locked down as 'Cockroach' youth protest over voter lists; thousands detained",
+    "what_happened": "On Saturday 10 October police in New Delhi detained more than 2,000 people before and during a youth protest demanding Chief Election Commissioner Gyanesh Kumar resign over a voter-list revision. Founder Abhijeet Dipke and two other leaders were released on Sunday.",
+    "why_it_matters": "Fair voter lists are the base of fair elections.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Cockroach Janta Party is a youth movement with a satirically chosen name; its founder is Abhijeet Dipke.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Protesters want Chief Election Commissioner Gyanesh Kumar to resign over the Special Intensive Revision (SIR) of voter lists, which they say benefits PM Modi's BJP; the Election Commission and the BJP deny wrongdoing.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Delhi detentions: more than 2,000 per Reuters, citing a Home Affairs official; the revision reportedly removed roughly 130 million names from voter lists.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Mobile internet was suspended in the central business district and dozens of metro stations and markets closed.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "Dipke and others were released on Sunday 11 October on condition of no breach of peace for one year.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "The Indian Express reported that two election commissioners questioned Kumar's revisions.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     },
+     {
+      "fact": "The movement began online in May 2026; its protests over exam paper leaks led to the education minister's resignation in July.",
+      "source_url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+     },
+     {
+      "fact": "State elections next year (2027) in Uttar Pradesh and Gujarat will test the BJP; national elections are not due until 2029.",
+      "source_url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+     },
+     {
+      "fact": "The UN Human Rights Office expressed concern over mass detentions; India's UN mission in Geneva called the concerns misplaced.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "names removed from voter lists",
+      "value": 130,
+      "unit": "million (reported)",
+      "source_url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+     },
+     {
+      "label": "detained in Delhi",
+      "value": 2000,
+      "unit": "people (more than)",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+     }
+    ],
+    "geography": "New Delhi, Jantar Mantar",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "India arrests 2,000, including 'Cockroach' leaders, in New Delhi crackdown",
+      "url": "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "NBC News",
+      "title": "India cracks down on 'Cockroach' youth protests",
+      "url": "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636",
+      "published": "2026-10-10"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "rbi-hike",
+    "headline": "RBI raises its repo rate to 5.50%",
+    "what_happened": "The Monetary Policy Committee, chaired by Governor Sanjay Malhotra, raised the repo rate by 25 basis points to 5.50% on 7 October and shifted its stance to calibrated tightening.",
+    "why_it_matters": "Loan rates follow the repo rate.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The repo rate rose 25 basis points to 5.50%; the stance changed from neutral to calibrated tightening (Monetary Policy Statement dated 7 October 2026).",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "CPI inflation rose to 4.8% in August 2026 from 4.5% in July, driven mainly by food and fuel prices; projected 5.2% for 2026-27 and 6.0% in Q3.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "Real GDP growth is projected at 7.1% for 2026-27.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "The MPC said rate cuts are off the table near term; next meeting 2 to 4 December 2026.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "fact": "Risks cited include geopolitical tensions, crude oil volatility, a deficient monsoon and El Nino.",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "CPI July 2026",
+      "value": 4.5,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "label": "CPI August 2026",
+      "value": 4.8,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "label": "CPI forecast 2026-27",
+      "value": 5.2,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     },
+     {
+      "label": "CPI forecast Oct-Dec 2026",
+      "value": 6.0,
+      "unit": "percent",
+      "source_url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/"
+     }
+    ],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "SCC Online",
+      "title": "RBI hikes repo rate to 5.50% in October 2026",
+      "url": "https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/",
+      "published": "2026-10-09"
+     }
+    ]
+   },
+   {
+    "id": "diesel-prices",
+    "headline": "US diesel prices stay near record as Trump turns to Russian fuel",
+    "what_happened": "Diesel averaged $6.28 a gallon per AAA, against $5.94 a month earlier and $3.68 a year earlier. The record was $6.53 on September 22.",
+    "why_it_matters": "Diesel moves trucks, farms and goods, so it feeds into prices of many things.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Diesel averaged $6.28/gallon per AAA, up from $5.94 a month earlier and $3.68 a year earlier; the record was $6.53 on September 22.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Trump said Russia would release 300,000 tons of diesel immediately, 500,000 tons in November, 1 million tons in December, and later 3 million tons; the Treasury temporarily waived sanctions on Russia's energy sector.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "US midterm elections are on November 3, 2026.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Trump said on Truth Social the US will not attack Iran before the midterms and the naval blockade of Iran will stay.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "Germany will release up to 15 million barrels of diesel, crude and heating oil.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "fact": "On 2 October G7 leaders agreed to coordinate a release of 100 million barrels of oil over four months.",
+      "source_url": "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "diesel a year ago",
+      "value": 3.68,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "label": "diesel a month ago",
+      "value": 5.94,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "label": "diesel now",
+      "value": 6.28,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     },
+     {
+      "label": "record",
+      "value": 6.53,
+      "unit": "dollars a gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Live Updates: Iran calls U.S. response insufficient",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "FOX 13",
+      "title": "Trump says Russia, Ukraine agree to energy ceasefire",
+      "url": "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "NetNewsLedger",
+      "title": "EU news for October 7, 2026",
+      "url": "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+      "published": "2026-10-07"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "nuclear-clock",
+    "headline": "First self-stabilising nuclear clock runs for more than a day",
+    "what_happened": "Researchers at TU Wien and Germany's PTB built a prototype nuclear clock from a crystal holding thorium-229 nuclei; it ran for more than 24 hours with no manual adjustment. Results in Nature.",
+    "why_it_matters": "Better clocks improve tests of physics.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Researchers at TU Wien and Germany's PTB, led by Thorsten Schumm and Ekkehard Peik, built a prototype nuclear clock from a calcium fluoride crystal containing thorium-229 nuclei, reported in Nature.",
+      "source_url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+     },
+     {
+      "fact": "Unlike atomic clocks, which use electronic energy transitions, it uses a transition inside the nucleus.",
+      "source_url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+     },
+     {
+      "fact": "A laser excites the thorium nuclei and the measured absorption drives automatic corrections to the laser.",
+      "source_url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+     },
+     {
+      "fact": "It ran for more than 24 hours without anyone adjusting it.",
+      "source_url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+     },
+     {
+      "fact": "The prototype has not surpassed the best optical atomic clocks; a dark-matter search found no significant signal.",
+      "source_url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+     },
+     {
+      "fact": "A separate Tsinghua University thorium-229 clock published the same week was reported by SCMP to be more stable than Vienna's.",
+      "source_url": "https://scmp.com/news/china/science/article/3370006/chinas-thorium-229-nuclear-clock-beats-viennas-stability-studies-show"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "run time without adjustment",
+      "value": 24,
+      "unit": "hours (more than)",
+      "source_url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/"
+     }
+    ],
+    "geography": "Vienna, Austria; Germany",
+    "sources": [
+     {
+      "outlet": "The Brighter Side",
+      "title": "Scientists demonstrate sustained operation of the world's first self-regulating nuclear clock",
+      "url": "https://www.thebrighterside.news/post/scientists-demonstrate-sustained-operation-of-the-worlds-first-self-regulating-nuclear-clock/",
+      "published": "2026-10-08"
+     },
+     {
+      "outlet": "SCMP",
+      "title": "China's thorium-229 nuclear clock beats Vienna's on stability",
+      "url": "https://scmp.com/news/china/science/article/3370006/chinas-thorium-229-nuclear-clock-beats-viennas-stability-studies-show",
+      "published": "2026-10-08"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-budget",
+    "headline": "Burnham government's first Budget set for 28 October",
+    "what_happened": "Chancellor John Healey will deliver the Budget on Wednesday 28 October. VAT came off domestic electricity bills from 1 October; a £2 bus fare cap, and a business rates cut for pubs and clubs are already announced.",
+    "why_it_matters": "Budgets set taxes and spending.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Budget is on Wednesday 28 October 2026 and will be delivered by the newly appointed Chancellor, John Healey.",
+      "source_url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+     },
+     {
+      "fact": "Already announced: a £2 bus fare cap, VAT removed from electricity bills, a business rates cut for pubs and clubs.",
+      "source_url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+     },
+     {
+      "fact": "16-17 Saver railcards are to be valid for a full year, so 18-year-olds keep 50% off most train fares.",
+      "source_url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+     },
+     {
+      "fact": "The Prime Minister has committed to not raising income tax rates.",
+      "source_url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+     },
+     {
+      "fact": "Expected or rumoured, not confirmed: Capital Gains Tax reform and welfare changes.",
+      "source_url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+     },
+     {
+      "fact": "Mayors in England get a share of income tax revenue and the power to introduce an overnight visitor levy.",
+      "source_url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom",
+    "sources": [
+     {
+      "outlet": "Which?",
+      "title": "Autumn Budget 2026: when is it and what will it contain?",
+      "url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl",
+      "published": "2026-10-06"
+     }
+    ]
+   },
+   {
+    "id": "singapore-gp",
+    "headline": "Verstappen wins the Singapore Grand Prix",
+    "what_happened": "Max Verstappen (Red Bull) won the Singapore Grand Prix on Sunday 11 October, ahead of Charles Leclerc (Ferrari) by 7.3 seconds and Kimi Antonelli (Mercedes). He led every lap.",
+    "why_it_matters": "",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Max Verstappen won the 2026 Singapore Grand Prix, his first win at Marina Bay, from Charles Leclerc (+7.3s) and Kimi Antonelli (+24.5s); he led every lap.",
+      "source_url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+     },
+     {
+      "fact": "Lewis Hamilton finished sixth after a strategy misstep and apologised.",
+      "source_url": "https://www.skysports.com/f1/news/13597650/singapore-gp-max-verstappen-wins-event-for-first-time-in-f1-career-ahead-of-charles-leclerc-as-lewis-hamilton-apologises-for-strategy"
+     }
+    ],
+    "numbers": [],
+    "geography": "Singapore",
+    "sources": [
+     {
+      "outlet": "Formula 1",
+      "title": "Verstappen seals commanding Singapore Grand Prix victory",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Sky Sports",
+      "title": "Singapore GP: Max Verstappen wins",
+      "url": "https://www.skysports.com/f1/news/13597650/singapore-gp-max-verstappen-wins-event-for-first-time-in-f1-career-ahead-of-charles-leclerc-as-lewis-hamilton-apologises-for-strategy",
+      "published": "2026-10-11"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "france-debt",
+    "headline": "France's borrowing costs hit their highest since 2002",
+    "what_happened": "Investors demanded up to 5% a year to lend to France for 10 years, the highest since July 2002. The premium over Germany reached 152 basis points. France's debt was 119% of GDP in Q2 2026.",
+    "why_it_matters": "Borrowing costs feed into mortgages and loans.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Investors demanded up to 5% a year to lend to France for 10 years, the highest since July 2002.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "France's premium over Germany's Bund reached 152 basis points, the widest since the 2011-2012 eurozone crisis; France now pays more to borrow than Italy and Greece.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "Public debt reached €3.6 trillion in Q2 2026, or 119% of GDP, up from 115.6% a year earlier (INSEE).",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "The 2026 deficit is expected to hit 5.4% of GDP, above the EU limit of 3%.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "PM Sébastien Lecornu's minority government proposed about €54 billion in spending cuts and extra revenue for 2027; the National Assembly begins debating the budget on 13 October.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "BNP Paribas economist Stéphane Colliac expects debt to reach 121% of GDP in 2027.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "Eurozone inflation hit 3.8% in September.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "fact": "The presidential election is in spring 2027.",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "debt Q2 2025",
+      "value": 115.6,
+      "unit": "% of GDP",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "label": "debt Q2 2026",
+      "value": 119,
+      "unit": "% of GDP",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     },
+     {
+      "label": "debt 2027 forecast",
+      "value": 121,
+      "unit": "% of GDP",
+      "source_url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+     }
+    ],
+    "geography": "France",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "France's sovereign debt crisis explained",
+      "url": "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be",
+      "published": "2026-10-06"
+     }
+    ]
+   },
+   {
+    "id": "eu-reform",
+    "headline": "EU Commission proposes reforms to prepare for 30 or more members",
+    "what_happened": "The Commission proposed dropping one commissioner per country and using majority voting in more areas. The proposals go to leaders on 15-16 October; four diplomats said the internal reforms are unlikely to pass.",
+    "why_it_matters": "A bigger EU needs rules for deciding.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Commission proposed structural reforms to prepare the EU for 30 or more members, stopping short of treaty change.",
+      "source_url": "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc"
+     },
+     {
+      "fact": "The Commission would drop the principle of one commissioner per member state.",
+      "source_url": "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc"
+     },
+     {
+      "fact": "Currently each member state has a veto over 150 steps in the accession process.",
+      "source_url": "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc"
+     },
+     {
+      "fact": "The proposals go to EU leaders at the European Council on 15-16 October 2026.",
+      "source_url": "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc"
+     },
+     {
+      "fact": "Enlargement Commissioner Marta Kos said 'It will not be easy, but it is worth trying'.",
+      "source_url": "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc"
+     },
+     {
+      "fact": "The Commission plans indicative roadmaps for Montenegro, Albania, Moldova and Ukraine.",
+      "source_url": "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/"
+     }
+    ],
+    "numbers": [],
+    "geography": "European Union",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU Commission throws down the gauntlet to member states on reforming the bloc",
+      "url": "https://www.euronews.com/2026/10/06/eu-commission-throws-down-the-gauntlet-to-member-states-on-reforming-the-bloc",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "NetNewsLedger",
+      "title": "EU news for October 7, 2026",
+      "url": "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+      "published": "2026-10-07"
+     }
+    ]
+   },
+   {
+    "id": "singapore-gp",
+    "headline": "Verstappen wins the Singapore Grand Prix",
+    "what_happened": "Max Verstappen (Red Bull) won the Singapore Grand Prix on Sunday 11 October, ahead of Charles Leclerc (Ferrari) by 7.3 seconds and Kimi Antonelli (Mercedes). He led every lap.",
+    "why_it_matters": "",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Max Verstappen won the 2026 Singapore Grand Prix, his first win at Marina Bay, from Charles Leclerc (+7.3s) and Kimi Antonelli (+24.5s); he led every lap.",
+      "source_url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+     },
+     {
+      "fact": "Lewis Hamilton finished sixth after a strategy misstep and apologised.",
+      "source_url": "https://www.skysports.com/f1/news/13597650/singapore-gp-max-verstappen-wins-event-for-first-time-in-f1-career-ahead-of-charles-leclerc-as-lewis-hamilton-apologises-for-strategy"
+     }
+    ],
+    "numbers": [],
+    "geography": "Singapore",
+    "sources": [
+     {
+      "outlet": "Formula 1",
+      "title": "Verstappen seals commanding Singapore Grand Prix victory",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Sky Sports",
+      "title": "Singapore GP: Max Verstappen wins",
+      "url": "https://www.skysports.com/f1/news/13597650/singapore-gp-max-verstappen-wins-event-for-first-time-in-f1-career-ahead-of-charles-leclerc-as-lewis-hamilton-apologises-for-strategy",
+      "published": "2026-10-11"
+     }
+    ]
+   }
+  ]
+ }
+}
