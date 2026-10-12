@@ -1,0 +1,164 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-12",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Riyadh's Airport Is Hit Again as Yemen's War Spreads",
+      "deck": "A second strike hit the Saudi capital's main airport on Sunday, a day after a missile killed 12 people there.",
+      "body": [
+        "On Saturday a missile struck King Khalid International Airport in Riyadh, the capital of Saudi Arabia. Saudi aviation officials said 12 people were killed and 309 wounded. It was the deadliest attack on the kingdom in more than a decade. The dead came from many countries, among them Saudi Arabia, Bangladesh, the United States, Egypt and Jordan.",
+        "On Sunday the Houthis, an Iran-backed group that controls much of northern Yemen, claimed attacks on the airport, and a second strike hit it that evening. Flights have been suspended and Riyadh's schools have moved online for a week. Saudi Arabia has promised to retaliate \"firmly\".",
+        "The fighting has grown since October 4, when Yemen's Saudi-backed government launched an offensive to retake Houthi-held land. A UN-brokered truce that had largely held since 2022 has collapsed. President Trump has said the United States \"may\" join Saudi operations, while some US politicians warn the war is \"spiraling out of control\". On 5 October, Turkey, Pakistan and Saudi Arabia agreed to activate \"deterrence measures\" under a mutual defence agreement signed in August, and UN Secretary-General António Guterres condemned the strike."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Yemen's war was long fought mostly inside Yemen. Now it is hitting a capital city's airport, and the Houthis have also had a maritime embargo on Saudi Arabia since July. That matters in Europe because this is part of a wider Middle East war involving Iran and the United States, and that war has pushed up oil and diesel prices around the world.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "An 'Energy Ceasefire' Is Announced, but Not Confirmed",
+      "deck": "President Trump says Russia and Ukraine agreed to stop hitting each other's energy sites. Neither country has confirmed it.",
+      "body": [
+        "On Sunday President Trump announced that Russia and Ukraine had agreed to an \"energy ceasefire\", effective immediately. He gave no details, and neither Moscow nor Kyiv immediately confirmed it. Ukraine's president, Volodymyr Zelenskyy, said Ukraine would stop striking Russian refineries if Moscow stopped attacking Ukraine's energy system.",
+        "The announcement followed a tense weekend. Mr Trump said it was time for Ukraine to get a new president, and on Friday he struck a deal for Russia to supply diesel to the United States. Ukrainian and European officials said that deal helps fund Russia's war. A White House official said a deal to stop hitting power stations and grids could come next if refinery attacks stop. Mr Zelenskyy said a vote during the war would be unlawful, but that Ukraine could hold elections if Russia agreed to a 60-day ceasefire, with security guarantees.",
+        "Both countries are fighting a long-range war from the air while their armies remain largely deadlocked on the ground. On Sunday a Ukrainian drone attack shut a data centre run by the Russian tech company Yandex, the third strike on its facilities in four days. Roughly a fifth of Ukraine is under Russian occupation."
+      ],
+      "illustration": {
+        "title": "ENERGY AND WAR",
+        "subtitle": "Refineries and grids",
+        "motif": "grid",
+        "caption": "Both sides have been striking each other's energy sites from the air."
+      },
+      "connect": "Europe knows how closely energy and war are linked. Many European countries buy fuel on a world market where a drone hit on a refinery can move prices. In early October the G7 agreed to coordinate the release of 100 million barrels of oil over four months, and Germany said it would release up to 15 million barrels of diesel, crude oil and heating oil from its stocks. A ceasefire on energy sites, if it holds, could ease some of that pressure. Brent crude, the main oil price benchmark, was about $103 to $105 a barrel on 9 October. Eurozone inflation reached 3.8% in September, so energy prices are a worry for households.",
+      "sources": [
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+        "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+        "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be"
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  THE BUDGET",
+      "headline": "Britain's New Government Gets Ready for Its First Budget",
+      "deck": "Chancellor John Healey will set out taxes and spending on Wednesday 28 October.",
+      "body": [
+        "A Budget is when a government says how much money it will raise in taxes and how it will spend it. This one is the first for Chancellor John Healey, who was newly appointed, under Prime Minister Andy Burnham. It falls on Wednesday 28 October.",
+        "Some measures are already announced: a £2 cap on bus fares, VAT taken off electricity bills, and a cut in business rates for pubs and clubs. The 16-17 Saver railcard will be valid for a full year, so 18-year-olds keep 50% off most train fares.",
+        "Other changes are expected but not confirmed, such as reform of Capital Gains Tax, a tax on profits from selling things like shares, and welfare changes. The Prime Minister has committed to not raising income tax rates."
+      ],
+      "why": "A Budget shows what a government thinks is important. Taxes pay for schools, hospitals and trains, but higher taxes take money from households, so every choice has a cost. Rumours are not decisions: until 28 October, only the announced measures are certain.",
+      "also": [
+        "VAT has come off domestic electricity bills in Great Britain since 1 October.",
+        "English mayors are to get a share of income tax revenue and the power to charge an overnight visitor levy."
+      ],
+      "sources": [
+        "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: Iran's security chief called the latest US reply to its peace proposal \"insufficient\", and talks to end the war remain stuck.",
+        "Black Sea: Commission President Ursula von der Leyen condemned attacks on civilian ships in Bulgaria's waters, where crew were reported missing."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Ceasefire",
+          "def": "An agreement to stop fighting, for a time or for good. Today: Mr Trump announced an energy ceasefire that Russia and Ukraine have not confirmed."
+        },
+        {
+          "word": "Budget",
+          "def": "A government's plan for the money it will raise and spend. Today: Chancellor John Healey presents Britain's on 28 October."
+        },
+        {
+          "word": "Deficit",
+          "def": "The gap when a government spends more than it raises in a year. Today: France's is expected to reach 5.4% of national income."
+        },
+        {
+          "word": "Bond",
+          "def": "A loan to a government, repaid with interest. Today: investors now want up to 5% a year to hold French 10-year bonds."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The word budget comes from the old French word bougette, meaning a small leather bag. Before it meant a government's plan for money, it was the bag the papers were carried in."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  FRANCE",
+      "headline": "France's Borrowing Costs Hit Their Highest Since 2002",
+      "deck": "Investors are asking France to pay up to 5% a year to borrow for ten years, and France is more indebted than a year ago.",
+      "body": [
+        "Governments borrow by selling bonds, which are promises to repay with interest. Investors have demanded up to 5% a year to lend to France for 10 years, the highest since July 2002. France also pays more than Germany: the gap reached 152 basis points, its widest since the eurozone crisis of 2011-2012. France now pays more to borrow than Italy and Greece.",
+        "The reason is debt. France's public debt hit €3.6 trillion in the second quarter of 2026, or 119% of its national income, up from 115.6% a year earlier. Its deficit, the gap between what it spends and what it raises each year, is expected to hit 5.4% of national income, above the EU's limit of 3%.",
+        "Prime Minister Sébastien Lecornu's minority government has proposed about €54 billion of spending cuts and extra revenue for 2027. Markets were not reassured, as he lacks a majority. Parliament begins debating the budget on 13 October."
+      ],
+      "chart": {
+        "title": "FRANCE'S DEBT",
+        "subtitle": "Percent of national income",
+        "labels": [
+          "2025",
+          "2026",
+          "2027 est"
+        ],
+        "values": [
+          115.6,
+          119,
+          121
+        ],
+        "max": 130,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "2025 and 2026 are second-quarter figures. 2027 is an estimate by a BNP Paribas economist."
+      },
+      "why": "When a government pays more to borrow, it has less for schools and hospitals, and mortgages can get dearer. France is in the euro, so trouble there can spread: Italian and Greek borrowing costs also rose.",
+      "analyst": "Think like an analyst: the 2027 bar is a forecast, not a fact. Who made it, and what could make it wrong?",
+      "sources": [
+        "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be",
+        "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/"
+      ]
+    },
+    "sports": {
+      "title": "Verstappen leads every lap in Singapore",
+      "body": "<b>Max Verstappen</b> won the Singapore Grand Prix on Sunday and led every lap. <b>Charles Leclerc</b> was second, 7.3 seconds behind, and <b>Kimi Antonelli</b> third. <b>Lewis Hamilton</b> was sixth after a strategy misstep.",
+      "sources": [
+        "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+        "https://www.skysports.com/f1/news/13597650/singapore-gp-max-verstappen-wins-event-for-first-time-in-f1-career-ahead-of-charles-leclerc-as-lewis-hamilton-apologises-for-strategy"
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What EU leaders decide at their meeting on 15-16 October about reforming the Union.",
+        "Whether France's parliament can pass a budget that calms the markets."
+      ]
+    },
+    "quote": {
+      "text": "A forecast is a question, not an answer.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+    "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+    "https://www.euronews.com/2026/10/06/frances-sovereign-debt-crisis-explained-how-dangerous-could-it-be",
+    "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+    "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+    "https://www.netnewsledger.com/2026/10/07/eu-news-for-october-7-2026-emergency-fuel-talks-french-debt-concerns-china-trade-tensions-black-sea-shipping-attacks-and-enlargement-plans/",
+    "https://www.skysports.com/f1/news/13597650/singapore-gp-max-verstappen-wins-event-for-first-time-in-f1-career-ahead-of-charles-leclerc-as-lewis-hamilton-apologises-for-strategy",
+    "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+  ]
+}

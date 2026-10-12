@@ -1,0 +1,146 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-12",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Airport Attacks Keep Coming in Saudi Arabia",
+      "deck": "A deadly missile strike on Riyadh's main airport was followed by another one a day later.",
+      "body": [
+        "Riyadh is the capital of Saudi Arabia. On Saturday, a missile hit its main airport, King Khalid International. Saudi officials said 12 people were killed and 309 were wounded. The dead came from many countries, including Saudi Arabia, Bangladesh and the United States.",
+        "The Houthis, a group from Yemen that gets help from Iran, said on Sunday that they had attacked the airport. Another strike hit it on Sunday evening and hurt more people. The airport has stopped its flights, and schools in Riyadh are learning from home for a week.",
+        "Saudi Arabia says it will hit back firmly. Yemen's government, helped by Saudi Arabia, began an attack on October 4 to win back land held by the Houthis. A peace deal that had mostly held since 2022 has fallen apart. President Trump says the United States may join in."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports are how people and goods travel. When one of the busiest in a country shuts, passengers, families and workers in many other places are affected too. A war that stayed in Yemen for years is now reaching Saudi Arabia's capital.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "A Pause on Hitting Energy Sites?",
+      "deck": "President Trump says Russia and Ukraine agreed to stop attacking each other's energy sites. Neither country has confirmed it.",
+      "body": [
+        "Russia and Ukraine have been at war since 2022. Both have been hitting each other's energy sites, such as oil refineries, which turn crude oil into fuel. Roughly a fifth of Ukraine is under Russian control, and the armies have mostly been stuck in place, so much of the fighting now uses long-range drones and missiles.",
+        "On Sunday, President Trump said the two sides had agreed to an \"energy ceasefire\", starting right away. He gave no details, and neither Moscow nor Kyiv confirmed it at the time.",
+        "Ukraine's president, Volodymyr Zelenskyy, said Ukraine would stop hitting Russian refineries if Russia stopped attacking Ukraine's energy system. Days earlier, Mr Trump agreed a deal for Russia to supply diesel fuel to the United States. Ukraine and European officials say that helps pay for Russia's war."
+      ],
+      "chart": {
+        "title": "RUSSIAN DIESEL FOR THE US",
+        "subtitle": "Tons in thousands, as Mr Trump described it",
+        "labels": [
+          "Now",
+          "November",
+          "December",
+          "Later"
+        ],
+        "values": [
+          300,
+          500,
+          1000,
+          3000
+        ],
+        "max": 3000,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "These are the amounts Mr Trump said Russia would release."
+      },
+      "connect": "Fuel is a good example of how far a war reaches. Diesel runs trucks, farm machines and trains, so when it costs more, food and goods can cost more too. That is why a fight over refineries in Eastern Europe is part of a price you may see on the other side of the world.",
+      "sources": [
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Voters Say Costs Matter Most Before the Midterms",
+      "deck": "A new poll finds the president's approval is at its lowest level, with prices on voters' minds.",
+      "body": [
+        "On November 3, Americans will vote in the midterm elections. They are called midterms because they come halfway through a president's four-year term. Every seat in the House of Representatives is up, along with 35 seats in the Senate.",
+        "A Reuters/Ipsos poll published on October 5 found that 32 percent of people approve of the job President Trump is doing. That matches the lowest level of his time in office.",
+        "The poll also asked what matters most. About half, 52 percent, said the cost of living. In the same poll, 44 percent of registered voters said they planned to vote for Democrats, and 37 percent for Republicans."
+      ],
+      "why": "Midterm results decide which party controls Congress, the part of government that makes laws. A poll is a snapshot, not a result, and opinions can change before voting day.",
+      "also": [
+        "Diesel fuel averaged $6.28 a gallon, according to AAA. A year ago it was $3.68.",
+        "Mr Trump said the US will not attack Iran before the midterms."
+      ],
+      "sources": [
+        "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+        "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: Iran's security chief called the latest US reply to its peace proposal \"insufficient\", and talks to end the war are stuck.",
+        "Formula 1: Max Verstappen won the Singapore Grand Prix and led every lap."
+      ]
+    },
+    "discussion": {
+      "title": "Questions for the table",
+      "body": [
+        "<b>1.</b> Why might a war in one country spread to its neighbours? What could stop it?",
+        "<b>2.</b> Why does the price of fuel matter to families who never drive a truck?",
+        "<b>3.</b> Who should check the list of voters, and how could everyone be sure the job is fair?"
+      ],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+        "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+        "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  VOTING",
+      "headline": "Delhi Locks Down Before a Youth Protest",
+      "deck": "Police detained more than 2,000 people on Saturday. Young people say voter lists were changed unfairly.",
+      "body": [
+        "Before people can vote, their names have to be on a list. India's Election Commission has been checking those lists, and about 130 million names have been removed, according to reports. The Commission says it is removing duplicate and ineligible entries.",
+        "A youth group called the Cockroach Janta Party says the changes help Prime Minister Modi's party, the BJP. It wanted a big protest in Delhi on Saturday. The Commission and the BJP deny doing anything wrong.",
+        "Police sealed off the protest area and closed dozens of metro stations. They detained more than 2,000 people. On Sunday, a court released the group's founder, Abhijeet Dipke, and two other leaders. Mobile internet was also switched off near the protest site. The UN's human rights office said it was concerned about the mass detentions, and India's mission to the UN in Geneva called that concern misplaced."
+      ],
+      "why": "A fair vote needs a fair list of voters. Taking off people who have died or moved is sensible, but taking off real voters would be unfair. That is why people care so much about who checks the lists and how.",
+      "sources": [
+        "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+        "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636"
+      ]
+    },
+    "sports": {
+      "title": "India lead the series",
+      "body": "<b>India</b> beat the <b>West Indies</b> by 14 runs in the third T20 cricket match in Indore on Sunday. <b>Abhishek Sharma</b> hit 69 from 30 balls, and <b>Arshdeep Singh</b> took 3 wickets. India now lead the five-match series 2-1.",
+      "sources": [
+        "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-live-score-updates-wi-tour-2026",
+        "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/match-report"
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Russia and Ukraine say they really agree to the energy ceasefire.",
+        "Whether the United States joins Saudi Arabia's fight against the Houthis."
+      ]
+    },
+    "quote": {
+      "text": "Ask one more question before you decide what you think.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+    "https://www.aljazeera.com/amp/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+    "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+    "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/match-report",
+    "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+    "https://www.nbcnews.com/world/india/india-cracks-cockroach-youth-protests-anger-grows-modi-election-chief-rcna602636",
+    "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-live-score-updates-wi-tour-2026"
+  ]
+}
