@@ -20,6 +20,12 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Publishing with Claude Code: a daily Routine (about 02:00 IST) runs the
+  repository's `/publish-today` skill instead of the API pipeline, whose
+  schedule is switched off (it still runs by hand). New `python -m ygc due`
+  lists what's due today with issue numbers, research desks and avoid lists;
+  `check` and `poster` take `--pool data/pools/<date>.json` to fail any source
+  outside the day's research. Papers are dated with the India date.
 - Automatic posters: papers with `automation: poster: true` (The Little
   Explorer) get that week's poster from the daily job, written from the same
   research after the issue passes, checked, repaired, fact-checked, and saved

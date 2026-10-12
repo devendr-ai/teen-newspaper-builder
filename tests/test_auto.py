@@ -180,3 +180,33 @@ def test_json_extraction_survives_fences_prose_and_escapes():
     assert llm.extract_json('ok ```json\n{"a": "say \\"}\\" now", "b": [1]}\n``` done') == {"a": 'say "}" now', "b": [1]}
     with pytest.raises(ValueError):
         llm.extract_json('{"cut off": "mid')
+
+
+def test_due_lists_what_to_write_today(capsys):
+    from ygc.__main__ import main
+    assert main(["due", "--date", "2026-10-17", "--json"]) == 0
+    out = json.loads(capsys.readouterr().out)
+    le = next(x for x in out["due"] if x["edition"] == "little-explorers")      # Saturday
+    assert le["issue"] == 2 and le["poster"] and le["file"].endswith("little-explorers/issues/2026/2026-10-17.json")
+    assert "Hurricane" in le["avoid_vocab"]
+    assert "world" in out["research_desks"]
+    assert main(["due", "--date", "2026-10-16", "--json"]) == 0              # a Friday: no weekly papers
+    assert "little-explorers" not in {x["edition"] for x in json.loads(capsys.readouterr().out)["due"]}
+
+
+def test_pool_option_fails_sources_outside_the_research(tmp_path, capsys):
+    from ygc.__main__ import main
+    spec = json.load(open(LE_POSTER, encoding="utf-8"))
+    pool = {"world": {"label": "WORLD", "hours": 168, "stories": [
+        {"id": "x", "sources": [{"url": u} for u in spec["sources"]]}]}}
+    good = tmp_path / "good.json"; good.write_text(json.dumps(pool))
+    pool["world"]["stories"][0]["sources"] = pool["world"]["stories"][0]["sources"][1:]
+    bad = tmp_path / "bad.json"; bad.write_text(json.dumps(pool))
+    out = str(tmp_path / "build")
+    assert main(["poster", LE_POSTER, "--pool", str(good), "--out", out]) == 0
+    assert main(["poster", LE_POSTER, "--pool", str(bad), "--out", out]) == 1
+    assert "is not in the research pool" in capsys.readouterr().out
+    issue_pool = {"world": {"stories": [{"sources": [{"url": "https://example.com/other"}]}]}}
+    ip = tmp_path / "issue-pool.json"; ip.write_text(json.dumps(issue_pool))
+    assert main(["check", LE_ISSUE, "--archive", "--no-build", "--pool", str(ip)]) == 1
+    assert "blocks.lead.sources" in capsys.readouterr().out

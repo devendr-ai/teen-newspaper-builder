@@ -1,8 +1,11 @@
 name: Publish today's papers
 
+# Papers are published by a Claude Code Routine at about 02:00 IST (see
+# docs/PUBLISHING.md, "Publishing with Claude Code"), so this API pipeline runs
+# only when started by hand. To make it the daily publisher again, add back:
+#   schedule:
+#     - cron: "15 11 * * *"     # 11:15 UTC = 4:15 am Pacific, 4:45 pm India
 on:
-  schedule:
-    - cron: "15 11 * * *"     # 11:15 UTC = 4:15 am Pacific, 4:45 pm India. Change to suit your readers.
   workflow_dispatch:
     inputs:
       only:

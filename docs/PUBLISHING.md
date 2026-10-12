@@ -12,6 +12,41 @@ on an average day), so roughly $90–180 a month. Fewer or less frequent papers 
 proportionally less. Every run records its actual cost in `data/runs/`, and a
 daily cap stops spending if a run goes over.
 
+## Publishing with Claude Code (no API key) — how this site runs now
+
+Instead of the API, a **Claude Code Routine** publishes the papers. It starts
+a fresh Claude Code session in the cloud every day at about 02:00 IST (your
+computer doesn't need to be on), and that session runs the repository's
+`/publish-today` skill (`.claude/skills/publish-today/SKILL.md`):
+
+1. `python -m ygc due` lists the papers due today by their cadence, with issue
+   numbers, the research desks they need and the words they must not repeat.
+2. Each desk is researched once with web search and saved to
+   `data/pools/<date>.json`, keeping only sources the searches returned.
+3. Each due paper is written from that research and must pass
+   `python -m ygc check <issue> --pool data/pools/<date>.json`; the `--pool`
+   option fails any source that isn't in the research. A paper that can't
+   pass is skipped.
+4. On The Little Explorer's day, the poster is written the same way and must
+   pass `python -m ygc poster <poster> --pool ...`. A failed poster never
+   blocks the paper.
+5. The tests run, the session merges a pull request named "Papers for
+   <date>", and the website redeploys.
+
+Every paper is dated with the India date. **Cost:** the run uses your Claude
+plan's usage, not the API, so there's no per-paper charge; a long day (Saturday:
+nine papers and a poster) may hit the plan's usage limit, in which case the
+session publishes what has passed so far. Run it by hand at any time by
+opening the repository in Claude Code and typing `/publish-today`.
+
+**Change the time, pause or delete it:** claude.ai/code → Routines → "Publish
+today's papers". Each run's session is listed there with its summary.
+
+The rest of this page describes the API pipeline (`daily.yml`), which now runs
+only when started by hand from the Actions tab. It needs the API key below;
+to make it the daily publisher again, put the `schedule:` lines back at the top
+of `.github/workflows/daily.yml` and pause the Routine.
+
 ## One-time setup (about 20 minutes)
 
 ### 1. Put the repository on GitHub
@@ -74,8 +109,9 @@ website. Download the PDF and read it properly.
 
 ### 10. Leave it running
 
-The job runs by itself every day at 11:15 UTC (4:15 am Pacific, 4:45 pm in
-India). Change the `cron` line in `.github/workflows/daily.yml` to move it.
+With a `schedule:` in `.github/workflows/daily.yml` (see the top of that
+file), the job runs by itself every day; 11:15 UTC is 4:15 am Pacific, 4:45 pm
+in India. Without one, it runs only when you start it.
 
 ## Day to day
 

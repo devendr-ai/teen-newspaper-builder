@@ -17,6 +17,10 @@ python -m ygc poster editions/little-explorers/posters/2026/2026-10-10.json   # 
 
 ## Automatic posters
 
+The daily Claude Code Routine (`/publish-today`) writes the poster on The
+Little Explorer's day and checks it with `python -m ygc poster <file> --pool
+data/pools/<date>.json`. The API pipeline does the same, as follows.
+
 A paper with `poster: true` under `automation:` in its `edition.yaml` (The Little
 Explorer has it) gets its poster from the daily job. On the day the paper is due,
 after its issue passes and is saved, the job:
