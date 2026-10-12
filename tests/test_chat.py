@@ -121,3 +121,23 @@ def test_a_layout_that_cannot_fit_is_caught_before_copying(tmp_path, monkeypatch
         assert (problems == []) == ok, problems
         if not ok:
             assert problems[0].startswith("Page 2, column") and "too full" in problems[0]
+
+
+def test_sentences_keep_abbreviations_together():
+    assert chat.sentences('The U.S. President spoke. Then Dr. Rao left. "We are safe," she said.') == [
+        "The U.S. President spoke.", "Then Dr. Rao left.", '"We are safe," she said.']
+
+
+def test_a_slightly_long_reply_is_trimmed_to_fit_like_a_sub_editor(tmp_path):
+    ed = edition.load("junior-daily")
+    issue = json.load(open(JD, encoding="utf-8"))
+    long = copy.deepcopy(issue)
+    extra = chat.sentences(" ".join(issue["blocks"]["lead"]["body"]))[:3]
+    long["blocks"]["lead"]["body"] = issue["blocks"]["lead"]["body"] + [" ".join(extra)]
+    assert chat.check_paper(ed, reply(issue), "2026-10-12", issue["issue"], out_pdf=str(tmp_path / "a.pdf"))["trimmed"] == []
+    res = chat.check_paper(ed, reply(long), "2026-10-12", issue["issue"], out_pdf=str(tmp_path / "b.pdf"))
+    assert res["ok"], res["errors"]
+    assert res["trimmed"] and "the top story" in res["trimmed"][0]
+    printed = json.loads(res["issue"])["blocks"]["lead"]["body"]
+    assert printed[0] == issue["blocks"]["lead"]["body"][0]          # trimmed from the end, the start kept
+    assert len(" ".join(printed).split()) < len(" ".join(long["blocks"]["lead"]["body"]).split())
