@@ -10,7 +10,7 @@ import shutil
 
 import pytest
 
-from ygc import edition, checks
+from ygc import edition, checks, poster
 from ygc.auto import llm, run, research
 
 ROOT = edition.ROOT
@@ -19,11 +19,18 @@ GOOD_URLS = ["https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-sau
              "https://www.arabnews.com/world/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding-3005572"]
 
 
+LE_ISSUE = os.path.join(ROOT, "editions", "little-explorers", "issues", "2026", "2026-10-10.json")
+LE_POSTER = os.path.join(ROOT, "editions", "little-explorers", "posters", "2026", "2026-10-10.json")
+
+
 class FakeAPI:
-    def __init__(self, first_draft_broken=True):
+    def __init__(self, first_draft_broken=True, real=REAL, poster_broken=1):
         self.calls = []
         self.writes = 0
+        self.posters = 0
         self.first_draft_broken = first_draft_broken
+        self.real = real
+        self.poster_broken = poster_broken      # how many poster drafts fail the checker
 
     def __call__(self, payload):
         self.calls.append(payload)
@@ -50,15 +57,26 @@ class FakeAPI:
                     "content": [{"type": "text", "text": json.dumps({"stories": [story, ghost]})}]}
         if system.startswith("You are a fact-checker"):
             return {"stop_reason": "end_turn", "usage": usage, "content": [{"type": "text", "text": '{"unsupported": []}'}]}
+        if system.startswith("# The Big Question poster"):
+            # poster writer: the committed poster, re-sourced to the pool; early drafts break the checker
+            self.posters += 1
+            spec = json.load(open(LE_POSTER, encoding="utf-8"))
+            spec["sources"] = [GOOD_URLS[0]]
+            if self.posters <= self.poster_broken:
+                spec["hero"]["motif"] = "dragon"
+                spec["sources"] = ["https://not-in-pool.example/poster"]
+            return {"stop_reason": "end_turn", "usage": usage, "content": [{"type": "text", "text": json.dumps(spec)}]}
         # writer: reuse the real published issue, citing only pool sources
         self.writes += 1
-        issue = json.load(open(REAL, encoding="utf-8"))
+        issue = json.load(open(self.real, encoding="utf-8"))
         for b in issue["blocks"].values():
             if isinstance(b, dict) and "sources" in b:
                 b["sources"] = [{"outlet": "Al Jazeera", "title": "Attack", "url": GOOD_URLS[0]}]
+        words = ("Envoy", "Coalition", "Monsoon", "Tribunal")[:len(issue["blocks"]["vocab"]["items"])]
         issue["blocks"]["vocab"]["items"] = [{"word": w, "def": f"Meaning of {w.lower()}. Today: used in the news."}
-                                             for w in ("Envoy", "Coalition", "Monsoon", "Tribunal")]
-        issue["blocks"]["did_you_know"]["text"] = "Octopuses have three hearts and blue blood, which carries oxygen well in cold water."
+                                             for w in words]
+        if "did_you_know" in issue["blocks"]:
+            issue["blocks"]["did_you_know"]["text"] = "Octopuses have three hearts and blue blood, which carries oxygen well in cold water."
         if self.first_draft_broken and self.writes == 1:
             issue["blocks"]["vocab"]["items"][0]["def"] = "A definition without the example."
             issue["blocks"]["lead"]["sources"] = [{"url": "https://not-in-pool.example/x"}]
@@ -69,7 +87,8 @@ class FakeAPI:
 @pytest.fixture
 def sandbox(tmp_path, monkeypatch):
     eds = tmp_path / "editions"
-    shutil.copytree(os.path.join(ROOT, "editions", "young-global-citizen"), eds / "young-global-citizen")
+    for eid in ("young-global-citizen", "little-explorers"):
+        shutil.copytree(os.path.join(ROOT, "editions", eid), eds / eid)
     monkeypatch.setattr(edition, "EDITIONS", str(eds))
     monkeypatch.setattr(run, "DATA", str(tmp_path / "data"))
     return tmp_path
@@ -91,6 +110,41 @@ def test_full_run_researches_repairs_and_publishes(sandbox):
     assert all("made-up" not in f["source_url"] for f in st[0]["key_facts"])
     assert rep["usage"]["searches"] == 4 * len(pool) and rep["usage"]["usd"] > 0
     assert json.load(open(sandbox / "data" / "runs" / "2026-10-12.json"))["editions"]["young-global-citizen"]["status"] == "passed"
+    assert "poster" not in r and not any(p["system"].startswith("# The Big Question") for p in api.calls)  # not opted in
+
+
+def _run_little_explorer(sandbox, api):
+    return run.run(only=["little-explorers"], date_override="2026-10-17", transport=api, log=lambda *a: None)
+
+
+def test_poster_is_written_from_the_same_research_repaired_and_published(sandbox):
+    api = FakeAPI(first_draft_broken=False, real=LE_ISSUE)
+    rep = _run_little_explorer(sandbox, api)
+    r = rep["editions"]["little-explorers"]
+    assert r["status"] == "passed", r
+    p = r["poster"]
+    assert p["status"] == "passed" and p["rounds"] == 2 and p["factcheck_rounds"] == 1, p
+    path = sandbox / "editions" / "little-explorers" / "posters" / "2026" / "2026-10-17.json"
+    assert p["file"].endswith(os.path.join("little-explorers", "posters", "2026", "2026-10-17.json"))
+    saved = json.load(open(path))
+    assert saved["date"] == "2026-10-17" and saved["sources"] == [GOOD_URLS[0]]
+    assert poster.check(edition.load("little-explorers"), saved, str(path)).errors == []
+    asks = [p for p in api.calls if p["system"].startswith("# The Big Question")]
+    first, repair = asks[0]["messages"][0]["content"], asks[-1]["messages"][-1]["content"]
+    assert "RESEARCH POOL" in first and GOOD_URLS[0] in first            # same research as the paper
+    assert "Last week's poster (2026-10-10)" in first                      # closes the loop
+    assert "dragon" in repair and "not in the research pool" in repair      # checker errors fed back
+    assert json.load(open(sandbox / "data" / "runs" / "2026-10-17.json"))["editions"]["little-explorers"]["poster"]["status"] == "passed"
+
+
+def test_failed_poster_does_not_block_the_paper(sandbox):
+    api = FakeAPI(first_draft_broken=False, real=LE_ISSUE, poster_broken=99)
+    rep = _run_little_explorer(sandbox, api)
+    r = rep["editions"]["little-explorers"]
+    assert r["status"] == "passed" and r["poster"]["status"] == "failed"
+    assert "dragon" in r["poster"]["last_feedback"]
+    assert (sandbox / "editions" / "little-explorers" / "issues" / "2026" / "2026-10-17.json").exists()
+    assert not (sandbox / "editions" / "little-explorers" / "posters" / "2026" / "2026-10-17.json").exists()
 
 
 def test_nothing_due_twice_on_the_same_day(sandbox):

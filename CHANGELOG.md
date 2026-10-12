@@ -20,6 +20,10 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Automatic posters: papers with `automation: poster: true` (The Little
+  Explorer) get that week's poster from the daily job, written from the same
+  research after the issue passes, checked, repaired, fact-checked, and saved
+  only if it passes. A failed poster never blocks the paper.
 - New craft rule: records and "firsts" must be stated by a source.
 - Weekly papers pinned to a weekday no longer skip a week after an off-day issue.
 
