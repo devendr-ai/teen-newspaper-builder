@@ -6,15 +6,20 @@ key and at no cost to the site:
 
 1. They choose the reader, the kind of paper, how it should feel, interests,
    learning sections, length and frequency. The proof on the right shows every page.
-2. **Copy instructions** puts the paper's full instructions on the clipboard. They
+2. **ChatGPT**, **Claude** or **Gemini** copies the paper's full instructions and
+   opens that chatbot in one click (**Just copy** for any other chatbot). They
    are the same instructions the daily pipeline uses (`ygc/prompt.py`), written
    for a chatbot: today's date and the issue number are stated, the chatbot must
    search the web and refuse rather than write from memory, and it replies with
    one JSON code block.
 3. They paste the instructions into ChatGPT, Claude or Gemini with web search on.
-4. They paste the chatbot's reply back. A story or section that runs a little
+4. They paste the chatbot's reply into the page (or press **Paste the reply**):
+   pasting replaces whatever was there and checks at once. Mechanical mistakes
+   are repaired on the page (`chat.repair`): symbols the fonts can't print, empty
+   kicker details, over-long picture, map and chart labels, chart numbers written
+   as text, a body sent as one string, extra items and unknown sections. A story or section that runs a little
    long is trimmed the way a sub-editor would: whole sentences from its end, up
-   to about a third of the column's writing, never headlines, boxes or quizzes;
+   to half of the column's writing, never headlines, boxes or quizzes;
    the page says what it cut. Then it checks the paper with the same checks as
    every published issue (sections, sources, printable characters, every column
    measured) and builds the same PDF. If something still fails, it shows a fix

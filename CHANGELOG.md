@@ -20,6 +20,11 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Design your own, two steps for parents: one click copies the instructions and
+  opens ChatGPT, Claude or Gemini; pasting the reply checks it at once. The page
+  repairs mechanical mistakes itself (unprintable symbols, empty kicker details,
+  over-long labels, chart numbers as text, extra items) and trims up to half a
+  column, so the fix list is only for missing content.
 - Design your own, first-time fit: chatbot instructions state every format
   rule and a word budget for each story and section, measured on the paper's
   own layout; the page refuses layouts that can't fit and trims a slightly long

@@ -11,6 +11,7 @@ import io
 import json
 import os
 import re
+import unicodedata
 
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen.canvas import Canvas
@@ -244,7 +245,7 @@ def _column_fits(ed, issue, p, i, geo):
     return not fl
 
 
-def fit(ed, issue):
+def fit(ed, issue, limit=TRIM_LIMIT):
     """Trim whole sentences from the end of the stories and stretching sections in each
     overflowing column, as a sub-editor would, up to TRIM_LIMIT of their words. Columns that
     still don't fit are left untouched. Returns (issue, {block: sentences cut})."""
@@ -260,7 +261,7 @@ def fit(ed, issue):
         elastic = [b for b in ids if isinstance((issue["blocks"].get(b) or {}).get("body"), list) and (
             ed["blocks"][b]["type"] == "story" or b in ELASTIC_FEATURES)]
         words = lambda b: len(" ".join(issue["blocks"][b]["body"]).split())
-        budget = TRIM_LIMIT * sum(words(b) for b in elastic)
+        budget = limit * sum(words(b) for b in elastic)
         trial = copy.deepcopy(issue)
         done, removed, ok = {}, 0, False
         while True:
@@ -285,6 +286,148 @@ def fit(ed, issue):
     return issue, cut
 
 
+# ------------------------------------------------------------------ repair: mechanical fixes, no round trip
+CHAT_TRIM_LIMIT = 0.5   # replies from a chatbot may be trimmed further than the daily pipeline's
+_SWAP = {"→": " to ", "←": " from ", "↔": " and ", "…": "...", "₹": "Rs ", "−": "-", "‐": "-", "‑": "-",
+         "‒": "-", "≈": "about ", "≥": "at least ", "≤": "at most ", "′": "'", "″": '"', "\u00a0": " ",
+         "\u200b": "", "\u2009": " ", "\u202f": " "}
+
+
+def _printable_text(t):
+    if all(checks._printable(c) for c in t) and "…" not in t:
+        return t
+    for a, b in _SWAP.items():
+        t = t.replace(a, b)
+    out = []
+    for c in t:
+        if checks._printable(c):
+            out.append(c)
+        else:
+            base = "".join(x for x in unicodedata.normalize("NFKD", c) if checks._printable(x) and not unicodedata.combining(x))
+            out.append(base)
+    return re.sub(r"  +", " ", "".join(out))
+
+
+def _clean(node, changed):
+    if isinstance(node, str):
+        new = _printable_text(node)
+        if new != node:
+            changed.append(1)
+        return new
+    if isinstance(node, dict):
+        return {k: _clean(v, changed) for k, v in node.items()}
+    if isinstance(node, list):
+        return [_clean(v, changed) for v in node]
+    return node
+
+
+def _shorter(t):
+    """One step shorter: drop the last word, or the last character of a single word."""
+    words = t.split()
+    return " ".join(words[:-1]).rstrip(",;:-–—") if len(words) > 1 else t[:-1]
+
+
+def _number(v):
+    if isinstance(v, (int, float)):
+        return v
+    try:
+        return float(re.sub(r"[^0-9.\-]", "", str(v)))
+    except ValueError:
+        return v
+
+
+def repair(ed, issue):
+    """Fix what a chatbot most often gets mechanically wrong, using the checker's own rules,
+    so the parent never has to go back to the chatbot for it. Returns (issue, notes)."""
+    issue = copy.deepcopy(issue)
+    notes = []
+    changed = []
+    issue["blocks"] = _clean(issue.get("blocks") or {}, changed)
+    if changed:
+        notes.append("replaced symbols the printer can't print")
+    blocks = issue["blocks"]
+    for bid in [b for b in blocks if b not in ed["blocks"]]:
+        del blocks[bid]
+    for bid, b in blocks.items():
+        if not isinstance(b, dict):
+            continue
+        cfg = ed["blocks"][bid]
+        t = cfg["type"]
+        if isinstance(b.get("body"), str) and t in ("story", "feature"):
+            b["body"] = [x for x in re.split(r"\n\s*\n", b["body"]) if x.strip()] or [b["body"]]
+        if t == "story":
+            label = edition.desk(ed, cfg["desk"])["label"]
+            k = (b.get("kicker") or "").strip()
+            if not k or k.endswith("•"):
+                b["kicker"] = label
+            r = checks.Report()
+            checks.check_blocks(ed, {"blocks": {bid: b}}, r)
+            if any(f"blocks.{bid}.kicker wraps" in e for e in r.errors):
+                b["kicker"] = label
+            if cfg.get("also") and isinstance(b.get("also"), list) and len(b["also"]) > cfg["also"]["count"]:
+                b["also"] = b["also"][:cfg["also"]["count"]]
+        elif t in ("briefs", "watchlist", "vocab") and isinstance(b.get("items"), list) and len(b["items"]) > cfg["count"]:
+            b["items"] = b["items"][:cfg["count"]]
+            notes.append("dropped extra items")
+        fixed = _repair_graphics(ed, bid, b)
+        if fixed:
+            notes.append(fixed)
+    return issue, sorted(set(notes))
+
+
+def _repair_graphics(ed, bid, b):
+    w = checks._block_width(ed, bid)
+
+    def errs():
+        r = checks.Report()
+        checks.check_graphics(ed, b, f"blocks.{bid}", w, r)
+        return r.errors
+    did = []
+    ch = b.get("chart")
+    if isinstance(ch, dict):
+        vals = [_number(v) for v in ch.get("values") or []]
+        labels = [str(x) for x in ch.get("labels") or []]
+        n = min(len(vals), len(labels), 4)
+        if (vals, labels) != (vals[:n], labels[:n]) or vals != ch.get("values"):
+            did.append("tidied a chart")
+        ch["values"], ch["labels"] = vals[:n], labels[:n]
+        nums = [v for v in ch["values"] if isinstance(v, (int, float))]
+        if nums and len(nums) == len(ch["values"]) and (not isinstance(ch.get("max"), (int, float)) or ch["max"] < max(nums)):
+            ch["max"] = max(nums)
+            did.append("tidied a chart")
+    il = b.get("illustration")
+    if isinstance(il, dict) and il.get("motif") not in render.IllustrationCard._MOTIFS:
+        il["motif"] = "globe"
+        did.append("chose a picture")
+    for _ in range(200):
+        e = errs()
+        hit = False
+        for k in ("title", "subtitle"):
+            if isinstance(ch, dict) and any(f"chart.{k}:" in x for x in e):
+                ch[k] = _shorter(ch[k]); hit = True
+        if isinstance(ch, dict):
+            for i, lab in enumerate(ch.get("labels", [])):
+                if any(f"chart label {lab!r}" in x for x in e):
+                    ch["labels"][i] = _shorter(lab); hit = True
+        mp = b.get("map")
+        if isinstance(mp, dict):
+            for k in ("title", "label_top", "label_bottom", "footnote"):
+                if any(f"map.{k} runs past" in x for x in e):
+                    mp[k] = _shorter(mp[k]); hit = True
+        if isinstance(il, dict) and any("illustration:" in x for x in e):
+            if len(il.get("title", "")) > 44:
+                il["title"] = _shorter(il["title"])
+            elif len(il.get("subtitle", "")) > 25 or len(il.get("subtitle", "").split()) > 1:
+                il["subtitle"] = _shorter(il["subtitle"])
+            else:
+                il["title"] = _shorter(il["title"])
+            hit = True
+        if not hit:
+            break
+        did.append("shortened a label that didn't fit")
+    return did[0] if did else ""
+
+
 def check_paper(ed, text, date, number=1, out_pdf=None):
     """Check a chatbot's reply. Returns a dict the page shows:
     ok, problem (a sentence for the parent), errors, fix (text to paste back to the chatbot),
@@ -294,12 +437,14 @@ def check_paper(ed, text, date, number=1, out_pdf=None):
     if problem:
         return {"ok": False, "problem": problem, "errors": [], "fix": ""}
     issue.update({"edition": ed["id"], "date": date, "issue": int(number), "volume": issue.get("volume") or 1})
-    issue, cut = fit(ed, issue)
+    issue, fixed = repair(ed, issue)
+    issue, cut = fit(ed, issue, limit=CHAT_TRIM_LIMIT)
     path = os.path.join(checks.issues_dir(ed), date[:4], f"{date}.json")
     r = checks.check_issue(ed, issue, path, archive=False, as_of=dt.date.fromisoformat(date))
     res = {"ok": r.ok, "errors": r.errors, "issue": json.dumps(issue, ensure_ascii=False, indent=2),
            "problem": "", "fix": "", "fill": "",
-           "trimmed": [f"{n} sentence{'s' if n > 1 else ''} from the end of {_name(ed, b)}" for b, n in cut.items()]}
+           "trimmed": [f"{n} sentence{'s' if n > 1 else ''} from the end of {_name(ed, b)}" for b, n in cut.items()],
+           "repaired": fixed}
     if not r.ok:
         res["problem"] = (f"{len(r.errors)} thing{'s' if len(r.errors) != 1 else ''} to fix before it can print. "
                           "Copy the fix list below into the chatbot, then paste its new reply here.")

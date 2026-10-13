@@ -38,16 +38,18 @@ def test_a_good_reply_prints_the_same_paper(tmp_path):
     assert len(PdfReader(res["pdf"]).pages) == 1 and res["fix"] == ""
 
 
-def test_a_reply_that_overflows_gets_a_fix_list(tmp_path):
+def test_what_the_page_cannot_fix_gets_a_fix_list(tmp_path):
+    """Far too long (more than half would have to go) or missing content: back to the chatbot."""
     ed = edition.load("junior-daily")
     issue = json.load(open(JD, encoding="utf-8"))
-    bad = copy.deepcopy(issue)
-    bad["blocks"]["lead"]["body"] = bad["blocks"]["lead"]["body"] * 2
-    bad["blocks"]["lead"]["headline"] = "Ships wait at the Strait → again"
-    res = chat.check_paper(ed, reply(bad), "2026-10-12", issue["issue"], out_pdf=str(tmp_path / "p.pdf"))
-    assert not res["ok"] and "pdf" not in res
-    assert "OVER" in res["fix"] and "cannot print" in res["fix"] and "complete corrected JSON" in res["fix"]
-    assert res["problem"].startswith(f"{len(res['errors'])} things to fix")
+    long, empty = copy.deepcopy(issue), copy.deepcopy(issue)
+    long["blocks"]["lead"]["body"] = long["blocks"]["lead"]["body"] * 3
+    empty["blocks"]["world"]["deck"] = ""
+    for bad, needle in ((long, "OVER"), (empty, "still empty")):
+        res = chat.check_paper(ed, reply(bad), "2026-10-12", issue["issue"], out_pdf=str(tmp_path / "p.pdf"))
+        assert not res["ok"] and "pdf" not in res
+        assert needle in res["fix"] and "complete corrected JSON" in res["fix"]
+        assert "to fix before it can print" in res["problem"]
 
 
 @pytest.mark.parametrize("text,needle", [("Sorry, I cannot search the web right now.", "Turn on web search"),
@@ -141,3 +143,36 @@ def test_a_slightly_long_reply_is_trimmed_to_fit_like_a_sub_editor(tmp_path):
     printed = json.loads(res["issue"])["blocks"]["lead"]["body"]
     assert printed[0] == issue["blocks"]["lead"]["body"][0]          # trimmed from the end, the start kept
     assert len(" ".join(printed).split()) < len(" ".join(long["blocks"]["lead"]["body"]).split())
+
+
+@pytest.mark.parametrize("eid", ["junior-daily", "young-global-citizen", "little-explorers"])
+def test_mechanical_mistakes_are_repaired_without_a_round_trip(eid, tmp_path):
+    """Empty kicker details, long picture and chart labels, numbers written as text, symbols the
+    fonts can't print, a body as one string, extra items and unknown blocks: all fixed on the page."""
+    ed = edition.load(eid)
+    real = sorted(__import__("glob").glob(os.path.join(ROOT, "editions", eid, "issues", "2026", "*.json")))[-1]
+    issue = json.load(open(real, encoding="utf-8"))
+    bad = copy.deepcopy(issue)
+    for v in bad["blocks"].values():
+        if isinstance(v, dict) and "kicker" in v:
+            v["kicker"] = v["kicker"].split("•")[0] + "•  "
+        if isinstance(v, dict) and "illustration" in v:
+            v["illustration"].update(title="A very long illustration title that goes on and on beyond the limit",
+                                     subtitle="and a subtitle that is far too long", motif="dragon")
+        if isinstance(v, dict) and "chart" in v:
+            v["chart"].update(values=[f"{x}%" for x in v["chart"]["values"]], max=0,
+                              labels=[f"{x} plus extra words" for x in v["chart"]["labels"]])
+        if isinstance(v, dict) and "map" in v:
+            v["map"]["label_top"] += " AND A VERY LONG NEIGHBOURING REGION NAME"
+    bad["blocks"]["lead"]["headline"] += " → now"
+    bad["blocks"]["lead"]["body"] = "\n\n".join(bad["blocks"]["lead"]["body"])
+    if "briefs" in bad["blocks"]:
+        bad["blocks"]["briefs"]["items"] += ["Extra one.", "Extra two."]
+    bad["blocks"]["not_a_block"] = {"title": "x"}
+    res = chat.check_paper(ed, reply(bad), issue["date"], issue["issue"], out_pdf=str(tmp_path / "p.pdf"))
+    assert res["ok"], res["errors"]
+    assert "replaced symbols the printer can't print" in res["repaired"]
+    printed = json.loads(res["issue"])["blocks"]
+    assert "→" not in printed["lead"]["headline"] and " to now" in printed["lead"]["headline"]
+    assert isinstance(printed["lead"]["body"], list) and len(printed["lead"]["body"]) > 1
+    assert "not_a_block" not in printed
