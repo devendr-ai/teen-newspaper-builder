@@ -1,0 +1,358 @@
+{
+ "edition": "current-affairs-digest",
+ "date": "2026-10-14",
+ "volume": 1,
+ "issue": 4,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  YEMEN AND SAUDI ARABIA",
+   "headline": "Riyadh Airport Stays Shut as Washington Weighs Joining the Houthi Fight",
+   "deck": "Riyadh's airport stays shut after a Saturday strike that Saudi Arabia says killed at least 12 people.",
+   "body": [
+    "Yemen's internationally recognised government is fighting the Houthis, an Iran-backed movement, for control of the country. Saudi Arabia backs the government with an air campaign that has reportedly included hundreds of strikes on Houthi-held areas, including the capital Sanaa. The Houthis have declared Saudi airspace a zone of military operations, and say any aircraft there, except over Mecca and Medina, is a target.",
+    "On Saturday 10 October the Houthis struck King Khalid International Airport in Riyadh. Saudi Arabia's General Authority of Civil Aviation said at least 12 people were killed and at least 309 wounded. It was the third Houthi attack on the airport that week. The Saudi-led coalition called it a war crime. The Houthi media office said the group had shut down the airport.",
+    "The strikes have continued. Saudi Arabia reported a new barrage of drones and missiles on 12 October, and Riyadh airport remains shut. Saudi Arabia stopped issuing public warnings of imminent attacks days before the weekend strikes and has not explained why, Reuters reported. Iran says it is ready to help facilitate dialogue between the Houthis and Saudi Arabia.",
+    "The Saudi-led side is pushing to drive the Houthis from Yemen's Red Sea coast and the Bab al-Mandab Strait. The UN says more than 217,000 people have been displaced since fighting escalated on Yemen's west coast. Yemen's Saudi-backed government says Houthi strikes over 24 hours killed at least five civilians and wounded over a dozen, including in an attack on a hospital in Taiz.",
+    "The war may now widen. President Trump said he is considering joining the Saudi-led offensive. A Houthi leader warned that the United States would face a swift and painful response if it does."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Yemen's Red Sea coast and the Bab al-Mandab Strait lie on the sea's southern end."
+   },
+   "why": "Attacks on airports hit civilians from many countries, and a US entry would turn a regional war into a wider one around a major sea route.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+     "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA, UKRAINE AND THE BLACK SEA",
+   "headline": "Both Sides Deny Trump's 'Energy Ceasefire' While Drones Sink a Ship Off Bulgaria",
+   "deck": "Ukraine says it has held back from hitting Russian energy sites; Moscow's strikes go on.",
+   "body": [
+    "On Sunday 11 October President Trump posted on Truth Social that Russia and Ukraine had agreed to an energy ceasefire that took effect immediately. Ukraine's President Volodymyr Zelenskyy said Kyiv was still awaiting details, and that if Russia agrees, Ukraine will too. No word came from Moscow at first, and by Monday both sides had denied the claim.",
+    "Speaking to the Warsaw Security Forum, Mr Zelenskyy said Russia kept attacking Ukraine's energy sites, while Ukraine had refrained from attacking Russian energy sites since Sunday's announcement. He called a ceasefire a good first step. A Russian strike on a residential high-rise in a Kyiv suburb killed at least two people on Monday evening, and other Russian attacks killed six more. Russia's Defence Ministry said it hit targets including vessels carrying military cargo, and did not mention energy sites.",
+    "US envoys Steve Witkoff and Jared Kushner told Ukrainian officials that a deal allowing Russian diesel exports is part of an effort to draw Russia back to talks. They said Mr Putin was not prepared to negotiate an end to the war, and that the deal could help restart three-way talks.",
+    "The war also reached the Black Sea. Bulgarian Prime Minister Rumen Radev said drones struck two ships off Bulgaria's coast, and one sank. Rescuers evacuated 15 crew (seven Ukrainian, eight Azerbaijani) and one sailor was saved from the sunken ship, while 11 sailors are missing. Bulgaria summoned Russia's ambassador without formally accusing Russia. Mr Radev said there is no solid evidence against a specific party, but that the outcome favours Russia.",
+    "The same day brought other warnings from Europe. Czech intelligence chief Michal Koudelka told a parliamentary conference that Russia could pursue riskier operations in NATO states that support Ukraine within months. NATO's top commander, Gen. Alexus Grynkewich, told the Warsaw forum the alliance would be ready to fight tonight if attacked. Germany detained a third person over a fire at a Starlink station in Poland last month, according to a Polish broadcaster."
+   ],
+   "illustration": {
+    "title": "A SHIP LOST OFF BULGARIA",
+    "subtitle": "11 sailors missing",
+    "motif": "ship",
+    "caption": "Bulgaria is an EU and NATO member on the Black Sea."
+   },
+   "connect": "Geography: Ukraine, Russia and Bulgaria all have Black Sea coasts, so a war between two of them can put ships and sailors of other countries at risk.",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "CNN via KEYT",
+     "title": "Trump claims Ukraine and Russia have agreed to energy ceasefire",
+     "url": "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire"
+    },
+    {
+     "outlet": "Business Today",
+     "title": "Do not break it: Trump announces immediate energy ceasefire between Russia and Ukraine",
+     "url": "https://www.businesstoday.in/world/story/do-not-break-it-trump-announces-immediate-energy-ceasefire-between-russia-and-ukraine-560887-2026-10-11"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  ELECTIONS",
+   "headline": "Cockroach Movement Leaders Detained Again as the Supreme Court Reviews the Voter-List Revision",
+   "deck": "Protesters want Chief Election Commissioner Gyanesh Kumar to resign.",
+   "body": [
+    "A revision of India's voter lists, carried out by the Election Commission, has become a major political fight. Opposition parties and activists say the revision improperly removed millions of names. The Commission and the government reject the allegations, saying the exercise has no political motive and aims to remove duplicate and ineligible entries.",
+    "On 5 October a three-judge Supreme Court bench led by Chief Justice Surya Kant issued notices to the government, the Election Commission and Mr Kumar after hearing petitions over the revision. The court said that if it finds the law was not followed, it can undo the revision. Another hearing was expected the following week.",
+    "The revision is called the Special Intensive Revision, or SIR. Critics say it has led to the deletion of more than 130 million people from voter lists since 2025, and cite problems such as deleting genuine voters, misclassifying citizens and altering registration documents such as Form 6. Critics also say it disproportionately affected marginalised and minority communities, especially Muslims. The Commission says it aims to identify fraudulent voters and prevent foreign illegal immigrants from voting.",
+    "The bench said newspaper reports may be 100 percent correct, partially correct or incorrect, so it could not rule on them yet. One petition asks for a probe into the Commission's records to test whether its decisions met constitutional requirements. The Indian Express reported that two of the Commission's three members objected at least 14 times to key decisions.",
+    "On the streets, the Cockroach Janta Party, a satirical online movement, has joined the opposition. Before its 10 October protest at Jantar Mantar, India deployed tens of thousands of police in the capital and the Delhi Metro closed 57 stations. Leaders Abhijeet Dipke, Saurav Das and Ashutosh Ranka were released after about 24 hours in detention, on condition of no breach of peace for one year.",
+    "The current wave of protests began on 2 October, led by the Cockroach Janta Party, student unions and opposition parties, and about 700 protesters were detained at Jantar Mantar that day. A mobile internet shutdown was also reported in central Delhi. The Supreme Court asked the Centre not to halt trains and metro services fully, saying restrictions must be proportionate and warning against using a hammer to kill a fly. It urged the Centre to designate an alternate protest venue.",
+    "On Monday, leaders of the movement were detained again after entering the grounds of Jantar Mantar, demanding that Mr Kumar resign. Delhi Police said Jantar Mantar is no longer an official protest site."
+   ],
+   "illustration": {
+    "title": "WHO IS ON THE LIST?",
+    "subtitle": "A case in court",
+    "motif": "ballot",
+    "caption": "Jantar Mantar is a Delhi site long used for protests."
+   },
+   "why": "Voter lists decide who can vote, so disputes over them test how courts and the Election Commission protect the right to vote.",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Kuwait Times",
+     "title": "India Supreme Court seeks explanations from election body",
+     "url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+    },
+    {
+     "outlet": "The Week",
+     "title": "Don't breach peace for one year: CJP leaders released on condition",
+     "url": "https://www.theweek.in/news/india/2026/10/11/dont-breach-peace-for-one-year-abhijeet-dipke-cjp-leaders-released-on-condition.html"
+    }
+   ]
+  },
+  "politics_and_civics": {
+   "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+   "headline": "Senators From Both Parties Say Trump's Russian Diesel Deal Needs Congress",
+   "deck": "They cite a statute and a 2022 law banning Russian energy imports.",
+   "body": [
+    "In the US, Congress writes laws and the president carries them out, and the two often test each other's limits. A fresh test came on Friday 9 October, when Mr Trump announced a deal with Russian President Vladimir Putin after a phone call: Russia would immediately supply more than 300,000 tons of diesel to the American and global market. The Treasury Department then issued a temporary licence allowing Russian diesel to be supplied to the global market.",
+    "Six senators, four Republicans (Susan Collins, Lisa Murkowski, Thom Tillis and John Curtis) and two Democrats (Jeanne Shaheen and Richard Blumenthal), issued a statement on Sunday calling on the administration to reverse course. They said it failed to consult Congress or explain its decision as the statute requires. Mr Tillis said on NBC's Meet the Press that the president could be violating the law if the purchase goes ahead.",
+    "Some senators point to a 2022 law banning Russian energy imports. On Monday Mr Trump defended a Treasury waiver allowing Russian fuel imports through April and said on Truth Social that he made the right choice. The Treasury issued the waiver, which means the government has chosen not to apply a rule in this case; critics argue the law does not allow it.",
+    "The plan has stages. Russia would supply over 300,000 tons of diesel immediately, then 500,000 tons in November, 1 million tons after that, and 3 million tons more within a short period. Congress banned Russian energy imports in 2022, and a few weeks before the deal it passed legislation directing tariffs on the top importers of Russian oil or natural gas, with exceptions for certain countries. Republican Senator John Barrasso said Mr Trump is focused on energy costs and has to make tough decisions, and urged the administration to enforce the sanctions law Congress passed last month.",
+    "The deal is also part of foreign policy. US envoys told Ukrainian officials that it is meant to draw Russia back toward negotiations.",
+    "A second story tests another norm. On Monday federal agents searched the Washington home of Democratic Rep. Ilhan Omar under a warrant that lists potential immigration crimes, including false statements, fraud in immigration paperwork and conspiracy. The Justice Department has traditionally avoided public investigative actions involving candidates in the 60 days before an election, and this came less than a month before the midterms. Ms Omar called it an attempt to target political enemies and weaponise federal law enforcement."
+   ],
+   "illustration": {
+    "title": "CONGRESS AND THE WHITE HOUSE",
+    "subtitle": "Who decides?",
+    "motif": "capitol",
+    "caption": "Six senators from both parties object."
+   },
+   "why": "It shows how laws limit presidents, how waivers work, and why a fuel-price decision becomes a fight over who holds power.",
+   "sources": [
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+     "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  FUEL",
+   "headline": "Russia's Diesel Offer Is Big, but US Prices Stay Near a Record",
+   "deck": "The national average was $6.23 a gallon on Friday.",
+   "body": [
+    "Diesel is the fuel that moves trucks, trains and farm machinery, so its price feeds into the cost of goods. According to AAA, the US national average for a gallon of diesel was $6.23 on Friday, after hitting a record $6.52 on 22 September.",
+    "President Trump says buying Russian diesel will help lower fuel prices ahead of the midterm elections. One energy expert quoted by AP said the Russia deal is unlikely to make a dent in high prices at the pump.",
+    "Russia is to supply more than 300,000 tons of diesel immediately, then 500,000 tons in November, 1 million tons after that, and 3 million tons more within a short period. Critics, including six senators, say the plan breaks a law and relieves pressure on Moscow. Mr Trump defended it on Monday.",
+    "Why are prices high in the first place? Mr Trump has blamed record US diesel prices on Ukraine, while PBS notes that the US-led war in Iran has raised world energy prices. Senator John Barrasso, a Republican, said the president is balancing and has to make tough decisions on energy costs.",
+    "Fuel costs spread through an economy in a simple way. Trucks and trains carry food and goods, and farm machines run on diesel, so when diesel costs more, businesses pay more to move and grow things. Some of that cost is usually passed on to customers, which is why fuel is watched so closely as a driver of inflation.",
+    "Europe feels the same shock. The ECB's chief economist, Philip Lane, expects energy-driven inflation to persist before easing toward the 2% target from mid-2027, and retail diesel in the EU is up by as much as 40% on a weighted average since February, according to a report."
+   ],
+   "chart": {
+    "title": "RUSSIA'S DIESEL OFFER",
+    "subtitle": "Thousand tons promised, in stages",
+    "labels": [
+     "Now",
+     "November",
+     "After",
+     "Later"
+    ],
+    "values": [
+     300,
+     500,
+     1000,
+     3000
+    ],
+    "max": 3000,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "The offer grows in stages; the price is still near a record."
+   },
+   "why": "Fuel is a cost in almost every business, so diesel prices can raise prices in shops. A promise of supply is not the same as fuel delivered, and an expert quoted by AP doubts that this deal will move pump prices.",
+   "analyst": "Does a deal for 300,000 tons change a national price much? What else could change what drivers and shippers pay? Who gains and who loses from the deal? Why might leaders from both parties object to a policy that aims to lower prices? How could you test whether prices fell because of the deal rather than for another reason?",
+   "sources": [
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+     "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+   "headline": "Webb Finds an Ancient Galaxy Cluster With Unexpectedly Dense Dark Matter",
+   "deck": "The finding challenges current understanding of the universe.",
+   "body": [
+    "NASA's James Webb Space Telescope has found an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, ScienceDaily reported on 13 October. The result challenges current understanding of the universe. The report is a news summary, so the underlying paper should be checked for detail.",
+    "Dark matter is a form of matter that astronomers infer from its gravity but cannot see. Clusters are huge groups of galaxies held together by gravity, so a cluster that is denser than expected tells scientists something about how structure formed early on.",
+    "Other astronomy news this week: on 10 October, MIT astronomers reported a system about 300 light-years away where a small star is slowly consuming a nearby brown dwarf, a process that could last billions of years. On 12 October Europe's Sentinel-3C satellite, two weeks after launch, returned images of the snowy Alps, frozen Arctic islands and turquoise Caribbean waters.",
+    "Why do astronomers care about dark matter? It cannot be seen, but its gravity bends and pulls light and matter, so astronomers find it by watching how galaxies and light behave. A galaxy cluster is one of the best places to look, because the cluster's total gravity is far larger than the visible stars alone explain.",
+    "A brown dwarf is an object too massive to be a planet but too small to be a star. The MIT team found a small star feeding on one in a strange system, in what ScienceDaily called a feast that could last billions of years.",
+    "On 11 October ScienceDaily reported that an astronaut aboard the International Space Station photographed a formation in Madagascar that closely resembles the Moon's bright highlands. The rock is anorthosite, the same kind of pale rock that makes up those highlands. Earlier in the week, ScienceDaily reported on 8 October that NASA's SpaceX Crew-12 astronauts returned to Earth after 237 days in space, and on 7 October that Webb found signs of Mars-sized worlds colliding and detected an atmosphere on the lava world HD 3167 b. The headlines are brief summaries, so the full studies should be read before drawing conclusions."
+   ],
+   "illustration": {
+    "title": "AN ANCIENT CLUSTER",
+    "subtitle": "Webb telescope",
+    "motif": "rocket",
+    "caption": "Dark matter is inferred from gravity, not seen."
+   },
+   "why": "Surprising results force scientists to test the models behind our picture of the early universe. A cluster that looks denser in dark matter than theory predicts could mean the models need adjusting, or that the measurement needs checking. Either way, the result will be tested by other teams.",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "title": "Astronomy News",
+     "url": "https://www.sciencedaily.com/news/space_time/astronomy/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Iran: The UK Maritime Trade Operations Centre said an oil tanker was struck by a projectile leaving the Strait of Hormuz on Monday, and Iran's Revolutionary Guard claimed the attack.",
+    "United Kingdom: Prime Minister Andy Burnham told Parliament that Iran's Revolutionary Guard was almost certainly behind a suspected plot to attack RAF Fairford; Iran's ambassador rejects the claim.",
+    "France: Macron said the French Navy boarded the tanker DF Peak south of Reunion on suspicion that it was tied to Russia's shadow fleet.",
+    "Lebanon: Hezbollah said it will give up to $14,000 to families whose main homes were destroyed or made uninhabitable this year, and a New York Times analysis of satellite images found that 48 of 60 villages and towns in Israeli-occupied southern Lebanon are mostly levelled, while Israel says its attacks targeted Hezbollah threats."
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Waiver",
+     "def": "An official permission to set aside a rule in a particular case. Today: the Treasury issued a waiver allowing Russian fuel imports through April."
+    },
+    {
+     "word": "Dark matter",
+     "def": "Matter that cannot be seen but is detected through its gravity. Today: Webb found a galaxy cluster with unexpectedly dense dark matter."
+    },
+    {
+     "word": "Shadow fleet",
+     "def": "Ships that carry sanctioned cargo while hiding who owns or controls them. Today: France boarded a tanker it suspects of belonging to Russia's shadow fleet."
+    },
+    {
+     "word": "Search warrant",
+     "def": "A court-approved order allowing officials to search a place for evidence. Today: federal agents searched Rep. Ilhan Omar's home under one."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The Bab al-Mandab Strait, at Yemen's Red Sea coast, has an Arabic name that is usually translated as the Gate of Tears. It is one of the narrow passages that connect the world's seas."
+  },
+  "explainer": {
+   "title": "What is a strait, and why do wars gather there?",
+   "body": [
+    "A strait is a narrow stretch of water that joins two larger bodies of water. Because ships have to pass through it, whoever controls its shores can threaten the traffic.",
+    "Two straits are in today's news. The Saudi-led offensive aims to push the Houthis from Yemen's Red Sea coast and the Bab al-Mandab Strait. And at least 18 attacks on ships in or near the Strait of Hormuz have occurred since the start of October, including a tanker hit on Monday. Sixty countries, including EU members, Australia and the UK, backed a declaration pledging to preserve freedom of navigation and opposing tolls on straits used for international navigation.",
+    "Freedom of navigation is the principle that ships of all countries may use international sea lanes without being stopped or charged. A toll is a fee for passage. The declaration says straits used for international navigation should not carry them. It is a statement of principle by the countries that signed, and each ship attack in the news is a test of whether the principle holds."
+   ],
+   "sources": [
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Eight questions on this issue",
+   "body": [
+    "<b>1.</b> On Saturday 10 October the Houthis struck King Khalid International Airport in Riyadh. How many people did Saudi Arabia's civil aviation authority say were killed?",
+    "(a) At least 3  (b) At least 12  (c) At least 30  (d) At least 309",
+    "<b>2.</b> Which group says it shut down Riyadh's airport?",
+    "(a) The Houthis  (b) Hezbollah  (c) The Taliban  (d) Hamas",
+    "<b>3.</b> President Trump announced an energy ceasefire on Sunday 11 October. What did Ukraine's Zelenskyy say Ukraine had done since then?",
+    "(a) Hit more Russian refineries  (b) Refrained from attacking Russian energy sites  (c) Closed the Black Sea  (d) Left the Warsaw forum",
+    "<b>4.</b> Drones struck two ships off Bulgaria's coast, and Bulgaria summoned Russia's ambassador. Who is Bulgaria's prime minister?",
+    "(a) Rumen Radev  (b) Andy Burnham  (c) Gyanesh Kumar  (d) Michal Koudelka",
+    "<b>5.</b> What was the US average diesel price on Friday, per AAA?",
+    "(a) $4.23  (b) $5.23  (c) $6.23  (d) $6.52",
+    "<b>6.</b> Four Republicans and two Democrats signed a statement asking the administration to reverse its Russian diesel plan. How many senators is that in all?",
+    "(a) Two  (b) Four  (c) Six  (d) Ten",
+    "<b>7.</b> How many Delhi Metro stations were closed before the 10 October protest?",
+    "(a) 7  (b) 27  (c) 57  (d) 157",
+    "<b>8.</b> ScienceDaily reported on 13 October that NASA's James Webb Space Telescope made a discovery about an ancient galaxy cluster. What was it?",
+    "(a) A galaxy cluster with unexpectedly dense dark matter  (b) A new planet around Sirius  (c) A comet  (d) A new moon of Mars",
+    "<b>Answers.</b> 1 (b): at least 12. 2 (a): the Houthis. 3 (b): refrained from attacking Russian energy sites. 4 (a): Rumen Radev. 5 (c): $6.23. 6 (c): six. 7 (c): 57. 8 (a): a galaxy cluster with unexpectedly dense dark matter."
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+     "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+     "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+    },
+    {
+     "outlet": "Kuwait Times",
+     "title": "India Supreme Court seeks explanations from election body",
+     "url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+    },
+    {
+     "outlet": "ScienceDaily",
+     "title": "Astronomy News",
+     "url": "https://www.sciencedaily.com/news/space_time/astronomy/"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether the United States joins the Saudi-led offensive in Yemen, after Mr Trump said he is considering it and a Houthi leader warned of a swift and painful response, and whether Riyadh airport reopens.",
+    "Whether Russia accepts an energy ceasefire, whether Ukraine keeps holding back from striking Russian energy sites, and whether Bulgaria names who is behind the drone attack on the two ships.",
+    "Whether the Supreme Court sets its next hearing on the voter-list revision, and whether the Cockroach movement's new protests go ahead after the latest detentions."
+   ]
+  }
+ },
+ "sources": [
+  "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+  "https://www.democracynow.org/2026/10/13/headlines",
+  "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+  "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+  "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/",
+  "https://www.theweek.in/news/india/2026/10/11/dont-breach-peace-for-one-year-abhijeet-dipke-cjp-leaders-released-on-condition.html",
+  "https://www.sciencedaily.com/news/space_time/astronomy/",
+  "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire",
+  "https://www.businesstoday.in/world/story/do-not-break-it-trump-announces-immediate-energy-ceasefire-between-russia-and-ukraine-560887-2026-10-11"
+ ]
+}
