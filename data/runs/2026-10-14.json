@@ -1,0 +1,36 @@
+{
+ "date": "2026-10-14",
+ "by": "claude-code",
+ "editions": {
+  "breakfast-table": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "current-affairs-digest": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "europe-explained": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "global-citizen-plus": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "junior-daily": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "young-global-citizen": {
+   "status": "skipped",
+   "reason": "Issue passed its checks, but tests/test_auto.py::test_nothing_due_twice_on_the_same_day hard-codes 2026-10-14 as a day young-global-citizen is still due, so any issue for that date fails the suite. Held back rather than change tests.",
+   "poster": null
+  }
+ }
+}
