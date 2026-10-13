@@ -117,6 +117,8 @@ in India. Without one, it runs only when you start it.
 
 - **Pause a paper:** set `automation: enabled: false` in its `edition.yaml`.
 - **Hide a paper from the site:** add `listed: false` under `site:`.
+- **Feedback:** put a Google Form link in `feedback_url` in `site.yaml`. The site
+  gets a Feedback tab with the form on it, and a "Tell us" link in every footer.
 - **Weekly papers** publish on the day named in `automation: weekday:`.
 - **Posters:** papers with `automation: poster: true` also get that week's Big
   Question poster, written and checked after the issue passes. A failed poster

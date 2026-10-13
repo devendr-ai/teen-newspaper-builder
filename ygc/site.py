@@ -25,6 +25,7 @@ def site_config():
     cfg.setdefault("tagline", "Printable newspapers, written for each reader.")
     cfg.setdefault("base_url", "")
     cfg.setdefault("contact", "")
+    cfg.setdefault("feedback_url", "")
     cfg.setdefault("keep_issues", 30)
     cfg.setdefault("intro_title", "")
     cfg.setdefault("intro", "")
@@ -132,13 +133,20 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
          '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">')
 
 
+def feedback_nav(cfg, root=""):
+    return f'<a href="{root}feedback.html">Feedback</a>' if cfg.get("feedback_url") else ""
+
+
 def page(cfg, title, body, root="", head_extra=""):
     contact = f' · Corrections: <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>' if cfg.get("contact") else ""
+    if cfg.get("feedback_url"):
+        contact += f' · Spotted a mistake, or have an idea? <a href="{root}feedback.html">Tell us</a>'
+
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'])}">{FONTS}{head_extra}<style>{CSS}</style></head>
 <body><div class="wrap"><header class="top"><div><h1><a href="{root}index.html">{E(cfg['title'])}</a></h1><p>{E(cfg['tagline'])}</p></div>
-<nav><a href="{root}index.html">Papers</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a></nav></header>
+<nav><a href="{root}index.html">Papers</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div></body></html>"""
 
 
@@ -275,11 +283,28 @@ document.querySelectorAll('.frow button').forEach(b=>b.addEventListener('click',
     open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
-        shutil.copy(b, os.path.join(out, "builder.html"))
+        html = open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
+        open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(html)
         engine_zip(os.path.join(out, "builder-engine.zip"))
+    if cfg.get("feedback_url"):
+        open(os.path.join(out, "feedback.html"), "w", encoding="utf-8").write(
+            page(cfg, "Feedback", feedback_body(cfg["feedback_url"])))
     open(os.path.join(out, ".nojekyll"), "w").close()
     log(f"site written to {out}")
     return out
+
+
+def feedback_body(url):
+    """The feedback page: a Google Form shown on the page, or a button to any other form."""
+    full = "docs.google.com/forms/" in url
+    src = (url.split("?")[0].replace("/edit", "/viewform") + "?embedded=true") if full else url
+    form = (f'<iframe src="{E(src)}" title="Feedback form" style="width:100%;min-height:1100px;border:0" loading="lazy">'
+            f'Loading…</iframe>' if full else "")
+    return f"""<h2 style="font-size:2rem;margin-bottom:10px">Feedback</h2><div style="max-width:68ch">
+<p>Tell us what works, what doesn't, and what you'd like next: a mistake in a paper, an idea for a section, a
+paper for an age we don't cover yet, or a problem with <i>Design your own</i>. We read everything.</p>
+<p>Please don't include your child's full name or anything that identifies them. Leave an email only if you'd like a reply.</p>
+<p><a class="btn" href="{E(url)}" target="_blank" rel="noopener">Open the feedback form</a></p></div>{form}"""
 
 
 def engine_zip(path):
