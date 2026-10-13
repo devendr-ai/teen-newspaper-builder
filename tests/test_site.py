@@ -3,6 +3,8 @@ import os
 import re
 import shutil
 
+import pytest
+
 from ygc import edition, poster, site
 
 
@@ -55,3 +57,21 @@ def test_filters_can_hide_cards(tmp_path):
     site.build(str(out), keep=1, log=lambda *a: None)
     index = (out / "index.html").read_text(encoding="utf-8")
     assert "[hidden]{display:none!important}" in index and "c.hidden=!ok" in index
+
+
+@pytest.mark.parametrize("url", ["", "https://docs.google.com/forms/d/e/1FAIpQLSabc/viewform?usp=sf_link"])
+def test_feedback_tab_appears_only_with_a_form(tmp_path, monkeypatch, url):
+    cfg = site.site_config()
+    monkeypatch.setattr(site, "site_config", lambda: dict(cfg, feedback_url=url))
+    monkeypatch.setattr(site, "issues_of", lambda ed: [])          # fast: no PDFs needed here
+    out = tmp_path / "site"
+    site.build(str(out), keep=1, log=lambda *a: None)
+    index = (out / "index.html").read_text(encoding="utf-8")
+    builder = (out / "builder.html").read_text(encoding="utf-8")
+    if not url:
+        assert not (out / "feedback.html").exists() and 'href="feedback.html"' not in index + builder
+        return
+    fb = (out / "feedback.html").read_text(encoding="utf-8")
+    assert 'href="feedback.html">Feedback</a>' in index and 'href="feedback.html">Feedback</a>' in builder
+    assert "Tell us</a>" in index                                       # footer link on every page
+    assert 'src="https://docs.google.com/forms/d/e/1FAIpQLSabc/viewform?embedded=true"' in fb

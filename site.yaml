@@ -3,6 +3,7 @@ title: The Kids' Newsstand
 tagline: Free printable newspapers for ages 6 to 15, written for their age from verified sources.
 base_url: https://devendr-ai.github.io/teen-newspaper-builder/
 contact: ""            # an email address readers can send corrections to
+feedback_url: ""       # a Google Form (or any form) link: adds a Feedback tab and footer link
 keep_issues: 30        # how many past issues per paper stay downloadable
 
 # The box at the top of the home page, written for parents.
