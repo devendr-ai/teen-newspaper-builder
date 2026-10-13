@@ -173,7 +173,7 @@ details.dev summary{cursor:pointer;font-weight:700}
   <header class="top">
     <h1>Design a paper for your child</h1>
     <p>Pick what your child loves. This page writes instructions for your own AI chatbot (ChatGPT, Claude or Gemini). It searches today's news and writes the paper; this page checks it and turns it into a PDF laid out just like ours. It's free, and nothing you type leaves your browser.</p>
-    <ol class="how"><li>Choose below</li><li>Copy the instructions into your chatbot</li><li>Paste its reply back here</li><li>Download and print</li></ol>
+    <ol class="how"><li>Choose below</li><li>Click your chatbot and paste</li><li>Paste its reply back here</li><li>Download and print</li></ol>
   </header>
 
   <div class="presets" id="presets"><span>Start from one of our papers:</span></div>
@@ -264,38 +264,36 @@ details.dev summary{cursor:pointer;font-weight:700}
         <p class="engine" id="engine" role="status">Getting the printing engine ready (about 10 seconds the first time)…</p>
         <ol>
           <li>
-            <h3>Copy the instructions</h3>
-            <p>They're written for today, so come back here for each new issue.</p>
+            <h3>Open your chatbot</h3>
+            <p>One click copies today's instructions and opens it. Paste them into the chat (Ctrl+V, or ⌘V on a Mac) and press Enter. If it asks, turn on web search.</p>
             <div class="actions">
-              <button type="button" class="btn go" id="copyInstr" disabled>Copy instructions</button>
-              <span class="status" id="instrStatus" role="status"></span>
+              <button type="button" class="btn go" data-bot="https://chatgpt.com/" disabled>ChatGPT</button>
+              <button type="button" class="btn go" data-bot="https://claude.ai/new" disabled>Claude</button>
+              <button type="button" class="btn go" data-bot="https://gemini.google.com/app" disabled>Gemini</button>
+              <button type="button" class="btn ghost" id="copyInstr" disabled>Just copy</button>
             </div>
+            <p class="status" id="instrStatus" role="status"></p>
           </li>
           <li>
-            <h3>Paste them into your chatbot, with web search on</h3>
-            <div class="actions">
-              <a class="btn ghost" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a>
-              <a class="btn ghost" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a>
-              <a class="btn ghost" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a>
-            </div>
-            <p>Make sure it can search the web, or it will refuse rather than write from memory. It replies with a block of code. You don't need to read it.</p>
-          </li>
-          <li>
-            <h3>Paste its whole reply here</h3>
-            <textarea id="reply" placeholder="Paste the chatbot's reply here" aria-label="The chatbot's reply"></textarea>
-            <div class="actions"><button type="button" class="btn go" id="makePdf" disabled>Check and make my PDF</button></div>
+            <h3>Copy its reply and paste it here</h3>
+            <p>When it has finished, use the copy button on its block of code (you don't need to read it). Pasting here makes your PDF straight away.</p>
+            <div class="actions"><button type="button" class="btn go" id="pasteReply" disabled>Paste the reply</button></div>
+            <textarea id="reply" placeholder="…or click here and paste (Ctrl+V, or ⌘V on a Mac)" aria-label="The chatbot's reply"></textarea>
             <div class="result" id="result" aria-live="polite"></div>
+            <div class="actions"><button type="button" class="btn ghost" id="makePdf" disabled>Check again</button></div>
           </li>
         </ol>
         <div class="poster-box" id="posterBox" hidden>
           <h3>Also make the Big Question poster<span class="tag">Ages 6–8</span></h3>
           <p>One idea from this week's news on one page: a big picture, something to try, and questions to talk about together.</p>
+          <p>Copy the poster instructions into the same chat, then paste its reply below.</p>
           <div class="actions">
             <button type="button" class="btn ghost" id="copyPoster" disabled>Copy poster instructions</button>
+            <button type="button" class="btn ghost" id="pastePoster" disabled>Paste the poster reply</button>
             <span class="status" id="posterStatus" role="status"></span>
           </div>
-          <textarea id="posterReply" placeholder="Paste the chatbot's poster reply here" aria-label="The chatbot's poster reply"></textarea>
-          <div class="actions"><button type="button" class="btn ghost" id="makePoster" disabled>Check and make the poster</button></div>
+          <textarea id="posterReply" placeholder="…or click here and paste the poster reply" aria-label="The chatbot's poster reply"></textarea>
+          <div class="actions"><button type="button" class="btn ghost" id="makePoster" disabled>Check again</button></div>
           <div class="result" id="posterResult" aria-live="polite"></div>
         </div>
         <p class="private">The paper is checked and built inside your browser, using the same engine as our papers. AI can still get things wrong, so skim it before you hand it over: every story lists its sources.</p>
@@ -1142,7 +1140,8 @@ const PRESETS = {
   }
   function setButtons() {
     const ok = !!py && last && !(last.errors && last.errors.length);
-    ["copyInstr", "makePdf", "copyPoster", "makePoster"].forEach((id) => { $(id).disabled = !ok; });
+    ["copyInstr", "makePdf", "copyPoster", "makePoster", "pasteReply", "pastePoster"].forEach((id) => { $(id).disabled = !ok; });
+    document.querySelectorAll("[data-bot]").forEach((b) => { b.disabled = !ok; });
   }
   function run(code, vars) {
     for (const [k, v] of Object.entries(vars)) py.globals.set(k, v);
@@ -1169,16 +1168,39 @@ const PRESETS = {
     try { return run(code, vars); }
     catch (e) { const msg = String(e.message || e).split("\n").filter(Boolean).pop(); statusEl.innerHTML = `<div class="bad">${esc(msg)}</div>`; return null; }
   }
-  $("copyInstr").addEventListener("click", () => {
+  function instructionsText() {
     const tight = engineCall("ed = chat.install(Y)\njson.dumps(chat.layout_problems(ed))", { Y: last.yaml }, $("result"));
-    if (!tight) return;
+    if (!tight) return null;
     if (tight.length) {
-      $("result").innerHTML = `<div class="bad"><b>This paper won't fit on ${last.stats.pages} page${last.stats.pages > 1 ? "s" : ""} yet.</b> ${tight.map(esc).join(" ")} Turn off a learning section, choose fewer interests, or add a page, then copy again.</div>`;
-      return;
+      $("result").innerHTML = `<div class="bad"><b>This paper won't fit on ${last.stats.pages} page${last.stats.pages > 1 ? "s" : ""} yet.</b> ${tight.map(esc).join(" ")} Turn off a learning section, choose fewer interests, or add a page, then try again.</div>`;
+      return null;
     }
     const date = today(), n = issueNumber(last.id, date, true);
     const out = engineCall("ed = chat.install(Y)\njson.dumps(chat.instructions(ed, D, N))", { Y: last.yaml, D: date, N: n }, $("result"));
-    if (out) { $("result").innerHTML = ""; copyText(out, $("instrStatus"), "the instructions"); }
+    if (out) $("result").innerHTML = "";
+    return out;
+  }
+  function copyNow(text) {           // synchronous, so it still counts as the click when the chatbot opens
+    const t = document.createElement("textarea");
+    t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+    document.body.appendChild(t); t.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    t.remove();
+    if (!ok && navigator.clipboard) navigator.clipboard.writeText(text).catch(() => {});
+    return true;
+  }
+  document.querySelectorAll("[data-bot]").forEach((b) => b.addEventListener("click", () => {
+    const text = instructionsText();
+    if (!text) return;
+    copyNow(text);
+    window.open(b.dataset.bot, "_blank", "noopener");
+    $("instrStatus").textContent = `Instructions copied. In ${b.textContent}, paste them into the chat and press Enter.`;
+    $("instrStatus").className = "status ok";
+  }));
+  $("copyInstr").addEventListener("click", () => {
+    const text = instructionsText();
+    if (text) copyText(text, $("instrStatus"), "the instructions");
   });
   $("copyPoster").addEventListener("click", () => {
     const out = engineCall("ed = chat.install(Y)\njson.dumps(chat.poster_instructions(ed, D))", { Y: last.yaml, D: today() }, $("posterResult"));
@@ -1198,14 +1220,15 @@ const PRESETS = {
     const url = URL.createObjectURL(new Blob([bytes], { type: "application/pdf" }));
     urls.push(url);
     const trimmed = (res.trimmed || []).length ? `<p class="next">To fit the page we trimmed, as a newspaper editor would: ${res.trimmed.map(esc).join("; ")}.</p>` : "";
-    el.innerHTML = `<div class="done"><b>Your ${what} is ready.</b> It passed every check our papers pass.</div>${trimmed}
+    const tidied = (res.repaired || []).length ? `<p class="next">We also tidied the layout: ${res.repaired.map(esc).join("; ")}.</p>` : "";
+    el.innerHTML = `<div class="done"><b>Your ${what} is ready.</b> It passed every check our papers pass.</div>${trimmed}${tidied}
       <div class="actions"><a class="btn go" href="${url}" download="${esc(file)}">Download the PDF</a><a class="btn ghost" href="${url}" target="_blank" rel="noopener">Open it</a></div>`
       + (res.fill ? `<p class="next">Optional: some columns have empty space. To fill them, copy this request into the chatbot and paste its new reply above.</p><pre>${esc(res.fill)}</pre><div class="actions"><button type="button" class="btn ghost">Copy the request</button><span class="status" role="status"></span></div>` : "");
     const b = el.querySelector("button");
     if (b) b.addEventListener("click", () => copyText(res.fill, el.querySelector(".status"), "the request"));
   }
-  $("makePdf").addEventListener("click", () => {
-    const text = $("reply").value.trim();
+  function makePaper(text) {
+    text = (text || "").trim();
     if (!text) { $("result").innerHTML = `<div class="bad">Paste the chatbot's reply first.</div>`; return; }
     const date = today(), n = issueNumber(last.id, date, true);
     $("result").innerHTML = `<p class="status">Checking every column…</p>`;
@@ -1213,17 +1236,43 @@ const PRESETS = {
       const res = engineCall("ed = chat.install(Y)\nr = chat.check_paper(ed, T, D, N)\njson.dumps({k: v for k, v in r.items() if k != 'issue'})",
         { Y: last.yaml, T: text, D: date, N: n }, $("result"));
       showResult($("result"), res, `${last.id}_${date}.pdf`, "paper");
+      $("result").scrollIntoView({ block: "nearest", behavior: "smooth" });
     }, 30);
-  });
-  $("makePoster").addEventListener("click", () => {
-    const text = $("posterReply").value.trim();
+  }
+  function makePoster(text) {
+    text = (text || "").trim();
     if (!text) { $("posterResult").innerHTML = `<div class="bad">Paste the chatbot's poster reply first.</div>`; return; }
     const date = today();
     setTimeout(() => {
       const res = engineCall("ed = chat.install(Y)\njson.dumps(chat.check_poster(ed, T, D))", { Y: last.yaml, T: text, D: date }, $("posterResult"));
       showResult($("posterResult"), res, `${last.id}_${date}_poster.pdf`, "poster");
     }, 30);
-  });
+  }
+  // pasting replaces whatever was there and checks at once; the buttons read the clipboard directly
+  function pasteInto(box, make) {
+    box.addEventListener("focus", () => box.select());
+    box.addEventListener("paste", (e) => {
+      const t = (e.clipboardData || window.clipboardData).getData("text");
+      if (!t) return;
+      e.preventDefault(); box.value = t; if (py) make(t);
+    });
+  }
+  async function pasteFromClipboard(box, make, out) {
+    try {
+      const t = await navigator.clipboard.readText();
+      if (!t.trim()) throw new Error("empty");
+      box.value = t; make(t);
+    } catch (e) {
+      box.focus();
+      out.innerHTML = `<p class="next">Click in the box and press Ctrl+V (⌘V on a Mac) to paste.</p>`;
+    }
+  }
+  pasteInto($("reply"), makePaper);
+  pasteInto($("posterReply"), makePoster);
+  $("pasteReply").addEventListener("click", () => pasteFromClipboard($("reply"), makePaper, $("result")));
+  $("pastePoster").addEventListener("click", () => pasteFromClipboard($("posterReply"), makePoster, $("posterResult")));
+  $("makePdf").addEventListener("click", () => makePaper($("reply").value));
+  $("makePoster").addEventListener("click", () => makePoster($("posterReply").value));
   $("copy").addEventListener("click", () => { if (last && last.yaml) copyText(last.yaml, $("status"), "the edition file"); });
 
   Object.entries(PRESETS).forEach(([id, p]) => {
