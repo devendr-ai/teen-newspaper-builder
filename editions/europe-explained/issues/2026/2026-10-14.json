@@ -1,0 +1,213 @@
+{
+ "edition": "europe-explained",
+ "date": "2026-10-14",
+ "volume": 1,
+ "issue": 3,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  YEMEN AND SAUDI ARABIA",
+   "headline": "Riyadh's Airport Stays Shut as Yemen's War Spills Over",
+   "deck": "Saudi Arabia reports a new barrage of drones and missiles, and Washington weighs joining in.",
+   "body": [
+    "Think of Yemen's war as a fight inside one house that has now spread next door. Yemen's internationally recognised government is fighting the Houthis, a movement backed by Iran. Saudi Arabia, Yemen's neighbour, backs the government with an air campaign. The Houthis have now hit back at Saudi Arabia itself. Saudi Arabia has reportedly carried out hundreds of strikes on Houthi-held areas, including the capital Sanaa, and the Houthis have declared Saudi airspace a zone of military operations.",
+    "On Saturday 10 October they struck King Khalid International Airport in Riyadh. Saudi Arabia's civil aviation authority said at least 12 people were killed and at least 309 wounded. The dead came from many countries, including Bangladesh, the US, Jordan, Syria, Sudan and Egypt. It was the third Houthi attack on that airport in one week. The Saudi-led coalition called it a war crime.",
+    "On 12 October Saudi Arabia reported a new barrage of drones and missiles, and Riyadh's airport remains shut. President Trump says he is considering joining the Saudi-led offensive, which aims to push the Houthis from Yemen's Red Sea coast. A Houthi leader warned of a swift and painful response if the US does. Iran says it is ready to help facilitate talks between the Houthis and Saudi Arabia.",
+    "The human cost is rising on both sides of the border. The UN says more than 217,000 people have been displaced since fighting escalated on Yemen's west coast, and a UN envoy has warned that Yemen has returned to full-scale war. Yemen's Saudi-backed government says Houthi strikes over 24 hours killed at least five civilians and wounded over a dozen, including in an attack on a hospital in Taiz."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Yemen's Red Sea coast faces Africa across the water."
+   },
+   "why": "Airports connect many countries, so an attack on one hurts people from many places, and a wider war would affect a busy part of the world.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+     "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+   "headline": "An 'Energy Ceasefire' That Both Sides Deny",
+   "deck": "Ukraine says it has held back from hitting Russian energy sites; Russia's strikes go on.",
+   "body": [
+    "Imagine two players agreeing to stop hitting each other's power supply while the rest of the game goes on. That is the idea of an energy ceasefire. On Sunday 11 October President Trump said Russia and Ukraine had agreed to one, effective immediately. By Monday both sides had denied it.",
+    "Ukraine's President Zelenskyy told a forum in Warsaw that Ukraine had refrained from attacking Russian energy sites since the announcement, and that Russia kept attacking Ukraine's. A Russian strike on a residential high-rise in a Kyiv suburb killed at least two people on Monday evening.",
+    "US envoys told Ukrainian officials that a deal letting Russia export diesel is meant to draw Moscow back to talks, though they said Mr Putin was not ready to negotiate an end to the war. In the Strait of Hormuz, an oil tanker was hit by a projectile on Monday, and Iran's Revolutionary Guard claimed the attack. It said it was the third ship it had hit in two days, and at least 18 attacks on ships in or near the strait have occurred since the start of October.",
+    "Sixty countries, including EU members, Australia and the UK, backed a declaration pledging to preserve freedom of navigation and opposing tolls on straits used for international navigation.",
+    "On the battlefield, Gen. Oleksandr Syrskyi, the former commander-in-chief of Ukraine's forces, told the BBC that Ukraine has stabilised the front line and broken Russia's ability to advance. Russia's Defence Ministry said it hit targets in Ukraine including vessels carrying military cargo, and did not mention energy sites."
+   ],
+   "illustration": {
+    "title": "POWER SITES UNDER ATTACK",
+    "subtitle": "A truce both sides deny",
+    "motif": "grid",
+    "caption": "Ukraine says Russian strikes on energy sites continue."
+   },
+   "connect": "Economics: attacks on fuel and power sites can affect prices far from the fighting, because oil and diesel are traded around the world.",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "CNN via KEYT",
+     "title": "Trump claims Ukraine and Russia have agreed to energy ceasefire",
+     "url": "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire"
+    }
+   ]
+  },
+  "uk": {
+   "kicker": "UNITED KINGDOM  •  SECURITY",
+   "headline": "Burnham Blames Iran's Revolutionary Guard for the RAF Fairford Plot",
+   "deck": "Iran's ambassador rejects the claim and has been summoned.",
+   "body": [
+    "RAF Fairford is a Royal Air Force base in Gloucestershire. Five British nationals, all in their mid-20s, were arrested near the base on suspicion of explosives offences and terrorism, and later bailed under investigation. Police said petrol, but no explosive devices, was found in the vans.",
+    "On Monday Prime Minister Andy Burnham told Parliament that Iran's Revolutionary Guard was almost certainly behind a suspected plot to attack the base. It was the first official UK blame for the alleged attack. Earlier he had spoken of strong indications of Iranian involvement.",
+    "Iran's ambassador, Seyed Ali Mousavi, categorically rejects the accusation. Foreign Secretary Ed Miliband summoned him. No charges have been announced."
+   ],
+   "why": "A government naming another state in a plot is a serious step, so it matters that the police investigation is still going and the accused country denies it.",
+   "also": [
+    "France: the navy boarded the tanker DF Peak south of Reunion, which it suspects of carrying fuel for Russia's shadow fleet.",
+    "Economy: Chancellor John Healey plans his first Budget on 28 October."
+   ],
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Irish Examiner",
+     "title": "Strong indications Iran played role in suspected Fairford terror plot",
+     "url": "https://www.irishexaminer.com/world/arid-41918098.html"
+    },
+    {
+     "outlet": "BDO",
+     "title": "Autumn Budget 2026: predictions",
+     "url": "https://www.bdo.co.uk/en-gb/microsites/budget-autumn-budget-2026/predictions"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "United States: Federal agents searched the Washington home of Rep. Ilhan Omar on Monday under a warrant that lists possible immigration crimes.",
+    "India: Leaders of the Cockroach youth movement were detained at the Jantar Mantar protest site in Delhi while demanding the resignation of the chief election commissioner."
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Shadow fleet",
+     "def": "Ships that carry cargo while hiding who owns or controls them. Today: France boarded a tanker it suspects of belonging to Russia's shadow fleet."
+    },
+    {
+     "word": "Chancellor",
+     "def": "The UK government minister in charge of public money. Today: Chancellor John Healey plans his first Budget on 28 October."
+    },
+    {
+     "word": "Toll",
+     "def": "A fee charged for passing through a road, bridge or waterway. Today: sixty countries backed a declaration opposing tolls on straits used for international navigation."
+    },
+    {
+     "word": "Revolutionary Guard",
+     "def": "A branch of Iran's armed forces. Today: Mr Burnham said it was almost certainly behind the suspected plot at RAF Fairford."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "A nautical mile, the unit used when France says its navy boarded a tanker 450 nautical miles south of Reunion, is slightly longer than a land mile. It is used at sea and in the air."
+  },
+  "europe": {
+   "kicker": "EUROPE  •  BULGARIA",
+   "headline": "Drones Hit Two Ships Off Bulgaria",
+   "deck": "Eleven sailors are missing after one ship sank.",
+   "body": [
+    "Bulgaria sits on the western shore of the Black Sea. Its Prime Minister, Rumen Radev, says drones struck two ships off the coast, and one sank. Rescuers evacuated 15 crew, one sailor was rescued from the sunken ship, and 11 sailors are missing.",
+    "The 15 evacuated were seven Ukrainians and eight Azerbaijanis. Bulgaria summoned Russia's ambassador without formally accusing Russia. Mr Radev said there is no solid evidence against a specific party, but that the outcome favours Russia. He called the attacks completely unacceptable.",
+    "Bulgaria is not alone in worrying. Czech intelligence chief Michal Koudelka said Russia could pursue riskier operations in NATO states that support Ukraine within months. NATO's top commander, Gen. Alexus Grynkewich, said the alliance would be ready to fight tonight if attacked."
+   ],
+   "chart": {
+    "title": "THE CREW, SO FAR",
+    "subtitle": "Number of sailors",
+    "labels": [
+     "Evacuated",
+     "Rescued",
+     "Missing"
+    ],
+    "values": [
+     15,
+     1,
+     11
+    ],
+    "max": 16,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "The 11 missing are still being sought."
+   },
+   "why": "The Black Sea is shared by countries on both sides of the war, so attacks on ships near NATO and EU member Bulgaria raise tension in Europe.",
+   "analyst": "Why might Bulgaria avoid naming who is responsible? What would count as solid evidence? How could shipping be protected without widening the war?",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    }
+   ]
+  },
+  "sports": {
+   "title": "BASEBALL AND AMERICAN FOOTBALL",
+   "body": "In baseball's playoffs, <b>Milwaukee</b> beat the Los Angeles Dodgers 7-4 and leads the National League series 2-0, and <b>Cleveland</b> beat Tampa Bay 7-3. In the NFL, <b>Buffalo</b> beat the Rams 37-34 in overtime.",
+   "sources": [
+    {
+     "outlet": "Medicine Hat News (Canadian Press)",
+     "title": "Scores and sports schedule for Monday, Oct. 12, 2026",
+     "url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether the United States joins Saudi Arabia in Yemen.",
+    "Whether the police investigation into RAF Fairford leads to charges."
+   ]
+  },
+  "quote": {
+   "text": "Asking who, how and why is the start of thinking.",
+   "by": ""
+  }
+ },
+ "sources": [
+  "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+  "https://www.democracynow.org/2026/10/13/headlines",
+  "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+  "https://www.irishexaminer.com/world/arid-41918098.html",
+  "https://www.bdo.co.uk/en-gb/microsites/budget-autumn-budget-2026/predictions",
+  "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire",
+  "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+ ]
+}

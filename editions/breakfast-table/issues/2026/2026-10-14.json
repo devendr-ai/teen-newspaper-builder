@@ -1,0 +1,202 @@
+{
+ "edition": "breakfast-table",
+ "date": "2026-10-14",
+ "volume": 1,
+ "issue": 4,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  YEMEN AND SAUDI ARABIA",
+   "headline": "Yemen's War Reaches Closer to the US",
+   "deck": "President Trump says he is thinking about joining Saudi Arabia against the Houthis.",
+   "body": [
+    "Yemen is a country at the southern tip of the Arabian Peninsula. Its government is fighting a rebel group called the Houthis, who get help from Iran. Saudi Arabia, Yemen's neighbour, backs the government. Last week the war spilled over the border into Saudi Arabia.",
+    "On Saturday the Houthis struck the main airport in Riyadh, Saudi Arabia's capital. Saudi Arabia says at least 12 people died and at least 309 were hurt. The dead included four Saudis, two Bangladeshis and one American. The airport is still shut. Saudi Arabia says it faced a new barrage of drones and missiles on Monday.",
+    "Now other countries may join in. President Trump says he is thinking about it. The Houthis say the United States would face a swift and painful answer. The Saudi side wants to push the Houthis away from Yemen's Red Sea coast. The UN says more than 217,000 people have been forced from their homes on that coast."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Yemen's Red Sea coast faces Africa across the water."
+   },
+   "why": "A wider war around the Red Sea coast and the Bab al-Mandab Strait could draw in more countries.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+     "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  BULGARIA AND THE BLACK SEA",
+   "headline": "Drones Hit Two Ships Off Bulgaria",
+   "deck": "Eleven sailors are missing after one ship sank.",
+   "body": [
+    "Bulgaria is a country in Europe on the western shore of the Black Sea. Its Prime Minister, Rumen Radev, says drones struck two ships off its coast. One of the ships sank.",
+    "Rescuers pulled 15 sailors to safety, and one more was saved from the sunken ship. Eleven sailors are still missing. Bulgaria summoned Russia's ambassador. Radev said there is no solid evidence against any one side.",
+    "This matters because Bulgaria is a member of the European Union and of NATO, an alliance of countries that protect each other. Ukraine and Russia, which are at war, both have shores on the Black Sea.",
+    "The rescued sailors were seven Ukrainians and eight from Azerbaijan. Radev called the attacks completely unacceptable. At a forum in Warsaw, NATO's top commander, Gen. Alexus Grynkewich, said the alliance would be ready to fight tonight if attacked. In a separate move, France's navy boarded a tanker south of Reunion that it suspects of carrying fuel for Russia's shadow fleet, and Russia called that a violation of international law."
+   ],
+   "chart": {
+    "title": "THE CREW, STORY SO FAR",
+    "subtitle": "Number of sailors",
+    "labels": [
+     "Evacuated",
+     "Rescued",
+     "Missing"
+    ],
+    "values": [
+     15,
+     1,
+     11
+    ],
+    "max": 16,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "Rescuers are still looking for the missing."
+   },
+   "connect": "Geography: a sea has shores in several countries, so trouble at sea can touch many countries at once.",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  FUEL",
+   "headline": "Senators Push Back on Russian Diesel Deal",
+   "deck": "Four Republicans and two Democrats say the plan should be reversed.",
+   "body": [
+    "Diesel is the fuel that powers trucks, trains and farm machines. Its price in the US was $6.23 a gallon on Friday, according to AAA. The record is $6.52, set on 22 September.",
+    "Last week President Trump said Russia would send more than 300,000 tons of diesel to the US and the world. The Treasury then issued a temporary licence allowing the sales. Six senators, four Republicans and two Democrats, say the White House did not consult Congress as the law requires.",
+    "On Monday Trump defended the plan and said he made the right choice. One energy expert told AP the deal is unlikely to make a dent in high prices at the pump.",
+    "Republican Senator Thom Tillis said on NBC that the president could be breaking the law if the purchase goes ahead. The senators point to a 2022 law that bans Russian energy imports."
+   ],
+   "why": "Fuel costs touch almost every price in a shop, so leaders argue hard about how to bring them down.",
+   "also": [
+    "Politics: federal agents searched the Washington home of Rep. Ilhan Omar on Monday.",
+    "Sports: Buffalo beat the Los Angeles Rams 37-34 in overtime."
+   ],
+   "sources": [
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+     "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Medicine Hat News (Canadian Press)",
+     "title": "Scores and sports schedule for Monday, Oct. 12, 2026",
+     "url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Strait of Hormuz: an oil tanker was struck by a projectile on Monday, and all crew are reportedly safe.",
+    "Space: NASA's Webb telescope found an ancient galaxy cluster with unexpectedly dense dark matter."
+   ]
+  },
+  "discussion": {
+   "title": "Questions for the table",
+   "body": [
+    "Why might attacks on airports worry people in countries far from the fighting?",
+    "If a ship is attacked and no one is sure who did it, how should a country decide what to do?"
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+     "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  DELHI",
+   "headline": "Youth Leaders Detained in the Voter-List Row",
+   "deck": "They want India's chief election official to resign.",
+   "body": [
+    "A voter list is the official list of people allowed to vote. India's Election Commission has been revising it. Opposition parties and activists say the revision wrongly removed millions of names. The Commission and the government reject that and say it removes duplicate and ineligible entries.",
+    "On Monday, leaders of a youth movement called Cockroach were detained after entering Jantar Mantar, a protest site in Delhi. They want Chief Election Commissioner Gyanesh Kumar to resign. Delhi Police say Jantar Mantar is no longer an official protest site.",
+    "The Supreme Court is looking at the case. On 5 October three judges sent notices to the government, the Commission and Mr Kumar. The court said it can undo the revision if it finds the law was not followed.",
+    "Before a big protest on 10 October, India put tens of thousands of police on Delhi's streets. The Delhi Metro closed 57 stations. Three other Cockroach leaders were released after about 24 hours, on condition that they keep the peace for one year."
+   ],
+   "why": "Voting only works when the right people are on the list, so courts and citizens watch this closely.",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Kuwait Times",
+     "title": "India Supreme Court seeks explanations from election body",
+     "url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+    }
+   ]
+  },
+  "sports": {
+   "title": "BASEBALL PLAYOFFS",
+   "body": "<b>Milwaukee</b> beat the Los Angeles Dodgers 7-4 and leads the National League series 2-0. <b>Cleveland</b> beat Tampa Bay 7-3 and leads the American League series 1-0.",
+   "sources": [
+    {
+     "outlet": "Medicine Hat News (Canadian Press)",
+     "title": "Scores and sports schedule for Monday, Oct. 12, 2026",
+     "url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether the United States joins Saudi Arabia in Yemen.",
+    "Whether the Supreme Court sets its next hearing on India's voter lists."
+   ]
+  },
+  "quote": {
+   "text": "Good questions are the first step to good understanding.",
+   "by": ""
+  }
+ },
+ "sources": [
+  "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+  "https://www.democracynow.org/2026/10/13/headlines",
+  "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+  "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+  "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/",
+  "https://www.sciencedaily.com/news/space_time/astronomy/",
+  "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+ ]
+}

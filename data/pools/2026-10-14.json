@@ -1,0 +1,859 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "riyadh-airport",
+    "headline": "Houthi strikes hit Riyadh's airport as Yemen's war spreads into Saudi Arabia",
+    "what_happened": "On Saturday 10 October the Houthis struck King Khalid International Airport in Riyadh. Saudi Arabia's civil aviation authority said at least 12 people were killed and at least 309 wounded. Riyadh airport remains shut, and Saudi Arabia reported a new barrage of drones and missiles on 12 October.",
+    "why_it_matters": "Airports carry ordinary travellers, so attacks on them put civilians at risk and could widen a war that began inside Yemen.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "At least 12 people were killed and at least 309 wounded in the Saturday attack on King Khalid International Airport, according to Saudi Arabia's General Authority of Civil Aviation.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "The dead included four Saudis, two Bangladeshis, and one person each from the US, Jordan, Palestine, Syria, Sudan and Egypt.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "It was the third Houthi attack on the airport that week.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "Yemen's internationally recognised government is fighting the Iran-backed Houthis for control of the country, and Saudi Arabia backs it with an air campaign.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "The Saudi-led coalition called the attack a war crime. The Houthi media office said the group had shut down Riyadh's airport.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "A UN envoy has warned that Yemen has returned to full-scale war and urged dialogue.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "President Trump said he was considering joining the Saudi-led offensive, which aims to push the Houthis from Yemen's Red Sea coast and the Bab al-Mandab Strait; a Houthi leader warned of a swift and painful response if the US joins.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     },
+     {
+      "fact": "The UN says more than 217,000 people have been displaced since fighting escalated on Yemen's west coast.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     },
+     {
+      "fact": "Riyadh airport remains shut, and Saudi Arabia reported a new barrage of incoming drones and missiles on 12 October. Iran said it was ready to help facilitate dialogue between the Houthis and Saudi Arabia.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Killed in Saturday's strike (Saudi civil aviation authority)",
+      "value": 12,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "label": "Wounded",
+      "value": 309,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "label": "Displaced on Yemen's west coast",
+      "value": 217000,
+      "unit": "people",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     }
+    ],
+    "geography": "Riyadh, Saudi Arabia, and Yemen on the Arabian Peninsula; the Red Sea coast and the Bab al-Mandab Strait, a narrow sea passage between Yemen and Africa",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+      "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "energy-ceasefire",
+    "headline": "Trump's 'energy ceasefire' is denied by both sides as strikes on Ukraine's energy sites go on",
+    "what_happened": "On Sunday 11 October Trump announced that Russia and Ukraine had agreed to an immediate energy ceasefire. Both sides then denied agreeing. Zelensky says Ukraine has held back from hitting Russian energy sites since the announcement, but that Russia kept attacking Ukraine's.",
+    "why_it_matters": "Energy sites power homes and heating, and fuel prices around the world respond to the fighting.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump said on Truth Social that the energy ceasefire took effect immediately and that both sides had agreed.",
+      "source_url": "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire"
+     },
+     {
+      "fact": "Zelensky said Ukraine was still awaiting details and that if Russia agrees to an energy ceasefire, Ukraine will agree.",
+      "source_url": "https://www.businesstoday.in/world/story/do-not-break-it-trump-announces-immediate-energy-ceasefire-between-russia-and-ukraine-560887-2026-10-11"
+     },
+     {
+      "fact": "Zelenskyy told the Warsaw Security Forum that Russia kept attacking Ukraine's energy sites, and that Ukraine had refrained from attacking Russian energy sites since Trump's Sunday announcement.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "A Russian strike on a residential high-rise in a Kyiv suburb killed at least two people on Monday evening, and other Russian attacks killed six more; both sides denied the ceasefire claim.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     },
+     {
+      "fact": "US envoys Steve Witkoff and Jared Kushner told Ukrainian officials that a deal allowing Russian diesel exports is part of an effort to draw Russia back to negotiations.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Ukraine (Kyiv) and Russia",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "CNN via KEYT",
+      "title": "Trump claims Ukraine and Russia have agreed to energy ceasefire",
+      "url": "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Business Today",
+      "title": "Do not break it: Trump announces immediate energy ceasefire",
+      "url": "https://www.businesstoday.in/world/story/do-not-break-it-trump-announces-immediate-energy-ceasefire-between-russia-and-ukraine-560887-2026-10-11",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "headline": "A tanker is hit leaving the Strait of Hormuz",
+    "what_happened": "The UK Maritime Trade Operations Centre reported that an oil tanker was struck by a projectile while leaving the Strait of Hormuz on Monday. All crew are reportedly safe. Iran's Revolutionary Guard claimed the attack and said it was the third ship it had hit in two days.",
+    "why_it_matters": "A large share of the world's oil ships through this narrow passage.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "At least 18 attacks on ships in or near the strait have occurred since the start of October.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     },
+     {
+      "fact": "Sixty countries, including EU members, Australia and the UK, backed a declaration pledging to preserve freedom of navigation and opposing tolls on straits used for international navigation.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Attacks on ships in or near the strait since 1 October",
+      "value": 18,
+      "unit": "attacks",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     }
+    ],
+    "geography": "Strait of Hormuz, between Iran and the Arabian Peninsula",
+    "sources": [
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "sports-scores",
+    "headline": "Playoff baseball and an overtime thriller",
+    "what_happened": "On Monday 12 October Milwaukee beat the Los Angeles Dodgers 7-4 to lead the National League Championship Series 2-0. Cleveland beat Tampa Bay 7-3 to lead the American League Championship Series 1-0. In the NFL, Buffalo beat the Los Angeles Rams 37-34 in overtime.",
+    "why_it_matters": "Sports scores.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "In the National League Championship Series, Milwaukee 7, Los Angeles Dodgers 4, with Milwaukee leading the series 2-0.",
+      "source_url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+     },
+     {
+      "fact": "In the American League Championship Series, Cleveland 7, Tampa Bay 3, giving Cleveland a 1-0 series lead.",
+      "source_url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+     },
+     {
+      "fact": "In the NFL, Buffalo 37, L.A. Rams 34 in overtime.",
+      "source_url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Medicine Hat News (Canadian Press)",
+      "title": "Scores and sports schedule for Monday, Oct. 12, 2026",
+      "url": "https://medicinehatnews.com/sports/national-sports/2026/10/12/scores-and-sports-schedule-for-monday-oct-12-2026/",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "russian-diesel",
+    "headline": "Senators from both parties object to Trump's Russian diesel deal",
+    "what_happened": "Trump announced after a call with Putin that Russia would supply more than 300,000 tons of diesel to the US and global market, and the Treasury issued a temporary licence. Six senators, four Republicans and two Democrats, called on him to reverse course. On Monday Trump defended the move on Truth Social.",
+    "why_it_matters": "Fuel prices are weighing on families before the midterm elections, but critics say the deal breaks a law and eases pressure on Moscow.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump said Russia would immediately supply more than 300,000 tons of diesel to the American and global market, and the Treasury Department issued a temporary licence allowing Russian diesel to be supplied to the global market.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Six senators, four Republicans and two Democrats, released a statement opposing the plan. They said the administration failed to consult Congress as required by statute.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "The national average price of a gallon of diesel in the US was $6.23 on Friday according to AAA, after hitting a record $6.52 on 22 September.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "An energy expert quoted by AP said the Russia deal is unlikely to make a dent in high prices at the pump.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "A bipartisan group of senators said the move violates a 2022 law banning Russian energy imports; on Monday Trump defended a Treasury waiver allowing Russian fuel imports through April and said he made the right choice.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     },
+     {
+      "fact": "Under the plan, Russia would supply over 300,000 tons of diesel immediately, then 500,000 tons in November, 1 million tons after that, and 3 million tons more within a short period.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Congress banned Russian energy imports in 2022. A few weeks before the deal, it also passed legislation directing tariffs on the top importers of Russian oil or natural gas, with exceptions for certain countries.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Sen. John Barrasso said Trump is focused on energy costs and has to make tough decisions, and urged the administration to enforce the sanctions law Congress passed last month.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "The article notes Trump has blamed record US diesel prices on Ukraine rather than the US-led war in Iran, which has raised world energy prices.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US average diesel price, Friday (AAA)",
+      "value": 6.23,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "label": "Record US diesel price, 22 September",
+      "value": 6.52,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "label": "Diesel Russia is to supply",
+      "value": 300000,
+      "unit": "tons",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     }
+    ],
+    "geography": "United States and Russia",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+      "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "omar-search",
+    "headline": "Federal agents search Rep. Ilhan Omar's home",
+    "what_happened": "Federal agents executed a search warrant at the Washington home of Democratic Rep. Ilhan Omar on Monday. The warrant lists possible immigration crimes. Omar called it an attempt to target political enemies.",
+    "why_it_matters": "It happened less than a month before the midterm elections, and the Justice Department has traditionally avoided public investigative steps involving candidates in the 60 days before an election.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The warrant lists potential immigration crimes, including false statements, fraud in immigration paperwork, and conspiracy.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Omar called it an attempt to target political enemies and weaponize federal law enforcement.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "The Justice Department has traditionally avoided public investigative actions involving candidates in the 60 days before an election.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C.",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voter-list",
+    "headline": "Delhi police detain youth movement leaders as the voter-list row continues",
+    "what_happened": "Leaders of India's 'Cockroach' youth movement were detained after entering the Jantar Mantar protest site in Delhi, demanding that Chief Election Commissioner Gyanesh Kumar resign over a revision of voter lists. The Supreme Court is hearing petitions about the revision.",
+    "why_it_matters": "Voter lists decide who may vote, so disputes over them go to the heart of how a democracy works.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Leaders of India's 'cockroach' youth movement were detained after entering the grounds of Jantar Mantar, demanding Chief Election Commissioner Gyanesh Kumar resign over a voter-list revision; Delhi Police said Jantar Mantar is no longer an official protest site.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "On 5 October a three-judge Supreme Court bench led by Chief Justice Surya Kant issued notices to the government, the Election Commission and Gyanesh Kumar over petitions about the voter-roll revision.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "The court said that if it finds the law was not followed, it can undo the revision.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "The Election Commission and the government reject the allegations, saying the exercise has no political motive and aims to remove duplicate and ineligible entries.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "Opposition parties and activists say the revision improperly removed millions of names from voter lists.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "Cockroach Janta Party leaders Abhijeet Dipke, Saurav Das and Ashutosh Ranka were released after about 24 hours in detention, on condition of no breach of peace for one year.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/11/dont-breach-peace-for-one-year-abhijeet-dipke-cjp-leaders-released-on-condition.html"
+     },
+     {
+      "fact": "Before the 10 October protest, India deployed tens of thousands of police in the capital, and the Delhi Metro announced the closure of 57 stations.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "Critics say the Election Commission's Special Intensive Revision (SIR) of electoral rolls has led to the deletion of more than 130 million people from voter lists since 2025; alleged problems include deleting genuine voters, misclassifying citizens, and altering registration documents such as Form 6.",
+      "source_url": "https://www.jurist.org/news/2026/10/delhi-police-increase-security-ahead-of-voter-list-protests-on-october-10/"
+     },
+     {
+      "fact": "The current wave of protests began on 2 October, led by the Cockroach Janta Party (CJP), student unions and opposition parties; about 700 protesters were detained at Jantar Mantar that day.",
+      "source_url": "https://www.jurist.org/news/2026/10/delhi-police-increase-security-ahead-of-voter-list-protests-on-october-10/"
+     },
+     {
+      "fact": "Police measures announced on 9 October included Metro station closures, coordination with Ola and Uber to limit movement towards Lutyens' Delhi, and an order closing liquor stores until Sunday.",
+      "source_url": "https://www.jurist.org/news/2026/10/delhi-police-increase-security-ahead-of-voter-list-protests-on-october-10/"
+     },
+     {
+      "fact": "The Supreme Court gave partial relief by asking the Centre not to fully halt train and metro services, saying restrictions must be proportionate and warning against using a hammer to kill a fly; it also urged the Centre to designate an alternate protest venue instead of Jantar Mantar.",
+      "source_url": "https://www.jurist.org/news/2026/10/delhi-police-increase-security-ahead-of-voter-list-protests-on-october-10/"
+     },
+     {
+      "fact": "A mobile internet shutdown was ordered in a 4-kilometre radius of the Janpath-Kartavya Path crossing in central Delhi from 10 pm on 9 October to 10 pm on 10 October; the order was reported by ANI but not officially published.",
+      "source_url": "https://www.jurist.org/news/2026/10/delhi-police-increase-security-ahead-of-voter-list-protests-on-october-10/"
+     },
+     {
+      "fact": "The Election Commission says the revision aims to identify fraudulent voters and prevent foreign illegal immigrants from voting; critics say the drive disproportionately affected marginalised and minority communities, especially Muslims.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "The Supreme Court bench said newspaper reports may be 100 percent correct, partially correct or incorrect, so it could not rule on that basis yet. One petition sought a probe into Election Commission records to determine whether its decisions met constitutional requirements.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "The Indian Express reported that two of the Election Commission's three members objected at least 14 times to key decisions.",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     },
+     {
+      "fact": "Cockroach Janta Party leaders Abhijeet Dipke, Saurav Das and Ashutosh Ranka were detained on an Air India flight shortly after it landed in Delhi on Saturday, produced before an Executive Magistrate at Delhi Cantonment on Sunday morning, and released on Sunday. The party posted on X that police were forced to release them.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/11/dont-breach-peace-for-one-year-abhijeet-dipke-cjp-leaders-released-on-condition.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Delhi Metro stations closed before the 10 October protest",
+      "value": 57,
+      "unit": "stations",
+      "source_url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/"
+     }
+    ],
+    "geography": "New Delhi, India (Jantar Mantar, an old observatory used as a protest site)",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Kuwait Times",
+      "title": "India Supreme Court seeks explanations from election body",
+      "url": "https://kuwaittimes.com/article/50999/top-stories/india-supreme-court-seeks-explanations-from-election-body/",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "The Week",
+      "title": "Don't breach peace for one year: CJP leaders released",
+      "url": "https://www.theweek.in/news/india/2026/10/11/dont-breach-peace-for-one-year-abhijeet-dipke-cjp-leaders-released-on-condition.html",
+      "published": "2026-10-11"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "diesel-law",
+    "headline": "Can a president buy Russian diesel? Senators say a law says no",
+    "what_happened": "Six senators say the administration did not consult Congress as the law requires. Republican Senator Thom Tillis said on NBC's Meet the Press that the president could be violating the law if the purchase goes ahead. Treasury issued a waiver allowing Russian fuel imports through April.",
+    "why_it_matters": "It shows how Congress writes limits into law and how the executive branch can use waivers.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Six senators said the administration failed to consult with Congress or submit any explanation to justify its decision as required by statute.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Tillis argued on NBC's Meet the Press that the president could be violating the law if the purchase goes ahead.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "A bipartisan group argues the move violates a 2022 law banning Russian energy imports; Trump defended a Treasury Department waiver allowing Russian fuel imports through April.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C.",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+      "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "diesel-prices",
+    "headline": "Diesel stays above $6 a gallon in the US",
+    "what_happened": "The US average price of diesel was $6.23 a gallon on Friday according to AAA, after a record $6.52 on 22 September. Trump says the Russian diesel deal will help lower fuel prices; an expert quoted by AP says it is unlikely to dent pump prices.",
+    "why_it_matters": "Diesel moves trucks, trains and farm machines, so it affects the price of many goods.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The US national average for a gallon of diesel was $6.23 on Friday according to AAA, after hitting a record $6.52 on 22 September.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Trump defended the Russian diesel deal and said it would help lower high fuel prices.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "An energy expert quoted by AP said the Russia deal is unlikely to make a dent in high prices at the pump.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Under the plan, Russia would supply over 300,000 tons of diesel immediately, then 500,000 tons in November, 1 million tons after that, and 3 million tons more within a short period.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Trump has blamed record US diesel prices on Ukraine rather than the US-led war in Iran, which has raised world energy prices.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Sen. John Barrasso said Trump is focused on energy costs, adding that the president is balancing and has to make tough decisions.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US average diesel price, Friday",
+      "value": 6.23,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "label": "Record, 22 September",
+      "value": 6.52,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "label": "Diesel promised immediately",
+      "value": 300000,
+      "unit": "tons",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "label": "Diesel promised for November",
+      "value": 500000,
+      "unit": "tons",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "label": "Diesel promised after that",
+      "value": 1000000,
+      "unit": "tons",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+      "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "eu-inflation",
+    "headline": "Energy costs keep Europe's inflation fight going into 2027",
+    "what_happened": "ECB chief economist Philip Lane expects energy-driven inflation to persist before easing toward 2% from mid-2027; EU retail diesel is up as much as 40% since February.",
+    "why_it_matters": "Fuel costs reach shop prices.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The ECB's chief economist, Philip Lane, expects energy-driven inflation to persist before easing toward the 2% target from mid-2027.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-and-Gas-Prices-Push-Europes-Inflation-Fight-Into-2027.html"
+     },
+     {
+      "fact": "Retail diesel in the EU is up as much as 40% on a weighted average since February.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-and-Gas-Prices-Push-Europes-Inflation-Fight-Into-2027.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "European Union",
+    "sources": [
+     {
+      "outlet": "Oilprice.com",
+      "title": "Soaring Oil and Gas Prices Push Europe's Inflation Fight Into 2027",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-and-Gas-Prices-Push-Europes-Inflation-Fight-Into-2027.html",
+      "published": "2026-10"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "webb-cluster",
+    "headline": "Webb finds an ancient galaxy cluster packed with dark matter",
+    "what_happened": "NASA's James Webb Space Telescope found an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, which challenges current understanding of the universe (ScienceDaily, 13 October).",
+    "why_it_matters": "If clusters formed denser than expected, scientists must rethink how the early universe grew.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "NASA's James Webb Space Telescope found an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, which challenges current understanding of the universe.",
+      "source_url": "https://www.sciencedaily.com/news/space_time/astronomy/"
+     }
+    ],
+    "numbers": [],
+    "geography": "deep space",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "Astronomy News",
+      "url": "https://www.sciencedaily.com/news/space_time/astronomy/",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "star-brown-dwarf",
+    "headline": "A small star is slowly eating a brown dwarf",
+    "what_happened": "MIT astronomers found a system about 300 light-years away where a small star is slowly consuming a nearby brown dwarf, a process that could last billions of years (ScienceDaily, 10 October).",
+    "why_it_matters": "It shows how stars and their failed-star neighbours can interact.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "MIT astronomers found a system about 300 light-years away where a small star is slowly consuming a nearby brown dwarf, a process that could last billions of years.",
+      "source_url": "https://www.sciencedaily.com/news/space_time/astronomy/"
+     },
+     {
+      "fact": "Europe's Sentinel-3C satellite returned images of snowy Alps, frozen Arctic islands and turquoise Caribbean waters two weeks after launch (12 October).",
+      "source_url": "https://www.sciencedaily.com/news/space_time/astronomy/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance of the system",
+      "value": 300,
+      "unit": "light-years",
+      "source_url": "https://www.sciencedaily.com/news/space_time/astronomy/"
+     }
+    ],
+    "geography": "about 300 light-years from Earth",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "Astronomy News",
+      "url": "https://www.sciencedaily.com/news/space_time/astronomy/",
+      "published": "2026-10-10"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "fairford",
+    "headline": "Burnham says Iran's Revolutionary Guard was 'almost certainly' behind the RAF Fairford plot",
+    "what_happened": "UK Prime Minister Andy Burnham told Parliament that Iran's Revolutionary Guard was almost certainly behind a suspected plot to attack RAF Fairford. Iran's ambassador rejects the accusation and Foreign Secretary Ed Miliband summoned him.",
+    "why_it_matters": "It is the first official UK blame for the alleged attack and raises tension with Iran.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Burnham told Parliament that Iran's Revolutionary Guard was almost certainly behind a suspected plot to attack RAF Fairford, the first official UK blame for the alleged attack.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Iran's ambassador, Seyed Ali Mousavi, categorically rejects the accusation, and Foreign Secretary Ed Miliband summoned him.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Five British nationals, all in their mid-20s, were arrested on suspicion of explosives offences and terrorism near the base and bailed under investigation; police said petrol but no explosive devices were found in the vans.",
+      "source_url": "https://www.irishexaminer.com/world/arid-41918098.html"
+     },
+     {
+      "fact": "Chancellor John Healey plans his first Budget for 28 October and has pledged to stick to the borrowing rules he inherited.",
+      "source_url": "https://www.bdo.co.uk/en-gb/microsites/budget-autumn-budget-2026/predictions"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Arrested",
+      "value": 5,
+      "unit": "people",
+      "source_url": "https://www.irishexaminer.com/world/arid-41918098.html"
+     }
+    ],
+    "geography": "RAF Fairford, Gloucestershire, England",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Irish Examiner",
+      "title": "Strong indications Iran played role in suspected Fairford terror plot",
+      "url": "https://www.irishexaminer.com/world/arid-41918098.html",
+      "published": "2026-10-01"
+     },
+     {
+      "outlet": "BDO",
+      "title": "Autumn Budget 2026: predictions",
+      "url": "https://www.bdo.co.uk/en-gb/microsites/budget-autumn-budget-2026/predictions",
+      "published": "2026-08-18"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "tanker-france",
+    "headline": "France seizes a tanker it suspects of carrying Russia's 'shadow fleet' fuel",
+    "what_happened": "Macron said the French Navy boarded the tanker DF Peak 450 nautical miles south of Reunion, suspecting a false flag and illicit fuel transport tied to Russia's shadow fleet. Russia's embassy in France called the seizure a blatant violation of international law.",
+    "why_it_matters": "It shows Europe testing how to enforce rules at sea.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Macron said the French Navy boarded the tanker DF Peak 450 nautical miles south of Reunion, suspecting a false flag and illicit fuel transportation activities tied to Russia's shadow fleet.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Russia's embassy in France called the seizure a blatant violation of international law.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Czech intelligence chief Michal Koudelka said Russia could pursue riskier operations in NATO states supporting Ukraine within months.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "NATO's Gen. Alexus Grynkewich told the Warsaw Security Forum the alliance would be ready to fight tonight if attacked.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance south of Reunion where the tanker was boarded",
+      "value": 450,
+      "unit": "nautical miles",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     }
+    ],
+    "geography": "Indian Ocean south of Reunion (French territory); Paris",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "bulgaria-ships",
+    "headline": "Drones hit two ships off Bulgaria; 11 sailors missing",
+    "what_happened": "Bulgarian Prime Minister Rumen Radev said drones struck two ships off Bulgaria's coast. Rescuers evacuated 15 crew (seven Ukrainian, eight Azerbaijani), one crew member was rescued from the sunken vessel, and 11 sailors are missing. Bulgaria summoned Russia's ambassador without formally accusing Russia.",
+    "why_it_matters": "The Black Sea is a shared sea lane, and the war in Ukraine is now reaching ships near NATO and EU member Bulgaria.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Bulgarian PM Rumen Radev said drones struck two ships off Bulgaria's coast. Rescuers evacuated 15 crew (seven Ukrainian, eight Azerbaijani), one crew member was rescued from the sunken vessel, and 11 sailors are missing.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Radev called the attacks completely unacceptable, and Bulgaria summoned Russia's ambassador without formally accusing Russia.",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "fact": "Radev said there is no solid evidence against a specific party but that the outcome favors Russia; one of the two ships sank.",
+      "source_url": "https://www.democracynow.org/2026/10/13/headlines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Crew evacuated",
+      "value": 15,
+      "unit": "sailors",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "label": "Rescued from the sunken vessel",
+      "value": 1,
+      "unit": "sailor",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     },
+     {
+      "label": "Missing",
+      "value": 11,
+      "unit": "sailors",
+      "source_url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+     }
+    ],
+    "geography": "Black Sea, off Bulgaria's coast",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 13, 2026",
+      "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 13, 2026",
+      "url": "https://www.democracynow.org/2026/10/13/headlines",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ }
+}
