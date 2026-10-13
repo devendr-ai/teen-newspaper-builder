@@ -1,0 +1,106 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-10-14",
+ "volume": 1,
+ "issue": 4,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+   "headline": "Riyadh's Airport Stays Shut After More Attacks",
+   "deck": "Saudi Arabia says new missiles and drones came in on Monday.",
+   "body": [
+    "Riyadh is the capital of Saudi Arabia. Its main airport has been hit again and again. On Saturday, Saudi Arabia says, at least 12 people were killed and at least 309 were hurt. It was the third attack on that airport in one week, and flights were stopped for a time.",
+    "The attackers are the Houthis, a group in Yemen that gets help from Iran. Yemen is the country just south of Saudi Arabia. Its government is fighting the Houthis, and Saudi Arabia helps that government from the air. The United Nations envoy for Yemen says the country is back in full-scale war.",
+    "Now the fight may grow. President Trump says he is thinking about joining the Saudi side. A Houthi leader warns of a swift and painful answer if he does. Riyadh's airport is still closed, and Saudi Arabia reported more drones and missiles on Monday."
+   ],
+   "map": {
+    "title": "THE RED SEA",
+    "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+    "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+    "footnote": "A long, narrow sea between two continents",
+    "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+   },
+   "why": "An airport is where people from many countries meet. Eight of the dead came from other countries, so this attack reaches far beyond Saudi Arabia.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+     "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+   "headline": "Trump's Energy Pause Is Denied by Both Sides",
+   "deck": "Ukraine says Russia kept hitting its power sites after the announcement.",
+   "body": [
+    "Russia and Ukraine are at war. On Sunday, President Trump said both sides had agreed to an \"energy ceasefire\". That means a promise to stop attacking power plants and fuel sites.",
+    "Then both sides denied it. Ukraine's president, Volodymyr Zelenskyy, said Russia kept attacking Ukraine's energy sites. On Monday a Russian strike near Kyiv killed at least two people.",
+    "Fuel is part of this story. Trump agreed a deal for Russia to supply more than 300,000 tons of diesel. Six US senators say it should be reversed."
+   ],
+   "chart": {
+    "title": "US DIESEL PRICE",
+    "subtitle": "Dollars a gallon",
+    "labels": [
+     "Friday",
+     "Record"
+    ],
+    "values": [
+     6.23,
+     6.52
+    ],
+    "max": 7,
+    "value_prefix": "$",
+    "highlight_after": 0,
+    "caption": "Diesel is still near its record high."
+   },
+   "why": "Fuel prices can change what families pay for goods carried by trucks.",
+   "sources": [
+    {
+     "outlet": "Just Security",
+     "title": "Early Edition: October 13, 2026",
+     "url": "https://www.justsecurity.org/160525/early-edition-october-13-2026/"
+    },
+    {
+     "outlet": "Democracy Now!",
+     "title": "Headlines for October 13, 2026",
+     "url": "https://www.democracynow.org/2026/10/13/headlines"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Bipartisan group of senators calls on Trump to reverse course on Russian diesel plan",
+     "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Strait of Hormuz: an oil tanker was hit by a projectile on Monday, and all of its crew are reportedly safe.",
+    "Science: NASA's Webb telescope found an ancient group of galaxies with unexpectedly dense dark matter."
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Whether Russia agrees to stop hitting energy sites.",
+    "Whether the United States joins the Saudi side in Yemen."
+   ]
+  }
+ },
+ "sources": [
+  "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+  "https://www.democracynow.org/2026/10/13/headlines",
+  "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+  "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+  "https://www.sciencedaily.com/news/space_time/astronomy/"
+ ]
+}
