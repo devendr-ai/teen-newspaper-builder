@@ -32,6 +32,8 @@ You are the Editor-in-Chief of *The Junior Daily*, a one-page printed newspaper.
 - **`briefs`** — 2 one-sentence briefs, each starting with a country or topic.
 - **`watchlist`** — 2 things to watch before the next issue.
 
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 4 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 3 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention.
+
 **Edition rules.**
 - 2 stories per issue, one per story block, each chosen on news value against its desk's scope.
 - Keep each story to its essentials: what happened, the key numbers and why it matters.
@@ -121,7 +123,75 @@ You are the Editor-in-Chief of *The Junior Daily*, a one-page printed newspaper.
       ]
     }
   },
-  "sources": []
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      }
+    ]
+  }
 }
 ```
 

@@ -23,7 +23,22 @@ def _story(ed, cfg):
     return s
 
 
-def make(ed, date, number, volume=1):
+def play_counts(ed):
+    """(quiz questions, fact-or-fiction claims) for the website's games, by the reader's age."""
+    try:
+        age = int(str(ed["reader"]["age"]).split("-")[0])
+    except ValueError:
+        age = 15
+    return (3, 2) if age <= 8 else (4, 3) if age <= 11 else (5, 3) if age <= 14 else (8, 4)
+
+
+def play_skeleton(ed):
+    nq, nf = play_counts(ed)
+    return {"quiz": [{"q": "", "options": ["", "", ""], "answer": 0, "why": "", "story": ""} for _ in range(nq)],
+            "fact_or_fiction": [{"claim": "", "true": True, "why": "", "story": ""} for _ in range(nf)]}
+
+
+def make(ed, date, number, volume=1, play=True):
     blocks = {}
     for bid in placed_blocks(ed):
         cfg = ed["blocks"][bid]
@@ -43,5 +58,8 @@ def make(ed, date, number, volume=1):
             blocks[bid] = {"title": "", "body": "", "sources": []}
         elif t == "quote":
             blocks[bid] = {"text": "", "by": ""}
-    return {"edition": ed["id"], "date": date, "volume": volume, "issue": number,
-            "blocks": blocks, "sources": []}
+    out = {"edition": ed["id"], "date": date, "volume": volume, "issue": number,
+           "blocks": blocks, "sources": []}
+    if play:                    # online only: the quiz and fact-or-fiction games on Read & Play
+        out["play"] = play_skeleton(ed)
+    return out

@@ -129,7 +129,7 @@ def sections(ed, issue, date, imgdir):
             src = "".join(f'<li><a href="{E(s.get("url", "") if isinstance(s, dict) else s)}" rel="noopener" target="_blank">'
                           f'{E((s.get("title") or s.get("outlet") or s.get("url", "")) if isinstance(s, dict) else s)}</a></li>'
                           for s in b.get("sources", []) or [])
-            out.append(("story", f'''<p class="kicker">{E(kicker)}</p>
+            out.append(("story", bid, f'''<p class="kicker">{E(kicker)}</p>
 <h2><span class="s">{clean(b.get("headline", ""))}</span></h2>
 {f'<p class="deck"><span class="s">{clean(b["deck"])}</span></p>' if b.get("deck") else ""}
 {img}<div class="text">{body}</div>{boxes}
@@ -138,29 +138,38 @@ def sections(ed, issue, date, imgdir):
             stories.append({"headline": plain(b.get("headline", "")), "first": (sentences(first) or [""])[0]})
         elif t == "feature":
             body = "".join(f"<p>{_sentences(p, vocab, used)}</p>" for p in b.get("body", []) if str(p).strip())
-            out.append(("feature", f'<p class="kicker">{E(cfg.get("label", "").title())}</p>'
+            out.append(("feature", bid, f'<p class="kicker">{E(cfg.get("label", "").title())}</p>'
                                    f'<h2><span class="s">{clean(b.get("title", ""))}</span></h2><div class="text">{body}</div>'))
         elif t == "did_you_know" and b.get("text"):
-            out.append(("fact", f'<p class="kicker">Did you know?</p><h2 class="big"><span class="s">{clean(b["text"])}</span></h2>'))
+            out.append(("fact", bid, f'<p class="kicker">Did you know?</p><h2 class="big"><span class="s">{clean(b["text"])}</span></h2>'))
         elif t == "sports" and b.get("body"):
-            out.append(("feature", f'<p class="kicker">Sport</p><h2><span class="s">{clean(b.get("title", ""))}</span></h2>'
+            out.append(("feature", bid, f'<p class="kicker">Sport</p><h2><span class="s">{clean(b.get("title", ""))}</span></h2>'
                                    f'<div class="text"><p>{_sentences(b["body"], vocab, used)}</p></div>'))
         elif t == "briefs":
             briefs += [x for x in b.get("items", []) if str(x).strip()]
     if briefs:
-        out.append(("briefs", '<p class="kicker">In brief</p><h2><span class="s">More news</span></h2><ul class="text">'
+        out.append(("briefs", "briefs", '<p class="kicker">In brief</p><h2><span class="s">More news</span></h2><ul class="text">'
                     + "".join(f"<li>{_sentences(x, vocab, used)}</li>" for x in briefs) + "</ul>"))
     if vocab:
-        out.append(("words", '<p class="kicker">New words</p><h2><span class="s">Words from this issue</span></h2><dl class="words">'
+        out.append(("words", "words", '<p class="kicker">New words</p><h2><span class="s">Words from this issue</span></h2><dl class="words">'
                     + "".join(f'<dt><span class="s">{E(v["word"])}</span></dt><dd><span class="s">{E(v["meaning"])}</span>'
                               + (f' <i>Today: {E(v["today"])}</i>' if v["today"] else "") + "</dd>" for v in vocab) + "</dl>"))
-    return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]]}
+    at = {bid: i for i, (_, bid, _) in enumerate(out)}
+    play = issue.get("play") if isinstance(issue.get("play"), dict) else {}
+    quiz = [{"q": plain(q["q"]), "options": [plain(o) for o in q["options"]], "answer": q["answer"],
+             "why": plain(q.get("why", "")), "card": at.get(q.get("story"), -1)}
+            for q in play.get("quiz") or [] if isinstance(q, dict) and q.get("q") and len(q.get("options") or []) == 3
+            and q.get("answer") in (0, 1, 2)]
+    facts = [{"claim": plain(f["claim"]), "true": bool(f["true"]), "why": plain(f.get("why", "")),
+              "card": at.get(f.get("story"), -1)}
+             for f in play.get("fact_or_fiction") or [] if isinstance(f, dict) and f.get("claim") and isinstance(f.get("true"), bool)]
+    return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts}
 
 
 def issue_page(cfg, ed, band, issue, date, imgdir, others):
     secs, data = sections(ed, issue, date, imgdir)
-    cards = "".join(f'<section class="card {k}" data-i="{i}"><button type="button" class="read" aria-label="Read this to me">'
-                    f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, h) in enumerate(secs))
+    cards = "".join(f'<section class="card {k}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
+                    f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h) in enumerate(secs))
     d = dt.date.fromisoformat(date)
     mode = "cards" if band in CARD_BANDS else "scroll"
     earlier = "".join(f'<option value="{o}.html"{" selected" if o == date else ""}>{dt.date.fromisoformat(o):%a %d %b}</option>'
@@ -308,6 +317,19 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .pairs button.no{background:var(--rose-t);animation:shake .3s}
 @keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
 @media (prefers-reduced-motion:reduce){.pairs button.no{animation:none}}
+.menu{display:grid;gap:12px}
+.menu button{display:flex;gap:14px;align-items:center;text-align:left;min-height:84px;border:2px solid var(--line);background:var(--card);border-radius:18px;padding:12px 16px;cursor:pointer}
+.menu button b{display:block;font-family:var(--display);font-size:1.25em}.menu button small{color:var(--muted);font-size:.8em}
+.menu button .ic{font-size:2em}.menu button .got{margin-left:auto;color:var(--sun);font-size:1.1em;white-space:nowrap}
+.back{border:0;background:none;color:var(--teal);font-weight:700;cursor:pointer;padding:6px 0;margin-bottom:6px;font-size:16px}
+.qn{color:var(--muted);font-size:.8em;margin:0}.q{font-size:1.2em;font-weight:700;margin:6px 0 14px;line-height:1.4}
+.opts{display:grid;gap:10px}
+.opts button{min-height:58px;text-align:left;border:2px solid var(--line);background:var(--card);border-radius:14px;padding:10px 14px;cursor:pointer;font-size:.95em}
+.opts button.ok{background:var(--leaf-t);border-color:var(--leaf)}.opts button.no{background:var(--rose-t);border-color:var(--coral)}
+.opts button:disabled{cursor:default;color:inherit}
+.tf{grid-template-columns:1fr 1fr}.tf button{text-align:center;font-weight:800;font-size:1.05em}
+.why{margin:12px 0 0;padding:10px 12px;border-radius:12px;background:var(--bg)}.why a{font-weight:700}
+.claim{font-size:1.2em;font-weight:700;margin:6px 0 14px;line-height:1.4;border-left:5px solid var(--sun);padding-left:12px}
 .cheer{font-size:1.15em;font-weight:700;margin-top:14px;min-height:1.6em}
 .stars{font-size:2em;letter-spacing:4px;color:var(--sun)}
 /* lobby */
@@ -436,6 +458,7 @@ JS = r"""
       $(".next").style.visibility = at < cards.length - 1 ? "visible" : "hidden";
       window.scrollTo({ top: 0 });
     };
+    document.addEventListener("rp-show", (e) => show(e.detail));
     $(".prev").addEventListener("click", () => show(at - 1));
     $(".next").addEventListener("click", () => show(at + 1));
     let x0 = null;
@@ -460,64 +483,137 @@ JS = r"""
     window.scrollTo({ top: 0 });
   }
   $$("[data-tab]").forEach((b) => b.addEventListener("click", () => tab(b.dataset.tab)));
-  if (location.hash === "#play") tab("play");
 
-  // ---------------------------------------------------------------- the game: match pairs
+  // ---------------------------------------------------------------- games: a menu, then match pairs, quiz, fact or fiction
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const young = main.dataset.mode === "cards";
+  const box = $("#game");
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const starsFor = (right, total) => (right === total ? 3 : right / total >= 0.6 ? 2 : 1);
+  const best = (name) => store.get("stars-" + main.dataset.key + "-" + name, 0);
+  const keep = (name, n) => store.set("stars-" + main.dataset.key + "-" + name, Math.max(n, best(name)));
+  const GAMES = [];
+  if (data.vocab.length >= 2) GAMES.push({ id: "words", ic: "🔤", name: "Word match", sub: "Match each new word to its meaning", run: () => match("words") });
+  else if (data.stories.length >= 2) GAMES.push({ id: "words", ic: "📰", name: "Story match", sub: "Match each headline to its story", run: () => match("words") });
+  if (data.quiz.length) GAMES.push({ id: "quiz", ic: "❓", name: "Quiz", sub: data.quiz.length + " questions about today's paper", run: quiz });
+  if (data.facts.length) GAMES.push({ id: "facts", ic: "🕵️", name: "Fact or fiction?", sub: "True, or not true?", run: facts });
   function game() {
-    const box = $("#game");
-    let pairs, title, how, left, right;
+    stop();
+    box.className = "card game";
+    if (!GAMES.length) { box.innerHTML = "<p>No game for this issue. Come back tomorrow!</p>"; return; }
+    if (GAMES.length === 1) { GAMES[0].run(); return; }
+    box.innerHTML = `<h2>Pick a game</h2><p class="how">Play one, or all three.</p><div class="menu">${GAMES.map((g, i) =>
+      `<button type="button" data-g="${i}"><span class="ic" aria-hidden="true">${g.ic}</span><span><b>${g.name}</b><small>${g.sub}</small></span>
+       <span class="got" aria-label="${best(g.id)} stars">${best(g.id) ? "★".repeat(best(g.id)) : ""}</span></button>`).join("")}</div>`;
+    $$(".menu button", box).forEach((b) => b.addEventListener("click", () => GAMES[+b.dataset.g].run()));
+  }
+  const back = () => (GAMES.length > 1 ? '<button type="button" class="back">← All games</button>' : "");
+  const wireBack = () => { const b = $(".back", box); if (b) b.addEventListener("click", game); };
+  function readAgain(card) {
+    if (card < 0) return "";
+    return ` <a href="#" data-card="${card}">Read it again</a>`;
+  }
+  box.addEventListener("click", (e) => {
+    const a = e.target.closest("a[data-card]"); if (!a) return;
+    e.preventDefault(); tab("read");
+    const i = +a.dataset.card;
+    if (main.dataset.mode === "cards") { $$("#read .card")[i] && document.dispatchEvent(new CustomEvent("rp-show", { detail: i })); }
+    else { const c = $$("#read .card")[i]; if (c) c.scrollIntoView({ behavior: "smooth" }); }
+  });
+  function finishText(right, total, name) {
+    const n = starsFor(right, total); keep(name, n);
+    return `<p class="cheer" role="status">${right === total ? "Every one right! 🎉" : `You got ${right} out of ${total}! 🎉`}</p>
+      <p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p>
+      <button type="button" class="big again">Play again</button> ${back()}`;
+  }
+  function match(name) {
+    let pairs, title, how;
     if (data.vocab.length >= 2) {
       pairs = data.vocab.slice(0, young ? 4 : 6).map((v) => [v.word, v.meaning]);
       title = "Word match"; how = "Tap a word, then tap what it means.";
-      left = "Words"; right = "Meanings";
-    } else if (data.stories.length >= 2) {
+    } else {
       pairs = data.stories.slice(0, 4).map((s) => [s.headline, s.first]);
       title = "Story match"; how = "Tap a headline, then tap the sentence that starts its story.";
-      left = "Headlines"; right = "First sentences";
-    } else { box.innerHTML = "<p>No game for this issue. Come back tomorrow!</p>"; return; }
-    const key = "stars-" + main.dataset.key;
-    box.className = "card game";
-    box.innerHTML = `<h2>${title}</h2><p class="how">${how}</p>
-      <div class="pairs"><div class="col w" aria-label="${left}"></div><div class="col m" aria-label="${right}"></div></div>
-      <p class="cheer" role="status"></p><p class="stars" aria-hidden="true"></p>
-      <button type="button" class="big again" hidden>Play again</button>`;
+    }
+    box.innerHTML = `${back()}<h2>${title}</h2><p class="how">${how}</p>
+      <div class="pairs"><div class="col w"></div><div class="col m"></div></div>
+      <p class="cheer" role="status"></p><div class="end2"></div>`;
+    wireBack();
     const L = $(".w", box), R = $(".m", box), cheer = $(".cheer", box);
     let sel = null, done = 0, misses = 0;
     const mk = (text, i, side) => {
       const b = document.createElement("button"); b.type = "button"; b.textContent = text; b.dataset.i = i;
-      b.addEventListener("click", () => tap(b, side));
-      if (speech && young) b.addEventListener("dblclick", () => say(text, () => {}));
-      return b;
+      b.addEventListener("click", () => tap(b, side)); return b;
     };
     shuffle(pairs.map((p, i) => [p[0], i])).forEach(([t, i]) => L.appendChild(mk(t, i, "L")));
     shuffle(pairs.map((p, i) => [p[1], i])).forEach(([t, i]) => R.appendChild(mk(t, i, "R")));
     const praise = ["Yes!", "Great!", "You got it!", "Brilliant!", "Spot on!"];
     function tap(b, side) {
       if (b.classList.contains("ok")) return;
-      if (!sel || sel.side === side) {
-        $$("button.sel", box).forEach((x) => x.classList.remove("sel"));
-        sel = { b, side }; b.classList.add("sel"); return;
-      }
+      if (!sel || sel.side === side) { $$("button.sel", box).forEach((x) => x.classList.remove("sel")); sel = { b, side }; b.classList.add("sel"); return; }
       const a = sel.b; sel = null; a.classList.remove("sel");
       if (a.dataset.i === b.dataset.i) {
-        a.classList.add("ok"); b.classList.add("ok"); done++;
-        cheer.textContent = praise[done % praise.length];
-        if (done === pairs.length) finish();
+        a.classList.add("ok"); b.classList.add("ok"); done++; cheer.textContent = praise[done % praise.length];
+        if (done === pairs.length) {
+          const n = misses === 0 ? 3 : misses <= 2 ? 2 : 1; keep(name, n);
+          cheer.textContent = n === 3 ? "All matched, first time! 🎉" : "All matched! 🎉";
+          $(".end2", box).innerHTML = `<p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p><button type="button" class="big again">Play again</button> ${back()}`;
+          $(".again", box).onclick = () => match(name); $$(".end2 .back", box).forEach((x) => x.addEventListener("click", game));
+        }
       } else {
-        misses++;
-        [a, b].forEach((x) => { x.classList.add("no"); setTimeout(() => x.classList.remove("no"), 400); });
+        misses++; [a, b].forEach((x) => { x.classList.add("no"); setTimeout(() => x.classList.remove("no"), 400); });
         cheer.textContent = "Not quite. Try another one!";
       }
     }
-    function finish() {
-      const stars = misses === 0 ? 3 : misses <= 2 ? 2 : 1;
-      store.set(key, Math.max(stars, store.get(key, 0)));
-      cheer.textContent = stars === 3 ? "All matched, first time! 🎉" : "All matched! 🎉";
-      $(".stars", box).textContent = "★".repeat(stars) + "☆".repeat(3 - stars);
-      const again = $(".again", box); again.hidden = false; again.onclick = game;
-    }
   }
+  function steps(items, name, render) {
+    let i = 0, right = 0;
+    const show = () => {
+      if (i >= items.length) {
+        box.innerHTML = finishText(right, items.length, name);
+        $(".again", box).onclick = () => steps(items, name, render); $$(".back", box).forEach((x) => x.addEventListener("click", game));
+        return;
+      }
+      render(items[i], i, items.length, (ok) => { if (ok) right++; }, () => { i++; show(); });
+    };
+    show();
+  }
+  function speakBtn(text) { return speech ? `<button type="button" class="read say1" data-say="${esc(text)}">🔊 Hear it</button>` : ""; }
+  box.addEventListener("click", (e) => { const b = e.target.closest(".say1"); if (b) { stop(); say(b.dataset.say, () => {}); } });
+  function quiz() {
+    steps(data.quiz, "quiz", (q, i, n, score, next) => {
+      box.innerHTML = `${back()}<p class="qn">Question ${i + 1} of ${n}</p>${young ? speakBtn(q.q + " " + q.options.join(". ")) : ""}
+        <p class="q">${esc(q.q)}</p><div class="opts">${q.options.map((o, k) => `<button type="button" data-k="${k}">${esc(o)}</button>`).join("")}</div>
+        <div class="fb" role="status"></div>`;
+      wireBack();
+      $$(".opts button", box).forEach((b) => b.addEventListener("click", () => {
+        const k = +b.dataset.k, ok = k === q.answer;
+        score(ok);
+        $$(".opts button", box).forEach((x) => { x.disabled = true; if (+x.dataset.k === q.answer) x.classList.add("ok"); });
+        if (!ok) b.classList.add("no");
+        $(".fb", box).innerHTML = `<p class="why"><b>${ok ? "Yes! " : "Not quite. "}</b>${esc(q.why)}${ok ? "" : readAgain(q.card)}</p>
+          <p><button type="button" class="big go nx">${i + 1 < n ? "Next question →" : "See my score"}</button></p>`;
+        $(".nx", box).addEventListener("click", next);
+      }));
+    });
+  }
+  function facts() {
+    steps(data.facts, "facts", (f, i, n, score, next) => {
+      box.innerHTML = `${back()}<p class="qn">Claim ${i + 1} of ${n}</p>${young ? speakBtn(f.claim) : ""}
+        <p class="claim">${esc(f.claim)}</p><div class="opts tf"><button type="button" data-v="1">✅ True</button><button type="button" data-v="0">❌ Not true</button></div>
+        <div class="fb" role="status"></div>`;
+      wireBack();
+      $$(".opts button", box).forEach((b) => b.addEventListener("click", () => {
+        const said = b.dataset.v === "1", ok = said === f.true;
+        score(ok);
+        $$(".opts button", box).forEach((x) => { x.disabled = true; if ((x.dataset.v === "1") === f.true) x.classList.add("ok"); });
+        if (!ok) b.classList.add("no");
+        $(".fb", box).innerHTML = `<p class="why"><b>${ok ? "Right! " : "Not quite. "}</b>It's ${f.true ? "true" : "not true"}. ${esc(f.why)}${ok ? "" : readAgain(f.card)}</p>
+          <p><button type="button" class="big go nx">${i + 1 < n ? "Next →" : "See my score"}</button></p>`;
+        $(".nx", box).addEventListener("click", next);
+      }));
+    });
+  }
+  if (location.hash === "#play") tab("play");
 })();
 """

@@ -15,9 +15,35 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   say it aloud. Text size, night mode and reading speed are remembered on the
   device. Pictures (maps, illustrations and charts) are drawn by the engine, the
   same as in the PDF. Sources sit behind **For grown-ups**.
-- **Play.** *Word match*: tap a word, then its meaning. Papers without new words
-  get *Story match*: tap a headline, then the sentence that starts its story. No
-  timer and no losing; stars are kept on the device.
+- **Play.** A menu of up to three games, each with stars kept on the device, no
+  timer and no losing:
+  - *Word match*: tap a word, then its meaning. Papers without new words get
+    *Story match*: tap a headline, then the sentence that starts its story.
+  - *Quiz*: one question per screen, three answers. A wrong answer shows the right
+    one, why, and **Read it again**, which opens the story it came from. Ages 6–8
+    can hear each question.
+  - *Fact or fiction?*: a claim about the issue; tap **True** or **Not true**.
 
-Nothing is tracked and nothing leaves the device. The quiz and fact-or-fiction
-games come next, from a `play` section the papers will write alongside each issue.
+Nothing is tracked and nothing leaves the device.
+
+## The `play` section
+
+The quiz and fact-or-fiction games come from a `play` section that each issue
+carries alongside its `blocks`. It is never printed. The skeleton and every
+paper's `PROMPT.md` ask for it, sized by the reader's age (ages 6–8: 3 questions
+and 2 claims; 9–11: 4 and 3; 12–14: 5 and 3; 15+: 8 and 4):
+
+```json
+"play": {
+  "quiz": [{"q": "Which ocean is running a fever?", "options": ["The Atlantic", "The Pacific", "The Indian"],
+            "answer": 1, "why": "The top story says warm water is spreading across the Pacific.", "story": "lead"}],
+  "fact_or_fiction": [{"claim": "Isaias was the first hurricane of the year.", "true": true,
+                       "why": "The hurricane story says so.", "story": "us"}]
+}
+```
+
+`python -m ygc check` makes sure each question has three different answers and
+one right one, every claim says true or not, there is at least one of each, and
+`story` names a story in the issue. Issues written before the section existed
+get a note, not an error, and keep Word match. Papers from *Design your own*
+don't ask the parent's chatbot for it.
