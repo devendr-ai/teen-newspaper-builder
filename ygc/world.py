@@ -196,7 +196,7 @@ CITIES = [
     ("Hanoi", "Vietnam", 21.03, 105.85), ("Sydney", "Australia", -33.87, 151.21), ("Melbourne", "Australia", -37.81, 144.96),
     ("Auckland", "New Zealand", -36.85, 174.76), ("New York", "United States", 40.71, -74.01),
     ("Washington", "United States", 38.91, -77.04), ("Los Angeles", "United States", 34.05, -118.24),
-    ("San Francisco", "United States", 37.77, -122.42), ("Chicago", "United States", 41.88, -87.63),
+    ("San Francisco", "United States", 37.77, -122.42), ("Seattle", "United States", 47.61, -122.33), ("Chicago", "United States", 41.88, -87.63),
     ("Houston", "United States", 29.76, -95.37), ("Toronto", "Canada", 43.65, -79.38), ("Vancouver", "Canada", 49.28, -123.12),
     ("Mexico City", "Mexico", 19.43, -99.13), ("São Paulo", "Brazil", -23.55, -46.63),
     ("Rio de Janeiro", "Brazil", -22.91, -43.17), ("Buenos Aires", "Argentina", -34.60, -58.38),

@@ -169,6 +169,7 @@ def test_the_world_map_shows_indias_borders_as_indias_maps_do():
     ("Join us at the UK science fair", ["United Kingdom"], None),
     ("A Thanksgiving turkey and a sweet chile", [], None),
     ("Ships queue at the Strait of Hormuz", [], "Strait of Hormuz"),
+    ("Rain again in Seattle", ["United States"], "Seattle"),
 ])
 def test_places_named_in_the_news_are_found(text, countries, place):
     from ygc import world
