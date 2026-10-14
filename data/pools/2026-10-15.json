@@ -1,0 +1,1094 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "yemen-saudi",
+    "headline": "Houthi missiles keep hitting Saudi Arabia as Yemen's war spreads",
+    "what_happened": "On Saturday 10 October a missile hit King Khalid International Airport in Riyadh. On Tuesday 13 October a ballistic missile hit an Aramco administrative building in Dhahran, and Saudi Arabia struck an oil facility near Sanaa.",
+    "why_it_matters": "Attacks on airports and oil sites put civilians at risk and could push oil prices up and widen a war that began inside Yemen.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A missile strike on King Khalid International Airport in Riyadh on Saturday 10 October killed at least 13 people and injured more than 300, according to Saudi civil aviation authorities.",
+      "source_url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+     },
+     {
+      "fact": "Saudi authorities said a projectile hit Terminal 4 on Sunday 11 October, causing a fire, and confirmed one Pakistani resident dead and 11 injured.",
+      "source_url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+     },
+     {
+      "fact": "President Trump said the US was considering joining Saudi military operations against the Houthis; asked if it would, he said \"We may. We're gonna look at it.\"",
+      "source_url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+     },
+     {
+      "fact": "The Saudi-led coalition called Saturday's attack a \"fully-fledged war crime\" and vowed a strong response.",
+      "source_url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+     },
+     {
+      "fact": "Saudi aviation extended the airport's shutdown through 17 October.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "A ballistic missile hit Saudi Aramco's Dhahran complex on 13 October; the Saudi state news agency said an administrative building was targeted, with a \"limited fire\" and no injuries or deaths.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "Shrapnel from two intercepted cruise missiles injured four people and damaged about 15 homes in Riyadh, according to Saudi Civil Defense.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "The Saudi-led coalition said the Houthis use a Sanaa power plant, fuel storage and piers in Hodeidah, Sanaa and Dhamar to support attacks, and urged civilians to evacuate an oil depot in Sanaa.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "The US Embassy in Riyadh urged Americans to reconsider travel to Saudi Arabia.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "The Houthis claimed the Dhahran strike and vowed more attacks on Saudi airports and oil facilities.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "Saudi Arabia struck an oil facility near Sanaa and fuel depots elsewhere on Tuesday; the WHO says suspected cholera cases in Yemen have tripled in recent weeks.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People killed at Riyadh airport on 10 Oct (at least)",
+      "value": 13,
+      "unit": "people",
+      "source_url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+     },
+     {
+      "label": "People injured at Riyadh airport on 10 Oct (more than)",
+      "value": 300,
+      "unit": "people",
+      "source_url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+     }
+    ],
+    "geography": "Riyadh and Dhahran in Saudi Arabia; Sanaa in Yemen; the Red Sea lies between Yemen and Africa; Yemen shares a land border with Saudi Arabia.",
+    "sources": [
+     {
+      "outlet": "NBC News",
+      "title": "Saudi airport attack: Trump says U.S. could join fight against Houthis",
+      "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+      "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 14, 2026",
+      "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-energy",
+    "headline": "Russian strikes cut power to 600,000 Ukrainians after Trump's 'energy ceasefire' announcement",
+    "what_happened": "Trump announced on 12 October that Russia and Ukraine had agreed to stop attacking each other's energy sites. Russian strikes overnight into 14 October left at least 600,000 Ukrainians without electricity, according to Zelenskyy.",
+    "why_it_matters": "Power cuts reach homes, hospitals and heating as winter nears, and the disputed deal shows how hard it is to stop a war with an announcement.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump announced on Sunday 12 October that Russia and Ukraine agreed to stop attacking each other's energy infrastructure.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "Zelenskyy said Russian forces hit at least six Ukrainian energy facilities after the truce was announced, and that Ukraine backed an energy ceasefire.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "Russian Foreign Minister Sergey Lavrov rejected any pause in fighting and said Russia would press ahead with its military campaign.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "Two days before the ceasefire announcement, Trump temporarily eased US sanctions on Russian diesel; Europe and Ukraine criticized the move.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "EU foreign ministers approved the largest set of sanctions since 2022, adding about 1,569 individuals and businesses to the list.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "Russian overnight strikes left at least 600,000 Ukrainians without electricity, according to Zelenskyy.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "Ukraine's State Emergency Service said at least three people were killed and 21 injured in Kyiv.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "Russia's Defense Ministry said the strikes targeted communications and energy facilities in the Kyiv and Kharkiv regions that Ukraine's military uses.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "Zelenskyy said the US-Russia diesel deal would not lower fuel prices.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "Zelenskyy said the strikes hit critical energy infrastructure in Kyiv and Kharkiv, despite Trump claiming an energy ceasefire over the weekend.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Ukrainians without electricity (at least)",
+      "value": 600000,
+      "unit": "people",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "label": "Killed in Kyiv (at least)",
+      "value": 3,
+      "unit": "people",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "label": "Injured in Kyiv (at least)",
+      "value": 21,
+      "unit": "people",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     }
+    ],
+    "geography": "Kyiv and Kharkiv in Ukraine; Russia to the east and north-east; the Black Sea lies to Ukraine's south.",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 14, 2026",
+      "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "oil-hormuz",
+    "headline": "Oil stays above $100 a barrel as ships come under attack near the Strait of Hormuz",
+    "what_happened": "Brent crude closed at $105.69 a barrel on 13 October. Senior Iranian officials told Reuters that Iran has used new tactics against ships in the Strait of Hormuz for about 10 days.",
+    "why_it_matters": "Oil sets the price of fuel, so ship attacks in a narrow sea can raise costs for families far away.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "WTI crude closed at $94.14 per barrel and Brent at $105.69 per barrel on 13 October.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "UKMTO reported a container ship was struck by a projectile in the Strait of Hormuz.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "CENTCOM rejected an Iranian naval claim that it was waiting to sink US warships, and said US and partner forces control the strait.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "Senior Iranian officials told Reuters that Iran has used new tactics against ships in the Strait of Hormuz for about 10 days, aiming to keep oil prices high and influence the US midterm elections.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "AAA's national average for gasoline was $4.33 a gallon on Wednesday 14 October, up from $2.98 before the war started.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "The national average for diesel was $6.29 a gallon.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude closing price, 13 Oct",
+      "value": 105.69,
+      "unit": "dollars per barrel",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "label": "WTI crude closing price, 13 Oct",
+      "value": 94.14,
+      "unit": "dollars per barrel",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "label": "US gasoline, national average, before the war",
+      "value": 2.98,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US gasoline, national average, 14 Oct",
+      "value": 4.33,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE, leading from the Persian Gulf to the Gulf of Oman.",
+    "sources": [
+     {
+      "outlet": "Fox News",
+      "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+      "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 14, 2026",
+      "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+      "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "ebola-drc",
+    "headline": "Congo's Ebola outbreak passes 9,000 confirmed cases",
+    "what_happened": "Confirmed Ebola cases in the Democratic Republic of the Congo have passed 9,000 with more than 4,300 deaths.",
+    "why_it_matters": "Largest and deadliest outbreak in Congo's history.",
+    "importance": 6,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Confirmed Ebola cases in the Democratic Republic of the Congo have surpassed 9,000, with over 4,300 deaths; it is the largest and deadliest outbreak in Congo's history, and there are no treatments or vaccines for this strain.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "Democratic Republic of the Congo, central Africa.",
+    "sources": [
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "nobel-economics",
+    "headline": "Two Americans win the 2026 Nobel economics prize",
+    "what_happened": "Robert Hall and Michael Woodford won for models that help governments and central banks reduce harmful swings in the economy.",
+    "why_it_matters": "Their models are used by central banks.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Robert Hall and Michael Woodford, both US academics, won the 2026 Nobel Prize in Economic Sciences, announced by the Royal Swedish Academy of Sciences on Monday 12 October 2026.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The two developed new macroeconomic models for stabilisation policy, which help governments and central banks use fiscal and monetary measures to reduce harmful economic swings.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "Committee chair John Hassler said the work provides \"a stable theoretical foundation for the models that are now used by central banks and governments\".",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The prize is worth $1.2 million, plus a diploma and a gold medal, and is the last of this year's Nobel prizes.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The prize is formally the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, first awarded in 1969 and established by Sweden's central bank, not in Alfred Nobel's 1895 will.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Prize money",
+      "value": 1.2,
+      "unit": "million dollars",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     }
+    ],
+    "geography": "Stockholm, Sweden; laureates are at US universities.",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+      "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "isaias",
+    "headline": "Hurricane Isaias leaves six dead in Florida; thousands still without power",
+    "what_happened": "Category 2 Hurricane Isaias made landfall near Destin on Florida's Gulf Coast around 9:30 p.m. ET on Friday 9 October. On Tuesday 13 October Governor Ron DeSantis said the Florida death toll had risen to six.",
+    "why_it_matters": "Storms keep causing harm after the wind dies down, through falling trees, generators and lost power for medical care.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Category 2 Hurricane Isaias made landfall near Destin, on Florida's Gulf Coast, around 9:30 p.m. ET on Friday 9 October 2026, with gusts up to 118 mph in Florida.",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "fact": "Gov. Ron DeSantis announced four additional storm-related deaths on Tuesday 13 October, bringing Florida's toll to six.",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "fact": "More than 400,000 Florida customers lost power at one point; about 95% have been restored; as of Tuesday over 45,000 remained out, mainly in Escambia and Santa Rosa counties.",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "fact": "Initial estimates put Escambia County's costs for repairs, emergency response and recovery at about $64 million.",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "fact": "Two storm-related deaths were reported in Alabama.",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "fact": "DeSantis said all areas that can be reconnected to the grid should be by the end of the day on Tuesday and announced $27 million in grants for rural areas, per CBS Miami.",
+      "source_url": "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Florida customers who lost power at the worst point (more than)",
+      "value": 400000,
+      "unit": "customers",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "label": "Florida customers still without power on Tuesday 13 Oct (over)",
+      "value": 45000,
+      "unit": "customers",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     },
+     {
+      "label": "Deaths in Florida",
+      "value": 6,
+      "unit": "people",
+      "source_url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+     }
+    ],
+    "geography": "Destin, Pensacola and Escambia County on Florida's Panhandle, on the Gulf of Mexico (Gulf Coast).",
+    "sources": [
+     {
+      "outlet": "Fox Weather",
+      "title": "Hurricane Isaias death toll rises to 6 in Florida as recovery continues",
+      "url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Florida Phoenix",
+      "title": "DeSantis says Florida Isaias death toll reaches six",
+      "url": "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "cpi-sept",
+    "headline": "Prices rise faster: US inflation hits 3.7% as gasoline soars",
+    "what_happened": "The September consumer price report, released Wednesday 14 October, showed prices up 3.7% over a year, up from 3.4% in August. Gasoline rose 9.1% from August to September.",
+    "why_it_matters": "Fuel costs reach almost everything people buy, and higher inflation can push the Federal Reserve to raise interest rates.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Headline CPI rose at a 3.7% annual rate in September, up from 3.4% in August; economists had expected 3.6%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Core CPI, which excludes energy and food, rose 2.6% from a year ago, up from 2.4% in August; economists had forecast 2.5%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Gasoline rose 9.1% from August to September and accounted for more than half the monthly CPI increase; it was up 34.2% from a year ago.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Energy prices were up 20.4% from a year ago, and airline fares were up 22.4%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "AAA's national average for gasoline was $4.33 a gallon on Wednesday 14 October, up from $2.98 before the war started; diesel averaged $6.29 a gallon after a record high in late September.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "In September the Fed raised its benchmark rate for the first time since 2023, to between 3.75% and 4%; officials signaled they expect to raise rates again this year; the next meetings are 27-28 October and 8-9 December.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "The Fed's annual inflation target is 2%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Nine in 10 Americans say prices are the most important factor shaping their views of the economy, according to a CBS News poll released earlier in October.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US inflation rate, August",
+      "value": 3.4,
+      "unit": "percent",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US inflation rate, September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US gasoline, national average, before the war",
+      "value": 2.98,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US gasoline, national average, 14 Oct",
+      "value": 4.33,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US diesel, national average",
+      "value": 6.29,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "geography": "United States.",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+      "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "us-politics",
+    "headline": "Midterm campaign: Collins and Jackson debate in Maine",
+    "what_happened": "Sen. Susan Collins and Democratic challenger Troy Jackson debated healthcare, the war in Iran and immigration; polls are tight.",
+    "why_it_matters": "Control of the Senate may turn on close races.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Sen. Susan Collins and Democratic challenger Troy Jackson debated healthcare, the war in Iran, and immigration; the polls are tight.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     },
+     {
+      "fact": "The US midterm elections are on 3 November.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "The Justice Department ordered California officials to review a list of alleged noncitizen voters within 48 hours or face legal action, per Reuters.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "Maine, United States.",
+    "sources": [
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-sir-sc",
+    "headline": "Opposition takes its voter-list fight to India's Supreme Court",
+    "what_happened": "Rahul Gandhi and other opposition leaders filed a petition on Monday 12 October challenging the Election Commission's Special Intensive Revision (SIR) of voter lists. It is due to be heard on Thursday 15 October.",
+    "why_it_matters": "Voter lists decide who can vote, so a dispute over how names are removed tests how an independent election body is checked by the courts.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Rahul Gandhi, Mallikarjun Kharge, Saugata Roy, Akhilesh Yadav, Tejashwi Prasad Yadav and other opposition leaders filed a petition on Monday 12 October 2026 against the Election Commission of India over its Special Intensive Revision (SIR) of electoral rolls.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "The respondents are the Election Commission of India, Chief Election Commissioner Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "Among its prayers, the petition asks for suspension of the SIR in all States pending adjudication, a committee headed by a retired Supreme Court judge to audit SIR deletions, booth-wise publication of deleted voters' names, and no deletion of a name without notice and a hearing.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "On 11 October Chief Justice Surya Kant declined Gandhi and Kharge's request for a meeting, saying the issues were already pending before the Court and the leaders could approach its judicial side.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "The Supreme Court cause list for 15 October lists the plea before a bench of Chief Justice Surya Kant and Justice Joymalya Bagchi.",
+      "source_url": "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135"
+     },
+     {
+      "fact": "On 5 October a three-judge bench led by Chief Justice Surya Kant issued notices to the government, the Election Commission and its head, Gyanesh Kumar, over the voter-roll revision; the court said that if the law was not followed it can undo the decisions.",
+      "source_url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/"
+     },
+     {
+      "fact": "Opposition parties have protested and demanded Gyanesh Kumar's resignation, after a report in The Indian Express said two of the commission's three members had formally objected at least 14 times to key decisions; the commission has rejected allegations of wrongdoing.",
+      "source_url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/"
+     },
+     {
+      "fact": "A court ordered two leaders of the youth-led Cockroach Janta Party jailed for five days; protesters demand the resignation of Chief Election Commissioner Gyanesh Kumar over voter-roll revisions.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi (Supreme Court of India).",
+    "sources": [
+     {
+      "outlet": "LiveLaw",
+      "title": "Opposition Leader Rahul Gandhi files writ petition in Supreme Court against ECI over SIR process",
+      "url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Deccan Herald",
+      "title": "Supreme Court to hear Rahul Gandhi, others' plea on SIR issue on October 15",
+      "url": "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Courthouse News",
+      "title": "India court seeks explanations from election body in voter list row",
+      "url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/",
+      "published": "2026-10-05"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "india-also",
+    "headline": "Other India news: BIMSTEC home ministers meet; Karnataka seeks report on police action",
+    "what_happened": "India hosted the first BIMSTEC Home Ministers' Meeting in New Delhi on 13 October; Karnataka's chief minister asked for a report on police action against protesters and journalists in Bengaluru.",
+    "why_it_matters": "",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India hosted the inaugural BIMSTEC Home Ministers' Meeting in New Delhi on 13 October 2026.",
+      "source_url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-13th-2026-india-bloc-protests-bimstec-meeting-crime-updates-7642408.html"
+     },
+     {
+      "fact": "Karnataka Chief Minister D.K. Shivakumar sought a comprehensive report on police action against protesters and journalists at an anti-SIR electoral roll demonstration in Bengaluru.",
+      "source_url": "https://latestly.com/india/news/bengaluru-latest-news-today-on-october-14th-2026-protest-action-court-ruling-ai-jet-debut-7643728.html"
+     },
+     {
+      "fact": "Delhi police detained at least 30 journalists over the weekend, according to Democracy Now.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi and Bengaluru.",
+    "sources": [
+     {
+      "outlet": "LatestLY",
+      "title": "Delhi Latest News Today on October 13th, 2026",
+      "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-13th-2026-india-bloc-protests-bimstec-meeting-crime-updates-7642408.html",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "LatestLY",
+      "title": "Bengaluru Latest News Today on October 14th, 2026",
+      "url": "https://latestly.com/india/news/bengaluru-latest-news-today-on-october-14th-2026-protest-action-court-ruling-ai-jet-debut-7643728.html",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "senate-diesel",
+    "headline": "Senators from both parties challenge Trump's Russian diesel deal",
+    "what_happened": "Twelve bipartisan US senators called the temporary easing of sanctions on Russian diesel a \"betrayal of the people of Ukraine\"; lawmakers from both parties say the move may violate US law.",
+    "why_it_matters": "Shows how Congress can push back when a president changes sanctions that Congress wrote into law.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Twelve bipartisan US senators called the US-Russia diesel deal a \"betrayal of the people of Ukraine\"; Italian PM Giorgia Meloni called it a \"very risky choice\".",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "Two days before 12 October, Trump temporarily eased US sanctions on Russian diesel; lawmakers from both major US parties said the decision may violate US law, and some Republicans said it undercuts a sanctions law Trump signed.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "Al Jazeera's Alan Fisher reported the announcement appeared aimed at lowering diesel prices before the 3 November US midterm elections.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     },
+     {
+      "fact": "An AP-University of Chicago poll published 1 October found that 65 percent of US adults blame the White House for high living costs.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C.",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 14, 2026",
+      "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "india-sir-sc",
+    "headline": "Opposition takes its voter-list fight to India's Supreme Court",
+    "what_happened": "Rahul Gandhi and other opposition leaders filed a petition on Monday 12 October challenging the Election Commission's Special Intensive Revision (SIR) of voter lists. It is due to be heard on Thursday 15 October.",
+    "why_it_matters": "Voter lists decide who can vote, so a dispute over how names are removed tests how an independent election body is checked by the courts.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Rahul Gandhi, Mallikarjun Kharge, Saugata Roy, Akhilesh Yadav, Tejashwi Prasad Yadav and other opposition leaders filed a petition on Monday 12 October 2026 against the Election Commission of India over its Special Intensive Revision (SIR) of electoral rolls.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "The respondents are the Election Commission of India, Chief Election Commissioner Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "Among its prayers, the petition asks for suspension of the SIR in all States pending adjudication, a committee headed by a retired Supreme Court judge to audit SIR deletions, booth-wise publication of deleted voters' names, and no deletion of a name without notice and a hearing.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "On 11 October Chief Justice Surya Kant declined Gandhi and Kharge's request for a meeting, saying the issues were already pending before the Court and the leaders could approach its judicial side.",
+      "source_url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+     },
+     {
+      "fact": "The Supreme Court cause list for 15 October lists the plea before a bench of Chief Justice Surya Kant and Justice Joymalya Bagchi.",
+      "source_url": "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135"
+     },
+     {
+      "fact": "On 5 October a three-judge bench led by Chief Justice Surya Kant issued notices to the government, the Election Commission and its head, Gyanesh Kumar, over the voter-roll revision; the court said that if the law was not followed it can undo the decisions.",
+      "source_url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/"
+     },
+     {
+      "fact": "Opposition parties have protested and demanded Gyanesh Kumar's resignation, after a report in The Indian Express said two of the commission's three members had formally objected at least 14 times to key decisions; the commission has rejected allegations of wrongdoing.",
+      "source_url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/"
+     },
+     {
+      "fact": "A court ordered two leaders of the youth-led Cockroach Janta Party jailed for five days; protesters demand the resignation of Chief Election Commissioner Gyanesh Kumar over voter-roll revisions.",
+      "source_url": "https://www.democracynow.org/2026/10/14/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi (Supreme Court of India).",
+    "sources": [
+     {
+      "outlet": "LiveLaw",
+      "title": "Opposition Leader Rahul Gandhi files writ petition in Supreme Court against ECI over SIR process",
+      "url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Deccan Herald",
+      "title": "Supreme Court to hear Rahul Gandhi, others' plea on SIR issue on October 15",
+      "url": "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Courthouse News",
+      "title": "India court seeks explanations from election body in voter list row",
+      "url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/",
+      "published": "2026-10-05"
+     },
+     {
+      "outlet": "Democracy Now!",
+      "title": "Headlines for October 14, 2026",
+      "url": "https://www.democracynow.org/2026/10/14/headlines",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cpi-sept",
+    "headline": "Prices rise faster: US inflation hits 3.7% as gasoline soars",
+    "what_happened": "The September consumer price report, released Wednesday 14 October, showed prices up 3.7% over a year, up from 3.4% in August. Gasoline rose 9.1% from August to September.",
+    "why_it_matters": "Fuel costs reach almost everything people buy, and higher inflation can push the Federal Reserve to raise interest rates.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Headline CPI rose at a 3.7% annual rate in September, up from 3.4% in August; economists had expected 3.6%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Core CPI, which excludes energy and food, rose 2.6% from a year ago, up from 2.4% in August; economists had forecast 2.5%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Gasoline rose 9.1% from August to September and accounted for more than half the monthly CPI increase; it was up 34.2% from a year ago.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Energy prices were up 20.4% from a year ago, and airline fares were up 22.4%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "AAA's national average for gasoline was $4.33 a gallon on Wednesday 14 October, up from $2.98 before the war started; diesel averaged $6.29 a gallon after a record high in late September.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "In September the Fed raised its benchmark rate for the first time since 2023, to between 3.75% and 4%; officials signaled they expect to raise rates again this year; the next meetings are 27-28 October and 8-9 December.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "The Fed's annual inflation target is 2%.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "Nine in 10 Americans say prices are the most important factor shaping their views of the economy, according to a CBS News poll released earlier in October.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US inflation rate, August",
+      "value": 3.4,
+      "unit": "percent",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US inflation rate, September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US gasoline, national average, before the war",
+      "value": 2.98,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US gasoline, national average, 14 Oct",
+      "value": 4.33,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US diesel, national average",
+      "value": 6.29,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "geography": "United States.",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+      "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "nobel-economics",
+    "headline": "Two Americans win the 2026 Nobel economics prize",
+    "what_happened": "Robert Hall and Michael Woodford won for models that help governments and central banks reduce harmful swings in the economy.",
+    "why_it_matters": "Their models are used by central banks.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Robert Hall and Michael Woodford, both US academics, won the 2026 Nobel Prize in Economic Sciences, announced by the Royal Swedish Academy of Sciences on Monday 12 October 2026.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The two developed new macroeconomic models for stabilisation policy, which help governments and central banks use fiscal and monetary measures to reduce harmful economic swings.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "Committee chair John Hassler said the work provides \"a stable theoretical foundation for the models that are now used by central banks and governments\".",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The prize is worth $1.2 million, plus a diploma and a gold medal, and is the last of this year's Nobel prizes.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     },
+     {
+      "fact": "The prize is formally the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, first awarded in 1969 and established by Sweden's central bank, not in Alfred Nobel's 1895 will.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Prize money",
+      "value": 1.2,
+      "unit": "million dollars",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+     }
+    ],
+    "geography": "Stockholm, Sweden; laureates are at US universities.",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+      "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "oil-hormuz",
+    "headline": "Oil stays above $100 a barrel as ships come under attack near the Strait of Hormuz",
+    "what_happened": "Brent crude closed at $105.69 a barrel on 13 October. Senior Iranian officials told Reuters that Iran has used new tactics against ships in the Strait of Hormuz for about 10 days.",
+    "why_it_matters": "Oil sets the price of fuel, so ship attacks in a narrow sea can raise costs for families far away.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "WTI crude closed at $94.14 per barrel and Brent at $105.69 per barrel on 13 October.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "UKMTO reported a container ship was struck by a projectile in the Strait of Hormuz.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "CENTCOM rejected an Iranian naval claim that it was waiting to sink US warships, and said US and partner forces control the strait.",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "fact": "Senior Iranian officials told Reuters that Iran has used new tactics against ships in the Strait of Hormuz for about 10 days, aiming to keep oil prices high and influence the US midterm elections.",
+      "source_url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+     },
+     {
+      "fact": "AAA's national average for gasoline was $4.33 a gallon on Wednesday 14 October, up from $2.98 before the war started.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "fact": "The national average for diesel was $6.29 a gallon.",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude closing price, 13 Oct",
+      "value": 105.69,
+      "unit": "dollars per barrel",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "label": "WTI crude closing price, 13 Oct",
+      "value": 94.14,
+      "unit": "dollars per barrel",
+      "source_url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+     },
+     {
+      "label": "US gasoline, national average, before the war",
+      "value": 2.98,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     },
+     {
+      "label": "US gasoline, national average, 14 Oct",
+      "value": 4.33,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE, leading from the Persian Gulf to the Gulf of Oman.",
+    "sources": [
+     {
+      "outlet": "Fox News",
+      "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+      "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 14, 2026",
+      "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+      "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "moon-two-faces",
+    "headline": "Moon rocks may explain why the Moon's two sides look so different",
+    "what_happened": "Researchers at Nanjing University analysed far side rocks returned by China's Chang'e-6 mission and compared them with near side samples.",
+    "why_it_matters": "Explains a long-standing puzzle about our nearest neighbour and shows what returned samples can teach.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Researchers led by Professor Hejiu Hui of Nanjing University analysed far side lunar rocks from China's Chang'e-6 mission, which launched in 2024 and returned samples from the Moon's far side, and compared them with near side samples from the Apollo and Chang'e-5 missions.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+     },
+     {
+      "fact": "The study was published in National Science Review in 2026; the press release came from Science China Press.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+     },
+     {
+      "fact": "Chang'e-6 anorthosites have higher peak magnesium numbers than comparable Apollo samples, meaning the far side crust is more magnesium-rich.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+     },
+     {
+      "fact": "The researchers propose that after the Moon became tidally locked to Earth, tidal heating was stronger on the near side, driving magma to circulate from the near side toward the far side and building a thicker, more magnesium-rich far side crust.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+     },
+     {
+      "fact": "The near side has vast basalt plains; the far side has heavily cratered highlands and a thicker crust.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+     },
+     {
+      "fact": "Earlier explanations, such as magma ocean circulation, a massive collision, tidal heating and uneven crust development, have not gained universal acceptance.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "The Moon (near side and far side).",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "Scientists may have finally solved the mystery of the Moon's two faces",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cricket-ind-wi",
+    "headline": "India and West Indies trade wins in the T20 series",
+    "what_happened": "India won the third T20 by 14 runs on 11 October in Indore; West Indies won the fourth by 24 runs in Hyderabad on 14 October.",
+    "why_it_matters": "",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India beat West Indies by 14 runs in the third T20I, with Arshdeep Singh named Player of the Match.",
+      "source_url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/live-cricket-score"
+     },
+     {
+      "fact": "West Indies beat India by 24 runs in the fourth T20I in Hyderabad, on 14 October.",
+      "source_url": "https://www.cricinfo.com/live-cricket-score"
+     }
+    ],
+    "numbers": [],
+    "geography": "Indore and Hyderabad, India.",
+    "sources": [
+     {
+      "outlet": "ESPNcricinfo",
+      "title": "India v West Indies, 3rd T20I",
+      "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/live-cricket-score",
+      "published": "2026-10-11"
+     },
+     {
+      "outlet": "ESPNcricinfo",
+      "title": "Live cricket scores",
+      "url": "https://www.cricinfo.com/live-cricket-score",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,467 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-15",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Missile Strikes Aramco in Dhahran as Saudi Arabia Hits Sanaa",
+      "deck": "The Houthis vow more attacks on Saudi airports and oil sites; Mr Trump says the US “may” join the Saudi side.",
+      "body": [
+        "Yemen’s war has been spilling into Saudi Arabia. The Houthis, a Yemeni armed group, are fighting Yemen’s government, which a Saudi-led coalition supports. On Saturday 10 October a missile hit King Khalid International Airport in Riyadh, killing at least 13 people and injuring more than 300, according to Saudi civil aviation authorities. A projectile hit Terminal 4 on Sunday, and Saudi aviation extended the airport’s closure through 17 October.",
+        "The latest strike hit the energy sector. On Tuesday a ballistic missile struck Saudi Aramco’s Dhahran complex. The Saudi Energy Ministry and state news said an administrative building was hit, causing a “limited fire” and no injuries. The Houthis claimed it and vowed more attacks on Saudi airports and oil facilities. In Riyadh, shrapnel from two intercepted cruise missiles injured four people and damaged about 15 homes, according to Saudi Civil Defense.",
+        "Saudi Arabia has hit back. It struck an oil facility near Sanaa, Yemen’s capital, and fuel depots elsewhere on Tuesday. The coalition says the Houthis use a Sanaa power plant, fuel storage and piers in Hodeidah, Sanaa and Dhamar to support attacks, and told civilians to leave an oil depot in Sanaa. A Houthi spokesman has threatened a “harsh and painful response” against Riyadh if Sanaa is attacked. The coalition called the airport attack a “fully-fledged war crime”.",
+        "The question now is whether Washington joins in. Mr Trump said the US is considering joining Saudi military operations: “We may. We’re gonna look at it.” He has blamed Iran for the Houthis’ resurgence. A Houthi official has threatened US interests if America joins. The World Health Organization says suspected cholera cases in Yemen have tripled in recent weeks."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen share the Red Sea’s eastern shore, opposite Africa."
+      },
+      "why": "Airports and oil facilities are the arteries of a region’s economy. Attacks on both raise the risk that a civil war widens into a regional one and that energy prices climb further.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Saudi airport attack: Trump says U.S. could join fight against Houthis",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+        },
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: October 14, 2026",
+          "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+        },
+        {
+          "outlet": "Democracy Now!",
+          "title": "Headlines for October 14, 2026",
+          "url": "https://www.democracynow.org/2026/10/14/headlines"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Strikes Cut Power to 600,000 Ukrainians Days After Trump’s ‘Energy Ceasefire’",
+      "deck": "Russia’s foreign minister rejected any pause; Mr Trump says there were “violations on both sides”.",
+      "body": [
+        "On Sunday 12 October President Trump announced that Russia and Ukraine had agreed to stop attacking each other’s energy infrastructure. Ukraine’s President Volodymyr Zelenskyy said Kyiv backed an energy ceasefire and was ready to sign “guarantees”, but that Russian forces hit at least six Ukrainian energy facilities after the announcement. Russian Foreign Minister Sergey Lavrov rejected any pause. Asked about the strikes, Mr Trump said “there’s been violations on both sides”.",
+        "Overnight strikes then left at least 600,000 Ukrainians without electricity, according to Zelenskyy. Ukraine’s State Emergency Service said at least three people were killed and 21 injured in Kyiv. Russia’s Defense Ministry said it targeted communications and energy facilities in the Kyiv and Kharkiv regions that Ukraine’s military uses. Ukrainian drones hit Russia’s largest data center in the Saratov region; Sberbank’s deputy CEO said operations were not disrupted.",
+        "Sanctions run alongside the fighting. Two days before the announcement, Mr Trump temporarily eased US sanctions on Russian diesel. EU foreign ministers approved their largest set of sanctions since 2022, adding about 1,569 individuals and businesses, and German Chancellor Friedrich Merz said Russia would negotiate only under pressure. Zelenskyy also said the Trump administration warned it could cut intelligence sharing unless Ukraine stops long-range drone strikes on Russian oil refineries.",
+        "Washington’s role is contested. Al Jazeera reports that Mr Trump has portrayed Ukraine, not Russia, as the main obstacle to peace, and that earlier Trump-announced agreements had not materialised. Mr Trump called the war a “disaster” and claimed, without evidence, that at least 32,000 people had been killed this month alone."
+      ],
+      "illustration": {
+        "title": "POWER GRID UNDER STRAIN",
+        "subtitle": "600,000 without power",
+        "motif": "grid",
+        "caption": "Zelenskyy’s figure after strikes on Kyiv and Kharkiv."
+      },
+      "connect": "Targeting energy is a way of pressuring civilians as well as armies, which is why energy-sector truces keep returning in peace talks. Winter makes them urgent, since heating and water pumps depend on electricity.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+          "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+        },
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: October 14, 2026",
+          "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+        },
+        {
+          "outlet": "Democracy Now!",
+          "title": "Headlines for October 14, 2026",
+          "url": "https://www.democracynow.org/2026/10/14/headlines"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ELECTIONS AND THE COURTS",
+      "headline": "Opposition Leaders Ask the Supreme Court to Suspend the Voter-List Revision",
+      "deck": "Rahul Gandhi and others filed the petition on Monday; the Court lists it for Thursday.",
+      "body": [
+        "India’s Election Commission is running a Special Intensive Revision (SIR) of the electoral rolls. On Monday 12 October, Rahul Gandhi, Mallikarjun Kharge, Saugata Roy, Akhilesh Yadav, Tejashwi Prasad Yadav and other opposition leaders filed a petition under Article 32 of the Constitution against the Election Commission. They name the Commission, Chief Election Commissioner Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi.",
+        "The petition asks the Court to suspend the SIR in all States while the case is heard. It seeks disclosure of the Commission’s files, minutes and the objections of Election Commissioners on disputed decisions, and a committee headed by a retired Supreme Court judge to audit deletions and access to electoral-roll databases. It also asks for booth-wise publication of deleted voters’ names with reasons, and that no name be deleted without notice and a hearing.",
+        "The Court’s cause list for 15 October puts the plea before Chief Justice Surya Kant and Justice Joymalya Bagchi. On 11 October the Chief Justice declined Mr Gandhi and Mr Kharge’s request for a meeting, saying the issues were already before the Court. On 5 October a three-judge bench he led issued notices to the government, the Commission and Mr Kumar and said it can undo decisions if the law was not followed.",
+        "The Commission has rejected allegations of wrongdoing. Opposition parties demand Mr Kumar’s resignation after The Indian Express reported that two of the three commissioners had formally objected at least 14 times to key decisions. Separately, a court ordered two leaders of the youth-led Cockroach Janta Party jailed for five days, according to Democracy Now.",
+        "The petition also asks the Court to examine whether the SIR decisions complied with Article 324, Section 18 of the 2023 Act and the T.N. Seshan judgment, and to direct that such decisions be taken collectively and minuted. It asks for the complete file on the Commission’s 24 June 2025 decision to launch the SIR. Whether the Court grants any of this is for the bench to decide."
+      ],
+      "illustration": {
+        "title": "WHO IS ON THE LIST?",
+        "subtitle": "A case in court",
+        "motif": "court",
+        "caption": "The plea is listed for Thursday 15 October."
+      },
+      "why": "The right to vote depends on being on the list. The case asks how far an independent constitutional body must disclose and justify its decisions, and what courts can undo.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Opposition Leader Rahul Gandhi files writ petition in Supreme Court against ECI over SIR process",
+          "url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+        },
+        {
+          "outlet": "Deccan Herald",
+          "title": "Supreme Court to hear Rahul Gandhi, others' plea on SIR issue on October 15",
+          "url": "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135"
+        },
+        {
+          "outlet": "Courthouse News",
+          "title": "India court seeks explanations from election body in voter list row",
+          "url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/"
+        },
+        {
+          "outlet": "Democracy Now!",
+          "title": "Headlines for October 14, 2026",
+          "url": "https://www.democracynow.org/2026/10/14/headlines"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "Twelve Bipartisan Senators Call Trump’s Russian Diesel Deal a ‘Betrayal’",
+      "deck": "Lawmakers say the sanctions change may violate US law.",
+      "body": [
+        "In the US, Congress writes laws, including sanctions, and the president carries them out; the two often test each other’s limits. The latest test is Mr Trump’s temporary easing of US sanctions on Russian diesel, announced two days before his 12 October energy-ceasefire claim.",
+        "Twelve bipartisan US senators called the US-Russia diesel deal a “betrayal of the people of Ukraine”, according to Just Security’s summary of reporting. Al Jazeera reports that lawmakers from both major parties said the decision may violate US law, and that some Republicans said it undercuts a sanctions law Mr Trump signed. Italy’s Prime Minister Giorgia Meloni called it a “very risky choice”.",
+        "The politics are tied to prices. Al Jazeera’s Alan Fisher reported that the announcement appeared aimed at lowering diesel prices before the 3 November midterm elections. An AP-University of Chicago poll published on 1 October found that 65 percent of US adults blame the White House for high living costs. Zelenskyy said the diesel deal would not lower fuel prices.",
+        "Elsewhere in the same fight over who controls what, the Justice Department ordered California officials to review a list of alleged noncitizen voters within 48 hours or face legal action, according to Reuters. The state must hold off mailing ballots to listed voters until citizenship is verified. Elections are run mainly by states, so a federal demand like this is another test of where federal and state power meet.",
+        "Campaigns are in full swing. In Maine, Senator Susan Collins and Democratic challenger Troy Jackson debated healthcare, the war in Iran and immigration, and polls there are tight. The midterms on 3 November decide who controls Congress, which in turn decides how far any president can act alone on matters like sanctions."
+      ],
+      "illustration": {
+        "title": "CONGRESS VERSUS THE WHITE HOUSE",
+        "subtitle": "Who controls sanctions?",
+        "motif": "capitol",
+        "caption": "Senators from both parties object."
+      },
+      "why": "Separation of powers means no branch acts alone. When members of the president’s own party object, it signals that a policy may face legal and political limits.",
+      "sources": [
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: October 14, 2026",
+          "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+          "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  INFLATION",
+      "headline": "US Inflation Hits 3.7% as Gasoline Prices Surge",
+      "deck": "The September report was hotter than economists expected; Fed rate-hike odds rose.",
+      "body": [
+        "The Consumer Price Index (CPI) measures how fast prices are rising. The September report, released on Wednesday 14 October, showed headline CPI up 3.7 percent from a year earlier, against 3.4 percent in August; economists had expected 3.6 percent. Core CPI, which excludes food and energy, rose 2.6 percent, up from 2.4 percent in August.",
+        "Gasoline did most of the work. It rose 9.1 percent between August and September and made up more than half of the monthly rise, and was up 34.2 percent over the year. AAA says the national average was $4.33 a gallon on Wednesday, against $2.98 before the war began. Diesel averaged $6.29. Energy prices are up 20.4 percent on a year ago and airline fares 22.4 percent.",
+        "The Federal Reserve raised its benchmark rate in September for the first time since 2023, to between 3.75 and 4 percent, and officials signalled more increases this year; its inflation target is 2 percent. Capital Economics’ Stephen Brown said markets now see a 50 percent chance of a hike this month, up from 20 percent before the data. The next meetings are 27 and 28 October and 8 and 9 December.",
+        "The same week brought a Nobel prize on this theme. Robert Hall and Michael Woodford, both US academics, won the economics prize on 12 October for macroeconomic models that help governments and central banks reduce harmful economic swings. Committee chair John Hassler said the work gives “a stable theoretical foundation” for models used by central banks.",
+        "Analysts called the report hot. Wall Street analyst Adam Crisafulli said, “The CPI was clearly hot, and there aren’t many ways to sugarcoat it.” Thrivent’s David Royal said inflation is “still well above the Fed’s target”. A CBS News poll released earlier in October found nine in ten Americans say prices are the most important factor shaping their view of the economy."
+      ],
+      "chart": {
+        "title": "PRICE AT THE PUMP",
+        "subtitle": "US average, $ a gallon",
+        "labels": [
+          "Pre-war",
+          "Petrol",
+          "Diesel"
+        ],
+        "values": [
+          2.98,
+          4.33,
+          6.29
+        ],
+        "max": 7,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Pre-war and Petrol are gasoline; AAA, 14 October."
+      },
+      "why": "Fuel is a cost in almost every supply chain, so energy shocks spread into the prices of food and goods, and central banks respond with interest rates that also affect jobs and borrowing.",
+      "analyst": "Why might core inflation rise when the main shock is in energy? What does the Fed give up when it raises rates to slow prices? Why might gasoline have risen far more than core prices?",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+          "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Nobel economics prize awarded to Robert Hall and Michael Woodford",
+          "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  THE MOON",
+      "headline": "Moon Rocks May Explain Why Its Two Sides Look So Different",
+      "deck": "Chang’e-6 samples point to uneven tidal heating, researchers say.",
+      "body": [
+        "The Moon’s near side has vast dark basalt plains; its far side is heavily cratered highland with a thicker crust. Explaining that difference is an old puzzle, and earlier ideas, including magma-ocean circulation, a giant collision, tidal heating and uneven crust growth, have not gained universal acceptance.",
+        "A team led by Professor Hejiu Hui of Nanjing University analysed far-side rocks from China’s Chang’e-6 mission, launched in 2024, and compared them with near-side samples from Apollo and Chang’e-5. They report that the mantle looks similar on both sides, but that Chang’e-6 anorthosites have higher peak magnesium numbers than comparable Apollo samples, so the far-side crust is more magnesium-rich.",
+        "Their proposed explanation: the Moon’s magma ocean first cooled fairly evenly. After the Moon became tidally locked to Earth, tidal heating was stronger on the near side, driving magma to circulate toward the far side. That carried magnesium-rich rock with it and built a thicker, more magnesium-rich far-side crust, while material rich in KREEP and ilmenite flowed toward the near side. The study appears in National Science Review, per a Science China Press release reported by ScienceDaily.",
+        "The samples included anorthosites (light rocks that formed the early crust), Mg-suite rocks and mare basalts (dark volcanic rock). The team reports that Chang’e-6 Mg-suite rocks have extremely low concentrations of rare earth elements and lower thorium-to-samarium ratios than their Apollo counterparts.",
+        "The press release lists Yuantao Gu as lead author with 21 co-authors. The finding is a model built from rock chemistry, and it will be judged on whether future samples, from more places on both sides, match what it predicts."
+      ],
+      "illustration": {
+        "title": "THE MOON’S TWO FACES",
+        "subtitle": "Chang’e-6 far-side rocks",
+        "motif": "globe",
+        "caption": "A hypothesis from rock chemistry, not yet a settled answer."
+      },
+      "why": "Returned samples let scientists test ideas about how planets and moons form. This is a proposed explanation from one team, and other scientists will test it against more samples.",
+      "sources": [
+        {
+          "outlet": "ScienceDaily",
+          "title": "Scientists may have finally solved the mystery of the Moon's two faces",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Governor Ron DeSantis said Hurricane Isaias has killed six people in Florida; over 45,000 customers were still without power on Tuesday, mainly in Escambia and Santa Rosa counties.",
+        "Congo: confirmed Ebola cases in the Democratic Republic of the Congo have passed 9,000, with more than 4,300 deaths, in the largest and deadliest outbreak in the country’s history, according to Democracy Now.",
+        "India: New Delhi hosted the first BIMSTEC Home Ministers’ Meeting on 13 October.",
+        "Sweden: the 2026 economics Nobel went to Robert Hall and Michael Woodford; the prize was first awarded in 1969 and was set up by Sweden’s central bank, not in Alfred Nobel’s 1895 will."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Core inflation",
+          "def": "The rise in prices after removing food and energy, which swing sharply. Today: core CPI rose 2.6 percent over the year to September."
+        },
+        {
+          "word": "Petition",
+          "def": "A formal written request to a court. Today: opposition leaders filed one in the Supreme Court under Article 32."
+        },
+        {
+          "word": "Sanctions",
+          "def": "Penalties imposed by one country on another, often limits on trade. Today: the EU approved its largest set since 2022."
+        },
+        {
+          "word": "Tidal locking",
+          "def": "When a moon’s spin matches its orbit so one face always points at its planet. Today: researchers link the Moon’s two-faced crust to heating after it became tidally locked."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Because the Moon is tidally locked to Earth, we always see the same face. The far side was only photographed after spacecraft flew around it."
+    },
+    "explainer": {
+      "title": "How is inflation measured, and why do central banks watch core?",
+      "body": [
+        "Inflation is a general rise in prices over time. In the US the Consumer Price Index tracks the cost of a basket of goods and services that households buy, and the headline rate compares it with a year earlier. Core CPI removes food and energy, whose prices can jump for reasons unrelated to the wider economy, such as a war or a bad harvest.",
+        "Central banks aim for a stable, low rate; the Fed’s target is 2 percent, as the report notes. If an energy shock lifts headline inflation but core stays calmer, officials debate whether it will fade or spread into wages and other prices. Today’s report shows both rose: headline to 3.7 percent and core to 2.6 percent.",
+        "Interest rates are the Fed’s main tool. Raising them makes borrowing dearer, which tends to slow spending and hiring and so cool prices. The cost is that slower growth can mean fewer jobs, which is the trade-off the Fed weighs at each meeting."
+      ],
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+          "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> What did the Houthi missile hit in Dhahran on Tuesday?",
+        "(a) A runway  (b) An Aramco administrative building  (c) A hospital  (d) A tanker",
+        "<b>2.</b> How many people did Saudi civil aviation authorities say were killed at Riyadh airport on 10 October?",
+        "(a) At least 3  (b) At least 13  (c) At least 30  (d) At least 300",
+        "<b>3.</b> How many Ukrainians did Zelenskyy say lost electricity in the overnight strikes?",
+        "(a) At least 6,000  (b) At least 60,000  (c) At least 600,000  (d) At least 6 million",
+        "<b>4.</b> Which article of the Constitution is the opposition’s petition filed under?",
+        "(a) Article 14  (b) Article 21  (c) Article 32  (d) Article 370",
+        "<b>5.</b> What did US headline inflation reach in September?",
+        "(a) 2.6 percent  (b) 3.4 percent  (c) 3.7 percent  (d) 9.1 percent",
+        "<b>6.</b> What did AAA say the US average gasoline price was on Wednesday?",
+        "(a) $2.98  (b) $4.33  (c) $6.29  (d) $9.10",
+        "<b>7.</b> Who won the 2026 Nobel Prize in economics?",
+        "(a) Robert Hall and Michael Woodford  (b) Claudia Goldin alone  (c) Daron Acemoglu and Simon Johnson  (d) Joel Mokyr and Philippe Aghion",
+        "<b>8.</b> Which mission’s rocks did the Nanjing University team study?",
+        "(a) Apollo 11  (b) Chandrayaan-3  (c) Chang’e-6  (d) Luna 9",
+        "<b>Answers.</b> 1 (b): an Aramco administrative building. 2 (b): at least 13. 3 (c): at least 600,000. 4 (c): Article 32. 5 (c): 3.7 percent. 6 (b): $4.33. 7 (a): Robert Hall and Michael Woodford. 8 (c): Chang’e-6."
+      ],
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether the US joins the Saudi-led campaign in Yemen, whether the Houthis carry out their threats against Saudi airports and oil sites, and whether Riyadh’s airport reopens after 17 October.",
+        "What the Supreme Court says when it hears the opposition’s voter-list plea on 15 October, and whether it orders the Commission to disclose its files.",
+        "Whether the Fed raises rates at its 27–28 October meeting after the hot inflation report, and whether Russia honours any pause on energy strikes."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+    "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+    "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+    "https://www.democracynow.org/2026/10/14/headlines",
+    "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
+    "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/",
+    "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285",
+    "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135",
+    "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/",
+    "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+    "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+    "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall",
+    "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/",
+    "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-13th-2026-india-bloc-protests-bimstec-meeting-crime-updates-7642408.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did the Houthi missile hit in Dhahran on Tuesday?",
+        "options": [
+          "A runway",
+          "An Aramco administrative building",
+          "A hospital"
+        ],
+        "answer": 1,
+        "why": "Saudi state news said an administrative building was hit.",
+        "story": "lead"
+      },
+      {
+        "q": "How many people did Saudi civil aviation authorities say were killed at Riyadh airport on 10 October?",
+        "options": [
+          "At least 3",
+          "At least 30",
+          "At least 13"
+        ],
+        "answer": 2,
+        "why": "They reported at least 13 killed and more than 300 injured.",
+        "story": "lead"
+      },
+      {
+        "q": "How many Ukrainians does Zelenskyy say lost power in the overnight strikes?",
+        "options": [
+          "At least 600,000",
+          "At least 60,000",
+          "At least 6 million"
+        ],
+        "answer": 0,
+        "why": "He said at least 600,000 were without electricity.",
+        "story": "world"
+      },
+      {
+        "q": "Under which Article of the Constitution did opposition leaders file their petition?",
+        "options": [
+          "Article 21",
+          "Article 32",
+          "Article 370"
+        ],
+        "answer": 1,
+        "why": "The petition was filed under Article 32.",
+        "story": "india"
+      },
+      {
+        "q": "How many bipartisan US senators called the Russian diesel deal a “betrayal of the people of Ukraine”?",
+        "options": [
+          "Six",
+          "Twelve",
+          "Twenty"
+        ],
+        "answer": 1,
+        "why": "Twelve bipartisan senators used that phrase.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "What was US headline inflation in September?",
+        "options": [
+          "3.4 percent",
+          "2.6 percent",
+          "3.7 percent"
+        ],
+        "answer": 2,
+        "why": "Headline CPI rose 3.7 percent from a year earlier.",
+        "story": "economics"
+      },
+      {
+        "q": "What does core inflation leave out?",
+        "options": [
+          "Food and energy",
+          "Rent and wages",
+          "Taxes and tariffs"
+        ],
+        "answer": 0,
+        "why": "Core CPI excludes food and energy.",
+        "story": "economics"
+      },
+      {
+        "q": "Which mission’s rocks did the Nanjing University team study?",
+        "options": [
+          "Chang’e-6",
+          "Apollo 11",
+          "Luna 9"
+        ],
+        "answer": 0,
+        "why": "They studied far-side rocks returned by Chang’e-6.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Riyadh’s airport closure was extended through 17 October.",
+        "true": true,
+        "why": "Saudi aviation extended the shutdown through 17 October.",
+        "story": "lead"
+      },
+      {
+        "claim": "Russia’s foreign minister welcomed the energy ceasefire.",
+        "true": false,
+        "why": "Sergey Lavrov rejected any pause in the fighting.",
+        "story": "world"
+      },
+      {
+        "claim": "The Fed’s inflation target is 2 percent.",
+        "true": true,
+        "why": "The paper says the Fed’s annual inflation target is 2 percent.",
+        "story": "economics"
+      },
+      {
+        "claim": "The Chang’e-6 study says the far-side crust is less magnesium-rich than the near side’s Apollo samples.",
+        "true": false,
+        "why": "It says the far-side crust is more magnesium-rich.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  }
+}
