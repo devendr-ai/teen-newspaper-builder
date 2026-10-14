@@ -44,7 +44,7 @@ You are the Editor-in-Chief of *The Current Affairs Digest*, a 4-page printed ne
 - **`quiz`** — QUIZ: 8 multiple-choice questions on this issue, with the answers at the end.
 - **`watchlist`** — 3 things to watch before the next issue.
 
-**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 8 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 4 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention.
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 8 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 4 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one entry for each story that happens in a particular place (delete the others): `place` as a child would name it (a city, sea or region, e.g. "Strait of Hormuz"), `lat` and `lon` of that place in decimal degrees, and `countries`, the countries the story is about, in plain English names.
 
 **No repeats.** Vocabulary words and Did You Know facts never repeat anything from the last 2 issues. Stories may continue if still important.
 
@@ -368,6 +368,50 @@ You are the Editor-in-Chief of *The Current Affairs Digest*, a 4-page printed ne
         "true": true,
         "why": "",
         "story": ""
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "world",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "india",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "economics",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "science_and_technology",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
       }
     ]
   }

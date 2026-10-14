@@ -123,7 +123,10 @@ def generate(ed, chat=None):
                  f"the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of "
                  f"the story it comes from. `fact_or_fiction`: {nf} short claims about this issue, at least one true "
                  f"and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true "
-                 f"changes one detail of the story; it is never a scary or silly invention.\n")
+                 f"changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one "
+                 f"entry for each story that happens in a particular place (delete the others): `place` as a child "
+                 f"would name it (a city, sea or region, e.g. \"Strait of Hormuz\"), `lat` and `lon` of that place in "
+                 f"decimal degrees, and `countries`, the countries the story is about, in plain English names.\n")
     n = ed["teaching"]["repeat_window"]
     types = {ed["blocks"][b]["type"] for b in placed_blocks(ed)}
     things = [x for t, x in (("vocab", "Vocabulary words"), ("did_you_know", "Did You Know facts")) if t in types]

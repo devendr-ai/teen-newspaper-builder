@@ -1,8 +1,8 @@
 """Read & Play: the children's side of the site, built from the same issues as the PDFs."""
+import html
 import json
 import os
 import re
-import shutil
 
 import pytest
 
@@ -37,8 +37,9 @@ def test_a_young_readers_issue_reads_one_story_per_screen_with_words_to_tap(buil
     assert page.count('class="w"') >= 1                              # new words highlighted in the stories
     assert "For grown-ups: sources" in page and 'href="../../play/play.css"' in page
     assert 'href="../../e/little-explorers/index.html"' in page          # back to the print side
-    if shutil.which("pdftoppm"):
-        assert any(f.endswith(".png") for f in os.listdir(built / "little-explorers"))
+    assert '<svg class="scene"' in page and 'class="where"' in page              # a moving picture, a real map
+    assert 'src="../../play/world.js"' in page and (built / "world.js").exists()
+    assert 'class="trail"' in page and 'class="desk"' in page
 
 
 def test_older_readers_scroll_and_papers_without_new_words_get_story_match(built):
@@ -93,17 +94,108 @@ def test_skeleton_and_instructions_ask_for_play_but_not_for_parents_chatbots():
     from ygc import chat, prompt, skeleton
     ed = edition.load("little-explorers")
     assert len(skeleton.make(ed, "2026-10-17", 2)["play"]["quiz"]) == 3          # ages 6-8: 3 questions
+    assert [w["story"] for w in skeleton.make(ed, "2026-10-17", 2)["play"]["where"]] == edition.story_blocks(ed)
     assert "play" not in skeleton.make(ed, "2026-10-17", 2, play=False)
     assert "**Play (online only" in prompt.generate(ed)
     assert "**Play (online only" not in chat.instructions(ed, "2026-10-17") and '"play"' not in chat.instructions(ed, "2026-10-17")
     assert skeleton.play_counts(edition.load("current-affairs-digest")) == (8, 4)
 
 
-def test_the_page_carries_the_games_and_links_answers_to_their_story(tmp_path):
+def test_the_page_carries_the_games_and_links_answers_to_their_story():
     ed, issue = _little(PLAY)
-    secs, data = play.sections(ed, issue, "2026-10-10", str(tmp_path))
+    secs, data, _ = play.sections(ed, issue, "2026-10-10")
     assert [q["answer"] for q in data["quiz"]] == [1, 0, 1] and [f["true"] for f in data["facts"]] == [True, False]
-    bids = [b for _, b, _ in secs]
+    bids = [b for _, b, _, _ in secs]
     assert data["quiz"][0]["card"] == bids.index("lead") and data["facts"][1]["card"] == bids.index("science_and_technology")
-    _, plain_data = play.sections(*_little({})[0:2], "2026-10-10", str(tmp_path))
+    _, plain_data, _ = play.sections(*_little({})[0:2], "2026-10-10")
     assert plain_data["quiz"] == [] and plain_data["facts"] == []
+
+
+# ------------------------------------------------------------------ pictures that move, charts that grow, maps
+def test_the_lobby_has_a_map_of_todays_stories(built):
+    lobby = (built / "index.html").read_text(encoding="utf-8")
+    pins = json.loads(html.unescape(re.search(r'data-pins="([^"]*)"', lobby).group(1)))
+    assert pins and all(-90 <= p["lat"] <= 90 and -180 <= p["lon"] <= 180 and p["place"] and "#s-" in p["u"] for p in pins)
+    for p in pins:                                                     # each pin opens its story's card
+        page, bid = p["u"].split("#")
+        assert f'id="{bid}"' in (built / page).read_text(encoding="utf-8")
+    assert "India's official maps" in lobby
+
+
+def test_every_printed_picture_has_a_moving_one():
+    from xml.etree import ElementTree
+    from ygc import scenes
+    from ygc.graphics import IllustrationCard
+    assert set(IllustrationCard.known_motifs()) <= set(scenes.SCENES)
+    for motif in scenes.SCENES:
+        svg = ElementTree.fromstring(scenes.scene(motif, "A & B"))     # well-formed, labelled
+        assert svg.get("aria-label") == "A & B" and svg.get("viewBox") == "0 0 340 150"
+    assert 'aria-label="mystery"' in scenes.scene("mystery", "mystery")       # an unknown motif still draws
+    ElementTree.fromstring(scenes.sketch_map({"label_top": "R&D <here>"}))
+    assert "prefers-reduced-motion" in scenes.CSS
+
+
+def test_charts_grow_from_the_printed_numbers():
+    out = play.chart_html({"title": "POLL", "labels": ["Yes", "No"], "values": [52, 38.5], "max": 60, "value_prefix": "$",
+                           "highlight_after": 0, "caption": "Oct 5"})
+    assert out.count('<div class="bc"') + out.count('<div class="bc hi"') == 2 and 'class="bc hi"' in out and "--h:86.7\"" in out
+    assert 'data-v="52"' in out and 'data-v="38.5"' in out and "$<b" in out and "Yes: $52; No: $38.5" in out
+    assert play.chart_html({"values": []}) == ""
+
+
+def test_sections_get_a_colour_and_an_icon():
+    assert play.desk("TOP STORY  •  SAUDI ARABIA AND YEMEN", "lead")[1:] == ("⭐", "coral")
+    assert play.desk("SCIENCE & TECH  •  PHYSICS")[1:] == ("🔬", "violet")
+    assert play.desk("WORLD  •  RUSSIA AND UKRAINE") == ("World", "🌍", "teal")
+    assert play.desk("", "mystery_section")[1] == "📰"
+    assert play.nice("SAUDI ARABIA AND YEMEN") == "Saudi Arabia and Yemen" and play.nice("El Niño") == "El Niño"
+
+
+def test_the_world_map_shows_indias_borders_as_indias_maps_do():
+    from ygc import world
+    india = world.by_name()["India"]
+    assert india["d"] and india["box"][1] < world.project(77, 36.5)[1]          # all of Jammu and Kashmir
+    assert "Antarctica" not in world.by_name() and len(world.countries()) > 200
+    x, y = world.project(0, 0)
+    assert abs(x - world.W / 2) < 1e-6 and abs(y - world.H / 2) < 1e-6
+    data = json.loads(world.world_js()[len("window.WORLD="):-2])
+    assert data["w"] == 1000 and len(data["c"]) > 150 and ["Delhi", "India", 28.61, 77.21] in data["cities"]
+
+
+@pytest.mark.parametrize("text, countries, place", [
+    ("TOP STORY  •  SAUDI ARABIA AND YEMEN", ["Saudi Arabia", "Yemen"], None),
+    ("US tariffs hit Indian rice; talks in New Delhi", ["United States", "India"], "Delhi"),
+    ("Storm heads for New Mexico and the Indian Ocean", [], "Indian Ocean"),
+    ("Join us at the UK science fair", ["United Kingdom"], None),
+    ("A Thanksgiving turkey and a sweet chile", [], None),
+    ("Ships queue at the Strait of Hormuz", [], "Strait of Hormuz"),
+])
+def test_places_named_in_the_news_are_found(text, countries, place):
+    from ygc import world
+    assert world.find(text) == (countries, place)
+
+
+def test_a_storys_place_comes_from_play_where_or_its_words():
+    w = play.where_of({"kicker": "WORLD  •  RUSSIA AND UKRAINE", "headline": "Talks"})
+    assert w["countries"] == ["Russia", "Ukraine"] and w["place"] == ""
+    w = play.where_of({"headline": "Anything"}, {"place": "Red Sea", "lat": 20, "lon": 38.5, "countries": ["Saudi Arabia", "Narnia"]})
+    assert (w["place"], w["lat"], w["lon"], w["countries"]) == ("Red Sea", 20, 38.5, ["Saudi Arabia"])
+    assert play.where_of({"headline": "A new robot can fold laundry"}) is None
+    page = play.where_html(play.where_of({"headline": "Rain in Mumbai"}), heading=True)
+    assert 'data-lat="19.08"' in page and "Mumbai" in page and "Where in the world?" in page
+
+
+def test_play_where_is_checked():
+    from ygc import checks
+    good = dict(PLAY, where=[{"story": "lead", "place": "Pacific Ocean", "lat": 5, "lon": -160, "countries": []}])
+    ed, issue = _little(good)
+    r = checks.check_issue(ed, issue, "x/2026-10-10.json", archive=True)
+    assert not [e for e in r.errors if "play" in e]
+    ed, bad = _little(dict(PLAY, where=[{"story": "lead", "place": "", "lat": 95, "lon": "east", "countries": ["Narnia"]},
+                                        {"story": "lead", "place": "Oslo", "lat": 59.9, "lon": 10.7, "countries": ["Norway"]},
+                                        {"story": "mars", "place": "Mars", "lat": 0, "lon": 0}]))
+    r = checks.check_issue(ed, bad, "x/2026-10-10.json", archive=True)
+    errs = " ".join(r.errors)
+    for needle in ("place is empty", "lat must be", "lon must be", "listed twice", "'mars'"):
+        assert needle in errs, needle
+    assert any("Narnia" in n for n in r.notes)
