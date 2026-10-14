@@ -20,6 +20,17 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Read & Play comes alive: moving pictures for every illustration motif
+  (`ygc/scenes.py`), bar charts that grow and count up, a colour and icon per
+  section, a 🚀 trail and swipe-in cards for younger readers, and confetti at the
+  end of the paper and for three stars. All of it stops for "reduce motion".
+- "Where in the world?" maps (`ygc/world.py`, `data/world/`): real country
+  shapes from Natural Earth's India point-of-view edition, a zoom from the whole
+  world to the story's place, and a line and distance from the reader's city.
+  The lobby gets a map of today's stories. Issues now carry `play.where` (the
+  place, its latitude and longitude, and its countries), asked for by prompts
+  and checked; older issues get their place from the names in their headlines.
+- Read & Play no longer needs `pdftoppm`: story pictures are drawn in the page.
 - Read & Play games: a hidden `play` section in each issue (quiz questions with
   three answers, and true-or-not claims, sized by age) that skeletons and
   prompts ask for and `check` validates; Read & Play turns it into a Quiz and

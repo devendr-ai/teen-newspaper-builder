@@ -12,21 +12,52 @@ import html
 import json
 import os
 import re
-import shutil
-import subprocess
 
-from reportlab.lib.units import inch
-from reportlab.pdfgen.canvas import Canvas
-
-from . import edition
+from . import edition, scenes, world
 from .chat import sentences
-from .graphics import BarChart, IllustrationCard, StyledMap
 
 E = html.escape
 BANDS = ["Ages 6–8", "Ages 9–11", "Ages 12–14", "Ages 15+"]
 CARD_BANDS = {"Ages 6–8", "Ages 9–11"}          # one story per screen
-GRAPHICS = (("map", StyledMap, 1.7), ("illustration", IllustrationCard, 1.4), ("chart", BarChart, 1.8))
 SKIP = {"quote", "watchlist", "sign_off"}       # print-only sections
+
+# Each section gets an icon and a colour, from the words in its kicker (or its id).
+DESKS = [
+    (("top story", "lead"), "⭐", "coral"),
+    (("space", "astronomy", "rocket", "moon", "planet"), "🔭", "violet"),
+    (("science", "tech", "ai", "robot", "invent", "physics", "computer"), "🔬", "violet"),
+    (("climate", "environment", "weather", "nature", "animal", "wildlife", "ocean"), "🌱", "leaf"),
+    (("health", "medicine", "doctor"), "🩺", "rose"),
+    (("sport", "sports", "cricket", "football", "olympics", "tennis", "f1", "game"), "🏅", "sun"),
+    (("money", "economy", "business", "trade", "fuel", "prices", "jobs"), "💰", "sun"),
+    (("politics", "civics", "election", "elections", "vote", "voting", "democracy", "law", "court"), "🗳️", "teal"),
+    (("history", "on this day"), "📜", "sand"),
+    (("art", "arts", "culture", "music", "film", "books"), "🎨", "rose"),
+    (("my city", "local", "city"), "🏙️", "sky"),
+    (("india",), "🪔", "coral"),
+    (("world", "europe", "asia", "africa", "america", "americas", "united states", "united kingdom", "middle east",
+      "global", "international"), "🌍", "teal"),
+]
+
+
+def nice(text):
+    """'SAUDI ARABIA AND YEMEN' as 'Saudi Arabia and Yemen' (kickers are printed in capitals)."""
+    if not text.isupper():
+        return text
+    small = {"and", "of", "the", "in", "on", "for", "to", "a", "at", "by", "or", "vs"}
+    return " ".join(w.lower() if i and w.lower() in small else w.capitalize() for i, w in enumerate(text.split()))
+
+
+def desk(kicker, bid=""):
+    """(name, icon, colour) for a section, from the first part of its kicker ("WORLD  •  RUSSIA")."""
+    k = plain(kicker or "")
+    name = k.split("•")[0].strip()
+    for text in (name, k, bid.replace("_", " ")):
+        low = text.lower()
+        for words, icon, tone in DESKS:
+            if any(re.search(rf"\b{re.escape(w)}\b", low) for w in words):
+                return nice(name) if "•" in k else "", icon, tone
+    return nice(name) if "•" in k else "", "📰", "teal"
 
 
 # ------------------------------------------------------------------ text
@@ -75,53 +106,128 @@ def _sentences(text, vocab, used):
     return " ".join(f'<span class="s">{_highlight(clean(s), vocab, used)}</span>' for s in sentences(plain(text)))
 
 
-# ------------------------------------------------------------------ pictures
-def picture(kind, spec, path):
-    """Draw a story's map, illustration or chart as a PNG (needs pdftoppm)."""
-    if not shutil.which("pdftoppm"):
-        return False
-    cls, h = next((c, h) for k, c, h in GRAPHICS if k == kind)
-    w, h = 3.4 * inch, h * inch
-    pdf = path[:-4] + ".pdf"
-    try:
-        f = cls(spec, width=w, height=h)
-        c = Canvas(pdf, pagesize=(w, h))
-        f.wrapOn(c, w, h)
-        f.drawOn(c, 0, 0)
-        c.save()
-        subprocess.run(["pdftoppm", "-png", "-r", "150", "-singlefile", pdf, path[:-4]], check=True,
-                       capture_output=True)
-        return os.path.exists(path)
-    except Exception:
-        return False
-    finally:
-        if os.path.exists(pdf):
-            os.remove(pdf)
+# ------------------------------------------------------------------ pictures, charts, maps
+def chart_html(spec):
+    """A printed bar chart as bars that grow when they come into view (play.js counts the numbers up)."""
+    s = spec or {}
+    vals = [v for v in s.get("values") or [] if isinstance(v, (int, float)) and not isinstance(v, bool)]
+    if not vals:
+        return ""
+    top = s.get("max") or max(vals) or 1
+    pre, hi, labels = E(str(s.get("value_prefix", ""))), s.get("highlight_after", -1), s.get("labels") or []
+    lab = lambda i: plain(labels[i]).replace("\n", " ") if i < len(labels) else ""
+    bars = "".join(
+        f'<div class="bc{" hi" if i > hi else ""}" style="--h:{max(0, min(100, v / top * 100)):.1f}">'
+        f'<span class="v">{pre}<b data-v="{v:g}">{v:g}</b></span><i></i><span class="l">{E(lab(i))}</span></div>'
+        for i, v in enumerate(vals))
+    said = "; ".join(f"{lab(i)}: {plain(s.get('value_prefix', ''))}{v:g}" for i, v in enumerate(vals))
+    cap = plain(s.get("caption", ""))
+    return (f'<figure class="chart"><p class="ct"><b>{E(plain(s.get("title", "")))}</b> <span>{E(plain(s.get("subtitle", "")))}</span></p>'
+            f'<div class="bars" role="img" aria-label="{E(plain(s.get("title", "")))}. {E(said)}">{bars}</div>'
+            + (f"<figcaption>{E(cap)}</figcaption>" if cap else "") + "</figure>")
+
+
+def scene_html(kind, spec):
+    """A printed illustration (or a map with no country we know) as a moving picture."""
+    s = spec or {}
+    cap = plain(s.get("caption", ""))
+    title = plain(s.get("title", ""))
+    svg = scenes.scene(s.get("motif", ""), cap or title) if kind == "illustration" else scenes.sketch_map(s, cap or title)
+    badge = f'<span class="badge">{E(nice(title))}</span>' if title and kind == "illustration" else ""
+    return f'<figure class="pic">{badge}{svg}' + (f"<figcaption>{E(cap)}</figcaption>" if cap else "") + "</figure>"
+
+
+def where_of(story, given=None):
+    """Where a story happens: from the issue's play.where if it says, else the places its kicker, headline,
+    deck or printed map name. None when it names nowhere."""
+    lat = lon = None
+    place = ""
+    if given:
+        ccs = [n for n in (world.country_name(c) for c in given.get("countries") or []) if n]
+        place = plain(given.get("place", "")).strip()
+        try:
+            lat, lon = float(given["lat"]), float(given["lon"])
+            if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+                lat = lon = None
+        except (KeyError, TypeError, ValueError):
+            pass
+    else:
+        m = story.get("map") or {}
+        ccs, city = world.find(story.get("kicker"), story.get("headline"), story.get("deck"),
+                               m.get("label_top"), m.get("label_bottom"), m.get("title"))
+        if not ccs and not city:                 # last try: the first place the story itself names
+            ccs, city = world.find(*(story.get("body") or [])[:2])
+            ccs = ccs[:1]
+        if city:
+            place, (lat, lon) = city, world.city(city)
+    ccs = [c for c in dict.fromkeys(ccs)][:6]
+    if lat is None and ccs:
+        lon, lat = world.by_name()[ccs[0]]["label"]
+    if lat is None:
+        return None
+    x, y = world.project(lon, lat)
+    boxes = [world.by_name()[c]["box"] for c in ccs] + [(x, y, x, y)]
+    box = (min(b[0] for b in boxes), min(b[1] for b in boxes), max(b[2] for b in boxes), max(b[3] for b in boxes))
+    return {"place": place, "countries": ccs, "lat": round(lat, 3), "lon": round(lon, 3),
+            "box": " ".join(f"{v:.1f}" for v in box)}
+
+
+def place_name(w):
+    return w["place"] or ", ".join(world.DISPLAY.get(c, c) for c in w["countries"][:3])
+
+
+def where_html(w, heading=False):
+    names = [world.DISPLAY.get(c, c) for c in w["countries"]]
+    label = place_name(w)
+    more = ", ".join(n for n in names if n != w["place"])[:80] if w["place"] else ""
+    return (f'<figure class="where" data-c="{E("|".join(w["countries"]))}" data-lat="{w["lat"]}" data-lon="{w["lon"]}" '
+            f'data-box="{w["box"]}">' + ('<h3 class="wh">🗺️ Where in the world?</h3>' if heading else "")
+            + f'<div class="map" role="img" aria-label="A world map with a pin on {E(label)}"></div>'
+              f'<figcaption><span class="here">📍 <b>{E(label)}</b>{f" · {E(more)}" if more else ""}</span>'
+              f'<span class="far" aria-live="polite"></span>'
+              f'<button type="button" class="zoom">🌍 Whole world</button></figcaption></figure>')
 
 
 # ------------------------------------------------------------------ one issue
-def sections(ed, issue, date, imgdir):
-    """[(kind, html)] in reading order, plus the data the games need."""
+def top_figure(story, w):
+    """The picture at the top of a story card: its real map, moving picture, or growing chart."""
+    if story.get("map"):
+        return where_html(w) if w else scene_html("map", story["map"])
+    if story.get("illustration"):
+        return scene_html("illustration", story["illustration"])
+    if story.get("chart"):
+        return chart_html(story["chart"])
+    return ""
+
+
+def sections(ed, issue, date):
+    """[(kind, block id, html, colour)] in reading order, the data the games need, and where each story happens."""
     blocks = issue.get("blocks", {})
     vocab = vocab_of(issue)
     used = set()
-    out, stories = [], []
+    out, stories, places = [], [], []
     briefs = []
+    play = issue.get("play") if isinstance(issue.get("play"), dict) else {}
+    given = {w.get("story"): w for w in play.get("where") or [] if isinstance(w, dict)}
+
+    def kick(icon, name, topic=""):
+        name = f'<span class="desk"><span aria-hidden="true">{icon}</span> {E(name)}</span>' if name else f'<span class="desk solo" aria-hidden="true">{icon}</span>'
+        return f'<p class="kicker">{name}{f" {E(topic)}" if topic else ""}</p>'
+
     for bid in edition.placed_blocks(ed):
         cfg, b = ed["blocks"][bid], blocks.get(bid)
         t = cfg["type"]
         if not isinstance(b, dict) or t in SKIP or bid == "quiz":
             continue
         if t == "story":
-            kicker = plain(b.get("kicker", "")).split("•")[-1].strip() or plain(b.get("kicker", ""))
-            img = ""
-            for kind, _, _ in GRAPHICS:
-                if b.get(kind):
-                    fn = f"{date}-{bid}-{kind}.png"
-                    if picture(kind, b[kind], os.path.join(imgdir, fn)):
-                        cap = plain(b[kind].get("caption", ""))
-                        img = f'<figure><img src="{fn}" alt="{E(cap or kind)}" loading="lazy"><figcaption>{E(cap)}</figcaption></figure>'
-                    break
+            k = plain(b.get("kicker", ""))
+            topic = k.split("•")[-1].strip() if "•" in k else k
+            name, icon, tone = desk(k, bid)
+            w = where_of(b, given.get(bid))
+            top = top_figure(b, w)
+            below = where_html(w, heading=True) if w and not b.get("map") else ""
+            if w:
+                places.append((bid, plain(b.get("headline", "")), w))
             body = "".join(f"<p>{_sentences(p, vocab, used)}</p>" for p in b.get("body", []) if str(p).strip())
             boxes = "".join(
                 f'<aside class="box"><h3>{E(ed["labels"][x].capitalize())}</h3><p>{_sentences(b[x], vocab, used)}</p></aside>'
@@ -129,33 +235,34 @@ def sections(ed, issue, date, imgdir):
             src = "".join(f'<li><a href="{E(s.get("url", "") if isinstance(s, dict) else s)}" rel="noopener" target="_blank">'
                           f'{E((s.get("title") or s.get("outlet") or s.get("url", "")) if isinstance(s, dict) else s)}</a></li>'
                           for s in b.get("sources", []) or [])
-            out.append(("story", bid, f'''<p class="kicker">{E(kicker)}</p>
+            out.append(("story", bid, f'''{kick(icon, name, nice(topic))}
 <h2><span class="s">{clean(b.get("headline", ""))}</span></h2>
 {f'<p class="deck"><span class="s">{clean(b["deck"])}</span></p>' if b.get("deck") else ""}
-{img}<div class="text">{body}</div>{boxes}
-{f'<details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details>' if src else ""}'''))
+{top}<div class="text">{body}</div>{below}{boxes}
+{f'<details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details>' if src else ""}''', tone))
             first = plain(b.get("body", [""])[0]) if b.get("body") else ""
             stories.append({"headline": plain(b.get("headline", "")), "first": (sentences(first) or [""])[0]})
         elif t == "feature":
             body = "".join(f"<p>{_sentences(p, vocab, used)}</p>" for p in b.get("body", []) if str(p).strip())
-            out.append(("feature", bid, f'<p class="kicker">{E(cfg.get("label", "").title())}</p>'
-                                   f'<h2><span class="s">{clean(b.get("title", ""))}</span></h2><div class="text">{body}</div>'))
+            label = cfg.get("label", "").title()
+            _, icon, tone = desk(label, bid)
+            out.append(("feature", bid, f'{kick(icon, label)}'
+                                   f'<h2><span class="s">{clean(b.get("title", ""))}</span></h2><div class="text">{body}</div>', tone))
         elif t == "did_you_know" and b.get("text"):
-            out.append(("fact", bid, f'<p class="kicker">Did you know?</p><h2 class="big"><span class="s">{clean(b["text"])}</span></h2>'))
+            out.append(("fact", bid, f'{kick("💡", "Did you know?")}<h2 class="big"><span class="s">{clean(b["text"])}</span></h2>', "sun"))
         elif t == "sports" and b.get("body"):
-            out.append(("feature", bid, f'<p class="kicker">Sport</p><h2><span class="s">{clean(b.get("title", ""))}</span></h2>'
-                                   f'<div class="text"><p>{_sentences(b["body"], vocab, used)}</p></div>'))
+            out.append(("feature", bid, f'{kick("🏅", "Sport")}<h2><span class="s">{clean(b.get("title", ""))}</span></h2>'
+                                   f'<div class="text"><p>{_sentences(b["body"], vocab, used)}</p></div>', "sun"))
         elif t == "briefs":
             briefs += [x for x in b.get("items", []) if str(x).strip()]
     if briefs:
-        out.append(("briefs", "briefs", '<p class="kicker">In brief</p><h2><span class="s">More news</span></h2><ul class="text">'
-                    + "".join(f"<li>{_sentences(x, vocab, used)}</li>" for x in briefs) + "</ul>"))
+        out.append(("briefs", "briefs", f'{kick("🗞️", "In brief")}<h2><span class="s">More news</span></h2><ul class="text">'
+                    + "".join(f"<li>{_sentences(x, vocab, used)}</li>" for x in briefs) + "</ul>", "sky"))
     if vocab:
-        out.append(("words", "words", '<p class="kicker">New words</p><h2><span class="s">Words from this issue</span></h2><dl class="words">'
+        out.append(("words", "words", f'{kick("🔤", "New words")}<h2><span class="s">Words from this issue</span></h2><dl class="words">'
                     + "".join(f'<dt><span class="s">{E(v["word"])}</span></dt><dd><span class="s">{E(v["meaning"])}</span>'
-                              + (f' <i>Today: {E(v["today"])}</i>' if v["today"] else "") + "</dd>" for v in vocab) + "</dl>"))
-    at = {bid: i for i, (_, bid, _) in enumerate(out)}
-    play = issue.get("play") if isinstance(issue.get("play"), dict) else {}
+                              + (f' <i>Today: {E(v["today"])}</i>' if v["today"] else "") + "</dd>" for v in vocab) + "</dl>", "violet"))
+    at = {bid: i for i, (_, bid, _, _) in enumerate(out)}
     quiz = [{"q": plain(q["q"]), "options": [plain(o) for o in q["options"]], "answer": q["answer"],
              "why": plain(q.get("why", "")), "card": at.get(q.get("story"), -1)}
             for q in play.get("quiz") or [] if isinstance(q, dict) and q.get("q") and len(q.get("options") or []) == 3
@@ -163,13 +270,14 @@ def sections(ed, issue, date, imgdir):
     facts = [{"claim": plain(f["claim"]), "true": bool(f["true"]), "why": plain(f.get("why", "")),
               "card": at.get(f.get("story"), -1)}
              for f in play.get("fact_or_fiction") or [] if isinstance(f, dict) and f.get("claim") and isinstance(f.get("true"), bool)]
-    return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts}
+    return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts}, places
 
 
-def issue_page(cfg, ed, band, issue, date, imgdir, others):
-    secs, data = sections(ed, issue, date, imgdir)
-    cards = "".join(f'<section class="card {k}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
-                    f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h) in enumerate(secs))
+def issue_page(cfg, ed, band, issue, date, others):
+    """The page, and where its stories happen (for the lobby's map)."""
+    secs, data, places = sections(ed, issue, date)
+    cards = "".join(f'<section class="card {k} t-{tone}" id="s-{E(b)}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
+                    f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h, tone) in enumerate(secs))
     d = dt.date.fromisoformat(date)
     mode = "cards" if band in CARD_BANDS else "scroll"
     earlier = "".join(f'<option value="{o}.html"{" selected" if o == date else ""}>{dt.date.fromisoformat(o):%a %d %b}</option>'
@@ -184,7 +292,7 @@ def issue_page(cfg, ed, band, issue, date, imgdir, others):
 <div class="title"><h1>{E(ed["name"])}</h1><p>{d:%A %d %B %Y} · No. {E(str(issue.get("issue", "")))}</p>
 <nav class="tabs" role="tablist"><button type="button" role="tab" data-tab="read" aria-selected="true">Read</button><button type="button" role="tab" data-tab="play" aria-selected="false">Play</button></nav></div>
 <div id="read" role="tabpanel">
-<div class="dots" aria-hidden="true"></div>
+<div class="trail" aria-hidden="true"><div class="track"><i></i><b class="walker">🚀</b><b class="flag">🏁</b></div><span class="count"></span></div>
 {cards}
 <section class="card end" data-i="{len(secs)}"><h2>You read today's paper! 🎉</h2><p>Ready for a game?</p>
 <button type="button" class="big go" data-tab="play">Play now</button></section>
@@ -197,7 +305,7 @@ def issue_page(cfg, ed, band, issue, date, imgdir, others):
 <div id="pop" role="dialog" aria-modal="false" hidden><button type="button" class="x" aria-label="Close">✕</button><h3></h3><p class="m"></p><p class="t"></p>
 <button type="button" class="say">🔊 Say it</button></div>
 <script id="data" type="application/json">{json.dumps(data, ensure_ascii=False).replace("</", "<\\/")}</script>'''
-    return shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../")
+    return shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../"), places
 
 
 # ------------------------------------------------------------------ the space
@@ -207,17 +315,19 @@ def shell(cfg, title, body, root=""):
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}play/play.css"></head><body>{body}<script src="{root}play/play.js"></script></body></html>"""
+<link rel="stylesheet" href="{root}play/play.css"></head><body>{body}
+<script src="{root}play/world.js"></script><script src="{root}play/play.js"></script></body></html>"""
 
 
 def build(out, cfg, keep=7, log=print):
-    """Write out/play/: the Who's reading? page, and a page per recent issue of every listed paper."""
+    """Write out/play/: the Who's reading? page with today's news map, and a page per recent issue of every listed paper."""
     from .site import audience, issues_of, lead_headline
     pdir = os.path.join(out, "play")
     os.makedirs(pdir, exist_ok=True)
-    open(os.path.join(pdir, "play.css"), "w", encoding="utf-8").write(CSS)
+    open(os.path.join(pdir, "play.css"), "w", encoding="utf-8").write(CSS + scenes.CSS)
     open(os.path.join(pdir, "play.js"), "w", encoding="utf-8").write(JS)
-    tiles = []
+    open(os.path.join(pdir, "world.js"), "w", encoding="utf-8").write(world.world_js())
+    tiles, pins = [], []
     for eid in edition.list_editions():
         ed = edition.load(eid)
         if (ed.get("site") or {}).get("listed") is False:
@@ -228,31 +338,39 @@ def build(out, cfg, keep=7, log=print):
             continue
         edir = os.path.join(pdir, eid)
         os.makedirs(edir, exist_ok=True)
-        lead_img, latest = "", None
+        latest = None
         for date, path in issues_of(ed)[:keep]:
             issue = json.load(open(path, encoding="utf-8"))
             try:
-                html_ = issue_page(cfg, ed, band, issue, date, edir, dates)
+                html_, places = issue_page(cfg, ed, band, issue, date, dates)
             except Exception as e:
                 log(f"  ! play {eid} {date}: {e}")
                 continue
             open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(html_)
-            if date == dates[0]:
-                imgs = sorted(f for f in os.listdir(edir) if f.startswith(f"{date}-lead-") and f.endswith(".png"))
-                lead_img = f'<img src="{eid}/{imgs[0]}" alt="" loading="lazy">' if imgs else ""
-                latest = (date, lead_headline(ed, issue))
+            if not latest:
+                latest = (date, lead_headline(ed, issue), issue)
+                pins += [{"lat": w["lat"], "lon": w["lon"], "h": h, "p": ed["name"], "b": band, "place": place_name(w),
+                          "u": f"{eid}/{date}.html#s-{bid}"} for bid, h, w in places]
         if not latest:
             continue
+        lead = next((latest[2]["blocks"].get(b) for b in edition.story_blocks(ed)
+                     if isinstance(latest[2]["blocks"].get(b), dict)), None) or {}
+        fig = top_figure(lead, None if lead.get("illustration") or lead.get("chart") else where_of(lead))
         tiles.append((BANDS.index(band) if band in BANDS else 9, ed["name"], f'''<article class="tile" data-band="{E(band)}">
-{lead_img}<h2>{E(ed["name"])}</h2><p class="when">{E(band)} · {dt.date.fromisoformat(latest[0]):%a %d %b}</p>
+{fig}<h2>{E(ed["name"])}</h2><p class="when">{E(band)} · {dt.date.fromisoformat(latest[0]):%a %d %b}</p>
 <p>{E(latest[1])}</p><div class="go2"><a class="big go" href="{eid}/{latest[0]}.html">Read</a><a class="big" href="{eid}/{latest[0]}.html#play">Play</a></div></article>'''))
         log(f"  play {eid}: {len(dates)} issue(s)")
     who = "".join(f'<button type="button" class="who" data-band="{E(b)}">{E(b.replace("Ages ", ""))}</button>' for b in BANDS)
+    news_map = (f'''<section class="newsmap"><h2>🗺️ Where's the news today?</h2><p class="how">Tap a pin to see the story.</p>
+<figure class="where wide" data-pins="{E(json.dumps(pins, ensure_ascii=False))}"><div class="map" role="img" aria-label="A world map with a pin for each of today's stories"></div>
+<figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
+                if pins else "")
     body = f'''<header class="bar"><a class="home" href="../index.html">← {E(cfg["title"])} (grown-ups)</a></header>
 <main class="lobby"><h1>Read &amp; Play</h1><p class="lede">Today's news, read to you if you like, with a game at the end.</p>
 <h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div>
-<div class="tiles">{"".join(t[2] for t in sorted(tiles))}</div>
-<p class="note">For grown-ups: nothing here is tracked. Settings and stars stay on this device.</p></main>'''
+{news_map}<div class="tiles">{"".join(t[2] for t in sorted(tiles))}</div>
+<p class="note">For grown-ups: nothing here is tracked. Settings and stars stay on this device. Maps show India's borders as on
+India's official maps (Natural Earth, India view).</p></main>'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
 
 
@@ -261,7 +379,9 @@ CSS = r"""
 --sun-t:#FFE9A8;--leaf:#2E7D4F;--leaf-t:#DDF2E4;--rose-t:#FBE1DE;--fs:19px;--lh:1.7;
 --display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;--text:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
 box-sizing:border-box}
-:root[data-theme="night"]{--bg:#12181C;--card:#1B242A;--ink:#E8EEEC;--muted:#A3B0B6;--line:#2C3940;--sun-t:#5A4A12;--leaf-t:#173326;--rose-t:#3B2224}
+:root{--sea:#CFE8F3;--land:#EADFC4;--map-line:#FFFFFF;--bar:#A9BCC4}
+:root[data-theme="night"]{--bg:#12181C;--card:#1B242A;--ink:#E8EEEC;--muted:#A3B0B6;--line:#2C3940;--sun-t:#5A4A12;--leaf-t:#173326;--rose-t:#3B2224;
+  --sea:#17323F;--land:#45524C;--map-line:#1B242A;--bar:#5F7480}
 *,*::before,*::after{box-sizing:inherit}
 [hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font:var(--fs)/var(--lh) var(--text);-webkit-text-size-adjust:100%}
@@ -281,10 +401,55 @@ button:focus-visible,a:focus-visible,select:focus-visible,mark:focus-visible{out
 .tabs button[aria-selected="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
 .card{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:18px 18px 20px;margin:0 0 16px;position:relative}
 .card h2{font-size:1.45em;margin:4px 0 8px}.card h2.big{font-size:1.3em;line-height:1.35}
-.kicker{margin:0;font-size:.72em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--coral)}
+.kicker{margin:0;font-size:.72em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--tone-ink,var(--coral))}
+/* each section's colour and icon */
+.t-coral{--tone:#E2584D;--tone-t:#FBE1DE;--tone-ink:#B23A30}.t-teal{--tone:#007C89;--tone-t:#D6EEF0;--tone-ink:#00606A}
+.t-violet{--tone:#6B5BD2;--tone-t:#E7E3FA;--tone-ink:#4D3FB0}.t-leaf{--tone:#2E7D4F;--tone-t:#DDF2E4;--tone-ink:#236140}
+.t-sun{--tone:#E0A100;--tone-t:#FFF0C2;--tone-ink:#7A5700}.t-rose{--tone:#D0487A;--tone-t:#FADDE8;--tone-ink:#A4305B}
+.t-sky{--tone:#2B83C6;--tone-t:#DCEBF7;--tone-ink:#1D669E}.t-sand{--tone:#A9793F;--tone-t:#F3E7D3;--tone-ink:#7D5626}
+:root[data-theme="night"] [class*=" t-"]{--tone-t:color-mix(in srgb,var(--tone) 30%,#1B242A);--tone-ink:color-mix(in srgb,var(--tone) 45%,#FFFFFF)}
+.card[class*=" t-"]{border-top:7px solid var(--tone)}
+.desk{display:inline-flex;gap:5px;align-items:center;background:var(--tone-t);color:var(--tone-ink);border-radius:999px;padding:3px 11px;margin:0 6px 4px 0;letter-spacing:.04em}
+.desk.solo{padding:3px 8px}
+/* moving pictures and growing charts */
+.pic{position:relative}.pic .badge{position:absolute;left:10px;top:10px;background:rgba(255,255,255,.92);color:#1E2A32;font-weight:700;
+  font-size:.66em;padding:2px 10px;border-radius:999px;letter-spacing:.02em}
+:root[data-theme="night"] .scene{filter:brightness(.88)}
+figcaption{font-size:.75em;color:var(--muted);margin-top:5px}
+.chart{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px 12px 8px}
+.chart .ct{margin:0 0 6px;font-size:.8em;line-height:1.35}.chart .ct span{color:var(--muted)}
+.bars{display:flex;align-items:flex-end;gap:6px;height:170px;border-bottom:2px solid var(--line)}
+.bc{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;position:relative}
+.bc i{display:block;width:72%;max-width:60px;height:0;border-radius:4px 4px 0 0;background:var(--bar);transition:height 1.2s cubic-bezier(.2,.8,.2,1)}
+.bc.hi i{background:var(--coral)}
+.chart.on .bc i{height:calc(var(--h) * 1.15px)}
+.bc .v{font-weight:800;font-size:.85em;margin-bottom:3px;color:var(--ink)}
+.bc .l{position:absolute;top:100%;left:-2px;right:-2px;font-size:.68em;color:var(--muted);text-align:center;line-height:1.2;padding-top:5px}
+.bars{margin-bottom:3em}
+@media (prefers-reduced-motion:reduce){.bc i{transition:none}}
+/* where in the world? */
+.where .wh{font-size:.95em;margin:4px 0 6px}
+.where .map{aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:var(--sea);border:1px solid var(--line)}
+.where.wide .map{aspect-ratio:2/1}
+.where svg{display:block;width:100%;height:100%}
+.where .sea{fill:var(--sea)}.where use{fill:var(--land);stroke:var(--map-line);stroke-width:1}
+.where .hi{fill:var(--coral);fill-opacity:.85;stroke:var(--map-line);stroke-width:1}
+.where .trip{fill:none;stroke:var(--teal);stroke-width:2.5;stroke-dasharray:7 6;stroke-linecap:round;animation:rp-flow .9s linear infinite}
+.where .ring{fill:none;stroke:var(--coral);stroke-width:2.5;animation:rp-pulse 1.8s ease-out infinite}
+.where .dot{fill:var(--coral);stroke:#fff;stroke-width:2}.where .me .dot{fill:var(--teal)}
+.where .lp{cursor:pointer}.where .lp .n{fill:#fff;font:700 10px var(--text);pointer-events:none}.where .lp .hit{fill:transparent}
+.where .lp.on .dot{fill:var(--teal)}.where .lp:focus{outline:none}.where .lp:focus-visible .dot{stroke:var(--ink);stroke-width:3}
+.where figcaption{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:.8em;color:var(--ink)}
+.where .far{color:var(--muted)}.where .far b{color:var(--ink)}.where select{font:inherit;border-radius:8px;padding:2px 4px;max-width:12em}
+.where .zoom{margin-left:auto;border:2px solid var(--line);background:var(--card);border-radius:999px;padding:2px 12px;min-height:40px;cursor:pointer;font-weight:700;font-size:.95em}
+@media (prefers-reduced-motion:reduce){.where .trip,.where .ring{animation:none}}
+.newsmap{margin:4px 0 22px}.newsmap .how{margin:0 0 8px;color:var(--muted)}
+.pinlist ul{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}
+.pinlist li{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 12px}
+.pinlist li a{font-weight:700;font-size:1.05em}.pinlist small{display:block;color:var(--muted)}
 .deck{color:var(--muted);margin:0 0 10px}
 .text p{margin:0 0 .8em}.text li{margin:0 0 .5em}
-figure{margin:10px 0 14px}figure img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);background:#fff}
+figure{margin:10px 0 14px}
 figcaption{font-size:.75em;color:var(--muted);margin-top:4px}
 .box{background:var(--leaf-t);border-radius:14px;padding:12px 14px;margin:10px 0}.box h3{font-size:.8em;text-transform:uppercase;letter-spacing:.06em;color:var(--leaf)}
 .box p{margin:4px 0 0}
@@ -300,8 +465,21 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .steps{display:none;justify-content:space-between;gap:10px;margin-top:6px}
 [data-mode="cards"] .steps{display:flex}
 [data-mode="cards"] #read .card{display:none}[data-mode="cards"] #read .card.on{display:block}
-.dots{display:none;gap:6px;justify-content:center;margin:0 0 10px}[data-mode="cards"] .dots{display:flex}
-.dots i{width:10px;height:10px;border-radius:50%;background:var(--line)}.dots i.on{background:var(--coral)}
+/* the trail: how far through today's paper */
+.trail{display:none;align-items:center;gap:14px;margin:0 0 12px}[data-mode="cards"] .trail{display:flex}
+.track{position:relative;flex:1;height:10px;border-radius:999px;background:var(--line);margin:0 16px 0 14px}
+.track i{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:999px;background:var(--coral);transition:width .5s ease}
+.walker{position:absolute;top:50%;left:0;transform:translate(-50%,-50%) rotate(45deg);font-size:22px;line-height:1;transition:left .5s ease}
+.flag{position:absolute;right:-16px;top:50%;transform:translateY(-60%);font-size:18px;line-height:1}
+.count{font-weight:700;color:var(--muted);font-size:15px;white-space:nowrap;min-width:4.5em;text-align:right}
+@keyframes rp-in-r{from{opacity:0;transform:translateX(48px)}}
+@keyframes rp-in-l{from{opacity:0;transform:translateX(-48px)}}
+.card.in-r{animation:rp-in-r .35s ease-out}.card.in-l{animation:rp-in-l .35s ease-out}
+.js [data-mode="scroll"] #read .card{opacity:0;transform:translateY(18px);transition:opacity .5s ease,transform .5s ease}
+.js [data-mode="scroll"] #read .card.seen{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.card.in-r,.card.in-l{animation:none}.walker,.track i{transition:none}
+  .js [data-mode="scroll"] #read .card{opacity:1;transform:none;transition:none}}
+.confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:30}
 .older{font-size:15px;color:var(--muted);margin-top:24px}.older select{padding:4px;border-radius:8px}
 #pop{position:fixed;left:12px;right:12px;bottom:12px;max-width:520px;margin:0 auto;background:var(--card);border:3px solid var(--coral);border-radius:20px;padding:16px 18px;z-index:20;box-shadow:0 8px 30px rgba(0,0,0,.25)}
 #pop h3{font-size:1.5em}#pop .t{color:var(--muted);font-style:italic}#pop .x{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;cursor:pointer;min-width:44px;min-height:44px}
@@ -340,7 +518,7 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .who[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
 .tile{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:6px}
-.tile img{width:100%;border-radius:12px;border:1px solid var(--line);background:#fff}
+.tile figure{margin:0 0 4px}.tile figcaption,.tile .badge{display:none}
 .tile h2{font-size:1.25em;margin:4px 0 0}.tile p{margin:0}.tile .when{font-size:15px;color:var(--muted)}
 .go2{display:flex;gap:8px;margin-top:auto;padding-top:8px}.go2 .big{flex:1;text-align:center}
 .note{font-size:14px;color:var(--muted);margin-top:28px}
@@ -351,7 +529,10 @@ JS = r"""
   const $ = (s, el) => (el || document).querySelector(s), $$ = (s, el) => [...(el || document).querySelectorAll(s)];
   const store = { get(k, d) { try { const v = localStorage.getItem("rp-" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
                   set(k, v) { try { localStorage.setItem("rp-" + k, JSON.stringify(v)); } catch (e) {} } };
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const root = document.documentElement;
+  root.classList.add("js");
+  const calm = () => window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   // settings, kept on this device
   let fs = store.get("fs", 19);
   const apply = () => { root.style.setProperty("--fs", fs + "px"); root.dataset.theme = store.get("night", false) ? "night" : ""; };
@@ -367,13 +548,199 @@ JS = r"""
     });
   });
 
+
+  // ---------------------------------------------------------------- where in the world? (world.js has the shapes)
+  const WD = window.WORLD;
+  const A1 = 1.340264, A2 = -0.081106, A3 = 0.000893, A4 = 0.003796, MM = Math.sqrt(3) / 2, RAD = Math.PI / 180;
+  function proj(lon, lat) {                                  // Equal Earth, as ygc/world.py draws the countries
+    const t = Math.asin(MM * Math.sin(lat * RAD)), t2 = t * t, t6 = t2 * t2 * t2;
+    return [WD.w / 2 + lon * RAD * Math.cos(t) / (MM * (A1 + 3 * A2 * t2 + t6 * (7 * A3 + 9 * A4 * t2))) * WD.s,
+            WD.h / 2 - t * (A1 + A2 * t2 + t6 * (A3 + A4 * t2)) * WD.s];
+  }
+  const shapes = {};
+  let defsDone = false;
+  function worldDefs() {
+    if (defsDone) return; defsDone = true;
+    WD.c.forEach((c) => { shapes[c.n] = c; });
+    document.body.insertAdjacentHTML("beforeend", '<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="rp-world">'
+      + WD.c.map((c) => `<path d="${c.d}" vector-effect="non-scaling-stroke"/>`).join("") + "</g></defs></svg>");
+  }
+  const WORLDBOX = () => [0, WD.top, WD.w, WD.bottom - WD.top];
+  const CITIES = WD ? WD.cities : [];
+  function home() {
+    const saved = store.get("home", null);
+    if (saved !== null) return CITIES.find((c) => c[0] === saved) || null;
+    let tz = ""; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+    const guess = /Kolkata|Calcutta/.test(tz) ? "Delhi" : tz.split("/").pop().replace(/_/g, " ");
+    return CITIES.find((c) => c[0] === guess) || null;
+  }
+  function km(a, b) {
+    const h = Math.sin((b[0] - a[0]) * RAD / 2) ** 2 + Math.cos(a[0] * RAD) * Math.cos(b[0] * RAD) * Math.sin((b[1] - a[1]) * RAD / 2) ** 2;
+    return 12742 * Math.asin(Math.sqrt(h));
+  }
+  function arc(a, b) {                                       // the shortest way round the globe, split at the map's edge
+    const v3 = (p) => [Math.cos(p[0] * RAD) * Math.cos(p[1] * RAD), Math.cos(p[0] * RAD) * Math.sin(p[1] * RAD), Math.sin(p[0] * RAD)];
+    const p = v3(a), q = v3(b), d = Math.acos(Math.min(1, p[0] * q[0] + p[1] * q[1] + p[2] * q[2]));
+    let path = "", last = null;
+    for (let i = 0; i <= 48; i++) {
+      const f = i / 48, A = d < 1e-6 ? 1 : Math.sin((1 - f) * d) / Math.sin(d), B = d < 1e-6 ? 0 : Math.sin(f * d) / Math.sin(d);
+      const v = [A * p[0] + B * q[0], A * p[1] + B * q[1], A * p[2] + B * q[2]];
+      const xy = proj(Math.atan2(v[1], v[0]) / RAD, Math.atan2(v[2], Math.hypot(v[0], v[1])) / RAD);
+      path += (last && Math.abs(xy[0] - last[0]) < WD.w / 2 ? "L" : "M") + xy[0].toFixed(1) + " " + xy[1].toFixed(1);
+      last = xy;
+    }
+    return path;
+  }
+  function fit(b) {                                          // a box to zoom to, with room around it, the map's shape
+    let w = Math.max(b[2] - b[0], 60) * 1.6, h = Math.max(b[3] - b[1], 34) * 1.6;
+    const cx = (b[0] + b[2]) / 2, cy = (b[1] + b[3]) / 2, aspect = 16 / 9;
+    if (w / h < aspect) w = h * aspect; else h = w / aspect;
+    return w >= WD.w * 0.8 ? WORLDBOX() : [cx - w / 2, cy - h / 2, w, h];
+  }
+  function scale(svg, vb) {                                  // pins stay the same size on screen as the map zooms
+    const k = Math.max(vb[2] / (svg.clientWidth || 340), vb[3] / (svg.clientHeight || 190));
+    $$(".sc", svg).forEach((g) => g.setAttribute("transform", `scale(${k})`));
+  }
+  function zoom(fig, to, ms) {
+    const svg = $("svg", fig), from = svg.getAttribute("viewBox").split(" ").map(Number), t0 = performance.now();
+    fig.dataset.view = to.join(" ");
+    const step = (now) => {
+      const f = calm() || !ms ? 1 : Math.min(1, (now - t0) / ms), e = f < .5 ? 4 * f * f * f : 1 - Math.pow(-2 * f + 2, 3) / 2;
+      const vb = from.map((v, i) => v + (to[i] - v) * e);
+      svg.setAttribute("viewBox", vb.join(" ")); scale(svg, vb);
+      if (f < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+  function picker(h) {
+    return `<select class="home" aria-label="Your city"><option value="">Pick your city</option>${CITIES.slice().sort((a, b) => a[0].localeCompare(b[0]))
+      .map((c) => `<option${h && h[0] === c[0] ? " selected" : ""}>${esc(c[0])}</option>`).join("")}</select>`;
+  }
+  function target(fig) {
+    const b = fig.dataset.box.split(" ").map(Number), h = home();
+    if (h) { const p = proj(h[3], h[2]); b[0] = Math.min(b[0], p[0]); b[1] = Math.min(b[1], p[1]); b[2] = Math.max(b[2], p[0]); b[3] = Math.max(b[3], p[1]); }
+    return fit(b);
+  }
+  function homeOn(fig) {                                     // your city, the line to the story, and how far it is
+    const svg = $("svg", fig), h = home(), far = $(".far", fig), me = $(".me", svg), trip = $(".trip", svg);
+    const there = fig.dataset.lat ? [+fig.dataset.lat, +fig.dataset.lon] : null;
+    me.toggleAttribute("hidden", !h); trip.setAttribute("d", "");
+    if (h) { const p = proj(h[3], h[2]); me.setAttribute("transform", `translate(${p[0]} ${p[1]})`); }
+    if (!there) { far.innerHTML = `<label>🏠 You live in ${picker(h)}</label>`; return; }
+    if (!h) { far.innerHTML = `<label>🏠 How far is it from you? ${picker(h)}</label>`; return; }
+    const d = km([h[2], h[3]], there);
+    if (d > 60) trip.setAttribute("d", arc([h[2], h[3]], there));
+    const n = d < 1000 ? Math.round(d / 10) * 10 : Math.round(d / 100) * 100, hrs = Math.max(1, Math.round(d / 800));
+    far.innerHTML = d <= 60 ? `<span>🏠 That's near you in ${picker(h)}!</span>`
+      : `<span>🏠 From ${picker(h)} it's about <b>${n.toLocaleString("en-IN")} km</b>${d > 400 ? ` · ✈️ about ${hrs} hour${hrs > 1 ? "s" : ""} by plane` : ""}</span>`;
+  }
+  function drawMap(fig) {
+    worldDefs();
+    const hi = (fig.dataset.c || "").split("|").filter((n) => shapes[n]);
+    const pin = fig.dataset.lat ? proj(+fig.dataset.lon, +fig.dataset.lat) : null;
+    $(".map", fig).innerHTML = `<svg viewBox="${WORLDBOX().join(" ")}" preserveAspectRatio="xMidYMid meet">
+      <rect class="sea" x="-1000" y="-1000" width="3000" height="3000"/><use href="#rp-world"/>
+      ${hi.map((n) => `<path class="hi" d="${shapes[n].d}" vector-effect="non-scaling-stroke"/>`).join("")}
+      <path class="trip" vector-effect="non-scaling-stroke"/><g class="me" hidden><g class="sc"><circle class="dot" r="6"/></g></g>
+      ${pin ? `<g transform="translate(${pin[0]} ${pin[1]})"><g class="sc"><circle class="ring" r="9"/><circle class="dot" r="7"/></g></g>` : ""}
+      <g class="lps"></g></svg>`;
+    scale($("svg", fig), WORLDBOX());
+    homeOn(fig);
+  }
+  function mapIn(fig) {
+    if (!WD) return;
+    drawMap(fig);
+    if (fig.classList.contains("wide")) { lobbyPins(fig); return; }
+    setTimeout(() => zoom(fig, target(fig), 1800), calm() ? 0 : 500);
+    $(".zoom", fig).addEventListener("click", (e) => {
+      const whole = fig.dataset.view === WORLDBOX().join(" ");
+      zoom(fig, whole ? target(fig) : WORLDBOX(), 1200);
+      e.currentTarget.textContent = whole ? "🌍 Whole world" : "🔍 Zoom in";
+    });
+  }
+  document.addEventListener("change", (e) => {
+    if (!e.target.matches(".where select.home")) return;
+    store.set("home", e.target.value || null);
+    $$(".where").forEach((f) => { if (!$("svg", f)) return; homeOn(f); if (!f.classList.contains("wide")) zoom(f, target(f), 900); });
+    const sel = $(`.where select.home`); if (sel) sel.focus();
+  });
+  // the lobby's map: one pin per place, the stories behind it underneath
+  let band = null;
+  function lobbyPins(fig) {
+    const svg = $("svg", fig), list = $(".pinlist", fig), vb = WORLDBOX();
+    const near = 26 * Math.max(vb[2] / (svg.clientWidth || 340), vb[3] / (svg.clientHeight || 170));
+    const groups = [];                                       // pins closer than a fingertip on screen share one
+    JSON.parse(fig.dataset.pins).filter((p) => !band || p.b === band).forEach((p) => {
+      const xy = proj(p.lon, p.lat), g = groups.find((g) => Math.hypot(g.xy[0] - xy[0], g.xy[1] - xy[1]) < near);
+      if (g) g.items.push(p); else groups.push({ xy, items: [p] });
+    });
+    const places = (g) => [...new Set(g.items.map((p) => p.place))];
+    $(".lps", svg).innerHTML = groups.map((g, i) => `<g class="lp" tabindex="0" role="button" data-g="${i}"
+        aria-label="${g.items.length} ${g.items.length > 1 ? "stories" : "story"}: ${esc(places(g).join(", "))}"
+        transform="translate(${g.xy[0]} ${g.xy[1]})"><g class="sc"><circle class="hit" r="18"/><circle class="ring" r="11"/><circle class="dot" r="10"/>
+        <text class="n" y="3.5" text-anchor="middle">${g.items.length}</text></g></g>`).join("");
+    scale(svg, vb);
+    list.innerHTML = groups.length ? "" : "<p>No stories with a place for this age today.</p>";
+    const open = (i) => {
+      $$(".lp", svg).forEach((x) => x.classList.toggle("on", +x.dataset.g === i));
+      list.innerHTML = `<p><b>📍 ${esc(places(groups[i]).join(" · "))}</b></p><ul>${groups[i].items.map((p) =>
+        `<li><a href="${esc(p.u)}">${esc(p.h)}</a><small>📍 ${esc(p.place)} · ${esc(p.p)} · ${esc(p.b)}</small></li>`).join("")}</ul>`;
+    };
+    $$(".lp", svg).forEach((x) => {
+      x.addEventListener("click", () => open(+x.dataset.g));
+      x.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(+x.dataset.g); } });
+    });
+  }
+
+  // ---------------------------------------------------------------- things that move when they come into view
+  function grow(chart) {
+    chart.classList.add("on");
+    $$("b[data-v]", chart).forEach((b) => {
+      const v = +b.dataset.v, dp = (b.dataset.v.split(".")[1] || "").length, t0 = performance.now();
+      if (calm()) return;
+      const step = (now) => { const f = Math.min(1, (now - t0) / 1200), e = 1 - Math.pow(1 - f, 3);
+        b.textContent = (v * e).toFixed(dp); if (f < 1) requestAnimationFrame(step); };
+      requestAnimationFrame(step);
+    });
+  }
+  const watch = "IntersectionObserver" in window ? new IntersectionObserver((es) => es.forEach((e) => {
+    const el = e.target;
+    if (el.classList.contains("scene")) { el.classList.toggle("still", !e.isIntersecting); return; }
+    if (!e.isIntersecting) return;
+    watch.unobserve(el);
+    if (el.classList.contains("chart")) grow(el);
+    else if (el.classList.contains("where")) mapIn(el);
+    else { el.classList.add("seen"); if (el.classList.contains("end")) confetti(); }
+  }), { threshold: 0.2 }) : null;
+  const watchAll = (sel) => $$(sel).forEach((el) => {
+    if (watch) watch.observe(el); else if (el.classList.contains("chart")) grow(el); else if (el.classList.contains("where")) mapIn(el); else el.classList.add("seen");
+  });
+  watchAll(".scene"); watchAll(".chart"); watchAll(".where");
+  function confetti() {
+    if (calm()) return;
+    const c = document.createElement("canvas"), r = window.devicePixelRatio || 1; c.className = "confetti"; document.body.appendChild(c);
+    const W = c.width = innerWidth * r, H = c.height = innerHeight * r, x = c.getContext("2d");
+    const cols = ["#E2584D", "#F4B400", "#007C89", "#2E7D4F", "#6B5BD2", "#2B83C6"];
+    const ps = Array.from({ length: 160 }, () => ({ x: W / 2 + (Math.random() - .5) * W * .4, y: H * .45, vx: (Math.random() - .5) * 18 * r,
+      vy: (-Math.random() * 16 - 6) * r, w: (Math.random() * 6 + 5) * r, c: cols[Math.floor(Math.random() * cols.length)], a: Math.random() * 6, s: Math.random() * .3 - .15 }));
+    const t0 = performance.now();
+    const step = (now) => {
+      x.clearRect(0, 0, W, H);
+      ps.forEach((p) => { p.vy += .45 * r; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.a += p.s;
+        x.save(); x.translate(p.x, p.y); x.rotate(p.a); x.fillStyle = p.c; x.fillRect(-p.w / 2, -p.w / 4, p.w, p.w / 2); x.restore(); });
+      if (now - t0 < 2600) requestAnimationFrame(step); else c.remove();
+    };
+    requestAnimationFrame(step);
+  }
+
   // ---------------------------------------------------------------- the lobby: who's reading?
   const whos = $$(".who");
   if (whos.length) {
-    const pick = (band) => {
-      store.set("band", band);
-      whos.forEach((w) => w.setAttribute("aria-pressed", String(w.dataset.band === band)));
-      $$(".tile").forEach((t) => { t.hidden = !!band && t.dataset.band !== band; });
+    const pick = (b) => {
+      store.set("band", b); band = b;
+      whos.forEach((w) => w.setAttribute("aria-pressed", String(w.dataset.band === b)));
+      $$(".tile").forEach((t) => { t.hidden = !!b && t.dataset.band !== b; });
+      $$(".where.wide").forEach((f) => { if ($("svg", f)) lobbyPins(f); });
     };
     whos.forEach((w) => w.addEventListener("click", () => pick(w.dataset.band)));
     pick(store.get("band", ""));
@@ -446,32 +813,37 @@ JS = r"""
 
   // ---------------------------------------------------------------- one story per screen (younger readers)
   const cards = $$("#read .card");
-  let at = 0;
-  const dots = $(".dots");
+  let at = 0, show = null;
   if (main.dataset.mode === "cards") {
-    dots.innerHTML = cards.map(() => "<i></i>").join("");
-    const show = (n) => {
-      stop(); at = Math.max(0, Math.min(cards.length - 1, n));
-      cards.forEach((c, i) => c.classList.toggle("on", i === at));
-      $$("i", dots).forEach((d, i) => d.classList.toggle("on", i === at));
+    const bar = $(".track i"), walker = $(".walker"), count = $(".count"), last = cards.length - 1;
+    show = (n) => {
+      stop(); const was = at; at = Math.max(0, Math.min(last, n));
+      cards.forEach((c, i) => { c.classList.toggle("on", i === at); c.classList.remove("in-r", "in-l"); });
+      if (at !== was) cards[at].classList.add(at > was ? "in-r" : "in-l");
+      const pct = last ? at / last * 100 : 100;
+      bar.style.width = pct + "%"; walker.style.left = pct + "%";
+      count.textContent = at === last ? "Done! 🎉" : `${at + 1} of ${last}`;
       $(".prev").style.visibility = at ? "visible" : "hidden";
-      $(".next").style.visibility = at < cards.length - 1 ? "visible" : "hidden";
+      $(".next").style.visibility = at < last ? "visible" : "hidden";
+      if (at === last && was !== last) confetti();
       window.scrollTo({ top: 0 });
     };
     document.addEventListener("rp-show", (e) => show(e.detail));
     $(".prev").addEventListener("click", () => show(at - 1));
     $(".next").addEventListener("click", () => show(at + 1));
     let x0 = null;
-    $("#read").addEventListener("touchstart", (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+    $("#read").addEventListener("touchstart", (e) => { x0 = e.target.closest(".where") ? null : e.touches[0].clientX; }, { passive: true });
     $("#read").addEventListener("touchend", (e) => {
       if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; x0 = null;
       if (Math.abs(dx) > 60) show(at + (dx < 0 ? 1 : -1));
     });
     document.addEventListener("keydown", (e) => {
-      if ($("#read").hidden) return;
+      if ($("#read").hidden || e.target.matches("select")) return;
       if (e.key === "ArrowRight") show(at + 1); if (e.key === "ArrowLeft") show(at - 1);
     });
     show(0);
+  } else {
+    watchAll("#read .card");
   }
 
   // ---------------------------------------------------------------- read / play tabs
@@ -488,7 +860,6 @@ JS = r"""
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const young = main.dataset.mode === "cards";
   const box = $("#game");
-  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const starsFor = (right, total) => (right === total ? 3 : right / total >= 0.6 ? 2 : 1);
   const best = (name) => store.get("stars-" + main.dataset.key + "-" + name, 0);
   const keep = (name, n) => store.set("stars-" + main.dataset.key + "-" + name, Math.max(n, best(name)));
@@ -517,11 +888,12 @@ JS = r"""
     const a = e.target.closest("a[data-card]"); if (!a) return;
     e.preventDefault(); tab("read");
     const i = +a.dataset.card;
-    if (main.dataset.mode === "cards") { $$("#read .card")[i] && document.dispatchEvent(new CustomEvent("rp-show", { detail: i })); }
+    if (show) { if (cards[i]) show(i); }
     else { const c = $$("#read .card")[i]; if (c) c.scrollIntoView({ behavior: "smooth" }); }
   });
   function finishText(right, total, name) {
     const n = starsFor(right, total); keep(name, n);
+    if (n === 3) setTimeout(confetti, 200);
     return `<p class="cheer" role="status">${right === total ? "Every one right! 🎉" : `You got ${right} out of ${total}! 🎉`}</p>
       <p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p>
       <button type="button" class="big again">Play again</button> ${back()}`;
@@ -557,6 +929,7 @@ JS = r"""
         if (done === pairs.length) {
           const n = misses === 0 ? 3 : misses <= 2 ? 2 : 1; keep(name, n);
           cheer.textContent = n === 3 ? "All matched, first time! 🎉" : "All matched! 🎉";
+          if (n === 3) confetti();
           $(".end2", box).innerHTML = `<p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p><button type="button" class="big again">Play again</button> ${back()}`;
           $(".again", box).onclick = () => match(name); $$(".end2 .back", box).forEach((x) => x.addEventListener("click", game));
         }
@@ -615,5 +988,9 @@ JS = r"""
     });
   }
   if (location.hash === "#play") tab("play");
+  else if (location.hash.startsWith("#s-")) {               // from a pin on the lobby's map
+    const c = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (c && show) show(cards.indexOf(c)); else if (c) setTimeout(() => c.scrollIntoView({ block: "start" }), 50);
+  }
 })();
 """

@@ -338,6 +338,42 @@ def check_play(ed, issue, r):
                 r.err(f"{w}.true must be true or false")
     if len(facts) >= 2 and len({f.get("true") for f in facts if isinstance(f, dict)}) < 2:
         r.err("play.fact_or_fiction: include at least one true claim and one that isn't true")
+    check_where(p.get("where"), stories, r)
+
+
+def check_where(where, stories, r):
+    """play.where: the place each story happens, for Read & Play's maps."""
+    if where is None:
+        r.note("no play.where: Read & Play's maps will use the places named in headlines")
+        return
+    if not isinstance(where, list):
+        r.err("play.where must be a list of places, one per story that happens somewhere")
+        return
+    from . import world
+    seen = set()
+    for i, w in enumerate(where):
+        at = f"play.where[{i}]"
+        if not isinstance(w, dict):
+            r.err(f"{at} must be an object")
+            continue
+        if w.get("story") not in stories:
+            r.err(f"{at}.story {w.get('story')!r}: use one of {', '.join(sorted(stories))}")
+        elif w["story"] in seen:
+            r.err(f"{at}.story {w['story']!r} is listed twice")
+        seen.add(w.get("story"))
+        if not str(w.get("place", "")).strip():
+            r.err(f"{at}.place is empty: name the place, or remove this entry if the story isn't in one place")
+        for k, top in (("lat", 90), ("lon", 180)):
+            v = w.get(k)
+            if isinstance(v, bool) or not isinstance(v, (int, float)) or not -top <= v <= top:
+                r.err(f"{at}.{k} must be a number from -{top} to {top}")
+        cs = w.get("countries", [])
+        if not isinstance(cs, list) or not all(isinstance(c, str) for c in cs):
+            r.err(f"{at}.countries must be a list of country names")
+            continue
+        for c in cs:
+            if not world.country_name(c):
+                r.note(f"{at}: {c!r} isn't a country on the map, so it won't be coloured in")
 
 
 def check_sources(ed, issue, r, archive):

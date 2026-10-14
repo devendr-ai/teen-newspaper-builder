@@ -1,5 +1,5 @@
 """Empty, correctly shaped issue for an edition: the starting point for an editor."""
-from .edition import desk, placed_blocks
+from .edition import desk, placed_blocks, story_blocks
 from .graphics import IllustrationCard
 
 
@@ -35,7 +35,8 @@ def play_counts(ed):
 def play_skeleton(ed):
     nq, nf = play_counts(ed)
     return {"quiz": [{"q": "", "options": ["", "", ""], "answer": 0, "why": "", "story": ""} for _ in range(nq)],
-            "fact_or_fiction": [{"claim": "", "true": True, "why": "", "story": ""} for _ in range(nf)]}
+            "fact_or_fiction": [{"claim": "", "true": True, "why": "", "story": ""} for _ in range(nf)],
+            "where": [{"story": bid, "place": "", "lat": None, "lon": None, "countries": []} for bid in story_blocks(ed)]}
 
 
 def make(ed, date, number, volume=1, play=True):
