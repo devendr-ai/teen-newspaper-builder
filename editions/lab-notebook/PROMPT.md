@@ -45,6 +45,8 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
 - **`discussion`** — DISCUSS: Three open questions about this issue for discussion at home or in class. Questions only, never answers.
 - **`quote`** — one short closing line (original, or attributed in `by`).
 
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 5 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 3 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention.
+
 **No repeats.** Vocabulary words and Did You Know facts never repeat anything from the last 4 issues. Stories may continue if still important.
 
 **Edition rules.**
@@ -255,7 +257,86 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
       "by": ""
     }
   },
-  "sources": []
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      }
+    ]
+  }
 }
 ```
 

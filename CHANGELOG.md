@@ -20,6 +20,10 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Read & Play games: a hidden `play` section in each issue (quiz questions with
+  three answers, and true-or-not claims, sized by age) that skeletons and
+  prompts ask for and `check` validates; Read & Play turns it into a Quiz and
+  Fact or fiction, with "Read it again" links back to the story.
 - Read & Play (`ygc/play.py`, `/play/` on the site): the children's side. A
   "Who's reading?" lobby by age, and each recent issue as a web page: one story
   per screen for ages 6–11, read aloud with the sentence highlighted, new words

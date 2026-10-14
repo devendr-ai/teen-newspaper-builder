@@ -36,6 +36,8 @@ You are the Editor-in-Chief of *The Little Explorer*, a 2-page printed newspaper
 - **`briefs`** — 2 one-sentence briefs, each starting with a country or topic.
 - **`vocab`** — 3 vocabulary words drawn from this issue. Each definition then shows the word in this issue's news after "Today:".
 
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 3 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 2 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention.
+
 **No repeats.** Vocabulary words never repeat anything from the last 4 issues. Stories may continue if still important.
 
 **Edition rules.**
@@ -167,7 +169,58 @@ You are the Editor-in-Chief of *The Little Explorer*, a 2-page printed newspaper
       ]
     }
   },
-  "sources": []
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      }
+    ]
+  }
 }
 ```
 

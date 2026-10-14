@@ -81,7 +81,7 @@ def _words(n, paras=5):
 def _probe(ed):
     """An issue with every fixed section at a typical length and empty story bodies."""
     w = lambda n: " ".join(["word"] * n)
-    sk = render_ready(ed, prompt.skeleton.make(ed, "2026-01-01", 1))
+    sk = render_ready(ed, prompt.skeleton.make(ed, "2026-01-01", 1, play=False))
     for bid, b in sk["blocks"].items():
         t = ed["blocks"][bid]["type"]
         if t == "story":

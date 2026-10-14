@@ -114,6 +114,16 @@ def generate(ed, chat=None):
         L.append("**Other sections.**")
         L += others
         L.append("")
+    if not chat:
+        from .skeleton import play_counts
+        nq, nf = play_counts(ed)
+        L.append(f"**Play (online only, never printed).** Fill `play` for the website's games, using only facts in "
+                 f"this issue and words the reader knows. `quiz`: {nq} multiple-choice questions a reader can answer "
+                 f"from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of "
+                 f"the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of "
+                 f"the story it comes from. `fact_or_fiction`: {nf} short claims about this issue, at least one true "
+                 f"and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true "
+                 f"changes one detail of the story; it is never a scary or silly invention.\n")
     n = ed["teaching"]["repeat_window"]
     types = {ed["blocks"][b]["type"] for b in placed_blocks(ed)}
     things = [x for t, x in (("vocab", "Vocabulary words"), ("did_you_know", "Did You Know facts")) if t in types]
@@ -138,7 +148,7 @@ def generate(ed, chat=None):
                  "nothing before or after it, shaped exactly like this skeleton: fill every empty "
                  "string, replace the zeros and keep every key. Each source may be a URL or "
                  "{\"outlet\", \"title\", \"url\"}.\n")
-        sk = skeleton.make(ed, date=chat["date"], number=chat["number"])
+        sk = skeleton.make(ed, date=chat["date"], number=chat["number"], play=False)
     else:
         L.append("**Output.** Reply with only one JSON object, shaped exactly like this skeleton: "
                  "fill every empty string, replace the zeros, keep every key, and set `date` and "

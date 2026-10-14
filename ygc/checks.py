@@ -13,7 +13,7 @@ from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.platypus import Paragraph
 
 from . import render
-from .edition import placed_blocks, desk
+from .edition import placed_blocks, desk, story_blocks
 from .graphics import IllustrationCard
 from .styles import make_styles
 
@@ -299,6 +299,47 @@ def check_repetition(ed, issue, path, d, r):
             r.err(f"Did You Know looks like the one used on {od}")
 
 
+def check_play(ed, issue, r):
+    """The online-only `play` section behind Read & Play's quiz and fact-or-fiction games."""
+    p = issue.get("play")
+    if p is None:
+        r.note("no play section: Read & Play offers word games only for this issue")
+        return
+    if not isinstance(p, dict):
+        r.err("play must be an object with quiz and fact_or_fiction")
+        return
+    from .skeleton import play_counts
+    nq, nf = play_counts(ed)
+    stories = set(story_blocks(ed))
+    quiz, facts = p.get("quiz") or [], p.get("fact_or_fiction") or []
+    if len(quiz) != nq:
+        r.err(f"play.quiz: expected {nq} questions, found {len(quiz)}")
+    if len(facts) != nf:
+        r.err(f"play.fact_or_fiction: expected {nf} claims, found {len(facts)}")
+    for kind, items in (("quiz", quiz), ("fact_or_fiction", facts)):
+        for i, q in enumerate(items):
+            w = f"play.{kind}[{i}]"
+            if not isinstance(q, dict):
+                r.err(f"{w} must be an object")
+                continue
+            if not str(q.get("q" if kind == "quiz" else "claim", "")).strip():
+                r.err(f"{w}.{'q' if kind == 'quiz' else 'claim'} is empty")
+            if not str(q.get("why", "")).strip():
+                r.err(f"{w}.why is empty: say in one sentence where the paper shows it")
+            if q.get("story") and q["story"] not in stories:
+                r.err(f"{w}.story {q['story']!r}: use one of {', '.join(sorted(stories))}")
+            if kind == "quiz":
+                opts = [str(o).strip() for o in q.get("options") or []]
+                if len(opts) != 3 or not all(opts) or len({o.lower() for o in opts}) != 3:
+                    r.err(f"{w}.options: exactly 3 different, non-empty answers")
+                if q.get("answer") not in (0, 1, 2) or isinstance(q.get("answer"), bool):
+                    r.err(f"{w}.answer must be 0, 1 or 2: the position of the right option")
+            elif not isinstance(q.get("true"), bool):
+                r.err(f"{w}.true must be true or false")
+    if len(facts) >= 2 and len({f.get("true") for f in facts if isinstance(f, dict)}) < 2:
+        r.err("play.fact_or_fiction: include at least one true claim and one that isn't true")
+
+
 def check_sources(ed, issue, r, archive):
     if not ed.get("sources_required"):
         return
@@ -331,6 +372,7 @@ def check_issue(ed, issue, path, archive=False, as_of=None):
     check_text(issue, r)
     check_repetition(ed, issue, path, d, r)
     check_sources(ed, issue, r, archive)
+    check_play(ed, issue, r)
     if not unbuildable(r):
         try:
             check_fit(ed, issue, r)

@@ -38,6 +38,8 @@ You are the Editor-in-Chief of *The Breakfast Table*, a 2-page printed newspaper
 - **`watchlist`** — 2 things to watch before the next issue.
 - **`quote`** — one short closing line (original, or attributed in `by`).
 
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 4 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 3 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention.
+
 **Edition rules.**
 - 4 stories per issue, one per story block, each chosen on news value against its desk's scope.
 - Give each story enough context that the reader could explain it to someone else.
@@ -172,7 +174,75 @@ You are the Editor-in-Chief of *The Breakfast Table*, a 2-page printed newspaper
       "by": ""
     }
   },
-  "sources": []
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      }
+    ]
+  }
 }
 ```
 
