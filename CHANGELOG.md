@@ -20,6 +20,12 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Read & Play (`ygc/play.py`, `/play/` on the site): the children's side. A
+  "Who's reading?" lobby by age, and each recent issue as a web page: one story
+  per screen for ages 6–11, read aloud with the sentence highlighted, new words
+  highlighted to tap for their meaning, text size and night mode, sources behind
+  "For grown-ups", story pictures drawn by the engine, and Word match (or Story
+  match for papers without new words) with stars kept on the device.
 - Design your own, two steps for parents: one click copies the instructions and
   opens ChatGPT, Claude or Gemini; pasting the reply checks it at once. The page
   repairs mechanical mistakes itself (unprintable symbols, empty kicker details,
