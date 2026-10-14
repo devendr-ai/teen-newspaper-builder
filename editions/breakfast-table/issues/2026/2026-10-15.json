@@ -1,0 +1,340 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-15",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Missile Hits Saudi Oil Company Office",
+      "deck": "The war in Yemen has now reached Saudi Arabia’s biggest oil company.",
+      "body": [
+        "Yemen is a country just south of Saudi Arabia. A group there called the Houthis is fighting its government, which Saudi Arabia backs. In recent days the Houthis have aimed missiles at Saudi targets.",
+        "On Saturday, a missile hit King Khalid International Airport in Riyadh, Saudi Arabia’s capital. Saudi aviation officials say at least 13 people were killed and more than 300 were hurt. On Tuesday, a ballistic missile hit an office building at the Dhahran base of Aramco, the Saudi oil company. Saudi news said there was a small fire and nobody was hurt. The Houthis claimed it and promised more attacks on airports and oil sites.",
+        "Saudi Arabia answered by striking an oil site near Sanaa, Yemen’s capital. The Saudi-led coalition told civilians to leave an oil depot in the city. President Trump says the United States is thinking about joining Saudi Arabia’s side. Asked if it would, he said, “We may.”"
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports and oil sites serve people far from the fighting. When they are hit, travel and fuel prices can feel it, and a wider war becomes more likely.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Saudi airport attack: Trump says U.S. could join fight against Houthis",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+        },
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: October 14, 2026",
+          "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+        },
+        {
+          "outlet": "Democracy Now!",
+          "title": "Headlines for October 14, 2026",
+          "url": "https://www.democracynow.org/2026/10/14/headlines"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL AND SHIPPING",
+      "headline": "Oil Stays Above $100 as Ships Are Attacked",
+      "deck": "The cost of fuel has jumped since the war with Iran began.",
+      "body": [
+        "Oil is the thick liquid, pumped from underground, that is made into petrol and diesel. It is sold by the barrel. On Tuesday, a barrel of the kind called Brent closed at $105.69. Another kind, called WTI, closed at $94.14.",
+        "Much of the oil that fuels the world passes through the Strait of Hormuz. A strait is a narrow sea passage. This one lies between Iran and its neighbours. Senior Iranian officials told the news agency Reuters that Iran has used new tactics against ships there for about 10 days. They said the aim is to keep oil prices high. A group that tracks shipping reported that a container ship was hit by a projectile in the strait. An Iranian naval officer said Iran was waiting to sink approaching US warships. The US military’s Central Command rejected that and said US and partner forces control the strait.",
+        "Families feel it at the pump. The American Automobile Association says petrol in the United States now averages $4.33 a gallon. Before the war began it was $2.98. Diesel, the fuel for trucks, averages $6.29."
+      ],
+      "chart": {
+        "title": "PRICE AT THE PUMP",
+        "subtitle": "US average a gallon; first bar is petrol",
+        "labels": [
+          "Before war",
+          "Petrol now",
+          "Diesel now"
+        ],
+        "values": [
+          2.98,
+          4.33,
+          6.29
+        ],
+        "max": 7,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Prices are from AAA, as reported on Wednesday."
+      },
+      "connect": "Geography matters here. A strait is like a doorway: if ships are scared to pass through the narrow doorway, oil can reach buyers more slowly, and sellers can charge more.",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+        },
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: October 14, 2026",
+          "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared",
+          "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  FLORIDA",
+      "headline": "Hurricane Isaias Leaves Six Dead in Florida",
+      "deck": "More than 45,000 customers were still without power on Tuesday.",
+      "body": [
+        "A hurricane is a huge, spinning storm with strong winds and heavy rain. Hurricane Isaias came ashore near Destin, on Florida’s Gulf Coast, on Friday night. It was a Category 2 storm, with gusts up to 118 miles an hour.",
+        "On Tuesday, Florida’s governor, Ron DeSantis, said six people had died in the state. Deaths included a falling tree during cleanup and a car crash. Two more people died in Alabama.",
+        "Then came the long clean-up. At the worst point, more than 400,000 Florida customers lost power. About 95 percent have it back, but over 45,000 were still waiting, mainly in Escambia and Santa Rosa counties. Early estimates put the cost to Escambia County alone at about $64 million."
+      ],
+      "why": "A storm’s danger lasts after the wind stops. Power, clean-up and medical care decide how quickly a community recovers.",
+      "also": [
+        "Maine: Senator Susan Collins and challenger Troy Jackson debated healthcare and immigration.",
+        "Washington: the Justice Department gave California 48 hours to review a voter list."
+      ],
+      "sources": [
+        {
+          "outlet": "Fox Weather",
+          "title": "Hurricane Isaias death toll rises to 6 in Florida as recovery continues",
+          "url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+        },
+        {
+          "outlet": "Florida Phoenix",
+          "title": "DeSantis says Florida Isaias death toll reaches six",
+          "url": "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/"
+        },
+        {
+          "outlet": "Democracy Now!",
+          "title": "Headlines for October 14, 2026",
+          "url": "https://www.democracynow.org/2026/10/14/headlines"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Zelenskyy says Russian strikes left at least 600,000 people without electricity, days after Trump announced an “energy ceasefire”.",
+        "Economics: Robert Hall and Michael Woodford, both American professors, won the 2026 Nobel Prize for economics."
+      ]
+    },
+    "discussion": {
+      "title": "Questions for the table",
+      "body": [
+        "Why can a storm’s dangers last after the wind stops?",
+        "How might trouble in a narrow sea reach your family’s budget?",
+        "Who should check that a voter list is fair?"
+      ],
+      "sources": [
+        {
+          "outlet": "Fox Weather",
+          "title": "Hurricane Isaias death toll rises to 6 in Florida as recovery continues",
+          "url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+        },
+        {
+          "outlet": "LiveLaw",
+          "title": "Opposition Leader Rahul Gandhi files writ petition in Supreme Court against ECI over SIR process",
+          "url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Opposition Takes Voter-List Fight to the Supreme Court",
+      "deck": "Rahul Gandhi and other leaders want the revision of India’s voter lists suspended.",
+      "body": [
+        "A voter list is the official list of people allowed to vote. India’s Election Commission has been carrying out a Special Intensive Revision, or SIR, of these lists. Opposition parties say it is flawed. The Commission rejects allegations of wrongdoing. Opposition leaders have also called for the Chief Election Commissioner, Gyanesh Kumar, to resign.",
+        "On Monday, Rahul Gandhi, the leader of the opposition, and other opposition leaders filed a petition in the Supreme Court. A petition is a formal request to a court. It asks the court to suspend the revision across all States for now. It also asks for a committee led by a retired Supreme Court judge to check the removals, and for no name to be taken off the list without notice and a hearing.",
+        "The court is due to hear the plea on Thursday, before Chief Justice Surya Kant and Justice Joymalya Bagchi. On 5 October, the court sent notices to the government and the Commission over the revision. It said that if the law was not followed, it can undo the decisions. On Sunday, the Chief Justice declined a request from Mr Gandhi and Mallikarjun Kharge to meet him. He said the issues were already before the court."
+      ],
+      "why": "Voter lists decide who can vote. A court case shows how even an independent election body can be questioned.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Opposition Leader Rahul Gandhi files writ petition in Supreme Court against ECI over SIR process",
+          "url": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285"
+        },
+        {
+          "outlet": "Deccan Herald",
+          "title": "Supreme Court to hear Rahul Gandhi, others' plea on SIR issue on October 15",
+          "url": "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135"
+        },
+        {
+          "outlet": "Courthouse News",
+          "title": "India court seeks explanations from election body in voter list row",
+          "url": "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/"
+        },
+        {
+          "outlet": "Democracy Now!",
+          "title": "Headlines for October 14, 2026",
+          "url": "https://www.democracynow.org/2026/10/14/headlines"
+        }
+      ]
+    },
+    "sports": {
+      "title": "CRICKET",
+      "body": "<b>West Indies</b> beat India by 24 runs in the fourth T20 in Hyderabad on Wednesday. India had won the third by 14 runs, with Arshdeep Singh named Player of the Match.",
+      "sources": [
+        {
+          "outlet": "ESPNcricinfo",
+          "title": "Live cricket scores",
+          "url": "https://www.cricinfo.com/live-cricket-score"
+        },
+        {
+          "outlet": "ESPNcricinfo",
+          "title": "India v West Indies, 3rd T20I",
+          "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/live-cricket-score"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What the Supreme Court says when it hears the voter-list plea on Thursday.",
+        "Whether the United States joins Saudi Arabia’s side in Yemen."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the first step to good understanding.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+    "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+    "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+    "https://www.democracynow.org/2026/10/14/headlines",
+    "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/",
+    "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall",
+    "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/",
+    "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285",
+    "https://deccanherald.com/india/supreme-court-to-hear-rahul-gandhi-others-plea-on-sir-issue-on-october-15-4183135",
+    "https://www.courthousenews.com/india-court-seeks-explanations-from-election-body-in-voter-list-row/",
+    "https://www.cricinfo.com/live-cricket-score",
+    "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-3rd-t20i-1529232/live-cricket-score",
+    "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did a missile hit at Aramco’s Dhahran base on Tuesday?",
+        "options": [
+          "An office building",
+          "A ship",
+          "A runway"
+        ],
+        "answer": 0,
+        "why": "Saudi news said an administrative building was hit, with a small fire and no injuries.",
+        "story": "lead"
+      },
+      {
+        "q": "How much did a barrel of Brent oil close at on Tuesday?",
+        "options": [
+          "$94.14",
+          "$105.69",
+          "$4.33"
+        ],
+        "answer": 1,
+        "why": "Brent closed at $105.69; WTI closed at $94.14.",
+        "story": "world"
+      },
+      {
+        "q": "How many people has Florida’s governor said died in the state?",
+        "options": [
+          "Two",
+          "Six",
+          "Sixteen"
+        ],
+        "answer": 1,
+        "why": "Ron DeSantis said the Florida toll had risen to six.",
+        "story": "us"
+      },
+      {
+        "q": "What does the opposition’s petition ask the Supreme Court to suspend?",
+        "options": [
+          "The Nobel Prize",
+          "The Special Intensive Revision of voter lists",
+          "A cricket series"
+        ],
+        "answer": 1,
+        "why": "The petition asks to suspend the revision in all States for now.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Petrol in the United States averaged $2.98 a gallon on Wednesday.",
+        "true": false,
+        "why": "That was the price before the war; it is now $4.33.",
+        "story": "world"
+      },
+      {
+        "claim": "Hurricane Isaias hit Florida as a Category 2 storm.",
+        "true": true,
+        "why": "It came ashore near Destin as a Category 2 hurricane.",
+        "story": "us"
+      },
+      {
+        "claim": "The Supreme Court is due to hear the voter-list plea on Thursday.",
+        "true": true,
+        "why": "The court’s list for 15 October names the plea.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Destin, Florida",
+        "lat": 30.39,
+        "lon": -86.5,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  }
+}
