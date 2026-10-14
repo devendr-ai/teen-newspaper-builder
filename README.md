@@ -8,6 +8,11 @@ their child's age, download today's PDF and print it. The youngest readers also 
 one-page "Big Question" poster: one idea, pictures, something to try and questions
 to talk about together ([docs/POSTERS.md](docs/POSTERS.md)). Setup takes about 20 minutes: [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
+**For the children themselves:** *Read & Play* (`/play/`) puts each recent issue
+online for a tablet or phone: one story per screen for younger readers, read aloud
+with the sentence lit up, new words to tap, bigger text and a night mode, and a
+word game at the end. See [docs/READ_AND_PLAY.md](docs/READ_AND_PLAY.md).
+
 **Or let parents make their own:** the website's *Design your own* page writes
 instructions for the parent's own AI chatbot (ChatGPT, Claude or Gemini), then
 checks the chatbot's reply and builds the same PDF, all inside the browser.

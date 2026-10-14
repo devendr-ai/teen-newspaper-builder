@@ -146,7 +146,7 @@ def page(cfg, title, body, root="", head_extra=""):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'])}">{FONTS}{head_extra}<style>{CSS}</style></head>
 <body><div class="wrap"><header class="top"><div><h1><a href="{root}index.html">{E(cfg['title'])}</a></h1><p>{E(cfg['tagline'])}</p></div>
-<nav><a href="{root}index.html">Papers</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
+<nav><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div></body></html>"""
 
 
@@ -289,6 +289,8 @@ document.querySelectorAll('.frow button').forEach(b=>b.addEventListener('click',
     if cfg.get("feedback_url"):
         open(os.path.join(out, "feedback.html"), "w", encoding="utf-8").write(
             page(cfg, "Feedback", feedback_body(cfg["feedback_url"])))
+    from . import play                      # the children's side: read online and play
+    play.build(out, cfg, keep=min(keep, int(cfg.get("play_keep", 7))), log=log)
     open(os.path.join(out, ".nojekyll"), "w").close()
     log(f"site written to {out}")
     return out

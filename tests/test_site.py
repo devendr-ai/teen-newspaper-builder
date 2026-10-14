@@ -24,6 +24,7 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     page = (ygc / "index.html").read_text(encoding="utf-8")
     assert "aljazeera.com" in page                       # sources are shown to readers
     assert (out / "about.html").exists() and (out / "builder.html").exists() and (out / ".nojekyll").exists()
+    assert 'href="play/index.html">Read &amp; Play</a>' in index and (out / "play" / "index.html").exists()
     import zipfile                                       # the builder page runs the engine in the browser
     names = zipfile.ZipFile(out / "builder-engine.zip").namelist()
     assert {"ygc/chat.py", "ygc/render.py", "ygc/auto/llm.py", "docs/CRAFT_RULES.md", "docs/POSTERS.md",
