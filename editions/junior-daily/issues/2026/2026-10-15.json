@@ -1,0 +1,193 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-15",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Missiles Hit an Oil Building in Saudi Arabia",
+      "deck": "Saudi Arabia says a Houthi missile struck an Aramco office in Dhahran on Tuesday.",
+      "body": [
+        "Saudi Arabia is fighting a war with the Houthis, a group in Yemen. Yemen is the country just south of Saudi Arabia. On Saturday, a missile hit the main airport in Riyadh, the Saudi capital. Saudi officials say at least 13 people were killed and more than 300 were hurt.",
+        "The fighting has now reached an oil company. On Tuesday, a missile hit an office building at Aramco’s base in Dhahran. Aramco is Saudi Arabia’s giant oil company. Saudi news said there was a small fire and nobody was hurt. The Houthis say they did it, and they promise more attacks on Saudi airports and oil sites.",
+        "Saudi Arabia is hitting back. It struck an oil site near Sanaa, Yemen’s capital, on Tuesday. President Trump says the United States is thinking about joining the Saudi side. When he was asked, he said, “We may.” The US Embassy in Riyadh has told Americans to reconsider travelling to Saudi Arabia. Riyadh’s airport is closed until at least Saturday."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Oil and airports are things many countries rely on. When they are hit, people far from Yemen can feel it.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Saudi airport attack: Trump says U.S. could join fight against Houthis",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Live updates, 13 Oct 2026: US-Iran war, Saudi Arabia, Houthis",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26"
+        },
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: October 14, 2026",
+          "url": "https://www.justsecurity.org/160738/early-edition-october-14-2026/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UNITED STATES",
+      "headline": "Hurricane Isaias Leaves Six Dead in Florida",
+      "deck": "Tens of thousands of homes are still without power after the storm.",
+      "body": [
+        "Hurricane Isaias, a huge spinning storm, hit Florida near the city of Destin on Friday night. It was a Category 2 storm, with gusts of up to 118 miles an hour.",
+        "The danger did not end with the wind. On Tuesday, Governor Ron DeSantis said six people had died in Florida. Two more died in Alabama. Some deaths came from falling trees. Others came when people could not get medical care.",
+        "Power is the next problem. At the worst point, more than 400,000 customers lost electricity. By Tuesday, about 95 percent had it back, but over 45,000 were still waiting."
+      ],
+      "chart": {
+        "title": "FLORIDA POWER CUTS",
+        "subtitle": "Customers without electricity",
+        "labels": [
+          "Worst point",
+          "Tuesday"
+        ],
+        "values": [
+          400000,
+          45000
+        ],
+        "max": 450000,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "The first number is “more than” 400,000 and the second is “over” 45,000."
+      },
+      "why": "After a storm, repairs take days. Neighbours and workers must clear trees and fix power lines before life feels normal.",
+      "sources": [
+        {
+          "outlet": "Fox Weather",
+          "title": "Hurricane Isaias death toll rises to 6 in Florida as recovery continues",
+          "url": "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall"
+        },
+        {
+          "outlet": "Florida Phoenix",
+          "title": "DeSantis says Florida Isaias death toll reaches six",
+          "url": "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Zelenskyy says Russian strikes left at least 600,000 people without power.",
+        "Economics: Robert Hall and Michael Woodford won the Nobel Prize for economics."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the United States joins the Saudi side in Yemen.",
+        "How many Florida homes get their power back."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+    "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+    "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+    "https://www.foxweather.com/weather-news/florida-death-toll-rises-hurricane-isaias-dangerous-landfall",
+    "https://floridaphoenix.com/2026/10/13/desantis-says-florida-isaias-death-toll-reaches-six-thousands-still-without-power/",
+    "https://www.democracynow.org/2026/10/14/headlines",
+    "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford",
+    "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did a missile hit in Dhahran on Tuesday?",
+        "options": [
+          "An airport",
+          "An Aramco office building",
+          "A hospital"
+        ],
+        "answer": 1,
+        "why": "Saudi news said an administrative building at Aramco’s base was hit.",
+        "story": "lead"
+      },
+      {
+        "q": "Which group says it carried out the Dhahran strike?",
+        "options": [
+          "The Houthis",
+          "Aramco",
+          "The Red Cross"
+        ],
+        "answer": 0,
+        "why": "The Houthis claimed the strike and promised more attacks.",
+        "story": "lead"
+      },
+      {
+        "q": "How strong was Hurricane Isaias when it hit Florida?",
+        "options": [
+          "Category 1",
+          "Category 5",
+          "Category 2"
+        ],
+        "answer": 2,
+        "why": "The paper says it was a Category 2 storm.",
+        "story": "world"
+      },
+      {
+        "q": "How many people has Florida’s governor said died in Florida?",
+        "options": [
+          "Two",
+          "Six",
+          "Sixteen"
+        ],
+        "answer": 1,
+        "why": "Ron DeSantis said the Florida toll had risen to six.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The US Embassy in Riyadh has told Americans to reconsider travelling to Saudi Arabia. Riyadh’s airport is closed until at least Saturday.",
+        "true": true,
+        "why": "Saudi aviation extended the shutdown through 17 October.",
+        "story": "lead"
+      },
+      {
+        "claim": "Hurricane Isaias hit Florida near the city of Miami.",
+        "true": false,
+        "why": "It came ashore near Destin, on Florida’s Gulf Coast.",
+        "story": "world"
+      },
+      {
+        "claim": "By Tuesday, about 95 percent of Florida customers who lost power had it back.",
+        "true": true,
+        "why": "Over 45,000 were still waiting, mostly on the Panhandle.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Destin, Florida",
+        "lat": 30.39,
+        "lon": -86.5,
+        "countries": [
+          "United States"
+        ]
+      }
+    ]
+  }
+}
