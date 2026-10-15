@@ -1,0 +1,327 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-16",
+  "volume": 1,
+  "issue": 4,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  YEMEN, SAUDI ARABIA AND EUROPE",
+      "headline": "Europe Is Pulled In as Houthi Attacks Hit Saudi Arabia and the Red Sea",
+      "deck": "The EU’s foreign policy chief wants more warships for the Red Sea, and a Riyadh summit is postponed.",
+      "body": [
+        "Yemen’s war is no longer confined to Yemen. The Houthis, an Iran-backed armed group, are fighting forces aligned with Yemen’s internationally recognised government, and Saudi Arabia is bombing the Houthis from the air to support those forces. This week the fight has reached Saudi cities. On Wednesday 14 October the Houthis said they struck an Aramco site in Dhahran, and a Saudi official confirmed a building was hit, causing a “limited fire” and no casualties.",
+        "Europe has a stake because the Red Sea is a shipping route that links Asia to Europe. On Thursday the EU’s foreign policy chief, Kaja Kallas, urged member states to send more ships to Operation ASPIDES, the EU’s Red Sea naval mission, to escort merchant vessels. She called the Houthi attacks “indiscriminate” and “totally unacceptable”. The European Council also said an EU–Gulf Cooperation Council summit planned for 24 October in Riyadh has been postponed, with no new date.",
+        "The human cost is rising. Attacks on Riyadh’s airport last weekend reportedly killed 14 people and wounded more than 300, and the airport is expected to stay shut until at least Saturday. UN Secretary-General António Guterres condemned the attack. In Yemen, the World Food Programme says fighting is cutting food aid to about 800,000 people, and wheat flour in the city of Taiz is nearly gone. Yemeni government forces have also launched a counteroffensive to retake coastal land near the Bab al-Mandeb strait that the Houthis seized in recent weeks."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen share the Red Sea’s eastern shore, opposite Africa."
+      },
+      "why": "Attacks near the Red Sea can raise costs for ships and fuel buyers far away, which is why European governments are debating a naval response.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Russia Strikes Ukraine’s Power Grid as Zelenskyy Asks Europe for More",
+      "deck": "The ‘energy ceasefire’ announced by President Trump has collapsed in practice.",
+      "body": [
+        "Imagine a school with no heating in winter. That is the risk Ukrainians face as Russia attacks their power plants. Overnight into Wednesday 14 October, Russian air attacks killed at least nine people and left more than half a million without power, according to Al Jazeera. Russia said it hit plants supplying power and heating in Kyiv and in Kharkiv.",
+        "The attacks came days after President Trump announced an “energy ceasefire”, a pause in strikes on power and oil sites. Ukraine’s President Volodymyr Zelenskyy accused Russia of breaking it. On Thursday he told the Financial Times that Kyiv was “done” with the ceasefire, and that strikes on Russian oil refineries would resume. Russia says Ukraine hit a refinery in Ryazan, 180 km south of Moscow. Mr Zelenskyy says he would pause again only if the US supplied Patriot interceptors, which are missiles that shoot down other missiles.",
+        "Mr Zelenskyy was due to meet European leaders in Brussels on Thursday, asking for tougher sanctions on Russia, meaning penalties that hurt its economy, and faster help. The EU has pledged $50 billion for Ukraine next year, while Kyiv plans to spend $175 billion on defence. Dutch Prime Minister Rob Jetten urged EU leaders to “step up” their support.",
+        "Both sides are also fighting with drones. Ukraine’s Air Force said Russia launched 580 Shahed-type and other drones and two Kh-59 missiles overnight, and that 536 drones were neutralised. Moscow’s mayor said air defences downed nearly 500 drones heading for the capital, and Russia’s military put the total of Ukrainian drones downed that night at 902. Ukraine’s technology adviser said SpaceX limited the speed of Starlink terminals in motion; Elon Musk said only the US military and Mr Trump could limit its use."
+      ],
+      "illustration": {
+        "title": "POWER GRID UNDER FIRE",
+        "subtitle": "500,000+ without power",
+        "motif": "grid",
+        "caption": "Al Jazeera’s figure after strikes on Kyiv and Kharkiv."
+      },
+      "connect": "Energy is a weapon in this war: Russia targets power plants for winter, and Ukraine targets the refineries that help pay for Russia’s war.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "'Massive' Russian attack on Ukraine kills at least 9, damages power sites",
+          "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia says Ukraine resumes attacks on oil refineries",
+          "url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  BREXIT",
+      "headline": "Burnham Says He Will Renegotiate Parts of the Brexit Trade Deal",
+      "deck": "The Prime Minister told MPs he wants closer ties with the EU and a Brussels summit in November.",
+      "body": [
+        "Brexit was the UK’s exit from the European Union, decided by a referendum in 2016. After it, Britain and the EU agreed a trade deal. On Monday 12 October, Prime Minister Andy Burnham, who took office in July, told Parliament he will seek closer EU relations and renegotiate parts of that deal.",
+        "He will attend a UK–EU summit in Brussels in November. Topics include cutting paperwork for British food exports, emissions trading, a new youth experience scheme and deeper cooperation on immigration. Mr Burnham said the public would be “the boss” at every stage. His priorities are economic growth and controlling illegal immigration.",
+        "Not everyone agrees. Kemi Badenoch, the leader of the opposition, said the EU are “tough negotiators” and that Mr Burnham had already “shown his hand”."
+      ],
+      "why": "Trade rules decide how easily British food and goods reach European customers.",
+      "also": [
+        "Security: MI5’s chief said Iran is using criminal proxies and cited more than 50 UK arrests linked to Iran and Russia in a year.",
+        "Russia: Mr Burnham said Russian interference in the 2016 vote was clear, offering no evidence."
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "UK PM Andy Burnham vows to renegotiate post-Brexit trade deal with EU",
+          "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Germany: a Hamburg court jailed a Danish man for eight and a half years over planned attacks on pro-Israel figures for Iran’s Quds Force.",
+        "Saudi Arabia: three Saudi Pro League games were postponed because of missile threats; Cristiano Ronaldo’s Al Nassr now plays Al Ahli on 6 March 2027."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Renegotiate",
+          "def": "To discuss and change the terms of an agreement already made. Today: Mr Burnham wants to renegotiate parts of the post-Brexit trade deal."
+        },
+        {
+          "word": "Sanctions",
+          "def": "Penalties one country puts on another, such as limits on trade. Today: Mr Zelenskyy is asking EU leaders for tougher sanctions on Russia."
+        },
+        {
+          "word": "Interceptor",
+          "def": "A missile designed to shoot down incoming missiles. Today: Mr Zelenskyy says he would pause energy strikes if the US supplied Patriot interceptors."
+        },
+        {
+          "word": "Referendum",
+          "def": "A vote in which citizens decide one question directly. Today: Mr Burnham spoke about Russian interference in the 2016 Brexit referendum."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "In December 2018, student protests over education costs in Albania led Prime Minister Edi Rama to dismiss eight ministers and announce a “Pact for the University”."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  STUDENT PROTESTS",
+      "headline": "Students Protest Over Schools in France and Albania",
+      "deck": "Albania’s protests turned violent this week; France’s have run for weeks.",
+      "body": [
+        "Two European countries are seeing young people take to the streets over education. In France, protests began about two weeks before 6 October in the poorest suburbs of Paris and spread nationwide. Students want absent teachers replaced, longer lunch breaks, a changed school day and repairs to old buildings. Prime Minister Sébastien Lecornu suspended high school classes for the rest of that week and told ministers to address the demands by the end of October.",
+        "The protests have been costly. The Interior Ministry reported 6,100 arrests, most of them minors, and the Justice Ministry said over 1,800 people will be prosecuted. Mr Lecornu said at least 215 teenagers and 715 police officers had been wounded.",
+        "In Albania, student protests over education conditions entered a third day on Thursday 15 October, and have often been violent since Tuesday. Fires damaged buildings including the prime minister’s office, and protesters want Prime Minister Edi Rama to resign. He refused, saying “governments change through democratic elections”. Protests spread to universities in Elbasan and Shkoder."
+      ],
+      "chart": {
+        "title": "FRANCE, 6 OCTOBER",
+        "subtitle": "People who protested",
+        "labels": [
+          "Authorities",
+          "Organisers"
+        ],
+        "values": [
+          250000,
+          500000
+        ],
+        "max": 600000,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Both figures are estimates; they are “about” 250,000 and 500,000."
+      },
+      "why": "Young people are asking for the basics of school, and the way governments answer shows how they handle disagreement.",
+      "analyst": "Why might authorities and organisers give such different numbers? What could students and governments each do to resolve a long dispute? Why might some protests turn violent while others stay peaceful?",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Demonstrators clash with riot police in France as education protests mount",
+          "url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "'Boiling point': Why students are protesting against Albania's Edi Rama",
+          "url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+        }
+      ]
+    },
+    "sports": {
+      "title": "CHAMPIONS LEAGUE",
+      "body": "<b>Paris Saint-Germain</b> beat Manchester City 4-2 at the Etihad on Wednesday. PSG led 3-0 at half-time, and Erling Haaland scored twice in the second half. ",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "PSG beat Man City 4-2 in Champions League thriller",
+          "url": "https://www.aljazeera.com/sports/2026/10/14/psg-beat-man-city-4-2-in-champions-league-thriller"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Manchester City 2-4 PSG: Champions League",
+          "url": "https://www.aljazeera.com/amp/sports/liveblog/2026/10/14/manchester-city-vs-psg-live-champions-league"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What Mr Zelenskyy gets from EU leaders in Brussels, and whether more ships go to the Red Sea.",
+        "Whether Riyadh’s airport reopens after Saturday."
+      ]
+    },
+    "quote": {
+      "text": "Asking who, how and why is the start of thinking.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+    "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+    "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+    "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+    "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries",
+    "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu",
+    "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+    "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+    "https://www.aljazeera.com/sports/2026/10/14/psg-beat-man-city-4-2-in-champions-league-thriller",
+    "https://www.aljazeera.com/amp/sports/liveblog/2026/10/14/manchester-city-vs-psg-live-champions-league"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Who urged EU states to send more ships to the Red Sea?",
+        "options": [
+          "Kaja Kallas",
+          "Andy Burnham",
+          "Rob Jetten"
+        ],
+        "answer": 0,
+        "why": "EU foreign policy chief Kaja Kallas urged more ships for Operation ASPIDES.",
+        "story": "lead"
+      },
+      {
+        "q": "How much has the EU pledged for Ukraine next year?",
+        "options": [
+          "$175 billion",
+          "$50 billion",
+          "$5 billion"
+        ],
+        "answer": 1,
+        "why": "The EU pledged $50 billion; Kyiv plans $175 billion on defence.",
+        "story": "world"
+      },
+      {
+        "q": "What does Mr Burnham want to renegotiate?",
+        "options": [
+          "Parts of the post-Brexit trade deal",
+          "The 2016 referendum result",
+          "The UK budget"
+        ],
+        "answer": 0,
+        "why": "He wants to renegotiate parts of the post-Brexit trade deal.",
+        "story": "uk"
+      },
+      {
+        "q": "How many people did authorities say protested in France on 6 October?",
+        "options": [
+          "About 25,000",
+          "About 250,000",
+          "About 500,000"
+        ],
+        "answer": 1,
+        "why": "Authorities said about 250,000; organisers said about 500,000.",
+        "story": "europe"
+      },
+      {
+        "q": "Which team won the Champions League match at the Etihad?",
+        "options": [
+          "Manchester City",
+          "Paris Saint-Germain",
+          "Real Madrid"
+        ],
+        "answer": 1,
+        "why": "PSG won 4-2.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "An EU–Gulf summit planned for 24 October in Riyadh has been postponed.",
+        "true": true,
+        "why": "The European Council said it was postponed with no new date.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Albanian prime minister agreed to resign.",
+        "true": false,
+        "why": "Edi Rama refused, saying governments change through elections.",
+        "story": "europe"
+      },
+      {
+        "claim": "Mr Burnham says he will attend a UK–EU summit in Brussels in November.",
+        "true": true,
+        "why": "He said he would attend a bilateral summit in Brussels in November.",
+        "story": "uk"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Red Sea",
+        "lat": 20.0,
+        "lon": 38.5,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Tirana",
+        "lat": 41.33,
+        "lon": 19.82,
+        "countries": [
+          "Albania",
+          "France"
+        ]
+      }
+    ]
+  }
+}
