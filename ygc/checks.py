@@ -376,6 +376,23 @@ def check_where(where, stories, r):
                 r.note(f"{at}: {c!r} isn't a country on the map, so it won't be coloured in")
 
 
+def check_threads(ed, issue, r):
+    """`threads`: which stories continue one of the big ongoing stories (threads/<id>.json)."""
+    th = issue.get("threads")
+    if th is None:
+        return
+    if not isinstance(th, dict):
+        r.err('threads must map story ids to thread ids, like {"lead": "yemen-war"}')
+        return
+    from . import threads
+    stories = set(story_blocks(ed))
+    for bid, tid in th.items():
+        if bid not in stories:
+            r.err(f"threads.{bid}: not a story in this paper (use one of {', '.join(sorted(stories))})")
+        elif not threads.exists(tid):
+            r.err(f"threads.{bid}: there is no thread {tid!r} (threads/{tid}.json); create it first")
+
+
 def check_sources(ed, issue, r, archive):
     if not ed.get("sources_required"):
         return
@@ -409,6 +426,7 @@ def check_issue(ed, issue, path, archive=False, as_of=None):
     check_repetition(ed, issue, path, d, r)
     check_sources(ed, issue, r, archive)
     check_play(ed, issue, r)
+    check_threads(ed, issue, r)
     if not unbuildable(r):
         try:
             check_fit(ed, issue, r)

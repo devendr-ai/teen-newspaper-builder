@@ -1,0 +1,282 @@
+{
+ "id": "yemen-war",
+ "title": "The war in Yemen",
+ "opened": "2026-10-10",
+ "where": {
+  "place": "Yemen and Saudi Arabia",
+  "lat": 18.5,
+  "lon": 45.5,
+  "countries": [
+   "Yemen",
+   "Saudi Arabia"
+  ]
+ },
+ "younger": {
+  "one_minute": "Yemen is a country next to Saudi Arabia. For years, two sides have fought over who should run it. In 2022 they agreed to stop, and mostly did. This month the fighting started again, and missiles from Yemen have hit Saudi Arabia, including the main airport in its capital, Riyadh.",
+  "who": [
+   {
+    "name": "The Houthis",
+    "about": "A group that runs the north of Yemen."
+   },
+   {
+    "name": "Yemen's government",
+    "about": "Wants to take back the land the Houthis hold."
+   },
+   {
+    "name": "Saudi Arabia",
+    "about": "Yemen's big neighbour. It helps the government."
+   },
+   {
+    "name": "The UN",
+    "about": "Helps the two sides try to agree."
+   }
+  ],
+  "questions": [
+   {
+    "q": "Why are they fighting?",
+    "a": "Both sides want to run Yemen. The Houthis took over the north, including the capital, in 2014. The government, helped by Saudi Arabia, wants it back."
+   },
+   {
+    "q": "Has the fighting ever stopped before?",
+    "a": "Yes. In 2022 both sides agreed to stop, with help from the UN, and the fighting mostly stopped for years. That is why people hope talks can work again."
+   },
+   {
+    "q": "Why does it matter to India?",
+    "a": "Ships carrying things between India and Europe sail past Yemen, and India buys a lot of oil from countries nearby. That is why India is watching closely."
+   }
+  ],
+  "worry": "It's okay to feel worried when you read about war. People at the UN are working to help the two sides talk again. If you have family or friends in the Gulf, ask a grown-up how they are. Talking about it helps."
+ },
+ "older": {
+  "one_minute": "Yemen's war is between the Houthis, an Iran-backed armed group that has controlled the north since 2014, and the internationally recognised government, which Saudi Arabia backs. A UN-brokered truce largely held from 2022. On 4 October the government launched an offensive to retake Houthi land. The Houthis answered with missiles and drones fired into Saudi Arabia, hitting Riyadh's airport and an Aramco site. The US says it may join the Saudi side.",
+  "who": [
+   {
+    "name": "The Houthis",
+    "about": "Iran-backed armed group that has controlled northern Yemen, including Sanaa, since 2014."
+   },
+   {
+    "name": "Yemen's government",
+    "about": "Internationally recognised; fighting to retake Houthi territory."
+   },
+   {
+    "name": "Saudi Arabia",
+    "about": "Backs the government with an air campaign; now a Houthi target."
+   },
+   {
+    "name": "Iran",
+    "about": "Backs the Houthis; says it is ready to help the two sides talk."
+   },
+   {
+    "name": "The United States",
+    "about": "President Trump says the US \"may\" join the Saudi side."
+   },
+   {
+    "name": "The UN",
+    "about": "Its envoy, Hans Grundberg, called attacks on civilian airports \"a grave escalation\"."
+   }
+  ],
+  "questions": [
+   {
+    "q": "Why now?",
+    "a": "On 4 October the government's offensive ended a truce that had largely held since 2022. The Houthis answered with strikes on Saudi Arabia, which backs the offensive."
+   },
+   {
+    "q": "Why does it matter to India?",
+    "a": "Indian goods heading to Europe sail through the Red Sea and the Bab el-Mandeb strait, beside Yemen, and India imports much of its crude oil from the Gulf."
+   },
+   {
+    "q": "Could it get bigger?",
+    "a": "President Trump has said the US \"may\" join the Saudi side, and a Houthi leader warned of a painful response if it does. Iran says it is ready to help the two sides talk."
+   },
+   {
+    "q": "How are people in Yemen?",
+    "a": "The UN says more than 217,000 people have fled their homes since fighting escalated on the west coast, and the WHO says suspected cholera cases have tripled in recent weeks."
+   }
+  ],
+  "worry": "It's normal to feel uneasy about news like this. Diplomats, including the UN's envoy for Yemen, are working on a way back to talks, and the 2022 truce shows the fighting can stop. If someone you know lives in the region, it's fine to ask how they are."
+ },
+ "timeline": [
+  {
+   "date": "2014-01-01",
+   "when": "2014",
+   "younger": "A group called the Houthis took over the north of Yemen, including the capital.",
+   "older": "The Houthis take control of northern Yemen, including the capital, Sanaa."
+  },
+  {
+   "date": "2022-01-01",
+   "when": "2022",
+   "younger": "With the UN's help, both sides agreed to stop fighting. It mostly worked.",
+   "older": "A UN-brokered truce begins, and largely holds for years."
+  },
+  {
+   "date": "2026-10-04",
+   "younger": "Yemen's government, helped by Saudi Arabia, started fighting again to win back land.",
+   "older": "The Saudi-backed government launches the \"Dawn of Yemen\" offensive to retake Houthi territory, and the truce collapses."
+  },
+  {
+   "date": "2026-10-08",
+   "younger": "Missiles hit the airport in Riyadh, Saudi Arabia's capital.",
+   "older": "Houthi missiles hit Riyadh's King Khalid International Airport, killing a pilot and two other Saudis.",
+   "reported": "2026-10-10"
+  },
+  {
+   "date": "2026-10-10",
+   "younger": "A bigger missile attack hit the same airport. Many people were killed or hurt.",
+   "older": "The deadliest strike yet: at least 12 killed and about 300 wounded at Riyadh's airport. India and many other countries condemn it.",
+   "reported": "2026-10-12"
+  },
+  {
+   "date": "2026-10-11",
+   "younger": "The airport closed, and schools in Riyadh moved online for a week.",
+   "older": "Another strike hits the airport. It closes, and Riyadh's schools move online for a week.",
+   "reported": "2026-10-12"
+  },
+  {
+   "date": "2026-10-13",
+   "younger": "A missile hit an office of Saudi Arabia's big oil company. Nobody was hurt.",
+   "older": "A Houthi missile hits an Aramco office building in Dhahran, with no injuries; Saudi Arabia strikes an oil site near Sanaa.",
+   "reported": "2026-10-15"
+  }
+ ],
+ "stories": [
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-10",
+   "block": "lead"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-12",
+   "block": "lead"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-13",
+   "block": "lead"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-14",
+   "block": "lead"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-15",
+   "block": "lead"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-10",
+   "block": "lead"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-12",
+   "block": "lead"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-13",
+   "block": "lead"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-14",
+   "block": "lead"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-15",
+   "block": "lead"
+  },
+  {
+   "paper": "europe-explained",
+   "date": "2026-10-10",
+   "block": "lead"
+  },
+  {
+   "paper": "europe-explained",
+   "date": "2026-10-12",
+   "block": "lead"
+  },
+  {
+   "paper": "europe-explained",
+   "date": "2026-10-14",
+   "block": "lead"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-10",
+   "block": "lead"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-12",
+   "block": "lead"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-14",
+   "block": "lead"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-10",
+   "block": "lead"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-12",
+   "block": "lead"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-13",
+   "block": "lead"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-14",
+   "block": "lead"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-15",
+   "block": "lead"
+  },
+  {
+   "paper": "young-global-citizen",
+   "date": "2026-10-10",
+   "block": "lead"
+  },
+  {
+   "paper": "young-global-citizen",
+   "date": "2026-10-12",
+   "block": "lead"
+  },
+  {
+   "paper": "young-global-citizen",
+   "date": "2026-10-15",
+   "block": "lead"
+  }
+ ],
+ "sources": [
+  "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+  "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war",
+  "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
+  "https://tradingeconomics.com/commodity/brent-crude-oil",
+  "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know",
+  "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+  "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes",
+  "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+  "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+  "https://www.abc.net.au/news/2026-10-11/houthi-airport-attack-saudi-arabia-riyadh-closure/107253872",
+  "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+  "https://www.democracynow.org/2026/10/13/headlines",
+  "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+  "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+  "https://www.foxnews.com/live-news/us-iran-war-saudi-arabia-trump-houthis-10-13-26",
+  "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+  "https://www.democracynow.org/2026/10/14/headlines"
+ ]
+}

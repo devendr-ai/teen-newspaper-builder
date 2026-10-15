@@ -20,6 +20,13 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- The story so far (`ygc/threads.py`, `threads/`, `docs/STORY_SO_FAR.md`): one Read & Play
+  page per big ongoing story, at two reading levels, with "in one minute", a map, a timeline
+  linked to the stories that reported it, who's who, questions and a note for worried readers.
+  "Big stories right now" on the Read & Play front page, a link inside each story that's part
+  of a thread, and a printed pointer line. Issues gain an optional `threads` field; `ygc
+  thread` checks thread files; the nightly skill keeps them up to date. First threads: the
+  war in Yemen, and Russia and Ukraine.
 - A logo: the owl reading its paper (`assets/owl.svg`). It's in the website
   and builder headers, the browser tab, Read & Play (front page, end of each
   paper, home-screen icon), and on the printed masthead of new papers, opposite

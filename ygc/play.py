@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, world
+from . import brand, edition, scenes, threads, world
 from .chat import sentences
 
 E = html.escape
@@ -202,8 +202,10 @@ def top_figure(story, w):
     return ""
 
 
-def sections(ed, issue, date):
-    """[(kind, block id, html, colour)] in reading order, the data the games need, and where each story happens."""
+def sections(ed, issue, date, chips=None):
+    """[(kind, block id, html, colour)] in reading order, the data the games need, and where each story happens.
+    `chips`: {story id: link} for stories that are part of a big ongoing story ("the story so far")."""
+    chips = chips or {}
     blocks = issue.get("blocks", {})
     vocab = vocab_of(issue)
     used = set()
@@ -240,6 +242,7 @@ def sections(ed, issue, date):
             out.append(("story", bid, f'''{kick(icon, name, nice(topic))}
 <h2><span class="s">{clean(b.get("headline", ""))}</span></h2>
 {f'<p class="deck"><span class="s">{clean(b["deck"])}</span></p>' if b.get("deck") else ""}
+{f'<a class="tchip" href="{E(chips[bid])}">🧵 New to this story? Read the story so far →</a>' if bid in chips else ""}
 {top}<div class="text">{body}</div>{below}{boxes}
 {f'<details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details>' if src else ""}''', tone))
             first = plain(b.get("body", [""])[0]) if b.get("body") else ""
@@ -275,9 +278,9 @@ def sections(ed, issue, date):
     return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts}, places
 
 
-def issue_page(cfg, ed, band, issue, date, others):
+def issue_page(cfg, ed, band, issue, date, others, chips=None):
     """The page, and where its stories happen (for the lobby's map)."""
-    secs, data, places = sections(ed, issue, date)
+    secs, data, places = sections(ed, issue, date, chips)
     cards = "".join(f'<section class="card {k} t-{tone}" id="s-{E(b)}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
                     f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h, tone) in enumerate(secs))
     d = dt.date.fromisoformat(date)
@@ -337,6 +340,70 @@ def shell(cfg, title, body, root=""):
 <script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
 
 
+# ------------------------------------------------------------------ the story so far
+def thread_href(tid, level):
+    return f"{tid}.html" if level == "younger" else f"{tid}-more.html"
+
+
+def thread_page(cfg, t, level, links, active, dates=()):
+    """One big ongoing story for one age level. `links`: {date: Read & Play page} for the timeline."""
+    v = t[level]
+    other = "older" if level == "younger" else "younger"
+    switch = (f'<a class="lvl" href="{thread_href(t["id"], other)}">'
+              f'{"More detail →" if level == "younger" else "← Easier version"}</a>')
+    updated = dt.date.fromisoformat(threads.last_news(t, dates))
+    w = play_where(t.get("where"))
+    lines = [e for e in t["timeline"] if e.get(level) or level == "older"][::-1]      # newest first
+
+    def li(e):
+        d = dt.date.fromisoformat(e["date"])
+        when = e.get("when") or f"{d.day} {d:%b}"
+        link = links.get(e["date"])
+        return (f'<li><b>{E(when)}</b><span class="s">{clean(e.get(level) or e["older"])}</span>'
+                + (f' <a href="{E(link)}">Read it</a>' if link else "") + "</li>")
+    recent, earlier = lines[:3], lines[3:]
+    timeline = (f'<details open><summary>📅 What happened</summary><ul class="tl">{"".join(li(e) for e in recent)}</ul>'
+                + (f'<details class="earlier"><summary>Show earlier days ({len(earlier)})</summary><ul class="tl">'
+                   f'{"".join(li(e) for e in earlier)}</ul></details>' if earlier else "") + "</details>")
+    who = ('<details><summary>👥 Who\'s who</summary><div class="who2">'
+           + "".join(f'<div><b>{E(p["name"])}</b><span class="s">{clean(p["about"])}</span></div>' for p in v["who"])
+           + "</div></details>")
+    qs = ("".join(f'<details><summary>❓ {E(q["q"])}</summary><p><span class="s">{clean(q["a"])}</span></p></details>'
+                  for q in v.get("questions") or []))
+    worry = (f'<details class="worry"><summary>💛 If this news worries you</summary><p><span class="s">{clean(v["worry"])}</span></p></details>'
+             if v.get("worry") else "")
+    src = "".join(f'<li><a href="{E(u)}" rel="noopener" target="_blank">{E(u.split("//")[-1].split("/")[0])}</a></li>'
+                  for u in t.get("sources") or [])
+    body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a>{switch}</header>
+<main class="threadpage"><section class="card thread t-violet"><button type="button" class="read" aria-label="Read this to me">
+<span aria-hidden="true">🔊</span> Read it to me</button>
+<p class="kicker"><span class="desk">🧵 The story so far</span> {"Updated" if active else "Last news"} {updated:%a %d %b}</p>
+<h2><span class="s">{E(t["title"])}</span></h2>
+<p class="oneminute"><b>In one minute:</b> <span class="s">{clean(v["one_minute"])}</span></p>
+{where_html(w) if w else ""}{timeline}{who}{qs}{worry}
+<details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details></section>
+<p class="older"><a href="index.html">All the big stories</a></p></main>'''
+    return shell(cfg, f"{t['title']}: the story so far · Read & Play", body, root="../../")
+
+
+def play_where(w):
+    """A thread's `where` as the map figure's data."""
+    if not isinstance(w, dict):
+        return None
+    return where_of({}, w)
+
+
+def thread_index(cfg, items):
+    rows = "".join(f'''<a class="bigstory" href="{thread_href(t["id"], "younger")}" data-young="{thread_href(t["id"], "younger")}"
+data-old="{thread_href(t["id"], "older")}"><span class="ic" aria-hidden="true">🧵</span><span><b>{E(t["title"])}</b>
+<small>{"Updated" if active else "Last news"} {dt.date.fromisoformat(threads.last_news(t, dates)):%a %d %b}</small></span></a>'''
+                   for t, active, dates in items)
+    body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a></header>
+<main class="lobby"><h1>{brand.inline("owl")}Big stories</h1><p class="lede">News that goes on for days. Catch up on what happened,
+who's who, and the questions people are asking.</p><div class="big3">{rows}</div></main>'''
+    return shell(cfg, f"Big stories · Read & Play", body, root="../../")
+
+
 # ------------------------------------------------------------------ an app on the home screen
 def manifest(cfg):
     return json.dumps({
@@ -381,6 +448,35 @@ def stub(cfg, ed, date, latest):
     return shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../")
 
 
+def write_threads(pdir, cfg, known, in_thread, pages):
+    """play/threads/: each thread at two levels, and the list of them all. Returns the active ones,
+    newest first, for the front page: [(thread, its story dates, newest date on the site)]."""
+    tdir = os.path.join(pdir, "threads")
+    os.makedirs(tdir, exist_ok=True)
+    newest = max((d for _, d in pages), default="")
+    items, big = [], []
+    linked = {tid: [d for (_, d, _), x in in_thread.items() if x == tid] for tid in known}
+    for t in sorted(known.values(), key=lambda t: (threads.last_news(t, linked[t["id"]]), t["title"]), reverse=True):
+        refs = [(e, d, b) for (e, d, b), tid in in_thread.items() if tid == t["id"]]
+        dates = [d for _, d, _ in refs]
+        active = bool(newest) and threads.is_active(t, newest, dates)
+        for level in threads.LEVELS:
+            links = {}                              # a timeline line -> the story that reported it, at this age if we can
+            for e in t.get("timeline", []):
+                near = sorted((0 if threads.level_of(pages[(p, d)]) == level else 1, p, b) for p, d, b in refs
+                              if d == e.get("reported") and (p, d) in pages)
+                if near:
+                    _, p, b = near[0]
+                    links[e["date"]] = f"../{p}/{e['reported']}.html#s-{b}"
+            open(os.path.join(tdir, thread_href(t["id"], level)), "w", encoding="utf-8").write(
+                thread_page(cfg, t, level, links, active, dates))
+        items.append((t, active, dates))
+        if active and len(big) < threads.MAX_ACTIVE:
+            big.append((t, dates, newest))
+    open(os.path.join(tdir, "index.html"), "w", encoding="utf-8").write(thread_index(cfg, items))
+    return big
+
+
 def build(out, cfg, keep=7, log=print):
     """Write out/play/: the Who's reading? page with today's news map, and a page per recent issue of every listed paper."""
     from .site import audience, issues_of, lead_headline
@@ -390,6 +486,14 @@ def build(out, cfg, keep=7, log=print):
     open(os.path.join(pdir, "play.js"), "w", encoding="utf-8").write(JS)
     open(os.path.join(pdir, "world.js"), "w", encoding="utf-8").write(world.world_js())
     tiles, pins, newest = [], [], []
+    every = []                                      # (paper, date, issue) for every listed paper: which stories join a thread
+    for eid in edition.list_editions():
+        ed = edition.load(eid)
+        if (ed.get("site") or {}).get("listed") is not False:
+            every += [(eid, d, json.load(open(p, encoding="utf-8"))) for d, p in issues_of(ed)]
+    in_thread = threads.story_index(every)
+    known = {t["id"]: t for t in threads.load_all()}
+    pages = {}                                      # (paper, date) -> age band, for pages Read & Play keeps
     for eid in edition.list_editions():
         ed = edition.load(eid)
         if (ed.get("site") or {}).get("listed") is False:
@@ -403,12 +507,16 @@ def build(out, cfg, keep=7, log=print):
         latest = None
         for date, path in issues_of(ed)[:keep]:
             issue = json.load(open(path, encoding="utf-8"))
+            level = threads.level_of(band)
+            chips = {b: f"../threads/{thread_href(tid, level)}" for (e, d, b), tid in in_thread.items()
+                     if e == eid and d == date and tid in known}
             try:
-                html_, places = issue_page(cfg, ed, band, issue, date, dates)
+                html_, places = issue_page(cfg, ed, band, issue, date, dates, chips)
             except Exception as e:
                 log(f"  ! play {eid} {date}: {e}")
                 continue
             open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(html_)
+            pages[(eid, date)] = band
             if not latest:
                 latest = (date, lead_headline(ed, issue), issue)
                 pins += [{"lat": w["lat"], "lon": w["lon"], "h": h, "p": ed["name"], "b": band, "place": place_name(w),
@@ -425,6 +533,13 @@ def build(out, cfg, keep=7, log=print):
 {fig}<h2>{E(ed["name"])}</h2><p class="when">{E(band)} · {dt.date.fromisoformat(latest[0]):%a %d %b}</p>
 <p>{E(latest[1])}</p><div class="go2"><a class="big go" href="{eid}/{latest[0]}.html">Read</a><a class="big" href="{eid}/{latest[0]}.html#play">Play</a></div></article>'''))
         log(f"  play {eid}: {len(dates)} issue(s)")
+    big = write_threads(pdir, cfg, known, in_thread, pages)
+    big_row = ("<section class=\"bigrow\"><h2>🧵 Big stories right now <a href=\"threads/index.html\">All</a></h2><div class=\"big3\">"
+               + "".join(f'''<a class="bigstory" href="threads/{thread_href(t["id"], "younger")}" data-young="threads/{thread_href(t["id"], "younger")}"
+data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden="true">🌍</span><span><b>{E(t["title"])}</b>
+<small>Day {(dt.date.fromisoformat(newest_d) - dt.date.fromisoformat(t["opened"])).days + 1} · {len(t["timeline"])} updates</small></span>
+{"<span class=\"new\">NEW TODAY</span>" if threads.last_news(t, ld) == newest_d else ""}</a>''' for t, ld, newest_d in big)
+               + "</div></section>") if big else ""
     who = "".join(f'<button type="button" class="who" data-band="{E(b)}">{E(b.replace("Ages ", ""))}</button>' for b in BANDS)
     news_map = (f'''<section class="newsmap"><h2>🗺️ Where's the news today?</h2><p class="how">Tap a pin to see the story.</p>
 <figure class="where wide" data-pins="{E(json.dumps(pins, ensure_ascii=False))}"><div class="map" role="img" aria-label="A world map with a pin for each of today's stories"></div>
@@ -437,7 +552,7 @@ today's papers work without the internet.</p><button type="button" class="big go
 <p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
 <section class="myreading" id="badges" aria-label="My reading"></section>
 <h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div>
-{news_map}<div class="tiles">{"".join(t[2] for t in sorted(tiles))}</div>
+{big_row}{news_map}<div class="tiles">{"".join(t[2] for t in sorted(tiles))}</div>
 <p class="note">For grown-ups: nothing here is tracked. Settings and stars stay on this device. Maps show India's borders as on
 India's official maps (Natural Earth, India view).</p></main>'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
@@ -605,6 +720,31 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .tile h2{font-size:1.25em;margin:4px 0 0}.tile p{margin:0}.tile .when{font-size:15px;color:var(--muted)}
 .go2{display:flex;gap:8px;margin-top:auto;padding-top:8px}.go2 .big{flex:1;text-align:center}
 .note{font-size:14px;color:var(--muted);margin-top:28px}
+/* the story so far */
+.tchip{display:inline-flex;align-items:center;gap:6px;background:#E7E3FA;color:#4D3FB0;border-radius:999px;padding:8px 14px;
+  font-weight:700;font-size:.78em;text-decoration:none;margin:2px 0 12px;line-height:1.3}
+:root[data-theme="night"] .tchip{background:#2E2A4D;color:#C9C1FF}
+.threadpage{max-width:760px;margin:0 auto;padding:16px 16px 60px}
+.bar .lvl{font-weight:700;text-decoration:none;font-size:16px}
+.thread .oneminute{font-size:1.05em;margin:6px 0 14px}
+.thread details{border-top:2px solid var(--line);padding:10px 0}.thread details details{border-top:0;padding:4px 0 0}
+.thread summary{font-family:var(--display);font-weight:800;font-size:1.05em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px;min-height:32px}
+.thread summary::-webkit-details-marker{display:none}
+.thread summary::after{content:"+";color:var(--muted);font-family:var(--text)}.thread details[open]>summary::after{content:"−"}
+.thread details.earlier>summary,.thread details.grown>summary{font-family:var(--text);font-size:.8em;color:var(--teal);font-weight:700}
+.thread details p{margin:8px 0 0}
+.who2{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:8px;margin-top:8px}
+.who2 div{background:var(--bg);border-radius:12px;padding:8px 10px;font-size:.8em;line-height:1.35}.who2 b{display:block;font-size:1.05em}
+.tl{list-style:none;margin:8px 0 0;padding:0 0 0 18px;border-left:3px solid #E7E3FA}
+.tl li{position:relative;margin:0 0 12px;font-size:.9em;line-height:1.45}
+.tl li::before{content:"";position:absolute;left:-26px;top:5px;width:12px;height:12px;border-radius:50%;background:#6B5BD2;border:2px solid var(--card)}
+.tl b{display:block;color:#4D3FB0;font-size:.85em}:root[data-theme="night"] .tl b{color:#C9C1FF}
+.bigrow{margin:0 0 20px}.bigrow h2 a{font-family:var(--text);font-size:.65em;margin-left:8px}
+.big3{display:grid;gap:8px}
+.bigstory{display:flex;gap:12px;align-items:center;background:var(--card);border:2px solid var(--line);border-left:6px solid #6B5BD2;
+  border-radius:16px;padding:10px 12px;text-decoration:none;color:var(--ink)}
+.bigstory .ic{font-size:1.6em}.bigstory b{font-family:var(--display);font-size:1.05em}.bigstory small{display:block;color:var(--muted)}
+.bigstory .new{margin-left:auto;background:var(--rose-t);color:#B23A30;font-size:.68em;font-weight:800;border-radius:999px;padding:3px 9px;white-space:nowrap}
 /* app, streaks and badges */
 .install{background:var(--card);border:2px dashed var(--coral);border-radius:18px;padding:12px 16px;margin:0 0 18px}
 .install p{margin:0 0 8px}.install .big{min-height:48px;padding:8px 18px;font-size:17px}
@@ -920,15 +1060,13 @@ JS = r"""
       whos.forEach((w) => w.setAttribute("aria-pressed", String(w.dataset.band === b)));
       $$(".tile").forEach((t) => { t.hidden = !!b && t.dataset.band !== b; });
       $$(".where.wide").forEach((f) => { if ($("svg", f)) lobbyPins(f); });
+      const older = b && !/6–8|9–11/.test(b);               // the story so far, at the reader's level
+      $$(".bigstory").forEach((a) => { a.href = older ? a.dataset.old : a.dataset.young; });
     };
     whos.forEach((w) => w.addEventListener("click", () => pick(w.dataset.band)));
     pick(store.get("band", ""));
     return;
   }
-
-  const main = $(".issue");
-  if (!main) return;
-  const data = JSON.parse($("#data").textContent);
 
   // ---------------------------------------------------------------- read aloud, sentence by sentence
   const speech = "speechSynthesis" in window ? window.speechSynthesis : null;
@@ -971,6 +1109,10 @@ JS = r"""
     if (!speech) { b.hidden = true; return; }
     b.addEventListener("click", () => readCard(b.closest(".card"), b));
   });
+
+  const main = $(".issue");
+  if (!main) return;
+  const data = JSON.parse($("#data").textContent);
 
   // ---------------------------------------------------------------- tap a word
   const pop = $("#pop");

@@ -38,6 +38,9 @@ site`) is for the child, on a tablet or phone, from the same issue files.
     can hear each question.
   - *Fact or fiction?*: a claim about the issue; tap **True** or **Not true**.
 
+- **The story so far.** Big ongoing stories (a war, an election) get one page each to catch
+  up on, for younger and older readers: in one minute, a map, what happened, who's who. See
+  `docs/STORY_SO_FAR.md`.
 - **From paper to screen.** Papers dated from `qr_from` in `site.yaml` (16
   October 2026) print a small QR code in the masthead, "Scan to read & play". It
   opens that issue's Read & Play page. Read & Play keeps a week of papers, so an
