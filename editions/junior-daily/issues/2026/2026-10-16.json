@@ -1,0 +1,190 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-16",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Football and Tennis Moved as Missiles Keep Flying",
+      "deck": "Saudi Arabia says it stopped a missile aimed at its capital on Thursday.",
+      "body": [
+        "Saudi Arabia is fighting a war with the Houthis, a group in Yemen. Yemen is the country just south of Saudi Arabia. On Wednesday, the Houthis said they hit an Aramco site in Dhahran. Aramco is Saudi Arabia’s giant oil company. A Saudi official said a building was hit and nobody was hurt.",
+        "On Thursday, Saudi-backed forces said they stopped a drone heading for the city of Medina and a missile fired toward Riyadh, the capital. Last weekend, attacks on Riyadh’s airport reportedly killed 14 people. It is expected to stay shut until Saturday.",
+        "The war is changing daily life. The Saudi football league moved three games. Cristiano Ronaldo’s team, Al Nassr, now plays its match in March 2027. A big tennis event in Riyadh moved to December. In Yemen, government forces began a push to retake land on the coast."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "When airports and oil sites are hit, people far from Yemen can feel it, and families in the war zone can run short of food.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ronaldo's among three Saudi Arabia games postponed due to Houthi attacks",
+          "url": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN AND THE GULF",
+      "headline": "Ships Keep Getting Hit Near a Key Oil Waterway",
+      "deck": "Oil costs about $104 a barrel, much more than before the war began.",
+      "body": [
+        "The Strait of Hormuz is a narrow sea passage. In February, the United States and Israel attacked Iran, and Iran closed the strait. Before the war, at least one fifth of the world’s oil and gas passed through it.",
+        "A June ceasefire fell apart over who controls the strait. The US now blocks Iran’s southern ports. A UK centre counted 15 attacks on ships between October 6 and 14.",
+        "When less oil gets out, prices rise. Oil was about $72 a barrel before the war, nearly $120 at its highest, and about $104 on Thursday."
+      ],
+      "chart": {
+        "title": "PRICE OF A BARREL OF OIL",
+        "subtitle": "US dollars",
+        "labels": [
+          "Before war",
+          "Highest",
+          "Thursday"
+        ],
+        "values": [
+          72,
+          120,
+          104
+        ],
+        "max": 130,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "The $72 is “about” and the $120 is “nearly”."
+      },
+      "why": "Oil makes fuel for cars, trucks and ships. When it costs more, many things cost more too.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US-Iran stalemate: What are Trump's next military options?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Russian attacks killed at least nine people and left over half a million without power.",
+        "Albania: Students have protested for three days, calling on the prime minister to resign."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Riyadh’s airport reopens on Saturday.",
+        "Whether Ukraine and Russia keep hitting each other’s energy sites."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+    "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks",
+    "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+    "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+    "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+    "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries",
+    "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What city’s airport is expected to stay shut until at least Saturday?",
+        "options": [
+          "Riyadh",
+          "Medina",
+          "Dhahran"
+        ],
+        "answer": 0,
+        "why": "Riyadh’s airport was expected to stay shut at least until Saturday.",
+        "story": "lead"
+      },
+      {
+        "q": "Which football team does Cristiano Ronaldo play for in the story?",
+        "options": [
+          "Al Hilal",
+          "Al Nassr",
+          "Al Ittihad"
+        ],
+        "answer": 1,
+        "why": "The paper says Al Nassr is Ronaldo’s team, and its game moved to March 2027.",
+        "story": "lead"
+      },
+      {
+        "q": "What waterway did Iran close?",
+        "options": [
+          "Red Sea",
+          "Suez Canal",
+          "Strait of Hormuz"
+        ],
+        "answer": 2,
+        "why": "Iran closed the Strait of Hormuz after the attacks in February.",
+        "story": "world"
+      },
+      {
+        "q": "About how much was a barrel of oil on Thursday?",
+        "options": [
+          "$72",
+          "$104",
+          "$120"
+        ],
+        "answer": 1,
+        "why": "The paper says oil was about $104 on Thursday.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "A big tennis event in Riyadh was moved to December.",
+        "true": true,
+        "why": "The Six Kings Slam tennis event was moved to December.",
+        "story": "lead"
+      },
+      {
+        "claim": "Oil cost about $72 a barrel before the war.",
+        "true": true,
+        "why": "Oil was about $72 before the war and about $104 on Thursday.",
+        "story": "world"
+      },
+      {
+        "claim": "The war in the Gulf began in March.",
+        "true": false,
+        "why": "The US and Israel attacked Iran in February, not March.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "United States"
+        ]
+      }
+    ]
+  }
+}
