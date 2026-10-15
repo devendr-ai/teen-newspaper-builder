@@ -245,7 +245,9 @@ def _masthead(canv, ed, issue, npages, qr=None):
     y = PAGE_H - 0.5 * inch - 4
     canv.setStrokeColor(INK); canv.setLineWidth(0.6)
     canv.line(LEFT_M, y, PAGE_W - RIGHT_M, y)
-    if qr:                          # the online edition: Read & Play, one scan away
+    if qr:                          # the online edition: Read & Play, one scan away; the owl balances it
+        from . import brand
+        brand.draw(canv, LEFT_M, y - 7 - QR, QR)
         _qr(canv, qr, PAGE_W - RIGHT_M - QR, y - 7 - QR)
         canv.setFillColor(MUTED); canv.setFont("Helvetica-Bold", 5.6)
         canv.drawCentredString(PAGE_W - RIGHT_M - QR / 2, y - 7 - QR - 7, "SCAN TO READ & PLAY")

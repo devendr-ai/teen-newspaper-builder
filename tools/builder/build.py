@@ -1,4 +1,4 @@
-"""Assemble tools/newspaper-builder.html from page.html + generator.js + presets.js.
+"""Assemble tools/newspaper-builder.html from page.html + generator.js + presets.js (+ the owl logo).
 
     python tools/builder/build.py           # write the page
     python tools/builder/build.py --verify  # fail if the committed page is stale
@@ -13,7 +13,10 @@ OUT = os.path.join(os.path.dirname(HERE), "newspaper-builder.html")
 def assemble():
     read = lambda n: open(os.path.join(HERE, n), encoding="utf-8").read()
     presets = read("presets.js").replace('if (typeof module !== "undefined") module.exports = PRESETS;', "")
-    return read("page.html").replace("/*__GENERATOR__*/", read("generator.js")).replace("/*__PRESETS__*/", presets)
+    owl = open(os.path.join(HERE, "..", "..", "assets", "owl.svg"), encoding="utf-8").read().strip()
+    owl = owl.replace("<svg ", '<svg class="logo" aria-hidden="true" focusable="false" ', 1)
+    return (read("page.html").replace("/*__GENERATOR__*/", read("generator.js")).replace("/*__PRESETS__*/", presets)
+            .replace("<!--OWL-->", owl))
 
 
 if __name__ == "__main__":

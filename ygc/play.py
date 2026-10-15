@@ -13,8 +13,9 @@ import html
 import json
 import os
 import re
+import shutil
 
-from . import edition, scenes, world
+from . import brand, edition, scenes, world
 from .chat import sentences
 
 E = html.escape
@@ -295,7 +296,7 @@ def issue_page(cfg, ed, band, issue, date, others):
 <div id="read" role="tabpanel">
 <div class="trail" aria-hidden="true"><div class="track"><i></i><b class="walker">🚀</b><b class="flag">🏁</b></div><span class="count"></span></div>
 {cards}
-<section class="card end" data-i="{len(secs)}"><h2>You read today's paper! 🎉</h2><p class="streak" role="status"></p><p>Ready for a game?</p>
+<section class="card end" data-i="{len(secs)}">{brand.inline("owl cheer")}<h2>You read today's paper! 🎉</h2><p class="streak" role="status"></p><p>Ready for a game?</p>
 <button type="button" class="big go" data-tab="play">Play now</button>
 <p class="mine"><a href="../index.html#badges">See my streak and badges</a></p></section>
 <div class="steps"><button type="button" class="big prev">← Back</button><button type="button" class="big next">Next →</button></div>
@@ -330,31 +331,13 @@ def shell(cfg, title, body, root=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
 <link rel="manifest" href="{root}play/manifest.webmanifest"><meta name="theme-color" content="#E2584D">
-<link rel="icon" href="{root}play/icon-192.png"><link rel="apple-touch-icon" href="{root}play/icon-180.png">
+<link rel="icon" href="{root}play/owl.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{root}play/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Read &amp; Play">
 <link rel="stylesheet" href="{root}play/play.css?v={asset_version()}"></head><body>{body}
 <script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
 
 
 # ------------------------------------------------------------------ an app on the home screen
-def icon(size, path):
-    """The home-screen icon: a newspaper with a play button, on coral. Kept inside the
-    middle 80% so phones that cut icons into circles don't clip it."""
-    from PIL import Image, ImageDraw
-    k = 4                                            # draw big, shrink: smooth edges
-    S = size * k
-    im = Image.new("RGB", (S, S), "#E2584D")
-    d = ImageDraw.Draw(im)
-    f = lambda v: int(v * S)
-    d.rounded_rectangle((f(.24), f(.22), f(.70), f(.74)), radius=f(.04), fill="#FFFFFF")
-    d.rectangle((f(.29), f(.28), f(.65), f(.36)), fill="#007C89")
-    for i, w in enumerate((.65, .60, .65, .52)):
-        d.rectangle((f(.29), f(.42 + i * .07), f(w), f(.45 + i * .07)), fill="#C9D3D9")
-    d.ellipse((f(.55), f(.55), f(.81), f(.81)), fill="#F4B400", outline="#FFFFFF", width=f(.02))
-    d.polygon([(f(.645), f(.62)), (f(.645), f(.74)), (f(.74), f(.68))], fill="#FFFFFF")
-    im.resize((size, size), Image.LANCZOS).save(path)
-
-
 def manifest(cfg):
     return json.dumps({
         "name": f"Read & Play · {cfg['title']}", "short_name": "Read & Play",
@@ -392,7 +375,7 @@ def stub(cfg, ed, date, latest):
     """A page for an issue that has left Read & Play (its printed QR code still points here)."""
     d = dt.date.fromisoformat(date)
     body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a></header>
-<main class="stub"><section class="card end"><h2>This paper is from {d:%A %d %B}</h2>
+<main class="stub"><section class="card end">{brand.inline("owl cheer")}<h2>This paper is from {d:%A %d %B}</h2>
 <p>Read &amp; Play keeps the last week's papers. Here's the newest {E(ed["name"])}!</p>
 <a class="big go" href="{latest}.html">Read the newest one →</a></section></main>'''
     return shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../")
@@ -448,8 +431,8 @@ def build(out, cfg, keep=7, log=print):
 <figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
                 if pins else "")
     body = f'''<header class="bar"><a class="home" href="../index.html">← {E(cfg["title"])} (grown-ups)</a></header>
-<main class="lobby"><h1>Read &amp; Play</h1><p class="lede">Today's news, read to you if you like, with a game at the end.</p>
-<div class="install" hidden><p>📲 <b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
+<main class="lobby"><h1>{brand.inline("owl")}Read &amp; Play</h1><p class="lede">Today's news, read to you if you like, with a game at the end.</p>
+<div class="install" hidden><p><img class="app" src="icon-192.png" alt="" width="48" height="48"><b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
 today's papers work without the internet.</p><button type="button" class="big go add" hidden>Add to home screen</button>
 <p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
 <section class="myreading" id="badges" aria-label="My reading"></section>
@@ -458,8 +441,9 @@ today's papers work without the internet.</p><button type="button" class="big go
 <p class="note">For grown-ups: nothing here is tracked. Settings and stars stay on this device. Maps show India's borders as on
 India's official maps (Natural Earth, India view).</p></main>'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
-    for n in (180, 192, 512):
-        icon(n, os.path.join(pdir, f"icon-{n}.png"))
+    for n in (180, 192, 512):                     # the owl, from assets/ (tools/brand/make_icons.js)
+        shutil.copy(os.path.join(brand.ASSETS, f"owl-icon-{n}.png"), os.path.join(pdir, f"icon-{n}.png"))
+    shutil.copy(brand.SVG, os.path.join(pdir, "owl.svg"))
     open(os.path.join(pdir, "manifest.webmanifest"), "w", encoding="utf-8").write(manifest(cfg))
     core = (["index.html", "manifest.webmanifest", "icon-192.png"] + [f"{a}?v={asset_version()}" for a in ASSETS]
             + newest)
@@ -606,7 +590,11 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .cheer{font-size:1.15em;font-weight:700;margin-top:14px;min-height:1.6em}
 .stars{font-size:2em;letter-spacing:4px;color:var(--sun)}
 /* lobby */
-.lobby h1{font-size:clamp(2.2rem,9vw,3.4rem);color:var(--coral)}.lede{font-size:1.1em;margin:4px 0 18px}
+.lobby h1{font-size:clamp(2.2rem,9vw,3.4rem);color:var(--coral);display:flex;align-items:center;gap:.2em}
+.owl{width:1.3em;height:1.3em;flex:none}
+.end .owl{display:block;width:96px;height:96px;margin:0 auto 4px;animation:rp-hop 1.6s ease-in-out infinite}
+.install p:first-child{display:flex;gap:12px;align-items:center}.install .app{border-radius:12px;flex:none}
+@media (prefers-reduced-motion:reduce){.end .owl{animation:none}}.lede{font-size:1.1em;margin:4px 0 18px}
 .lobby h2{font-size:1.3em;margin:10px 0 8px}.lobby h2 span{font-family:var(--text);font-weight:400;color:var(--muted);font-size:.75em}
 .whos{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .who{min-height:56px;min-width:84px;border:2px solid var(--line);background:var(--card);border-radius:16px;font-weight:800;font-size:20px;cursor:pointer;padding:6px 14px}

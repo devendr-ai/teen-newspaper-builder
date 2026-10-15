@@ -12,7 +12,7 @@ import subprocess
 
 import yaml
 
-from . import checks, edition, poster, render
+from . import brand, checks, edition, poster, render
 
 ROOT = edition.ROOT
 E = html.escape
@@ -97,7 +97,8 @@ a{color:var(--cyan)}h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0
 .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 70px}
 header.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;border-bottom:1.5px solid var(--ink);padding-bottom:14px;margin-bottom:22px}
 header.top h1{font-size:clamp(1.9rem,4.4vw,3rem);font-weight:800;letter-spacing:-.02em}
-header.top h1 a{color:inherit;text-decoration:none}header.top p{margin:4px 0 0;color:var(--muted);max-width:60ch}
+header.top h1 a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.25em}
+header.top h1 .logo{width:1.25em;height:1.25em;flex:none;margin:-.1em 0}header.top p{margin:4px 0 0;color:var(--muted);max-width:60ch}
 nav a{margin-left:16px;font-weight:700;text-decoration:none}
 .filters{display:grid;gap:10px;margin:0 0 22px}.frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .frow span{color:var(--muted);font-size:.9rem;min-width:84px}
@@ -144,8 +145,10 @@ def page(cfg, title, body, root="", head_extra=""):
 
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'])}">{FONTS}{head_extra}<style>{CSS}</style></head>
-<body><div class="wrap"><header class="top"><div><h1><a href="{root}index.html">{E(cfg['title'])}</a></h1><p>{E(cfg['tagline'])}</p></div>
+<title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'])}">
+<link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" href="{root}play/icon-180.png">{FONTS}{head_extra}<style>{CSS}</style></head>
+<body><div class="wrap"><header class="top"><div><h1><a href="{root}index.html">{brand.inline()}{E(cfg['title'])}</a></h1><p>{E(cfg['tagline'])}</p></div>
 <nav><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div></body></html>"""
 
@@ -290,6 +293,8 @@ document.querySelectorAll('.frow button').forEach(b=>b.addEventListener('click',
 <p><b>It can still be wrong.</b> AI makes mistakes and early reports change. Every issue lists its sources on its paper's page, so you can check anything before handing it over.{f' To report an error, email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>.' if cfg.get("contact") else ""}</p>
 <p>You can also <a href="builder.html">design a paper for your own child</a>: the page writes instructions for your own AI chatbot, then checks its reply and prints it with the same engine. The engine is open source.</p></div>"""
     open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about))
+    shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
+    shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
         html = open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
