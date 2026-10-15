@@ -20,6 +20,14 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Printed papers from 16 October carry a "Scan to read & play" QR code in the
+  masthead (`qr_from` in `site.yaml`), opening the issue in Read & Play; codes on
+  papers older than Read & Play's week open a page that links to the newest one.
+- Read & Play works as an app: a manifest, home-screen icons, an "Add to home
+  screen" button (and a tip for iPhone and iPad), and a service worker that keeps
+  the newest issue of every paper for reading offline.
+- Streaks and badges: days in a row, papers read, and 11 badges for reading,
+  maps, words, listening and three-star games, all kept on the device.
 - Read & Play comes alive: moving pictures for every illustration motif
   (`ygc/scenes.py`), bar charts that grow and count up, a colour and icon per
   section, a 🚀 trail and swipe-in cards for younger readers, and confetti at the

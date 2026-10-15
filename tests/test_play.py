@@ -24,7 +24,7 @@ def test_lobby_has_a_tile_per_paper_with_issues_and_age_buttons(built):
     assert lobby.count('class="tile"') == len(papers)
     for band in ("6–8", "9–11", "12–14", "15+"):
         assert f'data-band="Ages {band}"' in lobby
-    assert 'href="../play/play.css"' in lobby and (built / "play.css").exists() and (built / "play.js").exists()
+    assert 'href="../play/play.css?v=' in lobby and (built / "play.css").exists() and (built / "play.js").exists()
 
 
 def test_a_young_readers_issue_reads_one_story_per_screen_with_words_to_tap(built):
@@ -35,10 +35,10 @@ def test_a_young_readers_issue_reads_one_story_per_screen_with_words_to_tap(buil
     data = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', page, re.S).group(1))
     assert len(data["vocab"]) == 3 and all(v["meaning"] and "Today" not in v["meaning"] for v in data["vocab"])
     assert page.count('class="w"') >= 1                              # new words highlighted in the stories
-    assert "For grown-ups: sources" in page and 'href="../../play/play.css"' in page
+    assert "For grown-ups: sources" in page and 'href="../../play/play.css?v=' in page
     assert 'href="../../e/little-explorers/index.html"' in page          # back to the print side
     assert '<svg class="scene"' in page and 'class="where"' in page              # a moving picture, a real map
-    assert 'src="../../play/world.js"' in page and (built / "world.js").exists()
+    assert 'src="../../play/world.js?v=' in page and (built / "world.js").exists()
     assert 'class="trail"' in page and 'class="desk"' in page
 
 
@@ -200,3 +200,55 @@ def test_play_where_is_checked():
     for needle in ("place is empty", "lat must be", "lon must be", "listed twice", "'mars'"):
         assert needle in errs, needle
     assert any("Narnia" in n for n in r.notes)
+
+
+# ------------------------------------------------------------------ the printed QR code, the app, streaks and badges
+def test_new_printed_papers_carry_a_qr_code_to_read_and_play(tmp_path):
+    from pypdf import PdfReader
+    from ygc import render
+    cfg = dict(site.site_config(), base_url="https://example.org/news/", qr_from="2026-10-16")
+    assert site.qr_url(cfg, "junior-daily", "2026-10-15") is None                  # published before: unchanged
+    assert site.qr_url(cfg, "junior-daily", "2026-10-16") == "https://example.org/news/play/junior-daily/2026-10-16.html"
+    assert site.qr_url(dict(cfg, base_url=""), "junior-daily", "2026-10-16") is None
+    assert site.qr_url(dict(cfg, qr_from=""), "junior-daily", "2026-10-16") is None
+    ed = edition.load("current-affairs-digest")                                     # the longest masthead
+    issue = json.load(open(site.issues_of(ed)[0][1], encoding="utf-8"))
+    with_qr = render.build(ed, issue, str(tmp_path / "a.pdf"), qr=site.qr_url(cfg, ed["id"], "2026-10-16"))
+    without = render.build(ed, issue, str(tmp_path / "b.pdf"))
+    first = lambda p: PdfReader(p).pages[0].extract_text()
+    assert "SCAN TO READ & PLAY" in first(with_qr) and "SCAN TO READ" not in first(without)
+    assert len(PdfReader(with_qr).pages) == len(PdfReader(without).pages)          # the code never moves a story
+
+
+def test_older_papers_qr_codes_open_the_newest(tmp_path):
+    play.build(str(tmp_path), site.site_config(), keep=1, log=lambda *a: None)
+    ed = edition.load("young-global-citizen")
+    (newest, _), (older, _) = site.issues_of(ed)[:2]
+    page = (tmp_path / "play" / ed["id"] / f"{older}.html").read_text(encoding="utf-8")
+    assert f'href="{newest}.html"' in page and "keeps the last week" in page and 'class="issue"' not in page
+
+
+def test_read_and_play_installs_like_an_app_and_works_offline(built):
+    from PIL import Image
+    m = json.loads((built / "manifest.webmanifest").read_text(encoding="utf-8"))
+    assert m["display"] == "standalone" and m["start_url"] == "./index.html" and m["short_name"] == "Read & Play"
+    for i in m["icons"]:
+        n = int(i["sizes"].split("x")[0])
+        assert Image.open(built / i["src"]).size == (n, n)
+    sw = (built / "sw.js").read_text(encoding="utf-8")
+    core = json.loads(re.search(r"CORE = (\[.*?\]);", sw).group(1))
+    assert re.search(r'const V = "rp-[0-9a-f]{12}"', sw) and "index.html" in core
+    assert all((built / f.split("?")[0]).exists() for f in core)                    # every kept file is really there
+    assert f"play.js?v={play.asset_version()}" in core
+    assert sum("/" in f for f in core) == len([e for e in edition.list_editions() if site.issues_of(edition.load(e))])
+    lobby = (built / "index.html").read_text(encoding="utf-8")
+    assert 'rel="manifest"' in lobby and 'class="install"' in lobby and 'id="badges"' in lobby
+
+
+def test_finishing_a_paper_shows_the_streak(built):
+    ed = edition.load("little-explorers")
+    page = (built / ed["id"] / f"{site.issues_of(ed)[0][0]}.html").read_text(encoding="utf-8")
+    assert 'class="streak"' in page and 'href="../index.html#badges"' in page
+    js = (built / "play.js").read_text(encoding="utf-8")
+    for badge in ("First paper", "On fire", "Map explorer", "Word wizard", "Quiz champ"):
+        assert badge in js

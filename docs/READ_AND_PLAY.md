@@ -38,7 +38,27 @@ site`) is for the child, on a tablet or phone, from the same issue files.
     can hear each question.
   - *Fact or fiction?*: a claim about the issue; tap **True** or **Not true**.
 
-Nothing is tracked and nothing leaves the device.
+- **From paper to screen.** Papers dated from `qr_from` in `site.yaml` (16
+  October 2026) print a small QR code in the masthead, "Scan to read & play". It
+  opens that issue's Read & Play page. Read & Play keeps a week of papers, so an
+  older paper's code opens a page that links to the newest one. Papers printed
+  before that date are left exactly as they were.
+- **On the home screen.** Read & Play can be added to a phone or tablet's home
+  screen (Android and computers get an **Add to home screen** button; iPhone and
+  iPad get a tip). It then opens full-screen, like an app, and the newest issue
+  of every paper works without the internet. A service worker (`play/sw.js`)
+  keeps those pages, plus any page already read; it shows the newest version
+  whenever there's a connection.
+- **Streaks and badges.** Reading a whole paper (reaching the last card) counts
+  as reading that day. The lobby shows the reading streak (days in a row) and
+  how many papers have been read, and 11 badges to earn: First paper, Bookworm
+  (10 papers), On fire (3 days), Super week (7), News champion (30), Map explorer
+  (stories in 10 countries), Word wizard (15 new words), Good listener (5
+  stories read aloud), and Quiz champ, Fact detective and Perfect match (3 stars
+  on three different papers' games). A new badge pops up when it's earned.
+
+Nothing is tracked and nothing leaves the device: settings, stars, streaks and
+badges are kept in the browser.
 
 ## The map
 

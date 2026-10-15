@@ -23,6 +23,7 @@ LEFT_M = RIGHT_M = TOP_M = BOT_M = 0.5 * inch
 CONTENT_W = PAGE_W - LEFT_M - RIGHT_M
 MAST_H = 1.55 * inch
 BANNER_H = 0.42 * inch
+QR = 0.72 * inch          # the "Scan to read & play" code in the masthead
 GUTTER = 0.16 * inch
 
 
@@ -221,19 +222,36 @@ def _footer(canv, ed, issue, npages):
     canv.restoreState()
 
 
-def masthead_title_size(title, base=34):
-    return min(base, base * (CONTENT_W - 8) / max(1, stringWidth(title, "Times-Bold", base)))
+def masthead_title_size(title, base=34, room=CONTENT_W - 8):
+    return min(base, base * room / max(1, stringWidth(title, "Times-Bold", base)))
 
 
-def _masthead(canv, ed, issue, npages):
+def _qr(canv, url, x, y):
+    """A QR code for `url`, QR points square, its bottom-left corner at (x, y)."""
+    from reportlab.graphics import renderPDF
+    from reportlab.graphics.barcode.qr import QrCodeWidget
+    from reportlab.graphics.shapes import Drawing
+    w = QrCodeWidget(url, barLevel="M", barBorder=0)
+    x0, y0, x1, y1 = w.getBounds()
+    d = Drawing(QR, QR, transform=[QR / (x1 - x0), 0, 0, QR / (y1 - y0), 0, 0])
+    d.add(w)
+    renderPDF.draw(d, canv, x, y)
+
+
+def _masthead(canv, ed, issue, npages, qr=None):
     m = ed["masthead"]
     canv.saveState()
     cx = PAGE_W / 2
     y = PAGE_H - 0.5 * inch - 4
     canv.setStrokeColor(INK); canv.setLineWidth(0.6)
     canv.line(LEFT_M, y, PAGE_W - RIGHT_M, y)
+    if qr:                          # the online edition: Read & Play, one scan away
+        _qr(canv, qr, PAGE_W - RIGHT_M - QR, y - 7 - QR)
+        canv.setFillColor(MUTED); canv.setFont("Helvetica-Bold", 5.6)
+        canv.drawCentredString(PAGE_W - RIGHT_M - QR / 2, y - 7 - QR - 7, "SCAN TO READ & PLAY")
     y -= 36
-    canv.setFillColor(INK); canv.setFont("Times-Bold", masthead_title_size(m["title"]))
+    room = CONTENT_W - 8 - (2 * (QR + 10) if qr else 0)
+    canv.setFillColor(INK); canv.setFont("Times-Bold", masthead_title_size(m["title"], room=room))
     canv.drawCentredString(cx, y, m["title"])
     y -= 22
     if m.get("subtitle"):
@@ -259,7 +277,8 @@ def _masthead(canv, ed, issue, npages):
 
 
 # ------------------------------------------------------------------ build
-def build(ed, issue, path):
+def build(ed, issue, path, qr=None):
+    """Write the PDF. `qr`: the issue's Read & Play address, printed as a code in the masthead."""
     ctx = Ctx(ed, issue)
     geo = page_geometry(ed)
     npages = len(geo)
@@ -277,7 +296,7 @@ def build(ed, issue, path):
                          topPadding=0, bottomPadding=0) for i, c in enumerate(cols)]
         if ed["pages"][p].get("masthead"):
             def on_page(canv, doc, _p=p):
-                _footer(canv, ed, issue, npages); _masthead(canv, ed, issue, npages)
+                _footer(canv, ed, issue, npages); _masthead(canv, ed, issue, npages, qr)
         else:
             def on_page(canv, doc, _p=p):
                 _footer(canv, ed, issue, npages)
