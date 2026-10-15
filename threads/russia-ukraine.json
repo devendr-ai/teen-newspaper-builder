@@ -1,216 +1,244 @@
 {
- "id": "russia-ukraine",
- "title": "Russia and Ukraine",
- "opened": "2026-10-12",
- "where": {
-  "place": "Ukraine",
-  "lat": 49.0,
-  "lon": 31.5,
-  "countries": [
-   "Ukraine",
-   "Russia"
+  "id": "russia-ukraine",
+  "title": "Russia and Ukraine",
+  "opened": "2026-10-12",
+  "where": {
+    "place": "Ukraine",
+    "lat": 49.0,
+    "lon": 31.5,
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ]
+  },
+  "younger": {
+    "one_minute": "Russia and Ukraine are at war, and Russian forces hold about a fifth of Ukraine. Lately both sides have been attacking each other's power plants and oil sites from far away. On 11 October, US President Trump said they had agreed to stop hitting energy sites, but the attacks did not stop.",
+    "who": [
+      {
+        "name": "Ukraine",
+        "about": "Its president is Volodymyr Zelenskyy."
+      },
+      {
+        "name": "Russia",
+        "about": "Its forces hold about a fifth of Ukraine."
+      },
+      {
+        "name": "The United States",
+        "about": "President Trump announced the pause on hitting energy sites."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is an \"energy ceasefire\"?",
+        "a": "A promise to stop attacking power plants, power lines and oil refineries, even if other fighting goes on."
+      },
+      {
+        "q": "Did it work?",
+        "a": "Not yet. Ukraine says Russia kept hitting its power sites, and Russia's foreign minister said no to it."
+      },
+      {
+        "q": "Why did the lights go out in Ukraine?",
+        "a": "Strikes on power sites left at least 600,000 people without electricity, Ukraine's president said."
+      }
+    ],
+    "worry": "It's okay to feel worried when you read about war. Leaders in many countries are talking about how to make the fighting stop. If something you read upsets you, tell a grown-up you trust. Talking about it helps."
+  },
+  "older": {
+    "one_minute": "Russia's war in Ukraine is increasingly fought from the air: the armies are largely deadlocked on the ground, and about a fifth of Ukraine is under Russian occupation. On 11 October President Trump announced an \"energy ceasefire\". Ukraine said it would comply if Russia did; Russia's foreign minister rejected it, and Russian strikes on Ukraine's power system went on, cutting electricity to 600,000 people.",
+    "who": [
+      {
+        "name": "Volodymyr Zelenskyy",
+        "about": "Ukraine's president; backs an energy truce if Russia complies."
+      },
+      {
+        "name": "Vladimir Putin",
+        "about": "Russia's president; US envoys say he is not ready to negotiate an end."
+      },
+      {
+        "name": "Sergey Lavrov",
+        "about": "Russia's foreign minister; rejected the energy pause."
+      },
+      {
+        "name": "Donald Trump",
+        "about": "US president; announced the pause and eased sanctions on Russian diesel."
+      },
+      {
+        "name": "The EU",
+        "about": "Approved its largest set of sanctions on Russia since 2022."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why energy?",
+        "a": "Each side has been striking the other's energy system: Russia hits Ukraine's power plants and grid, and Ukraine hits Russian oil refineries with long-range drones."
+      },
+      {
+        "q": "What is the diesel deal?",
+        "a": "Two days before the announcement, the US eased sanctions so Russia could supply it with diesel. Ukrainian and European officials said this helps fund Russia's war, and US senators from both parties objected."
+      },
+      {
+        "q": "Will Ukraine hold elections?",
+        "a": "Ukraine's constitution bars elections under martial law, in force since February 2022. Mr Zelenskyy says he would organise one if Russia agreed to a 60-day full ceasefire."
+      }
+    ],
+    "worry": "News of war can feel heavy. Diplomats are still talking: Ukraine says it would accept an energy truce if Russia does, and the Kremlin says contacts are continuing. If the news is upsetting you, it's fine to take a break from it and talk to someone you trust."
+  },
+  "timeline": [
+    {
+      "date": "2022-02-01",
+      "when": "February 2022",
+      "younger": "Ukraine began living under special wartime rules because of the war with Russia.",
+      "older": "Ukraine comes under martial law, still in force, during the war with Russia."
+    },
+    {
+      "date": "2026-10-09",
+      "younger": "The US agreed a deal for Russia to supply it with diesel fuel.",
+      "older": "The US eases sanctions so Russia can supply it with diesel; Ukrainian and European officials criticise the deal.",
+      "reported": "2026-10-12"
+    },
+    {
+      "date": "2026-10-11",
+      "younger": "President Trump said Russia and Ukraine had agreed to stop attacking energy sites.",
+      "older": "Mr Trump announces an \"energy ceasefire\", effective immediately. Neither Moscow nor Kyiv confirms it.",
+      "reported": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "younger": "Ukraine said Russia was still attacking its power sites. Russia's foreign minister said no to the pause.",
+      "older": "Ukraine reports fresh strikes on energy sites, including a power plant in Kharkiv; Foreign Minister Lavrov rejects the idea.",
+      "reported": "2026-10-13"
+    },
+    {
+      "date": "2026-10-14",
+      "when": "By 14 Oct",
+      "younger": "Strikes left at least 600,000 people in Ukraine without electricity.",
+      "older": "Overnight strikes leave at least 600,000 Ukrainians without power; the EU approves its largest sanctions package since 2022.",
+      "reported": "2026-10-15"
+    },
+    {
+      "date": "2026-10-14",
+      "younger": "Russia hit power plants again. Ukraine said it would start hitting Russian oil sites again.",
+      "older": "Russian strikes kill at least nine and cut power to over half a million; on 15 October Zelenskyy says Kyiv is done with the energy pause and refinery strikes will resume.",
+      "reported": "2026-10-16"
+    }
+  ],
+  "stories": [
+    {
+      "paper": "breakfast-table",
+      "date": "2026-10-12",
+      "block": "world"
+    },
+    {
+      "paper": "breakfast-table",
+      "date": "2026-10-13",
+      "block": "world"
+    },
+    {
+      "paper": "breakfast-table",
+      "date": "2026-10-14",
+      "block": "world"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-12",
+      "block": "world"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-13",
+      "block": "world"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-14",
+      "block": "world"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-15",
+      "block": "world"
+    },
+    {
+      "paper": "europe-explained",
+      "date": "2026-10-12",
+      "block": "world"
+    },
+    {
+      "paper": "europe-explained",
+      "date": "2026-10-14",
+      "block": "world"
+    },
+    {
+      "paper": "global-citizen-plus",
+      "date": "2026-10-12",
+      "block": "world"
+    },
+    {
+      "paper": "global-citizen-plus",
+      "date": "2026-10-14",
+      "block": "world"
+    },
+    {
+      "paper": "junior-daily",
+      "date": "2026-10-12",
+      "block": "world"
+    },
+    {
+      "paper": "junior-daily",
+      "date": "2026-10-13",
+      "block": "world"
+    },
+    {
+      "paper": "junior-daily",
+      "date": "2026-10-14",
+      "block": "world"
+    },
+    {
+      "paper": "young-global-citizen",
+      "date": "2026-10-12",
+      "block": "world"
+    },
+    {
+      "paper": "young-global-citizen",
+      "date": "2026-10-15",
+      "block": "world"
+    },
+    {
+      "paper": "breakfast-table",
+      "date": "2026-10-16",
+      "block": "world"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-16",
+      "block": "world"
+    },
+    {
+      "paper": "europe-explained",
+      "date": "2026-10-16",
+      "block": "world"
+    },
+    {
+      "paper": "global-citizen-plus",
+      "date": "2026-10-16",
+      "block": "world"
+    }
+  ],
+  "sources": [
+    "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
+    "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+    "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2",
+    "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+    "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/",
+    "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
+    "https://www.democracynow.org/2026/10/13/headlines",
+    "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire",
+    "https://www.businesstoday.in/world/story/do-not-break-it-trump-announces-immediate-energy-ceasefire-between-russia-and-ukraine-560887-2026-10-11",
+    "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
+    "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
+    "https://www.democracynow.org/2026/10/14/headlines",
+    "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+    "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
   ]
- },
- "younger": {
-  "one_minute": "Russia and Ukraine are at war, and Russian forces hold about a fifth of Ukraine. Lately both sides have been attacking each other's power plants and oil sites from far away. On 11 October, US President Trump said they had agreed to stop hitting energy sites, but the attacks did not stop.",
-  "who": [
-   {
-    "name": "Ukraine",
-    "about": "Its president is Volodymyr Zelenskyy."
-   },
-   {
-    "name": "Russia",
-    "about": "Its forces hold about a fifth of Ukraine."
-   },
-   {
-    "name": "The United States",
-    "about": "President Trump announced the pause on hitting energy sites."
-   }
-  ],
-  "questions": [
-   {
-    "q": "What is an \"energy ceasefire\"?",
-    "a": "A promise to stop attacking power plants, power lines and oil refineries, even if other fighting goes on."
-   },
-   {
-    "q": "Did it work?",
-    "a": "Not yet. Ukraine says Russia kept hitting its power sites, and Russia's foreign minister said no to it."
-   },
-   {
-    "q": "Why did the lights go out in Ukraine?",
-    "a": "Strikes on power sites left at least 600,000 people without electricity, Ukraine's president said."
-   }
-  ],
-  "worry": "It's okay to feel worried when you read about war. Leaders in many countries are talking about how to make the fighting stop. If something you read upsets you, tell a grown-up you trust. Talking about it helps."
- },
- "older": {
-  "one_minute": "Russia's war in Ukraine is increasingly fought from the air: the armies are largely deadlocked on the ground, and about a fifth of Ukraine is under Russian occupation. On 11 October President Trump announced an \"energy ceasefire\". Ukraine said it would comply if Russia did; Russia's foreign minister rejected it, and Russian strikes on Ukraine's power system went on, cutting electricity to 600,000 people.",
-  "who": [
-   {
-    "name": "Volodymyr Zelenskyy",
-    "about": "Ukraine's president; backs an energy truce if Russia complies."
-   },
-   {
-    "name": "Vladimir Putin",
-    "about": "Russia's president; US envoys say he is not ready to negotiate an end."
-   },
-   {
-    "name": "Sergey Lavrov",
-    "about": "Russia's foreign minister; rejected the energy pause."
-   },
-   {
-    "name": "Donald Trump",
-    "about": "US president; announced the pause and eased sanctions on Russian diesel."
-   },
-   {
-    "name": "The EU",
-    "about": "Approved its largest set of sanctions on Russia since 2022."
-   }
-  ],
-  "questions": [
-   {
-    "q": "Why energy?",
-    "a": "Each side has been striking the other's energy system: Russia hits Ukraine's power plants and grid, and Ukraine hits Russian oil refineries with long-range drones."
-   },
-   {
-    "q": "What is the diesel deal?",
-    "a": "Two days before the announcement, the US eased sanctions so Russia could supply it with diesel. Ukrainian and European officials said this helps fund Russia's war, and US senators from both parties objected."
-   },
-   {
-    "q": "Will Ukraine hold elections?",
-    "a": "Ukraine's constitution bars elections under martial law, in force since February 2022. Mr Zelenskyy says he would organise one if Russia agreed to a 60-day full ceasefire."
-   }
-  ],
-  "worry": "News of war can feel heavy. Diplomats are still talking: Ukraine says it would accept an energy truce if Russia does, and the Kremlin says contacts are continuing. If the news is upsetting you, it's fine to take a break from it and talk to someone you trust."
- },
- "timeline": [
-  {
-   "date": "2022-02-01",
-   "when": "February 2022",
-   "younger": "Ukraine began living under special wartime rules because of the war with Russia.",
-   "older": "Ukraine comes under martial law, still in force, during the war with Russia."
-  },
-  {
-   "date": "2026-10-09",
-   "younger": "The US agreed a deal for Russia to supply it with diesel fuel.",
-   "older": "The US eases sanctions so Russia can supply it with diesel; Ukrainian and European officials criticise the deal.",
-   "reported": "2026-10-12"
-  },
-  {
-   "date": "2026-10-11",
-   "younger": "President Trump said Russia and Ukraine had agreed to stop attacking energy sites.",
-   "older": "Mr Trump announces an \"energy ceasefire\", effective immediately. Neither Moscow nor Kyiv confirms it.",
-   "reported": "2026-10-12"
-  },
-  {
-   "date": "2026-10-12",
-   "younger": "Ukraine said Russia was still attacking its power sites. Russia's foreign minister said no to the pause.",
-   "older": "Ukraine reports fresh strikes on energy sites, including a power plant in Kharkiv; Foreign Minister Lavrov rejects the idea.",
-   "reported": "2026-10-13"
-  },
-  {
-   "date": "2026-10-14",
-   "when": "By 14 Oct",
-   "younger": "Strikes left at least 600,000 people in Ukraine without electricity.",
-   "older": "Overnight strikes leave at least 600,000 Ukrainians without power; the EU approves its largest sanctions package since 2022.",
-   "reported": "2026-10-15"
-  }
- ],
- "stories": [
-  {
-   "paper": "breakfast-table",
-   "date": "2026-10-12",
-   "block": "world"
-  },
-  {
-   "paper": "breakfast-table",
-   "date": "2026-10-13",
-   "block": "world"
-  },
-  {
-   "paper": "breakfast-table",
-   "date": "2026-10-14",
-   "block": "world"
-  },
-  {
-   "paper": "current-affairs-digest",
-   "date": "2026-10-12",
-   "block": "world"
-  },
-  {
-   "paper": "current-affairs-digest",
-   "date": "2026-10-13",
-   "block": "world"
-  },
-  {
-   "paper": "current-affairs-digest",
-   "date": "2026-10-14",
-   "block": "world"
-  },
-  {
-   "paper": "current-affairs-digest",
-   "date": "2026-10-15",
-   "block": "world"
-  },
-  {
-   "paper": "europe-explained",
-   "date": "2026-10-12",
-   "block": "world"
-  },
-  {
-   "paper": "europe-explained",
-   "date": "2026-10-14",
-   "block": "world"
-  },
-  {
-   "paper": "global-citizen-plus",
-   "date": "2026-10-12",
-   "block": "world"
-  },
-  {
-   "paper": "global-citizen-plus",
-   "date": "2026-10-14",
-   "block": "world"
-  },
-  {
-   "paper": "junior-daily",
-   "date": "2026-10-12",
-   "block": "world"
-  },
-  {
-   "paper": "junior-daily",
-   "date": "2026-10-13",
-   "block": "world"
-  },
-  {
-   "paper": "junior-daily",
-   "date": "2026-10-14",
-   "block": "world"
-  },
-  {
-   "paper": "young-global-citizen",
-   "date": "2026-10-12",
-   "block": "world"
-  },
-  {
-   "paper": "young-global-citizen",
-   "date": "2026-10-15",
-   "block": "world"
-  }
- ],
- "sources": [
-  "https://www.fox13news.com/news/trump-russia-ukraine-agree-immediate-energy-ceasefire",
-  "https://www.axios.com/2026/10/11/russia-ukraine-oil-energy-ceasefire-trump-putin-zelensky",
-  "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
-  "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2",
-  "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
-  "https://financefeeds.com/brent-crude-oil-price-104-houthi-riyadh-airport-tanker-oman-bull-112-bear-96/",
-  "https://www.justsecurity.org/160525/early-edition-october-13-2026/",
-  "https://www.democracynow.org/2026/10/13/headlines",
-  "https://keyt.com/politics/cnn-us-politics/2026/10/11/trump-claims-ukraine-and-russia-have-agreed-to-energy-ceasefire",
-  "https://www.businesstoday.in/world/story/do-not-break-it-trump-announces-immediate-energy-ceasefire-between-russia-and-ukraine-560887-2026-10-11",
-  "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
-  "https://www.justsecurity.org/160738/early-edition-october-14-2026/",
-  "https://www.democracynow.org/2026/10/14/headlines"
- ]
 }
