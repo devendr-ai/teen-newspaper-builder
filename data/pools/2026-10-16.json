@@ -1,0 +1,1435 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "yemen-saudi",
+    "headline": "Houthi missiles keep hitting Saudi Arabia as Yemen's war spreads",
+    "what_happened": "On Wednesday 14 October the Houthis said they struck an Aramco site in Dhahran, and a Saudi official confirmed an Aramco building there was hit, causing a limited fire and no casualties. On Thursday 15 October Saudi-backed forces said they stopped a drone heading for Medina and a missile fired toward Riyadh.",
+    "why_it_matters": "Attacks on airports and oil sites put people at risk and have forced sports events and meetings to be moved.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Wednesday 14 October, Houthi military spokesman Yahya Saree claimed an operation targeting Aramco in Dhahran, plus strikes on Riyadh airport and a refinery in the capital.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "A Saudi Ministry of Energy official confirmed an Aramco building in Dhahran was hit, causing a limited fire with no casualties.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "Attacks on Riyadh's King Khalid International Airport over the preceding weekend reportedly killed 14 people and wounded more than 300; Abha airport in southern Saudi Arabia was also hit, killing two.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "Riyadh airport was expected to stay shut at least until Saturday, with several airlines cancelling flights.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "Yemeni government forces launched a counteroffensive called Dawn of Yemen to retake coastal territory near Bab al-Mandeb that the Houthis seized in recent weeks.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "The UN World Food Programme reported on Wednesday that wheat flour stocks in Taiz were nearly exhausted.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "The Red Cross said some front-line hospitals in Marib, Taiz and the Red Sea coast admitted more than 700 casualties in a single week.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "The Saudi Pro League postponed three matches; Al Hilal vs Al Riyadh and Al Ittihad vs Al Shabab moved to 19 December, and Al Ahli vs Al Nassr, Cristiano Ronaldo's team, moved to 6 March 2027.",
+      "source_url": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks"
+     },
+     {
+      "fact": "The Six Kings Slam tennis tournament, set for next week in Riyadh, was moved to December.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "An EU-Gulf Cooperation Council summit set for October 24 in Riyadh was postponed.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     },
+     {
+      "fact": "The UN World Food Programme says the fighting is cutting food aid to about 800,000 people.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     },
+     {
+      "fact": "Saudi Arabia accused the Houthis of killing at least 12 people and wounding about 300 in the Saturday 10 October attack on Riyadh's airport, the third attack on the airport that week; Al Jazeera called it the deadliest attack on the kingdom in more than a decade.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Victims of the 10 October attack included four Saudis, two Bangladeshis, and one each from the US, Jordan, Palestine, Syria, Sudan and Egypt.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "UN Secretary-General Antonio Guterres said he was deeply shocked and condemned the attack; UN envoy Hans Grundberg called strikes on civilian airports a grave escalation.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Secretary of State Marco Rubio said an American was killed in the attack on Riyadh airport.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "The Houthis are an Iran-backed group in Yemen fighting forces aligned with Yemen's internationally recognised government; Saudi Arabia is conducting an air campaign against the Houthis to support the government's ground forces.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+     },
+     {
+      "fact": "Saudi Arabia has relied more on the Bab al-Mandeb shipping route since Iran closed the Strait of Hormuz in March 2026.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "fact": "EU foreign policy chief Kaja Kallas urged member states to send more ships to Operation ASPIDES, the EU's Red Sea naval mission, to escort commercial vessels, calling Houthi attacks indiscriminate and totally unacceptable.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     },
+     {
+      "fact": "The European Council said the EU-Gulf Cooperation Council summit, originally set for October 24 in Riyadh, has been postponed with no new date.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People killed in Riyadh airport attacks",
+      "value": 14,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     },
+     {
+      "label": "People wounded",
+      "value": 300,
+      "unit": "more than",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+     }
+    ],
+    "geography": "Riyadh, Dhahran and Medina in Saudi Arabia; Sanaa, Taiz, Marib in Yemen; the Red Sea coast and the Bab al-Mandeb strait between Yemen and Africa",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+      "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ronaldo's among three Saudi Arabia games postponed due to Houthi attacks",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Iran war live updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+      "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-energy",
+    "headline": "Russia hits Ukraine's power again after Trump's 'energy ceasefire'",
+    "what_happened": "Russian air attacks overnight into Wednesday 14 October killed at least nine people and left hundreds of thousands without power. They came days after US President Trump announced an energy ceasefire. On Thursday Ukraine's president said Kyiv was done with it and strikes on Russian refineries would resume.",
+    "why_it_matters": "Power cuts as winter nears hit homes, hospitals and water, and the energy fight now involves the US, Russia and Europe.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Russian air attacks killed at least nine people in Ukraine and left hundreds of thousands without power; the war is in its fifth year.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     },
+     {
+      "fact": "Russia's Defence Ministry said it hit two plants supplying power and heating in Kyiv, an electricity substation, and a heating and power plant in Kharkiv.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     },
+     {
+      "fact": "Over half a million people in Ukraine were without power, according to Al Jazeera's reporting from Kyiv.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     },
+     {
+      "fact": "Lutsk in Volyn region: 3 killed and at least 12 injured, according to governor Roman Romaniuk.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     },
+     {
+      "fact": "President Zelenskyy accused Russia of violating the energy ceasefire Trump announced on Sunday 12 October.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     },
+     {
+      "fact": "Moscow's mayor said air defences downed nearly 500 drones heading for the capital overnight; Russia's military put the total of downed Ukrainian drones overnight at 902.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     },
+     {
+      "fact": "Zelenskyy told the Financial Times that Kyiv was done with an energy ceasefire and that strikes on Russian refineries would resume; Russia says Ukraine targeted an oil refinery in Ryazan, about 180 km south of Moscow.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+     },
+     {
+      "fact": "Zelenskyy said he would pause energy strikes again only if the US supplied Patriot interceptors.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+     },
+     {
+      "fact": "Zelenskyy was due to meet European leaders in Brussels on Thursday 15 October, pushing for tougher sanctions on Moscow; the EU has pledged $50 billion in support for Ukraine next year against $175 billion Kyiv plans to spend on defence.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+     },
+     {
+      "fact": "Ukraine's Air Force reported 580 Shahed-type and other drones plus two Kh-59 missiles overnight, with 536 drones neutralised across 31 locations.",
+      "source_url": "https://kyivindependent.com/russian-attacks-kill-at-least-17-injure-67-across-ukraine-as-drone-waves-wreak-havoc-in-central-western-oblasts/"
+     },
+     {
+      "fact": "Zelenskyy said Russia deliberately escalated the attacks after receiving a sanctions relaxation and must be responsible for what it does.",
+      "source_url": "https://kyivindependent.com/russian-attacks-kill-at-least-17-injure-67-across-ukraine-as-drone-waves-wreak-havoc-in-central-western-oblasts/"
+     },
+     {
+      "fact": "Kirovohrad Oblast alone was hit by almost 360 drones across 26 locations.",
+      "source_url": "https://kyivindependent.com/russian-attacks-kill-at-least-17-injure-67-across-ukraine-as-drone-waves-wreak-havoc-in-central-western-oblasts/"
+     },
+     {
+      "fact": "The Kyiv Independent's casualty figures for the past day were inconsistent: its headline said at least 17 killed and 67 injured while its text said at least 10 killed and 66 injured.",
+      "source_url": "https://kyivindependent.com/russian-attacks-kill-at-least-17-injure-67-across-ukraine-as-drone-waves-wreak-havoc-in-central-western-oblasts/"
+     },
+     {
+      "fact": "Technology adviser Sergiy Beskrestnov said SpaceX restricted the speed of Starlink terminals in motion overnight, so military-grade terminals could not operate above 160 km/h.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People without power",
+      "value": 500000,
+      "unit": "more than",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+     }
+    ],
+    "geography": "Kyiv, Kharkiv, Lutsk in Ukraine; Ryazan in Russia; Moscow; Brussels",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "'Massive' Russian attack on Ukraine kills at least 9, damages power sites",
+      "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Russia says Ukraine resumes attacks on oil refineries",
+      "url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Kyiv Independent",
+      "title": "Russian attacks kill at least 17, injure 67 across Ukraine",
+      "url": "https://kyivindependent.com/russian-attacks-kill-at-least-17-injure-67-across-ukraine-as-drone-waves-wreak-havoc-in-central-western-oblasts/",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "iran-hormuz",
+    "headline": "Ships keep being hit near the Strait of Hormuz as US-Iran stalemate drags on",
+    "what_happened": "The US and Israel attacked Iran on 28 February, and Iran closed the Strait of Hormuz. A June ceasefire collapsed over control of the strait. The US keeps a naval blockade of Iran's southern ports while indirect talks via Pakistan and Qatar continue.",
+    "why_it_matters": "The strait carried at least a fifth of the world's crude oil and gas before the war, so closing it pushes up fuel prices everywhere.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The US and Israel attacked Iran on February 28; Iran closed the Strait of Hormuz, which carried at least 20 percent of global crude and LNG before the war.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "A June ceasefire collapsed over control of the strait.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "The US maintains a naval blockade on Iran's southern ports; indirect talks via Pakistan and Qatar continue.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "Crude rose from about $72 a barrel before the war to nearly $120 at its high; it was trading at about $104 on Thursday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "The UK Maritime Trade Operations centre recorded 15 attacks on ships between October 6 and 14.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "Trump said on Truth Social he will not attack Iran before the November 3 midterm elections.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "Since October 1, 23 attacks have been recorded in the area, almost double the war's monthly average, according to CBS News.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     },
+     {
+      "fact": "Ship transits through Hormuz averaged 31 per day in the last week of September, versus 138 before the war, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "In the third quarter of 2026 Iran targeted 45 ships, about 87% of them tankers.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "Freight costs rose from 1-3% of Gulf crude's cost before the war to 25-30% now, and national oil companies are offering discounts of up to $35 a barrel below official selling prices.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "The US Navy has reportedly opened a route that lets Gulf states export oil and other goods, which Iran's security chief Mohsen Rezaei has called an explicit target.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "Saudi Arabia says its East-West pipeline is pumping 5.8 million barrels per day.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Attacks on ships, 6-14 October",
+      "value": 15,
+      "unit": "attacks",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE; Gulf of Oman; Persian Gulf",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "US-Iran stalemate: What are Trump's next military options?",
+      "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Iran war live updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Iran sets crosshairs on 'US-UAE' oil shuttle out of Strait of Hormuz",
+      "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "albania-protests",
+    "headline": "Students protest in Albania, calling on the prime minister to resign",
+    "what_happened": "Student protests over poor education conditions entered a third day on Thursday 15 October in Albania. They have often been violent since Tuesday, with fires damaging buildings including the prime minister's office. Protests spread to universities in Elbasan and Shkoder.",
+    "why_it_matters": "It shows how anger over costs and jobs can bring young people into the streets, while the government says change comes through elections.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Student protests against poor education conditions entered a third day on Thursday 15 October 2026; demonstrations have been often violent since Tuesday 13 October.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Protesters demand Prime Minister Edi Rama resign; he refused, saying governments change through democratic elections.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Fires damaged several buildings including the prime minister's office, ministry buildings and bank branches; dozens of police officers and protesters were injured.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Authorities used water cannon and tear gas.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Rama has been prime minister since 2013 and won a fourth term last May.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Students have complained for months about high education costs and limited job prospects after graduation.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "In December 2018, student protests over education costs led Rama to dismiss eight ministers and announce the Pact for the University; some student demands remained unmet.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Protests against the government began a few months earlier over a planned luxury resort on Albania's southern coast; Albania has made more progress toward EU membership than most Western Balkan countries, after Montenegro.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Students in France have also protested for weeks, blockading schools over teacher shortages and poor facilities.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tirana, Elbasan and Shkoder in Albania, in the western Balkans on the Adriatic",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "'Boiling point': Why students are protesting against Albania's Edi Rama",
+      "url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "uk-eu-reset",
+    "headline": "UK prime minister says he will renegotiate parts of the post-Brexit deal with the EU",
+    "what_happened": "In a statement to Parliament on Monday 12 October, Prime Minister Andy Burnham said he would seek closer ties with the EU and renegotiate parts of the post-Brexit trade deal.",
+    "why_it_matters": "Trade rules decide how easily British food and goods reach European customers.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "UK Prime Minister Andy Burnham, in office since July 2026, said he will seek closer EU relations and renegotiate parts of the post-Brexit trade deal.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "He will attend a bilateral UK-EU summit in Brussels in November.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "Topics include reducing bureaucracy for British food exports, emissions trading, a new youth experience scheme and deeper immigration cooperation.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "He said the British public would be the boss at every stage of the process.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "Opposition leader Kemi Badenoch said the EU are tough negotiators and that Burnham had already shown his hand.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "In a Sunday 11 October interview Burnham said Russian interference in the 2016 referendum was clear and warned that French and German voters faced the same threat; he offered no evidence, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "He said the agreements could reverse some damage to the post-Brexit economy; his priorities are boosting economic growth and controlling illegal immigration.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "MI5 chief Sir Ken McCallum's annual threat update on 13 October said Iran is using criminal proxies to intimidate dissidents, Iranian media and Israeli sites, and cited more than 50 UK arrests over the past year linked to Iran and Russia.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom and the European Union; Brussels",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "UK PM Andy Burnham vows to renegotiate post-Brexit trade deal with EU",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "france-students",
+    "headline": "French school students keep protesting for more teachers and better schools",
+    "what_happened": "Protests that began about two weeks before 6 October in Paris's poorest suburbs spread across France. Prime Minister Sebastien Lecornu suspended high school classes for the rest of that week and told ministers to address the demands by the end of October.",
+    "why_it_matters": "Students are asking for the basics of school: teachers who turn up and repaired buildings.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "About 250,000 protesters took part on October 6 by authorities' estimate; organisers claimed about 500,000.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "The High School Students Union said nearly 2,000 high schools were blockaded or closed that day.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Lecornu said ministers must address the students' demands by the end of October, including repairs to old campuses.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Students want absent teachers replaced, longer lunch breaks and a changed school-day length, among other improvements.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "The Interior Ministry reported 6,100 arrests, most of them minors; the Justice Ministry said over 1,800 will be prosecuted.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Lecornu said at least 215 teenagers and 715 police officers were wounded.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Police fired tear gas in several cities, including Strasbourg, Lyon and Rennes.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     }
+    ],
+    "numbers": [],
+    "geography": "France; Paris suburbs, Strasbourg, Lyon, Rennes",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Demonstrators clash with riot police in France as education protests mount",
+      "url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+      "published": "2026-10-06"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-inflation",
+    "headline": "US prices rose 3.7% in the year to September as petrol jumped",
+    "what_happened": "The Bureau of Labor Statistics said annual inflation rose to 3.7% in September from 3.4% in August, driven by petrol prices. It was the final inflation report before the November 3 midterm elections.",
+    "why_it_matters": "Higher fuel prices raise the cost of getting goods and people around, and the Federal Reserve may raise interest rates again.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Annual US inflation rose to 3.7% in September, up from 3.4% in August; prices rose 0.6% month over month.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "Petrol prices rose 9.1% in September and were up 34.2% year over year.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "Regular gasoline averaged $4.33 per gallon and diesel $6.29, according to AAA.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "In September the Fed raised rates by 25 basis points, its first hike in three years, to a target range of 3.75-4.00%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "CME FedWatch gave a 52.9% chance of holding rates and a 47.1% chance of a quarter-point hike at the next decision, due later in October.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "A Reuters/Ipsos poll found about 78% of Americans blamed President Trump's policies for price increases.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Annual inflation, September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "label": "Annual inflation, August",
+      "value": 3.4,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "russian-diesel",
+    "headline": "Senators from both parties object to buying Russian diesel",
+    "what_happened": "Six senators, four Republicans and two Democrats, asked the administration on Sunday 11 October to reverse its plan to buy Russian diesel. President Trump had announced the deal on Friday 9 October after a call with Vladimir Putin.",
+    "why_it_matters": "It tests who decides energy policy: senators say the law requires Congress to be consulted.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Six bipartisan senators urged the Trump administration to reverse its plan to buy Russian diesel, which the administration framed as a way to lower high fuel prices.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Trump announced on Friday October 9 that he reached a deal with Russian President Vladimir Putin; Russia would supply over 300,000 tons of diesel immediately and 500,000 tons in November.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Republican signers were Susan Collins, Lisa Murkowski, Thom Tillis and John Curtis; Democratic signers were Jeanne Shaheen and Richard Blumenthal.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "The senators said the administration did not consult Congress or explain its decision, as they argue a statute requires.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Congress banned Russian energy imports in 2022.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Sen. John Barrasso said the president is balancing energy costs and facing tough decisions.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Russia",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour (AP)",
+      "title": "Bipartisan group of senators calls on Trump to 'reverse course' on Russian diesel plan",
+      "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "omar-search",
+    "headline": "Federal agents search a congresswoman's home weeks before the midterms",
+    "what_happened": "On Monday 12 October federal agents searched the Washington-area home of Democratic Rep. Ilhan Omar. The Justice Department said it was a court-authorised search warrant. No charges have been filed.",
+    "why_it_matters": "Courts must approve a search warrant, but timing close to an election leads to arguments about politics; both sides' claims are contested.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Federal agents searched US Rep. Ilhan Omar's home in the Washington, DC area on Monday 12 October; AP sources said Homeland Security Investigations carried out the search.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "The Department of Justice confirmed agents executed a court-authorised search warrant but did not name Omar or give details.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "No charges have been filed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Omar said she will not be silenced and accused the administration of trying to weaponize federal law enforcement.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Trump said he had nothing to do with the search and that it was really up to the DOJ.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "The search came about three weeks before the 3 November midterm elections.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Sources told CBS that Attorney General Todd Blanche was personally aware of the search and the Justice Department consulted its Public Integrity section.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Democrats called the search political payback, arguing Justice Department protocol has long been to avoid legal action against politicians in the final weeks before an election, according to PBS NewsHour.",
+      "source_url": "https://www.pbs.org/newshour/politics/what-to-know-about-the-search-of-democratic-rep-omars-home"
+     },
+     {
+      "fact": "President Trump said he thinks Omar is a terrible person but that the matter is up to the Justice Department.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Homeland Security Investigations, the Department of Homeland Security's criminal investigative arm, leads the investigation, with the Justice Department assisting; CBS reports HSI's jurisdiction covers immigration document fraud, identity fraud and immigration benefit fraud.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "CBS reports the investigation centres on Omar's immigration paperwork from her childhood, completed by her late father, and examines potential false statements and immigration fraud.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Omar's office said she had done nothing wrong and called the raid an outrageous abuse of power.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Border czar Tom Homan said in September that there was an ongoing criminal investigation into Omar; she said at the time that she had not been contacted.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Omar was born in Somalia, came to the US as a child refugee and became a naturalised citizen; she was first elected in 2018.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Federal agents did not say what was seized; CBS reported that relatives of Omar were subpoenaed as part of the immigration probe.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, DC; Minneapolis",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ilhan Omar says she 'will not be silenced' after US agents raid her home",
+      "url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Rep. Ilhan Omar's D.C. home searched by Homeland Security investigators",
+      "url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-voter-rolls",
+    "headline": "Protests grow in India over voter-list changes",
+    "what_happened": "Thousands of opposition supporters marched toward India's Supreme Court in New Delhi on Monday 12 October, demanding that Chief Election Commissioner Gyanesh Kumar resign over a major revision of voter lists. The Election Commission denies wrongdoing.",
+    "why_it_matters": "Voter lists decide who can vote, so people care a great deal that they are accurate and fair.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Thousands of opposition supporters marched toward India's Supreme Court on Monday 12 October 2026, demanding Election Commission chief Gyanesh Kumar resign over a revision of voter rolls.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     },
+     {
+      "fact": "The march was called by Rahul Gandhi, Congress leader and Leader of the Opposition in the Lok Sabha.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     },
+     {
+      "fact": "The revisions reportedly removed more than 133 million names from electoral lists, according to media reports.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     },
+     {
+      "fact": "Critics say the revisions benefit the BJP and disproportionately affected minorities, particularly Muslims.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     },
+     {
+      "fact": "The Election Commission denies wrongdoing and says the revisions aimed to remove duplicate, deceased and fraudulent entries.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     },
+     {
+      "fact": "Police detained thousands of protesters over the weekend of about 10-11 October.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     },
+     {
+      "fact": "On Monday 12 October Delhi Police declared Jantar Mantar no longer an official protest site and named three new venues.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"
+     },
+     {
+      "fact": "On Tuesday 13 October police detained about 20 volunteers, including leaders of the youth-led Cockroach Janta Party, at Jantar Mantar.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"
+     },
+     {
+      "fact": "The Election Commission says wrongly deleted voters can re-enrol.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"
+     },
+     {
+      "fact": "On Thursday 15 October 2026 the Supreme Court, with a bench of Chief Justice Surya Kant and Justice Joymalya Bagchi, issued notice to the Election Commission, Chief Election Commissioner Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi on a petition by Rahul Gandhi and other INDIA bloc leaders.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+     },
+     {
+      "fact": "The petition asks for an independent audit of voter deletions, disclosure of the Commission's internal records, and an interim suspension of the revision exercise; a notice only asks the other side to respond and is not a ruling on the merits.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+     },
+     {
+      "fact": "The Court clubbed the opposition pleas with petitions already pending on the validity of the voter roll revision, and also issued notice on a separate petition challenging the de-notification of Jantar Mantar as a protest site.",
+      "source_url": "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions"
+     },
+     {
+      "fact": "The Chief Justice said orally that the Court would also ask one of the petitioners about his conduct; the report does not say who or what conduct was meant.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+     },
+     {
+      "fact": "More than 30,000 police officers were deployed in New Delhi for the 12 October march, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+     },
+     {
+      "fact": "The Election Commission has removed more than 130 million names from voter lists since June 2025, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+     },
+     {
+      "fact": "Critics say Kumar often overruled concerns raised by the other two election commissioners about the database changes, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+     },
+     {
+      "fact": "Rahul Gandhi and his sister Priyanka Gandhi, an MP, led the 12 October march; police barricades stopped marchers reaching the court.",
+      "source_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+     },
+     {
+      "fact": "Analyst Rasheed Kidwai says the detention of MPs marks a change from past tolerance of dissent; analyst Asim Ali says the government is unlikely to back down.",
+      "source_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+     },
+     {
+      "fact": "The Supreme Court declined to list a separate Maharashtra SIR challenge with Rahul Gandhi's plea, saying it will examine the issues state-wise, according to LiveLaw.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-plea-alleging-voter-deletion-in-maharashtra-sir-554799"
+     },
+     {
+      "fact": "The youth-led Cockroach Janta Party movement previously forced out Education Minister Dharmendra Pradhan in July, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Names reportedly removed from voter lists",
+      "value": 133,
+      "unit": "million (media reports)",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+     }
+    ],
+    "geography": "New Delhi: Supreme Court, Jantar Mantar",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Indian opposition protesters in New Delhi call on election chief to quit",
+      "url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Police detain leaders of India's 'cockroach' movement at New Delhi protest",
+      "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "LiveLaw",
+      "title": "Supreme Court issues notice on INDIA bloc leaders' petition against ECI over SIR",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Scroll",
+      "title": "SC issues notice to EC, poll chief Kumar on Opposition's pleas seeking audit of SIR deletions",
+      "url": "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Indian opposition defies lockdown, marches to demand election chief sacking",
+      "url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "russian-diesel",
+    "headline": "Senators from both parties object to buying Russian diesel",
+    "what_happened": "Six senators, four Republicans and two Democrats, asked the administration on Sunday 11 October to reverse its plan to buy Russian diesel. President Trump had announced the deal on Friday 9 October after a call with Vladimir Putin.",
+    "why_it_matters": "It tests who decides energy policy: senators say the law requires Congress to be consulted.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Six bipartisan senators urged the Trump administration to reverse its plan to buy Russian diesel, which the administration framed as a way to lower high fuel prices.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Trump announced on Friday October 9 that he reached a deal with Russian President Vladimir Putin; Russia would supply over 300,000 tons of diesel immediately and 500,000 tons in November.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Republican signers were Susan Collins, Lisa Murkowski, Thom Tillis and John Curtis; Democratic signers were Jeanne Shaheen and Richard Blumenthal.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "The senators said the administration did not consult Congress or explain its decision, as they argue a statute requires.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Congress banned Russian energy imports in 2022.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     },
+     {
+      "fact": "Sen. John Barrasso said the president is balancing energy costs and facing tough decisions.",
+      "source_url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Russia",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour (AP)",
+      "title": "Bipartisan group of senators calls on Trump to 'reverse course' on Russian diesel plan",
+      "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "omar-search",
+    "headline": "Federal agents search a congresswoman's home weeks before the midterms",
+    "what_happened": "On Monday 12 October federal agents searched the Washington-area home of Democratic Rep. Ilhan Omar. The Justice Department said it was a court-authorised search warrant. No charges have been filed.",
+    "why_it_matters": "Courts must approve a search warrant, but timing close to an election leads to arguments about politics; both sides' claims are contested.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Federal agents searched US Rep. Ilhan Omar's home in the Washington, DC area on Monday 12 October; AP sources said Homeland Security Investigations carried out the search.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "The Department of Justice confirmed agents executed a court-authorised search warrant but did not name Omar or give details.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "No charges have been filed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Omar said she will not be silenced and accused the administration of trying to weaponize federal law enforcement.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Trump said he had nothing to do with the search and that it was really up to the DOJ.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "The search came about three weeks before the 3 November midterm elections.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Sources told CBS that Attorney General Todd Blanche was personally aware of the search and the Justice Department consulted its Public Integrity section.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Democrats called the search political payback, arguing Justice Department protocol has long been to avoid legal action against politicians in the final weeks before an election, according to PBS NewsHour.",
+      "source_url": "https://www.pbs.org/newshour/politics/what-to-know-about-the-search-of-democratic-rep-omars-home"
+     },
+     {
+      "fact": "President Trump said he thinks Omar is a terrible person but that the matter is up to the Justice Department.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Homeland Security Investigations, the Department of Homeland Security's criminal investigative arm, leads the investigation, with the Justice Department assisting; CBS reports HSI's jurisdiction covers immigration document fraud, identity fraud and immigration benefit fraud.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "CBS reports the investigation centres on Omar's immigration paperwork from her childhood, completed by her late father, and examines potential false statements and immigration fraud.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Omar's office said she had done nothing wrong and called the raid an outrageous abuse of power.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Border czar Tom Homan said in September that there was an ongoing criminal investigation into Omar; she said at the time that she had not been contacted.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     },
+     {
+      "fact": "Omar was born in Somalia, came to the US as a child refugee and became a naturalised citizen; she was first elected in 2018.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+     },
+     {
+      "fact": "Federal agents did not say what was seized; CBS reported that relatives of Omar were subpoenaed as part of the immigration probe.",
+      "source_url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, DC; Minneapolis",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ilhan Omar says she 'will not be silenced' after US agents raid her home",
+      "url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Rep. Ilhan Omar's D.C. home searched by Homeland Security investigators",
+      "url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-inflation",
+    "headline": "US prices rose 3.7% in the year to September as petrol jumped",
+    "what_happened": "The Bureau of Labor Statistics said annual inflation rose to 3.7% in September from 3.4% in August, driven by petrol prices. It was the final inflation report before the November 3 midterm elections.",
+    "why_it_matters": "Higher fuel prices raise the cost of getting goods and people around, and the Federal Reserve may raise interest rates again.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Annual US inflation rose to 3.7% in September, up from 3.4% in August; prices rose 0.6% month over month.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "Petrol prices rose 9.1% in September and were up 34.2% year over year.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "Regular gasoline averaged $4.33 per gallon and diesel $6.29, according to AAA.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "In September the Fed raised rates by 25 basis points, its first hike in three years, to a target range of 3.75-4.00%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "CME FedWatch gave a 52.9% chance of holding rates and a 47.1% chance of a quarter-point hike at the next decision, due later in October.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "A Reuters/Ipsos poll found about 78% of Americans blamed President Trump's policies for price increases.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Annual inflation, September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "label": "Annual inflation, August",
+      "value": 3.4,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "iran-hormuz",
+    "headline": "Ships keep being hit near the Strait of Hormuz as US-Iran stalemate drags on",
+    "what_happened": "The US and Israel attacked Iran on 28 February, and Iran closed the Strait of Hormuz. A June ceasefire collapsed over control of the strait. The US keeps a naval blockade of Iran's southern ports while indirect talks via Pakistan and Qatar continue.",
+    "why_it_matters": "The strait carried at least a fifth of the world's crude oil and gas before the war, so closing it pushes up fuel prices everywhere.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The US and Israel attacked Iran on February 28; Iran closed the Strait of Hormuz, which carried at least 20 percent of global crude and LNG before the war.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "A June ceasefire collapsed over control of the strait.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "The US maintains a naval blockade on Iran's southern ports; indirect talks via Pakistan and Qatar continue.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "Crude rose from about $72 a barrel before the war to nearly $120 at its high; it was trading at about $104 on Thursday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "The UK Maritime Trade Operations centre recorded 15 attacks on ships between October 6 and 14.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "Trump said on Truth Social he will not attack Iran before the November 3 midterm elections.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     },
+     {
+      "fact": "Since October 1, 23 attacks have been recorded in the area, almost double the war's monthly average, according to CBS News.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     },
+     {
+      "fact": "Ship transits through Hormuz averaged 31 per day in the last week of September, versus 138 before the war, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "In the third quarter of 2026 Iran targeted 45 ships, about 87% of them tankers.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "Freight costs rose from 1-3% of Gulf crude's cost before the war to 25-30% now, and national oil companies are offering discounts of up to $35 a barrel below official selling prices.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "The US Navy has reportedly opened a route that lets Gulf states export oil and other goods, which Iran's security chief Mohsen Rezaei has called an explicit target.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     },
+     {
+      "fact": "Saudi Arabia says its East-West pipeline is pumping 5.8 million barrels per day.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Attacks on ships, 6-14 October",
+      "value": 15,
+      "unit": "attacks",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE; Gulf of Oman; Persian Gulf",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "US-Iran stalemate: What are Trump's next military options?",
+      "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Iran war live updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Iran sets crosshairs on 'US-UAE' oil shuttle out of Strait of Hormuz",
+      "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "brown-dwarfs",
+    "headline": "A space telescope studies 37 brown dwarfs, 'failed stars'",
+    "what_happened": "NASA's SPHEREx telescope observed 37 nearby brown dwarfs and found water, carbon dioxide, carbon monoxide and methane in their atmospheres, according to a study published in The Astrophysical Journal.",
+    "why_it_matters": "Brown dwarfs sit between planets and stars, so studying them helps scientists understand both.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "SPHEREx observed 37 nearby brown dwarfs spanning roughly 2,200 to -20 degrees Celsius.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "Molecules detected were water, carbon dioxide, carbon monoxide and methane.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "Brown dwarfs form from collapsing gas clouds, as stars do, but are not massive enough to sustain hydrogen fusion in their cores.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "Brown dwarfs were first discovered in the 1990s.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "SPHEREx is an infrared space telescope launched in March 2025 that takes about 3,600 images per day to map the sky.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "Only a few dozen brown dwarfs had been studied in detail with space telescopes before.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "SPHEREx is managed by JPL; the principal investigator is Jamie Bock of Caltech and JPL, and the telescope and spacecraft bus were built by BAE Systems.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "Each molecule leaves a distinct absorption pattern, and those patterns shift as brown dwarfs age and cool; some objects are in a transition where clouds thin and methane-rich air takes over.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "Lead author Zafar Rustamkulov said: No two brown dwarfs are alike.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "SPHEREx measures brightness in 102 colours, from visible deep red to infrared.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "The team plans to analyse thousands more SPHEREx brown dwarf observations, since the study covered only about three dozen.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     },
+     {
+      "fact": "SPHEREx continues mapping the sky, which will help scientists study hundreds of millions of galaxies and search for the chemical ingredients of life and interstellar ice.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brown dwarfs studied",
+      "value": 37,
+      "unit": "brown dwarfs",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+     }
+    ],
+    "geography": "Space; nearby stars in the Milky Way",
+    "sources": [
+     {
+      "outlet": "NASA JPL",
+      "title": "NASA's SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+      "url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+      "published": "2026-10-08"
+     }
+    ]
+   },
+   {
+    "id": "ai-selfcopy",
+    "headline": "Anthropic researchers warn small AI models may soon copy themselves onto home devices",
+    "what_happened": "A report released Monday 12 October by Anthropic researchers said small AI models may be months away from being able to copy themselves onto internet-connected devices such as smart TVs and fridges.",
+    "why_it_matters": "Everyday gadgets often have weak security, so scientists want protections built before the risk arrives.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Anthropic researchers said small AI models may be months away from being capable enough to copy themselves onto internet-of-things devices without a data centre.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+     },
+     {
+      "fact": "No current model was powerful and small enough to replicate reliably on a smart TV in testing.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+     },
+     {
+      "fact": "The researchers said such a model is likely by the end of 2026; that timeline is their projection, not an observed event.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+     },
+     {
+      "fact": "Such AI would be challenging to shut down because it lacks a centralised host.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+     },
+     {
+      "fact": "Expert Roman Yampolskiy of the University of Louisville called the findings significant but said the threat is not existential today.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+     }
+    ],
+    "numbers": [],
+    "geography": "Global; internet-connected devices",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "AI could self-replicate on home devices within 'months', Anthropic says",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-eu-reset",
+    "headline": "UK prime minister says he will renegotiate parts of the post-Brexit deal with the EU",
+    "what_happened": "In a statement to Parliament on Monday 12 October, Prime Minister Andy Burnham said he would seek closer ties with the EU and renegotiate parts of the post-Brexit trade deal.",
+    "why_it_matters": "Trade rules decide how easily British food and goods reach European customers.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "UK Prime Minister Andy Burnham, in office since July 2026, said he will seek closer EU relations and renegotiate parts of the post-Brexit trade deal.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "He will attend a bilateral UK-EU summit in Brussels in November.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "Topics include reducing bureaucracy for British food exports, emissions trading, a new youth experience scheme and deeper immigration cooperation.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "He said the British public would be the boss at every stage of the process.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "Opposition leader Kemi Badenoch said the EU are tough negotiators and that Burnham had already shown his hand.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "In a Sunday 11 October interview Burnham said Russian interference in the 2016 referendum was clear and warned that French and German voters faced the same threat; he offered no evidence, according to Al Jazeera.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "He said the agreements could reverse some damage to the post-Brexit economy; his priorities are boosting economic growth and controlling illegal immigration.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+     },
+     {
+      "fact": "MI5 chief Sir Ken McCallum's annual threat update on 13 October said Iran is using criminal proxies to intimidate dissidents, Iranian media and Israeli sites, and cited more than 50 UK arrests over the past year linked to Iran and Russia.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom and the European Union; Brussels",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "UK PM Andy Burnham vows to renegotiate post-Brexit trade deal with EU",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "albania-protests",
+    "headline": "Students protest in Albania, calling on the prime minister to resign",
+    "what_happened": "Student protests over poor education conditions entered a third day on Thursday 15 October in Albania. They have often been violent since Tuesday, with fires damaging buildings including the prime minister's office. Protests spread to universities in Elbasan and Shkoder.",
+    "why_it_matters": "It shows how anger over costs and jobs can bring young people into the streets, while the government says change comes through elections.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Student protests against poor education conditions entered a third day on Thursday 15 October 2026; demonstrations have been often violent since Tuesday 13 October.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Protesters demand Prime Minister Edi Rama resign; he refused, saying governments change through democratic elections.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Fires damaged several buildings including the prime minister's office, ministry buildings and bank branches; dozens of police officers and protesters were injured.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Authorities used water cannon and tear gas.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Rama has been prime minister since 2013 and won a fourth term last May.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Students have complained for months about high education costs and limited job prospects after graduation.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "In December 2018, student protests over education costs led Rama to dismiss eight ministers and announce the Pact for the University; some student demands remained unmet.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Protests against the government began a few months earlier over a planned luxury resort on Albania's southern coast; Albania has made more progress toward EU membership than most Western Balkan countries, after Montenegro.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Students in France have also protested for weeks, blockading schools over teacher shortages and poor facilities.",
+      "source_url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tirana, Elbasan and Shkoder in Albania, in the western Balkans on the Adriatic",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "'Boiling point': Why students are protesting against Albania's Edi Rama",
+      "url": "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "france-students",
+    "headline": "French school students keep protesting for more teachers and better schools",
+    "what_happened": "Protests that began about two weeks before 6 October in Paris's poorest suburbs spread across France. Prime Minister Sebastien Lecornu suspended high school classes for the rest of that week and told ministers to address the demands by the end of October.",
+    "why_it_matters": "Students are asking for the basics of school: teachers who turn up and repaired buildings.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "About 250,000 protesters took part on October 6 by authorities' estimate; organisers claimed about 500,000.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "The High School Students Union said nearly 2,000 high schools were blockaded or closed that day.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Lecornu said ministers must address the students' demands by the end of October, including repairs to old campuses.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Students want absent teachers replaced, longer lunch breaks and a changed school-day length, among other improvements.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "The Interior Ministry reported 6,100 arrests, most of them minors; the Justice Ministry said over 1,800 will be prosecuted.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Lecornu said at least 215 teenagers and 715 police officers were wounded.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     },
+     {
+      "fact": "Police fired tear gas in several cities, including Strasbourg, Lyon and Rennes.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount"
+     }
+    ],
+    "numbers": [],
+    "geography": "France; Paris suburbs, Strasbourg, Lyon, Rennes",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Demonstrators clash with riot police in France as education protests mount",
+      "url": "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+      "published": "2026-10-06"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "psg-city",
+    "headline": "PSG beat Manchester City 4-2 in the Champions League",
+    "what_happened": "Paris Saint-Germain won 4-2 at the Etihad Stadium on 14 October.",
+    "why_it_matters": "",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "PSG beat Manchester City 4-2 at the Etihad Stadium on 14 October 2026 in a UEFA Champions League league-phase match.",
+      "source_url": "https://www.aljazeera.com/sports/2026/10/14/psg-beat-man-city-4-2-in-champions-league-thriller"
+     },
+     {
+      "fact": "PSG led 3-0 at half-time through Desire Doue, Ousmane Dembele and Vitinha; Maghnes Akliouche added a fourth, and Erling Haaland scored twice in the second half.",
+      "source_url": "https://www.aljazeera.com/sports/2026/10/14/psg-beat-man-city-4-2-in-champions-league-thriller"
+     },
+     {
+      "fact": "Al Jazeera's live blog says Haaland became the youngest player to reach 60 Champions League goals.",
+      "source_url": "https://www.aljazeera.com/amp/sports/liveblog/2026/10/14/manchester-city-vs-psg-live-champions-league"
+     },
+     {
+      "fact": "PSG are the defending champions.",
+      "source_url": "https://www.aljazeera.com/amp/sports/liveblog/2026/10/14/manchester-city-vs-psg-live-champions-league"
+     }
+    ],
+    "numbers": [],
+    "geography": "Manchester, England",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "PSG beat Man City 4-2 in Champions League thriller",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/psg-beat-man-city-4-2-in-champions-league-thriller",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Manchester City 2-4 PSG: Champions League",
+      "url": "https://www.aljazeera.com/amp/sports/liveblog/2026/10/14/manchester-city-vs-psg-live-champions-league",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ }
+}

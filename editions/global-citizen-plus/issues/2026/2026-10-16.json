@@ -1,0 +1,455 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-16",
+  "volume": 1,
+  "issue": 4,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  YEMEN AND SAUDI ARABIA",
+      "headline": "Houthi Attacks Hit Saudi Oil and Airports as Sports and Summits Move",
+      "deck": "A drone and a missile were stopped on Thursday; Riyadh’s airport stays shut until at least Saturday.",
+      "body": [
+        "Yemen’s war is spilling into Saudi Arabia. The Houthis, an Iran-backed armed group, are fighting forces aligned with Yemen’s internationally recognised government, and Saudi Arabia is bombing the Houthis from the air to support them. On Wednesday 14 October the Houthis said they struck an Aramco site in Dhahran. A Saudi official confirmed a building was hit, causing a “limited fire” and no casualties. On Thursday, Saudi-backed forces said they intercepted a drone headed for Medina and a missile fired toward Riyadh.",
+        "Last weekend’s attacks on Riyadh’s airport reportedly killed 14 people and wounded more than 300. UN Secretary-General António Guterres condemned them, and US Secretary of State Marco Rubio said an American was killed. The attacks are now changing normal life: the Saudi Pro League moved three games, including Cristiano Ronaldo’s Al Nassr against Al Ahli, which is now set for 6 March 2027. A tennis event in Riyadh moved to December, and an EU–Gulf summit due on 24 October was postponed.",
+        "On the ground, Yemeni government forces launched a counteroffensive to retake coastal land near the Bab al-Mandeb strait that the Houthis seized in recent weeks. The World Food Programme says fighting is cutting food aid to about 800,000 people, and wheat flour in the city of Taiz is nearly gone. Casualty figures from the fighting are claims by the parties and are not independently verified."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen share the Red Sea’s eastern shore, opposite Africa."
+      },
+      "why": "Saudi Arabia has relied more on the Red Sea route since Iran closed the Strait of Hormuz in March, so attacks near Bab al-Mandeb threaten its oil exports as well as its cities.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ronaldo's among three Saudi Arabia games postponed due to Houthi attacks",
+          "url": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Russia Hits Kyiv’s Power Plants and Zelenskyy Says Refinery Strikes Will Resume",
+      "deck": "The ‘energy ceasefire’ announced by President Trump has not held.",
+      "body": [
+        "Overnight into Wednesday 14 October, Russian air attacks killed at least nine people in Ukraine and left more than half a million without power, according to Al Jazeera. Russia’s Defence Ministry said it hit two plants supplying power and heating in Kyiv, a substation, and a heat-and-power plant in Kharkiv. Winter makes power a matter of life and death, because homes, hospitals and water pumps all need electricity.",
+        "The strikes came days after Mr Trump announced an “energy ceasefire”, a pause in attacks on power plants and oil sites. President Volodymyr Zelenskyy accused Russia of breaking it. On Thursday he told the Financial Times that Kyiv was “done” with the pause and that strikes on Russian refineries, which turn crude oil into fuel, would resume. Russia said Ukraine hit a refinery in Ryazan, 180 km south of Moscow. Ukraine’s Air Force said Russia launched 580 Shahed-type and other drones overnight, and that 536 were neutralised.",
+        "The US had pressed Ukraine to stop the refinery strikes, citing a deal to buy 1.8 million tonnes of diesel from Russia to ease fuel prices. Mr Zelenskyy said he would pause again only if the US supplied Patriot interceptors, and he asked European leaders in Brussels for tougher sanctions. The EU has pledged $50 billion for Ukraine next year, against the $175 billion Kyiv plans to spend on defence."
+      ],
+      "illustration": {
+        "title": "POWER GRID UNDER FIRE",
+        "subtitle": "500,000+ without power",
+        "motif": "grid",
+        "caption": "Al Jazeera’s figure after strikes on Kyiv and Kharkiv."
+      },
+      "connect": "Economics and geography meet here: refineries and power plants are valuable because modern economies run on fuel and electricity, and winter raises the stakes.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "'Massive' Russian attack on Ukraine kills at least 9, damages power sites",
+          "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia says Ukraine resumes attacks on oil refineries",
+          "url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  CIVICS AND THE COURTS",
+      "headline": "Supreme Court Issues Notice on the Voter-List Dispute",
+      "deck": "The court has not ruled; it has asked the Election Commission to respond.",
+      "body": [
+        "A voter list, or electoral roll, is the official list of people who can vote. Since June 2025 India’s Election Commission has been revising its lists, and media reports say more than 133 million names were removed. Opposition parties say this helps the ruling BJP and hurt minorities, particularly Muslims. The Commission denies wrongdoing, says it removed duplicate, dead and fraudulent entries, and says wrongly deleted voters can re-enrol.",
+        "On Thursday 15 October the Supreme Court, led by Chief Justice Surya Kant, issued notice to the Commission and Chief Election Commissioner Gyanesh Kumar on a petition by Rahul Gandhi and other opposition leaders. A notice is a first step: it asks the other side to respond and is not a ruling. The petitioners want an independent audit of voter deletions, disclosure of the Commission’s records and a suspension of the revision while the case is heard.",
+        "Protests continue in the streets. On Monday thousands marched toward the Court, with more than 30,000 police deployed in Delhi, according to Al Jazeera. On Tuesday police detained about 20 volunteers of the youth-led Cockroach Janta Party at Jantar Mantar, which police had declared no longer an official protest site. Human Rights Watch urged an end to “arbitrary” arrests. Analyst Asim Ali told Al Jazeera that the government is unlikely to back down, and the Court said it wishes to look at voter-list questions state by state."
+      ],
+      "illustration": {
+        "title": "THE COURT STEPS IN",
+        "subtitle": "Notice issued 15 October",
+        "motif": "court",
+        "caption": "A notice asks the other side to respond; it is not a ruling."
+      },
+      "why": "In a democracy, who gets to vote is decided partly by lists like this, so courts, parties and citizens all watch how they are made.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Supreme Court issues notice on INDIA bloc leaders' petition against ECI over SIR",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+        },
+        {
+          "outlet": "Scroll",
+          "title": "SC issues notice to EC, poll chief Kumar on Opposition's pleas seeking audit of SIR deletions",
+          "url": "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Indian opposition protesters in New Delhi call on election chief to quit",
+          "url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Police detain leaders of India's 'cockroach' movement at New Delhi protest",
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Indian opposition defies lockdown, marches to demand election chief sacking",
+          "url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  PRICES",
+      "headline": "US Inflation Rises to 3.7%, Driven by Petrol",
+      "deck": "It was the last inflation report before the 3 November midterm elections.",
+      "body": [
+        "Inflation is a general rise in prices over time. On Wednesday the Bureau of Labor Statistics said prices in September were 3.7% higher than a year earlier, up from 3.4% in August. Prices rose 0.6% from August to September alone.",
+        "Petrol did most of the work. It rose 9.1% in September and is up 34.2% on a year ago. AAA says regular petrol averages $4.33 a gallon and diesel $6.29. GasBuddy counted 158 days this year with average petrol prices above $4, more than in any previous year. Shelter costs rose 0.4%, while food at home fell 0.1%, and milk fell 2.1%. Computer software and accessories were up 28% on a year ago, which analysts linked to spending on AI infrastructure.",
+        "The Federal Reserve, the US central bank, raised interest rates by 0.25 of a percentage point in September, its first rise in three years, to 3.75–4.00%. Markets give a 47.1% chance of another rise at its next decision, later in October. A Reuters/Ipsos poll found about 78% of Americans blamed President Trump’s policies for higher prices."
+      ],
+      "chart": {
+        "title": "US ANNUAL INFLATION",
+        "subtitle": "Percent, year on year",
+        "labels": [
+          "August",
+          "September"
+        ],
+        "values": [
+          3.4,
+          3.7
+        ],
+        "max": 4,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Prices compared with the same month a year earlier; Bureau of Labor Statistics."
+      },
+      "why": "Petrol and diesel are costs in almost everything people buy, so energy shocks reach family budgets quickly.",
+      "analyst": "Why might petrol prices push up the cost of other goods? Why would the Fed raise interest rates when prices rise? What is the difference between a one-month rise and a year-on-year rise?",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+      "headline": "SPHEREx Telescope Finds Water and Methane in 37 Brown Dwarfs",
+      "deck": "A study in The Astrophysical Journal says these ‘failed stars’ have chemically rich atmospheres.",
+      "body": [
+        "Brown dwarfs form from collapsing gas clouds, as stars do, but are not massive enough to sustain hydrogen fusion in their cores. They are dim balls of warm gas that drift freely without a host star and are heated from within. They were first discovered in the 1990s.",
+        "NASA’s SPHEREx is an infrared space telescope launched in March 2025. It observed 37 nearby brown dwarfs, with temperatures from about 2,200 to minus 20 degrees Celsius, and measured their brightness in 102 colours. The team, led by Zafar Rustamkulov of Caltech’s IPAC, found water, carbon dioxide, carbon monoxide and methane in their atmospheres.",
+        "Each molecule leaves its own pattern in the light, and the patterns shift as a brown dwarf ages and cools. “No two brown dwarfs are alike,” Rustamkulov said. Before this, only a few dozen had been studied in detail from space; the team plans to analyse thousands more SPHEREx observations. Brown dwarfs also have a range of looks even at similar temperatures: in some, clouds thin and methane-rich air takes over. The telescope, managed by NASA’s Jet Propulsion Laboratory, keeps mapping the sky, which will help study hundreds of millions of galaxies and search for the chemical ingredients of life."
+      ],
+      "illustration": {
+        "title": "STARS THAT NEVER IGNITED",
+        "subtitle": "37 brown dwarfs studied",
+        "motif": "rocket",
+        "caption": "SPHEREx takes about 3,600 images a day."
+      },
+      "why": "Brown dwarfs sit between planets and stars, so studying them helps test theories of how both form; this is physics, chemistry and astronomy working together.",
+      "sources": [
+        {
+          "outlet": "NASA JPL",
+          "title": "NASA's SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+          "url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL AND SHIPPING",
+      "headline": "Oil Near $104 as Ships Keep Getting Hit Near the Strait of Hormuz",
+      "deck": "Crude was about $72 before the war and came near $120 at its high.",
+      "body": [
+        "The Strait of Hormuz is a narrow sea passage that carried at least 20 percent of the world’s crude oil and liquefied natural gas before the war. After the US and Israel attacked Iran on 28 February, Iran closed it. A June ceasefire collapsed over control of the strait, and the US now blockades Iran’s southern ports while indirect talks run through Pakistan and Qatar.",
+        "Prices show the effect. Crude rose from about $72 a barrel before the war to nearly $120 at its high and traded at about $104 on Thursday. Ship transits through Hormuz averaged 31 a day in the last week of September, against 138 before the war, according to Al Jazeera. Freight now makes up 25 to 30 percent of the cost of Gulf crude, up from 1 to 3 percent.",
+        "Attacks on ships are rising. The UK Maritime Trade Operations centre recorded 15 attacks between 6 and 14 October, and CBS News says there have been 23 since 1 October, almost double the war’s monthly average. Mr Trump said the US will not attack Iran before the 3 November elections. The US Navy has reportedly opened a route that lets Gulf states export oil, and Iran’s security chief has called it an explicit target. Iran says it will keep disrupting shipping while the US blockade continues."
+      ],
+      "illustration": {
+        "title": "A NARROW PASSAGE, A WORLD PRICE",
+        "subtitle": "Crude near $104",
+        "motif": "strait",
+        "caption": "Price on Thursday 15 October, per Al Jazeera."
+      },
+      "why": "Oil is a cost in transport, farming and factories, so a shock in one strait changes prices on the other side of the world.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US-Iran stalemate: What are Trump's next military options?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran sets crosshairs on 'US-UAE' oil shuttle out of Strait of Hormuz",
+          "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Federal agents searched Rep. Ilhan Omar’s home on 12 October. The Justice Department said a court approved the warrant; Omar calls it political, and no charges have been filed.",
+        "United States: Six senators from both parties asked the administration to reverse a plan to buy Russian diesel, saying Congress was not consulted.",
+        "United Kingdom: Prime Minister Andy Burnham said he will renegotiate parts of the post-Brexit trade deal with the EU, with a Brussels summit in November.",
+        "Albania: Students protested for a third day, calling on Prime Minister Edi Rama to resign; he refused, saying governments change through elections."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Electoral roll",
+          "def": "The official list of people entitled to vote. Today: India’s Election Commission’s revision of the rolls is before the Supreme Court."
+        },
+        {
+          "word": "Blockade",
+          "def": "The use of ships or forces to stop movement in and out of a port or coast. Today: the US maintains a naval blockade on Iran’s southern ports."
+        },
+        {
+          "word": "Interest rate",
+          "def": "The price of borrowing money, set partly by a central bank. Today: the Fed raised its rate to 3.75–4.00% in September."
+        },
+        {
+          "word": "Brown dwarf",
+          "def": "An object formed like a star but too light to fuse hydrogen in its core. Today: SPHEREx studied 37 of them."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "NASA’s SPHEREx telescope measures brightness in 102 colours, from visible deep red to infrared, and takes about 3,600 images every day to map the sky."
+    },
+    "explainer": {
+      "title": "Why do central banks raise interest rates when prices rise?",
+      "body": [
+        "Inflation means prices rise across the economy. A central bank, such as the US Federal Reserve, can raise its interest rate, which makes borrowing more expensive. When loans cost more, families and businesses tend to borrow and spend less.",
+        "Slower spending can ease price rises, but it can also slow hiring. That is the trade-off officials face. It is harder when the cause is energy, because higher interest rates cannot reopen a strait or pump more oil. In September the Fed raised its rate for the first time in three years; today’s report shows inflation at 3.7%."
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US-Iran stalemate: What are Trump's next military options?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What did a Saudi official confirm was hit at Dhahran on Wednesday?",
+        "(a) A runway  (b) An Aramco building  (c) A hospital  (d) A tanker",
+        "<b>2.</b> What did the Supreme Court do on 15 October on the voter-list petition?",
+        "(a) Struck down the revision  (b) Issued notice  (c) Suspended the revision  (d) Dismissed the plea",
+        "<b>3.</b> What was US annual inflation in September?",
+        "(a) 2.6%  (b) 3.4%  (c) 3.7%  (d) 9.1%",
+        "<b>4.</b> How many brown dwarfs did SPHEREx observe in the study?",
+        "(a) 12  (b) 37  (c) 102  (d) 3,600",
+        "<b>5.</b> About how much was crude oil on Thursday?",
+        "(a) $72  (b) $104  (c) $120  (d) $130",
+        "<b>Answers.</b> 1 (b): an Aramco building. 2 (b): issued notice. 3 (c): 3.7%. 4 (b): 37. 5 (b): about $104."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "Discuss it",
+      "body": [
+        "Why might courts, rather than politicians, be asked to decide disputes about voter lists?",
+        "How can a war far away change prices in your own town?",
+        "When should an investigation of a politician be paused, if ever, close to an election?"
+      ],
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Supreme Court issues notice on INDIA bloc leaders' petition against ECI over SIR",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US-Iran stalemate: What are Trump's next military options?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ilhan Omar says she 'will not be silenced' after US agents raid her home",
+          "url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Asking who, how and why is the start of thinking.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+    "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks",
+    "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+    "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
+    "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+    "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz",
+    "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+    "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries",
+    "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+    "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+    "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
+    "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign",
+    "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest",
+    "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801",
+    "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions",
+    "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown",
+    "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+    "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+    "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did a Saudi official confirm was hit at Dhahran on Wednesday?",
+        "options": [
+          "A runway",
+          "An Aramco building",
+          "A hospital"
+        ],
+        "answer": 1,
+        "why": "An Aramco building was hit, causing a limited fire and no casualties.",
+        "story": "lead"
+      },
+      {
+        "q": "What does Mr Zelenskyy say Ukraine would pause energy strikes for?",
+        "options": [
+          "More tanks",
+          "Patriot interceptors",
+          "A new sanctions law"
+        ],
+        "answer": 1,
+        "why": "He said he would pause again only if the US supplied Patriot interceptors.",
+        "story": "world"
+      },
+      {
+        "q": "What did the Supreme Court do on 15 October on the voter-list petition?",
+        "options": [
+          "Suspended the revision",
+          "Dismissed the plea",
+          "Issued notice"
+        ],
+        "answer": 2,
+        "why": "It issued notice to the Election Commission, which is not a ruling.",
+        "story": "india"
+      },
+      {
+        "q": "What was US annual inflation in September?",
+        "options": [
+          "3.7%",
+          "3.4%",
+          "9.1%"
+        ],
+        "answer": 0,
+        "why": "Prices were 3.7% higher than a year earlier.",
+        "story": "us"
+      },
+      {
+        "q": "About how much was crude oil on Thursday?",
+        "options": [
+          "$72",
+          "$120",
+          "$104"
+        ],
+        "answer": 2,
+        "why": "Crude traded at about $104, against about $72 before the war.",
+        "story": "economics"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "A court notice means the Supreme Court has ruled for the petitioners.",
+        "true": false,
+        "why": "A notice only asks the other side to respond.",
+        "story": "india"
+      },
+      {
+        "claim": "SPHEREx found water and methane in brown dwarf atmospheres.",
+        "true": true,
+        "why": "It detected water, carbon dioxide, carbon monoxide and methane.",
+        "story": "science_and_technology"
+      },
+      {
+        "claim": "The Fed raised interest rates in September for the first time in three years.",
+        "true": true,
+        "why": "The Fed raised its rate by 0.25 of a point, its first rise in three years.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "United States"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "world": "russia-ukraine"
+  }
+}
