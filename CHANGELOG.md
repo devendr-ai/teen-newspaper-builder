@@ -20,6 +20,10 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- A logo: the owl reading its paper (`assets/owl.svg`). It's in the website
+  and builder headers, the browser tab, Read & Play (front page, end of each
+  paper, home-screen icon), and on the printed masthead of new papers, opposite
+  the QR code. `ygc/brand.py` draws the same SVG into the PDF.
 - Printed papers from 16 October carry a "Scan to read & play" QR code in the
   masthead (`qr_from` in `site.yaml`), opening the issue in Read & Play; codes on
   papers older than Read & Play's week open a page that links to the newest one.

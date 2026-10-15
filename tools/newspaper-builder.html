@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Design your own paper</title>
+<link rel="icon" href="owl.svg" type="image/svg+xml">
 <meta name="description" content="Design a newspaper for your child, have your own AI chatbot write it from today's news, and print it laid out like ours.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +38,8 @@ a{color:var(--cyan)}
 .wrap{max-width:1240px;margin:0 auto;padding:22px 16px 110px}
 .site{display:flex;justify-content:space-between;align-items:baseline;gap:6px 16px;flex-wrap:wrap;border-bottom:1.5px solid var(--ink);padding-bottom:12px;margin-bottom:22px}
 .site b{font-family:var(--display);font-size:1.35rem;font-weight:800}
-.site b a{color:inherit;text-decoration:none}
+.site b a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.3em}
+.site b .logo{width:1.5em;height:1.5em;flex:none;margin:-.2em 0}
 .site nav a{margin-left:16px;font-weight:700;text-decoration:none}
 .site nav a:first-child{margin-left:0}
 .site nav a[aria-current]{color:var(--ink)}
@@ -167,7 +169,21 @@ details.dev summary{cursor:pointer;font-weight:700}
 </head>
 <body>
 <div class="wrap">
-  <div class="site"><b><a href="index.html">The Kids' Newsstand</a></b>
+  <div class="site"><b><a href="index.html"><svg class="logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<g stroke="#1E2A32" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 22 L26 11 L38 17 Z M70 22 L74 11 L62 17 Z" fill="#6B5BD2"/>
+<path d="M23 60 V38 C23 21 35 13 50 13 C65 13 77 21 77 38 V60 Z" fill="#7C6AE0"/>
+<circle cx="39.5" cy="34" r="10.5" fill="#fff"/><circle cx="60.5" cy="34" r="10.5" fill="#fff"/>
+<path d="M45.5 46 L50 55 L54.5 46 Z" fill="#F4B400" stroke-width="3.2"/>
+<path d="M11 57 H89 L83 91 H17 Z" fill="#fff"/>
+<path d="M22 63 C17 55 22 48 29 50 C34 52 33 60 31 63" fill="#7C6AE0"/>
+<path d="M78 63 C83 55 78 48 71 50 C66 52 67 60 69 63" fill="#7C6AE0"/>
+</g>
+<circle cx="41" cy="35.5" r="4.8" fill="#1E2A32"/><circle cx="59" cy="35.5" r="4.8" fill="#1E2A32"/>
+<circle cx="42.7" cy="33.7" r="1.7" fill="#fff"/><circle cx="60.7" cy="33.7" r="1.7" fill="#fff"/>
+<rect x="36" y="64" width="40" height="7" rx="1.5" fill="#E2584D"/>
+<path d="M25 78 H47 M54 78 H76 M27 85 H45 M54 85 H73" stroke="#A9BCC4" stroke-width="3.4" stroke-linecap="round"/>
+</svg>The Kids' Newsstand</a></b>
     <nav><a href="index.html">Papers</a><a href="play/index.html">Read &amp; Play</a><a href="builder.html" aria-current="page">Design your own</a><a href="about.html">How it's made</a><!--FEEDBACK--></nav></div>
 
   <header class="top">
