@@ -1,0 +1,297 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-16",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Yemen’s War Reaches Saudi Oil and Airports",
+      "deck": "A missile hit an Aramco building on Wednesday, and Riyadh’s airport is still shut.",
+      "body": [
+        "Yemen is a country just south of Saudi Arabia. A group there called the Houthis is fighting Yemen’s government, which Saudi Arabia backs. On Wednesday, the Houthis said they struck an Aramco site in Dhahran. Aramco is Saudi Arabia’s giant oil company. A Saudi official said a building was hit, causing a small fire and no injuries.",
+        "On Thursday, Saudi-backed forces said they stopped a drone heading for the city of Medina and a missile fired toward the capital, Riyadh. Over the weekend, attacks on Riyadh’s King Khalid airport reportedly killed 14 people and wounded more than 300. The airport is expected to stay shut until at least Saturday.",
+        "Ordinary families in Yemen are suffering too. The UN World Food Programme says the fighting is cutting food aid to about 800,000 people. In the city of Taiz, wheat flour is nearly gone. Meanwhile, a meeting between the European Union and Gulf countries in Riyadh has been postponed."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports and oil sites matter far beyond Yemen, and the people hit hardest are families who cannot easily get food.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Russia Hits Ukraine’s Power Again, and Kyiv Ends Its Pause",
+      "deck": "More than half a million people lost electricity after the latest attacks.",
+      "body": [
+        "Ukraine is in the fifth year of a war with Russia. On Sunday, US President Donald Trump announced an “energy ceasefire”, a pause in attacks on power plants and oil sites. It did not hold. Overnight into Wednesday, Russian attacks killed at least nine people and left more than half a million without electricity.",
+        "Russia said it hit two plants that supply power and heat in the capital, Kyiv, and another in Kharkiv. Ukraine, in turn, has been hitting Russian oil refineries. On Thursday, Russia said Ukraine struck a refinery in Ryazan, south of Moscow. Ukraine’s president, Volodymyr Zelenskyy, said Kyiv was done with the pause.",
+        "Zelenskyy was due to meet European leaders in Brussels on Thursday. He wants tougher sanctions on Russia, which are penalties meant to hurt its economy. The EU has promised Ukraine $50 billion next year, but Ukraine plans to spend $175 billion on defence."
+      ],
+      "chart": {
+        "title": "UKRAINE’S NEXT YEAR",
+        "subtitle": "Billions of US dollars",
+        "labels": [
+          "EU pledge",
+          "Defence plan"
+        ],
+        "values": [
+          50,
+          175
+        ],
+        "max": 200,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "The EU pledge is for support next year; the other figure is what Kyiv plans to spend on defence."
+      },
+      "connect": "Winter makes power a matter of life and death: homes, hospitals and water pumps all need electricity to stay warm and working.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "'Massive' Russian attack on Ukraine kills at least 9, damages power sites",
+          "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia says Ukraine resumes attacks on oil refineries",
+          "url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  PRICES",
+      "headline": "US Prices Rose 3.7% in a Year, Led by Petrol",
+      "deck": "It was the last inflation report before the November 3 elections.",
+      "body": [
+        "Inflation is how fast prices rise. On Wednesday, the government’s Bureau of Labor Statistics said prices in September were 3.7% higher than a year earlier. In August the figure was 3.4%.",
+        "Petrol was the main cause. Petrol prices rose 9.1% in September alone, and they are 34.2% higher than a year ago. The AAA motoring group says regular petrol averages $4.33 a gallon and diesel $6.29.",
+        "Rising prices could lead the Federal Reserve, the US central bank, to raise interest rates again. In September it raised them for the first time in three years. A Reuters/Ipsos poll found about 78% of Americans blame President Trump’s policies for higher prices."
+      ],
+      "why": "Petrol prices touch almost everything, because trucks and ships carry nearly everything we buy.",
+      "also": [
+        "Senators: Six senators from both parties asked the White House to drop a plan to buy Russian diesel.",
+        "Congress: Agents searched Rep. Ilhan Omar’s home; she calls it political, and no charges have been filed."
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "PBS NewsHour (AP)",
+          "title": "Bipartisan group of senators calls on Trump to 'reverse course' on Russian diesel plan",
+          "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ilhan Omar says she 'will not be silenced' after US agents raid her home",
+          "url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Albania: Students have protested for three days, demanding the prime minister, Edi Rama, resign. He has refused.",
+        "Science: NASA’s SPHEREx telescope studied 37 nearby brown dwarfs, balls of gas too small to be stars, and found water in their air."
+      ]
+    },
+    "discussion": {
+      "title": "Questions for the table",
+      "body": [
+        "Why might a war far away change what petrol costs where you live?",
+        "Why do people disagree about who should check a voter list?",
+        "What does a country lose when schools, hospitals or power plants are attacked?"
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Indian opposition protesters in New Delhi call on election chief to quit",
+          "url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Young Protesters Join the Voter-List Row",
+      "deck": "Police detained about 20 volunteers at Jantar Mantar on Tuesday.",
+      "body": [
+        "A voter list is the official list of people allowed to vote. India’s Election Commission has been revising these lists, and media reports say more than 133 million names were removed. Opposition parties say this helps the ruling BJP and hurts minorities. The Commission denies wrongdoing and says the aim was to remove duplicate, dead or fraudulent names.",
+        "On Monday, thousands marched toward the Supreme Court in New Delhi, calling on the chief election commissioner, Gyanesh Kumar, to resign. On Tuesday, police detained about 20 volunteers of the Cockroach Janta Party, a youth movement, at Jantar Mantar. This is a famous protest spot in Delhi that police said on Monday was no longer an official protest site.",
+        "Indian media reported that Rahul Gandhi also filed a Supreme Court petition for opposition leaders against the Commission. Human Rights Watch urged India to stop “arbitrary” arrests of young protesters. The Commission says anyone wrongly deleted from the list can sign up again."
+      ],
+      "why": "Voting is how citizens choose leaders, so a fair and accurate voter list is something people everywhere care about.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Indian opposition protesters in New Delhi call on election chief to quit",
+          "url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Police detain leaders of India's 'cockroach' movement at New Delhi protest",
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "The Saudi Pro League moved three games because of missile threats. <b>Al Ahli v Al Nassr</b>, Cristiano Ronaldo’s team, is now set for 6 March 2027. Two other games move to 19 December. On Monday, Al Nassr’s Asian Champions League match in Riyadh started an hour late after a missile was stopped.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ronaldo's among three Saudi Arabia games postponed due to Houthi attacks",
+          "url": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Riyadh’s airport reopens on Saturday.",
+        "What Zelenskyy gets from European leaders in Brussels."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the first step to good understanding.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+    "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks",
+    "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+    "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+    "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries",
+    "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+    "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+    "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign",
+    "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest",
+    "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
+    "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+    "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did the UN say it is cutting because of the fighting in Yemen?",
+        "options": [
+          "Food aid to about 800,000 people",
+          "School lessons",
+          "Phone service"
+        ],
+        "answer": 0,
+        "why": "The World Food Programme says food aid to about 800,000 people is being cut.",
+        "story": "lead"
+      },
+      {
+        "q": "Who announced an “energy ceasefire” on Sunday?",
+        "options": [
+          "Vladimir Putin",
+          "Donald Trump",
+          "Volodymyr Zelenskyy"
+        ],
+        "answer": 1,
+        "why": "US President Donald Trump announced it, but it did not hold.",
+        "story": "world"
+      },
+      {
+        "q": "How fast were US prices rising in the year to September?",
+        "options": [
+          "3.7%",
+          "9.1%",
+          "34.2%"
+        ],
+        "answer": 0,
+        "why": "Prices were 3.7% higher than a year earlier.",
+        "story": "us"
+      },
+      {
+        "q": "Who called the march to India’s Supreme Court on Monday?",
+        "options": [
+          "Gyanesh Kumar",
+          "Rahul Gandhi",
+          "Edi Rama"
+        ],
+        "answer": 1,
+        "why": "Rahul Gandhi, the opposition leader, called the march.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Riyadh’s airport is expected to stay shut until at least Saturday.",
+        "true": true,
+        "why": "The airport was expected to stay shut at least until Saturday.",
+        "story": "lead"
+      },
+      {
+        "claim": "The EU has promised Ukraine more money for next year than Ukraine plans to spend on defence.",
+        "true": false,
+        "why": "The EU promised $50 billion; Ukraine plans to spend $175 billion on defence.",
+        "story": "world"
+      },
+      {
+        "claim": "Petrol prices rose 9.1% in September alone.",
+        "true": true,
+        "why": "Petrol rose 9.1% in September and is up 34.2% in a year.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  }
+}
