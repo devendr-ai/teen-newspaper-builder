@@ -111,6 +111,9 @@ def r_story(s, cfg, ctx, w):
         out.append(BarChart(s["chart"], width=w, height=1.80 * inch))
         out.append(Paragraph(s["chart"].get("caption", ""), S["caption"]))
     _extras(out, s, cfg, ctx)
+    if (ctx.issue.get("threads") or {}).get(getattr(ctx, "bid", None)):     # part of a big ongoing story
+        out.append(Paragraph("New to this story? Catch up with <b>The story so far</b> on Read &amp; Play.",
+                             S["caption"]))
     if cfg.get("also") and s.get("also"):
         out.append(Spacer(1, 4))
         out.append(Paragraph(cfg["also"].get("title", "ALSO IN THE NEWS"), S["why_title"]))
@@ -200,6 +203,7 @@ def column_flowables(block_ids, ctx, w):
         content = ctx.issue.get("blocks", {}).get(bid)
         if content is None and cfg["type"] != "sign_off":
             continue
+        ctx.bid = bid
         out += RENDERERS[cfg["type"]](content, cfg, ctx, w)
     return out
 

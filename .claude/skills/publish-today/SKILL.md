@@ -106,6 +106,31 @@ For each paper in `ygc due`, one at a time:
    move on. Commit each paper as soon as it passes
    (`git add editions/<id> && git commit -m "<Paper name>, $D"`).
 
+## 2b. The story so far (after the papers)
+
+Big ongoing stories each have a thread in `threads/<id>.json`: one page a child can
+read to catch up, written for younger (6–11) and older (12+) readers. See
+`docs/STORY_SO_FAR.md` for the full shape. `$PY -m ygc thread` checks them all.
+
+1. **Link today's stories.** For each story you published today that continues an
+   existing thread, add `"threads": {"<story id>": "<thread id>"}` to that issue and
+   run `ygc check` on it again: the printed story gains a one-line pointer, so trim
+   if a column is now over.
+2. **Add today's news to each thread with news.** Append one timeline line per new
+   development: `date` (when it happened), `reported` (`$D`), and one short
+   sentence each in `younger` and `older`. Update `one_minute`, `who` and
+   `questions` only if the picture changed, and add the new source URLs (from the
+   pool) to `sources`. Same rules as the papers: only facts in the pool or in
+   papers already published, nothing graphic, gentle wording for younger readers.
+3. **Open a new thread** only for a story that has run in the papers on at least 3
+   of the last 7 days (check `previous_headlines` in `ygc due --json`) and has no
+   thread yet. Write both levels, a `where`, a short timeline from the published
+   stories, and a `worry` note for wars and disasters; then link today's stories.
+   At most three threads should be active; don't open one for a single event.
+4. `$PY -m ygc thread` must pass. Commit threads with the papers. If a thread can't
+   pass, leave it unchanged (and remove today's `threads` links to it): a thread
+   never blocks a paper.
+
 ## 3. The poster (papers with `+ poster`, after their issue passes)
 
 ```bash

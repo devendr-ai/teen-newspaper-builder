@@ -12,6 +12,7 @@
   site [--out _site]                build the website: every edition, latest PDFs, archives, RSS
   new-poster <edition> [--date D]   start a "Big Question" poster from a skeleton
   poster <poster.json> [--pool P]   check a poster and build its PDF and page image
+  thread [<thread.json> ...]        check "the story so far" threads (all of threads/ when none given)
 
   --pool data/pools/<date>.json also fails any source URL that is not in that research pool.
 """
@@ -264,6 +265,28 @@ def cmd_poster(a):
     return 0 if r.ok else 1
 
 
+def cmd_thread(a):
+    from . import threads
+    files = a.files or (sorted(os.path.join(threads.DIR, f) for f in os.listdir(threads.DIR) if f.endswith(".json"))
+                        if os.path.isdir(threads.DIR) else [])
+    bad = 0
+    for f in files:
+        t = json.load(open(f, encoding="utf-8"))
+        t.setdefault("id", os.path.basename(f)[:-5])
+        if os.path.basename(f)[:-5] != t["id"]:
+            print(f"{f}: ERROR id {t['id']!r} must match the file name")
+            bad += 1
+            continue
+        r = threads.check(t)
+        for m in r.errors:
+            print(f"{f}: ERROR {m}")
+        for m in r.notes:
+            print(f"{f}: note {m}")
+        print(f"{f}: {'PASS' if r.ok else 'FAIL'}")
+        bad += not r.ok
+    sys.exit(1 if bad else 0)
+
+
 def cmd_site(a):
     from . import site
     site.build(a.out, keep=a.keep)
@@ -292,12 +315,14 @@ def main(argv=None):
     p = sub.add_parser("poster"); p.add_argument("poster"); p.add_argument("--out", default=OUT)
     p.add_argument("--pool")
     p = sub.add_parser("due"); p.add_argument("--date"); p.add_argument("--json", action="store_true")
+    p = sub.add_parser("thread"); p.add_argument("files", nargs="*")
     a = ap.parse_args(argv)
     try:
         return {"editions": cmd_editions, "new": cmd_new, "check": cmd_check, "build": cmd_build,
                 "prompt": cmd_prompt, "create-edition": cmd_create_edition,
                 "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site,
-                "new-poster": cmd_new_poster, "poster": cmd_poster, "due": cmd_due}[a.cmd](a) or 0
+                "new-poster": cmd_new_poster, "poster": cmd_poster, "due": cmd_due,
+                "thread": cmd_thread}[a.cmd](a) or 0
     except edition.EditionError as e:
         print(f"edition error: {e}", file=sys.stderr)
         return 2

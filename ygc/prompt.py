@@ -127,6 +127,10 @@ def generate(ed, chat=None):
                  f"entry for each story that happens in a particular place (delete the others): `place` as a child "
                  f"would name it (a city, sea or region, e.g. \"Strait of Hormuz\"), `lat` and `lon` of that place in "
                  f"decimal degrees, and `countries`, the countries the story is about, in plain English names.\n")
+        L.append("**Ongoing stories (optional).** If a story continues one of the site's big ongoing stories "
+                 "(a file in `threads/`, such as `yemen-war`), add `\"threads\": {\"<story id>\": \"<thread id>\"}` "
+                 "at the top level of the issue. The printed story then ends with a one-line pointer to \"The story so "
+                 "far\" on Read & Play, so leave room for it.\n")
     n = ed["teaching"]["repeat_window"]
     types = {ed["blocks"][b]["type"] for b in placed_blocks(ed)}
     things = [x for t, x in (("vocab", "Vocabulary words"), ("did_you_know", "Did You Know facts")) if t in types]
