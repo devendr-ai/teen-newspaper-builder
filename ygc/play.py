@@ -8,6 +8,7 @@ the same issue files as the PDFs, by `python -m ygc site`. Nothing is tracked:
 settings and stars stay in the browser.
 """
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -294,8 +295,9 @@ def issue_page(cfg, ed, band, issue, date, others):
 <div id="read" role="tabpanel">
 <div class="trail" aria-hidden="true"><div class="track"><i></i><b class="walker">🚀</b><b class="flag">🏁</b></div><span class="count"></span></div>
 {cards}
-<section class="card end" data-i="{len(secs)}"><h2>You read today's paper! 🎉</h2><p>Ready for a game?</p>
-<button type="button" class="big go" data-tab="play">Play now</button></section>
+<section class="card end" data-i="{len(secs)}"><h2>You read today's paper! 🎉</h2><p class="streak" role="status"></p><p>Ready for a game?</p>
+<button type="button" class="big go" data-tab="play">Play now</button>
+<p class="mine"><a href="../index.html#badges">See my streak and badges</a></p></section>
 <div class="steps"><button type="button" class="big prev">← Back</button><button type="button" class="big next">Next →</button></div>
 </div>
 <div id="play" role="tabpanel" hidden><div id="game"></div></div>
@@ -309,14 +311,91 @@ def issue_page(cfg, ed, band, issue, date, others):
 
 
 # ------------------------------------------------------------------ the space
+def asset_version():
+    """Changes whenever the page's style, script or map change, so a phone never mixes old and new."""
+    global _VERSION
+    if not _VERSION:
+        _VERSION = hashlib.sha1((CSS + scenes.CSS + JS + world.world_js()).encode()).hexdigest()[:10]
+    return _VERSION
+
+
+_VERSION = ""
+ASSETS = ("play.css", "world.js", "play.js")
+
+
 def shell(cfg, title, body, root=""):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}play/play.css"></head><body>{body}
-<script src="{root}play/world.js"></script><script src="{root}play/play.js"></script></body></html>"""
+<link rel="manifest" href="{root}play/manifest.webmanifest"><meta name="theme-color" content="#E2584D">
+<link rel="icon" href="{root}play/icon-192.png"><link rel="apple-touch-icon" href="{root}play/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Read &amp; Play">
+<link rel="stylesheet" href="{root}play/play.css?v={asset_version()}"></head><body>{body}
+<script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
+
+
+# ------------------------------------------------------------------ an app on the home screen
+def icon(size, path):
+    """The home-screen icon: a newspaper with a play button, on coral. Kept inside the
+    middle 80% so phones that cut icons into circles don't clip it."""
+    from PIL import Image, ImageDraw
+    k = 4                                            # draw big, shrink: smooth edges
+    S = size * k
+    im = Image.new("RGB", (S, S), "#E2584D")
+    d = ImageDraw.Draw(im)
+    f = lambda v: int(v * S)
+    d.rounded_rectangle((f(.24), f(.22), f(.70), f(.74)), radius=f(.04), fill="#FFFFFF")
+    d.rectangle((f(.29), f(.28), f(.65), f(.36)), fill="#007C89")
+    for i, w in enumerate((.65, .60, .65, .52)):
+        d.rectangle((f(.29), f(.42 + i * .07), f(w), f(.45 + i * .07)), fill="#C9D3D9")
+    d.ellipse((f(.55), f(.55), f(.81), f(.81)), fill="#F4B400", outline="#FFFFFF", width=f(.02))
+    d.polygon([(f(.645), f(.62)), (f(.645), f(.74)), (f(.74), f(.68))], fill="#FFFFFF")
+    im.resize((size, size), Image.LANCZOS).save(path)
+
+
+def manifest(cfg):
+    return json.dumps({
+        "name": f"Read & Play · {cfg['title']}", "short_name": "Read & Play",
+        "description": "Today's news for children: read it, hear it, play a game.",
+        "start_url": "./index.html", "scope": "./", "display": "standalone",
+        "background_color": "#FFF8EE", "theme_color": "#E2584D",
+        "icons": [{"src": f"icon-{n}.png", "sizes": f"{n}x{n}", "type": "image/png", "purpose": "any maskable"}
+                  for n in (192, 512)]}, ensure_ascii=False, indent=1)
+
+
+SW = r"""// Read & Play's service worker: keeps today's papers on the device so they open without internet.
+const V = "%VERSION%", CORE = %CORE%;
+self.addEventListener("install", (e) => e.waitUntil(caches.open(V).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())));
+self.addEventListener("activate", (e) => e.waitUntil(caches.keys()
+  .then((ks) => Promise.all(ks.filter((k) => k.startsWith("rp-") && k !== V).map((k) => caches.delete(k))))
+  .then(() => self.clients.claim())));
+const keep = (r, res) => { if (res.ok) { const copy = res.clone(); caches.open(V).then((c) => c.put(r, copy)); } return res; };
+self.addEventListener("fetch", (e) => {
+  const r = e.request, u = new URL(r.url);
+  if (r.method !== "GET" || u.origin !== location.origin || !u.pathname.startsWith(new URL("./", location).pathname)) return;
+  if (r.mode === "navigate") {              // pages: the newest from the network, else the one kept
+    e.respondWith(fetch(r).then((res) => keep(r, res))
+      .catch(() => caches.match(r, { ignoreSearch: true }).then((hit) => hit || caches.match("index.html"))));
+    return;
+  }
+  e.respondWith(caches.match(r).then((hit) => {   // styles, scripts, map, icons: the kept copy, refreshed behind
+    const net = fetch(r).then((res) => keep(r, res)).catch(() => hit);
+    return hit || net;
+  }));
+});
+"""
+
+
+def stub(cfg, ed, date, latest):
+    """A page for an issue that has left Read & Play (its printed QR code still points here)."""
+    d = dt.date.fromisoformat(date)
+    body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a></header>
+<main class="stub"><section class="card end"><h2>This paper is from {d:%A %d %B}</h2>
+<p>Read &amp; Play keeps the last week's papers. Here's the newest {E(ed["name"])}!</p>
+<a class="big go" href="{latest}.html">Read the newest one →</a></section></main>'''
+    return shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../")
 
 
 def build(out, cfg, keep=7, log=print):
@@ -327,7 +406,7 @@ def build(out, cfg, keep=7, log=print):
     open(os.path.join(pdir, "play.css"), "w", encoding="utf-8").write(CSS + scenes.CSS)
     open(os.path.join(pdir, "play.js"), "w", encoding="utf-8").write(JS)
     open(os.path.join(pdir, "world.js"), "w", encoding="utf-8").write(world.world_js())
-    tiles, pins = [], []
+    tiles, pins, newest = [], [], []
     for eid in edition.list_editions():
         ed = edition.load(eid)
         if (ed.get("site") or {}).get("listed") is False:
@@ -353,6 +432,9 @@ def build(out, cfg, keep=7, log=print):
                           "u": f"{eid}/{date}.html#s-{bid}"} for bid, h, w in places]
         if not latest:
             continue
+        for date, _ in issues_of(ed)[keep:]:       # older papers: their QR codes open the newest
+            open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(stub(cfg, ed, date, latest[0]))
+        newest.append(f"{eid}/{latest[0]}.html")
         lead = next((latest[2]["blocks"].get(b) for b in edition.story_blocks(ed)
                      if isinstance(latest[2]["blocks"].get(b), dict)), None) or {}
         fig = top_figure(lead, None if lead.get("illustration") or lead.get("chart") else where_of(lead))
@@ -367,11 +449,24 @@ def build(out, cfg, keep=7, log=print):
                 if pins else "")
     body = f'''<header class="bar"><a class="home" href="../index.html">← {E(cfg["title"])} (grown-ups)</a></header>
 <main class="lobby"><h1>Read &amp; Play</h1><p class="lede">Today's news, read to you if you like, with a game at the end.</p>
+<div class="install" hidden><p>📲 <b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
+today's papers work without the internet.</p><button type="button" class="big go add" hidden>Add to home screen</button>
+<p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
+<section class="myreading" id="badges" aria-label="My reading"></section>
 <h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div>
 {news_map}<div class="tiles">{"".join(t[2] for t in sorted(tiles))}</div>
 <p class="note">For grown-ups: nothing here is tracked. Settings and stars stay on this device. Maps show India's borders as on
 India's official maps (Natural Earth, India view).</p></main>'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
+    for n in (180, 192, 512):
+        icon(n, os.path.join(pdir, f"icon-{n}.png"))
+    open(os.path.join(pdir, "manifest.webmanifest"), "w", encoding="utf-8").write(manifest(cfg))
+    core = (["index.html", "manifest.webmanifest", "icon-192.png"] + [f"{a}?v={asset_version()}" for a in ASSETS]
+            + newest)
+    version = hashlib.sha1((asset_version() + "".join(open(os.path.join(pdir, f), encoding="utf-8").read()
+                                                    for f in ["index.html"] + newest)).encode()).hexdigest()[:12]
+    open(os.path.join(pdir, "sw.js"), "w", encoding="utf-8").write(
+        SW.replace("%VERSION%", f"rp-{version}").replace("%CORE%", json.dumps(core)))
 
 
 CSS = r"""
@@ -394,7 +489,7 @@ button,select{font:inherit;color:inherit}
 .tools{display:flex;gap:6px;flex-wrap:wrap}
 .tools button,.tools select{font-size:16px;min-width:44px;min-height:44px;border:2px solid var(--line);background:var(--card);border-radius:12px;padding:4px 10px;cursor:pointer}
 button:focus-visible,a:focus-visible,select:focus-visible,mark:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
-.issue,.lobby{max-width:760px;margin:0 auto;padding:16px 16px 60px}
+.issue,.lobby,.stub{max-width:760px;margin:0 auto;padding:16px 16px 60px}
 .title h1{font-size:clamp(1.6rem,6vw,2.4rem)}.title p{margin:2px 0 10px;color:var(--muted);font-size:16px}
 .tabs{display:flex;gap:8px;margin:6px 0 14px}
 .tabs button{flex:1;min-height:52px;border:2px solid var(--line);background:var(--card);border-radius:14px;font-weight:700;font-size:18px;cursor:pointer}
@@ -522,6 +617,30 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .tile h2{font-size:1.25em;margin:4px 0 0}.tile p{margin:0}.tile .when{font-size:15px;color:var(--muted)}
 .go2{display:flex;gap:8px;margin-top:auto;padding-top:8px}.go2 .big{flex:1;text-align:center}
 .note{font-size:14px;color:var(--muted);margin-top:28px}
+/* app, streaks and badges */
+.install{background:var(--card);border:2px dashed var(--coral);border-radius:18px;padding:12px 16px;margin:0 0 18px}
+.install p{margin:0 0 8px}.install .big{min-height:48px;padding:8px 18px;font-size:17px}
+.myreading{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:14px 16px;margin:0 0 18px}
+.myreading:empty{display:none}
+.myreading h2{margin:0 0 8px}
+.myreading .st{display:flex;align-items:center;gap:12px}.myreading .st p{margin:0;line-height:1.3}.myreading .st p span{color:var(--muted);font-size:.8em}
+.flame{font-size:2.4em;line-height:1}.flame.off{filter:grayscale(1);opacity:.5}
+.myreading .n{margin-left:auto!important;text-align:center}.myreading .n b{font-size:1.6em;font-family:var(--display)}
+.myreading summary{cursor:pointer;font-weight:700;color:var(--teal);margin-top:10px;min-height:32px}
+.shelf{list-style:none;padding:0;margin:12px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,140px),1fr));gap:8px}
+.shelf li{border:2px solid var(--line);border-radius:14px;padding:8px 10px;display:grid;gap:2px;opacity:.65;font-size:.8em;line-height:1.25}
+.shelf li.got{opacity:1;border-color:var(--sun);background:var(--sun-t)}
+.shelf .bi{font-size:1.8em;line-height:1.1}.shelf small{color:var(--muted)}
+.streak{font-weight:700;color:var(--coral)}.streak:empty{display:none}.mine{font-size:.85em;margin:14px 0 0}
+.toast{position:fixed;left:50%;top:16px;transform:translateX(-50%);z-index:40;background:var(--card);border:3px solid var(--sun);
+  border-radius:18px;padding:10px 18px;box-shadow:0 8px 30px rgba(0,0,0,.25);animation:rp-pop .4s ease-out;transition:opacity .5s,transform .5s}
+.toast{width:max-content;max-width:calc(100vw - 32px)}
+.toast p{margin:4px 0;display:flex;gap:12px;align-items:center;line-height:1.2}.toast .bi{font-size:2em}
+.toast small{display:block;color:var(--muted);font-size:.75em}.toast b{display:block;font-family:var(--display);font-size:1.1em}
+.toast.bye{opacity:0;transform:translate(-50%,-20px)}
+@keyframes rp-pop{from{transform:translate(-50%,-30px) scale(.8);opacity:0}}
+@media (prefers-reduced-motion:reduce){.toast{animation:none;transition:none}}
+
 """
 
 JS = r"""
@@ -529,6 +648,7 @@ JS = r"""
   const $ = (s, el) => (el || document).querySelector(s), $$ = (s, el) => [...(el || document).querySelectorAll(s)];
   const store = { get(k, d) { try { const v = localStorage.getItem("rp-" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
                   set(k, v) { try { localStorage.setItem("rp-" + k, JSON.stringify(v)); } catch (e) {} } };
+  const SELF = document.currentScript ? document.currentScript.src : "";
   const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const root = document.documentElement;
   root.classList.add("js");
@@ -651,6 +771,7 @@ JS = r"""
     if (!WD) return;
     drawMap(fig);
     if (fig.classList.contains("wide")) { lobbyPins(fig); return; }
+    (fig.dataset.c || "").split("|").filter(Boolean).forEach((c) => addTo("lands", c, 300)); award();
     setTimeout(() => zoom(fig, target(fig), 1800), calm() ? 0 : 500);
     $(".zoom", fig).addEventListener("click", (e) => {
       const whole = fig.dataset.view === WORLDBOX().join(" ");
@@ -710,7 +831,7 @@ JS = r"""
     watch.unobserve(el);
     if (el.classList.contains("chart")) grow(el);
     else if (el.classList.contains("where")) mapIn(el);
-    else { el.classList.add("seen"); if (el.classList.contains("end")) confetti(); }
+    else { el.classList.add("seen"); if (el.classList.contains("end")) { confetti(); paperDone(); } }
   }), { threshold: 0.2 }) : null;
   const watchAll = (sel) => $$(sel).forEach((el) => {
     if (watch) watch.observe(el); else if (el.classList.contains("chart")) grow(el); else if (el.classList.contains("where")) mapIn(el); else el.classList.add("seen");
@@ -732,6 +853,76 @@ JS = r"""
     };
     requestAnimationFrame(step);
   }
+
+
+  // ---------------------------------------------------------------- an app on the home screen, that works offline
+  if ("serviceWorker" in navigator && window.isSecureContext && SELF)
+    navigator.serviceWorker.register(SELF.replace(/play\.js(\?.*)?$/, "sw.js")).catch(() => {});
+  const inst = $(".install");
+  if (inst && !(window.matchMedia && matchMedia("(display-mode: standalone)").matches) && !navigator.standalone) {
+    let ask = null;
+    window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); ask = e; inst.hidden = false; $(".add", inst).hidden = false; });
+    $(".add", inst).addEventListener("click", () => {
+      if (!ask) return; ask.prompt(); ask.userChoice.finally(() => { ask = null; inst.hidden = true; });
+    });
+    if (/iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) {
+      inst.hidden = false; $(".ios", inst).hidden = false;
+    }
+  }
+
+  // ---------------------------------------------------------------- my reading: streaks and badges, kept on this device
+  const ymd = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  const addTo = (k, v, cap) => { const a = store.get(k, []); if (a.includes(v)) return false; a.push(v); store.set(k, a.slice(-(cap || 1000))); return true; };
+  const count = (k) => store.get(k, []).length;
+  function streak() {
+    const days = new Set(store.get("days", [])), d = new Date(); let n = 0;
+    if (!days.has(ymd(d))) d.setDate(d.getDate() - 1);         // not read yet today: yesterday's streak still counts
+    while (days.has(ymd(d))) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  const BADGES = [
+    ["first", "📰", "First paper", "Read a whole paper", () => count("read") >= 1],
+    ["shelf", "📚", "Bookworm", "Read 10 papers", () => count("read") >= 10],
+    ["fire3", "🔥", "On fire", "Read 3 days in a row", () => streak() >= 3],
+    ["week", "🌟", "Super week", "Read 7 days in a row", () => streak() >= 7],
+    ["month", "🏆", "News champion", "Read 30 days in a row", () => streak() >= 30],
+    ["maps", "🗺️", "Map explorer", "See stories in 10 countries", () => count("lands") >= 10],
+    ["words", "🔤", "Word wizard", "Tap 15 new words", () => count("words") >= 15],
+    ["ears", "🔊", "Good listener", "Hear 5 stories read aloud", () => store.get("heard", 0) >= 5],
+    ["quiz", "🧠", "Quiz champ", "Get 3 stars on 3 quizzes", () => count("3s-quiz") >= 3],
+    ["facts", "🕵️", "Fact detective", "Get 3 stars on 3 Fact or fiction games", () => count("3s-facts") >= 3],
+    ["match", "🧩", "Perfect match", "Get 3 stars on 3 matching games", () => count("3s-words") >= 3],
+  ];
+  function award() {
+    const have = store.get("badges", {}), fresh = BADGES.filter((b) => !have[b[0]] && b[4]());
+    if (!fresh.length) return;
+    fresh.forEach((b) => { have[b[0]] = ymd(new Date()); });
+    store.set("badges", have);
+    const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status");
+    t.innerHTML = fresh.map((b) => `<p><span class="bi" aria-hidden="true">${b[1]}</span><span><small>New badge!</small><b>${esc(b[2])}</b></span></p>`).join("");
+    document.body.appendChild(t);
+    setTimeout(() => t.classList.add("bye"), 3800); setTimeout(() => t.remove(), 4400);
+    shelf();
+  }
+  function paperDone() {
+    const issue = $(".issue"); if (!issue) return;
+    addTo("days", ymd(new Date()), 400); addTo("read", issue.dataset.key, 2000);
+    award();
+    const s = streak(), el = $(".end .streak");
+    if (el) el.textContent = s > 1 ? `🔥 ${s} days in a row! Come back tomorrow to make it ${s + 1}.` : "🔥 Your reading streak has started. Come back tomorrow!";
+  }
+  function shelf() {
+    const box = $("#badges"); if (!box) return;
+    const have = store.get("badges", {}), s = streak(), today = store.get("days", []).includes(ymd(new Date()));
+    box.innerHTML = `<h2>My reading <span>On this device</span></h2><div class="st"><span class="flame${s ? "" : " off"}" aria-hidden="true">🔥</span>
+      <p><b>${s ? `${s}-day streak` : "No streak yet"}</b><br><span>${s && !today ? "Read a paper today to keep it going!"
+        : s ? "You've read today. See you tomorrow!" : "Read a whole paper to start one."}</span></p>
+      <p class="n"><b>${count("read")}</b><br><span>${count("read") === 1 ? "paper" : "papers"} read</span></p></div>
+      <details${location.hash === "#badges" ? " open" : ""}><summary>My badges: ${Object.keys(have).length} of ${BADGES.length}</summary>
+      <ul class="shelf">${BADGES.map((b) => `<li class="${have[b[0]] ? "got" : ""}"><span class="bi" aria-hidden="true">${have[b[0]] ? b[1] : "🔒"}</span>
+        <b>${esc(b[2])}</b><small>${have[b[0]] ? "Earned!" : esc(b[3])}</small></li>`).join("")}</ul></details>`;
+  }
+  shelf();
 
   // ---------------------------------------------------------------- the lobby: who's reading?
   const whos = $$(".who");
@@ -776,6 +967,7 @@ JS = r"""
     stop();
     const parts = $$(".s", card);
     reading = card; btn.setAttribute("aria-pressed", "true"); btn.lastChild.textContent = " Stop";
+    store.set("heard", store.get("heard", 0) + 1); award();
     let i = 0;
     const next = () => {
       if (reading !== card) return;
@@ -798,6 +990,7 @@ JS = r"""
   function openWord(i) {
     const v = data.vocab[i]; if (!v) return;
     popWord = v;
+    if (addTo("words", v.word.toLowerCase(), 2000)) award();
     $("h3", pop).textContent = v.word; $(".m", pop).textContent = v.meaning;
     $(".t", pop).textContent = v.today ? "Today: " + v.today : "";
     $(".say", pop).hidden = !speech;
@@ -825,7 +1018,7 @@ JS = r"""
       count.textContent = at === last ? "Done! 🎉" : `${at + 1} of ${last}`;
       $(".prev").style.visibility = at ? "visible" : "hidden";
       $(".next").style.visibility = at < last ? "visible" : "hidden";
-      if (at === last && was !== last) confetti();
+      if (at === last && was !== last) { confetti(); paperDone(); }
       window.scrollTo({ top: 0 });
     };
     document.addEventListener("rp-show", (e) => show(e.detail));
@@ -862,7 +1055,10 @@ JS = r"""
   const box = $("#game");
   const starsFor = (right, total) => (right === total ? 3 : right / total >= 0.6 ? 2 : 1);
   const best = (name) => store.get("stars-" + main.dataset.key + "-" + name, 0);
-  const keep = (name, n) => store.set("stars-" + main.dataset.key + "-" + name, Math.max(n, best(name)));
+  const keep = (name, n) => {
+    store.set("stars-" + main.dataset.key + "-" + name, Math.max(n, best(name)));
+    if (n === 3 && addTo("3s-" + name, main.dataset.key)) award();
+  };
   const GAMES = [];
   if (data.vocab.length >= 2) GAMES.push({ id: "words", ic: "🔤", name: "Word match", sub: "Match each new word to its meaning", run: () => match("words") });
   else if (data.stories.length >= 2) GAMES.push({ id: "words", ic: "📰", name: "Story match", sub: "Match each headline to its story", run: () => match("words") });

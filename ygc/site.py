@@ -150,6 +150,15 @@ def page(cfg, title, body, root="", head_extra=""):
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div></body></html>"""
 
 
+def qr_url(cfg, eid, date):
+    """Where an issue's printed QR code goes: its Read & Play page. Papers from before
+    `qr_from` (site.yaml) were published without one and stay as they were."""
+    start = str(cfg.get("qr_from") or "")
+    if not start or not cfg.get("base_url") or date < start:
+        return None
+    return f"{cfg['base_url'].rstrip('/')}/play/{eid}/{date}.html"
+
+
 def build(out, keep=None, log=print):
     cfg = site_config()
     keep = keep or int(cfg["keep_issues"])
@@ -181,7 +190,7 @@ def build(out, keep=None, log=print):
             issue = json.load(open(p, encoding="utf-8"))
             pdf = f"{date}.pdf"
             try:
-                render.build(ed, issue, os.path.join(edir, pdf))
+                render.build(ed, issue, os.path.join(edir, pdf), qr=qr_url(cfg, eid, date))
             except Exception as e:
                 log(f"  ! {eid} {date}: {e}"); continue
             if latest is None:
