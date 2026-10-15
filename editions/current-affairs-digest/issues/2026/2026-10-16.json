@@ -1,0 +1,504 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-16",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthis Hit Aramco Site Again as Saudi Arabia Postpones Sport and Summit",
+      "deck": "Riyadh’s airport stays shut as Yemen’s war reaches Saudi oil, flights and fixtures.",
+      "body": [
+        "Yemen’s war is spilling into Saudi Arabia. The Houthis, a Yemeni armed group, are fighting Yemen’s government, which a Saudi-led coalition supports. On Wednesday 14 October the Houthis said they struck Aramco in Dhahran. A Saudi Ministry of Energy official confirmed an Aramco building was hit, causing a “limited fire” and no casualties. On Thursday, Saudi-backed forces said they intercepted a drone headed for Medina and a missile fired toward Riyadh.",
+        "The airport attacks of the weekend reportedly killed 14 people and wounded more than 300; Abha airport in the south was also hit, killing two. Saudi Arabia accused the Houthis over the Saturday 10 October attack, the third on Riyadh’s airport that week; Al Jazeera called it the deadliest attack on the kingdom in more than a decade. UN Secretary-General António Guterres condemned it, and US Secretary of State Marco Rubio said an American was killed. Riyadh’s airport was expected to stay shut until at least Saturday. The Saudi Pro League moved three games, among them Al Ahli v Al Nassr, Cristiano Ronaldo’s team, to 6 March 2027. An EU–Gulf summit due on 24 October in Riyadh has been postponed, according to CBS News.",
+        "On the ground, Yemeni government forces launched a counteroffensive, “Dawn of Yemen”, to retake coastal land near the Bab al-Mandeb strait that the Houthis seized in recent weeks. The Red Cross says front-line hospitals in Marib, Taiz and on the Red Sea coast admitted more than 700 casualties in one week, and the World Food Programme says fighting is cutting food aid to about 800,000 people. Casualty figures from the fighting are claims by the parties and are not independently verified. The Houthis are backed by Iran, according to Al Jazeera."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen share the Red Sea’s eastern shore, opposite Africa."
+      },
+      "why": "Saudi Arabia has leaned more on the Red Sea route since Iran closed the Strait of Hormuz in March, so attacks near Bab al-Mandeb threaten its exports as well as its cities.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fighting in Yemen intensifies: What's the latest on the battlefield?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ronaldo's among three Saudi Arabia games postponed due to Houthi attacks",
+          "url": "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Russia Hits Kyiv’s Power Plants; Zelenskyy Says Refinery Strikes Will Resume",
+      "deck": "The ‘energy ceasefire’ announced by Mr Trump on Sunday has collapsed in practice.",
+      "body": [
+        "Russian air attacks overnight into Wednesday 14 October killed at least nine people in Ukraine and left more than half a million without power, according to Al Jazeera. Russia’s Defence Ministry said it hit two plants supplying power and heating in Kyiv, a substation, and a heat-and-power plant in Kharkiv. In Lutsk, in Volyn region, three people were killed and at least 12 injured, according to the governor. Ukraine’s Air Force said Russia launched 580 Shahed-type and other drones and two Kh-59 missiles overnight, and that 536 drones were neutralised. Casualty counts for the wider attack differ between reports.",
+        "The strikes came days after President Trump announced an “energy ceasefire”. President Volodymyr Zelenskyy accused Russia of breaking it. Ukraine had paused attacks on Russian energy sites for several days, but on Thursday he told the Financial Times that Kyiv was “done” with the ceasefire. Russia said Ukraine hit a refinery in Ryazan, 180 km south of Moscow. Mr Zelenskyy says he would pause again only if the US supplied Patriot interceptors. He also said Russia “deliberately escalated” its attacks after receiving a relaxation of sanctions.",
+        "The US had pressed Ukraine to stop refinery strikes, citing a deal to buy 1.8 million tonnes of diesel from Russia to ease fuel prices. Mr Zelenskyy was due in Brussels on Thursday to ask European leaders for tougher sanctions. The EU has pledged $50 billion for Ukraine next year, against the $175 billion Kyiv plans to spend on defence. Ukraine’s technology adviser said SpaceX limited the speed of Starlink terminals in motion overnight; Elon Musk said only the US military and Mr Trump could limit its use.",
+        "Russia reports its own losses of drones. Moscow’s mayor said air defences downed nearly 500 drones heading for the capital overnight, and Russia’s military put the total of Ukrainian drones downed that night at 902. A drone attack in the Saratov region killed one person in Balakovo, according to its governor. Dutch Prime Minister Rob Jetten urged EU leaders to “step up” their help for Ukraine."
+      ],
+      "illustration": {
+        "title": "POWER GRID UNDER FIRE",
+        "subtitle": "500,000+ without power",
+        "motif": "grid",
+        "caption": "Al Jazeera’s figure after strikes on Kyiv and Kharkiv."
+      },
+      "connect": "Energy is a weapon in this war for both sides: Russia targets power for winter, Ukraine targets the refineries that fund Russia’s war.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "'Massive' Russian attack on Ukraine kills at least 9, damages power sites",
+          "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia says Ukraine resumes attacks on oil refineries",
+          "url": "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+        },
+        {
+          "outlet": "Kyiv Independent",
+          "title": "Russian attacks kill at least 17, injure 67 across Ukraine",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-17-injure-67-across-ukraine-as-drone-waves-wreak-havoc-in-central-western-oblasts/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ELECTIONS AND THE COURTS",
+      "headline": "Supreme Court Issues Notice on Opposition Plea Against Voter-List Revision",
+      "deck": "A notice is not a ruling: the Election Commission must now answer the petition.",
+      "body": [
+        "On Thursday 15 October the Supreme Court, with Chief Justice Surya Kant and Justice Joymalya Bagchi, issued notice to the Election Commission, Chief Election Commissioner Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi. The petition is by Rahul Gandhi and other INDIA bloc leaders, who challenge the Commission’s Special Intensive Revision (SIR) of the electoral rolls.",
+        "The petitioners want an independent audit of voter deletions, disclosure of the Commission’s internal records and a suspension of the exercise while the case is heard. The Court tagged the pleas to petitions already pending on the SIR’s validity and issued notice on a separate plea against the de-notification of Jantar Mantar as a protest site. The Chief Justice also said orally that one petitioner would be asked about his conduct; the reports do not say who or why.",
+        "Outside court, the dispute is bitter. On Monday 12 October the opposition marched toward the Court, led by Mr Gandhi and his sister Priyanka Gandhi, an MP, with more than 30,000 police deployed, according to Al Jazeera. Media reports say more than 133 million names were removed from the rolls. Critics say this favours the BJP and hit minorities, particularly Muslims. Critics also say Mr Kumar often overruled concerns raised by the other two commissioners. The Commission denies wrongdoing, says it removed duplicate, dead and fraudulent entries, and says wrongly deleted voters can re-enrol. Human Rights Watch urged an end to “arbitrary” arrests. On Tuesday police detained about 20 volunteers, including leaders of the youth-led Cockroach Janta Party, at Jantar Mantar.",
+        "Two further points frame the case. The Court said it wishes to examine SIR issues state by state, according to LiveLaw, and did not list a separate Maharashtra challenge with Mr Gandhi’s plea. And the youth-led Cockroach Janta Party, which Al Jazeera says previously forced out Education Minister Dharmendra Pradhan in July, has protested almost daily this month. Analyst Rasheed Kidwai told Al Jazeera that the detention of MPs is a notable change from past tolerance of dissent, while Asim Ali said the government is unlikely to back down."
+      ],
+      "illustration": {
+        "title": "THE COURT STEPS IN",
+        "subtitle": "Notice issued 15 October",
+        "motif": "court",
+        "caption": "A notice asks the other side to respond; it is not a ruling."
+      },
+      "why": "Voter rolls decide who can vote. Whether the Court orders an audit or a pause will shape how every state’s list is revised, and whether the Commission’s decisions can be reviewed in the open. Both sides agree on one thing: an accurate list matters, and the dispute is over how it was made and who was removed.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Supreme Court issues notice on INDIA bloc leaders' petition against ECI over SIR",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+        },
+        {
+          "outlet": "Scroll",
+          "title": "SC issues notice to EC, poll chief Kumar on Opposition's pleas seeking audit of SIR deletions",
+          "url": "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Indian opposition protesters in New Delhi call on election chief to quit",
+          "url": "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Police detain leaders of India's 'cockroach' movement at New Delhi protest",
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Indian opposition defies lockdown, marches to demand election chief sacking",
+          "url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "Federal Agents Search Rep. Ilhan Omar’s Home Three Weeks Before the Midterms",
+      "deck": "The Justice Department says a court approved the warrant; Ms Omar calls it political.",
+      "body": [
+        "In the US, the executive branch investigates crimes, but courts must approve intrusive steps such as searches. On Monday 12 October, agents of Homeland Security Investigations searched the Washington-area home of Ilhan Omar, a Democratic member of the House of Representatives from Minnesota. The Department of Justice confirmed agents executed a court-authorised warrant but did not name her or give details.",
+        "Reports citing sources say the inquiry concerns possible false statements and immigration fraud tied to paperwork her late father filed when she was a child. Homeland Security Investigations, which leads it, covers immigration document fraud. Border czar Tom Homan said in September that there was an ongoing criminal investigation; Ms Omar said then that she had not been contacted. Her office says she has done nothing wrong; she “will not be silenced”, and accused the administration of trying to “weaponize federal law enforcement”. No charges have been filed. President Trump said he had “nothing to do” with the search and that it was up to the Justice Department.",
+        "Ms Omar was born in Somalia, came to the US as a child refugee, became a citizen and was first elected in 2018. The timing is contested. The search came about three weeks before the 3 November midterm elections, and House Democratic leaders called it “deeply disturbing”. The Justice Department’s confirmation that a court approved the warrant is the part of the story that is established; motive is a claim made by each side.",
+        "Two more details show the process. Sources told CBS that Attorney General Todd Blanche was personally aware of the search and that the Justice Department consulted its Public Integrity section, which handles cases involving public officials. Democrats argue that Justice Department protocol has long been to avoid legal action against politicians in the final weeks before an election, according to PBS NewsHour. Mr Trump said he thinks Ms Omar is a “terrible person”, but that the matter is up to the Justice Department."
+      ],
+      "illustration": {
+        "title": "WHO CHECKS THE POWER TO SEARCH?",
+        "subtitle": "Courts check searches",
+        "motif": "capitol",
+        "caption": "A warrant needs a court; the debate is about timing and motive."
+      },
+      "why": "It tests how courts, prosecutors and elected officials limit one another, and how a country handles an investigation of a lawmaker close to an election. A warrant signed by a judge is a check on the executive, but it does not prove guilt: no charges have been filed, and any case would have to be proved in court.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ilhan Omar says she 'will not be silenced' after US agents raid her home",
+          "url": "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Rep. Ilhan Omar's D.C. home searched by Homeland Security investigators",
+          "url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL",
+      "headline": "Oil Near $104 a Barrel as Attacks on Ships Near Hormuz Hit a Peak",
+      "deck": "Crude was about $72 before the war; at its high it came near $120.",
+      "body": [
+        "The Strait of Hormuz, the sea passage between Iran and its neighbours, carried at least 20 percent of the world’s crude oil and liquefied natural gas before the war. After the US and Israel attacked Iran on 28 February, Iran closed it. A June ceasefire collapsed over control of the strait, and the US now blockades Iran’s southern ports while indirect talks run through Pakistan and Qatar.",
+        "Shipping risk keeps prices high. The UK Maritime Trade Operations centre recorded 15 attacks on ships between 6 and 14 October, and CBS News reports 23 since 1 October, nearly double the war’s monthly average. Crude rose from about $72 a barrel before the war to nearly $120 at its high and traded at about $104 on Thursday.",
+        "The squeeze is on the sea lanes. Transits through Hormuz averaged 31 a day in the last week of September, against 138 before the war, according to Al Jazeera, and freight now makes up 25 to 30 percent of the cost of Gulf crude, up from 1 to 3 percent. Households feel it. US inflation rose to 3.7 percent in September, with petrol up 34.2 percent on a year earlier. Mr Trump said he will not attack Iran before the 3 November midterms.",
+        "Central banks are watching. In September the Federal Reserve raised its rate by 0.25 of a percentage point, its first rise in three years, to a range of 3.75 to 4.00 percent. Markets give a 47.1 percent chance of another quarter-point rise at the next decision, later in October, and a 52.9 percent chance of holding. AAA says regular petrol averages $4.33 a gallon and diesel $6.29, and a Reuters/Ipsos poll found about 78 percent of Americans blame President Trump’s policies for higher prices."
+      ],
+      "chart": {
+        "title": "PRICE OF A BARREL OF CRUDE",
+        "subtitle": "US dollars",
+        "labels": [
+          "Pre-war",
+          "High",
+          "Thursday"
+        ],
+        "values": [
+          72,
+          120,
+          104
+        ],
+        "max": 130,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "Pre-war and the high are approximate; Thursday 15 October."
+      },
+      "why": "Oil is a cost in transport, farming and manufacturing, so a shock in one strait raises prices far away. Prices also depend on risk: when insurers and shipowners fear attacks, fewer ships sail, and the cost of moving each barrel rises even if the oil itself is plentiful.",
+      "analyst": "Why might a blockade and a closed strait keep prices high even if talks continue? Who gains and who loses when crude stays near $100? How could central banks respond to an energy-led rise in inflation?",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US-Iran stalemate: What are Trump's next military options?",
+          "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran sets crosshairs on 'US-UAE' oil shuttle out of Strait of Hormuz",
+          "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+      "headline": "SPHEREx Telescope Finds Water and Methane in 37 Brown Dwarfs",
+      "deck": "A study in The Astrophysical Journal says these ‘failed stars’ have chemically rich air.",
+      "body": [
+        "Brown dwarfs form from collapsing gas clouds, as stars do, but are not massive enough to sustain hydrogen fusion in their cores. They are dim balls of warm gas, heated from within, that drift freely without a host star. They were first discovered in the 1990s.",
+        "NASA’s SPHEREx, an infrared space telescope launched in March 2025, observed 37 nearby brown dwarfs with temperatures from about 2,200 to minus 20 degrees Celsius. It measures brightness in 102 colours, producing spectra. The team, led by Zafar Rustamkulov of Caltech’s IPAC, found water, carbon dioxide, carbon monoxide and methane.",
+        "The result suggests the dwarfs’ atmospheres are chemically rich, like those of Jupiter and Saturn in some ways. Each molecule leaves its own pattern in the light, and the patterns shift as a brown dwarf ages and cools; in some, clouds thin and methane-rich air takes over. “No two brown dwarfs are alike,” Rustamkulov said.",
+        "Before this, only a few dozen brown dwarfs had been studied in detail from space. The team plans to analyse thousands more SPHEREx observations. The telescope keeps mapping the sky, which will help study hundreds of millions of galaxies and search for the chemical ingredients of life.",
+        "SPHEREx is managed by NASA’s Jet Propulsion Laboratory; its principal investigator is Jamie Bock of Caltech and JPL, and BAE Systems built the telescope and spacecraft. The study was published in The Astrophysical Journal. Rustamkulov’s co-author, J. Davy Kirkpatrick of IPAC at Caltech, said the findings are “a call to action to explore even more of these dark worlds”. The James Webb Space Telescope and the retired Spitzer Space Telescope have also studied brown dwarfs."
+      ],
+      "illustration": {
+        "title": "STARS THAT NEVER IGNITED",
+        "subtitle": "37 brown dwarfs studied",
+        "motif": "rocket",
+        "caption": "SPHEREx takes about 3,600 images a day."
+      },
+      "why": "Brown dwarfs sit between planets and stars, so what is in their air helps test theories about how both form. Current understanding leans heavily on computer models, which struggle to match data on cloudy transitions; more observations show where the models need fixing.",
+      "sources": [
+        {
+          "outlet": "NASA JPL",
+          "title": "NASA's SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+          "url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Albania: students protested for a third day on Thursday, demanding Prime Minister Edi Rama resign; he refused and said governments change through elections. Fires damaged buildings including the prime minister’s office, and dozens of police officers and protesters were injured.",
+        "United Kingdom: Prime Minister Andy Burnham said on 12 October that he will seek to renegotiate parts of the post-Brexit trade deal with the EU, with a Brussels summit in November.",
+        "France: about 250,000 people joined student protests on 6 October by official count; organisers said about 500,000. Prime Minister Sébastien Lecornu suspended high school classes for the rest of that week and told ministers to address the students’ demands, including repairs to old campuses, by the end of October.",
+        "Technology: Anthropic researchers say small AI models may be months from being able to copy themselves onto smart devices; no current model can do so reliably. Their timeline, the end of 2026, is a projection. Roman Yampolskiy of the University of Louisville called the findings significant but said the threat is not existential today."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Electoral roll",
+          "def": "The official list of people entitled to vote. Today: India’s Election Commission’s revision of the rolls is before the Supreme Court."
+        },
+        {
+          "word": "Notice",
+          "def": "A court’s formal request that the other side answer a petition; it is not a decision. Today: the Supreme Court issued notice to the Election Commission."
+        },
+        {
+          "word": "Blockade",
+          "def": "The use of ships or forces to stop movement in and out of a port or coast. Today: the US maintains a naval blockade on Iran’s southern ports."
+        },
+        {
+          "word": "Brown dwarf",
+          "def": "An object formed like a star but too light to fuse hydrogen in its core. Today: SPHEREx studied 37 of them."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Brown dwarfs were first discovered only in the 1990s, yet NASA’s SPHEREx telescope now takes about 3,600 images every day to map the whole sky."
+    },
+    "explainer": {
+      "title": "What does it mean when a court ‘issues notice’?",
+      "body": [
+        "In Indian courts, a petition is a formal request to the court. When the Supreme Court issues notice, it orders the other side, here the Election Commission, to respond to the petition. It is a procedural first step: the court has not agreed or disagreed with the petitioners.",
+        "After the response, the court hears arguments and may decide the case, or it may pass interim orders that apply while the case continues. Today’s order tagged the new petitions to ones already pending on the voter-roll revision, so they can be heard together. A notice usually opens a case rather than closing it, so the Commission’s reply, and any interim order, are what to follow. The Court has said it wishes to examine SIR questions state by state."
+      ],
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Supreme Court issues notice on INDIA bloc leaders' petition against ECI over SIR",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801"
+        },
+        {
+          "outlet": "Scroll",
+          "title": "SC issues notice to EC, poll chief Kumar on Opposition's pleas seeking audit of SIR deletions",
+          "url": "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> What did a Saudi official confirm was hit at Dhahran on Wednesday?",
+        "(a) A runway  (b) An Aramco building  (c) A hospital  (d) A tanker",
+        "<b>2.</b> When was Al Ahli v Al Nassr rescheduled to?",
+        "(a) 19 December  (b) 24 October  (c) 6 March 2027  (d) 17 October",
+        "<b>3.</b> Where is the refinery Russia says Ukraine hit?",
+        "(a) Ryazan  (b) Lutsk  (c) Kharkiv  (d) Medina",
+        "<b>4.</b> What did the Supreme Court do on 15 October on the SIR petition?",
+        "(a) Struck down the SIR  (b) Issued notice  (c) Suspended the SIR  (d) Dismissed the plea",
+        "<b>5.</b> Which agency searched Rep. Omar’s home, according to AP sources?",
+        "(a) FBI  (b) Homeland Security Investigations  (c) Secret Service  (d) Capitol Police",
+        "<b>6.</b> About how much was crude oil on Thursday?",
+        "(a) $72  (b) $104  (c) $120  (d) $130",
+        "<b>7.</b> How many brown dwarfs did SPHEREx observe in the study?",
+        "(a) 12  (b) 37  (c) 102  (d) 3,600",
+        "<b>8.</b> What percent of global crude and LNG passed through Hormuz before the war?",
+        "(a) At least 2  (b) At least 10  (c) At least 20  (d) At least 50",
+        "<b>Answers.</b> 1 (b): an Aramco building. 2 (c): 6 March 2027. 3 (a): Ryazan. 4 (b): issued notice. 5 (b): Homeland Security Investigations. 6 (b): about $104. 7 (b): 37. 8 (c): at least 20."
+      ],
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether Riyadh’s airport reopens after Saturday, and whether the Houthis carry out further strikes on Saudi airports and oil sites.",
+        "What the Election Commission says in reply to the Supreme Court’s notice, and whether the Court orders an audit or any pause of the SIR.",
+        "What Mr Zelenskyy gets from EU leaders in Brussels, and whether either side halts attacks on energy sites."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+    "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks",
+    "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+    "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+    "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+    "https://aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries",
+    "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+    "https://www.aljazeera.com/news/2026/10/12/india-opposition-plans-new-delhi-protest-to-demand-election-chief-resign",
+    "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest",
+    "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801",
+    "https://scroll.in/latest/1096426/sc-issues-notice-to-ec-poll-chief-kumar-on-oppositions-pleas-seeking-audit-of-sir-deletions",
+    "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
+    "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+    "https://aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+    "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu",
+    "https://www.aljazeera.com/news/2026/10/6/demonstrators-clash-with-riot-police-in-france-as-education-protests-mount",
+    "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did a Saudi official confirm was hit at Dhahran on Wednesday?",
+        "options": [
+          "A runway",
+          "An Aramco building",
+          "A hospital"
+        ],
+        "answer": 1,
+        "why": "An Aramco building was hit, causing a limited fire and no casualties.",
+        "story": "lead"
+      },
+      {
+        "q": "Which team’s match was moved to 6 March 2027?",
+        "options": [
+          "Al Hilal v Al Riyadh",
+          "Al Ahli v Al Nassr",
+          "Al Ittihad v Al Shabab"
+        ],
+        "answer": 1,
+        "why": "Al Ahli v Al Nassr, Ronaldo’s team, moved to 6 March 2027.",
+        "story": "lead"
+      },
+      {
+        "q": "Where did Russia say Ukraine hit a refinery?",
+        "options": [
+          "Lutsk",
+          "Kharkiv",
+          "Ryazan"
+        ],
+        "answer": 2,
+        "why": "Russia said a Ukrainian drone hit a refinery in Ryazan.",
+        "story": "world"
+      },
+      {
+        "q": "What did the Supreme Court do on 15 October on the SIR petition?",
+        "options": [
+          "Issued notice",
+          "Suspended the SIR",
+          "Dismissed the plea"
+        ],
+        "answer": 0,
+        "why": "It issued notice to the Election Commission, which is not a ruling.",
+        "story": "india"
+      },
+      {
+        "q": "Who carried out the search of Rep. Omar’s home, per AP sources?",
+        "options": [
+          "Homeland Security Investigations",
+          "Capitol Police",
+          "The Secret Service"
+        ],
+        "answer": 0,
+        "why": "AP sources said Homeland Security Investigations did.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "About how much was crude oil on Thursday?",
+        "options": [
+          "$72",
+          "$120",
+          "$104"
+        ],
+        "answer": 2,
+        "why": "Crude traded at about $104, against about $72 before the war.",
+        "story": "economics"
+      },
+      {
+        "q": "How many brown dwarfs did SPHEREx observe in the study?",
+        "options": [
+          "37",
+          "102",
+          "3,600"
+        ],
+        "answer": 0,
+        "why": "SPHEREx observed 37 nearby brown dwarfs.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "What share of global crude and LNG crossed Hormuz before the war?",
+        "options": [
+          "At least 2 percent",
+          "At least 20 percent",
+          "At least 50 percent"
+        ],
+        "answer": 1,
+        "why": "At least 20 percent, according to Al Jazeera.",
+        "story": "economics"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Riyadh’s airport was expected to stay shut until at least Saturday.",
+        "true": true,
+        "why": "It was expected to stay shut at least until Saturday.",
+        "story": "lead"
+      },
+      {
+        "claim": "The EU has pledged more for Ukraine next year than Kyiv plans to spend on defence.",
+        "true": false,
+        "why": "The EU pledged $50 billion; Kyiv plans $175 billion for defence.",
+        "story": "world"
+      },
+      {
+        "claim": "A court notice means the Supreme Court has ruled for the petitioners.",
+        "true": false,
+        "why": "A notice only asks the other side to respond.",
+        "story": "india"
+      },
+      {
+        "claim": "The Justice Department said a court authorised the search of Rep. Omar’s home.",
+        "true": true,
+        "why": "It confirmed a court-authorised warrant, without naming her.",
+        "story": "politics_and_civics"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington, DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "United States"
+        ]
+      }
+    ]
+  }
+}
