@@ -1,0 +1,291 @@
+{
+  "edition": "junior-explorer",
+  "date": "2026-10-17",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "BIG STORY  •  WEATHER",
+      "headline": "A Warm Pacific Is Quieting the Atlantic Hurricane Season",
+      "deck": "Forecasters say this year’s Atlantic season is likely to be a quiet one.",
+      "body": [
+        "Hurricanes are giant storms that form over warm ocean water. This year, forecasters expect El Niño, a warm pattern in the Pacific Ocean. NOAA, the US weather agency, said there was a 90% chance of a strong or very strong El Niño during August, September and October.",
+        "El Niño changes the winds high in the sky over the Atlantic Ocean. Those winds can break up storms before they grow. NOAA said every strong El Niño since 1950 has come with a below-normal Atlantic hurricane season.",
+        "In August, NOAA said the chance of a below-normal season was 75%. In May, it had been 55%. It expects 7 to 13 named storms. Even so, NOAA’s leader warned that “it only takes one” storm to cause trouble."
+      ],
+      "chart": {
+        "title": "CHANCE OF A QUIET SEASON",
+        "subtitle": "NOAA forecast, percent",
+        "labels": [
+          "May",
+          "August"
+        ],
+        "values": [
+          55,
+          75
+        ],
+        "max": 100,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "NOAA raised the chance of a below-normal season."
+      },
+      "why": "Knowing a season may be quiet helps people plan, but one storm can still be dangerous, so families should keep their plans ready.",
+      "sources": [
+        {
+          "outlet": "WEAR-TV",
+          "title": "NOAA lowers 2026 hurricane season forecast as strong El Niño suppresses Atlantic activity",
+          "url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+        }
+      ]
+    },
+    "science": {
+      "kicker": "SCIENCE  •  TIME",
+      "headline": "A New Kind of Clock Fixes Itself",
+      "deck": "Scientists in Vienna ran a nuclear clock for over a day without any help.",
+      "body": [
+        "A clock needs something that ticks at a steady speed. This new clock uses the nucleus of an atom of thorium-229. The nucleus is the tiny centre of an atom. A laser shines on a crystal that holds the thorium.",
+        "The big news is that the clock corrects itself. The system notices when the laser drifts and fixes it. The prototype ran for over 24 hours with no one adjusting it. It was built at TU Wien in Austria with a lab in Germany called PTB.",
+        "It is very precise. Its error is about one second in 30 million years. A long life lasts about 100 years, so it would take 300,000 of those to drift by a second. The best clocks that use whole atoms are still more precise."
+      ],
+      "illustration": {
+        "title": "A CLOCK THAT FIXES ITSELF",
+        "subtitle": "Vienna, Austria",
+        "motif": "globe",
+        "caption": "A laser and a crystal keep the time."
+      },
+      "why": "Better clocks help scientists measure things very exactly, such as how fast time passes.",
+      "sources": [
+        {
+          "outlet": "Quantum Zeitgeist",
+          "title": "Nuclear clock at TU Wien stabilizes itself for over a day",
+          "url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+        },
+        {
+          "outlet": "ScienceDaily",
+          "title": "First self-stabilizing nuclear clock",
+          "url": "https://sciencedaily.com/releases/2026/10/261008102701.htm"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "AROUND THE WORLD  •  FIJI AND TUVALU",
+      "headline": "Island Nations Meet to Plan for a Big Climate Summit",
+      "deck": "Leaders from the Pacific talked about keeping the planet from warming too much.",
+      "body": [
+        "Fiji and Tuvalu are island nations in the Pacific Ocean. From October 5 to 8, official meetings were held in Nadi, Fiji, to get ready for COP31. COP31 is a big United Nations climate meeting. It will be held in Antalya, Türkiye, from November 9 to 20.",
+        "Tuvalu’s representative warned that the 1.5-degree goal, a limit on how much the planet warms, is in danger.",
+        "The next big step comes in Antalya, Türkiye, from November 9 to 20. That is when the COP31 summit itself takes place."
+      ],
+      "illustration": {
+        "title": "ISLANDS AND THE SEA",
+        "subtitle": "Fiji and Tuvalu",
+        "motif": "globe",
+        "caption": "Pacific nations helped set priorities for COP31."
+      },
+      "connect": "Many island nations sit only a little above the sea, so changes to the ocean matter to them first.",
+      "sources": [
+        {
+          "outlet": "Kuwait Times",
+          "title": "World powers gather in Pacific to chart climate fight",
+          "url": "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Albania: Students in the capital, Tirana, protested for a third day about university costs and jobs.",
+        "Ukraine: Russia’s missiles hit Kyiv’s heat and power plants, and at least 600,000 people were without power.",
+        "Saudi Arabia: The football league moved three games, including one for Cristiano Ronaldo’s team.",
+        "Kenya: Health officials confirmed the country’s first Ebola case on October 6 and traced people who had been near the patient.",
+        "Austria: Scientists in Vienna reported a clock that corrects itself."
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "The Saudi Pro League moved three games. <b>Al Ahli v Al Nassr</b>, Cristiano Ronaldo’s team, is now set for 6 March 2027. Two other games move to 19 December. The league said the reason was rest time between matches.",
+      "sources": [
+        {
+          "outlet": "eNCA",
+          "title": "Saudi league postpones three matches after Houthi attacks",
+          "url": "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1"
+        },
+        {
+          "outlet": "The National",
+          "title": "Crunch SPL fixture postponed",
+          "url": "https://www.thenationalnews.com/sport/football/2026/10/14/crunch-spl-fixture-involving-cristiano-ronaldos-al-nassr-postponed-due-to-logistical-considerations/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "El Niño",
+          "def": "A warm pattern in the Pacific Ocean that changes weather around the world. Today: A strong El Niño is quieting the Atlantic hurricane season."
+        },
+        {
+          "word": "Forecast",
+          "def": "A careful guess about what will happen, based on facts. Today: NOAA’s forecast says a quiet season is likely."
+        },
+        {
+          "word": "Nucleus",
+          "def": "The tiny centre of an atom. Today: The Vienna clock uses the nucleus of thorium-229."
+        },
+        {
+          "word": "Summit",
+          "def": "A big meeting of leaders. Today: COP31 is a climate summit in Türkiye in November."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "Count a Minute",
+      "body": [
+        "You need a timer or a clock with a second hand. Tap a pencil on the table at a steady speed for one minute. Ask a friend to count your taps.",
+        "Now do it again. Were both counts the same? A good clock ticks at the same speed every time. A clock that fixes itself, like the one in Vienna, keeps its ticks steady even when something tries to change them."
+      ],
+      "sources": [
+        {
+          "outlet": "News report",
+          "title": "n1",
+          "url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The Atlantic hurricane season officially runs from June 1 to November 30, so it is still going on."
+    },
+    "explainer": {
+      "title": "How does El Niño quiet hurricanes?",
+      "body": [
+        "Hurricanes grow best when the winds high in the sky blow gently. Tall storm clouds can then stand straight up and spin.",
+        "During El Niño, the winds high above the Atlantic get stronger. NOAA says these stronger winds disrupt storm growth, like a gust that knocks over a tower of blocks."
+      ],
+      "sources": [
+        {
+          "outlet": "News report",
+          "title": "noaa",
+          "url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether NOAA says more about the rest of the hurricane season.",
+        "What leaders say as COP31 gets closer in November.",
+        "Whether more power returns in Ukraine."
+      ]
+    },
+    "quote": {
+      "text": "Wonder is where science begins.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/",
+    "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/",
+    "https://sciencedaily.com/releases/2026/10/261008102701.htm",
+    "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity",
+    "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day",
+    "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+    "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1",
+    "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/",
+    "https://www.thenationalnews.com/sport/football/2026/10/14/crunch-spl-fixture-involving-cristiano-ronaldos-al-nassr-postponed-due-to-logistical-considerations/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What warm pattern in the Pacific is in the news?",
+        "options": [
+          "El Niño",
+          "La Luna",
+          "Sea Breeze"
+        ],
+        "answer": 0,
+        "why": "NOAA expects a strong El Niño.",
+        "story": "lead"
+      },
+      {
+        "q": "What is in the centre of an atom?",
+        "options": [
+          "The crystal",
+          "The nucleus",
+          "The laser"
+        ],
+        "answer": 1,
+        "why": "The nucleus is the tiny centre of an atom.",
+        "story": "science"
+      },
+      {
+        "q": "Where will COP31 be held?",
+        "options": [
+          "Nadi, Fiji",
+          "Tirana, Albania",
+          "Antalya, Türkiye"
+        ],
+        "answer": 2,
+        "why": "COP31 will be in Antalya, Türkiye.",
+        "story": "world"
+      },
+      {
+        "q": "How long did the Vienna clock run without help?",
+        "options": [
+          "Over 24 hours",
+          "About a minute",
+          "One week"
+        ],
+        "answer": 0,
+        "why": "It ran for over 24 hours.",
+        "story": "science"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "NOAA said the chance of a below-normal hurricane season was 75% in August.",
+        "true": true,
+        "why": "It rose from 55% in May.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Vienna clock uses a crystal with thorium-229.",
+        "true": true,
+        "why": "A laser shines on a crystal that holds thorium-229.",
+        "story": "science"
+      },
+      {
+        "claim": "COP31 will be held in Fiji.",
+        "true": false,
+        "why": "COP31 will be in Antalya, Türkiye; Fiji hosted the pre-meetings.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Atlantic Ocean",
+        "lat": 25.0,
+        "lon": -50.0,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science",
+        "place": "Vienna",
+        "lat": 48.21,
+        "lon": 16.37,
+        "countries": [
+          "Austria"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Nadi",
+        "lat": -17.8,
+        "lon": 177.42,
+        "countries": [
+          "Fiji",
+          "Tuvalu"
+        ]
+      }
+    ]
+  }
+}
