@@ -1,0 +1,1096 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "yemen-saudi",
+    "headline": "Houthi attacks on Saudi Arabia continue, airports and oil sites targeted",
+    "what_happened": "Yemen's Houthis have attacked Saudi airports and Aramco sites since early October after a UN-brokered truce collapsed.",
+    "why_it_matters": "Airport and oil attacks put people at risk and disrupt travel and energy supplies.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Saudi civil aviation authorities reported at least 20 deaths and 356 injuries from Houthi attacks on airports between October 6 and 11.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The deadliest strike hit Riyadh's King Khalid International Airport on October 10, killing at least 12 people, including an American citizen.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "Other airports hit include Dammam, Abha, Jazan and Najran.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The Houthi leader set out an 'airports for airports, ports for ports, and a blockade for a blockade' policy after Sanaa's airport was hit.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The Saudi-backed Yemeni government said the Sanaa strike was meant to stop an Iranian plane from landing there.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "A UN-brokered truce in place since 2022 collapsed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The Saudi-led coalition said it intercepted a Houthi ballistic missile launched toward Riyadh.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh"
+     },
+     {
+      "fact": "The Bab el-Mandeb strait is the southern exit of the Red Sea, a key shipping route between the Mediterranean and Asia, and its importance has grown because the Iran conflict has effectively closed the Strait of Hormuz.",
+      "source_url": "https://gulfnews.com/world/gulf/yemen/yemen-sees-worst-clashes-in-years-as-fighting-kills-129-1.500664105"
+     },
+     {
+      "fact": "Who controls the strait is disputed: a Reuters-based report said the Houthis had taken it, while pro-government forces claim to have secured it.",
+      "source_url": "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis"
+     },
+     {
+      "fact": "The Houthis announced a blockade of Saudi vessels passing through the waterway.",
+      "source_url": "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis"
+     }
+    ],
+    "numbers": [],
+    "geography": "Saudi Arabia (Riyadh), Yemen, Red Sea",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Why are the Houthis striking Saudi airports?",
+      "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+      "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Detroit News",
+      "title": "How Yemen's Houthis are attacking Saudi Arabia so effectively",
+      "url": "https://www.detroitnews.com/story/news/world/2026/10/16/how-yemens-houthis-attacking-saudi-arabia-so-effectively/92279599007/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "Government forces launched counteroffensive as Houthi attacks spread across Taiz, Hodeida",
+      "url": "https://gulfnews.com/world/gulf/yemen/yemen-sees-worst-clashes-in-years-as-fighting-kills-129-1.500664105",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "SCMP",
+      "title": "Houthi offensive on Bab el-Mandeb strait threatens new Red Sea shipping crisis",
+      "url": "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis",
+      "published": "2026-10-08"
+     }
+    ]
+   },
+   {
+    "id": "hormuz-oil",
+    "headline": "Attacks on ships near the Strait of Hormuz keep oil above $100",
+    "what_happened": "Iran has attacked tankers in the Strait of Hormuz; Brent crude has traded around $105 to $110 a barrel.",
+    "why_it_matters": "Oil fuels transport and industry, so higher prices raise costs for households.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude was about $107.83 and WTI about $97.07 on 16 October 2026 in one market analysis; another put Brent at $105.48.",
+      "source_url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+     },
+     {
+      "fact": "Brent hit a session high of $110 a barrel after Iran escalated attacks in the strait, reports said.",
+      "source_url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+     },
+     {
+      "fact": "UK officials have reported at least nine attacks in the waterway so far in October (Yahoo Finance).",
+      "source_url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+     },
+     {
+      "fact": "Global fuel prices began climbing this spring after the US and Israel attacked Iran in late February, closing the Strait of Hormuz.",
+      "source_url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+     },
+     {
+      "fact": "Kpler put average oil clearance through Hormuz at 11.62 million barrels a day in the seven days ending 13 October, against a baseline of 17.15 million, and linked the drop to increased Iranian military activity.",
+      "source_url": "https://uk.finance.yahoo.com/news/crude-oil-slips-hormuz-shipping-091703972.html"
+     },
+     {
+      "fact": "Attacks in the Strait of Hormuz were reported at a high in October (SAFETY4SEA headline: 'attacks reach record high in October').",
+      "source_url": "https://safety4sea.com/strait-of-hormuz-attacks-reach-record-high-in-october/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude",
+      "value": 107.83,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Oil prices climb above $100 on Strait of Hormuz attacks, Gulf storm threat",
+      "url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Vantage Markets",
+      "title": "Oil Prices Today: WTI Leads, Brent Stalls Amid US Draw, Hormuz",
+      "url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "Yahoo Finance UK",
+      "title": "Crude Oil Slips as Hormuz Shipping Risks and US Inventory Draw Support Weekly Gains",
+      "url": "https://uk.finance.yahoo.com/news/crude-oil-slips-hormuz-shipping-091703972.html",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "SAFETY4SEA",
+      "title": "Strait of Hormuz attacks reach record high in October",
+      "url": "https://safety4sea.com/strait-of-hormuz-attacks-reach-record-high-in-october/",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-power",
+    "headline": "Russia strikes all three of Kyiv's heat and power plants",
+    "what_happened": "A Russian ballistic missile barrage hit Kyiv's three combined heat and power plants overnight 13-14 October.",
+    "why_it_matters": "Winter is near and people depend on power and heating.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Ukraine's Prime Minister Serhii Koretskyi said all three of Kyiv's combined heat and power plants came under attack; everyone was evacuated and nobody was injured there.",
+      "source_url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/"
+     },
+     {
+      "fact": "Zelenskyy said Russian strikes had caused significant damage to 26 energy sites and at least 600,000 people were without power.",
+      "source_url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/"
+     },
+     {
+      "fact": "Trump had announced an 'energy ceasefire'; Zelenskyy said Russia kept striking energy sites, and the Kremlin's Peskov said only 'Contacts are ongoing'.",
+      "source_url": "https://www.news4jax.com/news/world/2026/10/12/kyiv-says-russian-strikes-on-energy-facilities-continue-despite-trumps-energy-ceasefire/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Kyiv, Ukraine",
+    "sources": [
+     {
+      "outlet": "Ukrainska Pravda",
+      "title": "Russians attack all three combined heat and power plants in Kyiv",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "News4Jax/AP",
+      "title": "Kyiv says Russian strikes on energy facilities continue despite Trump's energy ceasefire",
+      "url": "https://www.news4jax.com/news/world/2026/10/12/kyiv-says-russian-strikes-on-energy-facilities-continue-despite-trumps-energy-ceasefire/",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "albania",
+    "headline": "Student protests in Albania spread to a third day",
+    "what_happened": "Students in Tirana protested over university conditions and demanded PM Edi Rama resign; a fire broke out at the Education Ministry.",
+    "why_it_matters": "Shows how young people press governments over schooling and jobs.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Protests entered a third day; demonstrators broke into the Education Ministry overnight and lit a fire, police said, with 16 arrests; police used tear gas and water cannon.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day"
+     },
+     {
+      "fact": "Students cited university conditions, higher education costs, lack of financial support and employment prospects.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day"
+     },
+     {
+      "fact": "Rama's Socialist Party holds a parliamentary majority after winning a fourth consecutive term last year.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day"
+     },
+     {
+      "fact": "Reuters reported that the Education Ministry caught fire on Wednesday during student protests over corruption and education; police used tear gas and water cannon, and a nearby Raiffeisen Bank branch also caught fire.",
+      "source_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/fire-breaks-out-at-albania-s-education-ministry-during-student-protest"
+     },
+     {
+      "fact": "Deputy Prime Minister Albana Kociu said on Facebook that protest is a legitimate right but cannot be an excuse for violence.",
+      "source_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/fire-breaks-out-at-albania-s-education-ministry-during-student-protest"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tirana, Albania",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Fire erupts at Albania's Education Ministry as protests enter third day",
+      "url": "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Reuters (via Internazionale)",
+      "title": "Fire breaks out at Albania's Education Ministry during student protest",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/fire-breaks-out-at-albania-s-education-ministry-during-student-protest",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-cpi",
+    "headline": "US inflation rose to 3.7% in September on costlier gasoline",
+    "what_happened": "Consumer prices rose 0.6% from August to September; annual inflation 3.7%, up from 3.4%.",
+    "why_it_matters": "Prices affect every household and may push the Fed to raise rates.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The September CPI report, released October 14, 2026, showed inflation at 3.7% year over year, up from 3.4% in August, with gasoline as the main driver.",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "fact": "Consumer prices rose 0.6% from August to September, the biggest monthly gain in five months.",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "fact": "Core prices, excluding food and energy, rose 2.6% in September from a year ago, up from 2.4% the previous month.",
+      "source_url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+     },
+     {
+      "fact": "The Fed's next meeting is Oct. 27-28.",
+      "source_url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Annual inflation, August",
+      "value": 3.4,
+      "unit": "%",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "label": "Annual inflation, September",
+      "value": 3.7,
+      "unit": "%",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "label": "Core inflation, September",
+      "value": 2.6,
+      "unit": "%",
+      "source_url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Kuwait Times (Reuters)",
+      "title": "US consumer prices accelerate on costlier gasoline",
+      "url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "KSL (Reuters)",
+      "title": "Consumer prices accelerate in September on costlier gasoline; core CPI firmer",
+      "url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "us-midterms",
+    "headline": "Midterms three weeks away with cost of living the main worry",
+    "what_happened": "Election Day is November 3, 2026; all 435 House seats and 35 of 100 Senate seats are up.",
+    "why_it_matters": "The vote decides the balance of power in Congress.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Election Day is November 3, 2026; all 435 House seats and 35 of the 100 Senate seats are up for election.",
+      "source_url": "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142"
+     },
+     {
+      "fact": "Voters' top concern is cost of living, with the economy and inflation as the Iran war continues (Deseret News via search summary).",
+      "source_url": "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "blue News",
+      "title": "What you need to know about the midterms",
+      "url": "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "sir",
+    "headline": "Supreme Court to hear opposition plea on voter-list revision on 27 October",
+    "what_happened": "The Supreme Court linked Rahul Gandhi and INDIA bloc leaders' petition on the Election Commission's special intensive revision (SIR) of voter lists to another case; both are to be heard on October 27.",
+    "why_it_matters": "Voter lists decide who can vote.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The petition seeks an independent audit, protection for eligible voters and a temporary halt to the revision.",
+      "source_url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696"
+     },
+     {
+      "fact": "The Supreme Court linked the petition to another pending case and both are to be heard on October 27.",
+      "source_url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696"
+     },
+     {
+      "fact": "The Supreme Court has issued notice but has not delivered a final judgment.",
+      "source_url": "https://www.india.com/news/india/cec-sir-row-supreme-court-to-hear-rahul-gandhi-india-bloc-leaders-plea-against-gyanesh-kumar-and-sir-8536165/"
+     }
+    ],
+    "numbers": [],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Newstrack",
+      "title": "Supreme Court links Rahul Gandhi's SIR plea to another case, hearing on October 27",
+      "url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "India.com",
+      "title": "CEC-SIR row: Supreme Court to hear plea",
+      "url": "https://www.india.com/news/india/cec-sir-row-supreme-court-to-hear-rahul-gandhi-india-bloc-leaders-plea-against-gyanesh-kumar-and-sir-8536165/",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "jantar-mantar",
+    "headline": "Delhi Police end Jantar Mantar as a protest site, name three new venues",
+    "what_happened": "A Delhi Police standing order dated 11 October removed Jantar Mantar as a designated protest site and named Ramlila Ground, Burari Ground and CBD Ground in East Delhi instead.",
+    "why_it_matters": "Where people may protest is part of how citizens can voice disagreement.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The order, by Delhi Police Commissioner Anurag Kumar and dated October 11, names Ramlila Ground, Burari Ground and CBD Ground, East Delhi as replacement venues.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "The order says it follows the recommendations of a committee set up by the Union Home Ministry.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "Indian Youth Congress president Uday Bhanu Chib has approached the Delhi High Court; police told the court the decision was based on a Supreme Court order of October 9.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "A separate plea challenging the standing order is pending before the Supreme Court.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "Cockroach Janta Party leaders were detained near Jantar Mantar after trying to enter.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/13/cockroach-janata-party-cjp-leaders-detained-at-jantar-mantar.amp.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi",
+    "sources": [
+     {
+      "outlet": "Bar & Bench",
+      "title": "Jantar Mantar de-notified as protest venue by Delhi Police; three new venues designated",
+      "url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "The Week",
+      "title": "Top CJP leaders detained as they attempt to enter Jantar Mantar",
+      "url": "https://www.theweek.in/news/india/2026/10/13/cockroach-janata-party-cjp-leaders-detained-at-jantar-mantar.amp.html",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "sir",
+    "headline": "Supreme Court to hear opposition plea on voter-list revision on 27 October",
+    "what_happened": "The Supreme Court linked Rahul Gandhi and INDIA bloc leaders' petition on the Election Commission's special intensive revision (SIR) of voter lists to another case; both are to be heard on October 27.",
+    "why_it_matters": "Voter lists decide who can vote.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The petition seeks an independent audit, protection for eligible voters and a temporary halt to the revision.",
+      "source_url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696"
+     },
+     {
+      "fact": "The Supreme Court linked the petition to another pending case and both are to be heard on October 27.",
+      "source_url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696"
+     },
+     {
+      "fact": "The Supreme Court has issued notice but has not delivered a final judgment.",
+      "source_url": "https://www.india.com/news/india/cec-sir-row-supreme-court-to-hear-rahul-gandhi-india-bloc-leaders-plea-against-gyanesh-kumar-and-sir-8536165/"
+     }
+    ],
+    "numbers": [],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Newstrack",
+      "title": "Supreme Court links Rahul Gandhi's SIR plea to another case, hearing on October 27",
+      "url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "India.com",
+      "title": "CEC-SIR row: Supreme Court to hear plea",
+      "url": "https://www.india.com/news/india/cec-sir-row-supreme-court-to-hear-rahul-gandhi-india-bloc-leaders-plea-against-gyanesh-kumar-and-sir-8536165/",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "jantar-mantar",
+    "headline": "Delhi Police end Jantar Mantar as a protest site, name three new venues",
+    "what_happened": "A Delhi Police standing order dated 11 October removed Jantar Mantar as a designated protest site and named Ramlila Ground, Burari Ground and CBD Ground in East Delhi instead.",
+    "why_it_matters": "Where people may protest is part of how citizens can voice disagreement.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The order, by Delhi Police Commissioner Anurag Kumar and dated October 11, names Ramlila Ground, Burari Ground and CBD Ground, East Delhi as replacement venues.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "The order says it follows the recommendations of a committee set up by the Union Home Ministry.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "Indian Youth Congress president Uday Bhanu Chib has approached the Delhi High Court; police told the court the decision was based on a Supreme Court order of October 9.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "A separate plea challenging the standing order is pending before the Supreme Court.",
+      "source_url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+     },
+     {
+      "fact": "Cockroach Janta Party leaders were detained near Jantar Mantar after trying to enter.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/13/cockroach-janata-party-cjp-leaders-detained-at-jantar-mantar.amp.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi",
+    "sources": [
+     {
+      "outlet": "Bar & Bench",
+      "title": "Jantar Mantar de-notified as protest venue by Delhi Police; three new venues designated",
+      "url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "The Week",
+      "title": "Top CJP leaders detained as they attempt to enter Jantar Mantar",
+      "url": "https://www.theweek.in/news/india/2026/10/13/cockroach-janata-party-cjp-leaders-detained-at-jantar-mantar.amp.html",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-cpi",
+    "headline": "US inflation rose to 3.7% in September on costlier gasoline",
+    "what_happened": "Consumer prices rose 0.6% from August to September; annual inflation 3.7%, up from 3.4%.",
+    "why_it_matters": "Prices affect every household and may push the Fed to raise rates.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The September CPI report, released October 14, 2026, showed inflation at 3.7% year over year, up from 3.4% in August, with gasoline as the main driver.",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "fact": "Consumer prices rose 0.6% from August to September, the biggest monthly gain in five months.",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "fact": "Core prices, excluding food and energy, rose 2.6% in September from a year ago, up from 2.4% the previous month.",
+      "source_url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+     },
+     {
+      "fact": "The Fed's next meeting is Oct. 27-28.",
+      "source_url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Annual inflation, August",
+      "value": 3.4,
+      "unit": "%",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "label": "Annual inflation, September",
+      "value": 3.7,
+      "unit": "%",
+      "source_url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+     },
+     {
+      "label": "Core inflation, September",
+      "value": 2.6,
+      "unit": "%",
+      "source_url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "Kuwait Times (Reuters)",
+      "title": "US consumer prices accelerate on costlier gasoline",
+      "url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "KSL (Reuters)",
+      "title": "Consumer prices accelerate in September on costlier gasoline; core CPI firmer",
+      "url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "us-jobs",
+    "headline": "US weekly jobless claims fell to 197,000",
+    "what_happened": "Initial jobless claims for the week ending October 3 fell to 197,000; the Fed raised rates to 3.75%-4.00% in September.",
+    "why_it_matters": "Shows the job market is steady.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Initial claims fell to 197,000 in the week ending October 3, below the 200,000 forecast.",
+      "source_url": "https://www.babypips.com/news/headline-us-initial-jobless-claims-layoffs-2026-10-09"
+     },
+     {
+      "fact": "The Fed raised its target range to 3.75% to 4.00% in September, its first hike since 2023.",
+      "source_url": "https://www.babypips.com/news/headline-us-initial-jobless-claims-layoffs-2026-10-09"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "BabyPips",
+      "title": "US initial jobless claims",
+      "url": "https://www.babypips.com/news/headline-us-initial-jobless-claims-layoffs-2026-10-09",
+      "published": "2026-10-09"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "wasp17b",
+    "headline": "Webb telescope data reveal the lopsided atmosphere of the planet WASP-17b",
+    "what_happened": "A Cornell-led team published in Nature Astronomy on October 14 a map of the uneven edge of WASP-17b's atmosphere using JWST data.",
+    "why_it_matters": "Shows how astronomers study far-off worlds.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The team used a technique called transmission strings, measuring the distance from the planet's centre to its atmospheric edge at many points.",
+      "source_url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+     },
+     {
+      "fact": "The atmosphere reaches farther on the evening side, while the cooler morning side is less extended; winds carry heat from the day side to the night side.",
+      "source_url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+     },
+     {
+      "fact": "Water and carbon dioxide were distributed fairly consistently around the atmospheric edge.",
+      "source_url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+     },
+     {
+      "fact": "WASP-17 is roughly 1,300 light-years away per Cornell and Bristol.",
+      "source_url": "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html"
+     },
+     {
+      "fact": "A 2023 Webb (MIRI) study reported silica (quartz) crystal clouds in WASP-17b's atmosphere, the first time a specific cloud species was identified in a transiting exoplanet, according to Advanced Science News/Cornell.",
+      "source_url": "https://www.news.cornell.edu/stories/2023/10/webb-detects-quartz-crystals-clouds-hot-gas-giant"
+     },
+     {
+      "fact": "ESA published an image of Webb spotting quartz crystals in the clouds of WASP-17b in October 2023.",
+      "source_url": "https://www.esa.int/ESA_Multimedia/Images/2023/10/Webb_spots_quartz_crystals_in_clouds_of_exoplanet_WASP-17b"
+     }
+    ],
+    "numbers": [],
+    "geography": "WASP-17b",
+    "sources": [
+     {
+      "outlet": "Finger Lakes 1 (Cornell)",
+      "title": "Cornell-led team maps uneven atmosphere of distant exoplanet",
+      "url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "University of Bristol",
+      "title": "Trailblazing technique uncovers real shape of scorching-hot exoplanet atmospheres",
+      "url": "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Cornell Chronicle",
+      "title": "Webb detects quartz crystals in clouds of hot gas giant",
+      "url": "https://www.news.cornell.edu/stories/2023/10/webb-detects-quartz-crystals-clouds-hot-gas-giant",
+      "published": "2023-10-16"
+     },
+     {
+      "outlet": "ESA",
+      "title": "Webb spots quartz crystals in clouds of exoplanet WASP-17b",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2023/10/Webb_spots_quartz_crystals_in_clouds_of_exoplanet_WASP-17b",
+      "published": "2023-10-16"
+     }
+    ]
+   },
+   {
+    "id": "nuclear-clock",
+    "headline": "World's first self-stabilising nuclear clock runs for over a day in Vienna",
+    "what_happened": "TU Wien and PTB built a thorium-229 nuclear clock whose laser corrects itself; published in Nature.",
+    "why_it_matters": "Better clocks help navigation and tests of physics.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A thorium-229 crystal serves as the timing reference, driven by a laser; the system detects and corrects frequency shifts automatically.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     },
+     {
+      "fact": "The prototype ran for over 24 hours with no outside adjustment.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     },
+     {
+      "fact": "Precision was about 10^-15, roughly one second in 30 million years; it still trails the best optical atomic clocks.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     },
+     {
+      "fact": "The work was led by Thorsten Schumm and Ekkehard Peik.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Vienna, Austria",
+    "sources": [
+     {
+      "outlet": "Quantum Zeitgeist",
+      "title": "Nuclear clock at TU Wien stabilizes itself for over a day",
+      "url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "ScienceDaily",
+      "title": "First self-stabilizing nuclear clock",
+      "url": "https://sciencedaily.com/releases/2026/10/261008102701.htm",
+      "published": "2026-10-08"
+     }
+    ]
+   }
+  ]
+ },
+ "science": {
+  "label": "SCIENCE",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "wasp17b",
+    "headline": "Webb telescope data reveal the lopsided atmosphere of the planet WASP-17b",
+    "what_happened": "A Cornell-led team published in Nature Astronomy on October 14 a map of the uneven edge of WASP-17b's atmosphere using JWST data.",
+    "why_it_matters": "Shows how astronomers study far-off worlds.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The team used a technique called transmission strings, measuring the distance from the planet's centre to its atmospheric edge at many points.",
+      "source_url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+     },
+     {
+      "fact": "The atmosphere reaches farther on the evening side, while the cooler morning side is less extended; winds carry heat from the day side to the night side.",
+      "source_url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+     },
+     {
+      "fact": "Water and carbon dioxide were distributed fairly consistently around the atmospheric edge.",
+      "source_url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+     },
+     {
+      "fact": "WASP-17 is roughly 1,300 light-years away per Cornell and Bristol.",
+      "source_url": "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html"
+     },
+     {
+      "fact": "A 2023 Webb (MIRI) study reported silica (quartz) crystal clouds in WASP-17b's atmosphere, the first time a specific cloud species was identified in a transiting exoplanet, according to Advanced Science News/Cornell.",
+      "source_url": "https://www.news.cornell.edu/stories/2023/10/webb-detects-quartz-crystals-clouds-hot-gas-giant"
+     },
+     {
+      "fact": "ESA published an image of Webb spotting quartz crystals in the clouds of WASP-17b in October 2023.",
+      "source_url": "https://www.esa.int/ESA_Multimedia/Images/2023/10/Webb_spots_quartz_crystals_in_clouds_of_exoplanet_WASP-17b"
+     }
+    ],
+    "numbers": [],
+    "geography": "WASP-17b",
+    "sources": [
+     {
+      "outlet": "Finger Lakes 1 (Cornell)",
+      "title": "Cornell-led team maps uneven atmosphere of distant exoplanet",
+      "url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "University of Bristol",
+      "title": "Trailblazing technique uncovers real shape of scorching-hot exoplanet atmospheres",
+      "url": "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Cornell Chronicle",
+      "title": "Webb detects quartz crystals in clouds of hot gas giant",
+      "url": "https://www.news.cornell.edu/stories/2023/10/webb-detects-quartz-crystals-clouds-hot-gas-giant",
+      "published": "2023-10-16"
+     },
+     {
+      "outlet": "ESA",
+      "title": "Webb spots quartz crystals in clouds of exoplanet WASP-17b",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2023/10/Webb_spots_quartz_crystals_in_clouds_of_exoplanet_WASP-17b",
+      "published": "2023-10-16"
+     }
+    ]
+   },
+   {
+    "id": "nuclear-clock",
+    "headline": "World's first self-stabilising nuclear clock runs for over a day in Vienna",
+    "what_happened": "TU Wien and PTB built a thorium-229 nuclear clock whose laser corrects itself; published in Nature.",
+    "why_it_matters": "Better clocks help navigation and tests of physics.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A thorium-229 crystal serves as the timing reference, driven by a laser; the system detects and corrects frequency shifts automatically.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     },
+     {
+      "fact": "The prototype ran for over 24 hours with no outside adjustment.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     },
+     {
+      "fact": "Precision was about 10^-15, roughly one second in 30 million years; it still trails the best optical atomic clocks.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     },
+     {
+      "fact": "The work was led by Thorsten Schumm and Ekkehard Peik.",
+      "source_url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Vienna, Austria",
+    "sources": [
+     {
+      "outlet": "Quantum Zeitgeist",
+      "title": "Nuclear clock at TU Wien stabilizes itself for over a day",
+      "url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "ScienceDaily",
+      "title": "First self-stabilizing nuclear clock",
+      "url": "https://sciencedaily.com/releases/2026/10/261008102701.htm",
+      "published": "2026-10-08"
+     }
+    ]
+   }
+  ]
+ },
+ "climate & environment": {
+  "label": "CLIMATE & ENVIRONMENT",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "elnino",
+    "headline": "A strong El Nino is quieting the Atlantic hurricane season",
+    "what_happened": "NOAA gave a 75% chance of a below-normal Atlantic season and a 90% chance of a strong or very strong El Nino in Aug-Oct.",
+    "why_it_matters": "El Nino changes weather worldwide.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "NOAA's August update put the chance of a below-normal season at 75%, up from 55% in May, forecasting 7 to 13 named storms, 2 to 6 hurricanes and 0 to 2 major hurricanes.",
+      "source_url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+     },
+     {
+      "fact": "NOAA gave a 90% chance of a strong or very strong El Nino during August, September and October.",
+      "source_url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+     },
+     {
+      "fact": "El Nino raises upper-level winds over the Atlantic, which disrupts storm development.",
+      "source_url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+     },
+     {
+      "fact": "NOAA's administrator said 'it only takes one' storm.",
+      "source_url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+     }
+    ],
+    "numbers": [],
+    "geography": "Atlantic, Pacific",
+    "sources": [
+     {
+      "outlet": "WEAR-TV",
+      "title": "NOAA lowers 2026 hurricane season forecast as strong El Nino suppresses Atlantic activity",
+      "url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity",
+      "published": "2026-08-06"
+     }
+    ]
+   },
+   {
+    "id": "precop",
+    "headline": "Pacific pre-COP31 meetings press for 1.5C",
+    "what_happened": "Pre-COP31 meetings were held in Nadi, Fiji, 5-8 October; COP31 runs in Antalya, Turkiye, from November 9 to 20.",
+    "why_it_matters": "Island nations face rising seas first.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Official Pre-COP31 meetings were held in Nadi, Fiji, from 5 to 8 October 2026.",
+      "source_url": "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/"
+     },
+     {
+      "fact": "COP31 runs in Antalya, Turkiye, from November 9 to 20.",
+      "source_url": "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/"
+     },
+     {
+      "fact": "Tuvalu's representative warned that the 1.5-degree target is in jeopardy.",
+      "source_url": "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Fiji, Tuvalu",
+    "sources": [
+     {
+      "outlet": "Kuwait Times",
+      "title": "World powers gather in Pacific to chart climate fight",
+      "url": "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/",
+      "published": "2026-10-05"
+     }
+    ]
+   }
+  ]
+ },
+ "health": {
+  "label": "HEALTH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ebola-kenya",
+    "headline": "Kenya confirms an imported Ebola case; no further cases found in reports",
+    "what_happened": "Kenya confirmed its first Ebola case on October 6 in a man who returned from DR Congo and died in Nairobi.",
+    "why_it_matters": "Shows how health systems trace contacts.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Kenya confirmed its first Ebola case on October 6: a Kenyan man who had lived in DR Congo died in Nairobi.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"
+     },
+     {
+      "fact": "The wider outbreak is in DR Congo and is caused by the Bundibugyo strain.",
+      "source_url": "https://www.africanews.com/2026/10/06/kenya-confirms-first-ebola-death-as-28-contacts-traced/"
+     },
+     {
+      "fact": "Headline of a report: Ebola outbreak in Congo tops 2,400 cases with nearly 1,000 deaths (July 2026 figures; later totals not found).",
+      "source_url": "https://thesun.my/news/world-news/ebola-outbreak-in-congo-tops-2400-cases-with-nearly-1000-deaths/"
+     },
+     {
+      "fact": "WHO declared the Ebola outbreak a public health emergency of international concern (report headline: 'Ebola outbreak is declared an emergency of global concern').",
+      "source_url": "https://gdnonline.com/Details/1395053/Ebola-outbreak-is-declared-an-emergency-of-global-concern"
+     }
+    ],
+    "numbers": [],
+    "geography": "Kenya, DR Congo",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Kenya confirms first Ebola case",
+      "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "Africanews",
+      "title": "Kenya confirms first Ebola death as 28 contacts traced",
+      "url": "https://www.africanews.com/2026/10/06/kenya-confirms-first-ebola-death-as-28-contacts-traced/",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "The Sun (Malaysia)",
+      "title": "Ebola outbreak in Congo tops 2,400 cases with nearly 1,000 deaths",
+      "url": "https://thesun.my/news/world-news/ebola-outbreak-in-congo-tops-2400-cases-with-nearly-1000-deaths/",
+      "published": "2026-07-21"
+     },
+     {
+      "outlet": "Gulf Daily News",
+      "title": "Ebola outbreak is declared an emergency of global concern",
+      "url": "https://gdnonline.com/Details/1395053/Ebola-outbreak-is-declared-an-emergency-of-global-concern",
+      "published": "2026-05-17"
+     }
+    ]
+   }
+  ]
+ },
+ "history & geography": {
+  "label": "HISTORY & GEOGRAPHY",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "yemen-saudi",
+    "headline": "Houthi attacks on Saudi Arabia continue, airports and oil sites targeted",
+    "what_happened": "Yemen's Houthis have attacked Saudi airports and Aramco sites since early October after a UN-brokered truce collapsed.",
+    "why_it_matters": "Airport and oil attacks put people at risk and disrupt travel and energy supplies.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Saudi civil aviation authorities reported at least 20 deaths and 356 injuries from Houthi attacks on airports between October 6 and 11.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The deadliest strike hit Riyadh's King Khalid International Airport on October 10, killing at least 12 people, including an American citizen.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "Other airports hit include Dammam, Abha, Jazan and Najran.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The Houthi leader set out an 'airports for airports, ports for ports, and a blockade for a blockade' policy after Sanaa's airport was hit.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The Saudi-backed Yemeni government said the Sanaa strike was meant to stop an Iranian plane from landing there.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "A UN-brokered truce in place since 2022 collapsed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+     },
+     {
+      "fact": "The Saudi-led coalition said it intercepted a Houthi ballistic missile launched toward Riyadh.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh"
+     }
+    ],
+    "numbers": [],
+    "geography": "Saudi Arabia (Riyadh), Yemen, Red Sea",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Why are the Houthis striking Saudi airports?",
+      "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+      "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Detroit News",
+      "title": "How Yemen's Houthis are attacking Saudi Arabia so effectively",
+      "url": "https://www.detroitnews.com/story/news/world/2026/10/16/how-yemens-houthis-attacking-saudi-arabia-so-effectively/92279599007/",
+      "published": "2026-10-16"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "spl",
+    "headline": "Saudi league moves three matches",
+    "what_happened": "Al Nassr v Al Ahli moved to March 6, 2027; two other games to December 19.",
+    "why_it_matters": "Sport is disrupted by the conflict.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Saudi Pro League moved Al Nassr's clash with Al Ahli to March 6, 2027; two other matchweek nine games moved to December 19.",
+      "source_url": "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1"
+     },
+     {
+      "fact": "The league cited 'logistical considerations' about the minimum rest period between matches, not security.",
+      "source_url": "https://www.thenationalnews.com/sport/football/2026/10/14/crunch-spl-fixture-involving-cristiano-ronaldos-al-nassr-postponed-due-to-logistical-considerations/"
+     },
+     {
+      "fact": "Al Nassr beat Uzbekistan's Neftchi 3-1 in the AFC Champions League Elite on Monday after a delayed start due to a threat of missile attacks from Yemen's Houthis.",
+      "source_url": "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1"
+     }
+    ],
+    "numbers": [],
+    "geography": "Riyadh, Saudi Arabia",
+    "sources": [
+     {
+      "outlet": "eNCA",
+      "title": "Saudi league postpones three matches after Houthi attacks",
+      "url": "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "The National",
+      "title": "Crunch SPL fixture involving Al Nassr postponed",
+      "url": "https://www.thenationalnews.com/sport/football/2026/10/14/crunch-spl-fixture-involving-cristiano-ronaldos-al-nassr-postponed-due-to-logistical-considerations/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ronaldo scores, waves Saudi scarf in Al-Nassr's win after security delay",
+      "url": "https://www.aljazeera.com/sports/2026/10/13/ronaldo-scores-waves-saudi-scarf-in-al-nassrs-win-after-security-delay",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ }
+}

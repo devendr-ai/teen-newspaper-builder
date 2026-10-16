@@ -41,7 +41,8 @@
       "body": [
         "Late on October 13 and early on October 14, Russian ballistic missiles struck Kyiv. Ukraine’s prime minister, Serhii Koretskyi, said all three of the capital’s combined heat and power plants came under attack. These plants make electricity and heat for homes from the same fuel. Everyone at the plants was evacuated and no one there was injured.",
         "President Zelenskyy said 26 energy sites were significantly damaged and at least 600,000 people had no electricity, with more blackouts possible. Koretskyi said facilities in Kyiv Oblast that supply the capital and central Ukraine were also hit.",
-        "The attack followed US President Donald Trump’s announcement of an “energy ceasefire.” Zelenskyy said Russia had not approved it, while Kremlin spokesman Dmitry Peskov would only say “Contacts are ongoing.” Ukraine has struck Russian refineries too."
+        "The attack followed US President Donald Trump’s announcement of an “energy ceasefire.” Zelenskyy said Russia had not approved it, while Kremlin spokesman Dmitry Peskov would only say “Contacts are ongoing.” Ukraine has struck Russian refineries too.",
+        "Combined heat and power plants matter in cold countries because the heat left over from making electricity can be piped to warm buildings, so one strike can cut both at once. The casualty and grid figures here come from Ukrainian officials and were not independently confirmed in the reports we read. Repairs are under way, officials said."
       ],
       "illustration": {
         "title": "THE GRID UNDER STRAIN",
@@ -70,7 +71,9 @@
       "body": [
         "Atomic clocks use the regular behaviour of electrons in atoms to keep time. A nuclear clock instead uses a change inside the nucleus, the dense core of an atom. Researchers at TU Wien and PTB Braunschweig built one around a thorium-229 crystal driven by a laser, and published the work in Nature.",
         "The advance is a feedback loop: the system detects when the laser frequency drifts and corrects it automatically. The prototype stayed stable for over 24 hours without help. Its precision was about 1 part in 10^15, which the researchers describe as roughly one second in 30 million years.",
-        "It still trails the best optical atomic clocks. A preliminary search for dark matter with the clock found no significant signal. The work was led by Thorsten Schumm and Ekkehard Peik."
+        "It still trails the best optical atomic clocks. A preliminary search for dark matter with the clock found no significant signal. The work was led by Thorsten Schumm and Ekkehard Peik.",
+        "Why use a nucleus at all? Electrons in an atom are easily disturbed by stray electric and magnetic fields, while the nucleus is better shielded. The thorium-229 nucleus is unusual because a laser can nudge it between two energy states, which makes it a promising timekeeper. Researchers also see such clocks as a tool for testing whether the constants of nature change, which is why a dark-matter search was run even though it found no signal.",
+        "For students, the key idea is feedback: a measurement of the clock’s drift is fed back to correct the laser, much like a thermostat that keeps a room at a set temperature."
       ],
       "illustration": {
         "title": "KEEPING TIME IN THE NUCLEUS",
@@ -99,7 +102,9 @@
       "body": [
         "NOAA’s August update raised the chance of a below-normal Atlantic hurricane season to 75%, up from 55% in May. It forecasts 7 to 13 named storms, 2 to 6 hurricanes and 0 to 2 major hurricanes.",
         "The driver is El Niño, a warm phase in the tropical Pacific. NOAA gave a 90% chance of a strong or very strong El Niño during August, September and October. El Niño raises upper-level winds over the Atlantic, which disrupts storm development, and NOAA noted that every strong El Niño since 1950 has come with a below-normal Atlantic season.",
-        "NOAA’s administrator cautioned that “it only takes one” storm, and said category 5 storms have made landfall in below-average seasons."
+        "NOAA’s administrator cautioned that “it only takes one” storm, and said category 5 storms have made landfall in below-average seasons.",
+        "The numbers need careful reading. A forecast is a set of probabilities, not a promise: a 75% chance of a below-normal season still leaves a 25% chance of something else, and ranges such as 0 to 2 major hurricanes show real uncertainty. NOAA’s August outlook updated its May one, which gave a 55% chance of a below-normal season.",
+        "The Atlantic season officially runs from June 1 to November 30, so the forecast still applies to the weeks ahead. The lesson for readers is to separate two questions that are easy to blur: how many storms will form, and where any one of them will go. El Niño helps with the first; it says little about the second."
       ],
       "illustration": {
         "title": "WINDS ALOFT",
@@ -123,7 +128,9 @@
       "body": [
         "Kenya confirmed its first Ebola case on October 6. The patient was a Kenyan man who had lived in DR Congo and died in Nairobi after returning.",
         "Officials began contact tracing: finding and monitoring people who were near a patient so any new illness can be caught early. Africanews reported that 28 contacts had been traced.",
-        "The wider outbreak is in DR Congo and is caused by the Bundibugyo strain. WHO declared it a public health emergency of international concern. One report in July counted more than 2,400 cases and nearly 1,000 deaths in Congo; later totals were not available to us."
+        "The wider outbreak is in DR Congo and is caused by the Bundibugyo strain. WHO declared it a public health emergency of international concern. One report in July counted more than 2,400 cases and nearly 1,000 deaths in Congo; later totals were not available to us.",
+        "Why does contact tracing matter? Ebola spreads through direct contact with the body fluids of a sick person, so the people most at risk are family members and health workers who cared for the patient. Finding them quickly, checking their health daily and isolating anyone who falls ill is a main way to stop a chain of infection.",
+        "Kenya’s case also shows how disease crosses borders: the patient had lived in DR Congo and died in Nairobi after returning. Each stage of such a journey is a point where contacts must be found, which makes the response both a local and a regional task. Contact tracing began as soon as the case was confirmed on October 6."
       ],
       "illustration": {
         "title": "TRACING CONTACTS",
@@ -162,7 +169,8 @@
       "body": [
         "A chokepoint is a narrow passage that traffic must squeeze through. The Strait of Hormuz, beside Iran, has effectively been closed by the Iran conflict since the US and Israel attacked Iran in late February, Yahoo Finance reports. Brent crude touched $110 a barrel after Iran escalated attacks there.",
         "That raises the value of the Bab el-Mandeb strait, the southern exit of the Red Sea and a key route between the Mediterranean and Asia. The Houthis announced a blockade of Saudi vessels there. Control of the strait is disputed: a Reuters-based report said the Houthis had taken it, while pro-government forces say they have secured it.",
-        "On October 16, one market report put Brent at $107.83 a barrel and the US benchmark, WTI, at $97.07."
+        "On October 16, one market report put Brent at $107.83 a barrel and the US benchmark, WTI, at $97.07.",
+        "History explains why these straits matter. For centuries the narrow places where seas meet have been where trade is easiest to tax, defend or block, and today much of the world’s oil moves by ship. The SCMP reported that the Houthi blockade of Saudi vessels forced the kingdom to divert oil exports from Red Sea ports to Asia around Africa."
       ],
       "chart": {
         "title": "OIL PRICES, OCTOBER 16",
