@@ -84,11 +84,22 @@ class FakeAPI:
                 "content": [{"type": "text", "text": "Here is the issue:\n```json\n" + json.dumps(issue) + "\n```"}]}
 
 
+ARCHIVE_AS_OF = "2026-10-16"     # these tests replay 12 and 17 October as they stood before the 17th was published
+
+
+def archive_as_of(eds, cutoff=ARCHIVE_AS_OF):
+    """Drop the copied papers and posters published after `cutoff`, so new nightly papers can't change the tests."""
+    for f in eds.glob("*/*/*/*.json"):
+        if f.parent.parent.name in ("issues", "posters") and f.stem > cutoff:
+            f.unlink()
+
+
 @pytest.fixture
 def sandbox(tmp_path, monkeypatch):
     eds = tmp_path / "editions"
     for eid in ("young-global-citizen", "little-explorers"):
         shutil.copytree(os.path.join(ROOT, "editions", eid), eds / eid)
+    archive_as_of(eds)
     monkeypatch.setattr(edition, "EDITIONS", str(eds))
     monkeypatch.setattr(run, "DATA", str(tmp_path / "data"))
     return tmp_path
@@ -182,7 +193,7 @@ def test_json_extraction_survives_fences_prose_and_escapes():
         llm.extract_json('{"cut off": "mid')
 
 
-def test_due_lists_what_to_write_today(capsys):
+def test_due_lists_what_to_write_today(sandbox, capsys):
     from ygc.__main__ import main
     assert main(["due", "--date", "2026-10-17", "--json"]) == 0
     out = json.loads(capsys.readouterr().out)

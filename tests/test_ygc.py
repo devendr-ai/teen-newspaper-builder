@@ -155,6 +155,9 @@ def test_create_edition_and_new_issue(tmp_path, monkeypatch):
     monkeypatch.setattr(edition, "EDITIONS", str(tmp_path / "editions"))
     shutil.copytree(os.path.join(ROOT, "editions", "junior-explorer"),
                     tmp_path / "editions" / "junior-explorer")
+    for f in (tmp_path / "editions" / "junior-explorer").glob("issues/*/*.json"):
+        if f.stem > "2026-10-16":                 # the archive as it stood before the 17th was published
+            f.unlink()
     assert main(["create-edition", "my-paper", "--from", "junior-explorer"]) == 0
     assert edition.load("my-paper")["id"] == "my-paper"
     assert main(["new", "junior-explorer", "--date", "2026-10-17"]) == 0
