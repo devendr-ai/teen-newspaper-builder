@@ -1,0 +1,68 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-17",
+  "question": "Can a faraway planet have a lopsided sky?",
+  "skill": "Compare",
+  "happened": "Last week we guessed about ships in a narrow sea. Fewer got through. This week, scientists used the Webb space telescope to look at a hot planet called WASP-17b. Its sky is lopsided: it reaches farther on one side than the other.",
+  "hero": {
+    "motif": "globe",
+    "caption": "A planet with an uneven edge"
+  },
+  "steps": [
+    {
+      "title": "Hot side",
+      "motif": "globe",
+      "text": "One side of the planet is warmed by its star."
+    },
+    {
+      "title": "Wind blows",
+      "motif": "globe",
+      "text": "Winds carry heat toward the darker side."
+    },
+    {
+      "title": "Lopsided sky",
+      "motif": "globe",
+      "text": "The sky reaches farther on one side than the other."
+    }
+  ],
+  "home": {
+    "chain": [
+      "Sun",
+      "Heat",
+      "Wind",
+      "Rain",
+      "Home"
+    ],
+    "text": "Sunshine warms our planet too. Wind moves warm air to cooler places. That is part of why the weather changes where you live."
+  },
+  "find_it": {
+    "map": {
+      "title": "FAR AWAY",
+      "label_top": "EARTH",
+      "label_bottom": "WASP-17b",
+      "footnote": ""
+    },
+    "text": "WASP-17b is about 1,300 light-years away. That is much too far to visit! Draw what you think its sky looks like."
+  },
+  "try_it": {
+    "title": "Warm side, cool side",
+    "steps": [
+      "Go outside on a sunny day with a grown-up.",
+      "Touch a wall in the sun. Then touch a wall in the shade.",
+      "Which side feels warmer? Why do you think so?"
+    ]
+  },
+  "talk": {
+    "questions": [
+      "Which side of our home feels warmer in the afternoon?",
+      "What do you think wind does to warm air?"
+    ],
+    "tip": "Today's skill is compare: look at two things and say how they differ. Ask \"what do you notice?\" Don't correct; add one more detail."
+  },
+  "next_week": "Will it be sunny or cloudy where we live next Saturday? Write or draw your guess, then check next week.",
+  "sources": [
+    "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/",
+    "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html",
+    "https://uk.finance.yahoo.com/news/crude-oil-slips-hormuz-shipping-091703972.html"
+  ]
+}

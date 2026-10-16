@@ -1,0 +1,230 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-17",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE STRAIT OF HORMUZ",
+      "headline": "Fewer Ships Get Through a Narrow Sea",
+      "deck": "A narrow sea beside Iran is still very busy and very tricky.",
+      "body": [
+        "A strait is a narrow strip of sea between two pieces of land. The Strait of Hormuz is beside a country called Iran. Big ships carry oil through it.",
+        "Last week we asked: would more ships get through, or fewer? The answer is fewer. A company that tracks oil said about two thirds as much oil got through this week as usual.",
+        "It linked this to more military action by Iran nearby. UK officials said ships have been attacked there. When less oil gets out, oil costs more. This week one barrel cost about $108."
+      ],
+      "map": {
+        "title": "STRAIT OF HORMUZ",
+        "label_top": "IRAN",
+        "label_bottom": "OMAN",
+        "footnote": "A narrow sea between two lands",
+        "caption": "Ships squeeze through the gap between them."
+      },
+      "why": "Oil becomes fuel for trucks and cars. When oil costs more, fuel and some other things can cost more too.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance UK",
+          "title": "Crude Oil Slips as Hormuz Shipping Risks and US Inventory Draw Support Weekly Gains",
+          "url": "https://uk.finance.yahoo.com/news/crude-oil-slips-hormuz-shipping-091703972.html"
+        },
+        {
+          "outlet": "SAFETY4SEA",
+          "title": "Strait of Hormuz attacks reach record high in October",
+          "url": "https://safety4sea.com/strait-of-hormuz-attacks-reach-record-high-in-october/"
+        },
+        {
+          "outlet": "Vantage Markets",
+          "title": "Oil Prices Today",
+          "url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  THE PACIFIC ISLANDS",
+      "headline": "Island Countries Plan for a Big Meeting",
+      "deck": "Fiji and Tuvalu helped get ready for a climate summit.",
+      "body": [
+        "Fiji and Tuvalu are island countries in the Pacific Ocean. A group met in a city called Nadi, in Fiji, from October 5 to 8.",
+        "They were getting ready for a big climate meeting called COP31. It is a meeting about how to look after our planet’s weather.",
+        "COP31 will be held in a city called Antalya, in Türkiye, from November 9 to 20. Tuvalu’s representative warned that a goal to stop the planet from warming too much is in danger."
+      ],
+      "illustration": {
+        "title": "ISLANDS IN THE SEA",
+        "subtitle": "Fiji and Tuvalu",
+        "motif": "globe",
+        "caption": "Island countries are surrounded by ocean."
+      },
+      "why": "Islands are surrounded by sea, so changes to the ocean matter a lot to the people who live there.",
+      "sources": [
+        {
+          "outlet": "Kuwait Times",
+          "title": "World powers gather in Pacific to chart climate fight",
+          "url": "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  VOTING",
+      "headline": "Grown-Ups Will Vote for Congress",
+      "deck": "Election Day is November 3.",
+      "body": [
+        "Congress is the group of people who make laws for the United States. It has two parts. One is called the House. The other is called the Senate.",
+        "On November 3, grown-ups will vote for all 435 people in the House. They will also vote for 35 of the 100 people in the Senate.",
+        "A vote is a way to choose who will speak for you. The winners decide which party leads each part of Congress."
+      ],
+      "chart": {
+        "title": "SEATS TO VOTE FOR",
+        "subtitle": "Number of seats",
+        "labels": [
+          "House",
+          "Senate"
+        ],
+        "values": [
+          435,
+          35
+        ],
+        "max": 500,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "All 435 House seats and 35 Senate seats."
+      },
+      "why": "Voting lets people have a say in the rules everyone follows.",
+      "sources": [
+        {
+          "outlet": "blue News",
+          "title": "What you need to know about the midterms",
+          "url": "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Saudi Arabia: The football league moved three games, including one for Cristiano Ronaldo’s team.",
+        "Austria: Scientists in Vienna built a clock that fixes itself."
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "A Planet With a Lopsided Sky",
+      "deck": "A space telescope helped scientists see the uneven edge of a faraway planet’s air.",
+      "body": [
+        "WASP-17b is a very hot planet far, far away. It is about 1,300 light-years from Earth. A light-year is how far light travels in a whole year.",
+        "Scientists used a space telescope called Webb. They measured how far the planet’s air stretches out at many points around its edge.",
+        "The edge is lopsided. The air reaches farther on the evening side of the planet. The morning side is cooler. Winds carry heat from the sunny side to the dark side."
+      ],
+      "why": "Studying faraway planets helps us learn how weather works on Earth too.",
+      "sources": [
+        {
+          "outlet": "Finger Lakes 1 (Cornell)",
+          "title": "Cornell-led team maps uneven atmosphere of distant exoplanet",
+          "url": "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/"
+        },
+        {
+          "outlet": "University of Bristol",
+          "title": "Trailblazing technique uncovers real shape of scorching-hot exoplanet atmospheres",
+          "url": "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Strait",
+          "def": "A narrow strip of sea between two pieces of land. Today: Ships squeeze through the Strait of Hormuz."
+        },
+        {
+          "word": "Planet",
+          "def": "A big round world that goes around a star. Today: WASP-17b is a planet far from Earth."
+        },
+        {
+          "word": "Vote",
+          "def": "A way to choose something, like a leader. Today: Grown-ups will vote for Congress on November 3."
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/",
+    "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/",
+    "https://safety4sea.com/strait-of-hormuz-attacks-reach-record-high-in-october/",
+    "https://uk.finance.yahoo.com/news/crude-oil-slips-hormuz-shipping-091703972.html",
+    "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142",
+    "https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html",
+    "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1",
+    "https://www.fingerlakes1.com/2026/10/14/cornell-led-team-maps-uneven-atmosphere-of-distant-exoplanet/",
+    "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What is a strait?",
+        "options": [
+          "A narrow strip of sea",
+          "A big mountain",
+          "A kind of ship"
+        ],
+        "answer": 0,
+        "why": "A strait is a narrow strip of sea between two pieces of land.",
+        "story": "lead"
+      },
+      {
+        "q": "Did more ships or fewer ships get through this week?",
+        "options": [
+          "More",
+          "Fewer",
+          "Exactly the same"
+        ],
+        "answer": 1,
+        "why": "The paper says fewer got through.",
+        "story": "lead"
+      },
+      {
+        "q": "How many seats in the House will be voted for?",
+        "options": [
+          "35",
+          "100",
+          "435"
+        ],
+        "answer": 2,
+        "why": "All 435 seats in the House are up.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "COP31 will be held in Antalya, Türkiye.",
+        "true": true,
+        "why": "It runs from November 9 to 20.",
+        "story": "world"
+      },
+      {
+        "claim": "The air around WASP-17b is perfectly round.",
+        "true": false,
+        "why": "It is lopsided, reaching farther on the evening side.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Nadi",
+        "lat": -17.8,
+        "lon": 177.42,
+        "countries": [
+          "Fiji",
+          "Tuvalu"
+        ]
+      }
+    ]
+  }
+}

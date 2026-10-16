@@ -1,0 +1,462 @@
+{
+  "edition": "lab-notebook",
+  "date": "2026-10-17",
+  "volume": 1,
+  "issue": 2,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "The Houthis Turn to Airports as the Truce Collapses",
+      "deck": "At least 20 deaths at Saudi airports between October 6 and 11, officials say.",
+      "body": [
+        "The Houthis, an Iran-aligned movement that has held Sanaa and parts of north-west Yemen since 2014, are fighting Saudi-backed Yemeni government forces. A UN-brokered truce, in place since 2022, has collapsed. After Sanaa’s airport was struck, the Houthi leader announced a tit-for-tat policy: “airports for airports, ports for ports, and a blockade for a blockade.”",
+        "The Saudi-backed Yemeni government says that strike aimed to stop an Iranian plane from landing in Sanaa. The Houthis have declared Saudi airports and airspace “legitimate targets,” except Mecca and Medina. They also say they hit Aramco facilities. Many of their claims could not be independently verified.",
+        "Saudi civil aviation authorities report at least 20 deaths and 356 injuries at airports between October 6 and 11. The deadliest strike, on October 10 at Riyadh’s King Khalid International Airport, killed at least 12 people, including an American. Dammam, Abha, Jazan and Najran airports were also hit. On Wednesday, the Saudi-led coalition said it intercepted another missile launched toward Riyadh."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports and oil sites link a region to the world economy, so attacks on them can be felt far away.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why are the Houthis striking Saudi airports?",
+          "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Heat and Power Plants in Kyiv Struck as Winter Nears",
+      "deck": "President Zelenskyy says at least 600,000 people are without power.",
+      "body": [
+        "Late on October 13 and early on October 14, Russian ballistic missiles struck Kyiv. Ukraine’s prime minister, Serhii Koretskyi, said all three of the capital’s combined heat and power plants came under attack. These plants make electricity and heat for homes from the same fuel. Everyone at the plants was evacuated and no one there was injured.",
+        "President Zelenskyy said 26 energy sites were significantly damaged and at least 600,000 people had no electricity, with more blackouts possible. Koretskyi said facilities in Kyiv Oblast that supply the capital and central Ukraine were also hit.",
+        "The attack followed US President Donald Trump’s announcement of an “energy ceasefire.” Zelenskyy said Russia had not approved it, while Kremlin spokesman Dmitry Peskov would only say “Contacts are ongoing.” Ukraine has struck Russian refineries too.",
+        "Combined heat and power plants matter in cold countries because the heat left over from making electricity can be piped to warm buildings, so one strike can cut both at once. The casualty and grid figures here come from Ukrainian officials and were not independently confirmed in the reports we read. Repairs are under way, officials said."
+      ],
+      "illustration": {
+        "title": "THE GRID UNDER STRAIN",
+        "subtitle": "Kyiv, Ukraine",
+        "motif": "grid",
+        "caption": "Ukraine says 26 energy sites were badly damaged."
+      },
+      "connect": "Power stations and refineries are part of a country’s economy as well as its comfort, which is why both sides target each other’s energy.",
+      "sources": [
+        {
+          "outlet": "Ukrainska Pravda",
+          "title": "Russians attack all three combined heat and power plants in Kyiv",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/"
+        },
+        {
+          "outlet": "AP via News4Jax",
+          "title": "Kyiv says Russian strikes on energy facilities continue despite Trump’s energy ceasefire",
+          "url": "https://www.news4jax.com/news/world/2026/10/12/kyiv-says-russian-strikes-on-energy-facilities-continue-despite-trumps-energy-ceasefire/"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  PHYSICS",
+      "headline": "A Nuclear Clock That Corrects Itself",
+      "deck": "A thorium-229 prototype in Vienna ran for over 24 hours with no outside adjustment.",
+      "body": [
+        "Atomic clocks use the regular behaviour of electrons in atoms to keep time. A nuclear clock instead uses a change inside the nucleus, the dense core of an atom. Researchers at TU Wien and PTB Braunschweig built one around a thorium-229 crystal driven by a laser, and published the work in Nature.",
+        "The advance is a feedback loop: the system detects when the laser frequency drifts and corrects it automatically. The prototype stayed stable for over 24 hours without help. Its precision was about 1 part in 10^15, which the researchers describe as roughly one second in 30 million years.",
+        "It still trails the best optical atomic clocks. A preliminary search for dark matter with the clock found no significant signal. The work was led by Thorsten Schumm and Ekkehard Peik.",
+        "Why use a nucleus at all? Electrons in an atom are easily disturbed by stray electric and magnetic fields, while the nucleus is better shielded. The thorium-229 nucleus is unusual because a laser can nudge it between two energy states, which makes it a promising timekeeper. Researchers also see such clocks as a tool for testing whether the constants of nature change, which is why a dark-matter search was run even though it found no signal.",
+        "For students, the key idea is feedback: a measurement of the clock’s drift is fed back to correct the laser, much like a thermostat that keeps a room at a set temperature."
+      ],
+      "illustration": {
+        "title": "KEEPING TIME IN THE NUCLEUS",
+        "subtitle": "TU Wien and PTB",
+        "motif": "globe",
+        "caption": "A laser tuned to a thorium-229 crystal."
+      },
+      "why": "More precise clocks improve navigation and let physicists test whether the constants of nature change.",
+      "sources": [
+        {
+          "outlet": "Quantum Zeitgeist",
+          "title": "Nuclear clock at TU Wien stabilizes itself for over a day",
+          "url": "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/"
+        },
+        {
+          "outlet": "ScienceDaily",
+          "title": "First self-stabilizing nuclear clock",
+          "url": "https://sciencedaily.com/releases/2026/10/261008102701.htm"
+        }
+      ]
+    },
+    "climate_and_environment": {
+      "kicker": "CLIMATE & ENVIRONMENT  •  ATLANTIC",
+      "headline": "A Strong El Niño Is Holding Back Atlantic Hurricanes",
+      "deck": "NOAA gives a 75% chance of a below-normal season.",
+      "body": [
+        "NOAA’s August update raised the chance of a below-normal Atlantic hurricane season to 75%, up from 55% in May. It forecasts 7 to 13 named storms, 2 to 6 hurricanes and 0 to 2 major hurricanes.",
+        "The driver is El Niño, a warm phase in the tropical Pacific. NOAA gave a 90% chance of a strong or very strong El Niño during August, September and October. El Niño raises upper-level winds over the Atlantic, which disrupts storm development, and NOAA noted that every strong El Niño since 1950 has come with a below-normal Atlantic season.",
+        "NOAA’s administrator cautioned that “it only takes one” storm, and said category 5 storms have made landfall in below-average seasons.",
+        "The numbers need careful reading. A forecast is a set of probabilities, not a promise: a 75% chance of a below-normal season still leaves a 25% chance of something else, and ranges such as 0 to 2 major hurricanes show real uncertainty. NOAA’s August outlook updated its May one, which gave a 55% chance of a below-normal season.",
+        "The Atlantic season officially runs from June 1 to November 30, so the forecast still applies to the weeks ahead. The lesson for readers is to separate two questions that are easy to blur: how many storms will form, and where any one of them will go. El Niño helps with the first; it says little about the second."
+      ],
+      "illustration": {
+        "title": "WINDS ALOFT",
+        "subtitle": "Atlantic Ocean",
+        "motif": "flood",
+        "caption": "Upper-level winds can pull storms apart."
+      },
+      "why": "A quiet season means lower odds of landfalls, but not zero: preparedness still matters.",
+      "sources": [
+        {
+          "outlet": "WEAR-TV",
+          "title": "NOAA lowers 2026 hurricane season forecast as strong El Niño suppresses Atlantic activity",
+          "url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+        }
+      ]
+    },
+    "health": {
+      "kicker": "HEALTH  •  KENYA",
+      "headline": "Kenya’s First Ebola Case: A Test of Contact Tracing",
+      "deck": "An imported case was confirmed on October 6; the outbreak is in DR Congo.",
+      "body": [
+        "Kenya confirmed its first Ebola case on October 6. The patient was a Kenyan man who had lived in DR Congo and died in Nairobi after returning.",
+        "Officials began contact tracing: finding and monitoring people who were near a patient so any new illness can be caught early. Africanews reported that 28 contacts had been traced.",
+        "The wider outbreak is in DR Congo and is caused by the Bundibugyo strain. WHO declared it a public health emergency of international concern. One report in July counted more than 2,400 cases and nearly 1,000 deaths in Congo; later totals were not available to us.",
+        "Why does contact tracing matter? Ebola spreads through direct contact with the body fluids of a sick person, so the people most at risk are family members and health workers who cared for the patient. Finding them quickly, checking their health daily and isolating anyone who falls ill is a main way to stop a chain of infection.",
+        "Kenya’s case also shows how disease crosses borders: the patient had lived in DR Congo and died in Nairobi after returning. Each stage of such a journey is a point where contacts must be found, which makes the response both a local and a regional task. Contact tracing began as soon as the case was confirmed on October 6."
+      ],
+      "illustration": {
+        "title": "TRACING CONTACTS",
+        "subtitle": "Nairobi, Kenya",
+        "motif": "hospital",
+        "caption": "Contact tracing finds possible new cases early."
+      },
+      "why": "Tracing contacts is how health systems stop one case from becoming many, so a single imported case does not spread unseen.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Kenya confirms first Ebola case",
+          "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"
+        },
+        {
+          "outlet": "Africanews",
+          "title": "Kenya confirms first Ebola death as 28 contacts traced",
+          "url": "https://www.africanews.com/2026/10/06/kenya-confirms-first-ebola-death-as-28-contacts-traced/"
+        },
+        {
+          "outlet": "The Sun (Malaysia)",
+          "title": "Ebola outbreak in Congo tops 2,400 cases",
+          "url": "https://thesun.my/news/world-news/ebola-outbreak-in-congo-tops-2400-cases-with-nearly-1000-deaths/"
+        },
+        {
+          "outlet": "Gulf Daily News",
+          "title": "Ebola outbreak is declared an emergency of global concern",
+          "url": "https://gdnonline.com/Details/1395053/Ebola-outbreak-is-declared-an-emergency-of-global-concern"
+        }
+      ]
+    },
+    "history_and_geography": {
+      "kicker": "HISTORY & GEOGRAPHY  •  CHOKEPOINTS",
+      "headline": "Why Two Narrow Straits Shape the Price of Oil",
+      "deck": "Bab el-Mandeb and Hormuz are both under pressure at once.",
+      "body": [
+        "A chokepoint is a narrow passage that traffic must squeeze through. The Strait of Hormuz, beside Iran, has effectively been closed by the Iran conflict since the US and Israel attacked Iran in late February, Yahoo Finance reports. Brent crude touched $110 a barrel after Iran escalated attacks there.",
+        "That raises the value of the Bab el-Mandeb strait, the southern exit of the Red Sea and a key route between the Mediterranean and Asia. The Houthis announced a blockade of Saudi vessels there. Control of the strait is disputed: a Reuters-based report said the Houthis had taken it, while pro-government forces say they have secured it.",
+        "On October 16, one market report put Brent at $107.83 a barrel and the US benchmark, WTI, at $97.07.",
+        "History explains why these straits matter. For centuries the narrow places where seas meet have been where trade is easiest to tax, defend or block, and today much of the world’s oil moves by ship. The SCMP reported that the Houthi blockade of Saudi vessels forced the kingdom to divert oil exports from Red Sea ports to Asia around Africa."
+      ],
+      "chart": {
+        "title": "OIL PRICES, OCTOBER 16",
+        "subtitle": "US dollars a barrel",
+        "labels": [
+          "WTI",
+          "Brent"
+        ],
+        "values": [
+          97.07,
+          107.83
+        ],
+        "max": 120,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "One market report put Brent at $107.83 and WTI at $97.07."
+      },
+      "why": "Geography decides where trade can flow. When two routes are threatened at once, there is no easy detour.",
+      "analyst": "Why might Brent and WTI prices differ? Which countries gain from a detour, and which lose?",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Oil prices climb above $100 on Hormuz attacks",
+          "url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+        },
+        {
+          "outlet": "Vantage Markets",
+          "title": "Oil Prices Today",
+          "url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Government forces launched counteroffensive",
+          "url": "https://gulfnews.com/world/gulf/yemen/yemen-sees-worst-clashes-in-years-as-fighting-kills-129-1.500664105"
+        },
+        {
+          "outlet": "SCMP",
+          "title": "Houthi offensive on Bab el-Mandeb strait",
+          "url": "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Albania: Students protested for a third day in Tirana, and police said 16 people were arrested after a fire at the Education Ministry.",
+        "India: Delhi Police removed Jantar Mantar as a designated protest site and named three new venues.",
+        "United States: Consumer prices in September were 3.7% higher than a year earlier, up from 3.4% in August.",
+        "Fiji: Pre-COP31 climate meetings were held in Nadi from October 5 to 8; COP31 runs in Antalya, Türkiye, from November 9 to 20."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Chokepoint",
+          "def": "A narrow passage that traffic must pass through. Today: Hormuz and Bab el-Mandeb are sea chokepoints."
+        },
+        {
+          "word": "Contact tracing",
+          "def": "Finding and monitoring people who were near a patient. Today: Kenya traced contacts of its first Ebola patient."
+        },
+        {
+          "word": "Thorium-229",
+          "def": "A form of thorium whose nucleus can be nudged by a laser. Today: It is the heart of the Vienna nuclear clock."
+        },
+        {
+          "word": "Truce",
+          "def": "An agreement to stop fighting for a time. Today: The 2022 UN-brokered truce in Yemen has collapsed."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Brent crude, one of the world’s main oil price benchmarks, is named after the Brent oilfield in the North Sea."
+    },
+    "explainer": {
+      "title": "What is an El Niño?",
+      "body": [
+        "El Niño is a periodic warming of surface water in the tropical Pacific Ocean. It shifts rainfall and winds, and its effects reach far from the Pacific.",
+        "One effect, according to NOAA, is stronger upper-level winds over the Atlantic. Those winds make it harder for tropical storms to organise, which is why strong El Niño years tend to have fewer Atlantic hurricanes."
+      ],
+      "sources": [
+        {
+          "outlet": "News report",
+          "title": "noaa",
+          "url": "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> How many Kyiv heat and power plants were attacked?",
+        "(a) One  (b) Two  (c) All three",
+        "<b>2.</b> What is the chance of a below-normal hurricane season, per NOAA’s August update?",
+        "(a) 25%  (b) 55%  (c) 75%",
+        "<b>3.</b> Which element is in the Vienna nuclear clock’s crystal?",
+        "(a) Thorium-229  (b) Iron-56  (c) Carbon-14",
+        "<b>4.</b> What strain of Ebola is spreading in DR Congo?",
+        "(a) Zaire  (b) Bundibugyo  (c) Marburg",
+        "<b>5.</b> Which strait is the southern exit of the Red Sea?",
+        "(a) Hormuz  (b) Bab el-Mandeb  (c) Gibraltar",
+        "<b>Answers.</b> 1 (c). 2 (c). 3 (a). 4 (b). 5 (b)."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "Discuss",
+      "body": [
+        "Why might attackers choose airports and power plants as targets, and what do civilians lose?",
+        "Why can a narrow strait matter more to the world economy than a much larger sea?",
+        "What makes contact tracing work?"
+      ],
+      "sources": [
+        {
+          "outlet": "News report",
+          "title": "hou1",
+          "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+        },
+        {
+          "outlet": "News report",
+          "title": "oil1",
+          "url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+        },
+        {
+          "outlet": "News report",
+          "title": "eb1",
+          "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Science is a way of asking better questions.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html",
+    "https://gdnonline.com/Details/1395053/Ebola-outbreak-is-declared-an-emergency-of-global-concern",
+    "https://gulfnews.com/world/gulf/yemen/yemen-sees-worst-clashes-in-years-as-fighting-kills-129-1.500664105",
+    "https://kuwaittimes.com/article/50824/world/world-powers-gather-in-pacific-to-chart-climate-fight/",
+    "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
+    "https://quantumzeitgeist.com/atomic-subatomic-nuclear-clock-tu-wien/",
+    "https://sciencedaily.com/releases/2026/10/261008102701.htm",
+    "https://thesun.my/news/world-news/ebola-outbreak-in-congo-tops-2400-cases-with-nearly-1000-deaths/",
+    "https://weartv.com/news/local/noaa-lowers-2026-hurricane-season-forecast-as-strong-el-nino-suppresses-atlantic-activity",
+    "https://www.africanews.com/2026/10/06/kenya-confirms-first-ebola-death-as-28-contacts-traced/",
+    "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports",
+    "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day",
+    "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh",
+    "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+    "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated",
+    "https://www.news4jax.com/news/world/2026/10/12/kyiv-says-russian-strikes-on-energy-facilities-continue-despite-trumps-energy-ceasefire/",
+    "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/",
+    "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis",
+    "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many Kyiv heat and power plants were attacked?",
+        "options": [
+          "One",
+          "Two",
+          "All three"
+        ],
+        "answer": 2,
+        "why": "The prime minister said all three came under attack.",
+        "story": "world"
+      },
+      {
+        "q": "What is NOAA’s chance of a below-normal hurricane season (August)?",
+        "options": [
+          "25%",
+          "55%",
+          "75%"
+        ],
+        "answer": 2,
+        "why": "NOAA put it at 75%, up from 55% in May.",
+        "story": "climate_and_environment"
+      },
+      {
+        "q": "Which element is in the Vienna nuclear clock’s crystal?",
+        "options": [
+          "Thorium-229",
+          "Iron-56",
+          "Carbon-14"
+        ],
+        "answer": 0,
+        "why": "The reference is a thorium-229 crystal.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "Which Ebola strain is behind the DR Congo outbreak?",
+        "options": [
+          "Zaire",
+          "Bundibugyo",
+          "Marburg"
+        ],
+        "answer": 1,
+        "why": "The outbreak is caused by the Bundibugyo strain.",
+        "story": "health"
+      },
+      {
+        "q": "Which strait is the southern exit of the Red Sea?",
+        "options": [
+          "Hormuz",
+          "Bab el-Mandeb",
+          "Gibraltar"
+        ],
+        "answer": 1,
+        "why": "Bab el-Mandeb is the southern exit.",
+        "story": "history_and_geography"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Houthi leader announced an “airports for airports” policy.",
+        "true": true,
+        "why": "He said “airports for airports, ports for ports, and a blockade for a blockade.”",
+        "story": "lead"
+      },
+      {
+        "claim": "Kenya confirmed its first Ebola case on October 20.",
+        "true": false,
+        "why": "It confirmed the case on October 6.",
+        "story": "health"
+      },
+      {
+        "claim": "The nuclear clock stayed stable for over 24 hours without outside adjustment.",
+        "true": true,
+        "why": "The prototype ran for over 24 hours with no outside adjustment.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Vienna",
+        "lat": 48.21,
+        "lon": 16.37,
+        "countries": [
+          "Austria"
+        ]
+      },
+      {
+        "story": "health",
+        "place": "Nairobi",
+        "lat": -1.29,
+        "lon": 36.82,
+        "countries": [
+          "Kenya",
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "story": "history_and_geography",
+        "place": "Bab el-Mandeb",
+        "lat": 12.58,
+        "lon": 43.33,
+        "countries": [
+          "Yemen",
+          "Djibouti"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}

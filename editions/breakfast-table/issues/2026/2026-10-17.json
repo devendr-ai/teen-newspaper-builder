@@ -1,0 +1,317 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-17",
+  "volume": 1,
+  "issue": 7,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Airports Become Targets in Yemen’s Widening War",
+      "deck": "Saudi officials say attacks on airports from October 6 to 11 killed at least 20 people.",
+      "body": [
+        "Saudi Arabia is in a fight with the Houthis, a group that controls Sanaa and parts of north-west Yemen. Yemen is the country just south of Saudi Arabia. A truce set up by the United Nations in 2022 mostly held for years. It has now collapsed.",
+        "The Houthi leader calls the attacks tit-for-tat. He says the policy is “airports for airports, ports for ports.” That came after Sanaa’s airport was hit. The Saudi-backed Yemeni government says that strike aimed to stop an Iranian plane from landing there.",
+        "Saudi aviation officials counted at least 20 deaths and 356 injuries at airports between October 6 and 11. The worst strike hit Riyadh’s main airport on October 10 and killed at least 12 people. On Wednesday, the Saudi-led coalition said it stopped a missile fired toward Riyadh."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "When airports are hit, families, workers and aid flights far from the fighting are affected.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why are the Houthis striking Saudi airports?",
+          "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  THE GULF",
+      "headline": "Attacks on Ships Keep Oil Above $100",
+      "deck": "A barrel of Brent crude cost about $108 on Friday, one report said.",
+      "body": [
+        "The Strait of Hormuz is a narrow sea passage next to Iran. Oil tankers from many countries sail through it. In late February the United States and Israel attacked Iran, and the strait was closed, according to one report.",
+        "Iran has since attacked tankers there. UK officials reported at least nine attacks in October alone. Brent crude, a standard measure of oil prices, hit $110 a barrel at one point. When oil is harder to move, it costs more.",
+        "On Friday, one market report put Brent at about $108 and US oil, called WTI, at about $97. Yahoo Finance reported that global fuel prices began climbing in the spring after the US and Israel attacked Iran in late February."
+      ],
+      "chart": {
+        "title": "OIL PRICES, OCTOBER 16",
+        "subtitle": "US dollars a barrel",
+        "labels": [
+          "WTI",
+          "Brent"
+        ],
+        "values": [
+          97.07,
+          107.83
+        ],
+        "max": 120,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "One market report put Brent at $107.83 and WTI at $97.07."
+      },
+      "connect": "Oil is sold around the world, so a problem on one sea lane can change fuel prices in a country that never sails there. That is why a fight in the Gulf shows up in the US inflation figures on page 2, where gasoline was the main driver.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Oil prices climb above $100 on Strait of Hormuz attacks, Gulf storm threat",
+          "url": "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+        },
+        {
+          "outlet": "Vantage Markets",
+          "title": "Oil Prices Today: WTI Leads, Brent Stalls Amid US Draw, Hormuz",
+          "url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  PRICES",
+      "headline": "US Prices Rose 3.7% in a Year, Led by Petrol",
+      "deck": "The report came about three weeks before the November 3 elections.",
+      "body": [
+        "Inflation is how fast prices rise. On October 14, the US Labor Department said consumer prices in September were 3.7% higher than a year earlier. In August the figure was 3.4%.",
+        "Gasoline, which Americans call gas, was the main driver. Prices also rose 0.6% from August to September, the biggest monthly gain in five months. Prices for things other than food and energy rose 2.6% over the year, up from 2.4%.",
+        "The central bank, called the Federal Reserve, meets on October 27 and 28. Higher inflation puts more pressure on it to raise its key interest rate."
+      ],
+      "why": "Prices touch every family’s budget, and voters say the cost of living is their main worry as midterm elections near.",
+      "also": [
+        "Elections: Election Day is November 3, and all 435 House seats are up.",
+        "Jobs: Weekly jobless claims fell to 197,000 in the week to October 3."
+      ],
+      "sources": [
+        {
+          "outlet": "Kuwait Times (Reuters)",
+          "title": "US consumer prices accelerate on costlier gasoline",
+          "url": "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/"
+        },
+        {
+          "outlet": "KSL (Reuters)",
+          "title": "Consumer prices accelerate in September",
+          "url": "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer"
+        },
+        {
+          "outlet": "blue News",
+          "title": "What you need to know about the midterms",
+          "url": "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142"
+        },
+        {
+          "outlet": "BabyPips",
+          "title": "US initial jobless claims",
+          "url": "https://www.babypips.com/news/headline-us-initial-jobless-claims-layoffs-2026-10-09"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Russia attacked all three of Kyiv’s heat and power plants, and at least 600,000 people had no electricity, President Zelenskyy said.",
+        "Albania: Students protested for a third day in Tirana and demanded the prime minister resign."
+      ]
+    },
+    "discussion": {
+      "title": "Questions for the table",
+      "body": [
+        "Why might a fight over a sea lane change petrol prices where you live?",
+        "Who should decide where people may protest, and why?",
+        "What do families lose when power plants or airports are attacked?"
+      ],
+      "sources": [
+        {
+          "outlet": "News report",
+          "title": "hou1",
+          "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+        },
+        {
+          "outlet": "News report",
+          "title": "oil2",
+          "url": "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+        },
+        {
+          "outlet": "News report",
+          "title": "jan",
+          "url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Delhi Ends Jantar Mantar as a Protest Site",
+      "deck": "Police named three new places where protests may be held.",
+      "body": [
+        "Jantar Mantar is a well-known spot in New Delhi where people have gathered to protest. A Delhi Police order dated October 11 says it is no longer a protest site. The order names Ramlila Ground, Burari Ground and CBD Ground in East Delhi instead.",
+        "The order says it follows advice from a committee set up by the Home Ministry. The Indian Youth Congress president, Uday Bhanu Chib, has asked the Delhi High Court to overturn the change. Police told the court the decision was based on a Supreme Court order of October 9.",
+        "The change came as protests over voter lists grew. The Supreme Court has linked a petition by opposition leaders about the voter-list revision to another case. Both are due to be heard on October 27.",
+        "Leaders of the Cockroach Janta Party, a protest group, were detained near Jantar Mantar after trying to enter the site."
+      ],
+      "why": "Where citizens may protest is part of how a democracy lets people disagree with those in power.",
+      "sources": [
+        {
+          "outlet": "Bar & Bench",
+          "title": "Jantar Mantar de-notified as protest venue",
+          "url": "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated"
+        },
+        {
+          "outlet": "The Week",
+          "title": "CJP leaders detained at Jantar Mantar",
+          "url": "https://www.theweek.in/news/india/2026/10/13/cockroach-janata-party-cjp-leaders-detained-at-jantar-mantar.amp.html"
+        },
+        {
+          "outlet": "Newstrack",
+          "title": "Supreme Court links SIR plea, hearing on October 27",
+          "url": "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "The Saudi Pro League moved three games. <b>Al Ahli v Al Nassr</b>, Cristiano Ronaldo’s team, is now set for 6 March 2027. Two other games move to 19 December. The league said it was for rest time between matches.",
+      "sources": [
+        {
+          "outlet": "eNCA",
+          "title": "Saudi league postpones three matches after Houthi attacks",
+          "url": "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1"
+        },
+        {
+          "outlet": "The National",
+          "title": "Crunch SPL fixture postponed",
+          "url": "https://www.thenationalnews.com/sport/football/2026/10/14/crunch-spl-fixture-involving-cristiano-ronaldos-al-nassr-postponed-due-to-logistical-considerations/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the Fed raises interest rates on October 28.",
+        "What the Supreme Court hears on October 27."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the first step to good understanding.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://english.newstrack.com/india-news/supreme-court-links-rahul-gandhis-sir-plea-to-another-case-hearing-on-october-27-640696",
+    "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html",
+    "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
+    "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports",
+    "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh",
+    "https://www.babypips.com/news/headline-us-initial-jobless-claims-layoffs-2026-10-09",
+    "https://www.barandbench.com/news/jantar-mantar-de-notified-as-protest-venue-by-delhi-police-three-new-venues-designated",
+    "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142",
+    "https://www.enca.com/sport/saudi-league-postpones-three-matches-after-houthi-attacks-1",
+    "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer",
+    "https://www.thenationalnews.com/sport/football/2026/10/14/crunch-spl-fixture-involving-cristiano-ronaldos-al-nassr-postponed-due-to-logistical-considerations/",
+    "https://www.theweek.in/news/india/2026/10/13/cockroach-janata-party-cjp-leaders-detained-at-jantar-mantar.amp.html",
+    "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Delhi Police end at Jantar Mantar?",
+        "options": [
+          "Its use as a protest site",
+          "A railway line",
+          "A cricket match"
+        ],
+        "answer": 0,
+        "why": "An order says it is no longer a protest site.",
+        "story": "india"
+      },
+      {
+        "q": "How many of Kyiv’s heat and power plants were attacked?",
+        "options": [
+          "One",
+          "Three",
+          "Ten"
+        ],
+        "answer": 1,
+        "why": "The paper says all three were attacked.",
+        "story": "lead"
+      },
+      {
+        "q": "What was US inflation in September, year on year?",
+        "options": [
+          "2.6%",
+          "3.4%",
+          "3.7%"
+        ],
+        "answer": 2,
+        "why": "Prices were 3.7% higher than a year earlier.",
+        "story": "us"
+      },
+      {
+        "q": "Which price was higher on October 16 in the chart?",
+        "options": [
+          "WTI",
+          "Brent",
+          "They were equal"
+        ],
+        "answer": 1,
+        "why": "Brent was about $108 and WTI about $97.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Houthi leader said the policy is “airports for airports, ports for ports.”",
+        "true": true,
+        "why": "The paper quotes his tit-for-tat policy.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Federal Reserve meets on October 5 and 6.",
+        "true": false,
+        "why": "It meets on October 27 and 28.",
+        "story": "us"
+      },
+      {
+        "claim": "The Saudi league said the Al Nassr game moved for rest time between matches.",
+        "true": true,
+        "why": "The league cited the minimum rest period between matches.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
