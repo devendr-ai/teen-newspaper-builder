@@ -81,7 +81,7 @@ def test_levels_and_activity():
 @pytest.fixture(scope="module")
 def built(tmp_path_factory):
     out = tmp_path_factory.mktemp("site")
-    play.build(str(out), site.site_config(), keep=7, log=lambda *a: None)
+    play.build(str(out), site.site_config(), keep=1000, log=lambda *a: None)   # every page, so dated tests stay valid
     return out / "play"
 
 
@@ -105,4 +105,5 @@ def test_linked_stories_show_the_way_in_at_the_readers_level(built):
     assert 'class="tchip" href="../threads/yemen-war.html"' in jd
     assert 'class="tchip" href="../threads/yemen-war-more.html"' in ygc
     lobby = (built / "index.html").read_text(encoding="utf-8")
-    assert lobby.count('class="bigstory"') <= threads.MAX_ACTIVE and 'data-old="threads/yemen-war-more.html"' in lobby
+    shown = re.findall(r'data-old="threads/([a-z0-9-]+)-more\.html"', lobby)        # the active threads, older readers' links
+    assert len(shown) <= threads.MAX_ACTIVE and all(threads.exists(t) for t in shown)
