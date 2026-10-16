@@ -1,0 +1,185 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-17",
+  "volume": 1,
+  "issue": 7,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Why Are Airports Being Targeted in Saudi Arabia?",
+      "deck": "Saudi officials say attacks on airports from October 6 to 11 killed at least 20 people.",
+      "body": [
+        "Saudi Arabia is in a fight with the Houthis, a group that controls Sanaa and parts of north-west Yemen. Yemen is the country just south of Saudi Arabia. For years a truce set up by the United Nations mostly held. It has now collapsed.",
+        "The Houthi leader describes the attacks as tit-for-tat. He said the policy is “airports for airports, ports for ports.” This came after Sanaa’s airport was hit. The Saudi-backed Yemeni government said that strike aimed to stop an Iranian plane from landing there.",
+        "Saudi aviation officials counted at least 20 deaths and 356 injuries at airports from October 6 to 11. The worst strike hit Riyadh’s main airport on October 10 and killed at least 12 people. On Wednesday the Saudi-led coalition said it stopped a missile fired toward Riyadh."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports connect people to family, work and help. When they are attacked, many people far from the fighting are affected.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why are the Houthis striking Saudi airports?",
+          "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Kyiv’s Heat and Power Plants Come Under Attack",
+      "deck": "Ukraine’s president says at least 600,000 people have no electricity.",
+      "body": [
+        "Russia and Ukraine have been at war for years. Early on October 14, Russia fired ballistic missiles at Kyiv, Ukraine’s capital. Ukraine’s prime minister said all three of the city’s heat and power plants came under attack.",
+        "These plants make electricity and heat for homes. Officials said everyone there was evacuated and nobody was hurt. President Zelenskyy said 26 energy sites were badly damaged and at least 600,000 people had no power.",
+        "Ukraine says Russia kept striking after Donald Trump, the US president, announced an “energy ceasefire.” A Kremlin spokesman said only that “contacts are ongoing.”"
+      ],
+      "chart": {
+        "title": "ENERGY ATTACKS IN NUMBERS",
+        "subtitle": "Reported by Ukraine’s leaders",
+        "labels": [
+          "Plants hit",
+          "Sites hurt"
+        ],
+        "values": [
+          3,
+          26
+        ],
+        "max": 30,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are from Ukraine’s prime minister and president."
+      },
+      "why": "Without power and heat, homes and hospitals struggle in the cold.",
+      "sources": [
+        {
+          "outlet": "Ukrainska Pravda",
+          "title": "Russians attack all three combined heat and power plants in Kyiv",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Albania: Students protested for a third day, demanding the prime minister resign.",
+        "Oil: Brent crude cost about $108 a barrel on Friday as ships near Hormuz kept being attacked."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether power returns across Ukraine.",
+        "Whether attacks on Saudi airports stop."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports",
+    "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh",
+    "https://www.pravda.com.ua/eng/news/2026/10/14/8057936/",
+    "https://www.aljazeera.com/news/2026/10/14/fire-erupts-at-albanias-education-ministry-as-protests-enter-third-day",
+    "https://www.vantagemarkets.com/market-analysis/oil-prices-today-wti-leads-brent-stalls-us-draw-hormuz-october-16-2026/",
+    "https://finance.yahoo.com/markets/article/oil-prices-climb-above-100-on-strait-of-hormuz-attacks-gulf-storm-threat-122612488.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Who controls Sanaa and parts of north-west Yemen?",
+        "options": [
+          "The Houthis",
+          "The United Nations",
+          "Albania"
+        ],
+        "answer": 0,
+        "why": "The paper says the Houthis control Sanaa and parts of north-west Yemen.",
+        "story": "lead"
+      },
+      {
+        "q": "On which date did the worst strike hit Riyadh’s main airport?",
+        "options": [
+          "October 6",
+          "October 10",
+          "October 14"
+        ],
+        "answer": 1,
+        "why": "The worst strike hit Riyadh’s airport on October 10.",
+        "story": "lead"
+      },
+      {
+        "q": "How many of Kyiv’s heat and power plants came under attack?",
+        "options": [
+          "One",
+          "Two",
+          "All three"
+        ],
+        "answer": 2,
+        "why": "Ukraine’s prime minister said all three came under attack.",
+        "story": "world"
+      },
+      {
+        "q": "About how many people had no power, according to President Zelenskyy?",
+        "options": [
+          "600,000",
+          "60,000",
+          "6 million"
+        ],
+        "answer": 0,
+        "why": "He said at least 600,000 people had no power.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Houthi leader said the policy is “airports for airports, ports for ports.”",
+        "true": true,
+        "why": "The paper quotes the Houthi leader’s tit-for-tat policy.",
+        "story": "lead"
+      },
+      {
+        "claim": "Heat and power plants in Kyiv only make electricity, not heat.",
+        "true": false,
+        "why": "The plants make electricity and also heat for homes.",
+        "story": "world"
+      },
+      {
+        "claim": "Saudi officials counted at least 20 deaths at airports from October 6 to 11.",
+        "true": true,
+        "why": "Aviation officials counted at least 20 deaths and 356 injuries.",
+        "story": "lead"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
