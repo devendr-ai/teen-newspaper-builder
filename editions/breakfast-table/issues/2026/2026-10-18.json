@@ -1,0 +1,321 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-18",
+  "volume": 1,
+  "issue": 8,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Missiles Hit Aden While Riyadh’s Airport Stays Shut",
+      "deck": "Saudi Arabia says 12 people died in the October 10 airport attack.",
+      "body": [
+        "Saudi Arabia and the Houthis, a group that controls Sanaa in Yemen, are still fighting. Yemen is the country just south of Saudi Arabia. On October 10 a strike hit the main airport in Riyadh, the Saudi capital. Saudi Arabia says 12 people were killed and 300 were hurt.",
+        "Riyadh’s airport is still suspended. On Thursday, Houthi missiles hit a palace in Aden, Yemen’s temporary capital. Yemen’s health minister said five people were killed and 16 were wounded. The United Nations Security Council also condemned the Houthi attacks.",
+        "The United States has not joined the fight. On Friday, President Trump said Saudi Arabia should accept help from Israel. Saudi Arabia accuses Iran of encouraging the Houthis. Iran denies it and offers to help the sides talk."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "When airports are hit, families, workers and aid flights far from the fighting are affected.",
+      "sources": [
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Trump says Israel has been very helpful to Saudi Arabia",
+          "url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EUROPE AND UKRAINE",
+      "headline": "European Leaders Back Ukraine, Ask How to Pay",
+      "deck": "Ukraine’s president asked for 70 billion euros more for next year.",
+      "body": [
+        "Leaders of European Union countries met in Brussels, Belgium, on October 15 and 16. Ukraine’s president, Volodymyr Zelenskyy, came to ask for help in the war with Russia.",
+        "He said the war will cost Ukraine 155 billion euros next year, and asked for 70 billion euros more. The EU has already agreed a loan of 90 billion euros for 2026 and 2027. Leaders asked the EU’s Commission to suggest how to fill the gap.",
+        "Leaders also kept sanctions on Russia. Sanctions are penalties meant to put pressure on a country. The summit took place as Zelenskyy argues with Trump over a US deal to let Russian diesel reach world markets.",
+        "The leaders did not agree on the EU’s next long-term budget, which covers 2028 to 2034. The European Commission proposed nearly 2 trillion euros. Countries disagree about how big it should be and what it should pay for."
+      ],
+      "chart": {
+        "title": "UKRAINE’S MONEY NEEDS",
+        "subtitle": "In billions of euros",
+        "labels": [
+          "Loan",
+          "Extra ask",
+          "Total need"
+        ],
+        "values": [
+          90,
+          70,
+          155
+        ],
+        "max": 160,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are from Zelenskyy and EU reports."
+      },
+      "connect": "Countries often pay for big projects by pooling money, like families sharing a bill. Europe is now looking for a way to fill Ukraine’s gap.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU rallies in support of Ukraine amid Trump standoff",
+          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+        },
+        {
+          "outlet": "CGTN",
+          "title": "EU summit ends with mounting bills and unresolved divisions",
+          "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Five takeaways from the EU leaders’ summit",
+          "url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CONGRESS",
+      "headline": "Lawmakers Try to Block a Russian Diesel Deal",
+      "deck": "Six Republican and six Democratic senators asked Trump to cancel it.",
+      "body": [
+        "Diesel is a fuel used by trucks, trains and farm machines. On October 9, President Trump announced a deal to let Russian diesel reach world markets by easing sanctions. Senators say the US would import about 2.2 million tons over two months.",
+        "Twelve senators, six from each party, wrote to Trump asking him to cancel it. They called it a gift to an adversary and a betrayal of allies. On Friday, a group of House Democrats and one Republican filed a bill to block it.",
+        "That bill faces a hard road. Passing it would likely mean overcoming a presidential veto, which is when a president rejects a law. Republican leaders have not joined the effort, and Congress is away until after the midterm elections."
+      ],
+      "why": "It shows how Congress can push back on a president, and how hard that can be.",
+      "also": [
+        "Elections: The midterm elections are about three weeks away.",
+        "Fuel: Fuel prices are a political worry for Republicans before the vote."
+      ],
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Bipartisan group of senators call on Trump to rescind Russian diesel deal",
+          "url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Trump Diesel Deal Faces New Congressional Legislation",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Oil: Brent crude closed Friday at $109.86 a barrel, its highest since May, as ships near Hormuz kept being hit.",
+        "Markets: Tech stocks lost more than $1 trillion in value on Friday as oil prices rose."
+      ]
+    },
+    "discussion": {
+      "title": "Questions for the table",
+      "body": [
+        "Why might a fight far away change fuel prices where you live?",
+        "Who should pay for a long war, and why?",
+        "Why is it important for courts to look at voter lists?"
+      ],
+      "sources": [
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        },
+        {
+          "outlet": "CGTN",
+          "title": "EU summit ends with mounting bills and unresolved divisions",
+          "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+        },
+        {
+          "outlet": "LawBeat",
+          "title": "Supreme Court Issues Notice To ECI, CEC Gyanesh Kumar",
+          "url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  NEW DELHI",
+      "headline": "Supreme Court Asks Election Commission to Respond",
+      "deck": "Thirteen opposition leaders challenge the revision of voter lists.",
+      "body": [
+        "A voter list names the people allowed to vote. India’s Election Commission has been revising these lists in a project called the Special Intensive Revision. The opposition says many voters were removed without notice. The Commission denies breaking rules and says people removed in error can register again.",
+        "On October 15, the Supreme Court issued notice to the Election Commission and its chief, Gyanesh Kumar. A notice is an order to answer a petition. Thirteen opposition leaders, including Rahul Gandhi and Mallikarjun Kharge, filed it on October 12.",
+        "They say the chief decided on his own matters the Commission should decide together. The court joined the petition with cases already pending. In May it upheld the revision’s validity, and the petitioners say they are not asking to reopen that ruling.",
+        "The court also agreed to hear separate petitions about police conduct and detentions during protests in Delhi.",
+        "A petition is a formal request to a court. Here, the opposition asks the court to examine how the revision was decided."
+      ],
+      "why": "Voter lists decide who can vote, so courts watch how they are changed.",
+      "sources": [
+        {
+          "outlet": "LawBeat",
+          "title": "Supreme Court Issues Notice To ECI, CEC Gyanesh Kumar",
+          "url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "India Top Court to Hear Election Challenge, Delhi Protest Cases",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/india-top-court-to-hear-election-challenge-delhi-protest-cases"
+        }
+      ]
+    },
+    "sports": {
+      "title": "RUGBY",
+      "body": "In the European Champions Cup on Saturday, <b>Leinster</b> beat Clermont 48-23 in Pool 1.",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "title": "Clermont 23 - 48 Leinster",
+          "url": "https://www.skysports.com/rugby-union/clermont-vs-leinster/113420"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Riyadh’s airport reopens.",
+        "What the Supreme Court does next on the voter-list petitions."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the first step to good understanding.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+    "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/",
+    "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+    "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html",
+    "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit",
+    "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/",
+    "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response",
+    "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress",
+    "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122",
+    "https://www.bloomberg.com/news/articles/2026-10-15/india-top-court-to-hear-election-challenge-delhi-protest-cases",
+    "https://www.skysports.com/rugby-union/clermont-vs-leinster/113420"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Whose airport was suspended after the October 10 attack?",
+        "options": [
+          "Aden",
+          "Riyadh",
+          "Sanaa"
+        ],
+        "answer": 1,
+        "why": "Riyadh’s airport is still suspended after the October 10 strike.",
+        "story": "lead"
+      },
+      {
+        "q": "How much extra money did Zelenskyy ask the EU for?",
+        "options": [
+          "70 billion euros",
+          "7 billion euros",
+          "700 billion euros"
+        ],
+        "answer": 0,
+        "why": "He asked for 70 billion euros more for next year.",
+        "story": "world"
+      },
+      {
+        "q": "How many senators signed the letter urging Trump to cancel the diesel deal?",
+        "options": [
+          "Six",
+          "Twelve",
+          "Twenty"
+        ],
+        "answer": 1,
+        "why": "Six Republican and six Democratic senators signed it.",
+        "story": "us"
+      },
+      {
+        "q": "What did the Supreme Court issue on October 15?",
+        "options": [
+          "A notice to the Election Commission",
+          "A new voter list",
+          "A ban on protests"
+        ],
+        "answer": 0,
+        "why": "The court issued notice to the Election Commission and its chief.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The US has joined Saudi Arabia’s fight against the Houthis.",
+        "true": false,
+        "why": "The paper says the US has not joined the fight.",
+        "story": "lead"
+      },
+      {
+        "claim": "EU leaders kept sanctions on Russia.",
+        "true": true,
+        "why": "Leaders kept sanctions in place.",
+        "story": "world"
+      },
+      {
+        "claim": "Congress is in session and can easily pass the bill to block the diesel deal.",
+        "true": false,
+        "why": "Congress is away until after the midterms and a veto is likely.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium",
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
