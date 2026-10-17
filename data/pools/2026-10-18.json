@@ -1,0 +1,979 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "saudi-houthi",
+    "headline": "Houthi war on Saudi Arabia: Riyadh airport shut, US weighs joining",
+    "what_happened": "Houthi attacks on Saudi Arabia continued, with Riyadh airport suspended through October 17 after the October 10 strike. Trump said Saudi Arabia should accept Israeli help.",
+    "why_it_matters": "Airports and shipping lanes link people and trade far beyond Yemen and Saudi Arabia.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "King Khalid International Airport in Riyadh was hit on October 10 and remains suspended through October 17; Jeddah and Dammam are operating with delays.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "The Saudi-led coalition reported intercepting a ballistic missile toward Yanbu, two cruise missiles over the Red Sea, and drones over Riyadh, the south and the Eastern Province.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "The UN Security Council issued a presidential statement condemning the Houthi attacks; Saudi Arabia welcomed it.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "On October 15 Houthi missiles hit the Al-Maashiq presidential palace in Aden, Yemen's interim capital; Yemen's health minister said five people were killed and 16 wounded.",
+      "source_url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+     },
+     {
+      "fact": "Iran rejected Saudi accusations that it was involved in Houthi attacks and offered to mediate.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "Air India and Air India Express suspended flights to Riyadh, Dammam and Jeddah until October 20; IndiGo suspended Riyadh, Jeddah, Dammam and Madinah until October 24.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "Six Indian nationals were injured in the Riyadh airport attack, two of them in intensive care.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "On October 16 Trump said Israel has been very helpful to Saudi Arabia and that Saudi-Israeli normalisation could be back on the table; Riyadh has said it will normalise only with a clear path to Palestinian statehood.",
+      "source_url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+     },
+     {
+      "fact": "Saudi Arabia said 12 people were killed and 300 wounded in the October 10 attack on Riyadh airport.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "The Houthis hold Sanaa; Yemen's civil war reignited in July.",
+      "source_url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Killed at Riyadh airport Oct 10 (Saudi figure)",
+      "value": 12,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "label": "Wounded at Riyadh airport Oct 10 (Saudi figure)",
+      "value": 300,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     }
+    ],
+    "geography": "Saudi Arabia and Yemen face each other across the Red Sea region; Riyadh is inland in Saudi Arabia, Aden is Yemen's southern port city, Yanbu is a Saudi Red Sea port. The Red Sea separates Saudi Arabia/Yemen (Asia) from Egypt/Sudan (Africa).",
+    "sources": [
+     {
+      "outlet": "Gulf News",
+      "title": "Middle East conflict live blog",
+      "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "Times of Israel",
+      "title": "Trump says Israel has been very helpful to Saudi Arabia",
+      "url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+      "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+      "published": "2026-10-10"
+     }
+    ]
+   },
+   {
+    "id": "hormuz-oil",
+    "headline": "Oil tops $110 as ships keep being hit near the Strait of Hormuz",
+    "what_happened": "Brent crude closed Friday October 16 at $109.86 a barrel after briefly topping $110, as the Iran war kept the Strait of Hormuz disrupted.",
+    "why_it_matters": "Oil prices feed into petrol, food and transport costs everywhere.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude topped $110 a barrel on October 16, its highest level since May, and finished at $109.86; US crude (WTI) rose 3.5% to $101.41.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "fact": "Brent settled up 4.9% on the week.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/"
+     },
+     {
+      "fact": "A war that began in late February, when the US and Israel attacked Iran, closed the Strait of Hormuz, through which nearly 20% of the world's oil passed before the fighting.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "fact": "UKMTO recorded 12 vessel attacks in the past week, 10 of them in the Strait of Hormuz; 135 maritime incidents since February 28.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "The container ship GFS Pride sank on October 14 after being hit; the tanker MT ST 3 with 15 Indian seafarers was struck in Hormuz on October 16 and all 24 Indian seafarers named in reports are safe.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "US Central Command says 400 commercial vessels passed through in the past week, while Iran's army chief said the strait remains closed.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "Tech stocks lost more than $1 trillion in value on October 16; the Nasdaq 100 fell 2.5% and the Philadelphia semiconductor index fell 3.8%, its eighth straight losing day.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "fact": "Higher fuel costs raise inflation, which makes further Federal Reserve rate rises more likely; higher rates lower the present value of growth stocks' future profits.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude close Oct 16",
+      "value": 109.86,
+      "unit": "US dollars a barrel",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "label": "WTI close Oct 16",
+      "value": 101.41,
+      "unit": "US dollars a barrel",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     }
+    ],
+    "geography": "Strait of Hormuz: narrow waterway between Iran (north) and Oman/UAE (south), connecting the Persian Gulf to the Gulf of Oman.",
+    "sources": [
+     {
+      "outlet": "24/7 Wall St.",
+      "title": "Oil Topped $110 as Tech Stocks Lost $1 Trillion in a Day",
+      "url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price Week Ahead",
+      "url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "Middle East conflict live blog",
+      "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+      "published": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-eu",
+    "headline": "EU leaders back Ukraine as Zelenskyy asks for 70 billion euros more",
+    "what_happened": "At a two-day Brussels summit ending October 16, EU leaders kept sanctions on Russia and backed Ukraine, while Zelenskyy asked for an extra 70 billion euros for next year.",
+    "why_it_matters": "Who pays for Ukraine's defence, and how, shapes the war and Europe's budgets.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Zelenskyy asked EU leaders for an extra 70 billion euros in financial and military support for next year; he said the war will cost Ukraine 155 billion euros next year.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "fact": "The EU has already agreed a 90 billion euro loan covering 2026 and 2027.",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "fact": "Leaders kept sanctions on Russia in place while its invasion continues; European Council President Antonio Costa said it was 'no time' to ease sanctions or withdraw support.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "fact": "The Commission was asked to propose how to close the funding gap.",
+      "source_url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+     },
+     {
+      "fact": "Trump announced the weekend before the summit that Kyiv and Moscow had agreed not to target each other's energy facilities; Zelenskyy abandoned the deal on Thursday October 15, saying Russia had not honoured it; Trump called this 'a disgrace'.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "fact": "Trump suspended sanctions on Russian oil products and made a deal with Putin for Russia to supply diesel to global markets; Zelenskyy said it would put more money into Putin's pocket.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "fact": "Russian strikes killed three people in Kharkiv and left hundreds of thousands without power.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "fact": "The European Council expressed regret over the US decision to temporarily lift sanctions on Russian diesel.",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Extra Ukraine support requested for next year",
+      "value": 70,
+      "unit": "billion euros",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "label": "Ukraine war cost next year (Zelenskyy)",
+      "value": 155,
+      "unit": "billion euros",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+     },
+     {
+      "label": "Existing EU loan for 2026-27",
+      "value": 90,
+      "unit": "billion euros",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     }
+    ],
+    "geography": "Brussels, Belgium (EU summit); Ukraine, Russia, Kharkiv in north-east Ukraine.",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "EU rallies in support of Ukraine amid Trump standoff",
+      "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Budget, Ukraine, migration: Five takeaways from the EU leaders' summit",
+      "url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "CGTN",
+      "title": "EU summit ends with mounting bills and unresolved divisions",
+      "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html",
+      "published": "2026-10-17"
+     }
+    ]
+   },
+   {
+    "id": "uk-fairford",
+    "headline": "Britain says Iran probably coordinated a plot against RAF Fairford; Iran denies it",
+    "what_happened": "Prime Minister Burnham said a plot against RAF Fairford was highly likely coordinated in Iran; Iran called it baseless and summoned Britain's ambassador.",
+    "why_it_matters": "A claim of foreign involvement tests how states handle evidence and diplomacy.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Burnham said the plot was highly likely to have been coordinated in Iran and almost certainly directed by the Islamic Revolutionary Guard Corps.",
+      "source_url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk"
+     },
+     {
+      "fact": "Iran's foreign ministry summoned Britain's ambassador in Tehran, Hugo Shorter, demanded evidence and denied involvement.",
+      "source_url": "https://www.timesofisrael.com/liveblog_entry/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign-ministry-says/"
+     },
+     {
+      "fact": "Police arrested seven suspects after stopping three vans near the base on September 27; they were bailed and no one has been charged.",
+      "source_url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk"
+     }
+    ],
+    "numbers": [],
+    "geography": "RAF Fairford, Gloucestershire, England; Tehran, Iran.",
+    "sources": [
+     {
+      "outlet": "Times of Israel",
+      "title": "Iran summons British ambassador over Fairford airbase incident",
+      "url": "https://www.timesofisrael.com/liveblog_entry/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign-ministry-says/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "IranWire",
+      "title": "What We Know About the RAF Fairford Air Base Plot",
+      "url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "diesel-congress",
+    "headline": "Congress members try to block Trump's Russian diesel deal",
+    "what_happened": "Trump announced on October 9 a deal to let Russian diesel reach world markets by easing sanctions; senators of both parties asked him to cancel it and House members filed a bill on October 16 to block it.",
+    "why_it_matters": "It shows how Congress can push back on a president, and how hard that is.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Six Republican and six Democratic senators wrote to Trump urging him to rescind the deal; they called it a gift to an adversary and a betrayal of allies.",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     },
+     {
+      "fact": "The deal would let the US import about 2.2 million tons of Russian diesel over two months.",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     },
+     {
+      "fact": "A group of House Democrats and one Republican filed a bill on Friday October 16 to block the deal.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+     },
+     {
+      "fact": "Passing the bill would likely need to overcome a Trump veto; Republican leaders have not joined the effort, and Congress is away until after the midterms.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+     },
+     {
+      "fact": "Midterm elections are three weeks away; fuel prices are a political drag for Republicans.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Senators who signed the letter",
+      "value": 12,
+      "unit": "senators",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     },
+     {
+      "label": "Diesel to be imported",
+      "value": 2.2,
+      "unit": "million tons",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     }
+    ],
+    "geography": "United States Congress, Washington DC; Russia supplies the diesel.",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Bipartisan group of senators call on Trump to rescind Russian diesel deal",
+      "url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "Trump Diesel Deal Faces New Congressional Legislation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress",
+      "published": "2026-10-16"
+     }
+    ]
+   },
+   {
+    "id": "us-fed",
+    "headline": "Fed meets October 27-28 after tech and oil shock",
+    "what_happened": "Markets expect the Fed to hold rates at its October 27-28 meeting.",
+    "why_it_matters": "Interest rates change borrowing costs.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "After a 25 basis point rise in September the Fed's range is 3.75%-4.00%; markets see about 85% chance of a hold in October.",
+      "source_url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States.",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+      "published": "2026-10-16"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-voter-roll",
+    "headline": "Supreme Court issues notice on opposition challenge to voter-list revision",
+    "what_happened": "On October 15 the Supreme Court issued notice to the Election Commission and Chief Election Commissioner Gyanesh Kumar on a petition by 13 opposition leaders against the Special Intensive Revision (SIR) of electoral rolls.",
+    "why_it_matters": "Voter lists decide who can vote, so disputes over them touch the basis of elections.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A bench of Chief Justice Surya Kant and Justice Joymalya Bagchi issued notice to the Election Commission, Chief Election Commissioner Gyanesh Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi, and tagged the petition with pending cases.",
+      "source_url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+     },
+     {
+      "fact": "The petition was led by Rahul Gandhi and Mallikarjun Kharge with other INDIA bloc leaders; it was filed on October 12.",
+      "source_url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+     },
+     {
+      "fact": "It alleges the Chief Election Commissioner used the Commission's collective powers on his own during the SIR, and challenges removal of electors without notice or hearing.",
+      "source_url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+     },
+     {
+      "fact": "On May 27, 2026 the Supreme Court upheld the SIR's validity in an earlier case; the petitioners say they do not seek to reopen that ruling.",
+      "source_url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+     },
+     {
+      "fact": "The Election Commission denied violations and said voters removed in error can register again.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-15/india-top-court-to-hear-election-challenge-delhi-protest-cases"
+     },
+     {
+      "fact": "The unrest followed a late-September Indian Express investigation alleging that the other two commissioners' objections were disregarded.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-15/india-top-court-to-hear-election-challenge-delhi-protest-cases"
+     },
+     {
+      "fact": "The court also agreed to consider separate petitions on police conduct and detentions during the Delhi protests.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-15/india-top-court-to-hear-election-challenge-delhi-protest-cases"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Opposition leaders who filed",
+      "value": 13,
+      "unit": "leaders",
+      "source_url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122"
+     }
+    ],
+    "geography": "New Delhi: Supreme Court of India; protests in the capital.",
+    "sources": [
+     {
+      "outlet": "LawBeat",
+      "title": "Supreme Court Issues Notice To ECI, CEC Gyanesh Kumar On Rahul Gandhi, INDIA Bloc Petition",
+      "url": "https://lawbeat.in/top-stories/supreme-court-issues-notice-to-eci-cec-gyanesh-kumar-on-rahul-gandhi-india-bloc-petition-against-sir-voter-deletions-1642122",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "India Top Court to Hear Election Challenge, Delhi Protest Cases",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/india-top-court-to-hear-election-challenge-delhi-protest-cases",
+      "published": "2026-10-15"
+     }
+    ]
+   },
+   {
+    "id": "india-wpi",
+    "headline": "India's wholesale inflation rises to 11.39% in September",
+    "what_happened": "India's wholesale price inflation rose to 11.39% in September from 9.92% in August, driven by fuel and power.",
+    "why_it_matters": "Wholesale prices feed into what shops charge families.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Wholesale price inflation rose to 11.39% in September 2026 from 9.92% in August.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "fact": "Fuel and power inflation reached 25.85%, up from 22.93% in August; crude petroleum and natural gas inflation jumped to 57.32% from 34.41%.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "fact": "Food inflation was 8.66% and manufactured-product inflation 9.76%.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "fact": "The September figure is provisional.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "WPI inflation Sept 2026",
+      "value": 11.39,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "WPI inflation Aug 2026",
+      "value": 9.92,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "Fuel and power inflation Sept",
+      "value": 25.85,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "Food inflation Sept",
+      "value": 8.66,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "Manufactured products inflation Sept",
+      "value": 9.76,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     }
+    ],
+    "geography": "India.",
+    "sources": [
+     {
+      "outlet": "Business Standard",
+      "title": "Wholesale inflation jumps to 11.39% in September as food, fuel costs rise",
+      "url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "diesel-congress",
+    "headline": "Congress members try to block Trump's Russian diesel deal",
+    "what_happened": "Trump announced on October 9 a deal to let Russian diesel reach world markets by easing sanctions; senators of both parties asked him to cancel it and House members filed a bill on October 16 to block it.",
+    "why_it_matters": "It shows how Congress can push back on a president, and how hard that is.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Six Republican and six Democratic senators wrote to Trump urging him to rescind the deal; they called it a gift to an adversary and a betrayal of allies.",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     },
+     {
+      "fact": "The deal would let the US import about 2.2 million tons of Russian diesel over two months.",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     },
+     {
+      "fact": "A group of House Democrats and one Republican filed a bill on Friday October 16 to block the deal.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+     },
+     {
+      "fact": "Passing the bill would likely need to overcome a Trump veto; Republican leaders have not joined the effort, and Congress is away until after the midterms.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+     },
+     {
+      "fact": "Midterm elections are three weeks away; fuel prices are a political drag for Republicans.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Senators who signed the letter",
+      "value": 12,
+      "unit": "senators",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     },
+     {
+      "label": "Diesel to be imported",
+      "value": 2.2,
+      "unit": "million tons",
+      "source_url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+     }
+    ],
+    "geography": "United States Congress, Washington DC; Russia supplies the diesel.",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Bipartisan group of senators call on Trump to rescind Russian diesel deal",
+      "url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "Trump Diesel Deal Faces New Congressional Legislation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress",
+      "published": "2026-10-16"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-wpi",
+    "headline": "India's wholesale inflation rises to 11.39% in September",
+    "what_happened": "India's wholesale price inflation rose to 11.39% in September from 9.92% in August, driven by fuel and power.",
+    "why_it_matters": "Wholesale prices feed into what shops charge families.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Wholesale price inflation rose to 11.39% in September 2026 from 9.92% in August.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "fact": "Fuel and power inflation reached 25.85%, up from 22.93% in August; crude petroleum and natural gas inflation jumped to 57.32% from 34.41%.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "fact": "Food inflation was 8.66% and manufactured-product inflation 9.76%.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "fact": "The September figure is provisional.",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "WPI inflation Sept 2026",
+      "value": 11.39,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "WPI inflation Aug 2026",
+      "value": 9.92,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "Fuel and power inflation Sept",
+      "value": 25.85,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "Food inflation Sept",
+      "value": 8.66,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     },
+     {
+      "label": "Manufactured products inflation Sept",
+      "value": 9.76,
+      "unit": "percent",
+      "source_url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+     }
+    ],
+    "geography": "India.",
+    "sources": [
+     {
+      "outlet": "Business Standard",
+      "title": "Wholesale inflation jumps to 11.39% in September as food, fuel costs rise",
+      "url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "hormuz-oil",
+    "headline": "Oil tops $110 as ships keep being hit near the Strait of Hormuz",
+    "what_happened": "Brent crude closed Friday October 16 at $109.86 a barrel after briefly topping $110, as the Iran war kept the Strait of Hormuz disrupted.",
+    "why_it_matters": "Oil prices feed into petrol, food and transport costs everywhere.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude topped $110 a barrel on October 16, its highest level since May, and finished at $109.86; US crude (WTI) rose 3.5% to $101.41.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "fact": "Brent settled up 4.9% on the week.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/"
+     },
+     {
+      "fact": "A war that began in late February, when the US and Israel attacked Iran, closed the Strait of Hormuz, through which nearly 20% of the world's oil passed before the fighting.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "fact": "UKMTO recorded 12 vessel attacks in the past week, 10 of them in the Strait of Hormuz; 135 maritime incidents since February 28.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "The container ship GFS Pride sank on October 14 after being hit; the tanker MT ST 3 with 15 Indian seafarers was struck in Hormuz on October 16 and all 24 Indian seafarers named in reports are safe.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "US Central Command says 400 commercial vessels passed through in the past week, while Iran's army chief said the strait remains closed.",
+      "source_url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+     },
+     {
+      "fact": "Tech stocks lost more than $1 trillion in value on October 16; the Nasdaq 100 fell 2.5% and the Philadelphia semiconductor index fell 3.8%, its eighth straight losing day.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "fact": "Higher fuel costs raise inflation, which makes further Federal Reserve rate rises more likely; higher rates lower the present value of growth stocks' future profits.",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude close Oct 16",
+      "value": 109.86,
+      "unit": "US dollars a barrel",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     },
+     {
+      "label": "WTI close Oct 16",
+      "value": 101.41,
+      "unit": "US dollars a barrel",
+      "source_url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+     }
+    ],
+    "geography": "Strait of Hormuz: narrow waterway between Iran (north) and Oman/UAE (south), connecting the Persian Gulf to the Gulf of Oman.",
+    "sources": [
+     {
+      "outlet": "24/7 Wall St.",
+      "title": "Oil Topped $110 as Tech Stocks Lost $1 Trillion in a Day",
+      "url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price Week Ahead",
+      "url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "Middle East conflict live blog",
+      "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+      "published": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "webb-cluster",
+    "headline": "Webb finds a dense, ancient galaxy cluster that challenges models",
+    "what_happened": "Astronomers using NASA's James Webb Space Telescope studied galaxy cluster XLSSC 122, about 10.4 billion light-years away, and found an unusually dense core.",
+    "why_it_matters": "It tests how well scientists understand dark matter and the early universe.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "XLSSC 122 is about 10.4 billion light-years from Earth and is the most distant known galaxy cluster showing strong gravitational lensing.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+     },
+     {
+      "fact": "It was discovered in 2014 by ESA's XMM-Newton X-ray spacecraft survey.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+     },
+     {
+      "fact": "Its centre has an unusually dense concentration of mass, at odds with standard cosmological models.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+     },
+     {
+      "fact": "Its lensing arcs were first seen by Webb, not Hubble.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+     },
+     {
+      "fact": "Dark matter is about five times more abundant than ordinary matter.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+     },
+     {
+      "fact": "The findings appear in three papers in Astrophysical Journal Letters.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "Deep space, 10.4 billion light-years away.",
+    "sources": [
+     {
+      "outlet": "ScienceDaily (Caltech IPAC)",
+      "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-devolution",
+    "headline": "Burnham offers Scotland a deal to move power to regions",
+    "what_happened": "Prime Minister Andy Burnham visited Lanarkshire on October 16 and offered to work with the Scottish Government to move decision-making to Scotland's regions.",
+    "why_it_matters": "It asks who should hold power: national governments or local communities.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Burnham said 'This is me making an offer to the Scottish Government', using the No10 North initiative and the Scotland Office.",
+      "source_url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+     },
+     {
+      "fact": "Weeks earlier the Scottish Government proposed replacing Scotland's 32 councils with a two-tier system: six to ten regional authorities and 120 to 160 community authorities.",
+      "source_url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+     },
+     {
+      "fact": "Scottish Secretary Douglas Alexander said power should not stop at the Scottish Parliament's doors; Deputy First Minister Jenny Gilruth welcomed the visit.",
+      "source_url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+     },
+     {
+      "fact": "The visit coincided with the SNP's national conference in Aberdeen, its first since the SNP won the most seats at the May Holyrood election.",
+      "source_url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Councils in Scotland now",
+      "value": 32,
+      "unit": "councils",
+      "source_url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+     }
+    ],
+    "geography": "Lanarkshire and Aberdeen in Scotland.",
+    "sources": [
+     {
+      "outlet": "STV News",
+      "title": "Burnham to offer to work with Swinney on shifting power to councils",
+      "url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit",
+      "published": "2026-10-16"
+     }
+    ]
+   },
+   {
+    "id": "uk-fairford",
+    "headline": "Britain says Iran probably coordinated a plot against RAF Fairford; Iran denies it",
+    "what_happened": "Prime Minister Burnham said a plot against RAF Fairford was highly likely coordinated in Iran; Iran called it baseless and summoned Britain's ambassador.",
+    "why_it_matters": "A claim of foreign involvement tests how states handle evidence and diplomacy.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Burnham said the plot was highly likely to have been coordinated in Iran and almost certainly directed by the Islamic Revolutionary Guard Corps.",
+      "source_url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk"
+     },
+     {
+      "fact": "Iran's foreign ministry summoned Britain's ambassador in Tehran, Hugo Shorter, demanded evidence and denied involvement.",
+      "source_url": "https://www.timesofisrael.com/liveblog_entry/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign-ministry-says/"
+     },
+     {
+      "fact": "Police arrested seven suspects after stopping three vans near the base on September 27; they were bailed and no one has been charged.",
+      "source_url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk"
+     }
+    ],
+    "numbers": [],
+    "geography": "RAF Fairford, Gloucestershire, England; Tehran, Iran.",
+    "sources": [
+     {
+      "outlet": "Times of Israel",
+      "title": "Iran summons British ambassador over Fairford airbase incident",
+      "url": "https://www.timesofisrael.com/liveblog_entry/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign-ministry-says/",
+      "published": "2026-10-13"
+     },
+     {
+      "outlet": "IranWire",
+      "title": "What We Know About the RAF Fairford Air Base Plot",
+      "url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-budget",
+    "headline": "EU summit ends without a budget deal",
+    "what_happened": "The EU summit ended on October 16 with no breakthrough on the 2028-2034 budget.",
+    "why_it_matters": "Budgets show what the EU can afford: defence, farming or regional aid.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Commission proposed a budget of nearly 2 trillion euros for 2028-2034; the Irish presidency's compromise would cut about 141 billion euros, and Euronews reports that proposal is now dead.",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "fact": "European Council President Costa is expected to present a compromise before a special summit on 26 November.",
+      "source_url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+     },
+     {
+      "fact": "Six fiscally conservative countries led by Germany want a smaller budget; 17 'Friends of Cohesion', including Italy and Spain, want to protect farm and regional funds.",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "fact": "Von der Leyen said the Middle East conflict added 106 billion euros to the EU's fossil fuel import bill.",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "fact": "The EU's trade deficit with China is about 360 billion euros, and Chinese exports to the EU rose 25% over the past year; leaders asked the Commission for a toolbox of trade defences.",
+      "source_url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+     },
+     {
+      "fact": "Italy extended its temporary border controls by a week to match Spain's, which expire on 22 October.",
+      "source_url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Proposed EU budget 2028-34 (about)",
+      "value": 2000,
+      "unit": "billion euros",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "label": "Irish compromise cut",
+      "value": 141,
+      "unit": "billion euros",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "label": "Extra fossil fuel bill from Middle East conflict",
+      "value": 106,
+      "unit": "billion euros",
+      "source_url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+     },
+     {
+      "label": "EU trade deficit with China (about)",
+      "value": 360,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+     }
+    ],
+    "geography": "Brussels; EU member states.",
+    "sources": [
+     {
+      "outlet": "CGTN",
+      "title": "EU summit ends with mounting bills and unresolved divisions",
+      "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Five takeaways from the EU leaders' summit",
+      "url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit",
+      "published": "2026-10-16"
+     }
+    ]
+   },
+   {
+    "id": "rugby-clermont-leinster",
+    "headline": "Leinster beat Clermont 48-23 in the Champions Cup",
+    "what_happened": "Leinster won 48-23 away at Clermont in the Investec Champions Cup on Saturday October 17.",
+    "why_it_matters": "A big European rugby result.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Clermont lost 23-48 to Leinster in an Investec Champions Cup Pool 1 match on Saturday 17 October.",
+      "source_url": "https://www.skysports.com/rugby-union/clermont-vs-leinster/113420"
+     }
+    ],
+    "numbers": [],
+    "geography": "Clermont-Ferrand, France.",
+    "sources": [
+     {
+      "outlet": "Sky Sports",
+      "title": "Clermont 23 - 48 Leinster",
+      "url": "https://www.skysports.com/rugby-union/clermont-vs-leinster/113420",
+      "published": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ }
+}
