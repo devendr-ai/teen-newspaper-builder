@@ -1,0 +1,420 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-18",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF AND WORLD MARKETS",
+      "headline": "Oil Tops $110 as Hormuz Stays Disrupted and Tech Shares Fall",
+      "deck": "Brent crude closed Friday at $109.86 a barrel; tech companies lost more than $1 trillion in value.",
+      "body": [
+        "Imagine one narrow door that nearly a fifth of the world’s oil used to pass through. That door is the Strait of Hormuz, between Iran and its southern neighbours. A war that began in late February, when the US and Israel attacked Iran, has disrupted shipping there ever since.",
+        "On Friday 16 October, Brent crude, a benchmark price for oil, briefly topped $110 a barrel, its highest since May, and closed at $109.86. It rose 4.9% over the week. US crude, called WTI, rose 3.5% to $101.41. UKMTO recorded 12 vessel attacks in the past week, 10 of them in the strait.",
+        "The two sides disagree on traffic. Iran’s army chief says the strait remains closed. US Central Command says 400 commercial vessels passed through in the past week, while UKMTO counts transits about 70% below pre-conflict levels.",
+        "Share markets felt it. Technology companies lost more than $1 trillion in value on Friday. One explanation is that higher fuel costs raise inflation, which makes further US rate rises more likely, and higher rates make growth companies’ future profits worth less today."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN AND UAE (ARABIAN PENINSULA)",
+        "footnote": "A narrow passage for Gulf oil",
+        "caption": "Ships sail through the strait between Iran and Oman."
+      },
+      "why": "Oil is a cost in almost everything, from transport to food, so price jumps reach families in India, the US and everywhere else.",
+      "sources": [
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Oil Topped $110 as Tech Stocks Lost $1 Trillion in a Day",
+          "url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price Week Ahead",
+          "url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Missiles Hit Aden as Riyadh’s Airport Stays Suspended",
+      "deck": "Trump says Saudi Arabia should accept Israeli help against the Houthis.",
+      "body": [
+        "Saudi Arabia and the Houthis, who control Sanaa in Yemen, are still fighting. A strike hit King Khalid International Airport in Riyadh on 10 October, and Saudi Arabia says 12 people were killed and 300 wounded. The airport stays suspended through 17 October, while Jeddah and Dammam run with delays.",
+        "On 15 October Houthi missiles hit the Al-Maashiq presidential palace in Aden, the government’s interim capital. Yemen’s health minister said five people were killed and 16 wounded. The UN Security Council condemned the attacks in a presidential statement.",
+        "On 16 October Trump said Israel “has been very helpful to Saudi Arabia” and that Saudi–Israeli normalisation could return to the agenda. Riyadh has said it will normalise only with a clear path to Palestinian statehood. Saudi Arabia accuses Iran of encouraging the Houthis; Iran denies it and offers to mediate."
+      ],
+      "illustration": {
+        "title": "SKIES UNDER THREAT",
+        "subtitle": "Riyadh and Aden",
+        "motif": "airdefense",
+        "caption": "Riyadh’s airport remains suspended."
+      },
+      "connect": "Sea and air routes around the Arabian Peninsula link Asia, Africa and Europe, so a war there touches trade and travel. This week airlines in India and Sri Lanka paused flights to Saudi cities.",
+      "sources": [
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Trump says Israel has been very helpful to Saudi Arabia",
+          "url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  THE GULF",
+      "headline": "Indian Seafarers and Flights Are Caught in the Gulf Conflict",
+      "deck": "All 24 seafarers on two struck tankers are safe, but six Indians were hurt at Riyadh airport.",
+      "body": [
+        "India has a large stake in the Gulf. On 16 October the tanker MT ST 3, carrying 15 Indian seafarers, was struck in the Strait of Hormuz. On 14 October the chemical tanker YARA J, with nine Indian seafarers, was hit by a drone at Sulina Anchorage in Romania. All 24 are safe.",
+        "Indian passengers have also felt the war. Six Indian nationals were injured in the Riyadh airport attack on 10 October, two of them in intensive care. Air India and Air India Express suspended flights to Riyadh, Dammam and Jeddah until 20 October, and IndiGo suspended Riyadh, Jeddah, Dammam and Madinah until 24 October.",
+        "The US, Australia and India have issued travel warnings. Akasa Air suspended Riyadh flights until 24 October and Jeddah flights until 21 October."
+      ],
+      "illustration": {
+        "title": "SAFE, BUT AT SEA",
+        "subtitle": "Strait of Hormuz",
+        "motif": "ship",
+        "caption": "All 24 Indian seafarers named are safe."
+      },
+      "why": "Millions of Indians work and travel in the Gulf, so conflict there quickly becomes a family worry in India.",
+      "sources": [
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CONGRESS",
+      "headline": "Senators From Both Parties Urge Trump to Cancel Russian Diesel Deal",
+      "deck": "A House bill to block it was filed on 16 October.",
+      "body": [
+        "On 9 October President Trump announced a deal to let Russian diesel reach world markets by easing sanctions. Senators say the US would import about 2.2 million tons over two months. Six Republican and six Democratic senators wrote to him asking him to rescind it.",
+        "On 16 October a group of House Democrats and one Republican filed a bill to block the deal. It would likely face a presidential veto, which is the president’s power to reject a law. Republican leaders have not joined the effort, and Congress is away until after the midterms.",
+        "The midterm elections are about three weeks away, and fuel prices are a political worry for Republicans. Ukraine’s president says the deal puts more money in Putin’s pocket; the European Council expressed regret over it."
+      ],
+      "chart": {
+        "title": "SENATORS SIGNING THE LETTER",
+        "subtitle": "Number of senators",
+        "labels": [
+          "GOP",
+          "Democrats"
+        ],
+        "values": [
+          6,
+          6
+        ],
+        "max": 8,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Six Republican and six Democratic senators signed."
+      },
+      "why": "It shows how Congress can push back on a president, and how a veto makes that hard.",
+      "analyst": "Why might senators from both parties oppose the deal for different reasons? What does a veto change about Congress’s power?",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Bipartisan group of senators call on Trump to rescind Russian diesel deal",
+          "url": "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Trump Diesel Deal Faces New Congressional Legislation",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU rallies in support of Ukraine amid Trump standoff",
+          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+      "headline": "Webb Studies a Galaxy Cluster Whose Core Is Unusually Dense",
+      "deck": "XLSSC 122 lies about 10.4 billion light-years from Earth.",
+      "body": [
+        "A galaxy cluster is a huge group of galaxies bound together by gravity. Using NASA’s James Webb Space Telescope, astronomers studied XLSSC 122, about 10.4 billion light-years away. It is the most distant known cluster showing strong gravitational lensing, which is the bending of light by mass, according to the Caltech IPAC release.",
+        "The cluster was found in 2014 by ESA’s XMM-Newton X-ray spacecraft. Webb saw its lensing arcs first. The team reports an unusually dense concentration of mass at its centre, at odds with standard cosmological models.",
+        "Dark matter is about five times more abundant than ordinary matter. The results appear in three Astrophysical Journal Letters papers; ScienceDaily reported them on 13 October."
+      ],
+      "illustration": {
+        "title": "BENT LIGHT",
+        "subtitle": "XLSSC 122",
+        "motif": "globe",
+        "caption": "Mass bends light, forming arcs."
+      },
+      "why": "Findings that do not fit standard models show scientists where to look harder at dark matter and early galaxies.",
+      "sources": [
+        {
+          "outlet": "ScienceDaily (Caltech IPAC)",
+          "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  INDIA",
+      "headline": "India’s Wholesale Inflation Climbs to 11.39%",
+      "deck": "Fuel and power prices rose fastest in September.",
+      "body": [
+        "India’s wholesale price inflation rose to 11.39% in September from 9.92% in August, according to provisional data. The wholesale price index tracks goods traded in bulk before they reach shops.",
+        "Fuel and power inflation reached 25.85%, up from 22.93%. Crude petroleum and natural gas jumped to 57.32% from 34.41%. Food inflation was 8.66% and manufactured products 9.76%.",
+        "India’s figures cover September. Since then Brent crude has closed at $109.86 on 16 October, its highest level since May."
+      ],
+      "illustration": {
+        "title": "PRICES BEFORE THE SHOP",
+        "subtitle": "India",
+        "motif": "skyline",
+        "caption": "Fuel and power led the rise."
+      },
+      "why": "Higher wholesale costs for fuel, food and goods can later reach what families pay in shops.",
+      "sources": [
+        {
+          "outlet": "Business Standard",
+          "title": "Wholesale inflation jumps to 11.39% in September",
+          "url": "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: EU leaders kept sanctions on Russia and asked the Commission how to fill Ukraine’s 70 billion euro funding gap.",
+        "United Kingdom: Prime Minister Burnham offered Scotland a deal to move power to its regions.",
+        "Italy: Italy extended its temporary border controls by a week to match Spain’s, which expire on 22 October.",
+        "Colombia: Colombia opened its embassy in Jerusalem on 15 October, becoming the 10th country to do so."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Benchmark",
+          "def": "A standard price or measure used for comparison. Today: Brent crude is a benchmark price for oil."
+        },
+        {
+          "word": "Veto",
+          "def": "A president’s power to reject a bill passed by the legislature. Today: A bill to block the diesel deal would likely face a veto."
+        },
+        {
+          "word": "Gravitational lensing",
+          "def": "The bending of light by the mass of galaxies or clusters. Today: Webb saw lensing arcs around XLSSC 122."
+        },
+        {
+          "word": "Strait",
+          "def": "A narrow stretch of water connecting two larger bodies of water. Today: Oil tankers pass through the Strait of Hormuz."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A light-year is the distance light travels in one year, about 9.46 trillion kilometres, so XLSSC 122’s light has travelled a very long way to reach Webb."
+    },
+    "explainer": {
+      "title": "Brent and WTI: two ways to price oil",
+      "body": [
+        "Oil has no single price, so traders use benchmarks. Brent crude is a benchmark used for oil traded internationally. WTI, short for West Texas Intermediate, is the main US benchmark.",
+        "On 16 October Brent closed at $109.86 a barrel and WTI at $101.41. Both rose that day, Brent by 3.7% and WTI by 3.5%, as ships were hit near Hormuz."
+      ],
+      "sources": []
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What did Brent crude close at on 16 October?",
+        "(a) $99.86  (b) $109.86  (c) $119.86  (d) $129.86",
+        "<b>2.</b> Which city’s presidential palace did Houthi missiles hit on 15 October?",
+        "(a) Aden  (b) Sanaa  (c) Riyadh  (d) Jeddah",
+        "<b>3.</b> How many Indian seafarers were on the tanker MT ST 3?",
+        "(a) 9  (b) 15  (c) 24  (d) 50",
+        "<b>4.</b> How many senators signed the letter urging Trump to rescind the diesel deal?",
+        "(a) 6  (b) 12  (c) 24  (d) 100",
+        "<b>5.</b> What was India’s wholesale inflation in September?",
+        "(a) 9.92%  (b) 11.39%  (c) 25.85%  (d) 57.32%",
+        "<b>Answers.</b> 1 (b): $109.86. 2 (a): Aden. 3 (b): 15. 4 (b): 12. 5 (b): 11.39%."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "Discuss it",
+      "body": [
+        "How can a narrow strait affect prices in your own town?",
+        "Should one country’s president be able to ease sanctions without Congress’s approval? Why or why not?",
+        "Why might governments pass some powers to regions, as Burnham proposes for Scotland?"
+      ],
+      "sources": [
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Oil Topped $110 as Tech Stocks Lost $1 Trillion in a Day",
+          "url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Trump Diesel Deal Faces New Congressional Legislation",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress"
+        },
+        {
+          "outlet": "STV News",
+          "title": "Burnham to offer to work with Swinney on shifting power to councils",
+          "url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Asking who pays, and who decides, is the start of understanding.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+    "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/",
+    "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+    "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html",
+    "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/",
+    "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/",
+    "https://www.npr.org/2026/10/13/g-s1-147871/trump-russia-diesel-deal-congressional-response",
+    "https://www.bloomberg.com/news/articles/2026-10-16/trump-diesel-deal-faces-fresh-legislative-challenge-in-congress",
+    "https://www.business-standard.com/economy/news/india-wholesale-inflation-september-2026-wpi-food-fuel-prices-126101400465_1.html",
+    "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+    "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude close at on 16 October?",
+        "options": [
+          "$99.86",
+          "$109.86",
+          "$119.86"
+        ],
+        "answer": 1,
+        "why": "Brent closed at $109.86 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "Which city’s presidential palace did Houthi missiles hit on 15 October?",
+        "options": [
+          "Aden",
+          "Riyadh",
+          "Jeddah"
+        ],
+        "answer": 0,
+        "why": "Houthi missiles hit the Al-Maashiq palace in Aden.",
+        "story": "world"
+      },
+      {
+        "q": "How many Indian seafarers were on the tanker MT ST 3?",
+        "options": [
+          "9",
+          "15",
+          "50"
+        ],
+        "answer": 1,
+        "why": "The tanker carried 15 Indian seafarers; all are safe.",
+        "story": "india"
+      },
+      {
+        "q": "How many senators signed the letter urging Trump to cancel the diesel deal?",
+        "options": [
+          "6",
+          "12",
+          "100"
+        ],
+        "answer": 1,
+        "why": "Six Republicans and six Democrats signed.",
+        "story": "us"
+      },
+      {
+        "q": "What was India’s wholesale inflation in September?",
+        "options": [
+          "9.92%",
+          "11.39%",
+          "25.85%"
+        ],
+        "answer": 1,
+        "why": "It rose to 11.39% from 9.92%.",
+        "story": "economics"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "US Central Command and Iran’s army chief agree the Strait of Hormuz is closed.",
+        "true": false,
+        "why": "Iran’s army chief says it is closed; US Central Command says 400 vessels passed in a week.",
+        "story": "lead"
+      },
+      {
+        "claim": "All 24 Indian seafarers on the two struck tankers are safe.",
+        "true": true,
+        "why": "Reports say all 24 are safe.",
+        "story": "india"
+      },
+      {
+        "claim": "XLSSC 122 is about 1.04 billion light-years from Earth.",
+        "true": false,
+        "why": "It is about 10.4 billion light-years away.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "India",
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States",
+          "Russia"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "world": "yemen-war"
+  }
+}

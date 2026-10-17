@@ -148,6 +148,18 @@
       "younger": "Saudi Arabia said it stopped another missile aimed at Riyadh.",
       "older": "The Saudi-led coalition says it intercepted a Houthi ballistic missile fired toward Riyadh. Saudi aviation officials count at least 20 deaths and 356 injuries at airports between 6 and 11 October; the Houthi leader describes an \"airports for airports\" policy.",
       "reported": "2026-10-17"
+    },
+    {
+      "date": "2026-10-15",
+      "younger": "Missiles hit a palace in Aden, a city in Yemen. Riyadh's airport in Saudi Arabia stays shut.",
+      "older": "Houthi missiles hit the Al-Maashiq presidential palace in Aden; Yemen's health minister says five were killed and 16 wounded. The UN Security Council condemns the Houthi attacks and Riyadh's airport stays suspended.",
+      "reported": "2026-10-18"
+    },
+    {
+      "date": "2026-10-16",
+      "younger": "The US president said Saudi Arabia should accept help from Israel. The United States has not joined the fight.",
+      "older": "Trump says Saudi Arabia should accept Israeli help and that Saudi-Israeli normalisation could return to the agenda; Iran denies backing the Houthis and offers to mediate.",
+      "reported": "2026-10-18"
     }
   ],
   "stories": [
@@ -319,6 +331,8 @@
     "https://www.aljazeera.com/sports/2026/10/14/ronaldos-among-three-saudi-arabia-games-postponed-due-to-houthi-attacks",
     "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
     "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports",
-    "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh"
+    "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh",
+    "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+    "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
   ]
 }

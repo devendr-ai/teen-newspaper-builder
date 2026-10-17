@@ -1,0 +1,198 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-18",
+  "volume": 1,
+  "issue": 8,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Missiles Hit Aden as Riyadh’s Airport Stays Shut",
+      "deck": "The fighting between Saudi Arabia and the Houthis is still spreading.",
+      "body": [
+        "Saudi Arabia and the Houthis, a group that controls Sanaa in Yemen, are still fighting. Yemen is the country just south of Saudi Arabia. On October 10 a strike hit the main airport in Riyadh, the Saudi capital. Saudi Arabia says 12 people were killed.",
+        "That airport is still closed. On Thursday, Houthi missiles hit a palace in Aden, Yemen’s temporary capital. Yemen’s health minister said five people were killed and 16 were hurt. The United Nations Security Council also condemned the Houthi attacks.",
+        "The United States has not joined the fight. On Friday, President Trump said Saudi Arabia should accept help from Israel. Saudi Arabia accuses Iran of encouraging the Houthis. Iran denies it and says it can help the sides talk."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports link families, jobs and help. When they close, many people far from the fighting are affected.",
+      "sources": [
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Trump says Israel has been very helpful to Saudi Arabia",
+          "url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE AND EUROPE",
+      "headline": "Europe’s Leaders Say They Will Keep Backing Ukraine",
+      "deck": "Ukraine’s president asked for 70 billion euros more.",
+      "body": [
+        "Leaders of European Union countries met in Brussels, Belgium, on October 15 and 16. Ukraine’s president, Volodymyr Zelenskyy, came to ask for help in the war with Russia.",
+        "He said the war will cost Ukraine 155 billion euros next year, and asked for 70 billion more. The EU has already agreed a loan of 90 billion euros for 2026 and 2027.",
+        "Leaders kept sanctions on Russia. Sanctions are penalties meant to put pressure on a country."
+      ],
+      "chart": {
+        "title": "UKRAINE’S MONEY NEEDS",
+        "subtitle": "In billions of euros",
+        "labels": [
+          "Loan",
+          "Extra ask",
+          "Total need"
+        ],
+        "values": [
+          90,
+          70,
+          155
+        ],
+        "max": 160,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are from Zelenskyy and EU reports."
+      },
+      "why": "How Europe pays for Ukraine’s defence affects the war and what Europeans pay for.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU rallies in support of Ukraine amid Trump standoff",
+          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+        },
+        {
+          "outlet": "CGTN",
+          "title": "EU summit ends with mounting bills and unresolved divisions",
+          "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Oil: Brent crude closed Friday at $109.86 a barrel, the highest level since May, as ships near Hormuz kept being hit.",
+        "India: Air India and IndiGo paused flights to Riyadh and other Saudi cities."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Riyadh’s airport reopens.",
+        "Whether EU leaders find the money Ukraine asked for."
+      ]
+    }
+  },
+  "sources": [
+    "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+    "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/",
+    "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+    "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html",
+    "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which city’s main airport was hit on October 10 and is still closed?",
+        "options": [
+          "Riyadh",
+          "Aden",
+          "Brussels"
+        ],
+        "answer": 0,
+        "why": "The paper says Riyadh’s airport was hit on October 10 and is still closed.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Trump say Saudi Arabia should accept?",
+        "options": [
+          "Help from Israel",
+          "A new flag",
+          "Oil from Russia"
+        ],
+        "answer": 0,
+        "why": "Trump said Saudi Arabia should accept help from Israel.",
+        "story": "lead"
+      },
+      {
+        "q": "How much extra money did Zelenskyy ask the EU for?",
+        "options": [
+          "7 billion euros",
+          "70 billion euros",
+          "700 billion euros"
+        ],
+        "answer": 1,
+        "why": "He asked for 70 billion euros more for next year.",
+        "story": "world"
+      },
+      {
+        "q": "Where did EU leaders meet?",
+        "options": [
+          "Brussels",
+          "Kyiv",
+          "Riyadh"
+        ],
+        "answer": 0,
+        "why": "EU leaders met in Brussels, Belgium.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Houthi missiles hit a palace in Aden on Thursday.",
+        "true": true,
+        "why": "Yemen’s health minister said five people were killed there.",
+        "story": "lead"
+      },
+      {
+        "claim": "EU leaders ended sanctions on Russia.",
+        "true": false,
+        "why": "Leaders kept sanctions on Russia.",
+        "story": "world"
+      },
+      {
+        "claim": "Brent crude closed Friday at $109.86 a barrel.",
+        "true": true,
+        "why": "It was the highest level since May.",
+        "story": "lead"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium",
+          "Ukraine",
+          "Russia"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
