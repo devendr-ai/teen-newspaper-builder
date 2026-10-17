@@ -1,0 +1,354 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-18",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  YEMEN AND SAUDI ARABIA",
+      "headline": "Missiles Hit Aden as Riyadh’s Airport Stays Shut",
+      "deck": "Saudi Arabia says 12 people died in the 10 October attack on Riyadh airport.",
+      "body": [
+        "Yemen’s war has reached Saudi cities. The Houthis, who control Sanaa in Yemen, have been attacking Saudi Arabia since Yemen’s civil war reignited in July. On 10 October a strike hit King Khalid International Airport in Riyadh. Saudi Arabia says 12 people were killed and 300 were wounded. The airport is still suspended, while Jeddah and Dammam are running with delays.",
+        "The fighting is also inside Yemen. On Thursday 15 October, Houthi missiles hit the Al-Maashiq presidential palace in Aden, the government’s interim capital. Yemen’s health minister said five people were killed and 16 wounded. The UN Security Council condemned the Houthi attacks in a presidential statement, which Saudi Arabia welcomed.",
+        "Washington has not joined the fight. On Friday 16 October, Donald Trump said Saudi Arabia should accept help from Israel and that Saudi–Israeli ties could return to the agenda. Riyadh has said it will normalise relations only with a clear path to Palestinian statehood. Saudi Arabia accuses Iran of encouraging the Houthis; Iran denies it and has offered to mediate.",
+        "The effects reach well beyond the region. Air India suspended flights to Riyadh, Dammam and Jeddah until 20 October, and IndiGo suspended several Saudi routes until 24 October.",
+        "Saudi forces are fighting back. The Saudi-led coalition says it intercepted a ballistic missile aimed at Yanbu, two cruise missiles over the Red Sea and drones elsewhere, and destroyed Houthi storage sites in Sanaa, Saada and Amran."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Airports and sea lanes link Europe to the Gulf, so a wider war there affects travel, trade and energy prices far away.",
+      "sources": [
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Trump says Israel has been very helpful to Saudi Arabia",
+          "url": "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
+          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL AND MARKETS",
+      "headline": "Oil Tops $110 and Tech Shares Fall",
+      "deck": "Brent crude closed at $109.86 a barrel on Friday as the Hormuz disruption continued.",
+      "body": [
+        "Think of the Strait of Hormuz as the only narrow door out of a huge warehouse. Before the war, nearly a fifth of the world’s oil passed through this waterway between Iran and its southern neighbours. The war began in late February when the US and Israel attacked Iran, and shipping there has been disrupted ever since.",
+        "On Friday 16 October, Brent crude, the benchmark price for oil, briefly topped $110 a barrel, its highest since May, and closed at $109.86. The price rose 4.9% over the week. UKMTO, which tracks ship incidents, recorded 12 vessel attacks in the past week, 10 of them in the Strait of Hormuz. US crude, called WTI, rose 3.5% to close at $101.41.",
+        "The shock spread to share markets. Technology companies lost more than $1 trillion in value on Friday. One reason given is that higher fuel prices push up inflation, which makes higher interest rates more likely. Iran’s army chief says the strait remains closed; US Central Command says 400 commercial vessels passed through in the past week.",
+        "Two other forces are at work. A report says Ukrainian attacks have shut down much of Russia’s refining capacity, which also tightens supply. And on 14 October the container ship GFS Pride sank in the Hormuz area after being hit. Oman warned ships to avoid floating containers near Musandam.",
+        "Oil companies gained as tech shares fell. Exxon and Chevron each rose about 2.5% on Friday. Their costs are mostly fixed, so higher oil prices flow largely to profit. For technology firms, higher interest rates make future profits worth less today, which is one reason their shares fell.",
+        "Prices like these matter because the war and the strait are still unresolved. Iran’s army chief says the strait is closed, while US Central Command says traffic is moving, so the picture changes with each ship that is hit or passes safely."
+      ],
+      "illustration": {
+        "title": "THE STRAIT OF HORMUZ",
+        "subtitle": "The gate for Gulf oil",
+        "motif": "strait",
+        "caption": "Ships sail through the strait between Iran and its southern neighbours."
+      },
+      "connect": "Europe imports a lot of energy, so a price jump on a distant sea reaches British and European bills. Von der Leyen said the Middle East conflict added 106 billion euros to the EU’s fossil fuel import bill.",
+      "sources": [
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Oil Topped $110 as Tech Stocks Lost $1 Trillion in a Day",
+          "url": "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price Week Ahead",
+          "url": "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East conflict live blog",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575"
+        },
+        {
+          "outlet": "CGTN",
+          "title": "EU summit ends with mounting bills and unresolved divisions",
+          "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  DEVOLUTION",
+      "headline": "Burnham Offers Scotland a Deal to Move Power Outward",
+      "deck": "The Prime Minister visited Lanarkshire on 16 October.",
+      "body": [
+        "Devolution means a national government passing some of its powers to a smaller region. Prime Minister Andy Burnham, who took office in July, has made it central to his agenda. On Friday 16 October he visited Lanarkshire in Scotland and offered to work with the Scottish Government on moving decisions to Scotland’s regions.",
+        "He called it an offer: “This is me making an offer to the Scottish Government.” The plan would use the No10 North initiative and the Scotland Office. The Scottish Government had already proposed replacing Scotland’s 32 councils with six to ten regional authorities and 120 to 160 community authorities.",
+        "Scottish Secretary Douglas Alexander said power should not stop at the Scottish Parliament’s doors. Deputy First Minister Jenny Gilruth welcomed the visit. It came as the SNP held its national conference in Aberdeen, its first since winning the most seats at the May Holyrood election."
+      ],
+      "why": "Who holds power, in Westminster, Holyrood or local areas, decides who answers for schools, jobs and planning.",
+      "also": [
+        "Iran: Mr Burnham said a plot against RAF Fairford was highly likely coordinated in Iran; Iran denies it and summoned Britain’s ambassador.",
+        "Fairford: Seven suspects were arrested on 27 September and bailed. No one has been charged."
+      ],
+      "sources": [
+        {
+          "outlet": "STV News",
+          "title": "Burnham to offer to work with Swinney on shifting power to councils",
+          "url": "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Iran summons British ambassador over Fairford airbase incident",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign-ministry-says/"
+        },
+        {
+          "outlet": "IranWire",
+          "title": "What We Know About the RAF Fairford Air Base Plot",
+          "url": "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Italy: Italy extended its temporary border controls by a week to match Spain’s, which expire on 22 October.",
+        "Denmark: Prime Minister Mette Frederiksen criticised Spain’s plan to regularise 600,000 migrants and asked the Commission to examine it."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Devolution",
+          "def": "The passing of some powers from a national government to a region. Today: Mr Burnham offered Scotland a deal to move power to its regions."
+        },
+        {
+          "word": "Benchmark",
+          "def": "A standard price or measure used for comparison. Today: Brent crude is the benchmark price for oil."
+        },
+        {
+          "word": "Deadlock",
+          "def": "A situation where neither side will give way, so nothing is decided. Today: EU leaders left the long-term budget in deadlock."
+        },
+        {
+          "word": "Mediate",
+          "def": "To help two sides in a dispute talk and reach agreement. Today: Iran has offered to mediate in the Saudi–Houthi fight."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A barrel of oil holds 42 US gallons, about 159 litres, which is why prices such as Brent’s $109.86 are quoted per barrel."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  EU SUMMIT",
+      "headline": "EU Leaders Back Ukraine but Leave the Budget Unsettled",
+      "deck": "Zelenskyy asked for 70 billion euros more for next year.",
+      "body": [
+        "EU leaders met in Brussels on 15 and 16 October. Ukraine’s president, Volodymyr Zelenskyy, said the war will cost Ukraine 155 billion euros next year and asked for 70 billion euros more. The EU has already agreed a 90 billion euro loan for 2026 and 2027. The Commission was asked to propose how to close the gap, and leaders kept sanctions on Russia.",
+        "The summit also failed to settle the EU’s long-term budget for 2028 to 2034. The Commission proposed nearly 2 trillion euros. The Irish presidency’s compromise would cut about 141 billion euros, but Euronews reports that proposal is now dead. Six fiscally conservative countries led by Germany want a smaller budget. Seventeen “Friends of Cohesion”, including Italy and Spain, want to protect farm and regional funds.",
+        "European Council President António Costa is expected to present a compromise before a special summit on 26 November. Leaders also asked the Commission for a toolbox of trade defences against China. The EU’s trade deficit with China is about 360 billion euros, and Chinese exports to the EU rose 25% over the past year."
+      ],
+      "chart": {
+        "title": "UKRAINE’S MONEY NEEDS",
+        "subtitle": "Billions of euros",
+        "labels": [
+          "Loan",
+          "Extra ask",
+          "Total need"
+        ],
+        "values": [
+          90,
+          70,
+          155
+        ],
+        "max": 160,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are from Zelenskyy and EU reports."
+      },
+      "why": "The EU budget shows what Europe can afford to pay for: defence, farming or regional help.",
+      "analyst": "Why might countries that pay more into a budget want it smaller? Who gains if farm and regional funds are protected?",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU rallies in support of Ukraine amid Trump standoff",
+          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Five takeaways from the EU leaders’ summit",
+          "url": "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit"
+        },
+        {
+          "outlet": "CGTN",
+          "title": "EU summit ends with mounting bills and unresolved divisions",
+          "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
+        }
+      ]
+    },
+    "sports": {
+      "title": "RUGBY",
+      "body": "In the European Champions Cup on Saturday, <b>Leinster</b> beat Clermont 48-23 in Pool 1.",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "title": "Clermont 23 - 48 Leinster",
+          "url": "https://www.skysports.com/rugby-union/clermont-vs-leinster/113420"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Riyadh’s airport reopens.",
+        "What compromise Mr Costa brings to the special summit on 26 November."
+      ]
+    },
+    "quote": {
+      "text": "Asking who pays, and who decides, is the start of understanding.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
+    "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/",
+    "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+    "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html",
+    "https://www.euronews.com/2026/10/16/budget-ukraine-migration-five-takeaways-from-the-eu-leaders-summit",
+    "https://247wallst.com/investing/2026/10/17/oil-topped-110-as-tech-stocks-lost-1-trillion-in-a-day/",
+    "https://financefeeds.com/brent-crude-oil-price-110-week-ahead-highest-settle-since-may-bull-115-bear-100/",
+    "https://news.stv.tv/politics/burnham-to-offer-to-work-with-swinney-on-shifting-power-to-councils-during-scotland-visit",
+    "https://www.timesofisrael.com/liveblog_entry/iran-summons-british-ambassador-over-fairford-airbase-incident-foreign-ministry-says/",
+    "https://iranwire.com/en/features/158882-what-we-know-about-the-raf-fairford-air-base-plot-in-the-uk",
+    "https://www.skysports.com/rugby-union/clermont-vs-leinster/113420"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What happened to Riyadh’s airport after the 10 October strike?",
+        "options": [
+          "It reopened the next day",
+          "It is still suspended",
+          "It moved to Jeddah"
+        ],
+        "answer": 1,
+        "why": "The paper says the airport is still suspended.",
+        "story": "lead"
+      },
+      {
+        "q": "Where did Houthi missiles hit a palace on 15 October?",
+        "options": [
+          "Aden",
+          "Brussels",
+          "Aberdeen"
+        ],
+        "answer": 0,
+        "why": "Houthi missiles hit the Al-Maashiq palace in Aden.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Brent crude close at on Friday?",
+        "options": [
+          "$99.86",
+          "$109.86",
+          "$119.86"
+        ],
+        "answer": 1,
+        "why": "Brent closed at $109.86 a barrel.",
+        "story": "world"
+      },
+      {
+        "q": "How many Scottish councils exist now, according to the plan described?",
+        "options": [
+          "12",
+          "32",
+          "132"
+        ],
+        "answer": 1,
+        "why": "The Scottish Government proposed replacing its 32 councils.",
+        "story": "uk"
+      },
+      {
+        "q": "How much extra money did Mr Zelenskyy ask the EU for?",
+        "options": [
+          "7 billion euros",
+          "70 billion euros",
+          "700 billion euros"
+        ],
+        "answer": 1,
+        "why": "He asked for 70 billion euros more for next year.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Mr Burnham visited Lanarkshire on 16 October.",
+        "true": true,
+        "why": "He offered Scotland a devolution deal there.",
+        "story": "uk"
+      },
+      {
+        "claim": "EU leaders agreed the 2028 to 2034 budget at the summit.",
+        "true": false,
+        "why": "The summit ended without a breakthrough on the budget.",
+        "story": "europe"
+      },
+      {
+        "claim": "Tech companies lost more than $1 trillion in value on Friday.",
+        "true": true,
+        "why": "Reports say tech stocks lost over $1 trillion as oil rose.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "Lanarkshire",
+        "lat": 55.8,
+        "lon": -3.95,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium",
+          "Ukraine"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
