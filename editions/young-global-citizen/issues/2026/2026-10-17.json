@@ -336,7 +336,44 @@
           "India"
         ]
       }
-    ]
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Fighting Between Saudi Arabia and Yemen’s Houthis Hits Airports",
+        "body": [
+          "Saudi Arabia is now fighting the Houthis. The Houthis are a group in Yemen that is allied with Iran. They have held Yemen’s capital city, Sanaa, since 2014. A truce is a deal to stop fighting. One had mostly held since 2022, but it has now broken down.",
+          "First, Sanaa’s airport was hit. The Houthi leader then said his side would hit back in the same way. He used the words “airports for airports” to describe this. The Houthis now say Saudi airports are targets, except in Mecca and Medina.",
+          "Saudi officials say at least 20 people died at airports between October 6 and 11. The worst attack, on King Khalid airport in Riyadh, killed at least 12 people. Many Houthi claims could not be checked by others.",
+          "The fight matters beyond Yemen. A narrow sea passage called the Bab el-Mandeb strait is an important route for ships."
+        ]
+      },
+      "world": {
+        "headline": "Students in Albania Protest and Ask Their Leader to Quit",
+        "body": [
+          "Albania is a small country in south-eastern Europe. This week, students there protested for three days in a row. Police said some protesters broke into the Education Ministry at night. A ministry is a government department. They lit a fire inside. Police used tear gas and water cannon, and arrested 16 people.",
+          "The students are unhappy with their universities. They say studying costs too much and there is little money to help. They also worry about finding jobs after they finish. They want Prime Minister Edi Rama to resign, which means quit his job.",
+          "Rama’s party still has a majority in parliament. That means it holds more than half the seats. So the protests have not changed the government. The deputy prime minister said people have a right to protest, but not to use violence."
+        ]
+      },
+      "india": {
+        "headline": "Delhi Police Move Protests Away From Jantar Mantar",
+        "body": [
+          "Jantar Mantar is a place in New Delhi. For a long time, people have gathered there to protest. Now Delhi Police say it is no longer an official protest site. Instead, they named three new places in the city.",
+          "Not everyone agrees with the change. Uday Bhanu Chib leads the Indian Youth Congress. He has asked the Delhi High Court to cancel the police order. Police told the court they were following an order from the Supreme Court.",
+          "The change came as protests grew over voter lists. These lists show who can vote. The Election Commission is revising, or updating, them. Some political leaders have asked the Supreme Court to pause the changes.",
+          "Where people may protest affects how easily they can be heard. Courts will now weigh the police order against people’s right to protest."
+        ]
+      },
+      "us": {
+        "headline": "Rising Prices Worry Americans Three Weeks Before Big Elections",
+        "body": [
+          "The United States will hold midterm elections on November 3. Midterms happen halfway through a president’s four-year term. All 435 seats in the House of Representatives are up for election. So are 35 of the 100 seats in the Senate.",
+          "The vote decides which party controls Congress. Congress writes laws and decides how the government spends money.",
+          "Many voters are worried about the cost of living. That means how much everyday things cost. A new government report showed prices were 3.7% higher than a year earlier. Gasoline was the main reason.",
+          "The Federal Reserve is the US central bank. It meets later in October. Rising prices are called inflation. Higher inflation puts pressure on the bank to raise its key interest rate."
+        ]
+      }
+    }
   },
   "threads": {
     "lead": "yemen-war"
