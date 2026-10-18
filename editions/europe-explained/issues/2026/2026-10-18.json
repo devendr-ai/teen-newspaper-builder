@@ -346,7 +346,44 @@
           "Ukraine"
         ]
       }
-    ]
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Yemen’s War Reaches Saudi Cities, and Missiles Hit Aden",
+        "body": [
+          "Yemen has a civil war. That is a war between groups inside one country. It started again in July. A group called the Houthis controls Sanaa, a city in Yemen. Since July, the Houthis have been attacking Saudi Arabia.",
+          "On 10 October, a strike hit an airport in the Saudi city of Riyadh. Saudi Arabia says 12 people died. The airport is still shut.",
+          "The fighting is in Yemen too. On 15 October, Houthi missiles hit a palace in Aden. Yemen’s government is based in Aden for now. Five people were killed. The UN Security Council said the Houthi attacks were wrong.",
+          "Saudi Arabia says Iran is encouraging the Houthis. Iran denies this. Saudi-led forces say they have stopped missiles and drones. Some airlines have paused flights to Saudi cities."
+        ]
+      },
+      "world": {
+        "headline": "Oil Price Briefly Tops $110 as Tech Shares Fall",
+        "body": [
+          "A lot of the world’s oil travels through the Strait of Hormuz. A strait is a narrow strip of sea. This one lies next to Iran. A war began in late February, when the US and Israel attacked Iran. Since then, shipping there has been disrupted. Some ships have been attacked.",
+          "On Friday 16 October, the price of oil briefly went above $110 a barrel. That was the highest price since May.",
+          "Share prices of technology companies fell. A share is a small part of a company that people can buy. Tech companies lost more than $1 trillion in value on Friday. One reason is that dearer fuel can push other prices up. That can lead to higher interest rates. Oil companies such as Exxon and Chevron gained.",
+          "Iran’s army chief says the strait is closed. But US Central Command says 400 ships passed through in the past week."
+        ]
+      },
+      "uk": {
+        "headline": "Prime Minister Offers to Help Scotland Give Its Regions More Power",
+        "body": [
+          "Andy Burnham is the UK’s Prime Minister. He took office in July. He wants to move power outward. This is called devolution. It means a national government passes some of its powers to a smaller region.",
+          "On Friday 16 October, he visited Lanarkshire in Scotland. He offered to work with the Scottish Government. Together, they could move some decisions to Scotland’s regions. “This is me making an offer to the Scottish Government,” he said.",
+          "The Scottish Government already has its own idea. Scotland now has 32 councils, which are local governments. It has suggested replacing them with six to ten regional ones, plus smaller community ones.",
+          "Scotland’s Deputy First Minister, Jenny Gilruth, welcomed the visit. It came during the national conference of the SNP, a political party. The SNP won the most seats in Scotland’s election in May."
+        ]
+      },
+      "europe": {
+        "headline": "EU Leaders Back Ukraine but Cannot Agree on a Long-Term Budget",
+        "body": [
+          "Leaders of EU countries met in Brussels on 15 and 16 October. Ukraine’s president, Volodymyr Zelenskyy, said the war will cost Ukraine 155 billion euros next year. He asked for 70 billion euros more.",
+          "The EU has already agreed to lend Ukraine 90 billion euros. The leaders asked the European Commission to suggest how to close the gap. They also kept sanctions on Russia. Sanctions are punishments, such as limits on trade.",
+          "The leaders did not agree on the EU’s budget for 2028 to 2034. A budget is a plan for spending money. Some countries, led by Germany, want a smaller budget. Others, including Italy and Spain, want to protect money for farms and regions. Leaders will meet again at a special summit on 26 November."
+        ]
+      }
+    }
   },
   "threads": {
     "lead": "yemen-war"

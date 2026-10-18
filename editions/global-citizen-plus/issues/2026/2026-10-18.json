@@ -412,7 +412,62 @@
           "Russia"
         ]
       }
-    ]
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Price Passes $110 as Trouble Goes On in a Key Sea Passage",
+        "body": [
+          "The Strait of Hormuz is a narrow sea passage between Iran and its southern neighbours. Nearly a fifth of the world’s oil used to pass through it. A war began in late February, when the US and Israel attacked Iran. Since then, shipping there has been disrupted.",
+          "On Friday, Brent crude briefly went above $110 a barrel. Brent crude is a type of oil used to set world prices. That was its highest price since May.",
+          "The two sides disagree about the strait. Iran’s army chief says it is still closed. US Central Command says 400 ships passed through in the past week.",
+          "Tech companies lost more than $1 trillion in value on Friday. One reason may be that higher fuel costs push prices up. That makes US interest rates more likely to rise. Oil is a cost in almost everything, so families everywhere can feel it."
+        ]
+      },
+      "world": {
+        "headline": "Missiles Hit a Palace in Aden as Saudi Arabia and the Houthis Keep Fighting",
+        "body": [
+          "Saudi Arabia is fighting the Houthis, a group that controls Sanaa in Yemen. On 10 October, a strike hit the airport in Riyadh. Saudi Arabia says 12 people were killed and 300 were hurt. The airport stays shut through 17 October.",
+          "On 15 October, Houthi missiles hit a presidential palace in Aden. Aden is where Yemen’s government is based for now. Yemen’s health minister said five people were killed. The UN Security Council condemned, or strongly criticised, the attacks.",
+          "On 16 October, Trump said Israel has been very helpful to Saudi Arabia. Saudi Arabia says Iran encourages the Houthis. Iran says that is not true. It has offered to help the two sides talk."
+        ]
+      },
+      "india": {
+        "headline": "Indian Sailors Are Safe, but the Gulf Fighting Hits Indian Travellers",
+        "body": [
+          "Millions of Indians work and travel in the Gulf. So fighting there quickly worries families in India.",
+          "Seafarers are sailors. On 16 October, a tanker ship with 15 Indian seafarers was struck. It was in the Strait of Hormuz. On 14 October, another tanker with nine Indian seafarers was hit by a drone in Romania. All 24 sailors are safe.",
+          "Six Indians were hurt in an attack on Riyadh’s airport on 10 October. Two of them are in intensive care, a hospital unit for very sick patients.",
+          "Indian airlines have paused flights to Riyadh, Jeddah and Dammam. Some flights are stopped until 24 October. India, the US and Australia have warned people about travel there."
+        ]
+      },
+      "us": {
+        "headline": "Senators From Both Parties Ask Trump to Cancel a Russian Fuel Deal",
+        "body": [
+          "On 9 October, President Trump announced a deal about Russian diesel, a kind of fuel. The deal eases sanctions, which are penalties on a country. It lets Russian diesel reach world markets.",
+          "Six Republican and six Democratic senators wrote to Trump. They asked him to cancel the deal. On 16 October, some lawmakers in the House filed a bill to block it. The House is one part of Congress.",
+          "The president would likely veto the bill. A veto is the president’s power to reject a law. Congress is also away until after the midterm elections.",
+          "Those elections are about three weeks away. Fuel prices are a worry for Republicans. Ukraine’s president says the deal gives Putin more money."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Webb Telescope Studies a Faraway Galaxy Cluster With a Surprisingly Packed Centre",
+        "body": [
+          "A galaxy cluster is a huge group of galaxies held together by gravity. Astronomers used NASA’s James Webb Space Telescope to study one called XLSSC 122. It is about 10.4 billion light-years away.",
+          "Mass can bend light. This is called gravitational lensing. It can make curved arcs of light. XLSSC 122 is the most distant known cluster with strong lensing.",
+          "The team found an unusually large amount of mass packed into the cluster’s centre. This does not fit the standard models scientists use to explain the universe. Findings like this show scientists where to look harder, for example at dark matter.",
+          "The cluster was first found in 2014 by an X-ray spacecraft called XMM-Newton."
+        ]
+      },
+      "economics": {
+        "headline": "Prices Rise Faster in India, Led by Fuel and Power",
+        "body": [
+          "Wholesale prices are the prices of goods traded in bulk, before they reach shops. Inflation means prices going up. In India, wholesale inflation rose to 11.39% in September. In August it was about 10%.",
+          "Fuel and power prices rose fastest. Their inflation reached about 26%. Crude oil and natural gas jumped even more, to about 57%. Food and factory-made goods rose more slowly.",
+          "These figures are for September. Since then, the price of Brent crude has reached its highest level since May. Brent crude is a type of oil used to set world prices.",
+          "Higher wholesale costs for fuel, food and goods can later raise what families pay in shops."
+        ]
+      }
+    }
   },
   "threads": {
     "world": "yemen-war"
