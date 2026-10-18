@@ -339,6 +339,62 @@ def check_play(ed, issue, r):
     if len(facts) >= 2 and len({f.get("true") for f in facts if isinstance(f, dict)}) < 2:
         r.err("play.fact_or_fiction: include at least one true claim and one that isn't true")
     check_where(p.get("where"), stories, r)
+    from .skeleton import wants_easy
+    if p.get("easy") is not None:
+        check_easy(issue, p["easy"], stories, r)
+    elif wants_easy(ed):
+        r.note("no play.easy: Read & Play has no easier versions for this issue")
+
+
+EASY_WORDS = (60, 170)          # an easier version: total words
+EASY_SENTENCE = 14               # average words per sentence
+_NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
+
+
+def _numbers(text):
+    return [float(n.replace(",", "")) for n in _NUM.findall(str(text))]
+
+
+def check_easy(issue, easy, stories, r):
+    """play.easy: an easier version of each story for older papers, online only. It may round a number
+    but never bring in one the story doesn't have."""
+    if not isinstance(easy, dict):
+        r.err('play.easy must map story ids to {"headline", "body"}')
+        return
+    blocks = issue.get("blocks", {})
+    for bid, e in easy.items():
+        at = f"play.easy.{bid}"
+        if bid not in stories or not isinstance(blocks.get(bid), dict):
+            r.err(f"{at}: not a story in this issue")
+            continue
+        if not isinstance(e, dict):
+            r.err(f"{at} must be {{headline, body}}")
+            continue
+        head = str(e.get("headline", "")).strip()
+        body = [str(x).strip() for x in e.get("body") or [] if str(x).strip()]
+        if not head or len(head.split()) > 14:
+            r.err(f"{at}.headline: a short, plain headline (at most 14 words)")
+        if not 2 <= len(body) <= 5:
+            r.err(f"{at}.body: 2 to 5 short paragraphs")
+            continue
+        text = " ".join(body)
+        words = len(text.split())
+        if not EASY_WORDS[0] <= words <= EASY_WORDS[1]:
+            r.err(f"{at}.body: {words} words; write {EASY_WORDS[0]} to {EASY_WORDS[1]}")
+        sents = [x for x in re.split(r"(?<=[.!?])\s+", text) if x.strip()]
+        avg = words / max(1, len(sents))
+        if avg > EASY_SENTENCE:
+            r.err(f"{at}.body: sentences average {avg:.0f} words; keep them to about {EASY_SENTENCE} for easy reading")
+        b = blocks[bid]
+        source = " ".join(str(b.get(k, "")) for k in ("headline", "deck", "why", "connect", "analyst", "kicker"))
+        source += " " + " ".join(str(x) for x in b.get("body") or [])
+        have = _numbers(source)
+        for n in _numbers(head + " " + text):
+            if not any(abs(n - m) <= max(0.1 * abs(m), 0.5) for m in have):
+                r.err(f"{at}: the number {n:g} isn't in the story; use only the story's facts (rounding is fine)")
+    missing = sorted(set(stories) - set(easy) - {b for b in stories if not isinstance(blocks.get(b), dict)})
+    if missing:
+        r.note(f"play.easy: no easier version for {', '.join(missing)}")
 
 
 def check_where(where, stories, r):

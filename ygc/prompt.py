@@ -127,6 +127,13 @@ def generate(ed, chat=None):
                  f"entry for each story that happens in a particular place (delete the others): `place` as a child "
                  f"would name it (a city, sea or region, e.g. \"Strait of Hormuz\"), `lat` and `lon` of that place in "
                  f"decimal degrees, and `countries`, the countries the story is about, in plain English names.\n")
+        if skeleton.wants_easy(ed):
+            L.append("**Easier versions (online only).** Fill `play.easy` with an easier version of every story, for "
+                     "a reader who finds it hard: a plain `headline` and a `body` of 2 to 4 short paragraphs (60 to "
+                     "170 words), as you'd write for a 9-to-11-year-old. Short sentences (14 words on average), one "
+                     "idea each; explain any hard word or idea in passing; keep the most important facts and drop the "
+                     "rest. Use only facts already in that story: every number must also appear in the story "
+                     "(rounding is fine, like $110 for $109.86).\n")
         L.append("**Ongoing stories (optional).** If a story continues one of the site's big ongoing stories "
                  "(a file in `threads/`, such as `yemen-war`), add `\"threads\": {\"<story id>\": \"<thread id>\"}` "
                  "at the top level of the issue. The printed story then ends with a one-line pointer to \"The story so "

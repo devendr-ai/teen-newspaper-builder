@@ -213,6 +213,7 @@ def sections(ed, issue, date, chips=None):
     briefs = []
     play = issue.get("play") if isinstance(issue.get("play"), dict) else {}
     given = {w.get("story"): w for w in play.get("where") or [] if isinstance(w, dict)}
+    easy = play.get("easy") if isinstance(play.get("easy"), dict) else {}
 
     def kick(icon, name, topic=""):
         name = f'<span class="desk"><span aria-hidden="true">{icon}</span> {E(name)}</span>' if name else f'<span class="desk solo" aria-hidden="true">{icon}</span>'
@@ -232,18 +233,32 @@ def sections(ed, issue, date, chips=None):
             below = where_html(w, heading=True) if w and not b.get("map") else ""
             if w:
                 places.append((bid, plain(b.get("headline", "")), w))
+            seen = set(used)                         # new words already marked in earlier stories
             body = "".join(f"<p>{_sentences(p, vocab, used)}</p>" for p in b.get("body", []) if str(p).strip())
             boxes = "".join(
                 f'<aside class="box"><h3>{E(ed["labels"][x].capitalize())}</h3><p>{_sentences(b[x], vocab, used)}</p></aside>'
                 for x in ("why", "connect", "analyst") if b.get(x))
+            ez = easy.get(bid) if isinstance(easy.get(bid), dict) else None
+            ez_body = [x for x in (ez or {}).get("body") or [] if str(x).strip()]
+            if ez and str(ez.get("headline", "")).strip() and ez_body:  # the easier version, shown instead on a tap
+                easy_btn = ('<button type="button" class="easy" aria-pressed="false"><span aria-hidden="true">🪶</span>'
+                            ' <span>Easier version</span></button>')
+                easy_head = f'<h2 class="v-easy" hidden><span class="s">{clean(ez["headline"])}</span></h2>'
+                easy_text = ('<div class="text v-easy" hidden>'
+                             + "".join(f"<p>{_sentences(x, vocab, set(seen))}</p>" for x in ez_body) + "</div>")
+            else:
+                easy_btn = easy_head = easy_text = ""
             src = "".join(f'<li><a href="{E(s.get("url", "") if isinstance(s, dict) else s)}" rel="noopener" target="_blank">'
                           f'{E((s.get("title") or s.get("outlet") or s.get("url", "")) if isinstance(s, dict) else s)}</a></li>'
                           for s in b.get("sources", []) or [])
-            out.append(("story", bid, f'''{kick(icon, name, nice(topic))}
-<h2><span class="s">{clean(b.get("headline", ""))}</span></h2>
-{f'<p class="deck"><span class="s">{clean(b["deck"])}</span></p>' if b.get("deck") else ""}
+            orig = ' v-orig' if easy_btn else ''          # what the easier version replaces
+            if easy_btn and boxes:
+                boxes = f'<div class="v-orig">{boxes}</div>'
+            out.append(("story", bid, f'''{easy_btn}{kick(icon, name, nice(topic))}
+<h2{' class="v-orig"' if easy_btn else ''}><span class="s">{clean(b.get("headline", ""))}</span></h2>{easy_head}
+{f'<p class="deck{orig}"><span class="s">{clean(b["deck"])}</span></p>' if b.get("deck") else ""}
 {f'<a class="tchip" href="{E(chips[bid])}">🧵 New to this story? Read the story so far →</a>' if bid in chips else ""}
-{top}<div class="text">{body}</div>{below}{boxes}
+{top}<div class="text{orig}">{body}</div>{easy_text}{below}{boxes}
 {f'<details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details>' if src else ""}''', tone))
             first = plain(b.get("body", [""])[0]) if b.get("body") else ""
             stories.append({"headline": plain(b.get("headline", "")), "first": (sentences(first) or [""])[0]})
@@ -649,6 +664,11 @@ figcaption{font-size:.75em;color:var(--muted);margin-top:4px}
 .box p{margin:4px 0 0}
 .read{display:inline-flex;gap:6px;align-items:center;margin:0 0 10px;min-height:44px;border:2px solid var(--coral);background:var(--card);color:var(--coral);border-radius:999px;padding:4px 14px;font-weight:700;font-size:16px;cursor:pointer}
 .read[aria-pressed="true"]{background:var(--coral);color:#fff}
+.easy{display:inline-flex;gap:6px;align-items:center;margin:0 0 10px 6px;min-height:44px;border:2px solid #6B5BD2;background:var(--card);
+  color:#4D3FB0;border-radius:999px;padding:4px 14px;font-weight:700;font-size:16px;cursor:pointer}
+.easy[aria-pressed="true"]{background:#6B5BD2;color:#fff}
+:root[data-theme="night"] .easy{color:#C9C1FF}:root[data-theme="night"] .easy[aria-pressed="true"]{color:#fff}
+.v-easy.text p{font-size:1.04em}
 .s.now{background:var(--sun-t);border-radius:4px;box-shadow:0 0 0 3px var(--sun-t)}
 mark.w{background:none;color:inherit;border-bottom:3px dotted var(--coral);font-weight:700;cursor:pointer}
 dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0 0 4px}dl.words i{color:var(--muted)}
@@ -1091,7 +1111,7 @@ JS = r"""
   function readCard(card, btn) {
     if (reading === card) { stop(); return; }
     stop();
-    const parts = $$(".s", card);
+    const parts = $$(".s", card).filter((x) => !x.closest("[hidden]"));   // only the version on screen
     reading = card; btn.setAttribute("aria-pressed", "true"); btn.lastChild.textContent = " Stop";
     store.set("heard", store.get("heard", 0) + 1); award();
     let i = 0;
@@ -1113,6 +1133,24 @@ JS = r"""
   const main = $(".issue");
   if (!main) return;
   const data = JSON.parse($("#data").textContent);
+
+  // ---------------------------------------------------------------- the easier version of a story (papers for 12+)
+  function easyView(card, on) {
+    $$(".v-orig", card).forEach((x) => { x.hidden = on; });
+    $$(".v-easy", card).forEach((x) => { x.hidden = !on; });
+    const b = $(".easy", card);
+    b.setAttribute("aria-pressed", String(on));
+    b.lastChild.textContent = on ? "Original version" : "Easier version";
+  }
+  $$(".card .easy").forEach((b) => {
+    const card = b.closest(".card");
+    easyView(card, store.get("easy", false));                 // the reader's last choice
+    b.addEventListener("click", () => {
+      stop();
+      const on = b.getAttribute("aria-pressed") !== "true";
+      easyView(card, on); store.set("easy", on);
+    });
+  });
 
   // ---------------------------------------------------------------- tap a word
   const pop = $("#pop");

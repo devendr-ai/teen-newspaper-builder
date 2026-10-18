@@ -38,6 +38,12 @@ site`) is for the child, on a tablet or phone, from the same issue files.
     can hear each question.
   - *Fact or fiction?*: a claim about the issue; tap **True** or **Not true**.
 
+- **Easier version.** On papers for 12 and up, each story has a "🪶 Easier version" button
+  next to "Read it to me". It swaps the story for a simpler one (a plain headline and two to
+  four short paragraphs, written for about age 10), and "Original version" swaps it back. The
+  choice is remembered on the device, and "Read it to me" reads whichever version is showing.
+  The easier versions are written each night with the paper (`play.easy`) from that story's
+  facts only: `ygc check` fails any number that isn't in the story (rounding is fine).
 - **The story so far.** Big ongoing stories (a war, an election) get one page each to catch
   up on, for younger and older readers: in one minute, a map, what happened, who's who. See
   `docs/STORY_SO_FAR.md`.
@@ -92,6 +98,9 @@ and 2 claims; 9–11: 4 and 3; 12–14: 5 and 3; 15+: 8 and 4):
   "where": [{"story": "lead", "place": "Pacific Ocean", "lat": 5, "lon": -160, "countries": ["Australia"]}]
 }
 ```
+
+Papers for 12 and up also carry `easy`: `{"<story id>": {"headline": "...", "body": ["...", "..."]}}`,
+60 to 170 words with short sentences (14 words on average).
 
 `where` has one entry for each story that happens in a particular place (stories
 that don't are left out): the place as a child would name it, its latitude and

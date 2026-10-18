@@ -25,18 +25,28 @@ def _story(ed, cfg):
 
 def play_counts(ed):
     """(quiz questions, fact-or-fiction claims) for the website's games, by the reader's age."""
-    try:
-        age = int(str(ed["reader"]["age"]).split("-")[0])
-    except ValueError:
-        age = 15
+    age = reader_age(ed)
     return (3, 2) if age <= 8 else (4, 3) if age <= 11 else (5, 3) if age <= 14 else (8, 4)
+
+
+def reader_age(ed):
+    try:
+        return int(str(ed["reader"]["age"]).split("-")[0])
+    except ValueError:
+        return 15
+
+
+def wants_easy(ed):
+    """Papers for 12 and up offer an easier version of each story online, for readers who find one hard."""
+    return reader_age(ed) >= 12
 
 
 def play_skeleton(ed):
     nq, nf = play_counts(ed)
     return {"quiz": [{"q": "", "options": ["", "", ""], "answer": 0, "why": "", "story": ""} for _ in range(nq)],
             "fact_or_fiction": [{"claim": "", "true": True, "why": "", "story": ""} for _ in range(nf)],
-            "where": [{"story": bid, "place": "", "lat": None, "lon": None, "countries": []} for bid in story_blocks(ed)]}
+            "where": [{"story": bid, "place": "", "lat": None, "lon": None, "countries": []} for bid in story_blocks(ed)],
+            **({"easy": {bid: {"headline": "", "body": ["", ""]} for bid in story_blocks(ed)}} if wants_easy(ed) else {})}
 
 
 def make(ed, date, number, volume=1, play=True):
