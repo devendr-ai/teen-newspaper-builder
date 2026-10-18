@@ -20,6 +20,9 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Easier version: papers for 12 and up gain a "🪶 Easier version" button on each Read & Play
+  story, swapping in a simpler version written from that story's facts only (`play.easy`,
+  checked by `ygc check`: length, sentence length, and no number the story doesn't have).
 - The story so far (`ygc/threads.py`, `threads/`, `docs/STORY_SO_FAR.md`): one Read & Play
   page per big ongoing story, at two reading levels, with "in one minute", a map, a timeline
   linked to the stories that reported it, who's who, questions and a note for worried readers.

@@ -44,6 +44,8 @@ You are the Editor-in-Chief of *The Young Global Citizen Daily*, a 2-page printe
 
 **Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 5 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 3 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one entry for each story that happens in a particular place (delete the others): `place` as a child would name it (a city, sea or region, e.g. "Strait of Hormuz"), `lat` and `lon` of that place in decimal degrees, and `countries`, the countries the story is about, in plain English names.
 
+**Easier versions (online only).** Fill `play.easy` with an easier version of every story, for a reader who finds it hard: a plain `headline` and a `body` of 2 to 4 short paragraphs (60 to 170 words), as you'd write for a 9-to-11-year-old. Short sentences (14 words on average), one idea each; explain any hard word or idea in passing; keep the most important facts and drop the rest. Use only facts already in that story: every number must also appear in the story (rounding is fine, like $110 for $109.86).
+
 **Ongoing stories (optional).** If a story continues one of the site's big ongoing stories (a file in `threads/`, such as `yemen-war`), add `"threads": {"<story id>": "<thread id>"}` at the top level of the issue. The printed story then ends with a one-line pointer to "The story so far" on Read & Play, so leave room for it.
 
 **No repeats.** Vocabulary words and Did You Know facts never repeat anything from the last 2 issues. Stories may continue if still important.
@@ -310,7 +312,37 @@ You are the Editor-in-Chief of *The Young Global Citizen Daily*, a 2-page printe
         "lon": null,
         "countries": []
       }
-    ]
+    ],
+    "easy": {
+      "lead": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "world": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "india": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "us": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      }
+    }
   }
 }
 ```

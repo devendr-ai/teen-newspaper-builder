@@ -252,3 +252,59 @@ def test_finishing_a_paper_shows_the_streak(built):
     js = (built / "play.js").read_text(encoding="utf-8")
     for badge in ("First paper", "On fire", "Map explorer", "Word wizard", "Quiz champ"):
         assert badge in js
+
+
+# ------------------------------------------------------------------ the easier version (papers for 12+)
+EASY = {"headline": "Oil costs more", "body": [
+    "The price of oil went above $110 for one barrel. A barrel is a big drum that holds oil. "
+    "Most oil ships pass through a narrow sea called the Strait of Hormuz.",
+    "Fewer ships are getting through right now. When less oil arrives, it costs more. "
+    "That can make petrol and many other things cost more too, all around the world."]}
+
+
+def _gcp():
+    import copy
+    ed = edition.load("global-citizen-plus")
+    path = next(p for d, p in site.issues_of(ed) if d == "2026-10-18")
+    issue = copy.deepcopy(json.load(open(path, encoding="utf-8")))
+    issue.setdefault("play", {}).pop("easy", None)
+    return ed, issue, path
+
+
+def test_only_papers_for_twelve_and_up_ask_for_easier_versions():
+    from ygc import prompt, skeleton
+    young, older = edition.load("junior-daily"), edition.load("global-citizen-plus")
+    assert not skeleton.wants_easy(young) and skeleton.wants_easy(older)
+    assert "easy" not in skeleton.make(young, "2026-10-20", 9)["play"]
+    assert set(skeleton.make(older, "2026-10-20", 9)["play"]["easy"]) == set(edition.story_blocks(older))
+    assert "**Easier versions" in prompt.generate(older) and "**Easier versions" not in prompt.generate(young)
+
+
+def test_easier_versions_keep_to_the_storys_facts():
+    from ygc import checks
+    ed, issue, path = _gcp()
+    issue["play"]["easy"] = {"lead": EASY}
+    errs = [e for e in checks.check_issue(ed, issue, path, archive=True).errors if "easy" in e]
+    assert errs == [], errs                                               # $110 rounds the story's $109.86
+    bad = json.loads(json.dumps(EASY))
+    bad["body"][1] += " Prices rose 55 percent in a week."
+    issue["play"]["easy"] = {"lead": bad, "mars": EASY, "world": {"headline": "x", "body": ["Too short."]}}
+    errs = " ".join(checks.check_issue(ed, issue, path, archive=True).errors)
+    for needle in ("number 55 isn't in the story", "easy.mars: not a story", "easy.world.body: 2 to 5"):
+        assert needle in errs, needle
+    long = {"headline": "Oil", "body": [" ".join(["This sentence goes on and on without a single stop"] * 3) + ".",
+                                        "It keeps going on and on and on and on and on and on and on and on and on."]}
+    issue["play"]["easy"] = {"lead": long}
+    assert any("sentences average" in e for e in checks.check_issue(ed, issue, path, archive=True).errors)
+
+
+def test_a_story_with_an_easier_version_gets_the_button():
+    ed, issue, _ = _gcp()
+    issue["play"]["easy"] = {"lead": EASY}
+    secs, _, _ = play.sections(ed, issue, "2026-10-18")
+    html_ = {b: h for _, b, h, _ in secs}
+    lead, other = html_["lead"], html_[next(b for b in html_ if b not in ("lead", "briefs", "words")
+                                            and "class=\"easy\"" not in html_[b])]
+    assert 'class="easy" aria-pressed="false"' in lead and 'class="v-easy" hidden' in lead
+    assert '<div class="text v-easy" hidden>' in lead and 'class="text v-orig"' in lead
+    assert "Oil costs more" in lead and 'class="easy"' not in other and "v-orig" not in other
