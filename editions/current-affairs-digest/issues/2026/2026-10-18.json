@@ -449,7 +449,63 @@
           "Russia"
         ]
       }
-    ]
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Missiles Hit Yemen and Saudi Arabia as Riyadh Airport Stays Shut",
+        "body": [
+          "The Houthis are a group that controls Sanaa, a city in Yemen. Yemen's civil war started again in July. A civil war is a war between groups inside one country. Since then, the Houthis have attacked Saudi Arabia.",
+          "On October 10, an attack hit King Khalid International Airport in Riyadh. Saudi Arabia says 12 people died. The airport was closed through October 17.",
+          "The fighting is in Yemen too. On October 15, Houthi missiles hit the presidential palace in Aden. Aden is Yemen's temporary capital. Yemen's health minister said five people were killed. The United Nations Security Council spoke out against the Houthi attacks.",
+          "Saudi Arabia says Iran is encouraging the Houthis. Iran says that is not true. Indian airlines have paused flights to Saudi Arabia for now."
+        ]
+      },
+      "world": {
+        "headline": "EU Leaders Back Ukraine as Zelenskyy Asks for More Money",
+        "body": [
+          "Leaders of the European Union, or EU, met in Brussels for two days. The meeting ended on October 16. They agreed to keep sanctions on Russia. Sanctions are punishments that limit trade with a country. The leaders also said they support Ukraine.",
+          "Ukraine's President Zelenskyy said the war will cost his country 155 billion euros next year. Euros are a kind of money. He asked for 70 billion euros more. The EU has already agreed to lend Ukraine 90 billion euros.",
+          "The leaders could not agree on the EU's budget for 2028 to 2034. A budget is a plan for how money will be spent. Another special meeting is planned for November 26.",
+          "The leaders also asked for new ways to protect EU trade from China. One idea is tariffs, which are extra taxes on goods from another country."
+        ]
+      },
+      "india": {
+        "headline": "India's Supreme Court Asks Election Commission to Answer Questions on Voter Lists",
+        "body": [
+          "A voter list shows who is allowed to vote. India's Election Commission has been reviewing these lists. The review is called the Special Intensive Revision, or SIR.",
+          "Thirteen opposition leaders asked the Supreme Court to look at it. The opposition means the parties that are not in power. The leaders include Rahul Gandhi and Mallikarjun Kharge. They say some voters were taken off the lists without warning. They also say those voters did not get a chance to be heard.",
+          "On October 15, the court asked the Election Commission to reply. The Commission says it did nothing wrong. It says voters removed by mistake can sign up again.",
+          "The case matters because India's Constitution promises adults the right to vote. The Constitution is the country's most important set of rules."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "US Lawmakers Try to Stop Trump's Deal on Russian Diesel",
+        "body": [
+          "On October 9, US President Trump announced a deal about Russian diesel, which is a fuel. The deal eases sanctions. Sanctions are punishments that limit trade. The deal would let Russian diesel be sold around the world.",
+          "Some members of Congress, which makes US laws, do not like the deal. Twelve senators wrote to Trump asking him to cancel it. Six were Republicans and six were Democrats.",
+          "On October 16, some lawmakers filed a bill to block the deal. A bill is a plan for a new law. But the president can veto a bill, which means reject it. Congress can beat a veto only with a two-thirds vote in both its parts. That is hard, so the bill's chances look poor.",
+          "This is part of checks and balances. Congress can write laws to limit the president. The president can refuse to sign them."
+        ]
+      },
+      "economics": {
+        "headline": "Wholesale Prices in India Rise Faster, Led by Fuel and Power",
+        "body": [
+          "Inflation means prices are going up. India's government tracks wholesale prices. These are prices for goods sold in large amounts, before they reach shops.",
+          "In September, wholesale inflation rose to about 11%. In August it was about 10%. This means bulk prices were about 11% higher than a year before.",
+          "Fuel and power prices rose the most. Their inflation reached about 26%. Food prices and the prices of factory-made goods also went up.",
+          "These numbers are early and may change later. Wholesale prices can push up prices in shops. That is why people watch them closely. Higher costs can also reach family budgets."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Webb Telescope Studies a Very Old and Distant Group of Galaxies",
+        "body": [
+          "A galaxy cluster is a huge group of galaxies held together by gravity. Astronomers used NASA's James Webb Space Telescope to study one called XLSSC 122. It is about 10.4 billion light-years from Earth. The light we see from it left about 10 billion years ago.",
+          "The cluster's mass bends light. This is called gravitational lensing. It is the most distant known cluster that shows strong lensing.",
+          "The team found an unusually large amount of mass packed into the cluster's centre. This does not fit scientists' usual models of the universe. Data also show that the cluster is still merging, or coming together.",
+          "The findings appear in three science papers. Researchers hope to find many more early clusters like this one."
+        ]
+      }
+    }
   },
   "threads": {
     "lead": "yemen-war",

@@ -454,7 +454,59 @@
           "Djibouti"
         ]
       }
-    ]
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Houthis Attack Saudi Airports as a Truce Falls Apart",
+        "body": [
+          "The Houthis are a group in Yemen that is on Iran’s side. They have controlled Sanaa and parts of north-west Yemen since 2014. They are fighting Yemeni government forces backed by Saudi Arabia. A truce, or deal to stop fighting, began in 2022. It has now collapsed.",
+          "After Sanaa’s airport was struck, the Houthi leader made a warning. He said they would strike back “airports for airports.” The Houthis now call Saudi airports targets. They say Mecca and Medina are left out. Many of their claims could not be checked by others.",
+          "Saudi officials say at least 20 people died at airports between October 6 and 11. Another 356 people were hurt. The worst strike hit an airport in Riyadh on October 10. It killed at least 12 people."
+        ]
+      },
+      "world": {
+        "headline": "Missiles Hit Kyiv’s Power Plants as Winter Gets Close",
+        "body": [
+          "On October 13 and 14, Russian missiles struck Kyiv. All three of the capital’s heat and power plants were attacked. These plants use one fuel to make both electricity and heat for homes. Everyone at the plants got out, and no one there was hurt.",
+          "President Zelenskyy said 26 energy sites were badly damaged. At least 600,000 people had no electricity. More blackouts may come. These numbers came from Ukrainian officials. They were not confirmed by others.",
+          "These plants matter in cold countries. Heat left over from making electricity is piped to warm buildings. So one strike can cut off both at once. Officials say repairs are under way."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Scientists Build a Nuclear Clock That Fixes Its Own Drift",
+        "body": [
+          "Atomic clocks keep time using electrons, tiny parts of atoms. A nuclear clock uses the nucleus instead. The nucleus is the dense core of an atom. It is better shielded from outside disturbances.",
+          "Researchers built one in Vienna with a thorium-229 crystal and a laser. A laser can nudge this nucleus between two energy states. That makes it a promising timekeeper.",
+          "The big step is a feedback loop. The system notices when the laser drifts. Then it corrects the laser by itself. A thermostat works the same way to keep a room at one temperature.",
+          "The clock stayed steady for over 24 hours without help. Its precision is roughly one second in 30 million years. It still trails the best atomic clocks. Better clocks could improve navigation."
+        ]
+      },
+      "climate_and_environment": {
+        "headline": "A Strong El Niño Means Fewer Atlantic Hurricanes Are Expected",
+        "body": [
+          "Forecasters at NOAA now give a 75% chance of a below-normal Atlantic hurricane season. In May, they said 55%. They expect 7 to 13 named storms. Of those, 2 to 6 may become hurricanes.",
+          "The reason is El Niño. It is a warm phase in the tropical Pacific Ocean. It makes winds high above the Atlantic stronger. Those winds disrupt storms as they form. Every strong El Niño since 1950 has come with a below-normal Atlantic season.",
+          "A forecast gives chances, not promises. There is still a 25% chance of something else. NOAA’s leader warned that “it only takes one” storm. The season runs until November 30, so being prepared still matters."
+        ]
+      },
+      "health": {
+        "headline": "Kenya Has Its First Ebola Case and Tracks Down Contacts",
+        "body": [
+          "Kenya confirmed its first Ebola case on October 6. The patient was a Kenyan man who had lived in DR Congo. He died in Nairobi after returning.",
+          "Officials began contact tracing right away. That means finding people who were near a patient. Then they watch their health so any new illness is caught early. One report said 28 contacts had been traced.",
+          "Ebola spreads through direct contact with the body fluids of a sick person. So family members and health workers are most at risk. Finding them fast helps stop one case from becoming many.",
+          "The bigger outbreak is in DR Congo. WHO has declared it a health emergency of international concern."
+        ]
+      },
+      "history_and_geography": {
+        "headline": "Why Two Narrow Sea Passages Affect the Price of Oil",
+        "body": [
+          "A chokepoint is a narrow passage that traffic must squeeze through. A strait is a narrow stretch of sea like this. The Strait of Hormuz is beside Iran. It has been closed in effect since the US and Israel attacked Iran in late February.",
+          "That makes the Bab el-Mandeb strait more important. It is the southern exit of the Red Sea. It is a key route between the Mediterranean and Asia. The Houthis announced a blockade of Saudi ships there. Who controls it is disputed.",
+          "On October 16, one report put the price of Brent oil at about $108 a barrel. Saudi Arabia has had to send oil from its Red Sea ports to Asia around Africa. When two routes are threatened at once, there is no easy detour."
+        ]
+      }
+    }
   },
   "threads": {
     "lead": "yemen-war"
