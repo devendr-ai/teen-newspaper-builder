@@ -1,0 +1,402 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-10-20",
+  "volume": 1,
+  "issue": 174,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE AND RUSSIA",
+      "headline": "Ukraine Sends More Than 1,000 Drones at Russia",
+      "deck": "An oil port in St Petersburg burned as Russia struck Kyiv overnight.",
+      "body": [
+        "On Sunday, Ukraine launched more than 1,000 drones at Russia in one of its largest air attacks of the war. Strikes set an oil export terminal and a depot ablaze in St Petersburg, Russia's second city. Russia's Defence Ministry said it destroyed 1,015 Ukrainian drones over 15 Russian regions, Crimea and the Black Sea.",
+        "Russia struck back at Ukraine. Overnight an air strike killed a woman in Kyiv, hit a subway station and damaged a 25-storey apartment building, Mayor Vitali Klitschko said. Three other people were injured. Last Friday, Russian attacks on nine Ukrainian regions had already cut power to hundreds of thousands of homes.",
+        "Both sides have also been trading blows over energy. President Trump announced an “energy ceasefire” on October 11 but gave no details. Kyiv reported that Russian attacks on energy sites continued afterwards. On Thursday Kyiv said it had resumed strikes on Russian oil facilities after a three-day pause.",
+        "The attacks come as Ukraine's relationship with Washington gets harder. President Donald Trump criticised Kyiv's strikes on Russian oil sites. He also said that intelligence sharing between the US and Ukraine, which had been blocked for some period of time, had resumed."
+      ],
+      "map": {
+        "title": "THE BLACK SEA",
+        "label_top": "UKRAINE AND RUSSIA (NORTH SHORE)",
+        "label_bottom": "TURKEY (SOUTH SHORE)",
+        "footnote": "A sea that Ukraine, Russia and Turkey all border",
+        "caption": "Russia said it shot down drones over the Black Sea and Crimea."
+      },
+      "why": "Both sides now aim at each other's energy. That puts power, fuel and heating at stake, and it tests how far the US will back Ukraine.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "CBC",
+          "title": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones",
+          "url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+          "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+          "published": "2026-10-16"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Attacks Push Oil Above $109 a Barrel",
+      "deck": "Saudi Arabia has put off its big investor conference until 2027.",
+      "body": [
+        "The Houthis, an armed group from Yemen, have kept attacking Saudi Arabia. On October 10 a strike hit King Khalid International Airport in Riyadh. Saudi Arabia says at least 12 people were killed and more than 300 were wounded.",
+        "The airport has been hit more than once. A fresh strike hit it the day after the deadly attack, killing one person, a Pakistani resident, and wounding 11 others, according to Saudi civil aviation authorities. The Houthis said airports across the kingdom were a “theatre of operations for our forces.”",
+        "Now the effects are spreading to the economy. After the Houthis claimed attacks on Saudi airports and facilities of the oil giant Aramco, Brent crude rose above $109 a barrel. UK maritime monitors said two tankers were attacked off the Saudi coast on Friday.",
+        "Business is feeling it too. On Monday Saudi Arabia postponed the Future Investment Initiative conference, due on October 26 to 29, until 2027. In Riyadh, the Kingdom Centre ordered its office staff to work remotely."
+      ],
+      "illustration": {
+        "title": "OIL AT RISK",
+        "subtitle": "Tankers hit off Saudi",
+        "motif": "ship",
+        "caption": "Two tankers were attacked in the Persian Gulf on Friday."
+      },
+      "connect": "Economics: oil is traded worldwide, so a threat to a big producer such as Saudi Arabia can lift fuel prices in India and the United States too.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Brent tops $109 after Houthis claim attacks on Saudi Arabia",
+          "url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Saudi Arabia postpones big investor conference to 2027",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Attack on airport in Saudi capital Riyadh leaves several injured",
+          "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+          "published": "2026-10-10"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Kingdom Centre sends workers home amid Houthi attacks",
+          "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "eNCA",
+          "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+          "url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+          "published": "2026-10-11"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  HEALTH",
+      "headline": "India Caps Shop Margins on 137 Cancer Drugs",
+      "deck": "Some prices could fall by up to 70% from November 9.",
+      "body": [
+        "India's drug price regulator, the NPPA, has capped trade margins at 30% of the maximum retail price for 137 anti-cancer medicines. A trade margin is the amount distributors and shops add on top of what they pay for a drug. The order is in a Gazette notification dated October 17.",
+        "The new prices take effect on November 9. Reports say cuts could reach up to 70%, but the actual fall depends on each medicine's current price and distribution margins. The list includes modern treatments such as pembrolizumab and nivolumab.",
+        "The government estimates patients could save around Rs 2,500 crore a year. There is a precedent: a 2019 pilot capped margins on 42 anti-cancer drugs at 30%, and afterwards the retail prices of 526 brands fell by up to 90%."
+      ],
+      "why": "Cancer treatment can cost a family a huge share of its income, so lower retail prices could make it easier to afford.",
+      "also": [
+        "Prices: India's consumer prices rose 5.54% in the year to September, Bloomberg reports.",
+        "Banking: the RBI raised its repo rate to 5.50% on October 7, its first rise since 2023."
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Govt caps trade margins on 137 anti-cancer drugs at 30%; revised prices from November 9",
+          "url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "Outlook India",
+          "title": "India To Cut Prices Of 137 Cancer Drugs From November 9",
+          "url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+          "published": "2026-10-12"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "India's central bank hikes rates for the first time since 2023",
+          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+          "published": "2026-10-07"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "France: about 550,000 people marched on Saturday over living costs, and curfews now cover parts of Paris and northern towns.",
+        "Space: Webb found three weather states on a brown dwarf 20 light-years away."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Curfew",
+          "def": "A rule that people must stay off the streets at certain hours. Today: parts of Paris, Lille and three other towns are under curfews."
+        },
+        {
+          "word": "Trade margin",
+          "def": "The extra amount sellers add to the price they pay for a product. Today: India capped it at 30% for 137 cancer drugs."
+        },
+        {
+          "word": "Producer prices",
+          "def": "What businesses pay for the goods and services they make and sell. Today: they were 6.3% higher than a year earlier in the US."
+        },
+        {
+          "word": "Brent crude",
+          "def": "A price that traders use to compare oil around the world. Today: it rose above $109 a barrel."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The word “curfew” comes from the old French “couvre-feu”, meaning “cover the fire”, an evening signal in medieval towns."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  PRICES",
+      "headline": "US Prices Rose 3.7% in a Year as Petrol Costs Weigh on Voters",
+      "deck": "Midterm elections are on November 3.",
+      "body": [
+        "Consumer prices in the United States rose 0.6% in September and 3.7% over the year, up from 3.4% in August, according to the Bureau of Labor Statistics. Producer prices, which measure what businesses pay, were 6.3% higher than a year earlier.",
+        "Fuel is a big reason. Gasoline costs $4.29 a gallon and global oil is about $107 a barrel, U.S. News reports. CNN says attacks on tankers and oil sites have pushed oil and diesel prices higher, and Moody's Analytics estimates the Iran war adds $2,000 in costs for the average household.",
+        "That lands three weeks before the midterms, when Americans choose members of Congress. U.S. News reports President Trump's approval among US adults is at a record low of 33%. The White House has blamed the previous administration, and Newsweek reports it argues fuel prices will fall quickly once the conflict ends."
+      ],
+      "chart": {
+        "title": "HOW FAST PRICES ROSE",
+        "subtitle": "Percent rise over a year",
+        "labels": [
+          "Aug",
+          "Sep",
+          "Producer"
+        ],
+        "values": [
+          3.4,
+          3.7,
+          6.3
+        ],
+        "max": 7,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "Aug and Sep are consumer prices; Producer is what businesses pay. Source: BLS, via CNN."
+      },
+      "why": "Prices touch every household budget, and how people feel about them can shape how they vote.",
+      "analyst": "Why might oil prices reach producer prices faster than shop prices? Who gets blamed when prices rise, and is that fair? What would you need to know to judge the White House's claim?",
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Trump was trying to force prices lower ahead of the midterms. But Iran gets a vote, too",
+          "url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+          "published": "2026-10-14"
+        },
+        {
+          "outlet": "U.S. News",
+          "title": "Economy Set as Trump Faces Dire Midterm",
+          "url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "Premier League, Sunday: Brighton beat Crystal Palace <b>5-0</b> and Arsenal won <b>1-0</b> at Nottingham Forest.",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "title": "Football Scores & Fixtures, 18 October 2026",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+          "published": "2026-10-18"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Russia and Ukraine keep hitting each other's energy sites.",
+        "Whether France's curfews end quietly."
+      ]
+    },
+    "quote": {
+      "text": "The more you know, the better you can ask.",
+      "by": "The Young Global Citizen Daily"
+    }
+  },
+  "sources": [
+    "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+    "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+    "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+    "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+    "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+    "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+    "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+    "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+    "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+    "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+    "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+    "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "About how many drones did Ukraine launch at Russia?",
+        "options": [
+          "More than 100",
+          "More than 1,000",
+          "More than 10,000"
+        ],
+        "answer": 1,
+        "why": "Kyiv launched more than 1,000 drones.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Saudi Arabia postpone until 2027?",
+        "options": [
+          "A football final",
+          "An investor conference",
+          "An election"
+        ],
+        "answer": 1,
+        "why": "It postponed the Future Investment Initiative conference.",
+        "story": "world"
+      },
+      {
+        "q": "What is the NPPA cap on trade margins?",
+        "options": [
+          "10%",
+          "30%",
+          "70%"
+        ],
+        "answer": 1,
+        "why": "The cap is 30% of the maximum retail price.",
+        "story": "india"
+      },
+      {
+        "q": "How much did US consumer prices rise over the year to September?",
+        "options": [
+          "3.7%",
+          "0.6%",
+          "6.3%"
+        ],
+        "answer": 0,
+        "why": "Consumer prices rose 3.7% over the year.",
+        "story": "us"
+      },
+      {
+        "q": "When do the revised cancer-drug prices take effect?",
+        "options": [
+          "October 17",
+          "November 3",
+          "November 9"
+        ],
+        "answer": 2,
+        "why": "They take effect on November 9.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Russia said it destroyed 1,015 Ukrainian drones.",
+        "true": true,
+        "why": "Russia's Defence Ministry gave that figure.",
+        "story": "lead"
+      },
+      {
+        "claim": "Brent crude fell below $100 a barrel.",
+        "true": false,
+        "why": "It rose above $109 a barrel.",
+        "story": "world"
+      },
+      {
+        "claim": "The US midterm elections are on November 3.",
+        "true": true,
+        "why": "The paper says the midterms are on November 3.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Black Sea",
+        "lat": 43.5,
+        "lon": 34.0,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Ukraine Sends Over 1,000 Drones at Russia",
+        "body": [
+          "On Sunday, Ukraine sent more than 1,000 drones at Russia. A drone is a small flying machine with no pilot. The drones set an oil port on fire in St Petersburg.",
+          "Russia said it destroyed 1,015 Ukrainian drones. Russia also hit Kyiv overnight. A woman was killed and three other people were hurt.",
+          "President Donald Trump said he did not like Ukraine's attacks on Russian oil sites."
+        ]
+      },
+      "world": {
+        "headline": "Attacks Push Oil Above $109",
+        "body": [
+          "The Houthis are a group from Yemen. They keep attacking Saudi Arabia, which sits next to Yemen. On October 10, a strike hit the airport in Riyadh.",
+          "Saudi Arabia is a big oil country. After new attacks, the price of Brent crude went above $109 a barrel. Brent is a price that traders use for oil.",
+          "Saudi Arabia also put off a big investor conference until 2027."
+        ]
+      },
+      "india": {
+        "headline": "India Lowers the Cost of Cancer Medicines",
+        "body": [
+          "Shops add a bit of money on top of the price they pay for medicine. This extra money is called a trade margin.",
+          "India's drug price regulator capped this extra money at 30% for 137 cancer medicines. Prices could fall by up to 70%.",
+          "The new prices start on November 9. The government says patients could save around Rs 2,500 crore a year."
+        ]
+      },
+      "us": {
+        "headline": "Prices in the US Rose 3.7% in a Year",
+        "body": [
+          "Prices in the United States rose 3.7% over the year to September. In August, the yearly rise was 3.4%.",
+          "Petrol costs $4.29 a gallon. Oil is about $107 a barrel. Attacks on oil ships and oil sites have pushed prices up.",
+          "On November 3, Americans vote for members of Congress. Many voters are worried about prices, and President Trump's approval is at a record low of 33%, U.S. News says."
+        ]
+      }
+    }
+  }
+}

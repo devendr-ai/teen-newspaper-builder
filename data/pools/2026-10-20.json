@@ -31,6 +31,10 @@
      {
       "fact": "Riyadh's Kingdom Centre ordered all office employees to work remotely amid the Houthi attacks.",
       "source_url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks"
+     },
+     {
+      "fact": "A fresh strike hit the Riyadh airport the day after the deadly attack, killing one person, a Pakistani resident, and wounding 11 others, according to Saudi civil aviation authorities; the Houthis said airports across the kingdom were a theatre of operations for their forces.",
+      "source_url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack"
      }
     ],
     "numbers": [
@@ -78,6 +82,12 @@
       "title": "Kingdom Centre sends workers home amid Houthi attacks",
       "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
       "published": "2026-10-19"
+     },
+     {
+      "outlet": "eNCA",
+      "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+      "url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+      "published": "2026-10-11"
      }
     ]
    },
@@ -107,6 +117,10 @@
      },
      {
       "fact": "Russian attacks on nine Ukrainian regions caused emergency power outages for hundreds of thousands of households on Friday, October 16.",
+      "source_url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
+     },
+     {
+      "fact": "Trump announced an energy ceasefire on October 11 but gave no details; Kyiv reported Russian attacks on energy sites continued afterwards, and on Thursday said it had resumed strikes on Russian oil facilities after a three-day pause.",
       "source_url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
      }
     ],
