@@ -48,7 +48,7 @@
       "headline": "Houthi Attacks Push Oil Above $109 a Barrel",
       "deck": "Saudi Arabia has put off its big investor conference until 2027.",
       "body": [
-        "The Houthis, an armed group from Yemen, have kept attacking Saudi Arabia. On October 10 a strike hit King Khalid International Airport in Riyadh. Saudi Arabia says at least 12 people were killed and more than 300 were wounded.",
+        "The Houthis, an armed group from Yemen, have kept attacking Saudi Arabia. On October 10 a strike hit King Khalid International Airport in Riyadh. Saudi Arabia says at least 12 people were killed and more than 300 were wounded. The Houthis control much of the north of Yemen, the country just south of Saudi Arabia.",
         "The airport has been hit more than once. A fresh strike hit it the day after the deadly attack, killing one person, a Pakistani resident, and wounding 11 others, according to Saudi civil aviation authorities. The Houthis said airports across the kingdom were a “theatre of operations for our forces.”",
         "Now the effects are spreading to the economy. After the Houthis claimed attacks on Saudi airports and facilities of the oil giant Aramco, Brent crude rose above $109 a barrel. UK maritime monitors said two tankers were attacked off the Saudi coast on Friday.",
         "Business is feeling it too. On Monday Saudi Arabia postponed the Future Investment Initiative conference, due on October 26 to 29, until 2027. In Riyadh, the Kingdom Centre ordered its office staff to work remotely."
@@ -398,5 +398,9 @@
         ]
       }
     }
+  },
+  "threads": {
+    "lead": "russia-ukraine",
+    "world": "yemen-war"
   }
 }

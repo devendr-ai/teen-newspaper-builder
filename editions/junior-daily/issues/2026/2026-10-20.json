@@ -54,7 +54,7 @@
       "deck": "Some protests turned violent, and curfews were set.",
       "body": [
         "On Saturday, about 550,000 people marched in many French cities, the authorities say. About 110,000 of them were in Paris, the capital. They were upset that the cost of living is rising and public services are getting worse.",
-        "Some protests turned violent. Some people set fire to city halls. In Limoges, a city hall built in the 1800s was gutted. President Emmanuel Macron spoke to the country on Sunday. He promised a very firm response to the violence, but he did not declare a state of emergency.",
+        "Some protests turned violent. Some people set fire to city halls. President Emmanuel Macron spoke to the country on Sunday. He promised a firm response, but he did not declare a state of emergency.",
         "Now towns are acting. Prime Minister Sebastien Lecornu asked local officials to set curfews, which are rules to stay home at night. Parts of Paris, Lille and three other northern towns have them."
       ],
       "chart": {
@@ -199,5 +199,8 @@
         ]
       }
     ]
+  },
+  "threads": {
+    "lead": "yemen-war"
   }
 }
