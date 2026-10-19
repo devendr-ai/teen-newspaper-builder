@@ -1,0 +1,203 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-20",
+  "volume": 1,
+  "issue": 9,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Attacks Push Oil Prices Above $109",
+      "deck": "Saudi Arabia has put off a big meeting of business leaders.",
+      "body": [
+        "The Houthis are a group from Yemen. Yemen is the country just south of Saudi Arabia. They have kept attacking Saudi Arabia. On October 10, a strike hit the main airport in Riyadh, the Saudi capital. Saudi Arabia says at least 12 people were killed and more than 300 were hurt.",
+        "The attacks are now shaking the oil market. Saudi Arabia sells a lot of oil. After the Houthis claimed new attacks on Saudi airports and oil company sites, the price of Brent crude rose above $109 a barrel. Brent is a price that traders use for oil. UK ship monitors also said two tankers were attacked off the Saudi coast on Friday.",
+        "Life in Riyadh is changing too. A tall office tower there, the Kingdom Centre, told workers to stay home and work from there. And on Monday, Saudi Arabia put off a big investor meeting to 2027. It was due to start on October 26."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Saudi oil is sold around the world. When it is at risk, fuel prices can rise far from the fighting.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Brent tops $109 after Houthis claim attacks on Saudi Arabia",
+          "url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Saudi Arabia postpones big investor conference to 2027",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Attack on airport in Saudi capital Riyadh leaves several injured",
+          "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+          "published": "2026-10-10"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Kingdom Centre sends workers home amid Houthi attacks",
+          "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  FRANCE",
+      "headline": "Half a Million People March in France",
+      "deck": "Some protests turned violent, and curfews were set.",
+      "body": [
+        "On Saturday, about 550,000 people marched in many French cities, the authorities say. About 110,000 of them were in Paris, the capital. They were upset that the cost of living is rising and public services are getting worse.",
+        "Some protests turned violent. Some people set fire to city halls. In Limoges, a city hall built in the 1800s was gutted. President Emmanuel Macron spoke to the country on Sunday. He promised a very firm response to the violence, but he did not declare a state of emergency.",
+        "Now towns are acting. Prime Minister Sebastien Lecornu asked local officials to set curfews, which are rules to stay home at night. Parts of Paris, Lille and three other northern towns have them."
+      ],
+      "chart": {
+        "title": "PEOPLE WHO MARCHED ON SATURDAY",
+        "subtitle": "In thousands, according to French authorities",
+        "labels": [
+          "All of France",
+          "Paris"
+        ],
+        "values": [
+          550,
+          110
+        ],
+        "max": 600,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are from the authorities, as reported by CNBC."
+      },
+      "why": "France is a big European country. When many people protest, its leaders must decide how to answer.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "France hit by worst unrest in years as Macron condemns violence",
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "France protests live: Curfews imposed in parts of Paris, other cities",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Ukraine sent more than 1,000 drones at Russia, and an oil port in St Petersburg caught fire.",
+        "United States: Prices rose 3.7% in a year, and petrol costs $4.29 a gallon."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the curfews in France end quietly.",
+        "Whether the Houthi attacks on Saudi Arabia go on."
+      ]
+    }
+  },
+  "sources": [
+    "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+    "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+    "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+    "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+    "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which city's main airport was hit on October 10?",
+        "options": [
+          "Riyadh",
+          "Paris",
+          "Lille"
+        ],
+        "answer": 0,
+        "why": "The paper says a strike hit the main airport in Riyadh on October 10.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Saudi Arabia put off until 2027?",
+        "options": [
+          "A football match",
+          "A big investor meeting",
+          "A new airport"
+        ],
+        "answer": 1,
+        "why": "Saudi Arabia put off a big investor meeting to 2027.",
+        "story": "lead"
+      },
+      {
+        "q": "About how many people marched in France on Saturday?",
+        "options": [
+          "55,000",
+          "550,000",
+          "5.5 million"
+        ],
+        "answer": 1,
+        "why": "Authorities say about 550,000 people marched.",
+        "story": "world"
+      },
+      {
+        "q": "What is a curfew?",
+        "options": [
+          "A rule to stay home at night",
+          "A big parade",
+          "A school test"
+        ],
+        "answer": 0,
+        "why": "The paper says curfews are rules to stay home at night.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Brent crude rose above $109 a barrel.",
+        "true": true,
+        "why": "The price rose above $109 after the Houthis claimed new attacks.",
+        "story": "lead"
+      },
+      {
+        "claim": "Yemen is the country just north of Saudi Arabia.",
+        "true": false,
+        "why": "Yemen is just south of Saudi Arabia.",
+        "story": "lead"
+      },
+      {
+        "claim": "About 110,000 of the marchers were in Paris.",
+        "true": true,
+        "why": "Authorities say about 110,000 marched in Paris.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France"
+        ]
+      }
+    ]
+  }
+}
