@@ -889,5 +889,36 @@
     ]
    }
   ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "epl-sunday",
+    "headline": "Premier League Sunday: Brighton 5-0 Crystal Palace, Forest 0-1 Arsenal",
+    "what_happened": "On Sunday October 18 Brighton beat Crystal Palace 5-0 and Arsenal won 1-0 at Nottingham Forest.",
+    "why_it_matters": "",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Sky Sports lists full-time scores for Sunday October 18: Brighton 5-0 Crystal Palace; Nottingham Forest 0-1 Arsenal; Bournemouth 2-0 Sunderland; Leeds 1-1 Manchester United.",
+      "source_url": "https://www.skysports.com/football-scores-fixtures/2026-10-18"
+     }
+    ],
+    "numbers": [],
+    "geography": "England",
+    "sources": [
+     {
+      "outlet": "Sky Sports",
+      "title": "Football Scores & Fixtures, 18 October 2026",
+      "url": "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+      "published": "2026-10-18"
+     }
+    ]
+   }
+  ]
  }
 }
