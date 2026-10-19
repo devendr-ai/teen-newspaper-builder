@@ -1,0 +1,355 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-20",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  ",
+      "headline": "",
+      "deck": "",
+      "body": [
+        "",
+        "",
+        ""
+      ],
+      "map": {
+        "title": "",
+        "label_top": "",
+        "label_bottom": "",
+        "footnote": "",
+        "caption": ""
+      },
+      "why": "",
+      "sources": []
+    },
+    "world": {
+      "kicker": "WORLD  •  ",
+      "headline": "",
+      "deck": "",
+      "body": [
+        "",
+        "",
+        ""
+      ],
+      "illustration": {
+        "title": "",
+        "subtitle": "",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "caption": ""
+      },
+      "connect": "",
+      "sources": []
+    },
+    "india": {
+      "kicker": "INDIA  •  ",
+      "headline": "",
+      "deck": "",
+      "body": [
+        "",
+        "",
+        ""
+      ],
+      "illustration": {
+        "title": "",
+        "subtitle": "",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "caption": ""
+      },
+      "why": "",
+      "sources": []
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ",
+      "headline": "",
+      "deck": "",
+      "body": [
+        "",
+        "",
+        ""
+      ],
+      "chart": {
+        "title": "",
+        "subtitle": "",
+        "labels": [
+          "",
+          ""
+        ],
+        "values": [
+          0,
+          0
+        ],
+        "max": 0,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": ""
+      },
+      "why": "",
+      "analyst": "",
+      "sources": []
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ",
+      "headline": "",
+      "deck": "",
+      "body": [
+        "",
+        "",
+        ""
+      ],
+      "illustration": {
+        "title": "",
+        "subtitle": "",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "caption": ""
+      },
+      "why": "",
+      "sources": []
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  ",
+      "headline": "",
+      "deck": "",
+      "body": [
+        "",
+        "",
+        ""
+      ],
+      "illustration": {
+        "title": "",
+        "subtitle": "",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "caption": ""
+      },
+      "why": "",
+      "sources": []
+    },
+    "briefs": {
+      "items": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "",
+          "def": "Definition. Today: ..."
+        },
+        {
+          "word": "",
+          "def": "Definition. Today: ..."
+        },
+        {
+          "word": "",
+          "def": "Definition. Today: ..."
+        },
+        {
+          "word": "",
+          "def": "Definition. Today: ..."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": ""
+    },
+    "explainer": {
+      "title": "",
+      "body": [
+        "",
+        ""
+      ],
+      "sources": []
+    },
+    "quiz": {
+      "title": "",
+      "body": [
+        "",
+        ""
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "",
+      "body": [
+        "",
+        ""
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "",
+      "by": ""
+    }
+  },
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      },
+      {
+        "q": "",
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "answer": 0,
+        "why": "",
+        "story": ""
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      },
+      {
+        "claim": "",
+        "true": true,
+        "why": "",
+        "story": ""
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "world",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "india",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "us",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "science_and_technology",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      },
+      {
+        "story": "economics",
+        "place": "",
+        "lat": null,
+        "lon": null,
+        "countries": []
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "world": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "india": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "us": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "science_and_technology": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      },
+      "economics": {
+        "headline": "",
+        "body": [
+          "",
+          ""
+        ]
+      }
+    }
+  }
+}

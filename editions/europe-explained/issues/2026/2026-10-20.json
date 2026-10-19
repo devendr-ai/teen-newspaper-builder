@@ -1,0 +1,392 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-20",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Attacks Push Oil Above $109 a Barrel",
+      "deck": "Saudi Arabia has put off a major investor conference until 2027.",
+      "body": [
+        "The Houthis, an armed group from Yemen, have kept attacking Saudi Arabia. On October 10 a strike hit King Khalid International Airport in Riyadh, the Saudi capital. Saudi Arabia says at least 12 people were killed and more than 300 were wounded. A fresh strike hit the airport the day after, killing one person and wounding 11, according to Saudi civil aviation authorities.",
+        "The fighting is now reaching the oil market. After the Houthis claimed attacks on Saudi airports and facilities of the oil company Aramco, Brent crude rose above $109 a barrel. Brent is the price traders use to compare oil around the world. UK maritime monitors said two tankers were attacked off the Saudi coast on Friday.",
+        "Business plans are changing too. On Monday Saudi Arabia postponed the Future Investment Initiative conference, due on October 26 to 29, until 2027. In Riyadh, the Kingdom Centre ordered its office staff to work remotely."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Oil is traded worldwide, so a threat to a giant producer can raise fuel prices in Europe too, even far from the fighting.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Brent tops $109 after Houthis claim attacks on Saudi Arabia",
+          "url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Saudi Arabia postpones big investor conference to 2027",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Attack on airport in Saudi capital Riyadh leaves several injured",
+          "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+          "published": "2026-10-10"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Kingdom Centre sends workers home amid Houthi attacks",
+          "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "eNCA",
+          "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+          "url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+          "published": "2026-10-11"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE AND RUSSIA",
+      "headline": "Ukraine Launches More Than 1,000 Drones at Russia",
+      "deck": "An oil terminal in St Petersburg burned; Russia struck Kyiv overnight.",
+      "body": [
+        "On Sunday Ukraine launched more than 1,000 drones at Russia, one of its largest air attacks of the war. Strikes set an oil export terminal and a depot ablaze in St Petersburg. Russia's Defence Ministry said it destroyed 1,015 Ukrainian drones over 15 Russian regions, Crimea and the Black Sea.",
+        "Russia hit back. Overnight an air strike killed a woman in Kyiv, hit a subway station and damaged a 25-storey apartment building, Mayor Vitali Klitschko said. Three other people were injured. On Friday, Russian attacks on nine Ukrainian regions had cut power to hundreds of thousands of households.",
+        "Washington is part of the picture. President Donald Trump criticised Kyiv's strikes on Russian oil sites, and said that US-Ukraine intelligence sharing, blocked for some period of time, had resumed. He announced an “energy ceasefire” on October 11 but gave no details, and Kyiv says attacks on energy sites continued."
+      ],
+      "illustration": {
+        "title": "DRONES IN THE NIGHT SKY",
+        "subtitle": "Air defence at work",
+        "motif": "airdefense",
+        "caption": "Russia says it shot down 1,015 Ukrainian drones."
+      },
+      "connect": "Economics: attacks on oil sites on both sides link this war to fuel prices, just as the attacks near Saudi Arabia do.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "CBC",
+          "title": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones",
+          "url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+          "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+          "published": "2026-10-16"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  WALES",
+      "headline": "Britain Prepares to Mark 60 Years Since Aberfan",
+      "deck": "The Prime Minister met survivors ahead of the anniversary on 21 October.",
+      "body": [
+        "Prime Minister Andy Burnham has visited Aberfan, a village in Wales, and spoken to survivors and families. He did so ahead of the 60th anniversary of the Aberfan disaster, which falls on 21 October. He also visited the cemetery to see the area dedicated to those who died.",
+        "The disaster killed 116 children and 28 adults. It happened when a colliery spoil tip collapsed. A colliery is a coal mine, and a spoil tip is the heap of waste rock and earth left outside it.",
+        "The disaster happened on 21 October 1966. Sixty years on, the country's leader has gone to the village to meet the people who still live with its memory."
+      ],
+      "why": "Anniversaries are how a country remembers what happened and listens to the people it affected.",
+      "also": [
+        "Scotland: Burnham proposed giving Scotland's regions broader powers, including some employment support functions.",
+        "Business: Burnham pledged to legislate on non-compete clauses, though lawyers say details are missing."
+      ],
+      "sources": [
+        {
+          "outlet": "North Wales Pioneer",
+          "title": "Burnham pays tribute to Aberfan victims ahead of 60th anniversary",
+          "url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "SME Today",
+          "title": "Burnham pledges to tackle non-compete clauses, but employment lawyers want detail",
+          "url": "https://www.smetoday.co.uk/hr-recruitment/burnham-pledges-to-tackle-non-compete-clauses-but-employment-lawyers-want-detail/",
+          "published": "2026-10-10"
+        },
+        {
+          "outlet": "Anadolu Agency via UA.News",
+          "title": "Burnham offers Scotland broader regional powers",
+          "url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency",
+          "published": "2026-10-17"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: the drug regulator capped trade margins at 30% on 137 cancer medicines, with new prices from November 9.",
+        "Space: Webb found three weather states on SIMP 0136, a brown dwarf about 20 light-years away."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Curfew",
+          "def": "A rule that people must stay off the streets at certain hours. Today: parts of Paris and four other French towns are under curfews."
+        },
+        {
+          "word": "Colliery",
+          "def": "A coal mine together with its buildings. Today: the Aberfan disaster began when a colliery spoil tip collapsed."
+        },
+        {
+          "word": "Brent crude",
+          "def": "A price traders use to compare oil around the world. Today: it rose above $109 a barrel."
+        },
+        {
+          "word": "Drone",
+          "def": "An aircraft that flies without a pilot on board. Today: Ukraine launched more than 1,000 at Russia."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The word “colliery” comes from “collier”, an old English word for a coal miner."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  FRANCE",
+      "headline": "Half a Million March in France as Protests Turn Violent",
+      "deck": "Curfews were set in parts of Paris and in northern towns.",
+      "body": [
+        "About 550,000 people marched in scores of French cities on Saturday, according to authorities. About 110,000 were in Paris. They were protesting against rising living costs and declining public services.",
+        "Some protests turned violent. Some demonstrators set fire to city halls, and in Limoges a 19th-century building was gutted. On Sunday President Emmanuel Macron addressed the nation and vowed an “uncompromising” response to ultra-left agitators. He did not declare a state of emergency.",
+        "Local rules followed. Prime Minister Sebastien Lecornu asked regional authorities to impose partial curfews. Paris's Place de la Republique and the Les Halles area are under curfew, and Lille and three other northern towns have two-day curfews. Macron refused to accept the resignation of Interior Minister Laurent Nunez."
+      ],
+      "chart": {
+        "title": "MARCHERS ON SATURDAY",
+        "subtitle": "In thousands, per authorities",
+        "labels": [
+          "France",
+          "Paris"
+        ],
+        "values": [
+          550,
+          110
+        ],
+        "max": 600,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are the authorities' estimates, as reported by CNBC."
+      },
+      "why": "France is one of Europe's largest economies. How its leaders answer unrest over living costs matters across the continent.",
+      "analyst": "Why might authorities and organisers count marchers differently? What is the difference between a protest and a riot, and who decides? Why would living costs bring so many people out at once?",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "France hit by worst unrest in years as Macron condemns violence",
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "France protests live: Curfews imposed in parts of Paris, other cities",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "Premier League, Sunday: Brighton beat Crystal Palace <b>5-0</b> and Arsenal won <b>1-0</b> at Nottingham Forest.",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "title": "Football Scores & Fixtures, 18 October 2026",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+          "published": "2026-10-18"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether France's curfews end quietly.",
+        "Events around the Aberfan anniversary on 21 October."
+      ]
+    },
+    "quote": {
+      "text": "To remember is also to learn.",
+      "by": "Europe Explained"
+    }
+  },
+  "sources": [
+    "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+    "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+    "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency",
+    "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+    "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+    "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+    "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+    "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+    "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/",
+    "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+    "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+    "https://www.smetoday.co.uk/hr-recruitment/burnham-pledges-to-tackle-non-compete-clauses-but-employment-lawyers-want-detail/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which city's airport was hit on October 10?",
+        "options": [
+          "Riyadh",
+          "Aden",
+          "Paris"
+        ],
+        "answer": 0,
+        "why": "A strike hit King Khalid International Airport in Riyadh.",
+        "story": "lead"
+      },
+      {
+        "q": "About how many drones did Ukraine launch at Russia?",
+        "options": [
+          "Over 100",
+          "Over 1,000",
+          "Over 10,000"
+        ],
+        "answer": 1,
+        "why": "Ukraine launched more than 1,000 drones.",
+        "story": "world"
+      },
+      {
+        "q": "When is the Aberfan anniversary?",
+        "options": [
+          "9 October",
+          "21 October",
+          "3 November"
+        ],
+        "answer": 1,
+        "why": "The 60th anniversary falls on 21 October.",
+        "story": "uk"
+      },
+      {
+        "q": "How many people marched in Paris, according to authorities?",
+        "options": [
+          "110,000",
+          "550,000",
+          "11,000"
+        ],
+        "answer": 0,
+        "why": "About 110,000 marched in Paris.",
+        "story": "europe"
+      },
+      {
+        "q": "What is a colliery?",
+        "options": [
+          "A coal mine",
+          "A football pitch",
+          "A courtroom"
+        ],
+        "answer": 0,
+        "why": "The paper says a colliery is a coal mine.",
+        "story": "uk"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Macron declared a state of emergency after the protests.",
+        "true": false,
+        "why": "He did not declare a state of emergency.",
+        "story": "europe"
+      },
+      {
+        "claim": "Saudi Arabia postponed a big investor conference until 2027.",
+        "true": true,
+        "why": "It was postponed on Monday.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Aberfan disaster killed 116 children and 28 adults.",
+        "true": true,
+        "why": "That is the toll given in the paper.",
+        "story": "uk"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "Aberfan",
+        "lat": 51.69,
+        "lon": -3.35,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Attacks Push Oil Above $109",
+        "body": [
+          "The Houthis are a group from Yemen. They keep attacking Saudi Arabia. On October 10, a strike hit the airport in Riyadh. At least 12 people were killed.",
+          "Saudi Arabia sells a lot of oil. After new attacks, the price of Brent crude went above $109 a barrel. Brent is a price traders use for oil.",
+          "On Monday, Saudi Arabia put off a big investor conference until 2027."
+        ]
+      },
+      "world": {
+        "headline": "Ukraine Sends Over 1,000 Drones at Russia",
+        "body": [
+          "A drone is a flying machine with no pilot. On Sunday, Ukraine sent more than 1,000 drones at Russia. They set an oil port on fire in St Petersburg.",
+          "Russia said it destroyed 1,015 drones. Overnight, Russia hit Kyiv. A woman was killed and three people were hurt.",
+          "President Donald Trump said he did not like Ukraine's attacks on Russian oil sites."
+        ]
+      },
+      "uk": {
+        "headline": "Remembering Aberfan, 60 Years On",
+        "body": [
+          "Aberfan is a village in Wales. On 21 October, it will be 60 years since a terrible disaster there.",
+          "A pile of waste from a coal mine slid down and killed 116 children and 28 adults. The pile was called a spoil tip.",
+          "Prime Minister Andy Burnham visited the village and spoke to families and survivors. He also visited the cemetery."
+        ]
+      },
+      "europe": {
+        "headline": "Half a Million March in France",
+        "body": [
+          "On Saturday, about 550,000 people marched in French cities. About 110,000 of them were in Paris.",
+          "They were upset about high living costs and weaker public services. Some protests turned violent, and some people set fire to city halls.",
+          "Parts of Paris and four other towns now have curfews. A curfew is a rule to stay off the streets at night. President Emmanuel Macron did not declare a state of emergency."
+        ]
+      }
+    }
+  }
+}
