@@ -1,0 +1,577 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-20",
+  "volume": 1,
+  "issue": 9,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Attacks Push Brent Crude Above $109",
+      "deck": "Saudi Arabia postponed its flagship investor conference to 2027.",
+      "body": [
+        "The Houthis, an armed group from Yemen, have kept attacking Saudi Arabia. On October 10 a strike hit King Khalid International Airport in Riyadh. Saudi Arabia says at least 12 people were killed and more than 300 wounded. A fresh strike the following day killed one person, a Pakistani resident, and wounded 11, according to Saudi civil aviation authorities. The Houthis said airports across the kingdom were a “theatre of operations for our forces.”",
+        "The economic effects are widening. After the Houthis claimed attacks on Saudi airports and facilities of the oil company Aramco, Brent crude, the benchmark price for internationally traded oil, rose above $109 a barrel. UK maritime monitors said two tankers were attacked off the Saudi coast in the Persian Gulf on Friday.",
+        "Investment plans are shifting as well. On Monday Saudi Arabia postponed the Future Investment Initiative conference, due on October 26 to 29, until 2027. In Riyadh, the Kingdom Centre office tower ordered all office staff to work remotely."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Saudi Arabia is a giant oil producer. A threat to its airports and oil sites moves the global oil price, which feeds into fuel and transport costs everywhere, including India.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Brent tops $109 after Houthis claim attacks on Saudi Arabia",
+          "url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Saudi Arabia postpones big investor conference to 2027",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Attack on airport in Saudi capital Riyadh leaves several injured",
+          "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+          "published": "2026-10-10"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Kingdom Centre sends workers home amid Houthi attacks",
+          "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "eNCA",
+          "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+          "url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+          "published": "2026-10-11"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE AND RUSSIA",
+      "headline": "Ukraine Launches More Than 1,000 Drones at Russia",
+      "deck": "An oil terminal in St Petersburg burned; Russia struck Kyiv overnight.",
+      "body": [
+        "On Sunday Ukraine launched more than 1,000 drones at Russia, one of its largest air attacks of the war. Strikes set an oil export terminal and a depot ablaze in St Petersburg. Russia's Defence Ministry said it destroyed 1,015 Ukrainian drones over 15 Russian regions, Crimea and the Black Sea.",
+        "Russia struck Kyiv overnight. An air strike killed a woman, hit a subway station and damaged a 25-storey residential building, Mayor Vitali Klitschko said; three others were injured. On Friday, Russian attacks on nine Ukrainian regions had caused emergency power outages for hundreds of thousands of households.",
+        "US policy is part of the story. President Donald Trump criticised Kyiv's attacks on Russian oil infrastructure and said US-Ukraine intelligence sharing, blocked for some period of time, had resumed. He announced an “energy ceasefire” on October 11 without details. Kyiv says Russian attacks on energy sites continued, and on Thursday it said it had resumed strikes on Russian oil facilities after a three-day pause.",
+        "Note for revision: the drone totals are claims by the two governments, as reported by CBC and Al Jazeera, and have not been independently confirmed here."
+      ],
+      "illustration": {
+        "title": "DRONES AT NIGHT",
+        "subtitle": "Air defence at work",
+        "motif": "airdefense",
+        "caption": "Russia says it shot down 1,015 Ukrainian drones."
+      },
+      "connect": "Geography and economics: the strikes hit an oil export terminal in St Petersburg, which links this war to the same global oil market that the conflict around Saudi Arabia is moving.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+          "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "CBC",
+          "title": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones",
+          "url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+          "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+          "published": "2026-10-16"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  HEALTH POLICY",
+      "headline": "NPPA Caps Trade Margins on 137 Anti-Cancer Drugs",
+      "deck": "Prices of some could fall by up to 70% from November 9.",
+      "body": [
+        "India's National Pharmaceutical Pricing Authority (NPPA) has capped trade margins at 30% of the maximum retail price (MRP) for 137 non-scheduled anti-cancer drugs. The cap is set under Paragraph 19 of the Drugs (Prices Control) Order, 2013, in a Gazette notification dated October 17. A trade margin is the amount distributors and retailers add to what they pay for a medicine.",
+        "Revised prices take effect on November 9. Reductions are expected to reach up to 70%, but actual savings depend on each formulation's existing price and distribution margins, so “up to 70%” is a ceiling, not a typical cut. The list includes targeted therapies and immunotherapies such as pembrolizumab, nivolumab, osimertinib and palbociclib.",
+        "The government estimates that patients could save around Rs 2,500 crore a year. The step follows a 2019 pilot in which margins on 42 anti-cancer drugs were capped at 30%; afterwards the MRPs of 526 brands of non-scheduled anti-cancer medicines were reduced by up to 90%.",
+        "For revision, the facts to hold: the regulator is the NPPA; the notification is dated October 17; the cap is 30% of the MRP; 137 non-scheduled anti-cancer drugs are covered; prices change from November 9; the government's savings estimate is Rs 2,500 crore a year. Whether shops and distributors actually pass the saving on will only be clear after the new prices start, and the figure of 70% is the largest possible fall, not the average.",
+        "Exam tip: link this to the idea of a regulator. A body such as the NPPA does not make the medicines; it sets rules for how they are priced and sold, and this order acts on the seller's share of the price."
+      ],
+      "illustration": {
+        "title": "LOWER PRICES, SAME CARE",
+        "subtitle": "New MRPs from Nov 9",
+        "motif": "hospital",
+        "caption": "Margins on 137 cancer drugs are capped at 30%."
+      },
+      "why": "It shows how a regulator can lower prices without a price cap on the drug itself, by limiting what each link in the supply chain adds.",
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Govt caps trade margins on 137 anti-cancer drugs at 30%; revised prices from November 9",
+          "url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "Outlook India",
+          "title": "India To Cut Prices Of 137 Cancer Drugs From November 9",
+          "url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+          "published": "2026-10-18"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "2026 US Midterms Set to Be the Most Expensive on Record",
+      "deck": "More than $15 billion has been raised to influence control of Congress.",
+      "body": [
+        "Midterm elections, held halfway through a president's four-year term, decide who controls Congress. This year they are on November 3. NPR reports that more than $15 billion has been raised to influence the outcome and the control of Congress, making the 2026 midterms the most expensive on record.",
+        "Advertising is a large part of it. AdImpact projects $11.6 billion in political advertising in the 2025-26 cycle, more than the $8.9 billion spent in the 2022 midterms and the $11.2 billion in the 2024 presidential cycle.",
+        "Individual donors matter too. CNBC reports that Elon Musk put more than $276 million into federal political groups in the third quarter, making him the biggest known individual donor of the midterms. Whether money buys influence is contested; the figures show how much is being spent, not what it achieves.",
+        "Read the figures with care, because they measure different things. NPR's $15 billion is money raised to influence the outcome, while AdImpact's $11.6 billion is a projection of advertising alone. Neither tells us who benefits. For revision, hold three numbers: $15 billion raised, $11.6 billion projected in advertising, and the November 3 election date.",
+        "The comparison with earlier elections is the key point. The 2022 midterms saw $8.9 billion in advertising and the 2024 presidential cycle $11.2 billion, so this midterm cycle is projected to be larger than a presidential one.",
+        "Exam tip: pair this with the idea of a mandate. Because Congress writes the laws and controls public money, who wins these elections shapes policy for the next two years, and that is why so much money is aimed at them."
+      ],
+      "illustration": {
+        "title": "THE PRICE OF POWER",
+        "subtitle": "US Congress",
+        "motif": "capitol",
+        "caption": "Midterms are on November 3."
+      },
+      "why": "Elections decide who writes the laws. How much money flows into them is a recurring question about fairness and influence in a democracy.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "2026 midterms could be the most expensive on record",
+          "url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "2026 midterm could be the most expensive ever in terms of ad spending: AdImpact",
+          "url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterms money race",
+          "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+          "published": "2026-10-16"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  INDIA",
+      "headline": "India's Prices Rise 5.54% in a Year After RBI Lifts Rates",
+      "deck": "The central bank raised its repo rate for the first time since 2023.",
+      "body": [
+        "India's consumer prices rose 5.54% in September from a year earlier, the highest since late 2024, Bloomberg reports. In August the rise was a revised 4.83%.",
+        "On October 7 the Reserve Bank of India raised its repo rate by 25 basis points to 5.50%, its first hike since 2023. The repo rate is the rate at which the RBI lends to commercial banks. The RBI also raised its growth estimate by 40 basis points to 7.1%.",
+        "A higher repo rate makes borrowing dearer, which can slow spending and ease price rises, at some cost to growth. India is not alone: US consumer prices rose 3.7% in the year to September.",
+        "For revision, hold these numbers: 5.54% in September and 4.83% in August for India; 5.50% for the repo rate after a 25 basis point rise; 7.1% for the RBI's new growth estimate; 3.7% for US prices. The RBI raised rates and raised its growth estimate in the same meeting, which suggests it expects the economy to keep growing despite dearer borrowing.",
+        "Exam tip: a central bank can only influence prices, not set them. The RBI changes the cost of borrowing, and the effect reaches shop prices only after some time, so the October figures will take months to show a result."
+      ],
+      "chart": {
+        "title": "PRICES VS A YEAR EARLIER",
+        "subtitle": "Percent rise in consumer prices",
+        "labels": [
+          "India Aug",
+          "India Sep",
+          "US Sep"
+        ],
+        "values": [
+          4.83,
+          5.54,
+          3.7
+        ],
+        "max": 6,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Sources: Bloomberg (India), BLS via CNN (US)."
+      },
+      "why": "Prices and interest rates set what households pay for food, fuel and loans.",
+      "analyst": "Why might a central bank accept slower growth to bring prices down? Who gains and who loses when borrowing becomes dearer? What would you need to compare India's and the US's inflation fairly?",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+          "published": "2026-10-12"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "India's central bank hikes rates for the first time since 2023",
+          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+          "published": "2026-10-07"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Trump was trying to force prices lower ahead of the midterms. But Iran gets a vote, too",
+          "url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+          "published": "2026-10-14"
+        },
+        {
+          "outlet": "U.S. News",
+          "title": "Economy Set as Trump Faces Dire Midterm",
+          "url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+      "headline": "Webb Finds Orderly Weather on a Brown Dwarf 20 Light-Years Away",
+      "deck": "Three weather states rotate in and out of view.",
+      "body": [
+        "A study using the James Webb Space Telescope examined SIMP 0136, a brown dwarf about 20 light-years away. A brown dwarf is an object heavier than a planet but too light to burn like a star. The study was led by Trinity College Dublin and published in Astronomy & Astrophysics.",
+        "Using principal component analysis, a statistical method for finding the main patterns in complex data, the researchers found that most of the atmospheric variation tracks two things: temperature and the vertical arrangement of clouds. These combine into three recurring states that rotate in and out of view as the object spins.",
+        "The states are: hot under thin clouds, cooler under thin clouds, and cooler still under thicker, higher clouds. The patterns persisted across more than a dozen rotations. One source cautions that the three states come from a single rotation and may mark the most extreme patches Webb caught, not the full range.",
+        "For revision, hold the key facts: SIMP 0136 is a brown dwarf about 20 light-years away; the lead institution is Trinity College Dublin; the journal is Astronomy & Astrophysics; two factors, temperature and cloud structure, drive three weather states. A Daily Galaxy headline notes the world is so far away that it appears as a single pixel, so astronomers had to read its weather from changes in its light.",
+        "Exam tip: note the difference between a finding and its limits. The result holds across more than a dozen rotations, but the three states were seen in one rotation, so the study describes patterns, not the whole range of weather on the object."
+      ],
+      "illustration": {
+        "title": "WEATHER ON A DISTANT WORLD",
+        "subtitle": "SIMP 0136",
+        "motif": "globe",
+        "caption": "Three recurring weather states."
+      },
+      "why": "It shows that a world too far away to resolve can still have its weather mapped, which tests how atmospheres work beyond our Solar System.",
+      "sources": [
+        {
+          "outlet": "ScienceDaily",
+          "title": "NASA's Webb reveals the wild weather of a mysterious world 20 light-years away",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+          "published": "2026-10-15"
+        },
+        {
+          "outlet": "SciTechDaily",
+          "title": "Scientists Decode the Unusual Weather of a Planet 20 Light-Years From Earth",
+          "url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/",
+          "published": "2026-10-16"
+        },
+        {
+          "outlet": "Daily Galaxy",
+          "title": "Scientists Found Three Recurring Weather States on a World So Far Away It Appears as a Single Pixel",
+          "url": "https://dailygalaxy.com/2026/10/world-three-weather-patterns-single-pixel/",
+          "published": "2026-10-17"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "France: about 550,000 people marched on Saturday over living costs; Macron refused Interior Minister Laurent Nunez's resignation.",
+        "United States: consumer prices rose 3.7% in the year to September, and gasoline costs $4.29 a gallon.",
+        "United Kingdom: Prime Minister Andy Burnham proposed giving Scotland's regions broader powers on a North Lanarkshire visit.",
+        "Wales: Aberfan marks 60 years since the disaster on 21 October; Burnham visited ahead of the anniversary."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Repo rate",
+          "def": "The rate at which a central bank lends money to commercial banks. Today: the RBI raised it to 5.50%."
+        },
+        {
+          "word": "Brent crude",
+          "def": "The benchmark price for internationally traded oil. Today: it rose above $109 a barrel."
+        },
+        {
+          "word": "Trade margin",
+          "def": "The amount distributors and retailers add to the price they pay for a product. Today: the NPPA capped it at 30% for 137 cancer drugs."
+        },
+        {
+          "word": "Brown dwarf",
+          "def": "An object heavier than a planet but too light to burn like a star. Today: Webb studied SIMP 0136."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A basis point is one hundredth of a percentage point, so the RBI's rise of 25 basis points is a quarter of a percentage point."
+    },
+    "explainer": {
+      "title": "How US midterm elections work",
+      "body": [
+        "The United States elects its Congress in two parts. The House of Representatives has 435 members, all elected every two years. The Senate has 100 members serving six-year terms, with about a third elected every two years.",
+        "Midterms fall halfway through a president's four-year term, so they work as a verdict on the president and decide whether the president's party controls Congress. This year they are on November 3."
+      ],
+      "sources": []
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> What did Brent crude rise above?",
+        "(a) $79  (b) $109  (c) $209",
+        "<b>2.</b> On what date was the postponed Saudi conference due to begin?",
+        "(a) October 10  (b) October 26  (c) November 3",
+        "<b>3.</b> How many Ukrainian drones did Russia say it destroyed?",
+        "(a) 105  (b) 1,015  (c) 10,150",
+        "<b>4.</b> What is the NPPA's cap on trade margins?",
+        "(a) 3%  (b) 30%  (c) 70%",
+        "<b>5.</b> How much has been raised to influence the US midterms, according to NPR?",
+        "(a) Over $1.5 billion  (b) Over $15 billion  (c) Over $150 billion",
+        "<b>6.</b> What did India's consumer prices rise by in the year to September?",
+        "(a) 4.83%  (b) 5.54%  (c) 7.1%",
+        "<b>7.</b> Which institution led the SIMP 0136 study?",
+        "(a) Trinity College Dublin  (b) NPPA  (c) AdImpact",
+        "<b>8.</b> How many weather states did Webb find on SIMP 0136?",
+        "(a) One  (b) Three  (c) Ten",
+        "<b>Answers.</b> 1 (b): $109. 2 (b): October 26. 3 (b): 1,015. 4 (b): 30%. 5 (b): over $15 billion. 6 (b): 5.54%. 7 (a): Trinity College Dublin. 8 (b): three."
+      ],
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether France's curfews end quietly and what Prime Minister Lecornu's crisis meeting decides.",
+        "Whether Houthi attacks on Saudi Arabia go on and Brent stays above $109.",
+        "The RBI policy minutes, due on Wednesday, October 21."
+      ]
+    }
+  },
+  "sources": [
+    "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+    "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+    "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/",
+    "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact",
+    "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+    "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+    "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+    "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+    "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+    "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+    "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+    "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+    "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+    "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+    "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+    "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+    "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Saudi Arabia postpone until 2027?",
+        "options": [
+          "An investor conference",
+          "An election",
+          "A cricket series"
+        ],
+        "answer": 0,
+        "why": "It postponed the Future Investment Initiative conference.",
+        "story": "lead"
+      },
+      {
+        "q": "How many drones did Ukraine launch at Russia?",
+        "options": [
+          "More than 100",
+          "More than 1,000",
+          "More than 10,000"
+        ],
+        "answer": 1,
+        "why": "Kyiv launched more than 1,000 drones.",
+        "story": "world"
+      },
+      {
+        "q": "When do the new cancer drug prices take effect?",
+        "options": [
+          "October 17",
+          "November 3",
+          "November 9"
+        ],
+        "answer": 2,
+        "why": "Revised prices take effect on November 9.",
+        "story": "india"
+      },
+      {
+        "q": "What is the cap on trade margins for the 137 drugs?",
+        "options": [
+          "30%",
+          "50%",
+          "70%"
+        ],
+        "answer": 0,
+        "why": "The NPPA capped margins at 30% of MRP.",
+        "story": "india"
+      },
+      {
+        "q": "How much political advertising does AdImpact project for 2025-26?",
+        "options": [
+          "$1.6 billion",
+          "$11.6 billion",
+          "$116 billion"
+        ],
+        "answer": 1,
+        "why": "AdImpact projects $11.6 billion.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "What did the RBI raise its repo rate to?",
+        "options": [
+          "4.50%",
+          "5.50%",
+          "6.50%"
+        ],
+        "answer": 1,
+        "why": "It raised the rate to 5.50% on October 7.",
+        "story": "economics"
+      },
+      {
+        "q": "How far away is SIMP 0136?",
+        "options": [
+          "About 2 light-years",
+          "About 20 light-years",
+          "About 200 light-years"
+        ],
+        "answer": 1,
+        "why": "It is about 20 light-years away.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "What did India's consumer prices rise by in the year to September?",
+        "options": [
+          "4.83%",
+          "5.54%",
+          "7.1%"
+        ],
+        "answer": 1,
+        "why": "Bloomberg reports a 5.54% rise.",
+        "story": "economics"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Russia said it destroyed 1,015 Ukrainian drones.",
+        "true": true,
+        "why": "Russia's Defence Ministry gave that figure.",
+        "story": "world"
+      },
+      {
+        "claim": "The 2026 US midterms are on November 10.",
+        "true": false,
+        "why": "They are on November 3.",
+        "story": "politics_and_civics"
+      },
+      {
+        "claim": "The RBI's October 7 repo rate rise was its first since 2023.",
+        "true": true,
+        "why": "CNBC reports it was the first hike since 2023.",
+        "story": "economics"
+      },
+      {
+        "claim": "Webb found only one weather state on SIMP 0136.",
+        "true": false,
+        "why": "It found three recurring weather states.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Attacks Push Oil Above $109",
+        "body": [
+          "The Houthis are a group from Yemen. They keep attacking Saudi Arabia. On October 10, a strike hit the airport in Riyadh. At least 12 people were killed.",
+          "Saudi Arabia sells a lot of oil. After new attacks, the price of Brent crude went above $109 a barrel. Brent is a price traders use for oil.",
+          "On Monday, Saudi Arabia put off a big investor conference until 2027."
+        ]
+      },
+      "world": {
+        "headline": "Ukraine Sends Over 1,000 Drones at Russia",
+        "body": [
+          "A drone is a flying machine with no pilot. On Sunday, Ukraine sent more than 1,000 drones at Russia. They set an oil port on fire in St Petersburg.",
+          "Russia said it destroyed 1,015 drones. Overnight, Russia hit Kyiv. A woman was killed and three people were hurt.",
+          "President Donald Trump said he did not like Ukraine's attacks on Russian oil sites."
+        ]
+      },
+      "india": {
+        "headline": "India Lowers the Cost of Cancer Medicines",
+        "body": [
+          "Shops add a bit of money on top of the price they pay for medicine. This extra money is called a trade margin.",
+          "India's drug price regulator capped it at 30% for 137 cancer medicines. Prices could fall by up to 70%.",
+          "The new prices start on November 9. The government says patients could save around Rs 2,500 crore a year."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "The US Midterms Cost a Record Amount",
+        "body": [
+          "On November 3, Americans vote in midterm elections. These decide who controls Congress, the group that makes US laws.",
+          "NPR says more than $15 billion has been raised to influence the result. That makes these the most expensive midterms on record.",
+          "AdImpact, a company that tracks adverts, says about $11.6 billion will be spent on political adverts this cycle. In the 2022 midterms it was $8.9 billion."
+        ]
+      },
+      "economics": {
+        "headline": "India's Prices Rise 5.54% in a Year",
+        "body": [
+          "Prices in India rose 5.54% in the year to September. That is the highest since late 2024.",
+          "On October 7, the Reserve Bank of India raised its repo rate to 5.50%. The repo rate is the rate at which the central bank lends to banks.",
+          "A higher rate makes loans cost more. That can slow spending and ease price rises."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Webb Studies Weather on a Faraway World",
+        "body": [
+          "The James Webb Space Telescope looked at SIMP 0136. It is a brown dwarf about 20 light-years away. A brown dwarf is bigger than a planet but smaller than a star.",
+          "Scientists found its weather is more orderly than it looks. It has three weather states: hot under thin clouds, cooler under thin clouds, and cooler under thick clouds.",
+          "The object spins, so the three states move in and out of view. The patterns lasted across more than a dozen spins."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "world": "russia-ukraine"
+  }
+}

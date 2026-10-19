@@ -1,0 +1,307 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-20",
+  "volume": 1,
+  "issue": 9,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND YEMEN",
+      "headline": "Houthi Attacks Push Oil Above $109 a Barrel",
+      "deck": "Saudi Arabia has put off a big investor conference until 2027.",
+      "body": [
+        "The Houthis, a group from Yemen, are still attacking Saudi Arabia, the country just north of Yemen. On October 10 a strike hit the main airport in Riyadh, the Saudi capital. Saudi Arabia says at least 12 people were killed and more than 300 were wounded.",
+        "The fighting is now reaching the oil market. Saudi Arabia is a giant oil producer. After the Houthis claimed new attacks on Saudi airports and sites of the oil company Aramco, Brent crude rose above $109 a barrel. Brent is the price traders use to compare oil. UK maritime monitors also said two tankers were attacked off the Saudi coast on Friday.",
+        "Daily life and business are changing too. The Kingdom Centre, a famous office tower in Riyadh, ordered its office staff to work from home. On Monday Saudi Arabia postponed a large investor conference, due on October 26 to 29, until 2027."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA AND YEMEN (ASIA)",
+        "label_bottom": "EGYPT AND SUDAN (AFRICA)",
+        "footnote": "A long, narrow sea between two continents",
+        "caption": "Saudi Arabia and Yemen sit on the eastern shore of the Red Sea."
+      },
+      "why": "Saudi oil is sold all over the world. When it is at risk, the price of fuel can rise in places far from the fighting.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Brent tops $109 after Houthis claim attacks on Saudi Arabia",
+          "url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Saudi Arabia postpones big investor conference to 2027",
+          "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Attack on airport in Saudi capital Riyadh leaves several injured",
+          "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+          "published": "2026-10-10"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Kingdom Centre sends workers home amid Houthi attacks",
+          "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  FRANCE",
+      "headline": "Half a Million March in France as Protests Turn Violent",
+      "deck": "Curfews have been set in parts of Paris and in northern towns.",
+      "body": [
+        "About 550,000 people marched in scores of French cities on Saturday, say the authorities. About 110,000 of them were in Paris, the capital. They were protesting against rising living costs and falling public services, such as health care and schools.",
+        "Some protests turned violent. Some demonstrators set fire to city halls, and in Limoges a city hall from the 19th century was gutted. On Sunday President Emmanuel Macron spoke to the nation. He promised an uncompromising response to what he called ultra-left troublemakers, but he did not declare a state of emergency.",
+        "The government is now using curfews, which are rules to stay off the streets at night. Prime Minister Sebastien Lecornu asked regional authorities to set partial, local curfews. Parts of Paris, Lille and three other northern towns have them."
+      ],
+      "chart": {
+        "title": "MARCHERS ON SATURDAY",
+        "subtitle": "In thousands, according to authorities",
+        "labels": [
+          "All of France",
+          "Paris"
+        ],
+        "values": [
+          550,
+          110
+        ],
+        "max": 600,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are from the authorities, as reported by CNBC."
+      },
+      "connect": "Economics: in France, as in many countries, higher prices and weaker public services have left many families feeling worse off, and that feeling can bring people out onto the streets.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "France hit by worst unrest in years as Macron condemns violence",
+          "url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+          "published": "2026-10-19"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "France protests live: Curfews imposed in parts of Paris, other cities",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  PRICES",
+      "headline": "US Prices Rose 3.7% in a Year as Petrol Costs Weigh on Voters",
+      "deck": "Midterm elections are on November 3.",
+      "body": [
+        "Prices in the United States rose 0.6% in September and 3.7% over the whole year, the Bureau of Labor Statistics reported. In August the yearly figure was 3.4%. A rise in prices over time is called inflation.",
+        "Fuel is a big part of the story. Gasoline, which Americans call petrol, costs $4.29 a gallon, and oil is about $107 a barrel, U.S. News reports. CNN says attacks on tankers and oil sites have pushed oil and diesel prices higher.",
+        "That matters for the midterm elections on November 3, when Americans vote for members of Congress. U.S. News reports that President Trump's approval among US adults has fallen to a record low of 33%."
+      ],
+      "why": "Prices touch every family's budget, and what people pay can shape how they vote.",
+      "also": [
+        "Producer prices, what businesses pay, were 6.3% higher than a year earlier, CNN reports.",
+        "Moody's Analytics estimates the Iran war costs the average household $2,000 in extra costs."
+      ],
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Trump was trying to force prices lower ahead of the midterms. But Iran gets a vote, too",
+          "url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+          "published": "2026-10-14"
+        },
+        {
+          "outlet": "U.S. News",
+          "title": "Economy Set as Trump Faces Dire Midterm",
+          "url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm",
+          "published": "2026-10-19"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Ukraine launched more than 1,000 drones at Russia, and an oil port in St Petersburg caught fire.",
+        "Money: NPR reports that more than $15 billion has been raised to influence the 2026 US midterms."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might an attack on Saudi Arabia change the price of petrol in a country far away?",
+        "Why do you think rising prices make some people join marches or change how they vote?",
+        "Which story today do you think a younger child would find hardest to understand, and how would you explain it?"
+      ],
+      "sources": []
+    },
+    "india": {
+      "kicker": "INDIA  •  MEDICINES",
+      "headline": "India Caps Shop Margins on 137 Cancer Medicines",
+      "deck": "Prices of some could fall by up to 70% from November 9.",
+      "body": [
+        "India's drug price regulator, the National Pharmaceutical Pricing Authority, has capped trade margins on 137 anti-cancer medicines. A trade margin is the extra amount that sellers add on top of what they pay for a medicine.",
+        "The cap is 30% of the maximum retail price. The rule is in a government notice dated October 17, and the new prices take effect on November 9. Reports say prices could fall by up to 70%, but the real fall will differ from medicine to medicine.",
+        "The government estimates that patients could save around 2,500 crore rupees a year. In 2019 a similar cap was placed on 42 cancer drugs, and afterwards the prices of 526 brands were cut by up to 90%."
+      ],
+      "why": "Cancer medicines can be very costly. Lower prices could make treatment easier for families to afford.",
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Govt caps trade margins on 137 anti-cancer drugs at 30%; revised prices from November 9",
+          "url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+          "published": "2026-10-18"
+        },
+        {
+          "outlet": "Outlook India",
+          "title": "India To Cut Prices Of 137 Cancer Drugs From November 9",
+          "url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+          "published": "2026-10-18"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "On Sunday, Brighton beat Crystal Palace 5-0 in the Premier League, and Arsenal won 1-0 at Nottingham Forest.",
+      "sources": [
+        {
+          "outlet": "Sky Sports",
+          "title": "Football Scores & Fixtures, 18 October 2026",
+          "url": "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+          "published": "2026-10-18"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the curfews in France end quietly.",
+        "Whether Houthi attacks on Saudi Arabia go on and oil stays above $100."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the beginning of understanding.",
+      "by": "The Breakfast Table"
+    }
+  },
+  "sources": [
+    "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+    "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+    "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+    "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+    "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+    "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+    "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+    "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+    "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+    "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which city's main airport was hit on October 10?",
+        "options": [
+          "Riyadh",
+          "Paris",
+          "Delhi"
+        ],
+        "answer": 0,
+        "why": "The paper says a strike hit the main airport in Riyadh.",
+        "story": "lead"
+      },
+      {
+        "q": "About how many people marched in France on Saturday?",
+        "options": [
+          "55,000",
+          "550,000",
+          "5.5 million"
+        ],
+        "answer": 1,
+        "why": "Authorities say about 550,000 marched.",
+        "story": "world"
+      },
+      {
+        "q": "How much did US prices rise over the year to September?",
+        "options": [
+          "3.7%",
+          "0.6%",
+          "6.3%"
+        ],
+        "answer": 0,
+        "why": "Prices rose 3.7% over the year.",
+        "story": "us"
+      },
+      {
+        "q": "What did India cap at 30% of the retail price?",
+        "options": [
+          "School fees",
+          "Trade margins on 137 cancer medicines",
+          "Bus fares"
+        ],
+        "answer": 1,
+        "why": "The regulator capped trade margins on 137 anti-cancer drugs.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi Arabia postponed an investor conference until 2027.",
+        "true": true,
+        "why": "It put the conference off on Monday.",
+        "story": "lead"
+      },
+      {
+        "claim": "President Macron declared a state of emergency.",
+        "true": false,
+        "why": "He did not declare a state of emergency.",
+        "story": "world"
+      },
+      {
+        "claim": "The new cancer medicine prices start on November 9.",
+        "true": true,
+        "why": "The revised prices take effect on November 9.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}

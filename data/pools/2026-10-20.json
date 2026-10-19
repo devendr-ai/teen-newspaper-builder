@@ -1,0 +1,958 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "saudi-houthi",
+    "headline": "Houthi attacks on Saudi Arabia push oil above $109 and delay a big investor conference",
+    "what_happened": "Houthi fighters from Yemen have kept attacking Saudi Arabia. Brent crude rose above $109 a barrel after the Houthis claimed attacks on Saudi airports and Aramco facilities. On Monday Saudi Arabia postponed a major investor conference to 2027.",
+    "why_it_matters": "Saudi Arabia is a giant oil producer, so the fighting can change fuel prices and plans far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Saudi Arabia says at least 12 people were killed and more than 300 wounded in a Houthi attack on King Khalid International Airport in Riyadh on October 10.",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "fact": "Brent crude rose above $109 after the Houthis claimed attacks on Saudi airports and Aramco facilities.",
+      "source_url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html"
+     },
+     {
+      "fact": "Two tankers were attacked off the coast of Saudi Arabia in the Persian Gulf on Friday, according to UK maritime monitors.",
+      "source_url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html"
+     },
+     {
+      "fact": "On Monday Saudi Arabia postponed the Future Investment Initiative conference, set for October 26 to 29, until 2027.",
+      "source_url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html"
+     },
+     {
+      "fact": "Riyadh's Kingdom Centre ordered all office employees to work remotely amid the Houthi attacks.",
+      "source_url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks"
+     },
+     {
+      "fact": "A fresh strike hit the Riyadh airport the day after the deadly attack, killing one person, a Pakistani resident, and wounding 11 others, according to Saudi civil aviation authorities; the Houthis said airports across the kingdom were a theatre of operations for their forces.",
+      "source_url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude",
+      "value": 109,
+      "unit": "US dollars a barrel (above)",
+      "source_url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html"
+     },
+     {
+      "label": "Killed at Riyadh airport (Saudi figure)",
+      "value": 12,
+      "unit": "people (at least)",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "label": "Wounded at Riyadh airport",
+      "value": 300,
+      "unit": "people (more than)",
+      "source_url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     }
+    ],
+    "geography": "Yemen (Houthi-held areas) and Saudi Arabia; Riyadh; the Red Sea to the west and the Persian Gulf to the east of the Arabian Peninsula",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Brent tops $109 after Houthis claim attacks on Saudi Arabia",
+      "url": "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+      "published": "2026-10-18"
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Saudi Arabia postpones big investor conference to 2027",
+      "url": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Attack on airport in Saudi capital Riyadh leaves several injured",
+      "url": "https://www.aljazeera.com/amp/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+      "published": "2026-10-10"
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Kingdom Centre sends workers home amid Houthi attacks",
+      "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "eNCA",
+      "title": "Riyadh airport hit by fresh Houthi strike day after deadly attack",
+      "url": "https://www.enca.com/news/riyadh-airport-hit-by-fresh-houthi-strike-day-after-deadly-attack",
+      "published": "2026-10-11"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-drones",
+    "headline": "Ukraine launches more than 1,000 drones at Russia as Russia hits Kyiv",
+    "what_happened": "Ukrainian strikes set an oil export terminal and a depot ablaze in St Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia. Russia's Defence Ministry said it destroyed 1,015 drones over 15 Russian regions, Crimea and the Black Sea. Overnight a Russian air strike killed a woman in Kyiv.",
+    "why_it_matters": "Both sides are hitting each other's energy, and the US says it wants the war to end.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Ukrainian strikes set an oil export terminal and a depot ablaze in St Petersburg on Sunday as Kyiv launched more than 1,000 drones at Russia, one of its largest aerial attacks of the war.",
+      "source_url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770"
+     },
+     {
+      "fact": "Russia's Defence Ministry said it destroyed 1,015 Ukrainian drones over 15 Russian regions, Crimea and the Black Sea.",
+      "source_url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770"
+     },
+     {
+      "fact": "A Russian air strike overnight killed a woman in Kyiv, hit a subway station and damaged a 25-storey residential building, Mayor Vitali Klitschko said; three others were injured.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+     },
+     {
+      "fact": "US President Donald Trump criticised Kyiv's attacks on Russian oil infrastructure, and said US-Ukraine intelligence sharing had resumed after being blocked for some period of time.",
+      "source_url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770"
+     },
+     {
+      "fact": "Russian attacks on nine Ukrainian regions caused emergency power outages for hundreds of thousands of households on Friday, October 16.",
+      "source_url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
+     },
+     {
+      "fact": "Trump announced an energy ceasefire on October 11 but gave no details; Kyiv reported Russian attacks on energy sites continued afterwards, and on Thursday said it had resumed strikes on Russian oil facilities after a three-day pause.",
+      "source_url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Ukrainian drones launched at Russia",
+      "value": 1000,
+      "unit": "drones (more than)",
+      "source_url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770"
+     },
+     {
+      "label": "Drones Russia says it destroyed",
+      "value": 1015,
+      "unit": "drones",
+      "source_url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770"
+     }
+    ],
+    "geography": "Ukraine (Kyiv) and Russia (St Petersburg on the Baltic Sea coast; Crimea and the Black Sea)",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "CBC",
+      "title": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones",
+      "url": "https://cbc.ca/news/world/fire-russian-oil-sites-ukrain-drone-attacks-9.7385770",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+      "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+      "published": "2026-10-16"
+     }
+    ]
+   },
+   {
+    "id": "france-protests",
+    "headline": "Half a million march in France as protests turn violent",
+    "what_happened": "About 550,000 people marched in scores of French cities on Saturday, including 110,000 in Paris, according to authorities, over rising living costs and falling public services. Some protests turned violent and some demonstrators set fire to city halls. Macron addressed the nation on Sunday and Prime Minister Sebastien Lecornu was to hold a crisis meeting.",
+    "why_it_matters": "France is one of Europe's biggest economies, and its leaders are under pressure over the cost of living.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "About 550,000 people marched in scores of cities on Saturday, including 110,000 in Paris, according to authorities; the protests were against rising living costs and declining public services.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Some demonstrators set fire to city halls; in Limoges the 19th-century building was gutted.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Macron addressed the nation on Sunday and vowed an uncompromising response to ultra-left agitators; he did not declare a state of emergency.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Prime Minister Sebastien Lecornu asked regional authorities to impose partial, localised curfews; Paris's Place de la Republique and the Les Halles area are under a curfew, and Lille and three other northern towns have two-day curfews.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Macron refused to accept the resignation of Interior Minister Laurent Nunez.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People marching in France (authorities)",
+      "value": 550000,
+      "unit": "people",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "label": "People marching in Paris",
+      "value": 110000,
+      "unit": "people",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     }
+    ],
+    "geography": "France: Paris, Limoges, Lille and northern towns",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "France hit by worst unrest in years as Macron condemns violence",
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "France protests live: Curfews imposed in parts of Paris, other cities",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-prices",
+    "headline": "US prices rose 3.7% in a year as petrol costs weigh on voters before the midterms",
+    "what_happened": "US consumer prices rose 0.6% in September and 3.7% over the year, up from 3.4% in August, the Bureau of Labor Statistics reported. Gasoline is $4.29 a gallon and global oil is about $107 a barrel. Midterm elections are on November 3.",
+    "why_it_matters": "Prices touch every family's budget and shape how people vote.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consumer prices rose 0.6% in September and 3.7% over the year, up from 3.4%, according to the Consumer Price Index from the Bureau of Labor Statistics.",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "fact": "Gasoline is $4.29 a gallon, global oil prices are $107 a barrel and President Trump's approval among US adults is at a record low of 33%, U.S. News reports.",
+      "source_url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+     },
+     {
+      "fact": "Producer prices were 6.3% higher than a year earlier, the fastest annual increase since December 2022.",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "fact": "CNN reports that attacks on tankers and oil infrastructure have sent oil and diesel prices higher; Moody's Analytics estimates the Iran war costs the average household $2,000 in extra costs.",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "fact": "The midterm elections are on November 3.",
+      "source_url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US consumer prices, year to September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "label": "US consumer prices, year to August",
+      "value": 3.4,
+      "unit": "percent",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "label": "Gasoline",
+      "value": 4.29,
+      "unit": "US dollars a gallon",
+      "source_url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Trump was trying to force prices lower ahead of the midterms. But Iran gets a vote, too",
+      "url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "U.S. News",
+      "title": "Economy Set as Trump Faces Dire Midterm",
+      "url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm",
+      "published": "2026-10-19"
+     }
+    ]
+   },
+   {
+    "id": "midterm-money",
+    "headline": "The 2026 US midterms are on track to be the most expensive on record",
+    "what_happened": "NPR reports that more than $15 billion has been raised to influence the outcome and control of Congress. AdImpact projects $11.6 billion in political advertising for the 2025-26 cycle, more than the $8.9 billion spent in the 2022 midterms and the $11.2 billion in the 2024 presidential cycle.",
+    "why_it_matters": "Elections decide who writes the laws, so how much money flows into them matters to voters.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "More than $15 billion has been raised to influence the outcome and control of Congress, NPR reports.",
+      "source_url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests"
+     },
+     {
+      "fact": "AdImpact projects $11.6 billion in political advertising during the 2025-26 cycle, above $8.9 billion in the 2022 midterms and $11.2 billion in the 2024 presidential cycle.",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     },
+     {
+      "fact": "Elon Musk put more than $276 million into federal political groups in the third quarter, making him the biggest known individual donor of the midterms.",
+      "source_url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Projected political ad spending 2025-26",
+      "value": 11.6,
+      "unit": "billion US dollars",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     },
+     {
+      "label": "Ad spending, 2022 midterms",
+      "value": 8.9,
+      "unit": "billion US dollars",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     },
+     {
+      "label": "Ad spending, 2024 presidential cycle",
+      "value": 11.2,
+      "unit": "billion US dollars",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "2026 midterms could be the most expensive on record",
+      "url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "2026 midterm could be the most expensive ever in terms of ad spending: AdImpact",
+      "url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "CNBC",
+      "title": "2026 midterms money race",
+      "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+      "published": "2026-10-16"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cancer-drugs",
+    "headline": "India caps shop margins on 137 cancer medicines; prices could fall up to 70%",
+    "what_happened": "India's drug price regulator, the NPPA, capped trade margins at 30% of the maximum retail price for 137 non-scheduled anti-cancer drugs in a notification dated October 17. Revised prices take effect on November 9.",
+    "why_it_matters": "Cancer medicines are costly, so lower prices could help many families.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The NPPA capped trade margins at 30% of the maximum retail price for 137 non-scheduled anti-cancer drugs, under a Gazette notification dated October 17; revised prices take effect on November 9.",
+      "source_url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9"
+     },
+     {
+      "fact": "Price reductions are expected to reach up to 70%, depending on existing price structures; actual savings vary by product.",
+      "source_url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026"
+     },
+     {
+      "fact": "The government estimates the measure could save cancer patients around Rs 2,500 crore a year.",
+      "source_url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026"
+     },
+     {
+      "fact": "A 2019 pilot capped margins on 42 anti-cancer drugs at 30%; afterwards the MRPs of 526 brands were reduced by up to 90%.",
+      "source_url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Medicines covered",
+      "value": 137,
+      "unit": "drugs",
+      "source_url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9"
+     },
+     {
+      "label": "Margin cap",
+      "value": 30,
+      "unit": "percent of retail price",
+      "source_url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9"
+     }
+    ],
+    "geography": "India (nationwide)",
+    "sources": [
+     {
+      "outlet": "The Tribune",
+      "title": "Govt caps trade margins on 137 anti-cancer drugs at 30%; revised prices from November 9",
+      "url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9",
+      "published": "2026-10-18"
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "India To Cut Prices Of 137 Cancer Drugs From November 9",
+      "url": "https://www.outlookindia.com/national/india-cancer-drug-price-cuts-november-9-2026",
+      "published": "2026-10-18"
+     }
+    ]
+   },
+   {
+    "id": "india-inflation",
+    "headline": "India's prices rise 5.54% in a year after the central bank lifts interest rates",
+    "what_happened": "India's consumer prices rose 5.54% in September from a year earlier, the highest since late 2024, up from a revised 4.83% in August. On October 7 the Reserve Bank of India raised its repo rate by 25 basis points to 5.50%, its first rise since 2023.",
+    "why_it_matters": "Higher prices and higher interest rates affect what families pay for food and loans.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The consumer price index rose 5.54% in September from a year earlier, the highest since late 2024, up from a revised 4.83% in August.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "fact": "The RBI raised its repo rate by 25 basis points to 5.50% on October 7, its first hike since 2023.",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     },
+     {
+      "fact": "The RBI raised its growth estimate by 40 basis points to 7.1%.",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "India consumer prices, year to September",
+      "value": 5.54,
+      "unit": "percent",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "label": "India consumer prices, year to August (revised)",
+      "value": 4.83,
+      "unit": "percent",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "label": "RBI repo rate",
+      "value": 5.5,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     }
+    ],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Bloomberg",
+      "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "CNBC",
+      "title": "India's central bank hikes rates for the first time since 2023",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "published": "2026-10-07"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "midterm-money",
+    "headline": "The 2026 US midterms are on track to be the most expensive on record",
+    "what_happened": "NPR reports that more than $15 billion has been raised to influence the outcome and control of Congress. AdImpact projects $11.6 billion in political advertising for the 2025-26 cycle, more than the $8.9 billion spent in the 2022 midterms and the $11.2 billion in the 2024 presidential cycle.",
+    "why_it_matters": "Elections decide who writes the laws, so how much money flows into them matters to voters.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "More than $15 billion has been raised to influence the outcome and control of Congress, NPR reports.",
+      "source_url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests"
+     },
+     {
+      "fact": "AdImpact projects $11.6 billion in political advertising during the 2025-26 cycle, above $8.9 billion in the 2022 midterms and $11.2 billion in the 2024 presidential cycle.",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     },
+     {
+      "fact": "Elon Musk put more than $276 million into federal political groups in the third quarter, making him the biggest known individual donor of the midterms.",
+      "source_url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Projected political ad spending 2025-26",
+      "value": 11.6,
+      "unit": "billion US dollars",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     },
+     {
+      "label": "Ad spending, 2022 midterms",
+      "value": 8.9,
+      "unit": "billion US dollars",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     },
+     {
+      "label": "Ad spending, 2024 presidential cycle",
+      "value": 11.2,
+      "unit": "billion US dollars",
+      "source_url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "2026 midterms could be the most expensive on record",
+      "url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "2026 midterm could be the most expensive ever in terms of ad spending: AdImpact",
+      "url": "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "CNBC",
+      "title": "2026 midterms money race",
+      "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+      "published": "2026-10-16"
+     }
+    ]
+   },
+   {
+    "id": "scotland-powers",
+    "headline": "Burnham offers Scotland's regions broader powers",
+    "what_happened": "On a visit to North Lanarkshire reported on 17 October, Prime Minister Andy Burnham proposed giving Scotland's regions broader powers, including some employment support functions. First Minister John Swinney reportedly welcomed cooperation.",
+    "why_it_matters": "It shows how power can be shared between a national government and local areas.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Burnham proposed granting Scotland's regions broader powers, including some employment support functions, on a North Lanarkshire visit reported 17 October.",
+      "source_url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency"
+     },
+     {
+      "fact": "Scotland's First Minister John Swinney reportedly welcomed cooperation.",
+      "source_url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency"
+     }
+    ],
+    "numbers": [],
+    "geography": "Scotland (North Lanarkshire)",
+    "sources": [
+     {
+      "outlet": "Anadolu Agency via UA.News",
+      "title": "Burnham offers Scotland broader regional powers",
+      "url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency",
+      "published": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-inflation",
+    "headline": "India's prices rise 5.54% in a year after the central bank lifts interest rates",
+    "what_happened": "India's consumer prices rose 5.54% in September from a year earlier, the highest since late 2024, up from a revised 4.83% in August. On October 7 the Reserve Bank of India raised its repo rate by 25 basis points to 5.50%, its first rise since 2023.",
+    "why_it_matters": "Higher prices and higher interest rates affect what families pay for food and loans.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The consumer price index rose 5.54% in September from a year earlier, the highest since late 2024, up from a revised 4.83% in August.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "fact": "The RBI raised its repo rate by 25 basis points to 5.50% on October 7, its first hike since 2023.",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     },
+     {
+      "fact": "The RBI raised its growth estimate by 40 basis points to 7.1%.",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "India consumer prices, year to September",
+      "value": 5.54,
+      "unit": "percent",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "label": "India consumer prices, year to August (revised)",
+      "value": 4.83,
+      "unit": "percent",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "label": "RBI repo rate",
+      "value": 5.5,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     }
+    ],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Bloomberg",
+      "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "CNBC",
+      "title": "India's central bank hikes rates for the first time since 2023",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "published": "2026-10-07"
+     }
+    ]
+   },
+   {
+    "id": "us-prices",
+    "headline": "US prices rose 3.7% in a year as petrol costs weigh on voters before the midterms",
+    "what_happened": "US consumer prices rose 0.6% in September and 3.7% over the year, up from 3.4% in August, the Bureau of Labor Statistics reported. Gasoline is $4.29 a gallon and global oil is about $107 a barrel. Midterm elections are on November 3.",
+    "why_it_matters": "Prices touch every family's budget and shape how people vote.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consumer prices rose 0.6% in September and 3.7% over the year, up from 3.4%, according to the Consumer Price Index from the Bureau of Labor Statistics.",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "fact": "Gasoline is $4.29 a gallon, global oil prices are $107 a barrel and President Trump's approval among US adults is at a record low of 33%, U.S. News reports.",
+      "source_url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+     },
+     {
+      "fact": "Producer prices were 6.3% higher than a year earlier, the fastest annual increase since December 2022.",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "fact": "CNN reports that attacks on tankers and oil infrastructure have sent oil and diesel prices higher; Moody's Analytics estimates the Iran war costs the average household $2,000 in extra costs.",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "fact": "The midterm elections are on November 3.",
+      "source_url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US consumer prices, year to September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "label": "US consumer prices, year to August",
+      "value": 3.4,
+      "unit": "percent",
+      "source_url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms"
+     },
+     {
+      "label": "Gasoline",
+      "value": 4.29,
+      "unit": "US dollars a gallon",
+      "source_url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm"
+     }
+    ],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Trump was trying to force prices lower ahead of the midterms. But Iran gets a vote, too",
+      "url": "https://www.cnn.com/2026/10/14/economy/prices-inflation-iran-midterms",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "U.S. News",
+      "title": "Economy Set as Trump Faces Dire Midterm",
+      "url": "https://www.usnews.com/news/national-news/articles/2026-10-19/economy-set-as-trump-faces-dire-midterm",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "webb-simp0136",
+    "headline": "Webb finds orderly weather on a world 20 light-years away",
+    "what_happened": "A study using the James Webb Space Telescope looked at SIMP 0136, a brown dwarf about 20 light-years away, and found its weather is more orderly than it looks. The study, led by Trinity College Dublin, was published in Astronomy & Astrophysics.",
+    "why_it_matters": "It shows how a telescope can read the weather of a world too far away to see as more than a dot.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study of SIMP 0136, a brown dwarf about 20 light-years away, was led by Trinity College Dublin and published in Astronomy & Astrophysics.",
+      "source_url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/"
+     },
+     {
+      "fact": "Most of the variation in the atmosphere tracks two things: temperature and the vertical arrangement of clouds.",
+      "source_url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/"
+     },
+     {
+      "fact": "Those two factors combine into three recurring weather states that rotate in and out of view as the object spins: hot under thin clouds, cooler under thin clouds, and cooler still under thicker, higher clouds.",
+      "source_url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/"
+     },
+     {
+      "fact": "The broad patterns persisted across more than a dozen rotations.",
+      "source_url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/"
+     },
+     {
+      "fact": "A Daily Galaxy headline describes SIMP 0136 as a world so far away it appears as a single pixel, with three recurring weather states.",
+      "source_url": "https://dailygalaxy.com/2026/10/world-three-weather-patterns-single-pixel/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance to SIMP 0136",
+      "value": 20,
+      "unit": "light-years",
+      "source_url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/"
+     }
+    ],
+    "geography": "SIMP 0136, a brown dwarf about 20 light-years from Earth",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "NASA's Webb reveals the wild weather of a mysterious world 20 light-years away",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "SciTechDaily",
+      "title": "Scientists Decode the Unusual Weather of a Planet 20 Light-Years From Earth",
+      "url": "https://scitechdaily.com/scientists-decode-the-unusual-weather-of-a-planet-20-light-years-from-earth/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "Daily Galaxy",
+      "title": "Scientists Found Three Recurring Weather States on a World So Far Away It Appears as a Single Pixel",
+      "url": "https://dailygalaxy.com/2026/10/world-three-weather-patterns-single-pixel/",
+      "published": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "aberfan",
+    "headline": "Britain prepares to mark 60 years since the Aberfan disaster",
+    "what_happened": "Prime Minister Andy Burnham visited Aberfan and spoke to survivors and families ahead of the 60th anniversary of the disaster on 21 October 1966, in which 116 children and 28 adults died. He also visited the cemetery.",
+    "why_it_matters": "Aberfan led to changes in how coal tips are watched and made safe.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Prime Minister Andy Burnham visited Aberfan and spoke to survivors and families ahead of the 60th anniversary; the disaster killed 116 children and 28 adults.",
+      "source_url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/"
+     },
+     {
+      "fact": "The anniversary falls on 21 October.",
+      "source_url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/"
+     },
+     {
+      "fact": "The disaster was the collapse of a colliery spoil tip.",
+      "source_url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/"
+     },
+     {
+      "fact": "At the Innovation Nation Summit in Manchester on 9 October, Burnham pledged legislation on non-compete clauses; employment lawyers say the details are still missing.",
+      "source_url": "https://www.smetoday.co.uk/hr-recruitment/burnham-pledges-to-tackle-non-compete-clauses-but-employment-lawyers-want-detail/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Children killed",
+      "value": 116,
+      "unit": "children",
+      "source_url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/"
+     },
+     {
+      "label": "Adults killed",
+      "value": 28,
+      "unit": "adults",
+      "source_url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/"
+     }
+    ],
+    "geography": "Aberfan, South Wales (Merthyr Tydfil)",
+    "sources": [
+     {
+      "outlet": "North Wales Pioneer",
+      "title": "Burnham pays tribute to Aberfan victims ahead of 60th anniversary",
+      "url": "https://www.northwalespioneer.co.uk/news/national/26650408.burnham-pays-tribute-aberfan-victims-ahead-60th-anniversary/",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "SME Today",
+      "title": "Burnham pledges to tackle non-compete clauses, but employment lawyers want detail",
+      "url": "https://www.smetoday.co.uk/hr-recruitment/burnham-pledges-to-tackle-non-compete-clauses-but-employment-lawyers-want-detail/",
+      "published": "2026-10-10"
+     }
+    ]
+   },
+   {
+    "id": "scotland-powers",
+    "headline": "Burnham offers Scotland's regions broader powers",
+    "what_happened": "On a visit to North Lanarkshire reported on 17 October, Prime Minister Andy Burnham proposed giving Scotland's regions broader powers, including some employment support functions. First Minister John Swinney reportedly welcomed cooperation.",
+    "why_it_matters": "It shows how power can be shared between a national government and local areas.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Burnham proposed granting Scotland's regions broader powers, including some employment support functions, on a North Lanarkshire visit reported 17 October.",
+      "source_url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency"
+     },
+     {
+      "fact": "Scotland's First Minister John Swinney reportedly welcomed cooperation.",
+      "source_url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency"
+     }
+    ],
+    "numbers": [],
+    "geography": "Scotland (North Lanarkshire)",
+    "sources": [
+     {
+      "outlet": "Anadolu Agency via UA.News",
+      "title": "Burnham offers Scotland broader regional powers",
+      "url": "https://ua.news/en/world/premier-britaniyi-bernem-zaproponuvav-shotlandiyi-shirshi-povnovazhennia-anadolu-agency",
+      "published": "2026-10-17"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "france-protests",
+    "headline": "Half a million march in France as protests turn violent",
+    "what_happened": "About 550,000 people marched in scores of French cities on Saturday, including 110,000 in Paris, according to authorities, over rising living costs and falling public services. Some protests turned violent and some demonstrators set fire to city halls. Macron addressed the nation on Sunday and Prime Minister Sebastien Lecornu was to hold a crisis meeting.",
+    "why_it_matters": "France is one of Europe's biggest economies, and its leaders are under pressure over the cost of living.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "About 550,000 people marched in scores of cities on Saturday, including 110,000 in Paris, according to authorities; the protests were against rising living costs and declining public services.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Some demonstrators set fire to city halls; in Limoges the 19th-century building was gutted.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Macron addressed the nation on Sunday and vowed an uncompromising response to ultra-left agitators; he did not declare a state of emergency.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Prime Minister Sebastien Lecornu asked regional authorities to impose partial, localised curfews; Paris's Place de la Republique and the Les Halles area are under a curfew, and Lille and three other northern towns have two-day curfews.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "fact": "Macron refused to accept the resignation of Interior Minister Laurent Nunez.",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People marching in France (authorities)",
+      "value": 550000,
+      "unit": "people",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     },
+     {
+      "label": "People marching in Paris",
+      "value": 110000,
+      "unit": "people",
+      "source_url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html"
+     }
+    ],
+    "geography": "France: Paris, Limoges, Lille and northern towns",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "France hit by worst unrest in years as Macron condemns violence",
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "France protests live: Curfews imposed in parts of Paris, other cities",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "epl-sunday",
+    "headline": "Premier League Sunday: Brighton 5-0 Crystal Palace, Forest 0-1 Arsenal",
+    "what_happened": "On Sunday October 18 Brighton beat Crystal Palace 5-0 and Arsenal won 1-0 at Nottingham Forest.",
+    "why_it_matters": "",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Sky Sports lists full-time scores for Sunday October 18: Brighton 5-0 Crystal Palace; Nottingham Forest 0-1 Arsenal; Bournemouth 2-0 Sunderland; Leeds 1-1 Manchester United.",
+      "source_url": "https://www.skysports.com/football-scores-fixtures/2026-10-18"
+     }
+    ],
+    "numbers": [],
+    "geography": "England",
+    "sources": [
+     {
+      "outlet": "Sky Sports",
+      "title": "Football Scores & Fixtures, 18 October 2026",
+      "url": "https://www.skysports.com/football-scores-fixtures/2026-10-18",
+      "published": "2026-10-18"
+     }
+    ]
+   }
+  ]
+ }
+}
