@@ -1,0 +1,282 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-21",
+  "volume": 1,
+  "issue": 10,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND THE GULF",
+      "headline": "Oil Near $110 as Houthis Claim New Strikes on Saudi Arabia",
+      "deck": "Ships carrying oil through the Gulf have thinned out.",
+      "body": [
+        "The Houthis, an armed group from Yemen, said on Monday that they had attacked Saudi energy, airport and military sites, including an Aramco facility in Yanbu, the Shaybah oilfield and Riyadh's airport. Saudi authorities had not immediately confirmed this, and Reuters could not verify it.",
+        "The oil market reacted. Brent crude, the benchmark price for oil, settled at $109.55 a barrel on Monday and was near $110 on Tuesday. Kpler, a data firm, says crude flows through the Gulf region averaged about 8.5 million barrels a day last week, down from more than 20 million the week before.",
+        "Governments are reacting too. President Trump signed an order waiving some sanctions and tariffs on Russian energy exports, which analysts said did little to ease the Gulf disruption. Egypt says it is ready to support Saudi Arabia, but its parliament put off a vote until October 26."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN AND THE UAE (ARABIAN PENINSULA)",
+        "footnote": "The narrow sea lane out of the Persian Gulf",
+        "caption": "Oil tankers from the Gulf must pass through this strait."
+      },
+      "why": "Oil is traded worldwide, so danger near big producers can raise fuel prices for families everywhere.",
+      "sources": [
+        {
+          "outlet": "LIGA.net",
+          "title": "Brent crude rises to $110 a barrel amid Houthi attacks on Saudi Arabia",
+          "url": "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Oil Price Today: Back Near $110 as Houthis Claim Saudi Oil Strikes",
+          "url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+          "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  MARS",
+      "headline": "Perseverance Becomes the Farthest-Driving Rover on Any World",
+      "deck": "The NASA rover has passed a record set by Opportunity.",
+      "body": [
+        "On October 11, NASA's Perseverance rover drove 91.31 metres near the rim of Jezero Crater on Mars. That raised its odometer from 45.13 km to 45.22 km. Guinness World Records says this passed Opportunity's record for the greatest distance travelled on another world.",
+        "Opportunity, a rover launched in 2004, was designed for about 1 km and 90 days. Instead it covered 45.16 km over 14 years, and went silent in 2018 when a dust storm cut its power.",
+        "Perseverance can go far because it plans its own routes while driving. Its AutoNav system uses a dedicated onboard computer. That matters because radio signals take about 13 minutes to travel one way between Earth and Mars, so the rovers can't be driven in real time."
+      ],
+      "chart": {
+        "title": "DISTANCE DRIVEN ON MARS",
+        "subtitle": "In kilometres",
+        "labels": [
+          "Curiosity",
+          "Opport.",
+          "Persever."
+        ],
+        "values": [
+          38,
+          45.16,
+          45.22
+        ],
+        "max": 50,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "Opport. is Opportunity. Curiosity's figure is about 38 km. Source: Guinness World Records."
+      },
+      "connect": "Opportunity's 2018 end came when dust blocked its sunlight. Curiosity, active since 2012, runs on a radioisotope generator, so dust storms don't affect it.",
+      "sources": [
+        {
+          "outlet": "Guinness World Records",
+          "title": "NASA's Perseverance rover breaks the record for longest road trip on Mars",
+          "url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Record Crowds Vote Early in Houston as Midterms Near",
+      "deck": "Early voting is now open in many states.",
+      "body": [
+        "Americans vote in the midterm elections on Tuesday, November 3. Midterms are held halfway through a president's term and decide who sits in Congress. Many states let people vote early, in person.",
+        "Texas early voting began Monday and runs through October 30. In Harris County, which includes Houston, more than 104,000 people voted in person on day one. ABC13 reports the previous midterm record for that day was 63,188, set in 2018.",
+        "Georgia had 1,007,015 in-person early votes by Tuesday morning, 12% more than at the same point in 2022, Fox News reports."
+      ],
+      "why": "Early voting changes when people choose, and big turnout shows how many want a say in who runs Congress.",
+      "also": [
+        "Texas voters voting in person must show one of seven accepted forms of photo ID.",
+        "Trump repeated a promise of $5,000 payments if Republicans keep Congress; it would need Congress's approval, Fox News reports."
+      ],
+      "sources": [
+        {
+          "outlet": "ABC13 Houston",
+          "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Midterm elections 2026 live: early voting",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: CNBC reports that Putin has reportedly suggested a summit with Trump and Xi on the war, without Ukraine's leader Zelenskyy.",
+        "Egypt: Egypt says it is ready to support Saudi Arabia against the Houthis, but its parliament delayed a vote until October 26."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might a promise like $5,000 payments need the approval of Congress before it can happen?",
+        "Why do you think so many people are voting early this year?",
+        "Why might a rover that plans its own routes be useful when messages take 13 minutes to arrive?"
+      ],
+      "sources": []
+    },
+    "india": {
+      "kicker": "INDIA  •  VOTER LISTS",
+      "headline": "Supreme Court Moves Up Its Hearing on Delhi's Voter-List Check",
+      "deck": "Voters removed from the list say they are being asked to apply again.",
+      "body": [
+        "India's Election Commission is running a Special Intensive Revision, or SIR, a check of voter lists, in Delhi. A voter list decides who can vote. The Supreme Court has moved its hearing on the Delhi SIR from October 30 to October 28.",
+        "A new application says voters whose names were deleted are being asked to fill in Form 6, the form for getting back on the list. Advocate Prashant Bhushan said Form 6 needs a declaration that the person has never voted before, and that a false declaration can bring imprisonment. He asked the Commission to allow Form 8 or create another form.",
+        "He also noted that October 30 is the last date for correcting deletions. Chief Justice Surya Kant said the court was thinking of passing an order to take care of this. The court earlier told the Commission that notices seemed to be issued almost mechanically. The main case, filed by Anjali Bhardwaj and another petitioner, asks the Commission to explain how it chose voters to receive notices as having a \"logical discrepancy\"."
+      ],
+      "why": "The voter list decides who can take part in elections, so how names are removed or restored affects real people.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Delhi SIR: Supreme Court Advances Hearing After Plea Flags Deleted Voters Being Asked To Fill Form 6",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "In the Champions League last Wednesday, Liverpool won 6-3 at LASK and Real Madrid won 4-3 at Roma.",
+      "sources": [
+        {
+          "outlet": "Crónica",
+          "title": "Resultados Champions League hoy: tabla de posiciones al finalizar partidos de la jornada 2",
+          "url": "https://www.cronica.com.mx/deportes/2026/10/14/resultados-champions-league-hoy-tabla-de-posiciones-al-finalizar-partidos-de-la-jornada-2/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the Supreme Court issues an order on Delhi's voter lists on October 28.",
+        "Whether Egypt's parliament votes on October 26, and whether oil stays near $110."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the beginning of understanding.",
+      "by": "The Breakfast Table"
+    }
+  },
+  "sources": [
+    "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia",
+    "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/",
+    "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+    "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars",
+    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+    "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+    "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585",
+    "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+    "https://www.cronica.com.mx/deportes/2026/10/14/resultados-champions-league-hoy-tabla-de-posiciones-al-finalizar-partidos-de-la-jornada-2/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which rover passed Opportunity's distance record?",
+        "options": [
+          "Curiosity",
+          "Perseverance",
+          "Spirit"
+        ],
+        "answer": 1,
+        "why": "Perseverance's odometer reached 45.22 km, passing Opportunity's 45.16 km.",
+        "story": "world"
+      },
+      {
+        "q": "About how long does a radio signal take one way between Earth and Mars?",
+        "options": [
+          "13 seconds",
+          "13 minutes",
+          "13 hours"
+        ],
+        "answer": 1,
+        "why": "The paper says radio signals take about 13 minutes one way.",
+        "story": "world"
+      },
+      {
+        "q": "What date is Election Day this year?",
+        "options": [
+          "November 3",
+          "October 30",
+          "December 11"
+        ],
+        "answer": 0,
+        "why": "Americans vote in the midterms on Tuesday, November 3.",
+        "story": "us"
+      },
+      {
+        "q": "What did the Supreme Court do about the Delhi SIR hearing?",
+        "options": [
+          "Cancelled it",
+          "Moved it from October 30 to October 28",
+          "Moved it to November"
+        ],
+        "answer": 1,
+        "why": "The hearing was moved from October 30 to October 28.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Brent crude settled at $109.55 a barrel on Monday.",
+        "true": true,
+        "why": "Brent settled at $109.55, down 31 cents.",
+        "story": "lead"
+      },
+      {
+        "claim": "Saudi authorities immediately confirmed the Houthi claims.",
+        "true": false,
+        "why": "They had not immediately confirmed them, and Reuters could not verify them.",
+        "story": "lead"
+      },
+      {
+        "claim": "More than 104,000 people voted in person on day one in Harris County.",
+        "true": true,
+        "why": "ABC13 reports more than 104,000 voted on Monday.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Jezero Crater",
+        "lat": 18.44,
+        "lon": 77.45,
+        "countries": []
+      },
+      {
+        "story": "us",
+        "place": "Houston",
+        "lat": 29.76,
+        "lon": -95.37,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}

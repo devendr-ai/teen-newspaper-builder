@@ -1,0 +1,522 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-21",
+  "volume": 1,
+  "issue": 10,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND THE GULF",
+      "headline": "Oil Near $110 as Houthis Claim New Strikes on Saudi Arabia",
+      "deck": "Crude flows through the Gulf region have fallen sharply.",
+      "body": [
+        "The Houthis, an armed group from Yemen, said on Monday that they had attacked Saudi energy, airport and military sites. They named an Aramco facility in Yanbu, the Shaybah oilfield and King Khalid International Airport in Riyadh. Saudi authorities did not immediately confirm the claims, and Reuters could not verify them.",
+        "Oil markets reacted. Brent crude, the benchmark price for internationally traded oil, settled at $109.55 a barrel on Monday and traded near $110 on Tuesday. Kpler, a data firm, says crude flows through the Gulf region averaged about 8.5 million barrels a day last week, down from more than 20 million the week before. Iran's Revolutionary Guards said an oil tanker exploded after hitting a naval mine in the southern Strait of Hormuz on Sunday.",
+        "Governments are responding. Egypt says it stands ready to support Saudi Arabia against the Houthis, but its parliament delayed until October 26 a vote on letting its armed forces help if asked.",
+        "For revision, hold these numbers: $109.55 for Monday's Brent settle; about 8.5 million barrels a day last week against more than 20 million the week before; and October 26 for Egypt's delayed vote. Notice the wording: the Houthis said they carried out the attacks, and Saudi authorities had not confirmed them. In news, a claim is not the same as a confirmed fact.",
+        "Exam tip: a strait is a narrow stretch of water linking two larger seas. Oil tankers leaving the Persian Gulf must pass through the Strait of Hormuz, which is why trouble there shows up quickly in oil prices."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN AND THE UAE (ARABIAN PENINSULA)",
+        "footnote": "The narrow sea lane out of the Persian Gulf",
+        "caption": "Oil tankers from the Gulf must pass through this strait."
+      },
+      "why": "Oil is traded worldwide, so danger near big producers can raise fuel prices for households everywhere, including in India.",
+      "sources": [
+        {
+          "outlet": "LIGA.net",
+          "title": "Brent crude rises to $110 a barrel amid Houthi attacks on Saudi Arabia",
+          "url": "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Oil Price Today: Back Near $110 as Houthis Claim Saudi Oil Strikes",
+          "url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+          "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UNITED STATES",
+      "headline": "Record Crowds Vote Early in Houston as US Midterms Near",
+      "deck": "Early voting is now open in many states.",
+      "body": [
+        "Americans vote in the midterm elections on Tuesday, November 3. Many states let people vote early, in person, before that day.",
+        "Texas early voting began on Monday and runs through October 30. In Harris County, which includes Houston, more than 104,000 people voted in person on the first day, ABC13 reports. The previous midterm record for that day was 63,188, set in 2018. Texas voters who vote in person must show one of seven accepted forms of photo ID, and Harris County will have 589 Election Day polling locations, down from 782 in 2022.",
+        "Georgia had 1,007,015 in-person early votes by Tuesday morning, 12% more than at the same point in 2022, Fox News reports. Early voting also widened on Tuesday to Hawaii, Louisiana, Utah and Wisconsin.",
+        "For revision: Election Day is November 3; Texas early voting ends October 30; Harris County's first day was more than 104,000 voters against the old midterm record of 63,188; Georgia's total was 1,007,015, up 12% from 894,412 in 2022. Fox News also lists Hawaii, Louisiana, Utah and Wisconsin as states where early voting widened on Tuesday.",
+        "Exam tip: compare like with like. The Harris County record is for one county on one day, while Georgia's figure is a running total across the state, so the two numbers measure different things."
+      ],
+      "illustration": {
+        "title": "VOTING BEFORE ELECTION DAY",
+        "subtitle": "US midterms, 3 November",
+        "motif": "ballot",
+        "caption": "Texas early voting runs to October 30."
+      },
+      "connect": "Georgia's early votes are up 12% on 2022, while Harris County's first day was more than 104,000, against 63,188 in 2018.",
+      "sources": [
+        {
+          "outlet": "ABC13 Houston",
+          "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Midterm elections 2026 live: early voting",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  VOTER LISTS",
+      "headline": "Supreme Court Moves Up Its Hearing on Delhi's Voter-List Check",
+      "deck": "Deleted voters say they are being asked to apply again.",
+      "body": [
+        "India's Election Commission is running a Special Intensive Revision, or SIR, a check of voter lists, in Delhi. The Supreme Court has moved its hearing on the Delhi SIR from October 30 to October 28.",
+        "A new application says voters whose names were deleted are being asked to fill in Form 6, the form for getting back on the list. Advocate Prashant Bhushan said Form 6 needs a declaration that the person has never voted before, and that a false declaration can bring imprisonment. He asked the Commission to allow Form 8 or create another form.",
+        "The main petition, in the case Anjali Bhardwaj and another v. Election Commission of India, says the Commission and Delhi's Chief Electoral Officer did not adequately disclose which voters received notices or why. It also asks for the criteria used to classify voters as having a \"logical discrepancy\". The new application was filed by Anjali Bhardwaj and Amrita Johri.",
+        "He also noted that October 30 is the last date for correcting deletions. Chief Justice Surya Kant said the court was thinking of passing an order to take care of this. The court earlier told the Commission that notices seemed to be issued almost mechanically.",
+        "For revision: the hearing moved from October 30 to October 28; Form 6 is for getting on the list and Form 8, which Bhushan wanted allowed, is for voters who have shifted; the case is Anjali Bhardwaj and another v. Election Commission of India. The main petition asks the Commission to disclose how voters were classed as having a \"logical discrepancy\".",
+        "Exam tip: the Supreme Court is hearing a plea about a process run by the Election Commission. It is checking whether the process is fair, not deciding who wins any election."
+      ],
+      "illustration": {
+        "title": "WHO IS ON THE LIST?",
+        "subtitle": "Delhi voter lists",
+        "motif": "court",
+        "caption": "The hearing is now on October 28."
+      },
+      "why": "The voter list decides who can take part in elections, so how names are removed or restored affects real people.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Delhi SIR: Supreme Court Advances Hearing After Plea Flags Deleted Voters Being Asked To Fill Form 6",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "An Executive Order and a $5,000 Promise Test Who Holds the Power",
+      "deck": "One needs only the president; the other needs Congress.",
+      "body": [
+        "President Trump signed an executive order waiving some sanctions and tariffs on Russian energy exports. It drew criticism from both political foes and allies, and Trump is seeking to lower energy prices before the November elections, Reuters reports.",
+        "At a campaign event in Park City, Kansas, on Monday, Trump repeated a promise of $5,000 payments if Republicans keep Congress. Fox News reports that the proposal would cost over $1 trillion and would need congressional approval.",
+        "Election Day will also decide Senate races. Fox News lists contests such as North Carolina, where Michael Whatley, a Republican, faces former Democratic Governor Roy Cooper, and Texas, where James Talarico, a Democrat, faces Ken Paxton, a Republican. Trump was scheduled to rally in Greenville, North Carolina, for Whatley on Tuesday, though the page does not confirm it took place.",
+        "The campaign trail shows how the contest is spreading. Fox News says Trump held a rally in Highland Heights, Kentucky, on October 17, and the Ohio Senate race pits Sherrod Brown, a Democrat, against Senator Jon Husted, a Republican.",
+        "The contrast shows how power is shared. The waiver was done by an order alone, while a payment on that scale needs Congress, whose members are chosen in the midterm elections on November 3.",
+        "For revision: the order waived some sanctions and tariffs on Russian energy exports; the promised payments are $5,000 each and would cost over $1 trillion; Election Day is November 3. Reuters says Trump is seeking to lower energy prices before the elections, so both stories are tied to voters' budgets.",
+        "Exam tip: when you read a promise made on the campaign trail, ask which institution would have to act to make it happen, and whether the speaker controls that institution."
+      ],
+      "illustration": {
+        "title": "WHO DECIDES?",
+        "subtitle": "President and Congress",
+        "motif": "capitol",
+        "caption": "Payments of $5,000 would need Congress."
+      },
+      "why": "Knowing which decisions a president can make alone, and which need Congress, shows what voters are really choosing between.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+          "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Midterm elections 2026 live: Trump campaigns in North Carolina, early voting",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL",
+      "headline": "Russian Energy Waiver Only Briefly Lowers Oil Prices",
+      "deck": "Brent fell more than $3 on Monday, then recovered.",
+      "body": [
+        "Oil prices are the economic story with the widest reach. Brent crude fell more than $3 during Monday's session after Trump's waiver on Russian energy sanctions and tariffs, but it settled only 31 cents lower at $109.55 a barrel.",
+        "Analysts doubted the waiver would help much. Priyanka Sachdeva of Phillip Nova said it did little to address physical disruptions in Hormuz. Gelber and Associates said it raises the prospect of more Russian fuel exports, but its implementation and duration are uncertain.",
+        "Looking ahead, Bjarne Schieldrop of SEB warned that higher Hormuz export volumes may be short-lived, because Iran could escalate attacks before the November 3 US midterm elections. Michael Kramer of CMC Markets said on October 12 that $111 to $113 is a resistance level, a price where buyers have tended to hold back.",
+        "Other oil prices moved differently. West Texas Intermediate, the main US benchmark, settled at $103.66 for its November contract and $98.54 for December, Reuters reports. The Federal Reserve meets on October 27-28.",
+        "Exam tip: a futures contract is an agreement to trade at a set price on a later date, which is why November and December WTI have different prices."
+      ],
+      "chart": {
+        "title": "OIL PRICES, MONDAY SETTLE",
+        "subtitle": "US dollars a barrel",
+        "labels": [
+          "Brent",
+          "WTI Nov",
+          "WTI Dec"
+        ],
+        "values": [
+          109.55,
+          103.66,
+          98.54
+        ],
+        "max": 120,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "Source: Reuters, via Yahoo Finance."
+      },
+      "why": "Fuel prices feed into transport, food and electricity bills, so oil moves reach every household.",
+      "analyst": "Why might a waiver on Russian energy lower oil prices only for a few hours? Who gains and who loses when oil stays near $110? What would you need to know to judge whether the waiver will work?",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+          "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Oil Price Today: Back Near $110 as Houthis Claim Saudi Oil Strikes",
+          "url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  MARS",
+      "headline": "Perseverance Passes Opportunity's Record for Driving on Another World",
+      "deck": "The rover drove 91.31 metres to pass 45.16 km.",
+      "body": [
+        "On October 11, NASA's Perseverance rover drove 91.31 metres near the Jezero Crater rim on Mars. That raised its odometer from 45.13 km to 45.22 km and passed Opportunity's record for the greatest distance travelled on another world, Guinness World Records says.",
+        "Opportunity launched in 2004, was designed for about 1 km and 90 days, and covered 45.16 km over 14 years before a dust storm cut its power in 2018. Curiosity, active since 2012, has driven about 38 km.",
+        "Perseverance weighs 1,026.4 kg, the largest planetary rover launched, and its longest single drive is 411.7 metres, while Curiosity typically drives 30 to 50 metres. In February, a spare computer from the Ingenuity helicopter's communications system was repurposed for a tool that pinpoints the rover's position to within about 25 cm.",
+        "Perseverance's AutoNav system uses a dedicated onboard computer to plan routes while driving. Radio signals take about 13 minutes to travel one way between Earth and Mars, so rovers can't be driven in real time. Its motors were rated for 20 km but are now expected to last at least 100 km.",
+        "For revision: 45.22 km for Perseverance, 45.16 km for Opportunity, about 38 km for Curiosity, and 91.31 metres for the drive that broke the record. Guinness World Records says Opportunity broke Lunokhod-2's record on 27 July 2014 and that Lunokhod-2 covered about 37 km in roughly four months.",
+        "Exam tip: an odometer counts total distance driven, not how far the rover is from its landing site, so a rover that loops around can build up distance without moving far away."
+      ],
+      "illustration": {
+        "title": "A LONG DRIVE ON MARS",
+        "subtitle": "Perseverance rover",
+        "motif": "rocket",
+        "caption": "Its odometer now reads 45.22 km."
+      },
+      "why": "Long drives let rovers reach more rock to study, and show how robotic tools can outlast their plans.",
+      "sources": [
+        {
+          "outlet": "Guinness World Records",
+          "title": "NASA's Perseverance rover breaks the record for longest road trip on Mars",
+          "url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: CNBC reports that Putin has reportedly suggested a summit with Trump and Xi on the war, without Ukraine's leader Zelenskyy.",
+        "Egypt: Egypt says it is ready to support Saudi Arabia, but its parliament delayed a vote on military help until October 26.",
+        "Iran: Iran's Revolutionary Guards said an oil tanker exploded after hitting a naval mine in the southern Strait of Hormuz on Sunday.",
+        "Football: In the Champions League last Wednesday, Liverpool won 6-3 at LASK and Real Madrid won 4-3 at Roma."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Executive order",
+          "def": "A written order from the president that directs the federal government. Today: Trump signed one waiving some sanctions and tariffs on Russian energy."
+        },
+        {
+          "word": "Odometer",
+          "def": "A meter that records the distance a vehicle has travelled. Today: Perseverance's reads 45.22 km."
+        },
+        {
+          "word": "Electoral roll",
+          "def": "The official list of people allowed to vote. Today: Delhi voters say they must apply again after being deleted."
+        },
+        {
+          "word": "Midterm election",
+          "def": "A US election held halfway through a president's term. Today: early voting is under way for the one on November 3."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Opportunity was designed to work for about 90 days and drive about 1 km, yet it lasted 14 years and covered 45.16 km."
+    },
+    "explainer": {
+      "title": "Who decides what in the US government",
+      "body": [
+        "The US Constitution gives Congress, made up of the House of Representatives and the Senate, the power to pass laws and decide how public money is spent. The president leads the executive branch, which carries the laws out.",
+        "A president can issue executive orders to direct federal agencies within the powers the law gives, but a large new payment to citizens would normally need Congress to approve the money."
+      ],
+      "sources": []
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> What did Brent crude settle at on Monday?",
+        "(a) $19.55  (b) $109.55  (c) $209.55",
+        "<b>2.</b> Which group said it attacked an Aramco facility in Yanbu?",
+        "(a) The Houthis  (b) Kpler  (c) Opportunity",
+        "<b>3.</b> How many in-person votes had Georgia counted by Tuesday morning?",
+        "(a) About 100,000  (b) 1,007,015  (c) About 10 million",
+        "<b>4.</b> What was the old first-day midterm record in Harris County?",
+        "(a) 6,318  (b) 63,188  (c) 631,880",
+        "<b>5.</b> To which date did India's Supreme Court move the Delhi SIR hearing?",
+        "(a) October 28  (b) October 30  (c) November 3",
+        "<b>6.</b> Which form are deleted Delhi voters said to be asked to fill?",
+        "(a) Form 6  (b) Form 8  (c) Form 28",
+        "<b>7.</b> What would the $5,000 payments proposal need before it could happen?",
+        "(a) A court order  (b) Congressional approval  (c) A UN vote",
+        "<b>8.</b> Whose distance record did Perseverance pass?",
+        "(a) Curiosity's  (b) Opportunity's  (c) Lunokhod 1's",
+        "<b>Answers.</b> 1 (b): $109.55. 2 (a): the Houthis. 3 (b): 1,007,015. 4 (b): 63,188. 5 (a): October 28. 6 (a): Form 6. 7 (b): congressional approval. 8 (b): Opportunity's."
+      ],
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether the Supreme Court issues an order on Delhi's voter lists on October 28.",
+        "Whether Egypt's parliament votes on October 26, and whether oil stays near $110.",
+        "Whether the Federal Reserve's October 27-28 meeting says anything about prices."
+      ]
+    }
+  },
+  "sources": [
+    "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia",
+    "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/",
+    "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+    "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars",
+    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+    "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+    "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585",
+    "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+    "https://www.cronica.com.mx/deportes/2026/10/14/resultados-champions-league-hoy-tabla-de-posiciones-al-finalizar-partidos-de-la-jornada-2/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude settle at on Monday?",
+        "options": [
+          "$109.55",
+          "$19.55",
+          "$209.55"
+        ],
+        "answer": 0,
+        "why": "Brent settled at $109.55, down 31 cents.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Kpler say flows were last week?",
+        "options": [
+          "About 2 million barrels a day",
+          "About 8.5 million barrels a day",
+          "About 20 million barrels a day"
+        ],
+        "answer": 1,
+        "why": "Flows averaged about 8.5 million barrels a day, down from more than 20 million.",
+        "story": "lead"
+      },
+      {
+        "q": "How many people voted in person on day one in Harris County?",
+        "options": [
+          "About 10,000",
+          "More than 104,000",
+          "More than 1 million"
+        ],
+        "answer": 1,
+        "why": "More than 104,000 voted on Monday.",
+        "story": "world"
+      },
+      {
+        "q": "What date is the US midterm Election Day?",
+        "options": [
+          "October 30",
+          "December 11",
+          "November 3"
+        ],
+        "answer": 2,
+        "why": "The midterms are on Tuesday, November 3.",
+        "story": "world"
+      },
+      {
+        "q": "When will the Supreme Court now hear the Delhi SIR case?",
+        "options": [
+          "October 28",
+          "October 30",
+          "November 9"
+        ],
+        "answer": 0,
+        "why": "It moved the hearing from October 30 to October 28.",
+        "story": "india"
+      },
+      {
+        "q": "Which body would have to approve $5,000 payments?",
+        "options": [
+          "The UN",
+          "The Supreme Court",
+          "Congress"
+        ],
+        "answer": 2,
+        "why": "Fox News says the proposal would need congressional approval.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "Which price did Reuters report for November WTI?",
+        "options": [
+          "$103.66",
+          "$109.55",
+          "$98.54"
+        ],
+        "answer": 0,
+        "why": "November WTI settled at $103.66.",
+        "story": "economics"
+      },
+      {
+        "q": "How far had Perseverance's odometer reached?",
+        "options": [
+          "45.16 km",
+          "45.22 km",
+          "38 km"
+        ],
+        "answer": 1,
+        "why": "Its odometer reached 45.22 km, passing Opportunity's 45.16 km.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi authorities immediately confirmed the Houthi claims.",
+        "true": false,
+        "why": "They did not immediately confirm them, and Reuters could not verify them.",
+        "story": "lead"
+      },
+      {
+        "claim": "Georgia's in-person early votes were 12% higher than at the same point in 2022.",
+        "true": true,
+        "why": "Fox News reports 1,007,015, up 12% on 2022.",
+        "story": "world"
+      },
+      {
+        "claim": "The $5,000 payments proposal would cost under $1 billion.",
+        "true": false,
+        "why": "It would cost over $1 trillion.",
+        "story": "politics_and_civics"
+      },
+      {
+        "claim": "Radio signals take about 13 minutes one way between Earth and Mars.",
+        "true": true,
+        "why": "That is why the rovers can't be driven in real time.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Houston",
+        "lat": 29.76,
+        "lon": -95.37,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates",
+          "Saudi Arabia"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Jezero Crater",
+        "lat": 18.44,
+        "lon": 77.45,
+        "countries": []
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Is Near $110 a Barrel",
+        "body": [
+          "The Houthis are a group from Yemen. On Monday they said they had attacked sites in Saudi Arabia. Saudi leaders did not immediately confirm this.",
+          "Oil is sold by the barrel. Brent crude, a main oil price, settled at $109.55 on Monday. On Tuesday it was near $110.",
+          "Oil also travels by ship. Last week, about 8.5 million barrels a day flowed through the Gulf region. The week before, it was more than 20 million."
+        ]
+      },
+      "world": {
+        "headline": "Many People Vote Early in the US",
+        "body": [
+          "On November 3, Americans vote in midterm elections. Many states let people vote early.",
+          "In Harris County, Texas, more than 104,000 people voted in person on the first day. The old record for a midterm was 63,188.",
+          "In Georgia, 1,007,015 people had voted early in person by Tuesday morning. That is 12% more than at the same point in 2022."
+        ]
+      },
+      "india": {
+        "headline": "Court Moves Up a Voting List Case",
+        "body": [
+          "A voter list says who can vote. Delhi's Election Commission is checking its list. This check is called the SIR.",
+          "Some voters were removed from the list. They are being asked to fill in Form 6 to get back on it.",
+          "The Supreme Court has moved its hearing from October 30 to October 28. October 30 is the last date for fixing deletions."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Who Decides: President or Congress?",
+        "body": [
+          "President Trump signed an executive order. That is an order from the president. It waives some sanctions and tariffs on Russian energy.",
+          "On Monday he also repeated a promise of $5,000 payments. That would cost over $1 trillion.",
+          "The payments would need approval from Congress. Congress is the group that makes US laws.",
+          "Think of it like a school. The head teacher can set some rules alone. But big spending needs the school board to agree."
+        ]
+      },
+      "economics": {
+        "headline": "Oil Prices Fall a Little, Then Recover",
+        "body": [
+          "After Trump's waiver on Russian energy, Brent crude fell more than $3 on Monday. By the end of the day it had nearly recovered.",
+          "It settled at $109.55 a barrel, only 31 cents lower. Analysts said the waiver did little to fix the trouble in the Gulf.",
+          "Another US oil price, WTI, settled at $103.66 for November.",
+          "This matters because oil prices can change the cost of fuel and other things we buy."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Rover Sets a Driving Record on Mars",
+        "body": [
+          "Perseverance is a NASA robot on Mars. On October 11, it drove 91.31 metres. Its odometer, which counts distance, reached 45.22 km.",
+          "That passed the record of another rover, Opportunity. Opportunity drove 45.16 km.",
+          "Messages take about 13 minutes to travel one way between Earth and Mars. So Perseverance plans some of its own routes.",
+          "Rovers like this help scientists study another world from far away."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}

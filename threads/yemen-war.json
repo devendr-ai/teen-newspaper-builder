@@ -166,6 +166,12 @@
       "reported": "2026-10-20",
       "younger": "Saudi Arabia put off a big meeting of business leaders until 2027. The price of oil went above $109 a barrel.",
       "older": "Brent crude rises above $109 after the Houthis claim attacks on Saudi airports and Aramco sites; Saudi Arabia postpones the Future Investment Initiative conference to 2027."
+    },
+    {
+      "date": "2026-10-19",
+      "reported": "2026-10-21",
+      "younger": "The Houthis said they hit more places in Saudi Arabia, but Saudi leaders had not said if that was true.",
+      "older": "The Houthis say they hit Aramco's Yanbu site, the Shaybah oilfield and Riyadh's airport, which Saudi authorities have not confirmed, while Brent trades near $110."
     }
   ],
   "stories": [
@@ -341,6 +347,8 @@
     "https://gulfnews.com/world/mena/middle-east-conflict-houthis-strike-yemens-presidential-palace-us-issues-new-iran-sanctions-1.500712575",
     "https://www.timesofisrael.com/trump-says-israel-has-been-very-helpful-to-saudi-arabia-amid-fight-against-houthis/",
     "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
-    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html"
+    "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+    "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+    "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia"
   ]
 }

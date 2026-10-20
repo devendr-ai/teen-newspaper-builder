@@ -1,0 +1,197 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-21",
+  "volume": 1,
+  "issue": 10,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA AND THE GULF",
+      "headline": "Oil Climbs to About $110 a Barrel",
+      "deck": "The Houthis say they hit new targets in Saudi Arabia.",
+      "body": [
+        "The Houthis are a group from Yemen, the country just south of Saudi Arabia. On Monday they said they had attacked Saudi oil, airport and army sites. They named an oil company site at Yanbu, the Shaybah oilfield and the airport in Riyadh, the capital. Saudi leaders had not yet said whether this was true, and Reuters, a news agency, could not check it.",
+        "The claims are shaking the oil market. Brent crude is a price traders use for oil. On Tuesday it was about $110 a barrel. Oil also travels by sea. A firm called Kpler says about 8.5 million barrels a day flowed through the Gulf area last week. The week before, it was more than 20 million.",
+        "Leaders are trying to calm prices. President Trump signed an order that waives some sanctions and tariffs on Russian energy. Sanctions are punishments that limit trade. On Monday the order pushed oil down by more than $3, but buyers came back and the price ended almost where it began."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN AND THE UAE (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Oil ships from the Gulf pass through this narrow strait."
+      },
+      "why": "Oil is sold all over the world. When supply is in danger, fuel prices can rise far from the fighting.",
+      "sources": [
+        {
+          "outlet": "LIGA.net",
+          "title": "Brent crude rises to $110 a barrel amid Houthi attacks on Saudi Arabia",
+          "url": "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Oil Price Today: Back Near $110 as Houthis Claim Saudi Oil Strikes",
+          "url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+          "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UNITED STATES",
+      "headline": "Record Crowds Vote Early in Houston",
+      "deck": "Millions of Americans are choosing leaders before Election Day.",
+      "body": [
+        "On November 3, Americans will vote in the midterm elections, which are held halfway through a president's four-year term. Many states let people vote early, so lines are shorter on the big day.",
+        "Texas began early voting on Monday. In Harris County, which includes Houston, more than 104,000 people voted in person on day one. The old first-day midterm record was 63,188, set in 2018.",
+        "Georgia is busy too. By Tuesday morning, 1,007,015 people had voted early there in person. That is 12% more than at the same point in 2022."
+      ],
+      "chart": {
+        "title": "FIRST DAY OF EARLY VOTING, HARRIS COUNTY",
+        "subtitle": "People voting in person, in thousands",
+        "labels": [
+          "2018",
+          "2026"
+        ],
+        "values": [
+          63,
+          104
+        ],
+        "max": 120,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "The 2026 figure is more than 104,000. Source: ABC13 Houston."
+      },
+      "why": "Voting is how people choose who makes the laws. High turnout shows many people want a say.",
+      "sources": [
+        {
+          "outlet": "ABC13 Houston",
+          "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Midterm elections 2026 live: early voting",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: CNBC says Putin has reportedly suggested a summit with Trump and Xi on the war, without Ukraine's leader.",
+        "Egypt: Egypt says it is ready to back Saudi Arabia, but its parliament put off a vote to October 26."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether oil stays near $110.",
+        "Whether Egypt's parliament votes on October 26."
+      ]
+    }
+  },
+  "sources": [
+    "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia",
+    "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/",
+    "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+    "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+    "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which group said it attacked sites in Saudi Arabia?",
+        "options": [
+          "The Houthis",
+          "The Texans",
+          "Opportunity"
+        ],
+        "answer": 0,
+        "why": "The paper says the Houthis claimed new attacks.",
+        "story": "lead"
+      },
+      {
+        "q": "About how much was a barrel of Brent crude on Tuesday?",
+        "options": [
+          "$11",
+          "$110",
+          "$1,100"
+        ],
+        "answer": 1,
+        "why": "Brent crude was about $110 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "How many people voted in person on day one in Harris County?",
+        "options": [
+          "More than 104,000",
+          "About 10,000",
+          "More than 1 million"
+        ],
+        "answer": 0,
+        "why": "More than 104,000 people voted there on the first day.",
+        "story": "world"
+      },
+      {
+        "q": "When is Election Day in the United States this year?",
+        "options": [
+          "October 30",
+          "November 3",
+          "December 11"
+        ],
+        "answer": 1,
+        "why": "The paper says Americans vote on November 3.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi leaders had already said the Houthi claims were true.",
+        "true": false,
+        "why": "Saudi leaders had not yet said if the claims were true.",
+        "story": "lead"
+      },
+      {
+        "claim": "The old first-day midterm record in Harris County was 63,188 people.",
+        "true": true,
+        "why": "That record was set in 2018.",
+        "story": "world"
+      },
+      {
+        "claim": "Early voting in Texas runs until October 30.",
+        "true": true,
+        "why": "Texas early voting started Monday and ends October 30.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Houston",
+        "lat": 29.76,
+        "lon": -95.37,
+        "countries": [
+          "United States"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
