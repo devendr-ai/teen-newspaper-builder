@@ -1,0 +1,669 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-gulf",
+    "headline": "Oil climbs to about $110 as Houthis claim new attacks on Saudi Arabia and shipping through Hormuz thins",
+    "what_happened": "Brent crude traded near $110 a barrel on Tuesday 20 October after the Houthis said they had attacked Saudi energy, airport and military sites. Saudi authorities had not confirmed the claims and Reuters could not verify them. Crude flows through the Strait of Hormuz area fell sharply last week.",
+    "why_it_matters": "Oil is priced worldwide, so trouble around Saudi Arabia and the Gulf can raise fuel costs for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude traded near $110 a barrel on Tuesday 20 October.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+     },
+     {
+      "fact": "Brent settled at $109.55 on Monday 19 October, down 31 cents, after falling more than $3 during the session.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "The Houthis said they attacked an Aramco facility in Yanbu, the Shaybah oilfield and King Khalid International Airport in Riyadh; Saudi authorities did not immediately confirm this and Reuters could not verify it.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Iran's Revolutionary Guards said an oil tanker caught fire and exploded after hitting a naval mine in the southern Strait of Hormuz on Sunday.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+     },
+     {
+      "fact": "Kpler said crude flows through the region averaged about 8.5 million barrels a day last week, down from more than 20 million barrels a day the week before.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Egypt said it stands ready to support Saudi Arabia against the Houthis, and its parliament delayed until 26 October a vote on letting its armed forces help the kingdom if asked.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "The Federal Reserve meets on 27-28 October.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude, Monday settle",
+      "value": 109.55,
+      "unit": "US dollars a barrel",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "label": "Crude flows last week",
+      "value": 8.5,
+      "unit": "million barrels a day",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "label": "Crude flows the week before",
+      "value": 20,
+      "unit": "million barrels a day (more than)",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     }
+    ],
+    "geography": "Yemen and Saudi Arabia (Yanbu on the Red Sea coast, Shaybah oilfield, Riyadh); the Strait of Hormuz between Iran and the Arabian Peninsula; the Persian Gulf",
+    "sources": [
+     {
+      "outlet": "LIGA.net",
+      "title": "Brent crude rises to $110 a barrel amid Houthi attacks on Saudi Arabia",
+      "url": "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Oil Price Today: Back Near $110 as Houthis Claim Saudi Oil Strikes",
+      "url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+      "published": "2026-10-19"
+     }
+    ]
+   },
+   {
+    "id": "russia-waiver",
+    "headline": "Trump's waiver on Russian energy sanctions pulls oil down only briefly",
+    "what_happened": "President Trump signed an order waiving some sanctions and tariffs on Russian energy exports. It pushed Brent more than $3 lower during Monday's trading, but buyers returned and oil ended only 31 cents lower. Analysts said it did little to fix the supply trouble in the Gulf.",
+    "why_it_matters": "It shows how leaders try to bring fuel prices down before elections, and how hard that is when supply is disrupted far away.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "President Trump signed an executive order waiving some sanctions and tariffs on Russian energy exports; it drew criticism from both political foes and allies, and Trump is seeking to lower energy prices before the November elections.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Priyanka Sachdeva of Phillip Nova said the waiver did little to address the physical disruptions in Hormuz.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Gelber and Associates said the waiver raises the prospect of more Russian fuel exports, but its implementation and duration are uncertain.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Brent fell more than $3 during Monday's session after the waiver but settled only 31 cents lower at $109.55.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Russia, the United States, the Gulf",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+      "published": "2026-10-19"
+     }
+    ]
+   },
+   {
+    "id": "putin-summit",
+    "headline": "Putin reportedly floats a three-way summit with Trump and Xi on the Ukraine war",
+    "what_happened": "CNBC reported on 19 October that Putin reportedly proposed a three-way summit with Trump and Xi on the war in Ukraine, without Zelenskyy.",
+    "why_it_matters": "Ukraine says it must be part of any talks about its own future.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "CNBC reported on 19 October that Putin reportedly proposes a three-way summit with Trump and Xi on the Ukraine war, without Zelenskyy.",
+      "source_url": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Russia, Ukraine, United States, China",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
+      "url": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "early-voting",
+    "headline": "Early voting opens across the US with record crowds in some places",
+    "what_happened": "Early voting began or widened in many states this week before the 3 November midterm elections. Harris County, Texas, had a record first day, and Georgia passed one million in-person early votes.",
+    "why_it_matters": "Voting before Election Day is how millions of people choose who will write the country's laws.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Early voting in Texas runs from Monday 19 October to Friday 30 October, and Election Day is Tuesday 3 November.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "Harris County, Texas, had a record first day of early voting, with more than 104,000 people voting in person on Monday 19 October.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "The previous midterm record for the first day in Harris County was 63,188, set in 2018.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "Georgia had 1,007,015 in-person early votes by before noon on Tuesday, up 12% from 894,412 at the same point in 2022.",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "fact": "Early voting began on Monday in Alaska, Arkansas, Colorado, Connecticut, South Carolina, Texas and parts of Florida, and expanded on Tuesday to Hawaii, Louisiana, Utah and Wisconsin.",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "fact": "Texas voters in person must show one of seven acceptable forms of photo ID.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Harris County first-day early votes, 2026",
+      "value": 104000,
+      "unit": "people (more than)",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "label": "Harris County first-day midterm record before",
+      "value": 63188,
+      "unit": "people (2018)",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "label": "Georgia in-person early votes by Tuesday, 2026",
+      "value": 1007015,
+      "unit": "votes",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "label": "Georgia at the same point in 2022",
+      "value": 894412,
+      "unit": "votes",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     }
+    ],
+    "geography": "Texas (Harris County, Houston) and Georgia, United States",
+    "sources": [
+     {
+      "outlet": "ABC13 Houston",
+      "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Midterm elections 2026 live: Trump campaigns in North Carolina, early voting",
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "payments-promise",
+    "headline": "Trump repeats a promise of $5,000 payments if Republicans keep Congress",
+    "what_happened": "At a campaign event in Park City, Kansas, on 19 October, President Trump repeated a promise of $5,000 payments if Republicans keep Congress.",
+    "why_it_matters": "Only Congress can approve spending, which is why a campaign promise like this depends on who wins the election.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 19 October at a campaign event in Park City, Kansas, Trump repeated a promise of $5,000 payments if Republicans keep Congress.",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "fact": "The proposal would cost over $1 trillion and would need congressional approval.",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Promised payment",
+      "value": 5000,
+      "unit": "US dollars",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "label": "Estimated cost",
+      "value": 1,
+      "unit": "trillion US dollars (over)",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     }
+    ],
+    "geography": "Kansas, United States",
+    "sources": [
+     {
+      "outlet": "Fox News",
+      "title": "Midterm elections 2026 live: Trump campaigns in North Carolina, early voting",
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "delhi-sir",
+    "headline": "Supreme Court moves up its hearing on Delhi's voter-list check",
+    "what_happened": "India's Supreme Court moved a hearing on Delhi's Special Intensive Revision of voter lists from 30 October to 28 October. Campaigners say voters whose names were deleted are being asked to fill Form 6 to get back on the list.",
+    "why_it_matters": "The voter list decides who can vote, so the court's order affects real people's chance to take part in elections.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Supreme Court moved the Delhi SIR hearing from October 30 to October 28; the bench was CJI Surya Kant and Justice Joymalya Bagchi.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "An application said voters whose names were deleted in the SIR are being asked to fill Form 6 to get back on the electoral roll.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "Advocate Prashant Bhushan said October 30 is the last date for correcting deletions, and that Form 6 needs a declaration that the person has never voted before; he asked that the Election Commission allow Form 8 or create another form.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "CJI Surya Kant said the court was thinking of passing an order to take care of this.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "The court earlier told the Election Commission that notices seemed to be issued almost mechanically.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi, India",
+    "sources": [
+     {
+      "outlet": "LiveLaw",
+      "title": "Delhi SIR: Supreme Court Advances Hearing After Plea Flags Deleted Voters Being Asked To Fill Form 6",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "payments-promise",
+    "headline": "Trump repeats a promise of $5,000 payments if Republicans keep Congress",
+    "what_happened": "At a campaign event in Park City, Kansas, on 19 October, President Trump repeated a promise of $5,000 payments if Republicans keep Congress.",
+    "why_it_matters": "Only Congress can approve spending, which is why a campaign promise like this depends on who wins the election.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 19 October at a campaign event in Park City, Kansas, Trump repeated a promise of $5,000 payments if Republicans keep Congress.",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "fact": "The proposal would cost over $1 trillion and would need congressional approval.",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Promised payment",
+      "value": 5000,
+      "unit": "US dollars",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     },
+     {
+      "label": "Estimated cost",
+      "value": 1,
+      "unit": "trillion US dollars (over)",
+      "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20"
+     }
+    ],
+    "geography": "Kansas, United States",
+    "sources": [
+     {
+      "outlet": "Fox News",
+      "title": "Midterm elections 2026 live: Trump campaigns in North Carolina, early voting",
+      "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "delhi-sir",
+    "headline": "Supreme Court moves up its hearing on Delhi's voter-list check",
+    "what_happened": "India's Supreme Court moved a hearing on Delhi's Special Intensive Revision of voter lists from 30 October to 28 October. Campaigners say voters whose names were deleted are being asked to fill Form 6 to get back on the list.",
+    "why_it_matters": "The voter list decides who can vote, so the court's order affects real people's chance to take part in elections.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Supreme Court moved the Delhi SIR hearing from October 30 to October 28; the bench was CJI Surya Kant and Justice Joymalya Bagchi.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "An application said voters whose names were deleted in the SIR are being asked to fill Form 6 to get back on the electoral roll.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "Advocate Prashant Bhushan said October 30 is the last date for correcting deletions, and that Form 6 needs a declaration that the person has never voted before; he asked that the Election Commission allow Form 8 or create another form.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "CJI Surya Kant said the court was thinking of passing an order to take care of this.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     },
+     {
+      "fact": "The court earlier told the Election Commission that notices seemed to be issued almost mechanically.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi, India",
+    "sources": [
+     {
+      "outlet": "LiveLaw",
+      "title": "Delhi SIR: Supreme Court Advances Hearing After Plea Flags Deleted Voters Being Asked To Fill Form 6",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-delhi-sir-election-commission-logical-discrepancy-deleted-voters-asked-to-file-form-6-criminal-prosecution-hearing-date-advanced-554585",
+      "published": "2026-10-14"
+     }
+    ]
+   },
+   {
+    "id": "russia-waiver",
+    "headline": "Trump's waiver on Russian energy sanctions pulls oil down only briefly",
+    "what_happened": "President Trump signed an order waiving some sanctions and tariffs on Russian energy exports. It pushed Brent more than $3 lower during Monday's trading, but buyers returned and oil ended only 31 cents lower. Analysts said it did little to fix the supply trouble in the Gulf.",
+    "why_it_matters": "It shows how leaders try to bring fuel prices down before elections, and how hard that is when supply is disrupted far away.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "President Trump signed an executive order waiving some sanctions and tariffs on Russian energy exports; it drew criticism from both political foes and allies, and Trump is seeking to lower energy prices before the November elections.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Priyanka Sachdeva of Phillip Nova said the waiver did little to address the physical disruptions in Hormuz.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Gelber and Associates said the waiver raises the prospect of more Russian fuel exports, but its implementation and duration are uncertain.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Brent fell more than $3 during Monday's session after the waiver but settled only 31 cents lower at $109.55.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Russia, the United States, the Gulf",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-gulf",
+    "headline": "Oil climbs to about $110 as Houthis claim new attacks on Saudi Arabia and shipping through Hormuz thins",
+    "what_happened": "Brent crude traded near $110 a barrel on Tuesday 20 October after the Houthis said they had attacked Saudi energy, airport and military sites. Saudi authorities had not confirmed the claims and Reuters could not verify them. Crude flows through the Strait of Hormuz area fell sharply last week.",
+    "why_it_matters": "Oil is priced worldwide, so trouble around Saudi Arabia and the Gulf can raise fuel costs for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude traded near $110 a barrel on Tuesday 20 October.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+     },
+     {
+      "fact": "Brent settled at $109.55 on Monday 19 October, down 31 cents, after falling more than $3 during the session.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "The Houthis said they attacked an Aramco facility in Yanbu, the Shaybah oilfield and King Khalid International Airport in Riyadh; Saudi authorities did not immediately confirm this and Reuters could not verify it.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Iran's Revolutionary Guards said an oil tanker caught fire and exploded after hitting a naval mine in the southern Strait of Hormuz on Sunday.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+     },
+     {
+      "fact": "Kpler said crude flows through the region averaged about 8.5 million barrels a day last week, down from more than 20 million barrels a day the week before.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Egypt said it stands ready to support Saudi Arabia against the Houthis, and its parliament delayed until 26 October a vote on letting its armed forces help the kingdom if asked.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "The Federal Reserve meets on 27-28 October.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude, Monday settle",
+      "value": 109.55,
+      "unit": "US dollars a barrel",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "label": "Crude flows last week",
+      "value": 8.5,
+      "unit": "million barrels a day",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "label": "Crude flows the week before",
+      "value": 20,
+      "unit": "million barrels a day (more than)",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     }
+    ],
+    "geography": "Yemen and Saudi Arabia (Yanbu on the Red Sea coast, Shaybah oilfield, Riyadh); the Strait of Hormuz between Iran and the Arabian Peninsula; the Persian Gulf",
+    "sources": [
+     {
+      "outlet": "LIGA.net",
+      "title": "Brent crude rises to $110 a barrel amid Houthi attacks on Saudi Arabia",
+      "url": "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Oil Price Today: Back Near $110 as Houthis Claim Saudi Oil Strikes",
+      "url": "https://financefeeds.com/brent-crude-oil-price-110-houthi-saudi-attacks-hormuz-mine-bull-113-bear-104/",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+      "published": "2026-10-19"
+     }
+    ]
+   },
+   {
+    "id": "russia-waiver",
+    "headline": "Trump's waiver on Russian energy sanctions pulls oil down only briefly",
+    "what_happened": "President Trump signed an order waiving some sanctions and tariffs on Russian energy exports. It pushed Brent more than $3 lower during Monday's trading, but buyers returned and oil ended only 31 cents lower. Analysts said it did little to fix the supply trouble in the Gulf.",
+    "why_it_matters": "It shows how leaders try to bring fuel prices down before elections, and how hard that is when supply is disrupted far away.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "President Trump signed an executive order waiving some sanctions and tariffs on Russian energy exports; it drew criticism from both political foes and allies, and Trump is seeking to lower energy prices before the November elections.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Priyanka Sachdeva of Phillip Nova said the waiver did little to address the physical disruptions in Hormuz.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Gelber and Associates said the waiver raises the prospect of more Russian fuel exports, but its implementation and duration are uncertain.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     },
+     {
+      "fact": "Brent fell more than $3 during Monday's session after the waiver but settled only 31 cents lower at $109.55.",
+      "source_url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Russia, the United States, the Gulf",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure",
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "perseverance-record",
+    "headline": "Perseverance becomes the farthest-driving rover on any world",
+    "what_happened": "On 11 October NASA's Perseverance rover drove 91.31 metres near the Jezero Crater rim, taking its odometer from 45.13 km to 45.22 km. That passed Opportunity's record of 45.16 km for the greatest distance travelled on another world.",
+    "why_it_matters": "It shows how far robot explorers can go, and how engineers keep a rover going for years.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 11 October 2026 Perseverance drove 91.31 metres near the Jezero Crater rim, raising its odometer from 45.13 km to 45.22 km, passing Opportunity's record for the greatest distance travelled on another world.",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "fact": "Opportunity launched in 2004, was designed for about 1 km and 90 days, and eventually covered 45.16 km over 14 years before going silent in 2018 when a dust storm cut its power.",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "fact": "Radio signals take about 13 minutes to travel one way between Earth and Mars, so the rovers can't be driven in real time.",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "fact": "Perseverance's AutoNav system uses a dedicated onboard computer to plan routes while driving.",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "fact": "Perseverance's motors were rated for 20 km but are now expected to last at least 100 km.",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "fact": "Curiosity, active since August 2012, has driven about 38 km.",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Perseverance odometer",
+      "value": 45.22,
+      "unit": "km",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "label": "Opportunity total",
+      "value": 45.16,
+      "unit": "km",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     },
+     {
+      "label": "Curiosity so far",
+      "value": 38,
+      "unit": "km (about)",
+      "source_url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars"
+     }
+    ],
+    "geography": "Jezero Crater, Mars",
+    "sources": [
+     {
+      "outlet": "Guinness World Records",
+      "title": "NASA's Perseverance rover breaks the record for longest road trip on Mars",
+      "url": "https://www.guinnessworldrecords.com/news/2026/10/nasas-perseverance-rover-breaks-the-record-for-longest-road-trip-on-mars",
+      "published": "2026-10-13"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ucl-week2",
+    "headline": "Champions League: Liverpool win 6-3 at LASK, Real Madrid win 4-3 at Roma",
+    "what_happened": "On Wednesday 14 October Liverpool won 6-3 at LASK and Real Madrid won 4-3 at Roma in the Champions League.",
+    "why_it_matters": "Goals galore in Europe's top club competition.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Wednesday 14 October 2026 LASK lost 3-6 to Liverpool and Roma lost 3-4 to Real Madrid in the Champions League.",
+      "source_url": "https://www.cronica.com.mx/deportes/2026/10/14/resultados-champions-league-hoy-tabla-de-posiciones-al-finalizar-partidos-de-la-jornada-2/"
+     },
+     {
+      "fact": "On Tuesday 13 October 2026 Arsenal beat Lille 3-0.",
+      "source_url": "https://www.cronica.com.mx/deportes/2026/10/14/resultados-champions-league-hoy-tabla-de-posiciones-al-finalizar-partidos-de-la-jornada-2/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Europe",
+    "sources": [
+     {
+      "outlet": "Crónica",
+      "title": "Resultados Champions League hoy: tabla de posiciones al finalizar partidos de la jornada 2",
+      "url": "https://www.cronica.com.mx/deportes/2026/10/14/resultados-champions-league-hoy-tabla-de-posiciones-al-finalizar-partidos-de-la-jornada-2/",
+      "published": "2026-10-14"
+     }
+    ]
+   }
+  ]
+ }
+}
