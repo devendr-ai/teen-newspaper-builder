@@ -1,0 +1,1254 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-gulf",
+    "headline": "Oil stays near $109 as Houthi claims and Hormuz tanker reports keep supply fears alive",
+    "what_happened": "Brent crude, the main world oil price, ended Tuesday 20 October at about $108.82 a barrel. The Houthi movement in Yemen claimed attacks on Saudi Arabian sites on Monday; Saudi authorities did not immediately confirm them. Iran's Revolutionary Guards said mines stopped three tankers near the Strait of Hormuz, which US Central Command rejected.",
+    "why_it_matters": "Oil is priced worldwide, so trouble in the Gulf can raise petrol prices for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude futures closed at $108.82 a barrel on Tuesday 20 October, and US West Texas Intermediate settled at $97.15.",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     },
+     {
+      "fact": "The latest price rise followed Houthi claims of several attacks on Saudi Arabian facilities on Monday; Saudi authorities did not immediately confirm them and Reuters could not verify them.",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     },
+     {
+      "fact": "Iran's Revolutionary Guards said their naval mines stopped three tankers on routes Tehran considers unauthorized and that two caught fire.",
+      "source_url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+     },
+     {
+      "fact": "US Central Command rejected Iran's account, saying the claims that tankers hit mines were false.",
+      "source_url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+     },
+     {
+      "fact": "Iran and the United States remain in indirect talks through Pakistan and Qatar, and Iran's foreign minister said the strait will stay closed unless Washington accepts Tehran's conditions.",
+      "source_url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude close, 20 October",
+      "value": 108.82,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     },
+     {
+      "label": "WTI settle, 20 October",
+      "value": 97.15,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman; Saudi Arabia, Yemen and the Red Sea coast; the Gulf.",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Oil price today: WTI, Brent rise on Middle East worries",
+      "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "The New Arab",
+      "title": "US-Iran mediation persists with both sides prep for war",
+      "url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-talks",
+    "headline": "Putin agrees in principle to resume three-way Ukraine talks after Witkoff meeting",
+    "what_happened": "US envoy Steve Witkoff met Russian President Vladimir Putin in St Petersburg on 21 October, a day after meeting Ukraine's President Volodymyr Zelenskyy and some European leaders in Oslo. The Kremlin said Putin agreed in principle to resume talks with the US and Ukraine after 10 November. Russia said it would study the proposals and that talks would take a long time.",
+    "why_it_matters": "These talks are the main diplomatic effort to end a war that has also pushed up energy prices around the world.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The meeting in St Petersburg lasted about three hours, the Kremlin said, and came a day after Witkoff met Zelenskyy and some European leaders in Oslo.",
+      "source_url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
+     },
+     {
+      "fact": "Kremlin adviser Yuri Ushakov said Putin agreed in principle to resume trilateral talks after 10 November, and that the next round could take place in Abu Dhabi.",
+      "source_url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
+     },
+     {
+      "fact": "Kremlin spokesman Dmitry Peskov said Moscow would study the proposals but that the talks would take a long time.",
+      "source_url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
+     },
+     {
+      "fact": "Russia freed a US citizen, Stephen Hubbard.",
+      "source_url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
+     },
+     {
+      "fact": "Kremlin officials said a negotiated end is theoretically possible only if Ukraine's leaders make necessary decisions.",
+      "source_url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
+     },
+     {
+      "fact": "Zelenskyy said he prefers trilateral talks with Trump and Putin and would reject a deal drafted by China, Russia and the US alone, and that any settlement would need Ukraine's parliament's approval.",
+      "source_url": "aj_ukr"
+     },
+     {
+      "fact": "Zelenskyy told Fox News he is open to freezing the front lines as a route to a ceasefire.",
+      "source_url": "fox_z"
+     },
+     {
+      "fact": "A Russian attack on a high-rise in Kyiv's Sviatoshinsky district killed two people, and a Ukrainian drone attack in Russia's Bryansk region killed at least one.",
+      "source_url": "cbs_wit"
+     },
+     {
+      "fact": "Russia announced it would soon begin diesel shipments to the United States under a deal with Trump.",
+      "source_url": "cnn_wit"
+     }
+    ],
+    "numbers": [],
+    "geography": "St Petersburg (Russia), Oslo (Norway), Abu Dhabi (UAE), Ukraine and Russia.",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+      "url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Russia says Ukraine must make necessary decisions to end war as Witkoff meets Putin",
+      "url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "ABC News",
+      "title": "Witkoff lauds 'humanitarian' Putin as Russia releases detained American",
+      "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Zelenskyy says he's open to freezing front lines to end Ukraine war",
+      "url": "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Putin ready to resume three-way Ukraine peace talks",
+      "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "albania-protests",
+    "headline": "Albania's student protests enter a second week as the prime minister refuses to quit",
+    "what_happened": "Protests in Tirana began on 13 October as a student boycott over problems in higher education and have grown into a wider movement against Prime Minister Edi Rama's government. Over the weekend of 17 to 18 October some protesters threw Molotov cocktails and stones, and police used tear gas, water cannons and rubber bullets. Rama has refused to resign. On 20 October he called some students extremist but said students who protest are not the problem.",
+    "why_it_matters": "It shows young people in a European country pressing their government over education, costs and corruption.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The protests began on 13 October as a student boycott over problems in higher education and widened into a movement against corruption and the cost of living, with demonstrators demanding that Rama resign.",
+      "source_url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+     },
+     {
+      "fact": "Police used tear gas, water cannons and rubber bullets, and protesters threw Molotov cocktails and stones, over the weekend of 17 and 18 October.",
+      "source_url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+     },
+     {
+      "fact": "Reuters reported on 17 October that police figures showed 500 protesters detained, 330 of whom had since been released.",
+      "source_url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+     },
+     {
+      "fact": "State Police director Skender Hita said ten police officers were injured.",
+      "source_url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+     },
+     {
+      "fact": "Rama blamed a 'foreign hand' for the unrest and has not presented concrete evidence for the claim.",
+      "source_url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/"
+     },
+     {
+      "fact": "On 20 October Rama said some students were bound to politically extremist ideas, while also saying students who exercise their right to protest are not the problem.",
+      "source_url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Protesters detained, 17 October",
+      "value": 500,
+      "unit": "people",
+      "source_url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+     },
+     {
+      "label": "Of those, released",
+      "value": 330,
+      "unit": "people",
+      "source_url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+     }
+    ],
+    "geography": "Tirana, the capital of Albania, in the Balkans on the Adriatic coast.",
+    "sources": [
+     {
+      "outlet": "Balkan Insight",
+      "title": "Albania's Capital Rocked by Chaotic Weekend of Street Unrest",
+      "url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "TimesLIVE (Reuters)",
+      "title": "Albanian anti-government protesters clash with police in Tirana",
+      "url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "Balkan Insight",
+      "title": "Albanian PM Rama Steps Up Rhetoric Against Student Protesters",
+      "url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "early-vote-records",
+    "headline": "Early voting breaks first-day records in Texas and South Carolina",
+    "what_happened": "Early voting for the 3 November midterms began in Texas on 19 October. Harris County passed 100,000 in-person voters on the first day, against a previous midterm high of 63,188 in 2018. Dallas County had 76,069 voters, a county record for a first day, and South Carolina recorded 97,968 on its first day, more than double the previous midterm.",
+    "why_it_matters": "Midterm elections decide who sits in Congress, which writes the nation's laws and shapes what a president can do.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Harris County's first early-voting day passed 100,000 in-person voters, against a previous midterm first-day record of 63,188 set in 2018.",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "fact": "76,069 voters turned out on the first day of early voting in Dallas County, a record for the county.",
+      "source_url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total"
+     },
+     {
+      "fact": "Officially 97,968 votes were cast on South Carolina's first day, more than double the previous midterm.",
+      "source_url": "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/"
+     },
+     {
+      "fact": "Texas had 911,468 early voters after two days, about 4.8% of 19 million registered voters.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Harris County first-day voters",
+      "value": 100000,
+      "unit": "voters",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "label": "Harris County 2018 first-day record",
+      "value": 63188,
+      "unit": "voters",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "label": "Dallas County first-day voters",
+      "value": 76069,
+      "unit": "voters",
+      "source_url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total"
+     },
+     {
+      "label": "South Carolina first-day votes",
+      "value": 97968,
+      "unit": "votes",
+      "source_url": "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/"
+     }
+    ],
+    "geography": "Texas (Harris, Dallas, Travis counties) and South Carolina, United States.",
+    "sources": [
+     {
+      "outlet": "Houston Public Media",
+      "title": "Harris County crushes midterm first-day early voter turnout record",
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Fox 4",
+      "title": "Dallas County sees record turnout for first day of 2026 early voting",
+      "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "ABC13 Houston",
+      "title": "Harris County sees another record on day 2 of early voting",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Count on 2",
+      "title": "Day 1 of early voting more than doubles previous midterm's first day turnout in S.C.",
+      "url": "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "cook-ratings",
+    "headline": "Forecaster shifts three Senate races, with Congress control at stake on 3 November",
+    "what_happened": "On 20 October the Cook Political Report moved South Carolina from Likely Republican to Lean Republican and Mississippi from Solid Republican to Likely Republican, both toward Democrats. It moved Minnesota from Likely Democrat to Lean Democrat, toward Republicans, citing polling.",
+    "why_it_matters": "The midterms will decide whether Republicans keep their majorities in the House and Senate.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Cook Political Report moved South Carolina and Mississippi toward Democrats and Minnesota toward Republicans on 20 October.",
+      "source_url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
+     },
+     {
+      "fact": "South Carolina moved from Likely Republican to Lean Republican, and Mississippi from Solid Republican to Likely Republican.",
+      "source_url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+     },
+     {
+      "fact": "The 3 November election will decide whether Republicans keep their majorities in the House and Senate.",
+      "source_url": "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/"
+     },
+     {
+      "fact": "Minnesota moved from Likely Democrat to Lean Democrat because polling showed the Democratic nominee behind the national environment.",
+      "source_url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States: South Carolina, Mississippi, Minnesota.",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans",
+      "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "ABC7",
+      "title": "Early voting begins in US midterm elections that could flip control of Congress",
+      "url": "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/",
+      "published": "2026-09-18"
+     },
+     {
+      "outlet": "Cook Political Report",
+      "title": "Candidate Quality Shifts the Senate Map",
+      "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "delhi-air",
+    "headline": "Delhi's air turns 'poor' and first-stage pollution curbs begin",
+    "what_happened": "Delhi's Air Quality Index rose from 179 on 20 October to 244 at 2 pm on 21 October, in the 'poor' band, after Dussehra. The Commission for Air Quality Management put Stage I of its Graded Response Action Plan in force across Delhi-NCR for the first time this season. Forecasts say the air is likely to stay poor for the coming days.",
+    "why_it_matters": "Delhi's air usually worsens in autumn, and Diwali is still ahead, so families can expect more days of poor air.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Delhi's AQI rose from 179 on 20 October to 244 at 2 pm on 21 October, in the 'poor' band, and GRAP Stage I was invoked for the first time this season.",
+      "source_url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/"
+     },
+     {
+      "fact": "Forecasts from the India Meteorological Department and IITM said air quality was likely to stay 'poor' over the coming days.",
+      "source_url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/"
+     },
+     {
+      "fact": "The Delhi Metro will add 20 weekday trips from Thursday.",
+      "source_url": "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily"
+     },
+     {
+      "fact": "The Central Pollution Control Board recorded an AQI of 247 at 7 pm on 21 October.",
+      "source_url": "grap"
+     },
+     {
+      "fact": "CAQM said GRAP Stage I was invoked for the first time this season because the AQI entered the 'poor' category and forecasts indicated it could stay elevated.",
+      "source_url": "gap_out"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Delhi AQI, 20 October",
+      "value": 179,
+      "unit": "index points",
+      "source_url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/"
+     },
+     {
+      "label": "Delhi AQI, 21 October 2 pm",
+      "value": 244,
+      "unit": "index points",
+      "source_url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/"
+     }
+    ],
+    "geography": "Delhi and the National Capital Region, northern India.",
+    "sources": [
+     {
+      "outlet": "ANI",
+      "title": "GRAP Stage 1 imposed in Delhi-NCR as air quality dips to 'poor' category",
+      "url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "National Herald",
+      "title": "Delhi imposes GRAP-1 curbs as AQI turns 'poor'",
+      "url": "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "GRAP Stage I Invoked In Delhi-NCR As Air Quality Turns 'Poor'",
+      "url": "https://www.outlookindia.com/national/grap-stage-i-invoked-in-delhi-ncr-as-air-quality-turns-poor",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "delhi-sir",
+    "headline": "Delhi voter-list check: claims window runs to 30 October, Supreme Court to hear plea on 28 October",
+    "what_happened": "The Supreme Court advanced its hearing on a plea about notices in Delhi's Special Intensive Revision of the voter list to 28 October. Chief Justice Surya Kant said the bench is thinking of passing an order. The window for claims and objections was extended by a month, to 30 October.",
+    "why_it_matters": "The voter list decides who can vote, so a list that wrongly removes people matters to a democracy.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Supreme Court advanced the hearing to 28 October on a plea asking the Election Commission to publish the list of electors who received notices and the reasons.",
+      "source_url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+     },
+     {
+      "fact": "CJI Surya Kant said the court was thinking of passing an order that would take care of the issue before the deadline.",
+      "source_url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+     },
+     {
+      "fact": "The claims and objections window was extended by a month, to 30 October.",
+      "source_url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi, India.",
+    "sources": [
+     {
+      "outlet": "Deccan Herald",
+      "title": "Delhi SIR: Supreme Court advances roll revision hearing to October 28",
+      "url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cook-ratings",
+    "headline": "Forecaster shifts three Senate races, with Congress control at stake on 3 November",
+    "what_happened": "On 20 October the Cook Political Report moved South Carolina from Likely Republican to Lean Republican and Mississippi from Solid Republican to Likely Republican, both toward Democrats. It moved Minnesota from Likely Democrat to Lean Democrat, toward Republicans, citing polling.",
+    "why_it_matters": "The midterms will decide whether Republicans keep their majorities in the House and Senate.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Cook Political Report moved South Carolina and Mississippi toward Democrats and Minnesota toward Republicans on 20 October.",
+      "source_url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
+     },
+     {
+      "fact": "South Carolina moved from Likely Republican to Lean Republican, and Mississippi from Solid Republican to Likely Republican.",
+      "source_url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+     },
+     {
+      "fact": "The 3 November election will decide whether Republicans keep their majorities in the House and Senate.",
+      "source_url": "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/"
+     },
+     {
+      "fact": "Minnesota moved from Likely Democrat to Lean Democrat because polling showed the Democratic nominee behind the national environment.",
+      "source_url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States: South Carolina, Mississippi, Minnesota.",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans",
+      "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "ABC7",
+      "title": "Early voting begins in US midterm elections that could flip control of Congress",
+      "url": "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/",
+      "published": "2026-09-18"
+     },
+     {
+      "outlet": "Cook Political Report",
+      "title": "Candidate Quality Shifts the Senate Map",
+      "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
+     }
+    ]
+   },
+   {
+    "id": "delhi-sir",
+    "headline": "Delhi voter-list check: claims window runs to 30 October, Supreme Court to hear plea on 28 October",
+    "what_happened": "The Supreme Court advanced its hearing on a plea about notices in Delhi's Special Intensive Revision of the voter list to 28 October. Chief Justice Surya Kant said the bench is thinking of passing an order. The window for claims and objections was extended by a month, to 30 October.",
+    "why_it_matters": "The voter list decides who can vote, so a list that wrongly removes people matters to a democracy.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Supreme Court advanced the hearing to 28 October on a plea asking the Election Commission to publish the list of electors who received notices and the reasons.",
+      "source_url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+     },
+     {
+      "fact": "CJI Surya Kant said the court was thinking of passing an order that would take care of the issue before the deadline.",
+      "source_url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+     },
+     {
+      "fact": "The claims and objections window was extended by a month, to 30 October.",
+      "source_url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi, India.",
+    "sources": [
+     {
+      "outlet": "Deccan Herald",
+      "title": "Delhi SIR: Supreme Court advances roll revision hearing to October 28",
+      "url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-inflation",
+    "headline": "UK inflation rises to 3.5% as petrol prices jump",
+    "what_happened": "The Office for National Statistics said UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August and above the 3.4% economists expected. Motor fuel prices were up 29.8% in the year. Markets expect the Bank of England to raise interest rates.",
+    "why_it_matters": "Higher prices squeeze family budgets, and the Bank of England raises interest rates to slow price rises.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August; Reuters-polled economists had expected 3.4%.",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "Motor fuel prices rose 29.8% in the year to September, the highest rate of motor fuel inflation since August 2022.",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "Services price inflation rose to 3.7% from 3.4% in August.",
+      "source_url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/"
+     },
+     {
+      "fact": "Bloomberg reported the Bank of England is on track for its first interest-rate rise in more than three years.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "fact": "The figures came before John Healey's first Budget as chancellor, due next week.",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "UK CPI inflation, September",
+      "value": 3.5,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "label": "UK CPI inflation, August",
+      "value": 3.1,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "label": "Motor fuel prices, year to September",
+      "value": 29.8,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     }
+    ],
+    "geography": "United Kingdom.",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "UK inflation jumps to 3.5%, cementing rate hike expectations",
+      "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "RTE",
+      "title": "UK inflation and borrowing climb before Healey's budget",
+      "url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "oil-gulf",
+    "headline": "Oil stays near $109 as Houthi claims and Hormuz tanker reports keep supply fears alive",
+    "what_happened": "Brent crude, the main world oil price, ended Tuesday 20 October at about $108.82 a barrel. The Houthi movement in Yemen claimed attacks on Saudi Arabian sites on Monday; Saudi authorities did not immediately confirm them. Iran's Revolutionary Guards said mines stopped three tankers near the Strait of Hormuz, which US Central Command rejected.",
+    "why_it_matters": "Oil is priced worldwide, so trouble in the Gulf can raise petrol prices for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude futures closed at $108.82 a barrel on Tuesday 20 October, and US West Texas Intermediate settled at $97.15.",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     },
+     {
+      "fact": "The latest price rise followed Houthi claims of several attacks on Saudi Arabian facilities on Monday; Saudi authorities did not immediately confirm them and Reuters could not verify them.",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     },
+     {
+      "fact": "Iran's Revolutionary Guards said their naval mines stopped three tankers on routes Tehran considers unauthorized and that two caught fire.",
+      "source_url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+     },
+     {
+      "fact": "US Central Command rejected Iran's account, saying the claims that tankers hit mines were false.",
+      "source_url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+     },
+     {
+      "fact": "Iran and the United States remain in indirect talks through Pakistan and Qatar, and Iran's foreign minister said the strait will stay closed unless Washington accepts Tehran's conditions.",
+      "source_url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude close, 20 October",
+      "value": 108.82,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     },
+     {
+      "label": "WTI settle, 20 October",
+      "value": 97.15,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman; Saudi Arabia, Yemen and the Red Sea coast; the Gulf.",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Oil price today: WTI, Brent rise on Middle East worries",
+      "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "The New Arab",
+      "title": "US-Iran mediation persists with both sides prep for war",
+      "url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "euclid-comet",
+    "headline": "Europe's Euclid telescope discovers its first comet",
+    "what_happened": "ESA said its Euclid space telescope spotted a previously unknown comet, C/2026 S1 (Euclid), in images taken between 16 and 24 September. PhD student Mikko Pöntinen found it with custom software that detects moving objects, and the Minor Planet Center confirmed it on 8 October.",
+    "why_it_matters": "Euclid was built to map distant galaxies and study dark matter and dark energy, not to hunt comets, so the find was a surprise.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The comet appeared in Euclid images taken between 16 and 24 September 2026, found during the Euclid Deep Field North survey.",
+      "source_url": "https://www.eurekalert.org/news-releases/1148114"
+     },
+     {
+      "fact": "Mikko Pöntinen, a PhD student, found it with custom moving-object detection software and reported it to the Minor Planet Center.",
+      "source_url": "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet"
+     },
+     {
+      "fact": "The Minor Planet Center confirmed it as a comet on 8 October.",
+      "source_url": "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet"
+     },
+     {
+      "fact": "Euclid was built to map distant galaxies and study dark matter and dark energy; earlier comets it observed were already known.",
+      "source_url": "https://yubanet.com/scitech/euclid-discovers-new-comet/"
+     },
+     {
+      "fact": "One Euclid frame, a 560-second exposure from 20 September, shows the comet as a streak with a fuzzy coma.",
+      "source_url": "euclid"
+     },
+     {
+      "fact": "Pöntinen predicted the comet's position to find it in five image sets, and found no match against known comets or asteroids.",
+      "source_url": "euclid_ut"
+     },
+     {
+      "fact": "The comet was about 1.3 billion km from Earth, according to Starlust.",
+      "source_url": "starlust"
+     },
+     {
+      "fact": "The find was made by a PhD student using custom software, not by Euclid's main survey pipeline.",
+      "source_url": "euclid_ut"
+     },
+     {
+      "fact": "Ground-based follow-up observations helped confirm the comet.",
+      "source_url": "euclid_yn"
+     }
+    ],
+    "numbers": [],
+    "geography": "The Euclid telescope orbits far from Earth; the comet is in the outer solar system.",
+    "sources": [
+     {
+      "outlet": "EurekAlert / ESA",
+      "title": "Euclid discovers new comet",
+      "url": "https://www.eurekalert.org/news-releases/1148114",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Universe Today",
+      "title": "The ESA's Euclid Space Telescope Has Discovered A New Comet",
+      "url": "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "YubaNet",
+      "title": "Euclid discovers new comet",
+      "url": "https://yubanet.com/scitech/euclid-discovers-new-comet/",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Starlust",
+      "title": "C/2026 S1: ESA's Euclid telescope unexpectedly discovers its first comet",
+      "url": "https://starlust.org/c-2026-s1-esas-euclid-telescope-unexpectedly-discovers-its-first-comet-807-million-miles-away/",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "aberfan-60",
+    "headline": "Britain marks 60 years since the Aberfan disaster",
+    "what_happened": "On 21 October the King, the Queen and the Prince of Wales joined survivors and bereaved families at Aberfan in Wales to mark 60 years since a coal tip collapsed onto the village on 21 October 1966. The King and Prince William laid wreaths and the Queen placed a posy. Prince William unveiled the Aberfan Memorial Tree, a sculpture at Ynysowen Community Primary School.",
+    "why_it_matters": "Aberfan led to lasting changes in how coal tips are made safe, and the village still remembers the children it lost.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A coal tip collapsed onto Aberfan on 21 October 1966; 144 people died in total, 116 children and 28 adults, according to NBC.",
+      "source_url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764"
+     },
+     {
+      "fact": "The King and Prince William laid wreaths and the Queen placed a posy during a short prayer and moment of silence at the Aberfan Memorial Garden.",
+      "source_url": "https://www.yahoo.com/news/world/articles/king-charles-leads-tributes-survivors-154626946.html"
+     },
+     {
+      "fact": "Prince William unveiled the Aberfan Memorial Tree, a sculpture at Ynysowen Community Primary School, where it gives pupils, families and visitors a permanent place to remember the 144 victims.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "The royals met survivors, bereaved parents, former pupils, siblings of those who died, and retired emergency service personnel who took part in the rescue efforts.",
+      "source_url": "https://www.yahoo.com/news/world/articles/king-charles-leads-tributes-survivors-154626946.html"
+     },
+     {
+      "fact": "Mair Morgan, the last surviving teacher from Pantglas Junior School, accompanied the King and Queen.",
+      "source_url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Total deaths",
+      "value": 144,
+      "unit": "people",
+      "source_url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764"
+     },
+     {
+      "label": "Children who died",
+      "value": 116,
+      "unit": "children",
+      "source_url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764"
+     },
+     {
+      "label": "Adults who died",
+      "value": 28,
+      "unit": "adults",
+      "source_url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764"
+     }
+    ],
+    "geography": "Aberfan, near Merthyr Tydfil, in the south Wales valleys.",
+    "sources": [
+     {
+      "outlet": "NBC News",
+      "title": "King Charles and family mark 60th anniversary of Aberfan disaster",
+      "url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "King Charles leads tributes to survivors of Aberfan school disaster on 60th anniversary",
+      "url": "https://www.yahoo.com/news/world/articles/king-charles-leads-tributes-survivors-154626946.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "royal.uk",
+      "title": "The King, The Queen and The Prince of Wales mark the 60th anniversary of the Aberfan Disaster",
+      "url": "https://www.royal.uk/aberfan-60",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "uk-inflation",
+    "headline": "UK inflation rises to 3.5% as petrol prices jump",
+    "what_happened": "The Office for National Statistics said UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August and above the 3.4% economists expected. Motor fuel prices were up 29.8% in the year. Markets expect the Bank of England to raise interest rates.",
+    "why_it_matters": "Higher prices squeeze family budgets, and the Bank of England raises interest rates to slow price rises.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August; Reuters-polled economists had expected 3.4%.",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "Motor fuel prices rose 29.8% in the year to September, the highest rate of motor fuel inflation since August 2022.",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "Services price inflation rose to 3.7% from 3.4% in August.",
+      "source_url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/"
+     },
+     {
+      "fact": "Bloomberg reported the Bank of England is on track for its first interest-rate rise in more than three years.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "fact": "The figures came before John Healey's first Budget as chancellor, due next week.",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "UK CPI inflation, September",
+      "value": 3.5,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "label": "UK CPI inflation, August",
+      "value": 3.1,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "label": "Motor fuel prices, year to September",
+      "value": 29.8,
+      "unit": "percent",
+      "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     }
+    ],
+    "geography": "United Kingdom.",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "UK inflation jumps to 3.5%, cementing rate hike expectations",
+      "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "RTE",
+      "title": "UK inflation and borrowing climb before Healey's budget",
+      "url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+      "published": "2026-10-21"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "albania-protests",
+    "headline": "Albania's student protests enter a second week as the prime minister refuses to quit",
+    "what_happened": "Protests in Tirana began on 13 October as a student boycott over problems in higher education and have grown into a wider movement against Prime Minister Edi Rama's government. Over the weekend of 17 to 18 October some protesters threw Molotov cocktails and stones, and police used tear gas, water cannons and rubber bullets. Rama has refused to resign. On 20 October he called some students extremist but said students who protest are not the problem.",
+    "why_it_matters": "It shows young people in a European country pressing their government over education, costs and corruption.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The protests began on 13 October as a student boycott over problems in higher education and widened into a movement against corruption and the cost of living, with demonstrators demanding that Rama resign.",
+      "source_url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+     },
+     {
+      "fact": "Police used tear gas, water cannons and rubber bullets, and protesters threw Molotov cocktails and stones, over the weekend of 17 and 18 October.",
+      "source_url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+     },
+     {
+      "fact": "Reuters reported on 17 October that police figures showed 500 protesters detained, 330 of whom had since been released.",
+      "source_url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+     },
+     {
+      "fact": "State Police director Skender Hita said ten police officers were injured.",
+      "source_url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+     },
+     {
+      "fact": "Rama blamed a 'foreign hand' for the unrest and has not presented concrete evidence for the claim.",
+      "source_url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/"
+     },
+     {
+      "fact": "On 20 October Rama said some students were bound to politically extremist ideas, while also saying students who exercise their right to protest are not the problem.",
+      "source_url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Protesters detained, 17 October",
+      "value": 500,
+      "unit": "people",
+      "source_url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+     },
+     {
+      "label": "Of those, released",
+      "value": 330,
+      "unit": "people",
+      "source_url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+     }
+    ],
+    "geography": "Tirana, the capital of Albania, in the Balkans on the Adriatic coast.",
+    "sources": [
+     {
+      "outlet": "Balkan Insight",
+      "title": "Albania's Capital Rocked by Chaotic Weekend of Street Unrest",
+      "url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "TimesLIVE (Reuters)",
+      "title": "Albanian anti-government protesters clash with police in Tirana",
+      "url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/",
+      "published": "2026-10-17"
+     },
+     {
+      "outlet": "Balkan Insight",
+      "title": "Albanian PM Rama Steps Up Rhetoric Against Student Protesters",
+      "url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "eu-summit",
+    "headline": "EU leaders end summit without a budget deal",
+    "what_happened": "EU leaders ended a two-day summit in Brussels on 16 October without agreeing the EU's long-term budget for 2028 to 2034. European Council President António Costa will steer the talks, aiming to finish by the end of the year. Leaders also discussed energy prices driven by Middle East fighting.",
+    "why_it_matters": "The EU budget decides how much money is shared out for things like farms, regions and defence.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "EU leaders ended the 15 to 16 October summit without agreement on the 2028-2034 budget; Costa aims to conclude talks by year-end.",
+      "source_url": "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/"
+     },
+     {
+      "fact": "Von der Leyen said the EU planned to extend its temporary state aid framework and launch a strategic dialogue on refining capacity.",
+      "source_url": "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brussels, Belgium.",
+    "sources": [
+     {
+      "outlet": "EUalive",
+      "title": "EU leaders end inconclusive summit with no budget deal",
+      "url": "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/",
+      "published": "2026-10-16"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ucl-md3",
+    "headline": "Champions League: Como beat Manchester United 4-1",
+    "what_happened": "In the Champions League league phase on Wednesday 21 October, Como beat Manchester United 4-1 and Aston Villa beat Viking 3-0.",
+    "why_it_matters": "Football fans across Europe follow the Champions League.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Como beat Manchester United 4-1 on 21 October; United have one win and two defeats from their first three league-phase games.",
+      "source_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+     },
+     {
+      "fact": "Aston Villa beat Viking 3-0, with goals from Barkley and Buendia and an own goal.",
+      "source_url": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions"
+     }
+    ],
+    "numbers": [],
+    "geography": "Como (Italy); Birmingham (England).",
+    "sources": [
+     {
+      "outlet": "UEFA",
+      "title": "2026/27 Champions League: All the league phase fixtures and results",
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "ESPN",
+      "title": "UEFA Champions League Scores",
+      "url": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
+      "published": "2026-10-21"
+     }
+    ]
+   }
+  ]
+ }
+}

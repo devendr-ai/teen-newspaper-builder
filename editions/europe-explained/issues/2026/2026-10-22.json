@@ -1,0 +1,427 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-22",
+  "volume": 1,
+  "issue": 7,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Holds Near $109 as Hormuz Tanker Claims Clash",
+      "deck": "Houthi and Iranian claims keep supply fears alive, and the US denies the mine reports.",
+      "body": [
+        "Oil is bought and sold around the world, so a threat in one place can change prices everywhere. On Tuesday 20 October, Brent crude, the main international oil price, closed at $108.82 a barrel, according to CNBC. The latest rise followed claims by the Houthis, a movement in Yemen, that they had attacked several Saudi Arabian facilities on Monday. Saudi authorities did not immediately confirm this, and Reuters could not verify it.",
+        "A second worry is the Strait of Hormuz, the narrow sea lane between Iran and Oman. Iran's Revolutionary Guards said their naval mines had stopped three tankers on routes Tehran considers unauthorised, and that two caught fire. US Central Command rejected that account and said the claims that tankers hit mines were false.",
+        "Meanwhile, diplomacy goes on in the background. Iran and the United States are talking indirectly through Pakistan and Qatar. Iran's foreign minister said the strait will stay closed unless Washington accepts Tehran's conditions. Until one side gives way, traders are pricing in the risk."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Tankers from the Gulf pass through this strait."
+      },
+      "why": "Energy costs reach every European household, and EU leaders discussed energy prices at their summit last week, so events in the Gulf matter in Europe.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil price today: WTI, Brent rise on Middle East worries",
+          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "US-Iran mediation persists with both sides prep for war",
+          "url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+        },
+        {
+          "outlet": "EUalive",
+          "title": "EU leaders end inconclusive summit with no budget deal",
+          "url": "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Putin Agrees in Principle to Resume Three-Way Talks",
+      "deck": "The Kremlin says talks could restart after 10 November, but warns they will take long.",
+      "body": [
+        "US envoy Steve Witkoff met Russian President Vladimir Putin in St Petersburg on 21 October. The Kremlin said the meeting lasted about three hours. The day before, Witkoff had met Ukraine's President Volodymyr Zelenskyy and some European leaders in Oslo.",
+        "Kremlin adviser Yuri Ushakov said Putin agreed in principle to resume trilateral talks, meaning talks among three parties, after 10 November. He said the next round could be held in Abu Dhabi. Kremlin spokesman Dmitry Peskov said Moscow would study the proposals, but that the talks would take a long time.",
+        "Moscow also put the onus on Kyiv. Kremlin officials said an end to the war is theoretically possible only if Ukraine's leaders make “necessary decisions”. As a gesture, Russia freed a US citizen, Stephen Hubbard."
+      ],
+      "illustration": {
+        "title": "Three-way talks may restart",
+        "subtitle": "Next round: Abu Dhabi",
+        "motif": "podium",
+        "caption": "Talks are due to resume after 10 November."
+      },
+      "connect": "Economics: EU leaders ended last week's summit without agreeing new money for Ukraine, so any talks happen while European budgets are still unsettled.",
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+          "url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Russia says Ukraine must make necessary decisions to end war as Witkoff meets Putin",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Witkoff lauds 'humanitarian' Putin as Russia releases detained American",
+          "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Putin ready to resume three-way Ukraine peace talks",
+          "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Zelenskyy says he's open to freezing front lines to end Ukraine war",
+          "url": "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia"
+        },
+        {
+          "outlet": "EUalive",
+          "title": "EU leaders end inconclusive summit with no budget deal",
+          "url": "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  WALES",
+      "headline": "Britain Marks 60 Years Since the Aberfan Disaster",
+      "deck": "The King, the Queen and the Prince of Wales joined survivors and families.",
+      "body": [
+        "On 21 October 1966 a coal tip, a heap of waste rock from a mine, collapsed onto the Welsh village of Aberfan. NBC reports that 144 people died, 116 children and 28 adults.",
+        "On the 60th anniversary, the King and Prince William laid wreaths at the Aberfan Memorial Garden, and the Queen placed a posy. They then met survivors, bereaved parents, former pupils, siblings of those who died, and retired emergency service personnel who took part in the rescue.",
+        "Prince William also unveiled the Aberfan Memorial Tree, a sculpture at Ynysowen Community Primary School. It gives pupils, families and visitors a permanent place to remember the 144 victims. Mair Morgan, the last surviving teacher from Pantglas Junior School, accompanied the King and Queen."
+      ],
+      "why": "Aberfan is remembered as one of Britain's worst disasters involving children, and each anniversary keeps the survivors' stories alive.",
+      "also": [
+        "Prices: UK inflation rose to 3.5% in September, from 3.1% in August, the Office for National Statistics said.",
+        "Interest rates: Bloomberg reports the Bank of England is on track for its first rate rise in more than three years."
+      ],
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "King Charles and family mark 60th anniversary of Aberfan disaster",
+          "url": "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764"
+        },
+        {
+          "outlet": "royal.uk",
+          "title": "The King, The Queen and The Prince of Wales mark the 60th anniversary of the Aberfan Disaster",
+          "url": "https://www.royal.uk/aberfan-60"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "King Charles leads tributes to survivors of Aberfan school disaster on 60th anniversary",
+          "url": "https://www.yahoo.com/news/world/articles/king-charles-leads-tributes-survivors-154626946.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "UK inflation jumps to 3.5%, cementing rate hike expectations",
+          "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+        },
+        {
+          "outlet": "RTE",
+          "title": "UK inflation and borrowing climb before Healey's budget",
+          "url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+        }
+      ]
+    },
+    "europe": {
+      "kicker": "EUROPE  •  ALBANIA",
+      "headline": "Albania's Student Protests Enter a Second Week",
+      "deck": "Prime Minister Edi Rama refuses to resign.",
+      "body": [
+        "Protests in Tirana, Albania's capital, began on 13 October as a student boycott over problems in higher education. They have widened into a movement against corruption and the cost of living, and demonstrators now demand that Prime Minister Edi Rama resign.",
+        "Over the weekend of 17 and 18 October some protesters threw Molotov cocktails and stones, and police used tear gas, water cannons and rubber bullets. Reuters reported on 17 October that police figures showed 500 protesters detained, 330 of whom had since been released.",
+        "Rama has refused to resign. He blamed a “foreign hand” for the unrest and has not presented concrete evidence. On 20 October he said some students were bound to politically extremist ideas, while also saying students who exercise their right to protest are not the problem."
+      ],
+      "chart": {
+        "title": "PEOPLE DETAINED IN TIRANA",
+        "subtitle": "Police figures reported on 17 October",
+        "labels": [
+          "Detained",
+          "Released"
+        ],
+        "values": [
+          500,
+          330
+        ],
+        "max": 600,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Source: Reuters, via TimesLIVE."
+      },
+      "why": "Albania is a European country on the Adriatic coast, and its protests show how young people press governments over education, costs and corruption.",
+      "analyst": "Why might a government say outside forces are behind protests? What evidence would you need to judge that claim? How could the government and students find common ground on the cost of education?",
+      "sources": [
+        {
+          "outlet": "TimesLIVE (Reuters)",
+          "title": "Albanian anti-government protesters clash with police in Tirana",
+          "url": "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/"
+        },
+        {
+          "outlet": "Balkan Insight",
+          "title": "Albania's Capital Rocked by Chaotic Weekend of Street Unrest",
+          "url": "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/"
+        },
+        {
+          "outlet": "Balkan Insight",
+          "title": "Albanian PM Rama Steps Up Rhetoric Against Student Protesters",
+          "url": "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Space: Europe's Euclid telescope found its first comet, named C/2026 S1 (Euclid), the European Space Agency said.",
+        "Delhi: Air quality turned “poor” on Wednesday, and first-stage pollution curbs began across Delhi and nearby towns."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Trilateral",
+          "def": "Involving three parties. Today: Putin agreed in principle to resume trilateral talks with the US and Ukraine."
+        },
+        {
+          "word": "Inflation",
+          "def": "The rate at which prices rise over a year. Today: UK prices rose 3.5% in the year to September."
+        },
+        {
+          "word": "Detain",
+          "def": "To hold someone in custody, usually for questioning. Today: police figures said 500 protesters were detained in Tirana."
+        },
+        {
+          "word": "Memorial",
+          "def": "Something built to remember people or events. Today: Prince William unveiled the Aberfan Memorial Tree."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Euclid is a European Space Agency telescope built to map distant galaxies and study dark matter and dark energy, yet its first new discovery was a comet."
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "Champions League, Wednesday: Como beat Manchester United <b>4-1</b> and Aston Villa beat Viking <b>3-0</b>.",
+      "sources": [
+        {
+          "outlet": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "outlet": "ESPN",
+          "title": "UEFA Champions League Scores",
+          "url": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether talks between Russia, Ukraine and the US restart after 10 November.",
+        "Whether Albania's protests continue and whether Rama changes course."
+      ]
+    },
+    "quote": {
+      "text": "To remember is also to learn.",
+      "by": "Europe Explained"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+    "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war",
+    "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/",
+    "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl",
+    "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/",
+    "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106",
+    "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+    "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia",
+    "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764",
+    "https://www.royal.uk/aberfan-60",
+    "https://www.yahoo.com/news/world/articles/king-charles-leads-tributes-survivors-154626946.html",
+    "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+    "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/",
+    "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+    "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/",
+    "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/",
+    "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/",
+    "https://www.eurekalert.org/news-releases/1148114",
+    "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet",
+    "https://starlust.org/c-2026-s1-esas-euclid-telescope-unexpectedly-discovers-its-first-comet-807-million-miles-away/",
+    "https://yubanet.com/scitech/euclid-discovers-new-comet/",
+    "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/",
+    "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily",
+    "https://www.outlookindia.com/national/grap-stage-i-invoked-in-delhi-ncr-as-air-quality-turns-poor",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+    "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude close at on Tuesday 20 October?",
+        "options": [
+          "$108.82",
+          "$18.82",
+          "$208.82"
+        ],
+        "answer": 0,
+        "why": "Brent closed at $108.82 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "After which date could three-way talks resume, per the Kremlin?",
+        "options": [
+          "21 October",
+          "10 November",
+          "3 December"
+        ],
+        "answer": 1,
+        "why": "Putin agreed in principle to resume talks after 10 November.",
+        "story": "world"
+      },
+      {
+        "q": "How many people died in the Aberfan disaster?",
+        "options": [
+          "28",
+          "116",
+          "144"
+        ],
+        "answer": 2,
+        "why": "NBC reports 144 died, 116 children and 28 adults.",
+        "story": "uk"
+      },
+      {
+        "q": "What did the Aberfan Memorial Tree sculpture go on show at?",
+        "options": [
+          "Ynysowen Community Primary School",
+          "Buckingham Palace",
+          "Cardiff Castle"
+        ],
+        "answer": 0,
+        "why": "It was unveiled at Ynysowen Community Primary School.",
+        "story": "uk"
+      },
+      {
+        "q": "When did the Albanian protests begin?",
+        "options": [
+          "13 October",
+          "20 October",
+          "1 October"
+        ],
+        "answer": 0,
+        "why": "They began on 13 October as a student boycott.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "US Central Command confirmed that tankers hit Iranian mines.",
+        "true": false,
+        "why": "It rejected Iran's account.",
+        "story": "lead"
+      },
+      {
+        "claim": "UK inflation rose to 3.5% in September.",
+        "true": true,
+        "why": "The ONS reported 3.5%, up from 3.1%.",
+        "story": "uk"
+      },
+      {
+        "claim": "Albania's prime minister Edi Rama agreed to resign.",
+        "true": false,
+        "why": "Rama has refused to resign.",
+        "story": "europe"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine",
+          "United States"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "Aberfan",
+        "lat": 51.69,
+        "lon": -3.35,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Tirana",
+        "lat": 41.33,
+        "lon": 19.82,
+        "countries": [
+          "Albania"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Costs About $109 a Barrel",
+        "body": [
+          "Oil is sold by the barrel. On Tuesday, Brent crude, a main oil price, ended at $108.82 a barrel.",
+          "The Houthis are a group in Yemen. They said they attacked Saudi Arabia on Monday. Saudi officials did not immediately confirm this.",
+          "Iran said its mines stopped three tankers near the Strait of Hormuz. That is a narrow sea lane. The United States said this was false.",
+          "Iran and the United States are still talking through Pakistan and Qatar."
+        ]
+      },
+      "world": {
+        "headline": "Russia May Restart Peace Talks",
+        "body": [
+          "A US envoy named Steve Witkoff met Russia's leader, Vladimir Putin, on 21 October. They talked for about three hours.",
+          "A day earlier, Witkoff met Ukraine's President Volodymyr Zelenskyy in Oslo.",
+          "The Kremlin says Putin agreed in principle to start talks again after 10 November. Three sides would take part: Russia, Ukraine and the United States.",
+          "Russia also said the talks would take a long time."
+        ]
+      },
+      "uk": {
+        "headline": "Remembering Aberfan, 60 Years On",
+        "body": [
+          "On 21 October 1966, a coal tip slid onto the Welsh village of Aberfan. A coal tip is a heap of waste rock from a mine.",
+          "In all, 144 people died. 116 were children and 28 were adults.",
+          "This week the King, the Queen and Prince William visited Aberfan. They met families and survivors.",
+          "Prince William also unveiled the Aberfan Memorial Tree. It is a sculpture at a primary school, a place to remember the 144 people."
+        ]
+      },
+      "europe": {
+        "headline": "Students Protest in Albania",
+        "body": [
+          "Albania is a country in Europe. Its capital is Tirana.",
+          "On 13 October, students there began a protest about problems in higher education. It grew into a bigger protest against the government.",
+          "Police said that 500 people were detained, and 330 were later released.",
+          "The prime minister, Edi Rama, says he will not resign. He says that students who protest are not the problem."
+        ]
+      }
+    }
+  }
+}

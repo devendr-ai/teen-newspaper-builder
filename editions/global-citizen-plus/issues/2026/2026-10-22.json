@@ -1,0 +1,563 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-22",
+  "volume": 1,
+  "issue": 7,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Holds Near $109 as Hormuz Tanker Claims Clash",
+      "deck": "Houthi and Iranian claims keep supply fears alive; the US denies the mine reports.",
+      "body": [
+        "Brent crude, the international benchmark price for oil, closed at $108.82 a barrel on Tuesday 20 October, according to CNBC. US West Texas Intermediate, the American benchmark, settled at $97.15. The latest rise followed claims by the Houthis, an Iran-aligned movement in Yemen, that they had attacked several Saudi Arabian facilities on Monday. Saudi authorities did not immediately confirm the claims, and Reuters could not verify them.",
+        "The second pressure point is the Strait of Hormuz, the narrow sea lane between Iran and Oman. Iran's Revolutionary Guards said their naval mines had stopped three tankers on routes Tehran considers unauthorised, and that two caught fire. US Central Command rejected that account, saying the claims that tankers hit mines were false.",
+        "Diplomacy continues alongside. Iran and the United States remain in indirect talks through Pakistan and Qatar. Iran's foreign minister said the strait will stay closed unless Washington accepts Tehran's conditions. Each side is therefore claiming the other must move first, which leaves traders pricing in risk rather than facts."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Tankers from the Gulf pass through this strait."
+      },
+      "why": "Oil is priced globally, so threats to supply in the Gulf can lift fuel costs, inflation and interest-rate decisions in countries far from the fighting, including India.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil price today: WTI, Brent rise on Middle East worries",
+          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "US-Iran mediation persists with both sides prep for war",
+          "url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Putin Agrees in Principle to Resume Three-Way Talks",
+      "deck": "The Kremlin says talks could restart after 10 November, but warns they will take long.",
+      "body": [
+        "US envoy Steve Witkoff met Russian President Vladimir Putin in St Petersburg on 21 October. The Kremlin said the meeting lasted about three hours. It came a day after Witkoff met Ukraine's President Volodymyr Zelenskyy and some European leaders in Oslo.",
+        "Kremlin adviser Yuri Ushakov said Putin agreed in principle to resume trilateral talks, meaning talks between three parties, after 10 November. He said the next round could take place in Abu Dhabi. Kremlin spokesman Dmitry Peskov said Moscow would study the proposals, but that the talks would take a long time.",
+        "Moscow also set a condition. Kremlin officials said a negotiated end to the war is theoretically possible only if Ukraine's leaders make “necessary decisions”. Russia also freed a US citizen, Stephen Hubbard, during the visit. The central question remains whether either side will shift its position.",
+        "Ukraine's position matters too. Zelenskyy has said he prefers trilateral talks with Trump and Putin and would reject a deal drafted by China, Russia and the US alone. He said any settlement would need the approval of Ukraine's parliament, and he told Fox News he is open to freezing the front lines as a route to a ceasefire. Fighting continued meanwhile: a Russian attack on a high-rise in Kyiv's Sviatoshinsky district killed two people, and a Ukrainian drone attack in Russia's Bryansk region killed at least one."
+      ],
+      "illustration": {
+        "title": "Three-way talks may restart",
+        "subtitle": "Next round: Abu Dhabi",
+        "motif": "podium",
+        "caption": "Talks are due to resume after 10 November."
+      },
+      "connect": "Geography and economics: the war has pushed up energy prices around the world, which is why diplomacy in St Petersburg and Oslo can affect fuel bills in India.",
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Russia willing to resume trilateral peace talks in November, Kremlin says after Witkoff meeting",
+          "url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Russia says Ukraine must make necessary decisions to end war as Witkoff meets Putin",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Witkoff lauds 'humanitarian' Putin as Russia releases detained American",
+          "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Putin ready to resume three-way Ukraine peace talks",
+          "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Zelenskyy says he's open to freezing front lines to end Ukraine war",
+          "url": "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ENVIRONMENT",
+      "headline": "Delhi's Air Turns “Poor”; GRAP Stage I Begins",
+      "deck": "The first pollution-control stage of the season starts across Delhi-NCR.",
+      "body": [
+        "Delhi's Air Quality Index, or AQI, a scale on which higher numbers mean dirtier air, rose from 179 on 20 October to 244 at 2 pm on 21 October. That is in the “poor” band. In response, the Commission for Air Quality Management put Stage I of the Graded Response Action Plan, or GRAP, in force across Delhi-NCR, the National Capital Region. It is the first time this season.",
+        "Stage I measures focus on dust from construction and roads, vehicle checks, waste burning and industrial emissions. The Delhi Metro will add 20 weekday trips from Thursday, according to National Herald.",
+        "Later on 21 October the Central Pollution Control Board recorded an AQI of 247 at 7 pm. CAQM said it invoked Stage I because the reading entered the poor category and forecasts indicated that pollution could remain elevated. On the Board's scale, readings from 201 to 300 count as poor.",
+        "Because GRAP is a graded plan, Stage I is the first and lightest step, and later stages are meant for worse air. Forecasts from the India Meteorological Department and the Indian Institute of Tropical Meteorology indicate the air is likely to stay in the poor category over the coming days.",
+        "Another Delhi story is running alongside. The Supreme Court advanced to 28 October its hearing on a plea asking the Election Commission to publish the list of electors who received notices in Delhi's Special Intensive Revision of the voter list, with the reasons. CJI Surya Kant said the bench was thinking of passing an order. The window for claims and objections was extended by a month, to 30 October."
+      ],
+      "illustration": {
+        "title": "Delhi's AQI rises to 244",
+        "subtitle": "First GRAP stage begins",
+        "motif": "skyline",
+        "caption": "Air quality was “poor” on Wednesday."
+      },
+      "why": "GRAP is a graded plan, so the AQI number decides which restrictions citizens and industry face.",
+      "sources": [
+        {
+          "outlet": "ANI",
+          "title": "GRAP Stage 1 imposed in Delhi-NCR as air quality dips to 'poor' category",
+          "url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/"
+        },
+        {
+          "outlet": "National Herald",
+          "title": "Delhi imposes GRAP-1 curbs as AQI turns 'poor'",
+          "url": "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily"
+        },
+        {
+          "outlet": "Outlook India",
+          "title": "GRAP Stage I Invoked In Delhi-NCR As Air Quality Turns 'Poor'",
+          "url": "https://www.outlookindia.com/national/grap-stage-i-invoked-in-delhi-ncr-as-air-quality-turns-poor"
+        },
+        {
+          "outlet": "Deccan Herald",
+          "title": "Delhi SIR: Supreme Court advances roll revision hearing to October 28",
+          "url": "https://www.deccanherald.com/india/delhi/delhi-sir-supreme-court-advances-hearing-to-october-28-4182085"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  UNITED KINGDOM",
+      "headline": "UK Inflation Rises to 3.5% as Fuel Prices Jump",
+      "deck": "Markets now expect the Bank of England to raise interest rates.",
+      "body": [
+        "UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August, the Office for National Statistics reported on 21 October. Economists polled by Reuters had expected 3.4%. Inflation is the rate at which prices rise over a year.",
+        "Fuel drove the rise. Motor fuel prices were up 29.8% over the year, the highest rate of motor fuel inflation since August 2022. Reuters said the surge in energy prices caused by the Iran war gathered steam, and the Bank of England's July forecast had predicted a smaller rise, to 3.0%. Services price inflation also rose, to 3.7% from 3.4% in August.",
+        "Bloomberg reports the Bank of England is on track for its first interest-rate rise in more than three years. The figures arrived before John Healey's first Budget as chancellor, due next week. Core inflation, which leaves out food, energy, alcohol and tobacco, rose to 2.8%. Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and wage growth figures released on 20 October added to the case for a rise. A rate rise would raise borrowing costs for households and firms while aiming to slow price rises."
+      ],
+      "why": "Prices and interest rates reach every household: fuel costs feed into inflation, and central banks respond by changing the cost of borrowing.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "UK inflation jumps to 3.5%, cementing rate hike expectations",
+          "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+        },
+        {
+          "outlet": "RTE",
+          "title": "UK inflation and borrowing climb before Healey's budget",
+          "url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+        }
+      ],
+      "illustration": {
+        "title": "UK prices rise 3.5% in a year",
+        "subtitle": "Fuel costs push inflation",
+        "motif": "skyline",
+        "caption": "Inflation was 3.1% in August."
+      }
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Europe's Euclid Telescope Finds Its First Comet",
+      "deck": "A PhD student's software spotted the new comet, C/2026 S1 (Euclid).",
+      "body": [
+        "The European Space Agency said its Euclid space telescope spotted a previously unknown comet, named C/2026 S1 (Euclid), in images taken between 16 and 24 September. The comet turned up during the Euclid Deep Field North survey.",
+        "The finder was Mikko Pöntinen, a PhD student, who used custom software that detects moving objects. He reported the object to the Minor Planet Center, which confirmed it as a comet on 8 October.",
+        "One Euclid frame, a 560-second exposure from 20 September, shows the comet as a streak with a fuzzy coma, the cloud of gas and dust around a comet's nucleus. Pöntinen predicted the comet's position to find it in five sets of images and found no match against known comets or asteroids. Starlust reports the comet was about 1.3 billion km from Earth.",
+        "The find was made by a PhD student using custom software, not by Euclid's main survey pipeline. The Minor Planet Center is the body that officially records new comets and asteroids, so its confirmation is what makes a discovery count. The comet's name, C/2026 S1 (Euclid), follows the usual convention of naming a comet after the survey or person that found it, with the year and a letter code. The discovery was unexpected. Euclid was built to map distant galaxies and to study dark matter and dark energy, not to track fast-moving objects. Earlier comets it observed were already known, so this is its first new find."
+      ],
+      "illustration": {
+        "title": "Euclid discovers a new comet",
+        "subtitle": "C/2026 S1 (Euclid)",
+        "motif": "rocket",
+        "caption": "Found in images from 16-24 September."
+      },
+      "why": "It shows that survey data collected for one purpose can yield discoveries in another field, if researchers write the tools to look. It also shows how a discovery is confirmed: a candidate is reported to the Minor Planet Center, checked against known objects, and confirmed with follow-up observations, here including ground-based ones.",
+      "sources": [
+        {
+          "outlet": "EurekAlert / ESA",
+          "title": "Euclid discovers new comet",
+          "url": "https://www.eurekalert.org/news-releases/1148114"
+        },
+        {
+          "outlet": "Universe Today",
+          "title": "The ESA's Euclid Space Telescope Has Discovered A New Comet",
+          "url": "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet"
+        },
+        {
+          "outlet": "Starlust",
+          "title": "C/2026 S1: ESA's Euclid telescope unexpectedly discovers its first comet",
+          "url": "https://starlust.org/c-2026-s1-esas-euclid-telescope-unexpectedly-discovers-its-first-comet-807-million-miles-away/"
+        },
+        {
+          "outlet": "YubaNet",
+          "title": "Euclid discovers new comet",
+          "url": "https://yubanet.com/scitech/euclid-discovers-new-comet/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Albania: Protests that began on 13 October as a student boycott over higher education have grown into a movement demanding that Prime Minister Edi Rama resign.",
+        "United Kingdom: The King, the Queen and the Prince of Wales marked 60 years since the 1966 Aberfan disaster, in which 144 people died.",
+        "European Union: Leaders ended a summit on 16 October without agreeing the EU budget for 2028 to 2034.",
+        "Football: Como beat Manchester United 4-1 in the Champions League on Wednesday."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Trilateral",
+          "def": "Involving three parties. Today: Putin agreed in principle to resume trilateral talks with the US and Ukraine."
+        },
+        {
+          "word": "Inflation",
+          "def": "The rate at which prices rise over a year. Today: UK prices rose 3.5% in the year to September."
+        },
+        {
+          "word": "Air Quality Index",
+          "def": "A scale on which higher numbers mean dirtier air. Today: Delhi's reached 244, in the poor band."
+        },
+        {
+          "word": "Comet",
+          "def": "An icy body that grows a fuzzy cloud when it nears the Sun. Today: Euclid found a new comet, C/2026 S1."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Euclid was built to map distant galaxies and study dark matter and dark energy, yet its first discovery of a new comet came from software written to find moving objects."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Early Voting Sets First-Day Records in Texas",
+      "deck": "Voters are choosing members of Congress before 3 November.",
+      "body": [
+        "Americans vote in the midterm elections on 3 November. Midterms are held halfway through a president's term, and they decide who sits in Congress. Many states let people vote early, in person.",
+        "Texas began early voting on Monday 19 October. In Harris County, which includes Houston, more than 100,000 people voted in person on the first day. The previous first-day midterm record there was 63,188, set in 2018.",
+        "Other places were busy too. Dallas County had 76,069 voters on its first day, a county record. In South Carolina, 97,968 votes were cast on day one, more than double the last midterm. Texas had 911,468 early voters after two days, about 4.8% of registered voters."
+      ],
+      "chart": {
+        "title": "HARRIS COUNTY FIRST-DAY VOTERS",
+        "subtitle": "In person, in thousands",
+        "labels": [
+          "2018",
+          "2026"
+        ],
+        "values": [
+          63,
+          100
+        ],
+        "max": 120,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "The 2026 figure is more than 100,000. Source: Houston Public Media."
+      },
+      "why": "Turnout shows how many people want a say in who runs Congress, which writes the nation's laws and controls spending.",
+      "analyst": "Why might early voting numbers be high without meaning the final turnout will be high? Who might early voting help most, and who might it help least? What would you need to know to judge whether turnout is really higher than in 2022?",
+      "sources": [
+        {
+          "outlet": "Houston Public Media",
+          "title": "Harris County crushes midterm first-day early voter turnout record",
+          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+        },
+        {
+          "outlet": "Fox 4",
+          "title": "Dallas County sees record turnout for first day of 2026 early voting",
+          "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total"
+        },
+        {
+          "outlet": "Count on 2",
+          "title": "Day 1 of early voting more than doubles previous midterm's first day turnout in S.C.",
+          "url": "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/"
+        },
+        {
+          "outlet": "ABC13 Houston",
+          "title": "Harris County sees another record on day 2 of early voting",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans",
+          "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
+        },
+        {
+          "outlet": "Cook Political Report",
+          "title": "Candidate Quality Shifts the Senate Map",
+          "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+        },
+        {
+          "outlet": "ABC7",
+          "title": "Early voting begins in US midterm elections that could flip control of Congress",
+          "url": "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Cook Political Report tilts 18 House races toward Democrats",
+          "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats"
+        },
+        {
+          "outlet": "The Washington Post",
+          "title": "Cook moves 11 House races toward Democrats",
+          "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+          "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/"
+        }
+      ]
+    },
+    "explainer": {
+      "title": "How the US midterm elections work",
+      "body": [
+        "Midterm elections are held halfway through a US president's four-year term. Voters choose members of Congress, made up of the House of Representatives and the Senate.",
+        "Congress passes laws and decides how public money is spent. If the president's party loses control of one or both chambers, the president usually finds it harder to pass laws."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why might fears about tankers near Hormuz raise fuel prices in countries far away?",
+        "Why might talks among three parties take longer than talks between two?",
+        "How might a government decide when air is bad enough to introduce pollution curbs?"
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "Good questions are the beginning of understanding.",
+      "by": "The Global Citizen Plus"
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What did Brent crude close at on Tuesday 20 October?",
+        "(a) $18.82  (b) $108.82  (c) $208.82",
+        "<b>2.</b> After which date did the Kremlin say three-way talks could resume?",
+        "(a) 10 November  (b) 21 October  (c) 3 December",
+        "<b>3.</b> What was Delhi's AQI at 2 pm on 21 October?",
+        "(a) 179  (b) 244  (c) 300",
+        "<b>4.</b> What was the old first-day midterm record in Harris County?",
+        "(a) 6,318  (b) 63,188  (c) 631,880",
+        "<b>5.</b> Who found the new comet in Euclid's images?",
+        "(a) Mikko Pöntinen  (b) Edi Rama  (c) Steve Witkoff",
+        "<b>Answers.</b> 1 (b): $108.82. 2 (a): 10 November. 3 (b): 244. 4 (b): 63,188. 5 (a): Mikko Pöntinen."
+      ],
+      "sources": []
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+    "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war",
+    "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl",
+    "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/",
+    "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106",
+    "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+    "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia",
+    "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/",
+    "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily",
+    "https://www.outlookindia.com/national/grap-stage-i-invoked-in-delhi-ncr-as-air-quality-turns-poor",
+    "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
+    "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
+    "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/",
+    "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+    "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+    "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+    "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+    "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+    "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/",
+    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/",
+    "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+    "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/",
+    "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+    "https://www.eurekalert.org/news-releases/1148114",
+    "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet",
+    "https://starlust.org/c-2026-s1-esas-euclid-telescope-unexpectedly-discovers-its-first-comet-807-million-miles-away/",
+    "https://yubanet.com/scitech/euclid-discovers-new-comet/",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+    "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions",
+    "https://www.timeslive.co.za/news/world/2026-10-17-albanian-anti-government-protesters-clash-with-police-in-tirana/",
+    "https://balkaninsight.com/2026/10/19/albanias-capital-rocked-by-chaotic-weekend-of-street-unrest/bi/",
+    "https://balkaninsight.com/2026/10/20/albanian-pm-rama-steps-up-rhetoric-against-student-protesters/bi/",
+    "https://www.nbcnews.com/world/united-kingdom/king-charles-family-mark-60th-anniversary-aberfan-disaster-rcna604764",
+    "https://www.royal.uk/aberfan-60",
+    "https://www.yahoo.com/news/world/articles/king-charles-leads-tributes-survivors-154626946.html",
+    "https://eualive.net/eu-leaders-end-inconclusive-summit-with-no-budget-deal-and-deferred-decisions-on-ukraine-funding/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude close at on Tuesday 20 October?",
+        "options": [
+          "$108.82",
+          "$18.82",
+          "$208.82"
+        ],
+        "answer": 0,
+        "why": "Brent closed at $108.82 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "Who said Putin agreed in principle to resume three-way talks?",
+        "options": [
+          "Peskov",
+          "Yuri Ushakov",
+          "Witkoff"
+        ],
+        "answer": 1,
+        "why": "Kremlin adviser Yuri Ushakov said so.",
+        "story": "world"
+      },
+      {
+        "q": "What was Delhi's AQI at 2 pm on 21 October?",
+        "options": [
+          "179",
+          "300",
+          "244"
+        ],
+        "answer": 2,
+        "why": "The AQI rose to 244, which is poor.",
+        "story": "india"
+      },
+      {
+        "q": "What was the old first-day midterm record in Harris County?",
+        "options": [
+          "6,318",
+          "63,188",
+          "631,880"
+        ],
+        "answer": 1,
+        "why": "The record of 63,188 was set in 2018.",
+        "story": "us"
+      },
+      {
+        "q": "Who found the new comet in Euclid's images?",
+        "options": [
+          "Mikko Pöntinen",
+          "Edi Rama",
+          "Steve Witkoff"
+        ],
+        "answer": 0,
+        "why": "PhD student Mikko Pöntinen found it with custom software.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "US Central Command confirmed that tankers hit Iranian mines.",
+        "true": false,
+        "why": "It rejected Iran's account, calling the claims false.",
+        "story": "lead"
+      },
+      {
+        "claim": "Stage I of GRAP was invoked in Delhi-NCR for the first time this season.",
+        "true": true,
+        "why": "The AQI of 244 triggered it.",
+        "story": "india"
+      },
+      {
+        "claim": "Dallas County had 76,069 voters on its first early-voting day.",
+        "true": true,
+        "why": "That was a county record.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine",
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Houston",
+        "lat": 29.76,
+        "lon": -95.37,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Costs About $109 a Barrel",
+        "body": [
+          "Oil is sold by the barrel. On Tuesday, Brent crude, a main oil price, ended at $108.82 a barrel.",
+          "The Houthis are a group in Yemen. They said they attacked Saudi Arabia on Monday. Saudi officials did not immediately confirm this.",
+          "Iran said its mines stopped three tankers near the Strait of Hormuz. That is a narrow sea lane. The United States said this was false.",
+          "Iran and the United States are still talking through Pakistan and Qatar."
+        ]
+      },
+      "world": {
+        "headline": "Russia May Restart Peace Talks",
+        "body": [
+          "A US envoy named Steve Witkoff met Russia's leader, Vladimir Putin, on 21 October. They talked for about three hours.",
+          "A day earlier, Witkoff met Ukraine's President Volodymyr Zelenskyy in Oslo.",
+          "The Kremlin says Putin agreed in principle to start talks again after 10 November. Three sides would take part: Russia, Ukraine and the United States.",
+          "Russia also said the talks would take a long time."
+        ]
+      },
+      "india": {
+        "headline": "Delhi's Air Gets Dirtier",
+        "body": [
+          "Delhi is India's capital. Its air is measured with the AQI. A higher number means dirtier air.",
+          "On 20 October the AQI was 179. On 21 October at 2 pm it was 244. That is called poor air.",
+          "Officials started a pollution plan called GRAP. It is the first time this season.",
+          "The Delhi Metro will add 20 trips on weekdays from Thursday."
+        ]
+      },
+      "economics": {
+        "headline": "Prices Rise Faster in Britain",
+        "body": [
+          "Inflation means prices go up over time. In the UK, prices were 3.5% higher in September than a year before.",
+          "In August the number was 3.1%. So prices are rising faster now.",
+          "A big reason is fuel. Petrol and diesel prices were up 29.8% over the year.",
+          "The Bank of England may raise interest rates. That is the price of borrowing money."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Telescope Finds a New Comet",
+        "body": [
+          "Euclid is a space telescope from Europe. It was built to map faraway galaxies.",
+          "This time it found a comet that nobody knew about. Its name is C/2026 S1.",
+          "A student named Mikko Pöntinen found it. He used software that spots moving objects.",
+          "The Minor Planet Center confirmed it on 8 October. The telescope was not built to look for comets, so the find was a surprise."
+        ]
+      },
+      "us": {
+        "headline": "Record Crowds Vote Early in Texas",
+        "body": [
+          "Americans vote in the midterm elections on 3 November. Many states let people vote early.",
+          "In Harris County, Texas, more than 100,000 people voted in person on the first day. The old first-day record for a midterm was 63,188.",
+          "In South Carolina, 97,968 votes were cast on day one. That was more than double the last midterm.",
+          "Early voting lets people choose before Election Day."
+        ]
+      }
+    }
+  }
+}
