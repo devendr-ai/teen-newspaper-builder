@@ -1,0 +1,324 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-22",
+  "volume": 1,
+  "issue": 11,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Stays Near $109 as Gulf Fears Last",
+      "deck": "Reports of tanker trouble near the Strait of Hormuz keep prices high.",
+      "body": [
+        "Oil is a fuel that ships carry around the world, and its price is quoted per barrel. On Tuesday, Brent crude, a main world price, ended at $108.82 a barrel. Fears about supply keep the price high.",
+        "Two sets of events are behind those fears. The Houthis, a group in Yemen, said on Monday that they attacked several Saudi Arabian sites. Saudi officials did not immediately confirm this, and Reuters, a news agency, said it could not verify it.",
+        "The second is about ships. Iran's Revolutionary Guards said their sea mines stopped three tankers near the Strait of Hormuz, and that two caught fire. US Central Command said those claims were false. Meanwhile Iran and the United States are still talking indirectly, through Pakistan and Qatar."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Oil tankers pass through this narrow strait."
+      },
+      "why": "Oil is sold all over the world. When supply is in danger, petrol prices can rise far from the Gulf.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil price today: WTI, Brent rise on Middle East worries",
+          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "US-Iran mediation persists with both sides prep for war",
+          "url": "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UNITED KINGDOM",
+      "headline": "UK Prices Rise 3.5% in a Year as Petrol Jumps",
+      "deck": "Costlier fuel pushed up the cost of living in Britain.",
+      "body": [
+        "Inflation is how fast prices rise over a year. The UK's Office for National Statistics said prices were 3.5% higher in September than a year before. In August the figure was 3.1%.",
+        "Fuel was a big reason. Petrol and diesel prices were up 29.8% over the year. That is the fastest rise in motor fuel prices since August 2022.",
+        "Now the Bank of England may act. It sets the interest rate, the price of borrowing money. Bloomberg reports the bank is on track for its first rate rise in more than three years."
+      ],
+      "chart": {
+        "title": "UK INFLATION RATE",
+        "subtitle": "Prices compared with a year earlier, per cent",
+        "labels": [
+          "Aug",
+          "Sep"
+        ],
+        "values": [
+          3.1,
+          3.5
+        ],
+        "max": 4,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Source: Office for National Statistics, via CNBC."
+      },
+      "connect": "Economics: oil is bought in the same markets for everyone. When Gulf fears lift the oil price, as in today's top story, petrol costs more in Britain too.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "UK inflation jumps to 3.5%, cementing rate hike expectations",
+          "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+        },
+        {
+          "outlet": "RTE",
+          "title": "UK inflation and borrowing climb before Healey's budget",
+          "url": "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Early Voting Sets First-Day Records in Texas",
+      "deck": "Voters are choosing members of Congress before 3 November.",
+      "body": [
+        "Americans vote in the midterm elections on 3 November. Midterms are held halfway through a president's term, and they decide who sits in Congress. Many states let people vote early, in person.",
+        "Texas began early voting on Monday 19 October. In Harris County, which includes Houston, more than 100,000 people voted in person on the first day. The old first-day midterm record there was 63,188, set in 2018.",
+        "Other places were busy too. Dallas County had 76,069 voters on its first day, a county record. In South Carolina, 97,968 votes were cast on day one, more than double the last midterm."
+      ],
+      "why": "Early voting changes when people choose, and big crowds show how many want a say in who runs Congress.",
+      "also": [
+        "Texas: 911,468 people had voted early by the end of day two, around 4.8% of registered voters, ABC13 reports.",
+        "Senate: the Cook Political Report moved South Carolina and Mississippi races toward Democrats on 20 October."
+      ],
+      "sources": [
+        {
+          "outlet": "Houston Public Media",
+          "title": "Harris County crushes midterm first-day early voter turnout record",
+          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+        },
+        {
+          "outlet": "Fox 4",
+          "title": "Dallas County sees record turnout for first day of 2026 early voting",
+          "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total"
+        },
+        {
+          "outlet": "Count on 2",
+          "title": "Day 1 of early voting more than doubles previous midterm's first day turnout in S.C.",
+          "url": "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/"
+        },
+        {
+          "outlet": "ABC13 Houston",
+          "title": "Harris County sees another record on day 2 of early voting",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Midterm election updates: Cook Political Report shifts two races toward Democrats and one toward Republicans",
+          "url": "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress"
+        },
+        {
+          "outlet": "Cook Political Report",
+          "title": "Candidate Quality Shifts the Senate Map",
+          "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Russia's leader Vladimir Putin agreed in principle to restart three-way peace talks after 10 November, the Kremlin said.",
+        "Space: Europe's Euclid telescope found its first comet, named C/2026 S1 (Euclid)."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might fears about tankers near Hormuz raise the price of petrol in countries far away?",
+        "Why might a bank raise interest rates when prices are rising quickly?",
+        "What might make so many people want to vote early this year?"
+      ],
+      "sources": []
+    },
+    "india": {
+      "kicker": "INDIA  •  AIR",
+      "headline": "Delhi's Air Turns “Poor” as Pollution Curbs Begin",
+      "deck": "The capital starts its first-stage pollution rules of the season.",
+      "body": [
+        "Delhi is India's capital. Its air is measured with the Air Quality Index, or AQI. A higher number means dirtier air. On Tuesday 20 October the AQI was 179.",
+        "By 2 pm on Wednesday it had climbed to 244, which counts as “poor”. The Commission for Air Quality Management then put Stage I of its pollution plan in force across Delhi and nearby towns. It is the first time this season.",
+        "Forecasts from the India Meteorological Department say the air is likely to stay poor for the next few days. The Delhi Metro will add 20 trips on weekdays from Thursday."
+      ],
+      "why": "Dirty air can make it harder to breathe, and a rising number is a warning for everyone, especially children.",
+      "sources": [
+        {
+          "outlet": "ANI",
+          "title": "GRAP Stage 1 imposed in Delhi-NCR as air quality dips to 'poor' category",
+          "url": "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/"
+        },
+        {
+          "outlet": "National Herald",
+          "title": "Delhi imposes GRAP-1 curbs as AQI turns 'poor'",
+          "url": "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL",
+      "body": "In the Champions League on Wednesday, Como beat Manchester United 4-1 and Aston Villa beat Viking 3-0.",
+      "sources": [
+        {
+          "outlet": "UEFA",
+          "title": "2026/27 Champions League: All the league phase fixtures and results",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+        },
+        {
+          "outlet": "ESPN",
+          "title": "UEFA Champions League Scores",
+          "url": "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Brent oil stays near $109 a barrel.",
+        "Whether Delhi's air gets cleaner or dirtier."
+      ]
+    },
+    "quote": {
+      "text": "Good questions are the beginning of understanding.",
+      "by": "The Breakfast Table"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
+    "https://www.newarab.com/news/us-iran-mediation-persists-both-sides-prep-war",
+    "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+    "https://www.rte.ie/news/business/2026/1021/1596220-uk-inflation-figures/",
+    "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+    "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+    "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+    "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/",
+    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/",
+    "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
+    "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
+    "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl",
+    "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/",
+    "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106",
+    "https://www.eurekalert.org/news-releases/1148114",
+    "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet",
+    "https://aninews.in/news/national/general-news/grap-stage-1-imposed-in-delhi-ncr-as-air-quality-dips-to-poor-category20261021164027/",
+    "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+    "https://www.espn.com/soccer/scoreboard/_/league/uefa.champions"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude end at on Tuesday?",
+        "options": [
+          "$10.88",
+          "$108.82",
+          "$1,088.20"
+        ],
+        "answer": 1,
+        "why": "Brent crude ended at $108.82 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "What was the UK's inflation rate in September?",
+        "options": [
+          "3.1%",
+          "3.5%",
+          "29.8%"
+        ],
+        "answer": 1,
+        "why": "Prices were 3.5% higher than a year before.",
+        "story": "world"
+      },
+      {
+        "q": "How many people voted on day one in Dallas County?",
+        "options": [
+          "76,069",
+          "7,606",
+          "760,690"
+        ],
+        "answer": 0,
+        "why": "76,069 voters turned out there on the first day.",
+        "story": "us"
+      },
+      {
+        "q": "What was Delhi's AQI on Wednesday at 2 pm?",
+        "options": [
+          "179",
+          "244",
+          "300"
+        ],
+        "answer": 1,
+        "why": "The AQI rose to 244, which counts as poor.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi officials immediately confirmed the Houthi claims.",
+        "true": false,
+        "why": "They did not immediately confirm them.",
+        "story": "lead"
+      },
+      {
+        "claim": "UK petrol and diesel prices rose 29.8% over the year to September.",
+        "true": true,
+        "why": "Motor fuel prices were up 29.8%.",
+        "story": "world"
+      },
+      {
+        "claim": "The old first-day midterm record in Harris County was 63,188.",
+        "true": true,
+        "why": "That record was set in 2018.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Houston",
+        "lat": 29.76,
+        "lon": -95.37,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  }
+}
