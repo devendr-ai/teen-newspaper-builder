@@ -1,0 +1,36 @@
+{
+ "date": "2026-10-22",
+ "by": "claude-code",
+ "editions": {
+  "breakfast-table": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "current-affairs-digest": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "europe-explained": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "global-citizen-plus": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "junior-daily": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "young-global-citizen": {
+   "status": "skipped",
+   "reason": "Paper passed its checks, but the site test (tests/test_site.py) expects the 2026-10-10 PDF, which the site's keep=5 drops once a sixth issue exists; removed per the publishing rules.",
+   "poster": null
+  }
+ }
+}

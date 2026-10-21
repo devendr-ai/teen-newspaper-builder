@@ -90,6 +90,22 @@
      {
       "fact": "Kremlin officials said a negotiated end is theoretically possible only if Ukraine's leaders make necessary decisions.",
       "source_url": "https://www.cbsnews.com/news/russia-ukraine-war-witkoff-putin-trump-zelenskyy/"
+     },
+     {
+      "fact": "Zelenskyy said he prefers trilateral talks with Trump and Putin and would reject a deal drafted by China, Russia and the US alone, and that any settlement would need Ukraine's parliament's approval.",
+      "source_url": "aj_ukr"
+     },
+     {
+      "fact": "Zelenskyy told Fox News he is open to freezing the front lines as a route to a ceasefire.",
+      "source_url": "fox_z"
+     },
+     {
+      "fact": "A Russian attack on a high-rise in Kyiv's Sviatoshinsky district killed two people, and a Ukrainian drone attack in Russia's Bryansk region killed at least one.",
+      "source_url": "cbs_wit"
+     },
+     {
+      "fact": "Russia announced it would soon begin diesel shipments to the United States under a deal with Trump.",
+      "source_url": "cnn_wit"
      }
     ],
     "numbers": [],
@@ -111,6 +127,18 @@
       "outlet": "ABC News",
       "title": "Witkoff lauds 'humanitarian' Putin as Russia releases detained American",
       "url": "https://abcnews.com/International/witkoff-arrives-st-petersburg-putin-talks-kremlin-aide/story?id=137438106",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Zelenskyy says he's open to freezing front lines to end Ukraine war",
+      "url": "https://www.foxnews.com/world/ukraines-zelenskyy-open-freezing-front-lines-ceasefire-russia",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Putin ready to resume three-way Ukraine peace talks",
+      "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
       "published": "2026-10-21"
      }
     ]
@@ -293,6 +321,30 @@
      {
       "fact": "Minnesota moved from Likely Democrat to Lean Democrat because polling showed the Democratic nominee behind the national environment.",
       "source_url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
      }
     ],
     "numbers": [],
@@ -315,6 +367,42 @@
       "title": "Candidate Quality Shifts the Senate Map",
       "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
       "published": "2026-10-20"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
      }
     ]
    }
@@ -344,6 +432,14 @@
      {
       "fact": "The Delhi Metro will add 20 weekday trips from Thursday.",
       "source_url": "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily"
+     },
+     {
+      "fact": "The Central Pollution Control Board recorded an AQI of 247 at 7 pm on 21 October.",
+      "source_url": "grap"
+     },
+     {
+      "fact": "CAQM said GRAP Stage I was invoked for the first time this season because the AQI entered the 'poor' category and forecasts indicated it could stay elevated.",
+      "source_url": "gap_out"
      }
     ],
     "numbers": [
@@ -372,6 +468,12 @@
       "outlet": "National Herald",
       "title": "Delhi imposes GRAP-1 curbs as AQI turns 'poor'",
       "url": "https://www.nationalheraldindia.com/national/delhi-imposes-grap-1-curbs-as-aqi-denoted-as-poor-metro-to-run-20-extra-trips-daily",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "GRAP Stage I Invoked In Delhi-NCR As Air Quality Turns 'Poor'",
+      "url": "https://www.outlookindia.com/national/grap-stage-i-invoked-in-delhi-ncr-as-air-quality-turns-poor",
       "published": "2026-10-21"
      }
     ]
@@ -438,6 +540,30 @@
      {
       "fact": "Minnesota moved from Likely Democrat to Lean Democrat because polling showed the Democratic nominee behind the national environment.",
       "source_url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
+     },
+     {
+      "fact": "Cook moved 18 House races toward Democrats on 9 October and 11 more on 16 October.",
+      "source_url": "wapo16"
+     },
+     {
+      "fact": "Axios reported that Cook's moves put the likely outcome at Democrats picking up nine to 19 House seats.",
+      "source_url": "axios9"
+     },
+     {
+      "fact": "On 6 October Cook moved Kansas from Lean Republican to Toss Up, New Hampshire from Toss Up to Lean Democrat, and North Carolina from Lean Democrat to Likely Democrat.",
+      "source_url": "hill6"
      }
     ],
     "numbers": [],
@@ -460,6 +586,42 @@
       "title": "Candidate Quality Shifts the Senate Map",
       "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
       "published": "2026-10-20"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "Axios",
+      "title": "Cook Political Report tilts 18 House races toward Democrats",
+      "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+      "published": "2026-10-09"
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Cook moves 11 House races toward Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+      "published": "2026-10-16"
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Senate races shift toward Democrats in Kansas, South Carolina: Cook Political Report",
+      "url": "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+      "published": "2026-10-06"
      }
     ]
    },
@@ -529,6 +691,46 @@
      {
       "fact": "The figures came before John Healey's first Budget as chancellor, due next week.",
       "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
      }
     ],
     "numbers": [
@@ -662,6 +864,26 @@
      {
       "fact": "Euclid was built to map distant galaxies and study dark matter and dark energy; earlier comets it observed were already known.",
       "source_url": "https://yubanet.com/scitech/euclid-discovers-new-comet/"
+     },
+     {
+      "fact": "One Euclid frame, a 560-second exposure from 20 September, shows the comet as a streak with a fuzzy coma.",
+      "source_url": "euclid"
+     },
+     {
+      "fact": "Pöntinen predicted the comet's position to find it in five image sets, and found no match against known comets or asteroids.",
+      "source_url": "euclid_ut"
+     },
+     {
+      "fact": "The comet was about 1.3 billion km from Earth, according to Starlust.",
+      "source_url": "starlust"
+     },
+     {
+      "fact": "The find was made by a PhD student using custom software, not by Euclid's main survey pipeline.",
+      "source_url": "euclid_ut"
+     },
+     {
+      "fact": "Ground-based follow-up observations helped confirm the comet.",
+      "source_url": "euclid_yn"
      }
     ],
     "numbers": [],
@@ -677,6 +899,18 @@
       "outlet": "Universe Today",
       "title": "The ESA's Euclid Space Telescope Has Discovered A New Comet",
       "url": "https://www.universetoday.com/articles/the-esas-euclid-space-telescope-has-discovered-a-new-comet",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "YubaNet",
+      "title": "Euclid discovers new comet",
+      "url": "https://yubanet.com/scitech/euclid-discovers-new-comet/",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Starlust",
+      "title": "C/2026 S1: ESA's Euclid telescope unexpectedly discovers its first comet",
+      "url": "https://starlust.org/c-2026-s1-esas-euclid-telescope-unexpectedly-discovers-its-first-comet-807-million-miles-away/",
       "published": "2026-10-19"
      }
     ]
@@ -786,6 +1020,46 @@
      {
       "fact": "The figures came before John Healey's first Budget as chancellor, due next week.",
       "source_url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "The Bank of England's July forecast had predicted a smaller rise in inflation, to 3.0%.",
+      "source_url": "bbg_uk"
+     },
+     {
+      "fact": "Reuters said the surge in energy prices caused by the Iran war gathered steam.",
+      "source_url": "rte_uk"
+     },
+     {
+      "fact": "Core inflation, excluding food, energy, alcohol and tobacco, rose to 2.8%.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Markets price a 98% chance that the Bank of England raises its policy rate to 4% next month, and most expect another quarter-point rise in December.",
+      "source_url": "cnbc_uk"
+     },
+     {
+      "fact": "Wage growth figures released on 20 October added to the case for a first rate rise.",
+      "source_url": "bbg_uk"
      }
     ],
     "numbers": [
