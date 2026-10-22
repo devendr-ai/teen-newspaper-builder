@@ -1,0 +1,306 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-23",
+  "volume": 1,
+  "issue": 12,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA",
+      "headline": "Oil Tops $110 After Attacks in Saudi Arabia",
+      "deck": "The US tells some diplomats and their families to leave the kingdom.",
+      "body": [
+        "Oil is a fuel that ships carry all around the world. Its price is quoted per barrel. On Thursday, Brent crude, a main world price, rose to about $110 a barrel. It had ended Wednesday at $108.82.",
+        "The price rose after attacks in Saudi Arabia, the world's big oil seller. The Houthis, a group in Yemen, hit targets in the kingdom on Wednesday. At a civilian airport in Dammam, one person was killed and eight were wounded. A drone attack near Shaybah, a Saudi oilfield, killed two people. Saudi officials said work at the oilfield was not affected. Earlier this month, the country's East-West pipeline, which carries oil to Red Sea ports, was reportedly halted after a Houthi strike hit a pumping station.",
+        "The attacks led the United States to tell some diplomats and their families to leave Saudi Arabia. Ships are under attack too. Kpler, a firm that tracks ships, counted at least 18 attacks on shipping in two weeks. "
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Oil tankers pass through this narrow strait."
+      },
+      "why": "Saudi Arabia sells oil to the whole world. When its supply is at risk, the cost of fuel and transport can rise far away.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil tops $110 as Houthi drone strike near Saudi Shaybah field rattles markets",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+        },
+        {
+          "outlet": "Nation Thailand",
+          "title": "Brent rises to US$110.11 a barrel on October 22 as US orders some diplomats out of Saudi Arabia",
+          "url": "https://www.nationthailand.com/news/world/40072588"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Putin Agrees in Principle to Restart Three-Way Talks",
+      "deck": "Russia, Ukraine and the US could meet again after 10 November.",
+      "body": [
+        "Russia's war in Ukraine is more than four years old. On Wednesday, US envoy Steve Witkoff met Russia's President Putin in St Petersburg for about three hours. Afterwards, Kremlin adviser Yuri Ushakov said Putin agreed, in principle, to restart three-way talks with the US and Ukraine after 10 November.",
+        "The talks would focus on building a security system for Russia and Ukraine after the war ends. Earlier rounds, held in Abu Dhabi and Geneva, made little progress beyond swaps of prisoners. Ukraine's President Zelensky said only a meeting of leaders can break the deadlock, and that freezing the conflict is the minimum he needs from Russia.",
+        "Russia also freed Stephen Hubbard, a retired US teacher jailed for fighting in Ukraine, after Trump asked Putin to release him. Witkoff called it a goodwill gesture. The fighting has not paused, though. Overnight attacks on Kyiv, Ukraine's capital, killed three people and injured 12."
+      ],
+      "chart": {
+        "title": "KYIV, ONE NIGHT OF ATTACKS",
+        "subtitle": "People hurt in the Russian overnight attack",
+        "labels": [
+          "Killed",
+          "Injured"
+        ],
+        "values": [
+          3,
+          12
+        ],
+        "max": 15,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Source: RTE, 21 October."
+      },
+      "connect": "Peace efforts for Ukraine have moved between several countries. Abu Dhabi is in the United Arab Emirates and Geneva is in Switzerland. Oslo, where Witkoff met Zelensky the day before, is in Norway.",
+      "sources": [
+        {
+          "outlet": "RTE",
+          "title": "Putin agrees to resume trilateral talks on Ukraine war",
+          "url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Early Voting Surges Before the Midterms",
+      "deck": "More than 13 million Americans have already voted.",
+      "body": [
+        "On 3 November, Americans vote in the midterm elections. They are held halfway through a president's term, and they decide who controls Congress, the group that makes the country's laws.",
+        "Many people vote early, by mail or in person. The Associated Press, a news agency, counted early votes two weeks before election day. More than 13 million had been cast. At the same point in 2022, the last midterms, the number was 9 million.",
+        "Texas showed a big jump, with nearly 1 million early ballots against about 550,000 in 2022. Some of the rise comes from states that now offer more early voting."
+      ],
+      "why": "Midterm elections decide who makes the nation's laws. Early votes show how many people are taking part.",
+      "also": [
+        "Kansas: early votes more than doubled, to over 55,000 from 27,000 in 2022.",
+        "Ohio: early ballots are up 30%, or 156,000 more than in 2022."
+      ],
+      "sources": [
+        {
+          "outlet": "AP via WFDD",
+          "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows",
+          "url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Tracking the 2026 Early Vote",
+          "url": "https://www.nbcnews.com/politics/2026-elections/early-vote"
+        },
+        {
+          "outlet": "The National",
+          "title": "Early voting begins in some states ahead of crucial US midterms",
+          "url": "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Science: Researchers in China say ancient proteins show that fossils found at Xujiayao belong to the Denisovans, a group of early humans.",
+        "Iran: President Masoud Pezeshkian said there will be no talks with the United States until Iran's demands are met."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might an attack in Saudi Arabia change the price of fuel in a country far away?",
+        "Why do you think more people are voting early this year, and what would you want to know before trusting the numbers?",
+        "What would make talks between countries at war more likely to work?"
+      ],
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil tops $110 as Houthi drone strike near Saudi Shaybah field rattles markets",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+        },
+        {
+          "outlet": "AP via WFDD",
+          "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows",
+          "url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+        },
+        {
+          "outlet": "RTE",
+          "title": "Putin agrees to resume trilateral talks on Ukraine war",
+          "url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  MONEY",
+      "headline": "Rupee and Shares Slip as Oil Passes $110",
+      "deck": "The central bank also says cuts in interest rates are off the table.",
+      "body": [
+        "India buys much of its oil from other countries and pays in US dollars. So when oil gets dearer, Indian markets feel it. On Thursday the Sensex, a main index of share prices, fell 460.30 points to 73,249.39. The Nifty, another main index, fell for a third day in a row.",
+        "The rupee also slipped. It fell about 30 paise, to 94.81 against the US dollar. Analysts expect it to trade between 94.45 and 95.25. A weaker rupee makes imports, such as oil, cost more rupees.",
+        "The Reserve Bank of India, the country's central bank, has raised its main interest rate, the repo rate, by 0.25 points to 5.50%. Its rate-setting committee voted unanimously. Minutes released on Wednesday said cuts are off the table for now, and the next move can only be a rise or a pause."
+      ],
+      "why": "Dearer oil and a weaker rupee can push up prices at home, which is why the central bank is watching closely.",
+      "sources": [
+        {
+          "outlet": "HDFC Sky",
+          "title": "Market Close: Nifty, Sensex Fall for 3rd Day as Oil Tops $110",
+          "url": "https://hdfcsky.com/news/market-close-report-today-nifty-sensex-fall-for-third-straight-session-as-oil-tops-110"
+        },
+        {
+          "outlet": "Business Standard",
+          "title": "Oil price surge keeps Nifty in red, Sensex sheds 460 points on Thursday",
+          "url": "https://business-standard.com/amp/markets/news/oil-price-surge-keeps-nifty-in-red-sensex-sheds-460-points-on-thursday-126102201522_1.html"
+        },
+        {
+          "outlet": "Business Today",
+          "title": "Rate cuts are off the table in the near term: RBI in October MPC minutes",
+          "url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+        }
+      ]
+    },
+    "sports": {
+      "title": "CRICKET: INDIA WIN OPENING T20 IN NEW ZEALAND",
+      "body": "India beat New Zealand by 4 wickets in Christchurch on Thursday, with two balls to spare. New Zealand made 225/4, and <b>Sanju Samson</b> hit 67 off 33 balls as India chased 226. <b>Naman Dhir</b> finished it with an unbeaten 42 off 15 balls and was Player of the Match.",
+      "sources": [
+        {
+          "outlet": "Yahoo Sports",
+          "title": "IND vs NZ 1st T20I 2026 result, highlights and scorecard",
+          "url": "https://sports.yahoo.com/articles/ind-vs-nz-1st-t20i-064218637.html"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Brent oil stays near $110 a barrel.",
+        "Whether Putin's talks with the US and Ukraine restart after 10 November."
+      ]
+    },
+    "quote": {
+      "text": "Numbers tell a story, but you have to ask who is counting and why.",
+      "by": "The Editor"
+    }
+  },
+  "play": {
+    "quiz": [
+      {
+        "q": "Which group attacked targets in Saudi Arabia on Wednesday?",
+        "options": [
+          "The Houthis",
+          "Kpler",
+          "The Kremlin"
+        ],
+        "answer": 0,
+        "why": "The Houthis, a group in Yemen, hit targets in the kingdom.",
+        "story": "lead"
+      },
+      {
+        "q": "After what date could three-way talks on Ukraine restart?",
+        "options": [
+          "1 October",
+          "10 November",
+          "31 December"
+        ],
+        "answer": 1,
+        "why": "Putin agreed in principle to restart talks after 10 November.",
+        "story": "world"
+      },
+      {
+        "q": "How many early votes had been cast in the US two weeks before election day?",
+        "options": [
+          "More than 13 million",
+          "About 2 million",
+          "Over 90 million"
+        ],
+        "answer": 0,
+        "why": "More than 13 million, against 9 million in 2022.",
+        "story": "us"
+      },
+      {
+        "q": "To what level did the RBI raise its repo rate?",
+        "options": [
+          "4.25%",
+          "5.50%",
+          "7.00%"
+        ],
+        "answer": 1,
+        "why": "The committee raised it to 5.50%.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Brent crude ended Wednesday at $108.82 a barrel.",
+        "true": true,
+        "why": "That was Wednesday's closing price.",
+        "story": "lead"
+      },
+      {
+        "claim": "The earlier three-way talks on Ukraine ended in a peace deal.",
+        "true": false,
+        "why": "They made little progress beyond prisoner swaps.",
+        "story": "world"
+      },
+      {
+        "claim": "The Indian rupee fell to 94.81 against the US dollar.",
+        "true": true,
+        "why": "It fell about 30 paise to 94.81.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Texas",
+        "lat": 31.0,
+        "lon": -99.0,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",
+    "https://www.nationthailand.com/news/world/40072588",
+    "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/",
+    "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
+    "https://www.nbcnews.com/politics/2026-elections/early-vote",
+    "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/",
+    "https://hdfcsky.com/news/market-close-report-today-nifty-sensex-fall-for-third-straight-session-as-oil-tops-110",
+    "https://business-standard.com/amp/markets/news/oil-price-surge-keeps-nifty-in-red-sensex-sheds-460-points-on-thursday-126102201522_1.html",
+    "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22",
+    "https://sports.yahoo.com/articles/ind-vs-nz-1st-t20i-064218637.html"
+  ]
+}
