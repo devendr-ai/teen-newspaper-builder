@@ -202,6 +202,40 @@
       "published": "2026-10-22"
      }
     ]
+   },
+   {
+    "id": "world-briefs",
+    "headline": "Other world items",
+    "importance": 3,
+    "suitable_for_children": true,
+    "what_happened": "Romania's parliament confirmed a new prime minister; Burkina Faso restored the death penalty.",
+    "why_it_matters": "n/a",
+    "key_facts": [
+     {
+      "fact": "Burkina Faso's parliament adopted a revised penal code restoring the death penalty for crimes including terrorism, espionage and treason.",
+      "source_url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/"
+     },
+     {
+      "fact": "Romania's parliament confirmed Luca Niculescu as prime minister on Tuesday 20 October, ending nearly six months of political deadlock.",
+      "source_url": "https://havanatimes.org/news/international-news-briefs-for-wednesday-october-21-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Burkina Faso; Romania",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 21, 2026",
+      "url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Havana Times",
+      "title": "International News Briefs for Wednesday, October 21, 2026",
+      "url": "https://havanatimes.org/news/international-news-briefs-for-wednesday-october-21-2026/",
+      "published": "2026-10-21"
+     }
+    ]
    }
   ]
  },
