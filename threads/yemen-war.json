@@ -172,6 +172,12 @@
       "reported": "2026-10-21",
       "younger": "The Houthis said they hit more places in Saudi Arabia, but Saudi leaders had not said if that was true.",
       "older": "The Houthis say they hit Aramco's Yanbu site, the Shaybah oilfield and Riyadh's airport, which Saudi authorities have not confirmed, while Brent trades near $110."
+    },
+    {
+      "date": "2026-10-21",
+      "reported": "2026-10-23",
+      "younger": "A drone attack near a Saudi oilfield killed two people, and the US told some diplomats to leave.",
+      "older": "A drone attack near Saudi Aramco's Shaybah field kills two and a strike at Dammam airport kills one; the US orders some diplomats and family members out of Saudi Arabia, and Brent rises to about $110."
     }
   ],
   "stories": [
@@ -349,6 +355,8 @@
     "https://cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
     "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
     "https://finance.yahoo.com/energy/articles/oil-slips-trumps-sanction-waiver-222256196.html",
-    "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia"
+    "https://biz.liga.net/en/energy/news/brent-crude-rises-to-110-a-barrel-amid-houthi-attacks-on-saudi-arabia",
+    "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",
+    "https://www.nationthailand.com/news/world/40072588"
   ]
 }
