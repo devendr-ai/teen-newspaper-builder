@@ -424,6 +424,36 @@
       "published": "2026-10-22"
      }
     ]
+   },
+   {
+    "id": "delhi-sir",
+    "headline": "Supreme Court to Hear Delhi Voter-List Plea on 28 October",
+    "importance": 5,
+    "suitable_for_children": true,
+    "what_happened": "The Supreme Court advanced the hearing on a plea about the Special Intensive Revision (SIR) of Delhi's voter list to 28 October, two days before the last date for claims and objections.",
+    "why_it_matters": "The voter list decides who can vote.",
+    "key_facts": [
+     {
+      "fact": "The Supreme Court advanced the hearing on the plea over the Delhi SIR to 28 October, 2 days before the last date for claims and objections. The poll panel extended the period for claims and objections to 30 October, with the final voter list slated for 4 December.",
+      "source_url": "https://www.tribuneindia.com/news/india/delhi-sir-supreme-court-advances-hearing-to-october-28-thinking-of-passing-order/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi",
+    "sources": [
+     {
+      "outlet": "The Tribune",
+      "title": "Delhi SIR: Supreme Court advances hearing to October 28; thinking of passing order",
+      "url": "https://www.tribuneindia.com/news/india/delhi-sir-supreme-court-advances-hearing-to-october-28-thinking-of-passing-order/",
+      "published": "2026-10-14"
+     },
+     {
+      "outlet": "ETV Bharat",
+      "title": "SC Advances Hearing On Plea Over Delhi SIR To October 28, 2 Days Before Last Date For Claims & Objections",
+      "url": "https://www.etvbharat.com/en/bharat/sc-advances-hearing-on-plea-over-delhi-sir-to-october-28-2-days-before-last-date-for-claims-and-objections-enn26101403372",
+      "published": "2026-10-14"
+     }
+    ]
    }
   ]
  },
