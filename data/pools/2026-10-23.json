@@ -507,6 +507,10 @@
      {
       "fact": "More than 13 million mail-in and early in-person votes cast nationally, compared with 9 million at the same point in 2022.",
       "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "fact": "Forbes: Democrats are ahead in at least four of seven Senate races rated toss-ups; a Cook poll shows Sherrod Brown leading Sen. Jon Husted 49% to 43% in Ohio, and an AJC survey has Ossoff ahead of Rep. Mike Collins 48% to 40% in Georgia.",
+      "source_url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/"
      }
     ],
     "numbers": [],
@@ -517,6 +521,12 @@
       "title": "Many states deciding control of the Senate are seeing a big boost in early voting",
       "url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
       "published": "2026-10-22"
+     },
+     {
+      "outlet": "Forbes",
+      "title": "Hottest 2026 Midterm Races",
+      "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
+      "published": "2026-10-21"
      }
     ]
    }
@@ -538,6 +548,10 @@
      {
       "fact": "MPC unanimously raised repo rate 25 bps to 5.50%; headline CPI expected to average almost 5.8% over next three quarters; core 4.4% this year.",
       "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     },
+     {
+      "fact": "Policy repo rate 5.50%, standing deposit facility 5.25%, marginal standing facility and Bank Rate 5.75%.",
+      "source_url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742"
      }
     ],
     "numbers": [],
@@ -548,6 +562,12 @@
       "title": "Rate cuts are off the table in the near term",
       "url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22",
       "published": "2026-10-22"
+     },
+     {
+      "outlet": "RBI",
+      "title": "Press Releases",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63742",
+      "published": "2026-10-21"
      }
     ]
    }
