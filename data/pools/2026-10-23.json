@@ -1,0 +1,521 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-houthi-saudi",
+    "headline": "Oil Tops $110 as Houthi Attacks Hit Saudi Arabia",
+    "importance": 10,
+    "suitable_for_children": true,
+    "what_happened": "Brent crude rose to about $110 a barrel on 22 October after Houthi attacks on Saudi targets. On 21 October a drone attack on a Saudi oilfield killed two people, and a strike at a civilian airport in Dammam killed one and wounded eight. The US ordered some diplomats and family members to leave its missions in Saudi Arabia.",
+    "why_it_matters": "Saudi Arabia sends oil to the world, and with the Strait of Hormuz mostly shut, its other routes matter more. Higher oil prices push up fuel and transport costs.",
+    "key_facts": [
+     {
+      "fact": "Brent crude rose 1.7% ($1.81) to $110.63 a barrel on Thursday 22 October (as of 7:36 am UAE time); US crude (WTI) rose to $98.52.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+     },
+     {
+      "fact": "Brent had settled at $108.82 on 21 October.",
+      "source_url": "https://www.nationthailand.com/news/world/40072588"
+     },
+     {
+      "fact": "On Wednesday 21 October debris from a drone intercepted by Saudi air defences fell near a processing plant at Shaybah, a Saudi Aramco oilfield; the Saudi Energy Ministry said operations were unaffected. Shaybah produces about one million barrels of crude a day.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+     },
+     {
+      "fact": "Houthi strikes on Saudi targets on 21 October killed at least one person and wounded eight at a civilian airport in Dammam; a drone attack on a Saudi oilfield killed two people.",
+      "source_url": "https://www.nationthailand.com/news/world/40072588"
+     },
+     {
+      "fact": "The US ordered some diplomats and their family members to leave its missions in Saudi Arabia.",
+      "source_url": "https://www.nationthailand.com/news/world/40072588"
+     },
+     {
+      "fact": "Washington ordered non-emergency government employees and their families to leave Saudi Arabia, citing Houthi attacks on civilian airports and critical infrastructure.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+     },
+     {
+      "fact": "Saudi Arabia's East-West pipeline, capacity about seven million barrels a day, carries crude from eastern oilfields to Red Sea export terminals and is an alternative to the Strait of Hormuz; it was reportedly halted on 5 October after a Houthi strike damaged a pumping station.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+     },
+     {
+      "fact": "Kpler data showed at least 18 attacks on shipping over the previous two weeks.",
+      "source_url": "https://www.nationthailand.com/news/world/40072588"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude, 21 Oct settle",
+      "value": 108.82,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.nationthailand.com/news/world/40072588"
+     },
+     {
+      "label": "Brent crude, 22 Oct morning",
+      "value": 110.63,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+     },
+     {
+      "label": "US crude (WTI), 22 Oct morning",
+      "value": 98.52,
+      "unit": "US dollars a barrel",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+     }
+    ],
+    "geography": "Saudi Arabia (Shaybah in the Empty Quarter, Dammam on the Gulf coast, Red Sea export terminals), Yemen, the Strait of Hormuz and Gulf of Oman",
+    "sources": [
+     {
+      "outlet": "The National",
+      "title": "Oil tops $110 as Houthi drone strike near Saudi Shaybah field rattles markets",
+      "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Nation Thailand",
+      "title": "Brent rises to US$110.11 a barrel on October 22 as US orders some diplomats out of Saudi Arabia",
+      "url": "https://www.nationthailand.com/news/world/40072588",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "putin-talks",
+    "headline": "Putin Agrees in Principle to Resume Three-Way Ukraine Talks",
+    "importance": 8,
+    "suitable_for_children": true,
+    "what_happened": "After meeting US envoy Steve Witkoff in St Petersburg on 21 October, Russia's adviser Yuri Ushakov said President Putin agreed in principle to resume three-way talks with the US and Ukraine after 10 November. The talks would focus on building a security system for Russia and Ukraine after the war ends.",
+    "why_it_matters": "The war is more than four years old and earlier rounds of talks made little progress beyond prisoner exchanges.",
+    "key_facts": [
+     {
+      "fact": "Putin agreed 'in principle' to resume three-way talks with the US and Ukraine after 10 November, according to Kremlin foreign policy adviser Yuri Ushakov.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     },
+     {
+      "fact": "The talks would focus on building a security system for Russia and Ukraine after the conflict ends.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     },
+     {
+      "fact": "Putin met Trump's envoy Steve Witkoff in St Petersburg for about three hours; Witkoff had met Zelensky and European leaders in Oslo the day before.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     },
+     {
+      "fact": "Previous three-way rounds were held in Abu Dhabi (January and February) and Geneva (February) and produced little progress beyond prisoner-of-war exchanges.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     },
+     {
+      "fact": "Zelensky said only a leaders' summit can break the impasse. Zelensky said freezing the conflict is the minimum required from Russia.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     },
+     {
+      "fact": "Russia released US citizen Stephen Hubbard, a retired teacher imprisoned for fighting in Ukraine; Witkoff called it a goodwill gesture after Trump asked Putin to free him.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     },
+     {
+      "fact": "Overnight Russian attacks in Kyiv killed 3 people and injured 12; Russia's Defence Ministry said its air defences intercepted 373 Ukrainian drones overnight.",
+      "source_url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+     }
+    ],
+    "numbers": [],
+    "geography": "St Petersburg (Russia), Oslo (Norway), Ukraine",
+    "sources": [
+     {
+      "outlet": "RTE",
+      "title": "Putin agrees to resume trilateral talks on Ukraine war",
+      "url": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "iran-hormuz-standoff",
+    "headline": "Iran Says No Talks With US Until Its Demands Are Met",
+    "importance": 7,
+    "suitable_for_children": true,
+    "what_happened": "Iran's President Masoud Pezeshkian told Pakistan's army chief there will be no talks with the US until Iran's demands are met. Parliament Speaker Mohammad Baqer Qalibaf said the US cannot regain Tehran's trust until it meets seven conditions Iran set in September for reopening the Strait of Hormuz.",
+    "why_it_matters": "The Strait of Hormuz is a key route for the world's oil, and Gulf oil prices have stayed high while it is largely closed.",
+    "key_facts": [
+     {
+      "fact": "Iranian President Masoud Pezeshkian told Pakistani Army Chief Asim Munir there will be no talks with the US until Iran's demands are met.",
+      "source_url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/"
+     },
+     {
+      "fact": "Parliament Speaker Mohammad Baqer Qalibaf said the US cannot regain Tehran's trust until it meets seven conditions Iran set in September for reopening the Strait of Hormuz.",
+      "source_url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/"
+     },
+     {
+      "fact": "Foreign Minister Abbas Araghchi said Iran has had no reply from Saudi Arabia or the Houthis to its offer to broker talks.",
+      "source_url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/"
+     },
+     {
+      "fact": "Iranian Foreign Minister Abbas Araqchi said Iran was 'fully prepared to defend itself.'",
+      "source_url": "https://www.nationthailand.com/news/world/40072588"
+     }
+    ],
+    "numbers": [],
+    "geography": "Iran, the Strait of Hormuz, the Gulf of Oman, Pakistan",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: October 21, 2026",
+      "url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Nation Thailand",
+      "title": "Brent rises to US$110.11 a barrel on October 22",
+      "url": "https://www.nationthailand.com/news/world/40072588",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "early-vote-surge",
+    "headline": "Early Voting Surges in States That Will Decide the Senate",
+    "importance": 9,
+    "suitable_for_children": true,
+    "what_happened": "An Associated Press analysis of early voting two weeks before the 3 November midterms found turnout up sharply from the same point in 2022 in many states that will decide control of the Senate. Texas ballots were up 74%, and more than 13 million mail-in and early in-person votes had been cast nationally, against 9 million at the same point in 2022.",
+    "why_it_matters": "Midterm elections decide who controls Congress, which makes laws. Early votes are only a snapshot, and they do not say who will win.",
+    "key_facts": [
+     {
+      "fact": "AP analysis (data through Tuesday 21 October, published 22 October): more than 13 million mail-in and early in-person votes cast nationally, compared with 9 million at the same point in 2022.",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "fact": "Texas early vote up 74%: nearly 1 million ballots against about 550,000 at the same point in 2022. Early in-person voting in Texas began Monday.",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "fact": "Kansas more than doubled, over 55,000 against 27,000. Maine up 39%. North Carolina up more than 30%. Ohio up 30%, 156,000 more ballots; Ohio eliminated its mail-ballot grace period. Michigan and Georgia totals are high but similar to 2022. Iowa down about 6%.",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "fact": "In most of the competitive states where Democrats are trying to flip Republican-held seats, Republicans make up a smaller share of advance voters than they did four years ago. Texas does not report party data.",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "fact": "The increase partly reflects additional states that expanded early voting and states that made more data available since the last midterms.",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "fact": "In Harris County, Texas, more than 104,600 people voted on Monday, shattering the previous midterm turnout record of 63,200 set in 2018.",
+      "source_url": "https://www.nbcnews.com/politics/2026-elections/early-vote"
+     },
+     {
+      "fact": "The election is on 3 November.",
+      "source_url": "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Texas early ballots, 2026 (nearly)",
+      "value": 1000000,
+      "unit": "ballots",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "label": "Texas early ballots, same point in 2022 (about)",
+      "value": 550000,
+      "unit": "ballots",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "label": "National early votes 2026",
+      "value": 13,
+      "unit": "million",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     },
+     {
+      "label": "National early votes same point 2022",
+      "value": 9,
+      "unit": "million",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     }
+    ],
+    "geography": "United States: Texas, Kansas, Maine, North Carolina, Ohio, Michigan, Georgia, Iowa",
+    "sources": [
+     {
+      "outlet": "AP via WFDD",
+      "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows",
+      "url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Tracking the 2026 Early Vote",
+      "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "The National",
+      "title": "Early voting begins in some states ahead of crucial US midterms",
+      "url": "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/",
+      "published": "2026-09-18"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "rbi-rupee-oil",
+    "headline": "Rupee and Shares Slip as Oil Tops $110; RBI Says Rate Cuts Are Off the Table",
+    "importance": 8,
+    "suitable_for_children": true,
+    "what_happened": "On 22 October the Sensex fell 460.30 points (0.62%) to 73,249.39 and the Nifty fell 123.70 points to 22,687.65, their third straight daily fall, as oil topped $110. The rupee fell about 30 paise to 94.81 against the US dollar. Minutes released on 21 October showed the Reserve Bank of India's rate-setting committee voted unanimously to raise the repo rate by 25 basis points to 5.50%.",
+    "why_it_matters": "India buys much of its oil abroad in dollars, so dearer oil and a weaker rupee can push up prices at home. The RBI raises its rate to slow price rises.",
+    "key_facts": [
+     {
+      "fact": "Sensex closed down 460.30 points (0.62%) at 73,249.39; Nifty 50 down 123.70 points (0.54%) at 22,687.65, its third straight session of losses; 13 of 16 sectoral indices ended lower.",
+      "source_url": "https://hdfcsky.com/news/market-close-report-today-nifty-sensex-fall-for-third-straight-session-as-oil-tops-110"
+     },
+     {
+      "fact": "Reasons cited: Houthi attacks in Saudi Arabia, with the US ordering some diplomats and family members to leave; worries that higher oil prices could raise inflation, widen the import bill and squeeze margins.",
+      "source_url": "https://hdfcsky.com/news/market-close-report-today-nifty-sensex-fall-for-third-straight-session-as-oil-tops-110"
+     },
+     {
+      "fact": "The rupee declined around 30 paise to 94.81 against the dollar on 22 October; analysts expect it to trade between 94.45 and 95.25.",
+      "source_url": "https://business-standard.com/amp/markets/news/oil-price-surge-keeps-nifty-in-red-sensex-sheds-460-points-on-thursday-126102201522_1.html"
+     },
+     {
+      "fact": "The RBI's MPC unanimously voted to raise the policy repo rate by 25 basis points to 5.50% and changed its stance to calibrated tightening.",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     },
+     {
+      "fact": "The minutes, released 21 October, say rate cuts are 'off the table' in the near term and the next move can only be a hike or a pause. Headline CPI inflation is expected to average almost 5.8% over the next three quarters; core inflation is projected at 4.4% this year. Next MPC meeting is 2-4 December.",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     },
+     {
+      "fact": "Governor Sanjay Malhotra said monetary policy mainly works by curtailing 'second round effects' of supply shocks, such as wage expectations and firm-level pricing.",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     },
+     {
+      "fact": "Rising inflation and signs of price pressures spilling over into a range of goods weighed on the six-member committee.",
+      "source_url": "https://nagalandpost.com/higher-inflation-price-pressure-spillover-led-to-rbi-hiking-rate-mpc-minutes/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Repo rate after hike",
+      "value": 5.5,
+      "unit": "per cent",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     },
+     {
+      "label": "Expected average headline CPI inflation, next three quarters (almost)",
+      "value": 5.8,
+      "unit": "per cent",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     },
+     {
+      "label": "Core inflation projected this year",
+      "value": 4.4,
+      "unit": "per cent",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     }
+    ],
+    "geography": "India (Mumbai markets)",
+    "sources": [
+     {
+      "outlet": "HDFC Sky",
+      "title": "Market Close: Nifty, Sensex Fall for 3rd Day as Oil Tops $110",
+      "url": "https://hdfcsky.com/news/market-close-report-today-nifty-sensex-fall-for-third-straight-session-as-oil-tops-110",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "Oil price surge keeps Nifty in red, Sensex sheds 460 points on Thursday",
+      "url": "https://business-standard.com/amp/markets/news/oil-price-surge-keeps-nifty-in-red-sensex-sheds-460-points-on-thursday-126102201522_1.html",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Business Today",
+      "title": "Rate cuts are off the table in the near term: RBI in October MPC minutes",
+      "url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Nagaland Post",
+      "title": "Higher inflation, price pressure spillover led to RBI hiking rate: MPC minutes",
+      "url": "https://nagalandpost.com/higher-inflation-price-pressure-spillover-led-to-rbi-hiking-rate-mpc-minutes/",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "jio-ipo",
+    "headline": "Jio Platforms' Share Sale Closes Its Bidding Window",
+    "importance": 6,
+    "suitable_for_children": true,
+    "what_happened": "The Jio Platforms IPO, worth about Rs 30,213 crore, opened on 21 October and closes on 23 October. Shares are priced between Rs 1,065 and Rs 1,119, and the minimum application is one lot of 12 shares, Rs 13,428 at the top price. After two days it was 5.26 times subscribed.",
+    "why_it_matters": "An IPO is when a company sells shares to the public for the first time.",
+    "key_facts": [
+     {
+      "fact": "Issue size about Rs 30,213 crore; price band Rs 1,065 to Rs 1,119 per share; opens Wednesday 21 October and closes 23 October; lot size 12 shares, minimum application Rs 13,428.",
+      "source_url": "https://ipowatch.in/jio-platforms-ipo-subscription-status/"
+     },
+     {
+      "fact": "Subscription: 3.04 times on day 1 and 5.26 times on day 2 (overall); quota Retail 35%, QIB 50%, NII 15%.",
+      "source_url": "https://ipowatch.in/jio-platforms-ipo-subscription-status/"
+     },
+     {
+      "fact": "Allotment expected Monday 26 October and listing Wednesday 28 October on NSE and BSE.",
+      "source_url": "https://trendlyne.com/ipo/detail/2479/jio-platforms-ltd/"
+     }
+    ],
+    "numbers": [],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "IPO Watch",
+      "title": "Jio Platforms IPO Subscription Status",
+      "url": "https://ipowatch.in/jio-platforms-ipo-subscription-status/",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Trendlyne",
+      "title": "Jio Platforms Ltd. IPO",
+      "url": "https://trendlyne.com/ipo/detail/2479/jio-platforms-ltd/",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "early-vote-civics",
+    "headline": "Early Voting Surges in Senate Battlegrounds",
+    "importance": 8,
+    "suitable_for_children": true,
+    "what_happened": "See united states early-vote-surge.",
+    "why_it_matters": "Early voting shows how voters can cast ballots before election day.",
+    "key_facts": [
+     {
+      "fact": "More than 13 million mail-in and early in-person votes cast nationally, compared with 9 million at the same point in 2022.",
+      "source_url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "AP via WFDD",
+      "title": "Many states deciding control of the Senate are seeing a big boost in early voting",
+      "url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "rbi-minutes",
+    "headline": "RBI Minutes: Rate Cuts Off the Table",
+    "importance": 8,
+    "suitable_for_children": true,
+    "what_happened": "See india rbi-rupee-oil.",
+    "why_it_matters": "Interest rates shape loan costs and prices.",
+    "key_facts": [
+     {
+      "fact": "MPC unanimously raised repo rate 25 bps to 5.50%; headline CPI expected to average almost 5.8% over next three quarters; core 4.4% this year.",
+      "source_url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22"
+     }
+    ],
+    "numbers": [],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Business Today",
+      "title": "Rate cuts are off the table in the near term",
+      "url": "https://www.businesstoday.in/latest/economy/story/rate-cuts-are-off-the-table-in-the-near-term-rbi-in-october-mpc-minutes-562950-2026-10-22",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "xujiayao-denisovan",
+    "headline": "Ancient Proteins Link Xujiayao Fossils in China to Denisovans",
+    "importance": 8,
+    "suitable_for_children": true,
+    "what_happened": "A team led by Qiaomei Fu in Beijing reported in Nature that fossils from Xujiayao in China belong to the Denisovan lineage, using proteins taken from two bones.",
+    "why_it_matters": "It lets scientists recognise Denisovans from their bones, not only from molecules.",
+    "key_facts": [
+     {
+      "fact": "The Nature paper (about 21 October 2026): Song Xing, Zhongyou Wu, Qingfeng Shao and Junyi Ge are first authors; Qiaomei Fu of the Institute of Vertebrate Paleontology and Paleoanthropology in Beijing is corresponding author.",
+      "source_url": "https://www.nature.com/articles/s41586-026-11132-z"
+     },
+     {
+      "fact": "The team drilled small holes in two Xujiayao specimens and identified 18 endogenous proteins in the bones. A variant in the collagen gene COL1A2 at position 996 (arginine to lysine) is the key marker: every Denisovan with protein or genome data carries lysine there, while Neanderthals and modern humans carry arginine.",
+      "source_url": "https://www.nature.com/articles/s41586-026-11132-z"
+     },
+     {
+      "fact": "Excavations at Xujiayao from 1976 to 1979 recovered 20 human fossils, representing at least 16 individuals, in Hebei Province, North China. The fossils date to roughly 199,000 to 138,000 years ago.",
+      "source_url": "https://www.globaltimes.cn/page/202610/1372751.shtml"
+     },
+     {
+      "fact": "The Xujiayao fossils had been classified as a species called Homo juluensis; the new paper argues they are Denisovans and that the size differences are variation within one population.",
+      "source_url": "https://www.nature.com/articles/s41586-026-11132-z"
+     },
+     {
+      "fact": "Denisovans were first identified in 2010 from a finger bone in Siberia's Denisova Cave.",
+      "source_url": "https://www.globaltimes.cn/page/202610/1372751.shtml"
+     },
+     {
+      "fact": "The authors describe the work as the first morphology-based identification framework for Denisovans, 16 years after their discovery.",
+      "source_url": "https://www.globaltimes.cn/page/202610/1372751.shtml"
+     },
+     {
+      "fact": "Some outside researchers were cautious; one noted there are no Denisovan cranial fossils known that could be compared to the Xujiayao cranial fragments.",
+      "source_url": "https://www.nature.com/articles/s41586-026-11132-z"
+     }
+    ],
+    "numbers": [],
+    "geography": "Hebei Province, China; Denisova Cave, Siberia",
+    "sources": [
+     {
+      "outlet": "Nature",
+      "title": "The proteome of Middle Pleistocene Xujiayao and common Denisovan morphology",
+      "url": "https://www.nature.com/articles/s41586-026-11132-z",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "Global Times",
+      "title": "Chinese scientists confirm Xujiayao hominins as Denisovans",
+      "url": "https://www.globaltimes.cn/page/202610/1372751.shtml",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ }
+}

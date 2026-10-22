@@ -1,0 +1,188 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-23",
+  "volume": 1,
+  "issue": 12,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Tops $110 After Attacks in Saudi Arabia",
+      "deck": "The US tells some diplomats and their families to leave the kingdom.",
+      "body": [
+        "Oil is a fuel that ships carry all around the world. Its price is quoted per barrel. On Thursday, Brent crude, a main world price, rose to about $110 a barrel. It had ended Wednesday at $108.82.",
+        "The price rose after attacks in Saudi Arabia. The Houthis, a group in Yemen, hit targets in the kingdom on Wednesday. At a civilian airport in Dammam, one person was killed and eight were hurt. A drone attack near Shaybah, a Saudi oilfield, killed two people. Saudi officials said work at the oilfield was not affected.",
+        "The United States then told some diplomats and their families to leave Saudi Arabia. Ships are under attack too. Kpler, a firm that tracks ships, counted at least 18 attacks on shipping in two weeks."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Oil tankers pass through this narrow strait."
+      },
+      "why": "Saudi Arabia sells oil to the whole world. When its supply is at risk, fuel prices can rise far away.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil tops $110 as Houthi drone strike near Saudi Shaybah field rattles markets",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/"
+        },
+        {
+          "outlet": "Nation Thailand",
+          "title": "Brent rises to US$110.11 a barrel on October 22 as US orders some diplomats out of Saudi Arabia",
+          "url": "https://www.nationthailand.com/news/world/40072588"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UNITED STATES",
+      "headline": "Early Voting Surges Before US Midterms",
+      "deck": "Millions have already voted.",
+      "body": [
+        "On 3 November, Americans vote in the midterm elections. These are held halfway through a president's term. They decide who controls Congress, the group that makes the country's laws.",
+        "Many people vote early, by mail or in person. The Associated Press, a news agency, counted the votes two weeks out. More than 13 million early votes had been cast. At the same point in 2022, the last midterms, the number was 9 million.",
+        "Texas showed a big jump. It had nearly 1 million early ballots, up from about 550,000 at the same point in 2022."
+      ],
+      "chart": {
+        "title": "EARLY BALLOTS IN TEXAS",
+        "subtitle": "Thousands of ballots at the same point",
+        "labels": [
+          "2022",
+          "2026"
+        ],
+        "values": [
+          550,
+          1000
+        ],
+        "max": 1200,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Figures are rounded: about 550,000 and nearly 1 million. Source: AP."
+      },
+      "why": "Midterm elections decide who makes the nation's laws, so many people want to vote early.",
+      "sources": [
+        {
+          "outlet": "AP via WFDD",
+          "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows",
+          "url": "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows"
+        },
+        {
+          "outlet": "The National",
+          "title": "Early voting begins in some states ahead of crucial US midterms",
+          "url": "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: The Nifty, a main index of share prices, fell for a third straight day on Thursday as oil rose above $110.",
+        "Science: Researchers in China say ancient proteins show that fossils found at Xujiayao belong to the Denisovans, a group of early humans."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Brent oil stays near $110 a barrel.",
+        "Whether the US pulls family members from more of its missions in the region."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",
+    "https://www.nationthailand.com/news/world/40072588",
+    "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
+    "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/",
+    "https://hdfcsky.com/news/market-close-report-today-nifty-sensex-fall-for-third-straight-session-as-oil-tops-110",
+    "https://www.globaltimes.cn/page/202610/1372751.shtml"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Where did a drone attack and an airport strike happen this week?",
+        "options": [
+          "Saudi Arabia",
+          "Texas",
+          "Norway"
+        ],
+        "answer": 0,
+        "why": "The Houthis hit targets in Saudi Arabia.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Brent crude end at on Wednesday?",
+        "options": [
+          "$10.88",
+          "$108.82",
+          "$1,088.20"
+        ],
+        "answer": 1,
+        "why": "Brent ended Wednesday at $108.82 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "How many early votes had been cast across the US by two weeks before the election?",
+        "options": [
+          "2 million",
+          "13 million",
+          "90 million"
+        ],
+        "answer": 1,
+        "why": "More than 13 million early votes had been cast.",
+        "story": "world"
+      },
+      {
+        "q": "About how many early ballots did Texas have?",
+        "options": [
+          "Nearly 1 million",
+          "About 5,000",
+          "About 50 million"
+        ],
+        "answer": 0,
+        "why": "Texas had nearly 1 million early ballots.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The US told some diplomats and their families to leave Saudi Arabia.",
+        "true": true,
+        "why": "The paper says the US told them to leave.",
+        "story": "lead"
+      },
+      {
+        "claim": "The US midterm elections are on 3 November.",
+        "true": true,
+        "why": "Americans vote on 3 November.",
+        "story": "world"
+      },
+      {
+        "claim": "Texas had fewer early ballots than at the same point in 2022.",
+        "true": false,
+        "why": "Texas had nearly 1 million, up from about 550,000.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Texas",
+        "lat": 31.0,
+        "lon": -99.0,
+        "countries": [
+          "United States"
+        ]
+      }
+    ]
+  }
+}
