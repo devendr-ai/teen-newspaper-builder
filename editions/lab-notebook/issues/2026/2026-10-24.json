@@ -1,0 +1,457 @@
+{
+  "edition": "lab-notebook",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 3,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Jumps Above $114 as Houthi Attacks on Saudi Arabia Continue",
+      "deck": "Aramco moves staff out of its Dhahran headquarters as Brent heads for a third weekly gain.",
+      "body": [
+        "Brent crude, the benchmark price for oil traded around the world, rose 3.59% to $117.20 a barrel at 7:58pm UAE time on Friday 23 October. Earlier in the day it had traded about 1.1% higher at $114.5. US crude (WTI) climbed 3.57% to $103. Brent was on track for a third straight weekly gain.",
+        "The driver was a new wave of attacks on Saudi Arabia. Over 48 hours the Houthis, an armed group from Yemen, claimed strikes on the Saudi Defence Ministry headquarters in Riyadh, King Fahd International Airport in Dammam, Abha International Airport and an Aramco site in Yanbu. These are Houthi claims; the report does not confirm them independently. Two people died and several were injured in the attacks at Dammam airport.",
+        "Saudi Aramco, the state oil company, then evacuated its Dhahran headquarters, the first such evacuation since the Iran war began in late February. The shipping lane matters too. The UK's maritime trade centre counted 10 attacks on commercial vessels in and near the Strait of Hormuz in the week to 19 October, and called October the worst month for such attacks since March."
+      ],
+      "map": {
+        "title": "THE PERSIAN GULF",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "SAUDI ARABIA (ARABIAN PENINSULA)",
+        "footnote": "The Strait of Hormuz links the Gulf to the open ocean",
+        "caption": "Attacks on Saudi sites and on ships both affect oil."
+      },
+      "why": "Saudi Arabia is a major oil exporter, so threats to its airports and oil sites move prices that households and governments, India included, pay far away.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+      "deck": "Russia says talks with the US and Ukraine could resume after 10 November.",
+      "body": [
+        "Russian President Vladimir Putin met US envoy Steve Witkoff in St. Petersburg on Wednesday 21 October for about three hours. Afterwards the Kremlin's foreign affairs adviser, Yuri Ushakov, said Putin agreed “in principle” to resume trilateral talks with the US and Ukraine after 10 November. Trump's son-in-law Jared Kushner joined by video link.",
+        "Ushakov said the talks would focus on building a security system for Russia and Ukraine after the conflict ends. Earlier rounds, in Abu Dhabi in January and February and in Geneva in February, produced little progress beyond prisoner exchanges. Witkoff said there was “some degree of momentum”. Russia also freed American Stephen Hubbard, a retired teacher imprisoned on mercenary charges, which Witkoff called a goodwill gesture. Putin also said he was ready to consider restoring US-Russia economic ties, and Witkoff thanked him for lifting Russia's ban on diesel exports.",
+        "Ukraine's position differs. President Volodymyr Zelenskyy said a freeze in the fighting is the “minimum” Russia must accept, and that only a leaders' summit can break the impasse. The fighting goes on: Russian strikes in Kyiv killed three people and wounded 12, and Russia's Defense Ministry said it intercepted 373 Ukrainian drones overnight. Ukraine launched more than 1,000 drones at Russia in one of its largest attacks of the war, and an oil export terminal in St. Petersburg caught fire.",
+        "The US role is under strain. Witkoff met Zelenskyy and European leaders in Oslo on Tuesday and plans to return there; Norway's prime minister, Jonas Gahr Støre, said Russia may be looking for diplomatic options. On Tuesday Trump pressed Zelenskyy to make a deal and said the US had gotten “absolutely nothing back” from Ukraine. Trump had said on 11 October that Russia and Ukraine agreed to an energy-infrastructure ceasefire, but attacks have continued."
+      ],
+      "illustration": {
+        "title": "Talks, again",
+        "subtitle": "A date after 10 November",
+        "motif": "podium",
+        "caption": "The three sides last met in Geneva in February."
+      },
+      "connect": "Geography and history: St. Petersburg and Oslo, where Witkoff also met Zelenskyy, sit on the Baltic and North Sea coasts of Europe. Past rounds of talks have been held in Abu Dhabi and Geneva.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+          "url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Perseverance Passes Opportunity's Driving Record on Mars",
+      "deck": "A rover that mostly steers itself has driven 28.10 miles in about five and a half years.",
+      "body": [
+        "NASA's Perseverance rover passed the distance record for driving on another world on 11 October. Its odometer reached 28.10 miles (45.22 km) on its 2,006th Martian day, just beyond the 28.06 miles (45.16 km) driven by Opportunity. Perseverance took about five and a half years. Opportunity took nearly 15 years.",
+        "The difference is self-driving. More than 90% of Perseverance's distance was covered with AutoNav, its autonomous navigation system, against about 5% for Opportunity and its twin Spirit. The mission's original plan called for no more than 12.4 miles (20 km) of driving. The rover has also collected 29 rock and regolith samples.",
+        "The first mission extension began in October 2026 and runs to about the end of 2028. Next, the rover heads for Rainbow Falls, a block of ancient crust about 328 feet (100 m) wide, after science at the crater rim at Lac de Charmes and the Idubi area.",
+        "NASA put the record in context. The drive that broke it was 299.6 feet (91.31 m), and the longest single-day drive was up to 1,351 feet (412 m). Perseverance analyses 600,000 measurement points each time it looks ahead, compared with 20 for Sojourner. Spirit drove 4.8 miles and Curiosity more than 23.65 miles. On the Moon, Apollo 17 covered 22.2 miles and the Soviet Lunokhod 2 covered 24.2 miles; Perseverance has passed both."
+      ],
+      "illustration": {
+        "title": "A long drive",
+        "subtitle": "28.10 miles on Mars",
+        "motif": "rocket",
+        "caption": "Opportunity's record stood at 28.06 miles."
+      },
+      "why": "Rovers that can choose safe paths on their own cover more ground between instructions from Earth, which makes exploration faster and cheaper.",
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        }
+      ]
+    },
+    "climate_and_environment": {
+      "kicker": "CLIMATE & ENVIRONMENT  •  WILDLIFE",
+      "headline": "Wildlife Populations Down 73% on Average, With Some Recoveries",
+      "deck": "WWF's Living Planet Report 2026 tracks vertebrate animals since 1970.",
+      "body": [
+        "The Living Planet Index, produced by the Zoological Society of London, follows 35,803 population trends of 5,790 vertebrate species (animals with backbones) from 1970 to 2022. Its headline number is a 73% average decline. That figure is a weighted average of population change, not a loss of 73% of individuals or species.",
+        "The detail matters. Across the data, 50% of populations were in decline, 7% were stable and 43% were increasing. Freshwater species fared worst, falling 85%, and Latin America and the Caribbean saw the steepest regional decline, at 95%.",
+        "There is also good news. Green sea turtles, bluefin tuna, tigers and southern African elephants have recovered in places, which WWF credits to conservation. A survey estimating about 183,000 giant tortoises on Aldabra in Seychelles points the same way: heavy hunting in the 19th century left fewer than 1,000, but the island became a reserve in 1981. The UN Biodiversity Conference in Yerevan, Armenia, later this month will review countries' progress on halting nature loss."
+      ],
+      "illustration": {
+        "title": "Wildlife, 1970 to 2022",
+        "subtitle": "Losses and recoveries",
+        "motif": "globe",
+        "caption": "Weighted averages, not a count of animals."
+      },
+      "why": "The report shows both the scale of wildlife loss and that protection can work, which helps governments decide where to act.",
+      "sources": [
+        {
+          "outlet": "Discover Wildlife",
+          "title": "WWF Living Planet Report 2026",
+          "url": "https://www.discoverwildlife.com/environment/living-planet-report-2026"
+        },
+        {
+          "outlet": "Popular Science",
+          "title": "Giant tortoises now outnumber people in Seychelles",
+          "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+        }
+      ]
+    },
+    "health": {
+      "kicker": "HEALTH  •  CANCER RESEARCH",
+      "headline": "Personalised mRNA Vaccine Cuts Melanoma Return Risk by 42% in Trial",
+      "deck": "Moderna and Merck's vaccine was given with the immunotherapy Keytruda.",
+      "body": [
+        "Melanoma is a serious type of skin cancer. This week Moderna and Merck released results from a late-stage trial of an experimental personalised mRNA vaccine, given together with the immunotherapy drug Keytruda. Reports say it lowered the risk of melanoma returning by 42% in a trial of about 1,100 patients.",
+        "The results were presented at ESMO, a cancer conference, in Madrid. STAT reported that the data came out before the scheduled presentation after an early release.",
+        "This is a company-reported result, not yet a treatment patients can get. Independent checking of the full data, and later approval decisions, will matter before anyone can say how widely the vaccine could be used."
+      ],
+      "illustration": {
+        "title": "Cancer vaccine trial",
+        "subtitle": "About 1,100 patients",
+        "motif": "hospital",
+        "caption": "Results were shown at ESMO in Madrid."
+      },
+      "why": "If confirmed, it would show that a vaccine tailored to each patient's tumour can lower the chance of cancer coming back after treatment.",
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+          "url": "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+        },
+        {
+          "outlet": "STAT",
+          "title": "ESMO 2026 news: Moderna-Merck melanoma vaccine data",
+          "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/"
+        }
+      ]
+    },
+    "history_and_geography": {
+      "kicker": "HISTORY & GEOGRAPHY  •  EARLY HUMANS",
+      "headline": "South African Fossils Suggest Homo erectus Lived There Earlier",
+      "deck": "A skull fragment from Drimolen is about 2 million years old.",
+      "body": [
+        "Researchers led by Dr Jesse Martin of La Trobe University described 18 hominin fossils from Drimolen Main Quarry in South Africa, in the journal Annals of Human Biology. Hominins are humans and their close extinct relatives. Drimolen lies in the Cradle of Humankind, and the site was discovered in 1992.",
+        "The key find is an adult Homo erectus skull fragment, catalogued as DNH 127, about 2 million years old. That is about 200,000 years older than adult H. erectus fossils from Dmanisi, Georgia, which date to about 1.8 million years ago. The team says this supports the idea that the species reached southern Africa earlier than thought.",
+        "H. erectus was rare at Drimolen. Another hominin, Paranthropus robustus, outnumbered it there by more than 10 to 1. Between about 2 and 1.8 million years ago that species developed larger teeth and stronger chewing muscles, and its brain was only slightly larger than a chimpanzee's."
+      ],
+      "chart": {
+        "title": "AGE OF ADULT H. ERECTUS FOSSILS",
+        "subtitle": "Millions of years old",
+        "labels": [
+          "Drimolen",
+          "Dmanisi"
+        ],
+        "values": [
+          2.0,
+          1.8
+        ],
+        "max": 2.5,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Drimolen is in South Africa; Dmanisi is in Georgia."
+      },
+      "why": "Dating fossils precisely helps scientists work out where and when early humans lived and moved.",
+      "analyst": "Why might a single skull fragment change a timeline? What would other scientists want to check before accepting the dating? What can a fossil not tell us about how people lived?",
+      "sources": [
+        {
+          "outlet": "ScienceDaily / La Trobe University",
+          "title": "Scientists found Homo erectus 200,000 years earlier than expected",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: Delhi's air stayed “poor” on Friday, with an air quality index of 223, and winter curbs have begun.",
+        "Space: A catalogue of 2,884 exploding stars hints that dark energy, the force driving the universe's expansion, may change over time.",
+        "Europe: Protests over living costs, schools and housing have spread across France, Italy, Spain, Portugal and Albania.",
+        "UK: Inflation rose to 3.5% in the year to September, from 3.1% in August."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Hominin",
+          "def": "A human or one of our close extinct relatives. Today: 18 hominin fossils were described from Drimolen."
+        },
+        {
+          "word": "Weighted average",
+          "def": "An average in which some values count for more than others. Today: the 73% wildlife decline is a weighted average of population change."
+        },
+        {
+          "word": "mRNA",
+          "def": "A molecule that carries instructions for making a protein. Today: a personalised mRNA vaccine is being tested against melanoma."
+        },
+        {
+          "word": "Autonomy",
+          "def": "The ability to act without constant instruction. Today: Perseverance used its AutoNav system for more than 90% of its driving."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Opportunity, the rover whose distance record Perseverance has passed, explored Mars from 2004 to 2018."
+    },
+    "explainer": {
+      "title": "How a personalised cancer vaccine works",
+      "body": [
+        "Unlike a vaccine against a virus, a cancer vaccine is meant to help the body attack cells that have already turned cancerous. Tumours carry changes, called mutations, that healthy cells lack. A personalised vaccine is designed from a patient's own tumour so that the immune system learns to recognise those changes.",
+        "An mRNA vaccine delivers instructions for cells to make particular proteins so the immune system can practise on them. Keytruda is an immunotherapy: a drug that helps the immune system fight cancer. Giving the two together is meant to train the immune system and then keep it active."
+      ],
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+          "url": "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What did Brent crude rise to at 7:58pm UAE time on Friday?",
+        "(a) $107.20  (b) $127.20  (c) $117.20",
+        "<b>2.</b> How old is the adult Homo erectus skull fragment from Drimolen?",
+        "(a) About 2 million years  (b) About 200,000 years  (c) About 20 million years",
+        "<b>3.</b> By how much did the vaccine lower the risk of melanoma returning?",
+        "(a) 4.2%  (b) 42%  (c) 92%",
+        "<b>4.</b> What does the 73% in the Living Planet Report measure?",
+        "(a) The share of species that have died out  (b) The share of land protected  (c) A weighted average of population change",
+        "<b>5.</b> How far did Perseverance drive to pass Opportunity's record?",
+        "(a) 28.10 miles  (b) 12.4 miles  (c) 330 feet",
+        "<b>Answers.</b> 1 (c): $117.20. 2 (a): About 2 million years. 3 (b): 42%. 4 (c): A weighted average of population change. 5 (a): 28.10 miles."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why might a company-reported trial result need independent checking?",
+        "Why can an average hide both bad news and good news, as the wildlife figure does?",
+        "Why might a rover that steers itself matter more the farther it is from Earth?"
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "Be curious, then be careful.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/",
+    "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+    "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+    "https://www.discoverwildlife.com/environment/living-planet-report-2026",
+    "https://www.popsci.com/environment/giant-tortoise-population-reboud/",
+    "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+    "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude rise to at 7:58pm UAE time on Friday?",
+        "options": [
+          "$107.20",
+          "$127.20",
+          "$117.20"
+        ],
+        "answer": 2,
+        "why": "Brent rose 3.59% to $117.20.",
+        "story": "lead"
+      },
+      {
+        "q": "How old is the adult Homo erectus skull fragment from Drimolen?",
+        "options": [
+          "About 2 million years",
+          "About 200,000 years",
+          "About 20 million years"
+        ],
+        "answer": 0,
+        "why": "It is about 2 million years old.",
+        "story": "history_and_geography"
+      },
+      {
+        "q": "By how much did the vaccine lower the risk of melanoma returning?",
+        "options": [
+          "4.2%",
+          "42%",
+          "92%"
+        ],
+        "answer": 1,
+        "why": "The trial reported a 42% lower risk.",
+        "story": "health"
+      },
+      {
+        "q": "What does the 73% in the Living Planet Report measure?",
+        "options": [
+          "The share of species that have died out",
+          "The share of land protected",
+          "A weighted average of population change"
+        ],
+        "answer": 2,
+        "why": "It is a weighted average, not a loss of 73% of species.",
+        "story": "climate_and_environment"
+      },
+      {
+        "q": "How far did Perseverance drive to pass Opportunity's record?",
+        "options": [
+          "28.10 miles",
+          "12.4 miles",
+          "330 feet"
+        ],
+        "answer": 0,
+        "why": "Its odometer reached 28.10 miles.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The 73% figure means 73% of wild animals have died.",
+        "true": false,
+        "why": "It is a weighted average of population change, not a loss of 73% of animals.",
+        "story": "climate_and_environment"
+      },
+      {
+        "claim": "The Drimolen skull fragment is about 2 million years old.",
+        "true": true,
+        "why": "It is about 200,000 years older than the Dmanisi fossils.",
+        "story": "history_and_geography"
+      },
+      {
+        "claim": "The melanoma vaccine trial involved about 1,100 patients.",
+        "true": true,
+        "why": "Reports say about 1,100 patients took part.",
+        "story": "health"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St. Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Jezero Crater, Mars",
+        "lat": 18.4,
+        "lon": 77.5,
+        "countries": []
+      },
+      {
+        "story": "climate_and_environment",
+        "place": "Yerevan",
+        "lat": 40.18,
+        "lon": 44.51,
+        "countries": [
+          "Armenia"
+        ]
+      },
+      {
+        "story": "health",
+        "place": "Madrid",
+        "lat": 40.42,
+        "lon": -3.7,
+        "countries": [
+          "Spain"
+        ]
+      },
+      {
+        "story": "history_and_geography",
+        "place": "Drimolen, Cradle of Humankind",
+        "lat": -26.0,
+        "lon": 27.75,
+        "countries": [
+          "South Africa",
+          "Georgia"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Costs More After New Attacks in Saudi Arabia",
+        "body": [
+          "Oil rose to about $114.50 a barrel on Friday. Later it reached $117.20. Oil has gone up for three weeks in a row.",
+          "A group from Yemen called the Houthis said they hit targets in Saudi Arabia, including an airport in Dammam. Two people died there.",
+          "Saudi Aramco, the oil company, moved people out of its headquarters in Dhahran. Saudi Arabia sells a lot of oil, so its supply matters to the world."
+        ]
+      },
+      "world": {
+        "headline": "Russia Says It Will Talk Again About Ukraine",
+        "body": [
+          "Russia's leader, Vladimir Putin, met an American envoy named Steve Witkoff. They met in St. Petersburg for about three hours.",
+          "Afterwards, Russia said Putin agreed in principle to restart talks with the US and Ukraine. They could start after 10 November.",
+          "Earlier talks in January and February did not get far. The fighting has not stopped. Ukraine's leader says the fighting should freeze first."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Mars Rover Sets a Driving Record",
+        "body": [
+          "NASA's rover Perseverance has driven 28.10 miles on Mars. That is farther than Opportunity, an older rover, which drove 28.06 miles.",
+          "Perseverance did it in about five and a half years. Opportunity took nearly 15 years.",
+          "Perseverance mostly drives itself. It used its own driving system for more than 90% of the distance. The first Mars rover, Sojourner, drove only about 330 feet. Perseverance has also collected 29 rock samples. Next it will head for a block of ancient rock called Rainbow Falls."
+        ]
+      },
+      "climate_and_environment": {
+        "headline": "Wildlife Numbers Have Fallen, But Some Animals Are Coming Back",
+        "body": [
+          "A big report tracked wild animals with backbones from 1970 to 2022. It found their numbers fell by 73% on average.",
+          "That does not mean 73% of animals are gone. It is an average of how much each group's numbers changed.",
+          "There is good news too. Green sea turtles, bluefin tuna, tigers and elephants in southern Africa have recovered in places. Protecting them helped."
+        ]
+      },
+      "health": {
+        "headline": "A Cancer Vaccine Shows Promise in a Big Trial",
+        "body": [
+          "Melanoma is a serious kind of skin cancer. A company trial tested a vaccine made for each patient, along with a drug called Keytruda.",
+          "About 1,100 patients took part. The risk of the cancer coming back fell by 42%.",
+          "This is a company's result. Experts still need to check the full data before anyone knows how well it works. The results were shown at a cancer conference in Madrid."
+        ]
+      },
+      "history_and_geography": {
+        "headline": "Old Bones in South Africa Change a Timeline",
+        "body": [
+          "Scientists described 18 fossils from a place called Drimolen in South Africa. One is a piece of a skull from an early human called Homo erectus.",
+          "It is about 2 million years old. Similar adult fossils in Georgia are about 1.8 million years old. So the skull is about 200,000 years older.",
+          "The scientists think early humans reached southern Africa earlier than people thought."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "world": "russia-ukraine"
+  }
+}
