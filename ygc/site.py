@@ -151,6 +151,16 @@ details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;paddi
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px;margin:0;padding:0;list-style:none;counter-reset:s}
 .steps li{counter-increment:s;padding-left:34px;position:relative;font-size:.95rem}
 .steps li::before{content:counter(s);position:absolute;left:0;top:-1px;width:24px;height:24px;border-radius:50%;background:var(--cyan);color:var(--paper);font-weight:700;display:grid;place-items:center;font-size:.85rem}
+.tabbar{display:none}
+@media (max-width:699px){
+  header.top nav,.js .menu{display:none!important}
+  .wrap{padding-bottom:110px}
+  .tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1.5px solid var(--line);
+    padding:4px 4px calc(4px + env(safe-area-inset-bottom,0px))}
+  .tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:52px;font-size:12px;font-weight:700;
+    line-height:1.2;color:var(--muted);text-decoration:none;border-radius:10px;text-align:center}
+  .tabbar a span{font-size:21px;line-height:1.15}
+  .tabbar a[aria-current="page"]{color:var(--ink);background:var(--cyan-t)}}
 footer{margin-top:40px;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line);padding-top:14px}
 """
 
@@ -162,7 +172,19 @@ def feedback_nav(cfg, root=""):
     return f'<a href="{root}feedback.html">Feedback</a>' if cfg.get("feedback_url") else ""
 
 
-def page(cfg, title, body, root="", head_extra=""):
+def tabbar(cfg, root, here):
+    """The phone's bottom bar: the same links as the header, one tap from anywhere on the page."""
+    tabs = [("papers", "index.html", "📰", "Papers"), ("play", "play/index.html", "🎧", "Read &amp; Play"),
+            ("design", "builder.html", "✏️", "Design"), ("about", "about.html", "ℹ️", "How it's made")]
+    if cfg.get("feedback_url"):
+        tabs.append(("feedback", "feedback.html", "💬", "Feedback"))
+    now = ' aria-current="page"'
+    return ('<nav class="tabbar" aria-label="Pages">' + "".join(
+        f'<a href="{root}{href}"{now if k == here else ""}><span aria-hidden="true">{icon}</span>{label}</a>'
+        for k, href, icon, label in tabs) + "</nav>")
+
+
+def page(cfg, title, body, root="", head_extra="", here="papers"):
     contact = f' · Corrections: <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>' if cfg.get("contact") else ""
     if cfg.get("feedback_url"):
         contact += f' · Spotted a mistake, or have an idea? <a href="{root}feedback.html">Tell us</a>'
@@ -178,7 +200,8 @@ def page(cfg, title, body, root="", head_extra=""):
 <nav id="nav"><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));}})()</script>
-{body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div></body></html>"""
+{body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div>
+{tabbar(cfg, root, here)}</body></html>"""
 
 
 def qr_url(cfg, eid, date):
@@ -345,7 +368,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
 <p><b>Checked before it is published.</b> Automatic checks confirm every section is complete, the layout fits the printed page, nothing is cut off, and every story lists its sources. A separate fact-check compares each claim with the research. An issue that fails isn't published, and the previous issue stays up.</p>
 <p><b>It can still be wrong.</b> AI makes mistakes and early reports change. Every issue lists its sources on its paper's page, so you can check anything before handing it over.{f' To report an error, email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>.' if cfg.get("contact") else ""}</p>
 <p>You can also <a href="builder.html">design a paper for your own child</a>: the page writes instructions for your own AI chatbot, then checks its reply and prints it with the same engine. The engine is open source.</p></div>"""
-    open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about))
+    open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about, here="about"))
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
@@ -355,7 +378,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         engine_zip(os.path.join(out, "builder-engine.zip"))
     if cfg.get("feedback_url"):
         open(os.path.join(out, "feedback.html"), "w", encoding="utf-8").write(
-            page(cfg, "Feedback", feedback_body(cfg["feedback_url"])))
+            page(cfg, "Feedback", feedback_body(cfg["feedback_url"]), here="feedback"))
     from . import play                      # the children's side: read online and play
     play.build(out, cfg, keep=min(keep, int(cfg.get("play_keep", 7))), log=log)
     open(os.path.join(out, ".nojekyll"), "w").close()
