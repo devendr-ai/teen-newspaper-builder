@@ -1,0 +1,458 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 8,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Jumps Above $114 as Houthi Attacks on Saudi Arabia Continue",
+      "deck": "Aramco moves staff out of its Dhahran headquarters as Brent heads for a third weekly gain.",
+      "body": [
+        "Brent crude, the benchmark price for oil traded around the world, rose 3.59% to $117.20 a barrel at 7:58pm UAE time on Friday 23 October. Earlier in the day it had traded about 1.1% higher at $114.5. US crude (WTI) climbed 3.57% to $103. Brent was on track for a third straight weekly gain.",
+        "The driver was a new wave of attacks on Saudi Arabia. Over 48 hours the Houthis, an armed group from Yemen, claimed strikes on the Saudi Defence Ministry headquarters in Riyadh, King Fahd International Airport in Dammam, Abha International Airport and an Aramco site in Yanbu. These are Houthi claims; the report does not confirm them independently. Two people died and several were injured in the attacks at Dammam airport.",
+        "Saudi Aramco, the state oil company, then evacuated its Dhahran headquarters, the first such evacuation since the Iran war began in late February. The shipping lane matters too. The UK's maritime trade centre counted 10 attacks on commercial vessels in and near the Strait of Hormuz in the week to 19 October, and called October the worst month for such attacks since March."
+      ],
+      "map": {
+        "title": "THE PERSIAN GULF",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "SAUDI ARABIA (ARABIAN PENINSULA)",
+        "footnote": "The Strait of Hormuz links the Gulf to the open ocean",
+        "caption": "Attacks on Saudi sites and on ships both affect oil."
+      },
+      "why": "Saudi Arabia is a major oil exporter, so threats to its airports and oil sites move prices that households and governments, India included, pay far away.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+      "deck": "Russia says talks with the US and Ukraine could resume after 10 November.",
+      "body": [
+        "Russian President Vladimir Putin met US envoy Steve Witkoff in St. Petersburg on Wednesday 21 October for about three hours. Afterwards the Kremlin's foreign affairs adviser, Yuri Ushakov, said Putin agreed “in principle” to resume trilateral talks with the US and Ukraine after 10 November. Trump's son-in-law Jared Kushner joined by video link.",
+        "Ushakov said the talks would focus on building a security system for Russia and Ukraine after the conflict ends. Earlier rounds, in Abu Dhabi in January and February and in Geneva in February, produced little progress beyond prisoner exchanges. Witkoff said there was “some degree of momentum”. Russia also freed American Stephen Hubbard, a retired teacher imprisoned on mercenary charges, which Witkoff called a goodwill gesture. Putin also said he was ready to consider restoring US-Russia economic ties, and Witkoff thanked him for lifting Russia's ban on diesel exports.",
+        "Ukraine's position differs. President Volodymyr Zelenskyy said a freeze in the fighting is the “minimum” Russia must accept, and that only a leaders' summit can break the impasse. The fighting goes on: Russian strikes in Kyiv killed three people and wounded 12, and Russia's Defense Ministry said it intercepted 373 Ukrainian drones overnight. Ukraine launched more than 1,000 drones at Russia in one of its largest attacks of the war, and an oil export terminal in St. Petersburg caught fire.",
+        "The US role is under strain. Witkoff met Zelenskyy and European leaders in Oslo on Tuesday and plans to return there; Norway's prime minister, Jonas Gahr Støre, said Russia may be looking for diplomatic options. On Tuesday Trump pressed Zelenskyy to make a deal and said the US had gotten “absolutely nothing back” from Ukraine. Trump had said on 11 October that Russia and Ukraine agreed to an energy-infrastructure ceasefire, but attacks have continued."
+      ],
+      "illustration": {
+        "title": "Talks, again",
+        "subtitle": "A date after 10 November",
+        "motif": "podium",
+        "caption": "The three sides last met in Geneva in February."
+      },
+      "connect": "Geography and history: St. Petersburg and Oslo, where Witkoff also met Zelenskyy, sit on the Baltic and North Sea coasts of Europe. Past rounds of talks have been held in Abu Dhabi and Geneva.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+          "url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Delhi's Air Stays “Poor” as Winter Curbs Begin",
+      "deck": "The air quality index was 223 on Friday morning, and poor air is expected through Sunday.",
+      "body": [
+        "Delhi's air quality index, a number that rates how polluted the air is, stood at 223 at 8 am on Friday, in the “poor” category, from 226 a day earlier. The Air Quality Early Warning System expects poor air through Sunday 25 October. The season's first poor day came on Wednesday, when the daily average reached 245. Jahangirpuri recorded 284, Rohini 281 and Punjabi Bagh 275.",
+        "The Commission for Air Quality Management invoked Stage I of the Graded Response Action Plan across Delhi and the National Capital Region. The Delhi government banned open garbage burning and ordered food stalls to stop using coal or firewood. Air in the city of about 30 million people is worst from November to January. The main sources are coal-fired power plants, traffic, construction and the burning of crop stubble in nearby areas.",
+        "Tougher rules follow. From 1 November parking fees double, government office staff work from home and construction rules tighten. A complete construction and demolition ban runs from 10 December to 20 January. Fine particles known as PM2.5 reached 233 micrograms per cubic metre early Thursday, about 15 times the WHO's daily limit; last year's peak was 846.",
+        "The health cost is large. A 2024 Lancet Planetary Health study estimated that 3.8 million deaths in India from 2009 to 2019 were linked to pollution above national air quality guidelines. In peak season PM2.5 often exceeds 300 micrograms per cubic metre, about 20 times the WHO's recommended daily maximum. The Commission for Air Quality Management predicts “poor” air in the coming days, and further curbs, including a ban on certain vehicles, are due from 1 November under the Winter Action Plan."
+      ],
+      "illustration": {
+        "title": "Winter air",
+        "subtitle": "Stage I begins",
+        "motif": "skyline",
+        "caption": "Poor air is expected through Sunday 25 October."
+      },
+      "why": "Pollution peaks in the months when exams are held, and the measures show how government tries to cut emissions from power, traffic and building work together.",
+      "sources": [
+        {
+          "outlet": "Business Standard",
+          "title": "Delhi AQI improves to 223",
+          "url": "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html"
+        },
+        {
+          "outlet": "Manila Times / AP",
+          "title": "Indian capital steps up air pollution controls",
+          "url": "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Perseverance Passes Opportunity's Driving Record on Mars",
+      "deck": "A rover that mostly steers itself has driven 28.10 miles in about five and a half years.",
+      "body": [
+        "NASA's Perseverance rover passed the distance record for driving on another world on 11 October. Its odometer reached 28.10 miles (45.22 km) on its 2,006th Martian day, just beyond the 28.06 miles (45.16 km) driven by Opportunity. Perseverance took about five and a half years. Opportunity took nearly 15 years.",
+        "The difference is self-driving. More than 90% of Perseverance's distance was covered with AutoNav, its autonomous navigation system, against about 5% for Opportunity and its twin Spirit. The mission's original plan called for no more than 12.4 miles (20 km) of driving. The rover has also collected 29 rock and regolith samples.",
+        "The first mission extension began in October 2026 and runs to about the end of 2028. Next, the rover heads for Rainbow Falls, a block of ancient crust about 328 feet (100 m) wide, after science at the crater rim at Lac de Charmes and the Idubi area.",
+        "NASA put the record in context. The drive that broke it was 299.6 feet (91.31 m), and the longest single-day drive was up to 1,351 feet (412 m). Perseverance analyses 600,000 measurement points each time it looks ahead, compared with 20 for Sojourner. Spirit drove 4.8 miles and Curiosity more than 23.65 miles. On the Moon, Apollo 17 covered 22.2 miles and the Soviet Lunokhod 2 covered 24.2 miles; Perseverance has passed both. The mission team thinks the rover could eventually more than double the distance it has already traveled. Sojourner, the first Mars rover, drove about 330 feet (100 m) in 1997, and Opportunity operated for 5,111 sols."
+      ],
+      "illustration": {
+        "title": "A long drive",
+        "subtitle": "28.10 miles on Mars",
+        "motif": "rocket",
+        "caption": "Opportunity's record stood at 28.06 miles."
+      },
+      "why": "Rovers that can choose safe paths on their own cover more ground between instructions from Earth, which makes exploration faster and cheaper.",
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        },
+        {
+          "outlet": "Space.com",
+          "title": "Perseverance breaks interplanetary driving record",
+          "url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  INDIA",
+      "headline": "Jio Platforms' Rs 30,213 Crore Share Sale Closes With Demand Rising Each Day",
+      "deck": "Bids reached 12.55 times the shares on offer by 3 pm on the final day.",
+      "body": [
+        "An initial public offering (IPO) is a company's first sale of shares to the public. Jio Platforms' issue is for up to Rs 30,213 crore, all of it fresh shares (2,700,000,000), at a price band of Rs 1,065 to Rs 1,119 a share. It opened on 21 October and closed on 23 October.",
+        "Demand rose every day. Total bids were 3.04 times the shares on offer after day one, 5.40 times after day two and 12.55 times by 3 pm on day three. That final figure excludes the anchor portion and is an intraday reading, not the final close. By category, qualified institutional buyers (QIBs) bid 32.77 times, non-institutional investors (NIIs) 13.38 times and retail investors 2.51 times.",
+        "What happens next: tentative allotment is on 26 October, refunds and share credit on 27 October, and listing on the BSE and NSE is tentatively set for 28 October. The retail lot is 12 shares, a minimum of Rs 13,428 at the upper price band.",
+        "Prices are also the story in Britain. UK inflation rose to 3.5% in the year to September from 3.1% in August, and the ONS said motor fuels rose at their fastest annual rate in four years. The Bank of England's base rate is 3.75%; its next policy meeting is on 5 November, and economists increasingly expect a rate rise before the end of the year."
+      ],
+      "why": "Subscription shows how much investors want to own a company, but the share price on listing day is set by trading, not by the subscription multiple.",
+      "sources": [
+        {
+          "outlet": "HDFC Sky",
+          "title": "Jio IPO subscribed 12.55x by 3 PM IST on Day 3",
+          "url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+        }
+      ],
+      "illustration": {
+        "title": "Bids pile up",
+        "subtitle": "12.55 times by 3 pm",
+        "motif": "grid",
+        "caption": "Day 3 reading excludes the anchor portion."
+      }
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Early Voting Surges Before the Midterms",
+      "deck": "More than 16 million Americans have already voted, mostly by mail.",
+      "body": [
+        "On 3 November, Americans vote in the midterm elections. They are held halfway through a president's term, and they decide who sits in Congress, the group that makes the country's laws. Many people vote early, either by mail or in person, so that they do not have to wait for election day.",
+        "The University of Florida's Election Lab counts more than 16 million people in 41 states and Washington, D.C. who have already voted. About 10 million voted by mail and about 6 million in person. Early voting reached roughly 13 million on Tuesday, more than 40% above the same point in the 2022 midterms.",
+        "The Associated Press found huge surges in Kansas and Texas. Maine, North Carolina and Ohio each saw at least 30% more early voting than four years ago. In Georgia and Michigan the totals are, for now, similar to the last midterms. In Michigan, Democrat Abdul El-Sayed and Republican Mike Rogers debated in Detroit on Wednesday night and both focused on economic policy."
+      ],
+      "chart": {
+        "title": "EARLY VOTES SO FAR",
+        "subtitle": "Millions of votes, approximate",
+        "labels": [
+          "By mail",
+          "In person"
+        ],
+        "values": [
+          10,
+          6
+        ],
+        "max": 12,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Election Lab counts more than 16 million in all. Source: Spectrum News."
+      },
+      "why": "Midterms decide who makes the nation's laws. Early votes show how many people are taking part, but they do not show who will win.",
+      "analyst": "Why might more people vote by mail than in person? What would you want to know before treating early voting as a sign of the final result? Why might turnout rise in some states and not others?",
+      "sources": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Early voting surges in several states with competitive Senate races",
+          "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Europe: Protests over living costs, schools and housing have spread across France, Italy, Spain, Portugal and Albania.",
+        "UK: Inflation rose to 3.5% in the year to September, from 3.1% in August, as motor fuels rose at their fastest annual rate in four years.",
+        "Health: A trial of a personalised mRNA vaccine given with Keytruda cut the risk of melanoma returning by 42%, according to reports.",
+        "United States: The Supreme Court let New Hampshire limit student IDs for voting; Justice Ketanji Brown Jackson dissented."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Subscription",
+          "def": "In a share sale, the number of times total bids exceed the shares on offer. Today: Jio Platforms' issue was subscribed 12.55 times by 3 pm on its last day."
+        },
+        {
+          "word": "Autonomy",
+          "def": "The ability to act without constant instruction. Today: Perseverance used its AutoNav system for more than 90% of its driving."
+        },
+        {
+          "word": "Dissent",
+          "def": "To disagree with a decision, as a judge does in a written opinion. Today: Justice Ketanji Brown Jackson dissented from the Supreme Court's unsigned order."
+        },
+        {
+          "word": "Snap election",
+          "def": "An election called earlier than expected. Today: Spain's prime minister called one for November."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Opportunity, the rover whose distance record Perseverance has passed, worked on Mars for 5,111 sols, as Martian days are called."
+    },
+    "explainer": {
+      "title": "What is a midterm election?",
+      "body": [
+        "The United States elects a president every four years. A midterm election falls halfway between, so it is a verdict on the president's first two years. Voters choose members of Congress, which has two parts: the House of Representatives and the Senate.",
+        "This year, all 435 seats in the House and 35 of the 100 seats in the Senate are on the ballot on 3 November. The party that controls Congress decides which bills get a vote, and the Senate also confirms judges, including those named to the Supreme Court."
+      ],
+      "sources": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Early voting surges",
+          "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What did Brent crude rise to at 7:58pm UAE time on Friday?",
+        "(a) $107.20  (b) $127.20  (c) $117.20",
+        "<b>2.</b> After what date could three-way Ukraine talks resume?",
+        "(a) 10 November  (b) 1 November  (c) 25 October",
+        "<b>3.</b> How many early votes had been counted in the US?",
+        "(a) About 600,000  (b) More than 16 million  (c) More than 60 million",
+        "<b>4.</b> How many times was the Jio issue subscribed by 3 pm on day three?",
+        "(a) 5.40  (b) 2.51  (c) 12.55",
+        "<b>5.</b> How far had Perseverance driven when it passed Opportunity's record?",
+        "(a) 28.10 miles  (b) 12.4 miles  (c) 330 feet",
+        "<b>Answers.</b> 1 (c): $117.20. 2 (a): 10 November. 3 (b): More than 16 million. 4 (c): 12.55. 5 (a): 28.10 miles."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why might attacks in one country change the price of fuel in another?",
+        "Why might a country hold talks in a neutral place?",
+        "How might a government decide when air pollution is bad enough to bring in curbs?"
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "Numbers tell a story, but you have to ask who is counting and why.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/",
+    "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+    "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html",
+    "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829",
+    "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+    "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3",
+    "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude rise to at 7:58pm UAE time on Friday?",
+        "options": [
+          "$107.20",
+          "$127.20",
+          "$117.20"
+        ],
+        "answer": 2,
+        "why": "Brent rose 3.59% to $117.20.",
+        "story": "lead"
+      },
+      {
+        "q": "After what date could three-way Ukraine talks resume?",
+        "options": [
+          "10 November",
+          "1 November",
+          "25 October"
+        ],
+        "answer": 0,
+        "why": "Putin agreed in principle to talks after 10 November.",
+        "story": "world"
+      },
+      {
+        "q": "How many early votes had been counted in the US?",
+        "options": [
+          "About 600,000",
+          "More than 16 million",
+          "More than 60 million"
+        ],
+        "answer": 1,
+        "why": "The Election Lab counted more than 16 million.",
+        "story": "us"
+      },
+      {
+        "q": "How many times was the Jio issue subscribed by 3 pm on day three?",
+        "options": [
+          "5.40",
+          "2.51",
+          "12.55"
+        ],
+        "answer": 2,
+        "why": "Total bids were 12.55 times the shares on offer.",
+        "story": "economics"
+      },
+      {
+        "q": "How far had Perseverance driven when it passed Opportunity's record?",
+        "options": [
+          "28.10 miles",
+          "12.4 miles",
+          "330 feet"
+        ],
+        "answer": 0,
+        "why": "Its odometer reached 28.10 miles.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Aramco evacuated its Dhahran headquarters.",
+        "true": true,
+        "why": "It was the first such evacuation since the Iran war began.",
+        "story": "lead"
+      },
+      {
+        "claim": "More than 16 million Americans have voted early.",
+        "true": true,
+        "why": "The Election Lab counted more than 16 million.",
+        "story": "us"
+      },
+      {
+        "claim": "Perseverance took about 15 years to pass Opportunity's distance.",
+        "true": false,
+        "why": "It took about five and a half years; Opportunity took nearly 15.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St. Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Jezero Crater, Mars",
+        "lat": 18.4,
+        "lon": 77.5,
+        "countries": []
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Costs More After New Attacks in Saudi Arabia",
+        "body": [
+          "Oil rose to about $114.50 a barrel on Friday. Later it reached $117.20. Oil has gone up for three weeks in a row.",
+          "A group from Yemen called the Houthis said they hit targets in Saudi Arabia, including an airport in Dammam. Two people died there.",
+          "Saudi Aramco, the oil company, moved people out of its headquarters in Dhahran. Saudi Arabia sells a lot of oil, so its supply matters to the world."
+        ]
+      },
+      "world": {
+        "headline": "Russia Says It Will Talk Again About Ukraine",
+        "body": [
+          "Russia's leader, Vladimir Putin, met an American envoy named Steve Witkoff. They met in St. Petersburg for about three hours.",
+          "Afterwards, Russia said Putin agreed in principle to restart talks with the US and Ukraine. They could start after 10 November.",
+          "Earlier talks in January and February did not get far. The fighting has not stopped. Ukraine's leader says the fighting should freeze first."
+        ]
+      },
+      "india": {
+        "headline": "Delhi's Air Is Poor and Winter Rules Begin",
+        "body": [
+          "Delhi's air is dirty. On Friday its air quality number was 223. That is called “poor”. It is likely to stay poor until Sunday.",
+          "The city has started a plan to clean the air. People may not burn garbage in the open. Food stalls must stop using coal or firewood.",
+          "The air is usually worst from November to January. Smoke from power plants, traffic, building work and farm fires adds to it."
+        ]
+      },
+      "economics": {
+        "headline": "Many People Want to Buy Jio's Shares",
+        "body": [
+          "A company can sell shares to the public. This is called an IPO. Jio Platforms is selling shares worth up to Rs 30,213 crore.",
+          "Bidding opened on 21 October and closed on 23 October. After day one, bids were 3.04 times the shares on offer. After day two they were 5.40 times. By 3 pm on day three they were 12.55 times.",
+          "The shares are due to be listed on 28 October."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Mars Rover Sets a Driving Record",
+        "body": [
+          "NASA's rover Perseverance has driven 28.10 miles on Mars. That is farther than Opportunity, an older rover, which drove 28.06 miles.",
+          "Perseverance did it in about five and a half years. Opportunity took nearly 15 years.",
+          "Perseverance mostly drives itself. It used its own driving system for more than 90% of the distance. The first Mars rover, Sojourner, drove only about 330 feet. Perseverance has also collected 29 rock samples. Next it will head for a block of ancient rock called Rainbow Falls."
+        ]
+      },
+      "us": {
+        "headline": "Millions Vote Early Before the Midterms",
+        "body": [
+          "On 3 November, Americans vote in the midterm elections. They choose people for Congress, which makes the country's laws.",
+          "Many people vote early. More than 16 million have already voted. About 10 million voted by mail and about 6 million voted in person.",
+          "In Kansas and Texas, early voting has jumped. In Maine, North Carolina and Ohio, there were at least 30% more early votes than four years ago."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "world": "russia-ukraine"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 13,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Jumps Above $114 as Attacks on Saudi Arabia Go On",
+      "deck": "A giant oil company moves its workers out of its headquarters.",
+      "body": [
+        "Oil is a fuel that ships carry all around the world. Its price is quoted per barrel. On Friday, Brent crude, a main world price, rose to about $114.50 a barrel. Later in the day it reached $117.20.",
+        "The price rose after more attacks on Saudi Arabia. The Houthis, a group in Yemen, said they hit the defence ministry in Riyadh, two airports and an oil site in Yanbu. These are the Houthis' own claims. Two people died in attacks at Dammam airport.",
+        "Saudi Aramco, the kingdom's oil company, then moved people out of its headquarters in Dhahran. It was the first time it had done that since the war with Iran began. Oil was on track to rise for a third week in a row. Many countries buy oil from the Gulf, so changes there matter far away."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Oil tankers pass through this narrow strait."
+      },
+      "why": "Saudi Arabia sells oil to the whole world. When its supply is at risk, fuel prices can rise far away.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EUROPE",
+      "headline": "Protests About the Cost of Living Spread in Europe",
+      "deck": "People in several countries say life has become too expensive.",
+      "body": [
+        "Prices for fuel and rent have gone up in many European countries. People there have marched to say schools and public services are not good enough. In France, high school students began the protests more than three weeks ago.",
+        "A trade union, a group that speaks for workers, then joined them. Some marches turned violent, and French police made 2,400 arrests over one weekend.",
+        "Prices matter in these protests. Italy's inflation, the rate at which prices rise, was 4.2% in September. That was higher than the 3.8% for countries that share the euro."
+      ],
+      "chart": {
+        "title": "HOW FAST PRICES ROSE",
+        "subtitle": "Percent rise over one year, September",
+        "labels": [
+          "Eurozone",
+          "Italy"
+        ],
+        "values": [
+          3.8,
+          4.2
+        ],
+        "max": 5,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "The eurozone is the countries that share the euro. Source: AP."
+      },
+      "why": "When prices rise faster than wages, families feel it first, and leaders face pressure to act.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour / AP",
+          "title": "From France to Albania, how social unrest is fueling protests across Europe",
+          "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Russia: President Vladimir Putin agreed in principle to restart talks with the US and Ukraine after 10 November.",
+        "India: Delhi's air stayed in the “poor” group on Friday, with an index reading of 223."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Brent oil stays above $110 a barrel.",
+        "Whether the protests in Europe grow."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
+    "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+    "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude reach later on Friday?",
+        "options": [
+          "$117.20",
+          "$17.20",
+          "$1,172"
+        ],
+        "answer": 0,
+        "why": "Brent reached $117.20 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "Which group said it attacked targets in Saudi Arabia?",
+        "options": [
+          "The Houthis",
+          "The CGT union",
+          "Aramco"
+        ],
+        "answer": 0,
+        "why": "The Houthis claimed the attacks.",
+        "story": "lead"
+      },
+      {
+        "q": "How many arrests did French police make over one weekend?",
+        "options": [
+          "24",
+          "2,400",
+          "240,000"
+        ],
+        "answer": 1,
+        "why": "There were 2,400 arrests.",
+        "story": "world"
+      },
+      {
+        "q": "What was Italy's inflation rate in September?",
+        "options": [
+          "3.8%",
+          "4.2%",
+          "42%"
+        ],
+        "answer": 1,
+        "why": "Italy's inflation was 4.2%.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi Aramco moved people out of its headquarters in Dhahran.",
+        "true": true,
+        "why": "It was the first time since the war with Iran began.",
+        "story": "lead"
+      },
+      {
+        "claim": "The French protests began with high school students.",
+        "true": true,
+        "why": "Students began the protests over their schools.",
+        "story": "world"
+      },
+      {
+        "claim": "Italy's inflation was lower than the eurozone's.",
+        "true": false,
+        "why": "Italy's was 4.2%, the eurozone's 3.8%.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.4,
+        "countries": [
+          "France",
+          "Italy",
+          "Spain"
+        ]
+      }
+    ]
+  }
+}

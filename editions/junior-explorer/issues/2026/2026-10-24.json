@@ -1,0 +1,274 @@
+{
+  "edition": "junior-explorer",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 3,
+  "blocks": {
+    "lead": {
+      "kicker": "BIG STORY  •  VOTING",
+      "headline": "Millions of Grown-Ups Are Already Voting",
+      "deck": "The midterm elections are on 3 November, but many people have voted early.",
+      "body": [
+        "On 3 November, grown-ups in the United States will vote in the midterm elections. They choose people for Congress. Congress is the group that makes the country's laws. Midterms come halfway through a president's four years in office.",
+        "Many people do not wait for the last day. They vote early, by mail or in person. A group at the University of Florida counts early votes. It found more than 16 million people in 41 states and Washington, D.C. had already voted. About 10 million voted by mail. About 6 million voted in person.",
+        "Some places have seen big jumps. The Associated Press, a news agency, found huge jumps in Kansas and Texas. In Maine, North Carolina and Ohio there were at least 30% more early votes than four years ago."
+      ],
+      "chart": {
+        "title": "EARLY VOTES SO FAR",
+        "subtitle": "Millions of votes, about",
+        "labels": [
+          "By mail",
+          "In person"
+        ],
+        "values": [
+          10,
+          6
+        ],
+        "max": 12,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "More than 16 million in all. Source: Spectrum News."
+      },
+      "why": "Voting is how people choose who makes the laws. Children cannot vote yet, but they can learn how it works.",
+      "sources": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Early voting surges in several states with competitive Senate races",
+          "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+        }
+      ]
+    },
+    "science": {
+      "kicker": "SCIENCE  •  MARS",
+      "headline": "A Robot Rover Sets a Driving Record on Mars",
+      "deck": "Perseverance has now driven farther than any rover before it.",
+      "body": [
+        "A rover is a robot car that explores another world. NASA's rover Perseverance is on Mars. On 11 October, it passed a driving record. It has driven 28.10 miles. An older rover named Opportunity drove 28.06 miles.",
+        "Perseverance took about five and a half years. Opportunity took nearly 15 years. The new rover is faster because it can steer itself. It used its own driving system for more than 90% of the trip. Opportunity used its own system for about 5% of its trip.",
+        "NASA first planned for the rover to drive no more than 12.4 miles. The mission has been extended to about the end of 2028. Next, Perseverance is heading for a huge block of ancient rock called Rainbow Falls. It is about as wide as a football field is long."
+      ],
+      "illustration": {
+        "title": "A ROBOT ON MARS",
+        "subtitle": "Perseverance, 28.10 miles",
+        "motif": "rocket",
+        "caption": "It has also collected 29 rock samples."
+      },
+      "why": "A rover that picks safe paths by itself can explore much more ground.",
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "AROUND THE WORLD  •  SEYCHELLES",
+      "headline": "More Giant Tortoises Than People Live on Aldabra",
+      "deck": "A survey counted about 183,000 of them on a remote island ring.",
+      "body": [
+        "Seychelles is a country of islands in the Indian Ocean. Aldabra is part of it. It is an atoll, a ring of coral islands around a lagoon. Scientists now think about 183,000 giant tortoises live there.",
+        "That is more than the number of people in Seychelles, which is about 123,000. The scientists used five years of counts, from 2018 to 2022. They also used math to guess how many tortoises hide in thick bushes. So the number is an estimate, which means a careful guess.",
+        "The tortoises nearly vanished. In the 1800s people took far too many, and fewer than 1,000 were left. Aldabra became a nature reserve in 1981. In 2012, people removed invasive goats from the island. Today the population looks steady."
+      ],
+      "illustration": {
+        "title": "ISLAND OF TORTOISES",
+        "subtitle": "Aldabra, Seychelles",
+        "motif": "globe",
+        "caption": "A ring of coral islands in the Indian Ocean."
+      },
+      "connect": "Protecting a place can bring animals back. Aldabra became a UNESCO World Heritage Site in 1982.",
+      "sources": [
+        {
+          "outlet": "Popular Science",
+          "title": "Giant tortoises now outnumber people in Seychelles",
+          "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: The air in Delhi is “poor” right now, and the city has started rules to clean it, such as no burning garbage.",
+        "France: High school students began marches asking for better schools with more teachers.",
+        "South Africa: Scientists described 18 fossils from Drimolen, including a skull piece about 2 million years old.",
+        "Space: A new list of 2,884 exploding stars hints that dark energy, a mystery push in space, may change over time.",
+        "Cricket: South Africa beat Australia by an innings and 31 runs to level the series."
+      ]
+    },
+    "sports": {
+      "title": "CRICKET",
+      "body": "South Africa beat Australia in the second Test in Gqeberha. <b>Temba Bavuma</b> scored 179 as South Africa made 425/9. Australia were bowled out for 99 in their first turn. The series is 1-1, and the last Test is in Cape Town.",
+      "sources": [
+        {
+          "outlet": "Sowetan",
+          "title": "Proteas claim stunning innings and 31-run victory in second Test",
+          "url": "https://www.sowetan.co.za/sport/2026-10-22-proteas-claim-stunning-innings-and-31-run-victory-in-second-test/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Rover",
+          "def": "A robot vehicle that explores another world. Today: Perseverance is a rover on Mars."
+        },
+        {
+          "word": "Atoll",
+          "def": "A ring of coral islands around a lagoon. Today: Aldabra is an atoll in Seychelles."
+        },
+        {
+          "word": "Ballot",
+          "def": "The paper or form a person uses to vote. Today: Millions of ballots have been cast early."
+        },
+        {
+          "word": "Estimate",
+          "def": "A careful guess based on facts. Today: 183,000 tortoises is an estimate."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "BE A ROVER DRIVER",
+      "body": [
+        "Build a small obstacle course with cushions and shoes. One person is the rover and wears a blindfold or closes their eyes. The other is Mission Control and may only say three commands: forward, left, right. Can the rover reach the end without a bump?",
+        "Now try a rover that steers itself. Walk slowly and look for a safe path alone. Which way was easier, and why? Then count how many steps it took. Perseverance's whole trip so far is 28.10 miles."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The first Mars rover, Sojourner, drove only about 330 feet in 1997. That is about as long as a football field."
+    },
+    "explainer": {
+      "title": "HOW A ROVER DRIVES ITSELF",
+      "body": [
+        "Mars is far away. A radio message from Earth takes many minutes to get there. So engineers cannot steer a rover like a toy car.",
+        "Instead, the rover looks at the ground around it and picks a safe path. Perseverance looks at 600,000 measurement points each time. Sojourner, the first Mars rover, looked at 20. Looking at more points helps a rover avoid rocks."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Voting continues in many states until the elections on 3 November.",
+        "Where Perseverance heads next: toward Rainbow Falls.",
+        "Whether Delhi's air gets cleaner or dirtier."
+      ]
+    },
+    "quote": {
+      "text": "Wonder is where learning begins.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+    "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+    "https://www.popsci.com/environment/giant-tortoise-population-reboud/",
+    "https://www.sowetan.co.za/sport/2026-10-22-proteas-claim-stunning-innings-and-31-run-victory-in-second-test/",
+    "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How far has Perseverance driven?",
+        "options": [
+          "2.81 miles",
+          "28.10 miles",
+          "281 miles"
+        ],
+        "answer": 1,
+        "why": "Its odometer reached 28.10 miles.",
+        "story": "science"
+      },
+      {
+        "q": "About how many giant tortoises live on Aldabra?",
+        "options": [
+          "1,830",
+          "18 million",
+          "183,000"
+        ],
+        "answer": 2,
+        "why": "Scientists estimate about 183,000.",
+        "story": "world"
+      },
+      {
+        "q": "How many people have voted early, at least?",
+        "options": [
+          "16 million",
+          "160,000",
+          "1.6 billion"
+        ],
+        "answer": 0,
+        "why": "More than 16 million had voted.",
+        "story": "lead"
+      },
+      {
+        "q": "What is an atoll?",
+        "options": [
+          "A kind of rover",
+          "A ring of coral islands",
+          "A type of ballot"
+        ],
+        "answer": 1,
+        "why": "An atoll is a ring of coral islands around a lagoon.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Perseverance took about five and a half years to pass the record.",
+        "true": true,
+        "why": "Opportunity took nearly 15 years.",
+        "story": "science"
+      },
+      {
+        "claim": "There are fewer tortoises on Aldabra than people in Seychelles.",
+        "true": false,
+        "why": "About 183,000 tortoises and about 123,000 people.",
+        "story": "world"
+      },
+      {
+        "claim": "The midterm elections are on 3 November.",
+        "true": true,
+        "why": "Americans vote on 3 November.",
+        "story": "lead"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science",
+        "place": "Jezero Crater, Mars",
+        "lat": 18.4,
+        "lon": 77.5,
+        "countries": []
+      },
+      {
+        "story": "world",
+        "place": "Aldabra",
+        "lat": -9.42,
+        "lon": 46.42,
+        "countries": [
+          "Seychelles"
+        ]
+      }
+    ]
+  }
+}

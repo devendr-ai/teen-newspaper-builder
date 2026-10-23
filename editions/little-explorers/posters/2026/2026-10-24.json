@@ -1,0 +1,65 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-24",
+  "question": "How does a robot drive on Mars?",
+  "skill": "Cause and effect",
+  "happened": "A robot car called Perseverance is on Mars. This month it passed a driving record. It has rolled 28.10 miles. Most of the time it steers itself.",
+  "hero": {
+    "motif": "robot",
+    "caption": "A rover far from home"
+  },
+  "steps": [
+    {
+      "title": "Look",
+      "motif": "robot",
+      "text": "The rover looks at the ground ahead."
+    },
+    {
+      "title": "Choose",
+      "motif": "robot",
+      "text": "It picks a safe path by itself."
+    },
+    {
+      "title": "Roll",
+      "motif": "robot",
+      "text": "Then it rolls along that path."
+    }
+  ],
+  "home": {
+    "chain": [
+      "Look",
+      "Choose",
+      "Step",
+      "Home"
+    ],
+    "text": "You do this too. You look at the floor and choose where to step. Then you walk. A rover does the same on Mars."
+  },
+  "find_it": {
+    "map": {
+      "title": "FAR AWAY",
+      "label_top": "EARTH",
+      "label_bottom": "MARS",
+      "footnote": ""
+    },
+    "text": "Mars is a planet far from Earth. Draw a rover rolling on it."
+  },
+  "try_it": {
+    "title": "Be a rover",
+    "steps": [
+      "Put three shoes on the floor with a grown-up.",
+      "Look closely. Choose a safe path around them.",
+      "Walk slowly along your path. Did you bump a shoe?"
+    ]
+  },
+  "talk": {
+    "questions": [
+      "What did you look at before you chose your path?",
+      "What might a rover need to look out for on Mars?"
+    ],
+    "tip": "Today's skill is cause and effect: because the rover looks, it can choose a safe path. Ask \"what happens next?\" Don't correct; add one more detail."
+  },
+  "next_week": "Will the rover drive past 28.10 miles by next week? Guess, then check.",
+  "sources": [
+    "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+  ]
+}

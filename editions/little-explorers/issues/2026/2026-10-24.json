@@ -1,0 +1,230 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 3,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Costs More Again",
+      "deck": "Oil is a fuel. It cost more this week.",
+      "body": [
+        "Oil is a fuel that ships carry around the world. A barrel is a big drum of oil. On Friday, one barrel cost about $114.50. Later it cost $117.20.",
+        "Oil costs more because of fighting near Saudi Arabia. A group from Yemen, called the Houthis, said they hit places there, including airports. A big oil company moved its workers out of one office.",
+        "Saudi Arabia sells a lot of oil. When it is harder to get, oil costs more. Oil has cost more for three weeks in a row."
+      ],
+      "map": {
+        "title": "THE PERSIAN GULF",
+        "label_top": "IRAN",
+        "label_bottom": "SAUDI ARABIA",
+        "footnote": "A sea with oil ships",
+        "caption": "Oil ships sail on this sea."
+      },
+      "why": "Oil becomes fuel for cars and trucks. When oil costs more, fuel can cost more too.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SEYCHELLES",
+      "headline": "Giant Tortoises Come Back",
+      "deck": "An island has more tortoises than people.",
+      "body": [
+        "Seychelles is a country of islands in the Indian Ocean. A ring of small islands there is called Aldabra. Giant tortoises live on Aldabra.",
+        "Scientists think about 183,000 tortoises live there. That is more than the people in Seychelles. About 123,000 people live in the whole country.",
+        "Long ago, people took too many tortoises. Fewer than 1,000 were left. Then Aldabra became a nature park in 1981. In 2012, people removed goats from the island. Today the tortoises are safe."
+      ],
+      "illustration": {
+        "title": "TORTOISE ISLAND",
+        "subtitle": "Aldabra, Seychelles",
+        "motif": "globe",
+        "caption": "A ring of islands in the sea."
+      },
+      "why": "When people protect a place, animals can come back.",
+      "sources": [
+        {
+          "outlet": "Popular Science",
+          "title": "Giant tortoises now outnumber people in Seychelles",
+          "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  VOTING",
+      "headline": "Many Grown-Ups Are Voting Early",
+      "deck": "Election Day is November 3.",
+      "body": [
+        "Grown-ups in the United States will vote on November 3. They will choose people for Congress. Congress makes the laws.",
+        "Many people do not wait. They vote early. About 10 million sent their votes by mail. About 6 million voted in person.",
+        "Votes came in from 41 states and Washington, D.C. That is more than 16 million votes so far. Kansas and Texas had big jumps. A vote is a way to choose who will speak for you."
+      ],
+      "chart": {
+        "title": "EARLY VOTES SO FAR",
+        "subtitle": "Millions of votes",
+        "labels": [
+          "By mail",
+          "In person"
+        ],
+        "values": [
+          10,
+          6
+        ],
+        "max": 12,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "More than 16 million in all."
+      },
+      "why": "Voting lets people have a say in the rules everyone follows.",
+      "sources": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Early voting surges in several states with competitive Senate races",
+          "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: The air in Delhi is dirty, so the city has new rules, like no burning garbage.",
+        "South Africa: Scientists found bones from an early human that are about 2 million years old."
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "A Robot Drives Far on Mars",
+      "deck": "A rover has set a driving record.",
+      "body": [
+        "A rover is a robot car. It explores another world. NASA's rover Perseverance is on Mars. Mars is a planet far from Earth.",
+        "On October 11, the rover passed a record. It has driven 28.10 miles. An older rover, Opportunity, drove 28.06 miles.",
+        "Perseverance took about five and a half years. Opportunity took nearly 15 years. Perseverance mostly steers itself. It has also collected 29 rock samples. Next it will visit a huge block of old rock."
+      ],
+      "why": "A robot that can pick a safe path can explore more of a faraway world.",
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Rover",
+          "def": "A robot car that explores another world. Today: Perseverance is a rover on Mars."
+        },
+        {
+          "word": "Tortoise",
+          "def": "An animal with a hard shell that walks slowly on land. Today: Giant tortoises live on Aldabra."
+        },
+        {
+          "word": "Ballot",
+          "def": "The paper a person uses to vote. Today: Millions of ballots have come in early."
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.popsci.com/environment/giant-tortoise-population-reboud/",
+    "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+    "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+    "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html",
+    "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What does a rover do?",
+        "options": [
+          "Explores another world",
+          "Bakes bread",
+          "Sails a boat"
+        ],
+        "answer": 0,
+        "why": "A rover is a robot car that explores another world.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "Where do the giant tortoises live?",
+        "options": [
+          "On Mars",
+          "On Aldabra",
+          "In Delhi"
+        ],
+        "answer": 1,
+        "why": "Giant tortoises live on Aldabra.",
+        "story": "world"
+      },
+      {
+        "q": "When is Election Day?",
+        "options": [
+          "November 3",
+          "October 11",
+          "March 6"
+        ],
+        "answer": 0,
+        "why": "Grown-ups vote on November 3.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Perseverance is a rover on Mars.",
+        "true": true,
+        "why": "It is a robot car on Mars.",
+        "story": "science_and_technology"
+      },
+      {
+        "claim": "There are fewer tortoises on Aldabra than people in Seychelles.",
+        "true": false,
+        "why": "About 183,000 tortoises and about 123,000 people.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Aldabra",
+        "lat": -9.42,
+        "lon": 46.42,
+        "countries": [
+          "Seychelles"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Jezero Crater, Mars",
+        "lat": 18.4,
+        "lon": 77.5,
+        "countries": []
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 8,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Jumps Above $114 as Attacks on Saudi Arabia Continue",
+      "deck": "Dearer oil is feeding straight into fuel bills in Britain and Europe.",
+      "body": [
+        "Brent crude, the benchmark price for oil traded around the world, rose 3.59% to $117.20 a barrel on Friday evening, UAE time. Earlier it had traded about 1.1% higher at $114.5. Brent was on track for a third straight weekly gain. On 19 October it had dipped 2.5% to $107.16, after nearly $110 on 16 October, its highest since mid-May.",
+        "The cause is a new wave of attacks on Saudi Arabia. Over 48 hours the Houthis, an armed group from Yemen, claimed strikes on the Saudi Defence Ministry headquarters in Riyadh, airports at Dammam and Abha, and an Aramco site in Yanbu. These are Houthi claims. Two people died in attacks at Dammam airport. Saudi Aramco evacuated its Dhahran headquarters, the first such evacuation since the Iran war began in late February.",
+        "Ships are at risk too. The UK's maritime trade centre counted 10 attacks on commercial vessels in and near the Strait of Hormuz in the week to 19 October. For Europe the effect is practical: France secured an extra 200,000 tons of diesel a month from the UAE and Bahrain, and UK inflation has been pushed up by fuel."
+      ],
+      "map": {
+        "title": "THE PERSIAN GULF",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "SAUDI ARABIA (ARABIAN PENINSULA)",
+        "footnote": "The Strait of Hormuz links the Gulf to the open ocean",
+        "caption": "Attacks on Saudi sites and on ships both affect oil."
+      },
+      "why": "Oil is priced on a world market, so trouble in the Gulf shows up in petrol and diesel prices in Britain and across Europe.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  RUSSIA AND UKRAINE",
+      "headline": "Putin Agrees in Principle to Restart Three-Way Talks",
+      "deck": "Russia says talks with the US and Ukraine could resume after 10 November.",
+      "body": [
+        "Russian President Vladimir Putin met US envoy Steve Witkoff in St. Petersburg on 21 October for about three hours. Afterwards the Kremlin's foreign affairs adviser, Yuri Ushakov, said Putin agreed “in principle” to resume three-way talks with the US and Ukraine after 10 November. The talks would focus on a security system for Russia and Ukraine after the war ends.",
+        "Earlier rounds in Abu Dhabi and Geneva earlier this year produced little beyond prisoner exchanges. This time Russia freed an American, Stephen Hubbard, a retired teacher, which Witkoff called a goodwill gesture. Ukraine's President Zelenskyy says a freeze in the fighting is the “minimum” Russia must accept, and that only a meeting of leaders can break the impasse.",
+        "The war goes on. Russian strikes in Kyiv killed three people and wounded 12. Ukraine launched more than 1,000 drones at Russia in one of its largest attacks of the war, and an oil export terminal in St. Petersburg caught fire. Norway's prime minister, who hosted Witkoff and Zelenskyy in Oslo, said Russia may be looking for diplomatic options. US President Trump pressed Zelenskyy to make a deal and said the US had gotten “absolutely nothing back” from Ukraine."
+      ],
+      "illustration": {
+        "title": "Talks, again",
+        "subtitle": "A date after 10 November",
+        "motif": "podium",
+        "caption": "Earlier rounds were held in Abu Dhabi and Geneva."
+      },
+      "connect": "Geography: Oslo and St. Petersburg are both Baltic-region cities, while the earlier talks were held in Abu Dhabi and Geneva, neutral places far from the fighting.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+          "url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  ECONOMY",
+      "headline": "UK Prices Rise 3.5% in a Year as Fuel Costs Climb",
+      "deck": "The Bank of England meets on 5 November, a week after the Autumn Budget.",
+      "body": [
+        "Inflation is the rate at which prices rise. UK inflation was 3.5% in the 12 months to September, up from 3.1% in August. Economists had expected 3.4%.",
+        "The Office for National Statistics, which compiles the figures, said motor fuels recorded their fastest annual rise in four years. That links back to the Gulf: oil prices have risen sharply since the Iran war began in late February.",
+        "The Bank of England's base rate, the interest rate that guides what banks charge, is 3.75%. Its next meeting is on 5 November, and economists increasingly expect a rise before the end of the year. In the Commons the opposition argued government borrowing was driving inflation, while the government pointed to instability in the Middle East."
+      ],
+      "why": "Higher prices shrink what families can buy, and a higher base rate raises the cost of mortgages and loans.",
+      "also": [
+        "Aberfan: the King, Queen and Prince of Wales marked 60 years since the disaster, which killed 144 people, including 116 children.",
+        "Commons: ministers and the opposition clashed over what is driving inflation."
+      ],
+      "sources": [
+        {
+          "outlet": "QNC News",
+          "title": "UK inflation climbs to 3.5% as fuel prices push cost of living higher",
+          "url": "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/"
+        },
+        {
+          "outlet": "Royal Family",
+          "title": "The King, The Queen and The Prince of Wales mark the 60th anniversary of the Aberfan Disaster",
+          "url": "https://www.royal.uk/aberfan-60"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Science: NASA's Perseverance rover has driven 28.10 miles on Mars, passing the 28.06 miles Opportunity drove.",
+        "Health: a trial of a personalised mRNA vaccine given with Keytruda cut the risk of melanoma returning by 42%, according to reports."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Snap election",
+          "def": "An election called earlier than expected. Today: Spain's prime minister has called one for November."
+        },
+        {
+          "word": "Base rate",
+          "def": "The Bank of England's main interest rate, which guides what banks charge. Today: it stands at 3.75%."
+        },
+        {
+          "word": "Trade union",
+          "def": "A group that speaks for workers. Today: France's CGT union joined the school students' protests."
+        },
+        {
+          "word": "Benchmark",
+          "def": "A standard price others are measured against. Today: Brent crude is the benchmark for oil."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Sri Lanka's 430-8 against England is the second-highest successful chase in one-day international history. The record is South Africa's 435 against Australia in Johannesburg in 2006."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  PROTESTS",
+      "headline": "Protests Over Living Costs and Schools Spread Across Europe",
+      "deck": "From France to Albania, students and workers say prices and public services are failing them.",
+      "body": [
+        "Rising fuel costs, unhappiness with schools, weaker public services and a housing crisis have fuelled protests across Europe this autumn, according to the Associated Press. In France, high school students held blockades for more than three weeks, asking for more resources for understaffed, run-down schools. The CGT union then joined.",
+        "Weekend unrest in France led to 2,400 arrests and looting in Paris, Marseille, Lyon and Bordeaux. President Macron condemned the violence and blamed far-left activists. In Italy, peaceful marches were followed by riots in Turin, Bologna and Milan. Italy's inflation was 4.2% in September. In Spain, housing protests and a teachers' strike led Prime Minister Pedro Sanchez to call a snap election for November.",
+        "In Albania, students joined the “Flamingo” movement in Tirana, which wants Prime Minister Edi Rama to resign and an end to corruption. Serbia holds a parliamentary election on 25 October after nearly two years of student-led anti-corruption protests."
+      ],
+      "chart": {
+        "title": "HOW FAST PRICES ROSE",
+        "subtitle": "Percent rise over one year, September",
+        "labels": [
+          "UK",
+          "Eurozone",
+          "Italy"
+        ],
+        "values": [
+          3.5,
+          3.8,
+          4.2
+        ],
+        "max": 5,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "Sources: ONS via QNC News; AP."
+      },
+      "why": "When prices and rents rise faster than pay, people turn to the streets, and governments face pressure to act.",
+      "analyst": "Why might students, unions and renters protest together? Why might a government find it hard to answer protests about living costs?",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour / AP",
+          "title": "From France to Albania, how social unrest is fueling protests across Europe",
+          "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+        },
+        {
+          "outlet": "QNC News",
+          "title": "UK inflation climbs to 3.5%",
+          "url": "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "CRICKET: SRI LANKA CHASE 430 TO BEAT ENGLAND",
+      "body": "Sri Lanka beat England by two wickets with one ball to spare in Rawalpindi on Thursday. England made 429-4, with <b>Harry Brook</b> scoring 202 off 116 balls, the fastest ODI double century. Sri Lanka replied with 430-8, and <b>Janith Liyanage</b> hit the winning six.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Sri Lanka beat England to overcome Harry Brook hitting fastest 200 in ODIs",
+          "url": "https://aljazeera.com/amp/sports/2026/10/22/sri-lanka-beat-england-to-overcome-harry-brook-hitting-fastest-200-in-odis"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Brent stays above $110 a barrel.",
+        "Serbia's parliamentary election on 25 October."
+      ]
+    },
+    "quote": {
+      "text": "A price is a message. Ask what it is telling you.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/",
+    "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+    "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/",
+    "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
+    "https://www.royal.uk/aberfan-60",
+    "https://aljazeera.com/amp/sports/2026/10/22/sri-lanka-beat-england-to-overcome-harry-brook-hitting-fastest-200-in-odis"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What was UK inflation in the 12 months to September?",
+        "options": [
+          "5.3%",
+          "3.5%",
+          "0.35%"
+        ],
+        "answer": 1,
+        "why": "The ONS figure was 3.5%.",
+        "story": "uk"
+      },
+      {
+        "q": "Which group claimed attacks on Saudi airports and an Aramco site?",
+        "options": [
+          "The CGT",
+          "The Flamingo movement",
+          "The Houthis"
+        ],
+        "answer": 2,
+        "why": "The Houthis claimed them.",
+        "story": "lead"
+      },
+      {
+        "q": "After what date could three-way talks on Ukraine resume?",
+        "options": [
+          "10 November",
+          "1 October",
+          "5 November"
+        ],
+        "answer": 0,
+        "why": "Putin agreed in principle to talks after 10 November.",
+        "story": "world"
+      },
+      {
+        "q": "How many arrests did French weekend unrest lead to?",
+        "options": [
+          "240",
+          "2,400",
+          "24,000"
+        ],
+        "answer": 1,
+        "why": "Weekend unrest led to 2,400 arrests.",
+        "story": "europe"
+      },
+      {
+        "q": "What is the Bank of England base rate?",
+        "options": [
+          "7.35%",
+          "0.375%",
+          "3.75%"
+        ],
+        "answer": 2,
+        "why": "The base rate is 3.75%.",
+        "story": "uk"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Aramco evacuated its Dhahran headquarters.",
+        "true": true,
+        "why": "It was the first such evacuation since the Iran war began.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Bank of England meets next on 5 November.",
+        "true": true,
+        "why": "The next policy meeting is on 5 November.",
+        "story": "uk"
+      },
+      {
+        "claim": "The French protests were started by trade unions.",
+        "true": false,
+        "why": "High school students started them; the CGT union joined later.",
+        "story": "europe"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St. Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "United Kingdom",
+        "lat": 54.0,
+        "lon": -2.0,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.4,
+        "countries": [
+          "France",
+          "Italy",
+          "Spain",
+          "Albania"
+        ]
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Costs More After New Attacks in Saudi Arabia",
+        "body": [
+          "Oil rose to about $114.50 a barrel on Friday. Later it reached $117.20. Oil has gone up for three weeks in a row.",
+          "A group from Yemen called the Houthis said they hit targets in Saudi Arabia, including airports. Two people died at the airport in Dammam.",
+          "Saudi Aramco, the oil company, moved people out of its headquarters. When oil costs more, petrol and diesel cost more too, even in Europe."
+        ]
+      },
+      "world": {
+        "headline": "Russia Says It Will Talk Again About Ukraine",
+        "body": [
+          "Russia's leader, Vladimir Putin, met an American envoy named Steve Witkoff. They talked in St. Petersburg for about three hours.",
+          "Afterwards, Russia said Putin agreed in principle to restart talks with the US and Ukraine. They could start after 10 November.",
+          "The fighting has not stopped. Ukraine's leader says the fighting should freeze first. Russia also freed an American teacher as a goodwill gesture."
+        ]
+      },
+      "uk": {
+        "headline": "Prices in the UK Are Rising Faster",
+        "body": [
+          "Inflation is how fast prices go up. In the UK it was 3.5% over the year to September. In August it was 3.1%.",
+          "Petrol and diesel were a big reason. They rose faster than at any time in four years.",
+          "The Bank of England sets an interest rate of 3.75%. It will meet again on 5 November. Many experts think it may raise the rate."
+        ]
+      },
+      "europe": {
+        "headline": "People Across Europe Protest About Prices and Schools",
+        "body": [
+          "In many European countries, people are marching. They say prices, rent and schools are not good enough.",
+          "In France, high school students started the protests. They wanted more help for their schools. A workers' union joined them. Police made 2,400 arrests in one weekend after some marches turned violent.",
+          "In Italy, prices rose 4.2% in a year. In Spain, the prime minister called an election for November."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "world": "russia-ukraine"
+  }
+}
