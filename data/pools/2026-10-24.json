@@ -1142,5 +1142,68 @@
     ]
    }
   ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ind-w-zim-w",
+    "headline": "India Women beat Zimbabwe Women by nine wickets in first ODI",
+    "what_happened": "India Women beat Zimbabwe Women by nine wickets at Vadodara on 23 October.",
+    "why_it_matters": "A sports result.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India Women beat Zimbabwe Women by nine wickets in the first ODI at Vadodara on 23 October 2026. Zimbabwe made 197 batting first; India reached 200 for 1 with 137 balls to spare.",
+      "source_url": "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-1st-odi-1535655/match-report"
+     },
+     {
+      "fact": "Shree Charani and Kranti Gaud shared seven wickets. Pratika Rawal finished unbeaten on 100 off 96 balls, her third ODI century; Shafali Verma made 64 not out off 33. India lead the three-match series 1-0; the second ODI is on 25 October in Vadodara.",
+      "source_url": "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-1st-odi-1535655/match-report"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "sources": [
+     {
+      "outlet": "Cricinfo",
+      "title": "Rawal century, Shree Charani four-for hand India comfortable win",
+      "url": "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-1st-odi-1535655/match-report",
+      "published": "2026-10-23"
+     }
+    ]
+   },
+   {
+    "id": "sa-aus-test",
+    "headline": "South Africa beat Australia by an innings and 31 runs in second Test",
+    "what_happened": "South Africa beat Australia at St George's Park, Gqeberha, to level the series 1-1.",
+    "why_it_matters": "A sports result.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "South Africa beat Australia by an innings and 31 runs in the second Test at St George's Park, Gqeberha, on Thursday 22 October 2026, levelling the series at 1-1.",
+      "source_url": "https://www.sowetan.co.za/sport/2026-10-22-proteas-claim-stunning-innings-and-31-run-victory-in-second-test/"
+     },
+     {
+      "fact": "Temba Bavuma made 179 as South Africa declared on 425/9; Australia were bowled out for 99 in their first innings (Jansen 5-33) and 295 following on. Rabada took 4/77 and Mulder 3/64. The third Test at Newlands, Cape Town, decides the series.",
+      "source_url": "https://www.sowetan.co.za/sport/2026-10-22-proteas-claim-stunning-innings-and-31-run-victory-in-second-test/"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "sources": [
+     {
+      "outlet": "Sowetan",
+      "title": "Proteas claim stunning innings and 31-run victory in second Test",
+      "url": "https://www.sowetan.co.za/sport/2026-10-22-proteas-claim-stunning-innings-and-31-run-victory-in-second-test/",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
  }
 }

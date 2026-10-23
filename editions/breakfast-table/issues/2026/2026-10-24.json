@@ -1,0 +1,280 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-24",
+  "volume": 1,
+  "issue": 13,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Jumps Above $114 as Attacks on Saudi Arabia Go On",
+      "deck": "A giant oil company moves its workers out of its headquarters.",
+      "body": [
+        "Oil is a fuel that ships carry all around the world. Its price is quoted per barrel. On Friday, Brent crude, a main world price, rose to about $114.50 a barrel. Later in the day it reached $117.20.",
+        "The price rose after more attacks on Saudi Arabia. The Houthis, a group in Yemen, said they hit the defence ministry in Riyadh, airports at Dammam and Abha, and an oil site at Yanbu. These are the Houthis' own claims. Two people died in attacks at Dammam airport.",
+        "Saudi Aramco, the kingdom's oil company, then moved people out of its headquarters in Dhahran. It was the first such move since the war with Iran began. Oil was on track to rise for a third week in a row."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "A narrow sea lane that links the Gulf to the open ocean",
+        "caption": "Oil tankers pass through this narrow strait."
+      },
+      "why": "Saudi Arabia sells oil to the whole world. When its supply is at risk, fuel prices can rise far away.",
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EUROPE",
+      "headline": "Protests About the Cost of Living Spread in Europe",
+      "deck": "People in several countries say life has become too expensive.",
+      "body": [
+        "Prices for fuel and rent have gone up in many European countries. People there have marched to say schools and public services are not good enough. In France, high school students began the protests more than three weeks ago, asking for more teachers and better buildings.",
+        "A trade union, a group that speaks for workers, then joined them. Some marches turned violent, and French police made 2,400 arrests over one weekend. President Emmanuel Macron condemned the violence and blamed far-left activists.",
+        "In Italy, inflation, the rate at which prices rise, was 4.2% in September. That was higher than the 3.8% for countries that share the euro. In Spain, the prime minister has called an election for November.",
+        "In Albania, students have joined a movement in the capital, Tirana. It wants Prime Minister Edi Rama to resign and asks for an end to corruption. Mr Rama has called the protesters “ideologized and radicalized.” "
+      ],
+      "chart": {
+        "title": "HOW FAST PRICES ROSE",
+        "subtitle": "Percent rise over one year, September",
+        "labels": [
+          "Eurozone",
+          "Italy"
+        ],
+        "values": [
+          3.8,
+          4.2
+        ],
+        "max": 5,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "The eurozone is the countries that share the euro. Source: AP."
+      },
+      "connect": "Fuel prices link this story to the lead. Oil from the Gulf powers lorries and farms, so dearer oil can make food and rent cost more too.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour / AP",
+          "title": "From France to Albania, how social unrest is fueling protests across Europe",
+          "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Early Voting Surges Before the Midterms",
+      "deck": "More than 16 million Americans have already voted.",
+      "body": [
+        "On 3 November, Americans vote in the midterm elections. They are held halfway through a president's term, and they decide who controls Congress, the group that makes the country's laws.",
+        "Many people vote early, by mail or in person. The University of Florida's Election Lab counted more than 16 million early votes in 41 states and Washington, D.C. About 10 million came by mail, and about 6 million were cast in person.",
+        "The Associated Press, a news agency, found huge jumps in Kansas and Texas. Maine, North Carolina and Ohio each saw at least 30% more early votes than four years ago."
+      ],
+      "why": "Midterm elections decide who makes the nation's laws. Early votes show how many people are taking part.",
+      "also": [
+        "Michigan: two Senate candidates, Abdul El-Sayed and Mike Rogers, debated in Detroit and focused on the economy.",
+        "Supreme Court: it let New Hampshire limit student IDs for voting."
+      ],
+      "sources": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Early voting surges in several states with competitive Senate races",
+          "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Russia: President Vladimir Putin agreed in principle to restart talks with the US and Ukraine after 10 November.",
+        "Science: NASA's Perseverance rover has driven 28.10 miles on Mars, farther than any other vehicle on another world."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might an attack in Saudi Arabia change the price of fuel in a country far away?",
+        "Why do you think so many students are protesting about their schools, and what would you ask them?",
+        "Why do you think more people are voting early this year?"
+      ],
+      "sources": [
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "PBS NewsHour / AP",
+          "title": "From France to Albania",
+          "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+        },
+        {
+          "outlet": "Spectrum News",
+          "title": "Early voting surges",
+          "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Delhi's Air Stays “Poor” as Pollution Curbs Begin",
+      "deck": "The city has started its winter plan to clean the air.",
+      "body": [
+        "Delhi is a city of about 30 million people. Its air is worst in winter, from November to January. On Friday morning the air quality index, a number that measures how dirty the air is, was 223. That is in the “poor” group.",
+        "The air is likely to stay poor through Sunday. The main causes are coal-fired power plants, traffic, building work and farmers burning crop leftovers nearby.",
+        "Officials have started a set of curbs. Open garbage burning is banned, and food stalls must stop using coal or firewood. From 1 November, parking fees double and government office staff work from home. A full ban on building and demolition work will run from 10 December to 20 January."
+      ],
+      "why": "Dirty air can harm people's lungs, and the worst months are still ahead.",
+      "sources": [
+        {
+          "outlet": "Business Standard",
+          "title": "Delhi AQI improves to 223",
+          "url": "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html"
+        },
+        {
+          "outlet": "Manila Times / AP",
+          "title": "Indian capital steps up air pollution controls",
+          "url": "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829"
+        }
+      ]
+    },
+    "sports": {
+      "title": "CRICKET: INDIA WOMEN WIN FIRST ODI",
+      "body": "India Women beat Zimbabwe Women by nine wickets at Vadodara on Friday. Zimbabwe made 197. <b>Pratika Rawal</b> finished unbeaten on 100 off 96 balls, and <b>Shafali Verma</b> made 64 not out off 33. India lead the three-match series 1-0.",
+      "sources": [
+        {
+          "outlet": "Cricinfo",
+          "title": "Rawal century, Shree Charani four-for hand India comfortable win",
+          "url": "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-1st-odi-1535655/match-report"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Brent oil stays above $110 a barrel.",
+        "Whether Delhi's air gets better or worse over the weekend."
+      ]
+    },
+    "quote": {
+      "text": "Numbers tell a story, but you have to ask who is counting and why.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
+    "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+    "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+    "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html",
+    "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829",
+    "https://www.cricinfo.com/series/zimbabwe-women-in-india-2026-27-1535648/india-women-vs-zimbabwe-women-1st-odi-1535655/match-report",
+    "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What did Brent crude reach later on Friday?",
+        "options": [
+          "$17.20",
+          "$117.20",
+          "$1,172"
+        ],
+        "answer": 1,
+        "why": "Brent reached $117.20 a barrel.",
+        "story": "lead"
+      },
+      {
+        "q": "How many early votes had been counted in 41 states and Washington, D.C.?",
+        "options": [
+          "More than 16 million",
+          "About 600,000",
+          "More than 90 million"
+        ],
+        "answer": 0,
+        "why": "The Election Lab counted more than 16 million.",
+        "story": "us"
+      },
+      {
+        "q": "What was Delhi's air quality index on Friday morning?",
+        "options": [
+          "32",
+          "223",
+          "2,230"
+        ],
+        "answer": 1,
+        "why": "The index was 223, in the poor group.",
+        "story": "india"
+      },
+      {
+        "q": "Who began the protests in France?",
+        "options": [
+          "Farmers",
+          "High school students",
+          "Football fans"
+        ],
+        "answer": 1,
+        "why": "High school students began them over their schools.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi Aramco moved people out of its headquarters in Dhahran.",
+        "true": true,
+        "why": "It happened for the first time since the war with Iran began.",
+        "story": "lead"
+      },
+      {
+        "claim": "Italy's inflation was lower than the eurozone's in September.",
+        "true": false,
+        "why": "Italy's was 4.2%, the eurozone's 3.8%.",
+        "story": "world"
+      },
+      {
+        "claim": "Delhi's air is expected to stay poor through Sunday.",
+        "true": true,
+        "why": "The paper says poor air is likely through Sunday.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "France",
+        "lat": 46.6,
+        "lon": 2.4,
+        "countries": [
+          "France",
+          "Italy",
+          "Spain"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ]
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}
