@@ -67,7 +67,7 @@
         "NASA's Perseverance rover passed the distance record for driving on another world on 11 October. Its odometer reached 28.10 miles (45.22 km) on its 2,006th Martian day, just beyond the 28.06 miles (45.16 km) driven by Opportunity. Perseverance took about five and a half years. Opportunity took nearly 15 years.",
         "The difference is self-driving. More than 90% of Perseverance's distance was covered with AutoNav, its autonomous navigation system, against about 5% for Opportunity and its twin Spirit. The mission's original plan called for no more than 12.4 miles (20 km) of driving. The rover has also collected 29 rock and regolith samples.",
         "The first mission extension began in October 2026 and runs to about the end of 2028. Next, the rover heads for Rainbow Falls, a block of ancient crust about 328 feet (100 m) wide, after science at the crater rim at Lac de Charmes and the Idubi area.",
-        "NASA put the record in context. The drive that broke it was 299.6 feet (91.31 m), and the longest single-day drive was up to 1,351 feet (412 m). Perseverance analyses 600,000 measurement points each time it looks ahead, compared with 20 for Sojourner. Spirit drove 4.8 miles and Curiosity more than 23.65 miles. On the Moon, Apollo 17 covered 22.2 miles and the Soviet Lunokhod 2 covered 24.2 miles; Perseverance has passed both."
+        "NASA put the record in context. The drive that broke it was 299.6 feet (91.31 m), and the longest single-day drive was up to 1,351 feet (412 m). Perseverance analyses 600,000 measurement points each time it looks ahead, compared with 20 for Sojourner. Spirit drove 4.8 miles and Curiosity more than 23.65 miles. On the Moon, Apollo 17 covered 22.2 miles and the Soviet Lunokhod 2 covered 24.2 miles; Perseverance has passed both. The mission team thinks the rover could eventually more than double the distance it has already traveled. Sojourner, the first Mars rover, drove about 330 feet (100 m) in 1997, and Opportunity operated for 5,111 sols."
       ],
       "illustration": {
         "title": "A long drive",
@@ -81,6 +81,11 @@
           "outlet": "NASA Science",
           "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
           "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        },
+        {
+          "outlet": "Space.com",
+          "title": "Perseverance breaks interplanetary driving record",
+          "url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
         }
       ]
     },
@@ -91,7 +96,8 @@
       "body": [
         "The Living Planet Index, produced by the Zoological Society of London, follows 35,803 population trends of 5,790 vertebrate species (animals with backbones) from 1970 to 2022. Its headline number is a 73% average decline. That figure is a weighted average of population change, not a loss of 73% of individuals or species.",
         "The detail matters. Across the data, 50% of populations were in decline, 7% were stable and 43% were increasing. Freshwater species fared worst, falling 85%, and Latin America and the Caribbean saw the steepest regional decline, at 95%.",
-        "There is also good news. Green sea turtles, bluefin tuna, tigers and southern African elephants have recovered in places, which WWF credits to conservation. A survey estimating about 183,000 giant tortoises on Aldabra in Seychelles points the same way: heavy hunting in the 19th century left fewer than 1,000, but the island became a reserve in 1981. The UN Biodiversity Conference in Yerevan, Armenia, later this month will review countries' progress on halting nature loss."
+        "There is also good news. Green sea turtles, bluefin tuna, tigers and southern African elephants have recovered in places, which WWF credits to conservation. A survey estimating about 183,000 giant tortoises on Aldabra in Seychelles points the same way: heavy hunting in the 19th century left fewer than 1,000, but the island became a strict nature reserve in 1981, invasive goats were removed in 2012, and it became a UNESCO World Heritage Site in 1982. The UN Biodiversity Conference in Yerevan, Armenia, later this month will review countries' progress on halting nature loss.",
+        "Another study this week suggests honeybees can crowd out wild pollinators. On Giannutri, a small Italian island, researchers temporarily removed honeybee hives, and nectar and pollen levels surged, letting wild bees forage more, National Geographic reported of the Current Biology study."
       ],
       "illustration": {
         "title": "Wildlife, 1970 to 2022",
@@ -110,6 +116,11 @@
           "outlet": "Popular Science",
           "title": "Giant tortoises now outnumber people in Seychelles",
           "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+        },
+        {
+          "outlet": "National Geographic",
+          "title": "A quiet island experiment reveals a battle of the bees",
+          "url": "https://www.nationalgeographic.com/animals/article/honeybees-wild-bees-competition-flowers-island"
         }
       ]
     },
@@ -119,8 +130,9 @@
       "deck": "Moderna and Merck's vaccine was given with the immunotherapy Keytruda.",
       "body": [
         "Melanoma is a serious type of skin cancer. This week Moderna and Merck released results from a late-stage trial of an experimental personalised mRNA vaccine, given together with the immunotherapy drug Keytruda. Reports say it lowered the risk of melanoma returning by 42% in a trial of about 1,100 patients.",
-        "The results were presented at ESMO, a cancer conference, in Madrid. STAT reported that the data came out before the scheduled presentation after an early release.",
-        "This is a company-reported result, not yet a treatment patients can get. Independent checking of the full data, and later approval decisions, will matter before anyone can say how widely the vaccine could be used."
+        "The results were presented at ESMO, a cancer conference, in Madrid. STAT reported that the data came out before the scheduled presentation. Its authors called the early release an embargo violation on the eve of the conference; an embargo asks journalists to wait until an agreed time before reporting results.",
+        "A 42% lower risk is a relative figure: it compares the chance of the cancer returning in one group of patients with the chance in another. This is a company-reported result, not yet a treatment patients can get. Independent checking of the full data, and later approval decisions, will matter before anyone can say how widely the vaccine could be used.",
+        "It was not the only vaccine news this week. On 7 October MimiVax and Roswell Park reported Phase 2b results for a vaccine called SurVaxM, which they said showed a significant survival benefit for newly diagnosed glioblastoma patients aged 65 and under. On 8 October Mount Sinai announced a five-year, $20.7 million agreement to develop next-generation respiratory vaccines, starting with an H5N1 flu vaccine prototype."
       ],
       "illustration": {
         "title": "Cancer vaccine trial",
@@ -139,6 +151,11 @@
           "outlet": "STAT",
           "title": "ESMO 2026 news: Moderna-Merck melanoma vaccine data",
           "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/"
+        },
+        {
+          "outlet": "Newswise",
+          "title": "Vaccines research news and press releases",
+          "url": "https://www.newswise.com/articles/channels/vaccines"
         }
       ]
     },
@@ -147,7 +164,7 @@
       "headline": "South African Fossils Suggest Homo erectus Lived There Earlier",
       "deck": "A skull fragment from Drimolen is about 2 million years old.",
       "body": [
-        "Researchers led by Dr Jesse Martin of La Trobe University described 18 hominin fossils from Drimolen Main Quarry in South Africa, in the journal Annals of Human Biology. Hominins are humans and their close extinct relatives. Drimolen lies in the Cradle of Humankind, and the site was discovered in 1992.",
+        "Researchers led by Dr Jesse Martin of La Trobe University described 18 hominin fossils from Drimolen Main Quarry in South Africa, in the journal Annals of Human Biology. Hominins are humans and their close extinct relatives. Drimolen lies in the Cradle of Humankind, and the site was discovered in 1992 and excavated through 2019. An earlier H. erectus fossil from Drimolen, DNH 134, came from a child aged 2 to 4.",
         "The key find is an adult Homo erectus skull fragment, catalogued as DNH 127, about 2 million years old. That is about 200,000 years older than adult H. erectus fossils from Dmanisi, Georgia, which date to about 1.8 million years ago. The team says this supports the idea that the species reached southern Africa earlier than thought.",
         "H. erectus was rare at Drimolen. Another hominin, Paranthropus robustus, outnumbered it there by more than 10 to 1. Between about 2 and 1.8 million years ago that species developed larger teeth and stronger chewing muscles, and its brain was only slightly larger than a chimpanzee's."
       ],
