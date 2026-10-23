@@ -1,4 +1,5 @@
 """The website builds every listed edition, with downloadable PDFs and visible sources."""
+import json
 import os
 import re
 import shutil
@@ -19,10 +20,15 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     for eid in eds:
         assert (out / "e" / eid / "index.html").exists() and (out / "e" / eid / "feed.xml").exists()
     ygc = out / "e" / "young-global-citizen"
-    assert (ygc / "latest.pdf").exists() and (ygc / "2026-10-10.pdf").exists()
+    dates = [d for d, _ in site.issues_of(edition.load("young-global-citizen"))]
+    assert (ygc / "latest.pdf").exists() and all((ygc / f"{d}.pdf").exists() for d in dates[:5])
+    assert not any((ygc / f"{d}.pdf").exists() for d in dates[5:])          # keep=5: older PDFs drop off
     assert 'href="e/young-global-citizen/latest.pdf"' in index
     page = (ygc / "index.html").read_text(encoding="utf-8")
-    assert "aljazeera.com" in page                       # sources are shown to readers
+    newest = json.load(open(site.issues_of(edition.load("young-global-citizen"))[0][1], encoding="utf-8"))
+    url = next(x["url"] if isinstance(x, dict) else x for b in newest["blocks"].values() if isinstance(b, dict)
+               for x in b.get("sources") or [])
+    assert url.split("//")[-1].split("/")[0] in page                         # sources are shown to readers
     assert (out / "about.html").exists() and (out / "builder.html").exists() and (out / ".nojekyll").exists()
     assert 'href="play/index.html">Read &amp; Play</a>' in index and (out / "play" / "index.html").exists()
     import zipfile                                       # the builder page runs the engine in the browser
@@ -35,10 +41,11 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     assert 'data-v="Adults"' not in index and 'data-v="Professionals"' not in index   # a site for ages 6-15+
     assert 'class="intro"' in index and "Pick your child" in index            # the parents' intro from site.yaml
     le = out / "e" / "little-explorers"                     # the Big Question poster is a second download
-    assert (le / "latest-poster.pdf").exists() and (le / "2026-10-10-poster.pdf").exists()
+    newest_poster = poster.posters_of(edition.load("little-explorers"))[0][0]
+    assert (le / "latest-poster.pdf").exists() and (le / f"{newest_poster}-poster.pdf").exists()
     assert 'href="e/little-explorers/latest-poster.pdf"' in index
     assert (le / "poster-cover.png").exists() or not shutil.which("pdftoppm")
-    assert 'href="2026-10-10-poster.pdf"' in (le / "index.html").read_text(encoding="utf-8")
+    assert f'href="{newest_poster}-poster.pdf"' in (le / "index.html").read_text(encoding="utf-8")
 
 
 def test_site_shows_a_placeholder_for_papers_without_issues(tmp_path, monkeypatch):
