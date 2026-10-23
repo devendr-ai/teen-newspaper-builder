@@ -155,8 +155,14 @@ Only issues and posters that passed are left in the working tree.
 1. Write `data/runs/$D.json`:
    `{"date": "$D", "by": "claude-code", "editions": {"<id>": {"status": "passed" | "failed" | "skipped", "reason": "...", "poster": "passed" | "failed" | null}}}`.
 2. Run the full test suite: `$PY -m pytest -q`. It checks every archived
-   issue and poster again. If it fails because of a file you added today,
-   fix or remove that file; never change tests or code to make it pass.
+   issue and poster again. If it fails because of a file you added today
+   (the failure names today's paper, poster or thread, or `ygc check` fails
+   on it), fix or remove that file; never change tests or code to make it
+   pass. If a test fails for a reason that isn't today's content (it
+   expects an older date or file, or fails the same way with today's files
+   left out), keep the papers that passed `ygc check`: publish them, and put
+   the failing test's name and message in the pull request so the owner can
+   fix the test. A passing paper is never dropped for someone else's test.
 3. Commit (`Papers for $D`), push your branch, open a pull request to `main`
    titled `Papers for $D` with one line per paper (passed / skipped and why),
    then **merge it straight away** with the GitHub tools: the owner has asked
