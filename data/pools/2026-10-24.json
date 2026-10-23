@@ -1,0 +1,1146 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-houthi-saudi",
+    "headline": "Oil Jumps Above $114 as Houthi Attacks Hit Saudi Arabia",
+    "what_happened": "On 23 October Brent crude oil rose to about $114.50 a barrel, and later to $117.20, after the Houthis, an armed group in Yemen, claimed attacks on Saudi Arabia. Two people died in attacks at Dammam airport.",
+    "why_it_matters": "Saudi Arabia sells oil to the world. When oil gets dearer, fuel and transport cost more for families and shops.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent rose 3.59% to $117.20 a barrel at 7:58pm UAE time on Friday 23 October, after trading about 1.1% higher at $114.5 earlier; US crude (WTI) climbed 3.57% to $103; Brent was on track for a third straight weekly gain.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Over 48 hours the Houthis claimed attacks on the Saudi Defence Ministry headquarters in Riyadh, King Fahd International Airport in Dammam, Abha International Airport and an Aramco site in Yanbu. These are Houthi claims.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Two people died and several were injured in the attacks at Dammam airport in Saudi Arabia's Eastern Province.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Saudi Aramco evacuated its Dhahran headquarters, the first such evacuation since the Iran war began.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Brent had fallen 2.5% to $107.16 on 19 October, after nearly $110 on 16 October.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Saudi Arabia (Riyadh, Dammam, Abha, Yanbu, Dhahran) and Yemen; the Red Sea and the Persian Gulf matter for oil shipping.",
+    "sources": [
+     {
+      "outlet": "The National",
+      "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+      "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Iran war live updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "putin-talks",
+    "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+    "what_happened": "On 21 October Russia's Vladimir Putin met US envoy Steve Witkoff in St. Petersburg and agreed in principle to resume talks with the US and Ukraine after 10 November.",
+    "why_it_matters": "The war in Ukraine has gone on for years, and talks are the main path to ending it.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Putin agreed 'in principle' to resume trilateral talks with the US and Ukraine after Nov. 10, according to Kremlin foreign affairs adviser Yuri Ushakov.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Putin met Witkoff in St. Petersburg for about three hours; Trump's son-in-law Jared Kushner joined by video link.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Ushakov said the talks would focus on building a security system for Russia and Ukraine after the conflict ends.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Earlier rounds in Abu Dhabi (January and February 2026) and Geneva (February) produced little progress beyond prisoner exchanges.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Russia freed American Stephen Hubbard, a retired teacher imprisoned on mercenary charges; Witkoff called it a goodwill gesture.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Ukrainian President Volodymyr Zelenskyy said a freeze in the fighting is the 'minimum' Russia must accept and that only a leaders' summit can break the impasse.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Russian strikes in Kyiv killed three people and wounded 12; Russia's Defense Ministry said it intercepted 373 Ukrainian drones overnight.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     }
+    ],
+    "numbers": [],
+    "geography": "St. Petersburg (Russia), Kyiv and Kharkiv (Ukraine), Oslo (Norway).",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+      "url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "iran-hormuz",
+    "headline": "Iran War: Strait of Hormuz Attacks Continue as Talks Stall",
+    "what_happened": "Iran and the US have not restarted talks. The UK's maritime centre counted 10 attacks on ships in and near the Strait of Hormuz in a week.",
+    "why_it_matters": "A large share of the world's oil ships through the strait, so trouble there raises prices.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The UK Maritime Trade Operations centre reported 10 attacks on commercial vessels in and near the Strait of Hormuz in the week to 19 October and called October the worst month for such attacks since March.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+     },
+     {
+      "fact": "Iran's President Pezeshkian said on 20 October talks won't resume until US pressure and sanctions stop.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+     },
+     {
+      "fact": "The war began in late February.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+     },
+     {
+      "fact": "Trump said on 20 October he is deciding whether to win the war 'the nice way or the not nice way.'",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz between Iran and Oman; Persian Gulf; Gulf of Oman.",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Iran war live updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "early-vote",
+    "headline": "Early Voting Surges Before the Midterms",
+    "what_happened": "More than 16 million Americans have already voted in the 3 November midterms, with big jumps in Kansas, Texas, Maine, North Carolina and Ohio.",
+    "why_it_matters": "Midterms decide who sits in Congress, which makes the country's laws.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "More than 16 million people in 41 states and D.C. have voted, per the University of Florida Election Lab: about 10 million by mail and about 6 million in person.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "Early voting reached roughly 13 million on Tuesday, more than 40% above the same point in 2022.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "The Associated Press found 'huge surges' in Kansas and Texas; Maine, North Carolina and Ohio each saw at least a 30% increase compared with four years earlier.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "Georgia and Michigan early totals are similar to the last midterms.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "Democrat Abdul El-Sayed and Republican Mike Rogers debated in Detroit on Wednesday night; both focused on economic policy.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     }
+    ],
+    "numbers": [],
+    "geography": "Texas, Kansas, Maine, North Carolina, Ohio, Georgia, Michigan.",
+    "sources": [
+     {
+      "outlet": "Spectrum News",
+      "title": "Early voting surges in states with competitive Senate races",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "scotus-election-rules",
+    "headline": "Supreme Court Cautions Lower Courts on Late Election-Rule Changes",
+    "what_happened": "The Supreme Court let New Hampshire restrict student IDs for voting and, in an unsigned order, pushed back on lower federal courts changing election rules close to an election; Justice Ketanji Brown Jackson dissented.",
+    "why_it_matters": "Courts decide how voting rules apply, and the midterms are 3 November.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Court let New Hampshire restrict the use of student IDs in voting, and in a separate unsigned order pushed back on lower federal courts changing election rules close to an election; Justice Ketanji Brown Jackson dissented.",
+      "source_url": "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22"
+     },
+     {
+      "fact": "Both parties are making the Supreme Court a campaign issue in the fight for Senate control.",
+      "source_url": "https://www.washingtontimes.com/news/2026/oct/22/parties-put-supreme-court-ballot-contentious-midterm-battle-control/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C.; New Hampshire.",
+    "sources": [
+     {
+      "outlet": "Fox News",
+      "title": "Midterm elections live news",
+      "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Washington Times",
+      "title": "Parties put Supreme Court on the ballot",
+      "url": "https://www.washingtontimes.com/news/2026/oct/22/parties-put-supreme-court-ballot-contentious-midterm-battle-control/",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "delhi-air",
+    "headline": "Delhi's Air Stays 'Poor' as Anti-Pollution Curbs Begin",
+    "what_happened": "Delhi's air quality index was 223 on the morning of 23 October, in the 'poor' category, and is likely to stay poor through Sunday 25 October.",
+    "why_it_matters": "Dirty air harms lungs, especially children's, and the worst months are ahead.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Delhi's air quality index was 223 at 8 am on Friday, 'poor', a marginal improvement from 226 the previous morning; poor air is likely through Sunday 25 October.",
+      "source_url": "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html"
+     },
+     {
+      "fact": "The first 'poor' day of the season came on Wednesday, when the daily average AQI reached 245.",
+      "source_url": "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html"
+     },
+     {
+      "fact": "CAQM invoked Stage I of the Graded Response Action Plan across Delhi and the NCR; the Delhi government banned open garbage burning and ordered food stalls to stop using coal or firewood.",
+      "source_url": "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html"
+     },
+     {
+      "fact": "Delhi has about 30 million people; air is worst from November to January. Main sources are coal-fired power plants, traffic, construction and crop-stubble burning nearby.",
+      "source_url": "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829"
+     },
+     {
+      "fact": "From 1 November parking fees double, government office staff work from home and construction rules tighten; a complete construction and demolition ban runs from 10 December to 20 January.",
+      "source_url": "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829"
+     },
+     {
+      "fact": "PM2.5 reached 233 micrograms per cubic metre early Thursday, roughly 15 times the WHO daily limit; last year's peak was 846.",
+      "source_url": "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi and the National Capital Region, northern India.",
+    "sources": [
+     {
+      "outlet": "Business Standard",
+      "title": "Delhi AQI improves to 223",
+      "url": "https://www.business-standard.com/amp/india-news/delhi-aqi-today-improves-to-223-poor-air-quality-likely-through-sunday-126102300106_1.html",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "Manila Times / AP",
+      "title": "Indian capital steps up air pollution controls",
+      "url": "https://www.manilatimes.net/2026/10/23/world/asia-oceania/indian-capital-steps-up-air-pollution-controls/2451829",
+      "published": "2026-10-23"
+     }
+    ]
+   },
+   {
+    "id": "jio-ipo",
+    "headline": "Jio Platforms' Rs 30,213 Crore Share Sale Closes",
+    "what_happened": "The sale of shares in Jio Platforms closed on 23 October. By 3 pm IST on the last day bids were 12.55 times the shares on offer.",
+    "why_it_matters": "It shows how many people want to own a piece of a big Indian company.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Jio Platforms' issue is up to Rs 30,213 crore, all fresh shares (2,700,000,000), price band Rs 1,065 to Rs 1,119 per share, opened 21 October and closed 23 October.",
+      "source_url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+     },
+     {
+      "fact": "At 3 pm IST on 23 October the issue was subscribed 12.55 times overall (excluding the anchor portion): QIB 32.77x, NII 13.38x, retail 2.51x. This is an intraday reading, not the final close.",
+      "source_url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+     },
+     {
+      "fact": "Tentative allotment 26 October, refunds 27 October, tentative listing on BSE and NSE 28 October.",
+      "source_url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+     }
+    ],
+    "numbers": [],
+    "geography": "India.",
+    "sources": [
+     {
+      "outlet": "HDFC Sky",
+      "title": "Jio IPO subscribed 12.55x by 3 PM IST on Day 3",
+      "url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3",
+      "published": "2026-10-23"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "scotus-election-rules",
+    "headline": "Supreme Court Cautions Lower Courts on Late Election-Rule Changes",
+    "what_happened": "The Supreme Court let New Hampshire restrict student IDs for voting and, in an unsigned order, pushed back on lower federal courts changing election rules close to an election; Justice Ketanji Brown Jackson dissented.",
+    "why_it_matters": "Courts decide how voting rules apply, and the midterms are 3 November.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Court let New Hampshire restrict the use of student IDs in voting, and in a separate unsigned order pushed back on lower federal courts changing election rules close to an election; Justice Ketanji Brown Jackson dissented.",
+      "source_url": "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22"
+     },
+     {
+      "fact": "Both parties are making the Supreme Court a campaign issue in the fight for Senate control.",
+      "source_url": "https://www.washingtontimes.com/news/2026/oct/22/parties-put-supreme-court-ballot-contentious-midterm-battle-control/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C.; New Hampshire.",
+    "sources": [
+     {
+      "outlet": "Fox News",
+      "title": "Midterm elections live news",
+      "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "Washington Times",
+      "title": "Parties put Supreme Court on the ballot",
+      "url": "https://www.washingtontimes.com/news/2026/oct/22/parties-put-supreme-court-ballot-contentious-midterm-battle-control/",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "early-vote",
+    "headline": "Early Voting Surges Before the Midterms",
+    "what_happened": "More than 16 million Americans have already voted in the 3 November midterms, with big jumps in Kansas, Texas, Maine, North Carolina and Ohio.",
+    "why_it_matters": "Midterms decide who sits in Congress, which makes the country's laws.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "More than 16 million people in 41 states and D.C. have voted, per the University of Florida Election Lab: about 10 million by mail and about 6 million in person.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "Early voting reached roughly 13 million on Tuesday, more than 40% above the same point in 2022.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "The Associated Press found 'huge surges' in Kansas and Texas; Maine, North Carolina and Ohio each saw at least a 30% increase compared with four years earlier.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "Georgia and Michigan early totals are similar to the last midterms.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     },
+     {
+      "fact": "Democrat Abdul El-Sayed and Republican Mike Rogers debated in Detroit on Wednesday night; both focused on economic policy.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races"
+     }
+    ],
+    "numbers": [],
+    "geography": "Texas, Kansas, Maine, North Carolina, Ohio, Georgia, Michigan.",
+    "sources": [
+     {
+      "outlet": "Spectrum News",
+      "title": "Early voting surges in states with competitive Senate races",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+      "published": "2026-10-22"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "jio-ipo",
+    "headline": "Jio Platforms' Rs 30,213 Crore Share Sale Closes",
+    "what_happened": "The sale of shares in Jio Platforms closed on 23 October. By 3 pm IST on the last day bids were 12.55 times the shares on offer.",
+    "why_it_matters": "It shows how many people want to own a piece of a big Indian company.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Jio Platforms' issue is up to Rs 30,213 crore, all fresh shares (2,700,000,000), price band Rs 1,065 to Rs 1,119 per share, opened 21 October and closed 23 October.",
+      "source_url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+     },
+     {
+      "fact": "At 3 pm IST on 23 October the issue was subscribed 12.55 times overall (excluding the anchor portion): QIB 32.77x, NII 13.38x, retail 2.51x. This is an intraday reading, not the final close.",
+      "source_url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+     },
+     {
+      "fact": "Tentative allotment 26 October, refunds 27 October, tentative listing on BSE and NSE 28 October.",
+      "source_url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3"
+     }
+    ],
+    "numbers": [],
+    "geography": "India.",
+    "sources": [
+     {
+      "outlet": "HDFC Sky",
+      "title": "Jio IPO subscribed 12.55x by 3 PM IST on Day 3",
+      "url": "https://hdfcsky.com/news/jio-ipo-subscribed-12-55x-by-3-pm-ist-on-day-3",
+      "published": "2026-10-23"
+     }
+    ]
+   },
+   {
+    "id": "oil-houthi-saudi",
+    "headline": "Oil Jumps Above $114 as Houthi Attacks Hit Saudi Arabia",
+    "what_happened": "On 23 October Brent crude oil rose to about $114.50 a barrel, and later to $117.20, after the Houthis, an armed group in Yemen, claimed attacks on Saudi Arabia. Two people died in attacks at Dammam airport.",
+    "why_it_matters": "Saudi Arabia sells oil to the world. When oil gets dearer, fuel and transport cost more for families and shops.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent rose 3.59% to $117.20 a barrel at 7:58pm UAE time on Friday 23 October, after trading about 1.1% higher at $114.5 earlier; US crude (WTI) climbed 3.57% to $103; Brent was on track for a third straight weekly gain.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Over 48 hours the Houthis claimed attacks on the Saudi Defence Ministry headquarters in Riyadh, King Fahd International Airport in Dammam, Abha International Airport and an Aramco site in Yanbu. These are Houthi claims.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Two people died and several were injured in the attacks at Dammam airport in Saudi Arabia's Eastern Province.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Saudi Aramco evacuated its Dhahran headquarters, the first such evacuation since the Iran war began.",
+      "source_url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+     },
+     {
+      "fact": "Brent had fallen 2.5% to $107.16 on 19 October, after nearly $110 on 16 October.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Saudi Arabia (Riyadh, Dammam, Abha, Yanbu, Dhahran) and Yemen; the Red Sea and the Persian Gulf matter for oil shipping.",
+    "sources": [
+     {
+      "outlet": "The National",
+      "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+      "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Iran war live updates",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz/",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "perseverance-record",
+    "headline": "Perseverance Passes Opportunity's Driving Record on Mars",
+    "what_happened": "On 11 October NASA's Perseverance rover's odometer reached 28.10 miles, passing the 28.06 miles Opportunity drove.",
+    "why_it_matters": "A rover that can steer itself can explore farther from Earth.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Perseverance's odometer reached 28.10 miles (45.22 km) on its 2,006th Martian day, passing Opportunity's 28.06 miles (45.16 km).",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "It took about five and a half years; Opportunity took nearly 15 years.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "More than 90% of its distance was driven with AutoNav, compared with about 5% for Opportunity and Spirit.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "The original plan called for no more than 12.4 miles (20 km).",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "It has collected 29 rock and regolith samples; its next target is Rainbow Falls, a block of ancient crust about 328 feet wide.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Jezero Crater region, Mars.",
+    "sources": [
+     {
+      "outlet": "NASA Science",
+      "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "dark-energy",
+    "headline": "Supernova Catalogue Hints Dark Energy May Change Over Time",
+    "what_happened": "A catalogue of 2,884 exploding stars (Type Ia supernovae) gives a modest hint that dark energy may change over cosmic time.",
+    "why_it_matters": "Dark energy decides how the universe expands, so a change would alter predictions of its future.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "An international team combined 2,884 likely Type Ia supernovae into a catalogue called Unite; with other data the results favour a model where dark energy changes over time, though it falls short of the 5 sigma needed for a discovery.",
+      "source_url": "https://universetoday.com/articles/a-new-catalog-of-close-to-3000-supernova-challenges-theories-on-dark-energy"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "sources": [
+     {
+      "outlet": "Universe Today",
+      "title": "A new catalog of close to 3,000 supernova challenges theories on dark energy",
+      "url": "https://universetoday.com/articles/a-new-catalog-of-close-to-3000-supernova-challenges-theories-on-dark-energy",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "melanoma-vaccine",
+    "headline": "Personalised mRNA Vaccine Cuts Melanoma Return Risk by 42% in Trial",
+    "what_happened": "A late-stage trial of Moderna and Merck's personalised vaccine, given with Keytruda, cut the risk of melanoma skin cancer returning by 42%.",
+    "why_it_matters": "It is an early sign personalised cancer vaccines may help patients after surgery.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Search results report an experimental mRNA vaccine given with the immunotherapy Keytruda lowered the risk of melanoma returning by 42% in a late-stage trial of about 1,100 patients, presented at ESMO in Madrid.",
+      "source_url": "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+     },
+     {
+      "fact": "The data came out ahead of the scheduled ESMO presentation after an early release.",
+      "source_url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Madrid, Spain (conference).",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+      "url": "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "STAT",
+      "title": "ESMO 2026 news",
+      "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/",
+      "published": "2026-10-23"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-inflation",
+    "headline": "UK Inflation Rises to 3.5% as Fuel Prices Climb",
+    "what_happened": "UK prices rose 3.5% in the 12 months to September, up from 3.1% in August; the ONS said motor fuels rose at their fastest annual rate in four years.",
+    "why_it_matters": "Higher prices mean money buys less, and the Bank of England may raise interest rates.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "UK inflation rose to 3.5% in the year to September, from 3.1% in August; economists expected 3.4%.",
+      "source_url": "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/"
+     },
+     {
+      "fact": "The ONS said motor fuels recorded their fastest annual rise in four years.",
+      "source_url": "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/"
+     },
+     {
+      "fact": "The Bank of England base rate is 3.75%; its next policy meeting is on 5 November, the week after the Autumn Budget; economists see a rate rise before the end of the year as increasingly likely.",
+      "source_url": "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/"
+     },
+     {
+      "fact": "Bloomberg headlined the figure as an 11-month high with the Bank of England considering a hike.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom.",
+    "sources": [
+     {
+      "outlet": "QNC News",
+      "title": "UK inflation climbs to 3.5%",
+      "url": "https://qncnews.com/2026/10/23/uk-inflation-climbs-to-3-5-as-fuel-prices-push-cost-of-living-higher-before-autumn-budget/",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "UK inflation hits 11-month high",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "aberfan-60",
+    "headline": "Britain Marks 60 Years Since the Aberfan Disaster",
+    "what_happened": "On 21 October 2026 the King, Queen and Prince of Wales visited Aberfan in South Wales to mark 60 years since a coal tip slid onto the village school.",
+    "why_it_matters": "The disaster led the nation to remember the children lost and the community's long fight for fairness.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 21 October 1966 coal tips from Merthyr Vale Colliery slid down a mountainside in Aberfan, killing 144 people, including 116 children mostly aged seven to ten.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "It buried Pantglas School, twenty houses and a farm, on the last day of term before half-term. The collapse was caused by water building up in a stream beneath the tip.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "On 21 October 2026 the King and Prince of Wales laid wreaths at the Memorial Garden, on the site of Pantglas School, and the Queen placed a posy; they met survivors, bereaved parents and retired emergency responders.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "The King said: 'Hearts, far from this valley, will ache with yours.'",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     }
+    ],
+    "numbers": [],
+    "geography": "Aberfan, near Merthyr Tydfil, South Wales.",
+    "sources": [
+     {
+      "outlet": "royal.uk",
+      "title": "The King, The Queen and The Prince of Wales mark the 60th anniversary of the Aberfan Disaster",
+      "url": "https://www.royal.uk/aberfan-60",
+      "published": "2026-10-21"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "europe-unrest",
+    "headline": "Protests Over Living Costs Spread Across Europe",
+    "what_happened": "Since early October, protests about living costs, schools, public services and housing have grown in France, Italy, Spain, Portugal and Albania; some turned violent.",
+    "why_it_matters": "Rising fuel prices and housing costs reach families everywhere, and governments are under pressure.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "According to an AP report of 19 October, rising fuel costs, dissatisfaction with schools, declining public services and a housing crisis have fueled protests across Europe this autumn.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     },
+     {
+      "fact": "In France, high school students held blockades and demonstrations for more than three weeks demanding more resources for understaffed, dilapidated schools; the CGT union joined and the movement widened to living costs.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     },
+     {
+      "fact": "French weekend unrest led to 2,400 arrests and looting in Paris, Marseille, Lyon and Bordeaux. President Macron condemned the violence and blamed far-left activists.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     },
+     {
+      "fact": "In Albania, students joined the 'Flamingo' movement in Tirana, which seeks Prime Minister Edi Rama's resignation and wants an end to corruption. Rama called the protesters 'ideologized and radicalized' by antifa.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     },
+     {
+      "fact": "Spain's Prime Minister Pedro Sanchez called a snap election for November; a general strike was also called for November.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     },
+     {
+      "fact": "Italy's inflation rose to 4.2% in September, above the eurozone's 3.8%.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     },
+     {
+      "fact": "Serbia holds a parliamentary election on 25 October.",
+      "source_url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe"
+     }
+    ],
+    "numbers": [],
+    "geography": "France, Italy, Spain, Portugal, Albania, Serbia.",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour / AP",
+      "title": "From France to Albania, how social unrest is fueling protests across Europe",
+      "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
+      "published": "2026-10-19"
+     }
+    ]
+   },
+   {
+    "id": "putin-talks",
+    "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+    "what_happened": "On 21 October Russia's Vladimir Putin met US envoy Steve Witkoff in St. Petersburg and agreed in principle to resume talks with the US and Ukraine after 10 November.",
+    "why_it_matters": "The war in Ukraine has gone on for years, and talks are the main path to ending it.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Putin agreed 'in principle' to resume trilateral talks with the US and Ukraine after Nov. 10, according to Kremlin foreign affairs adviser Yuri Ushakov.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Putin met Witkoff in St. Petersburg for about three hours; Trump's son-in-law Jared Kushner joined by video link.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Ushakov said the talks would focus on building a security system for Russia and Ukraine after the conflict ends.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Earlier rounds in Abu Dhabi (January and February 2026) and Geneva (February) produced little progress beyond prisoner exchanges.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Russia freed American Stephen Hubbard, a retired teacher imprisoned on mercenary charges; Witkoff called it a goodwill gesture.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Ukrainian President Volodymyr Zelenskyy said a freeze in the fighting is the 'minimum' Russia must accept and that only a leaders' summit can break the impasse.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     },
+     {
+      "fact": "Russian strikes in Kyiv killed three people and wounded 12; Russia's Defense Ministry said it intercepted 373 Ukrainian drones overnight.",
+      "source_url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+     }
+    ],
+    "numbers": [],
+    "geography": "St. Petersburg (Russia), Kyiv and Kharkiv (Ukraine), Oslo (Norway).",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+      "url": "https://www.pbs.org/newshour/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+      "published": "2026-10-21"
+     }
+    ]
+   }
+  ]
+ },
+ "science": {
+  "label": "SCIENCE",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "perseverance-record",
+    "headline": "Perseverance Passes Opportunity's Driving Record on Mars",
+    "what_happened": "On 11 October NASA's Perseverance rover's odometer reached 28.10 miles, passing the 28.06 miles Opportunity drove.",
+    "why_it_matters": "A rover that can steer itself can explore farther from Earth.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Perseverance's odometer reached 28.10 miles (45.22 km) on its 2,006th Martian day, passing Opportunity's 28.06 miles (45.16 km).",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "It took about five and a half years; Opportunity took nearly 15 years.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "More than 90% of its distance was driven with AutoNav, compared with about 5% for Opportunity and Spirit.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "The original plan called for no more than 12.4 miles (20 km).",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "It has collected 29 rock and regolith samples; its next target is Rainbow Falls, a block of ancient crust about 328 feet wide.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Jezero Crater region, Mars.",
+    "sources": [
+     {
+      "outlet": "NASA Science",
+      "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "dark-energy",
+    "headline": "Supernova Catalogue Hints Dark Energy May Change Over Time",
+    "what_happened": "A catalogue of 2,884 exploding stars (Type Ia supernovae) gives a modest hint that dark energy may change over cosmic time.",
+    "why_it_matters": "Dark energy decides how the universe expands, so a change would alter predictions of its future.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "An international team combined 2,884 likely Type Ia supernovae into a catalogue called Unite; with other data the results favour a model where dark energy changes over time, though it falls short of the 5 sigma needed for a discovery.",
+      "source_url": "https://universetoday.com/articles/a-new-catalog-of-close-to-3000-supernova-challenges-theories-on-dark-energy"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "sources": [
+     {
+      "outlet": "Universe Today",
+      "title": "A new catalog of close to 3,000 supernova challenges theories on dark energy",
+      "url": "https://universetoday.com/articles/a-new-catalog-of-close-to-3000-supernova-challenges-theories-on-dark-energy",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "aldabra-tortoises",
+    "headline": "Survey Estimates 183,000 Giant Tortoises on Aldabra",
+    "what_happened": "A survey by the Seychelles Islands Foundation and the University of Exeter estimates about 183,000 Aldabra giant tortoises, more than the 123,000 or so people in Seychelles.",
+    "why_it_matters": "It shows how protecting an island can bring a species back.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, in Ecology and Evolution, estimates about 183,000 adult and subadult Aldabra giant tortoises, the highest figure recorded; it used monitoring data from 2018 to 2022 and statistical modelling.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     },
+     {
+      "fact": "The higher figure does not mean the population has nearly doubled; the population appears relatively stable. Seychelles has about 123,000 people.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     },
+     {
+      "fact": "Heavy exploitation in the 19th century cut numbers to fewer than 1,000; Aldabra became a strict nature reserve in 1981 and a UNESCO World Heritage Site in 1982; invasive goats were removed in 2012.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Aldabra Atoll, Seychelles, Indian Ocean.",
+    "sources": [
+     {
+      "outlet": "Popular Science",
+      "title": "Giant tortoises now outnumber people in Seychelles",
+      "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/",
+      "published": "2026-10"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "Giant tortoises now outnumber people in Seychelles",
+      "url": "https://gulfnews.com/world/africa/giant-tortoises-now-outnumber-people-in-seychelles-1.500704551",
+      "published": "2026-10"
+     }
+    ]
+   }
+  ]
+ },
+ "climate & environment": {
+  "label": "CLIMATE & ENVIRONMENT",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "living-planet",
+    "headline": "Living Planet Report: Wildlife Populations Down 73% on Average, With Some Recoveries",
+    "what_happened": "WWF's Living Planet Report 2026 says monitored wildlife populations fell 73% on average since 1970, but tigers, elephants, turtles and tuna have recovered in places.",
+    "why_it_matters": "It shows both the damage and that conservation can work.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Living Planet Index includes 35,803 population trends of 5,790 vertebrate species from 1970 to 2022. The 73% is a weighted average of population change, not a loss of 73% of individuals or species.",
+      "source_url": "https://www.discoverwildlife.com/environment/living-planet-report-2026"
+     },
+     {
+      "fact": "Freshwater species fell 85%; Latin America and the Caribbean saw the steepest regional decline at 95%.",
+      "source_url": "https://www.discoverwildlife.com/environment/living-planet-report-2026"
+     },
+     {
+      "fact": "Green sea turtles, bluefin tuna, tigers and southern African elephants have recovered in places, which WWF credits to conservation.",
+      "source_url": "https://www.discoverwildlife.com/environment/living-planet-report-2026"
+     },
+     {
+      "fact": "The UN Biodiversity Conference in Yerevan, Armenia is later this month.",
+      "source_url": "https://www.discoverwildlife.com/environment/living-planet-report-2026"
+     }
+    ],
+    "numbers": [],
+    "geography": "Global.",
+    "sources": [
+     {
+      "outlet": "Discover Wildlife",
+      "title": "WWF Living Planet Report 2026",
+      "url": "https://www.discoverwildlife.com/environment/living-planet-report-2026",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "WWF",
+      "title": "Wildlife population sizes decline 73% on average",
+      "url": "https://www.worldwildlife.org/news/press-releases/wildlife-population-sizes-decline-73-on-average-but-tiger-elephant-turtle-and-tuna-recoveries-offer-hope/",
+      "published": "2026-10-20"
+     }
+    ]
+   },
+   {
+    "id": "aldabra-tortoises",
+    "headline": "Survey Estimates 183,000 Giant Tortoises on Aldabra",
+    "what_happened": "A survey by the Seychelles Islands Foundation and the University of Exeter estimates about 183,000 Aldabra giant tortoises, more than the 123,000 or so people in Seychelles.",
+    "why_it_matters": "It shows how protecting an island can bring a species back.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, in Ecology and Evolution, estimates about 183,000 adult and subadult Aldabra giant tortoises, the highest figure recorded; it used monitoring data from 2018 to 2022 and statistical modelling.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     },
+     {
+      "fact": "The higher figure does not mean the population has nearly doubled; the population appears relatively stable. Seychelles has about 123,000 people.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     },
+     {
+      "fact": "Heavy exploitation in the 19th century cut numbers to fewer than 1,000; Aldabra became a strict nature reserve in 1981 and a UNESCO World Heritage Site in 1982; invasive goats were removed in 2012.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Aldabra Atoll, Seychelles, Indian Ocean.",
+    "sources": [
+     {
+      "outlet": "Popular Science",
+      "title": "Giant tortoises now outnumber people in Seychelles",
+      "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/",
+      "published": "2026-10"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "Giant tortoises now outnumber people in Seychelles",
+      "url": "https://gulfnews.com/world/africa/giant-tortoises-now-outnumber-people-in-seychelles-1.500704551",
+      "published": "2026-10"
+     }
+    ]
+   },
+   {
+    "id": "honeybees",
+    "headline": "Honeybees Can Crowd Out Wild Pollinators, Studies Find",
+    "what_happened": "Research reported in October says honeybees compete with wild bees and other pollinators for flowers.",
+    "why_it_matters": "Wild pollinators help crops and wild plants.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Giannutri, a small Italian island, researchers temporarily removed honeybee hives and nectar and pollen levels surged, letting wild bees forage more (Current Biology).",
+      "source_url": "https://www.nationalgeographic.com/animals/article/honeybees-wild-bees-competition-flowers-island"
+     }
+    ],
+    "numbers": [],
+    "geography": "Giannutri island, Italy.",
+    "sources": [
+     {
+      "outlet": "National Geographic",
+      "title": "A quiet island experiment reveals a battle of the bees",
+      "url": "https://www.nationalgeographic.com/animals/article/honeybees-wild-bees-competition-flowers-island",
+      "published": "2026-10"
+     }
+    ]
+   }
+  ]
+ },
+ "health": {
+  "label": "HEALTH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "melanoma-vaccine",
+    "headline": "Personalised mRNA Vaccine Cuts Melanoma Return Risk by 42% in Trial",
+    "what_happened": "A late-stage trial of Moderna and Merck's personalised vaccine, given with Keytruda, cut the risk of melanoma skin cancer returning by 42%.",
+    "why_it_matters": "It is an early sign personalised cancer vaccines may help patients after surgery.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Search results report an experimental mRNA vaccine given with the immunotherapy Keytruda lowered the risk of melanoma returning by 42% in a late-stage trial of about 1,100 patients, presented at ESMO in Madrid.",
+      "source_url": "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+     },
+     {
+      "fact": "The data came out ahead of the scheduled ESMO presentation after an early release.",
+      "source_url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Madrid, Spain (conference).",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+      "url": "https://cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "STAT",
+      "title": "ESMO 2026 news",
+      "url": "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/",
+      "published": "2026-10-23"
+     }
+    ]
+   }
+  ]
+ },
+ "history & geography": {
+  "label": "HISTORY & GEOGRAPHY",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "erectus-drimolen",
+    "headline": "Fossils in South Africa Suggest Homo erectus Lived There Earlier",
+    "what_happened": "Researchers described 18 hominin fossils from Drimolen in South Africa, including an adult Homo erectus skull fragment about 2 million years old.",
+    "why_it_matters": "It changes the timeline of when early humans spread.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "18 hominin fossils from Drimolen Main Quarry, South Africa, were described for the first time, in Annals of Human Biology; lead researcher Dr Jesse Martin of La Trobe University.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+     },
+     {
+      "fact": "The adult Homo erectus skull fragment, DNH 127, is about 2 million years old, about 200,000 years older than adult H. erectus fossils from Dmanisi, Georgia (about 1.8 million years ago).",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+     },
+     {
+      "fact": "Drimolen is in the Cradle of Humankind; the site was discovered in 1992.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+     },
+     {
+      "fact": "Paranthropus robustus outnumbered H. erectus at Drimolen by more than 10 to 1.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "Drimolen, Cradle of Humankind, South Africa; Dmanisi, Georgia.",
+    "sources": [
+     {
+      "outlet": "ScienceDaily / La Trobe University",
+      "title": "Scientists found Homo erectus 200,000 years earlier than expected",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
+      "published": "2026-10-08"
+     }
+    ]
+   },
+   {
+    "id": "aberfan-60",
+    "headline": "Britain Marks 60 Years Since the Aberfan Disaster",
+    "what_happened": "On 21 October 2026 the King, Queen and Prince of Wales visited Aberfan in South Wales to mark 60 years since a coal tip slid onto the village school.",
+    "why_it_matters": "The disaster led the nation to remember the children lost and the community's long fight for fairness.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 21 October 1966 coal tips from Merthyr Vale Colliery slid down a mountainside in Aberfan, killing 144 people, including 116 children mostly aged seven to ten.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "It buried Pantglas School, twenty houses and a farm, on the last day of term before half-term. The collapse was caused by water building up in a stream beneath the tip.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "On 21 October 2026 the King and Prince of Wales laid wreaths at the Memorial Garden, on the site of Pantglas School, and the Queen placed a posy; they met survivors, bereaved parents and retired emergency responders.",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     },
+     {
+      "fact": "The King said: 'Hearts, far from this valley, will ache with yours.'",
+      "source_url": "https://www.royal.uk/aberfan-60"
+     }
+    ],
+    "numbers": [],
+    "geography": "Aberfan, near Merthyr Tydfil, South Wales.",
+    "sources": [
+     {
+      "outlet": "royal.uk",
+      "title": "The King, The Queen and The Prince of Wales mark the 60th anniversary of the Aberfan Disaster",
+      "url": "https://www.royal.uk/aberfan-60",
+      "published": "2026-10-21"
+     }
+    ]
+   },
+   {
+    "id": "aldabra-tortoises",
+    "headline": "Survey Estimates 183,000 Giant Tortoises on Aldabra",
+    "what_happened": "A survey by the Seychelles Islands Foundation and the University of Exeter estimates about 183,000 Aldabra giant tortoises, more than the 123,000 or so people in Seychelles.",
+    "why_it_matters": "It shows how protecting an island can bring a species back.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, in Ecology and Evolution, estimates about 183,000 adult and subadult Aldabra giant tortoises, the highest figure recorded; it used monitoring data from 2018 to 2022 and statistical modelling.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     },
+     {
+      "fact": "The higher figure does not mean the population has nearly doubled; the population appears relatively stable. Seychelles has about 123,000 people.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     },
+     {
+      "fact": "Heavy exploitation in the 19th century cut numbers to fewer than 1,000; Aldabra became a strict nature reserve in 1981 and a UNESCO World Heritage Site in 1982; invasive goats were removed in 2012.",
+      "source_url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Aldabra Atoll, Seychelles, Indian Ocean.",
+    "sources": [
+     {
+      "outlet": "Popular Science",
+      "title": "Giant tortoises now outnumber people in Seychelles",
+      "url": "https://www.popsci.com/environment/giant-tortoise-population-reboud/",
+      "published": "2026-10"
+     },
+     {
+      "outlet": "Gulf News",
+      "title": "Giant tortoises now outnumber people in Seychelles",
+      "url": "https://gulfnews.com/world/africa/giant-tortoises-now-outnumber-people-in-seychelles-1.500704551",
+      "published": "2026-10"
+     }
+    ]
+   }
+  ]
+ }
+}
