@@ -191,6 +191,22 @@ def where_html(w, heading=False):
 
 
 # ------------------------------------------------------------------ one issue
+def thumb(story, href, w=None):
+    """The small picture beside a paper on the lobby: its lead story's moving picture, a little real map zoomed
+    to where it happens (`w`, drawn by play.js from world.js), else the section's icon."""
+    _, icon, tone = desk(re.sub(r"(?i)\b(top|big|lead) story\b", "", plain(story.get("kicker", ""))))
+    if icon == "📰" and (story.get("map") or story.get("chart")):    # a map's whole picture won't fit this small
+        icon, tone = ("🌍", "teal") if story.get("map") else ("📊", "sun")
+    if story.get("illustration"):
+        pic = scenes.scene(story["illustration"].get("motif", ""), plain(story["illustration"].get("caption", "")))
+    elif w:
+        pic = (f'<span class="mini" data-c="{E("|".join(w["countries"]))}" data-lat="{w["lat"]}" data-lon="{w["lon"]}" '
+               f'data-box="{w["box"]}"><span class="ic">{icon}</span></span>')
+    else:
+        pic = f'<span class="ic">{icon}</span>'
+    return f'<a class="thumb t-{tone}" href="{href}" tabindex="-1" aria-hidden="true">{pic}</a>'
+
+
 def top_figure(story, w):
     """The picture at the top of a story card: its real map, moving picture, or growing chart."""
     if story.get("map"):
@@ -541,35 +557,48 @@ def build(out, cfg, keep=7, log=print):
         for date, _ in issues_of(ed)[keep:]:       # older papers: their QR codes open the newest
             open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(stub(cfg, ed, date, latest[0]))
         newest.append(f"{eid}/{latest[0]}.html")
-        lead = next((latest[2]["blocks"].get(b) for b in edition.story_blocks(ed)
-                     if isinstance(latest[2]["blocks"].get(b), dict)), None) or {}
-        fig = top_figure(lead, None if lead.get("illustration") or lead.get("chart") else where_of(lead))
-        tiles.append((BANDS.index(band) if band in BANDS else 9, ed["name"], f'''<article class="tile" data-band="{E(band)}">
-{fig}<h2>{E(ed["name"])}</h2><p class="when">{E(band)} · {dt.date.fromisoformat(latest[0]):%a %d %b}</p>
-<p>{E(latest[1])}</p><div class="go2"><a class="big go" href="{eid}/{latest[0]}.html">Read</a><a class="big" href="{eid}/{latest[0]}.html#play">Play</a></div></article>'''))
+        lid = next((b for b in edition.story_blocks(ed) if isinstance(latest[2]["blocks"].get(b), dict)), None)
+        lead = latest[2]["blocks"].get(lid) or {}
+        given = next((w for w in ((latest[2].get("play") or {}).get("where") or [])
+                      if isinstance(w, dict) and w.get("story") == lid), None)       # where the paper says it happened
+        u, name = f"{eid}/{latest[0]}.html", E(ed["name"])
+        tiles.append((BANDS.index(band) if band in BANDS else 9, ed["name"], latest[0], f'''<article class="tile" data-band="{E(band)}" data-key="{E(eid)}-{latest[0]}">
+{thumb(lead, u, None if lead.get("illustration") else where_of(lead, given))}<div class="tx"><p class="when">{name} · {dt.date.fromisoformat(latest[0]):%a %d %b}<!--NEW--><span class="done" hidden> · ✓ read</span></p>
+<h2><a href="{u}">{E(latest[1])}</a></h2><div class="go2"><a class="big go" href="{u}" aria-label="Read {name}">Read</a><a class="big" href="{u}#play" aria-label="Play {name}">Play</a></div></div></article>'''))
         log(f"  play {eid}: {len(dates)} issue(s)")
     big = write_threads(pdir, cfg, known, in_thread, pages)
-    big_row = ("<section class=\"bigrow\"><h2>🧵 Big stories right now <a href=\"threads/index.html\">All</a></h2><div class=\"big3\">"
+    fresh = max((t[2] for t in tiles), default="")
+    tiles = [t[3].replace("<!--NEW-->", ' <span class="new">NEW</span>' if t[2] == fresh else "") for t in sorted(tiles)]
+    big_row = ("<section class=\"bigrow\" id=\"stories\"><h2>🧵 Big stories right now <a href=\"threads/index.html\">All</a></h2><div class=\"big3\">"
                + "".join(f'''<a class="bigstory" href="threads/{thread_href(t["id"], "younger")}" data-young="threads/{thread_href(t["id"], "younger")}"
 data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden="true">🌍</span><span><b>{E(t["title"])}</b>
 <small>Day {(dt.date.fromisoformat(newest_d) - dt.date.fromisoformat(t["opened"])).days + 1} · {len(t["timeline"])} updates</small></span>
 {"<span class=\"new\">NEW TODAY</span>" if threads.last_news(t, ld) == newest_d else ""}</a>''' for t, ld, newest_d in big)
                + "</div></section>") if big else ""
     who = "".join(f'<button type="button" class="who" data-band="{E(b)}">{E(b.replace("Ages ", ""))}</button>' for b in BANDS)
-    news_map = (f'''<section class="newsmap"><h2>🗺️ Where's the news today?</h2><p class="how">Tap a pin to see the story.</p>
+    news_map = (f'''<section class="newsmap" id="map"><h2>🗺️ Where's the news today?</h2><p class="how">Tap a pin to see the story.</p>
 <figure class="where wide" data-pins="{E(json.dumps(pins, ensure_ascii=False))}"><div class="map" role="img" aria-label="A world map with a pin for each of today's stories"></div>
 <figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
                 if pins else "")
-    body = f'''<header class="bar"><a class="home" href="../index.html">← {E(cfg["title"])} (grown-ups)</a></header>
-<main class="lobby"><h1>{brand.inline("owl")}Read &amp; Play</h1><p class="lede">Today's news, read to you if you like, with a game at the end.</p>
+    tabs = [("today", "📰", "Papers"), ("stories", "🧵", "Big stories") if big_row else None,
+            ("map", "🗺️", "Map") if news_map else None, ("me", "🏅", "Me")]
+    now = ' aria-current="true"'
+    tabbar = ('<nav class="tabbar" aria-label="Jump to">' + "".join(
+        f'<a href="#{k}"{now if k == "today" else ""}><span aria-hidden="true">{i}</span>{n}</a>'
+        for k, i, n in filter(None, tabs)) + "</nav>")
+    body = f'''<header class="bar lb"><h1><a href="index.html">{brand.inline("owl")}Read &amp; Play</a></h1>
+<a class="home" href="../index.html">← Grown-ups</a><div class="chips" id="chips"></div></header>
+<main class="lobby front"><section class="today" id="today" aria-labelledby="h-today">
+<div class="pick"><h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div></div>
+<p class="hello" hidden><span></span> <button type="button" class="change">Change age</button></p>
+<h2 id="h-today">📰 Latest papers</h2><div class="tiles">{"".join(tiles)}</div></section>
+<div class="side">{big_row}{news_map}</div>
+<section class="me" id="me" aria-label="Me"><section class="myreading" id="badges" aria-label="My reading"></section>
 <div class="install" hidden><p><img class="app" src="icon-192.png" alt="" width="48" height="48"><b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
 today's papers work without the internet.</p><button type="button" class="big go add" hidden>Add to home screen</button>
 <p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
-<section class="myreading" id="badges" aria-label="My reading"></section>
-<h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div>
-{big_row}{news_map}<div class="tiles">{"".join(t[2] for t in sorted(tiles))}</div>
-<p class="note">For grown-ups: nothing here is tracked. Settings and stars stay on this device. Maps show India's borders as on
-India's official maps (Natural Earth, India view).</p></main>'''
+<p class="note"><a href="../index.html">← {E(cfg["title"])} (grown-ups)</a><br>For grown-ups: nothing here is tracked. Settings and stars stay on this device.
+Maps show India's borders as on India's official maps (Natural Earth, India view).</p></section></main>{tabbar}'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
     for n in (180, 192, 512):                     # the owl, from assets/ (tools/brand/make_icons.js)
         shutil.copy(os.path.join(brand.ASSETS, f"owl-icon-{n}.png"), os.path.join(pdir, f"icon-{n}.png"))
@@ -734,11 +763,51 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .whos{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
 .who{min-height:56px;min-width:84px;border:2px solid var(--line);background:var(--card);border-radius:16px;font-weight:800;font-size:20px;cursor:pointer;padding:6px 14px}
 .who[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
-.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
-.tile{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:14px;display:flex;flex-direction:column;gap:6px}
-.tile figure{margin:0 0 4px}.tile figcaption,.tile .badge{display:none}
-.tile h2{font-size:1.25em;margin:4px 0 0}.tile p{margin:0}.tile .when{font-size:15px;color:var(--muted)}
-.go2{display:flex;gap:8px;margin-top:auto;padding-top:8px}.go2 .big{flex:1;text-align:center}
+/* the front of Read & Play: everything important on the first screen */
+.bar.lb{padding:8px 16px;flex-wrap:nowrap}
+.lb h1{font-size:1.45em;margin:0}.lb h1 a{color:var(--coral);text-decoration:none;display:inline-flex;align-items:center;gap:.25em;white-space:nowrap}
+.lb .owl{width:1.45em;height:1.45em}.lb .home{margin-right:auto;font-size:15px;white-space:nowrap}
+.chips{display:flex;gap:6px;margin-left:auto}
+.chip{display:inline-flex;align-items:center;gap:5px;min-height:44px;border:2px solid var(--line);background:var(--card);border-radius:999px;
+  padding:4px 12px;font-weight:800;font-size:16px;text-decoration:none;color:var(--ink);white-space:nowrap}
+.chip.off span{filter:grayscale(1);opacity:.55}
+.front .today,.front .side>section,.front .me{scroll-margin-top:72px}
+.front h2{margin:6px 0 8px}
+.hello{display:flex;flex-wrap:wrap;align-items:center;gap:0 12px;margin:0;font-size:1.02em}
+.hello .change{border:0;background:none;color:var(--teal);font-weight:700;cursor:pointer;padding:0;font-size:16px;min-height:44px}
+.tiles{display:grid;gap:10px;margin-bottom:22px}
+.tile{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--line);border-radius:18px;padding:10px}
+.thumb{flex:none;width:clamp(100px,24vw,150px);aspect-ratio:4/3;border-radius:12px;overflow:hidden;display:grid;place-items:center;
+  background:var(--tone-t,var(--sun-t));text-decoration:none}
+.thumb .scene{width:auto;height:100%;max-width:none;border-radius:0}.thumb .ic{font-size:2.4em}
+.mini{display:grid;place-items:center;width:100%;height:100%}.mini svg{display:block;width:100%;height:100%;background:var(--sea)}
+.mini use{fill:var(--land);stroke:var(--map-line);stroke-width:1}.mini .hi{fill:var(--coral);fill-opacity:.8;stroke:var(--map-line);stroke-width:1}
+.mini .dot{fill:var(--coral);stroke:#fff;stroke-width:2}
+.tile .tx{flex:1;min-width:0}
+.tile .when{margin:0;font-size:14px;color:var(--muted);line-height:1.35}
+.tile .new{background:var(--rose-t);color:#B23A30;font-size:11px;font-weight:800;border-radius:999px;padding:1px 7px;margin-left:4px;letter-spacing:.03em}
+.tile .done{color:var(--leaf);font-weight:700}
+.tile h2{font-family:var(--text);font-size:1em;line-height:1.3;margin:2px 0 8px}.tile h2 a{color:inherit;text-decoration:none}
+.go2{display:flex;gap:8px}.go2 .big{min-height:44px;padding:6px 18px;font-size:16px;border-radius:12px;text-align:center}
+.side .bigrow{margin:0 0 18px}
+.me{margin-top:8px}
+.tabbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--card);border-top:2px solid var(--line);
+  padding:4px 6px calc(4px + env(safe-area-inset-bottom,0px))}
+.tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:52px;font-size:12.5px;font-weight:700;
+  line-height:1.2;color:var(--muted);text-decoration:none;border-radius:12px}
+.tabbar a span{font-size:22px;line-height:1.15}
+.tabbar a[aria-current="true"]{color:#B23A30;background:var(--rose-t)}
+:root[data-theme="night"] .tabbar a[aria-current="true"]{color:#FFB3AB}
+@media (max-width:699px){
+  .lb .home,.chip .of{display:none}
+  .front{padding-bottom:100px}.tabbar{display:flex}
+  .big3{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 -16px;padding:0 16px 6px}
+  .big3 .bigstory{flex:0 0 84%;scroll-snap-align:start}}
+@media (min-width:700px) and (max-width:999px){.side{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}}
+@media (min-width:1000px){
+  .lobby.front{max-width:1240px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:0 32px;align-items:start;padding-top:18px}
+  .front .today{grid-column:1;grid-row:1}.front .side{grid-column:2;grid-row:1/span 2}.front .me{grid-column:1}
+  .bar.lb{padding:10px max(16px,calc((100vw - 1240px)/2 + 16px))}}
 .note{font-size:14px;color:var(--muted);margin-top:28px}
 /* the story so far */
 .tchip{display:inline-flex;align-items:center;gap:6px;background:#E7E3FA;color:#4D3FB0;border-radius:999px;padding:8px 14px;
@@ -1062,6 +1131,9 @@ JS = r"""
   function shelf() {
     const box = $("#badges"); if (!box) return;
     const have = store.get("badges", {}), s = streak(), today = store.get("days", []).includes(ymd(new Date()));
+    const n = Object.keys(have).length, chips = $("#chips");
+    if (chips) chips.innerHTML = `<a class="chip${s ? "" : " off"}" href="#me" aria-label="${s ? `${s}-day reading streak` : "No reading streak yet"}"><span aria-hidden="true">🔥</span> ${s}</a>
+      <a class="chip" href="#me" aria-label="${n} of ${BADGES.length} badges"><span aria-hidden="true">🏅</span> ${n}<span class="of"> of ${BADGES.length}</span></a>`;
     box.innerHTML = `<h2>My reading <span>On this device</span></h2><div class="st"><span class="flame${s ? "" : " off"}" aria-hidden="true">🔥</span>
       <p><b>${s ? `${s}-day streak` : "No streak yet"}</b><br><span>${s && !today ? "Read a paper today to keep it going!"
         : s ? "You've read today. See you tomorrow!" : "Read a whole paper to start one."}</span></p>
@@ -1075,16 +1147,56 @@ JS = r"""
   // ---------------------------------------------------------------- the lobby: who's reading?
   const whos = $$(".who");
   if (whos.length) {
-    const pick = (b) => {
+    if (WD) {                                                // each paper's little map, zoomed to its lead story
+      worldDefs();
+      $$(".mini").forEach((m) => {
+        const b = m.dataset.box.split(" ").map(Number), xy = proj(+m.dataset.lon, +m.dataset.lat);
+        const sea = !m.dataset.c;                            // an ocean: zoom out enough to see land
+        let w = Math.max(b[2] - b[0], sea ? 150 : 60) * 1.8, h = Math.max(b[3] - b[1], sea ? 110 : 45) * 1.8;
+        if (w / h < 4 / 3) w = h * 4 / 3; else h = w * 3 / 4;
+        const vb = [(b[0] + b[2]) / 2 - w / 2, (b[1] + b[3]) / 2 - h / 2, w, h];
+        const hi = (m.dataset.c || "").split("|").filter((c) => shapes[c])
+          .map((c) => `<path class="hi" d="${shapes[c].d}" vector-effect="non-scaling-stroke"/>`).join("");
+        m.innerHTML = `<svg viewBox="${vb.join(" ")}" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#rp-world"/>${hi}
+          <circle class="dot" cx="${xy[0]}" cy="${xy[1]}" r="${w / 24}" vector-effect="non-scaling-stroke"/></svg>`;
+      });
+    }
+    const picker = $(".pick"), hi = $(".hello");
+    const pick = (b, asked) => {
       store.set("band", b); band = b;
       whos.forEach((w) => w.setAttribute("aria-pressed", String(w.dataset.band === b)));
       $$(".tile").forEach((t) => { t.hidden = !!b && t.dataset.band !== b; });
       $$(".where.wide").forEach((f) => { if ($("svg", f)) lobbyPins(f); });
       const older = b && !/6–8|9–11/.test(b);               // the story so far, at the reader's level
       $$(".bigstory").forEach((a) => { a.href = older ? a.dataset.old : a.dataset.young; });
+      picker.hidden = true; hi.hidden = false;               // asked once, then a line to change it
+      $("span", hi).innerHTML = b ? `Hi! Papers for <b>${esc(b.replace("Ages", "ages"))}</b>` : "Papers for <b>every age</b>";
+      if (asked) $(".change", hi).focus();
     };
-    whos.forEach((w) => w.addEventListener("click", () => pick(w.dataset.band)));
-    pick(store.get("band", ""));
+    whos.forEach((w) => w.addEventListener("click", () => pick(w.dataset.band, true)));
+    $(".change", hi).addEventListener("click", () => { hi.hidden = true; picker.hidden = false; $(".who[aria-pressed=true]", picker)?.focus(); });
+    const was = store.get("band", null);
+    if (was === null) $$(".tile").forEach((t) => { t.hidden = false; }); else pick(was);
+    const done = store.get("read", []);                      // papers read on this device
+    $$(".tile").forEach((t) => { if (done.includes(t.dataset.key)) $(".done", t).hidden = false; });
+    document.addEventListener("click", (e) => {             // the chips open "My reading" with the badges
+      if (e.target.closest(".chip")) { const d = $("#badges details"); if (d) d.open = true; }
+    });
+    const tabs = $$(".tabbar a");                            // the bottom bar shows where you are
+    const mark = (cur) => tabs.forEach((a) => { if (a === cur) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+    let tapped = null;                                       // a tapped tab stays lit until the reader scrolls
+    const spy = () => {
+      if (tapped) return;
+      let cur = tabs[0];
+      tabs.forEach((a) => { const el = document.getElementById(a.hash.slice(1)); if (el && el.getBoundingClientRect().top < innerHeight * .4) cur = a; });
+      if (innerHeight + scrollY >= document.documentElement.scrollHeight - 4) cur = tabs[tabs.length - 1];
+      mark(cur);
+    };
+    if (tabs.length) {
+      tabs.forEach((a) => a.addEventListener("click", () => { tapped = a; mark(a); }));
+      ["wheel", "touchstart", "keydown"].forEach((ev) => addEventListener(ev, () => { tapped = null; }, { passive: true }));
+      addEventListener("scroll", spy, { passive: true }); spy();
+    }
     return;
   }
 

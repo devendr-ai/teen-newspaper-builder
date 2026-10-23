@@ -20,6 +20,13 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Front pages that fit the first screen. Grown-ups' page: a one-line header (a ☰ Menu on
+  phones and iPads), the tagline with the parents' intro behind "How it works", one age bar
+  that stays at the top while scrolling (Length, Focus and How often under "More filters"),
+  smaller covers, rows with a small cover on phones, a NEW tag on the latest papers and a Read
+  & Play card. Read & Play: the age asked once then remembered (and shared with the grown-ups'
+  page), streak and badge chips, each paper as a short row with a little real map or moving
+  picture, two columns on a laptop, and a bottom bar on phones (Papers, Big stories, Map, Me).
 - Easier version: papers for 12 and up gain a "🪶 Easier version" button on each Read & Play
   story, swapping in a simpler version written from that story's facts only (`play.easy`,
   checked by `ygc check`: length, sentence length, and no number the story doesn't have).

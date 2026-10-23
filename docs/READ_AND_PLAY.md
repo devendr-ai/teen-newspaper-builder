@@ -4,9 +4,18 @@ The newsstand is for grown-ups: choose a paper, download it, print it. **Read &
 Play** (`/play/` on the site, built by `ygc/play.py` as part of `python -m ygc
 site`) is for the child, on a tablet or phone, from the same issue files.
 
-- **Who's reading?** The lobby asks the child's age (6–8, 9–11, 12–14, 15+) and
-  shows that age's papers, each with **Read** and **Play**. The choice is
-  remembered on the device.
+- **Who's reading?** The lobby asks the child's age (6–8, 9–11, 12–14, 15+) once,
+  then shows "Hi! Papers for ages 9–11 · Change age". Each paper is one short row:
+  a little picture (the lead story's moving picture, or a small real map zoomed to
+  where it happens), the headline, and **Read** and **Play**, with ✓ once read.
+  The age is remembered on the device and shared with the grown-ups' page, so
+  choosing it on either one sets both.
+- **One screen.** The streak and badges are two chips at the top (tap them for "My
+  reading"). On a laptop the papers sit on the left, with Big stories and the news
+  map on the right; on an iPad held upright Big stories and the map sit side by
+  side under the papers. On a phone Big stories swipe sideways and a bottom bar
+  jumps to Papers, Big stories, Map and Me. Same link on every device: the page
+  picks its layout from the screen's width.
 - **Read.** Each of the last 7 issues of every paper becomes a page. For ages
   6–11 it shows one story per screen (swipe, or Next and Back); older readers
   scroll. Every story and section has **Read it to me**, which uses the device's

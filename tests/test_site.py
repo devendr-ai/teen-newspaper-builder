@@ -40,6 +40,8 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
         assert f'data-v="{facet}"' in index
     assert 'data-v="Adults"' not in index and 'data-v="Professionals"' not in index   # a site for ages 6-15+
     assert 'class="intro"' in index and "Pick your child" in index            # the parents' intro from site.yaml
+    assert 'class="how"' in index and 'class="agebar"' in index and 'id="filters" hidden' in index
+    assert 'class="menu"' in index and 'class="card rp"' in index and '<span class="new">NEW</span>' in index
     le = out / "e" / "little-explorers"                     # the Big Question poster is a second download
     newest_poster = poster.posters_of(edition.load("little-explorers"))[0][0]
     assert (le / "latest-poster.pdf").exists() and (le / f"{newest_poster}-poster.pdf").exists()
