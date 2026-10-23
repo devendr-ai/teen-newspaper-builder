@@ -27,6 +27,20 @@ def test_lobby_has_a_tile_per_paper_with_issues_and_age_buttons(built):
     assert 'href="../play/play.css?v=' in lobby and (built / "play.css").exists() and (built / "play.js").exists()
 
 
+def test_lobby_fits_the_first_screen(built):
+    """Each paper is a short row with Read and Play; streaks are chips; phones get a bottom bar."""
+    lobby = (built / "index.html").read_text(encoding="utf-8")
+    rows = re.findall(r'<article class="tile" data-band="[^"]+" data-key="([^"]+)">(.*?)</article>', lobby, re.S)
+    assert rows and all('class="thumb' in r and ">Read</a>" in r and ">Play</a>" in r for _, r in rows)
+    assert all(re.fullmatch(r"[a-z0-9-]+-\d{4}-\d{2}-\d{2}", k) for k, _ in rows)    # matches the "read" key
+    assert lobby.count('<span class="new">NEW</span>') >= 1
+    assert 'class="mini"' in lobby                                          # a little real map for a story's place
+    assert 'id="chips"' in lobby and 'class="pick"' in lobby and 'class="hello" hidden' in lobby
+    tabs = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', lobby, re.S).group(1)
+    for anchor in re.findall(r'href="#([a-z]+)"', tabs):
+        assert f'id="{anchor}"' in lobby
+
+
 def test_a_young_readers_issue_reads_one_story_per_screen_with_words_to_tap(built):
     ed = edition.load("little-explorers")
     date = site.issues_of(ed)[0][0]
