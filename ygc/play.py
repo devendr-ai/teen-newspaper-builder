@@ -580,12 +580,12 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <figure class="where wide" data-pins="{E(json.dumps(pins, ensure_ascii=False))}"><div class="map" role="img" aria-label="A world map with a pin for each of today's stories"></div>
 <figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
                 if pins else "")
-    tabs = [("today", "📰", "Papers"), ("stories", "🧵", "Big stories") if big_row else None,
-            ("map", "🗺️", "Map") if news_map else None, ("me", "🏅", "Me")]
+    tabs = [("../index.html", "🏠", "Home"), ("#today", "📰", "Papers"), ("#stories", "🧵", "Big stories") if big_row else None,
+            ("#map", "🗺️", "Map") if news_map else None, ("#me", "🏅", "Me")]      # Home: back to the grown-ups' page
     now = ' aria-current="true"'
     tabbar = ('<nav class="tabbar" aria-label="Jump to">' + "".join(
-        f'<a href="#{k}"{now if k == "today" else ""}><span aria-hidden="true">{i}</span>{n}</a>'
-        for k, i, n in filter(None, tabs)) + "</nav>")
+        f'<a href="{h}"{now if h == "#today" else ""}><span aria-hidden="true">{i}</span>{n}</a>'
+        for h, i, n in filter(None, tabs)) + "</nav>")
     body = f'''<header class="bar lb"><h1><a href="index.html">{brand.inline("owl")}Read &amp; Play</a></h1>
 <a class="home" href="../index.html">← Grown-ups</a><div class="chips" id="chips"></div></header>
 <main class="lobby front"><section class="today" id="today" aria-labelledby="h-today"><p class="motto">The world's news, one pebble a day.</p>
@@ -1195,7 +1195,7 @@ JS = r"""
     document.addEventListener("click", (e) => {             // the chips open "My reading" with the badges
       if (e.target.closest(".chip")) { const d = $("#badges details"); if (d) d.open = true; }
     });
-    const tabs = $$(".tabbar a");                            // the bottom bar shows where you are
+    const tabs = $$('.tabbar a[href^="#"]');                 // the bottom bar shows where you are
     const mark = (cur) => tabs.forEach((a) => { if (a === cur) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
     let tapped = null;                                       // a tapped tab stays lit until the reader scrolls
     const spy = () => {
