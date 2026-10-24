@@ -2,8 +2,8 @@
 title: News Pebbles
 tagline: Big news, small pebbles.
 description: Free newspapers to print, written for your child's age from sources you can check.
-domain: ""           # e.g. newspebbles.com, once its DNS points at GitHub Pages: printed on every page's footer
-base_url: https://devendr-ai.github.io/teen-newspaper-builder/
+domain: newspebbles.com
+base_url: https://newspebbles.com/
 contact: ""            # an email address readers can send corrections to
 goatcounter: ""       # privacy-first visit counts (ygc/stats.py): the code of a GoatCounter site, e.g. newspebbles for newspebbles.goatcounter.com
 feedback_url: "https://docs.google.com/forms/d/e/1FAIpQLSckp1619w9UDFaGy_9gz3JkTRdAdNJ5DjxUOpWPGn7X3FWO4Q/viewform"   # a Google Form (or any form) link: adds a Feedback tab and footer link
