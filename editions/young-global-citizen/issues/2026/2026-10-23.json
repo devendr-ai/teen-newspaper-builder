@@ -361,7 +361,29 @@
           "Texas had nearly 1 million early ballots. In 2022 it was about 550,000. Early votes do not tell us who will win."
         ]
       }
-    }
+    },
+    "numbers": [
+      {
+        "story": "india",
+        "q": "How many points did the Sensex fall on Thursday?",
+        "answer": 460.3,
+        "prefix": "",
+        "unit": "points",
+        "min": 20,
+        "max": 3000,
+        "why": "It fell 460.30 points to 73,249.39, as oil above $110 raised worries about inflation."
+      },
+      {
+        "story": "us",
+        "q": "How many early votes had been cast by Tuesday, in millions?",
+        "answer": 13,
+        "prefix": "",
+        "unit": "million",
+        "min": 1,
+        "max": 60,
+        "why": "More than 13 million, against 9 million at the same point in the 2022 midterms."
+      }
+    ]
   },
   "sources": [
     "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",

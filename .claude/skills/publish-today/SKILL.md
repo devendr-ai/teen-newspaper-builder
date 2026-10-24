@@ -98,8 +98,9 @@ For each paper in `ygc due`, one at a time:
    ```
    Fix every ERROR in the content (never edit the engine, the edition or the
    tests to get a pass). The `play` section is part of the paper: the games,
-   `where` for the maps and, for papers for 12 and up, `easy` (an easier
-   version of each story, using only that story's facts). Fill columns that show free lines. Open the page PNGs
+   `where` for the maps, `numbers` for Guess the number (2 numbers the stories
+   give, with a slider range around each) and, for papers for 12 and up, `easy`
+   (an easier version of each story, using only that story's facts). Fill columns that show free lines. Open the page PNGs
    in `build/` and look at them.
 4. Fact-check before calling it done: reread every figure, name, place, date
    and claim against the pool entry it came from, and remove anything the

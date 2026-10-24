@@ -272,6 +272,28 @@
           "India"
         ]
       }
+    ],
+    "numbers": [
+      {
+        "story": "india",
+        "q": "On Friday morning, what was Delhi's air quality index?",
+        "answer": 223,
+        "prefix": "",
+        "unit": "",
+        "min": 0,
+        "max": 500,
+        "why": "It was 223, in the “poor” group. The higher the number, the dirtier the air."
+      },
+      {
+        "story": "us",
+        "q": "How many early votes had been counted, in millions?",
+        "answer": 16,
+        "prefix": "",
+        "unit": "million",
+        "min": 1,
+        "max": 60,
+        "why": "More than 16 million early votes were counted in 41 states and Washington, D.C."
+      }
     ]
   },
   "threads": {

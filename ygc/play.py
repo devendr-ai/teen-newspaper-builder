@@ -306,7 +306,17 @@ def sections(ed, issue, date, chips=None):
     facts = [{"claim": plain(f["claim"]), "true": bool(f["true"]), "why": plain(f.get("why", "")),
               "card": at.get(f.get("story"), -1)}
              for f in play.get("fact_or_fiction") or [] if isinstance(f, dict) and f.get("claim") and isinstance(f.get("true"), bool)]
-    return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts}, places
+    where = [{"place": place_name(w), "lat": w["lat"], "lon": w["lon"], "countries": w["countries"],
+              "names": [world.DISPLAY.get(c, c) for c in w["countries"]], "h": plain(h), "card": at.get(bid, -1)}
+             for bid, h, w in places]
+    num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
+    numbers = [{"q": plain(n["q"]), "answer": n["answer"], "min": n["min"], "max": n["max"],
+                "prefix": plain(n.get("prefix") or ""), "unit": plain(n.get("unit") or ""), "why": plain(n.get("why", "")),
+                "card": at.get(n.get("story"), -1)}
+               for n in play.get("numbers") or [] if isinstance(n, dict) and n.get("q")
+               and all(num(n.get(k)) for k in ("answer", "min", "max")) and n["min"] < n["answer"] < n["max"]]
+    return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts,
+                 "where": where, "numbers": numbers}, places
 
 
 def issue_page(cfg, ed, band, issue, date, others, chips=None):
@@ -324,7 +334,7 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None):
 <button type="button" data-act="night" aria-label="Night mode">🌙</button>
 <select data-act="rate" aria-label="Reading speed"><option value="0.8">Slow</option><option value="1" selected>Normal</option><option value="1.2">Fast</option></select>
 </div></header>
-<main class="issue" data-mode="{mode}" data-key="{E(ed['id'])}-{date}">
+<main class="issue" data-mode="{mode}" data-key="{E(ed['id'])}-{date}" data-band="{E(band)}">
 <div class="title"><h1>{E(ed["name"])}</h1><p>{d:%A %d %B %Y} · No. {E(str(issue.get("issue", "")))}</p>
 <nav class="tabs" role="tablist"><button type="button" role="tab" data-tab="read" aria-selected="true">Read</button><button type="button" role="tab" data-tab="play" aria-selected="false">Play</button></nav></div>
 <div id="read" role="tabpanel">
@@ -436,6 +446,19 @@ who's who, and the questions people are asking.</p><div class="big3">{rows}</div
 
 
 # ------------------------------------------------------------------ an app on the home screen
+def certificate(cfg):
+    """A printable certificate for a badge (certificate.html?b=<badge>), filled in by play.js from what this device earned."""
+    body = f'''<header class="bar noprint"><a class="home" href="index.html#me">← My badges</a></header>
+<main class="certpage"><div class="cert" hidden>{brand.inline("owl")}<p class="org">{E(cfg["title"]).upper()}</p>
+<p class="kind">Certificate</p><p class="to">This certificate is awarded to</p><p class="nm"></p><h1 class="bn"></h1><p class="bd"></p>
+<div class="ft"><span class="dt"></span><span>{E(cfg["tagline"])}</span></div></div>
+<div class="ctl noprint" hidden><label>Name on the certificate <input class="name" maxlength="40" autocomplete="off"></label>
+<button type="button" class="big go print">🖨️ Print certificate</button>
+<p class="note">The name stays on this device. To keep a copy, choose “Save as PDF” in the print window.</p></div>
+<p class="none" hidden>This badge isn't earned on this device yet. <a href="index.html#me">See my badges</a></p></main>'''
+    return shell(cfg, f"Certificate · {cfg['title']}", body, root="../")
+
+
 def manifest(cfg):
     return json.dumps({
         "name": f"Read & Play · {cfg['title']}", "short_name": cfg["title"],
@@ -600,6 +623,7 @@ today's papers work without the internet.</p><button type="button" class="big go
 <p class="note"><a href="../index.html">← {E(cfg["title"])} (grown-ups)</a><br>For grown-ups: nothing here is tracked. Settings and stars stay on this device.
 Maps show India's borders as on India's official maps (Natural Earth, India view).</p></section></main>{tabbar}'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
+    open(os.path.join(pdir, "certificate.html"), "w", encoding="utf-8").write(certificate(cfg))
     for n in (180, 192, 512):                     # the owl, from assets/ (tools/brand/make_icons.js)
         shutil.copy(os.path.join(brand.ASSETS, f"owl-icon-{n}.png"), os.path.join(pdir, f"icon-{n}.png"))
     shutil.copy(brand.SVG, os.path.join(pdir, "owl.svg"))
@@ -835,6 +859,30 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
   border-radius:16px;padding:10px 12px;text-decoration:none;color:var(--ink)}
 .bigstory .ic{font-size:1.6em}.bigstory b{font-family:var(--display);font-size:1.05em}.bigstory small{display:block;color:var(--muted)}
 .bigstory .new{margin-left:auto;background:var(--rose-t);color:#B23A30;font-size:.68em;font-weight:800;border-radius:999px;padding:3px 9px;white-space:nowrap}
+/* new games: hints, Map hunt, Guess the number, a Full set */
+.why.hint{background:var(--sun-t)}
+.hunt{border-radius:16px;overflow:hidden;border:2px solid var(--line);margin:4px 0 6px;touch-action:manipulation}
+.hunt svg{display:block;width:100%;height:auto;cursor:crosshair}
+.hunt .sea{fill:var(--sea)}.hunt use{fill:var(--land);stroke:var(--map-line);stroke-width:1}
+.hunt .hl path{fill:var(--coral);fill-opacity:.45;stroke:var(--coral);stroke-width:1.5}
+.hunt .trip{stroke:var(--teal);stroke-width:2.5;stroke-dasharray:6 5;vector-effect:non-scaling-stroke;fill:none}
+.hunt .tap{fill:#5A8394;stroke:#fff;stroke-width:2;vector-effect:non-scaling-stroke}
+.hunt .dot{fill:var(--coral);stroke:#fff;stroke-width:2;vector-effect:non-scaling-stroke}
+.hunt .ring{fill:none;stroke:var(--coral);stroke-width:2.5;vector-effect:non-scaling-stroke;transform-box:fill-box;transform-origin:center;animation:rp-pulse 1.8s ease-out infinite}
+@media (prefers-reduced-motion:reduce){.hunt .ring{animation:none}}
+.slide{margin:18px 4px 6px;text-align:center}
+.slide .val{display:inline-block;background:var(--ink);color:var(--card);font-weight:800;border-radius:10px;padding:4px 12px;font-size:1.1em;margin-bottom:10px}
+.slide input{width:100%;height:44px;accent-color:var(--teal)}
+.slide .ends{display:flex;justify-content:space-between;font-size:14px;color:var(--muted)}
+.nbars{display:grid;gap:6px;margin:10px 0}.nbars div{position:relative;background:var(--bg);border-radius:8px;min-height:32px}
+.nbars i{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:#B9C9CF}.nbars .ans i{background:var(--coral);opacity:.75}
+.nbars span{position:relative;display:block;padding:5px 10px;font-size:.8em;font-weight:700}
+.opts.nums{grid-template-columns:1fr;gap:12px}.opts.nums button{font-size:1.25em;font-weight:800;text-align:center;min-height:64px}
+.fullset{background:var(--sun-t);border:2px solid var(--sun);border-radius:16px;padding:12px 14px;margin:10px 0;font-size:1.05em}
+.newbadge{display:flex;gap:12px;align-items:center;background:var(--card);border:2px solid var(--sun);border-radius:16px;padding:10px 12px;margin:8px 0;
+  text-decoration:none;color:var(--ink)}.newbadge .bi{font-size:2em}.newbadge b{display:block}.newbadge small{color:var(--muted)}
+.game.grown .fullset{background:var(--bg);border-color:var(--line)}.game.grown .newbadge{border-color:var(--teal)}
+.game.grown .stars{font-size:1.4em;letter-spacing:2px}
 /* app, streaks and badges */
 .install{background:var(--card);border:2px dashed var(--coral);border-radius:18px;padding:12px 16px;margin:0 0 18px}
 .install p{margin:0 0 8px}.install .big{min-height:48px;padding:8px 18px;font-size:17px}
@@ -854,6 +902,23 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .shelf li{border:2px solid var(--line);border-radius:14px;padding:8px 10px;display:grid;gap:2px;opacity:.65;font-size:.8em;line-height:1.25}
 .shelf li.got{opacity:1;border-color:var(--sun);background:var(--sun-t)}
 .shelf .bi{font-size:1.8em;line-height:1.1}.shelf small{color:var(--muted)}
+.shelf li:not(.got) .bi{filter:grayscale(1);opacity:.5}
+.shelf .bp{display:block;height:6px;border-radius:9px;background:var(--line);overflow:hidden;margin-top:4px}.shelf .bp i{display:block;height:100%;background:var(--teal)}
+.shelf .cert1{font-weight:700;font-size:.95em;margin-top:2px}
+/* a certificate to print */
+.certpage{max-width:900px;margin:0 auto;padding:16px}
+.cert{background:#fff;color:#1E2A32;border:10px double #5A8394;border-radius:6px;padding:28px 24px 18px;text-align:center;font-family:Georgia,"Times New Roman",serif}
+.cert .owl{display:block;width:84px;height:84px;margin:0 auto}
+.cert .org{margin:6px 0 0;font:700 14px var(--text);letter-spacing:.25em;color:#5A8394}
+.cert .kind{margin:2px 0 10px;font-size:15px;font-style:italic;color:#56646C}.cert .to{margin:0;font-size:17px}
+.cert .nm{font-size:34px;min-width:60%;display:inline-block;border-bottom:1.5px solid #1E2A32;margin:10px 0 6px;padding:0 20px 2px;min-height:1.3em}
+.cert h1{font-family:Georgia,serif;font-size:40px;color:#E2584D;margin:6px 0 4px}.cert .bd{font-size:18px;margin:0 0 18px}
+.cert .ft{display:flex;justify-content:space-between;font:13px var(--text);color:#56646C;border-top:1px solid #D9DEE0;padding-top:8px}
+.ctl{display:grid;gap:10px;margin-top:16px}.ctl label{display:grid;gap:4px;font-weight:700}
+.ctl input{font:inherit;font-size:18px;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.ctl .note{font-size:14px;color:var(--muted);margin:0}
+@media print{@page{size:landscape;margin:12mm}body{background:#fff}.noprint{display:none!important}.certpage{padding:0;max-width:none}
+  .cert{border-width:12px;min-height:170mm;display:flex;flex-direction:column;justify-content:center;align-items:center}.cert .ft{align-self:stretch}}
 .streak{font-weight:700;color:var(--coral)}.streak:empty{display:none}.mine{font-size:.85em;margin:14px 0 0}
 .toast{position:fixed;left:50%;top:16px;transform:translateX(-50%);z-index:40;background:var(--card);border:3px solid var(--sun);
   border-radius:18px;padding:10px 18px;box-shadow:0 8px 30px rgba(0,0,0,.25);animation:rp-pop .4s ease-out;transition:opacity .5s,transform .5s}
@@ -1103,29 +1168,41 @@ JS = r"""
     while (days.has(ymd(d))) { n++; d.setDate(d.getDate() - 1); }
     return n;
   }
+  // Each badge has a name for younger readers and a plainer one for 12 and up, what it was for (on the
+  // certificate), and how far along the reader is: [done, needed].
+  const B = (id, icon, name, gname, did, prog) => ({ id, icon, name, gname, did, prog });
   const BADGES = [
-    ["first", "📰", "First paper", "Read a whole paper", () => count("read") >= 1],
-    ["shelf", "📚", "Bookworm", "Read 10 papers", () => count("read") >= 10],
-    ["fire3", "🔥", "On fire", "Read 3 days in a row", () => streak() >= 3],
-    ["week", "🌟", "Super week", "Read 7 days in a row", () => streak() >= 7],
-    ["month", "🏆", "News champion", "Read 30 days in a row", () => streak() >= 30],
-    ["maps", "🗺️", "Map explorer", "See stories in 10 countries", () => count("lands") >= 10],
-    ["words", "🔤", "Word wizard", "Tap 15 new words", () => count("words") >= 15],
-    ["ears", "🔊", "Good listener", "Hear 5 stories read aloud", () => store.get("heard", 0) >= 5],
-    ["quiz", "🧠", "Quiz champ", "Get 3 stars on 3 quizzes", () => count("3s-quiz") >= 3],
-    ["facts", "🕵️", "Fact detective", "Get 3 stars on 3 Fact or fiction games", () => count("3s-facts") >= 3],
-    ["match", "🧩", "Perfect match", "Get 3 stars on 3 matching games", () => count("3s-words") >= 3],
+    B("first", "📰", "First paper", "First paper", "reading a whole paper", () => [count("read"), 1]),
+    B("shelf", "📚", "Bookworm", "Regular reader", "reading 10 papers", () => [count("read"), 10]),
+    B("fire3", "🔥", "On fire", "3-day streak", "reading 3 days in a row", () => [streak(), 3]),
+    B("week", "🌟", "Super week", "7-day streak", "reading 7 days in a row", () => [streak(), 7]),
+    B("month", "🏆", "News champion", "Month of news", "reading 30 days in a row", () => [streak(), 30]),
+    B("maps", "🗺️", "Map explorer", "Globetrotter", "reading stories from 10 countries", () => [count("lands"), 10]),
+    B("words", "🔤", "Word wizard", "Wordsmith", "learning 15 new words", () => [count("words"), 15]),
+    B("ears", "🔊", "Good listener", "Listener", "listening to 5 stories read aloud", () => [store.get("heard", 0), 5]),
+    B("quiz", "🧠", "Quiz champ", "Quiz ace", "3 stars on 3 quizzes", () => [count("3s-quiz"), 3]),
+    B("facts", "🕵️", "Fact detective", "Fact checker", "3 stars on 3 Fact or fiction games", () => [count("3s-facts"), 3]),
+    B("match", "🧩", "Perfect match", "Perfect match", "3 stars on 3 matching games", () => [count("3s-words"), 3]),
+    B("pins", "📍", "Map master", "Cartographer", "finding 10 places in the news on the map", () => [count("map3"), 10]),
+    B("nums", "🎚️", "Number ninja", "Data detective", "10 spot-on guesses of numbers in the news", () => [count("num3"), 10]),
+    B("set1", "⭐", "Full set", "Set complete", "playing every game in a paper", () => [count("sets"), 1]),
+    B("set5", "🌠", "Super set", "Five sets", "playing every game in 5 papers", () => [count("sets"), 5]),
+    B("clean", "🎯", "First try", "Clean sheet", "a full set of games with no hints", () => [count("clean"), 1]),
   ];
+  const grownUp = () => { const m = $(".issue"); return /12–14|15\+/.test((m ? m.dataset.band : store.get("band", "")) || ""); };
+  const nameOf = (b) => (grownUp() ? b.gname : b.name);
+  const earned = (b) => { const [n, of] = b.prog(); return n >= of; };
   function award() {
-    const have = store.get("badges", {}), fresh = BADGES.filter((b) => !have[b[0]] && b[4]());
-    if (!fresh.length) return;
-    fresh.forEach((b) => { have[b[0]] = ymd(new Date()); });
+    const have = store.get("badges", {}), fresh = BADGES.filter((b) => !have[b.id] && earned(b));
+    if (!fresh.length) return [];
+    fresh.forEach((b) => { have[b.id] = ymd(new Date()); });
     store.set("badges", have);
     const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status");
-    t.innerHTML = fresh.map((b) => `<p><span class="bi" aria-hidden="true">${b[1]}</span><span><small>New badge!</small><b>${esc(b[2])}</b></span></p>`).join("");
+    t.innerHTML = fresh.map((b) => `<p><span class="bi" aria-hidden="true">${b.icon}</span><span><small>${grownUp() ? "Achievement" : "New badge!"}</small><b>${esc(nameOf(b))}</b></span></p>`).join("");
     document.body.appendChild(t);
     setTimeout(() => t.classList.add("bye"), 3800); setTimeout(() => t.remove(), 4400);
     shelf();
+    return fresh;
   }
   function paperDone() {
     const issue = $(".issue"); if (!issue) return;
@@ -1151,11 +1228,33 @@ JS = r"""
       <p><b>${s ? `My pebble tower: ${s} ${s === 1 ? "day" : "days"}` : "No pebbles yet"}</b><br><span>${s && !today ? `Read a whole paper today to add pebble number ${s + 1}!`
         : s ? "Today's pebble is on. See you tomorrow!" : "Read a whole paper to put your first pebble on your tower."}</span></p>
       <p class="n"><b>${count("read")}</b><br><span>${count("read") === 1 ? "paper" : "papers"} read</span></p></div>
-      <details${location.hash === "#badges" ? " open" : ""}><summary>My badges: ${Object.keys(have).length} of ${BADGES.length}</summary>
-      <ul class="shelf">${BADGES.map((b) => `<li class="${have[b[0]] ? "got" : ""}"><span class="bi" aria-hidden="true">${have[b[0]] ? b[1] : "🔒"}</span>
-        <b>${esc(b[2])}</b><small>${have[b[0]] ? "Earned!" : esc(b[3])}</small></li>`).join("")}</ul></details>`;
+      <details${location.hash === "#badges" ? " open" : ""}><summary>${grownUp() ? "Achievements" : "My badges"}: ${Object.keys(have).length} of ${BADGES.length}</summary>
+      <ul class="shelf">${BADGES.slice().sort((x, y) => (have[y.id] ? 2 : y.prog()[0] / y.prog()[1]) - (have[x.id] ? 2 : x.prog()[0] / x.prog()[1]))
+        .map((b) => { const [n, of] = b.prog(); return have[b.id]
+        ? `<li class="got"><span class="bi" aria-hidden="true">${b.icon}</span><b>${esc(nameOf(b))}</b><small>For ${esc(b.did)}</small>
+           <a class="cert1" href="certificate.html?b=${b.id}">🖨️ Certificate</a></li>`
+        : `<li><span class="bi" aria-hidden="true">${b.icon}</span><b>${esc(nameOf(b))}</b><small>For ${esc(b.did)}</small>
+           <span class="bp" aria-hidden="true"><i style="width:${Math.min(100, Math.round(100 * n / of))}%"></i></span><small>${Math.min(n, of)} of ${of}</small></li>`; }).join("")}</ul></details>`;
   }
   shelf();
+
+  // ---------------------------------------------------------------- a certificate to print, for a badge earned here
+  const cp = $(".certpage");
+  if (cp) {
+    const id = new URLSearchParams(location.search).get("b"), b = BADGES.find((x) => x.id === id), when = store.get("badges", {})[id];
+    if (!b || !when) { $(".none", cp).hidden = false; return; }
+    const c = $(".cert", cp), input = $(".name", cp);
+    c.hidden = false; $(".ctl", cp).hidden = false;
+    $(".kind", c).textContent = grownUp() ? "Certificate of achievement" : "Certificate";
+    $(".bn", c).textContent = nameOf(b);
+    $(".bd", c).textContent = "for " + b.did;
+    $(".dt", c).textContent = new Date(when + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+    const fill = () => { $(".nm", c).textContent = input.value.trim() || " "; };
+    input.value = store.get("name", ""); fill();
+    input.addEventListener("input", () => { store.set("name", input.value.trim()); fill(); });
+    $(".print", cp).addEventListener("click", () => window.print());
+    return;
+  }
 
   // ---------------------------------------------------------------- the lobby: who's reading?
   const whos = $$(".who");
@@ -1346,33 +1445,57 @@ JS = r"""
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const young = main.dataset.mode === "cards";
   const box = $("#game");
-  const starsFor = (right, total) => (right === total ? 3 : right / total >= 0.6 ? 2 : 1);
-  const best = (name) => store.get("stars-" + main.dataset.key + "-" + name, 0);
-  const keep = (name, n) => {
-    store.set("stars-" + main.dataset.key + "-" + name, Math.max(n, best(name)));
-    if (n === 3 && addTo("3s-" + name, main.dataset.key)) award();
-  };
+  // How old the reader is sets each game's level and its tone: 0 = 6–8, 1 = 9–11, 2 = 12–14, 3 = 15+.
+  const TIERS = { "Ages 6–8": 0, "Ages 9–11": 1, "Ages 12–14": 2, "Ages 15+": 3 };
+  const tier = TIERS[main.dataset.band] === undefined ? 1 : TIERS[main.dataset.band], grown = tier >= 2;
+  const say2 = (kid, older) => (grown ? older : kid);
+  const key = main.dataset.key;
+  const starsFor = (pts, total) => (pts >= total ? 3 : pts / total >= 0.6 ? 2 : 1);
+  const starLine = (n) => `<p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p>`;
+  const best = (name) => store.get("stars-" + key + "-" + name, 0);
   const GAMES = [];
+  function keep(name, n) {            // the stars, then a Full set and any new badges: what to show at the end
+    store.set("stars-" + key + "-" + name, Math.max(n, best(name)));
+    if (n === 3) addTo("3s-" + name, key);
+    let set = false;
+    if (GAMES.length > 1 && GAMES.every((g) => best(g.id) > 0) && addTo("sets", key)) {
+      set = true;
+      if (!store.get("hinted", []).includes(key)) addTo("clean", key);
+    }
+    const fresh = award();
+    if (!grown && (set || n === 3)) setTimeout(confetti, 200);
+    return (set ? `<div class="fullset"><b>${say2("Full set! 🎉", "Set complete.")}</b> ${say2(`You played all ${GAMES.length} of today's games.`,
+              `All ${GAMES.length} of today's games played.`)}</div>` : "")
+      + fresh.map((b) => `<a class="newbadge" href="../certificate.html?b=${b.id}"><span class="bi" aria-hidden="true">${b.icon}</span>
+          <span><b>${grown ? "Achievement" : "New badge"}: ${esc(nameOf(b))}</b><small>For ${esc(b.did)} · Print the certificate 🖨️</small></span></a>`).join("");
+  }
+  if (data.quiz.length) GAMES.push({ id: "quiz", ic: "❓", name: "Quiz", sub: data.quiz.length + " questions about today's paper", run: quiz });
+  if (window.WORLD && data.where.length >= 2) GAMES.push({ id: "map", ic: "📍", name: "Map hunt", sub: say2("Find where the stories happened", "Pin where the stories happened"), run: hunt });
+  if (data.numbers.length) GAMES.push({ id: "numbers", ic: "🎚️", name: "Guess the number", sub: say2("Numbers from today's news", "Estimate the numbers in the news"), run: numbers });
+  if (data.facts.length) GAMES.push({ id: "facts", ic: "🕵️", name: "Fact or fiction?", sub: "True, or not true?", run: facts });
   if (data.vocab.length >= 2) GAMES.push({ id: "words", ic: "🔤", name: "Word match", sub: "Match each new word to its meaning", run: () => match("words") });
   else if (data.stories.length >= 2) GAMES.push({ id: "words", ic: "📰", name: "Story match", sub: "Match each headline to its story", run: () => match("words") });
-  if (data.quiz.length) GAMES.push({ id: "quiz", ic: "❓", name: "Quiz", sub: data.quiz.length + " questions about today's paper", run: quiz });
-  if (data.facts.length) GAMES.push({ id: "facts", ic: "🕵️", name: "Fact or fiction?", sub: "True, or not true?", run: facts });
   function game() {
     stop();
-    box.className = "card game";
+    box.className = "card game" + (grown ? " grown" : "");
     if (!GAMES.length) { box.innerHTML = "<p>No game for this issue. Come back tomorrow!</p>"; return; }
     if (GAMES.length === 1) { GAMES[0].run(); return; }
-    box.innerHTML = `<h2>Pick a game</h2><p class="how">Play one, or all three.</p><div class="menu">${GAMES.map((g, i) =>
+    const played = GAMES.filter((g) => best(g.id) > 0).length;
+    box.innerHTML = `<h2>${say2("Pick a game", "Today's games")}</h2><p class="how">${played === GAMES.length
+      ? say2("Full set done! Play again to beat your stars.", "Set complete. Replay any game to improve your score.")
+      : say2(`Play all ${GAMES.length} for a Full set ⭐ (${played} done)`, `Play all ${GAMES.length} to complete the set (${played} done).`)}</p>
+      <div class="menu">${GAMES.map((g, i) =>
       `<button type="button" data-g="${i}"><span class="ic" aria-hidden="true">${g.ic}</span><span><b>${g.name}</b><small>${g.sub}</small></span>
-       <span class="got" aria-label="${best(g.id)} stars">${best(g.id) ? "★".repeat(best(g.id)) : ""}</span></button>`).join("")}</div>`;
+       <span class="got" aria-label="${best(g.id)} stars">${best(g.id) ? "★".repeat(best(g.id)) + "☆".repeat(3 - best(g.id)) : ""}</span></button>`).join("")}</div>`;
     $$(".menu button", box).forEach((b) => b.addEventListener("click", () => GAMES[+b.dataset.g].run()));
   }
-  const back = () => (GAMES.length > 1 ? '<button type="button" class="back">← All games</button>' : "");
-  const wireBack = () => { const b = $(".back", box); if (b) b.addEventListener("click", game); };
+  const back = () => (GAMES.length > 1 ? `<button type="button" class="back">← ${say2("All games", "Today's games")}</button>` : "");
+  const wireBack = () => { $$(".back", box).forEach((b) => b.addEventListener("click", game)); };
   function readAgain(card) {
     if (card < 0) return "";
     return ` <a href="#" data-card="${card}">Read it again</a>`;
   }
+  const headline = (card) => { const c = card >= 0 ? $$("#read .card")[card] : null, h = c && $("h2", c); return h ? h.textContent.trim() : ""; };
   box.addEventListener("click", (e) => {
     const a = e.target.closest("a[data-card]"); if (!a) return;
     e.preventDefault(); tab("read");
@@ -1380,12 +1503,15 @@ JS = r"""
     if (show) { if (cards[i]) show(i); }
     else { const c = $$("#read .card")[i]; if (c) c.scrollIntoView({ behavior: "smooth" }); }
   });
-  function finishText(right, total, name) {
-    const n = starsFor(right, total); keep(name, n);
-    if (n === 3) setTimeout(confetti, 200);
-    return `<p class="cheer" role="status">${right === total ? "Every one right! 🎉" : `You got ${right} out of ${total}! 🎉`}</p>
-      <p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p>
+  function ending(n, line, again) {   // the last screen of a game: stars, a Full set, new badges, play again
+    box.innerHTML = `<p class="cheer" role="status">${line}</p>${starLine(n)}${keep(again.id, n)}
       <button type="button" class="big again">Play again</button> ${back()}`;
+    $(".again", box).onclick = again.run; wireBack();
+  }
+  function finishText(pts, right, total, g) {
+    const n = starsFor(pts, total);
+    ending(n, right === total && pts >= total ? say2("Every one right! 🎉", "All correct.")
+      : say2(`You got ${right} out of ${total}! 🎉`, `${right} of ${total} correct.`), g);
   }
   function match(name) {
     let pairs, title, how;
@@ -1401,68 +1527,74 @@ JS = r"""
       <p class="cheer" role="status"></p><div class="end2"></div>`;
     wireBack();
     const L = $(".w", box), R = $(".m", box), cheer = $(".cheer", box);
-    let sel = null, done = 0, misses = 0;
+    let sel = null, matched = 0, misses = 0;
     const mk = (text, i, side) => {
       const b = document.createElement("button"); b.type = "button"; b.textContent = text; b.dataset.i = i;
       b.addEventListener("click", () => tap(b, side)); return b;
     };
     shuffle(pairs.map((p, i) => [p[0], i])).forEach(([t, i]) => L.appendChild(mk(t, i, "L")));
     shuffle(pairs.map((p, i) => [p[1], i])).forEach(([t, i]) => R.appendChild(mk(t, i, "R")));
-    const praise = ["Yes!", "Great!", "You got it!", "Brilliant!", "Spot on!"];
+    const praise = grown ? ["Correct.", "Yes.", "Right.", "Good.", "Correct."] : ["Yes!", "Great!", "You got it!", "Brilliant!", "Spot on!"];
     function tap(b, side) {
       if (b.classList.contains("ok")) return;
       if (!sel || sel.side === side) { $$("button.sel", box).forEach((x) => x.classList.remove("sel")); sel = { b, side }; b.classList.add("sel"); return; }
       const a = sel.b; sel = null; a.classList.remove("sel");
       if (a.dataset.i === b.dataset.i) {
-        a.classList.add("ok"); b.classList.add("ok"); done++; cheer.textContent = praise[done % praise.length];
-        if (done === pairs.length) {
-          const n = misses === 0 ? 3 : misses <= 2 ? 2 : 1; keep(name, n);
-          cheer.textContent = n === 3 ? "All matched, first time! 🎉" : "All matched! 🎉";
-          if (n === 3) confetti();
-          $(".end2", box).innerHTML = `<p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p><button type="button" class="big again">Play again</button> ${back()}`;
-          $(".again", box).onclick = () => match(name); $$(".end2 .back", box).forEach((x) => x.addEventListener("click", game));
+        a.classList.add("ok"); b.classList.add("ok"); matched++; cheer.textContent = praise[matched % praise.length];
+        if (matched === pairs.length) {
+          const n = misses === 0 ? 3 : misses <= 2 ? 2 : 1;
+          ending(n, n === 3 ? say2("All matched, first time! 🎉", "All matched, no mistakes.") : say2("All matched! 🎉", "All matched."),
+            { id: name, run: () => match(name) });
         }
       } else {
         misses++; [a, b].forEach((x) => { x.classList.add("no"); setTimeout(() => x.classList.remove("no"), 400); });
-        cheer.textContent = "Not quite. Try another one!";
+        cheer.textContent = say2("Not quite. Try another one!", "Not a match. Try again.");
       }
     }
   }
-  function steps(items, name, render) {
-    let i = 0, right = 0;
-    const show = () => {
-      if (i >= items.length) {
-        box.innerHTML = finishText(right, items.length, name);
-        $(".again", box).onclick = () => steps(items, name, render); $$(".back", box).forEach((x) => x.addEventListener("click", game));
-        return;
-      }
-      render(items[i], i, items.length, (ok) => { if (ok) right++; }, () => { i++; show(); });
+  function steps(items, g, render) {   // one question at a time; each scores 1, ½ (on a second try) or 0
+    let i = 0, pts = 0, right = 0;
+    const next = () => {
+      if (i >= items.length) { finishText(pts, right, items.length, g); return; }
+      render(items[i], i, items.length, (v) => { v = v === true ? 1 : +v || 0; pts += v; if (v > 0) right++; }, () => { i++; next(); });
     };
-    show();
+    next();
   }
   function speakBtn(text) { return speech ? `<button type="button" class="read say1" data-say="${esc(text)}">🔊 Hear it</button>` : ""; }
   box.addEventListener("click", (e) => { const b = e.target.closest(".say1"); if (b) { stop(); say(b.dataset.say, () => {}); } });
   function quiz() {
-    steps(data.quiz, "quiz", (q, i, n, score, next) => {
+    const g = { id: "quiz", run: quiz };
+    steps(data.quiz, g, (q, i, n, score, next) => {
       box.innerHTML = `${back()}<p class="qn">Question ${i + 1} of ${n}</p>${young ? speakBtn(q.q + " " + q.options.join(". ")) : ""}
         <p class="q">${esc(q.q)}</p><div class="opts">${q.options.map((o, k) => `<button type="button" data-k="${k}">${esc(o)}</button>`).join("")}</div>
         <div class="fb" role="status"></div>`;
       wireBack();
+      let tries = 0;
       $$(".opts button", box).forEach((b) => b.addEventListener("click", () => {
         const k = +b.dataset.k, ok = k === q.answer;
-        score(ok);
+        tries++;
+        if (!ok && tries === 1) {               // a clue and a second try, not just a cross
+          b.disabled = true; b.classList.add("no"); addTo("hinted", key, 400);
+          const h = headline(q.card);
+          $(".fb", box).innerHTML = `<p class="why hint"><b>${say2("Not quite! Have another go.", "Not quite. One more try.")}</b>
+            ${h ? say2(`Hint: look in the story “${esc(h)}”.`, `The answer is in “${esc(h)}”.`) : say2("Think about what the paper said.", "")}</p>`;
+          return;
+        }
+        score(ok ? (tries === 1 ? 1 : 0.5) : 0);
         $$(".opts button", box).forEach((x) => { x.disabled = true; if (+x.dataset.k === q.answer) x.classList.add("ok"); });
         if (!ok) b.classList.add("no");
-        $(".fb", box).innerHTML = `<p class="why"><b>${ok ? "Yes! " : "Not quite. "}</b>${esc(q.why)}${ok ? "" : readAgain(q.card)}</p>
-          <p><button type="button" class="big go nx">${i + 1 < n ? "Next question →" : "See my score"}</button></p>`;
+        $(".fb", box).innerHTML = `<p class="why"><b>${ok ? (tries === 1 ? say2("Yes! ", "Correct. ") : say2("Got it on the second try! ", "Correct on the second try. "))
+          : say2("Not this time. ", "Incorrect. ")}</b>${esc(q.why)}${ok ? "" : readAgain(q.card)}</p>
+          <p><button type="button" class="big go nx">${i + 1 < n ? "Next question →" : say2("See my stars", "See my score")}</button></p>`;
         $(".nx", box).addEventListener("click", next);
       }));
     });
   }
   function facts() {
-    steps(data.facts, "facts", (f, i, n, score, next) => {
+    const g = { id: "facts", run: facts };
+    steps(data.facts, g, (f, i, n, score, next) => {
       box.innerHTML = `${back()}<p class="qn">Claim ${i + 1} of ${n}</p>${young ? speakBtn(f.claim) : ""}
-        <p class="claim">${esc(f.claim)}</p><div class="opts tf"><button type="button" data-v="1">✅ True</button><button type="button" data-v="0">❌ Not true</button></div>
+        <p class="claim">${esc(f.claim)}</p><div class="opts tf"><button type="button" data-v="1">${grown ? "True" : "✅ True"}</button><button type="button" data-v="0">${grown ? "False" : "❌ Not true"}</button></div>
         <div class="fb" role="status"></div>`;
       wireBack();
       $$(".opts button", box).forEach((b) => b.addEventListener("click", () => {
@@ -1470,11 +1602,141 @@ JS = r"""
         score(ok);
         $$(".opts button", box).forEach((x) => { x.disabled = true; if ((x.dataset.v === "1") === f.true) x.classList.add("ok"); });
         if (!ok) b.classList.add("no");
-        $(".fb", box).innerHTML = `<p class="why"><b>${ok ? "Right! " : "Not quite. "}</b>It's ${f.true ? "true" : "not true"}. ${esc(f.why)}${ok ? "" : readAgain(f.card)}</p>
-          <p><button type="button" class="big go nx">${i + 1 < n ? "Next →" : "See my score"}</button></p>`;
+        $(".fb", box).innerHTML = `<p class="why"><b>${ok ? say2("Right! ", "Correct. ") : say2("Not quite. ", "Incorrect. ")}</b>It's ${f.true ? "true" : "not true"}. ${esc(f.why)}${ok ? "" : readAgain(f.card)}</p>
+          <p><button type="button" class="big go nx">${i + 1 < n ? "Next →" : say2("See my stars", "See my score")}</button></p>`;
         $(".nx", box).addEventListener("click", next);
       }));
     });
+  }
+
+  // ---------------------------------------------------------------- Map hunt: tap where the story happened
+  function unproj(x, y) {                                    // Equal Earth backwards: a point on the map to [lat, lon]
+    const yy = (WD.h / 2 - y) / WD.s; let t = yy;
+    for (let k = 0; k < 20; k++) {
+      const t2 = t * t, t6 = t2 * t2 * t2;
+      t -= (t * (A1 + A2 * t2 + t6 * (A3 + A4 * t2)) - yy) / (A1 + 3 * A2 * t2 + t6 * (7 * A3 + 9 * A4 * t2));
+    }
+    const t2 = t * t, t6 = t2 * t2 * t2;
+    const lon = (x - WD.w / 2) / WD.s * MM * (A1 + 3 * A2 * t2 + t6 * (7 * A3 + 9 * A4 * t2)) / Math.cos(t) / RAD;
+    return [Math.asin(Math.max(-1, Math.min(1, Math.sin(t) / MM))) / RAD, Math.max(-180, Math.min(180, lon))];
+  }
+  const roundKm = (d) => (d < 100 ? Math.round(d / 10) * 10 : d < 1000 ? Math.round(d / 50) * 50 : Math.round(d / 100) * 100).toLocaleString("en");
+  const NEAR = [[1000, 2500], [500, 1500], [300, 1000], [200, 700]][tier];   // km for 3 stars, then 2, at each age
+  function hunt() {
+    worldDefs();
+    const g = { id: "map", run: hunt }, items = shuffle(data.where).slice(0, 3), got = [];
+    let i = 0;
+    const ask = () => {
+      if (i >= items.length) {
+        const n = Math.round(got.reduce((a, b) => a + b, 0) / got.length), close = got.filter((x) => x === 3).length;
+        ending(n, say2(close === got.length ? "You found them all! 🎉" : `You found ${close} of ${got.length} spot on! 🌍`,
+          `${close} of ${got.length} pinned within ${NEAR[0].toLocaleString("en")} km.`), g);
+        return;
+      }
+      const p = items[i], country = p.names[0];
+      const q = tier === 0 && country ? `Where is ${esc(country)}? Tap it on the map!`
+        : say2(`Where did this happen? “${esc(p.h)}” Tap the map!`, `Where did this happen? “${esc(p.h)}” Tap the map.`);
+      const vb = WORLDBOX();
+      box.innerHTML = `${back()}<p class="qn">Place ${i + 1} of ${items.length}</p><p class="q">${q}</p>
+        <div class="hunt"><svg viewBox="${vb.join(" ")}" role="img" aria-label="World map. Tap where it happened.">
+        <rect class="sea" x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}"/><use href="#rp-world"/><g class="hl"></g><g class="mk"></g></svg></div>
+        <div class="fb" role="status"></div>`;
+      wireBack();
+      const svg = $(".hunt svg", box);
+      let answered = false;
+      svg.addEventListener("click", (e) => {
+        if (answered) return; answered = true;
+        const pt = new DOMPoint(e.clientX, e.clientY).matrixTransform(svg.getScreenCTM().inverse());
+        const d = km(unproj(pt.x, pt.y), [p.lat, p.lon]), hl = $(".hl", svg);
+        hl.innerHTML = p.countries.filter((c) => shapes[c]).map((c) => `<path d="${shapes[c].d}" vector-effect="non-scaling-stroke"/>`).join("");
+        let inside = false;
+        $$("path", hl).forEach((pa) => { try { if (pa.isPointInFill(new DOMPoint(pt.x, pt.y))) inside = true; } catch (err) {} });
+        let n = d <= NEAR[0] ? 3 : d <= NEAR[1] ? 2 : 1;
+        if (inside) n = tier <= 1 ? 3 : Math.max(n, 2);
+        got.push(n); if (n === 3) addTo("map3", key + "|" + p.place, 2000);
+        const at = proj(p.lon, p.lat), u = vb[2] / (svg.clientWidth || 340);
+        $(".mk", svg).innerHTML = `<line x1="${pt.x}" y1="${pt.y}" x2="${at[0]}" y2="${at[1]}" class="trip"/>
+          <circle cx="${pt.x}" cy="${pt.y}" r="${6 * u}" class="tap"/><circle cx="${at[0]}" cy="${at[1]}" r="${11 * u}" class="ring"/>
+          <circle cx="${at[0]}" cy="${at[1]}" r="${7 * u}" class="dot"/>`;
+        const where = inside && tier <= 1 ? say2("You tapped the right country!", "Right country.") : d < 25 ? "" : `About ${roundKm(d)} km away.`;
+        $(".fb", box).innerHTML = `<p class="why"><b>${n === 3 ? say2("Spot on! 🎯", "Spot on.") : n === 2 ? say2("So close!", "Close.") : say2("Good try!", "Some way off.")}</b>
+          ${where} 📍 <b>${esc(p.place)}</b>${p.names.length && p.names[0] !== p.place ? ` (${esc(p.names.slice(0, 3).join(", "))})` : ""}</p>${starLine(n)}
+          <p><button type="button" class="big go nx">${i + 1 < items.length ? "Next place →" : say2("See my stars", "See my score")}</button></p>`;
+        $(".nx", box).addEventListener("click", () => { i++; ask(); });
+      });
+    };
+    ask();
+  }
+
+  // ---------------------------------------------------------------- Guess the number
+  const show1 = (v, it, exact) => (it.prefix || "") + Number(v).toLocaleString("en", { maximumFractionDigits: exact || v < 10 ? 2 : v < 100 ? 1 : 0 })
+    + (it.unit === "times" ? "×" : it.unit ? (it.unit === "%" ? "" : " ") + it.unit : "");
+  const sig2 = (v) => { if (v <= 0) return v; const p = Math.pow(10, Math.floor(Math.log10(v)) - 1); return Math.round(v / p) * p; };
+  function numbers() {
+    const g = { id: "numbers", run: numbers }, items = data.numbers.slice(0, 3), got = [];
+    let i = 0;
+    const ask = () => {
+      if (i >= items.length) {
+        const n = Math.round(got.reduce((a, b) => a + b, 0) / got.length);
+        ending(n, say2(`${got.filter((x) => x === 3).length} of ${got.length} spot on! 🎉`,
+          `${got.filter((x) => x === 3).length} of ${got.length} within 10%.`), g);
+        return;
+      }
+      const it = items[i], done = (n, guess) => {
+        got.push(n); if (n === 3) addTo("num3", key + "|" + i, 2000);
+        const top = Math.max(it.answer, guess || 0) || 1;
+        $(".fb", box).innerHTML = `<p class="why"><b>${n === 3 ? say2("Spot on! 🎯", "Within 10%.") : n === 2 ? say2("Close!", "Within 25%.") : say2("Good try!", "Some way off.")}</b>
+          It was <b>${esc(show1(it.answer, it, true))}</b>. ${esc(it.why)}</p>
+          ${guess === null ? "" : `<div class="nbars"><div><i style="width:${Math.max(3, 100 * guess / top)}%"></i><span>${grown ? "Your estimate" : "Your guess"}: ${esc(show1(guess, it))}</span></div>
+          <div class="ans"><i style="width:${Math.max(3, 100 * it.answer / top)}%"></i><span>The answer: ${esc(show1(it.answer, it, true))}</span></div></div>`}
+          ${starLine(n)}<p><button type="button" class="big go nx">${i + 1 < items.length ? "Next →" : say2("See my stars", "See my score")}</button></p>`;
+        $(".nx", box).addEventListener("click", () => { i++; ask(); });
+      };
+      const head = `${back()}<p class="qn">${say2("Guess the number", "Estimate")} · ${i + 1} of ${items.length}</p>${young ? speakBtn(it.q) : ""}<p class="q">${esc(it.q)}</p>`;
+      if (tier === 0) {                                    // ages 6–8: pick from three, ten times apart
+        const opts = shuffle([it.answer, sig2(it.answer / 10), sig2(it.answer * 10)]);
+        box.innerHTML = head + `<div class="opts nums">${opts.map((v) => `<button type="button" data-v="${v}">${esc(show1(v, it, v === it.answer))}</button>`).join("")}</div><div class="fb" role="status"></div>`;
+        wireBack();
+        let tries = 0;
+        $$(".nums button", box).forEach((b) => b.addEventListener("click", () => {
+          const v = +b.dataset.v; tries++;
+          if (v !== it.answer && tries === 1) {
+            b.disabled = true; b.classList.add("no"); addTo("hinted", key, 400);
+            $(".fb", box).innerHTML = `<p class="why hint"><b>${v < it.answer ? "Bigger!" : "Smaller!"}</b> Have another go.</p>`;
+            return;
+          }
+          $$(".nums button", box).forEach((x) => { x.disabled = true; if (+x.dataset.v === it.answer) x.classList.add("ok"); });
+          if (v !== it.answer) b.classList.add("no");
+          done(v === it.answer ? (tries === 1 ? 3 : 2) : 1, null);
+        }));
+        return;
+      }
+      const log = it.min > 0 && it.max / it.min >= 50;    // a wide range slides in steps of "times", not "plus"
+      const at = (f) => sig2(log ? it.min * Math.pow(it.max / it.min, f) : it.min + (it.max - it.min) * f);
+      box.innerHTML = head + `<div class="slide"><output class="val"></output><input type="range" min="0" max="1000" value="500" aria-label="Your guess">
+        <div class="ends"><span>${esc(show1(it.min, it))}</span><span>${esc(show1(it.max, it))}</span></div></div>
+        <p><button type="button" class="big go check">${grown ? "Submit estimate" : "Check my guess"}</button></p><div class="fb" role="status"></div>`;
+      wireBack();
+      const r = $("input", box), out = $(".val", box), upd = () => { out.textContent = show1(at(r.value / 1000), it); };
+      let start = 500;                                     // start somewhere clearly away from the answer
+      for (let k = 0; k < 30; k++) { start = 100 + Math.floor(Math.random() * 800); if (Math.abs(at(start / 1000) - it.answer) / it.answer > 0.35) break; }
+      r.value = start;
+      r.addEventListener("input", upd); upd();
+      let tries = 0;
+      $(".check", box).addEventListener("click", () => {
+        const v = at(r.value / 1000), off = Math.abs(v - it.answer) / it.answer;
+        tries++;
+        if (tier === 1 && off > 0.1 && tries < 3) {          // ages 9–11: higher or lower, up to three goes
+          if (tries === 1) addTo("hinted", key, 400);
+          $(".fb", box).innerHTML = `<p class="why hint"><b>${v < it.answer ? "Higher!" : "Lower!"}</b> ${tries === 1 ? "Try again." : "One more go."}</p>`;
+          return;
+        }
+        r.disabled = true; $(".check", box).remove();
+        const n = tier === 1 ? (off <= 0.1 ? Math.max(1, 4 - tries) : 1) : off <= 0.1 ? 3 : off <= 0.25 ? 2 : 1;
+        done(n, v);
+      });
+    };
+    ask();
   }
   if (location.hash === "#play") tab("play");
   else if (location.hash.startsWith("#s-")) {               // from a pin on the lobby's map

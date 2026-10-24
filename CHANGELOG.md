@@ -20,6 +20,13 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- More to play in Read & Play, at the reader's age: hints and a second try in the quiz;
+  **Map hunt** (tap where a story happened; scored by distance, more generous for younger
+  readers); **Guess the number** (three cards for 6–8, a slider with higher/lower hints for
+  9–11, one scored estimate for 12+) from a new, checked `play.numbers` list each night; a
+  **Full set** for playing every game in a paper; five new badges with progress shown, plainer
+  "achievement" names for 12+; and a **certificate to print** for every badge. Calmer wording
+  and no confetti for readers 12 and up.
 - The site is now **News Pebbles**: "Big news, small pebbles." The owl stays, in River stone
   colours (slate-blue owl, warm sand paper, coral for the main buttons), with the name beside it
   and three small stones under it; new app and tab icons. Read & Play's streak is a pebble tower

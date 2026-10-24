@@ -222,6 +222,28 @@
         "lon": 77.5,
         "countries": []
       }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How much did one barrel of oil cost later on Friday?",
+        "answer": 117.2,
+        "prefix": "$",
+        "unit": "",
+        "min": 20,
+        "max": 500,
+        "why": "Later on Friday one barrel cost $117.20. Oil costs more again."
+      },
+      {
+        "story": "world",
+        "q": "About how many giant tortoises live on Aldabra?",
+        "answer": 183000,
+        "prefix": "",
+        "unit": "",
+        "min": 10000,
+        "max": 900000,
+        "why": "Scientists think about 183,000 tortoises live there. That is more than the 123,000 people in the whole country."
+      }
     ]
   },
   "threads": {

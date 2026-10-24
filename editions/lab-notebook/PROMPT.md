@@ -45,7 +45,7 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
 - **`discussion`** — DISCUSS: Three open questions about this issue for discussion at home or in class. Questions only, never answers.
 - **`quote`** — one short closing line (original, or attributed in `by`).
 
-**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 5 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 3 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one entry for each story that happens in a particular place (delete the others): `place` as a child would name it (a city, sea or region, e.g. "Strait of Hormuz"), `lat` and `lon` of that place in decimal degrees, and `countries`, the countries the story is about, in plain English names.
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 5 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 3 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one entry for each story that happens in a particular place (delete the others): `place` as a child would name it (a city, sea or region, e.g. "Strait of Hormuz"), `lat` and `lon` of that place in decimal degrees, and `countries`, the countries the story is about, in plain English names. `numbers`, for Guess the number: 2 questions whose `answer` is a number a story gives (as the story writes it: 16 for "16 million", with `unit` "million"), with `prefix` ("$", "Rs " or empty) and `unit` ("km", "years", "%"...) for showing it, a slider from `min` to `max` that leaves room on both sides of the answer, `why` one sentence saying what the number means, and `story`. Pick numbers worth guessing (sizes, prices, distances, counts), not dates.
 
 **Easier versions (online only).** Fill `play.easy` with an easier version of every story, for a reader who finds it hard: a plain `headline` and a `body` of 2 to 4 short paragraphs (60 to 170 words), as you'd write for a 9-to-11-year-old. Short sentences (14 words on average), one idea each; explain any hard word or idea in passing; keep the most important facts and drop the rest. Use only facts already in that story: every number must also appear in the story (rounding is fine, like $110 for $109.86).
 
@@ -382,6 +382,28 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
         "lat": null,
         "lon": null,
         "countries": []
+      }
+    ],
+    "numbers": [
+      {
+        "story": "",
+        "q": "",
+        "answer": null,
+        "prefix": "",
+        "unit": "",
+        "min": null,
+        "max": null,
+        "why": ""
+      },
+      {
+        "story": "",
+        "q": "",
+        "answer": null,
+        "prefix": "",
+        "unit": "",
+        "min": null,
+        "max": null,
+        "why": ""
       }
     ],
     "easy": {

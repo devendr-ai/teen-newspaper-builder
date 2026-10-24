@@ -449,7 +449,29 @@
           "In Kansas and Texas, early voting has jumped. In Maine, North Carolina and Ohio, there were at least 30% more early votes than four years ago."
         ]
       }
-    }
+    },
+    "numbers": [
+      {
+        "story": "science_and_technology",
+        "q": "Perseverance has passed Opportunity's driving record. How far had it driven?",
+        "answer": 45.22,
+        "prefix": "",
+        "unit": "km",
+        "min": 5,
+        "max": 150,
+        "why": "45.22 km (28.10 miles), just beyond Opportunity's 45.16 km. More than 90% of it was self-driven."
+      },
+      {
+        "story": "us",
+        "q": "Roughly how many early votes had been counted, in millions?",
+        "answer": 16,
+        "prefix": "",
+        "unit": "million",
+        "min": 1,
+        "max": 60,
+        "why": "More than 16 million: about 10 million by mail and about 6 million in person."
+      }
+    ]
   },
   "threads": {
     "lead": "yemen-war",
