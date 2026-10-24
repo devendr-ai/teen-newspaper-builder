@@ -84,7 +84,7 @@ def test_filters_can_hide_cards(tmp_path):
 
 
 @pytest.mark.parametrize("url", ["", "https://docs.google.com/forms/d/e/1FAIpQLSabc/viewform?usp=sf_link"])
-def test_feedback_tab_appears_only_with_a_form(tmp_path, monkeypatch, url):
+def test_feedback_is_available_from_parent_tools_only_with_a_form(tmp_path, monkeypatch, url):
     cfg = site.site_config()
     monkeypatch.setattr(site, "site_config", lambda: dict(cfg, feedback_url=url))
     monkeypatch.setattr(site, "issues_of", lambda ed: [])          # fast: no PDFs needed here
@@ -96,7 +96,9 @@ def test_feedback_tab_appears_only_with_a_form(tmp_path, monkeypatch, url):
         assert not (out / "feedback.html").exists() and 'href="feedback.html"' not in index + builder
         return
     fb = (out / "feedback.html").read_text(encoding="utf-8")
-    assert 'href="feedback.html">Feedback</a>' in index and 'href="feedback.html">Feedback</a>' in builder
+    parents = (out / "parents.html").read_text(encoding="utf-8")
+    assert 'href="feedback.html"' in parents and 'href="feedback.html">Feedback</a>' in builder
+    assert 'href="parents.html"' in index
     assert "Tell us</a>" in index                                       # footer link on every page
     assert 'src="https://docs.google.com/forms/d/e/1FAIpQLSabc/viewform?embedded=true"' in fb
 
@@ -169,3 +171,15 @@ def test_recommendations_skip_unpublished_pdfs():
     assert 'e/breakfast-table/2026-10-24.pdf' in recs
     assert '<img' not in recs
     assert 'e/little-explorers/' not in recs
+
+
+def test_parent_navigation_has_four_destinations_and_hub_links(tmp_path, monkeypatch):
+    monkeypatch.setattr(site, 'issues_of', lambda ed: [])
+    site.build(str(tmp_path), keep=1, log=lambda *a: None)
+    for name in ('index.html', 'parents.html', 'builder.html', 'about.html', 'feedback.html'):
+        page = (tmp_path / name).read_text(encoding='utf-8')
+        nav = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', page, re.S).group(1)
+        assert re.findall(r'href="([^"]+)"', nav) == ['index.html', 'play/index.html', 'builder.html', 'parents.html']
+    hub = (tmp_path / 'parents.html').read_text(encoding='utf-8')
+    for name in ('about.html', 'standards.html', 'privacy.html', 'corrections.html', 'feedback.html', 'builder.html'):
+        assert f'href="{name}"' in hub
