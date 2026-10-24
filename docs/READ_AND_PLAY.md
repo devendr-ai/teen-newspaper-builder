@@ -64,6 +64,13 @@ site`) is for the child, on a tablet or phone, from the same issue files.
     and one more tap, worth 2 stars at most. Ages 6–8 are asked for a country, and a
     tap anywhere in it counts. Stars for distance: within 1,000 km (6–8) or 500 km
     (9 and up) earns 3; within 2,500 km (6–8), 1,500 km (9–11) or 1,000 km (12+) earns 2.
+  - *Put it in order*: a big story's events, from its "story so far" timeline at the reader's
+    level, to sort oldest first with ▲ ▼ buttons: 3 events for 6–8, 4 for 9–14, 5 for 15+, each on a
+    different day so there is one right order, spread over its latest news. A first wrong check
+    keeps the right ones in place (green) for one more go; then the right order shows with dates
+    and a link to the whole story so far. It appears when a story in the paper is linked to a big
+    story; lines about deaths or injuries are left out, and ages 6–8 don't get war or disaster
+    timelines as a game.
   - *Guess the number*: a number from today's news. Ages 6–8 pick from three cards,
     ten times apart, with "Bigger!" or "Smaller!" after a miss; 9–11 slide to a guess
     with up to three "Higher!/Lower!" hints; 12 and up get one estimate, scored by how
@@ -94,12 +101,12 @@ site`) is for the child, on a tablet or phone, from the same issue files.
 - **Streaks and badges.** Reading a whole paper (reaching the last card) counts
   as reading that day. The lobby shows the reading streak as a **pebble tower** (one
   pebble for each day in a row; a pebble chip at the top shows the number) and
-  how many papers have been read, and 16 badges to earn: First paper, Bookworm
+  how many papers have been read, and 17 badges to earn: First paper, Bookworm
   (10 papers), On fire (3 days), Super week (7), News champion (30), Map explorer
   (stories in 10 countries), Word wizard (15 new words), Good listener (5
   stories read aloud), Quiz champ, Fact detective and Perfect match (3 stars
   on three different papers' games), Map master (10 places found), Number ninja
-  (10 spot-on guesses), Full set (every game in a paper), Super set (5 full sets)
+  (10 spot-on guesses), Time keeper (5 big stories in order first time), Full set (every game in a paper), Super set (5 full sets)
   and First try (a full set with no hints). Readers 12 and up see plainer names
   ("Achievements": Cartographer, Data detective, Set complete, Clean sheet...).
   Locked badges show how close they are ("6 of 10"). A new badge pops up when it's

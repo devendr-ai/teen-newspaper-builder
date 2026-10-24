@@ -20,6 +20,9 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- **Put it in order**: sort a big story's events (from its story-so-far timeline, at the reader's
+  level) oldest first; the right ones stay put after a first try. New badge: Time keeper /
+  Chronologist.
 - Adaptive play: two right in a row brings a stretch question from the same day's paper a step
   older (matched to a story in this paper; never one mentioning deaths or injuries for a younger
   reader), a miss an easier one; levels across days (Pebble, Stone, Boulder) that stretch the quiz,
