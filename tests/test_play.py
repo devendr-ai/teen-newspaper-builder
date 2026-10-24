@@ -387,3 +387,22 @@ def test_stretch_and_easier_questions_come_from_neighbouring_ages_about_this_pap
             assert not play._HARSH.search(" ".join([q["q"], q["why"]] + q["options"]))
     js = (built / "play.js").read_text(encoding="utf-8")
     assert "function skillCheck()" in js and 'const SKILL = ["Pebble", "Stone", "Boulder"]' in js
+
+
+def test_put_it_in_order_uses_big_story_timelines_with_one_right_answer(built):
+    ed = edition.load("global-citizen-plus")
+    date = site.issues_of(ed)[0][0]
+    page = (built / "global-citizen-plus" / f"{date}.html").read_text(encoding="utf-8")
+    data = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', page, re.S).group(1))
+    assert data["order"], "a linked big story gives an ordering game"
+    for o in data["order"]:
+        dates = [e["date"] for e in o["events"]]
+        assert len(o["events"]) == 4 and dates == sorted(dates) and len(set(dates)) == len(dates)   # 12–14: 4, one order
+        assert o["href"].startswith("../threads/") and o["card"] >= 0
+        assert not any(play._HARSH.search(e["text"]) for e in o["events"])
+    le = edition.load("little-explorers")                                # no war timeline as a game for 6–8
+    page = (built / "little-explorers" / f"{site.issues_of(le)[0][0]}.html").read_text(encoding="utf-8")
+    data = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', page, re.S).group(1))
+    from ygc import threads
+    worried = {t["title"] for t in threads.load_all() if t["younger"].get("worry")}
+    assert not any(o["title"] in worried for o in data["order"])

@@ -222,12 +222,31 @@ _STOP = {"after", "about", "again", "their", "there", "these", "those", "which",
          "than", "that", "this", "what", "when", "where", "more", "most", "says", "said", "will", "have", "been", "were", "they"}
 
 
-_HARSH = re.compile(r"\b(kill|killed|killing|die|died|dead|death|deaths|wounded|injured|injuries|bomb\w*|shot|shooting|"
-                   r"murder\w*|massacre|casualt\w*|corpse|blood\w*)\b", re.I)
+_HARSH = re.compile(r"\b(kill\w*|die[sd]?|dying|dead|deaths?|wound\w*|injur\w*|bomb\w*|shot|shoot\w*|"
+                   r"murder\w*|massacre\w*|casualt\w*|corpses?|blood\w*)\b", re.I)
 
 
 def _words(text):
     return {w for w in re.findall(r"[a-z]{4,}", plain(text).lower()) if w not in _STOP}
+
+
+ORDER_EVENTS = {"Ages 6–8": 3, "Ages 9–11": 4, "Ages 12–14": 4, "Ages 15+": 5}
+
+
+def order_events(t, level, k):
+    """Put it in order: k events from a big story's timeline at this reading level, each on a different day
+    (so there is one right order), spread over its latest news, oldest first. Lines about deaths or injuries
+    are left out of the game."""
+    by_day = {}
+    for e in t.get("timeline") or []:
+        text = plain(e.get(level) or "")
+        if text and e.get("date") and not _HARSH.search(text):
+            by_day[e["date"]] = {"text": text, "date": e["date"], "when": plain(e.get("when") or "")}
+    days = [by_day[d] for d in sorted(by_day)][-8:]
+    if len(days) < 3:
+        return []
+    k = min(k, len(days))
+    return [days[round(i * (len(days) - 1) / (k - 1))] for i in range(k)]
 
 
 def quiz_pool(ed, issue):
@@ -245,7 +264,7 @@ def quiz_pool(ed, issue):
     return out
 
 
-def sections(ed, issue, date, chips=None, stretch=None):
+def sections(ed, issue, date, chips=None, stretch=None, orders=None):
     """[(kind, block id, html, colour)] in reading order, the data the games need, and where each story happens.
     `chips`: {story id: link} for stories that are part of a big ongoing story ("the story so far")."""
     chips = chips or {}
@@ -359,13 +378,15 @@ def sections(ed, issue, date, chips=None, stretch=None):
     stretch = stretch or {}
     return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts,
                  "where": where, "numbers": numbers, "harder": related(stretch.get("harder"), gentle=True),
-                 "easier": related(stretch.get("easier"))}, places
+                 "easier": related(stretch.get("easier")),
+                 "order": [{"title": o["title"], "href": o["href"], "card": at.get(o["bid"], -1), "events": o["events"]}
+                           for o in orders or [] if len(o["events"]) >= 3]}, places
 
 
-def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None):
+def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, orders=None):
     """The page, and where its stories happen (for the lobby's map). `stretch`: {"harder", "easier"}: quiz
     questions from the same days' papers one age up and one age down, for adaptive play."""
-    secs, data, places = sections(ed, issue, date, chips, stretch)
+    secs, data, places = sections(ed, issue, date, chips, stretch, orders)
     cards = "".join(f'<section class="card {k} t-{tone}" id="s-{E(b)}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
                     f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h, tone) in enumerate(secs))
     d = dt.date.fromisoformat(date)
@@ -630,7 +651,11 @@ def build(out, cfg, keep=7, log=print):
             chips = {b: f"../threads/{thread_href(tid, level)}" for (e, d, b), tid in in_thread.items()
                      if e == eid and d == date and tid in known}
             try:
-                html_, places = issue_page(cfg, ed, band, issue, date, dates, chips, stretch_for(band, date))
+                orders = [{"bid": b, "title": known[tid]["title"], "href": f"../threads/{thread_href(tid, level)}",
+                           "events": order_events(known[tid], level, ORDER_EVENTS.get(band, 4))}
+                          for (e, d, b), tid in in_thread.items() if e == eid and d == date and tid in known
+                          and not (band == "Ages 6–8" and known[tid].get("younger", {}).get("worry"))]   # no war games for 6–8
+                html_, places = issue_page(cfg, ed, band, issue, date, dates, chips, stretch_for(band, date), orders)
             except Exception as e:
                 log(f"  ! play {eid} {date}: {e}")
                 continue
@@ -932,6 +957,14 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .lvltag.up{background:#E7E3FA;color:#4D3FB0}.lvltag.down{background:var(--leaf-t);color:var(--leaf)}.lvltag small{font-weight:600;opacity:.8}
 :root[data-theme="night"] .lvltag.up{background:#2E2A4D;color:#C9C1FF}
 .hunt .tap.miss{fill:#B9C9CF}
+.ord{list-style:none;padding:0;margin:8px 0;display:grid;gap:8px}
+.ord li{display:flex;align-items:center;gap:10px;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:8px 10px;font-size:.9em;line-height:1.35}
+.ord li.ok{border-color:var(--leaf);background:var(--leaf-t)}
+.ord .n{flex:none;min-width:30px;height:30px;padding:0 6px;border-radius:999px;background:var(--ink);color:var(--card);display:grid;place-items:center;font-weight:800;font-size:.85em}
+.ord.done .n{background:var(--leaf);color:#fff;font-size:.72em}
+.ord .tx{flex:1}.ord .mv{display:flex;flex-direction:column;gap:4px;flex:none;color:var(--leaf);font-weight:800}
+.ord .mv button{min-width:44px;min-height:36px;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;cursor:pointer;font-size:.9em}
+.ord .mv button:disabled{opacity:.3;cursor:default}
 .hunt{border-radius:16px;overflow:hidden;border:2px solid var(--line);margin:4px 0 6px;touch-action:manipulation}
 .hunt svg{display:block;width:100%;height:auto;cursor:crosshair}
 .hunt .sea{fill:var(--sea)}.hunt use{fill:var(--land);stroke:var(--map-line);stroke-width:1}
@@ -1295,6 +1328,7 @@ JS = r"""
     B("match", "🧩", "Perfect match", "Perfect match", "3 stars on 3 matching games", () => [count("3s-words"), 3]),
     B("pins", "📍", "Map master", "Cartographer", "finding 10 places in the news on the map", () => [count("map3"), 10]),
     B("nums", "🎚️", "Number ninja", "Data detective", "10 spot-on guesses of numbers in the news", () => [count("num3"), 10]),
+    B("order", "🔀", "Time keeper", "Chronologist", "putting 5 big stories' events in the right order", () => [count("ord3"), 5]),
     B("set1", "⭐", "Full set", "Set complete", "playing every game in a paper", () => [count("sets"), 1]),
     B("set5", "🌠", "Super set", "Five sets", "playing every game in 5 papers", () => [count("sets"), 5]),
     B("clean", "🎯", "First try", "Clean sheet", "a full set of games with no hints", () => [count("clean"), 1]),
@@ -1747,6 +1781,7 @@ JS = r"""
   if (data.quiz.length) GAMES.push({ id: "quiz", ic: "❓", name: "Quiz", sub: data.quiz.length + " questions about today's paper", run: quiz });
   if (window.WORLD && data.where.length >= 2) GAMES.push({ id: "map", ic: "📍", name: "Map hunt", sub: say2("Find where the stories happened", "Pin where the stories happened"), run: hunt });
   if (data.numbers.length) GAMES.push({ id: "numbers", ic: "🎚️", name: "Guess the number", sub: say2("Numbers from today's news", "Estimate the numbers in the news"), run: numbers });
+  if (data.order.length) GAMES.push({ id: "order", ic: "🔀", name: "Put it in order", sub: say2("What happened first?", "Order the events of a big story"), run: order });
   if (data.facts.length) GAMES.push({ id: "facts", ic: "🕵️", name: "Fact or fiction?", sub: "True, or not true?", run: facts });
   if (data.vocab.length >= 2) GAMES.push({ id: "words", ic: "🔤", name: "Word match", sub: "Match each new word to its meaning", run: () => match("words") });
   else if (data.stories.length >= 2) GAMES.push({ id: "words", ic: "📰", name: "Story match", sub: "Match each headline to its story", run: () => match("words") });
@@ -1984,6 +2019,67 @@ JS = r"""
           <p><button type="button" class="big go nx">${i + 1 < items.length ? "Next place →" : say2("See my stars", "See my score")}</button></p>`;
         $(".nx", box).addEventListener("click", () => { i++; ask(); });
       });
+    };
+    ask();
+  }
+
+  // ---------------------------------------------------------------- Put it in order: a big story's events, from "The story so far"
+  function order() {
+    const g = { id: "order", run: order }, sets = shuffle(data.order).slice(0, 2), got = [];
+    let i = 0;
+    const ask = () => {
+      if (i >= sets.length) {
+        const n = Math.round(got.reduce((a, b) => a + b, 0) / got.length);
+        ending(n, say2(got.every((x) => x === 3) ? "Every one in order! 🎉" : "Well done! 🎉", `${got.filter((x) => x === 3).length} of ${got.length} in order first time.`), g);
+        return;
+      }
+      const t = sets[i], k = t.events.length, locked = new Set();
+      let cur = shuffle([...Array(k).keys()]), tries = 0;
+      while (cur.every((v, j) => v === j)) cur = shuffle(cur);   // never start already solved
+      const move = (pos, step) => {                          // swap with the nearest card that isn't fixed yet
+        let j = pos + step; while (locked.has(j)) j += step;
+        if (j < 0 || j >= k) return;
+        [cur[pos], cur[j]] = [cur[j], cur[pos]]; draw();
+        const b = $(`[data-mv="${j}"][data-step="${step}"]`, box) || $(`[data-mv="${j}"]`, box); if (b) b.focus();
+      };
+      const draw = () => {
+        box.innerHTML = `${back()}<p class="qn">Big story ${i + 1} of ${sets.length} · ${esc(t.title)}</p>
+          <p class="q">${say2("What happened first? Put them in order, oldest at the top.", "Put these events in the order they happened, oldest first.")}</p>
+          <ol class="ord">${cur.map((ev, pos) => `<li class="${locked.has(pos) ? "ok" : ""}"><span class="n">${pos + 1}</span><span class="tx">${esc(t.events[ev].text)}</span>
+            <span class="mv">${locked.has(pos) ? "✓" : `<button type="button" data-mv="${pos}" data-step="-1" aria-label="Move up"${pos === 0 ? " disabled" : ""}>▲</button>
+            <button type="button" data-mv="${pos}" data-step="1" aria-label="Move down"${pos === k - 1 ? " disabled" : ""}>▼</button>`}</span></li>`).join("")}</ol>
+          <div class="fb" role="status"></div><p><button type="button" class="big go chk">${say2("Check my order", "Check")}</button></p>`;
+        wireBack();
+        $$("[data-mv]", box).forEach((b) => b.addEventListener("click", () => move(+b.dataset.mv, +b.dataset.step)));
+        $(".chk", box).addEventListener("click", check);
+      };
+      const check = () => {
+        const right = cur.map((v, j) => v === j);
+        if (right.every(Boolean)) return done(tries === 0 ? 3 : 2);
+        if (tries === 0) {                                     // the right ones stay put, then one more go
+          tries++; addTo("hinted", key, 400);
+          right.forEach((ok, j) => { if (ok) locked.add(j); });
+          draw();
+          $(".fb", box).innerHTML = `<p class="why hint"><b>${say2("Nearly!", "Not quite.")}</b> ${locked.size
+            ? say2(`The green ${locked.size === 1 ? "one is" : "ones are"} in the right place. Move the others and check again.`, `${locked.size} in place. Reorder the rest and check again.`)
+            : say2("None are in the right place yet. Think about which came first, then try again.", "None in place yet. One more try.")}</p>`;
+          return;
+        }
+        done(1);
+      };
+      const done = (n) => {
+        got.push(n); if (n === 3) addTo("ord3", key + "|" + t.title, 2000);
+        logAnswer(t.card, n === 3, { q: "In order: " + t.title, a: t.events.map((e) => e.text).join(" → "), why: "" });
+        const day = (e) => e.when || new Date(e.date + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+        box.innerHTML = `${back()}<p class="qn">Big story ${i + 1} of ${sets.length} · ${esc(t.title)}</p>
+          <p class="why"><b>${n === 3 ? say2("All in order! 🎯", "All in order.") : n === 2 ? say2("Got it on the second go!", "Correct on the second try.") : say2("Here's the right order.", "The right order:")}</b></p>
+          <ol class="ord done">${t.events.map((e) => `<li class="ok"><span class="n">${esc(day(e))}</span><span class="tx">${esc(e.text)}</span></li>`).join("")}</ol>
+          ${starLine(n)}<p><a href="${esc(t.href)}">📖 ${say2("Read the whole story so far", "The story so far")}</a></p>
+          <p><button type="button" class="big go nx">${i + 1 < sets.length ? "Next big story →" : say2("See my stars", "See my score")}</button></p>`;
+        wireBack();
+        $(".nx", box).addEventListener("click", () => { i++; ask(); });
+      };
+      draw();
     };
     ask();
   }
