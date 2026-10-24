@@ -432,3 +432,14 @@ def test_only_a_games_first_try_earns_pebbles_and_badges():
     log = js[js.index("function logAnswer"):]
     assert log.index("if (!firstGo) return;") < log.index('store.get("answers"')   # practice doesn't count in progress
     assert "${menuStars(g.id)}" in js and "${scores(again.id, first)}" in js     # first try beside the best, menu and end
+
+
+def test_things_in_the_pebble_garden_can_be_moved_and_stay_where_they_are_put():
+    js, css = play.JS, play.CSS
+    i = js.index("function gardenHtml")
+    garden = js[i:js.index("\n  }\n", i)]
+    assert 'store.get("gpos", {})' in garden and 'data-g="${id}"' in garden and 'tabindex="0"' in garden
+    for ev in ("pointerdown", "pointermove", "pointerup", "pointercancel"):
+        assert f'addEventListener("{ev}"' in js
+    assert 'store.set("gpos", pos)' in js and "ArrowLeft" in js                # saved on the device; keys work too
+    assert "touch-action:none" in css[css.index(".garden .gi{"):]               # a finger drags the flower, not the page

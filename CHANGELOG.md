@@ -146,6 +146,8 @@
   each paper first), plus new Editorial standards, Corrections and Privacy pages,
   linked from every footer. Corrections live in `data/corrections.yaml` and also
   show next to the corrected issue.
+- Pebble Garden: drag flowers, animals and prizes to arrange the garden (arrow keys
+  too); the layout is kept on the device.
 - Read & Play games: the first try is what counts. Its stars show beside the best so
   far, and only first tries earn pebbles and count towards badges, quests and progress;
   replays are practice, so tapping through to see the answers no longer pays.

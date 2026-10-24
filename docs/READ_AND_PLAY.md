@@ -120,7 +120,8 @@ site`) is for the child, on a tablet or phone, from the same issue files.
 - **Pebbles and the Pebble Garden (ages 6–11).** Reading a whole paper earns 3 pebbles,
   each star on a game's first try 1, and a Full set 2. The **Garden** button in the bottom bar opens a
   riverbank to spend them on: daisies (3) up to a rainbow (20), each in its own spot, with the
-  owl and the pebble tower. A **weekly quest** (from Monday: read 5 papers, stories from 5
+  owl and the pebble tower. Children can drag anything they own to a new spot (or use the
+  arrow keys); the layout is kept on the device. A **weekly quest** (from Monday: read 5 papers, stories from 5
   countries, 2 full sets, 5 places in Map hunt, 10 new words or 3 numbers spot on) unlocks an
   animal that can't be bought, plus 5 pebbles. **My passport** colours in every country read
   about.
