@@ -1109,8 +1109,8 @@ body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
 .childnav a span{font-size:22px}
 .lobby-panel[hidden]{display:none!important}
 .view-title{font-size:1.6em;margin:0 0 18px;font-family:var(--display)}
-.lobby-panel{scroll-margin-top:90px}
-#stories,#map,#badges{scroll-margin-top:90px}
+.lobby-panel{scroll-margin-top:calc(var(--bar-height,90px) + 12px)}
+#stories,#map,#badges{scroll-margin-top:calc(var(--bar-height,90px) + 12px)}
 .lobby.front{display:block;max-width:1100px;padding-bottom:24px}
 .front .side{display:block}.front .me{margin-top:0}
 .lb .home{display:inline-flex;white-space:nowrap;font-size:15px;min-height:44px;align-items:center}
@@ -1676,6 +1676,11 @@ JS = r"""
   // ---------------------------------------------------------------- lobby navigation
   function lobbyNavigation() {
     const panels = $$(".lobby-panel"), nav = $$(".childnav [data-view]");
+    const header = $(".bar"), sizeHeader = () => {
+      if (header) root.style.setProperty("--bar-height", header.offsetHeight + "px");
+    };
+    sizeHeader();
+    if (header && window.ResizeObserver) new ResizeObserver(sizeHeader).observe(header);
     const route = (focus) => {
       const hash = location.hash.slice(1);
       const view = ["stories", "map", "explore"].includes(hash) ? "explore"
@@ -1691,7 +1696,7 @@ JS = r"""
         if (view === "explore") $$(".where.wide").forEach((fig) => { if ($("svg", fig)) lobbyPins(fig); });
         const target = document.getElementById(hash);
         if (["stories", "map", "badges"].includes(hash) && target) target.scrollIntoView({block:"start"});
-        else if (focus) { window.scrollTo(0, 0); $("h2", active)?.focus({preventScroll:true}); }
+        else { window.scrollTo(0, 0); if (focus) $("h2", active)?.focus({preventScroll:true}); }
       });
     };
     addEventListener("hashchange", () => route(true));

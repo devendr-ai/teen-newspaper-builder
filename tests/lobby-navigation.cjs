@@ -14,7 +14,7 @@ process.stdin.on('end', () => {
   const stored = {'rp-band':'"Ages 9–11"','rp-read':'["breakfast-table-2026-10-24"]',
     'rp-garden':'["daisy"]','rp-gpos':'{"daisy":[22,33,1]}','rp-badges':'{"first":"2026-10-24"}'};
   const before = JSON.stringify(stored);
-  const context = {location, requestAnimationFrame:fn=>fn(),
+  const context = {location, root:{style:{setProperty(){}}}, requestAnimationFrame:fn=>fn(),
     addEventListener:(name,fn)=>events[name]=fn,
     window:{scrollTo:(x,y)=>positions.push([x,y])},
     document:{getElementById:id=>panels.find(p=>p.id===id)||(['stories','map','badges'].includes(id)?{scrollIntoView:()=>positions.push(id)}:null)},
