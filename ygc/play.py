@@ -1040,7 +1040,11 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
   background:linear-gradient(#DDEFF5 0 32%,#C5DDA8 32% 100%)}
 :root[data-theme="night"] .garden{background:linear-gradient(#22394A 0 32%,#3E5A3B 32% 100%)}
 .garden .river{position:absolute;left:-10%;right:-10%;top:58%;height:17%;background:#8CC7D8;border-radius:50%;transform:rotate(-6deg);box-shadow:inset 0 6px 0 rgba(255,255,255,.35)}
-.garden .gi{position:absolute;line-height:1;transform:translateY(-10%)}
+.garden .gi{position:absolute;line-height:1;transform:translateY(-10%);cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;
+  transition:transform .12s;border-radius:8px}
+.garden .gi:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.garden .gi.lift{cursor:grabbing;transform:translateY(-10%) scale(1.25);filter:drop-shadow(0 6px 4px rgba(0,0,0,.25))}
+.movehint{margin:6px 0 0}
 .garden .gowl{position:absolute;left:16%;top:32%;width:15%}.garden .gowl svg{width:100%;height:auto}
 .garden .gstack{position:absolute;left:4%;bottom:6%}.garden .gstack .tower i{height:9px}
 .garden .empty1{position:absolute;left:30%;right:6%;top:30%;background:rgba(255,255,255,.85);color:#1E2A32;border-radius:12px;padding:8px 10px;font-size:.78em;font-weight:700;text-align:center}
@@ -1493,14 +1497,18 @@ JS = r"""
   }
   function gardenHtml() {
     const own = store.get("garden", []), q = quest(), have = pebbles(), owl = $(".lb .owl");
-    const put = (e, x, y, z, name) => `<span class="gi" style="left:${x}%;top:${y}%;font-size:${z}em" title="${esc(name)}">${e}</span>`;
-    const placed = ITEMS.filter((it) => own.includes(it[0])).map((it) => put(it[1], it[4], it[5], it[6], it[2]))
-      .concat(Object.keys(PRIZES).filter((k) => own.includes(k)).map((k) => put(...PRIZES[k].slice(0, 1), PRIZES[k][2], PRIZES[k][3], PRIZES[k][4], PRIZES[k][1])));
+    const pos = store.get("gpos", {});                          // where the child has moved things: {id: [left %, top %, layer]}
+    const put = (id, e, x, y, z, name) => { const p = pos[id] || [x, y, 0];
+      return `<span class="gi" data-g="${id}" tabindex="0" role="button" aria-label="${esc(name)}: drag, or use the arrow keys, to move it"
+        style="left:${p[0]}%;top:${p[1]}%;font-size:${z}em;z-index:${2 + (p[2] || 0)}" title="${esc(name)}">${e}</span>`; };
+    const placed = ITEMS.filter((it) => own.includes(it[0])).map((it) => put(it[0], it[1], it[4], it[5], it[6], it[2]))
+      .concat(Object.keys(PRIZES).filter((k) => own.includes(k)).map((k) => put(k, PRIZES[k][0], PRIZES[k][2], PRIZES[k][3], PRIZES[k][4], PRIZES[k][1])));
     const pz = PRIZES[q.prize];
     return `<section class="gardencard"><h2>🌱 My Pebble Garden <span class="purse"><i class="pg"></i> ${have} ${have === 1 ? "pebble" : "pebbles"}</span></h2>
-      <div class="garden" role="img" aria-label="My garden: ${own.length ? own.length + " things growing" : "nothing planted yet"}"><span class="river"></span>
+      <div class="garden" role="group" aria-label="My garden: ${own.length ? own.length + " things growing" : "nothing planted yet"}"><span class="river"></span>
         ${placed.join("")}<span class="gowl">${owl ? owl.outerHTML : ""}</span><span class="gstack">${tower(streak())}</span>
         ${own.length ? "" : `<span class="empty1">Get your first flowers with your pebbles below 🌼</span>`}</div>
+      ${own.length ? `<p class="how movehint">✋ Drag anything in your garden to move it.</p>` : ""}
       ${levelHtml(false)}
       <p class="how">Earn pebbles: <b>3</b> for reading a whole paper, <b>1</b> for each star on a game's first try, <b>2</b> for a Full set.</p>
       <div class="shop">${ITEMS.map((it) => own.includes(it[0])
@@ -1550,6 +1558,45 @@ JS = r"""
       corner(); toast1(it[1], "In your garden!", it[2]);
     }
     if (d) { const r = store.get("revise", []); r.splice(+d.dataset.done, 1); store.set("revise", r); corner(); }
+  });
+  // Moving things around the garden: drag with a finger or mouse, or arrow keys; kept on this device.
+  function gplace(el, x, y) {
+    const g = el.parentElement, gw = g.clientWidth, gh = g.clientHeight;
+    x = Math.max(0, Math.min(100 - 100 * el.offsetWidth / gw, x)); y = Math.max(0, Math.min(100 - 100 * el.offsetHeight / gh, y));
+    el.style.left = x.toFixed(1) + "%"; el.style.top = y.toFixed(1) + "%";
+    return [+x.toFixed(1), +y.toFixed(1)];
+  }
+  function gsave(el, xy) {
+    const pos = store.get("gpos", {}), top = Math.max(0, ...Object.values(pos).map((p) => p[2] || 0)) + 1;
+    pos[el.dataset.g] = [xy[0], xy[1], top]; store.set("gpos", pos); el.style.zIndex = 2 + top;
+  }
+  let drag = null;
+  document.addEventListener("pointerdown", (e) => {
+    const el = e.target.closest(".garden .gi"); if (!el || (e.button && e.button !== 0)) return;
+    e.preventDefault();
+    const r = el.getBoundingClientRect();
+    drag = { el, dx: e.clientX - r.left, dy: e.clientY - r.top, xy: null };
+    el.classList.add("lift"); el.style.zIndex = 99;
+    try { el.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  document.addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    const g = drag.el.parentElement.getBoundingClientRect();
+    drag.xy = gplace(drag.el, 100 * (e.clientX - drag.dx - g.left) / g.width, 100 * (e.clientY - drag.dy - g.top) / g.height);
+  });
+  const drop = () => {
+    if (!drag) return;
+    drag.el.classList.remove("lift");
+    gsave(drag.el, drag.xy || [parseFloat(drag.el.style.left), parseFloat(drag.el.style.top)]);
+    drag = null;
+  };
+  document.addEventListener("pointerup", drop); document.addEventListener("pointercancel", drop);
+  document.addEventListener("keydown", (e) => {
+    const el = e.target.closest && e.target.closest(".garden .gi");
+    const k = { ArrowLeft: [-2, 0], ArrowRight: [2, 0], ArrowUp: [0, -2], ArrowDown: [0, 2] }[e.key];
+    if (!el || !k) return;
+    e.preventDefault();
+    gsave(el, gplace(el, parseFloat(el.style.left) + k[0], parseFloat(el.style.top) + k[1]));
   });
 
   // ---------------------------------------------------------------- a monthly report to print, from this device
