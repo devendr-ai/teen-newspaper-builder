@@ -1,7 +1,7 @@
 # Website settings for `python -m ygc site` (and the daily publishing workflow).
 title: News Pebbles
 tagline: Big news, small pebbles.
-home_headline: Help your child understand the world in 10 minutes a day.
+home_headline: Help your child understand the world in 15 minutes a day.
 description: Free, age-appropriate newspapers to print, read and talk about together. From sources you can check.
 domain: newspebbles.com
 base_url: https://newspebbles.com/
