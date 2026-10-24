@@ -97,3 +97,14 @@ def test_player_audio_fallback_and_cancellation():
     result = subprocess.run([node, str(Path(__file__).with_name('narration-player.cjs'))], input=play.JS,
                             text=True, capture_output=True)
     assert result.returncode == 0, result.stdout + result.stderr
+
+
+def test_offline_audio_byte_ranges():
+    import subprocess
+    from ygc import play
+    node = shutil.which('node')
+    if not node:
+        pytest.skip('Node.js needed for service-worker checks')
+    result = subprocess.run([node, str(Path(__file__).with_name('narration-offline.cjs'))], input=play.SW.replace('%CORE%', '[]'),
+                            text=True, capture_output=True)
+    assert result.returncode == 0, result.stdout + result.stderr
