@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, stats, threads, world
+from . import brand, edition, scenes, stats, threads, world, pwa
 from .chat import sentences
 
 E = html.escape
@@ -439,9 +439,8 @@ def shell(cfg, title, body, root=""):
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
-<link rel="manifest" href="{root}play/manifest.webmanifest"><meta name="theme-color" content="#E2584D">
-<link rel="icon" href="{root}play/owl.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{root}play/icon-180.png">
-<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Read &amp; Play">
+{pwa.head(cfg, root)}
+<link rel="icon" href="{root}play/owl.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{root}play/play.css?v={asset_version()}">{stats.snippet(cfg, root)}</head><body>{body}
 <script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
 
@@ -537,13 +536,7 @@ def report(cfg, names):
 
 
 def manifest(cfg):
-    return json.dumps({
-        "name": f"Read & Play · {cfg['title']}", "short_name": cfg["title"],
-        "description": "Today's news for children: read it, hear it, play a game.",
-        "start_url": "./index.html", "scope": "./", "display": "standalone",
-        "background_color": "#FFF8EE", "theme_color": "#E2584D",
-        "icons": [{"src": f"icon-{n}.png", "sizes": f"{n}x{n}", "type": "image/png", "purpose": "any maskable"}
-                  for n in (192, 512)]}, ensure_ascii=False, indent=1)
+    return pwa.manifest(cfg, legacy_reader=True)
 
 
 SW = r"""// Read & Play's service worker: keeps today's papers on the device so they open without internet.
@@ -736,6 +729,7 @@ Maps show India's borders as on India's official maps (Natural Earth, India view
         shutil.copy(os.path.join(brand.ASSETS, f"owl-icon-{n}.png"), os.path.join(pdir, f"icon-{n}.png"))
     shutil.copy(brand.SVG, os.path.join(pdir, "owl.svg"))
     open(os.path.join(pdir, "manifest.webmanifest"), "w", encoding="utf-8").write(manifest(cfg))
+    open(os.path.join(out, "manifest.webmanifest"), "w", encoding="utf-8").write(pwa.manifest(cfg))
     core = (["index.html", "manifest.webmanifest", "icon-192.png"] + [f"{a}?v={asset_version()}" for a in ASSETS]
             + newest)
     version = hashlib.sha1((asset_version() + "".join(open(os.path.join(pdir, f), encoding="utf-8").read()
