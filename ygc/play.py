@@ -218,7 +218,34 @@ def top_figure(story, w):
     return ""
 
 
-def sections(ed, issue, date, chips=None):
+_STOP = {"after", "about", "again", "their", "there", "these", "those", "which", "while", "with", "from", "into", "over",
+         "than", "that", "this", "what", "when", "where", "more", "most", "says", "said", "will", "have", "been", "were", "they"}
+
+
+_HARSH = re.compile(r"\b(kill|killed|killing|die|died|dead|death|deaths|wounded|injured|injuries|bomb\w*|shot|shooting|"
+                   r"murder\w*|massacre|casualt\w*|corpse|blood\w*)\b", re.I)
+
+
+def _words(text):
+    return {w for w in re.findall(r"[a-z]{4,}", plain(text).lower()) if w not in _STOP}
+
+
+def quiz_pool(ed, issue):
+    """This issue's quiz questions, each with its story's headline and place: other papers' stretch and easier questions."""
+    play = issue.get("play") if isinstance(issue.get("play"), dict) else {}
+    blocks = issue.get("blocks", {})
+    given = {w.get("story"): w for w in play.get("where") or [] if isinstance(w, dict)}
+    out = []
+    for q in play.get("quiz") or []:
+        b = blocks.get(q.get("story")) if isinstance(q, dict) else None
+        if isinstance(b, dict) and q.get("q") and len(q.get("options") or []) == 3 and q.get("answer") in (0, 1, 2):
+            out.append({"q": plain(q["q"]), "options": [plain(o) for o in q["options"]], "answer": q["answer"],
+                        "why": plain(q.get("why", "")), "h": plain(b.get("headline", "")),
+                        "place": plain((given.get(q["story"]) or {}).get("place", "")), "paper": ed["name"]})
+    return out
+
+
+def sections(ed, issue, date, chips=None, stretch=None):
     """[(kind, block id, html, colour)] in reading order, the data the games need, and where each story happens.
     `chips`: {story id: link} for stories that are part of a big ongoing story ("the story so far")."""
     chips = chips or {}
@@ -315,13 +342,30 @@ def sections(ed, issue, date, chips=None):
                 "card": at.get(n.get("story"), -1)}
                for n in play.get("numbers") or [] if isinstance(n, dict) and n.get("q")
                and all(num(n.get(k)) for k in ("answer", "min", "max")) and n["min"] < n["answer"] < n["max"]]
+    mine = [(at[bid], _words(blocks[bid].get("headline", "")), plain((given.get(bid) or {}).get("place", "")).lower())
+            for bid in edition.story_blocks(ed) if isinstance(blocks.get(bid), dict) and bid in at]
+
+    def related(cands, gentle=False):     # other papers' questions about the same story: same place, or 2 headline words
+        found, seen = [], set()
+        for c in cands or []:
+            if gentle and _HARSH.search(" ".join([c["q"], c["why"]] + c["options"])):
+                continue                  # an older paper's question can be blunter than a younger reader's paper
+            w, place = _words(c["h"]), c["place"].lower()
+            hit = next((card for card, mw, mp in mine if (place and place == mp) or len(w & mw) >= 2), None)
+            if hit is not None and c["q"].lower() not in seen:
+                seen.add(c["q"].lower())
+                found.append({k: c[k] for k in ("q", "options", "answer", "why", "paper")} | {"card": hit})
+        return found[:6]
+    stretch = stretch or {}
     return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts,
-                 "where": where, "numbers": numbers}, places
+                 "where": where, "numbers": numbers, "harder": related(stretch.get("harder"), gentle=True),
+                 "easier": related(stretch.get("easier"))}, places
 
 
-def issue_page(cfg, ed, band, issue, date, others, chips=None):
-    """The page, and where its stories happen (for the lobby's map)."""
-    secs, data, places = sections(ed, issue, date, chips)
+def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None):
+    """The page, and where its stories happen (for the lobby's map). `stretch`: {"harder", "easier"}: quiz
+    questions from the same days' papers one age up and one age down, for adaptive play."""
+    secs, data, places = sections(ed, issue, date, chips, stretch)
     cards = "".join(f'<section class="card {k} t-{tone}" id="s-{E(b)}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
                     f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h, tone) in enumerate(secs))
     d = dt.date.fromisoformat(date)
@@ -558,6 +602,15 @@ def build(out, cfg, keep=7, log=print):
         if (ed.get("site") or {}).get("listed") is not False:
             every += [(eid, d, json.load(open(p, encoding="utf-8"))) for d, p in issues_of(ed)]
     in_thread = threads.story_index(every)
+    pools = {}                                      # age band -> [(date, question)], for stretch and easier questions
+    for eid, d, issue in every:
+        pools.setdefault(audience(edition.load(eid)), []).extend((d, q) for q in quiz_pool(edition.load(eid), issue))
+
+    def stretch_for(band, date):
+        i = BANDS.index(band) if band in BANDS else -1
+        near = lambda b: [q for d, q in pools.get(b, []) if abs((dt.date.fromisoformat(d) - dt.date.fromisoformat(date)).days) <= 1]
+        return {"harder": near(BANDS[i + 1]) if 0 <= i < len(BANDS) - 1 else [],
+                "easier": near(BANDS[i - 1]) if i > 0 else []}
     known = {t["id"]: t for t in threads.load_all()}
     pages = {}                                      # (paper, date) -> age band, for pages Read & Play keeps
     for eid in edition.list_editions():
@@ -577,7 +630,7 @@ def build(out, cfg, keep=7, log=print):
             chips = {b: f"../threads/{thread_href(tid, level)}" for (e, d, b), tid in in_thread.items()
                      if e == eid and d == date and tid in known}
             try:
-                html_, places = issue_page(cfg, ed, band, issue, date, dates, chips)
+                html_, places = issue_page(cfg, ed, band, issue, date, dates, chips, stretch_for(band, date))
             except Exception as e:
                 log(f"  ! play {eid} {date}: {e}")
                 continue
@@ -875,6 +928,10 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .bigstory .new{margin-left:auto;background:var(--rose-t);color:#B23A30;font-size:.68em;font-weight:800;border-radius:999px;padding:3px 9px;white-space:nowrap}
 /* new games: hints, Map hunt, Guess the number, a Full set */
 .why.hint{background:var(--sun-t)}
+.lvltag{display:inline-block;border-radius:999px;padding:3px 12px;font-weight:800;font-size:.8em;margin:2px 0 4px}
+.lvltag.up{background:#E7E3FA;color:#4D3FB0}.lvltag.down{background:var(--leaf-t);color:var(--leaf)}.lvltag small{font-weight:600;opacity:.8}
+:root[data-theme="night"] .lvltag.up{background:#2E2A4D;color:#C9C1FF}
+.hunt .tap.miss{fill:#B9C9CF}
 .hunt{border-radius:16px;overflow:hidden;border:2px solid var(--line);margin:4px 0 6px;touch-action:manipulation}
 .hunt svg{display:block;width:100%;height:auto;cursor:crosshair}
 .hunt .sea{fill:var(--sea)}.hunt use{fill:var(--land);stroke:var(--map-line);stroke-width:1}
@@ -1300,6 +1357,29 @@ JS = r"""
     t.innerHTML = `<p><span class="bi" aria-hidden="true">${icon}</span><span><small>${esc(small)}</small><b>${esc(big)}</b></span></p>`;
     document.body.appendChild(t); setTimeout(() => t.classList.add("bye"), 3800); setTimeout(() => t.remove(), 4400);
   }
+  // Levels across days: Pebble, then Stone (some questions from the paper a step older), then Boulder (mostly).
+  // Up after 10 of the last 12 answers right first time, over at least 2 days; down after 3 or fewer of the last 8.
+  const SKILL = ["Pebble", "Stone", "Boulder"];
+  const skill = () => store.get("skill", { l: 0, at: 0 });
+  const sinceLevel = () => { const s = skill(); return store.get("answers", []).filter((a) => (a.ts || 0) > s.at); };
+  function skillCheck() {
+    const s = skill(), recent = sinceLevel(), l12 = recent.slice(-12), l8 = recent.slice(-8);
+    if (s.l < 2 && l12.length >= 12 && l12.filter((a) => a.ok).length >= 10 && new Set(l12.map((a) => a.d)).size >= 2) {
+      s.l++; s.at = Date.now(); store.set("skill", s);
+      toast1("⬆️", "Level up!", `${SKILL[s.l]}: ${s.l === 1 ? "some harder questions now" : "mostly harder questions now"}`);
+    } else if (s.l > 0 && l8.length >= 8 && l8.filter((a) => a.ok).length <= 3) {
+      s.l--; s.at = Date.now(); store.set("skill", s);              // quietly back a step; no fuss
+    }
+  }
+  function levelHtml(grownTone) {
+    const s = skill(), l12 = sinceLevel().slice(-12), ok = l12.filter((a) => a.ok).length;
+    const what = [grownTone ? "Questions at your paper's level." : "Questions just right for your paper.",
+      grownTone ? "Some questions come from the paper a step older." : "Some stretch questions from an older paper!",
+      grownTone ? "Mostly questions from the paper a step older." : "Mostly stretch questions. Brilliant!"][s.l];
+    return `<div class="lvl"><b>Level: ${SKILL[s.l]}</b> <span>${what}</span>
+      <span class="bar2"><i style="width:${s.l < 2 ? Math.round(100 * Math.min(ok, 10) / 10) : 100}%"></i></span>
+      <small>${s.l < 2 ? `${ok} of your last ${l12.length || 0} answers right first time. Get 10 of 12 right, over 2 days, to reach ${SKILL[s.l + 1]}.` : "Top level."}</small></div>`;
+  }
   // What the garden can hold: [id, icon, name, cost, left %, top %, size in em]. Quest prizes can't be bought.
   const ITEMS = [["daisy", "🌼", "Daisies", 3, 36, 44, 1.6], ["tulip", "🌷", "Tulips", 3, 50, 47, 1.6], ["mush", "🍄", "Mushroom", 4, 8, 84, 1.5],
     ["sunflower", "🌻", "Sunflower", 5, 64, 40, 1.8], ["butterfly", "🦋", "Butterfly", 5, 44, 20, 1.4], ["duck", "🦆", "Duck", 6, 44, 66, 1.7],
@@ -1340,6 +1420,7 @@ JS = r"""
       <div class="garden" role="img" aria-label="My garden: ${own.length ? own.length + " things growing" : "nothing planted yet"}"><span class="river"></span>
         ${placed.join("")}<span class="gowl">${owl ? owl.outerHTML : ""}</span><span class="gstack">${tower(streak())}</span>
         ${own.length ? "" : `<span class="empty1">Get your first flowers with your pebbles below 🌼</span>`}</div>
+      ${levelHtml(false)}
       <p class="how">Earn pebbles: <b>3</b> for reading a whole paper, <b>1</b> for each new star in a game, <b>2</b> for a Full set.</p>
       <div class="shop">${ITEMS.map((it) => own.includes(it[0])
         ? `<button type="button" class="have" disabled><span>${it[1]}</span>${esc(it[2])}<small>✓ In your garden</small></button>`
@@ -1350,12 +1431,6 @@ JS = r"""
       <h3>My passport: ${store.get("lands", []).length} ${store.get("lands", []).length === 1 ? "country" : "countries"}</h3>${passport("Countries I've read about")}
       <p class="grownup">For grown-ups: <a href="report.html">this month's reading report</a></p></section>`;
   }
-  const LEVELS = [["Pebble", 0], ["Stone", 30], ["Boulder", 90], ["Mountain", 200]];
-  function points() {                                         // every game's best stars, added up
-    let p = 0;
-    try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith("rp-stars-")) p += +JSON.parse(localStorage.getItem(k)) || 0; } } catch (e) {}
-    return p;
-  }
   function topicStats(list) {                                 // [topic, share right, answers], best first; 3 answers at least
     const by = {};
     list.forEach((a) => { const t = by[a.t] || (by[a.t] = [0, 0]); t[1]++; if (a.ok) t[0]++; });
@@ -1364,14 +1439,11 @@ JS = r"""
   function progressHtml() {
     const ans = store.get("answers", []), since = ymd(new Date(Date.now() - 6 * 864e5)), wk = ans.filter((a) => a.d >= since);
     const acc = wk.length ? Math.round(100 * wk.filter((a) => a.ok).length / wk.length) + "%" : "–";
-    const p = points(); let li = 0; LEVELS.forEach((l, j) => { if (p >= l[1]) li = j; });
-    const next = LEVELS[li + 1], topics = topicStats(ans.slice(-300)), rev = store.get("revise", []), s = streak();
+    const topics = topicStats(ans.slice(-300)), rev = store.get("revise", []), s = streak();
     return `<section class="progress"><h2>📈 My progress</h2>
       <div class="dash"><div><b>${s} ${s === 1 ? "day" : "days"}</b><small>reading streak</small></div><div><b>${acc}</b><small>answers right, last 7 days</small></div>
         <div><b>${count("read")}</b><small>papers read</small></div><div><b>${store.get("lands", []).length}</b><small>countries in your news</small></div></div>
-      <div class="lvl"><b>Level: ${LEVELS[li][0]}</b> <span>${p} points</span>
-        <span class="bar2"><i style="width:${next ? Math.round(100 * (p - LEVELS[li][1]) / (next[1] - LEVELS[li][1])) : 100}%"></i></span>
-        <small>${next ? `${next[1] - p} points to ${next[0]}. Each star in a game is a point.` : "Top level."}</small></div>
+      ${levelHtml(true)}
       <h3>Topics</h3>${topics.length ? topics.slice(0, 6).map(([t, r]) => `<div class="tb"><span>${esc(t)}</span>
         <span class="bar2"><i class="${r < 0.6 ? "low" : ""}" style="width:${Math.max(4, Math.round(r * 100))}%"></i></span><small>${Math.round(r * 100)}%${r < 0.6 ? " · practise" : ""}</small></div>`).join("")
         : `<p class="how">Answer a few questions to see your strongest and weakest topics.</p>`}
@@ -1705,8 +1777,9 @@ JS = r"""
     const hit = TOPICS.find(([i]) => t.startsWith(i)); return hit ? hit[1] : "Other";
   };
   function logAnswer(card, ok, miss) {                       // for My progress and the monthly report; misses to revise (12+)
-    const a = store.get("answers", []); a.push({ d: ymd(new Date()), t: topicOf(card), ok: !!ok }); store.set("answers", a.slice(-600));
+    const a = store.get("answers", []); a.push({ d: ymd(new Date()), ts: Date.now(), t: topicOf(card), ok: !!ok }); store.set("answers", a.slice(-600));
     if (!ok && grown && miss) { const r = store.get("revise", []); r.unshift({ ...miss, p: $(".title h1").textContent }); store.set("revise", r.slice(0, 30)); }
+    skillCheck();
   }
   const headline = (card) => { const c = card >= 0 ? $$("#read .card")[card] : null, h = c && $("h2", c); return h ? h.textContent.trim() : ""; };
   box.addEventListener("click", (e) => {
@@ -1776,9 +1849,24 @@ JS = r"""
   function speakBtn(text) { return speech ? `<button type="button" class="read say1" data-say="${esc(text)}">🔊 Hear it</button>` : ""; }
   box.addEventListener("click", (e) => { const b = e.target.closest(".say1"); if (b) { stop(); say(b.dataset.say, () => {}); } });
   function quiz() {
-    const g = { id: "quiz", run: quiz };
-    steps(data.quiz, g, (q, i, n, score, next) => {
-      box.innerHTML = `${back()}<p class="qn">Question ${i + 1} of ${n}</p>${young ? speakBtn(q.q + " " + q.options.join(". ")) : ""}
+    // Adaptive: two right first time in a row brings a stretch question (from the same day's paper a step
+    // older, about a story in this paper); a miss brings an easier one (a step younger). At Stone every third
+    // question is a stretch; at Boulder the quiz starts stretched. The game is as long as this paper's quiz.
+    const g = { id: "quiz", run: quiz }, own = data.quiz.slice(), up = shuffle(data.harder || []), down = shuffle(data.easier || []);
+    const n = own.length, lvl = skill().l;
+    let d = lvl === 2 ? 1 : 0, run = 0, i = 0, pts = 0, right = 0;
+    const pick = () => {
+      if (d > 0 && up.length) return [up.shift(), "up"];
+      if (d < 0 && down.length) return [down.shift(), "down"];
+      if (lvl === 1 && i % 3 === 2 && up.length) return [up.shift(), "up"];
+      return own.length ? [own.shift(), ""] : up.length ? [up.shift(), "up"] : [down.shift(), "down"];
+    };
+    const ask = () => {
+      if (i >= n) { finishText(pts, right, n, g); return; }
+      const [q, kind] = pick();
+      const tag = kind === "up" ? `<p class="lvltag up">${say2("⭐ Stretch question!", "Harder question")} <small>from ${esc(q.paper)}</small></p>`
+        : kind === "down" ? `<p class="lvltag down">${say2("Here's an easier one 🙂", "Easier question")} <small>from ${esc(q.paper)}</small></p>` : "";
+      box.innerHTML = `${back()}<p class="qn">Question ${i + 1} of ${n} · Level: ${SKILL[lvl]}</p>${tag}${young ? speakBtn(q.q + " " + q.options.join(". ")) : ""}
         <p class="q">${esc(q.q)}</p><div class="opts">${q.options.map((o, k) => `<button type="button" data-k="${k}">${esc(o)}</button>`).join("")}</div>
         <div class="fb" role="status"></div>`;
       wireBack();
@@ -1793,16 +1881,21 @@ JS = r"""
             ${h ? say2(`Hint: look in the story “${esc(h)}”.`, `The answer is in “${esc(h)}”.`) : say2("Think about what the paper said.", "")}</p>`;
           return;
         }
-        score(ok ? (tries === 1 ? 1 : 0.5) : 0);
-        logAnswer(q.card, ok && tries === 1, { q: q.q, a: q.options[q.answer], why: q.why });
+        const first = ok && tries === 1;
+        pts += ok ? (tries === 1 ? 1 : 0.5) : 0; if (ok) right++;
+        if (first) { run++; if (run >= 2) { d = Math.min(1, d + 1); run = 0; } } else { d = Math.max(-1, d - 1); run = 0; }
+        logAnswer(q.card, first, { q: q.q, a: q.options[q.answer], why: q.why });
         $$(".opts button", box).forEach((x) => { x.disabled = true; if (+x.dataset.k === q.answer) x.classList.add("ok"); });
         if (!ok) b.classList.add("no");
+        const nextUp = d > 0 && up.length && i + 1 < n;
         $(".fb", box).innerHTML = `<p class="why"><b>${ok ? (tries === 1 ? say2("Yes! ", "Correct. ") : say2("Got it on the second try! ", "Correct on the second try. "))
           : say2("Not this time. ", "Incorrect. ")}</b>${esc(q.why)}${ok ? "" : readAgain(q.card)}</p>
+          ${nextUp && first && kind !== "up" ? `<p class="lvltag up">${say2("Two in a row! The next one's a stretch ⭐", "Two in a row: the next question is harder.")}</p>` : ""}
           <p><button type="button" class="big go nx">${i + 1 < n ? "Next question →" : say2("See my stars", "See my score")}</button></p>`;
-        $(".nx", box).addEventListener("click", next);
+        $(".nx", box).addEventListener("click", () => { i++; ask(); });
       }));
-    });
+    };
+    ask();
   }
   function facts() {
     const g = { id: "facts", run: facts };
@@ -1836,10 +1929,11 @@ JS = r"""
     return [Math.asin(Math.max(-1, Math.min(1, Math.sin(t) / MM))) / RAD, Math.max(-180, Math.min(180, lon))];
   }
   const roundKm = (d) => (d < 100 ? Math.round(d / 10) * 10 : d < 1000 ? Math.round(d / 50) * 50 : Math.round(d / 100) * 100).toLocaleString("en");
-  const NEAR = [[1000, 2500], [500, 1500], [500, 1000], [500, 1000]][tier];   // km for 3 stars, then 2, at each age
+  const stepUp = () => Math.min(3, tier + (skill().l === 2 ? 1 : 0));   // Boulder plays Map hunt and Guess the number a step older
+  const NEARS = [[1000, 2500], [500, 1500], [500, 1000], [500, 1000]];   // km for 3 stars, then 2, at each age
   function hunt() {
     worldDefs();
-    const g = { id: "map", run: hunt }, items = shuffle(data.where).slice(0, 3), got = [];
+    const g = { id: "map", run: hunt }, items = shuffle(data.where).slice(0, 3), got = [], mt = stepUp(), NEAR = NEARS[mt];
     let i = 0;
     const ask = () => {
       if (i >= items.length) {
@@ -1849,7 +1943,7 @@ JS = r"""
         return;
       }
       const p = items[i], country = p.names[0];
-      const q = tier === 0 && country ? `Where is ${esc(country)}? Tap it on the map!`
+      const q = mt === 0 && country ? `Where is ${esc(country)}? Tap it on the map!`
         : say2(`Where did this happen? “${esc(p.h)}” Tap the map!`, `Where did this happen? “${esc(p.h)}” Tap the map.`);
       const vb = WORLDBOX();
       box.innerHTML = `${back()}<p class="qn">Place ${i + 1} of ${items.length}</p><p class="q">${q}</p>
@@ -1858,18 +1952,28 @@ JS = r"""
         <div class="fb" role="status"></div>`;
       wireBack();
       const svg = $(".hunt svg", box);
-      let answered = false;
+      let answered = false, tries = 0;
       svg.addEventListener("click", (e) => {
-        if (answered) return; answered = true;
+        if (answered) return;
+        tries++;
         const pt = new DOMPoint(e.clientX, e.clientY).matrixTransform(svg.getScreenCTM().inverse());
         const d = km(unproj(pt.x, pt.y), [p.lat, p.lon]), hl = $(".hl", svg);
         hl.innerHTML = p.countries.filter((c) => shapes[c]).map((c) => `<path d="${shapes[c].d}" vector-effect="non-scaling-stroke"/>`).join("");
         let inside = false;
         $$("path", hl).forEach((pa) => { try { if (pa.isPointInFill(new DOMPoint(pt.x, pt.y))) inside = true; } catch (err) {} });
         let n = d <= NEAR[0] ? 3 : d <= NEAR[1] ? 2 : 1;
-        if (inside) n = tier <= 1 ? 3 : Math.max(n, 2);
+        if (inside) n = mt <= 1 ? 3 : Math.max(n, 2);
+        if (n === 1 && tries === 1) {                       // far off: a hint, and one more tap (worth 2 stars at most)
+          hl.innerHTML = ""; addTo("hinted", key, 400);
+          $(".mk", svg).innerHTML = `<circle cx="${pt.x}" cy="${pt.y}" r="${6 * vb[2] / (svg.clientWidth || 340)}" class="tap miss"/>`;
+          $(".fb", box).innerHTML = `<p class="why hint"><b>${say2("Not quite! Have another go.", "Not quite. One more try.")}</b>
+            ${p.names.length ? say2(`Hint: it's in ${esc(p.names.slice(0, 2).join(" or "))}.`, `It's in ${esc(p.names.slice(0, 2).join(" or "))}.`) : say2("Hint: think about the story's ocean or sea.", "Think about the story's ocean or sea.")}</p>`;
+          return;
+        }
+        answered = true;
+        if (tries > 1) n = Math.min(n, 2);
         got.push(n); if (n === 3) addTo("map3", key + "|" + p.place, 2000);
-        logAnswer(p.card, n >= 2, { q: "Where did this happen? " + p.h, a: p.place, why: "" });
+        logAnswer(p.card, n >= 2 && tries === 1, { q: "Where did this happen? " + p.h, a: p.place, why: "" });
         const at = proj(p.lon, p.lat), u = vb[2] / (svg.clientWidth || 340);
         $(".mk", svg).innerHTML = `<line x1="${pt.x}" y1="${pt.y}" x2="${at[0]}" y2="${at[1]}" class="trip"/>
           <circle cx="${pt.x}" cy="${pt.y}" r="${6 * u}" class="tap"/><circle cx="${at[0]}" cy="${at[1]}" r="${11 * u}" class="ring"/>
@@ -1889,7 +1993,7 @@ JS = r"""
     + (it.unit === "times" ? "×" : it.unit ? (it.unit === "%" ? "" : " ") + it.unit : "");
   const sig2 = (v) => { if (v <= 0) return v; const p = Math.pow(10, Math.floor(Math.log10(v)) - 1); return Math.round(v / p) * p; };
   function numbers() {
-    const g = { id: "numbers", run: numbers }, items = data.numbers.slice(0, 3), got = [];
+    const g = { id: "numbers", run: numbers }, items = data.numbers.slice(0, 3), got = [], nt = stepUp();
     let i = 0;
     const ask = () => {
       if (i >= items.length) {
@@ -1910,7 +2014,7 @@ JS = r"""
         $(".nx", box).addEventListener("click", () => { i++; ask(); });
       };
       const head = `${back()}<p class="qn">${say2("Guess the number", "Estimate")} · ${i + 1} of ${items.length}</p>${young ? speakBtn(it.q) : ""}<p class="q">${esc(it.q)}</p>`;
-      if (tier === 0) {                                    // ages 6–8: pick from three, ten times apart
+      if (nt === 0) {                                      // ages 6–8: pick from three, ten times apart
         const opts = shuffle([it.answer, sig2(it.answer / 10), sig2(it.answer * 10)]);
         box.innerHTML = head + `<div class="opts nums">${opts.map((v) => `<button type="button" data-v="${v}">${esc(show1(v, it, v === it.answer))}</button>`).join("")}</div><div class="fb" role="status"></div>`;
         wireBack();
@@ -1943,13 +2047,13 @@ JS = r"""
       $(".check", box).addEventListener("click", () => {
         const v = at(r.value / 1000), off = Math.abs(v - it.answer) / it.answer;
         tries++;
-        if (tier === 1 && off > 0.1 && tries < 3) {          // ages 9–11: higher or lower, up to three goes
+        if (nt === 1 && off > 0.1 && tries < 3) {            // ages 9–11: higher or lower, up to three goes
           if (tries === 1) addTo("hinted", key, 400);
           $(".fb", box).innerHTML = `<p class="why hint"><b>${v < it.answer ? "Higher!" : "Lower!"}</b> ${tries === 1 ? "Try again." : "One more go."}</p>`;
           return;
         }
         r.disabled = true; $(".check", box).remove();
-        const n = tier === 1 ? (off <= 0.1 ? Math.max(1, 4 - tries) : 1) : off <= 0.1 ? 3 : off <= 0.25 ? 2 : 1;
+        const n = nt === 1 ? (off <= 0.1 ? Math.max(1, 4 - tries) : 1) : off <= 0.1 ? 3 : off <= 0.25 ? 2 : 1;
         done(n, v);
       });
     };

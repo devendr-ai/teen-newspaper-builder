@@ -370,3 +370,20 @@ def test_the_me_corner_has_a_garden_progress_and_a_monthly_report(built):
     assert 'class="reportpage"' in report and '<script id="papers" type="application/json">' in report
     names = json.loads(re.search(r'<script id="papers" type="application/json">(.*?)</script>', report, re.S).group(1))
     assert names["breakfast-table"] == edition.load("breakfast-table")["name"]
+
+
+def test_stretch_and_easier_questions_come_from_neighbouring_ages_about_this_papers_stories(built):
+    for eid in ("breakfast-table", "global-citizen-plus"):
+        ed = edition.load(eid)
+        date = site.issues_of(ed)[0][0]
+        page = (built / eid / f"{date}.html").read_text(encoding="utf-8")
+        data = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', page, re.S).group(1))
+        cards = re.findall(r'<section class="card [^"]*" id="s-([^"]+)" data-i="(\d+)"', page)
+        assert data["harder"], f"{eid}: no stretch questions"
+        for q in data["harder"] + data["easier"]:
+            assert q["paper"] != ed["name"] and len(q["options"]) == 3 and q["answer"] in (0, 1, 2)
+            assert any(int(i) == q["card"] for _, i in cards)            # points at a story in this paper
+        for q in data["harder"]:                                        # gentle for the younger reader
+            assert not play._HARSH.search(" ".join([q["q"], q["why"]] + q["options"]))
+    js = (built / "play.js").read_text(encoding="utf-8")
+    assert "function skillCheck()" in js and 'const SKILL = ["Pebble", "Stone", "Boulder"]' in js
