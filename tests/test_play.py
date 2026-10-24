@@ -357,3 +357,16 @@ def test_badges_come_with_a_certificate_page(built):
     for badge in ("pins", "nums", "set1", "set5", "clean"):                   # the new games' badges
         assert f'B("{badge}"' in js
     assert "function hunt()" in js and "function numbers()" in js and "unproj(" in js
+
+
+def test_the_me_corner_has_a_garden_progress_and_a_monthly_report(built):
+    """Ages 6–11 get the Pebble Garden, 12+ My progress (both drawn by play.js); a printable monthly report."""
+    lobby = (built / "index.html").read_text(encoding="utf-8")
+    assert '<div id="corner"></div>' in lobby
+    js = (built / "play.js").read_text(encoding="utf-8")
+    for part in ("function gardenHtml()", "function progressHtml()", "function quest()", "function passport(", "const ITEMS", "logAnswer("):
+        assert part in js
+    report = (built / "report.html").read_text(encoding="utf-8")
+    assert 'class="reportpage"' in report and '<script id="papers" type="application/json">' in report
+    names = json.loads(re.search(r'<script id="papers" type="application/json">(.*?)</script>', report, re.S).group(1))
+    assert names["breakfast-table"] == edition.load("breakfast-table")["name"]

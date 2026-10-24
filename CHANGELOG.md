@@ -20,6 +20,10 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Read & Play's "Me" corner: pebbles earned by reading and playing; the **Pebble Garden** for
+  6–11 (a riverbank to decorate, a weekly quest with an animal prize, a passport of countries);
+  **My progress** for 12+ (streak, accuracy, level, topics, countries, a revision list); and a
+  **monthly report** to print or save as a PDF. All kept on the device.
 - More to play in Read & Play, at the reader's age: hints and a second try in the quiz;
   **Map hunt** (tap where a story happened; scored by distance, more generous for younger
   readers); **Guess the number** (three cards for 6–8, a slider with higher/lower hints for
