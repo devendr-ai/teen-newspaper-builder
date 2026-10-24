@@ -448,7 +448,7 @@ who's who, and the questions people are asking.</p><div class="big3">{rows}</div
 # ------------------------------------------------------------------ an app on the home screen
 def certificate(cfg):
     """A printable certificate for a badge (certificate.html?b=<badge>), filled in by play.js from what this device earned."""
-    body = f'''<header class="bar noprint"><a class="home" href="index.html#me">← My badges</a></header>
+    body = f'''<style>@media print{{@page{{size:landscape}}}}</style><header class="bar noprint"><a class="home" href="index.html#me">← My badges</a></header>
 <main class="certpage"><div class="cert" hidden>{brand.inline("owl")}<p class="org">{E(cfg["title"]).upper()}</p>
 <p class="kind">Certificate</p><p class="to">This certificate is awarded to</p><p class="nm"></p><h1 class="bn"></h1><p class="bd"></p>
 <div class="ft"><span class="dt"></span><span>{E(cfg["tagline"])}</span></div></div>
@@ -457,6 +457,18 @@ def certificate(cfg):
 <p class="note">The name stays on this device. To keep a copy, choose “Save as PDF” in the print window.</p></div>
 <p class="none" hidden>This badge isn't earned on this device yet. <a href="index.html#me">See my badges</a></p></main>'''
     return shell(cfg, f"Certificate · {cfg['title']}", body, root="../")
+
+
+def report(cfg, names):
+    """A one-page monthly report to print or save as a PDF, made by play.js from what this device kept."""
+    body = f'''<header class="bar noprint"><a class="home" href="index.html#me">← Back</a></header>
+<main class="reportpage"><div class="ctl noprint"><label>Month <select class="month"></select></label>
+<label>Name on the report <input class="name" maxlength="40" autocomplete="off"></label>
+<button type="button" class="big go print">🖨️ Print or save as PDF</button></div>
+<article class="report"><div class="rhead">{brand.inline("owl")}<b>{E(cfg["title"])}</b><span class="mo"></span></div><h1 class="rt"></h1>
+<div class="rbody"></div><p class="rfoot">Made on this device from what was read and played here. Nothing is sent anywhere. {E(cfg["tagline"])}</p></article>
+<script id="papers" type="application/json">{json.dumps(names, ensure_ascii=False)}</script></main>'''
+    return shell(cfg, f"Monthly report · {cfg['title']}", body, root="../")
 
 
 def manifest(cfg):
@@ -616,7 +628,7 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <p class="hello" hidden><span></span> <button type="button" class="change">Change age</button></p>
 <h2 id="h-today">📰 Latest papers</h2><div class="tiles">{"".join(tiles)}</div></section>
 <div class="side">{big_row}{news_map}</div>
-<section class="me" id="me" aria-label="Me"><section class="myreading" id="badges" aria-label="My reading"></section>
+<section class="me" id="me" aria-label="Me"><div id="corner"></div><section class="myreading" id="badges" aria-label="My reading"></section>
 <div class="install" hidden><p><img class="app" src="icon-192.png" alt="" width="48" height="48"><b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
 today's papers work without the internet.</p><button type="button" class="big go add" hidden>Add to home screen</button>
 <p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
@@ -624,6 +636,8 @@ today's papers work without the internet.</p><button type="button" class="big go
 Maps show India's borders as on India's official maps (Natural Earth, India view).</p></section></main>{tabbar}'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
     open(os.path.join(pdir, "certificate.html"), "w", encoding="utf-8").write(certificate(cfg))
+    names = {e: edition.load(e)["name"] for e in edition.list_editions()}
+    open(os.path.join(pdir, "report.html"), "w", encoding="utf-8").write(report(cfg, names))
     for n in (180, 192, 512):                     # the owl, from assets/ (tools/brand/make_icons.js)
         shutil.copy(os.path.join(brand.ASSETS, f"owl-icon-{n}.png"), os.path.join(pdir, f"icon-{n}.png"))
     shutil.copy(brand.SVG, os.path.join(pdir, "owl.svg"))
@@ -905,6 +919,45 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .shelf li:not(.got) .bi{filter:grayscale(1);opacity:.5}
 .shelf .bp{display:block;height:6px;border-radius:9px;background:var(--line);overflow:hidden;margin-top:4px}.shelf .bp i{display:block;height:100%;background:var(--teal)}
 .shelf .cert1{font-weight:700;font-size:.95em;margin-top:2px}
+/* the Pebble Garden (6–11) and My progress (12+) */
+.gardencard,.progress{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:14px 16px;margin:0 0 18px}
+.gardencard h2,.progress h2{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+.gardencard h3,.progress h3{font-size:1em;margin:16px 0 6px}
+.purse{margin-left:auto;font-family:var(--text);font-size:.68em;font-weight:800;border:2px solid var(--line);border-radius:999px;padding:3px 10px;display:inline-flex;gap:5px;align-items:center}
+.garden{position:relative;aspect-ratio:4/3;border-radius:16px;overflow:hidden;border:2px solid var(--line);
+  background:linear-gradient(#DDEFF5 0 32%,#C5DDA8 32% 100%)}
+:root[data-theme="night"] .garden{background:linear-gradient(#22394A 0 32%,#3E5A3B 32% 100%)}
+.garden .river{position:absolute;left:-10%;right:-10%;top:58%;height:17%;background:#8CC7D8;border-radius:50%;transform:rotate(-6deg);box-shadow:inset 0 6px 0 rgba(255,255,255,.35)}
+.garden .gi{position:absolute;line-height:1;transform:translateY(-10%)}
+.garden .gowl{position:absolute;left:16%;top:32%;width:15%}.garden .gowl svg{width:100%;height:auto}
+.garden .gstack{position:absolute;left:4%;bottom:6%}.garden .gstack .tower i{height:9px}
+.garden .empty1{position:absolute;left:30%;right:6%;top:30%;background:rgba(255,255,255,.85);color:#1E2A32;border-radius:12px;padding:8px 10px;font-size:.78em;font-weight:700;text-align:center}
+.shop{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:8px;margin-top:6px}
+.shop button{border:2px solid var(--line);background:var(--card);border-radius:14px;padding:6px 4px;cursor:pointer;font-size:.72em;font-weight:700;line-height:1.25;min-height:84px}
+.shop button span{display:block;font-size:2em;line-height:1.2}.shop button small{display:block;color:var(--muted);font-weight:600}
+.shop button:disabled{cursor:default;opacity:.55}.shop button.have{opacity:1;background:var(--leaf-t);border-color:var(--leaf)}
+.quest{display:flex;gap:12px;align-items:center;background:var(--sun-t);border-radius:16px;padding:10px 12px;margin-top:12px}
+.quest .qi{font-size:2.2em}.quest div{flex:1}.quest small{color:var(--muted);font-size:.78em}
+.bar2{display:block;height:9px;border-radius:999px;background:var(--line);overflow:hidden;margin:5px 0 3px}.bar2 i{display:block;height:100%;background:var(--teal);border-radius:999px}
+.bar2 i.low{background:var(--coral)}
+.passport{display:block;width:100%;height:auto;border-radius:12px;border:2px solid var(--line)}
+.passport .sea{fill:var(--sea)}.passport use{fill:var(--land);stroke:var(--map-line);stroke-width:1}.passport .been{fill:var(--teal);fill-opacity:.75;stroke:var(--map-line);stroke-width:1}
+.grownup{font-size:.78em;color:var(--muted);margin:12px 0 0}
+.dash{display:grid;grid-template-columns:1fr 1fr;gap:8px}.dash div{border:2px solid var(--line);border-radius:14px;padding:8px 10px;background:var(--card)}
+.dash b{display:block;font-family:var(--display);font-size:1.35em}.dash small{color:var(--muted);font-size:.72em;line-height:1.2;display:block}
+.lvl{border:2px solid var(--line);border-radius:14px;padding:8px 10px;margin-top:10px}.lvl span:not(.bar2){color:var(--muted);font-size:.85em}.lvl small{color:var(--muted);font-size:.75em}
+.tb{display:grid;grid-template-columns:7.5em 1fr 6.5em;gap:8px;align-items:center;font-size:.85em}.tb small{color:var(--muted);font-size:.85em}
+.rev{list-style:none;padding:0;margin:0;display:grid;gap:8px}.rev li{border:2px solid var(--line);border-radius:12px;padding:8px 10px;display:grid;gap:2px;font-size:.85em}
+.rev small{color:var(--muted)}.rev button{justify-self:start;border:2px solid var(--teal);background:none;color:var(--teal);border-radius:999px;padding:3px 12px;font-weight:700;cursor:pointer;min-height:36px;font-size:.95em}
+.earned{font-weight:800;color:var(--leaf);display:flex;gap:6px;align-items:center;margin:4px 0}
+/* a monthly report to print */
+.reportpage{max-width:820px;margin:0 auto;padding:16px}
+.report{background:#fff;color:#1E2A32;border:1.5px solid #CFD6D8;border-radius:8px;padding:22px;margin-top:14px;font-size:16px}
+.report .rhead{display:flex;align-items:center;gap:10px}.report .rhead .owl{width:44px;height:44px}.report .rhead .mo{margin-left:auto;color:#56646C}
+.report h1{font-size:1.6em;margin:12px 0 10px}.report p{margin:8px 0}.report .dash div{background:#fff;border-color:#E1E5E6}
+.report .passport{max-width:520px;margin-top:6px}.report .rfoot{border-top:1px solid #E1E5E6;padding-top:8px;margin-top:14px;font-size:13px;color:#56646C}
+.reportpage .ctl label{display:grid;gap:4px;font-weight:700}.reportpage select{font:inherit;padding:8px;border-radius:10px;border:2px solid var(--line)}
+@media print{.reportpage{padding:0;max-width:none}.report{border:0;padding:0;margin:0}}
 /* a certificate to print */
 .certpage{max-width:900px;margin:0 auto;padding:16px}
 .cert{background:#fff;color:#1E2A32;border:10px double #5A8394;border-radius:6px;padding:28px 24px 18px;text-align:center;font-family:Georgia,"Times New Roman",serif}
@@ -917,7 +970,7 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .ctl{display:grid;gap:10px;margin-top:16px}.ctl label{display:grid;gap:4px;font-weight:700}
 .ctl input{font:inherit;font-size:18px;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
 .ctl .note{font-size:14px;color:var(--muted);margin:0}
-@media print{@page{size:landscape;margin:12mm}body{background:#fff}.noprint{display:none!important}.certpage{padding:0;max-width:none}
+@media print{@page{margin:12mm}body{background:#fff}.noprint{display:none!important}.certpage{padding:0;max-width:none}
   .cert{border-width:12px;min-height:170mm;display:flex;flex-direction:column;justify-content:center;align-items:center}.cert .ft{align-self:stretch}}
 .streak{font-weight:700;color:var(--coral)}.streak:empty{display:none}.mine{font-size:.85em;margin:14px 0 0}
 .toast{position:fixed;left:50%;top:16px;transform:translateX(-50%);z-index:40;background:var(--card);border:3px solid var(--sun);
@@ -1206,7 +1259,8 @@ JS = r"""
   }
   function paperDone() {
     const issue = $(".issue"); if (!issue) return;
-    addTo("days", ymd(new Date()), 400); addTo("read", issue.dataset.key, 2000);
+    addTo("days", ymd(new Date()), 400);
+    if (addTo("read", issue.dataset.key, 2000)) earn(3);      // 3 pebbles for each paper read to the end
     award();
     const s = streak(), el = $(".end .streak");
     if (el) el.innerHTML = tower(s) + `<span>${s > 1 ? `Pebble number ${s} is on your tower! Come back tomorrow for number ${s + 1}.`
@@ -1237,6 +1291,150 @@ JS = r"""
            <span class="bp" aria-hidden="true"><i style="width:${Math.min(100, Math.round(100 * n / of))}%"></i></span><small>${Math.min(n, of)} of ${of}</small></li>`; }).join("")}</ul></details>`;
   }
   shelf();
+
+  // ---------------------------------------------------------------- pebbles: earned by reading and playing, spent in the garden
+  const pebbles = () => store.get("peb", 0) - store.get("spent", 0);
+  const earn = (n) => { if (n > 0) store.set("peb", store.get("peb", 0) + n); };
+  function toast1(icon, small, big) {
+    const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status");
+    t.innerHTML = `<p><span class="bi" aria-hidden="true">${icon}</span><span><small>${esc(small)}</small><b>${esc(big)}</b></span></p>`;
+    document.body.appendChild(t); setTimeout(() => t.classList.add("bye"), 3800); setTimeout(() => t.remove(), 4400);
+  }
+  // What the garden can hold: [id, icon, name, cost, left %, top %, size in em]. Quest prizes can't be bought.
+  const ITEMS = [["daisy", "🌼", "Daisies", 3, 36, 44, 1.6], ["tulip", "🌷", "Tulips", 3, 50, 47, 1.6], ["mush", "🍄", "Mushroom", 4, 8, 84, 1.5],
+    ["sunflower", "🌻", "Sunflower", 5, 64, 40, 1.8], ["butterfly", "🦋", "Butterfly", 5, 44, 20, 1.4], ["duck", "🦆", "Duck", 6, 44, 66, 1.7],
+    ["frog", "🐸", "Frog", 6, 70, 74, 1.5], ["hedgehog", "🦔", "Hedgehog", 8, 24, 86, 1.6], ["turtle", "🐢", "Turtle", 8, 84, 86, 1.6],
+    ["tree", "🌳", "Tree", 10, 2, 16, 3.4], ["pine", "🌲", "Pine tree", 10, 84, 14, 3], ["house", "🏡", "Little house", 15, 60, 14, 2.4],
+    ["rainbow", "🌈", "Rainbow", 20, 28, 0, 3.2]];
+  const PRIZES = { flamingo: ["🦩", "Flamingo", 58, 56, 2], peacock: ["🦚", "Peacock", 16, 58, 2], swan: ["🦢", "Swan", 28, 66, 1.8],
+    rabbit: ["🐇", "Rabbit", 90, 50, 1.6], deer: ["🦌", "Deer", 74, 28, 2.2], parrot: ["🦜", "Parrot", 12, 12, 1.5] };
+  const QUESTS = [["read", 5, "Read 5 papers this week", "flamingo"], ["lands", 5, "Read stories from 5 countries", "peacock"],
+    ["sets", 2, "Play 2 full sets of games", "swan"], ["map3", 5, "Find 5 places spot on in Map hunt", "rabbit"],
+    ["words", 10, "Tap 10 new words", "deer"], ["num3", 3, "Get 3 numbers spot on", "parrot"]];
+  function quest() {                                         // this week's quest: from Monday, how far along, and its prize
+    const m = new Date(); m.setHours(12, 0, 0, 0); m.setDate(m.getDate() - (m.getDay() + 6) % 7);
+    const wk = ymd(m), [k, n, text, prize] = QUESTS[Math.floor(m.getTime() / 6048e5) % QUESTS.length];
+    let q = store.get("quest", null);
+    if (!q || q.w !== wk) { q = { w: wk, base: count(k), done: false }; store.set("quest", q); }
+    const got = Math.max(0, Math.min(n, count(k) - q.base));
+    if (got >= n && !q.done) {
+      q.done = true; store.set("quest", q); addTo("garden", prize); earn(5);
+      toast1(PRIZES[prize][0], "Quest done! +5 pebbles", PRIZES[prize][1] + " for your garden");
+    }
+    return { n, got, text, prize, done: q.done };
+  }
+  function passport(label) {                                  // every country read about, coloured in
+    if (!WD) return "";
+    worldDefs();
+    const vb = WORLDBOX(), lands = store.get("lands", []).filter((c) => shapes[c]);
+    return `<svg class="passport" viewBox="${vb.join(" ")}" role="img" aria-label="${esc(label)}"><rect class="sea" x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}"/>
+      <use href="#rp-world"/>${lands.map((c) => `<path class="been" d="${shapes[c].d}" vector-effect="non-scaling-stroke"/>`).join("")}</svg>`;
+  }
+  function gardenHtml() {
+    const own = store.get("garden", []), q = quest(), have = pebbles(), owl = $(".lb .owl");
+    const put = (e, x, y, z, name) => `<span class="gi" style="left:${x}%;top:${y}%;font-size:${z}em" title="${esc(name)}">${e}</span>`;
+    const placed = ITEMS.filter((it) => own.includes(it[0])).map((it) => put(it[1], it[4], it[5], it[6], it[2]))
+      .concat(Object.keys(PRIZES).filter((k) => own.includes(k)).map((k) => put(...PRIZES[k].slice(0, 1), PRIZES[k][2], PRIZES[k][3], PRIZES[k][4], PRIZES[k][1])));
+    const pz = PRIZES[q.prize];
+    return `<section class="gardencard"><h2>🌱 My Pebble Garden <span class="purse"><i class="pg"></i> ${have} ${have === 1 ? "pebble" : "pebbles"}</span></h2>
+      <div class="garden" role="img" aria-label="My garden: ${own.length ? own.length + " things growing" : "nothing planted yet"}"><span class="river"></span>
+        ${placed.join("")}<span class="gowl">${owl ? owl.outerHTML : ""}</span><span class="gstack">${tower(streak())}</span>
+        ${own.length ? "" : `<span class="empty1">Get your first flowers with your pebbles below 🌼</span>`}</div>
+      <p class="how">Earn pebbles: <b>3</b> for reading a whole paper, <b>1</b> for each new star in a game, <b>2</b> for a Full set.</p>
+      <div class="shop">${ITEMS.map((it) => own.includes(it[0])
+        ? `<button type="button" class="have" disabled><span>${it[1]}</span>${esc(it[2])}<small>✓ In your garden</small></button>`
+        : `<button type="button" data-buy="${it[0]}"${have < it[3] ? " disabled" : ""}><span>${it[1]}</span>${esc(it[2])}<small>${it[3]} pebbles</small></button>`).join("")}</div>
+      <div class="quest"><span class="qi">${pz[0]}</span><div><b>This week's quest: ${esc(q.text)}</b>
+        <span class="bar2"><i style="width:${Math.round(100 * q.got / q.n)}%"></i></span>
+        <small>${q.done ? `Done! The ${pz[1].toLowerCase()} is in your garden.` : `${q.got} of ${q.n} · unlocks the ${pz[1].toLowerCase()} and 5 pebbles`}</small></div></div>
+      <h3>My passport: ${store.get("lands", []).length} ${store.get("lands", []).length === 1 ? "country" : "countries"}</h3>${passport("Countries I've read about")}
+      <p class="grownup">For grown-ups: <a href="report.html">this month's reading report</a></p></section>`;
+  }
+  const LEVELS = [["Pebble", 0], ["Stone", 30], ["Boulder", 90], ["Mountain", 200]];
+  function points() {                                         // every game's best stars, added up
+    let p = 0;
+    try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith("rp-stars-")) p += +JSON.parse(localStorage.getItem(k)) || 0; } } catch (e) {}
+    return p;
+  }
+  function topicStats(list) {                                 // [topic, share right, answers], best first; 3 answers at least
+    const by = {};
+    list.forEach((a) => { const t = by[a.t] || (by[a.t] = [0, 0]); t[1]++; if (a.ok) t[0]++; });
+    return Object.entries(by).filter(([, v]) => v[1] >= 3).map(([t, v]) => [t, v[0] / v[1], v[1]]).sort((a, b) => b[1] - a[1]);
+  }
+  function progressHtml() {
+    const ans = store.get("answers", []), since = ymd(new Date(Date.now() - 6 * 864e5)), wk = ans.filter((a) => a.d >= since);
+    const acc = wk.length ? Math.round(100 * wk.filter((a) => a.ok).length / wk.length) + "%" : "–";
+    const p = points(); let li = 0; LEVELS.forEach((l, j) => { if (p >= l[1]) li = j; });
+    const next = LEVELS[li + 1], topics = topicStats(ans.slice(-300)), rev = store.get("revise", []), s = streak();
+    return `<section class="progress"><h2>📈 My progress</h2>
+      <div class="dash"><div><b>${s} ${s === 1 ? "day" : "days"}</b><small>reading streak</small></div><div><b>${acc}</b><small>answers right, last 7 days</small></div>
+        <div><b>${count("read")}</b><small>papers read</small></div><div><b>${store.get("lands", []).length}</b><small>countries in your news</small></div></div>
+      <div class="lvl"><b>Level: ${LEVELS[li][0]}</b> <span>${p} points</span>
+        <span class="bar2"><i style="width:${next ? Math.round(100 * (p - LEVELS[li][1]) / (next[1] - LEVELS[li][1])) : 100}%"></i></span>
+        <small>${next ? `${next[1] - p} points to ${next[0]}. Each star in a game is a point.` : "Top level."}</small></div>
+      <h3>Topics</h3>${topics.length ? topics.slice(0, 6).map(([t, r]) => `<div class="tb"><span>${esc(t)}</span>
+        <span class="bar2"><i class="${r < 0.6 ? "low" : ""}" style="width:${Math.max(4, Math.round(r * 100))}%"></i></span><small>${Math.round(r * 100)}%${r < 0.6 ? " · practise" : ""}</small></div>`).join("")
+        : `<p class="how">Answer a few questions to see your strongest and weakest topics.</p>`}
+      <h3>Countries in your news</h3>${passport("Countries in the news I've read")}
+      <h3>Revision list${rev.length ? ` (${rev.length})` : ""}</h3>${rev.length ? `<ul class="rev">${rev.slice(0, 8).map((r, i) => `<li><b>${esc(r.q)}</b>
+        <span>Answer: ${esc(r.a)}${r.why ? ". " + esc(r.why) : ""}</span><small>${esc(r.p || "")}</small><button type="button" data-done="${i}">Got it ✓</button></li>`).join("")}</ul>`
+        : `<p class="how">Questions you get wrong first time are kept here to revise.</p>`}
+      <p><a class="big go" href="report.html">⬇ Monthly report</a></p></section>`;
+  }
+  function corner() {                                         // the "Me" corner: a garden for 6–11, progress for 12+
+    const c = $("#corner"); if (!c) return;
+    const old = grownUp();
+    c.innerHTML = old ? progressHtml() : gardenHtml();
+    const tab = $('.tabbar a[href="#me"]');
+    if (tab) tab.innerHTML = old ? '<span aria-hidden="true">📈</span>Progress' : '<span aria-hidden="true">🌱</span>Garden';
+  }
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-buy]"), d = e.target.closest("[data-done]");
+    if (b) {
+      const it = ITEMS.find((x) => x[0] === b.dataset.buy);
+      if (!it || pebbles() < it[3]) return;
+      store.set("spent", store.get("spent", 0) + it[3]); addTo("garden", it[0]);
+      corner(); toast1(it[1], "In your garden!", it[2]);
+    }
+    if (d) { const r = store.get("revise", []); r.splice(+d.dataset.done, 1); store.set("revise", r); corner(); }
+  });
+
+  // ---------------------------------------------------------------- a monthly report to print, from this device
+  const rp = $(".reportpage");
+  if (rp) {
+    const names = JSON.parse($("#papers").textContent), sel = $(".month", rp), input = $(".name", rp), now = new Date();
+    for (let i = 0; i < 3; i++) {
+      const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      sel.insertAdjacentHTML("beforeend", `<option value="${ymd(d).slice(0, 7)}">${d.toLocaleDateString("en-GB", { month: "long", year: "numeric" })}</option>`);
+    }
+    input.value = store.get("name", "");
+    const draw = () => {
+      const m = sel.value, label = sel.selectedOptions[0].textContent, old = grownUp();
+      const days = store.get("days", []).filter((d) => d.startsWith(m)).sort();
+      let run = 0, bestRun = 0, prev = null;
+      days.forEach((d) => { const t = new Date(d + "T12:00:00"); run = prev && (t - prev) / 864e5 === 1 ? run + 1 : 1; bestRun = Math.max(bestRun, run); prev = t; });
+      const read = store.get("read", []).filter((k) => k.slice(-10).startsWith(m));
+      const papers = [...new Set(read.map((k) => names[k.slice(0, -11)]).filter(Boolean))];
+      const ans = store.get("answers", []).filter((a) => a.d.startsWith(m)), right = ans.filter((a) => a.ok).length;
+      const topics = topicStats(ans), have = store.get("badges", {});
+      const won = BADGES.filter((b) => (have[b.id] || "").startsWith(m)).map(nameOf);
+      $(".mo", rp).textContent = label;
+      $(".rt", rp).textContent = `${old ? "Monthly reading report" : "My month of news"}${input.value.trim() ? ": " + input.value.trim() : ""}`;
+      $(".rbody", rp).innerHTML = `<div class="dash"><div><b>${days.length}</b><small>days with a paper read</small></div><div><b>${read.length}</b><small>papers read</small></div>
+        <div><b>${ans.length ? Math.round(100 * right / ans.length) + "%" : "–"}</b><small>answers right${ans.length ? ` (${right} of ${ans.length})` : ""}</small></div>
+        <div><b>${bestRun} ${bestRun === 1 ? "day" : "days"}</b><small>longest streak</small></div></div>
+        ${papers.length ? `<p><b>Papers:</b> ${papers.map(esc).join(", ")}</p>` : ""}
+        ${topics.length ? `<p><b>Strongest:</b> ${topics.slice(0, 2).map(([t, r]) => `${esc(t)} (${Math.round(r * 100)}%)`).join(", ")}</p>` : ""}
+        ${topics.filter(([, r]) => r < 0.6).length ? `<p><b>To practise:</b> ${topics.filter(([, r]) => r < 0.6).slice(-2).map(([t, r]) => `${esc(t)} (${Math.round(r * 100)}%)`).join(", ")}</p>` : ""}
+        <p><b>${old ? "Achievements" : "Badges"} this month:</b> ${won.length ? won.map(esc).join(", ") : "none yet"}</p>
+        <p><b>Countries in the news so far:</b> ${store.get("lands", []).length}</p>${passport("Countries read about")}`;
+    };
+    sel.addEventListener("change", draw);
+    input.addEventListener("input", () => { store.set("name", input.value.trim()); draw(); });
+    $(".print", rp).addEventListener("click", () => window.print());
+    draw();
+    return;
+  }
 
   // ---------------------------------------------------------------- a certificate to print, for a badge earned here
   const cp = $(".certpage");
@@ -1284,11 +1482,12 @@ JS = r"""
       picker.hidden = true; hi.hidden = false;               // asked once, then a line to change it
       $("span", hi).innerHTML = b ? `Hi! Papers for <b>${esc(b.replace("Ages", "ages"))}</b>` : "Papers for <b>every age</b>";
       if (asked) $(".change", hi).focus();
+      corner();
     };
     whos.forEach((w) => w.addEventListener("click", () => pick(w.dataset.band, true)));
     $(".change", hi).addEventListener("click", () => { hi.hidden = true; picker.hidden = false; $(".who[aria-pressed=true]", picker)?.focus(); });
     const was = store.get("band", null);
-    if (was === null) $$(".tile").forEach((t) => { t.hidden = false; }); else pick(was);
+    if (was === null) { $$(".tile").forEach((t) => { t.hidden = false; }); corner(); } else pick(was);
     const done = store.get("read", []);                      // papers read on this device
     $$(".tile").forEach((t) => { if (done.includes(t.dataset.key)) $(".done", t).hidden = false; });
     document.addEventListener("click", (e) => {             // the chips open "My reading" with the badges
@@ -1455,16 +1654,20 @@ JS = r"""
   const best = (name) => store.get("stars-" + key + "-" + name, 0);
   const GAMES = [];
   function keep(name, n) {            // the stars, then a Full set and any new badges: what to show at the end
-    store.set("stars-" + key + "-" + name, Math.max(n, best(name)));
+    const before = best(name);
+    store.set("stars-" + key + "-" + name, Math.max(n, before));
     if (n === 3) addTo("3s-" + name, key);
     let set = false;
     if (GAMES.length > 1 && GAMES.every((g) => best(g.id) > 0) && addTo("sets", key)) {
       set = true;
       if (!store.get("hinted", []).includes(key)) addTo("clean", key);
     }
+    const gain = Math.max(0, n - before) + (set ? 2 : 0);   // pebbles: new stars, and 2 for a Full set
+    earn(gain);
     const fresh = award();
     if (!grown && (set || n === 3)) setTimeout(confetti, 200);
-    return (set ? `<div class="fullset"><b>${say2("Full set! 🎉", "Set complete.")}</b> ${say2(`You played all ${GAMES.length} of today's games.`,
+    return (gain && !grown ? `<p class="earned"><i class="pg"></i> +${gain} ${gain === 1 ? "pebble" : "pebbles"} for your garden</p>` : "")
+      + (set ? `<div class="fullset"><b>${say2("Full set! 🎉", "Set complete.")}</b> ${say2(`You played all ${GAMES.length} of today's games.`,
               `All ${GAMES.length} of today's games played.`)}</div>` : "")
       + fresh.map((b) => `<a class="newbadge" href="../certificate.html?b=${b.id}"><span class="bi" aria-hidden="true">${b.icon}</span>
           <span><b>${grown ? "Achievement" : "New badge"}: ${esc(nameOf(b))}</b><small>For ${esc(b.did)} · Print the certificate 🖨️</small></span></a>`).join("");
@@ -1494,6 +1697,16 @@ JS = r"""
   function readAgain(card) {
     if (card < 0) return "";
     return ` <a href="#" data-card="${card}">Read it again</a>`;
+  }
+  const TOPICS = [["⭐", "Top stories"], ["🔭", "Science"], ["🔬", "Science"], ["🌱", "Nature"], ["🩺", "Health"], ["🏅", "Sport"],
+    ["💰", "Money"], ["🗳️", "Politics"], ["📜", "History"], ["🎨", "Culture"], ["🏙️", "My city"], ["🪔", "India"], ["🌍", "World"]];
+  const topicOf = (card) => {
+    const c = card >= 0 ? $$("#read .card")[card] : null, d = c && $(".desk", c), t = d ? d.textContent.trim() : "";
+    const hit = TOPICS.find(([i]) => t.startsWith(i)); return hit ? hit[1] : "Other";
+  };
+  function logAnswer(card, ok, miss) {                       // for My progress and the monthly report; misses to revise (12+)
+    const a = store.get("answers", []); a.push({ d: ymd(new Date()), t: topicOf(card), ok: !!ok }); store.set("answers", a.slice(-600));
+    if (!ok && grown && miss) { const r = store.get("revise", []); r.unshift({ ...miss, p: $(".title h1").textContent }); store.set("revise", r.slice(0, 30)); }
   }
   const headline = (card) => { const c = card >= 0 ? $$("#read .card")[card] : null, h = c && $("h2", c); return h ? h.textContent.trim() : ""; };
   box.addEventListener("click", (e) => {
@@ -1581,6 +1794,7 @@ JS = r"""
           return;
         }
         score(ok ? (tries === 1 ? 1 : 0.5) : 0);
+        logAnswer(q.card, ok && tries === 1, { q: q.q, a: q.options[q.answer], why: q.why });
         $$(".opts button", box).forEach((x) => { x.disabled = true; if (+x.dataset.k === q.answer) x.classList.add("ok"); });
         if (!ok) b.classList.add("no");
         $(".fb", box).innerHTML = `<p class="why"><b>${ok ? (tries === 1 ? say2("Yes! ", "Correct. ") : say2("Got it on the second try! ", "Correct on the second try. "))
@@ -1600,6 +1814,7 @@ JS = r"""
       $$(".opts button", box).forEach((b) => b.addEventListener("click", () => {
         const said = b.dataset.v === "1", ok = said === f.true;
         score(ok);
+        logAnswer(f.card, ok, { q: f.claim, a: f.true ? "True" : "Not true", why: f.why });
         $$(".opts button", box).forEach((x) => { x.disabled = true; if ((x.dataset.v === "1") === f.true) x.classList.add("ok"); });
         if (!ok) b.classList.add("no");
         $(".fb", box).innerHTML = `<p class="why"><b>${ok ? say2("Right! ", "Correct. ") : say2("Not quite. ", "Incorrect. ")}</b>It's ${f.true ? "true" : "not true"}. ${esc(f.why)}${ok ? "" : readAgain(f.card)}</p>
@@ -1654,6 +1869,7 @@ JS = r"""
         let n = d <= NEAR[0] ? 3 : d <= NEAR[1] ? 2 : 1;
         if (inside) n = tier <= 1 ? 3 : Math.max(n, 2);
         got.push(n); if (n === 3) addTo("map3", key + "|" + p.place, 2000);
+        logAnswer(p.card, n >= 2, { q: "Where did this happen? " + p.h, a: p.place, why: "" });
         const at = proj(p.lon, p.lat), u = vb[2] / (svg.clientWidth || 340);
         $(".mk", svg).innerHTML = `<line x1="${pt.x}" y1="${pt.y}" x2="${at[0]}" y2="${at[1]}" class="trip"/>
           <circle cx="${pt.x}" cy="${pt.y}" r="${6 * u}" class="tap"/><circle cx="${at[0]}" cy="${at[1]}" r="${11 * u}" class="ring"/>
@@ -1684,6 +1900,7 @@ JS = r"""
       }
       const it = items[i], done = (n, guess) => {
         got.push(n); if (n === 3) addTo("num3", key + "|" + i, 2000);
+        logAnswer(it.card, n >= 2, { q: it.q, a: show1(it.answer, it, true), why: it.why });
         const top = Math.max(it.answer, guess || 0) || 1;
         $(".fb", box).innerHTML = `<p class="why"><b>${n === 3 ? say2("Spot on! 🎯", "Within 10%.") : n === 2 ? say2("Close!", "Within 25%.") : say2("Good try!", "Some way off.")}</b>
           It was <b>${esc(show1(it.answer, it, true))}</b>. ${esc(it.why)}</p>

@@ -91,6 +91,22 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   Locked badges show how close they are ("6 of 10"). A new badge pops up when it's
   earned, and a game's last screen celebrates a **Full set** when every game of the
   paper has been played.
+- **Pebbles and the Pebble Garden (ages 6–11).** Reading a whole paper earns 3 pebbles,
+  each new star in a game 1, and a Full set 2. The **Garden** button in the bottom bar opens a
+  riverbank to spend them on: daisies (3) up to a rainbow (20), each in its own spot, with the
+  owl and the pebble tower. A **weekly quest** (from Monday: read 5 papers, stories from 5
+  countries, 2 full sets, 5 places in Map hunt, 10 new words or 3 numbers spot on) unlocks an
+  animal that can't be bought, plus 5 pebbles. **My passport** colours in every country read
+  about.
+- **My progress (ages 12 and up).** The same button reads **Progress**: reading streak,
+  answers right in the last 7 days, papers read, countries; a level from Pebble to Stone (30
+  points), Boulder (90) and Mountain (200), a point per star; right answers by topic, with
+  any under 60% marked "practise"; the countries map; and a **revision list** of questions
+  missed first time, with the answer, until "Got it".
+- **Monthly report** (`play/report.html`). One page to print or save as a PDF, for this month
+  or the two before: days and papers read, answers right, longest streak, the papers, the
+  strongest and weakest topics, badges earned and the countries map, with the reader's name.
+  Linked from Progress, and from the Garden "for grown-ups".
 - **Certificates.** Every badge earned has a certificate to print
   (`play/certificate.html?b=<badge>`): the owl, the reader's name, the badge and what
   it was for, and the date. The name is typed on the page and kept on the device;
