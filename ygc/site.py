@@ -24,6 +24,7 @@ def site_config():
     cfg.setdefault("title", "The Newsstand")
     cfg.setdefault("tagline", "Printable newspapers, written for each reader.")
     cfg.setdefault("description", cfg["tagline"])
+    cfg.setdefault("home_headline", cfg["tagline"])
     cfg.setdefault("domain", "")
     cfg.setdefault("base_url", "")
     cfg.setdefault("contact", "")
@@ -109,6 +110,7 @@ header.top{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;border-bo
   padding:calc(12px + env(safe-area-inset-top,0px)) 20px 10px;position:sticky;top:0;z-index:7;background:var(--paper)}
 header.top h1{font-size:clamp(1.25rem,3vw,1.8rem);font-weight:800;letter-spacing:-.02em}
 header.top h1 a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.3em}
+.brandline{margin:3px 0 0;font-size:.75rem;line-height:1.3;color:var(--muted)}
 header.top h1 .logo{width:1.6em;height:1.6em;flex:none;margin:-.2em 0}
 .wm{display:inline-flex;flex-direction:column;line-height:1}.wm b{color:var(--coral)}
 .stones{display:flex;gap:.12em;margin-top:.16em}
@@ -208,13 +210,14 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
     if cfg.get("feedback_url"):
         contact += f' · Spotted a mistake, or have an idea? <a href="{root}feedback.html">Tell us</a>'
 
+    brandline = f'<p class="brandline">{E(cfg["tagline"])}</p>' if here == "papers" and not root else ""
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'] if cfg['description'] == cfg['tagline'] else cfg['tagline'] + ' ' + cfg['description'])}">
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
 {pwa.head(cfg, root)}{FONTS}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
 <script>document.documentElement.classList.add("js")</script></head>
-<body><div class="wrap"><header class="top"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>
+<body><div class="wrap"><header class="top"><div class="masthead"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
@@ -355,7 +358,7 @@ def build(out, keep=None, log=print):
     import re as _re
     attrs = lambda k: _re.findall(rf'data-{k}="([^"]*)"', "".join(cards))
     ages = sorted(set(attrs("audience")), key=lambda v: (FACET_ORDER.get(v, 50), v))
-    agebar = ('<div class="agebar"><span class="lbl" id="agel">Your child\'s age</span><div class="seg" role="group" aria-labelledby="agel">'
+    agebar = ('<div class="agebar"><span class="lbl" id="agel">Choose your child\'s age to find their paper</span><div class="seg" role="group" aria-labelledby="agel">'
               '<button type="button" data-f="audience" data-v="" aria-pressed="true">All</button>'
               + "".join(f'<button type="button" data-f="audience" data-v="{E(v)}" aria-pressed="false">{E(v.replace("Ages ", ""))}</button>' for v in ages)
               + '</div><span class="count" aria-live="polite"></span>'
@@ -390,7 +393,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         steps = "".join(f"<li>{E(x)}</li>" for x in cfg["steps"])
         steps = f'<ol class="steps">{steps}</ol>' if steps else ""
         how = f'<details class="how"><summary>How it works</summary><div class="box">{heading}{text}{steps}</div></details>'
-    intro = (f'<section class="intro"><p class="motto">{E(cfg["tagline"])}</p>'
+    intro = (f'<section class="intro"><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
     body = intro + filters + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
