@@ -87,3 +87,52 @@ def test_feedback_tab_appears_only_with_a_form(tmp_path, monkeypatch, url):
     assert 'href="feedback.html">Feedback</a>' in index and 'href="feedback.html">Feedback</a>' in builder
     assert "Tell us</a>" in index                                       # footer link on every page
     assert 'src="https://docs.google.com/forms/d/e/1FAIpQLSabc/viewform?embedded=true"' in fb
+
+
+def test_how_its_made_standards_corrections_and_privacy_pages(tmp_path, monkeypatch):
+    real = site.issues_of
+    newest = real(edition.load("junior-daily"))[0][0]
+    monkeypatch.setattr(site, "issues_of", lambda ed: real(ed)[:1] if ed["id"] == "junior-daily" else [])
+    monkeypatch.setattr(site, "corrections", lambda: [{"fixed": newest, "paper": "junior-daily", "issue": newest,
+                                                       "what": "It said the river was 40 km long. It is 4 km long."}])
+    out = tmp_path / "site"
+    site.build(str(out), keep=1, log=lambda *a: None)
+    for page in ("index.html", "about.html", "standards.html", "corrections.html", "privacy.html"):
+        html = (out / page).read_text(encoding="utf-8")       # every page links to all four from its footer
+        assert all(f'href="{p}"' in html for p in ("about.html", "standards.html", "corrections.html", "privacy.html"))
+    about = (out / "about.html").read_text(encoding="utf-8")
+    assert "No person reads each paper before\nit goes up." in about                   # says plainly how it's made
+    fixes = (out / "corrections.html").read_text(encoding="utf-8")
+    assert "It is 4 km long." in fixes and 'href="e/junior-daily/index.html">The Junior Daily</a>' in fixes
+    paper = (out / "e" / "junior-daily" / "index.html").read_text(encoding="utf-8")
+    assert 'class="meta fixed">Corrected' in paper and "It is 4 km long." in paper   # and next to the issue itself
+
+
+def test_the_corrections_log_names_real_papers_and_dates():
+    import datetime as dt
+    eds = set(edition.list_editions())
+    rows = site.corrections()
+    assert rows, "the log keeps the corrections already made"
+    for r in rows:
+        assert r["paper"] in eds and r["what"].strip()
+        assert dt.date.fromisoformat(r["fixed"]) >= dt.date.fromisoformat(r["issue"])
+
+
+@pytest.mark.parametrize("code", ["", "newspebbles"])
+def test_visit_counts_are_off_until_a_goatcounter_site_is_set(tmp_path, monkeypatch, code):
+    cfg = site.site_config()
+    monkeypatch.setattr(site, "site_config", lambda: dict(cfg, goatcounter=code))
+    monkeypatch.setattr(site, "issues_of", lambda ed: [])
+    out = tmp_path / "site"
+    site.build(str(out), keep=1, log=lambda *a: None)
+    pages = [out / p for p in ("index.html", "privacy.html", "builder.html", "play/index.html")]
+    privacy = (out / "privacy.html").read_text(encoding="utf-8")
+    if not code:
+        assert not any("goatcounter.com/count" in p.read_text(encoding="utf-8") for p in pages)
+        assert "visits aren't counted at the moment" in privacy and 'id="nocount"' not in privacy
+        return
+    for p in pages:
+        html = p.read_text(encoding="utf-8")
+        assert '"https://newspebbles.goatcounter.com/count"' in html and "document.cookie" not in html
+        assert 'np-nocount' in html and "doNotTrack" in html and 'referrerPolicy="no-referrer"' in html
+    assert 'id="nocount"' in privacy and "never stores them" in privacy

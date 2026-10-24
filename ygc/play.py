@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, threads, world
+from . import brand, edition, scenes, stats, threads, world
 from .chat import sentences
 
 E = html.escape
@@ -442,7 +442,7 @@ def shell(cfg, title, body, root=""):
 <link rel="manifest" href="{root}play/manifest.webmanifest"><meta name="theme-color" content="#E2584D">
 <link rel="icon" href="{root}play/owl.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{root}play/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Read &amp; Play">
-<link rel="stylesheet" href="{root}play/play.css?v={asset_version()}"></head><body>{body}
+<link rel="stylesheet" href="{root}play/play.css?v={asset_version()}">{stats.snippet(cfg, root)}</head><body>{body}
 <script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
 
 
@@ -1305,6 +1305,28 @@ JS = r"""
   const ymd = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   const addTo = (k, v, cap) => { const a = store.get(k, []); if (a.includes(v)) return false; a.push(v); store.set(k, a.slice(-(cap || 1000))); return true; };
   const count = (k) => store.get(k, []).length;
+
+  // ---------------------------------------------------------------- usage counts (ygc/stats.py): anonymous events, no ID;
+  // the first-visit date the "came back" counts need stays on this device
+  const tally = (p, t) => { if (window.npCount) window.npCount(p, t, true); };
+  function readerToday() {
+    const today = ymd(new Date());
+    if (store.get("seen", "") === today) return;
+    store.set("seen", today);
+    let first = store.get("first", "");
+    if (!first) {           // a device that read before counting began isn't new, and isn't counted coming back
+      first = count("days") || count("read") || Object.keys(store.get("badges", {})).length ? "before" : today;
+      store.set("first", first);
+      if (first === today) tally("reader/new", "A new reader");
+    }
+    if (first !== "before") {
+      const gap = Math.round((Date.parse(today) - Date.parse(first)) / 864e5);
+      if (gap === 1) tally("reader/back-next-day", "Came back the day after their first visit");
+      if (gap === 7) tally("reader/back-day-7", "Came back 7 days after their first visit");
+    }
+    tally("reader/today", "Opened a paper today");
+  }
+  if ($("main.issue")) readerToday();
   function streak() {
     const days = new Set(store.get("days", [])), d = new Date(); let n = 0;
     if (!days.has(ymd(d))) d.setDate(d.getDate() - 1);         // not read yet today: yesterday's streak still counts
@@ -1351,7 +1373,10 @@ JS = r"""
   function paperDone() {
     const issue = $(".issue"); if (!issue) return;
     addTo("days", ymd(new Date()), 400);
-    if (addTo("read", issue.dataset.key, 2000)) earn(3);      // 3 pebbles for each paper read to the end
+    if (addTo("read", issue.dataset.key, 2000)) {             // 3 pebbles for each paper read to the end
+      earn(3);
+      tally("finished/" + issue.dataset.key.slice(0, -11), "Finished: " + $("h1", issue).textContent);
+    }
     award();
     const s = streak(), el = $(".end .streak");
     if (el) el.innerHTML = tower(s) + `<span>${s > 1 ? `Pebble number ${s} is on your tower! Come back tomorrow for number ${s + 1}.`

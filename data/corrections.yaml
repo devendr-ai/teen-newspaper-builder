@@ -1,0 +1,11 @@
+# Corrections to papers after they were published, newest first. Each entry shows on the
+# site's Corrections page and next to the issue on its paper's page. When a published issue
+# is fixed, add an entry in the same commit as the fix:
+#   fixed:  the date the fix went up (YYYY-MM-DD)
+#   paper:  the edition id (the folder name under editions/)
+#   issue:  the issue's date (YYYY-MM-DD)
+#   what:   what was wrong and what it now says, in one or two plain sentences
+- fixed: 2026-10-15
+  paper: current-affairs-digest
+  issue: 2026-10-15
+  what: "A story on Ukraine said President Trump announced an \"energy ceasefire\" on Sunday 12 October, in two places. He announced it on Sunday 11 October."
