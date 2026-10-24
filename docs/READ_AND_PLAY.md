@@ -38,13 +38,23 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   km, about 4 hours by plane"). The reader picks their city once; it's guessed
   from the device's time zone until they do. The lobby has a map of all today's
   stories; tapping a pin lists them and opens the story.
-- **Play.** A menu of up to three games, each with stars kept on the device, no
-  timer and no losing:
+- **Play.** A menu of up to five games, each with 1 to 3 stars kept on the device, no
+  timer and no losing. Each game's level and tone follow the reader's age: playful
+  with the owl and confetti for 6–11, plainer and harder for 12–14, exam-style for 15+.
   - *Word match*: tap a word, then its meaning. Papers without new words get
     *Story match*: tap a headline, then the sentence that starts its story.
-  - *Quiz*: one question per screen, three answers. A wrong answer shows the right
-    one, why, and **Read it again**, which opens the story it came from. Ages 6–8
-    can hear each question.
+  - *Quiz*: one question per screen, three answers. A first wrong answer gets a hint
+    (the story the answer is in) and a second try, worth half a point. After that the
+    right answer shows, with why and **Read it again**. Ages 6–8 can hear each question.
+  - *Map hunt*: "Where did this happen?" Tap the world map; the real place, the
+    distance and the story's countries appear. Ages 6–8 are asked for a country, and a
+    tap anywhere in it counts. Stars for distance: within 1,000 km (6–8), 500 km
+    (9–11), 300 km (12–14) or 200 km (15+) earns 3.
+  - *Guess the number*: a number from today's news. Ages 6–8 pick from three cards,
+    ten times apart, with "Bigger!" or "Smaller!" after a miss; 9–11 slide to a guess
+    with up to three "Higher!/Lower!" hints; 12 and up get one estimate, scored by how
+    close it is (within 10% for 3 stars, 25% for 2). Then the answer, what it means, and
+    a bar comparing the guess with it.
   - *Fact or fiction?*: a claim about the issue; tap **True** or **Not true**.
 
 - **Easier version.** On papers for 12 and up, each story has a "🪶 Easier version" button
@@ -70,11 +80,21 @@ site`) is for the child, on a tablet or phone, from the same issue files.
 - **Streaks and badges.** Reading a whole paper (reaching the last card) counts
   as reading that day. The lobby shows the reading streak as a **pebble tower** (one
   pebble for each day in a row; a pebble chip at the top shows the number) and
-  how many papers have been read, and 11 badges to earn: First paper, Bookworm
+  how many papers have been read, and 16 badges to earn: First paper, Bookworm
   (10 papers), On fire (3 days), Super week (7), News champion (30), Map explorer
   (stories in 10 countries), Word wizard (15 new words), Good listener (5
-  stories read aloud), and Quiz champ, Fact detective and Perfect match (3 stars
-  on three different papers' games). A new badge pops up when it's earned.
+  stories read aloud), Quiz champ, Fact detective and Perfect match (3 stars
+  on three different papers' games), Map master (10 places found), Number ninja
+  (10 spot-on guesses), Full set (every game in a paper), Super set (5 full sets)
+  and First try (a full set with no hints). Readers 12 and up see plainer names
+  ("Achievements": Cartographer, Data detective, Set complete, Clean sheet...).
+  Locked badges show how close they are ("6 of 10"). A new badge pops up when it's
+  earned, and a game's last screen celebrates a **Full set** when every game of the
+  paper has been played.
+- **Certificates.** Every badge earned has a certificate to print
+  (`play/certificate.html?b=<badge>`): the owl, the reader's name, the badge and what
+  it was for, and the date. The name is typed on the page and kept on the device;
+  "Save as PDF" in the print window keeps a copy.
 
 Nothing is tracked and nothing leaves the device: settings, stars, streaks and
 badges are kept in the browser.
@@ -105,9 +125,19 @@ and 2 claims; 9–11: 4 and 3; 12–14: 5 and 3; 15+: 8 and 4):
             "answer": 1, "why": "The top story says warm water is spreading across the Pacific.", "story": "lead"}],
   "fact_or_fiction": [{"claim": "Isaias was the first hurricane of the year.", "true": true,
                        "why": "The hurricane story says so.", "story": "us"}],
-  "where": [{"story": "lead", "place": "Pacific Ocean", "lat": 5, "lon": -160, "countries": ["Australia"]}]
+  "where": [{"story": "lead", "place": "Pacific Ocean", "lat": 5, "lon": -160, "countries": ["Australia"]}],
+  "numbers": [{"story": "india", "q": "On Friday morning, what was Delhi's air quality index?", "answer": 223,
+               "prefix": "", "unit": "", "min": 0, "max": 500, "why": "It was 223, in the “poor” group."}]
 }
 ```
+
+`numbers` feeds Guess the number: 1 to 4 questions whose `answer` is a number the story
+itself gives (`ygc check` fails one that isn't, within 1%), shown with `prefix` ("$",
+"Rs ") and `unit` ("km", "%", "million", "times"). The slider runs from `min` to `max`,
+which must leave the answer well inside (not in the first or last tenth), and spans at
+most 1,000 times; a range wider than 50 times slides in "times" rather than "plus". Any
+number in `q` or `why` must also be in the story. Map hunt needs no new data: it uses
+`where`.
 
 Papers for 12 and up also carry `easy`: `{"<story id>": {"headline": "...", "body": ["...", "..."]}}`,
 60 to 170 words with short sentences (14 words on average).

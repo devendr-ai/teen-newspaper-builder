@@ -36,7 +36,7 @@ You are the Editor-in-Chief of *The Little Explorer*, a 2-page printed newspaper
 - **`briefs`** — 2 one-sentence briefs, each starting with a country or topic.
 - **`vocab`** — 3 vocabulary words drawn from this issue. Each definition then shows the word in this issue's news after "Today:".
 
-**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 3 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 2 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one entry for each story that happens in a particular place (delete the others): `place` as a child would name it (a city, sea or region, e.g. "Strait of Hormuz"), `lat` and `lon` of that place in decimal degrees, and `countries`, the countries the story is about, in plain English names.
+**Play (online only, never printed).** Fill `play` for the website's games, using only facts in this issue and words the reader knows. `quiz`: 3 multiple-choice questions a reader can answer from this issue alone, each with exactly 3 different `options`, `answer` the position (0, 1 or 2) of the right one (vary it), `why` one short sentence saying what the paper says, and `story` the id of the story it comes from. `fact_or_fiction`: 2 short claims about this issue, at least one true and one not true (`true`: true or false), each with `why` and `story`. A claim that isn't true changes one detail of the story; it is never a scary or silly invention. `where`, for the maps: one entry for each story that happens in a particular place (delete the others): `place` as a child would name it (a city, sea or region, e.g. "Strait of Hormuz"), `lat` and `lon` of that place in decimal degrees, and `countries`, the countries the story is about, in plain English names. `numbers`, for Guess the number: 2 questions whose `answer` is a number a story gives (as the story writes it: 16 for "16 million", with `unit` "million"), with `prefix` ("$", "Rs " or empty) and `unit` ("km", "years", "%"...) for showing it, a slider from `min` to `max` that leaves room on both sides of the answer, `why` one sentence saying what the number means, and `story`. Pick numbers worth guessing (sizes, prices, distances, counts), not dates.
 
 **Ongoing stories (optional).** If a story continues one of the site's big ongoing stories (a file in `threads/`, such as `yemen-war`), add `"threads": {"<story id>": "<thread id>"}` at the top level of the issue. The printed story then ends with a one-line pointer to "The story so far" on Read & Play, so leave room for it.
 
@@ -250,6 +250,28 @@ You are the Editor-in-Chief of *The Little Explorer*, a 2-page printed newspaper
         "lat": null,
         "lon": null,
         "countries": []
+      }
+    ],
+    "numbers": [
+      {
+        "story": "",
+        "q": "",
+        "answer": null,
+        "prefix": "",
+        "unit": "",
+        "min": null,
+        "max": null,
+        "why": ""
+      },
+      {
+        "story": "",
+        "q": "",
+        "answer": null,
+        "prefix": "",
+        "unit": "",
+        "min": null,
+        "max": null,
+        "why": ""
       }
     ]
   }

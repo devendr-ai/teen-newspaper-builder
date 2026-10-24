@@ -465,7 +465,29 @@
           "The scientists think early humans reached southern Africa earlier than people thought."
         ]
       }
-    }
+    },
+    "numbers": [
+      {
+        "story": "climate_and_environment",
+        "q": "By how much have monitored wildlife populations fallen, on average?",
+        "answer": 73,
+        "prefix": "",
+        "unit": "%",
+        "min": 5,
+        "max": 99,
+        "why": "73% on average. It is a weighted average of population change, not a loss of 73% of animals or species."
+      },
+      {
+        "story": "health",
+        "q": "About how many patients took part in the melanoma vaccine trial?",
+        "answer": 1100,
+        "prefix": "",
+        "unit": "",
+        "min": 100,
+        "max": 10000,
+        "why": "About 1,100 patients. The vaccine lowered the risk of melanoma returning by 42%."
+      }
+    ]
   },
   "threads": {
     "lead": "yemen-war",

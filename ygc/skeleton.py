@@ -46,6 +46,8 @@ def play_skeleton(ed):
     return {"quiz": [{"q": "", "options": ["", "", ""], "answer": 0, "why": "", "story": ""} for _ in range(nq)],
             "fact_or_fiction": [{"claim": "", "true": True, "why": "", "story": ""} for _ in range(nf)],
             "where": [{"story": bid, "place": "", "lat": None, "lon": None, "countries": []} for bid in story_blocks(ed)],
+            "numbers": [{"story": "", "q": "", "answer": None, "prefix": "", "unit": "", "min": None, "max": None, "why": ""}
+                        for _ in range(2)],
             **({"easy": {bid: {"headline": "", "body": ["", ""]} for bid in story_blocks(ed)}} if wants_easy(ed) else {})}
 
 

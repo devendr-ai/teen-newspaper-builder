@@ -342,7 +342,29 @@
           "In Italy, prices rose 4.2% in a year. In Spain, the prime minister called an election for November."
         ]
       }
-    }
+    },
+    "numbers": [
+      {
+        "story": "uk",
+        "q": "What was UK inflation in the 12 months to September?",
+        "answer": 3.5,
+        "prefix": "",
+        "unit": "%",
+        "min": 0.5,
+        "max": 10,
+        "why": "It was 3.5%, up from 3.1% in August; economists had expected 3.4%."
+      },
+      {
+        "story": "europe",
+        "q": "How many arrests followed the weekend unrest in France?",
+        "answer": 2400,
+        "prefix": "",
+        "unit": "",
+        "min": 100,
+        "max": 10000,
+        "why": "There were 2,400 arrests, with looting in Paris, Marseille, Lyon and Bordeaux."
+      }
+    ]
   },
   "threads": {
     "lead": "yemen-war",

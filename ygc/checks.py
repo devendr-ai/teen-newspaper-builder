@@ -339,6 +339,10 @@ def check_play(ed, issue, r):
     if len(facts) >= 2 and len({f.get("true") for f in facts if isinstance(f, dict)}) < 2:
         r.err("play.fact_or_fiction: include at least one true claim and one that isn't true")
     check_where(p.get("where"), stories, r)
+    if p.get("numbers") is not None:
+        check_numbers(issue, p["numbers"], stories, r)
+    else:
+        r.note("no play.numbers: Read & Play has no Guess the number game for this issue")
     from .skeleton import wants_easy
     if p.get("easy") is not None:
         check_easy(issue, p["easy"], stories, r)
@@ -395,6 +399,54 @@ def check_easy(issue, easy, stories, r):
     missing = sorted(set(stories) - set(easy) - {b for b in stories if not isinstance(blocks.get(b), dict)})
     if missing:
         r.note(f"play.easy: no easier version for {', '.join(missing)}")
+
+
+def _story_text(b):
+    return " ".join(str(b.get(k, "")) for k in ("headline", "deck", "why", "connect", "analyst", "kicker")) + " " + \
+        " ".join(str(x) for x in b.get("body") or [])
+
+
+def check_numbers(issue, nums, stories, r):
+    """play.numbers: Guess the number. Each answer is a number the story itself gives; the slider's ends
+    (`min`, `max`) leave room on both sides so the answer can't be read off the scale."""
+    if not isinstance(nums, list) or not 1 <= len(nums) <= 4:
+        r.err("play.numbers: a list of 1 to 4 questions")
+        return
+    blocks = issue.get("blocks", {})
+    num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
+    for i, n in enumerate(nums):
+        at = f"play.numbers[{i}]"
+        if not isinstance(n, dict):
+            r.err(f"{at} must be an object")
+            continue
+        b = blocks.get(n.get("story"))
+        if n.get("story") not in stories or not isinstance(b, dict):
+            r.err(f"{at}.story: the id of the story the number comes from")
+            continue
+        q = str(n.get("q", "")).strip()
+        if not q or len(q.split()) > 30:
+            r.err(f"{at}.q: one question, at most 30 words")
+        a, lo, hi = n.get("answer"), n.get("min"), n.get("max")
+        if not (num(a) and num(lo) and num(hi)) or not 0 <= lo < a < hi:
+            r.err(f"{at}: answer, min and max are numbers with 0 <= min < answer < max")
+            continue
+        if lo > 0 and hi / lo > 1000:
+            r.err(f"{at}: min to max spans more than 1000 times; narrow the range")
+        span = hi - lo
+        if not lo + 0.1 * span <= a <= hi - 0.1 * span:
+            r.err(f"{at}: put the answer well inside the range, not near min or max")
+        have = _numbers(_story_text(b))
+        if not any(abs(a - m) <= max(0.01 * abs(m), 0.005) for m in have):
+            r.err(f"{at}.answer {a:g} isn't a number in the story; use one the story gives")
+        for k, most in (("unit", 14), ("prefix", 4)):
+            if len(str(n.get(k) or "")) > most:
+                r.err(f"{at}.{k}: at most {most} characters")
+        why = str(n.get("why", "")).strip()
+        if not why or len(why.split()) > 35:
+            r.err(f"{at}.why: one or two sentences, at most 35 words, saying what the number means")
+        for x in _numbers(q + " " + why):
+            if not any(abs(x - m) <= max(0.1 * abs(m), 0.5) for m in have):
+                r.err(f"{at}: the number {x:g} isn't in the story; use only the story's facts")
 
 
 def check_where(where, stories, r):

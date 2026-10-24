@@ -512,7 +512,29 @@
           "Perseverance mostly drives itself. It used its own driving system for more than 90% of the distance. The first Mars rover, Sojourner, drove only about 330 feet. Perseverance has also collected 29 rock samples. Next it will head for a block of ancient rock called Rainbow Falls."
         ]
       }
-    }
+    },
+    "numbers": [
+      {
+        "story": "economics",
+        "q": "By day three, how many times the shares on offer had Jio Platforms' issue been bid?",
+        "answer": 12.55,
+        "prefix": "",
+        "unit": "times",
+        "min": 1,
+        "max": 40,
+        "why": "12.55 times by 3 pm on day three, after 3.04 times on day one and 5.40 times on day two."
+      },
+      {
+        "story": "india",
+        "q": "What was Delhi's air quality index at 8 am on Friday?",
+        "answer": 223,
+        "prefix": "",
+        "unit": "",
+        "min": 0,
+        "max": 500,
+        "why": "223, in the “poor” category, from 226 a day earlier."
+      }
+    ]
   },
   "threads": {
     "lead": "yemen-war",

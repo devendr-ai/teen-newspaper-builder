@@ -269,6 +269,28 @@
           "Seychelles"
         ]
       }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "About how many giant tortoises live on Aldabra?",
+        "answer": 183000,
+        "prefix": "",
+        "unit": "",
+        "min": 10000,
+        "max": 900000,
+        "why": "About 183,000: more than the 123,000 people in all of Seychelles."
+      },
+      {
+        "story": "science",
+        "q": "How many years did the older rover, Opportunity, take to drive its record?",
+        "answer": 15,
+        "prefix": "",
+        "unit": "years",
+        "min": 1,
+        "max": 40,
+        "why": "Nearly 15 years. The new rover, Perseverance, mostly steers itself."
+      }
     ]
   }
 }

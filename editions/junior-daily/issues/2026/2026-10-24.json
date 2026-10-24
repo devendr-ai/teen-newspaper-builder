@@ -173,6 +173,28 @@
           "Spain"
         ]
       }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How many arrests did French police make over one weekend?",
+        "answer": 2400,
+        "prefix": "",
+        "unit": "",
+        "min": 100,
+        "max": 10000,
+        "why": "Police made 2,400 arrests after some marches turned violent."
+      },
+      {
+        "story": "lead",
+        "q": "What price did a barrel of Brent crude reach later on Friday?",
+        "answer": 117.2,
+        "prefix": "$",
+        "unit": "",
+        "min": 40,
+        "max": 200,
+        "why": "Brent rose to about $114.50, then reached $117.20 later in the day."
+      }
     ]
   }
 }

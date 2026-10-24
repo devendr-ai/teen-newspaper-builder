@@ -324,3 +324,36 @@ def test_a_story_with_an_easier_version_gets_the_button():
     assert 'class="easy" aria-pressed="false"' in lead and 'class="v-easy" hidden' in lead
     assert '<div class="text v-easy" hidden>' in lead and 'class="text v-orig"' in lead
     assert "Oil costs more" in lead and 'class="easy"' not in other and "v-orig" not in other
+
+
+def test_new_games_get_their_data_and_numbers_are_checked(built):
+    """Map hunt plays from play.where, Guess the number from play.numbers; both reach the page."""
+    from ygc import checks
+    ed = edition.load("breakfast-table")
+    date, path = site.issues_of(ed)[0]
+    page = (built / "breakfast-table" / f"{date}.html").read_text(encoding="utf-8")
+    data = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', page, re.S).group(1))
+    assert 'data-band="Ages 9–11"' in page
+    assert data["where"] and all({"lat", "lon", "place", "countries", "names", "h"} <= set(w) for w in data["where"])
+    assert data["numbers"] and all(n["min"] < n["answer"] < n["max"] for n in data["numbers"])
+    issue = json.load(open(path, encoding="utf-8"))
+    stories = set(edition.story_blocks(ed))
+    r = checks.Report()
+    checks.check_numbers(issue, issue["play"]["numbers"], stories, r)
+    assert not r.errors
+    bad = json.loads(json.dumps(issue["play"]["numbers"]))
+    bad[0]["answer"] = 9999                                   # not in the story, and outside the slider
+    bad[1]["min"], bad[1]["max"] = bad[1]["answer"] - 0.01, bad[1]["answer"] * 100
+    r = checks.Report()
+    checks.check_numbers(issue, bad, stories, r)
+    assert any("isn't a number in the story" in e or "min < answer < max" in e for e in r.errors)
+    assert any("well inside the range" in e for e in r.errors)
+
+
+def test_badges_come_with_a_certificate_page(built):
+    cert = (built / "certificate.html").read_text(encoding="utf-8")
+    assert 'class="certpage"' in cert and 'class="cert"' in cert and "Print certificate" in cert
+    js = (built / "play.js").read_text(encoding="utf-8")
+    for badge in ("pins", "nums", "set1", "set5", "clean"):                   # the new games' badges
+        assert f'B("{badge}"' in js
+    assert "function hunt()" in js and "function numbers()" in js and "unproj(" in js
