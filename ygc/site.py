@@ -12,7 +12,7 @@ import subprocess
 
 import yaml
 
-from . import brand, checks, edition, poster, render
+from . import brand, checks, edition, poster, render, stats
 
 ROOT = edition.ROOT
 E = html.escape
@@ -79,6 +79,14 @@ def sources_of(issue):
             seen.add(url)
             out.append(s if isinstance(s, dict) else {"url": s})
     return out
+
+
+def corrections():
+    """data/corrections.yaml: fixes made to papers after they were published, newest first."""
+    p = os.path.join(ROOT, "data", "corrections.yaml")
+    rows = (yaml.safe_load(open(p, encoding="utf-8")) or []) if os.path.exists(p) else []
+    rows = [{k: str(v) for k, v in r.items()} for r in rows]
+    return sorted(rows, key=lambda r: (r["fixed"], r["issue"]), reverse=True)
 
 
 def lead_headline(ed, issue):
@@ -168,6 +176,10 @@ details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;paddi
   .tabbar a span{font-size:21px;line-height:1.15}
   .tabbar a[aria-current="page"]{color:var(--ink);background:var(--cyan-t)}}
 footer{margin-top:40px;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line);padding-top:14px}
+footer .links{margin:8px 0 0}footer .links a{color:var(--muted);font-weight:700}
+.doc{max-width:68ch}.doc h3{font-size:1.15rem;margin:22px 0 4px}.doc ul{padding-left:20px}.doc li{margin:4px 0}
+.doc ul.fixes{list-style:none;padding:0}.doc ul.fixes li{border-top:1px solid var(--line);padding:12px 0}
+.meta.fixed{color:#9A3B2E;margin:4px 0 0}
 """
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
@@ -199,14 +211,15 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'] if cfg['description'] == cfg['tagline'] else cfg['tagline'] + ' ' + cfg['description'])}">
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
-<link rel="apple-touch-icon" href="{root}play/icon-180.png">{FONTS}{head_extra}<style>{CSS}</style>
+<link rel="apple-touch-icon" href="{root}play/icon-180.png">{FONTS}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
 <script>document.documentElement.classList.add("js")</script></head>
 <body><div class="wrap"><header class="top"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));}})()</script>
-{body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div>
+{body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
+<p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a></p></footer></div>
 {tabbar(cfg, root, here)}</body></html>"""
 
 
@@ -232,8 +245,10 @@ def build(out, keep=None, log=print):
     os.makedirs(out)
     has_png = bool(shutil.which("pdftoppm"))
     cards = []          # (has_issue, audience order, name, html)
+    fixes, names = corrections(), {}
     for eid in edition.list_editions():
         ed = edition.load(eid)
+        names[eid] = ed["name"]
         s = ed.get("site") or {}
         if s.get("listed") is False:
             continue
@@ -269,8 +284,11 @@ def build(out, keep=None, log=print):
                            f'{" — " + E(x["outlet"]) if x.get("outlet") else ""}</li>'
                            for x in sources_of({"sources": sources_of(issue) + sources_of(posters.get(date, {}))}))
             ptd = f' <a class="btn ghost" href="{date}-poster.pdf" download>Poster</a>' if date in posters else ""
+            fixed = "".join(f'<p class="meta fixed">Corrected {dt.date.fromisoformat(c["fixed"]):%d %b}: {E(c["what"])} '
+                            f'<a href="../../corrections.html">All corrections</a></p>'
+                            for c in fixes if c["paper"] == eid and c["issue"] == date)
             rows.append(f'<tr><td>{d:%a %d %b %Y}</td><td>No. {issue.get("issue", "")}</td>'
-                        f'<td>{E(lead_headline(ed, issue))}<details><summary>Sources</summary><ul>{srcs}</ul></details></td>'
+                        f'<td>{E(lead_headline(ed, issue))}{fixed}<details><summary>Sources</summary><ul>{srcs}</ul></details></td>'
                         f'<td><a class="btn ghost" href="{pdf}" download>PDF</a>{ptd}</td></tr>')
             link = f'{cfg["base_url"].rstrip("/")}/e/{eid}/{pdf}' if cfg["base_url"] else pdf
             items.append(f"<item><title>{E(ed['name'])}, No. {issue.get('issue', '')}: {E(lead_headline(ed, issue))}</title>"
@@ -373,19 +391,13 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
              f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
     body = intro + filters + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
-    about = f"""<h2 style="font-size:2rem;margin-bottom:10px">How it's made</h2><div style="max-width:68ch">
-<p>Each paper is written for one kind of reader: their age, what the paper is for, which countries and topics it covers, how long it is and how often it comes out.</p>
-<p><b>Written for their age.</b> Age changes the vocabulary, the explanations and the size of the type, never the standard of accuracy. Hard news such as wars and disasters is reported honestly but without graphic detail; papers for the youngest readers say what happened and who is helping. New words are explained, and many papers end with questions to talk about together.</p>
-<p><b>Built from verified research.</b> An AI research desk (Claude, by Anthropic) searches the news for each topic. Only facts that point to a page the search actually returned are kept, and each paper is written from that research alone.</p>
-<p><b>Checked before it is published.</b> Automatic checks confirm every section is complete, the layout fits the printed page, nothing is cut off, and every story lists its sources. A separate fact-check compares each claim with the research. An issue that fails isn't published, and the previous issue stays up.</p>
-<p><b>It can still be wrong.</b> AI makes mistakes and early reports change. Every issue lists its sources on its paper's page, so you can check anything before handing it over.{f' To report an error, email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>.' if cfg.get("contact") else ""}</p>
-<p>You can also <a href="builder.html">design a paper for your own child</a>: the page writes instructions for your own AI chatbot, then checks its reply and prints it with the same engine. The engine is open source.</p></div>"""
-    open(os.path.join(out, "about.html"), "w", encoding="utf-8").write(page(cfg, "How it's made", about, here="about"))
+    trust_pages(cfg, out, names, fixes)
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
-        html = open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
+        html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
+                .replace("</head>", stats.snippet(cfg) + "</head>", 1))
         open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(html)
         engine_zip(os.path.join(out, "builder-engine.zip"))
     if cfg.get("feedback_url"):
@@ -409,6 +421,142 @@ def feedback_body(url):
 paper for an age we don't cover yet, or a problem with <i>Design your own</i>. We read everything.</p>
 <p>Please don't include your child's full name or anything that identifies them. Leave an email only if you'd like a reply.</p>
 <p><a class="btn" href="{E(url)}" target="_blank" rel="noopener">Open the feedback form</a></p></div>{form}"""
+
+
+# ------------------------------------------------------------------ how it's made, standards, corrections, privacy
+def _doc(title, html):
+    return f'<h2 style="font-size:2rem;margin-bottom:10px">{E(title)}</h2><div class="doc">{html}</div>'
+
+
+def report_line(cfg, root=""):
+    """How a reader tells us about a mistake: the feedback form, and the email when site.yaml gives one."""
+    ways = []
+    if cfg.get("feedback_url"):
+        ways.append(f'use the <a href="{root}feedback.html">feedback form</a>')
+    if cfg.get("contact"):
+        ways.append(f'email <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>')
+    return f"To report a mistake, {' or '.join(ways)}." if ways else ""
+
+
+def about_body(cfg):
+    return _doc("How it's made", f"""
+<p>Every paper here is written and checked by AI, automatically, overnight. Here is exactly what happens.</p>
+<h3>1. Research</h3>
+<p>Each night an AI research desk (Claude, made by Anthropic) searches the news for every topic the day's papers cover. It keeps a
+fact only if it can point to a page the search actually found, and it notes that page. It never fills a gap from memory, and records
+and &ldquo;firsts&rdquo; go in only when a source says them. Stories too graphic for younger readers are marked, and never used in
+papers for under-15s.</p>
+<h3>2. Writing</h3>
+<p>Each paper due that day is written from that research alone, following its own instructions: the reader's age, what the paper is
+for, which countries and topics it covers, and how long it is. All papers follow the same <a href="standards.html">editorial
+standards</a>. Age changes the words and explanations, never the standard of accuracy.</p>
+<h3>3. Checking</h3>
+<p>Before anything is published, automatic checks confirm every section is complete, the date is right, the layout fits the printed
+page with nothing cut off, the games are complete, and every story lists its sources. The AI then rereads every figure, name,
+place and date against its research and removes anything the research doesn't support. A paper that still fails after several tries
+isn't published, and the previous issue stays up.</p>
+<h3>4. Publishing</h3>
+<p>Papers that pass go up on this site straight away, as a printable PDF and in Read &amp; Play. <b>No person reads each paper before
+it goes up.</b> We read every piece of feedback and fix mistakes as soon as we hear about them, and list every fix on the
+<a href="corrections.html">corrections page</a>.</p>
+<h3>It can still be wrong</h3>
+<p>AI makes mistakes, and early reports change. Every issue lists its sources on its paper's page, so you can check anything before
+handing it over. {report_line(cfg)}</p>
+<p>You can also <a href="builder.html">design a paper for your own child</a>: the page writes instructions for your own AI chatbot, then
+checks its reply and prints it with the same engine. The engine is open source.</p>""")
+
+
+def standards_body(cfg):
+    return _doc("Editorial standards", f"""
+<p>These are the rules every paper is written to. They are part of the instructions the AI follows each night, and the automatic
+checks enforce the ones a computer can test.</p>
+<h3>Accurate at every age</h3>
+<ul><li>Every figure, name and date comes from a source the research actually found, and every story lists its sources.</li>
+<li>Nothing is filled in from memory. Records and &ldquo;firsts&rdquo; appear only when a source states them.</li>
+<li>When sources disagree, we use the most recent and most official one, or leave the detail out.</li>
+<li>Age changes the vocabulary, the explanations and the size of the type. It never changes the facts.</li></ul>
+<h3>Honest about hard news, without graphic detail</h3>
+<ul><li>Wars, disasters and crime are reported honestly, without graphic or frightening detail.</li>
+<li>Papers for the youngest readers say what happened and who is helping.</li>
+<li>Stories whose core facts are too graphic for children are never used in papers for under-15s.</li>
+<li>Read &amp; Play's games for 6&ndash;8s leave out stories about war and disaster.</li></ul>
+<h3>Fair</h3>
+<ul><li>Disputed claims are reported as the claims of whoever made them, with the other side's answer in its own terms.</li>
+<li>Quotes are short and used only when the exact words matter, such as a threat, a promise or a legal claim.</li>
+<li>Stories report what happened and what each side says. Questions at the end ask readers what they think; the papers don't tell
+them what to think.</li>
+<li>A story is chosen for how much it matters, never to suit a map or a chart.</li></ul>
+<h3>Clear</h3>
+<ul><li>New words are explained, and so is the background a story depends on.</li>
+<li>Readers are never left to do the arithmetic: comparisons are stated, not implied.</li>
+<li>Each paragraph leads into the next, so a young reader can follow the whole story.</li></ul>
+<h3>Independent</h3>
+<ul><li>There are no ads and no sponsors. Nobody pays to be in a paper.</li>
+<li>We don't collect anything about your child. See <a href="privacy.html">privacy</a>.</li></ul>
+<h3>When we get it wrong</h3>
+<p>We fix the paper, and say on the <a href="corrections.html">corrections page</a> and next to the issue what was wrong and what it
+now says. {report_line(cfg)}</p>""")
+
+
+def corrections_body(cfg, names, fixes):
+    if fixes:
+        rows = "".join(
+            f'<li><b><a href="e/{E(c["paper"])}/index.html">{E(names.get(c["paper"], c["paper"]))}</a>, '
+            f'{dt.date.fromisoformat(c["issue"]):%d %B %Y}</b><br>{E(c["what"])}'
+            f'<br><span class="meta">Corrected {dt.date.fromisoformat(c["fixed"]):%d %B %Y}</span></li>' for c in fixes)
+        listing = f'<ul class="fixes">{rows}</ul>'
+    else:
+        listing = '<p class="empty">No corrections yet.</p>'
+    return _doc("Corrections", f"""
+<p>When a published paper turns out to be wrong, we fix it and list the fix here, newest first. Each fix also shows next to the issue
+on its paper's page, and the corrected PDF replaces the old one. {report_line(cfg)}</p>{listing}""")
+
+
+def privacy_body(cfg):
+    counting = bool(stats.endpoint(cfg))
+    counts = ("""<h3>What we count</h3>
+<p>To learn whether the papers are useful, the site counts visits with <a href="https://www.goatcounter.com" rel="noopener">GoatCounter</a>,
+a small, privacy-first counter. It uses no cookies, and we send it only which page was opened, and these anonymous events:</p>
+<ul><li>a paper was opened in Read &amp; Play today (once per device per day);</li>
+<li>a device opened its first paper, or came back the day after, or 7 days after, its first paper;</li>
+<li>a paper was read to the end;</li><li>a PDF was downloaded.</li></ul>
+<p>We never send a name, an age, an answer, a score or any ID. GoatCounter keeps only totals for each day, such as &ldquo;opened a paper
+today: 40&rdquo;, plus broad facts like browser, country and language. To avoid counting the same visit twice it holds the visitor's
+network address and browser type in memory for up to 8 hours, and never stores them (see
+<a href="https://www.goatcounter.com/help/privacy" rel="noopener">its privacy policy</a>).</p>
+<p>Nothing is counted when your browser asks sites not to track you (Do Not Track or Global Privacy Control), or after you press this
+button:</p>
+<p><button type="button" class="btn" id="nocount">Don't count this device</button> <span id="nocount-state" class="meta"></span></p>
+<script>(function(){var b=document.getElementById("nocount"),st=document.getElementById("nocount-state");
+function get(){try{return localStorage.getItem("np-nocount")==="1"}catch(e){return false}}
+function show(){var off=get();b.textContent=off?"Count this device again":"Don't count this device";
+st.textContent=off?"This device isn't counted.":"This device is counted.";}
+b.addEventListener("click",function(){try{if(get())localStorage.removeItem("np-nocount");else localStorage.setItem("np-nocount","1")}catch(e){}show();});show();})()</script>"""
+              if counting else "<h3>What we count</h3><p>Nothing: visits aren't counted at the moment.</p>")
+    return _doc("Privacy", f"""
+<p><b>The short version:</b> no accounts, no ads, no cookies, and nothing about your child is collected. Children never need to give
+a name, an email or their age.</p>
+<h3>What stays on your device</h3>
+<p>Read &amp; Play remembers a few things in this browser's storage on this device, so it can show them next time: text size and night
+mode, the reading streak, pebbles, badges and garden, game stars, recent answers (for the progress page), the date of the first paper
+read, and a name only if one is typed on a certificate or report. None of it is sent to us or anyone else. Clearing this site's data
+in your browser's settings deletes it.</p>
+{counts}
+<h3>Other services the site uses</h3>
+<ul><li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>
+<li><b>Google Fonts</b> supplies the site's typefaces, so Google sees that a device loaded them.</li>
+<li><b>Read aloud</b> uses the voices your device or browser provides. Some browsers use an online voice service for this.</li>
+{'<li><b>The feedback form</b> is a Google Form. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>' if cfg.get("feedback_url") else ""}</ul>
+<h3>Printed papers</h3>
+<p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>""")
+
+
+def trust_pages(cfg, out, names, fixes):
+    for fn, title, body in (("about.html", "How it's made", about_body(cfg)),
+                            ("standards.html", "Editorial standards", standards_body(cfg)),
+                            ("corrections.html", "Corrections", corrections_body(cfg, names, fixes)),
+                            ("privacy.html", "Privacy", privacy_body(cfg))):
+        open(os.path.join(out, fn), "w", encoding="utf-8").write(page(cfg, f"{title} · {cfg['title']}", body, here="about"))
 
 
 def engine_zip(path):

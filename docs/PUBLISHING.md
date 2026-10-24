@@ -126,8 +126,20 @@ in India. Without one, it runs only when you start it.
 - **Add a paper:** design it in the builder, save it as
   `editions/<id>/edition.yaml`, and add the `automation` and `site` sections
   (copy them from any catalog edition). It appears on the site at the next run.
-- **Fix a published issue:** edit its JSON in `editions/<id>/issues/` and
-  commit. The site redeploys on its own.
+- **Fix a published issue:** edit its JSON in `editions/<id>/issues/`, add a line
+  to `data/corrections.yaml` saying what was wrong and what it now says, and
+  commit both together. The site redeploys on its own; the fix shows on the
+  Corrections page and next to the issue on its paper's page.
+- **Visit counts:** create a free site at [GoatCounter](https://www.goatcounter.com)
+  and put its code in `goatcounter` in `site.yaml` (`newspebbles` for
+  `newspebbles.goatcounter.com`). Every page then counts its views, and Read &
+  Play counts a few anonymous events: `reader/today` (devices that opened a
+  paper that day), `reader/new`, `reader/back-next-day` and `reader/back-day-7`
+  (came back 1 or 7 days after their first paper), `finished/<paper>` and
+  `download/...`. Next-day return rate = `reader/back-next-day` on a day ÷
+  `reader/new` the day before; day-7 = `reader/back-day-7` ÷ `reader/new` 7
+  days before. No cookies and no ID: see `ygc/stats.py` and the site's Privacy
+  page. Leave `goatcounter` empty to count nothing.
 - **See what happened:** each run's `data/runs/<date>.json` lists every paper's
   result, repair rounds and cost. `data/pools/<date>.json` holds the verified
   research each paper was written from. Papers that failed also appear as

@@ -133,6 +133,16 @@
   only if it passes. A failed poster never blocks the paper.
 - New craft rule: records and "firsts" must be stated by a source.
 - Weekly papers pinned to a weekday no longer skip a week after an off-day issue.
+- Trust pages: "How it's made" now says step by step how papers are researched,
+  written, checked and published (by AI, automatically, with no person reading
+  each paper first), plus new Editorial standards, Corrections and Privacy pages,
+  linked from every footer. Corrections live in `data/corrections.yaml` and also
+  show next to the corrected issue.
+- Privacy-first visit counts (`ygc/stats.py`, `goatcounter` in `site.yaml`):
+  GoatCounter's counting image, no cookies, no referrer, no ID; off for Do Not
+  Track, Global Privacy Control, test robots and a "Don't count this device"
+  button. Read & Play counts readers per day, finished papers, and returns 1 and
+  7 days after a device's first paper, keeping the dates it needs on the device.
 
 ## 5.0.0 — 2026-10-10: automatic publishing and the website
 

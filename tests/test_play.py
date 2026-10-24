@@ -406,3 +406,13 @@ def test_put_it_in_order_uses_big_story_timelines_with_one_right_answer(built):
     from ygc import threads
     worried = {t["title"] for t in threads.load_all() if t["younger"].get("worry")}
     assert not any(o["title"] in worried for o in data["order"])
+
+
+def test_read_and_play_counts_readers_finished_papers_and_returns_without_an_id():
+    js = play.JS
+    for event in ("reader/today", "reader/new", "reader/back-next-day", "reader/back-day-7", "finished/"):
+        assert f'"{event}' in js
+    i = js.index("function readerToday")
+    body = js[i:js.index("\n  }\n", i)]
+    assert 'store.get("seen"' in body and 'store.set("first"' in body and "tally(" in body
+    assert "Math.random" not in body and "uuid" not in body.lower()          # no device ID is made or sent

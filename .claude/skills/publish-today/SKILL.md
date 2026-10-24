@@ -184,7 +184,8 @@ https://devendr-ai.github.io/teen-newspaper-builder/
 
 ## Never
 
-- Never change an issue or poster from an earlier date.
+- Never change an issue or poster from an earlier date. (Fixes to published
+  papers are made separately, with an entry in `data/corrections.yaml`.)
 - Never edit `ygc/`, `editions/*/edition.yaml`, `tests/`, workflows or docs
   during a publishing run. A problem there is reported in the summary, not fixed.
 - Never publish a paper or poster that hasn't passed `check`/`poster` with `--pool`.
