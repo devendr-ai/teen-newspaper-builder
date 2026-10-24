@@ -725,7 +725,8 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <div class="install" hidden><p><img class="app" src="icon-192.png" alt="" width="48" height="48"><b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
 today's papers work without the internet.</p><button type="button" class="big go add" hidden>Add to home screen</button>
 <p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
-<p class="note"><a href="../index.html">← {E(cfg["title"])} (grown-ups)</a><br>For grown-ups: nothing here is tracked. Settings and stars stay on this device.
+<p class="note"><a href="../index.html">← {E(cfg["title"])} (grown-ups)</a><br>For grown-ups: no accounts, no ads, no cookies. Settings and stars stay on this device
+(<a href="../privacy.html">privacy</a>).
 Maps show India's borders as on India's official maps (Natural Earth, India view).</p></section></main>{tabbar}'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
     open(os.path.join(pdir, "certificate.html"), "w", encoding="utf-8").write(certificate(cfg))
@@ -873,7 +874,12 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .menu{display:grid;gap:12px}
 .menu button{display:flex;gap:14px;align-items:center;text-align:left;min-height:84px;border:2px solid var(--line);background:var(--card);border-radius:18px;padding:12px 16px;cursor:pointer}
 .menu button b{display:block;font-family:var(--display);font-size:1.25em}.menu button small{color:var(--muted);font-size:.8em}
-.menu button .ic{font-size:2em}.menu button .got{margin-left:auto;color:var(--sun);font-size:1.1em;white-space:nowrap}
+.menu button .ic{font-size:2em}.menu button .got{margin-left:auto;color:var(--sun);font-size:1.05em;white-space:nowrap;
+  display:grid;grid-template-columns:auto auto;gap:0 6px;align-items:center;text-align:right}
+.menu button .got small{color:var(--muted);font-size:.68em;font-weight:700}
+.scores{display:flex;flex-wrap:wrap;gap:6px 18px;margin:-4px 0 8px;color:var(--muted);font-weight:700}
+.scores b{color:var(--sun);font-size:1.2em;letter-spacing:2px;margin-left:4px}
+.practice{margin:0 0 10px;color:var(--muted);font-size:.9em}
 .back{border:0;background:none;color:var(--teal);font-weight:700;cursor:pointer;padding:6px 0;margin-bottom:6px;font-size:16px}
 .qn{color:var(--muted);font-size:.8em;margin:0}.q{font-size:1.2em;font-weight:700;margin:6px 0 14px;line-height:1.4}
 .opts{display:grid;gap:10px}
@@ -1496,7 +1502,7 @@ JS = r"""
         ${placed.join("")}<span class="gowl">${owl ? owl.outerHTML : ""}</span><span class="gstack">${tower(streak())}</span>
         ${own.length ? "" : `<span class="empty1">Get your first flowers with your pebbles below 🌼</span>`}</div>
       ${levelHtml(false)}
-      <p class="how">Earn pebbles: <b>3</b> for reading a whole paper, <b>1</b> for each new star in a game, <b>2</b> for a Full set.</p>
+      <p class="how">Earn pebbles: <b>3</b> for reading a whole paper, <b>1</b> for each star on a game's first try, <b>2</b> for a Full set.</p>
       <div class="shop">${ITEMS.map((it) => own.includes(it[0])
         ? `<button type="button" class="have" disabled><span>${it[1]}</span>${esc(it[2])}<small>✓ In your garden</small></button>`
         : `<button type="button" data-buy="${it[0]}"${have < it[3] ? " disabled" : ""}><span>${it[1]}</span>${esc(it[2])}<small>${it[3]} pebbles</small></button>`).join("")}</div>
@@ -1860,17 +1866,42 @@ JS = r"""
   const starsFor = (pts, total) => (pts >= total ? 3 : pts / total >= 0.6 ? 2 : 1);
   const starLine = (n) => `<p class="stars" aria-label="${n} stars">${"★".repeat(n)}${"☆".repeat(3 - n)}</p>`;
   const best = (name) => store.get("stars-" + key + "-" + name, 0);
+  // The first try is what counts: a game's first try starts with its first answer, its stars are kept apart from
+  // the best so far, and only the first try earns pebbles and counts towards badges and progress. Replays are
+  // practice, as many as you like (seeing the answers and playing again is learning, not winning).
+  let playing = "", firstGo = false;
+  const began = (name) => store.get("go-" + key + "-" + name, false);
+  const firstOf = (name) => {                               // stars on the first try; null if not finished yet
+    const f = store.get("first-" + key + "-" + name, null);
+    return f !== null ? f : began(name) ? 0 : best(name) || null;   // from before first tries were kept: the best
+  };
+  const run = (g) => { playing = g.id; firstGo = firstOf(g.id) === null && !began(g.id); g.run(); };
+  const markTried = () => { if (firstGo) store.set("go-" + key + "-" + playing, true); };
+  const hinted = () => { if (firstGo) addTo("hinted", key, 400); };
+  const firstHit = (k, v) => { if (firstGo) addTo(k, v, 2000); };
+  const stars3 = (n) => "★".repeat(n) + "☆".repeat(3 - n);
+  function scores(name, first) {                            // first try and best so far, side by side
+    const f = firstOf(name), b = best(name);
+    if (f === null && !b) return "";
+    return `<p class="scores"><span>${say2("First try", "First attempt")} <b aria-label="${f || 0} stars">${f === null ? "–" : stars3(f)}</b></span>
+      <span>${say2("Now", "Best")} <b aria-label="${b} stars">${stars3(b)}</b></span></p>`
+      + (first ? "" : `<p class="practice">${say2("Practice round! Your first-try stars are the ones that count for badges and pebbles.",
+          "Practice round: only first attempts count towards achievements.")}</p>`);
+  }
   const GAMES = [];
   function keep(name, n) {            // the stars, then a Full set and any new badges: what to show at the end
-    const before = best(name);
-    store.set("stars-" + key + "-" + name, Math.max(n, before));
-    if (n === 3) addTo("3s-" + name, key);
+    const first = firstGo && playing === name;
+    store.set("stars-" + key + "-" + name, Math.max(n, best(name)));
+    if (first) {
+      store.set("first-" + key + "-" + name, n); firstGo = false;
+      if (n === 3) addTo("3s-" + name, key);
+    }
     let set = false;
     if (GAMES.length > 1 && GAMES.every((g) => best(g.id) > 0) && addTo("sets", key)) {
       set = true;
       if (!store.get("hinted", []).includes(key)) addTo("clean", key);
     }
-    const gain = Math.max(0, n - before) + (set ? 2 : 0);   // pebbles: new stars, and 2 for a Full set
+    const gain = (first ? n : 0) + (set ? 2 : 0);           // pebbles: first-try stars, and 2 for a Full set
     earn(gain);
     const fresh = award();
     if (!grown && (set || n === 3)) setTimeout(confetti, 200);
@@ -1891,15 +1922,22 @@ JS = r"""
     stop();
     box.className = "card game" + (grown ? " grown" : "");
     if (!GAMES.length) { box.innerHTML = "<p>No game for this issue. Come back tomorrow!</p>"; return; }
-    if (GAMES.length === 1) { GAMES[0].run(); return; }
+    if (GAMES.length === 1) { run(GAMES[0]); return; }
     const played = GAMES.filter((g) => best(g.id) > 0).length;
     box.innerHTML = `<h2>${say2("Pick a game", "Today's games")}</h2><p class="how">${played === GAMES.length
-      ? say2("Full set done! Play again to beat your stars.", "Set complete. Replay any game to improve your score.")
+      ? say2("Full set done! Play again to practise. Your first-try stars are the ones that count.",
+             "Set complete. Replay any game to practise; first attempts are what count.")
       : say2(`Play all ${GAMES.length} for a Full set ⭐ (${played} done)`, `Play all ${GAMES.length} to complete the set (${played} done).`)}</p>
       <div class="menu">${GAMES.map((g, i) =>
       `<button type="button" data-g="${i}"><span class="ic" aria-hidden="true">${g.ic}</span><span><b>${g.name}</b><small>${g.sub}</small></span>
-       <span class="got" aria-label="${best(g.id)} stars">${best(g.id) ? "★".repeat(best(g.id)) + "☆".repeat(3 - best(g.id)) : ""}</span></button>`).join("")}</div>`;
-    $$(".menu button", box).forEach((b) => b.addEventListener("click", () => GAMES[+b.dataset.g].run()));
+       ${menuStars(g.id)}</button>`).join("")}</div>`;
+    $$(".menu button", box).forEach((b) => b.addEventListener("click", () => run(GAMES[+b.dataset.g])));
+  }
+  function menuStars(id) {
+    const f = firstOf(id), b = best(id);
+    if (f === null && !b) return "";
+    return `<span class="got" aria-label="First try ${f || 0} stars, now ${b} stars"><small>${say2("1st try", "1st")}</small>${f === null ? "–" : stars3(f)}
+      <small>${say2("Now", "Best")}</small>${stars3(b)}</span>`;
   }
   const back = () => (GAMES.length > 1 ? `<button type="button" class="back">← ${say2("All games", "Today's games")}</button>` : "");
   const wireBack = () => { $$(".back", box).forEach((b) => b.addEventListener("click", game)); };
@@ -1914,6 +1952,8 @@ JS = r"""
     const hit = TOPICS.find(([i]) => t.startsWith(i)); return hit ? hit[1] : "Other";
   };
   function logAnswer(card, ok, miss) {                       // for My progress and the monthly report; misses to revise (12+)
+    if (!firstGo) return;                                    // practice rounds don't count
+    markTried();
     const a = store.get("answers", []); a.push({ d: ymd(new Date()), ts: Date.now(), t: topicOf(card), ok: !!ok }); store.set("answers", a.slice(-600));
     if (!ok && grown && miss) { const r = store.get("revise", []); r.unshift({ ...miss, p: $(".title h1").textContent }); store.set("revise", r.slice(0, 30)); }
     skillCheck();
@@ -1926,10 +1966,11 @@ JS = r"""
     if (show) { if (cards[i]) show(i); }
     else { const c = $$("#read .card")[i]; if (c) c.scrollIntoView({ behavior: "smooth" }); }
   });
-  function ending(n, line, again) {   // the last screen of a game: stars, a Full set, new badges, play again
-    box.innerHTML = `<p class="cheer" role="status">${line}</p>${starLine(n)}${keep(again.id, n)}
-      <button type="button" class="big again">Play again</button> ${back()}`;
-    $(".again", box).onclick = again.run; wireBack();
+  function ending(n, line, again) {   // the last screen of a game: stars, first try and best, a Full set, new badges, play again
+    const first = firstGo && playing === again.id, more = keep(again.id, n);
+    box.innerHTML = `<p class="cheer" role="status">${line}</p>${starLine(n)}${scores(again.id, first)}${more}
+      <button type="button" class="big again">${say2("Play again to practise", "Practise again")}</button> ${back()}`;
+    $(".again", box).onclick = () => run(again); wireBack();
   }
   function finishText(pts, right, total, g) {
     const n = starsFor(pts, total);
@@ -1961,12 +2002,12 @@ JS = r"""
     function tap(b, side) {
       if (b.classList.contains("ok")) return;
       if (!sel || sel.side === side) { $$("button.sel", box).forEach((x) => x.classList.remove("sel")); sel = { b, side }; b.classList.add("sel"); return; }
-      const a = sel.b; sel = null; a.classList.remove("sel");
+      const a = sel.b; sel = null; a.classList.remove("sel"); markTried();
       if (a.dataset.i === b.dataset.i) {
         a.classList.add("ok"); b.classList.add("ok"); matched++; cheer.textContent = praise[matched % praise.length];
         if (matched === pairs.length) {
           const n = misses === 0 ? 3 : misses <= 2 ? 2 : 1;
-          ending(n, n === 3 ? say2("All matched, first time! 🎉", "All matched, no mistakes.") : say2("All matched! 🎉", "All matched."),
+          ending(n, n === 3 ? say2("All matched, no mistakes! 🎉", "All matched, no mistakes.") : say2("All matched! 🎉", "All matched."),
             { id: name, run: () => match(name) });
         }
       } else {
@@ -2012,7 +2053,7 @@ JS = r"""
         const k = +b.dataset.k, ok = k === q.answer;
         tries++;
         if (!ok && tries === 1) {               // a clue and a second try, not just a cross
-          b.disabled = true; b.classList.add("no"); addTo("hinted", key, 400);
+          b.disabled = true; b.classList.add("no"); hinted();
           const h = headline(q.card);
           $(".fb", box).innerHTML = `<p class="why hint"><b>${say2("Not quite! Have another go.", "Not quite. One more try.")}</b>
             ${h ? say2(`Hint: look in the story “${esc(h)}”.`, `The answer is in “${esc(h)}”.`) : say2("Think about what the paper said.", "")}</p>`;
@@ -2101,7 +2142,7 @@ JS = r"""
         let n = d <= NEAR[0] ? 3 : d <= NEAR[1] ? 2 : 1;
         if (inside) n = mt <= 1 ? 3 : Math.max(n, 2);
         if (n === 1 && tries === 1) {                       // far off: a hint, and one more tap (worth 2 stars at most)
-          hl.innerHTML = ""; addTo("hinted", key, 400);
+          hl.innerHTML = ""; hinted();
           $(".mk", svg).innerHTML = `<circle cx="${pt.x}" cy="${pt.y}" r="${6 * vb[2] / (svg.clientWidth || 340)}" class="tap miss"/>`;
           $(".fb", box).innerHTML = `<p class="why hint"><b>${say2("Not quite! Have another go.", "Not quite. One more try.")}</b>
             ${p.names.length ? say2(`Hint: it's in ${esc(p.names.slice(0, 2).join(" or "))}.`, `It's in ${esc(p.names.slice(0, 2).join(" or "))}.`) : say2("Hint: think about the story's ocean or sea.", "Think about the story's ocean or sea.")}</p>`;
@@ -2109,7 +2150,7 @@ JS = r"""
         }
         answered = true;
         if (tries > 1) n = Math.min(n, 2);
-        got.push(n); if (n === 3) addTo("map3", key + "|" + p.place, 2000);
+        got.push(n); if (n === 3) firstHit("map3", key + "|" + p.place);
         logAnswer(p.card, n >= 2 && tries === 1, { q: "Where did this happen? " + p.h, a: p.place, why: "" });
         const at = proj(p.lon, p.lat), u = vb[2] / (svg.clientWidth || 340);
         $(".mk", svg).innerHTML = `<line x1="${pt.x}" y1="${pt.y}" x2="${at[0]}" y2="${at[1]}" class="trip"/>
@@ -2159,7 +2200,7 @@ JS = r"""
         const right = cur.map((v, j) => v === j);
         if (right.every(Boolean)) return done(tries === 0 ? 3 : 2);
         if (tries === 0) {                                     // the right ones stay put, then one more go
-          tries++; addTo("hinted", key, 400);
+          tries++; hinted();
           right.forEach((ok, j) => { if (ok) locked.add(j); });
           draw();
           $(".fb", box).innerHTML = `<p class="why hint"><b>${say2("Nearly!", "Not quite.")}</b> ${locked.size
@@ -2170,7 +2211,7 @@ JS = r"""
         done(1);
       };
       const done = (n) => {
-        got.push(n); if (n === 3) addTo("ord3", key + "|" + t.title, 2000);
+        got.push(n); if (n === 3) firstHit("ord3", key + "|" + t.title);
         logAnswer(t.card, n === 3, { q: "In order: " + t.title, a: t.events.map((e) => e.text).join(" → "), why: "" });
         const day = (e) => e.when || new Date(e.date + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
         box.innerHTML = `${back()}<p class="qn">Big story ${i + 1} of ${sets.length} · ${esc(t.title)}</p>
@@ -2201,7 +2242,7 @@ JS = r"""
         return;
       }
       const it = items[i], done = (n, guess) => {
-        got.push(n); if (n === 3) addTo("num3", key + "|" + i, 2000);
+        got.push(n); if (n === 3) firstHit("num3", key + "|" + i);
         logAnswer(it.card, n >= 2, { q: it.q, a: show1(it.answer, it, true), why: it.why });
         const top = Math.max(it.answer, guess || 0) || 1;
         $(".fb", box).innerHTML = `<p class="why"><b>${n === 3 ? say2("Spot on! 🎯", "Within 10%.") : n === 2 ? say2("Close!", "Within 25%.") : say2("Good try!", "Some way off.")}</b>
@@ -2220,7 +2261,7 @@ JS = r"""
         $$(".nums button", box).forEach((b) => b.addEventListener("click", () => {
           const v = +b.dataset.v; tries++;
           if (v !== it.answer && tries === 1) {
-            b.disabled = true; b.classList.add("no"); addTo("hinted", key, 400);
+            b.disabled = true; b.classList.add("no"); hinted();
             $(".fb", box).innerHTML = `<p class="why hint"><b>${v < it.answer ? "Bigger!" : "Smaller!"}</b> Have another go.</p>`;
             return;
           }
@@ -2246,7 +2287,7 @@ JS = r"""
         const v = at(r.value / 1000), off = Math.abs(v - it.answer) / it.answer;
         tries++;
         if (nt === 1 && off > 0.1 && tries < 3) {            // ages 9–11: higher or lower, up to three goes
-          if (tries === 1) addTo("hinted", key, 400);
+          if (tries === 1) hinted();
           $(".fb", box).innerHTML = `<p class="why hint"><b>${v < it.answer ? "Higher!" : "Lower!"}</b> ${tries === 1 ? "Try again." : "One more go."}</p>`;
           return;
         }

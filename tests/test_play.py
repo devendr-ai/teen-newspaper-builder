@@ -416,3 +416,19 @@ def test_read_and_play_counts_readers_finished_papers_and_returns_without_an_id(
     body = js[i:js.index("\n  }\n", i)]
     assert 'store.get("seen"' in body and 'store.set("first"' in body and "tally(" in body
     assert "Math.random" not in body and "uuid" not in body.lower()          # no device ID is made or sent
+
+
+def test_only_a_games_first_try_earns_pebbles_and_badges():
+    js = play.JS
+    i = js.index("  function keep(name, n)")
+    keep = js[i:js.index("\n  }\n", i)]
+    assert "const gain = (first ? n : 0)" in keep                            # replays earn no pebbles
+    assert keep.index("if (first) {") < keep.index('addTo("3s-" + name, key)')  # 3-star badges count first tries only
+    assert 'store.set("first-" + key + "-" + name, n)' in keep
+    for k in ("map3", "ord3", "num3"):                                       # per-round badge counts too
+        assert f'firstHit("{k}"' in js and f'addTo("{k}"' not in js
+    assert 'addTo("hinted", key, 400)' in js.split("const hinted = ")[1].split("\n")[0]
+    assert js.count("hinted()") >= 5
+    log = js[js.index("function logAnswer"):]
+    assert log.index("if (!firstGo) return;") < log.index('store.get("answers"')   # practice doesn't count in progress
+    assert "${menuStars(g.id)}" in js and "${scores(again.id, first)}" in js     # first try beside the best, menu and end

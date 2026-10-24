@@ -39,7 +39,12 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   from the device's time zone until they do. The lobby has a map of all today's
   stories; tapping a pin lists them and opens the story.
 - **Play.** A menu of up to five games, each with 1 to 3 stars kept on the device, no
-  timer and no losing. Each game's level and tone follow the reader's age: playful
+  timer and no losing. **The first try is what counts.** A game's first try starts with its
+  first answer; its stars are kept, shown beside the best so far ("1st try ★★☆ · Now ★★★"
+  in the menu and on the last screen), and are the only stars that earn pebbles and count
+  towards badges, quests and My progress. Replays are practice, as many as you like: they
+  can raise the best stars but never earn anything, so tapping through to see the answers
+  and replaying for three stars gains nothing. A first try left unfinished counts as 0. Each game's level and tone follow the reader's age: playful
   with the owl and confetti for 6–11, plainer and harder for 12–14, exam-style for 15+.
   - *Word match*: tap a word, then its meaning. Papers without new words get
     *Story match*: tap a headline, then the sentence that starts its story.
@@ -113,7 +118,7 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   earned, and a game's last screen celebrates a **Full set** when every game of the
   paper has been played.
 - **Pebbles and the Pebble Garden (ages 6–11).** Reading a whole paper earns 3 pebbles,
-  each new star in a game 1, and a Full set 2. The **Garden** button in the bottom bar opens a
+  each star on a game's first try 1, and a Full set 2. The **Garden** button in the bottom bar opens a
   riverbank to spend them on: daisies (3) up to a rainbow (20), each in its own spot, with the
   owl and the pebble tower. A **weekly quest** (from Monday: read 5 papers, stories from 5
   countries, 2 full sets, 5 places in Map hunt, 10 new words or 3 numbers spot on) unlocks an
@@ -133,8 +138,10 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   it was for, and the date. The name is typed on the page and kept on the device;
   "Save as PDF" in the print window keeps a copy.
 
-Nothing is tracked and nothing leaves the device: settings, stars, streaks and
-badges are kept in the browser.
+Settings, stars, streaks and badges are kept in the browser and never leave the
+device. If the site's anonymous visit counts are switched on (`goatcounter` in
+`site.yaml`), Read & Play adds a few events with no ID: see the Privacy page and
+`ygc/stats.py`.
 
 ## The map
 
