@@ -100,12 +100,13 @@ def lead_headline(ed, issue):
 CSS = """
 :root{--paper:#F4F1EA;--surface:#fff;--ink:#1E2A32;--muted:#5B6870;--line:#DDD5C6;--cyan:#00727E;--cyan-t:#DDEFF0;--mag:#B8336A;--coral:#E2584D;
 --display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;--text:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#11181C;--surface:#182226;--ink:#E5ECEA;--muted:#9AA8AE;--line:#2D3A40;--cyan:#41B6C1;--cyan-t:#173438}}
 *,*::before,*::after{box-sizing:inherit}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--text)}
 a{color:var(--cyan)}h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0}
 .wrap{max-width:1180px;margin:0 auto;padding:14px 20px 70px}
-header.top{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;border-bottom:1.5px solid var(--ink);padding-bottom:10px;margin-bottom:12px}
+header.top{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;border-bottom:1.5px solid var(--ink);margin:-14px -20px 12px;
+  padding:calc(12px + env(safe-area-inset-top,0px)) 20px 10px;position:sticky;top:0;z-index:7;background:var(--paper)}
 header.top h1{font-size:clamp(1.25rem,3vw,1.8rem);font-weight:800;letter-spacing:-.02em}
 header.top h1 a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.3em}
 header.top h1 .logo{width:1.6em;height:1.6em;flex:none;margin:-.2em 0}
@@ -122,7 +123,7 @@ nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:4px 18px}nav a{font-weight:
 .how summary::after{content:" ›"}.how[open] summary::after{content:" ‹"}
 .how[open]{display:block;margin-top:2px}.how .box{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:14px 18px;margin:8px 0 6px}
 .how h2{font-size:1.3rem;margin-bottom:6px}.how p{margin:0 0 12px;max-width:72ch}
-.agebar{position:sticky;top:0;z-index:5;background:var(--paper);display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:8px 0 10px;margin:0 0 12px;border-bottom:1px solid var(--line)}
+.agebar{position:sticky;top:var(--hh,0px);z-index:5;background:var(--paper);display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:8px 0 10px;margin:0 0 12px;border-bottom:1px solid var(--line)}
 .agebar .lbl{font-weight:700;font-size:.92rem}
 .seg{display:flex;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:3px}
 .seg button{font:inherit;font-weight:700;border:0;background:none;color:var(--ink);border-radius:9px;padding:7px 16px;min-height:40px;cursor:pointer}
@@ -217,7 +218,9 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
-b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));}})()</script>
+b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));
+const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"px");hh();
+if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
 <p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a></p></footer></div>
 {tabbar(cfg, root, here)}</body></html>"""

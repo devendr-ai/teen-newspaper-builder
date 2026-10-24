@@ -136,3 +136,14 @@ def test_visit_counts_are_off_until_a_goatcounter_site_is_set(tmp_path, monkeypa
         assert '"https://newspebbles.goatcounter.com/count"' in html and "document.cookie" not in html
         assert 'np-nocount' in html and "doNotTrack" in html and 'referrerPolicy="no-referrer"' in html
     assert 'id="nocount"' in privacy and "never stores them" in privacy
+
+
+def test_the_header_stays_pinned_like_read_and_plays_bar():
+    # A pinned header with a solid background keeps the logo sharp under a phone's status bar
+    # (Safari blurs ordinary page content there), and the age bar pins just below it.
+    css = re.sub(r"\s+", " ", site.CSS)
+    head = css[css.index("header.top{"):css.index("}", css.index("header.top{"))]
+    assert "position:sticky" in head and "top:0" in head and "background:var(--paper)" in head
+    assert "safe-area-inset-top" in head
+    assert ".agebar{position:sticky;top:var(--hh,0px)" in css
+    assert '"--hh"' in site.page(site.site_config(), "t", "")
