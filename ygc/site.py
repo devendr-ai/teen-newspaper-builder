@@ -48,6 +48,38 @@ def audience(ed):
         return "Ages 15+"
 
 
+# Editorial starting points, with approximate reading times agreed for each age.
+RECOMMENDED = {
+    "Ages 6–8": ("little-explorers", "8–10", "A gentle first newspaper, with a big story, a science discovery and new words."),
+    "Ages 9–11": ("breakfast-table", "10–15", "A good place to start: a short family paper with world news and something to talk about together."),
+    "Ages 12–14": ("global-citizen-plus", "12–15", "A broader view of the world, with science, economics, an explainer and a quiz."),
+    "Ages 15+": ("current-affairs-digest", "12–15", "For readers interested in Indian exam preparation: current affairs, key terms and a quiz."),
+}
+
+
+def recommendations(published, has_png):
+    """Only recommend an edition whose PDF was successfully published in this build."""
+    sections = []
+    for band, (eid, minutes, reason) in RECOMMENDED.items():
+        if eid not in published:
+            continue
+        ed, date = published[eid]
+        cover = (f'<img class="recommended-cover" src="e/{eid}/cover.png" alt="Front page of {E(ed["name"])}">'
+                 if has_png else "")
+        n = len(ed["pages"])
+        sections.append(f'''<article class="recommended" data-band="{E(band)}" data-edition="{eid}" hidden>
+{cover}<div class="recommended-copy"><p class="recommended-label">A good place to start · {E(band)}</p>
+<h2>{E(ed["name"])}</h2><p class="recommended-date">Latest issue · {dt.date.fromisoformat(date):%A %d %B %Y}</p>
+<p class="recommended-facts">{n} page{'s' if n != 1 else ''} · About {minutes} minutes to read</p>
+<p class="recommended-reason">{E(reason)}</p><a class="btn recommended-print" href="e/{eid}/{date}.pdf" target="_blank" rel="noopener">🖨️ Print this paper</a>
+<p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>
+<a class="recommended-archive" href="e/{eid}/index.html">See past issues</a></div></article>''')
+    return ('<p id="age-memory" class="age-memory" role="status" hidden></p>'
+            '<section id="recommendation" aria-label="Recommended paper" hidden>' + "".join(sections) + '</section>'
+            '<div class="catalogue-heading"><h2 id="catalogue-title">Browse the newspapers</h2>'
+            '<button type="button" id="browse-all" hidden>Browse all ages</button></div>')
+
+
 def length_band(n):
     return "1 page" if n == 1 else "2 pages" if n == 2 else "3–4 pages" if n <= 4 else "5+ pages"
 
@@ -155,6 +187,30 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offse
   .card>*{grid-column:2}.card .cover{grid-column:1;grid-row:1/span 6;align-self:start;aspect-ratio:8.5/11}
   .card h2{font-size:1.08rem}.card p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.88rem}
   .card .tag{margin-bottom:2px}.card .actions{margin-top:6px;gap:6px}.card .btn{font-size:.86rem;padding:7px 10px}}
+
+.age-memory{font-size:.78rem;color:var(--muted);margin:0 0 14px}
+.recommended{display:grid;grid-template-columns:180px minmax(0,1fr);gap:26px;background:var(--surface);border:1.5px solid var(--line);border-top:4px solid var(--cyan);border-radius:14px;padding:22px;margin:0 0 22px}
+.recommended-cover{width:100%;height:auto;border:1px solid var(--line);align-self:start}
+.recommended:not(:has(.recommended-cover)){grid-template-columns:1fr}
+.recommended-label{font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;color:var(--cyan);margin:0 0 8px}
+.recommended h2{font-size:clamp(1.5rem,3vw,2rem);margin:0 0 10px}
+.recommended-date{font-size:.86rem;color:var(--muted);margin:0 0 10px}
+.recommended-facts{font-size:.9rem;font-weight:700;margin:0 0 10px}
+.recommended-reason{margin:0 0 18px;max-width:60ch}
+.recommended-print{padding:12px 22px;min-height:48px}
+.recommended-note{font-size:.76rem;color:var(--muted);margin:8px 0}
+.recommended-archive{display:inline-block;font-size:.84rem;font-weight:700;padding:7px 0;text-underline-offset:3px}
+.catalogue-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding-top:16px;border-top:1px solid var(--line)}
+.catalogue-heading h2{font-size:1.15rem}
+#browse-all{font:inherit;font-size:.84rem;font-weight:700;color:var(--cyan);background:none;border:0;cursor:pointer;min-height:44px;padding:7px 0;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:640px){
+ .recommended{display:block;padding:16px}.recommended-cover{float:right;width:92px;margin:0 0 14px 14px}
+ .recommended-copy{display:contents}.recommended-label{font-size:.7rem}.recommended-date{font-size:.78rem}
+ .recommended-facts{clear:both;padding-top:8px;font-size:.85rem}.recommended-reason{font-size:.9rem}
+ .recommended-print{display:block;width:100%}.recommended-note{font-size:.72rem}
+ .catalogue-heading h2{font-size:1.05rem}
+}
+
 .meta{font-size:.84rem;color:var(--muted)}
 .btn{display:inline-block;text-align:center;font-weight:700;background:var(--ink);color:var(--paper);text-decoration:none;border-radius:8px;padding:9px 12px}
 .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
@@ -252,6 +308,7 @@ def build(out, keep=None, log=print):
     has_png = bool(shutil.which("pdftoppm"))
     cards = []          # (has_issue, audience order, name, html)
     fixes, names = corrections(), {}
+    published = {}
     for eid in edition.list_editions():
         ed = edition.load(eid)
         names[eid] = ed["name"]
@@ -300,6 +357,8 @@ def build(out, keep=None, log=print):
             items.append(f"<item><title>{E(ed['name'])}, No. {issue.get('issue', '')}: {E(lead_headline(ed, issue))}</title>"
                          f"<link>{E(link)}</link><guid>{E(link)}</guid>"
                          f"<pubDate>{d:%a, %d %b %Y} 06:00:00 GMT</pubDate></item>")
+        if latest:
+            published[eid] = (ed, latest[0])
         n = len(ed["pages"])
         meta = f"{audience(ed)} · {n} page{'s' if n != 1 else ''} · {frequency(ed)}"
         blurb = s.get("blurb") or ed["reader"]["profile"]
@@ -308,7 +367,7 @@ def build(out, keep=None, log=print):
                  if latest and has_png else f'<a class="cover soon" href="e/{eid}/index.html">{"Latest issue" if latest else "First issue coming soon"}</a>')
         dl = (f'<a class="btn" href="e/{eid}/latest.pdf" download="{eid}-{latest[0]}.pdf">Download PDF</a>'
               if latest else "")
-        cards.append((latest is None, FACET_ORDER.get(audience(ed), 50), ed["name"], f'''<article class="card" data-kind="paper" data-audience="{E(audience(ed))}" data-length="{E(length_band(n))}" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
+        cards.append((latest is None, FACET_ORDER.get(audience(ed), 50), ed["name"], f'''<article class="card" data-kind="paper" data-edition="{E(eid)}" data-audience="{E(audience(ed))}" data-length="{E(length_band(n))}" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
 {cover}<h2>{E(ed['name'])}<!--NEW--></h2><p>{E(blurb)}</p><div class="meta">{E(meta)}{f" · latest {dt.date.fromisoformat(latest[0]):%d %b}" if latest else ""}</div>
 <div class="actions">{dl}<a class="btn ghost" href="e/{eid}/index.html">All issues</a></div></article>''', latest and latest[0]))
         if latest_poster:                          # the poster gets its own card, thumbnail and download
@@ -370,18 +429,37 @@ def build(out, keep=None, log=print):
 (function(){
 const st={audience:"",length:"",focus:"",frequency:""},$$=(s)=>[...document.querySelectorAll(s)],count=document.querySelector('.agebar .count');
 const plural=(n,w)=>n+" "+w+(n===1?"":"s");
-function set(f,v){
-  st[f]=v;
-  $$(`button[data-f="${f}"]`).forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.v===v)));
-  let papers=0,posters=0;$$('.card').forEach(c=>{const ok=c.dataset.always||Object.entries(st).every(([k,v])=>!v||c.dataset[k]===v);
+let remembered=false,returning=false;
+function saveAge(){try{localStorage.setItem("rp-band",JSON.stringify(st.audience));remembered=!!st.audience;}catch(e){remembered=false;}}
+function apply(){
+  $$('button[data-f]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.v===st[b.dataset.f])));
+  let papers=0,posters=0;$$('.grid .card').forEach(c=>{const ok=c.dataset.always||Object.entries(st).every(([k,v])=>!v||c.dataset[k]===v);
     c.hidden=!ok;if(ok&&c.dataset.kind==="paper")papers++;if(ok&&c.dataset.kind==="poster")posters++;});
   count.textContent=plural(papers,"paper")+(posters?" · "+plural(posters,"poster"):"");
   document.getElementById('none').hidden=papers+posters>0;
+  let featured=false;$$('.recommended').forEach(r=>{
+    const card=$$('.grid .card[data-kind="paper"]').find(c=>c.dataset.edition===r.dataset.edition);
+    const show=r.dataset.band===st.audience&&card&&!card.hidden;
+    r.hidden=!show;if(show){card.hidden=true;featured=true;}
+  });
+  document.getElementById('recommendation').hidden=!featured;
+  const age=st.audience.replace('Ages ','');
+  document.getElementById('catalogue-title').textContent=featured&&papers+posters===1?'Explore more':age?(featured?'More choices for ages ':'Papers for ages ')+age:'Browse the newspapers';
+  document.getElementById('browse-all').hidden=!Object.values(st).some(Boolean);
+  const memory=document.getElementById('age-memory');memory.hidden=!age;
+  memory.textContent=remembered?(returning?'Your saved age: '+age+'. Change it any time.':'Age saved on this device. Change it any time.'):'For ages '+age+'. Change your choice any time.';
 }
-$$('button[data-f]').forEach(b=>b.addEventListener('click',()=>{set(b.dataset.f,b.dataset.v);
-  if(b.dataset.f==="audience")try{localStorage.setItem("rp-band",JSON.stringify(b.dataset.v));}catch(e){}}));
+function set(f,v){st[f]=v;apply();}
+$$('button[data-f]').forEach(b=>b.addEventListener('click',()=>{
+  if(b.dataset.f==="audience"){st.audience=b.dataset.v;returning=false;saveAge();}
+  set(b.dataset.f,b.dataset.v);
+}));
 let age="";try{age=JSON.parse(localStorage.getItem("rp-band")||'""')||"";}catch(e){}
-set("audience",$$(`button[data-f="audience"]`).some(b=>b.dataset.v===age)?age:"");
+remembered=returning=!!age;
+set("audience",$$('button[data-f="audience"]').some(b=>b.dataset.v===age)?age:"");
+document.getElementById('browse-all').addEventListener('click',()=>{
+  Object.keys(st).forEach(k=>st[k]="");returning=false;saveAge();apply();
+});
 const more=document.querySelector('.agebar .more'),box=document.getElementById('filters');
 more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('aria-expanded',String(!box.hidden));});
 })();
@@ -395,7 +473,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         how = f'<details class="how"><summary>How it works</summary><div class="box">{heading}{text}{steps}</div></details>'
     intro = (f'<section class="intro"><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
-    body = intro + filters + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
+    body = intro + filters + recommendations(published, has_png) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
     trust_pages(cfg, out, names, fixes)
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
