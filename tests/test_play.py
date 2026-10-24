@@ -40,6 +40,7 @@ def test_lobby_fits_the_first_screen(built):
     tabs = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', lobby, re.S).group(1)
     for anchor in re.findall(r'href="#([a-z]+)"', tabs):
         assert f'id="{anchor}"' in lobby
+    assert 'href="../index.html"' in tabs                                     # a way back to the grown-ups' home page
 
 
 def test_a_young_readers_issue_reads_one_story_per_screen_with_words_to_tap(built):
