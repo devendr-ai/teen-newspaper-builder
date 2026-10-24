@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install poppler (cover images)
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils ffmpeg espeak-ng
       - name: Install Python packages
         run: pip install -r requirements.txt
 
@@ -80,6 +80,25 @@ jobs:
       - name: Build the website
         if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
         run: python -m ygc site --out _site
+      - name: Restore generated narration
+        uses: actions/cache/restore@v4
+        if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
+        with:
+          path: .cache/narration
+          key: narration-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: narration-v1-${{ runner.os }}-
+      - name: Install free narration engine
+        if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
+        run: pip install -r requirements-narration.txt
+      - name: Narrate published stories with Kokoro
+        if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
+        run: python -m ygc.narration --site _site
+      - name: Save generated narration
+        uses: actions/cache/save@v4
+        if: always() && hashFiles('.cache/narration/recordings/*.mp3') != ''
+        with:
+          path: .cache/narration
+          key: narration-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/upload-pages-artifact@v3
         if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
         with:

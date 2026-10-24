@@ -556,6 +556,21 @@ const keep = (r, res) => { if (res.ok) { const copy = res.clone(); caches.open(V
 self.addEventListener("fetch", (e) => {
   const r = e.request, u = new URL(r.url);
   if (r.method !== "GET" || u.origin !== location.origin || !u.pathname.startsWith(new URL("./", location).pathname)) return;
+  if (u.pathname.includes("/play/audio/") && r.headers.has("range")) {
+    e.respondWith(caches.match(u.href).then(async (hit) => {
+      if (!hit) return fetch(r);
+      const match = /^bytes=(\d+)-(\d*)$/.exec(r.headers.get("range"));
+      if (!match) return fetch(r);
+      const bytes = await hit.arrayBuffer(), start = Number(match[1]);
+      const end = match[2] ? Math.min(Number(match[2]), bytes.byteLength - 1) : bytes.byteLength - 1;
+      if (start > end) return new Response(null, { status: 416, headers: { "Content-Range": `bytes */${bytes.byteLength}` } });
+      return new Response(bytes.slice(start, end + 1), { status: 206, headers: {
+        "Content-Type": "audio/mpeg", "Content-Length": String(end - start + 1),
+        "Content-Range": `bytes ${start}-${end}/${bytes.byteLength}`, "Accept-Ranges": "bytes"
+      } });
+    }));
+    return;
+  }
   if (r.mode === "navigate") {              // pages: the newest from the network, else the one kept
     e.respondWith(fetch(r).then((res) => keep(r, res))
       .catch(() => caches.match(r, { ignoreSearch: true }).then((hit) => hit || caches.match("index.html"))));
@@ -729,6 +744,7 @@ Maps show India's borders as on India's official maps (Natural Earth, India view
 
 
 CSS = r"""
+.narration-credit{font-size:14px;color:var(--muted);white-space:nowrap}
 :root{--bg:#FFF8EE;--card:#FFFFFF;--ink:#1E2A32;--muted:#5B6870;--line:#E7DCCB;--coral:#E2584D;--teal:#007C89;--sun:#F4B400;
 --sun-t:#FFE9A8;--leaf:#2E7D4F;--leaf-t:#DDF2E4;--rose-t:#FBE1DE;--fs:19px;--lh:1.7;
 --display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;--text:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
@@ -1090,7 +1106,7 @@ JS = r"""
   apply();
   $$("[data-act]").forEach((b) => {
     const act = b.dataset.act;
-    if (act === "rate") { b.value = String(store.get("rate", 1)); b.addEventListener("change", () => store.set("rate", +b.value)); return; }
+    if (act === "rate") { b.value = String(store.get("rate", 1)); b.addEventListener("change", () => { store.set("rate", +b.value); document.dispatchEvent(new Event("rp-rate")); }); return; }
     b.addEventListener("click", () => {
       if (act === "bigger") fs = Math.min(30, fs + 2);
       if (act === "smaller") fs = Math.max(15, fs - 2);
@@ -1644,22 +1660,34 @@ JS = r"""
 
   // ---------------------------------------------------------------- read aloud, sentence by sentence
   const speech = "speechSynthesis" in window ? window.speechSynthesis : null;
-  let reading = null;
+  let reading = null, narrationAudio = null, speechTicket = 0;
+  const narrationNode = $("#narration");
+  let narration = {};
+  try { narration = narrationNode ? JSON.parse(narrationNode.textContent) : {}; } catch (e) { /* device voice remains available */ }
+  document.addEventListener("rp-rate", () => { if (narrationAudio) narrationAudio.playbackRate = store.get("rate", 1); });
+  window.addEventListener("pagehide", () => stop());
   const voice = () => {
     const vs = speech.getVoices().filter((v) => /^en/i.test(v.lang));
     return vs.find((v) => /en-IN/i.test(v.lang) && v.localService) || vs.find((v) => v.localService) || vs[0] || null;
   };
   function stop() {
+    reading = null; ++speechTicket;
+    if (narrationAudio) {
+      narrationAudio.onended = narrationAudio.onerror = narrationAudio.ontimeupdate = null;
+      narrationAudio.pause(); narrationAudio.removeAttribute("src"); narrationAudio.load(); narrationAudio = null;
+    }
     if (speech) speech.cancel();
     $$(".s.now").forEach((s) => s.classList.remove("now"));
     $$(".read[aria-pressed='true']").forEach((b) => { b.setAttribute("aria-pressed", "false"); b.lastChild.textContent = " Read it to me"; });
     reading = null;
   }
   function say(text, onend) {
+    if (!speech) { onend(); return; }
+    const ticket = speechTicket;
     const u = new SpeechSynthesisUtterance(text);
     const v = voice(); if (v) { u.voice = v; u.lang = v.lang; }
     u.rate = store.get("rate", 1);
-    u.onend = onend; u.onerror = onend;
+    u.onend = u.onerror = () => { if (ticket === speechTicket) onend(); };
     speech.speak(u);
   }
   function readCard(card, btn) {
@@ -1668,19 +1696,68 @@ JS = r"""
     const parts = $$(".s", card).filter((x) => !x.closest("[hidden]"));   // only the version on screen
     reading = card; btn.setAttribute("aria-pressed", "true"); btn.lastChild.textContent = " Stop";
     store.set("heard", store.get("heard", 0) + 1); award();
+    const ticket = speechTicket;
+    const all = $$(".s", card);
+    const key = String($$(".card").indexOf(card));
+    const easier = $(".easy", card)?.getAttribute("aria-pressed") === "true";
+    const track = narration[key]?.[easier ? "easy" : "original"];
+    const current = () => reading === card && speechTicket === ticket;
     let i = 0;
     const next = () => {
-      if (reading !== card) return;
+      if (!current()) return;
       $$(".s.now", card).forEach((s) => s.classList.remove("now"));
       if (i >= parts.length) { stop(); return; }
       const s = parts[i++]; s.classList.add("now");
       s.scrollIntoView({ block: "nearest", behavior: "smooth" });
       say(s.textContent, next);
     };
+    // One file per section preserves reliable mobile playback. Timings map back to DOM sentences.
+    if (track && track.segments?.length && typeof Audio !== "undefined") {
+      const audio = new Audio();
+      narrationAudio = audio;
+      audio.preload = "auto"; audio.src = track.src; audio.playbackRate = store.get("rate", 1);
+      let last = -1;
+      audio.ontimeupdate = () => {
+        if (!current()) return;
+        const segment = track.segments.find((x) => audio.currentTime >= x.start && audio.currentTime < x.end);
+        if (!segment || segment.index === last) return;
+        last = segment.index;
+        $$(".s.now", card).forEach((s) => s.classList.remove("now"));
+        const sentence = all[segment.index];
+        if (sentence && !sentence.closest("[hidden]")) {
+          sentence.classList.add("now"); sentence.scrollIntoView({ block: "nearest", behavior: calm() ? "auto" : "smooth" });
+        }
+      };
+      audio.onended = () => { if (current()) stop(); };
+      const failed = () => {
+        if (!current() || narrationAudio !== audio) return;
+        audio.onended = audio.onerror = audio.ontimeupdate = null;
+        audio.pause(); narrationAudio = null;
+        if (speech) next(); else stop();
+      };
+      audio.onerror = failed;
+      // Fetch a complete same-origin copy for offline replay; avoid caching partial Range responses.
+      if ("caches" in window && navigator.serviceWorker?.controller) {
+        const url = new URL(track.src, location.href).href;
+        caches.keys().then((keys) => {
+          const key = keys.find((k) => k.startsWith("rp-"));
+          if (key) return caches.open(key).then(async (cache) => {
+            if (!await cache.match(url)) await cache.add(url);
+          });
+        }).catch(() => {});
+      }
+      const play = audio.play();
+      if (play) play.catch(failed);
+      return;
+    }
     next();
   }
   $$(".read").forEach((b) => {
-    if (!speech) { b.hidden = true; return; }
+    const card = b.closest(".card");
+    if (!speech && !narration[String($$(".card").indexOf(card))]) { b.hidden = true; return; }
+    if (narration[String($$(".card").indexOf(card))]) {
+      b.insertAdjacentHTML("afterend", ' <small class="narration-credit">AI narration</small>');
+    }
     b.addEventListener("click", () => readCard(b.closest(".card"), b));
   });
 
