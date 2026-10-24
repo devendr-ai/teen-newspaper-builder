@@ -41,7 +41,7 @@ jobs:
       - name: Install free narration engine
         run: pip install -r requirements-narration.txt
       - name: Narrate published stories with Kokoro
-        run: python -m ygc.narration --site _site
+        run: python -u -m ygc.narration --site _site --latest-only
       - name: Save generated narration
         uses: actions/cache/save@v4
         if: always() && hashFiles('.cache/narration/recordings/*.mp3') != ''

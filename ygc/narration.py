@@ -191,7 +191,8 @@ def recording(parts, voice, cache, engine, ffmpeg):
     return mp3, [dict(t, index=p['index']) for p, t in zip(parts, times)]
 
 
-def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg='ffmpeg', log=print):
+def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg='ffmpeg', log=print,
+          latest_only=False):
     site, cache = Path(site), Path(cache)
     if not (site / 'play').is_dir():
         raise ValueError('Build the website first: python -m ygc site --out _site')
@@ -210,7 +211,12 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
     live_sentences, live_recordings = set(), set()
     # Newest issues first; content-addressed sentence and track files are shared across editions.
     pages = sorted((site / 'play').rglob('*.html'), key=lambda p: p.name, reverse=True)
+    latest = {}
     for page in pages:
+        if re.fullmatch(r'\d{4}-\d{2}-\d{2}', page.stem):
+            latest.setdefault(page.parent, page)
+    for page in pages:
+        generate = not latest_only or page in latest.values()
         source = MARKER.sub('', page.read_text(encoding='utf-8'))
         manifest = {}
         for card, variants in tracks(source).items():
@@ -219,17 +225,23 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
                 if not parts:
                     continue
                 live_sentences.update(fingerprint(part['text'], voice) for part in parts)
+                key = fingerprint(json.dumps([p['text'] for p in parts], ensure_ascii=False), voice)
+                live_recordings.add(key)
+                # Older pages keep any cached recordings without delaying today's papers.
+                if not generate and not all((cache / 'recordings' / (key + ext)).exists()
+                                            for ext in ('.mp3', '.json')):
+                    continue
                 mp3, segments = recording(parts, voice, cache, engine, ffmpeg)
-                live_recordings.add(mp3.stem)
                 shutil.copyfile(mp3, audio_dir / mp3.name)
                 src = os.path.relpath(audio_dir / mp3.name, page.parent).replace(os.sep, '/')
                 manifest[card][variant] = {'src': src, 'segments': segments}
                 count += 1
+        manifest = {card: variants for card, variants in manifest.items() if variants}
         if manifest:
             payload = json.dumps(manifest, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
             script = '<script id="narration" type="application/json">' + payload + '</script>'
             page.write_text(source.replace('</head>', script + '</head>'), encoding='utf-8')
-            log(f'  narration {page.relative_to(site)}: {len(manifest)} sections')
+            log(f'  narration {page.relative_to(site)}: {sum(bool(v) for v in manifest.values())} sections')
     # Bound the persistent cache to the retained reading window, not every historical issue.
     for folder, live in (('sentences', live_sentences), ('recordings', live_recordings)):
         for old in (cache / folder).glob('*'):
@@ -251,8 +263,10 @@ def main():
     p.add_argument('--cache', default='.cache/narration')
     p.add_argument('--voice', default=VOICE, choices=['af_heart', 'af_bella'])
     p.add_argument('--model-dir')
+    p.add_argument('--latest-only', action='store_true',
+                   help='Generate newest issue per paper; reuse cached audio on older pages')
     args = p.parse_args()
-    build(args.site, args.cache, args.voice, args.model_dir)
+    build(args.site, args.cache, args.voice, args.model_dir, latest_only=args.latest_only)
 
 
 if __name__ == '__main__':

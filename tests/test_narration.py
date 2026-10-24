@@ -108,3 +108,28 @@ def test_offline_audio_byte_ranges():
     result = subprocess.run([node, str(Path(__file__).with_name('narration-offline.cjs'))], input=play.SW.replace('%CORE%', '[]'),
                             text=True, capture_output=True)
     assert result.returncode == 0, result.stdout + result.stderr
+
+
+def test_latest_only_publishes_each_paper_and_preserves_cached_archives(tmp_path, encoder):
+    site, cache = tmp_path / 'site', tmp_path / 'cache'
+    pages = {}
+    for paper, date, text in [('a', '2026-10-23', 'Old news.'),
+                              ('a', '2026-10-24', 'New news.'),
+                              ('b', '2026-10-22', 'Other paper.')]:
+        page = site / 'play' / paper / (date + '.html')
+        page.parent.mkdir(parents=True, exist_ok=True)
+        page.write_text('<html><head></head><body><section class="card"><span class="s">' +
+                        text + '</span></section></body></html>')
+        pages[text] = page
+    engine = FakeEngine()
+    run = lambda latest: narration.build(site, cache, engine_factory=lambda: engine,
+                                         ffmpeg=encoder, latest_only=latest, log=lambda *a: None)
+    assert run(True) == 4
+    assert {t for t, v in engine.calls} == {'New news.', 'Other paper.'}
+    assert 'id="narration"' not in pages['Old news.'].read_text()
+    assert manifest(pages['Other paper.'].read_text())['0']['original']['src']
+    run(False)
+    assert len(engine.calls) == 3
+    run(True)
+    assert len(engine.calls) == 3
+    assert manifest(pages['Old news.'].read_text())['0']['original']['src']

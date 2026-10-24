@@ -196,9 +196,12 @@ don't ask the parent's chatbot for it.
 The GitHub Pages publishers generate Kokoro recordings **after** building the
 site. No speech API, account, GPU or subscription is required. Standard Linux
 GitHub-hosted runners are free for public repositories, subject to GitHub usage
-and storage limits. The first build narrates all retained Read & Play pages
-(including the story-so-far pages); allow extra publishing time. Later builds
-reuse unchanged sentence audio and complete recordings from the Actions cache.
+and storage limits. Publishing generates the newest issue of every paper first
+(`--latest-only`), including original and easier versions. Older issues and
+story-so-far pages reuse any recordings already in the Actions cache and otherwise
+use the device voice. This keeps archive generation from delaying publication.
+Omit `--latest-only` for a full archive backfill. Later builds reuse unchanged
+sentence audio and complete recordings from the Actions cache.
 
 The default voice is **Heart** (`af_heart`); **Bella** (`af_bella`) is also supported.
 To audition them locally:
