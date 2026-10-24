@@ -580,8 +580,9 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <figure class="where wide" data-pins="{E(json.dumps(pins, ensure_ascii=False))}"><div class="map" role="img" aria-label="A world map with a pin for each of today's stories"></div>
 <figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
                 if pins else "")
-    tabs = [("../index.html", "🏠", "Home"), ("#today", "📰", "Papers"), ("#stories", "🧵", "Big stories") if big_row else None,
-            ("#map", "🗺️", "Map") if news_map else None, ("#me", "🏅", "Me")]      # Home: back to the grown-ups' page
+    tabs = [("#today", "📰", "Papers"), ("#stories", "🧵", "Big stories") if big_row else None,
+            ("#map", "🗺️", "Map") if news_map else None, ("#me", "🏅", "Me"),
+            ("../index.html", "🏠", "Home")]                                     # Home: back to the grown-ups' page
     now = ' aria-current="true"'
     tabbar = ('<nav class="tabbar" aria-label="Jump to">' + "".join(
         f'<a href="{h}"{now if h == "#today" else ""}><span aria-hidden="true">{i}</span>{n}</a>'

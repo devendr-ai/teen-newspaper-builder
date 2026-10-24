@@ -14,7 +14,7 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   reading"). On a laptop the papers sit on the left, with Big stories and the news
   map on the right; on an iPad held upright Big stories and the map sit side by
   side under the papers. On a phone Big stories swipe sideways and a bottom bar
-  jumps to Papers, Big stories, Map and Me. Same link on every device: the page
+  jumps to Papers, Big stories, Map and Me, with Home at the end to go back to the grown-ups' page. Same link on every device: the page
   picks its layout from the screen's width.
 - **Read.** Each of the last 7 issues of every paper becomes a page. For ages
   6–11 it shows one story per screen (swipe, or Next and Back); older readers
