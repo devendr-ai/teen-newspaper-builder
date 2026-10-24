@@ -68,7 +68,8 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   keeps those pages, plus any page already read; it shows the newest version
   whenever there's a connection.
 - **Streaks and badges.** Reading a whole paper (reaching the last card) counts
-  as reading that day. The lobby shows the reading streak (days in a row) and
+  as reading that day. The lobby shows the reading streak as a **pebble tower** (one
+  pebble for each day in a row; a pebble chip at the top shows the number) and
   how many papers have been read, and 11 badges to earn: First paper, Bookworm
   (10 papers), On fire (3 days), Super week (7), News champion (30), Map explorer
   (stories in 10 countries), Word wizard (15 new words), Good listener (5

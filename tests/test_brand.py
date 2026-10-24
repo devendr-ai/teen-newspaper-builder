@@ -17,6 +17,11 @@ def test_the_owl_is_one_drawing_used_everywhere(tmp_path):
     html = open(os.path.join(brand.ROOT, "tools", "newspaper-builder.html"), encoding="utf-8").read()
     assert brand.owl_svg().split(">", 1)[1][:200] in html                         # the builder page carries it
     assert brand.inline() in site.page(site.site_config(), "t", "")              # every grown-ups' page
+    cfg = site.site_config()
+    assert brand.wordmark(cfg["title"]) in site.page(cfg, "t", "")                # the name, with its three pebbles
+    assert brand.wordmark("News Pebbles").count("<i ") == 3 and "<b>Pebbles</b>" in brand.wordmark("News Pebbles")
+    assert site.credit({"title": "News Pebbles", "domain": ""}) == "A News Pebbles paper"
+    assert site.credit({"title": "News Pebbles", "domain": "newspebbles.com"}).endswith("newspebbles.com")
     for n in (180, 192, 512):
         assert Image.open(os.path.join(brand.ASSETS, f"owl-icon-{n}.png")).size == (n, n)
     assert Image.open(os.path.join(brand.ASSETS, "owl-32.png")).size == (32, 32)

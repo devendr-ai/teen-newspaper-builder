@@ -1,6 +1,6 @@
 ---
 name: publish-today
-description: Publish today's due newspapers, plus The Little Explorer's Big Question poster on its day, to the Kids' Newsstand website without the API. Research each desk once with web search, write and check every due paper, write and check the poster, then publish. Use when asked to "publish today's papers", or when the daily Routine runs.
+description: Publish today's due newspapers, plus The Little Explorer's Big Question poster on its day, to the News Pebbles website without the API. Research each desk once with web search, write and check every due paper, write and check the poster, then publish. Use when asked to "publish today's papers", or when the daily Routine runs.
 ---
 
 # Publish today's papers

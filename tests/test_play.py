@@ -35,6 +35,7 @@ def test_lobby_fits_the_first_screen(built):
     assert all(re.fullmatch(r"[a-z0-9-]+-\d{4}-\d{2}-\d{2}", k) for k, _ in rows)    # matches the "read" key
     assert lobby.count('<span class="new">NEW</span>') >= 1
     assert 'class="mini"' in lobby                                          # a little real map for a story's place
+    assert "function tower(" in (built / "play.js").read_text(encoding="utf-8")    # the streak is a pebble tower
     assert 'id="chips"' in lobby and 'class="pick"' in lobby and 'class="hello" hidden' in lobby
     tabs = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', lobby, re.S).group(1)
     for anchor in re.findall(r'href="#([a-z]+)"', tabs):
@@ -245,7 +246,7 @@ def test_older_papers_qr_codes_open_the_newest(tmp_path):
 def test_read_and_play_installs_like_an_app_and_works_offline(built):
     from PIL import Image
     m = json.loads((built / "manifest.webmanifest").read_text(encoding="utf-8"))
-    assert m["display"] == "standalone" and m["start_url"] == "./index.html" and m["short_name"] == "Read & Play"
+    assert m["display"] == "standalone" and m["start_url"] == "./index.html" and m["short_name"] == site.site_config()["title"]
     for i in m["icons"]:
         n = int(i["sizes"].split("x")[0])
         assert Image.open(built / i["src"]).size == (n, n)

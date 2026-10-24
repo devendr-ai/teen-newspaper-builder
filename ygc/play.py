@@ -332,7 +332,7 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None):
 {cards}
 <section class="card end" data-i="{len(secs)}">{brand.inline("owl cheer")}<h2>You read today's paper! 🎉</h2><p class="streak" role="status"></p><p>Ready for a game?</p>
 <button type="button" class="big go" data-tab="play">Play now</button>
-<p class="mine"><a href="../index.html#badges">See my streak and badges</a></p></section>
+<p class="mine"><a href="../index.html#badges">See my pebble tower and badges</a></p></section>
 <div class="steps"><button type="button" class="big prev">← Back</button><button type="button" class="big next">Next →</button></div>
 </div>
 <div id="play" role="tabpanel" hidden><div id="game"></div></div>
@@ -438,7 +438,7 @@ who's who, and the questions people are asking.</p><div class="big3">{rows}</div
 # ------------------------------------------------------------------ an app on the home screen
 def manifest(cfg):
     return json.dumps({
-        "name": f"Read & Play · {cfg['title']}", "short_name": "Read & Play",
+        "name": f"Read & Play · {cfg['title']}", "short_name": cfg["title"],
         "description": "Today's news for children: read it, hear it, play a game.",
         "start_url": "./index.html", "scope": "./", "display": "standalone",
         "background_color": "#FFF8EE", "theme_color": "#E2584D",
@@ -588,7 +588,7 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
         for k, i, n in filter(None, tabs)) + "</nav>")
     body = f'''<header class="bar lb"><h1><a href="index.html">{brand.inline("owl")}Read &amp; Play</a></h1>
 <a class="home" href="../index.html">← Grown-ups</a><div class="chips" id="chips"></div></header>
-<main class="lobby front"><section class="today" id="today" aria-labelledby="h-today">
+<main class="lobby front"><section class="today" id="today" aria-labelledby="h-today"><p class="motto">The world's news, one pebble a day.</p>
 <div class="pick"><h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div></div>
 <p class="hello" hidden><span></span> <button type="button" class="change">Change age</button></p>
 <h2 id="h-today">📰 Latest papers</h2><div class="tiles">{"".join(tiles)}</div></section>
@@ -770,9 +770,10 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .chips{display:flex;gap:6px;margin-left:auto}
 .chip{display:inline-flex;align-items:center;gap:5px;min-height:44px;border:2px solid var(--line);background:var(--card);border-radius:999px;
   padding:4px 12px;font-weight:800;font-size:16px;text-decoration:none;color:var(--ink);white-space:nowrap}
-.chip.off span{filter:grayscale(1);opacity:.55}
+
 .front .today,.front .side>section,.front .me{scroll-margin-top:72px}
 .front h2{margin:6px 0 8px}
+.motto{margin:0 0 2px;font-size:15px;color:var(--muted);font-weight:700}
 .hello{display:flex;flex-wrap:wrap;align-items:center;gap:0 12px;margin:0;font-size:1.02em}
 .hello .change{border:0;background:none;color:var(--teal);font-weight:700;cursor:pointer;padding:0;font-size:16px;min-height:44px}
 .tiles{display:grid;gap:10px;margin-bottom:22px}
@@ -841,7 +842,12 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .myreading:empty{display:none}
 .myreading h2{margin:0 0 8px}
 .myreading .st{display:flex;align-items:center;gap:12px}.myreading .st p{margin:0;line-height:1.3}.myreading .st p span{color:var(--muted);font-size:.8em}
-.flame{font-size:2.4em;line-height:1}.flame.off{filter:grayscale(1);opacity:.5}
+.tower{display:inline-flex;flex-direction:column-reverse;align-items:center;gap:2px;min-width:40px;flex:none}
+.tower i{display:block;height:12px;border:2px solid var(--ink);border-radius:58% 42% 55% 45%/52% 58% 42% 48%}
+.tower.empty i{width:34px;border-style:dashed;border-color:var(--muted);background:none;opacity:.6}
+.pg{display:inline-block;width:18px;height:12px;background:#8E9AA0;border:2px solid var(--ink);border-radius:58% 42% 55% 45%/52% 58% 42% 48%}
+.chip.off .pg{background:none;border-style:dashed;border-color:var(--muted)}
+.end .streak{display:flex;align-items:center;justify-content:center;gap:12px;text-align:left}
 .myreading .n{margin-left:auto!important;text-align:center}.myreading .n b{font-size:1.6em;font-family:var(--display)}
 .myreading summary{cursor:pointer;font-weight:700;color:var(--teal);margin-top:10px;min-height:32px}
 .shelf{list-style:none;padding:0;margin:12px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,140px),1fr));gap:8px}
@@ -1126,17 +1132,24 @@ JS = r"""
     addTo("days", ymd(new Date()), 400); addTo("read", issue.dataset.key, 2000);
     award();
     const s = streak(), el = $(".end .streak");
-    if (el) el.textContent = s > 1 ? `🔥 ${s} days in a row! Come back tomorrow to make it ${s + 1}.` : "🔥 Your reading streak has started. Come back tomorrow!";
+    if (el) el.innerHTML = tower(s) + `<span>${s > 1 ? `Pebble number ${s} is on your tower! Come back tomorrow for number ${s + 1}.`
+      : "Your first pebble is on your tower. Come back tomorrow for another!"}</span>`;
+  }
+  const STONES = ["#8E9AA0", "#D9C7A3", "#9DB48A", "#E2584D", "#5A8394"];
+  function tower(n, cls) {                                   // the streak as a little stack of pebbles, one per day
+    const shown = Math.min(n, 7), w = (i) => 34 - i * 3;
+    return `<span class="tower${cls ? " " + cls : ""}${n ? "" : " empty"}" aria-hidden="true">${n ? Array.from({ length: shown }, (_, i) =>
+      `<i style="width:${w(i)}px;background:${STONES[i % STONES.length]}"></i>`).join("") : "<i></i>"}</span>`;
   }
   function shelf() {
     const box = $("#badges"); if (!box) return;
     const have = store.get("badges", {}), s = streak(), today = store.get("days", []).includes(ymd(new Date()));
     const n = Object.keys(have).length, chips = $("#chips");
-    if (chips) chips.innerHTML = `<a class="chip${s ? "" : " off"}" href="#me" aria-label="${s ? `${s}-day reading streak` : "No reading streak yet"}"><span aria-hidden="true">🔥</span> ${s}</a>
+    if (chips) chips.innerHTML = `<a class="chip${s ? "" : " off"}" href="#me" aria-label="${s ? `Pebble tower: ${s} days in a row` : "No pebbles on your tower yet"}"><span class="pg" aria-hidden="true"></span> ${s}</a>
       <a class="chip" href="#me" aria-label="${n} of ${BADGES.length} badges"><span aria-hidden="true">🏅</span> ${n}<span class="of"> of ${BADGES.length}</span></a>`;
-    box.innerHTML = `<h2>My reading <span>On this device</span></h2><div class="st"><span class="flame${s ? "" : " off"}" aria-hidden="true">🔥</span>
-      <p><b>${s ? `${s}-day streak` : "No streak yet"}</b><br><span>${s && !today ? "Read a paper today to keep it going!"
-        : s ? "You've read today. See you tomorrow!" : "Read a whole paper to start one."}</span></p>
+    box.innerHTML = `<h2>My reading <span>On this device</span></h2><div class="st">${tower(s)}
+      <p><b>${s ? `My pebble tower: ${s} ${s === 1 ? "day" : "days"}` : "No pebbles yet"}</b><br><span>${s && !today ? `Read a whole paper today to add pebble number ${s + 1}!`
+        : s ? "Today's pebble is on. See you tomorrow!" : "Read a whole paper to put your first pebble on your tower."}</span></p>
       <p class="n"><b>${count("read")}</b><br><span>${count("read") === 1 ? "paper" : "papers"} read</span></p></div>
       <details${location.hash === "#badges" ? " open" : ""}><summary>My badges: ${Object.keys(have).length} of ${BADGES.length}</summary>
       <ul class="shelf">${BADGES.map((b) => `<li class="${have[b[0]] ? "got" : ""}"><span class="bi" aria-hidden="true">${have[b[0]] ? b[1] : "🔒"}</span>

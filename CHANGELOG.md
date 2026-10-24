@@ -20,6 +20,12 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- The site is now **News Pebbles**: "Big news, small pebbles." The owl stays, in River stone
+  colours (slate-blue owl, warm sand paper, coral for the main buttons), with the name beside it
+  and three small stones under it; new app and tab icons. Read & Play's streak is a pebble tower
+  ("The world's news, one pebble a day."), and the home-screen app is called News Pebbles. Every
+  printed page and poster ends its footer with "A News Pebbles paper" (and the web address once
+  `domain` is set in `site.yaml`). Pebble shapes stay in those two places only.
 - Front pages that fit the first screen. Grown-ups' page: a one-line header (a ☰ Menu on
   phones and iPads), the tagline with the parents' intro behind "How it works", one age bar
   that stays at the top while scrolling (Length, Focus and How often under "More filters"),

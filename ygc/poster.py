@@ -189,7 +189,7 @@ def _mini(c, motif, x, y, w, h):
 
 
 # ------------------------------------------------------------------ page
-def draw(c, ed, poster, problems):
+def draw(c, ed, poster, problems, credit=None):
     top = PAGE_H - M
 
     # ---- header band: paper name, the question, this week's skill
@@ -288,7 +288,8 @@ def draw(c, ed, poster, problems):
     # ---- footer
     c.setFillColor(colors.HexColor("#7A8790")); c.setFont("Helvetica", 7.5)
     c.drawCentredString(PAGE_W / 2, M - 2, f"{ed['name']}  •  The Big Question  •  {d:%A, %B} {d.day}, {d.year}"
-                                           "  •  Written by AI from verified sources, listed on the paper's web page")
+                                           "  •  Written by AI from verified sources, listed on the paper's web page"
+                                           + (f"  •  {credit}" if credit else ""))
 
 
 # ------------------------------------------------------------------ checks + build
@@ -363,12 +364,12 @@ def check(ed, poster, path):
     return r
 
 
-def build(ed, poster, out_pdf):
+def build(ed, poster, out_pdf, credit=None):
     problems = []
     c = Canvas(out_pdf, pagesize=letter)
     c.setTitle(f"{ed['name']}: {poster['question']}")
     c.setAuthor(ed["name"])
-    draw(c, ed, poster, problems)
+    draw(c, ed, poster, problems, credit)
     c.showPage(); c.save()
     return out_pdf
 

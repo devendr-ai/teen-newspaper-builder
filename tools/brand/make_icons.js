@@ -14,7 +14,7 @@ const owl = fs.readFileSync(path.join(assets, "owl.svg"), "utf8");
     await p.screenshot({ path: path.join(assets, file), omitBackground: true });
   };
   for (const n of [180, 192, 512])             // full-bleed, the owl inside the middle 70% (phones crop to a circle)
-    await shot(n, `<div style="width:${n}px;height:${n}px;background:#E7E3FA;display:grid;place-items:center">
+    await shot(n, `<div style="width:${n}px;height:${n}px;background:#EFE9DD;display:grid;place-items:center">
       <div style="width:${n * 0.7}px;height:${n * 0.7}px">${owl.replace("<svg ", '<svg width="100%" height="100%" ')}</div></div>`, `owl-icon-${n}.png`);
   await shot(32, owl.replace("<svg ", '<svg width="32" height="32" '), "owl-32.png");
   await b.close();

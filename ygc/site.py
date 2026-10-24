@@ -23,6 +23,8 @@ def site_config():
     cfg = yaml.safe_load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
     cfg.setdefault("title", "The Newsstand")
     cfg.setdefault("tagline", "Printable newspapers, written for each reader.")
+    cfg.setdefault("description", cfg["tagline"])
+    cfg.setdefault("domain", "")
     cfg.setdefault("base_url", "")
     cfg.setdefault("contact", "")
     cfg.setdefault("feedback_url", "")
@@ -88,7 +90,7 @@ def lead_headline(ed, issue):
 
 
 CSS = """
-:root{--paper:#F3F5F4;--surface:#fff;--ink:#16232B;--muted:#56646C;--line:#CDD5D3;--cyan:#007C89;--cyan-t:#E1F1F2;--mag:#B8336A;
+:root{--paper:#F4F1EA;--surface:#fff;--ink:#1E2A32;--muted:#5B6870;--line:#DDD5C6;--cyan:#00727E;--cyan-t:#DDEFF0;--mag:#B8336A;--coral:#E2584D;
 --display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;--text:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#11181C;--surface:#182226;--ink:#E5ECEA;--muted:#9AA8AE;--line:#2D3A40;--cyan:#41B6C1;--cyan-t:#173438}}
@@ -98,12 +100,16 @@ a{color:var(--cyan)}h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0
 header.top{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;border-bottom:1.5px solid var(--ink);padding-bottom:10px;margin-bottom:12px}
 header.top h1{font-size:clamp(1.25rem,3vw,1.8rem);font-weight:800;letter-spacing:-.02em}
 header.top h1 a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;gap:.3em}
-header.top h1 .logo{width:1.45em;height:1.45em;flex:none;margin:-.15em 0}
+header.top h1 .logo{width:1.6em;height:1.6em;flex:none;margin:-.2em 0}
+.wm{display:inline-flex;flex-direction:column;line-height:1}.wm b{color:var(--coral)}
+.stones{display:flex;gap:.12em;margin-top:.16em}
+.stones i{display:block;height:.3em;width:.62em;border:.07em solid var(--ink);border-radius:58% 42% 55% 45%/52% 58% 42% 48%}
+.stones i:nth-child(2){width:.46em}.stones i:nth-child(3){width:.54em}
 nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:4px 18px}nav a{font-weight:700;text-decoration:none}
 .menu{display:none;margin-left:auto;font:inherit;font-weight:700;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:5px 10px;min-height:40px;cursor:pointer}
 @media (max-width:999px){.js .menu{display:block}.js header.top nav{display:none;width:100%;flex-direction:column;gap:0;margin:0}
   .js header.top.open nav{display:flex}.js header.top nav a{padding:10px 2px;border-top:1px solid var(--line)}}
-.intro{margin:0 0 6px}.intro .lede{display:inline;margin:0 8px 0 0;color:var(--muted)}.how{display:inline}.how summary{display:inline}
+.intro{margin:0 0 6px}.intro .motto{margin:2px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(1.25rem,2.6vw,1.6rem);letter-spacing:-.01em}.intro .lede{display:inline;margin:0 8px 0 0;color:var(--muted)}.how{display:inline}.how summary{display:inline}
 .how summary{color:var(--cyan);font-weight:700;cursor:pointer;list-style:none}.how summary::-webkit-details-marker{display:none}
 .how summary::after{content:" ›"}.how[open] summary::after{content:" ‹"}
 .how[open]{display:block;margin-top:2px}.how .box{background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:14px 18px;margin:8px 0 6px}
@@ -191,17 +197,22 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'])}">
+<title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'] if cfg['description'] == cfg['tagline'] else cfg['tagline'] + ' ' + cfg['description'])}">
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="{root}play/icon-180.png">{FONTS}{head_extra}<style>{CSS}</style>
 <script>document.documentElement.classList.add("js")</script></head>
-<body><div class="wrap"><header class="top"><h1><a href="{root}index.html">{brand.inline()}{E(cfg['title'])}</a></h1>
+<body><div class="wrap"><header class="top"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.</footer></div>
 {tabbar(cfg, root, here)}</body></html>"""
+
+
+def credit(cfg):
+    """The line every printed page ends with: who publishes it, and where to find more."""
+    return f"A {cfg['title']} paper" + (f"  ·  {cfg['domain']}" if cfg.get("domain") else "")
 
 
 def qr_url(cfg, eid, date):
@@ -233,7 +244,7 @@ def build(out, keep=None, log=print):
         for date, p in poster.posters_of(ed)[:keep]:
             spec = json.load(open(p, encoding="utf-8"))
             try:
-                poster.build(ed, spec, os.path.join(edir, f"{date}-poster.pdf"))
+                poster.build(ed, spec, os.path.join(edir, f"{date}-poster.pdf"), credit=credit(cfg))
             except Exception as e:
                 log(f"  ! {eid} poster {date}: {e}"); continue
             posters[date] = spec
@@ -244,7 +255,7 @@ def build(out, keep=None, log=print):
             issue = json.load(open(p, encoding="utf-8"))
             pdf = f"{date}.pdf"
             try:
-                render.build(ed, issue, os.path.join(edir, pdf), qr=qr_url(cfg, eid, date))
+                render.build(ed, issue, os.path.join(edir, pdf), qr=qr_url(cfg, eid, date), credit=credit(cfg))
             except Exception as e:
                 log(f"  ! {eid} {date}: {e}"); continue
             if latest is None:
@@ -358,7 +369,8 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         steps = "".join(f"<li>{E(x)}</li>" for x in cfg["steps"])
         steps = f'<ol class="steps">{steps}</ol>' if steps else ""
         how = f'<details class="how"><summary>How it works</summary><div class="box">{heading}{text}{steps}</div></details>'
-    intro = f'<section class="intro"><p class="lede">{E(cfg["tagline"])}</p>{how}</section>'
+    intro = (f'<section class="intro"><p class="motto">{E(cfg["tagline"])}</p>'
+             f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
     body = intro + filters + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
     about = f"""<h2 style="font-size:2rem;margin-bottom:10px">How it's made</h2><div style="max-width:68ch">
