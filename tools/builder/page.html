@@ -11,8 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#F3F5F4; --surface:#FFFFFF; --ink:#16232B; --muted:#56646C; --line:#CDD5D3;
-  --cyan:#007C89; --cyan-tint:#E1F1F2; --magenta:#B8336A; --magenta-tint:#F7E3EC; --coral:#E2584D;
+  --paper:#F4F1EA; --surface:#FFFFFF; --ink:#1E2A32; --muted:#5B6870; --line:#DDD5C6;
+  --cyan:#00727E; --cyan-tint:#DDEFF0; --magenta:#B8336A; --magenta-tint:#F7E3EC; --coral:#E2584D;
   --yellow:#E8B10A; --yellow-tint:#FBF1D2; --green:#2E7D4F; --green-tint:#E2F2E8; --sheet:#FFFFFF;
   --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --text:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
@@ -43,6 +43,7 @@ a{color:var(--cyan)}
 .site nav a{margin-left:16px;font-weight:700;text-decoration:none}
 .site nav a:first-child{margin-left:0}
 .site nav a[aria-current]{color:var(--ink)}
+.site .pw{color:#E2584D}
 header.top{display:grid;gap:10px;margin-bottom:18px;max-width:780px}
 header.top h1{font-size:clamp(2rem,4.6vw,3.2rem);font-weight:800;letter-spacing:-.02em}
 header.top p{margin:0;color:var(--muted);max-width:66ch}
@@ -169,7 +170,7 @@ details.dev summary{cursor:pointer;font-weight:700}
 </head>
 <body>
 <div class="wrap">
-  <div class="site"><b><a href="index.html"><!--OWL-->The Kids' Newsstand</a></b>
+  <div class="site"><b><a href="index.html"><!--OWL-->News <span class="pw">Pebbles</span></a></b>
     <nav><a href="index.html">Papers</a><a href="play/index.html">Read &amp; Play</a><a href="builder.html" aria-current="page">Design your own</a><a href="about.html">How it's made</a><!--FEEDBACK--></nav></div>
 
   <header class="top">

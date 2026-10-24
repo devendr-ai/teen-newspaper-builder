@@ -1,6 +1,8 @@
 # Website settings for `python -m ygc site` (and the daily publishing workflow).
-title: The Kids' Newsstand
-tagline: Free printable newspapers for ages 6 to 15, written for their age from verified sources.
+title: News Pebbles
+tagline: Big news, small pebbles.
+description: Free newspapers to print, written for your child's age from sources you can check.
+domain: ""           # e.g. newspebbles.com, once its DNS points at GitHub Pages: printed on every page's footer
 base_url: https://devendr-ai.github.io/teen-newspaper-builder/
 contact: ""            # an email address readers can send corrections to
 feedback_url: "https://docs.google.com/forms/d/e/1FAIpQLSckp1619w9UDFaGy_9gz3JkTRdAdNJ5DjxUOpWPGn7X3FWO4Q/viewform"   # a Google Form (or any form) link: adds a Feedback tab and footer link

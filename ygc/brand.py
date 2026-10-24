@@ -1,4 +1,4 @@
-"""The Kids' Newsstand's owl: one drawing (assets/owl.svg) for the website, the app icons,
+"""News Pebbles' owl: one drawing (assets/owl.svg) for the website, the app icons,
 the builder page and the printed masthead.
 
 `draw()` puts the same owl on a PDF page. It reads the SVG itself, so the print and the
@@ -6,6 +6,7 @@ screen can't drift apart; it understands only what owl.svg uses (paths with M L 
 circles and rounded rectangles).
 """
 import functools
+import html
 import os
 import re
 from xml.etree import ElementTree
@@ -25,6 +26,18 @@ def inline(cls="logo", label=""):
     """The owl as inline SVG for a web page: decorative unless given a label."""
     a11y = f'role="img" aria-label="{label}"' if label else 'aria-hidden="true" focusable="false"'
     return owl_svg().replace("<svg ", f'<svg class="{cls}" {a11y} ', 1)
+
+
+PEBBLES = ("#8E9AA0", "#D9C7A3", "#9DB48A")      # slate, sand, moss: the three stones under the name
+
+
+def wordmark(title):
+    """The name as a logo: the last word in coral, with three small pebbles underneath."""
+    words = str(title).split()
+    head, last = " ".join(words[:-1]), words[-1] if words else ""
+    stones = "".join(f'<i style="background:{c}"></i>' for c in PEBBLES)
+    return (f'<span class="wm"><span class="wt">{html.escape(head)} <b>{html.escape(last)}</b></span>'
+            f'<span class="stones" aria-hidden="true">{stones}</span></span>')
 
 
 def _path(p, d):

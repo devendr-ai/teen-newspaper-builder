@@ -1,7 +1,8 @@
 # The owl
 
-`owl.svg` is The Kids' Newsstand's logo: a little owl reading the paper. It is the one
-drawing everything else comes from:
+`owl.svg` is News Pebbles' logo: a little owl reading the paper, in the River stone colours
+(slate-blue owl `#5A8394`, ears `#47707F`, coral headline `#E2584D`). It is the one drawing
+everything else comes from:
 
 - the website's header and browser-tab icon (`python -m ygc site` copies it);
 - the builder page's header (`tools/builder/build.py` puts it in);
@@ -17,3 +18,8 @@ python tools/builder/build.py
 
 `ygc/brand.py` understands only what the owl uses: paths with absolute M, L, H, V, C and Z,
 circles, and rounded rectangles. Keep new shapes to those.
+
+The name is drawn as text beside the owl (`brand.wordmark()`): "News" in ink, "Pebbles" in
+coral, and three small stones underneath (slate `#8E9AA0`, sand `#D9C7A3`, moss `#9DB48A`). Those
+three stones and Read & Play's pebble tower are the only pebble shapes; everything else keeps
+ordinary shapes.

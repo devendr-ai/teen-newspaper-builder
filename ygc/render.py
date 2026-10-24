@@ -214,7 +214,7 @@ def banner_flowables(text, ctx):
 
 
 # ------------------------------------------------------------------ page chrome
-def _footer(canv, ed, issue, npages):
+def _footer(canv, ed, issue, npages, credit=None):
     canv.saveState()
     canv.setFillColor(PAPER)
     canv.rect(0, 0, PAGE_W, PAGE_H, stroke=0, fill=1)
@@ -222,7 +222,7 @@ def _footer(canv, ed, issue, npages):
     canv.setFillColor(MUTED)
     canv.drawCentredString(PAGE_W / 2, 0.32 * inch,
                            f"{ed['name']}  •  {date_str(issue)}  •  "
-                           f"Page {canv.getPageNumber()} of {npages}")
+                           f"Page {canv.getPageNumber()} of {npages}" + (f"  •  {credit}" if credit else ""))
     canv.restoreState()
 
 
@@ -283,8 +283,9 @@ def _masthead(canv, ed, issue, npages, qr=None):
 
 
 # ------------------------------------------------------------------ build
-def build(ed, issue, path, qr=None):
-    """Write the PDF. `qr`: the issue's Read & Play address, printed as a code in the masthead."""
+def build(ed, issue, path, qr=None, credit=None):
+    """Write the PDF. `qr`: the issue's Read & Play address, printed as a code in the masthead.
+    `credit`: who publishes it, at the end of every page's footer ("A News Pebbles paper · newspebbles.com")."""
     ctx = Ctx(ed, issue)
     geo = page_geometry(ed)
     npages = len(geo)
@@ -302,10 +303,10 @@ def build(ed, issue, path, qr=None):
                          topPadding=0, bottomPadding=0) for i, c in enumerate(cols)]
         if ed["pages"][p].get("masthead"):
             def on_page(canv, doc, _p=p):
-                _footer(canv, ed, issue, npages); _masthead(canv, ed, issue, npages, qr)
+                _footer(canv, ed, issue, npages, credit); _masthead(canv, ed, issue, npages, qr)
         else:
             def on_page(canv, doc, _p=p):
-                _footer(canv, ed, issue, npages)
+                _footer(canv, ed, issue, npages, credit)
         templates.append(PageTemplate(id=f"P{p}", frames=frames, onPage=on_page))
     doc.addPageTemplates(templates)
 
