@@ -92,7 +92,7 @@ jobs:
         run: pip install -r requirements-narration.txt
       - name: Narrate published stories with Kokoro
         if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
-        run: python -m ygc.narration --site _site
+        run: python -u -m ygc.narration --site _site --latest-only
       - name: Save generated narration
         uses: actions/cache/save@v4
         if: always() && hashFiles('.cache/narration/recordings/*.mp3') != ''
