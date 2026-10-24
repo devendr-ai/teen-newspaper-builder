@@ -48,8 +48,8 @@ site`) is for the child, on a tablet or phone, from the same issue files.
     right answer shows, with why and **Read it again**. Ages 6–8 can hear each question.
   - *Map hunt*: "Where did this happen?" Tap the world map; the real place, the
     distance and the story's countries appear. Ages 6–8 are asked for a country, and a
-    tap anywhere in it counts. Stars for distance: within 1,000 km (6–8), 500 km
-    (9–11), 300 km (12–14) or 200 km (15+) earns 3.
+    tap anywhere in it counts. Stars for distance: within 1,000 km (6–8) or 500 km
+    (9 and up) earns 3; within 2,500 km (6–8), 1,500 km (9–11) or 1,000 km (12+) earns 2.
   - *Guess the number*: a number from today's news. Ages 6–8 pick from three cards,
     ten times apart, with "Bigger!" or "Smaller!" after a miss; 9–11 slide to a guess
     with up to three "Higher!/Lower!" hints; 12 and up get one estimate, scored by how
