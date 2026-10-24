@@ -46,8 +46,22 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   - *Quiz*: one question per screen, three answers. A first wrong answer gets a hint
     (the story the answer is in) and a second try, worth half a point. After that the
     right answer shows, with why and **Read it again**. Ages 6–8 can hear each question.
+  - **Adaptive quiz.** Two answers right first time in a row bring a ⭐ *stretch question*;
+    a miss steps back down, to an *easier question* if there is one. Stretch questions are the
+    same day's quiz questions (within a day) from papers one age band older, matched to a
+    story in this paper by its place or two headline words; easier ones come from a band
+    younger. Older papers' questions that mention deaths or injuries are never offered to a
+    younger reader. Each shows which paper it comes from, and its hint points to this
+    paper's story.
+  - **Levels across days: Pebble, Stone, Boulder.** A reader moves up after 10 of their last 12
+    answers are right first time, over at least 2 days, and quietly back down after 3 or fewer
+    of the last 8. At Stone every third quiz question is a stretch; at Boulder the quiz starts
+    stretched, and Map hunt and Guess the number play one age step older (a 9-year-old gets
+    one estimate instead of three hints). The level shows in the quiz, the Garden and My
+    progress.
   - *Map hunt*: "Where did this happen?" Tap the world map; the real place, the
-    distance and the story's countries appear. Ages 6–8 are asked for a country, and a
+    distance and the story's countries appear. A tap that is far off gets a hint (the countries it's in)
+    and one more tap, worth 2 stars at most. Ages 6–8 are asked for a country, and a
     tap anywhere in it counts. Stars for distance: within 1,000 km (6–8) or 500 km
     (9 and up) earns 3; within 2,500 km (6–8), 1,500 km (9–11) or 1,000 km (12+) earns 2.
   - *Guess the number*: a number from today's news. Ages 6–8 pick from three cards,
@@ -99,8 +113,8 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   animal that can't be bought, plus 5 pebbles. **My passport** colours in every country read
   about.
 - **My progress (ages 12 and up).** The same button reads **Progress**: reading streak,
-  answers right in the last 7 days, papers read, countries; a level from Pebble to Stone (30
-  points), Boulder (90) and Mountain (200), a point per star; right answers by topic, with
+  answers right in the last 7 days, papers read, countries; the reader's level (Pebble, Stone,
+  Boulder) and how close the next one is; right answers by topic, with
   any under 60% marked "practise"; the countries map; and a **revision list** of questions
   missed first time, with the answer, until "Got it".
 - **Monthly report** (`play/report.html`). One page to print or save as a PDF, for this month

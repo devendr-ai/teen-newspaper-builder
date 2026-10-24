@@ -20,6 +20,10 @@
   like issues (every box measured), built by `python -m ygc poster`, and offered
   on the website as its own card, with a thumbnail and "Download poster". First poster: The Little Explorer,
   10 October ("Why do so many big ships squeeze through one tiny gap?").
+- Adaptive play: two right in a row brings a stretch question from the same day's paper a step
+  older (matched to a story in this paper; never one mentioning deaths or injuries for a younger
+  reader), a miss an easier one; levels across days (Pebble, Stone, Boulder) that stretch the quiz,
+  Map hunt and Guess the number; a hint and a second tap in Map hunt.
 - Read & Play's "Me" corner: pebbles earned by reading and playing; the **Pebble Garden** for
   6–11 (a riverbank to decorate, a weekly quest with an animal prize, a passport of countries);
   **My progress** for 12+ (streak, accuracy, level, topics, countries, a revision list); and a
