@@ -1836,7 +1836,7 @@ JS = r"""
     return [Math.asin(Math.max(-1, Math.min(1, Math.sin(t) / MM))) / RAD, Math.max(-180, Math.min(180, lon))];
   }
   const roundKm = (d) => (d < 100 ? Math.round(d / 10) * 10 : d < 1000 ? Math.round(d / 50) * 50 : Math.round(d / 100) * 100).toLocaleString("en");
-  const NEAR = [[1000, 2500], [500, 1500], [300, 1000], [200, 700]][tier];   // km for 3 stars, then 2, at each age
+  const NEAR = [[1000, 2500], [500, 1500], [500, 1000], [500, 1000]][tier];   // km for 3 stars, then 2, at each age
   function hunt() {
     worldDefs();
     const g = { id: "map", run: hunt }, items = shuffle(data.where).slice(0, 3), got = [];
