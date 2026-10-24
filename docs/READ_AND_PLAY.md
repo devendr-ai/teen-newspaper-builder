@@ -19,7 +19,7 @@ site`) is for the child, on a tablet or phone, from the same issue files.
 - **Read.** Each of the last 7 issues of every paper becomes a page. For ages
   6–11 it shows one story per screen (swipe, or Next and Back); older readers
   scroll. Every story and section has **Read it to me**, which uses the device's
-  own voice and lights up each sentence as it's read. New words from the issue
+  own voice as a fallback, or the published Kokoro recording when available, and lights up each sentence as it's read. New words from the issue
   are underlined; tapping one shows its meaning and how it's used today, and can
   say it aloud. Text size, night mode and reading speed are remembered on the
   device. Sources sit behind **For grown-ups**.
@@ -190,3 +190,51 @@ the latitude and longitude are real numbers, and no story is listed twice; a
 country the map doesn't know gets a note. Issues written before the section existed
 get a note, not an error, and keep Word match. Papers from *Design your own*
 don't ask the parent's chatbot for it.
+
+## Natural read-aloud narration (free)
+
+The GitHub Pages publishers generate Kokoro recordings **after** building the
+site. No speech API, account, GPU or subscription is required. Standard Linux
+GitHub-hosted runners are free for public repositories, subject to GitHub usage
+and storage limits. The first build narrates all retained Read & Play pages
+(including the story-so-far pages); allow extra publishing time. Later builds
+reuse unchanged sentence audio and complete recordings from the Actions cache.
+
+The default voice is **Heart** (`af_heart`); **Bella** (`af_bella`) is also supported.
+To audition them locally:
+
+```sh
+# Install ffmpeg and espeak-ng using your system package manager first.
+pip install -r requirements.txt -r requirements-narration.txt
+python -m ygc site --out _site
+python -m ygc.narration --site _site --voice af_heart
+# To compare the other voice, rerun with --voice af_bella.
+python -m http.server --directory _site 8000
+```
+
+The model and voice files download once to `.cache/narration/model` from the
+pinned kokoro-onnx release and are checked against SHA-256 checksums. They never
+ship to readers. MP3s and timing indexes are content-addressed by exact text,
+voice and engine revision. A correction or a new voice invalidates the affected
+recordings. Original and easier versions are generated separately from the exact
+visible sentence spans, including headline, deck and explanatory boxes.
+
+The existing Read it to me / Stop button uses a single MP3 per section, preserves
+Slow / Normal / Fast playback, and highlights sentences from the accompanying
+timings. Switching story or easier version cancels playback. A small AI narration
+label identifies generated recordings. Vocabulary pop-ups and quiz prompts still
+use the device voice. If a recording cannot load, reading falls back to that voice
+without blocking the page. An online listen saves the complete recording for
+offline replay when browser storage is available; merely opening the issue does
+not download every audio file. Browser storage may be evicted by the device.
+
+Only recordings referenced by current pages are copied into the published site;
+the larger intermediate WAVs and model remain in the build cache. Never commit
+`.cache/` or `_site/`. To disable narration, remove the narration steps from both
+`.github/workflows/pages.yml` and `.github/workflows/daily.yml`. Normal local site
+builds and tests work without installing the speech model.
+
+Model: [Kokoro-82M v1.0](https://huggingface.co/hexgrad/Kokoro-82M), Apache-2.0.
+CPU engine: [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx), MIT.
+Phonemization runs on the publishing machine using eSpeak NG; it is not bundled
+in the website. This feature adds no third-party speech requests from readers.

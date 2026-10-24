@@ -1,3 +1,11 @@
+## Natural read-aloud narration
+
+- Publish free Kokoro recordings for Read & Play stories, easier versions and
+  story-so-far sections, with sentence highlighting and the existing speed/Stop controls.
+- Reuse unchanged recordings, regenerate corrected text, and keep the device voice
+  for short definitions, quiz prompts and unavailable recordings.
+- Generate on CPU during both publishing workflows; no paid speech API or reader-side model download.
+
 # Changelog
 
 ## Unreleased — 2026-10-11: a site for children and their parents

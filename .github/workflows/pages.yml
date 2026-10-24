@@ -5,7 +5,7 @@ name: Deploy the website
 on:
   push:
     branches: [main]
-    paths: ["editions/**", "ygc/**", "site.yaml", "tools/**"]
+    paths: ["editions/**", "ygc/**", "site.yaml", "tools/**", "requirements-narration.txt", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -20,6 +20,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 150
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -28,9 +29,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils ffmpeg espeak-ng
       - run: pip install -r requirements.txt
       - run: python -m ygc site --out _site
+      - name: Restore generated narration
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/narration
+          key: narration-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: narration-v1-${{ runner.os }}-
+      - name: Install free narration engine
+        run: pip install -r requirements-narration.txt
+      - name: Narrate published stories with Kokoro
+        run: python -m ygc.narration --site _site
+      - name: Save generated narration
+        uses: actions/cache/save@v4
+        if: always() && hashFiles('.cache/narration/recordings/*.mp3') != ''
+        with:
+          path: .cache/narration
+          key: narration-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
