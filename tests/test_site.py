@@ -31,6 +31,9 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     assert url.split("//")[-1].split("/")[0] in page                         # sources are shown to readers
     assert (out / "about.html").exists() and (out / "builder.html").exists() and (out / ".nojekyll").exists()
     assert 'href="play/index.html">Read &amp; Play</a>' in index and (out / "play" / "index.html").exists()
+    builder = (out / "builder.html").read_text(encoding="utf-8")
+    assert 'rel="manifest" href="manifest.webmanifest"' in builder
+    assert 'rel="manifest" href="manifest.webmanifest"' in index
     import zipfile                                       # the builder page runs the engine in the browser
     names = zipfile.ZipFile(out / "builder-engine.zip").namelist()
     assert {"ygc/chat.py", "ygc/render.py", "ygc/auto/llm.py", "docs/CRAFT_RULES.md", "docs/POSTERS.md",

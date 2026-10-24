@@ -261,6 +261,36 @@ def test_read_and_play_installs_like_an_app_and_works_offline(built):
     assert 'rel="manifest"' in lobby and 'class="install"' in lobby and 'id="badges"' in lobby
 
 
+def test_home_and_reader_share_a_site_wide_app(built):
+    from urllib.parse import urljoin
+    from ygc import pwa
+
+    cfg = site.site_config()
+    root_manifest = json.loads((built.parent / "manifest.webmanifest").read_text())
+    legacy = json.loads((built / "manifest.webmanifest").read_text())
+    assert root_manifest["display"] == "standalone"
+    # Relative paths also work on GitHub's project URL, without escaping the project.
+    for base in ("https://newspebbles.com/", "https://devendr-ai.github.io/teen-newspaper-builder/"):
+        manifest_url = urljoin(base, "manifest.webmanifest")
+        scope = urljoin(manifest_url, root_manifest["scope"])
+        assert scope == base
+        assert urljoin(manifest_url, root_manifest["start_url"]) == urljoin(base, "index.html")
+        assert urljoin(urljoin(base, "play/manifest.webmanifest"), legacy["scope"]) == scope
+        assert urljoin(urljoin(base, "play/manifest.webmanifest"), legacy["id"]) == urljoin(manifest_url, root_manifest["id"])
+        pages = {"index.html": site.page(cfg, "Home", ""),
+                 "e/little-explorers/index.html": site.page(cfg, "Archive", "", root="../../"),
+                 "play/index.html": (built / "index.html").read_text(),
+                 "play/little-explorers/issue.html": play.shell(cfg, "Issue", "", root="../../")}
+        for path, markup in pages.items():
+            href = re.search(r'rel="manifest" href="([^"]+)"', markup).group(1)
+            assert urljoin(urljoin(base, path), href) == manifest_url
+            assert urljoin(base, path).startswith(scope)
+            assert 'name="apple-mobile-web-app-capable" content="yes"' in markup
+            assert pwa.head(cfg).splitlines()[-1] in markup
+    for icon in root_manifest["icons"]:
+        assert (built.parent / icon["src"]).is_file()
+
+
 def test_finishing_a_paper_shows_the_streak(built):
     ed = edition.load("little-explorers")
     page = (built / ed["id"] / f"{site.issues_of(ed)[0][0]}.html").read_text(encoding="utf-8")

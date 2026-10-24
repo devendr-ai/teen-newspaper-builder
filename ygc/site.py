@@ -12,7 +12,7 @@ import subprocess
 
 import yaml
 
-from . import brand, checks, edition, poster, render, stats
+from . import brand, checks, edition, poster, render, stats, pwa
 
 ROOT = edition.ROOT
 E = html.escape
@@ -212,7 +212,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'] if cfg['description'] == cfg['tagline'] else cfg['tagline'] + ' ' + cfg['description'])}">
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
-<link rel="apple-touch-icon" href="{root}play/icon-180.png">{FONTS}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
+{pwa.head(cfg, root)}{FONTS}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
 <script>document.documentElement.classList.add("js")</script></head>
 <body><div class="wrap"><header class="top"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
@@ -400,7 +400,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
-                .replace("</head>", stats.snippet(cfg) + "</head>", 1))
+                .replace("</head>", pwa.head(cfg) + stats.snippet(cfg) + "</head>", 1))
         open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(html)
         engine_zip(os.path.join(out, "builder-engine.zip"))
     if cfg.get("feedback_url"):
