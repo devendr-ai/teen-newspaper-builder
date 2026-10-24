@@ -41,6 +41,15 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     assert not any("__pycache__" in n or n.startswith("editions/") for n in names)
     for facet in ("Ages 6–8", "Ages 12–14", "Ages 15+", "1 page", "3–4 pages", "Weekly", "Exam preparation"):
         assert f'data-v="{facet}"' in index
+    # A recommendation must link to a real, dated PDF from this build, not a stale latest alias.
+    for band, (eid, minutes, _) in site.RECOMMENDED.items():
+        rec = re.search(r'<article class="recommended"[^>]*data-edition="' + eid + r'".*?</article>', index, re.S).group(0)
+        date = site.issues_of(edition.load(eid))[0][0]
+        assert f'e/{eid}/{date}.pdf' in rec and (out / "e" / eid / f"{date}.pdf").exists()
+        assert f"About {minutes} minutes to read" in rec
+        assert f'{len(edition.load(eid)["pages"])} pages' in rec
+        assert 'target="_blank" rel="noopener"' in rec
+    assert 'Indian exam preparation' in index
     assert 'data-v="Adults"' not in index and 'data-v="Professionals"' not in index   # a site for ages 6-15+
     assert 'class="intro"' in index and "Pick your child" in index            # the parents' intro from site.yaml
     assert 'class="how"' in index and 'class="agebar"' in index and 'id="filters" hidden' in index
@@ -150,3 +159,13 @@ def test_the_header_stays_pinned_like_read_and_plays_bar():
     assert "safe-area-inset-top" in head
     assert ".agebar{position:sticky;top:var(--hh,0px)" in css
     assert '"--hh"' in site.page(site.site_config(), "t", "")
+
+
+def test_recommendations_skip_unpublished_pdfs():
+    # Missing or failed publication must never leave a broken featured print link.
+    assert 'class="recommended"' not in site.recommendations({}, True)
+    ed = edition.load("breakfast-table")
+    recs = site.recommendations({ed["id"]: (ed, "2026-10-24")}, False)
+    assert 'e/breakfast-table/2026-10-24.pdf' in recs
+    assert '<img' not in recs
+    assert 'e/little-explorers/' not in recs
