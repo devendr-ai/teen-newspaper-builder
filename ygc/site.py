@@ -65,7 +65,7 @@ def recommendations(published, has_png):
             continue
         ed, date = published[eid]
         cover = (f'<img class="recommended-cover" src="e/{eid}/cover.png" alt="Front page of {E(ed["name"])}">'
-                 if has_png and published[eid] else "")
+                 if has_png else "")
         n = len(ed["pages"])
         sections.append(f'''<article class="recommended" data-band="{E(band)}" data-edition="{eid}" hidden>
 {cover}<div class="recommended-copy"><p class="recommended-label">A good place to start · {E(band)}</p>
@@ -444,7 +444,7 @@ function apply(){
   });
   document.getElementById('recommendation').hidden=!featured;
   const age=st.audience.replace('Ages ','');
-  document.getElementById('catalogue-title').textContent=age?(featured?'More choices for ages ':'Papers for ages ')+age:'Browse the newspapers';
+  document.getElementById('catalogue-title').textContent=featured&&papers+posters===1?'Explore more':age?(featured?'More choices for ages ':'Papers for ages ')+age:'Browse the newspapers';
   document.getElementById('browse-all').hidden=!Object.values(st).some(Boolean);
   const memory=document.getElementById('age-memory');memory.hidden=!age;
   memory.textContent=remembered?(returning?'Your saved age: '+age+'. Change it any time.':'Age saved on this device. Change it any time.'):'For ages '+age+'. Change your choice any time.';
