@@ -390,7 +390,7 @@ def test_badges_come_with_a_certificate_page(built):
 
 
 def test_the_me_corner_has_a_garden_progress_and_a_monthly_report(built):
-    """Ages 6–11 get the Pebble Garden, 12+ My progress (both drawn by play.js); a printable monthly report."""
+    """Ages 6–11 keep the garden; 12+ can choose progress, badges and garden."""
     lobby = (built / "index.html").read_text(encoding="utf-8")
     assert '<div id="corner"></div>' in lobby
     js = (built / "play.js").read_text(encoding="utf-8")
@@ -400,6 +400,22 @@ def test_the_me_corner_has_a_garden_progress_and_a_monthly_report(built):
     assert 'class="reportpage"' in report and '<script id="papers" type="application/json">' in report
     names = json.loads(re.search(r'<script id="papers" type="application/json">(.*?)</script>', report, re.S).group(1))
     assert names["breakfast-table"] == edition.load("breakfast-table")["name"]
+
+
+def test_garden_repeat_purchases_saved_positions_and_age_specific_views():
+    import shutil
+    import subprocess
+    from pathlib import Path
+    node = shutil.which('node')
+    if not node:
+        pytest.skip('Node.js needed for garden behavior checks')
+    result = subprocess.run([node, str(Path(__file__).with_name('pebble-garden.cjs'))],
+                            input=play.JS, text=True, capture_output=True)
+    assert result.returncode == 0, result.stdout + result.stderr
+    # Desktop: same width, 37.5% less scene height. Mobile keeps its original 4:3 garden.
+    assert 'aspect-ratio:32/15' in play.CSS
+    assert '.garden{aspect-ratio:4/3}.garden .gi{transform:translateY(-10%)}' in play.CSS
+    assert (15 / 32) / (3 / 4) == .625
 
 
 def test_stretch_and_easier_questions_come_from_neighbouring_ages_about_this_papers_stories(built):

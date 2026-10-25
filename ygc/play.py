@@ -1050,11 +1050,11 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .gardencard h2,.progress h2{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
 .gardencard h3,.progress h3{font-size:1em;margin:16px 0 6px}
 .purse{margin-left:auto;font-family:var(--text);font-size:.68em;font-weight:800;border:2px solid var(--line);border-radius:999px;padding:3px 10px;display:inline-flex;gap:5px;align-items:center}
-.garden{position:relative;aspect-ratio:4/3;border-radius:16px;overflow:hidden;border:2px solid var(--line);
+.garden{position:relative;aspect-ratio:32/15;border-radius:16px;overflow:hidden;border:2px solid var(--line);
   background:linear-gradient(#DDEFF5 0 32%,#C5DDA8 32% 100%)}
 :root[data-theme="night"] .garden{background:linear-gradient(#22394A 0 32%,#3E5A3B 32% 100%)}
 .garden .river{position:absolute;left:-10%;right:-10%;top:58%;height:17%;background:#8CC7D8;border-radius:50%;transform:rotate(-6deg);box-shadow:inset 0 6px 0 rgba(255,255,255,.35)}
-.garden .gi{position:absolute;line-height:1;transform:translateY(-10%);cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;
+.garden .gi{position:absolute;line-height:1;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;
   transition:transform .12s;border-radius:8px}
 .garden .gi:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 .garden .gi.lift{cursor:grabbing;transform:translateY(-10%) scale(1.25);filter:drop-shadow(0 6px 4px rgba(0,0,0,.25))}
@@ -1066,6 +1066,16 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 .shop button{border:2px solid var(--line);background:var(--card);border-radius:14px;padding:6px 4px;cursor:pointer;font-size:.72em;font-weight:700;line-height:1.25;min-height:84px}
 .shop button span{display:block;font-size:2em;line-height:1.2}.shop button small{display:block;color:var(--muted);font-weight:600}
 .shop button:disabled{cursor:default;opacity:.55}.shop button.have{opacity:1;background:var(--leaf-t);border-color:var(--leaf)}
+.shop button.have:disabled{opacity:.55}
+.garden-extras{margin-top:12px}.garden-extras summary{font-size:.85em;font-weight:700;color:var(--teal);cursor:pointer;min-height:44px;padding:10px 0}
+.pebble-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}
+.pebble-tabs button{font:inherit;font-size:.85em;font-weight:700;min-height:44px;padding:8px 14px;border:2px solid transparent;border-radius:12px;background:none;color:var(--muted);cursor:pointer}
+.pebble-tabs button[aria-selected="true"]{background:var(--leaf-t);border-color:var(--teal);color:var(--teal)}
+.pebble-panel[hidden],#badges[hidden]{display:none!important}
+@media(max-width:699px){
+ .garden{aspect-ratio:4/3}.garden .gi{transform:translateY(-10%)}
+ .pebble-tabs{flex-wrap:nowrap;gap:4px}.pebble-tabs button{flex:1;min-width:0;padding:8px 6px;font-size:.78em}
+}
 .quest{display:flex;gap:12px;align-items:center;background:var(--sun-t);border-radius:16px;padding:10px 12px;margin-top:12px}
 .quest .qi{font-size:2.2em}.quest div{flex:1}.quest small{color:var(--muted);font-size:.78em}
 .bar2{display:block;height:9px;border-radius:999px;background:var(--line);overflow:hidden;margin:5px 0 3px}.bar2 i{display:block;height:100%;background:var(--teal);border-radius:999px}
@@ -1512,7 +1522,7 @@ JS = r"""
     const have = store.get("badges", {}), s = streak(), today = store.get("days", []).includes(ymd(new Date()));
     const n = Object.keys(have).length, chips = $("#chips");
     if (chips) chips.innerHTML = `<a class="chip${s ? "" : " off"}" href="#me" aria-label="${s ? `Pebble tower: ${s} days in a row` : "No pebbles on your tower yet"}"><span class="pg" aria-hidden="true"></span> ${s}</a>
-      <a class="chip" href="#me" aria-label="${n} of ${BADGES.length} badges"><span aria-hidden="true">🏅</span> ${n}<span class="of"> of ${BADGES.length}</span></a>`;
+      <a class="chip" href="${grownUp() ? '#badges' : '#me'}" aria-label="${n} of ${BADGES.length} badges"><span aria-hidden="true">🏅</span> ${n}<span class="of"> of ${BADGES.length}</span></a>`;
     box.innerHTML = `<h2>My reading <span>On this device</span></h2><div class="st">${tower(s)}
       <p><b>${s ? `My pebble tower: ${s} ${s === 1 ? "day" : "days"}` : "No pebbles yet"}</b><br><span>${s && !today ? `Read a whole paper today to add pebble number ${s + 1}!`
         : s ? "Today's pebble is on. See you tomorrow!" : "Read a whole paper to put your first pebble on your tower."}</span></p>
@@ -1563,7 +1573,13 @@ JS = r"""
     ["sunflower", "🌻", "Sunflower", 5, 64, 40, 1.8], ["butterfly", "🦋", "Butterfly", 5, 44, 20, 1.4], ["duck", "🦆", "Duck", 6, 44, 66, 1.7],
     ["frog", "🐸", "Frog", 6, 70, 74, 1.5], ["hedgehog", "🦔", "Hedgehog", 8, 24, 86, 1.6], ["turtle", "🐢", "Turtle", 8, 84, 86, 1.6],
     ["tree", "🌳", "Tree", 10, 2, 16, 3.4], ["pine", "🌲", "Pine tree", 10, 84, 14, 3], ["house", "🏡", "Little house", 15, 60, 14, 2.4],
-    ["rainbow", "🌈", "Rainbow", 20, 28, 0, 3.2]];
+    ["rainbow", "🌈", "Rainbow", 20, 28, 0, 3.2],
+    ["bee", "🐝", "Bee", 5, 54, 22, 1.3], ["ladybird", "🐞", "Ladybird", 5, 40, 82, 1.2],
+    ["snail", "🐌", "Snail", 8, 32, 78, 1.4], ["cactus", "🌵", "Cactus", 12, 72, 28, 2],
+    ["cherry", "🌸", "Blossom", 15, 56, 38, 1.8], ["fox", "🦊", "Fox", 20, 34, 76, 1.9],
+    ["fountain", "⛲", "Fountain", 25, 48, 44, 2.3], ["tent", "⛺", "Adventure tent", 30, 40, 20, 2.8],
+    ["gazebo", "🛖", "Garden hideaway", 35, 76, 35, 2.7], ["castle", "🏰", "Castle", 40, 58, 12, 3.2],
+    ["dragon", "🐉", "Dragon", 45, 30, 30, 2.8], ["unicorn", "🦄", "Unicorn", 50, 70, 66, 2.7]];
   const PRIZES = { flamingo: ["🦩", "Flamingo", 58, 56, 2], peacock: ["🦚", "Peacock", 16, 58, 2], swan: ["🦢", "Swan", 28, 66, 1.8],
     rabbit: ["🐇", "Rabbit", 90, 50, 1.6], deer: ["🦌", "Deer", 74, 28, 2.2], parrot: ["🦜", "Parrot", 12, 12, 1.5] };
   const QUESTS = [["read", 5, "Read 5 papers this week", "flamingo"], ["lands", 5, "Read stories from 5 countries", "peacock"],
@@ -1588,15 +1604,28 @@ JS = r"""
     return `<svg class="passport" viewBox="${vb.join(" ")}" role="img" aria-label="${esc(label)}"><rect class="sea" x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}"/>
       <use href="#rp-world"/>${lands.map((c) => `<path class="been" d="${shapes[c].d}" vector-effect="non-scaling-stroke"/>`).join("")}</svg>`;
   }
+  let gardenExtrasOpen = false;
   function gardenHtml() {
-    const own = store.get("garden", []), q = quest(), have = pebbles(), owl = $(".lb .owl");
+    const q = quest(), own = store.get("garden", []), have = pebbles(), owl = $(".lb .owl");
     const pos = store.get("gpos", {});                          // where the child has moved things: {id: [left %, top %, layer]}
     const put = (id, e, x, y, z, name) => { const p = pos[id] || [x, y, 0];
       return `<span class="gi" data-g="${id}" tabindex="0" role="button" aria-label="${esc(name)}: drag, or use the arrow keys, to move it"
         style="left:${p[0]}%;top:${p[1]}%;font-size:${z}em;z-index:${2 + (p[2] || 0)}" title="${esc(name)}">${e}</span>`; };
-    const placed = ITEMS.filter((it) => own.includes(it[0])).map((it) => put(it[0], it[1], it[4], it[5], it[6], it[2]))
-      .concat(Object.keys(PRIZES).filter((k) => own.includes(k)).map((k) => put(k, PRIZES[k][0], PRIZES[k][2], PRIZES[k][3], PRIZES[k][4], PRIZES[k][1])));
+    // Keep the first copy's old ID and position; extra copies have stable, independent IDs.
+    const copies = {}, placed = own.flatMap((type) => {
+      const item = ITEMS.find(it => it[0] === type), prize = PRIZES[type];
+      if (!item && !prize) return [];
+      const n = copies[type] = (copies[type] || 0) + 1, id = n === 1 ? type : type + ':' + n;
+      const [icon, name, x, y, size] = item ? [item[1], item[2], item[4], item[5], item[6]] : prize;
+      const dx = n === 1 ? 0 : ((n - 1) * 13) % 55, dy = n === 1 ? 0 : ((n - 1) * 11) % 36;
+      return [put(id, icon, n === 1 ? x : 8 + (x + dx) % 78, n === 1 ? y : 16 + (y + dy) % 64, size, name + (n > 1 ? ' ' + n : ''))];
+    });
     const pz = PRIZES[q.prize];
+    const shop = items => items.map(it => {
+      const n = copies[it[0]] || 0;
+      return `<button type="button" data-buy="${it[0]}"${n ? ' class="have"' : ''}${have < it[3] ? " disabled" : ""}
+        aria-label="Buy ${n ? 'another ' : ''}${esc(it[2])} for ${it[3]} pebbles${n ? ', ' + n + ' in your garden' : ''}"><span>${it[1]}</span>${esc(it[2])}<small>${it[3]} pebbles</small>${n ? `<small>${n} in your garden · Buy another</small>` : ''}</button>`;
+    }).join('');
     return `<section class="gardencard"><h2>🌱 My Pebble Garden <span class="purse"><i class="pg"></i> ${have} ${have === 1 ? "pebble" : "pebbles"}</span></h2>
       <div class="garden" role="group" aria-label="My garden: ${own.length ? own.length + " things growing" : "nothing planted yet"}"><span class="river"></span>
         ${placed.join("")}<span class="gowl">${owl ? owl.outerHTML : ""}</span><span class="gstack">${tower(streak())}</span>
@@ -1604,9 +1633,8 @@ JS = r"""
       ${own.length ? `<p class="how movehint">✋ Drag anything in your garden to move it.</p>` : ""}
       ${levelHtml(false)}
       <p class="how">Earn pebbles: <b>3</b> for reading a whole paper, <b>1</b> for each star on a game's first try, <b>2</b> for a Full set.</p>
-      <div class="shop">${ITEMS.map((it) => own.includes(it[0])
-        ? `<button type="button" class="have" disabled><span>${it[1]}</span>${esc(it[2])}<small>✓ In your garden</small></button>`
-        : `<button type="button" data-buy="${it[0]}"${have < it[3] ? " disabled" : ""}><span>${it[1]}</span>${esc(it[2])}<small>${it[3]} pebbles</small></button>`).join("")}</div>
+      <div class="shop">${shop(ITEMS.slice(0, 13))}</div>
+      <details class="garden-extras"${gardenExtrasOpen ? ' open' : ''}><summary>More garden treasures · up to 50 pebbles</summary><div class="shop">${shop(ITEMS.slice(13))}</div></details>
       <div class="quest"><span class="qi">${pz[0]}</span><div><b>This week's quest: ${esc(q.text)}</b>
         <span class="bar2"><i style="width:${Math.round(100 * q.got / q.n)}%"></i></span>
         <small>${q.done ? `Done! The ${pz[1].toLowerCase()} is in your garden.` : `${q.got} of ${q.n} · unlocks the ${pz[1].toLowerCase()} and 5 pebbles`}</small></div></div>
@@ -1635,21 +1663,52 @@ JS = r"""
         : `<p class="how">Questions you get wrong first time are kept here to revise.</p>`}
       <p><a class="big go" href="report.html">⬇ Monthly report</a></p></section>`;
   }
-  function corner() {                                         // the "Me" corner: a garden for 6–11, progress for 12+
+  const PEBBLE_VIEWS = [['progress', 'Reading progress'], ['badges', 'Badges'], ['garden', 'My garden']];
+  let pebbleView = 'progress', cornerOlder = null;
+  function corner(view) {                                     // 6–11 keep the garden; 12+ can choose all three views
     const c = $("#corner"); if (!c) return;
+    const extras = $('.garden-extras'); if (extras) gardenExtrasOpen = extras.open;
     const old = grownUp();
-    c.innerHTML = old ? progressHtml() : gardenHtml();
+    if (cornerOlder !== old) { pebbleView = 'progress'; cornerOlder = old; }
+    if (PEBBLE_VIEWS.some(([id]) => id === view)) pebbleView = view;
+    const badges = $('#badges');
+    if (badges) {
+      badges.hidden = !!old && pebbleView !== 'badges';
+      if (old) { badges.setAttribute('role', 'tabpanel'); badges.setAttribute('aria-labelledby', 'pebble-tab-badges'); }
+      else { badges.removeAttribute('role'); badges.removeAttribute('aria-labelledby'); }
+    }
+    const tabs = old ? `<div class="pebble-tabs" role="tablist" aria-label="My Pebbles sections">${PEBBLE_VIEWS.map(([id, label]) =>
+      `<button type="button" role="tab" id="pebble-tab-${id}" data-pebble-view="${id}" aria-selected="${pebbleView === id}" tabindex="${pebbleView === id ? 0 : -1}" aria-controls="${id === 'badges' ? 'badges' : 'pebble-panel'}">${label}</button>`).join('')}</div>` : '';
+    c.innerHTML = tabs + (old ? `<div id="pebble-panel" class="pebble-panel" role="tabpanel" aria-labelledby="pebble-tab-${pebbleView}"${pebbleView === 'badges' ? ' hidden' : ''}>`
+      + (pebbleView === 'progress' ? progressHtml() : pebbleView === 'garden' ? gardenHtml() : '') + '</div>' : gardenHtml());
+    if (old && pebbleView === 'badges') { const details = $('#badges details'); if (details) details.open = true; }
+    requestAnimationFrame(fitGarden);
+  }
+  function selectPebbleView(view) {
+    corner(view); $('#pebble-tab-' + view)?.focus({preventScroll:true});
   }
   document.addEventListener("click", (e) => {
-    const b = e.target.closest("[data-buy]"), d = e.target.closest("[data-done]");
+    const b = e.target.closest("[data-buy]"), d = e.target.closest("[data-done]"), tab = e.target.closest('[data-pebble-view]');
+    if (tab) selectPebbleView(tab.dataset.pebbleView);
     if (b) {
       const it = ITEMS.find((x) => x[0] === b.dataset.buy);
       if (!it || pebbles() < it[3]) return;
-      store.set("spent", store.get("spent", 0) + it[3]); addTo("garden", it[0]);
-      corner(); toast1(it[1], "In your garden!", it[2]);
+      const own = store.get('garden', []); own.push(it[0]);
+      store.set("spent", store.get("spent", 0) + it[3]); store.set('garden', own);
+      corner(); $('[data-buy="' + it[0] + '"]')?.focus({preventScroll:true}); toast1(it[1], "In your garden!", it[2]);
     }
     if (d) { const r = store.get("revise", []); r.splice(+d.dataset.done, 1); store.set("revise", r); corner(); }
   });
+  document.addEventListener('keydown', e => {
+    const tab = e.target.closest?.('[data-pebble-view]'); if (!tab) return;
+    const i = PEBBLE_VIEWS.findIndex(([id]) => id === tab.dataset.pebbleView);
+    const next = e.key === 'ArrowRight' ? (i + 1) % 3 : e.key === 'ArrowLeft' ? (i + 2) % 3 : e.key === 'Home' ? 0 : e.key === 'End' ? 2 : -1;
+    if (next >= 0) { e.preventDefault(); selectPebbleView(PEBBLE_VIEWS[next][0]); }
+  });
+  function fitGarden() {                                      // smaller scenery must not crop saved items at its edges
+    $$('.garden .gi').forEach(el => { if (el.parentElement.clientWidth) gplace(el, parseFloat(el.style.left), parseFloat(el.style.top)); });
+  }
+  addEventListener('resize', fitGarden);
   // Moving things around the garden: drag with a finger or mouse, or arrow keys; kept on this device.
   function gplace(el, x, y) {
     const g = el.parentElement, gw = g.clientWidth, gh = g.clientHeight;
@@ -1756,14 +1815,16 @@ JS = r"""
     const route = (focus) => {
       const hash = location.hash.slice(1);
       const view = ["stories", "map", "explore"].includes(hash) ? "explore"
-        : ["me", "badges"].includes(hash) ? "me" : "today";
+        : ["me", "badges", "garden", "progress"].includes(hash) ? "me" : "today";
       panels.forEach((panel) => { panel.hidden = panel.id !== view; });
       nav.forEach((link) => {
         if (link.dataset.view === view) link.setAttribute("aria-current", "page");
         else link.removeAttribute("aria-current");
       });
       const active = document.getElementById(view);
+      if (['badges', 'garden', 'progress'].includes(hash) && grownUp()) corner(hash);
       if (hash === "badges") { const badges = $("#badges details"); if (badges) badges.open = true; }
+      if (view === 'me') requestAnimationFrame(fitGarden);
       requestAnimationFrame(() => {
         if (view === "explore") $$(".where.wide").forEach((fig) => { if ($("svg", fig)) lobbyPins(fig); });
         const target = document.getElementById(hash);
@@ -1803,7 +1864,7 @@ JS = r"""
       picker.hidden = true; hi.hidden = false;               // asked once, then a line to change it
       $("span", hi).innerHTML = b ? `Hi! Papers for <b>${esc(b.replace("Ages", "ages"))}</b>` : "Papers for <b>every age</b>";
       if (asked) $(".change", hi).focus();
-      corner();
+      shelf(); corner();
     };
     whos.forEach((w) => w.addEventListener("click", () => pick(w.dataset.band, true)));
     $(".change", hi).addEventListener("click", () => { hi.hidden = true; picker.hidden = false; $(".who[aria-pressed=true]", picker)?.focus(); });
@@ -1812,7 +1873,11 @@ JS = r"""
     const done = store.get("read", []);                      // papers read on this device
     $$(".tile").forEach((t) => { if (done.includes(t.dataset.key)) $(".done", t).hidden = false; });
     document.addEventListener("click", (e) => {             // the chips open "My reading" with the badges
-      if (e.target.closest(".chip")) { const d = $("#badges details"); if (d) d.open = true; }
+      const chip = e.target.closest(".chip");
+      if (chip) {
+        if (grownUp() && chip.getAttribute('href') === '#badges') corner('badges');
+        const d = $("#badges details"); if (d) d.open = true;
+      }
     });
     lobbyNavigation();
     return;
