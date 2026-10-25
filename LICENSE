@@ -1,0 +1,14 @@
+Copyright (c) 2026 NeRDLabs. All rights reserved.
+
+The code in this repository (the News Pebbles engine, website and Read & Play)
+is not licensed for reuse. You may read it here, but you may not copy, modify,
+distribute or use it without written permission from NeRDLabs.
+
+The published papers, posters and Read & Play stories are licensed separately,
+under Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0):
+https://newspebbles.com/terms.html
+
+Third-party parts keep their own licences: the fonts in assets/fonts (SIL Open
+Font License), the icons in assets/navigation (Lucide, ISC License), the map
+data in data/world (Natural Earth, public domain), and the libraries listed in
+requirements.txt.

@@ -11,6 +11,13 @@
 
 
 
+
+## Code: all rights reserved
+
+- `LICENSE`: the code is © NeRDLabs, all rights reserved (readable, not reusable without
+  permission); the papers stay CC BY-NC 4.0, and third-party fonts, icons and map data keep
+  their own licences.
+- How it's made and the builder page no longer call the engine "open source".
 ## Terms, publisher and contact addresses
 
 - A plain-language **Terms** page (`terms.html`), linked from every footer and the For parents
