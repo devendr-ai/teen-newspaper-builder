@@ -10,12 +10,15 @@ site`) is for the child, on a tablet or phone, from the same issue files.
   where it happens), the headline, and **Read** and **Play**, with ✓ once read.
   The age is remembered on the device and shared with the grown-ups' page, so
   choosing it on either one sets both.
-- **One screen.** The streak and badges are two chips at the top (tap them for "My
-  reading"). On a laptop the papers sit on the left, with Big stories and the news
-  map on the right; on an iPad held upright Big stories and the map sit side by
-  side under the papers. On a phone Big stories swipe sideways and a bottom bar
-  jumps to Papers, Big stories, Map and Me. Same link on every device: the page
-  picks its layout from the screen's width.
+- **Connected navigation.** Parents use Home, Read & Play, Design and For parents.
+  `/parents.html` brings together printing, the designer, reading-settings guidance,
+  editorial information, corrections, feedback and privacy. Children use Home,
+  Today, Explore and My Pebbles throughout the lobby, issues and story pages.
+  Today keeps the existing age picker and papers; Explore groups Big stories and
+  the news map; My Pebbles keeps the existing garden, badges and age-appropriate
+  progress. The lobby uses hash navigation without replacing those components.
+  Existing `#stories`, `#map`, `#me` and `#badges` links still open their sections.
+  Existing `rp-*` saved-data keys are unchanged; no progress migration is needed.
 - **Read.** Each of the last 7 issues of every paper becomes a page. For ages
   6–11 it shows one story per screen (swipe, or Next and Back); older readers
   scroll. Every story and section has **Read it to me**, which uses the device's

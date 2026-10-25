@@ -37,7 +37,7 @@ def test_lobby_fits_the_first_screen(built):
     assert 'class="mini"' in lobby                                          # a little real map for a story's place
     assert "function tower(" in (built / "play.js").read_text(encoding="utf-8")    # the streak is a pebble tower
     assert 'id="chips"' in lobby and 'class="pick"' in lobby and 'class="hello" hidden' in lobby
-    tabs = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', lobby, re.S).group(1)
+    tabs = re.search(r'<nav class="tabbar childnav noprint"[^>]*>(.*?)</nav>', lobby, re.S).group(1)
     for anchor in re.findall(r'href="#([a-z]+)"', tabs):
         assert f'id="{anchor}"' in lobby
     assert 'href="../index.html"' in tabs                                     # a way back to the grown-ups' home page
@@ -473,3 +473,34 @@ def test_things_in_the_pebble_garden_can_be_moved_and_stay_where_they_are_put():
         assert f'addEventListener("{ev}"' in js
     assert 'store.set("gpos", pos)' in js and "ArrowLeft" in js                # saved on the device; keys work too
     assert "touch-action:none" in css[css.index(".garden .gi{"):]               # a finger drags the flower, not the page
+
+
+def test_child_navigation_resolves_from_articles_and_story_pages(built):
+    from urllib.parse import urljoin
+    paths = [built / "index.html", built / "report.html", built / "certificate.html",
+             next((built / "breakfast-table").glob("*.html")), built / "threads" / "index.html"]
+    for path in paths:
+        markup = path.read_text(encoding="utf-8")
+        nav = re.search(r'<nav class="tabbar childnav noprint"[^>]*>(.*?)</nav>', markup, re.S).group(1)
+        links = re.findall(r'href="([^"]+)" data-view="([^"]+)"', nav)
+        page_url = 'https://example.test/paper/play/' + path.relative_to(built).as_posix()
+        expected = {'home': 'index.html', 'today': 'play/index.html#today',
+                    'explore': 'play/index.html#explore', 'me': 'play/index.html#me'}
+        assert len(links) == 4
+        for href, key in links:
+            assert urljoin(page_url, href) == 'https://example.test/paper/' + expected[key]
+    lobby = (built / "index.html").read_text(encoding="utf-8")
+    assert 'id="explore"' in lobby and 'id="map"' in lobby and 'id="stories"' in lobby
+    assert 'id="corner"' in lobby and 'id="badges"' in lobby
+
+
+def test_lobby_navigation_preserves_old_links_and_progress():
+    import shutil
+    import subprocess
+    from pathlib import Path
+    node = shutil.which('node')
+    if not node:
+        pytest.skip('Node.js not installed')
+    result = subprocess.run([node, str(Path(__file__).with_name('lobby-navigation.cjs'))],
+                            input=play.JS, text=True, capture_output=True)
+    assert result.returncode == 0, result.stdout + result.stderr

@@ -245,16 +245,24 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
          '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">')
 
 
+CSS += """
+.parents{max-width:850px}.parents>h2{font-size:2rem;margin:8px 0 12px}
+.parent-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin:24px 0}
+.parent-link{display:block;border:1.5px solid var(--line);background:var(--surface);padding:16px;border-radius:12px;text-decoration:none;color:var(--ink)}
+.parent-link b{display:block;color:var(--cyan);margin-bottom:6px}.parent-link span{font-size:.9rem;color:var(--muted)}
+"""
+
+
 def feedback_nav(cfg, root=""):
     return f'<a href="{root}feedback.html">Feedback</a>' if cfg.get("feedback_url") else ""
 
 
 def tabbar(cfg, root, here):
     """The phone's bottom bar: the same links as the header, one tap from anywhere on the page."""
-    tabs = [("papers", "index.html", "📰", "Papers"), ("play", "play/index.html", "🎧", "Read &amp; Play"),
-            ("design", "builder.html", "✏️", "Design"), ("about", "about.html", "ℹ️", "How it's made")]
-    if cfg.get("feedback_url"):
-        tabs.append(("feedback", "feedback.html", "💬", "Feedback"))
+    tabs = [("papers", "index.html", "🏠", "Home"), ("play", "play/index.html", "🎧", "Read &amp; Play"),
+            ("design", "builder.html", "✏️", "Design"), ("parents", "parents.html", "👪", "For parents")]
+    if here in ("about", "feedback"):
+        here = "parents"
     now = ' aria-current="page"'
     return ('<nav class="tabbar" aria-label="Pages">' + "".join(
         f'<a href="{root}{href}"{now if k == here else ""}><span aria-hidden="true">{icon}</span>{label}</a>'
@@ -275,7 +283,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <script>document.documentElement.classList.add("js")</script></head>
 <body><div class="wrap"><header class="top"><div class="masthead"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
-<nav id="nav"><a href="{root}index.html">Papers</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design your own</a><a href="{root}about.html">How it's made</a>{feedback_nav(cfg, root)}</nav></header>
+<nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design</a><a href="{root}parents.html">For parents</a></nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));
 const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"px");hh();
@@ -476,12 +484,15 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     body = intro + filters + recommendations(published, has_png) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
     trust_pages(cfg, out, names, fixes)
+    open(os.path.join(out, "parents.html"), "w", encoding="utf-8").write(
+        page(cfg, f"For parents · {cfg['title']}", parents_body(cfg), here="parents"))
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
-                .replace("</head>", pwa.head(cfg) + stats.snippet(cfg) + "</head>", 1))
+                .replace("<!--PARENT_NAV-->", tabbar(cfg, "", "design"))
+                .replace("</head>", pwa.head(cfg) + "<style>" + BUILDER_NAV_CSS + "</style>" + stats.snippet(cfg) + "</head>", 1))
         open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(html)
         engine_zip(os.path.join(out, "builder-engine.zip"))
     if cfg.get("feedback_url"):
@@ -492,6 +503,34 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     open(os.path.join(out, ".nojekyll"), "w").close()
     log(f"site written to {out}")
     return out
+
+
+BUILDER_NAV_CSS = """
+.tabbar{display:none}
+@media(max-width:699px){
+ .wrap{padding-bottom:180px}.site nav{display:none}
+ .bar{bottom:calc(70px + env(safe-area-inset-bottom,0px))}
+ .tabbar{position:fixed;display:flex;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1.5px solid var(--line);padding:4px 6px calc(4px + env(safe-area-inset-bottom,0px))}
+ .tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:58px;font-size:12px;line-height:1.2;font-weight:700;color:var(--muted);text-decoration:none;border-radius:10px}
+ .tabbar a span{font-size:22px}.tabbar a[aria-current="page"]{color:var(--cyan);background:var(--cyan-tint)}
+}
+@media print{.tabbar{display:none!important}}
+"""
+
+
+def parents_body(cfg):
+    feedback = '<a class="parent-link" href="feedback.html"><b>Corrections &amp; feedback</b><span>Report a mistake or share an idea.</span></a>' if cfg.get("feedback_url") else ''
+    return f'''<section class="parents"><h2>For parents</h2>
+<p>Help your child understand the world, on paper and together.</p>
+<p><a class="btn" href="index.html">🖨️ Choose and print a paper</a></p>
+<div class="parent-links">
+<a class="parent-link" href="builder.html"><b>Design your own paper</b><span>Make a printable newspaper for your family.</span></a>
+<a class="parent-link" href="play/index.html#today"><b>Reading settings</b><span>Choose an age in Read &amp; Play. Text size, night mode and narration speed are available inside each paper and stay on this device.</span></a>
+<a class="parent-link" href="about.html"><b>How it’s made</b><span>How the papers are researched, written and checked.</span></a>
+<a class="parent-link" href="standards.html"><b>Editorial standards</b><span>Our approach to sources, accuracy and age-appropriate news.</span></a>
+<a class="parent-link" href="corrections.html"><b>Corrections</b><span>See changes made to published papers.</span></a>
+{feedback}<a class="parent-link" href="privacy.html"><b>Privacy</b><span>What is saved on this device and how the site works.</span></a>
+</div></section>'''
 
 
 def feedback_body(url):

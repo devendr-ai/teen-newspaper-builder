@@ -393,7 +393,7 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, ord
     mode = "cards" if band in CARD_BANDS else "scroll"
     earlier = "".join(f'<option value="{o}.html"{" selected" if o == date else ""}>{dt.date.fromisoformat(o):%a %d %b}</option>'
                       for o in others)
-    body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a>
+    body = f'''<header class="bar"><a class="home" href="../index.html#today">← Back to Today</a>
 <div class="tools" role="toolbar" aria-label="Reading settings">
 <button type="button" data-act="smaller" aria-label="Smaller text">A−</button><button type="button" data-act="bigger" aria-label="Bigger text">A+</button>
 <button type="button" data-act="night" aria-label="Night mode">🌙</button>
@@ -433,7 +433,17 @@ _VERSION = ""
 ASSETS = ("play.css", "world.js", "play.js")
 
 
-def shell(cfg, title, body, root=""):
+def child_nav(root, here="today"):
+    tabs = [("home", "index.html", "🏠", "Home"),
+            ("today", "play/index.html#today", "📰", "Today"),
+            ("explore", "play/index.html#explore", "🧭", "Explore"),
+            ("me", "play/index.html#me", "🌱", "My Pebbles")]
+    return '<nav class="tabbar childnav noprint" aria-label="Main navigation">' + "".join(
+        f'<a href="{root}{href}" data-view="{key}"' + (' aria-current="page"' if key == here else '')
+        + f'><span aria-hidden="true">{icon}</span>{label}</a>' for key, href, icon, label in tabs) + '</nav>'
+
+
+def shell(cfg, title, body, root="", here="today"):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
@@ -442,6 +452,7 @@ def shell(cfg, title, body, root=""):
 {pwa.head(cfg, root)}
 <link rel="icon" href="{root}play/owl.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{root}play/play.css?v={asset_version()}">{stats.snippet(cfg, root)}</head><body>{body}
+{child_nav(root, here)}
 <script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
 
 
@@ -479,7 +490,7 @@ def thread_page(cfg, t, level, links, active, dates=()):
              if v.get("worry") else "")
     src = "".join(f'<li><a href="{E(u)}" rel="noopener" target="_blank">{E(u.split("//")[-1].split("/")[0])}</a></li>'
                   for u in t.get("sources") or [])
-    body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a>{switch}</header>
+    body = f'''<header class="bar"><a class="home" href="../index.html#explore">← Back to Explore</a>{switch}</header>
 <main class="threadpage"><section class="card thread t-violet"><button type="button" class="read" aria-label="Read this to me">
 <span aria-hidden="true">🔊</span> Read it to me</button>
 <p class="kicker"><span class="desk">🧵 The story so far</span> {"Updated" if active else "Last news"} {updated:%a %d %b}</p>
@@ -488,7 +499,7 @@ def thread_page(cfg, t, level, links, active, dates=()):
 {where_html(w) if w else ""}{timeline}{who}{qs}{worry}
 <details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details></section>
 <p class="older"><a href="index.html">All the big stories</a></p></main>'''
-    return shell(cfg, f"{t['title']}: the story so far · Read & Play", body, root="../../")
+    return shell(cfg, f"{t['title']}: the story so far · Read & Play", body, root="../../", here="explore")
 
 
 def play_where(w):
@@ -503,10 +514,10 @@ def thread_index(cfg, items):
 data-old="{thread_href(t["id"], "older")}"><span class="ic" aria-hidden="true">🧵</span><span><b>{E(t["title"])}</b>
 <small>{"Updated" if active else "Last news"} {dt.date.fromisoformat(threads.last_news(t, dates)):%a %d %b}</small></span></a>'''
                    for t, active, dates in items)
-    body = f'''<header class="bar"><a class="home" href="../index.html">← Read &amp; Play</a></header>
+    body = f'''<header class="bar"><a class="home" href="../index.html#explore">← Back to Explore</a></header>
 <main class="lobby"><h1>{brand.inline("owl")}Big stories</h1><p class="lede">News that goes on for days. Catch up on what happened,
 who's who, and the questions people are asking.</p><div class="big3">{rows}</div></main>'''
-    return shell(cfg, f"Big stories · Read & Play", body, root="../../")
+    return shell(cfg, f"Big stories · Read & Play", body, root="../../", here="explore")
 
 
 # ------------------------------------------------------------------ an app on the home screen
@@ -520,7 +531,7 @@ def certificate(cfg):
 <button type="button" class="big go print">🖨️ Print certificate</button>
 <p class="note">The name stays on this device. To keep a copy, choose “Save as PDF” in the print window.</p></div>
 <p class="none" hidden>This badge isn't earned on this device yet. <a href="index.html#me">See my badges</a></p></main>'''
-    return shell(cfg, f"Certificate · {cfg['title']}", body, root="../")
+    return shell(cfg, f"Certificate · {cfg['title']}", body, root="../", here="me")
 
 
 def report(cfg, names):
@@ -532,7 +543,7 @@ def report(cfg, names):
 <article class="report"><div class="rhead">{brand.inline("owl")}<b>{E(cfg["title"])}</b><span class="mo"></span></div><h1 class="rt"></h1>
 <div class="rbody"></div><p class="rfoot">Made on this device from what was read and played here. Nothing is sent anywhere. {E(cfg["tagline"])}</p></article>
 <script id="papers" type="application/json">{json.dumps(names, ensure_ascii=False)}</script></main>'''
-    return shell(cfg, f"Monthly report · {cfg['title']}", body, root="../")
+    return shell(cfg, f"Monthly report · {cfg['title']}", body, root="../", here="me")
 
 
 def manifest(cfg):
@@ -701,26 +712,21 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <figure class="where wide" data-pins="{E(json.dumps(pins, ensure_ascii=False))}"><div class="map" role="img" aria-label="A world map with a pin for each of today's stories"></div>
 <figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
                 if pins else "")
-    tabs = [("../index.html", "🏠", "Home"), ("#today", "📰", "Papers"), ("#stories", "🧵", "Big stories") if big_row else None,
-            ("#map", "🗺️", "Map") if news_map else None, ("#me", "🏅", "Me")]      # Home: back to the grown-ups' page
-    now = ' aria-current="true"'
-    tabbar = ('<nav class="tabbar" aria-label="Jump to">' + "".join(
-        f'<a href="{h}"{now if h == "#today" else ""}><span aria-hidden="true">{i}</span>{n}</a>'
-        for h, i, n in filter(None, tabs)) + "</nav>")
     body = f'''<header class="bar lb"><h1><a href="index.html">{brand.inline("owl")}Read &amp; Play</a></h1>
-<a class="home" href="../index.html">← Grown-ups</a><div class="chips" id="chips"></div></header>
-<main class="lobby front"><section class="today" id="today" aria-labelledby="h-today"><p class="motto">The world's news, one pebble a day.</p>
+<a class="home" href="../index.html">🏠 Home</a><div class="chips" id="chips"></div></header>
+<main class="lobby front"><section class="today lobby-panel" id="today" aria-labelledby="h-today"><p class="motto">The world's news, one pebble a day.</p>
 <div class="pick"><h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div></div>
 <p class="hello" hidden><span></span> <button type="button" class="change">Change age</button></p>
-<h2 id="h-today">📰 Latest papers</h2><div class="tiles">{"".join(tiles)}</div></section>
-<div class="side">{big_row}{news_map}</div>
-<section class="me" id="me" aria-label="Me"><div id="corner"></div><section class="myreading" id="badges" aria-label="My reading"></section>
+<h2 id="h-today" tabindex="-1">📰 Today’s papers</h2><div class="tiles">{"".join(tiles)}</div></section>
+<section class="side lobby-panel" id="explore" aria-labelledby="h-explore"><h2 id="h-explore" class="view-title" tabindex="-1">Explore</h2>
+{big_row}{news_map}</section>
+<section class="me lobby-panel" id="me" aria-labelledby="h-pebbles"><h2 id="h-pebbles" class="view-title" tabindex="-1">My Pebbles</h2><div id="corner"></div><section class="myreading" id="badges" aria-label="My reading"></section>
 <div class="install" hidden><p><img class="app" src="icon-192.png" alt="" width="48" height="48"><b>Keep Read &amp; Play on your home screen.</b> It opens like an app, and
 today's papers work without the internet.</p><button type="button" class="big go add" hidden>Add to home screen</button>
 <p class="ios" hidden>On an iPhone or iPad: tap <b>Share</b> <span aria-hidden="true">⬆️</span>, then <b>Add to Home Screen</b>.</p></div>
 <p class="note"><a href="../index.html">← {E(cfg["title"])} (grown-ups)</a><br>For grown-ups: no accounts, no ads, no cookies. Settings and stars stay on this device
 (<a href="../privacy.html">privacy</a>).
-Maps show India's borders as on India's official maps (Natural Earth, India view).</p></section></main>{tabbar}'''
+Maps show India's borders as on India's official maps (Natural Earth, India view).</p></section></main>'''
     open(os.path.join(pdir, "index.html"), "w", encoding="utf-8").write(shell(cfg, f"Read & Play · {cfg['title']}", body, root="../"))
     open(os.path.join(pdir, "certificate.html"), "w", encoding="utf-8").write(certificate(cfg))
     names = {e: edition.load(e)["name"] for e in edition.list_editions()}
@@ -1093,6 +1099,27 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 @media (prefers-reduced-motion:reduce){.toast{animation:none;transition:none}}
 
 """
+
+CSS += r"""
+body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
+#pop{bottom:calc(82px + env(safe-area-inset-bottom,0px))}
+.childnav{display:flex}
+.childnav a[aria-current="page"]{color:var(--teal);background:var(--leaf-t)}
+.childnav a{min-height:58px;font-size:13px}
+.childnav a span{font-size:22px}
+.lobby-panel[hidden]{display:none!important}
+.view-title{font-size:1.6em;margin:0 0 18px;font-family:var(--display)}
+.lobby-panel{scroll-margin-top:calc(var(--bar-height,90px) + 12px)}
+#stories,#map,#badges{scroll-margin-top:calc(var(--bar-height,90px) + 12px)}
+.lobby.front{display:block;max-width:1100px;padding-bottom:24px}
+.front .side{display:block}.front .me{margin-top:0}
+.lb .home{display:inline-flex;white-space:nowrap;font-size:15px;min-height:44px;align-items:center}
+.bar.lb{flex-wrap:wrap;gap:6px 14px}
+@media(min-width:700px){.childnav{justify-content:center}.childnav a{flex:0 1 190px}.front .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}}
+@media(max-width:699px){.childnav a{font-size:12px}.big3{display:grid;overflow:visible;margin:0;padding:0}.big3 .bigstory{width:100%}}
+@media print{body{padding-bottom:0}.childnav{display:none!important}}
+"""
+
 
 JS = r"""
 (function () {
@@ -1540,8 +1567,6 @@ JS = r"""
     const c = $("#corner"); if (!c) return;
     const old = grownUp();
     c.innerHTML = old ? progressHtml() : gardenHtml();
-    const tab = $('.tabbar a[href="#me"]');
-    if (tab) tab.innerHTML = old ? '<span aria-hidden="true">📈</span>Progress' : '<span aria-hidden="true">🌱</span>Garden';
   }
   document.addEventListener("click", (e) => {
     const b = e.target.closest("[data-buy]"), d = e.target.closest("[data-done]");
@@ -1648,6 +1673,36 @@ JS = r"""
     return;
   }
 
+  // ---------------------------------------------------------------- lobby navigation
+  function lobbyNavigation() {
+    const panels = $$(".lobby-panel"), nav = $$(".childnav [data-view]");
+    const header = $(".bar"), sizeHeader = () => {
+      if (header) root.style.setProperty("--bar-height", header.offsetHeight + "px");
+    };
+    sizeHeader();
+    if (header && window.ResizeObserver) new ResizeObserver(sizeHeader).observe(header);
+    const route = (focus) => {
+      const hash = location.hash.slice(1);
+      const view = ["stories", "map", "explore"].includes(hash) ? "explore"
+        : ["me", "badges"].includes(hash) ? "me" : "today";
+      panels.forEach((panel) => { panel.hidden = panel.id !== view; });
+      nav.forEach((link) => {
+        if (link.dataset.view === view) link.setAttribute("aria-current", "page");
+        else link.removeAttribute("aria-current");
+      });
+      const active = document.getElementById(view);
+      if (hash === "badges") { const badges = $("#badges details"); if (badges) badges.open = true; }
+      requestAnimationFrame(() => {
+        if (view === "explore") $$(".where.wide").forEach((fig) => { if ($("svg", fig)) lobbyPins(fig); });
+        const target = document.getElementById(hash);
+        if (["stories", "map", "badges"].includes(hash) && target) target.scrollIntoView({block:"start"});
+        else { window.scrollTo(0, 0); if (focus) $("h2", active)?.focus({preventScroll:true}); }
+      });
+    };
+    addEventListener("hashchange", () => route(true));
+    route(false);
+  }
+
   // ---------------------------------------------------------------- the lobby: who's reading?
   const whos = $$(".who");
   if (whos.length) {
@@ -1687,21 +1742,7 @@ JS = r"""
     document.addEventListener("click", (e) => {             // the chips open "My reading" with the badges
       if (e.target.closest(".chip")) { const d = $("#badges details"); if (d) d.open = true; }
     });
-    const tabs = $$('.tabbar a[href^="#"]');                 // the bottom bar shows where you are
-    const mark = (cur) => tabs.forEach((a) => { if (a === cur) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
-    let tapped = null;                                       // a tapped tab stays lit until the reader scrolls
-    const spy = () => {
-      if (tapped) return;
-      let cur = tabs[0];
-      tabs.forEach((a) => { const el = document.getElementById(a.hash.slice(1)); if (el && el.getBoundingClientRect().top < innerHeight * .4) cur = a; });
-      if (innerHeight + scrollY >= document.documentElement.scrollHeight - 4) cur = tabs[tabs.length - 1];
-      mark(cur);
-    };
-    if (tabs.length) {
-      tabs.forEach((a) => a.addEventListener("click", () => { tapped = a; mark(a); }));
-      ["wheel", "touchstart", "keydown"].forEach((ev) => addEventListener(ev, () => { tapped = null; }, { passive: true }));
-      addEventListener("scroll", spy, { passive: true }); spy();
-    }
+    lobbyNavigation();
     return;
   }
 
