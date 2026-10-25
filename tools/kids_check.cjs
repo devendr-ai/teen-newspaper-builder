@@ -13,7 +13,8 @@ const fs = require("fs"), path = require("path");
 
 const BASE = process.argv[2] || "http://localhost:8777/", MODE = process.argv[3] || "kids";
 const ROOT = path.join(__dirname, "..");
-const results = [], external = new Map();
+const results = [], external = new Map(), subscriptions = [];
+let browser;
 const ok = (name, pass, detail) => { results.push({ name, pass: !!pass, detail: detail || "" }); };
 
 const ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
@@ -32,13 +33,23 @@ function solve(q) {                                // the gate's question -> its
 }
 
 (async () => {
-  const browser = await chromium.launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
+  browser = await chromium.launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const host = new URL(BASE).host;
   let where = "";
   await ctx.route("**/*", (r) => {                // record anything leaving the site; never actually send it
     const u = new URL(r.request().url());
     if (u.host === host || u.protocol === "data:" || u.protocol === "blob:") return r.continue();
+    // Chrome's built-in PDF viewer reads local extension/UI resources. These
+    // schemes are not outside network hosts; HTTP(S) remains fully audited.
+    if (u.protocol === "chrome-extension:" || u.protocol === "chrome:") return r.continue();
+    // Tests never submit an email to the real delivery service.
+    if (u.pathname === "/api/subscribe") {
+      subscriptions.push({ url: u.href, method: r.request().method(), body: r.request().postData() });
+      return r.fulfill({ status: 202, contentType: "application/json", body: '{"ok":true}',
+        headers: { "Access-Control-Allow-Origin": new URL(BASE).origin,
+          "Access-Control-Allow-Headers": "Content-Type", "Access-Control-Allow-Methods": "POST" } });
+    }
     const k = u.host;
     if (!external.has(k)) external.set(k, new Set());
     external.get(k).add(where);
@@ -84,6 +95,43 @@ function solve(q) {                                // the gate's question -> its
   for (const u of pages) await go(u);
   const threads = await p.evaluate(() => [...document.querySelectorAll("a[href]")].map((a) => a.href).filter((h) => /threads\/[a-z-]+\.html$/.test(h)));
   ok("every page type loads", errors.length === 0, errors.slice(0, 3).join(" | "));
+  ok("no subscription requests while browsing page types", subscriptions.length === 0);
+
+  // Enabled subscription forms: placement, scoped math, and the app's gate.
+  // Intercepted responses above ensure these checks can never send real email.
+  const signupPages = ["index.html", "e/little-explorers/index.html", "parents.html"];
+  for (const url of signupPages) {
+    const before = subscriptions.length;
+    await go(url);
+    if (MODE === "kids" && await gateShown()) await answer(true);
+    if (url === "index.html")
+      await p.locator('.agebar button[data-v="Ages 6–8"]').click();
+    const form = p.locator('form[data-gate-form="subscribe"]:visible').first();
+    if (!(await form.count())) continue; // Disabled builds deliberately have no forms.
+    ok(`${url}: signup makes no initial requests`, subscriptions.length === before);
+    ok(`${url}: correct subscription mode`,
+      await form.getAttribute("data-subscribe-kids") === String(MODE === "kids"));
+    if (await form.locator('select[name="edition_slug"]').count())
+      await form.locator('select[name="edition_slug"]').selectOption("little-explorers");
+    await form.locator('[name="email"]').fill("parent@example.com");
+    await form.locator('[name="grownup_answer"]').fill("1");
+    await form.evaluate(f => f.requestSubmit());
+    ok(`${url}: wrong math sends nothing`, subscriptions.length === before);
+    const factors = (await form.locator('[data-math-question]').textContent()).match(/\d+/g).map(Number);
+    await form.locator('[name="grownup_answer"]').fill(String(factors[0] * factors[1]));
+    await form.evaluate(f => f.requestSubmit());
+    if (MODE === "kids") {
+      ok(`${url}: app gate blocks network`, await gateShown() && subscriptions.length === before);
+      await p.click(".np-gate-back");
+      ok(`${url}: cancelling sends nothing`, subscriptions.length === before);
+      await form.evaluate(f => f.requestSubmit());
+      await answer(true);
+    }
+    await form.locator('.subscription-status').filter({ hasText: "Check your inbox to confirm" }).waitFor();
+    const sent = subscriptions.slice(before).filter(r => r.method === "POST");
+    ok(`${url}: one authorized request`, sent.length === 1 &&
+      JSON.parse(sent[0].body).email === "parent@example.com");
+  }
 
   if (MODE === "web") {
     // ---------------------------------------------------------------- the public website: unchanged, never gated
@@ -241,4 +289,8 @@ function solve(q) {                                // the gate's question -> its
   const failed = results.filter((r) => !r.pass);
   console.log(JSON.stringify({ mode: MODE, passed: results.length - failed.length, failed: failed.length, results }, null, 1));
   process.exitCode = failed.length ? 1 : 0;
-})().catch((e) => { console.error(e); process.exitCode = 1; });
+})().catch(async (e) => {
+  console.error(e);
+  if (browser) await browser.close();
+  process.exitCode = 1;
+});

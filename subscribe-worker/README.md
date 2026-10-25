@@ -20,7 +20,7 @@ Production setup was tested with one owner-authorized confirmation and one welco
 
 Asset fetches use Workers-compatible `redirect: "manual"`; non-2xx responses are rejected before parsing or attaching content. Node's `redirect: "error"` is unsupported in the Workers runtime.
 
-Delivery remains disabled, cron remains empty, and the public site's `subscriptions.enabled` remains false. Activating delivery and connecting a publication hook are separate launch steps. Repeat the received-message authentication check when changing email providers or sender configuration; the Resend API payload alone does not prove DKIM header coverage.
+Delivery remains disabled and cron remains empty. The frontend signup flag and Worker URL are configured separately in `site.yaml`; enabling that flag does not activate backend delivery. Activating delivery and connecting a publication hook are separate launch steps. Repeat the received-message authentication check when changing email providers or sender configuration; the Resend API payload alone does not prove DKIM header coverage.
 
 ### Installing another environment
 
