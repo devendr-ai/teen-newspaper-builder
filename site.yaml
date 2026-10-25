@@ -26,3 +26,11 @@ steps:
   - Pick your child's age below.
   - Download the latest PDF and print it on US Letter paper.
   - Leave it on the breakfast table, then talk about it together.
+
+# Email UI stays hidden until Phase 1 is deployed and verified.
+subscriptions:
+  enabled: false
+  # Worker origin (adds /api) or API base, e.g. https://newspebbles.com/api.
+  api_base_url: ""
+  # Add an official https://whatsapp.com/channel/... URL when ready.
+  whatsapp_channel_url: ""
