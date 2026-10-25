@@ -300,8 +300,15 @@ if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener
 
 
 def credit(cfg):
-    """The line every printed page ends with: who publishes it, and where to find more."""
-    return f"A {cfg['title']} paper" + (f"  ·  {cfg['domain']}" if cfg.get("domain") else "")
+    """The line every printed page ends with: who publishes it, how it's made, and where to report a mistake."""
+    return (f"A {cfg['title']} paper" + (f"  ·  {cfg['domain']}" if cfg.get("domain") else "")
+            + "  ·  Written and fact-checked by AI"
+            + (f"  ·  Corrections: {cfg['corrections_email']}" if cfg.get("corrections_email") else ""))
+
+
+def byline(cfg):
+    """The lead story's byline on the site's papers: no person writes or checks them, so none is named."""
+    return f"Written and fact-checked by AI · {cfg['title']}"
 
 
 def qr_url(cfg, eid, date):
@@ -337,7 +344,7 @@ def build(out, keep=None, log=print):
         for date, p in poster.posters_of(ed)[:keep]:
             spec = json.load(open(p, encoding="utf-8"))
             try:
-                poster.build(ed, spec, os.path.join(edir, f"{date}-poster.pdf"), credit=credit(cfg))
+                poster.build(ed, spec, os.path.join(edir, f"{date}-poster.pdf"), credit=credit(cfg), author=cfg["title"])
             except Exception as e:
                 log(f"  ! {eid} poster {date}: {e}"); continue
             posters[date] = spec
@@ -348,7 +355,8 @@ def build(out, keep=None, log=print):
             issue = json.load(open(p, encoding="utf-8"))
             pdf = f"{date}.pdf"
             try:
-                render.build(ed, issue, os.path.join(edir, pdf), qr=qr_url(cfg, eid, date), credit=credit(cfg))
+                render.build(ed, issue, os.path.join(edir, pdf), qr=qr_url(cfg, eid, date), credit=credit(cfg),
+                             byline=byline(cfg), author=cfg["title"])
             except Exception as e:
                 log(f"  ! {eid} {date}: {e}"); continue
             if latest is None:

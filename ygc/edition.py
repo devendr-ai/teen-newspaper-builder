@@ -31,7 +31,7 @@ DEFAULTS = {
         "did_you_know": "DID YOU KNOW?",
         "sports": "SPORTS CORNER",
         "watchlist": "WHAT TO WATCH NEXT",
-        "byline": "By the Editor-in-Chief",
+        "byline": "Written with AI",
     },
     "teaching": {
         "repeat_window": 2,          # issues in which vocab / DYK must not repeat

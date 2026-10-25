@@ -286,10 +286,14 @@ def draw(c, ed, poster, problems, credit=None):
     c.setFillColor(colors.HexColor("#4A5A66")); c.setFont("Helvetica-Oblique", 9); c.drawString(M + W - 150, y - nh + 4, "Your guess")
 
     # ---- footer
-    c.setFillColor(colors.HexColor("#7A8790")); c.setFont("Helvetica", 7.5)
-    c.drawCentredString(PAGE_W / 2, M - 2, f"{ed['name']}  •  The Big Question  •  {d:%A, %B} {d.day}, {d.year}"
-                                           "  •  Written by AI from verified sources, listed on the paper's web page"
-                                           + (f"  •  {credit}" if credit else ""))
+    text = (f"{ed['name']}  •  The Big Question  •  {d:%A, %B} {d.day}, {d.year}"
+            + (f"  •  Sources on the paper's web page  •  {credit}" if credit
+               else "  •  Written by AI from verified sources, listed on the paper's web page"))
+    size = 7.5
+    while size > 5.5 and c.stringWidth(text, "Helvetica", size) > PAGE_W - 2 * M:
+        size -= 0.25
+    c.setFillColor(colors.HexColor("#7A8790")); c.setFont("Helvetica", size)
+    c.drawCentredString(PAGE_W / 2, M - 2, text)
 
 
 # ------------------------------------------------------------------ checks + build
@@ -364,11 +368,11 @@ def check(ed, poster, path):
     return r
 
 
-def build(ed, poster, out_pdf, credit=None):
+def build(ed, poster, out_pdf, credit=None, author=None):
     problems = []
     c = Canvas(out_pdf, pagesize=letter)
     c.setTitle(f"{ed['name']}: {poster['question']}")
-    c.setAuthor(ed["name"])
+    c.setAuthor(author or ed["name"])
     draw(c, ed, poster, problems, credit)
     c.showPage(); c.save()
     return out_pdf
