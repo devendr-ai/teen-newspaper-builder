@@ -556,6 +556,89 @@
             "published": "2026-10-24"
           }
         ]
+      },
+      {
+        "id": "early-vote",
+        "headline": "Millions More Americans Vote Early",
+        "what_happened": "More than 18 million Americans had voted early by mail or in person by Thursday 22 October, according to the University of Florida's Election Lab, ahead of the 3 November midterm elections. NBC News's tracker later counted more than 27.8 million early votes.",
+        "why_it_matters": "The midterms decide who controls Congress, and early votes show how many people are taking part.",
+        "importance": 7,
+        "suitable_for_children": true,
+        "key_facts": [
+          {
+            "fact": "More than 18 million Americans had cast their votes early, by mail or in person, by Thursday, according to the Election Lab count cited by ABC News.",
+            "source_url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080"
+          },
+          {
+            "fact": "Democrats make up a much larger share of the early ballots cast so far, ABC News found, though early votes are only one piece of the puzzle.",
+            "source_url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080"
+          },
+          {
+            "fact": "NBC News's tracker showed 27,878,423 mail-in and early in-person votes cast nationally.",
+            "source_url": "https://www.nbcnews.com/politics/2026-elections/early-vote"
+          }
+        ],
+        "numbers": [
+          {
+            "label": "Early votes by 22 October (Election Lab)",
+            "value": 18,
+            "unit": "million",
+            "source_url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080"
+          },
+          {
+            "label": "Early votes in NBC News's tracker",
+            "value": 27878423,
+            "unit": "votes",
+            "source_url": "https://www.nbcnews.com/politics/2026-elections/early-vote"
+          }
+        ],
+        "geography": "The United States.",
+        "sources": [
+          {
+            "outlet": "ABC News",
+            "title": "Early vote shows Democratic enthusiasm high in some key states, but only one piece of puzzle",
+            "url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080",
+            "published": "2026-10-24"
+          },
+          {
+            "outlet": "NBC News",
+            "title": "Tracking the 2026 Early Vote: Midterm Elections",
+            "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+            "published": "2026-10-25"
+          }
+        ]
+      },
+      {
+        "id": "embassy-alerts",
+        "headline": "US Embassies in the Middle East Tighten Security",
+        "what_happened": "American embassies in the Middle East went on alert over warnings of Iranian plots, after the US ordered non-emergency government staff to leave Saudi Arabia as Houthi attacks worsened.",
+        "why_it_matters": "It shows how the conflict with Iran reaches Americans working abroad.",
+        "importance": 6,
+        "suitable_for_children": true,
+        "key_facts": [
+          {
+            "fact": "American embassies tightened security as warnings of Iranian threats intensified ahead of the US midterm elections.",
+            "source_url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html"
+          },
+          {
+            "fact": "The US ordered non-emergency government staff out of Saudi Arabia as Houthi attacks worsened.",
+            "source_url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html"
+          },
+          {
+            "fact": "The administration has said it will hold off on renewed strikes on Iran until after the election.",
+            "source_url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html"
+          }
+        ],
+        "numbers": [],
+        "geography": "US embassies across the Middle East, including Saudi Arabia.",
+        "sources": [
+          {
+            "outlet": "CNBC",
+            "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+            "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+            "published": "2026-10-24"
+          }
+        ]
       }
     ]
   },
@@ -958,6 +1041,94 @@
             "title": "Watch bizarre snake 'cartwheel' away from danger at more than 12 feet per second",
             "url": "https://www.livescience.com/animals/snakes/watch-bizarre-snake-cartwheel-away-from-danger-at-more-than-12-feet-per-second",
             "published": "2026-10-23"
+          }
+        ]
+      }
+    ]
+  },
+  "sports": {
+    "label": "SPORTS",
+    "hours": 24,
+    "dropped_unverified": 0,
+    "stories": [
+      {
+        "id": "world-series-game-2",
+        "headline": "Brewers Come From Behind to Lead the World Series 2-0",
+        "what_happened": "The Milwaukee Brewers beat the Tampa Bay Rays 5-4 in Game 2 of the World Series on Saturday 24 October, after the Rays scored four runs in the first inning. Milwaukee now leads the series 2-0.",
+        "why_it_matters": "The World Series decides baseball's champion; Milwaukee needs two more wins to take the title.",
+        "importance": 5,
+        "suitable_for_children": true,
+        "key_facts": [
+          {
+            "fact": "The Brewers beat the Tampa Bay Rays 5-4 in Game 2 of the World Series on Saturday, October 24, at American Family Field, taking a 2-0 series lead.",
+            "source_url": "https://www.mlb.com/news/brewers-win-world-series-game-2-2026"
+          },
+          {
+            "fact": "Tampa Bay scored four runs in the first inning; Liam Hicks hit a home run for a 4-0 lead.",
+            "source_url": "https://www.cnn.com/2026/10/25/sport/live-news/world-series-game-2"
+          },
+          {
+            "fact": "Sal Frelick's home run in the sixth inning tied the game at 4-4.",
+            "source_url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways"
+          },
+          {
+            "fact": "Cooper Pratt's single in the seventh inning brought Brice Turang home and gave the Brewers their first lead of the game.",
+            "source_url": "https://www.mlb.com/news/brewers-win-world-series-game-2-2026"
+          },
+          {
+            "fact": "The teams next meet at Tropicana Field for Game 3 on Monday.",
+            "source_url": "https://www.wsaw.com/2026/10/25/brewers-defeat-rays-game-2-world-series/"
+          },
+          {
+            "fact": "Milwaukee needs two more victories to take the title.",
+            "source_url": "https://www.wsaw.com/2026/10/25/brewers-defeat-rays-game-2-world-series/"
+          }
+        ],
+        "numbers": [
+          {
+            "label": "Brewers' runs",
+            "value": 5,
+            "unit": "runs",
+            "source_url": "https://www.mlb.com/news/brewers-win-world-series-game-2-2026"
+          },
+          {
+            "label": "Rays' runs",
+            "value": 4,
+            "unit": "runs",
+            "source_url": "https://www.mlb.com/news/brewers-win-world-series-game-2-2026"
+          },
+          {
+            "label": "Rays' runs in the first inning",
+            "value": 4,
+            "unit": "runs",
+            "source_url": "https://www.cnn.com/2026/10/25/sport/live-news/world-series-game-2"
+          }
+        ],
+        "geography": "Milwaukee, Wisconsin, and Tampa Bay, Florida, in the United States.",
+        "sources": [
+          {
+            "outlet": "CNN",
+            "title": "Brewers come from behind to win Game 2 and take a 2-0 World Series lead",
+            "url": "https://www.cnn.com/2026/10/25/sport/live-news/world-series-game-2",
+            "published": "2026-10-25"
+          },
+          {
+            "outlet": "MLB.com",
+            "title": "Brewers win World Series Game 2",
+            "url": "https://www.mlb.com/news/brewers-win-world-series-game-2-2026",
+            "published": "2026-10-25"
+          },
+          {
+            "outlet": "ESPN",
+            "title": "Brewers take 2-0 World Series lead! Takeaways from Milwaukee's Game 2 win",
+            "url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways",
+            "published": "2026-10-25"
+          },
+          {
+            "outlet": "WSAW",
+            "title": "Brewers defeat Rays in Game 2 of World Series",
+            "url": "https://www.wsaw.com/2026/10/25/brewers-defeat-rays-game-2-world-series/",
+            "published": "2026-10-25"
           }
         ]
       }
