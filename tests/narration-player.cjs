@@ -6,10 +6,10 @@ process.stdin.on('data', chunk => source += chunk);
 process.stdin.on('end', async () => {
   const block = source.slice(source.indexOf('  // ---------------------------------------------------------------- read aloud'), source.indexOf('  const main = $(".issue");'));
   function setup({saved = {}, key = 'paper-2026-10-24', audio = true, speechAvailable = true, twoCards = false} = {}) {
-    const events = {}, utterances = [], audios = [];
+    const events = {}, utterances = [], audios = [], scrolls = [];
     const node = () => ({attrs:{}, hidden:false, textContent:'', lastChild:{}, handlers:{},
       setAttribute(k,v){this.attrs[k]=v;}, addEventListener(k,fn){this.handlers[k]=fn;},
-      getBoundingClientRect(){return {top:500,bottom:530};},
+      getBoundingClientRect(){return {top:500,bottom:530,height:30};},
       classList:{add(){},remove(){}}, insertAdjacentHTML(){}});
     const words = ['Original headline.', 'Easier headline.', 'Body.'].map((textContent,index) => {
       const n = node(); n.textContent=textContent; n.hidden=index===1;
@@ -21,8 +21,8 @@ process.stdin.on('end', async () => {
     const button = node(); button.closest=()=>card;
     const easy = {on:false,getAttribute(){return String(this.on);}};
     const player=node(), prompt=node(), range=node(); prompt.hidden=true;
-    const controls = Object.fromEntries(['toggle','restart','close','previous','next','follow'].map(k=>[`[data-listen=${k}]`,node()]));
-    const playerNodes={...controls,input:range,'.listen-time':node(),'.listen-title':node(),'.listen-status':node()};
+    const controls = Object.fromEntries(['toggle','restart','close','previous','next','follow','auto-follow'].map(k=>[`[data-listen=${k}]`,node()]));
+    const playerNodes={...controls,input:range,'.listen-time':node(),'.listen-title':node(),'.listen-status':node(),'.listen-more':node()};
     const tracks={'0':{original:{src:'original.mp3',segments:[{index:0,start:0,end:1},{index:2,start:1,end:2}]},
       easy:{src:'easy.mp3',segments:[{index:1,start:0,end:1},{index:2,start:1,end:2}]}}};
     if(twoCards) tracks['1']={original:{...tracks['0'].original,src:'second.mp3'}};
@@ -32,9 +32,9 @@ process.stdin.on('end', async () => {
       pause(){this.paused=true;} load(){} removeAttribute(){}
     }
     const speech={getVoices:()=>[],cancel(){},speak(u){utterances.push(u);}};
-    const ctx={assert, Audio:audio?Audio:undefined, utterances,audios,card,cards,button,easy,words,events,player,range,controls,prompt,saved,
+    const ctx={assert, Audio:audio?Audio:undefined, utterances,audios,scrolls,card,cards,button,easy,words,events,player,range,controls,prompt,saved,
       SpeechSynthesisUtterance:function(text){this.text=text;},location:{pathname:'/play/paper/2026-10-24.html'},
-      window:{...(speechAvailable?{speechSynthesis:speech}:{}),innerHeight:800,scrollY:50,scrollTo(){},scrollBy(){},addEventListener(k,fn){events[k]=fn;}},navigator:{},
+      window:{...(speechAvailable?{speechSynthesis:speech}:{}),innerHeight:800,scrollY:50,scrollTo(){},scrollBy(opts){scrolls.push(opts);},addEventListener(k,fn){events[k]=fn;}},navigator:{},
       document:{body:node(),addEventListener(k,fn){events[k]=fn;}},
       store:{get:(k,d)=>k==='rate'?1.2:k==='listening'?saved:d,set(k,v){if(k==='listening'){Object.keys(saved).forEach(k=>delete saved[k]);Object.assign(saved,v);}}},
       award(){},calm:()=>true,
@@ -79,12 +79,19 @@ process.stdin.on('end', async () => {
   run(setup(),`readCard(card,button);audios[0].onloadedmetadata();toggleListening();
     range.handlers.change({target:{value:'1.2'}});assert.equal(audios[0].paused,true);
     assert.equal(saved['paper-2026-10-24'].time,1.2);assert.equal(words[2].marked,true);`);
-  // Sentence controls stay paused when skipping, and manual scrolling disables following until requested.
+  // Sentence controls stay paused; only the explicit follow toggle disables text following.
   run(setup(),`readCard(card,button);audios[0].onloadedmetadata();toggleListening();skipSentence(1);
     assert.equal(audios[0].currentTime,1);assert.equal(audios[0].paused,true);assert.equal(words[2].marked,true);
-    events.touchmove({target:{closest(){return null;}}});assert.equal(listening.follow,false);
+    assert.equal(events.wheel,undefined);assert.equal(events.touchmove,undefined);
+    controls['[data-listen=auto-follow]'].handlers.click();assert.equal(listening.follow,false);
     controls['[data-listen=follow]'].handlers.click();assert.equal(listening.follow,true);
     skipSentence(-1);assert.equal(audios[0].currentTime,0);`);
+  // Offscreen text is brought above the player on desktop, including when playback resumes.
+  run(setup(),`words[0].getBoundingClientRect=()=>({top:900,bottom:930,height:30});readCard(card,button);audios[0].onloadedmetadata();
+    audios[0].ontimeupdate();assert(scrolls.some(s=>s.top>0));toggleListening();scrolls.length=0;
+    toggleListening();assert(scrolls.some(s=>s.top>0));
+    controls['[data-listen=auto-follow]'].handlers.click();scrolls.length=0;highlight(words[0]);assert.equal(scrolls.length,0);
+    controls['[data-listen=follow]'].handlers.click();assert(scrolls.some(s=>s.top>0));`);
   // Whole-edition playback reuses the audio element across sections and stops at the end.
   run(setup({twoCards:true}),`readCard(card,button,true,true);audios[0].onloadedmetadata();listening.follow=false;audios[0].onended();assert.equal(listening.follow,false);
     assert.equal(reading,cards[1]);assert.equal(audios.length,1);assert.equal(audios[0].src,'second.mp3');
