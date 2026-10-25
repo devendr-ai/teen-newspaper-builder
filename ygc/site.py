@@ -165,6 +165,7 @@ nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:4px 18px}nav a{font-weight:
 .agebar .count{color:var(--muted);font-size:.86rem}
 .agebar .more{margin-left:auto;font:inherit;font-size:.92rem;font-weight:700;color:var(--cyan);background:none;border:0;cursor:pointer;padding:6px 0}
 .agebar .more::after{content:" ▾"}.agebar .more[aria-expanded="true"]::after{content:" ▴"}
+@media (max-width:699px){.agebar{position:static}}
 @media (max-width:640px){.agebar .lbl{width:100%}.seg{flex:1 1 100%}.seg button{flex:1;padding:7px 4px}.agebar .more{margin-left:auto}}
 .filters{display:grid;gap:10px;margin:0 0 16px}.frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .frow span{color:var(--muted);font-size:.9rem;min-width:84px}
