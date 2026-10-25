@@ -1873,7 +1873,11 @@ JS = r"""
     const done = store.get("read", []);                      // papers read on this device
     $$(".tile").forEach((t) => { if (done.includes(t.dataset.key)) $(".done", t).hidden = false; });
     document.addEventListener("click", (e) => {             // the chips open "My reading" with the badges
-      if (e.target.closest(".chip")) { const d = $("#badges details"); if (d) d.open = true; }
+      const chip = e.target.closest(".chip");
+      if (chip) {
+        if (grownUp() && chip.getAttribute('href') === '#badges') corner('badges');
+        const d = $("#badges details"); if (d) d.open = true;
+      }
     });
     lobbyNavigation();
     return;
