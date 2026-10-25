@@ -97,5 +97,9 @@ process.stdin.on('end', async () => {
     assert.equal(reading,cards[1]);assert.equal(audios.length,1);assert.equal(audios[0].src,'second.mp3');
     audios[0].onloadedmetadata();audios[0].currentTime=1;audios[0].ontimeupdate();assert.equal(saved['paper-2026-10-24'].edition,true);
     audios[0].onended();assert.equal(reading,null);assert.equal(saved['paper-2026-10-24'],undefined);`);
+  // A parent reset stops audio without putting the old listening position back on pagehide.
+  run(setup(),`readCard(card,button);audios[0].onloadedmetadata();audios[0].currentTime=1;audios[0].ontimeupdate();
+    delete saved['paper-2026-10-24'];events['rp-reading-reset']();events.pagehide();
+    assert.equal(audios[0].paused,true);assert.equal(saved['paper-2026-10-24'],undefined);`);
   console.log('Narration: pause/resume, progress, seeking, persistence, edition/version isolation, completion, fallback, and cancellation passed');
 });
