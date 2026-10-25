@@ -25,6 +25,14 @@ def test_every_page_gets_preview_tags_and_the_site_gets_a_sitemap_robots_and_404
         assert p.read_text(encoding="utf-8").count('property="og:title"') == 1, p
 
     date = real(edition.load("little-explorers"))[0][0]
+    # Sharing goes to a dated, independently printable edition, not a moving latest alias.
+    landing = (out / "e" / "little-explorers" / f"{date}.html").read_text(encoding="utf-8")
+    assert f'href="e/little-explorers/{date}.html"' in home
+    assert 'aria-label="Share this edition"' in home
+    assert 'Ages 6–8' in landing and date[:4] in landing
+    assert f'href="{date}.pdf"' in landing and 'Preview this paper (PDF)' in landing
+    assert 'latest.pdf' not in landing and f'{date}.png' in landing
+    assert 'Print this paper' in landing and 'data-share-title=' in landing
     issue = (out / "play" / "little-explorers" / f"{date}.html").read_text(encoding="utf-8")
     head = json.load(open(real(edition.load("little-explorers"))[0][1], encoding="utf-8"))["blocks"]
     lead = next(head[b]["headline"] for b in edition.story_blocks(edition.load("little-explorers")) if b in head)
@@ -40,6 +48,19 @@ def test_every_page_gets_preview_tags_and_the_site_gets_a_sitemap_robots_and_404
     lost = (out / "404.html").read_text(encoding="utf-8")       # served at any address, so its links start at the root
     assert "We can't find that page" in lost and 'href="/index.html"' in lost and 'href="/play/index.html"' in lost
     assert 'rel="canonical"' not in lost
+
+
+def test_edition_sharing_native_copy_and_manual_fallback():
+    import shutil
+    import subprocess
+    from pathlib import Path
+    import pytest
+    node = shutil.which('node')
+    if not node:
+        pytest.skip('Node.js needed for sharing behavior checks')
+    result = subprocess.run([node, str(Path(__file__).with_name('share-edition.cjs'))],
+                            input=site.SHARE_SCRIPT, text=True, capture_output=True)
+    assert result.returncode == 0, result.stdout + result.stderr
 
 
 def test_a_stories_picture_has_its_map_and_still_works_without_one(tmp_path):
