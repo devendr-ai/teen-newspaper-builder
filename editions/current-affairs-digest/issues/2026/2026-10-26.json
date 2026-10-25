@@ -1,0 +1,658 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-26",
+  "volume": 1,
+  "issue": 15,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Riyadh's Airport Reopens as Iran Claims Tankers Were Hit at Hormuz",
+      "deck": "Two terminals restart under Houthi threat, while unconfirmed reports of ship strikes add to oil's jitters.",
+      "body": [
+        "Saudi Arabia reopened Terminals 1 and 2 at King Khalid International Airport in Riyadh on Sunday 25 October, for domestic and international flights. Houthi strikes had put the airport out of service for more than two weeks. The Houthis are an armed group from Yemen, Saudi Arabia's southern neighbour. Flight-tracking data showed air traffic remained limited despite the reopening.",
+        "The danger did not end with the reopening. Saudi military spokesman Maj. Gen. Turki al-Malki said forces intercepted and destroyed a Houthi-fired ballistic missile and a drone. Houthi spokesperson Yahya Saree warned airlines, airport staff and passengers that the airport was a military target and unsafe to use. Each side's claim is a statement by a party to the conflict, not independent confirmation.",
+        "The same tension has spread to sea. Iran's Revolutionary Guard Navy said two supertankers carrying a combined more than 4.5 million barrels of crude hit naval mines in the Strait of Hormuz on 24 October. Earlier, Iran claimed seven tankers were struck overnight. No maritime authority has confirmed either claim, though the UK Maritime Trade Operations Centre did say one tanker leaving the strait was struck by an unknown projectile.",
+        "Washington disputes Iran's account. President Trump accused Iran of fabricating attack reports to drive up oil prices before the US midterm elections. Whoever is right, the reports reach the market: the Economy page shows how oil and prices are moving."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "The narrow sea route linking the Persian Gulf to the Gulf of Oman",
+        "caption": "Iran says tankers were hit here; no authority has confirmed it."
+      },
+      "why": "Much of the world's oil passes through Hormuz and Saudi Arabia is a major exporter, so danger to either shows up in fuel prices that India, as an importer, pays.",
+      "sources": [
+        {
+          "outlet": "Korea Times",
+          "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+          "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Riyadh reopens its international airport as attacks by Iran-backed Houthis persist",
+          "url": "https://www.timesofisrael.com/liveblog_entry/riyadh-reopens-its-international-airport-as-attacks-by-iran-backed-houthis-persist/"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "Saudi Arabia partly reopens Riyadh airport despite renewed Houthi threats",
+          "url": "https://www.tribuneindia.com/news/world/saudi-arabia-partly-reopens-riyadh-airport-despite-renewed-houthi-threats"
+        },
+        {
+          "outlet": "Gulf News",
+          "title": "Middle East Tensions Escalate: US Prepares Strikes on Iran Amid Houthi Missile Threats and Tanker Attacks",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804"
+        },
+        {
+          "outlet": "SOFX",
+          "title": "Iran Says Seven Tankers Were Hit Near Strait of Hormuz, Threatens U.S. Bases",
+          "url": "https://www.sofx.com/iran-says-seven-tankers-were-hit-near-strait-of-hormuz-threatens-u-s-bases/"
+        },
+        {
+          "outlet": "Straits Daily Brief",
+          "title": "Strait of Hormuz News, October 24, 2026",
+          "url": "https://straits.live/briefs/2026-10-24"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+      "deck": "The first talks between Russia, Ukraine and the US since February would begin after 10 November.",
+      "body": [
+        "Russia has agreed in principle to restart three-way talks with Ukraine and the United States, said Yuri Ushakov, a foreign affairs adviser to President Putin. He said the talks would resume after 10 November. They would be the first three-way negotiations since February, and Ushakov said they would focus on building a security system for Russia and Ukraine after the conflict ends.",
+        "The agreement followed a round of meetings. US envoy Steve Witkoff met Putin in St. Petersburg for about three hours, a day after meeting Ukraine's President Zelensky and some European leaders in Oslo. Ushakov called the Oslo proposals of little real value, though he later said they were a step in the right direction.",
+        "Kyiv's position is firm. Zelensky said he supports the push from Washington to restart talks swiftly, but insists only a meeting of leaders can break the impasse. Earlier rounds in Abu Dhabi and Geneva produced little reported progress beyond prisoner exchanges, and fighting continues with daily long-range strikes by both sides.",
+        "Why would both sides talk now? The reports do not say, but they show what each wants. Moscow frames the talks around a post-war security system for Russia and Ukraine. Kyiv wants a leaders' summit, not another round of officials. Washington, through Witkoff's shuttle between Oslo and St. Petersburg, is pushing for quick progress. Until a date is fixed, the outcome depends on whether the three can agree what the talks are for.",
+        "For readers, the lesson is to separate agreement to talk from agreement on terms. Ushakov said the plan is for talks after 10 November; he did not say a deal is close. Earlier rounds in Abu Dhabi and Geneva ended with prisoner exchanges and little else, so the new round will be judged by whether it produces more than that."
+      ],
+      "illustration": {
+        "title": "TALKS ON THE TABLE",
+        "subtitle": "No deal yet",
+        "motif": "podium",
+        "caption": "Talks are due to restart after 10 November."
+      },
+      "connect": "Geography: earlier rounds were held in Abu Dhabi and Geneva, and Witkoff also met Putin in St. Petersburg and Zelensky in Oslo. Diplomacy here is shuttle work between capitals, with an envoy carrying proposals between parties that have not yet sat down together.",
+      "sources": [
+        {
+          "outlet": "Inquirer",
+          "title": "Putin agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+          "url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+          "url": "https://www.pbs.org/newshour/amp/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Putin agrees to resume talks on Ukraine war with Kyiv and Washington, Kremlin says",
+          "url": "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Cyclone Arnab Is Due to Cross the Andhra Pradesh Coast on 28 October",
+      "deck": "Red alerts, shut schools and nearly 30,000 boats ashore as the coast prepares.",
+      "body": [
+        "Cyclone Arnab is forecast to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam around the forenoon of 28 October. The India Meteorological Department (IMD) expects sustained winds of 115–125 kmph, with gusts up to 140 kmph, but warns that the track and intensity may still change.",
+        "The IMD has issued red alerts, its highest warning level, across Andhra Pradesh, Tamil Nadu, Kerala and Odisha, with extremely heavy rain expected in parts of coastal Andhra Pradesh on 27 and 28 October. Reports list red alerts for heavy rain in 11 districts of Andhra Pradesh, five in Odisha, four in Chhattisgarh and four in Telangana.",
+        "Preparations are well under way. Fishermen are strictly barred from the sea: of 30,043 fishing boats in Andhra Pradesh, 29,952 had returned to their landing centres by a report published on 24 October, with 91 still heading in. In Odisha, schools, colleges and Anganwadi centres in five districts stay closed on 28 and 29 October, and Ganjam has 100 cyclone shelters ready with 1,000 temporary locations identified. The chief minister has directed that people in vulnerable areas, especially the elderly, patients and pregnant women, be moved to safer places.",
+        "Cyclone warnings follow a simple logic: the earlier people move, the fewer are at risk. The measures reported so far fit that logic. Boats are ashore, fishermen are barred from the sea, schools are shut, and shelters are ready. Because the forecast track and strength could still change, the IMD's estimate is a forecast, not a promise, and the picture may shift before 28 October.",
+        "The IMD also forecasts heavy to very heavy rain across Odisha from 27 to 29 October, even though the crossing is expected on the Andhra coast. That is why alerts reach states far from the likely crossing point."
+      ],
+      "illustration": {
+        "title": "BAY OF BENGAL STORM",
+        "subtitle": "Arnab nears Andhra",
+        "motif": "flood",
+        "caption": "Red alerts cover several states."
+      },
+      "why": "Early warnings, boats called ashore and moving people to shelters are what keep casualties low when a cyclone strikes, which is the stated aim of the state governments.",
+      "sources": [
+        {
+          "outlet": "Deccan Herald",
+          "title": "Cyclone 'Arnab' to make landfall on Andhra Pradesh coast; check which other states get affected",
+          "url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585"
+        },
+        {
+          "outlet": "India.com",
+          "title": "Cyclone Arnab Update: Odisha CM Mohan Charan Majhi targets zero casualties, red alert issued for six districts",
+          "url": "https://www.india.com/news/india/cyclone-arnab-mohan-charan-majhi-odisha-cm-red-alert-bay-of-bengal-imd-weather-update-puri-gajapati-ganjam-rayagada-koraput-malkangiri-8538983/"
+        },
+        {
+          "outlet": "Odisha TV",
+          "title": "Odisha Cyclone News LIVE: Cyclone 'Arnab' likely to hit Andhra coast on October 28, Odisha on alert",
+          "url": "https://odishatv.in/weather/odisha-cyclone-news-live-storm-likely-to-hit-coast-on-october-28-state-gov-assures-preparedness-12741457"
+        },
+        {
+          "outlet": "Shafaqna India",
+          "title": "Odisha Intensifies Evacuation Efforts as Cyclone Arnab Nears Andhra Coast",
+          "url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  SERBIA",
+      "headline": "Serbia Votes in a Snap Election as Students Challenge Vucic",
+      "deck": "Turnout was reported as the highest since 1992 in a contest that doubles as a test of a protest movement.",
+      "body": [
+        "Serbians voted on Sunday 25 October in a snap parliamentary election, one called before the normal end of a parliament's term. Some 6.4 million voters chose among 18 parties hoping to enter the 250-member Parliament. President Aleksandar Vucic resigned the presidency in September to run again, this time for prime minister, who in Serbia heads the government.",
+        "The main challenge comes from a list backed by a student movement, led by cardiologist Ilija Srdanovic. The movement grew out of protests over the November 2024 collapse of a railway station canopy in Novi Sad that killed 16 people. Vucic has called the movement a foreign-funded coup attempt, which the students reject.",
+        "Pollsters CeSID and Ipsos put turnout at 67.6% by 7 p.m., described as the highest since 1992. Commentators had suggested that a final turnout of 65% or more would favour the students. The official results were not available in the sources used for this edition, so who won is not yet known.",
+        "Both sides had much to gain. Vucic was seeking a return to power in a new role. The students, whose movement grew out of the canopy collapse, were trying to turn months of protest into seats in Parliament. Which of them won was not known when this edition was prepared.",
+        "In a parliamentary system like Serbia's, voters elect parliament, and the party or coalition that can command a majority forms the government. That is why Vucic, having left the presidency, is seeking the post of prime minister. The result, once counted, will show whether the students' list or the Progressive Party has the stronger claim to that role."
+      ],
+      "illustration": {
+        "title": "SERBIA DECIDES",
+        "subtitle": "A snap vote for 250 seats",
+        "motif": "ballot",
+        "caption": "Official results were still awaited."
+      },
+      "why": "The vote tests whether street protest can turn into votes, and who governs Serbia affects its path towards European Union membership.",
+      "sources": [
+        {
+          "outlet": "rferl.org",
+          "title": "Serbia Votes In Snap Parliament Election As Vucic Faces Stiff Challenge From Student-Led Protests",
+          "url": "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+          "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement"
+        },
+        {
+          "outlet": "US News",
+          "title": "Serbia Votes in Historic Election as Students Seek to End Vucic's Long Grip on Power",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
+        },
+        {
+          "outlet": "RTE",
+          "title": "Serbia votes as students seek to end Vucic's long grip",
+          "url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Early reports suggest record high turnout in Serbia elections",
+          "url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  PRICES",
+      "headline": "India's Prices Rose 5.54% in September After the RBI Raised Its Rate",
+      "deck": "Food prices rose 7.74%, and the central bank says further rate cuts are no longer appropriate.",
+      "body": [
+        "India's consumer price index, which tracks what households pay, was 5.54% higher in September than a year earlier. That is up from a revised 4.83% in August. Food inflation was higher still at 7.74%.",
+        "The Reserve Bank of India (RBI) had already acted. On 7 October it raised the repo rate, the rate at which it lends to banks, by 25 basis points from 5.25% to 5.50%. A basis point is one hundredth of a percentage point. The RBI said near-term rate cuts were no longer appropriate, and its next policy decision is listed for 4 December 2026.",
+        "India is not alone. In the UK, consumer prices rose 3.5% in the year to September, up from 3.1% in August, driven by a surge in petrol and diesel costs. The Bank of England's rate is 3.75% and a rise is being considered. Brent crude, the global oil benchmark, settled at $116.72 a barrel on 23 October, which is the cost pressure behind both.",
+        "Markets are watching the gap between a price and a physical shortage. Brent finished the week up about 6%, driven by Houthi attacks on Saudi Arabia. But physical supply losses are not confirmed, and one analysis says the price reflects the probability of disruption rather than missing barrels. In other words, fear of a shortage can raise what you pay before any shortage exists.",
+        "In the UK, the pressure shows in policy. Markets are pricing in four rate increases with no cuts, a forecast that ING's James Smith considers unlikely. In India, food prices rose 7.74%, much faster than the overall 5.54%."
+      ],
+      "chart": {
+        "title": "HOW FAST PRICES ARE RISING",
+        "subtitle": "Annual consumer price inflation, %",
+        "labels": [
+          "India, Aug",
+          "India, Sep",
+          "UK, Sep"
+        ],
+        "values": [
+          4.83,
+          5.54,
+          3.5
+        ],
+        "max": 7,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "India's August figure is a revised one. Sources: Bloomberg, ONS."
+      },
+      "why": "When prices rise faster than wages, money buys less, and higher interest rates make loans for homes and businesses dearer.",
+      "analyst": "Why might raising interest rates slow price rises? Who gains and who loses when loans become dearer? Why might food prices matter more to poorer households?",
+      "sources": [
+        {
+          "outlet": "oilprice.com",
+          "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html"
+        },
+        {
+          "outlet": "The Star",
+          "title": "Middle East mayhem: Oil prices jump US$3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+        },
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "Discovery Alert",
+          "title": "Houthi Attacks on Saudi Arabia Lift Brent, but No Barrels Are Lost",
+          "url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "India inflation jumps to 5.54% in September, strengthening case for further rate hikes",
+          "url": "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+        },
+        {
+          "outlet": "Rio Times",
+          "title": "India's Rate Hike to 5.5% and What It Means",
+          "url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+        },
+        {
+          "outlet": "The British Eye",
+          "title": "UK Interest Rate Forecasts Face Doubts as Markets Price in Four Hikes",
+          "url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Europe's Euclid Telescope Discovers a New Comet",
+      "deck": "The telescope's first comet find sits about 1.3 billion km from Earth.",
+      "body": [
+        "The European Space Agency's Euclid telescope has found a comet nobody knew about, now called C/2026 S1 (Euclid). Euclid took its images between 16 and 24 September 2026, and ESA announced the find around 19 October.",
+        "The discovery began with software. Mikko Pontinen of the University of Helsinki used his own program, which flags fast-moving objects that appear as streaks, to detect it. Checks against catalogues of known comets and asteroids found no match, so he reported it to the Minor Planet Center, which confirmed it as a comet on 8 October. Ground-based follow-up observations confirmed its identity.",
+        "The comet is about 1.3 billion km from Earth and is a long-period comet, with an orbit lasting thousands of years. ESA says the find shows Euclid can spot comets while they are still far from the Sun, which could help find future targets for its Comet Interceptor mission, though this comet is unsuitable for that mission.",
+        "Why does the distance matter? The images behind the find were taken between 16 and 24 September, and the comet was confirmed on 8 October.",
+        "The find also shows how modern astronomy works. A researcher wrote software to hunt for streaks, an international body checked the object against its catalogues, and telescopes on the ground confirmed it. Each step is a check that stops a mistake becoming a headline."
+      ],
+      "illustration": {
+        "title": "A COMET FROM EUCLID",
+        "subtitle": "Found 1.3 billion km away",
+        "motif": "rocket",
+        "caption": "C/2026 S1 (Euclid), confirmed on 8 October."
+      },
+      "why": "Spotting a comet far from the Sun gives astronomers more time to study it, and shows that a telescope built for one job can make unexpected discoveries.",
+      "sources": [
+        {
+          "outlet": "ESA",
+          "title": "Euclid discovers new comet",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+        },
+        {
+          "outlet": "Phys.org",
+          "title": "Euclid discovers its first new comet 810 million miles from Earth",
+          "url": "https://phys.org/news/2026-10-euclid-comet-million-miles-earth.html"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United Kingdom: Chancellor John Healey delivers the Autumn Budget on Wednesday 28 October, the first of Prime Minister Andy Burnham's government.",
+        "United States: Georgia passed 1 million early votes, against almost 895,000 at the same point in 2022, ahead of Election Day on 3 November.",
+        "North Korea: Kim Jong Un crossed the new New Yalu River Bridge into Dandong, China, on 24 October, his first China trip in about a year.",
+        "Albania: Student-led protests that began in Tirana on 13 October now call for Prime Minister Edi Rama to resign."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Repo rate",
+          "def": "The interest rate at which a central bank lends money to commercial banks. Today: the RBI raised India's repo rate from 5.25% to 5.50%."
+        },
+        {
+          "word": "Snap election",
+          "def": "An election called earlier than required. Today: Serbia held a snap parliamentary election on 25 October."
+        },
+        {
+          "word": "Trilateral",
+          "def": "Involving three parties. Today: Putin agreed in principle to restart trilateral talks with Ukraine and the United States."
+        },
+        {
+          "word": "Long-period comet",
+          "def": "A comet whose orbit around the Sun takes a very long time to complete. Today: comet C/2026 S1 (Euclid) has an orbit lasting thousands of years."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The comet Euclid found is about 1.3 billion km from Earth, yet it was spotted by software searching for fast-moving streaks in the telescope's images."
+    },
+    "explainer": {
+      "title": "What the repo rate does",
+      "body": [
+        "A central bank is the institution that manages a country's money and interest rates. In India it is the Reserve Bank of India. The repo rate is the rate at which it lends to banks, and it sets the base for the interest rates that banks charge everyone else.",
+        "When prices rise too fast, a central bank can raise the repo rate. Loans become dearer, people and firms borrow and spend less, and price rises tend to slow. This week the RBI raised the rate from 5.25% to 5.50% after inflation reached 5.54% in September.",
+        "The tool has limits. Interest rates act slowly, and they cannot lower the price of oil. When prices rise because of a supply scare in the Gulf rather than because people are spending too much, a higher rate can slow the economy without fixing the cause. That is the trade-off the RBI faces, and why it described its next steps as a pause or another rise, depending on inflation and financial conditions."
+      ],
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "India inflation jumps to 5.54% in September, strengthening case for further rate hikes",
+          "url": "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+        },
+        {
+          "outlet": "Rio Times",
+          "title": "India's Rate Hike to 5.5% and What It Means",
+          "url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> Which two terminals reopened at Riyadh's King Khalid International Airport?",
+        "(a) Terminals 3 and 4  (b) Terminals 1 and 2  (c) Terminals 2 and 3",
+        "<b>2.</b> Around when is Cyclone Arnab forecast to cross the coast?",
+        "(a) 26 October  (b) 28 October  (c) 30 October",
+        "<b>3.</b> How many seats does Serbia's Parliament have?",
+        "(a) 150  (b) 250  (c) 350",
+        "<b>4.</b> By how much did India's consumer prices rise in September?",
+        "(a) 4.83%  (b) 5.54%  (c) 7.74%",
+        "<b>5.</b> What did the RBI raise the repo rate to?",
+        "(a) 5.25%  (b) 5.50%  (c) 6.00%",
+        "<b>6.</b> What is the new comet found by Euclid called?",
+        "(a) C/2026 S1 (Euclid)  (b) Arnab  (c) C/2026 A1 (MAPS)",
+        "<b>7.</b> After which date would the three-way Ukraine talks restart?",
+        "(a) 10 November  (b) 28 October  (c) 3 November",
+        "<b>8.</b> Who delivers the UK Autumn Budget on 28 October?",
+        "(a) Andy Burnham  (b) John Healey  (c) Edi Rama",
+        "<b>Answers:</b> 1 b, 2 b, 3 b, 4 b, 5 b, 6 a, 7 a, 8 b."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Serbia's official election result.",
+        "Cyclone Arnab's crossing of the Andhra Pradesh coast on 28 October.",
+        "The UK Autumn Budget on 28 October."
+      ]
+    }
+  },
+  "sources": [
+    "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/",
+    "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html",
+    "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804",
+    "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/",
+    "https://odishatv.in/weather/odisha-cyclone-news-live-storm-likely-to-hit-coast-on-october-28-state-gov-assures-preparedness-12741457",
+    "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+    "https://phys.org/news/2026-10-euclid-comet-million-miles-earth.html",
+    "https://straits.live/briefs/2026-10-24",
+    "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes",
+    "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994",
+    "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+    "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+    "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585",
+    "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+    "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+    "https://www.india.com/news/india/cyclone-arnab-mohan-charan-majhi-odisha-cm-red-alert-bay-of-bengal-imd-weather-update-puri-gajapati-ganjam-rayagada-koraput-malkangiri-8538983/",
+    "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html",
+    "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist",
+    "https://www.pbs.org/newshour/amp/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+    "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html",
+    "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/",
+    "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/",
+    "https://www.sofx.com/iran-says-seven-tankers-were-hit-near-strait-of-hormuz-threatens-u-s-bases/",
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april",
+    "https://www.timesofisrael.com/liveblog_entry/riyadh-reopens-its-international-airport-as-attacks-by-iran-backed-houthis-persist/",
+    "https://www.tribuneindia.com/news/world/saudi-arabia-partly-reopens-riyadh-airport-despite-renewed-houthi-threats",
+    "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election",
+    "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which two terminals reopened at Riyadh's airport?",
+        "options": [
+          "Terminals 3 and 4",
+          "Terminals 1 and 2",
+          "Terminals 2 and 3"
+        ],
+        "answer": 1,
+        "why": "The paper says Terminals 1 and 2 reopened on 25 October.",
+        "story": "lead"
+      },
+      {
+        "q": "Who said the three-way Ukraine talks would restart after 10 November?",
+        "options": [
+          "Yuri Ushakov",
+          "Steve Witkoff",
+          "Edi Rama"
+        ],
+        "answer": 0,
+        "why": "Putin's adviser Yuri Ushakov said so.",
+        "story": "world"
+      },
+      {
+        "q": "Around when is Cyclone Arnab forecast to cross the coast?",
+        "options": [
+          "26 October",
+          "28 October",
+          "30 October"
+        ],
+        "answer": 1,
+        "why": "The forecast is the forenoon of 28 October.",
+        "story": "india"
+      },
+      {
+        "q": "How many seats are in Serbia's Parliament?",
+        "options": [
+          "150",
+          "350",
+          "250"
+        ],
+        "answer": 2,
+        "why": "The paper says the 250-member Parliament.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "By how much did India's consumer prices rise in September?",
+        "options": [
+          "5.54%",
+          "4.83%",
+          "7.74%"
+        ],
+        "answer": 0,
+        "why": "The paper says 5.54% higher than a year earlier.",
+        "story": "economics"
+      },
+      {
+        "q": "What did the RBI raise the repo rate to on 7 October?",
+        "options": [
+          "5.25%",
+          "6.00%",
+          "5.50%"
+        ],
+        "answer": 2,
+        "why": "It rose from 5.25% to 5.50%.",
+        "story": "economics"
+      },
+      {
+        "q": "What is the name of the comet Euclid found?",
+        "options": [
+          "C/2026 A1 (MAPS)",
+          "C/2026 S1 (Euclid)",
+          "Arnab"
+        ],
+        "answer": 1,
+        "why": "It is called C/2026 S1 (Euclid).",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "How far from Earth is the new comet?",
+        "options": [
+          "About 1.3 billion km",
+          "About 13 million km",
+          "About 130,000 km"
+        ],
+        "answer": 0,
+        "why": "The paper says about 1.3 billion km.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Houthi strikes had put Riyadh's airport out of service for more than two weeks before it partly reopened.",
+        "true": true,
+        "why": "The paper says more than two weeks.",
+        "story": "lead"
+      },
+      {
+        "claim": "Iran's claims of tanker strikes in the Strait of Hormuz have been confirmed by a maritime authority.",
+        "true": false,
+        "why": "No maritime authority has confirmed them.",
+        "story": "lead"
+      },
+      {
+        "claim": "Serbia's student movement grew out of protests over the collapse of a railway station canopy in Novi Sad.",
+        "true": true,
+        "why": "The canopy collapsed in November 2024 and killed 16 people.",
+        "story": "politics_and_civics"
+      },
+      {
+        "claim": "Euclid's new comet has an orbit that lasts only a few weeks.",
+        "true": false,
+        "why": "It is a long-period comet with an orbit lasting thousands of years.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "St. Petersburg",
+        "lat": 59.93,
+        "lon": 30.34,
+        "countries": [
+          "Russia",
+          "Ukraine",
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Belgrade",
+        "lat": 44.79,
+        "lon": 20.45,
+        "countries": [
+          "Serbia"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India",
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Helsinki",
+        "lat": 60.17,
+        "lon": 24.94,
+        "countries": [
+          "Finland"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "economics",
+        "q": "By what percentage were India's consumer prices higher in September than a year earlier?",
+        "answer": 5.54,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 10,
+        "why": "It was up from a revised 4.83% in August."
+      },
+      {
+        "story": "politics_and_civics",
+        "q": "How many voters could choose among 18 parties in Serbia, in millions?",
+        "answer": 6.4,
+        "prefix": "",
+        "unit": "million",
+        "min": 1,
+        "max": 12,
+        "why": "Serbia has 6.4 million voters."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Riyadh's Airport Opens Again, But Danger Remains",
+        "body": [
+          "Riyadh is the capital of Saudi Arabia. Its main airport was shut for more than two weeks after attacks. On Sunday 25 October, two terminals opened again.",
+          "The attacks came from the Houthis, an armed group in Yemen. Saudi forces said they stopped a missile and a drone. The Houthis warned that the airport was unsafe.",
+          "Iran also said tankers were hit near the Strait of Hormuz, a sea route for oil. No authority has confirmed this."
+        ]
+      },
+      "world": {
+        "headline": "Russia Agrees to Talks on Ukraine",
+        "body": [
+          "Russia has agreed in principle to talks with Ukraine and the United States. They would start after 10 November.",
+          "The last talks of this kind were in February. Ukraine's leader says only a meeting of leaders can end the deadlock.",
+          "Fighting still goes on while people plan the talks. Earlier talks in Abu Dhabi and Geneva led to little more than exchanges of prisoners."
+        ]
+      },
+      "india": {
+        "headline": "A Cyclone Is Coming to Andhra Pradesh",
+        "body": [
+          "Cyclone Arnab is a big storm over the Bay of Bengal. It should reach the coast of Andhra Pradesh on 28 October.",
+          "Winds could reach 115 to 125 kmph. Red alerts, the highest warning, are out in several states.",
+          "Fishermen must stay off the sea. In Odisha, schools in five districts will be shut on 28 and 29 October. Many cyclone shelters are ready, and people in risky places are being moved to safer ground."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Serbia Votes in a Snap Election",
+        "body": [
+          "An election called early is a snap election. Serbia held one on Sunday 25 October to choose 250 members of Parliament.",
+          "Students lead one list. They began protesting after a station roof fell in Novi Sad in November 2024 and killed 16 people.",
+          "Many people voted. About two in three had voted by 7 p.m., the highest turnout since 1992. Results were not yet known, so nobody can say who won."
+        ]
+      },
+      "economics": {
+        "headline": "Prices Are Rising Faster in India",
+        "body": [
+          "In September, prices in India were 5.54% higher than a year before. In August the rise was 4.83%.",
+          "The Reserve Bank raised its main interest rate to 5.50% on 7 October. Higher rates make loans cost more, which can slow price rises.",
+          "Dearer oil is one reason. Brent crude was $116.72 a barrel on 23 October. Food prices rose even faster, by 7.74%, which hurts families that spend a lot on food."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Telescope Finds a New Comet",
+        "body": [
+          "A comet is a ball of ice and dust. The European Space Agency's Euclid telescope has found a new one.",
+          "It is called C/2026 S1 (Euclid). It is about 1.3 billion km from Earth.",
+          "Its path round the Sun takes thousands of years. A scientist in Helsinki spotted it with a computer program that looks for fast streaks. Scientists on the ground then checked that it was really a comet."
+        ]
+      }
+    }
+  }
+}
