@@ -608,3 +608,29 @@ test("all-edition dispatch stays below free D1 query limit and caps sends at two
   assert.equal(r.delivery.sent, 2);
   assert.ok(queries < 50, `used ${queries} queries`);
 });
+
+test("resubscribe recovers an unattempted welcome but never repeats a sent paper", async () => {
+  const f = fixture(),
+    sub = await f.subscribe();
+  f.env.DAILY_EMAIL_LIMIT = "1";
+  await f.verify(sub);
+  assert.equal(f.calls.length, 1);
+  await f.req("/api/unsubscribe?token=" + sub.unsubscribe_token, undefined, {
+    origin: null,
+    method: "POST",
+  });
+  f.env.DAILY_EMAIL_LIMIT = "90";
+  const again = await f.subscribe();
+  await f.verify(again);
+  assert.equal(f.calls.length, 3);
+  assert.equal(f.sub().last_sent_issue_date, f.date);
+  await f.req("/api/unsubscribe?token=" + again.unsubscribe_token, undefined, {
+    origin: null,
+    method: "POST",
+  });
+  f.now += 3600001;
+  const third = await f.subscribe();
+  await f.verify(third);
+  assert.equal(f.calls.length, 4);
+  assert.equal(f.calls.filter((c) => c.body.attachments).length, 1);
+});

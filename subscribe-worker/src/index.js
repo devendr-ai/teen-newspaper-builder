@@ -250,7 +250,7 @@ async function unsubscribe(url, env) {
       "UPDATE subscribers SET status='unsubscribed',verify_token=NULL WHERE id=?",
     ).bind(sub.id),
     env.DB.prepare(
-      "UPDATE deliveries SET state='cancelled',last_error='unsubscribed' WHERE subscriber_id=? AND state NOT IN ('sent','cancelled')",
+      "UPDATE deliveries SET state='cancelled',weekend_key=CASE WHEN attempts=0 THEN NULL ELSE weekend_key END,last_error='unsubscribed' WHERE subscriber_id=? AND state NOT IN ('sent','cancelled')",
     ).bind(sub.id),
   ]);
   return page(

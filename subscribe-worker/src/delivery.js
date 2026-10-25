@@ -58,25 +58,36 @@ export async function queueIssue(env, sub, issue, s, { welcome = false } = {}) {
       ? weekendKey(s.now(), env.WEEKEND_TIMEZONE)
       : null;
   if (sub.cadence === "weekly_weekend" && !welcome && !slot) return false;
-  if (
-    await env.DB.prepare(
-      "SELECT id FROM deliveries WHERE subscriber_id=? AND kind='issue' AND issue_date=?",
-    )
-      .bind(sub.id, issue.date)
-      .first()
+  const existing = await env.DB.prepare(
+    "SELECT id,state,attempts FROM deliveries WHERE subscriber_id=? AND kind='issue' AND issue_date=?",
   )
+    .bind(sub.id, issue.date)
+    .first();
+  // A cancelled job which never reached the provider is safe to restart after
+  // re-verification. Attempted/ambiguous jobs always retain their original key.
+  if (existing && !(existing.state === "cancelled" && existing.attempts === 0))
     return false;
   if (
     slot &&
     (await env.DB.prepare(
-      "SELECT id FROM deliveries WHERE subscriber_id=? AND weekend_key=?",
+      "SELECT id FROM deliveries WHERE subscriber_id=? AND weekend_key=? AND id!=?",
     )
-      .bind(sub.id, slot)
+      .bind(sub.id, slot, existing?.id || "")
       .first())
   )
     return false;
   const id = "issue-" + (await hash(`${sub.id}/${issue.date}`)),
     payload = { mail: issueEmail(env, sub, issue), issue };
+  if (existing)
+    return (
+      changes(
+        await env.DB.prepare(
+          "UPDATE deliveries SET state='pending',payload_json=?,weekend_key=?,attachment_sha256=NULL,next_attempt_at=0,last_error=NULL WHERE id=? AND state='cancelled' AND attempts=0",
+        )
+          .bind(JSON.stringify(payload), slot, existing.id)
+          .run(),
+      ) === 1
+    );
   return (
     changes(
       await env.DB.prepare(
@@ -97,7 +108,7 @@ export async function queueIssue(env, sub, issue, s, { welcome = false } = {}) {
 }
 async function cancel(env, id, reason) {
   await env.DB.prepare(
-    "UPDATE deliveries SET state='cancelled',last_error=? WHERE id=? AND state!='sent'",
+    "UPDATE deliveries SET state='cancelled',weekend_key=CASE WHEN attempts=0 THEN NULL ELSE weekend_key END,last_error=? WHERE id=? AND state!='sent'",
   )
     .bind(reason, id)
     .run();
@@ -366,7 +377,7 @@ export async function dispatch(env, s, options = {}) {
         throw Error("deployed_date_mismatch");
       const slot = weekendKey(s.now(), env.WEEKEND_TIMEZONE);
       const rows = await env.DB.prepare(
-        `SELECT s.* FROM subscribers s WHERE s.status='active' AND s.edition_slug=? AND (s.last_sent_issue_date IS NULL OR s.last_sent_issue_date<?) AND (s.cadence='every_issue' OR s.last_sent_issue_date IS NULL OR ? IS NOT NULL) AND NOT EXISTS(SELECT 1 FROM deliveries d WHERE d.subscriber_id=s.id AND d.kind='issue' AND d.issue_date=?) AND (s.cadence!='weekly_weekend' OR NOT EXISTS(SELECT 1 FROM deliveries d WHERE d.subscriber_id=s.id AND d.weekend_key=?)) ORDER BY s.created_at,s.id LIMIT ?`,
+        `SELECT s.* FROM subscribers s WHERE s.status='active' AND s.edition_slug=? AND (s.last_sent_issue_date IS NULL OR s.last_sent_issue_date<?) AND (s.cadence='every_issue' OR s.last_sent_issue_date IS NULL OR ? IS NOT NULL) AND NOT EXISTS(SELECT 1 FROM deliveries d WHERE d.subscriber_id=s.id AND d.kind='issue' AND d.issue_date=? AND NOT(d.state='cancelled' AND d.attempts=0)) AND (s.cadence!='weekly_weekend' OR NOT EXISTS(SELECT 1 FROM deliveries d WHERE d.subscriber_id=s.id AND d.weekend_key=? AND NOT(d.state='cancelled' AND d.attempts=0))) ORDER BY s.created_at,s.id LIMIT ?`,
       )
         .bind(slug, issue.date, slot, issue.date, slot, limit - result.eligible)
         .all();
