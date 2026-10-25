@@ -1606,5 +1606,54 @@
     ]
    }
   ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "premier-league-week8",
+    "headline": "Premier League Weekend: Villa Beat City, Arsenal and Liverpool Win",
+    "what_happened": "In English football's Premier League, Aston Villa beat Manchester City 2-1 and Arsenal beat Everton 2-0 on Saturday 24 October. On Sunday, Liverpool beat Brighton 2-0 and Bournemouth beat Manchester United 3-0.",
+    "why_it_matters": "The Premier League is one of the most watched football leagues in the world.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Aston Villa beat Manchester City 2-1 and Arsenal beat Everton 2-0 on Saturday 24 October.",
+      "source_url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+     },
+     {
+      "fact": "Chelsea lost 0-2 to Tottenham Hotspur on Saturday 24 October.",
+      "source_url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+     },
+     {
+      "fact": "Liverpool beat Brighton & Hove Albion 2-0 on Sunday 25 October.",
+      "source_url": "https://www.cbssports.com/soccer/premier-league/schedule/"
+     },
+     {
+      "fact": "Manchester United lost 0-3 to AFC Bournemouth on Sunday 25 October.",
+      "source_url": "https://www.cbssports.com/soccer/premier-league/schedule/"
+     }
+    ],
+    "numbers": [],
+    "geography": "England",
+    "sources": [
+     {
+      "outlet": "ESPN",
+      "title": "2026 Premier League Schedule",
+      "url": "https://www.espn.com/soccer/schedule/_/league/eng.1",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "CBS Sports",
+      "title": "2026 English Premier League Schedule: Fixtures and Results",
+      "url": "https://www.cbssports.com/soccer/premier-league/schedule/",
+      "published": "2026-10-25"
+     }
+    ]
+   }
+  ]
  }
 }
