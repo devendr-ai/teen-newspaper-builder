@@ -346,6 +346,18 @@
           {
             "fact": "Kim Jong Un visited China to inaugurate a new cross-border bridge.",
             "source_url": "https://www.nbcnews.com/world/north-korea/north-korean-leader-kim-jong-un-visits-china-inaugurate-new-cross-bord-rcna605386"
+          },
+          {
+            "fact": "Construction of the bridge finished in 2014, but it stayed closed because connecting roads and border facilities on the North Korean side were unfinished.",
+            "source_url": "https://www.nbcnews.com/world/asia/trucks-line-long-delayed-china-north-korea-bridge-officially-opens-rcna603642"
+          },
+          {
+            "fact": "China and North Korea officially marked the opening of the long-delayed bridge, their most significant land border crossing, with a joint ceremony on Thursday 15 October.",
+            "source_url": "https://www.nbcnews.com/world/asia/trucks-line-long-delayed-china-north-korea-bridge-officially-opens-rcna603642"
+          },
+          {
+            "fact": "Other analysts say the bridge is unlikely to lead immediately to a full return to pre-sanctions trade.",
+            "source_url": "https://www.cnn.com/2026/10/15/asia/china-north-korea-bridge-intl-hnk"
           }
         ],
         "numbers": [
@@ -375,6 +387,18 @@
             "title": "Kim Jong Un crosses new bridge into China as trade ties warm",
             "url": "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932",
             "published": "2026-10-25"
+          },
+          {
+            "outlet": "NBC News",
+            "title": "Trucks line up as long-delayed China-North Korea bridge officially opens",
+            "url": "https://www.nbcnews.com/world/asia/trucks-line-long-delayed-china-north-korea-bridge-officially-opens-rcna603642",
+            "published": "2026-10-15"
+          },
+          {
+            "outlet": "CNN",
+            "title": "North Korea-China bridge finally opens but will it help Pyongyang evade sanctions?",
+            "url": "https://www.cnn.com/2026/10/15/asia/china-north-korea-bridge-intl-hnk",
+            "published": "2026-10-15"
           },
           {
             "outlet": "NBC News",
@@ -1135,6 +1159,55 @@
             "published": "2026-10-24"
           }
         ]
+      },
+      {
+        "id": "gold-falls",
+        "headline": "Gold Falls Over the Week as Oil Revives Inflation Fears",
+        "what_happened": "Indian gold prices rose on 24 October for the first time in five days after a sharp fall during the week; spot gold dropped about 4% over the week to below $4,000 an ounce.",
+        "why_it_matters": "Rising oil revives worries about inflation and keeps interest rates high, which weighs on gold.",
+        "importance": 5,
+        "suitable_for_children": true,
+        "key_facts": [
+          {
+            "fact": "Indian gold rates rose on 24 October for the first time in five days, by Rs 1,000 per 100 grams.",
+            "source_url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+          },
+          {
+            "fact": "24-carat gold cost Rs 14,258 per gram on 24 October.",
+            "source_url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+          },
+          {
+            "fact": "Spot gold dropped about 4% over the week, to below the $4,000 mark at $3,993.96 an ounce.",
+            "source_url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+          },
+          {
+            "fact": "Analysts linked the weakness to rising crude oil prices, which intensified inflation concerns and strengthened expectations of higher-for-longer interest rates.",
+            "source_url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+          }
+        ],
+        "numbers": [
+          {
+            "label": "24-carat gold per gram in India",
+            "value": 14258,
+            "unit": "rupees",
+            "source_url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+          },
+          {
+            "label": "Fall in spot gold over the week",
+            "value": 4,
+            "unit": "percent",
+            "source_url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+          }
+        ],
+        "geography": "India; world gold markets.",
+        "sources": [
+          {
+            "outlet": "Goodreturns",
+            "title": "Gold Rates & Silver Rates Today (24/10/2026): Indian Gold Rates Jump First Time In 5 Days By Rs 1,000",
+            "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html",
+            "published": "2026-10-24"
+          }
+        ]
       }
     ]
   },
@@ -1174,6 +1247,14 @@
           {
             "fact": "The snakes cartwheel away from danger at more than 12 feet per second.",
             "source_url": "https://www.livescience.com/animals/snakes/watch-bizarre-snake-cartwheel-away-from-danger-at-more-than-12-feet-per-second"
+          },
+          {
+            "fact": "The phys.org report names Pseudorabdion saravacense as a species studied; the genus is small snakes found in Southeast Asia.",
+            "source_url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+          },
+          {
+            "fact": "A 2023 study by a Malaysian and US team, published in Biotropica, described the dwarf reed snake Pseudorabdion longiceps actively cartwheeling by launching coils of its body into the air and rolling down inclines.",
+            "source_url": "https://phys.org/news/2023-04-snakes-cartwheels-startle-predators.html"
           }
         ],
         "numbers": [
@@ -1203,6 +1284,12 @@
             "title": "Rolling without wheels: How dwarf reedsnakes coordinate their bodies for high-speed escapes",
             "url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html",
             "published": "2026-10-23"
+          },
+          {
+            "outlet": "Phys.org",
+            "title": "Can some snakes do cartwheels to escape or startle predators?",
+            "url": "https://phys.org/news/2023-04-snakes-cartwheels-startle-predators.html",
+            "published": "2023-04-05"
           },
           {
             "outlet": "Live Science",
