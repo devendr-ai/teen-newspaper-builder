@@ -57,6 +57,56 @@ RECOMMENDED = {
 }
 
 
+def paper_actions(pdf, link, title):
+    return (f'<div class="edition-actions"><a class="btn recommended-print" href="{E(pdf)}" target="_blank" rel="noopener">'
+            f'{navigation.icon("printer")} Print this paper</a>'
+            f'<a class="btn ghost edition-share" href="{E(link)}" data-share-title="{E(title)}" '
+            f'aria-label="Share this edition" title="Share this edition">{navigation.icon("share-2")}</a></div>'
+            '<div class="share-feedback" hidden><p role="status"></p>'
+            '<input type="text" readonly aria-label="Edition link to copy" hidden></div>')
+
+
+SHARE_SCRIPT = '''<script>
+document.addEventListener('click',async event=>{
+ const link=event.target.closest('a.edition-share');if(!link)return;
+ event.preventDefault();
+ const box=link.closest('.edition-actions').nextElementSibling,status=box.querySelector('[role="status"]'),input=box.querySelector('input');
+ const url=link.href,title=link.dataset.shareTitle;
+ box.hidden=true;input.hidden=true;status.textContent='';
+ if(navigator.share){
+  try{await navigator.share({title,text:title+' · Free newspaper to print and read together.',url});return;}
+  catch(error){if(error.name==='AbortError')return;}
+ }
+ try{await navigator.clipboard.writeText(url);box.hidden=false;status.textContent='Edition link copied. Share it with another parent.';}
+ catch(error){box.hidden=false;status.textContent='Copy this edition link to share it:';input.hidden=false;input.value=url;input.focus();input.select();}
+});
+</script>'''
+
+
+def issue_landing(cfg, ed, date, issue, preview):
+    """A dated print/share destination; never redirects a recipient to a newer issue."""
+    from . import share
+    eid, n = ed['id'], len(ed['pages'])
+    d = dt.date.fromisoformat(date)
+    title = f'{ed["name"]} · {d:%d %B %Y} · {audience(ed)}'
+    desc = f'{audience(ed)} · {n} pages · {d:%d %B %Y}. Free newspaper to preview and print.'
+    cover = (f'<a href="{date}.pdf" target="_blank" rel="noopener"><img class="recommended-cover" src="{date}.png" '
+             f'alt="Front page of {E(ed["name"])} on {d:%d %B %Y}"></a>' if preview else '')
+    minutes = next((m for _, (ident, m, _) in RECOMMENDED.items() if ident == eid), None)
+    body = (f'<article class="recommended shared-edition">{cover}<div class="recommended-copy">'
+            f'<p class="recommended-label">{E(audience(ed))}</p><h2>{E(ed["name"])}</h2>'
+            f'<p class="recommended-date">{d:%A %d %B %Y}</p>'
+            f'<p class="recommended-facts">{n} page{"s" if n != 1 else ""}'
+            + (f' · About {minutes} minutes to read' if minutes else '') + '</p>'
+            f'<p class="recommended-reason">{E(lead_headline(ed, issue))}</p>'
+            + paper_actions(f'{date}.pdf', f'{date}.html', title)
+            + f'<p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>'
+            f'<a class="recommended-archive" href="{date}.pdf" target="_blank" rel="noopener">Preview this paper (PDF)</a>'
+            '<br><a class="recommended-archive" href="../../index.html">Find more papers for your child</a></div></article>')
+    return page(cfg, title, body, root='../../', here='papers',
+                head_extra=share.tags(cfg, f'e/{eid}/{date}.html', title, desc, 'share/site.png', cfg['title']))
+
+
 def recommendations(published, has_png):
     """Only recommend an edition whose PDF was successfully published in this build."""
     sections = []
@@ -71,7 +121,7 @@ def recommendations(published, has_png):
 {cover}<div class="recommended-copy"><p class="recommended-label">A good place to start · {E(band)}</p>
 <h2>{E(ed["name"])}</h2><p class="recommended-date">Latest issue · {dt.date.fromisoformat(date):%A %d %B %Y}</p>
 <p class="recommended-facts">{n} page{'s' if n != 1 else ''} · About {minutes} minutes to read</p>
-<p class="recommended-reason">{E(reason)}</p><a class="btn recommended-print" href="e/{eid}/{date}.pdf" target="_blank" rel="noopener">{navigation.icon("printer")} Print this paper</a>
+<p class="recommended-reason">{E(reason)}</p>{paper_actions(f'e/{eid}/{date}.pdf', f'e/{eid}/{date}.html', ed['name'] + ' · ' + band + ' · ' + date)}
 <p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>
 <a class="recommended-archive" href="e/{eid}/index.html">See past issues</a></div></article>''')
     return ('<p id="age-memory" class="age-memory" role="status" hidden></p>'
@@ -199,6 +249,13 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offse
 .recommended-facts{font-size:.9rem;font-weight:700;margin:0 0 10px}
 .recommended-reason{margin:0 0 18px;max-width:60ch}
 .recommended-print{padding:12px 22px;min-height:48px}
+.edition-actions{display:flex;align-items:stretch;gap:8px;clear:both}
+.edition-share{display:inline-flex;align-items:center;justify-content:center;width:48px;min-width:48px;min-height:48px;padding:10px;font:inherit}
+.edition-share:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+.share-feedback{font-size:.84rem;color:var(--cyan);margin-top:8px}
+.share-feedback p{margin:0 0 6px}.share-feedback input{width:100%;min-width:0;min-height:44px;font:inherit;padding:8px}
+.shared-edition{margin-top:24px}.shared-edition>.recommended-copy{min-width:0}
+.shared-edition>a:has(.recommended-cover){align-self:start}
 .recommended-note{font-size:.76rem;color:var(--muted);margin:8px 0}
 .recommended-archive{display:inline-block;font-size:.84rem;font-weight:700;padding:7px 0;text-underline-offset:3px}
 .catalogue-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding-top:16px;border-top:1px solid var(--line)}
@@ -208,7 +265,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offse
  .recommended{display:block;padding:16px}.recommended-cover{float:right;width:92px;margin:0 0 14px 14px}
  .recommended-copy{display:contents}.recommended-label{font-size:.7rem}.recommended-date{font-size:.78rem}
  .recommended-facts{clear:both;padding-top:8px;font-size:.85rem}.recommended-reason{font-size:.9rem}
- .recommended-print{display:block;width:100%}.recommended-note{font-size:.72rem}
+ .recommended-print{display:block;flex:1;min-width:0}.recommended-note{font-size:.72rem}
  .catalogue-heading h2{font-size:1.05rem}
 }
 
@@ -314,7 +371,7 @@ const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"p
 if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
 <p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
-{tabbar(cfg, root, here)}</body></html>"""
+{tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}</body></html>"""
 
 
 def credit(cfg):
@@ -377,12 +434,17 @@ def build(out, keep=None, log=print):
                              byline=byline(cfg), author=cfg["title"])
             except Exception as e:
                 log(f"  ! {eid} {date}: {e}"); continue
+            preview = os.path.join(edir, f"{date}.png")
+            if has_png:
+                subprocess.run(["pdftoppm", "-png", "-r", "60", "-f", "1", "-l", "1", "-singlefile",
+                                os.path.join(edir, pdf), os.path.join(edir, date)], check=False)
+            open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(
+                issue_landing(cfg, ed, date, issue, os.path.exists(preview)))
             if latest is None:
                 latest = (date, issue)
                 shutil.copy(os.path.join(edir, pdf), os.path.join(edir, "latest.pdf"))
-                if has_png:
-                    subprocess.run(["pdftoppm", "-png", "-r", "60", "-f", "1", "-l", "1", "-singlefile",
-                                    os.path.join(edir, pdf), os.path.join(edir, "cover")], check=False)
+                if os.path.exists(preview):
+                    shutil.copy(preview, os.path.join(edir, "cover.png"))
             d = dt.date.fromisoformat(date)
             srcs = "".join(f'<li><a href="{E(x.get("url", ""))}" rel="noopener">{E(x.get("title") or x.get("url", ""))}</a>'
                            f'{" — " + E(x["outlet"]) if x.get("outlet") else ""}</li>'
