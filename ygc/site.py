@@ -630,7 +630,7 @@ it goes up.</b> We read every piece of feedback and fix mistakes as soon as we h
 <p>AI makes mistakes, and early reports change. Every issue lists its sources on its paper's page, so you can check anything before
 handing it over. {report_line(cfg)}</p>
 <p>You can also <a href="builder.html">design a paper for your own child</a>: the page writes instructions for your own AI chatbot, then
-checks its reply and prints it with the same engine. The engine is open source.</p>""")
+checks its reply and prints it with the same engine as our papers.</p>""")
 
 
 def standards_body(cfg):
