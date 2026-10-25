@@ -97,7 +97,7 @@ function fixture() {
           : Response.json({ id: "provider-" + call.key });
       }
       assert.ok(url.startsWith("https://newspebbles.com/"));
-      assert.equal(opts.redirect, "error");
+      assert.equal(opts.redirect, "manual");
       if (url.endsWith("/feed.xml")) {
         const slug = url.split("/")[4];
         return new Response(
@@ -501,6 +501,32 @@ test("attachment changed during ambiguous retry is held, never resent with diffe
     "held",
   );
 });
+test("asset redirects are rejected without following them or sending mail", async () => {
+  const f = fixture();
+  for (const suffix of ["/feed.xml", ".html", ".pdf", "/latest.pdf"]) {
+    const requested = [];
+    const services = {
+      ...f.services,
+      fetch: async (url, opts) => {
+        requested.push(url);
+        assert.equal(opts.redirect, "manual");
+        if (url.endsWith(suffix))
+          return new Response(null, {
+            status: 302,
+            headers: { Location: "https://untrusted.example/asset" },
+          });
+        return f.services.fetch(url, opts);
+      },
+    };
+    await assert.rejects(async () => {
+      const issue = await latestIssue("little-explorers", services);
+      await issueAttachment(issue, services);
+    }, /asset_http_302/);
+    assert.ok(requested.every(url => url.startsWith("https://newspebbles.com/")));
+    assert.equal(f.calls.length, 0);
+  }
+});
+
 test("edition catalog has the nine existing edition slugs", () =>
   assert.equal(Object.keys(catalog).length, 9));
 

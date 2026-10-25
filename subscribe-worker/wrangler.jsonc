@@ -1,17 +1,18 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "newspebbles-subscribe",
+  "account_id": "6e9188f8925a42eedc318f5774af9dfc",
   "main": "src/index.js",
   "compatibility_date": "2026-10-25",
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "newspebbles-subscriptions",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "1d258a1c-0d08-4583-933e-9ab658440bcd",
     },
   ],
   "vars": {
-    "PUBLIC_BASE_URL": "https://replace-with-your-worker.workers.dev",
+    "PUBLIC_BASE_URL": "https://newspebbles-subscribe.devendr.workers.dev",
     "RESEND_FROM": "News Pebbles <papers@mail.newspebbles.com>",
     "DELIVERY_ENABLED": "false",
     "WEEKEND_TIMEZONE": "America/Los_Angeles",

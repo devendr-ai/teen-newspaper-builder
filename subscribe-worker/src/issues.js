@@ -4,7 +4,8 @@ export { catalog };
 async function asset(url, services) {
   return services.fetch(url, {
     headers: { "Cache-Control": "no-cache" },
-    redirect: "error",
+    // Workers supports manual/follow only. bounded() rejects any 3xx response.
+    redirect: "manual",
     signal: AbortSignal.timeout(10000),
   });
 }
