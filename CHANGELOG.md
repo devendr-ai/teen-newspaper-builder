@@ -10,6 +10,20 @@
 
 
 
+
+## Terms, publisher and contact addresses
+
+- A plain-language **Terms** page (`terms.html`), linked from every footer and the For parents
+  page: free to use; the papers are licensed **CC BY-NC 4.0** (print and share with credit, not
+  to sell); the name, logo and sources' material aren't included; written and checked by AI with
+  no person reviewing each paper; children give no personal information; no guarantee.
+- News Pebbles is made by **NeRDLabs** (`publisher` in `site.yaml`): How it's made gains "Who
+  makes News Pebbles", and every page's footer ends "© NeRDLabs · Papers free to print and share,
+  not to sell (CC BY-NC 4.0) · Contact: info@newspebbles.com".
+- Role addresses in `site.yaml`: `contact` (corrections@, shown wherever readers report
+  mistakes), `info_email` (info@) and `privacy_email` (privacy@, on the Privacy page).
+- The Privacy page describes read-aloud as it now works: recordings kept on the site, the
+  device's own voices as a fallback.
 ## Honest bylines on the printed papers
 
 - The lead story's byline no longer says "By the Editor-in-Chief": no person writes or checks

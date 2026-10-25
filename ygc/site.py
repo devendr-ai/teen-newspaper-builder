@@ -238,7 +238,7 @@ details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;paddi
   .tabbar a span{font-size:21px;line-height:1.15}
   .tabbar a[aria-current="page"]{color:var(--ink);background:var(--cyan-t)}}
 footer{margin-top:40px;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line);padding-top:14px}
-footer .links{margin:8px 0 0}footer .links a{color:var(--muted);font-weight:700}
+footer .owner{margin:6px 0 0;font-size:.8rem}footer .owner a{color:var(--muted)}footer .links{margin:8px 0 0}footer .links a{color:var(--muted);font-weight:700}
 .doc{max-width:68ch}.doc h3{font-size:1.15rem;margin:22px 0 4px}.doc ul{padding-left:20px}.doc li{margin:4px 0}
 .doc ul.fixes{list-style:none;padding:0}.doc ul.fixes li{border-top:1px solid var(--line);padding:12px 0}
 .meta.fixed{color:#9A3B2E;margin:4px 0 0}
@@ -275,6 +275,23 @@ def tabbar(cfg, root, here):
         for k, href, icon, label in tabs) + "</nav>")
 
 
+LICENSES = {"CC BY-NC 4.0": "https://creativecommons.org/licenses/by-nc/4.0/"}
+
+
+def owner_line(cfg, root=""):
+    """Who makes the site, what people may do with the papers, and how to reach us: the footer's last line."""
+    bits = []
+    if cfg.get("publisher"):
+        bits.append(f"© {dt.date.today().year} {E(cfg['publisher'])}")
+    if cfg.get("license"):
+        link = LICENSES.get(cfg["license"])
+        bits.append(f'Papers free to print and share, not to sell (<a href="{link}" rel="noopener license">{E(cfg["license"])}</a>)'
+                    if link else E(cfg["license"]))
+    if cfg.get("info_email"):
+        bits.append(f'Contact: <a href="mailto:{E(cfg["info_email"])}">{E(cfg["info_email"])}</a>')
+    return f'<p class="owner">{" · ".join(bits)}</p>' if bits else ""
+
+
 def page(cfg, title, body, root="", head_extra="", here="papers"):
     contact = f' · Corrections: <a href="mailto:{E(cfg["contact"])}">{E(cfg["contact"])}</a>' if cfg.get("contact") else ""
     if cfg.get("feedback_url"):
@@ -295,7 +312,7 @@ b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList
 const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"px");hh();
 if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
-<p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a></p></footer></div>
+<p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
 {tabbar(cfg, root, here)}</body></html>"""
 
 
@@ -547,6 +564,7 @@ def parents_body(cfg):
 <a class="parent-link" href="standards.html"><b>Editorial standards</b><span>Our approach to sources, accuracy and age-appropriate news.</span></a>
 <a class="parent-link" href="corrections.html"><b>Corrections</b><span>See changes made to published papers.</span></a>
 {feedback}<a class="parent-link" href="privacy.html"><b>Privacy</b><span>What is saved on this device and how the site works.</span></a>
+<a class="parent-link" href="terms.html"><b>Terms</b><span>What you may do with the papers, and what we promise.</span></a>
 </div></section>'''
 
 
@@ -578,9 +596,18 @@ def report_line(cfg, root=""):
     return f"To report a mistake, {' or '.join(ways)}." if ways else ""
 
 
+def who_makes(cfg):
+    if not cfg.get("publisher"):
+        return ""
+    ask = f' Questions: <a href="mailto:{E(cfg["info_email"])}">{E(cfg["info_email"])}</a>.' if cfg.get("info_email") else ""
+    return (f'<h3>Who makes News Pebbles</h3><p>{E(cfg["title"])} is made by <b>{E(cfg["publisher"])}</b>, which is responsible for '
+            f'everything published here.{ask} {report_line(cfg)}</p>')
+
+
 def about_body(cfg):
     return _doc("How it's made", f"""
 <p>Every paper here is written and checked by AI, automatically, overnight. Here is exactly what happens.</p>
+{who_makes(cfg)}
 <h3>1. Research</h3>
 <p>Each night an AI research desk (Claude, made by Anthropic) searches the news for every topic the day's papers cover. It keeps a
 fact only if it can point to a page the search actually found, and it notes that page. It never fills a gap from memory, and records
@@ -652,6 +679,14 @@ def corrections_body(cfg, names, fixes):
 on its paper's page, and the corrected PDF replaces the old one. {report_line(cfg)}</p>{listing}""")
 
 
+def privacy_contact(cfg):
+    if not cfg.get("privacy_email"):
+        return ""
+    by = f" {E(cfg['title'])} is made by {E(cfg['publisher'])}." if cfg.get("publisher") else ""
+    return (f'<h3>Questions about privacy</h3><p>Email <a href="mailto:{E(cfg["privacy_email"])}">{E(cfg["privacy_email"])}</a>.'
+            f'{by}</p>')
+
+
 def privacy_body(cfg):
     counting = bool(stats.endpoint(cfg))
     counts = ("""<h3>What we count</h3>
@@ -685,14 +720,63 @@ in your browser's settings deletes it.</p>
 <h3>Other services the site uses</h3>
 <ul><li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>
 <li><b>Google Fonts</b> supplies the site's typefaces, so Google sees that a device loaded them.</li>
-<li><b>Read aloud</b> uses the voices your device or browser provides. Some browsers use an online voice service for this.</li>
+<li><b>Read aloud</b> plays recordings made in advance with a free computer voice and kept on this site; when one isn't ready it uses
+the voices your device or browser provides, and some browsers use an online voice service for those.</li>
 {'<li><b>The feedback form</b> is a Google Form. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>' if cfg.get("feedback_url") else ""}</ul>
 <h3>Printed papers</h3>
-<p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>""")
+<p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>
+{privacy_contact(cfg)}""")
+
+
+def terms_body(cfg):
+    who = E(cfg.get("publisher") or cfg["title"])
+    lic = cfg.get("license") or ""
+    link = LICENSES.get(lic)
+    if link:
+        use = (f'<p>The papers, posters and Read &amp; Play stories are licensed under <a href="{link}" rel="noopener license">{E(lic)}</a>. '
+               f'In short: you may print, copy and share them, at home, in a classroom or online, as long as you say they come from '
+               f'{E(cfg["title"])} ({E(cfg.get("domain") or "")}) and you don\'t sell them or use them to make money. You may adapt them '
+               f'for your own children or class, under the same terms.</p>')
+    else:
+        use = "<p>You may print and share the papers for personal, family and classroom use. Please don't sell them.</p>"
+    contact = f'<a href="mailto:{E(cfg["info_email"])}">{E(cfg["info_email"])}</a>' if cfg.get("info_email") else ""
+    return _doc("Terms", f"""
+<p>{E(cfg["title"])} is made by <b>{who}</b>. By using this site you agree to these terms. They are short on purpose.</p>
+<h3>Free to use</h3>
+<p>Everything here is free: no accounts, no ads, no payments.</p>
+<h3>Printing and sharing</h3>
+{use}
+<p>Not included: the {E(cfg["title"])} name and owl logo (please don't use them to suggest we made something we didn't), and the
+articles, pictures and data of the outside sources each issue lists, which belong to their owners. The site's fonts and map data
+keep their own open licences.</p>
+<h3>Written and checked by AI</h3>
+<p>The papers are researched, written and checked by AI, and <b>no person reviews each paper before it is published</b> (see
+<a href="about.html">How it's made</a>). We work hard to make them accurate and right for each age, but they can contain mistakes,
+and news changes. Every issue lists its sources so you can check anything before handing it to a child. The papers are for
+learning and conversation; they aren't professional, legal, medical or financial advice.</p>
+<h3>Children</h3>
+<p>The papers are written for children to read, ideally with a grown-up. Children don't need to give any personal information to
+use the site. A parent or teacher decides which paper suits their child. See <a href="privacy.html">Privacy</a> for what is stored
+on the device.</p>
+<h3>Other websites</h3>
+<p>Links to sources and other sites are there so you can check what we wrote. We don't control those sites and aren't responsible
+for them.</p>
+<h3>No guarantee</h3>
+<p>We provide the site and papers as they are. We don't promise they will always be available, complete or error-free, and to the
+extent the law allows, {who} isn't liable for losses that come from using them.</p>
+<h3>Mistakes and questions</h3>
+<p>{report_line(cfg)} We list every fix on the <a href="corrections.html">corrections page</a>.{f" Anything else: {contact}." if contact else ""}</p>
+<h3>Changes</h3>
+<p>We may update these terms; the date below shows the latest version. Continuing to use the site means you accept the update.</p>
+<p class="meta">Last updated {TERMS_UPDATED.day} {TERMS_UPDATED:%B %Y}.</p>""")
+
+
+TERMS_UPDATED = dt.date(2026, 10, 25)
 
 
 def trust_pages(cfg, out, names, fixes):
     for fn, title, body in (("about.html", "How it's made", about_body(cfg)),
+                            ("terms.html", "Terms", terms_body(cfg)),
                             ("standards.html", "Editorial standards", standards_body(cfg)),
                             ("corrections.html", "Corrections", corrections_body(cfg, names, fixes)),
                             ("privacy.html", "Privacy", privacy_body(cfg))):
