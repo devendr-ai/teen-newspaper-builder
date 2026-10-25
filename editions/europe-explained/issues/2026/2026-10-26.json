@@ -1,0 +1,432 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-26",
+  "volume": 1,
+  "issue": 9,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Oil Settles at $116.72, Its Highest Since April",
+      "deck": "Attacks on Saudi Arabia keep pushing up the price that sets fuel bills across Europe.",
+      "body": [
+        "Brent crude, the benchmark price for oil traded around the world, settled at $116.72 a barrel on Friday 23 October, up $3.55 or 3.14% on the day. That was its highest settlement since 29 April, and it finished the week up about 6%. US West Texas Intermediate, another benchmark, closed at $103.27 a barrel.",
+        "The cause is a new wave of attacks on Saudi Arabia by the Houthis, an armed group from Yemen. Over 48 hours the Houthis claimed attacks on Saudi Arabia's Defence Ministry, two airports and an Aramco oil facility in Yanbu. Two people died in attacks at Dammam airport. On Sunday Saudi Arabia reopened Terminals 1 and 2 at Riyadh's King Khalid International Airport, more than two weeks after Houthi strikes put it out of service. Flight-tracking data showed traffic still limited, and Saudi forces said they intercepted a Houthi missile and drone that day.",
+        "Why does the price jump if the oil is still flowing? One analysis says physical supply losses are not confirmed, so the price reflects a probability of disruption rather than missing barrels. In other words, traders are paying for the risk. That is why a ceasefire signal or any new attack can move the price within hours."
+      ],
+      "map": {
+        "title": "THE PERSIAN GULF",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "SAUDI ARABIA (ARABIAN PENINSULA)",
+        "footnote": "The Gulf is the main route for oil leaving the region",
+        "caption": "Attacks on Saudi sites push oil prices up."
+      },
+      "why": "Oil is priced on a world market, so trouble in Saudi Arabia shows up in petrol and diesel prices in Britain and across Europe.",
+      "sources": [
+        {
+          "outlet": "The Star",
+          "title": "Middle East mayhem: Oil prices jump US$3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+        },
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "Discovery Alert",
+          "title": "Houthi Attacks on Saudi Arabia Lift Brent, but No Barrels Are Lost",
+          "url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/"
+        },
+        {
+          "outlet": "Korea Times",
+          "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+          "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EAST ASIA",
+      "headline": "Kim Jong Un Crosses a New Bridge Into China",
+      "deck": "North Korea's leader makes his first trip to China in about a year.",
+      "body": [
+        "North Korea's leader Kim Jong Un visited the Chinese border city of Dandong on Saturday 24 October. He crossed the newly opened New Yalu River Bridge, on his first trip to China in about a year.",
+        "The bridge is expected to carry traffic in both directions around the clock, including container shipments and heavy cargo trucks. Beijing and Pyongyang agreed to expand trade and personnel exchanges. A bridge matters because goods can only move as fast as the road they travel on.",
+        "Why does a bridge make the news? Think of a road with only one lane: no matter how many lorries are waiting, only so many can pass. A bridge open around the clock removes that limit. That is why the agreement to expand trade and personnel exchanges, announced alongside the visit, depends on infrastructure like this.",
+        "In Dandong, Kim visited a memorial marking China's support of North Korea during the 1950-53 Korean War. He also met Wang Huning, a member of the Chinese Communist Party's Standing Committee."
+      ],
+      "illustration": {
+        "title": "A bridge between neighbours",
+        "subtitle": "Dandong, Yalu River",
+        "motif": "border",
+        "caption": "The new bridge is built for round-the-clock trade."
+      },
+      "connect": "Geography: Dandong sits on the Yalu River, which forms part of the border between China and North Korea, so a bridge there is the natural gateway for trade.",
+      "sources": [
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Kim Jong Un crosses new bridge into China as trade ties warm",
+          "url": "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "North Korea's Kim Jong Un touts ties, opens bridge with China on first trip in a year",
+          "url": "https://www.cbsnews.com/news/north-korea-kim-jong-un-china-visit-bridge/"
+        },
+        {
+          "outlet": "JoongAng Daily",
+          "title": "Kim Jong-un visits China, vows to strengthen North Korea-China ties",
+          "url": "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  THE BUDGET",
+      "headline": "Chancellor Prepares for the Budget on 28 October",
+      "deck": "It is the first Budget of Prime Minister Andy Burnham's government.",
+      "body": [
+        "A Budget is the Chancellor's yearly statement of how much tax the government will collect and how much it will spend. Chancellor John Healey will deliver this one on Wednesday 28 October, the first of the government led by Prime Minister Andy Burnham.",
+        "Money is tight. One estimate puts the shortfall in the public finances at around 12 billion pounds, while the Institute for Fiscal Studies has said it could be as high as 20 billion pounds. A shortfall means the government expects to spend more than it takes in.",
+        "Rises to the rates of income tax, employee National Insurance and VAT are ruled out. So commentators expect changes to thresholds, allowances and reliefs instead. Much of this is prediction by accountancy firms and publishers, not confirmed policy, so the real details will only be known on the day."
+      ],
+      "why": "A Budget decides how much tax people pay and how much the government can spend on schools, hospitals and other services.",
+      "also": [
+        "Aberfan: a concert called Aberfan 60, with a new requiem by Paul Mealor, was scheduled for 25 October at BBC Hoddinott Hall.",
+        "Prices: UK inflation was 3.5% in the 12 months to September, up from 3.1% in August."
+      ],
+      "sources": [
+        {
+          "outlet": "RSM UK",
+          "title": "Predictions - Autumn Budget 2026",
+          "url": "https://www.rsmuk.com/insights/budget/autumn-budget-2026-predictions"
+        },
+        {
+          "outlet": "Fidelity",
+          "title": "What can we expect in the Autumn Budget?",
+          "url": "https://www.fidelity.co.uk/markets-insights/personal-finance/personal-finance/what-can-we-expect-in-the-autumn-budget/"
+        },
+        {
+          "outlet": "Grant Thornton",
+          "title": "Autumn Budget 2026 predictions: the tax changes to watch",
+          "url": "https://www.grantthornton.co.uk/insights/autumn-budget/2026-predictions/"
+        },
+        {
+          "outlet": "ITV News",
+          "title": "Aberfan: 'Community, compassion, and remembrance' 60 years on",
+          "url": "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Science: a Current Biology study found dwarf reedsnakes roll like wheels at peak speeds about four times their fastest slithering.",
+        "India: Cyclone Arnab is forecast to cross the Andhra Pradesh coast around the forenoon of 28 October, with red alerts in several states."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Turnout",
+          "def": "The share of eligible voters who actually vote. Today: Serbia's was put at 67.6% by 7 p.m."
+        },
+        {
+          "word": "Chancellor",
+          "def": "The minister in charge of a UK government's money and taxes. Today: John Healey delivers the Budget on 28 October."
+        },
+        {
+          "word": "Intercept",
+          "def": "To stop something before it reaches its target. Today: Saudi forces said they intercepted a Houthi missile and drone."
+        },
+        {
+          "word": "Shortfall",
+          "def": "The gap when money coming in is less than money needed. Today: one estimate puts the UK's at 12 billion pounds."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "NASA's Perseverance rover covered in five and a half years the distance on Mars that took Opportunity almost 15 years."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  SERBIA",
+      "headline": "Serbia Votes as Students Challenge Its Long-Time Leader",
+      "deck": "Turnout was reported to be the highest since 1992.",
+      "body": [
+        "Serbia, a country in south-eastern Europe, held a snap parliamentary election on Sunday 25 October. Its 6.4 million voters chose among 18 parties hoping to win seats in the 250-member Parliament. Aleksandar Vucic resigned the presidency in September to run again, this time for prime minister, at the head of his Progressive Party.",
+        "His main challenger is a list backed by a student movement, led by cardiologist Ilija Srdanovic. The movement began after the November 2024 collapse of a railway station canopy in Novi Sad, which killed 16 people. Vucic has called the students a foreign-funded coup attempt. The students reject that.",
+        "Turnout looked very high. Pollsters CeSID and Ipsos put it at 67.6% by 7 p.m., described as the highest since 1992. At the time of writing, final results were not yet available."
+      ],
+      "chart": {
+        "title": "SERBIA'S VOTE IN NUMBERS",
+        "subtitle": "Parties on the ballot; deaths at Novi Sad",
+        "labels": [
+          "Parties",
+          "Deaths"
+        ],
+        "values": [
+          18,
+          16
+        ],
+        "max": 20,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Parties running, and people killed in the 2024 Novi Sad canopy collapse."
+      },
+      "why": "Serbia wants to join the European Union, so how its voters and leaders settle this contest matters to its neighbours.",
+      "analyst": "Why might a deadly accident turn into a national political movement? What would you want to know before trusting a claim of fraud from either side?",
+      "sources": [
+        {
+          "outlet": "rferl.org",
+          "title": "Serbia Votes In Snap Parliament Election As Vucic Faces Stiff Challenge From Student-Led Protests",
+          "url": "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+          "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement"
+        },
+        {
+          "outlet": "US News",
+          "title": "Serbia Votes in Historic Election as Students Seek to End Vucic's Long Grip on Power",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
+        },
+        {
+          "outlet": "RTE",
+          "title": "Serbia votes as students seek to end Vucic's long grip",
+          "url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+        },
+        {
+          "outlet": "Yahoo News",
+          "title": "Early reports suggest record high turnout in Serbia elections",
+          "url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "The UK Budget on 28 October, and Cyclone Arnab's expected crossing of the Andhra Pradesh coast the same day.",
+        "Serbia's official election results and whether Russia, Ukraine and the US restart three-way talks after 10 November."
+      ]
+    },
+    "quote": {
+      "text": "A bridge is only as useful as what crosses it.",
+      "by": "The Editor"
+    },
+    "sports": {
+      "title": "FOOTBALL: VILLA BEAT CITY, UNITED LOSE 3-0",
+      "body": "In the Premier League on Saturday, <b>Aston Villa</b> beat Manchester City 2-1, Arsenal beat Everton 2-0 and Chelsea lost 0-2 to Tottenham. On Sunday <b>Liverpool</b> beat Brighton 2-0, while Manchester United lost 0-3 to Bournemouth.",
+      "sources": [
+        {
+          "outlet": "ESPN",
+          "title": "2026 Premier League Schedule",
+          "url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+        },
+        {
+          "outlet": "CBS Sports",
+          "title": "2026 English Premier League Schedule: Fixtures and Results",
+          "url": "https://www.cbssports.com/soccer/premier-league/schedule/"
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april",
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/",
+    "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist",
+    "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932",
+    "https://www.cbsnews.com/news/north-korea-kim-jong-un-china-visit-bridge/",
+    "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477",
+    "https://www.rsmuk.com/insights/budget/autumn-budget-2026-predictions",
+    "https://www.fidelity.co.uk/markets-insights/personal-finance/personal-finance/what-can-we-expect-in-the-autumn-budget/",
+    "https://www.grantthornton.co.uk/insights/autumn-budget/2026-predictions/",
+    "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on",
+    "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+    "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html",
+    "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+    "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election",
+    "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/",
+    "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html",
+    "https://www.espn.com/soccer/schedule/_/league/eng.1",
+    "https://www.cbssports.com/soccer/premier-league/schedule/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Where did Brent crude settle on Friday 23 October?",
+        "options": [
+          "$103.27",
+          "$116.72",
+          "$110.00"
+        ],
+        "answer": 1,
+        "why": "Brent settled at $116.72, its highest since 29 April.",
+        "story": "lead"
+      },
+      {
+        "q": "Who has been attacking Saudi Arabia?",
+        "options": [
+          "The Houthis",
+          "The Students' List",
+          "The Standing Committee"
+        ],
+        "answer": 0,
+        "why": "The paper says the Houthis, an armed group from Yemen, claimed the attacks.",
+        "story": "lead"
+      },
+      {
+        "q": "Which bridge did Kim Jong Un cross into China?",
+        "options": [
+          "The Danube Bridge",
+          "The Tower Bridge",
+          "The New Yalu River Bridge"
+        ],
+        "answer": 2,
+        "why": "He crossed the newly opened New Yalu River Bridge at Dandong.",
+        "story": "world"
+      },
+      {
+        "q": "Who delivers the UK Budget on 28 October?",
+        "options": [
+          "Andy Burnham",
+          "John Healey",
+          "Edi Rama"
+        ],
+        "answer": 1,
+        "why": "Chancellor John Healey will deliver it.",
+        "story": "uk"
+      },
+      {
+        "q": "How many seats are in Serbia's Parliament?",
+        "options": [
+          "18",
+          "250",
+          "16"
+        ],
+        "answer": 1,
+        "why": "Voters chose among 18 parties for the 250-member Parliament.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Brent crude finished last week up about 6%.",
+        "true": true,
+        "why": "The paper says it settled at $116.72 and finished the week up about 6%.",
+        "story": "lead"
+      },
+      {
+        "claim": "Kim Jong Un's visit to China was his first in about ten years.",
+        "true": false,
+        "why": "It was his first trip to China in about a year.",
+        "story": "world"
+      },
+      {
+        "claim": "Serbia's student movement began after a railway station canopy collapsed in Novi Sad.",
+        "true": true,
+        "why": "The collapse in November 2024 killed 16 people.",
+        "story": "europe"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Dandong",
+        "lat": 40.12,
+        "lon": 124.38,
+        "countries": [
+          "China",
+          "North Korea"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "London",
+        "lat": 51.5,
+        "lon": -0.12,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Belgrade",
+        "lat": 44.79,
+        "lon": 20.45,
+        "countries": [
+          "Serbia"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "Where did Brent crude settle on Friday 23 October?",
+        "answer": 116.72,
+        "prefix": "$",
+        "unit": "a barrel",
+        "min": 60,
+        "max": 180,
+        "why": "Brent settled at $116.72, its highest since 29 April."
+      },
+      {
+        "story": "europe",
+        "q": "How many people live as registered voters in Serbia?",
+        "answer": 6.4,
+        "prefix": "",
+        "unit": "million",
+        "min": 1,
+        "max": 15,
+        "why": "Serbia has 6.4 million voters choosing among 18 parties."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Costs More After Attacks in Saudi Arabia",
+        "body": [
+          "Oil is now $116.72 a barrel. That is the highest price since 29 April. It went up about 6% in one week.",
+          "A group from Yemen called the Houthis said they attacked targets in Saudi Arabia, including airports. Two people died at an airport in Dammam.",
+          "Traders are worried that less oil may reach the market. So they pay more now. When oil costs more, petrol and diesel cost more too, even in Europe."
+        ]
+      },
+      "world": {
+        "headline": "Kim Jong Un Visits China on a New Bridge",
+        "body": [
+          "North Korea's leader Kim Jong Un went to China on 24 October. He crossed a new bridge over the Yalu River into the city of Dandong.",
+          "It was his first trip to China in about a year. The bridge can carry trucks and containers day and night.",
+          "China and North Korea agreed to trade more with each other. Kim also visited a memorial to China's support of North Korea in the Korean War."
+        ]
+      },
+      "uk": {
+        "headline": "The UK Budget Is on 28 October",
+        "body": [
+          "A Budget is when a government says how much tax it will collect and how it will spend money. The Chancellor, John Healey, will speak on 28 October.",
+          "Money is tight. One guess says the government is short by about 12 billion pounds. Another says it could be 20 billion pounds.",
+          "Taxes on income, National Insurance and VAT will not go up. So changes may come in other places."
+        ]
+      },
+      "europe": {
+        "headline": "Serbia Holds an Election",
+        "body": [
+          "Serbia held an election on 25 October. About 6.4 million people could vote. There were 18 parties.",
+          "Aleksandar Vucic wants to be prime minister. Students who protested after a station roof fell in Novi Sad are challenging him. That accident killed 16 people.",
+          "Many people voted. Turnout was 67.6% by 7 p.m. The results were not ready yet. Final numbers would come later."
+        ]
+      }
+    }
+  }
+}
