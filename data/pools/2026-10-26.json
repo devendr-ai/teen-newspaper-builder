@@ -1,0 +1,1689 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "serbia-vote",
+    "headline": "Serbia Votes in a Snap Election as Students Challenge Its Long-Time Leader",
+    "what_happened": "Serbians voted on Sunday 25 October in a snap parliamentary election. The contest was seen as a test between President-turned-candidate Aleksandar Vucic's Progressive Party and a list backed by the student movement. Turnout was reported to be very high, and the official results had not been published in the sources found.",
+    "why_it_matters": "The vote shows whether a protest movement that began after a deadly accident can change who governs a country that wants to join the European Union.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Serbia's 6.4 million voters chose among 18 parties hoping to enter the 250-member Parliament.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Vucic resigned the presidency in September to run again for prime minister.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "The student movement grew out of protests over the November 2024 collapse of a railway station canopy in Novi Sad that killed 16 people.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "The students' list is led by cardiologist Ilija Srdanovic.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Vucic has called the student movement a foreign-funded coup attempt, which the students reject.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Pollsters CeSID and Ipsos put turnout at 67.6% by 7 p.m., described as the highest since 1992.",
+      "source_url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Turnout by 7 p.m.",
+      "value": 67.6,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+     },
+     {
+      "label": "Seats in Parliament",
+      "value": 250,
+      "unit": "seats",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "label": "Registered voters",
+      "value": 6.4,
+      "unit": "million",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "label": "People killed in the Novi Sad canopy collapse",
+      "value": 16,
+      "unit": "people",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     }
+    ],
+    "geography": "Serbia, in the Balkans in south-eastern Europe; Novi Sad is in the north; capital Belgrade",
+    "sources": [
+     {
+      "outlet": "rferl.org",
+      "title": "Serbia Votes In Snap Parliament Election As Vucic Faces Stiff Challenge From Student-Led Protests",
+      "url": "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "France 24",
+      "title": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+      "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "US News",
+      "title": "Serbia Votes in Historic Election as Students Seek to End Vucic's Long Grip on Power",
+      "url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "RTE",
+      "title": "Serbia votes as students seek to end Vucic's long grip",
+      "url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "Early reports suggest record high turnout in Serbia elections",
+      "url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "riyadh-airport",
+    "headline": "Riyadh's Airport Partly Reopens as Houthi Attacks Continue",
+    "what_happened": "Saudi Arabia reopened Terminals 1 and 2 at Riyadh's King Khalid International Airport on Sunday 25 October, more than two weeks after Houthi strikes put it out of service. Saudi forces said they shot down a missile and a drone that day, and the Houthis warned airlines and passengers that the airport was unsafe.",
+    "why_it_matters": "The airport is the main gateway to Saudi Arabia's capital, and the fighting around it is part of a conflict that is pushing up oil prices around the world.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Saudi Arabia reopened terminals 1 and 2 at King Khalid International Airport in Riyadh for domestic and international flights on Sunday, more than two weeks after Houthi strikes put it out of service.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+     },
+     {
+      "fact": "Flight-tracking data indicated air traffic remained limited despite the partial reopening.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+     },
+     {
+      "fact": "Saudi military spokesman Maj. Gen. Turki al-Malki said forces intercepted and destroyed a Houthi-fired ballistic missile and drone.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+     },
+     {
+      "fact": "Houthi spokesperson Yahya Saree warned airlines, airport staff and passengers that the airport was a military target and unsafe to use.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+     }
+    ],
+    "numbers": [],
+    "geography": "Riyadh, the capital of Saudi Arabia; the Houthis are based in Yemen, to Saudi Arabia's south, across the Red Sea from Africa",
+    "sources": [
+     {
+      "outlet": "Korea Times",
+      "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+      "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "Times of Israel",
+      "title": "Riyadh reopens its international airport as attacks by Iran-backed Houthis persist",
+      "url": "https://www.timesofisrael.com/liveblog_entry/riyadh-reopens-its-international-airport-as-attacks-by-iran-backed-houthis-persist/",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "Saudi Arabia partly reopens Riyadh airport despite renewed Houthi threats",
+      "url": "https://www.tribuneindia.com/news/world/saudi-arabia-partly-reopens-riyadh-airport-despite-renewed-houthi-threats",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "brent-116",
+    "headline": "Oil Settles at $116.72, Its Highest Since April",
+    "what_happened": "Brent crude, the main world oil price, settled at $116.72 a barrel on Friday 23 October after a new wave of Houthi strikes on Saudi Arabia. It finished the week up about 6%. Analysts said the price reflects the risk of disruption, as physical supply losses were not confirmed.",
+    "why_it_matters": "Oil prices feed into the cost of fuel, transport and food, so a jump affects families far from the Middle East.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude futures settled at $116.72 a barrel on Friday 23 October, up $3.55 or 3.14%, the highest settlement since April 29.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "US West Texas Intermediate closed at $103.27 a barrel.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "Houthi rebels claimed attacks on Saudi Arabia's Defence Ministry, two airports and an Aramco facility in Yanbu over 48 hours.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "Two people died and several were injured following attacks at Dammam airport.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "Physical supply losses are not confirmed; one analysis says the price reflects a probability of disruption rather than missing barrels.",
+      "source_url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude settlement",
+      "value": 116.72,
+      "unit": "USD per barrel",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "label": "Weekly rise in Brent",
+      "value": 6,
+      "unit": "%",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "label": "WTI settlement",
+      "value": 103.27,
+      "unit": "USD per barrel",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     }
+    ],
+    "geography": "Saudi Arabia, Yemen and the Strait of Hormuz in the Gulf region",
+    "sources": [
+     {
+      "outlet": "oilprice.com",
+      "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "The Star",
+      "title": "Middle East mayhem: Oil prices jump US$3 on Houthi attacks, oil spill, highest settlement since April",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "The National",
+      "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+      "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "Discovery Alert",
+      "title": "Houthi Attacks on Saudi Arabia Lift Brent, but No Barrels Are Lost",
+      "url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/",
+      "published": "2026-10-24"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-talks",
+    "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+    "what_happened": "Russia has agreed in principle to restart three-way talks with Ukraine and the United States, a Kremlin adviser said. The talks would begin after 10 November and would be the first of their kind since February. Fighting continues, with long-range strikes every day.",
+    "why_it_matters": "Talks are the only route to ending a war that has lasted years, though earlier rounds produced little beyond prisoner exchanges.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Putin's foreign affairs adviser Yuri Ushakov said the talks would restart after November 10, the first three-way negotiations since February.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     },
+     {
+      "fact": "US envoy Steve Witkoff met Putin in St. Petersburg for about three hours, a day after meeting Zelensky and some European leaders in Oslo.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     },
+     {
+      "fact": "Zelensky said he supported the push to restart talks swiftly and has insisted only a leaders' summit can break the impasse.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     },
+     {
+      "fact": "Earlier rounds in Abu Dhabi and Geneva produced little reported progress beyond prisoner exchanges.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Russia, Ukraine and the United States; meetings in St. Petersburg (Russia) and Oslo (Norway)",
+    "sources": [
+     {
+      "outlet": "Inquirer",
+      "title": "Putin agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+      "url": "https://www.pbs.org/newshour/amp/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Putin agrees to resume talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "url": "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "kim-bridge",
+    "headline": "Kim Jong Un Crosses a New Bridge Into China",
+    "what_happened": "North Korea's leader Kim Jong Un visited the Chinese border city of Dandong on 24 October, crossing the newly opened New Yalu River Bridge. It was his first trip to China in about a year. Beijing and Pyongyang agreed to expand trade.",
+    "why_it_matters": "A new bridge can carry far more goods than the old route, which shows how closely the two neighbours want to work together.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Kim Jong Un visited Dandong on Saturday 24 October 2026, crossing the newly opened New Yalu River Bridge, his first trip to China in about a year.",
+      "source_url": "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477"
+     },
+     {
+      "fact": "Beijing and Pyongyang agreed to expand trade and personnel exchanges.",
+      "source_url": "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477"
+     },
+     {
+      "fact": "The bridge is expected to accommodate two-way traffic around the clock, including container shipments and heavy cargo trucks.",
+      "source_url": "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477"
+     },
+     {
+      "fact": "In Dandong Kim visited a memorial marking China's support of North Korea during the 1950-53 Korean War and met Wang Huning, a member of the Communist Party Standing Committee.",
+      "source_url": "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477"
+     }
+    ],
+    "numbers": [],
+    "geography": "Dandong, China, on the Yalu River border with North Korea",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Kim Jong Un crosses new bridge into China as trade ties warm",
+      "url": "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "CBS News",
+      "title": "North Korea's Kim Jong Un touts ties, opens bridge with China on first trip in a year",
+      "url": "https://www.cbsnews.com/news/north-korea-kim-jong-un-china-visit-bridge/",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "JoongAng Daily",
+      "title": "Kim Jong-un visits China, vows to strengthen North Korea-China ties",
+      "url": "https://www.koreajoongangdaily.com/korea/kim-crosses-new-north-koreachina-bridge-touts-bilateral-ties-at-war-memorial/12934477",
+      "published": "2026-10-24"
+     }
+    ]
+   },
+   {
+    "id": "hormuz-claims",
+    "headline": "Iran Says Tankers Were Hit in the Strait of Hormuz; Claims Are Unconfirmed",
+    "what_happened": "Iran's Revolutionary Guard Navy said two supertankers hit naval mines in the Strait of Hormuz on 24 October, and Iran earlier claimed seven tankers were struck overnight. No maritime authority confirmed these claims. The US president said Iran was making up attack reports to push up oil prices.",
+    "why_it_matters": "The Strait of Hormuz is a narrow sea route that much of the world's oil passes through, so any danger to ships there moves prices.",
+    "importance": 7,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Iran's Revolutionary Guard Navy said two supertankers hit naval mines on an unauthorized southern route, with a combined more than 4.5 million barrels of crude; no maritime authority has confirmed this.",
+      "source_url": "https://straits.live/briefs/2026-10-24"
+     },
+     {
+      "fact": "Iran claimed seven oil tankers were struck in the Strait of Hormuz overnight; the report did not identify flags or casualties.",
+      "source_url": "https://www.sofx.com/iran-says-seven-tankers-were-hit-near-strait-of-hormuz-threatens-u-s-bases/"
+     },
+     {
+      "fact": "The UK Maritime Trade Operations Centre said a tanker was struck by an unknown projectile as it left the Strait of Hormuz.",
+      "source_url": "https://straits.live/briefs/2026-10-24"
+     },
+     {
+      "fact": "Trump accused Iran of fabricating attack reports to drive up oil prices ahead of the US midterm elections.",
+      "source_url": "https://straits.live/briefs/2026-10-24"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz, between Iran and Oman, linking the Persian Gulf to the Gulf of Oman",
+    "sources": [
+     {
+      "outlet": "Gulf News",
+      "title": "Middle East Tensions Escalate: US Prepares Strikes on Iran Amid Houthi Missile Threats and Tanker Attacks",
+      "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "SOFX",
+      "title": "Iran Says Seven Tankers Were Hit Near Strait of Hormuz, Threatens U.S. Bases",
+      "url": "https://www.sofx.com/iran-says-seven-tankers-were-hit-near-strait-of-hormuz-threatens-u-s-bases/",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "Straits Daily Brief",
+      "title": "Strait of Hormuz News, October 24, 2026",
+      "url": "https://straits.live/briefs/2026-10-24",
+      "published": "2026-10-24"
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "early-voting",
+    "headline": "Early Voting Breaks Records in Georgia and Texas Before the Midterms",
+    "what_happened": "Voters in Georgia and Texas are casting early ballots in record numbers ahead of the midterm elections on 3 November. Georgia passed 1 million early votes, compared with almost 895,000 at the same point in 2022. In Harris County, Texas, first-day in-person voting beat the 2018 midterm record.",
+    "why_it_matters": "Midterm elections decide who controls Congress, which writes the laws, so high turnout shows how many people want a say.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Georgia surpassed 1 million early votes, compared with almost 895,000 at the same point in 2022.",
+      "source_url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b"
+     },
+     {
+      "fact": "Harris County's first day of early voting drew over 104,000 in-person voters, beating the 2018 midterm first-day record of 63,188.",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "fact": "Through four days 384,304 people had voted in person in Harris County, also a midterm record.",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "fact": "Early voting in Texas and Georgia runs through October 30, and Election Day is November 3.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Georgia early votes",
+      "value": 1,
+      "unit": "million",
+      "source_url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b"
+     },
+     {
+      "label": "Harris County first-day in-person voters",
+      "value": 104000,
+      "unit": "people",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     }
+    ],
+    "geography": "Georgia and Texas (Harris County includes Houston)",
+    "sources": [
+     {
+      "outlet": "Houston Public Media",
+      "title": "Harris County crushes midterm first-day early voter turnout record",
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "11Alive",
+      "title": "Georgia surpasses 1 million early votes cast in midterm elections",
+      "url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "ABC13 Houston",
+      "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas as Harris County sets record numbers",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+      "published": "2026-10-24"
+     }
+    ]
+   },
+   {
+    "id": "midterm-polls",
+    "headline": "Polls Point to a Democratic Edge in the Midterms, With the Senate Closer",
+    "what_happened": "Forecasters mostly expect Democrats to win the House of Representatives, while control of the Senate is closer. One model gives Democrats an 88% chance of the House and 57% of the Senate. An average of polls has President Trump's approval at 37%.",
+    "why_it_matters": "Whichever party wins control of Congress shapes the laws the country can pass for the next two years.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "One model gives Democrats an estimated 88% chance of controlling the House and 57% chance of controlling the Senate.",
+      "source_url": "http://www.jpost.com/american-politics/article-912801"
+     },
+     {
+      "fact": "Democrats need a net gain of at least four seats to take the Senate, according to The Hill.",
+      "source_url": "http://www.jpost.com/american-politics/article-912801"
+     },
+     {
+      "fact": "An average of polls has Trump at 37% approval, which NPR notes is tied for the lowest pre-midterm approval in the last half century.",
+      "source_url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress"
+     },
+     {
+      "fact": "Polling in recent presidential cycles has tended to underestimate Republican support, a reason for caution.",
+      "source_url": "http://www.jpost.com/american-politics/article-912801"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "sources": [
+     {
+      "outlet": "The Conversation",
+      "title": "What recent polling suggests will happen in the US midterm elections",
+      "url": "https://theconversation.com/what-recent-polling-suggests-will-happen-in-the-us-midterm-elections-294713",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "NPR",
+      "title": "Democrats' advantage is clear with less than a month to go in the midterm elections",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
+      "published": "2026-10-06"
+     },
+     {
+      "outlet": "JPost",
+      "title": "Democrats aim to flip key Senate, House seats in midterms blue wave",
+      "url": "http://www.jpost.com/american-politics/article-912801",
+      "published": "2026-10-24"
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-arnab",
+    "headline": "Cyclone Arnab Is Due to Cross the Andhra Pradesh Coast on 28 October",
+    "what_happened": "Cyclone Arnab is forecast to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam around the forenoon of 28 October. Red alerts for heavy rain are in place across several states, fishermen are barred from the sea and schools are shut in some districts.",
+    "why_it_matters": "A cyclone's winds and rain can flood homes and roads, so early warnings, shelters and staying ashore keep people safe.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "IMD expects sustained winds of 115-125 kmph and gusts reaching 140 kmph; the track and intensity may change.",
+      "source_url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585"
+     },
+     {
+      "fact": "IMD has issued red alerts across Andhra Pradesh, Tamil Nadu, Kerala and Odisha; extremely heavy rainfall is expected across parts of coastal Andhra Pradesh on October 27 and 28.",
+      "source_url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585"
+     },
+     {
+      "fact": "Of 30,043 fishing boats in Andhra Pradesh, 29,952 had returned to their landing centres, with 91 still heading to the coast, according to a report published on October 24.",
+      "source_url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+     },
+     {
+      "fact": "Authorities have strictly prohibited fishermen from venturing into the sea.",
+      "source_url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+     },
+     {
+      "fact": "Schools, colleges and Anganwadi centres in five Odisha districts will remain closed on 28 and 29 October.",
+      "source_url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+     },
+     {
+      "fact": "Ganjam has 100 cyclone shelters ready and another 1,000 temporary locations identified.",
+      "source_url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+     },
+     {
+      "fact": "The Odisha chief minister directed officials to move people from vulnerable areas, with attention to elderly people, patients and pregnant women.",
+      "source_url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Expected sustained wind speed",
+      "value": 120,
+      "unit": "km/h (115-125)",
+      "source_url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585"
+     },
+     {
+      "label": "Fishing boats back ashore in Andhra Pradesh",
+      "value": 29952,
+      "unit": "of 30,043 boats",
+      "source_url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+     }
+    ],
+    "geography": "Bay of Bengal; Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam; Odisha to the north",
+    "sources": [
+     {
+      "outlet": "Deccan Herald",
+      "title": "Cyclone 'Arnab' to make landfall on Andhra Pradesh coast; check which other states get affected",
+      "url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "India.com",
+      "title": "Cyclone Arnab Update: Odisha CM Mohan Charan Majhi targets zero casualties, red alert issued for six districts",
+      "url": "https://www.india.com/news/india/cyclone-arnab-mohan-charan-majhi-odisha-cm-red-alert-bay-of-bengal-imd-weather-update-puri-gajapati-ganjam-rayagada-koraput-malkangiri-8538983/",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "Odisha TV",
+      "title": "Odisha Cyclone News LIVE: Cyclone 'Arnab' likely to hit Andhra coast on October 28, Odisha on alert",
+      "url": "https://odishatv.in/weather/odisha-cyclone-news-live-storm-likely-to-hit-coast-on-october-28-state-gov-assures-preparedness-12741457",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "Shafaqna India",
+      "title": "Odisha Intensifies Evacuation Efforts as Cyclone Arnab Nears Andhra Coast",
+      "url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "delhi-foam",
+    "headline": "Foam Returns to the Yamuna and Delhi's Air Stays Poor Under GRAP Stage 1",
+    "what_happened": "Thick white foam has reappeared on the Yamuna river near Kalindi Kunj in Delhi, while the region's air quality index reached 168 on 25 October. Stage 1 of the Graded Response Action Plan has been in force since 21 October.",
+    "why_it_matters": "Dirty air and polluted rivers affect everyone's health, and the rules tell us how officials respond when the readings rise.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The CAQM activated Stage 1 of GRAP on October 21 after Delhi's daily average AQI reached 245.",
+      "source_url": "https://www.thestatesman.com/cities/delhi/yamuna-covered-in-toxic-foam-again-days-after-delhi-govts-big-clean-up-pledge-grap-1-curbs-in-force-across-ncr-1503654802.html"
+     },
+     {
+      "fact": "On October 25 the regional AQI was reported at 168, with PM2.5 and PM10 as the main pollutants.",
+      "source_url": "https://www.businesstoday.in/india/story/toxic-foam-is-back-on-the-yamuna-and-delhi-ncr-aqi-has-reached-168-here-is-what-is-happening-563488-2026-10-25"
+     },
+     {
+      "fact": "Under GRAP-1, coal and firewood in tandoors at hotels, restaurants and open-air eateries are prohibited, and diesel generators are restricted to essential or emergency use.",
+      "source_url": "https://www.thestatesman.com/cities/delhi/yamuna-covered-in-toxic-foam-again-days-after-delhi-govts-big-clean-up-pledge-grap-1-curbs-in-force-across-ncr-1503654802.html"
+     },
+     {
+      "fact": "Thick white foam covers parts of the Yamuna near Kalindi Kunj, days after the Delhi government announced water and sewage projects worth nearly Rs 9,000 crore.",
+      "source_url": "https://www.thestatesman.com/cities/delhi/yamuna-covered-in-toxic-foam-again-days-after-delhi-govts-big-clean-up-pledge-grap-1-curbs-in-force-across-ncr-1503654802.html"
+     },
+     {
+      "fact": "The foam is linked to pollutants such as surfactants in wastewater.",
+      "source_url": "https://www.thestatesman.com/cities/delhi/yamuna-covered-in-toxic-foam-again-days-after-delhi-govts-big-clean-up-pledge-grap-1-curbs-in-force-across-ncr-1503654802.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Regional AQI on 25 October",
+      "value": 168,
+      "unit": "AQI",
+      "source_url": "https://www.businesstoday.in/india/story/toxic-foam-is-back-on-the-yamuna-and-delhi-ncr-aqi-has-reached-168-here-is-what-is-happening-563488-2026-10-25"
+     },
+     {
+      "label": "AQI when GRAP Stage 1 began",
+      "value": 245,
+      "unit": "AQI",
+      "source_url": "https://www.thestatesman.com/cities/delhi/yamuna-covered-in-toxic-foam-again-days-after-delhi-govts-big-clean-up-pledge-grap-1-curbs-in-force-across-ncr-1503654802.html"
+     }
+    ],
+    "geography": "Delhi and the National Capital Region; Yamuna river near Kalindi Kunj",
+    "sources": [
+     {
+      "outlet": "Business Today",
+      "title": "Toxic foam is back on the Yamuna and Delhi NCR AQI has reached 168. Here is what is happening",
+      "url": "https://www.businesstoday.in/india/story/toxic-foam-is-back-on-the-yamuna-and-delhi-ncr-aqi-has-reached-168-here-is-what-is-happening-563488-2026-10-25",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "The Statesman",
+      "title": "Yamuna covered in toxic foam again days after Delhi govt's big clean-up pledge; GRAP-1 curbs in force across NCR",
+      "url": "https://www.thestatesman.com/cities/delhi/yamuna-covered-in-toxic-foam-again-days-after-delhi-govts-big-clean-up-pledge-grap-1-curbs-in-force-across-ncr-1503654802.html",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "india-inflation",
+    "headline": "India's Prices Rose 5.54% in September After the RBI Raised Its Rate",
+    "what_happened": "India's consumer prices were 5.54% higher in September than a year earlier, up from 4.83% in August. The Reserve Bank of India had raised its main interest rate to 5.50% on 7 October, and it said further cuts were no longer appropriate.",
+    "why_it_matters": "When prices rise faster, money buys less, and the central bank raises interest rates to slow price rises.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The consumer price index rose 5.54% in September from a year earlier, up from a revised 4.83% in August.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "fact": "The RBI raised the repo rate by 25 basis points from 5.25% to 5.50% on 7 October 2026.",
+      "source_url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+     },
+     {
+      "fact": "Food inflation was 7.74%.",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html"
+     },
+     {
+      "fact": "The RBI said near-term rate cuts were no longer appropriate; the next MPC decision is listed for 4 December 2026.",
+      "source_url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Consumer price inflation, September",
+      "value": 5.54,
+      "unit": "%",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "label": "RBI repo rate",
+      "value": 5.5,
+      "unit": "%",
+      "source_url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+     }
+    ],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "India inflation jumps to 5.54% in September, strengthening case for further rate hikes",
+      "url": "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Rio Times",
+      "title": "India's Rate Hike to 5.5% and What It Means",
+      "url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/",
+      "published": "2026-10-12"
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "serbia-vote-civics",
+    "headline": "Serbia Votes in a Snap Election as Students Challenge Its Long-Time Leader",
+    "what_happened": "Serbians voted on Sunday 25 October in a snap parliamentary election. The contest was seen as a test between President-turned-candidate Aleksandar Vucic's Progressive Party and a list backed by the student movement. Turnout was reported to be very high, and the official results had not been published in the sources found.",
+    "why_it_matters": "The vote shows whether a protest movement that began after a deadly accident can change who governs a country that wants to join the European Union.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Serbia's 6.4 million voters chose among 18 parties hoping to enter the 250-member Parliament.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Vucic resigned the presidency in September to run again for prime minister.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "The student movement grew out of protests over the November 2024 collapse of a railway station canopy in Novi Sad that killed 16 people.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "The students' list is led by cardiologist Ilija Srdanovic.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Vucic has called the student movement a foreign-funded coup attempt, which the students reject.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Pollsters CeSID and Ipsos put turnout at 67.6% by 7 p.m., described as the highest since 1992.",
+      "source_url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Turnout by 7 p.m.",
+      "value": 67.6,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+     },
+     {
+      "label": "Seats in Parliament",
+      "value": 250,
+      "unit": "seats",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "label": "Registered voters",
+      "value": 6.4,
+      "unit": "million",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "label": "People killed in the Novi Sad canopy collapse",
+      "value": 16,
+      "unit": "people",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     }
+    ],
+    "geography": "Serbia, in the Balkans in south-eastern Europe; Novi Sad is in the north; capital Belgrade",
+    "sources": [
+     {
+      "outlet": "rferl.org",
+      "title": "Serbia Votes In Snap Parliament Election As Vucic Faces Stiff Challenge From Student-Led Protests",
+      "url": "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "France 24",
+      "title": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+      "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "US News",
+      "title": "Serbia Votes in Historic Election as Students Seek to End Vucic's Long Grip on Power",
+      "url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "RTE",
+      "title": "Serbia votes as students seek to end Vucic's long grip",
+      "url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "Early reports suggest record high turnout in Serbia elections",
+      "url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "early-voting-civics",
+    "headline": "Early Voting Breaks Records in Georgia and Texas Before the Midterms",
+    "what_happened": "Voters in Georgia and Texas are casting early ballots in record numbers ahead of the midterm elections on 3 November. Georgia passed 1 million early votes, compared with almost 895,000 at the same point in 2022. In Harris County, Texas, first-day in-person voting beat the 2018 midterm record.",
+    "why_it_matters": "Midterm elections decide who controls Congress, which writes the laws, so high turnout shows how many people want a say.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Georgia surpassed 1 million early votes, compared with almost 895,000 at the same point in 2022.",
+      "source_url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b"
+     },
+     {
+      "fact": "Harris County's first day of early voting drew over 104,000 in-person voters, beating the 2018 midterm first-day record of 63,188.",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "fact": "Through four days 384,304 people had voted in person in Harris County, also a midterm record.",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     },
+     {
+      "fact": "Early voting in Texas and Georgia runs through October 30, and Election Day is November 3.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Georgia early votes",
+      "value": 1,
+      "unit": "million",
+      "source_url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b"
+     },
+     {
+      "label": "Harris County first-day in-person voters",
+      "value": 104000,
+      "unit": "people",
+      "source_url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+     }
+    ],
+    "geography": "Georgia and Texas (Harris County includes Houston)",
+    "sources": [
+     {
+      "outlet": "Houston Public Media",
+      "title": "Harris County crushes midterm first-day early voter turnout record",
+      "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "11Alive",
+      "title": "Georgia surpasses 1 million early votes cast in midterm elections",
+      "url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "ABC13 Houston",
+      "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas as Harris County sets record numbers",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+      "published": "2026-10-24"
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "brent-116-econ",
+    "headline": "Oil Settles at $116.72, Its Highest Since April",
+    "what_happened": "Brent crude, the main world oil price, settled at $116.72 a barrel on Friday 23 October after a new wave of Houthi strikes on Saudi Arabia. It finished the week up about 6%. Analysts said the price reflects the risk of disruption, as physical supply losses were not confirmed.",
+    "why_it_matters": "Oil prices feed into the cost of fuel, transport and food, so a jump affects families far from the Middle East.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude futures settled at $116.72 a barrel on Friday 23 October, up $3.55 or 3.14%, the highest settlement since April 29.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "US West Texas Intermediate closed at $103.27 a barrel.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "Houthi rebels claimed attacks on Saudi Arabia's Defence Ministry, two airports and an Aramco facility in Yanbu over 48 hours.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "Two people died and several were injured following attacks at Dammam airport.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "fact": "Physical supply losses are not confirmed; one analysis says the price reflects a probability of disruption rather than missing barrels.",
+      "source_url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude settlement",
+      "value": 116.72,
+      "unit": "USD per barrel",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "label": "Weekly rise in Brent",
+      "value": 6,
+      "unit": "%",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     },
+     {
+      "label": "WTI settlement",
+      "value": 103.27,
+      "unit": "USD per barrel",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+     }
+    ],
+    "geography": "Saudi Arabia, Yemen and the Strait of Hormuz in the Gulf region",
+    "sources": [
+     {
+      "outlet": "oilprice.com",
+      "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "The Star",
+      "title": "Middle East mayhem: Oil prices jump US$3 on Houthi attacks, oil spill, highest settlement since April",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "The National",
+      "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+      "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "Discovery Alert",
+      "title": "Houthi Attacks on Saudi Arabia Lift Brent, but No Barrels Are Lost",
+      "url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/",
+      "published": "2026-10-24"
+     }
+    ]
+   },
+   {
+    "id": "india-inflation-econ",
+    "headline": "India's Prices Rose 5.54% in September After the RBI Raised Its Rate",
+    "what_happened": "India's consumer prices were 5.54% higher in September than a year earlier, up from 4.83% in August. The Reserve Bank of India had raised its main interest rate to 5.50% on 7 October, and it said further cuts were no longer appropriate.",
+    "why_it_matters": "When prices rise faster, money buys less, and the central bank raises interest rates to slow price rises.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The consumer price index rose 5.54% in September from a year earlier, up from a revised 4.83% in August.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "fact": "The RBI raised the repo rate by 25 basis points from 5.25% to 5.50% on 7 October 2026.",
+      "source_url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+     },
+     {
+      "fact": "Food inflation was 7.74%.",
+      "source_url": "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html"
+     },
+     {
+      "fact": "The RBI said near-term rate cuts were no longer appropriate; the next MPC decision is listed for 4 December 2026.",
+      "source_url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Consumer price inflation, September",
+      "value": 5.54,
+      "unit": "%",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening"
+     },
+     {
+      "label": "RBI repo rate",
+      "value": 5.5,
+      "unit": "%",
+      "source_url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/"
+     }
+    ],
+    "geography": "India",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "India inflation jumps to 5.54% in September, strengthening case for further rate hikes",
+      "url": "https://finance.yahoo.com/economy/policy/articles/india-inflation-jumps-5-54-110040532.html",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "India Inflation Hits Two-Year High, Backs RBI Tightening",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/india-inflation-hits-almost-two-year-high-backs-rbi-tightening",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Rio Times",
+      "title": "India's Rate Hike to 5.5% and What It Means",
+      "url": "https://www.riotimesonline.com/india-rbi-rate-hike-5-5-percent-explained-2026/",
+      "published": "2026-10-12"
+     }
+    ]
+   },
+   {
+    "id": "uk-inflation",
+    "headline": "UK Prices Rose 3.5% in the Year to September as Fuel Costs Climbed",
+    "what_happened": "UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August, the Office for National Statistics said. A jump in petrol and diesel costs drove the rise. The Bank of England's rate is 3.75% and a first rate rise in over three years is on the table.",
+    "why_it_matters": "Higher prices make a family's money go less far, and interest rates are one tool used to slow price rises.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consumer prices rose 3.5% in the 12 months through September, up from 3.1% the previous month, the ONS said; economists had expected 3.4%.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "fact": "The jump was driven by a surge in petrol and diesel costs.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "fact": "Bank Rate is 3.75%; on 17 September the MPC voted 6-3 to hold, with three members wanting a 25-basis-point rise.",
+      "source_url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+     },
+     {
+      "fact": "Markets are pricing in four rate increases with no cuts, which ING's James Smith considers unlikely.",
+      "source_url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "UK consumer price inflation, September",
+      "value": 3.5,
+      "unit": "%",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "label": "Bank Rate",
+      "value": 3.75,
+      "unit": "%",
+      "source_url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+     }
+    ],
+    "geography": "United Kingdom",
+    "sources": [
+     {
+      "outlet": "Bloomberg",
+      "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "The British Eye",
+      "title": "UK Interest Rate Forecasts Face Doubts as Markets Price in Four Hikes",
+      "url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes",
+      "published": "2026-10-25"
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "euclid-comet",
+    "headline": "Europe's Euclid Telescope Discovers a New Comet",
+    "what_happened": "The European Space Agency's Euclid telescope found a previously unknown comet, now called C/2026 S1 (Euclid). It is Euclid's first comet discovery. It is a long-period comet whose orbit lasts thousands of years.",
+    "why_it_matters": "Spotting a comet while it is still far from the Sun gives scientists more time to study it.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Euclid's images were taken between 16 and 24 September 2026, and ESA announced the find around 19 October.",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+     },
+     {
+      "fact": "Mikko Pontinen of the University of Helsinki made the initial detection with software that flags fast-moving streaks; checks against catalogues found no match.",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+     },
+     {
+      "fact": "The Minor Planet Center confirmed it as a comet on 8 October.",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+     },
+     {
+      "fact": "The comet is about 1.3 billion km from Earth and is a long-period comet with an orbit lasting thousands of years.",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+     },
+     {
+      "fact": "ESA says the find shows Euclid can spot comets while they are far from the Sun; this comet is unsuitable for the Comet Interceptor mission.",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance of the comet from Earth",
+      "value": 1.3,
+      "unit": "billion km",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+     }
+    ],
+    "geography": "Space, about 1.3 billion km from Earth; Euclid is a European Space Agency telescope",
+    "sources": [
+     {
+      "outlet": "ESA",
+      "title": "Euclid discovers new comet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "published": "2026-10-19"
+     },
+     {
+      "outlet": "Phys.org",
+      "title": "Euclid discovers its first new comet 810 million miles from Earth",
+      "url": "https://phys.org/news/2026-10-euclid-comet-million-miles-earth.html",
+      "published": "2026-10-19"
+     }
+    ]
+   },
+   {
+    "id": "perseverance-record",
+    "headline": "NASA's Perseverance Rover Passes the Off-World Driving Record",
+    "what_happened": "NASA's Perseverance rover passed the distance driven by Opportunity on Mars, reaching 28.10 miles (45.22 km) on 11 October. Opportunity logged 28.06 miles (45.16 km) between 2004 and 2018.",
+    "why_it_matters": "Rovers that drive farther can visit more rocks and test more places where life might once have existed.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Perseverance's odometer reached 28.10 miles (45.22 km), passing the 28.06 miles (45.16 km) Opportunity logged between 2004 and 2018.",
+      "source_url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
+     },
+     {
+      "fact": "It covered in five and a half years a distance that took Opportunity almost 15.",
+      "source_url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
+     },
+     {
+      "fact": "NASA credits autonomy: the rover has driven more than 90% of its distance using AutoNav.",
+      "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+     },
+     {
+      "fact": "JPL engineers say the rover, designed for roughly 20 km of driving, looks capable of reaching about 100 km, a team projection.",
+      "source_url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Perseverance total distance",
+      "value": 45.22,
+      "unit": "km",
+      "source_url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
+     },
+     {
+      "label": "Opportunity total distance",
+      "value": 45.16,
+      "unit": "km",
+      "source_url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done"
+     }
+    ],
+    "geography": "Jezero Crater, Mars",
+    "sources": [
+     {
+      "outlet": "NASA Science",
+      "title": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+      "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+      "published": "2026-10-12"
+     },
+     {
+      "outlet": "Space.com",
+      "title": "NASA's Perseverance Mars rover breaks interplanetary driving record and it's far from done",
+      "url": "https://www.space.com/space-exploration/mars-rovers/nasas-perseverance-mars-rover-breaks-interplanetary-driving-record-and-its-far-from-done",
+      "published": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "id": "reedsnake",
+    "headline": "Tiny Snakes Roll Like Wheels, Four Times Faster Than They Slither",
+    "what_happened": "A study in Current Biology from Toho University found that dwarf reedsnakes escape danger by rolling their bodies like wheels while keeping their heads facing forward. Their peak rolling speeds were about four times their fastest side-to-side slithering.",
+    "why_it_matters": "It shows that animals can invent fast movements without legs or wheels, which engineers study when designing robots.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Peak rolling speeds were 1.72 to 3.69 metres per second, roughly 3.8 to 8.3 miles per hour, about four times the peak speed measured during lateral undulation.",
+      "source_url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+     },
+     {
+      "fact": "The snakes keep their heads facing the direction of travel and at a relatively stable height while the rear of the body rotates.",
+      "source_url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+     },
+     {
+      "fact": "The work used video of 13 snakes filmed in a lab in Borneo; the team was led by Yosuke Kojima and Ibuki Fukuyama.",
+      "source_url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Peak rolling speed (top)",
+      "value": 3.69,
+      "unit": "metres per second",
+      "source_url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+     },
+     {
+      "label": "Snakes filmed",
+      "value": 13,
+      "unit": "snakes",
+      "source_url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+     }
+    ],
+    "geography": "Borneo (where the snakes were filmed); Toho University, Japan",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "These tiny snakes roll four times faster than they slither",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023718.htm",
+      "published": "2026-10-23"
+     },
+     {
+      "outlet": "Phys.org",
+      "title": "Rolling without wheels: How dwarf reedsnakes coordinate their bodies for high-speed escapes",
+      "url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html",
+      "published": "2026-10-19"
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-inflation-uk",
+    "headline": "UK Prices Rose 3.5% in the Year to September as Fuel Costs Climbed",
+    "what_happened": "UK consumer prices rose 3.5% in the 12 months to September, up from 3.1% in August, the Office for National Statistics said. A jump in petrol and diesel costs drove the rise. The Bank of England's rate is 3.75% and a first rate rise in over three years is on the table.",
+    "why_it_matters": "Higher prices make a family's money go less far, and interest rates are one tool used to slow price rises.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consumer prices rose 3.5% in the 12 months through September, up from 3.1% the previous month, the ONS said; economists had expected 3.4%.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "fact": "The jump was driven by a surge in petrol and diesel costs.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "fact": "Bank Rate is 3.75%; on 17 September the MPC voted 6-3 to hold, with three members wanting a 25-basis-point rise.",
+      "source_url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+     },
+     {
+      "fact": "Markets are pricing in four rate increases with no cuts, which ING's James Smith considers unlikely.",
+      "source_url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "UK consumer price inflation, September",
+      "value": 3.5,
+      "unit": "%",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike"
+     },
+     {
+      "label": "Bank Rate",
+      "value": 3.75,
+      "unit": "%",
+      "source_url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes"
+     }
+    ],
+    "geography": "United Kingdom",
+    "sources": [
+     {
+      "outlet": "Bloomberg",
+      "title": "UK Inflation Hits 11-Month High as Bank of England Eyes Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-21/inflation-jumps-to-11-month-high-as-bank-of-england-considers-a-hike",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "The British Eye",
+      "title": "UK Interest Rate Forecasts Face Doubts as Markets Price in Four Hikes",
+      "url": "https://thebritisheye.com/2026/10/25/uk-interest-rate-doubts-markets-hikes",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "uk-budget",
+    "headline": "Britain's Chancellor Prepares for the Budget on 28 October",
+    "what_happened": "Chancellor John Healey will deliver the Autumn Budget on Wednesday 28 October, the first of the government led by Prime Minister Andy Burnham. Commentators expect little room for new tax rises, and say the gap in the public finances may be around 12 billion pounds or more.",
+    "why_it_matters": "A Budget decides how much tax people pay and how much the government spends on things like schools and hospitals.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Budget is set for Wednesday 28 October 2026; Chancellor John Healey will deliver it.",
+      "source_url": "https://www.rsmuk.com/insights/budget/autumn-budget-2026-predictions"
+     },
+     {
+      "fact": "One estimate puts the shortfall around 12 billion pounds, while the Institute for Fiscal Studies has said it could be as high as 20 billion pounds.",
+      "source_url": "https://www.rsmuk.com/insights/budget/autumn-budget-2026-predictions"
+     },
+     {
+      "fact": "Rises to the rates of income tax, employee National Insurance and VAT are ruled out, so commentators expect changes to thresholds, allowances and reliefs; many items are speculation rather than confirmed policy.",
+      "source_url": "https://www.rsmuk.com/insights/budget/autumn-budget-2026-predictions"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom",
+    "sources": [
+     {
+      "outlet": "RSM UK",
+      "title": "Predictions - Autumn Budget 2026",
+      "url": "https://www.rsmuk.com/insights/budget/autumn-budget-2026-predictions",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "Fidelity",
+      "title": "What can we expect in the Autumn Budget?",
+      "url": "https://www.fidelity.co.uk/markets-insights/personal-finance/personal-finance/what-can-we-expect-in-the-autumn-budget/",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "Grant Thornton",
+      "title": "Autumn Budget 2026 predictions: the tax changes to watch",
+      "url": "https://www.grantthornton.co.uk/insights/autumn-budget/2026-predictions/",
+      "published": "2026-10-24"
+     }
+    ]
+   },
+   {
+    "id": "aberfan-60",
+    "headline": "Britain Marks 60 Years Since the Aberfan Disaster",
+    "what_happened": "On 21 October the King, Queen and Prince of Wales visited Aberfan in Wales to mark 60 years since the disaster that killed 144 people, 116 of them children. A minute's silence was invited at 9.15am, and a concert called Aberfan 60 was scheduled for 25 October.",
+    "why_it_matters": "Remembering Aberfan keeps alive the lesson that warnings about danger must be heeded.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The disaster killed 144 people, including 116 children.",
+      "source_url": "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on"
+     },
+     {
+      "fact": "The King, Queen and Prince of Wales visited the memorial garden and community centre; William visited a primary school to unveil the Aberfan Memorial Tree.",
+      "source_url": "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on"
+     },
+     {
+      "fact": "Organisations across Wales were invited to observe a minute's silence at 9.15am.",
+      "source_url": "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on"
+     },
+     {
+      "fact": "A concert titled Aberfan 60 was scheduled for 25 October at BBC Hoddinott Hall, featuring a new requiem by Paul Mealor.",
+      "source_url": "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on"
+     }
+    ],
+    "numbers": [],
+    "geography": "Aberfan, a village in South Wales",
+    "sources": [
+     {
+      "outlet": "ITV News",
+      "title": "The King and Queen to visit Aberfan to mark 60 years since the disaster",
+      "url": "https://www.itv.com/news/wales/2026-10-20/the-king-and-queen-to-visit-aberfan-to-mark-60-years-since-the-disaster",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "ITV News",
+      "title": "Aberfan: 'Community, compassion, and remembrance' 60 years on",
+      "url": "https://www.itv.com/news/wales/2026-10-20/community-compassion-and-remembrance-60-years-on",
+      "published": "2026-10-20"
+     },
+     {
+      "outlet": "Gov.wales",
+      "title": "Wales to mark the 60th anniversary of the Aberfan disaster",
+      "url": "https://www.gov.wales/wales-to-mark-60th-anniversary-of-the-aberfan-disaster",
+      "published": "2026-10-20"
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "serbia-vote-eu",
+    "headline": "Serbia Votes in a Snap Election as Students Challenge Its Long-Time Leader",
+    "what_happened": "Serbians voted on Sunday 25 October in a snap parliamentary election. The contest was seen as a test between President-turned-candidate Aleksandar Vucic's Progressive Party and a list backed by the student movement. Turnout was reported to be very high, and the official results had not been published in the sources found.",
+    "why_it_matters": "The vote shows whether a protest movement that began after a deadly accident can change who governs a country that wants to join the European Union.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Serbia's 6.4 million voters chose among 18 parties hoping to enter the 250-member Parliament.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Vucic resigned the presidency in September to run again for prime minister.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "The student movement grew out of protests over the November 2024 collapse of a railway station canopy in Novi Sad that killed 16 people.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "The students' list is led by cardiologist Ilija Srdanovic.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Vucic has called the student movement a foreign-funded coup attempt, which the students reject.",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "fact": "Pollsters CeSID and Ipsos put turnout at 67.6% by 7 p.m., described as the highest since 1992.",
+      "source_url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Turnout by 7 p.m.",
+      "value": 67.6,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html"
+     },
+     {
+      "label": "Seats in Parliament",
+      "value": 250,
+      "unit": "seats",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "label": "Registered voters",
+      "value": 6.4,
+      "unit": "million",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     },
+     {
+      "label": "People killed in the Novi Sad canopy collapse",
+      "value": 16,
+      "unit": "people",
+      "source_url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/"
+     }
+    ],
+    "geography": "Serbia, in the Balkans in south-eastern Europe; Novi Sad is in the north; capital Belgrade",
+    "sources": [
+     {
+      "outlet": "rferl.org",
+      "title": "Serbia Votes In Snap Parliament Election As Vucic Faces Stiff Challenge From Student-Led Protests",
+      "url": "https://www.rferl.org/a/serbia-vote-election-parliament-vucic-student-corruption/33883844.html",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "France 24",
+      "title": "Serbia holds parliamentary election as populist leader Vucic faces student movement",
+      "url": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "US News",
+      "title": "Serbia Votes in Historic Election as Students Seek to End Vucic's Long Grip on Power",
+      "url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election",
+      "published": "2026-10-24"
+     },
+     {
+      "outlet": "RTE",
+      "title": "Serbia votes as students seek to end Vucic's long grip",
+      "url": "https://www.rte.ie/news/2026/1025/1596799-serbia-parliamentary-elections/",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "Early reports suggest record high turnout in Serbia elections",
+      "url": "https://www.yahoo.com/news/world/articles/early-reports-suggest-record-high-150704187.html",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "ukraine-talks-eu",
+    "headline": "Putin Agrees in Principle to Restart Three-Way Ukraine Talks",
+    "what_happened": "Russia has agreed in principle to restart three-way talks with Ukraine and the United States, a Kremlin adviser said. The talks would begin after 10 November and would be the first of their kind since February. Fighting continues, with long-range strikes every day.",
+    "why_it_matters": "Talks are the only route to ending a war that has lasted years, though earlier rounds produced little beyond prisoner exchanges.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Putin's foreign affairs adviser Yuri Ushakov said the talks would restart after November 10, the first three-way negotiations since February.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     },
+     {
+      "fact": "US envoy Steve Witkoff met Putin in St. Petersburg for about three hours, a day after meeting Zelensky and some European leaders in Oslo.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     },
+     {
+      "fact": "Zelensky said he supported the push to restart talks swiftly and has insisted only a leaders' summit can break the impasse.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     },
+     {
+      "fact": "Earlier rounds in Abu Dhabi and Geneva produced little reported progress beyond prisoner exchanges.",
+      "source_url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Russia, Ukraine and the United States; meetings in St. Petersburg (Russia) and Oslo (Norway)",
+    "sources": [
+     {
+      "outlet": "Inquirer",
+      "title": "Putin agrees to resume three-way talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-negotiations-20261021.html",
+      "published": "2026-10-21"
+     },
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Putin agrees to resume trilateral Russia-Ukraine-U.S. talks next month",
+      "url": "https://www.pbs.org/newshour/amp/world/putin-agrees-to-resume-trilateral-russia-ukraine-u-s-talks-next-month",
+      "published": "2026-10-22"
+     },
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Putin agrees to resume talks on Ukraine war with Kyiv and Washington, Kremlin says",
+      "url": "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994",
+      "published": "2026-10-22"
+     }
+    ]
+   },
+   {
+    "id": "albania-protests",
+    "headline": "Student Protests Against Albania's Government Continue",
+    "what_happened": "Student-led protests in Tirana began on 13 October and have grown into a movement against Prime Minister Edi Rama's government. Protesters cite poor university conditions and high tuition fees and call for his resignation. Rama blamed 'foreign hands' for the unrest.",
+    "why_it_matters": "Albania wants to join the European Union, so how it handles protests matters to its neighbours.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The protests in Tirana began on 13 October with a rally of a few hundred students outside the Ministry of Education.",
+      "source_url": "https://www.france24.com/en/europe/20261015-student-protests-escalate-in-albania-as-demonstrators-call-for-pm-resignation"
+     },
+     {
+      "fact": "Protesters are calling for Rama's resignation and citing poor university conditions and high tuition fees.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama"
+     },
+     {
+      "fact": "Albanian PM Edi Rama blamed 'foreign hands' for the unrest.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tirana, capital of Albania, in the western Balkans",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Student protests spread in Albania as demonstrators call for PM resignation",
+      "url": "https://www.france24.com/en/europe/20261015-student-protests-escalate-in-albania-as-demonstrators-call-for-pm-resignation",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Boiling point: Why students are protesting against Albania's Edi Rama",
+      "url": "https://www.aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Albanian PM blames 'foreign hands' for unrest as student protests intensify",
+      "url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify",
+      "published": "2026-10-16"
+     }
+    ]
+   },
+   {
+    "id": "eu-energy-summit",
+    "headline": "EU Leaders Seek Quick Action on Soaring Energy Prices",
+    "what_happened": "EU leaders met in Brussels on 15 and 16 October and called for urgent measures to curb soaring energy prices. The main dispute was over how to pay for them. Leaders also discussed Ukraine's financing needs for 2027.",
+    "why_it_matters": "Energy bills affect every household and factory in Europe, so leaders are under pressure to act.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The European Council called for urgent measures to curb soaring energy prices.",
+      "source_url": "https://eurometal.net/energy-prices-and-competitiveness-top-eu-leaders-agenda/"
+     },
+     {
+      "fact": "The main dispute was over financing: governments argue extraordinary energy costs need additional budgetary flexibility, while Brussels says existing provisions already permit exceptional spending within limits.",
+      "source_url": "https://eurometal.net/energy-prices-and-competitiveness-top-eu-leaders-agenda/"
+     },
+     {
+      "fact": "Costa said EU leaders want to address Ukraine's additional financing needs for 2027 and ensure continued support for its defence.",
+      "source_url": "https://eurometal.net/energy-prices-and-competitiveness-top-eu-leaders-agenda/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brussels, Belgium",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU summit: Costa takes charge of budget talks as leaders stick to red lines",
+      "url": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "EUROMETAL",
+      "title": "Energy prices and competitiveness top EU leaders' agenda",
+      "url": "https://eurometal.net/energy-prices-and-competitiveness-top-eu-leaders-agenda/",
+      "published": "2026-10-15"
+     },
+     {
+      "outlet": "Council of the EU",
+      "title": "European Council 15 October 2026",
+      "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15/",
+      "published": "2026-10-15"
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "premier-league-week8",
+    "headline": "Premier League Weekend: Villa Beat City, Arsenal and Liverpool Win",
+    "what_happened": "In English football's Premier League, Aston Villa beat Manchester City 2-1 and Arsenal beat Everton 2-0 on Saturday 24 October. On Sunday, Liverpool beat Brighton 2-0 and Bournemouth beat Manchester United 3-0.",
+    "why_it_matters": "The Premier League is one of the most watched football leagues in the world.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Aston Villa beat Manchester City 2-1 and Arsenal beat Everton 2-0 on Saturday 24 October.",
+      "source_url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+     },
+     {
+      "fact": "Chelsea lost 0-2 to Tottenham Hotspur on Saturday 24 October.",
+      "source_url": "https://www.espn.com/soccer/schedule/_/league/eng.1"
+     },
+     {
+      "fact": "Liverpool beat Brighton & Hove Albion 2-0 on Sunday 25 October.",
+      "source_url": "https://www.cbssports.com/soccer/premier-league/schedule/"
+     },
+     {
+      "fact": "Manchester United lost 0-3 to AFC Bournemouth on Sunday 25 October.",
+      "source_url": "https://www.cbssports.com/soccer/premier-league/schedule/"
+     }
+    ],
+    "numbers": [],
+    "geography": "England",
+    "sources": [
+     {
+      "outlet": "ESPN",
+      "title": "2026 Premier League Schedule",
+      "url": "https://www.espn.com/soccer/schedule/_/league/eng.1",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "CBS Sports",
+      "title": "2026 English Premier League Schedule: Fixtures and Results",
+      "url": "https://www.cbssports.com/soccer/premier-league/schedule/",
+      "published": "2026-10-25"
+     }
+    ]
+   },
+   {
+    "id": "world-series",
+    "headline": "Brewers lead Rays 2-0 in World Series",
+    "what_happened": "Brewers won Game 1 3-2 and Game 2 5-4 after Rays led 4-0 after first inning; Cooper Pratt RBI single in seventh. Game 3 Monday 26 Oct at Tropicana Field, St. Petersburg.",
+    "why_it_matters": "The World Series decides the champion of Major League Baseball.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brewers lead 2-0; Game 1 3-2, Game 2 5-4; Pratt RBI single in seventh; Game 3 Monday at Tropicana Field",
+      "source_url": "https://sports.yahoo.com/articles/next-world-series-game-brewers-024453145.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "St. Petersburg, Florida",
+    "sources": [
+     {
+      "outlet": "Yahoo Sports",
+      "title": "When is next World Series game? Brewers vs. Rays schedule for Game 3",
+      "url": "https://sports.yahoo.com/articles/next-world-series-game-brewers-024453145.html",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "MLB.com",
+      "title": "When is Brewers vs. Rays World Series Game 3?",
+      "url": "https://www.mlb.com/news/brewers-rays-world-series-game-3-starting-lineups-and-pitching-matchup",
+      "published": "2026-10-25"
+     }
+    ]
+   }
+  ]
+ }
+}
