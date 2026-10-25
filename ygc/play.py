@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, stats, threads, world, pwa
+from . import brand, edition, scenes, stats, threads, world, pwa, navigation
 from .chat import sentences
 
 E = html.escape
@@ -434,13 +434,13 @@ ASSETS = ("play.css", "world.js", "play.js")
 
 
 def child_nav(root, here="today"):
-    tabs = [("home", "index.html", "🏠", "Home"),
-            ("today", "play/index.html#today", "📰", "Today"),
-            ("explore", "play/index.html#explore", "🧭", "Explore"),
-            ("me", "play/index.html#me", "🌱", "My Pebbles")]
+    tabs = [("home", "index.html", "house", "Home"),
+            ("today", "play/index.html#today", "newspaper", "Today"),
+            ("explore", "play/index.html#explore", "compass", "Explore"),
+            ("me", "play/index.html#me", "sprout", "My Pebbles")]
     return '<nav class="tabbar childnav noprint" aria-label="Main navigation">' + "".join(
         f'<a href="{root}{href}" data-view="{key}"' + (' aria-current="page"' if key == here else '')
-        + f'><span aria-hidden="true">{icon}</span>{label}</a>' for key, href, icon, label in tabs) + '</nav>'
+        + f'><span aria-hidden="true">{navigation.icon(icon)}</span>{label}</a>' for key, href, icon, label in tabs) + '</nav>'
 
 
 def shell(cfg, title, body, root="", here="today"):
@@ -713,7 +713,7 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <figcaption><span class="far" aria-live="polite"></span></figcaption><div class="pinlist" aria-live="polite"></div></figure></section>'''
                 if pins else "")
     body = f'''<header class="bar lb"><h1><a href="index.html">{brand.inline("owl")}Read &amp; Play</a></h1>
-<a class="home" href="../index.html">🏠 Home</a><div class="chips" id="chips"></div></header>
+<a class="home" href="../index.html">{navigation.icon("house")} Home</a><div class="chips" id="chips"></div></header>
 <main class="lobby front"><section class="today lobby-panel" id="today" aria-labelledby="h-today"><p class="motto">The world's news, one pebble a day.</p>
 <div class="pick"><h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div></div>
 <p class="hello" hidden><span></span> <button type="button" class="change">Change age</button></p>
@@ -1101,6 +1101,8 @@ dl.words dt{font-weight:700;font-size:1.1em;margin-top:10px}dl.words dd{margin:0
 """
 
 CSS += r"""
+:root{--bg:#F4F1EA;--line:#DDD5C6;--teal:#00727E}
+:root[data-theme="night"]{--bg:#11181C;--line:#344249;--teal:#62C6CD}
 body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
 #pop{bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 .childnav{display:flex}
@@ -1120,6 +1122,8 @@ body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
 @media print{body{padding-bottom:0}.childnav{display:none!important}}
 """
 
+
+CSS += navigation.STYLE
 
 JS = r"""
 (function () {

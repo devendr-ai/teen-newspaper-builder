@@ -12,7 +12,7 @@ import subprocess
 
 import yaml
 
-from . import brand, checks, edition, poster, render, stats, pwa
+from . import brand, checks, edition, poster, render, stats, pwa, navigation
 
 ROOT = edition.ROOT
 E = html.escape
@@ -71,7 +71,7 @@ def recommendations(published, has_png):
 {cover}<div class="recommended-copy"><p class="recommended-label">A good place to start · {E(band)}</p>
 <h2>{E(ed["name"])}</h2><p class="recommended-date">Latest issue · {dt.date.fromisoformat(date):%A %d %B %Y}</p>
 <p class="recommended-facts">{n} page{'s' if n != 1 else ''} · About {minutes} minutes to read</p>
-<p class="recommended-reason">{E(reason)}</p><a class="btn recommended-print" href="e/{eid}/{date}.pdf" target="_blank" rel="noopener">🖨️ Print this paper</a>
+<p class="recommended-reason">{E(reason)}</p><a class="btn recommended-print" href="e/{eid}/{date}.pdf" target="_blank" rel="noopener">{navigation.icon("printer")} Print this paper</a>
 <p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>
 <a class="recommended-archive" href="e/{eid}/index.html">See past issues</a></div></article>''')
     return ('<p id="age-memory" class="age-memory" role="status" hidden></p>'
@@ -253,19 +253,22 @@ CSS += """
 """
 
 
+CSS += navigation.STYLE
+
+
 def feedback_nav(cfg, root=""):
     return f'<a href="{root}feedback.html">Feedback</a>' if cfg.get("feedback_url") else ""
 
 
 def tabbar(cfg, root, here):
     """The phone's bottom bar: the same links as the header, one tap from anywhere on the page."""
-    tabs = [("papers", "index.html", "🏠", "Home"), ("play", "play/index.html", "🎧", "Read &amp; Play"),
-            ("design", "builder.html", "✏️", "Design"), ("parents", "parents.html", "👪", "For parents")]
+    tabs = [("papers", "index.html", "house", "Home"), ("play", "play/index.html", "headphones", "Read &amp; Play"),
+            ("design", "builder.html", "pencil", "Design"), ("parents", "parents.html", "users", "For parents")]
     if here in ("about", "feedback"):
         here = "parents"
     now = ' aria-current="page"'
     return ('<nav class="tabbar" aria-label="Pages">' + "".join(
-        f'<a href="{root}{href}"{now if k == here else ""}><span aria-hidden="true">{icon}</span>{label}</a>'
+        f'<a href="{root}{href}"{now if k == here else ""}><span aria-hidden="true">{navigation.icon(icon)}</span>{label}</a>'
         for k, href, icon, label in tabs) + "</nav>")
 
 
@@ -313,6 +316,7 @@ def build(out, keep=None, log=print):
     if os.path.isdir(out):
         shutil.rmtree(out)
     os.makedirs(out)
+    shutil.copy(os.path.join(ROOT, "assets", "navigation", "LICENSE"), os.path.join(out, "navigation-icons-LICENSE.txt"))
     has_png = bool(shutil.which("pdftoppm"))
     cards = []          # (has_issue, audience order, name, html)
     fixes, names = corrections(), {}
@@ -492,7 +496,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     if os.path.exists(b):
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
                 .replace("<!--PARENT_NAV-->", tabbar(cfg, "", "design"))
-                .replace("</head>", pwa.head(cfg) + "<style>" + BUILDER_NAV_CSS + "</style>" + stats.snippet(cfg) + "</head>", 1))
+                .replace("</head>", pwa.head(cfg) + "<style>" + BUILDER_NAV_CSS + navigation.STYLE + "</style>" + stats.snippet(cfg) + "</head>", 1))
         open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(html)
         engine_zip(os.path.join(out, "builder-engine.zip"))
     if cfg.get("feedback_url"):
@@ -509,7 +513,7 @@ BUILDER_NAV_CSS = """
 .tabbar{display:none}
 @media(max-width:699px){
  .wrap{padding-bottom:180px}.site nav{display:none}
- .bar{bottom:calc(70px + env(safe-area-inset-bottom,0px))}
+ .bar{bottom:calc(78px + env(safe-area-inset-bottom,0px))}
  .tabbar{position:fixed;display:flex;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1.5px solid var(--line);padding:4px 6px calc(4px + env(safe-area-inset-bottom,0px))}
  .tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:58px;font-size:12px;line-height:1.2;font-weight:700;color:var(--muted);text-decoration:none;border-radius:10px}
  .tabbar a span{font-size:22px}.tabbar a[aria-current="page"]{color:var(--cyan);background:var(--cyan-tint)}
@@ -522,7 +526,7 @@ def parents_body(cfg):
     feedback = '<a class="parent-link" href="feedback.html"><b>Corrections &amp; feedback</b><span>Report a mistake or share an idea.</span></a>' if cfg.get("feedback_url") else ''
     return f'''<section class="parents"><h2>For parents</h2>
 <p>Help your child understand the world, on paper and together.</p>
-<p><a class="btn" href="index.html">🖨️ Choose and print a paper</a></p>
+<p><a class="btn" href="index.html">{navigation.icon("printer")} Choose and print a paper</a></p>
 <div class="parent-links">
 <a class="parent-link" href="builder.html"><b>Design your own paper</b><span>Make a printable newspaper for your family.</span></a>
 <a class="parent-link" href="play/index.html#today"><b>Reading settings</b><span>Choose an age in Read &amp; Play. Text size, night mode and narration speed are available inside each paper and stay on this device.</span></a>
