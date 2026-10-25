@@ -1,0 +1,377 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-26",
+  "volume": 1,
+  "issue": 15,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA",
+      "headline": "Riyadh's Airport Partly Reopens as Houthi Attacks Go On",
+      "deck": "Saudi forces say they shot down a missile and a drone on the day the terminals reopened.",
+      "body": [
+        "Saudi Arabia reopened two terminals at the main airport in its capital, Riyadh, on Sunday. The airport is called King Khalid International. It had been out of service for more than two weeks after strikes by the Houthis, an armed group from Yemen, the country just south of Saudi Arabia.",
+        "The attacks did not stop on reopening day. A Saudi military spokesman said forces destroyed a missile and a drone fired by the Houthis. A Houthi spokesperson then warned airlines and passengers that the airport was a military target and unsafe to use. Flight-tracking data showed that few planes were flying.",
+        "The fighting is also being felt far away. Houthi attacks on Saudi Arabia have pushed up the price of oil, which is used to make fuel for cars, planes and ships. Today's World story explains the latest price."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA (ASIA)",
+        "label_bottom": "AFRICA",
+        "footnote": "The Red Sea lies between Saudi Arabia and Africa",
+        "caption": "Riyadh is Saudi Arabia's capital."
+      },
+      "why": "Airports link a country to the world. When one is attacked, flights, trade and prices can all be affected.",
+      "sources": [
+        {
+          "outlet": "Korea Times",
+          "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+          "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+        },
+        {
+          "outlet": "Times of Israel",
+          "title": "Riyadh reopens its international airport as attacks by Iran-backed Houthis persist",
+          "url": "https://www.timesofisrael.com/liveblog_entry/riyadh-reopens-its-international-airport-as-attacks-by-iran-backed-houthis-persist/"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "Saudi Arabia partly reopens Riyadh airport despite renewed Houthi threats",
+          "url": "https://www.tribuneindia.com/news/world/saudi-arabia-partly-reopens-riyadh-airport-despite-renewed-houthi-threats"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL",
+      "headline": "Oil Closes at $116.72 a Barrel After New Attacks",
+      "deck": "The price of Brent crude oil ended the week about 6% higher.",
+      "body": [
+        "Oil is sold by the barrel, and Brent is one of the main oil prices. On Friday it settled at $116.72 a barrel. Settled means the price it closed at when trading ended for the day. That was $3.55 higher than the day before, and the highest closing price since 29 April.",
+        "A second oil price, called West Texas Intermediate, closed at $103.27 a barrel. The Houthis said they had attacked Saudi Arabia's Defence Ministry, two airports and an oil company site over 48 hours. Two people died in attacks at Dammam airport, and several others were hurt. The price rose by 3.14% in a single day.",
+        "Traders are not sure oil is actually being lost. One analysis says no barrels were missing yet, and that the price shows traders' worry about future supply. That is why the price can jump even before any oil goes missing."
+      ],
+      "chart": {
+        "title": "TWO OIL PRICES, FRIDAY",
+        "subtitle": "Dollars per barrel",
+        "labels": [
+          "Brent",
+          "US (WTI)"
+        ],
+        "values": [
+          116.72,
+          103.27
+        ],
+        "max": 140,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Brent finished the week up about 6%. Source: The Star."
+      },
+      "connect": "Oil is bought and sold around the world, so worry about supply in the Middle East can show up in the price of fuel in countries far away.",
+      "sources": [
+        {
+          "outlet": "oilprice.com",
+          "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html"
+        },
+        {
+          "outlet": "The Star",
+          "title": "Middle East mayhem: Oil prices jump US$3 on Houthi attacks, oil spill, highest settlement since April",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+        },
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "Discovery Alert",
+          "title": "Houthi Attacks on Saudi Arabia Lift Brent, but No Barrels Are Lost",
+          "url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Early Voting Breaks Records Before the Midterms",
+      "deck": "Georgia passed one million early votes, and a big Texas county set a first-day record.",
+      "body": [
+        "Midterm elections happen halfway through a president's four-year term. Americans use them to choose members of Congress, the group that writes the country's laws. This year's Election Day is 3 November, but many people are already voting early.",
+        "In Georgia, more than 1 million early votes have been cast. At the same point in 2022, the last midterm year, the number was almost 895,000. In Harris County, Texas, over 104,000 people voted in person on the first day. That beat the first-day record of 63,188 set in 2018.",
+        "Over four days, 384,304 people voted in person in Harris County, also a midterm record. Early voting in Texas and Georgia runs until 30 October."
+      ],
+      "why": "Congress decides on laws and budgets, so a high turnout means more people helped choose who makes them.",
+      "also": [
+        "Polls: One forecast gives Democrats an 88% chance of winning the House of Representatives.",
+        "Approval: An average of polls puts President Trump's approval at 37%, according to NPR."
+      ],
+      "sources": [
+        {
+          "outlet": "Houston Public Media",
+          "title": "Harris County crushes midterm first-day early voter turnout record",
+          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+        },
+        {
+          "outlet": "11Alive",
+          "title": "Georgia surpasses 1 million early votes cast in midterm elections",
+          "url": "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b"
+        },
+        {
+          "outlet": "ABC13 Houston",
+          "title": "2026 midterm election: Early voting underway until Oct. 30 in Texas as Harris County sets record numbers",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+        },
+        {
+          "outlet": "The Conversation",
+          "title": "What recent polling suggests will happen in the US midterm elections",
+          "url": "https://theconversation.com/what-recent-polling-suggests-will-happen-in-the-us-midterm-elections-294713"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Democrats' advantage is clear with less than a month to go in the midterm elections",
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress"
+        },
+        {
+          "outlet": "JPost",
+          "title": "Democrats aim to flip key Senate, House seats in midterms blue wave",
+          "url": "http://www.jpost.com/american-politics/article-912801"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Serbia: Millions voted on Sunday in a snap election, a vote called earlier than planned, as students challenged the long-time leader Aleksandar Vucic. Turnout was reported to be the highest since 1992.",
+        "Russia and Ukraine: Russia says it agrees in principle to restart three-way talks with Ukraine and the United States after 10 November."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might attacks on an airport in one country change what families pay for fuel in another?",
+        "Why might high turnout in an election matter to the people who win and lose?",
+        "What could your town do to get ready for a big storm?"
+      ],
+      "sources": [
+        {
+          "outlet": "Korea Times",
+          "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+          "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+        },
+        {
+          "outlet": "Deccan Herald",
+          "title": "Cyclone 'Arnab' to make landfall on Andhra Pradesh coast; check which other states get affected",
+          "url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585"
+        },
+        {
+          "outlet": "Houston Public Media",
+          "title": "Harris County crushes midterm first-day early voter turnout record",
+          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Cyclone Arnab Is Due to Reach Andhra Pradesh on 28 October",
+      "deck": "Red alerts are out in several states, and fishing boats have been called back to shore.",
+      "body": [
+        "A cyclone is a huge spinning storm that forms over warm sea and brings strong wind and heavy rain. India's weather office, the IMD, says Cyclone Arnab is expected to cross the coast of Andhra Pradesh around the forenoon of 28 October. The storm is likely to come ashore between the towns of Bapatla and Visakhapatnam.",
+        "The IMD expects steady winds of 115 to 125 kmph, with gusts up to 140 kmph. It has issued red alerts for heavy rain, its highest level, in several states. It also warns that the storm's track and strength may still change.",
+        "Officials are getting ready. Fishermen are barred from the sea, and by 24 October, 29,952 of Andhra Pradesh's 30,043 fishing boats were back in port. In Odisha, schools and colleges in five districts will stay shut on 28 and 29 October. The chief minister has asked officials to move people from risky areas, with special care for elderly people, patients and pregnant women."
+      ],
+      "why": "Warnings, shelters and staying ashore are how coastal communities keep people safe when a cyclone arrives.",
+      "sources": [
+        {
+          "outlet": "Deccan Herald",
+          "title": "Cyclone 'Arnab' to make landfall on Andhra Pradesh coast; check which other states get affected",
+          "url": "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585"
+        },
+        {
+          "outlet": "India.com",
+          "title": "Cyclone Arnab Update: Odisha CM Mohan Charan Majhi targets zero casualties, red alert issued for six districts",
+          "url": "https://www.india.com/news/india/cyclone-arnab-mohan-charan-majhi-odisha-cm-red-alert-bay-of-bengal-imd-weather-update-puri-gajapati-ganjam-rayagada-koraput-malkangiri-8538983/"
+        },
+        {
+          "outlet": "Odisha TV",
+          "title": "Odisha Cyclone News LIVE: Cyclone 'Arnab' likely to hit Andhra coast on October 28, Odisha on alert",
+          "url": "https://odishatv.in/weather/odisha-cyclone-news-live-storm-likely-to-hit-coast-on-october-28-state-gov-assures-preparedness-12741457"
+        },
+        {
+          "outlet": "Shafaqna India",
+          "title": "Odisha Intensifies Evacuation Efforts as Cyclone Arnab Nears Andhra Coast",
+          "url": "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "BASEBALL: BREWERS LEAD THE WORLD SERIES 2-0",
+      "body": "The Milwaukee Brewers lead the Tampa Bay Rays 2-0 in the World Series. They won Game 1 by 3-2 and Game 2 by 5-4, after the Rays led 4-0 after the first inning. <b>Cooper Pratt</b>'s hit in the seventh won Game 2. Game 3 is on Monday in St. Petersburg, Florida.",
+      "sources": [
+        {
+          "outlet": "Yahoo Sports",
+          "title": "When is next World Series game? Brewers vs. Rays schedule for Game 3",
+          "url": "https://sports.yahoo.com/articles/next-world-series-game-brewers-024453145.html"
+        },
+        {
+          "outlet": "MLB.com",
+          "title": "When is Brewers vs. Rays World Series Game 3?",
+          "url": "https://www.mlb.com/news/brewers-rays-world-series-game-3-starting-lineups-and-pitching-matchup"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Serbia's official election result.",
+        "Whether Cyclone Arnab crosses the coast on 28 October as forecast."
+      ]
+    },
+    "quote": {
+      "text": "A storm warning only helps if people listen to it in time.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "http://www.jpost.com/american-politics/article-912801",
+    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+    "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/",
+    "https://india.shafaqna.com/EN/odisha-intensifies-evacuation-efforts-as-cyclone-arnab-nears-andhra-coast/",
+    "https://odishatv.in/weather/odisha-cyclone-news-live-storm-likely-to-hit-coast-on-october-28-state-gov-assures-preparedness-12741457",
+    "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+    "https://theconversation.com/what-recent-polling-suggests-will-happen-in-the-us-midterm-elections-294713",
+    "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b",
+    "https://www.deccanherald.com/india/cyclone-arnab-to-make-landfall-on-andhra-pradesh-check-which-other-states-to-get-affected-4194585",
+    "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+    "https://www.india.com/news/india/cyclone-arnab-mohan-charan-majhi-odisha-cm-red-alert-bay-of-bengal-imd-weather-update-puri-gajapati-ganjam-rayagada-koraput-malkangiri-8538983/",
+    "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist",
+    "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
+    "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april",
+    "https://www.timesofisrael.com/liveblog_entry/riyadh-reopens-its-international-airport-as-attacks-by-iran-backed-houthis-persist/",
+    "https://www.tribuneindia.com/news/world/saudi-arabia-partly-reopens-riyadh-airport-despite-renewed-houthi-threats"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which airport partly reopened in Saudi Arabia on Sunday?",
+        "options": [
+          "Riyadh's King Khalid International",
+          "Dammam airport",
+          "Jeddah airport"
+        ],
+        "answer": 0,
+        "why": "Terminals 1 and 2 at King Khalid International reopened.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Brent oil settle at on Friday?",
+        "options": [
+          "$103.27 a barrel",
+          "$116.72 a barrel",
+          "$126.72 a barrel"
+        ],
+        "answer": 1,
+        "why": "Brent settled at $116.72, the highest close since 29 April.",
+        "story": "world"
+      },
+      {
+        "q": "What is Election Day for the US midterms?",
+        "options": [
+          "30 October",
+          "3 November",
+          "28 October"
+        ],
+        "answer": 1,
+        "why": "Election Day is 3 November; early voting ends 30 October in Texas and Georgia.",
+        "story": "us"
+      },
+      {
+        "q": "Where is Cyclone Arnab expected to cross the coast?",
+        "options": [
+          "Odisha",
+          "Kerala",
+          "Andhra Pradesh"
+        ],
+        "answer": 2,
+        "why": "It is expected to cross the Andhra Pradesh coast around 28 October.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "More than 1 million early votes had been cast in Georgia.",
+        "true": true,
+        "why": "Georgia passed 1 million early votes, against almost 895,000 in 2022.",
+        "story": "us"
+      },
+      {
+        "claim": "West Texas Intermediate closed higher than Brent on Friday.",
+        "true": false,
+        "why": "Brent closed at $116.72 and WTI at $103.27.",
+        "story": "world"
+      },
+      {
+        "claim": "Fishermen are barred from the sea ahead of Cyclone Arnab.",
+        "true": true,
+        "why": "Authorities strictly prohibited fishermen from going to sea.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Yanbu",
+        "lat": 24.09,
+        "lon": 38.06,
+        "countries": [
+          "Saudi Arabia"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Houston",
+        "lat": 29.76,
+        "lon": -95.37,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Bay of Bengal",
+        "lat": 16.5,
+        "lon": 84.5,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "us",
+        "q": "About how many early votes had Georgia cast?",
+        "answer": 1,
+        "prefix": "",
+        "unit": "million",
+        "min": 0,
+        "max": 5,
+        "why": "Georgia passed 1 million early votes, up from almost 895,000 at this point in 2022."
+      },
+      {
+        "story": "india",
+        "q": "How fast could Cyclone Arnab's gusts reach?",
+        "answer": 140,
+        "prefix": "",
+        "unit": "kmph",
+        "min": 0,
+        "max": 300,
+        "why": "The IMD expects gusts of up to 140 kmph."
+      }
+    ]
+  }
+}

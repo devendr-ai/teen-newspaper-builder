@@ -1653,6 +1653,36 @@
       "published": "2026-10-25"
      }
     ]
+   },
+   {
+    "id": "world-series",
+    "headline": "Brewers lead Rays 2-0 in World Series",
+    "what_happened": "Brewers won Game 1 3-2 and Game 2 5-4 after Rays led 4-0 after first inning; Cooper Pratt RBI single in seventh. Game 3 Monday 26 Oct at Tropicana Field, St. Petersburg.",
+    "why_it_matters": "The World Series decides the champion of Major League Baseball.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brewers lead 2-0; Game 1 3-2, Game 2 5-4; Pratt RBI single in seventh; Game 3 Monday at Tropicana Field",
+      "source_url": "https://sports.yahoo.com/articles/next-world-series-game-brewers-024453145.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "St. Petersburg, Florida",
+    "sources": [
+     {
+      "outlet": "Yahoo Sports",
+      "title": "When is next World Series game? Brewers vs. Rays schedule for Game 3",
+      "url": "https://sports.yahoo.com/articles/next-world-series-game-brewers-024453145.html",
+      "published": "2026-10-25"
+     },
+     {
+      "outlet": "MLB.com",
+      "title": "When is Brewers vs. Rays World Series Game 3?",
+      "url": "https://www.mlb.com/news/brewers-rays-world-series-game-3-starting-lineups-and-pitching-matchup",
+      "published": "2026-10-25"
+     }
+    ]
    }
   ]
  }
