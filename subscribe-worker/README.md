@@ -16,9 +16,11 @@ The attached PDF is downloaded from the dated URL and compared byte-for-byte by 
 
 `wrangler.jsonc` now points to the production `newspebbles-subscriptions` D1 database and `https://newspebbles-subscribe.devendr.workers.dev`. The sending domain is `mail.newspebbles.com`, verified in Resend through its DKIM, SPF and return-path MX records. Secrets live only in Cloudflare; the repository contains no secret values. Do not recreate the production database when redeploying this installation.
 
-Production setup was tested with one owner-authorized confirmation and one welcome PDF. Repeating the pipeline dispatch sent no duplicate. Asset fetches use Workers-compatible `redirect: "manual"`; non-2xx responses are rejected before parsing or attaching content. Node's `redirect: "error"` is unsupported in the Workers runtime.
+Production setup was tested with one owner-authorized confirmation and one welcome PDF. Repeating the pipeline dispatch sent no duplicate. Gmail received the welcome in the inbox, opened its two-page PDF attachment, and reported SPF, DKIM and DMARC PASS. The passing `mail.newspebbles.com` DKIM signature covered both `List-Unsubscribe` and `List-Unsubscribe-Post`; the message carried the HTTPS unsubscribe URL and `List-Unsubscribe=One-Click`. A one-click POST and repeated GET each returned 200 without redirects, leaving the test entry unsubscribed.
 
-Delivery remains disabled, cron remains empty, and the public site's `subscriptions.enabled` remains false. Activating delivery and connecting a publication hook are separate launch steps. Verify the recipient's raw message DKIM signature covers both unsubscribe headers before claiming full RFC 8058 delivery compliance; the Resend API payload alone does not prove that.
+Asset fetches use Workers-compatible `redirect: "manual"`; non-2xx responses are rejected before parsing or attaching content. Node's `redirect: "error"` is unsupported in the Workers runtime.
+
+Delivery remains disabled, cron remains empty, and the public site's `subscriptions.enabled` remains false. Activating delivery and connecting a publication hook are separate launch steps. Repeat the received-message authentication check when changing email providers or sender configuration; the Resend API payload alone does not prove DKIM header coverage.
 
 ### Installing another environment
 
