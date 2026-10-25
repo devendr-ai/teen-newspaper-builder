@@ -34,7 +34,7 @@ There is no request on page load, age selection, cadence change or newspaper sel
 
 Without JavaScript, the form fields remain disabled and a note explains that printing still works. `method="dialog"` also avoids a native GET/POST containing an address if the script cannot initialize. This form method is deliberately used outside a dialog to keep native submission network-free; all intended submission is through the scoped JS handler.
 
-A future global compliance gate can intercept/cancel the submit event in capture phase using the data attribute. The local handler respects an already-prevented event. This change does **not** add `gate.js`, `npGate`, `--kids`, global outbound-link handling or store-compliance claims. Those remain a separate workstream.
+The global compliance gate can intercept/cancel the submit event in capture phase using the data attribute. The local handler respects an already-prevented event. This change does **not** add `gate.js`, `npGate`, `--kids`, global outbound-link handling or store-compliance claims. Those remain a separate workstream. When `kids_mode` is true, subscription submission additionally calls the existing `window.npGate("link", onPass, onCancel)` before any POST. It fails closed if the gate is unavailable or cancelled. The public build uses only the scoped inline math check.
 
 ## Confirmations, privacy and printing
 

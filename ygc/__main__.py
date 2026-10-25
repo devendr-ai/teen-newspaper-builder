@@ -9,7 +9,9 @@
   migrate <v3.json> --edition <id>  convert a template-v3 issue to this format
   due [--date D] [--json]           what is due today: issue numbers, files, research desks, words to avoid
   auto [--dry-run] [--only id,id]   research, write, check and save every due edition (needs ANTHROPIC_API_KEY)
-  site [--out _site]                build the website: every edition, latest PDFs, archives, RSS
+  site [--out _site] [--kids]       build the website: every edition, latest PDFs, archives, RSS
+                                    (--kids: the app build: Parental Gate, no visit counting, no embedded form)
+  vendor                            download and check the self-hosted Pyodide files (.cache/vendor)
   new-poster <edition> [--date D]   start a "Big Question" poster from a skeleton
   poster <poster.json> [--pool P]   check a poster and build its PDF and page image
   thread [<thread.json> ...]        check "the story so far" threads (all of threads/ when none given)
@@ -289,7 +291,12 @@ def cmd_thread(a):
 
 def cmd_site(a):
     from . import site
-    site.build(a.out, keep=a.keep)
+    site.build(a.out, keep=a.keep, kids=a.kids)
+
+
+def cmd_vendor(a):
+    from . import vendor
+    print(vendor.ensure())
 
 
 def main(argv=None):
@@ -311,6 +318,8 @@ def main(argv=None):
     p.add_argument("--date"); p.add_argument("--budget", type=float)
     p = sub.add_parser("site"); p.add_argument("--out", default=os.path.join(edition.ROOT, "_site"))
     p.add_argument("--keep", type=int)
+    p.add_argument("--kids", action="store_true", help="the app build (Apple Kids Category, Google Play Families)")
+    sub.add_parser("vendor")
     p = sub.add_parser("new-poster"); p.add_argument("edition"); p.add_argument("--date")
     p = sub.add_parser("poster"); p.add_argument("poster"); p.add_argument("--out", default=OUT)
     p.add_argument("--pool")
@@ -322,7 +331,7 @@ def main(argv=None):
                 "prompt": cmd_prompt, "create-edition": cmd_create_edition,
                 "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site,
                 "new-poster": cmd_new_poster, "poster": cmd_poster, "due": cmd_due,
-                "thread": cmd_thread}[a.cmd](a) or 0
+                "thread": cmd_thread, "vendor": cmd_vendor}[a.cmd](a) or 0
     except edition.EditionError as e:
         print(f"edition error: {e}", file=sys.stderr)
         return 2

@@ -12,6 +12,23 @@
 
 
 
+
+## App build for the Kids Category, and self-hosted fonts and Pyodide
+
+- Every build serves its own fonts (`assets/fonts/web`, refreshed by `tools/brand/fonts.py`)
+  and the builder's Pyodide 0.27.7 (`vendor/pyodide/`, pinned with SHA-256 in
+  `assets/vendor/pyodide.json`, downloaded by `python -m ygc vendor` into `.cache/vendor`).
+  No page contacts Google Fonts or a CDN; Pyodide loads only on `builder.html`.
+- `python -m ygc site --kids`: the app build (`ygc/kids.py`, `docs/APP_BUILD.md`). No visit
+  counting; the feedback page opens the same Google Form from a button (plus email) instead of
+  embedding it; and the **Parental Gate** (`assets/gate/`): a word-based multiplication or
+  two-step sum before links out, email, share, print and the parents' pages; 3 wrong answers
+  pause it for 30 s; the unlock lasts only for the open page. Every feature stays available.
+- `tools/kids_check.cjs` and `tests/test_kids_mode.py`: a real-browser check of every page type
+  (zero requests to other hosts in the app build) and every gated action, and static checks
+  that the website is unchanged.
+- Privacy page: typefaces and the builder's engine are served from News Pebbles itself; the app
+  build says everything comes from inside the app.
 ## Code: all rights reserved
 
 - `LICENSE`: the code is © NeRDLabs, all rights reserved (readable, not reusable without

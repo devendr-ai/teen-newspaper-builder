@@ -1,0 +1,48 @@
+{
+ "version": "0.27.7",
+ "source": "https://cdn.jsdelivr.net/pyodide/v0.27.7/full/",
+ "packages": [
+  "pyyaml",
+  "tzdata",
+  "pillow",
+  "charset-normalizer"
+ ],
+ "files": {
+  "pyodide.js": {
+   "sha256": "b4cb23a53aba19c221659b9fb40a2f18281d685691dc06647fb0afd0681baf98",
+   "size": 14913
+  },
+  "pyodide.asm.js": {
+   "sha256": "6b4c90de5b7172873f04f21884d0e9d2274e305fe32116558fe3e4fbe3618d51",
+   "size": 1255688
+  },
+  "pyodide.asm.wasm": {
+   "sha256": "a50dd1843f805a0b7c45b61037ee0d7b26dfe85efe0e18ef95a34ad24e401f5f",
+   "size": 10105545
+  },
+  "python_stdlib.zip": {
+   "sha256": "16611534726e5d8ac2bd8f926410b2dcb8d6f49aa24913463533b457a2115c16",
+   "size": 2360737
+  },
+  "pyodide-lock.json": {
+   "sha256": "9c45b916001a750f4102fc287494f3eab215909c7535c626a20db80fd6333e2c",
+   "size": 112205
+  },
+  "charset_normalizer-3.3.2-py3-none-any.whl": {
+   "sha256": "b83440eee4a1398f9a71186169cdc17b84cdb93a63e61f3c6347dd1463a11fca",
+   "size": 48543
+  },
+  "pillow-10.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+   "sha256": "43eab147a9355385a99eeac18fb577d4af2fe4bd0bbd23d3ba3ddb92e72c2815",
+   "size": 987254
+  },
+  "pyyaml-6.0.2-cp312-cp312-pyodide_2024_0_wasm32.whl": {
+   "sha256": "444d034ede13ca0a2961a1215838fb7d4cf6fa98ba7fe5e2a09e5063180af2bf",
+   "size": 119989
+  },
+  "tzdata-2024.1-py2.py3-none-any.whl": {
+   "sha256": "3f0d487be1b8180e8bfd72709a7727734cd1e02180d6a75e70d4232765215848",
+   "size": 345370
+  }
+ }
+}

@@ -138,3 +138,19 @@ def test_built_signup_placements_and_reader_has_no_forms(tmp_path, monkeypatch, 
 def test_missing_site_settings_default_to_disabled(tmp_path, monkeypatch):
     monkeypatch.setattr(site, 'ROOT', str(tmp_path))
     assert site.site_config()['subscriptions'] == dict(enabled=False, api_base_url='', whatsapp_channel_url='')
+
+
+def test_existing_kids_gate_is_required_for_app_subscriptions():
+    cfg = config_with()
+    cfg['kids_mode'] = True
+    form = site.subscription_form(cfg, edition.load('little-explorers'))
+    assert 'data-subscribe-kids="true"' in form
+    public = site.subscription_form(config_with(), edition.load('little-explorers'))
+    assert 'data-subscribe-kids="false"' in public
+
+
+def test_disabled_homepage_uses_banner_code_only():
+    cfg = config_with(enabled=False)
+    home = site.page(cfg, cfg['title'], site.subscription_banner())
+    assert 'data-gate' not in home
+    assert 'fetch(' not in home

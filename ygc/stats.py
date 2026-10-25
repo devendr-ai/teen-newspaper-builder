@@ -15,6 +15,8 @@ import json
 
 
 def endpoint(cfg):
+    if cfg.get("kids_mode"):                     # the app build counts nothing (ygc/kids.py)
+        return ""
     code = str(cfg.get("goatcounter") or "").strip()
     if not code:
         return ""

@@ -7,6 +7,7 @@ import glob
 import html
 import json
 import os
+import re
 import shutil
 import subprocess
 
@@ -112,7 +113,7 @@ def subscription_form(cfg, ed=None, *, root="", context="parents", date=None, pu
     return f'''<section class="subscription-box" aria-labelledby="{ident}-title">
 <h3 id="{ident}-title">Get this paper by email (free)</h3>{subject}
 <p class="subscription-summary">A printable PDF and a Read &amp; Play link, delivered to a grown-up’s inbox.</p>
-<form method="dialog" data-gate-form="subscribe" data-subscribe-endpoint="{E(endpoint)}" aria-describedby="{ident}-privacy">
+<form method="dialog" data-gate-form="subscribe" data-subscribe-endpoint="{E(endpoint)}" data-subscribe-kids="{str(bool(cfg.get("kids_mode"))).lower()}" aria-describedby="{ident}-privacy">
 <fieldset class="subscription-fields" disabled><legend class="subscription-sr">Email delivery preferences</legend>
 {choice}<fieldset class="subscription-cadence"><legend>Delivery</legend>
 <label><input type="radio" name="cadence" value="every_issue" checked> Every new issue</label>
@@ -178,16 +179,23 @@ document.querySelectorAll('form[data-gate-form="subscribe"]').forEach(form=>{
  const fields=form.querySelector('.subscription-fields'),button=form.querySelector('button[type="submit"]'),
  status=form.querySelector('.subscription-status'),error=form.querySelector('.subscription-error'),
  answer=form.elements.namedItem('grownup_answer'),question=form.querySelector('[data-math-question]');
- let expected=0,busy=false;
+ let expected=0,busy=false,authorizing=false;
  function challenge(){const a=12+Math.floor(Math.random()*8),b=3+Math.floor(Math.random()*6);expected=a*b;question.textContent=a+' × '+b+' = ?';answer.value='';answer.removeAttribute('aria-invalid');}
  form.addEventListener('submit',async event=>{
-  if(event.defaultPrevented)return;event.preventDefault();if(busy)return;
+  if(event.defaultPrevented)return;event.preventDefault();if(busy||authorizing)return;
   status.textContent='';error.textContent='';
   if(!form.reportValidity())return;
   if(!/^\d+$/.test(answer.value.trim())||Number(answer.value)!==expected){
    error.textContent='Please ask a grown-up to check the answer before subscribing.';answer.setAttribute('aria-invalid','true');answer.focus();return;
   }
-  // Future kids-mode integration hooks the form via data-gate-form="subscribe".
+  // The app gate is supplied by the separate kids-mode workstream.
+  if(form.dataset.subscribeKids==='true'){
+   if(typeof window.npGate!=='function'){error.textContent='Please wait for the grown-up check to load, then try again.';return;}
+   authorizing=true;let allowed=false;
+   try{allowed=await new Promise(resolve=>window.npGate('link',()=>resolve(true),()=>resolve(false)));}
+   finally{authorizing=false;}
+   if(!allowed)return;
+  }
   const payload={email:form.elements.namedItem('email').value.trim(),edition_slug:form.elements.namedItem('edition_slug').value,cadence:form.elements.namedItem('cadence').value,website:form.elements.namedItem('website').value};
   busy=true;button.disabled=true;form.setAttribute('aria-busy','true');button.textContent='Sending…';status.textContent='Sending your confirmation email…';
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
@@ -220,6 +228,9 @@ if(banner){
 }
 })();
 </script>'''
+
+
+SUBSCRIPTION_BANNER_SCRIPT = "<script>(function(){const banner=" + SUBSCRIPTION_SCRIPT.split("const banner=", 1)[1]
 
 
 def audience(ed):
@@ -488,8 +499,23 @@ footer .owner{margin:6px 0 0;font-size:.8rem}footer .owner a{color:var(--muted)}
 .meta.fixed{color:#9A3B2E;margin:4px 0 0}
 """
 
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">')
+def fonts(root=""):
+    """The site's fonts, served from this site (assets/fonts/web, copied to fonts/): no outside requests."""
+    return (f'<link rel="preload" href="{root}fonts/BricolageGrotesque-latin.woff2" as="font" type="font/woff2" crossorigin>'
+            f'<link rel="stylesheet" href="{root}fonts/fonts.css">')
+
+
+GOOGLE_FONTS = re.compile(r'<link rel="preconnect" href="https://fonts\.(?:googleapis|gstatic)\.com"[^>]*>\s*'
+                          r'|<link href="https://fonts\.googleapis\.com/css2\?[^"]*" rel="stylesheet">')
+
+
+def self_host_assets(html, root=""):
+    """A page written elsewhere (the builder) switched to this site's fonts and Pyodide."""
+    from . import vendor
+    out = GOOGLE_FONTS.sub("", html)
+    out = out.replace("</head>", fonts(root) + "</head>", 1)
+    return re.sub(r'const PYODIDE = "https://cdn\.jsdelivr\.net/pyodide/v[^"]*/full/";',
+                  f'const PYODIDE = "{root}{vendor.SITE_DIR}";', out)
 
 
 CSS += """
@@ -546,7 +572,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="{E(cfg['tagline'] if cfg['description'] == cfg['tagline'] else cfg['tagline'] + ' ' + cfg['description'])}">
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
-{pwa.head(cfg, root)}{FONTS}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
+{pwa.head(cfg, root)}{fonts(root)}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
 <script>document.documentElement.classList.add("js")</script></head>
 <body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
@@ -557,7 +583,7 @@ const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"p
 if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
 <p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
-{tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}{SUBSCRIPTION_SCRIPT if 'data-gate-form=' in body or 'data-subscription-banner' in body else ''}</body></html>"""
+{tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}{SUBSCRIPTION_SCRIPT if 'data-gate-form=' in body else SUBSCRIPTION_BANNER_SCRIPT if 'data-subscription-banner' in body else ''}</body></html>"""
 
 
 def credit(cfg):
@@ -581,8 +607,10 @@ def qr_url(cfg, eid, date):
     return f"{cfg['base_url'].rstrip('/')}/play/{eid}/{date}.html"
 
 
-def build(out, keep=None, log=print):
+def build(out, keep=None, log=print, kids=False):
+    """The website in `out`. kids=True: the app build (ygc/kids.py): Parental Gate, no visit counting."""
     cfg = site_config()
+    cfg["kids_mode"] = bool(kids)
     keep = keep or int(cfg["keep_issues"])
     if os.path.isdir(out):
         shutil.rmtree(out)
@@ -768,6 +796,9 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     trust_pages(cfg, out, names, fixes)
     open(os.path.join(out, "parents.html"), "w", encoding="utf-8").write(
         page(cfg, f"For parents · {cfg['title']}", parents_body(cfg, published), here="parents"))
+    shutil.copytree(os.path.join(brand.ASSETS, "fonts", "web"), os.path.join(out, "fonts"), dirs_exist_ok=True)
+    for lic in ("OFL-AtkinsonHyperlegible.txt", "OFL-BricolageGrotesque.txt"):
+        shutil.copy(os.path.join(brand.ASSETS, "fonts", lic), os.path.join(out, "fonts", lic))
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
@@ -775,15 +806,20 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
                 .replace("<!--PARENT_NAV-->", tabbar(cfg, "", "design"))
                 .replace("</head>", pwa.head(cfg) + "<style>" + BUILDER_NAV_CSS + navigation.STYLE + "</style>" + stats.snippet(cfg) + "</head>", 1))
-        open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(html)
+        open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(self_host_assets(html))
         engine_zip(os.path.join(out, "builder-engine.zip"))
+        from . import vendor                 # Pyodide, for the builder page only
+        vendor.copy_into(out, log=log)
     if cfg.get("feedback_url"):
         open(os.path.join(out, "feedback.html"), "w", encoding="utf-8").write(
-            page(cfg, "Feedback", feedback_body(cfg["feedback_url"]), here="feedback"))
+            page(cfg, "Feedback", feedback_body(cfg["feedback_url"], cfg), here="feedback"))
     from . import play                      # the children's side: read online and play
     play.build(out, cfg, keep=min(keep, int(cfg.get("play_keep", 7))), log=log)
     from . import share                     # how links look when shared; sitemap, robots.txt, 404
     share.build(out, cfg, log=log)
+    if cfg["kids_mode"]:
+        from . import kids
+        kids.finish(out, cfg, log=log)
     open(os.path.join(out, ".nojekyll"), "w").close()
     log(f"site written to {out}")
     return out
@@ -846,17 +882,23 @@ def parents_body(cfg, published=None):
 </div>{reading_data_controls()}</section>'''
 
 
-def feedback_body(url):
-    """The feedback page: a Google Form shown on the page, or a button to any other form."""
+def feedback_body(url, cfg=None):
+    """The feedback page: a Google Form shown on the page, or a button to any other form. In the app build
+    (kids mode) nothing loads from Google: the same form opens from a button, and email works too."""
+    cfg = cfg or {}
     full = "docs.google.com/forms/" in url
     src = (url.split("?")[0].replace("/edit", "/viewform") + "?embedded=true") if full else url
     form = (f'<iframe src="{E(src)}" title="Feedback form" style="width:100%;min-height:1100px;border:0" loading="lazy">'
             f'Loading…</iframe>' if full else "")
+    if cfg.get("kids_mode"):
+        mails = [f'<a href="mailto:{E(cfg[k])}">{E(cfg[k])}</a> {what}' for k, what in
+                 (("contact", "for a mistake in a paper"), ("info_email", "for anything else")) if cfg.get(k)]
+        form = f'<p>Or email us: {" or ".join(mails)}.</p>' if mails else ""
     return f"""<h2 style="font-size:2rem;margin-bottom:10px">Feedback</h2><div style="max-width:68ch">
 <p>Tell us what works, what doesn't, and what you'd like next: a mistake in a paper, an idea for a section, a
 paper for an age we don't cover yet, or a problem with <i>Design your own</i>. We read everything.</p>
 <p>Please don't include your child's full name or anything that identifies them. Leave an email only if you'd like a reply.</p>
-<p><a class="btn" href="{E(url)}" target="_blank" rel="noopener">Open the feedback form</a></p></div>{form}"""
+<p><a class="btn" href="{E(url)}" target="_blank" rel="noopener">Open the feedback form</a></p>{form if cfg.get("kids_mode") else ""}</div>{"" if cfg.get("kids_mode") else form}"""
 
 
 # ------------------------------------------------------------------ how it's made, standards, corrections, privacy
@@ -999,14 +1041,14 @@ This keeps your paper designs and visit-counting choice. You can also clear all 
 {counts}
 {('<h3 id="email-delivery">Optional email delivery for grown-ups</h3><p>Only a parent or carer needs to give an email address. If you subscribe, we store that address, your chosen newspaper and delivery frequency, confirmation/unsubscribe tokens and delivery records in Cloudflare D1. Resend processes the address and sends confirmation and paper emails. We do not send reading progress, age selections saved on your device, game answers or garden data with a subscription. A hashed email/network-address counter limits repeated requests.</p><p>Confirm by email before delivery begins. Every message has an unsubscribe link, which stops future emails for that paper. Delivery history is kept to prevent duplicate sends. For deletion of your subscription information, contact us using the privacy address below. Email links shared through WhatsApp contain the paper’s public links, not your email address. Choosing WhatsApp opens that service; it is optional.</p>') if subscription_endpoint(cfg) else ''}
 <h3>Other services the site uses</h3>
-<ul><li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>
-<li><b>Google Fonts</b> supplies the site's typefaces, so Google sees that a device loaded them.</li>
+<ul>{'<li><b>Inside the app</b>, every page, picture, recording and typeface comes from the app itself; no other company is contacted. Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
+<li><b>Typefaces and the Design-your-own engine</b> are served from {E(cfg["title"])} itself, not from Google or other font and code services.</li>
 <li><b>Read aloud</b> normally plays pre-generated AI recordings made with Kokoro. They are generated during publishing and served
 as audio files from this site, rather than generated from a child's voice or reading activity. Your browser may cache recordings
 for offline playback. If a recording is unavailable, or for short definitions and game prompts, we use a device or browser voice.
 Some browser voices use an online service, so the text being spoken may be sent to that voice provider. Your microphone is not used.
 Saved listening positions stay in this browser on this device.</li>
-{'<li><b>The feedback form</b> is a Google Form. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>' if cfg.get("feedback_url") else ""}</ul>
+{('<li><b>The feedback form</b> is a Google Form' + (', which opens in your browser only after the grown-up question' if cfg.get("kids_mode") else '') + '. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>') if cfg.get("feedback_url") else ""}</ul>
 <h3>Printed papers</h3>
 <p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>
 {privacy_contact(cfg)}""")
