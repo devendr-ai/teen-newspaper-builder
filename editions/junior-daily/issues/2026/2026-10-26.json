@@ -1,0 +1,206 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-26",
+  "volume": 1,
+  "issue": 15,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA",
+      "headline": "Riyadh's Airport Partly Reopens, but Attacks Go On",
+      "deck": "Two terminals open again more than two weeks after Houthi strikes.",
+      "body": [
+        "Riyadh is the capital of Saudi Arabia, a country on the Arabian Peninsula. On Sunday, its main airport, King Khalid International, opened two terminals again. Terminal 1 and Terminal 2 serve flights inside the country and flights abroad. The airport had been out of service for more than two weeks after strikes by the Houthis, an armed group based in Yemen.",
+        "The danger has not gone away. Saudi military spokesman Turki al-Malki said forces stopped a Houthi missile and a drone on Sunday. The Houthis warned airlines and passengers that the airport was unsafe and called it a military target.",
+        "So the reopening is only a first step. Flight-tracking data showed that air traffic stayed limited, with fewer planes than usual. The fighting also matters far beyond Riyadh, because it is pushing up the price of oil, as our World story explains."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "AFRICA",
+        "label_bottom": "ARABIAN PENINSULA",
+        "footnote": "Yemen and Saudi Arabia are on the Arabian side",
+        "caption": "The Houthis are based in Yemen, across the Red Sea from Africa."
+      },
+      "why": "Airports link a capital to the world. When one is attacked, travel, trade and safety are all affected.",
+      "sources": [
+        {
+          "outlet": "The Korea Times",
+          "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+          "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "title": "Riyadh reopens its international airport as attacks by Iran-backed Houthis persist",
+          "url": "https://www.timesofisrael.com/liveblog_entry/riyadh-reopens-its-international-airport-as-attacks-by-iran-backed-houthis-persist/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL",
+      "headline": "Oil Settles at $116.72, Its Highest Since April",
+      "deck": "A new wave of Houthi strikes on Saudi Arabia pushed the price up.",
+      "body": [
+        "Oil is sold by the barrel, and Brent crude is the main world price. On Friday, Brent settled at $116.72 a barrel, the highest settling price since 29 April. Over the week it rose about 6%.",
+        "The jump came after the Houthis said they had attacked Saudi Arabia's Defence Ministry, two airports and an Aramco oil site. Analysts said the price shows fear of lost supply, because no loss of barrels has been confirmed."
+      ],
+      "chart": {
+        "title": "TWO OIL PRICES, FRIDAY",
+        "subtitle": "US dollars per barrel",
+        "labels": [
+          "Brent",
+          "WTI"
+        ],
+        "values": [
+          116.72,
+          103.27
+        ],
+        "max": 130,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Brent is the main world price; WTI is the US price."
+      },
+      "why": "Oil prices change what fuel costs families and businesses far from the Gulf.",
+      "sources": [
+        {
+          "outlet": "The Star",
+          "title": "Middle East mayhem: Oil prices jump US$3 on Houthi attacks, highest settlement since April",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/24/middle-east-mayhem-oil-prices-jump-us3-on-houthi-attacks-oil-spill-highest-settlement-since-april"
+        },
+        {
+          "outlet": "The National",
+          "title": "Oil prices rise as Houthis launch another wave of attacks on Saudi Arabia",
+          "url": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "outlet": "Discovery Alert",
+          "title": "Houthi Attacks on Saudi Arabia Lift Brent, but No Barrels Are Lost",
+          "url": "https://discoveryalert.com/analysis/houthi-attacks-saudi-arabia-brent-october-2026/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Serbia held a snap election on Sunday. Students challenged long-ruling Aleksandar Vucic.",
+        "Ukraine: a Kremlin adviser said Russia agreed in principle to restart three-way talks after 10 November."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Cyclone Arnab is forecast to cross India's Andhra Pradesh coast around 28 October.",
+        "Early voting continues in the US before the midterm elections on 3 November."
+      ]
+    }
+  },
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which airport partly reopened on Sunday?",
+        "options": [
+          "Dammam airport",
+          "King Khalid International Airport",
+          "Yanbu airport"
+        ],
+        "answer": 1,
+        "why": "The paper says two terminals of Riyadh's King Khalid International Airport opened again.",
+        "story": "lead"
+      },
+      {
+        "q": "Where are the Houthis based?",
+        "options": [
+          "Yemen",
+          "Norway",
+          "Serbia"
+        ],
+        "answer": 0,
+        "why": "The paper says the Houthis are an armed group based in Yemen.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Brent crude settle at on Friday?",
+        "options": [
+          "$103.27",
+          "$116.72",
+          "$130"
+        ],
+        "answer": 1,
+        "why": "Brent settled at $116.72 a barrel, the highest since 29 April.",
+        "story": "world"
+      },
+      {
+        "q": "What does the chart call the US oil price?",
+        "options": [
+          "WTI",
+          "Aramco",
+          "Brent"
+        ],
+        "answer": 0,
+        "why": "The chart says WTI is the US price; Brent is the main world price.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Riyadh airport had been out of service for more than two weeks.",
+        "true": true,
+        "why": "The paper says it was out of service for more than two weeks after Houthi strikes.",
+        "story": "lead"
+      },
+      {
+        "claim": "Analysts said Brent rose because many barrels of oil were confirmed lost.",
+        "true": false,
+        "why": "Analysts said no loss of barrels was confirmed; the price shows fear of lost supply.",
+        "story": "world"
+      },
+      {
+        "claim": "Brent crude rose about 6% over the week.",
+        "true": true,
+        "why": "The paper says it rose about 6% over the week.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Yanbu",
+        "lat": 24.09,
+        "lon": 38.06,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "What did Brent crude settle at on Friday, in dollars a barrel?",
+        "answer": 116.72,
+        "prefix": "$",
+        "unit": "a barrel",
+        "min": 60,
+        "max": 160,
+        "why": "It was the highest settling price since 29 April."
+      },
+      {
+        "story": "world",
+        "q": "By about how much did Brent crude rise over the week?",
+        "answer": 6,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 30,
+        "why": "Brent rose about 6% over the week after the Houthi strikes."
+      }
+    ]
+  }
+}
