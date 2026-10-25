@@ -266,6 +266,7 @@
         "The discovery began with software. Mikko Pontinen of the University of Helsinki used his own program, which flags fast-moving objects that appear as streaks, to detect it. Checks against catalogues of known comets and asteroids found no match, so he reported it to the Minor Planet Center, which confirmed it as a comet on 8 October. Ground-based follow-up observations confirmed its identity.",
         "The comet is about 1.3 billion km from Earth and is a long-period comet, with an orbit lasting thousands of years. ESA says the find shows Euclid can spot comets while they are still far from the Sun, which could help find future targets for its Comet Interceptor mission, though this comet is unsuitable for that mission.",
         "Why does the distance matter? The images behind the find were taken between 16 and 24 September, and the comet was confirmed on 8 October.",
+        "Space science had another record this month. NASA's Perseverance rover reached 28.10 miles (45.22 km) on Mars on 11 October, passing the 28.06 miles that Opportunity logged between 2004 and 2018. It did so in five and a half years, against almost 15 for Opportunity.",
         "The find also shows how modern astronomy works. A researcher wrote software to hunt for streaks, an international body checked the object against its catalogues, and telescopes on the ground confirmed it. Each step is a check that stops a mistake becoming a headline."
       ],
       "illustration": {
@@ -654,5 +655,9 @@
         ]
       }
     }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "world": "russia-ukraine"
   }
 }

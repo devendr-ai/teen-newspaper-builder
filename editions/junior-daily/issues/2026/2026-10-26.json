@@ -9,9 +9,9 @@
       "headline": "Riyadh's Airport Partly Reopens, but Attacks Go On",
       "deck": "Two terminals open again more than two weeks after Houthi strikes.",
       "body": [
-        "Riyadh is the capital of Saudi Arabia, a country on the Arabian Peninsula. On Sunday, its main airport, King Khalid International, opened two terminals again. Terminal 1 and Terminal 2 serve flights inside the country and flights abroad. The airport had been out of service for more than two weeks after strikes by the Houthis, an armed group based in Yemen.",
+        "Riyadh is the capital of Saudi Arabia, a country on the Arabian Peninsula. On Sunday, its main airport, King Khalid International, opened two terminals again. Terminals 1 and 2 serve flights at home and abroad. The airport had been out of service for more than two weeks after strikes by the Houthis, an armed group based in Yemen.",
         "The danger has not gone away. Saudi military spokesman Turki al-Malki said forces stopped a Houthi missile and a drone on Sunday. The Houthis warned airlines and passengers that the airport was unsafe and called it a military target.",
-        "So the reopening is only a first step. Flight-tracking data showed that air traffic stayed limited, with fewer planes than usual. The fighting also matters far beyond Riyadh, because it is pushing up the price of oil, as our World story explains."
+        "So the reopening is only a first step. Flight-tracking data showed that air traffic stayed limited. The fighting also matters far beyond Riyadh, because it is pushing up the price of oil, as our World story explains."
       ],
       "map": {
         "title": "THE RED SEA",
@@ -202,5 +202,8 @@
         "why": "Brent rose about 6% over the week after the Houthi strikes."
       }
     ]
+  },
+  "threads": {
+    "lead": "yemen-war"
   }
 }
