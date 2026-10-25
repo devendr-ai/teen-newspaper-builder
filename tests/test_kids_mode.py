@@ -99,12 +99,30 @@ def test_the_app_build_keeps_every_feature(builds):
     assert '<iframe src="https://docs.google.com/forms/' in (w / "feedback.html").read_text(encoding="utf-8")
 
 
+def test_enabled_subscriptions_keep_the_app_gate_on_all_parent_forms(builds):
+    if not site.site_config()['subscriptions']['enabled']:
+        pytest.skip('Subscription UI is disabled in site.yaml')
+    endpoint = site.subscription_endpoint(site.site_config())
+    for mode, root in builds.items():
+        for rel in ('index.html', 'parents.html', 'e/little-explorers/index.html'):
+            doc = (root / rel).read_text(encoding='utf-8')
+            forms = re.findall(r'<form\b[^>]*data-gate-form="subscribe"[^>]*>', doc)
+            assert forms, (mode, rel)
+            assert all(f'data-subscribe-endpoint="{endpoint}"' in form for form in forms)
+            assert all(f'data-subscribe-kids="{str(mode == "kids").lower()}"' in form for form in forms)
+        for path in (root / 'play').rglob('*.html'):
+            assert 'data-subscribe-endpoint=' not in path.read_text(encoding='utf-8'), path
+
+
 def test_the_website_is_unchanged_apart_from_its_own_fonts_and_pyodide(builds):
     w = builds["web"]
     for rel, doc in pages(w):
         if rel.startswith("vendor/"):        # Pyodide's own code (see above)
             continue
-        assert "gate/gate.js" not in doc and "data-gate" not in doc, rel
+        # Subscription forms carry their scoped hook in both builds; only the
+        # app gets global parental-gate attributes and scripts.
+        assert "gate/gate.js" not in doc, rel
+        assert not re.search(r"\bdata-gate(?:-page|-reason)?(?:[\s=>])", doc), rel
         assert not re.search(r"fonts\.googleapis|fonts\.gstatic|cdn\.jsdelivr", doc), rel
     cfg = site.site_config()
     if cfg.get("goatcounter"):

@@ -29,8 +29,8 @@ steps:
 
 # Email UI stays hidden until Phase 1 is deployed and verified.
 subscriptions:
-  enabled: false
+  enabled: true
   # Worker origin (adds /api) or API base, e.g. https://newspebbles.com/api.
-  api_base_url: ""
+  api_base_url: "https://newspebbles-subscribe.devendr.workers.dev"
   # Add an official https://whatsapp.com/channel/... URL when ready.
   whatsapp_channel_url: ""
