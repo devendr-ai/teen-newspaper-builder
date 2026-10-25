@@ -34,7 +34,7 @@ process.stdin.on('end', async () => {
     const speech={getVoices:()=>[],cancel(){},speak(u){utterances.push(u);}};
     const ctx={assert, Audio:audio?Audio:undefined, utterances,audios,card,cards,button,easy,words,events,player,range,controls,prompt,saved,
       SpeechSynthesisUtterance:function(text){this.text=text;},location:{pathname:'/play/paper/2026-10-24.html'},
-      window:{...(speechAvailable?{speechSynthesis:speech}:{}),innerHeight:800,scrollBy(){},addEventListener(k,fn){events[k]=fn;}},navigator:{},
+      window:{...(speechAvailable?{speechSynthesis:speech}:{}),innerHeight:800,scrollY:50,scrollTo(){},scrollBy(){},addEventListener(k,fn){events[k]=fn;}},navigator:{},
       document:{body:node(),addEventListener(k,fn){events[k]=fn;}},
       store:{get:(k,d)=>k==='rate'?1.2:k==='listening'?saved:d,set(k,v){if(k==='listening'){Object.keys(saved).forEach(k=>delete saved[k]);Object.assign(saved,v);}}},
       award(){},calm:()=>true,
@@ -86,7 +86,7 @@ process.stdin.on('end', async () => {
     controls['[data-listen=follow]'].handlers.click();assert.equal(listening.follow,true);
     skipSentence(-1);assert.equal(audios[0].currentTime,0);`);
   // Whole-edition playback reuses the audio element across sections and stops at the end.
-  run(setup({twoCards:true}),`readCard(card,button,true,true);audios[0].onloadedmetadata();audios[0].onended();
+  run(setup({twoCards:true}),`readCard(card,button,true,true);audios[0].onloadedmetadata();listening.follow=false;audios[0].onended();assert.equal(listening.follow,false);
     assert.equal(reading,cards[1]);assert.equal(audios.length,1);assert.equal(audios[0].src,'second.mp3');
     audios[0].onloadedmetadata();audios[0].currentTime=1;audios[0].ontimeupdate();assert.equal(saved['paper-2026-10-24'].edition,true);
     audios[0].onended();assert.equal(reading,null);assert.equal(saved['paper-2026-10-24'],undefined);`);

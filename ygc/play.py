@@ -1907,9 +1907,14 @@ JS = r"""
   function finishStory() {
     if (!listening) return;
     const cards = playableCards(), next = listening.edition ? cards[cards.indexOf(reading) + 1] : null;
-    const audio = narrationAudio;
+    const audio = narrationAudio, follow = listening.follow, scroll = window.scrollY;
     stop(true);
-    if (next) { revealCard(next); readCard(next, $(".read", next), true, true, audio); }
+    if (next) {
+      revealCard(next);
+      if (!follow) window.scrollTo({top:scroll});
+      readCard(next, $(".read", next), true, true, audio);
+      listening.follow = follow; updatePlayer();
+    }
   }
   function skipSentence(delta) {
     if (!listening) return;
