@@ -401,8 +401,11 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, ord
 </div></header>
 <main class="issue" data-mode="{mode}" data-key="{E(ed['id'])}-{date}" data-band="{E(band)}">
 <div class="title"><h1>{E(ed["name"])}</h1><p>{d:%A %d %B %Y} · No. {E(str(issue.get("issue", "")))}</p>
+<button type="button" id="listen-edition" class="read-edition">{navigation.icon("headphones")} Listen to this edition</button>
 <nav class="tabs" role="tablist"><button type="button" role="tab" data-tab="read" aria-selected="true">Read</button><button type="button" role="tab" data-tab="play" aria-selected="false">Play</button></nav></div>
 <div id="read" role="tabpanel">
+<aside id="listen-resume" hidden><span>Pick up where you left off.</span>
+<button type="button" data-listen="continue">Continue listening</button><button type="button" data-listen="restart">Start again</button></aside>
 <div class="trail" aria-hidden="true"><div class="track"><i></i><b class="walker">🚀</b><b class="flag">🏁</b></div><span class="count"></span></div>
 {cards}
 <section class="card end" data-i="{len(secs)}">{brand.inline("owl cheer")}<h2>You read today's paper! 🎉</h2><p class="streak" role="status"></p><p>Ready for a game?</p>
@@ -414,6 +417,11 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, ord
 <p class="older"><label>Other days: <select onchange="location.href=this.value">{earlier}</select></label>
 · <a href="../../e/{E(ed['id'])}/index.html">Print this paper (for grown-ups)</a></p>
 </main>
+<section id="listen-player" aria-label="Audio player" hidden>
+<p class="listen-title"></p><div class="listen-progress"><input type="range" min="0" max="100" value="0" step="0.1" aria-label="Listening progress"><span class="listen-time"></span></div>
+<div class="listen-controls"><button type="button" data-listen="previous" aria-label="Previous sentence">←</button><button type="button" data-listen="toggle">Pause</button><button type="button" data-listen="next" aria-label="Next sentence">→</button><button type="button" data-listen="close" aria-label="Close audio player">Close</button></div>
+<div class="listen-secondary"><button type="button" data-listen="restart">Start again</button><button type="button" data-listen="follow" hidden>Back to listening</button></div>
+<p class="listen-status" role="status"></p></section>
 <div id="pop" role="dialog" aria-modal="false" hidden><button type="button" class="x" aria-label="Close">✕</button><h3></h3><p class="m"></p><p class="t"></p>
 <button type="button" class="say">🔊 Say it</button></div>
 <script id="data" type="application/json">{json.dumps(data, ensure_ascii=False).replace("</", "<\\/")}</script>'''
@@ -1130,6 +1138,24 @@ body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
 
 CSS += navigation.STYLE
 
+CSS += r"""
+#listen-player{position:fixed;left:12px;right:12px;bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:7;
+ max-width:740px;margin:auto;padding:10px 14px;background:var(--card);border:2px solid var(--line);border-radius:16px;box-shadow:0 3px 16px #0002;font-size:14px}
+.listen-title{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 0 4px}
+.listen-progress{display:flex;gap:10px;align-items:center}.listen-progress input{flex:1;min-width:0;min-height:32px;accent-color:var(--teal)}
+.listen-time{white-space:nowrap;font-variant-numeric:tabular-nums;font-size:13px}
+.listen-controls{display:flex;gap:8px}.listen-controls button,#listen-resume button{font:inherit;min-height:44px;border:1.5px solid var(--line);border-radius:10px;padding:5px 12px;background:var(--card);color:var(--teal);font-weight:700;cursor:pointer}
+.listen-controls button[data-listen=toggle]{background:var(--teal);border-color:var(--teal);color:var(--card);min-width:90px}
+.listen-controls button[data-listen=previous],.listen-controls button[data-listen=next]{min-width:44px}
+.listen-secondary{display:flex;justify-content:space-between;gap:8px}.listen-secondary button{font:inherit;font-size:13px;min-height:44px;border:0;background:none;color:var(--teal);padding:4px 0;text-decoration:underline;cursor:pointer}
+.read-edition{font:inherit;display:inline-flex;align-items:center;gap:6px;font-size:16px;font-weight:700;min-height:44px;padding:6px 12px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--teal);cursor:pointer;margin:2px 0 8px}
+.listen-controls button:last-child{margin-left:auto}.listen-status{font-size:12px;color:var(--muted);margin:3px 0 0}.listen-status:empty{display:none}
+#listen-resume{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);font-size:15px;margin:8px 0 16px}
+#listen-resume span{flex-basis:100%}body.listening{padding-bottom:calc(320px + env(safe-area-inset-bottom,0px))}
+body.listening #pop{bottom:calc(310px + env(safe-area-inset-bottom,0px))}
+@media print{#listen-player,#listen-resume,#listen-edition{display:none!important}}
+"""
+
 JS = r"""
 (function () {
   const $ = (s, el) => (el || document).querySelector(s), $$ = (s, el) => [...(el || document).querySelectorAll(s)];
@@ -1757,26 +1783,84 @@ JS = r"""
 
   // ---------------------------------------------------------------- read aloud, sentence by sentence
   const speech = "speechSynthesis" in window ? window.speechSynthesis : null;
-  let reading = null, narrationAudio = null, speechTicket = 0;
+  let reading = null, narrationAudio = null, speechTicket = 0, listening = null;
+  const player = $("#listen-player"), resumePrompt = $("#listen-resume");
   const narrationNode = $("#narration");
   let narration = {};
   try { narration = narrationNode ? JSON.parse(narrationNode.textContent) : {}; } catch (e) { /* device voice remains available */ }
+  const positions = () => {
+    const saved = store.get("listening", {});
+    return saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+  };
+  const editionKey = $(".issue")?.dataset.key || location.pathname;
+  const clock = (n) => `${Math.floor(n / 60)}:${String(Math.floor(n % 60)).padStart(2, "0")}`;
+  function savePosition(done = false) {
+    if (!listening) return;
+    const saved = positions();
+    if (done) delete saved[editionKey];
+    else saved[editionKey] = { card: reading.id, variant: listening.variant, src: listening.track?.src || "",
+      time: narrationAudio ? narrationAudio.currentTime : 0, sentence: listening.index, edition: listening.edition,
+      mode: narrationAudio ? "audio" : "speech", updated: Date.now() };
+    const recent = Object.entries(saved).sort((a, b) => (b[1]?.updated || 0) - (a[1]?.updated || 0)).slice(0, 80);
+    store.set("listening", Object.fromEntries(recent));
+  }
+  function savedCard() {
+    const saved = positions()[editionKey];
+    return saved && $$(".card").find(c => c.id === saved.card && $(".read", c)) ? saved : null;
+  }
+  function refreshResume() { if (resumePrompt) resumePrompt.hidden = !!reading || !savedCard(); }
   document.addEventListener("rp-rate", () => { if (narrationAudio) narrationAudio.playbackRate = store.get("rate", 1); });
   window.addEventListener("pagehide", () => stop());
+  document.addEventListener("visibilitychange", () => { if (document.hidden) savePosition(); });
   const voice = () => {
     const vs = speech.getVoices().filter((v) => /^en/i.test(v.lang));
     return vs.find((v) => /en-IN/i.test(v.lang) && v.localService) || vs.find((v) => v.localService) || vs[0] || null;
   };
-  function stop() {
-    reading = null; ++speechTicket;
+  function updatePlayer() {
+    if (!player || !listening) return;
+    const state = listening, audio = narrationAudio, segments = state.track?.segments;
+    const duration = audio && Number.isFinite(audio.duration) && audio.duration > 0 ? audio.duration : segments?.at(-1)?.end || 0;
+    const elapsed = audio ? audio.currentTime : state.index;
+    const total = audio ? duration : state.parts.length;
+    const range = $("input", player);
+    range.max = String(total || 1); range.value = String(Math.min(elapsed, total));
+    range.step = audio ? "0.1" : "1";
+    range.disabled = !total;
+    $(".listen-time", player).textContent = audio ? `${clock(elapsed)} / ${clock(duration)}` : `Sentence ${Math.min(state.index + 1, total)} of ${total}`;
+    range.setAttribute("aria-valuetext", $(".listen-time", player).textContent);
+    $("[data-listen=toggle]", player).textContent = state.paused ? "Resume" : "Pause";
+    $("[data-listen=follow]", player).hidden = state.follow;
+    $("[data-listen=previous]", player).disabled = state.index === 0;
+    $("[data-listen=next]", player).disabled = state.index >= state.parts.length - 1;
+    $(".listen-status", player).textContent = state.paused ? "Paused. Your place is saved on this device." : "";
+    const button = $(".read", reading);
+    button.setAttribute("aria-pressed", String(!state.paused));
+    button.setAttribute("aria-label", state.paused ? "Resume reading this story" : "Pause reading this story");
+    button.lastChild.textContent = state.paused ? " Resume" : " Pause";
+  }
+  function highlight(sentence) {
+    $$(".s.now").forEach(s => s.classList.remove("now"));
+    if (!sentence) return;
+    sentence.classList.add("now");
+    if (listening) listening.sentence = sentence;
+    if (listening && !listening.follow) return;
+    const rect = sentence.getBoundingClientRect(), header = $("header.bar");
+    const top = header?.getBoundingClientRect().bottom || 0;
+    const bottom = player && !player.hidden ? player.getBoundingClientRect().top : window.innerHeight - 86;
+    if (rect.top < top + 8 || rect.bottom > bottom - 8) window.scrollBy({top:rect.top - top - Math.max(8, (bottom - top - rect.height) / 2), behavior:calm() ? "auto" : "smooth"});
+  }
+  function stop(done = false) {
+    savePosition(done);
+    reading = null; listening = null; ++speechTicket;
     if (narrationAudio) {
-      narrationAudio.onended = narrationAudio.onerror = narrationAudio.ontimeupdate = null;
+      narrationAudio.onended = narrationAudio.onerror = narrationAudio.ontimeupdate = narrationAudio.onloadedmetadata = narrationAudio.onpause = narrationAudio.onplay = null;
       narrationAudio.pause(); narrationAudio.removeAttribute("src"); narrationAudio.load(); narrationAudio = null;
     }
     if (speech) speech.cancel();
-    $$(".s.now").forEach((s) => s.classList.remove("now"));
-    $$(".read[aria-pressed='true']").forEach((b) => { b.setAttribute("aria-pressed", "false"); b.lastChild.textContent = " Read it to me"; });
-    reading = null;
+    $$(".s.now").forEach(s => s.classList.remove("now"));
+    $$(".read").forEach(b => { b.setAttribute("aria-pressed", "false"); b.setAttribute("aria-label", "Read this to me"); b.lastChild.textContent = " Read it to me"; });
+    if (player) player.hidden = true;
+    document.body.classList.remove("listening"); refreshResume();
   }
   function say(text, onend) {
     if (!speech) { onend(); return; }
@@ -1787,76 +1871,166 @@ JS = r"""
     u.onend = u.onerror = () => { if (ticket === speechTicket) onend(); };
     speech.speak(u);
   }
-  function readCard(card, btn) {
-    if (reading === card) { stop(); return; }
+  function toggleListening() {
+    if (!listening) return;
+    listening.paused = !listening.paused;
+    if (narrationAudio) {
+      if (listening.paused) narrationAudio.pause();
+      else playAudio();
+    } else {
+      ++speechTicket; if (speech) speech.cancel();
+      if (!listening.paused) speakSentence();
+    }
+    savePosition(); updatePlayer();
+  }
+  function speakSentence() {
+    if (!listening || listening.paused) return;
+    const state = listening;
+    if (state.index >= state.parts.length) { finishStory(); return; }
+    highlight(state.parts[state.index]); savePosition(); updatePlayer();
+    say(state.parts[state.index].textContent, () => { if (listening === state) { ++state.index; speakSentence(); } });
+  }
+  function playAudio() {
+    const audio = narrationAudio, state = listening;
+    if (!audio || !state) return;
+    const result = audio.play();
+    if (result) result.catch(() => {
+      if (narrationAudio !== audio || listening !== state || state.paused) return;
+      // A phone can require another tap after an interruption; do not switch voices for an autoplay restriction.
+      state.paused = true; savePosition(); updatePlayer();
+    });
+  }
+  const playableCards = () => $$(".card").filter(c => { const b = $(".read", c); return b && !b.hidden && $$(".s", c).length; });
+  function revealCard(card) {
+    if ($(".issue")?.dataset.mode === "cards") document.dispatchEvent(new CustomEvent("rp-show", {detail:Number(card.dataset.i)}));
+  }
+  function finishStory() {
+    if (!listening) return;
+    const cards = playableCards(), next = listening.edition ? cards[cards.indexOf(reading) + 1] : null;
+    const audio = narrationAudio, follow = listening.follow, scroll = window.scrollY;
+    stop(true);
+    if (next) {
+      revealCard(next);
+      if (!follow) window.scrollTo({top:scroll});
+      readCard(next, $(".read", next), true, true, audio);
+      listening.follow = follow; updatePlayer();
+    }
+  }
+  function skipSentence(delta) {
+    if (!listening) return;
+    const state = listening;
+    state.index = Math.max(0, Math.min(state.parts.length - 1, state.index + delta)); state.follow = true;
+    if (narrationAudio) {
+      const segment = state.track.segments.find(s => $$(".s", reading)[s.index] === state.parts[state.index]);
+      if (segment) { narrationAudio.currentTime = segment.start; narrationAudio.ontimeupdate(); }
+    } else {
+      ++speechTicket; if (speech) speech.cancel();
+      if (!state.paused) speakSentence(); else highlight(state.parts[state.index]);
+    }
+    savePosition(); updatePlayer();
+  }
+  function readCard(card, btn, restart = false, editionMode = false, reusableAudio = null) {
+    if (reading === card && !restart) { toggleListening(); return; }
     stop();
-    const parts = $$(".s", card).filter((x) => !x.closest("[hidden]"));   // only the version on screen
-    reading = card; btn.setAttribute("aria-pressed", "true"); btn.lastChild.textContent = " Stop";
-    store.set("heard", store.get("heard", 0) + 1); award();
-    const ticket = speechTicket;
-    const all = $$(".s", card);
+    const parts = $$(".s", card).filter(x => !x.closest("[hidden]"));
+    if (!parts.length) return;
     const key = String($$(".card").indexOf(card));
-    const easier = $(".easy", card)?.getAttribute("aria-pressed") === "true";
-    const track = narration[key]?.[easier ? "easy" : "original"];
-    const current = () => reading === card && speechTicket === ticket;
-    let i = 0;
-    const next = () => {
-      if (!current()) return;
-      $$(".s.now", card).forEach((s) => s.classList.remove("now"));
-      if (i >= parts.length) { stop(); return; }
-      const s = parts[i++]; s.classList.add("now");
-      s.scrollIntoView({ block: "nearest", behavior: "smooth" });
-      say(s.textContent, next);
-    };
-    // One file per section preserves reliable mobile playback. Timings map back to DOM sentences.
-    if (track && track.segments?.length && typeof Audio !== "undefined") {
-      const audio = new Audio();
-      narrationAudio = audio;
+    const variant = $(".easy", card)?.getAttribute("aria-pressed") === "true" ? "easy" : "original";
+    const track = narration[key]?.[variant];
+    const previous = positions()[editionKey];
+    const saved = !restart && previous?.card === card.id && previous.variant === variant && previous.src === (track?.src || "") ? previous : null;
+    reading = card;
+    listening = {parts, track, variant, edition:editionMode || !!saved?.edition, follow:true, paused:false,
+      index:Math.max(0, Math.min(parts.length - 1, Number(saved?.sentence) || 0))};
+    if (player) {
+      player.hidden = false; document.body.classList.add("listening");
+      const cards = playableCards();
+      $(".listen-title", player).textContent = (listening.edition ? `Section ${cards.indexOf(card) + 1} of ${cards.length} · ` : "") + ($("h2:not([hidden])", card)?.textContent || "Read it to me");
+    }
+    if (resumePrompt) resumePrompt.hidden = true;
+    store.set("heard", store.get("heard", 0) + 1); award();
+    const state = listening, all = $$(".s", card);
+    if (track?.segments?.length && typeof Audio !== "undefined") {
+      const audio = reusableAudio || new Audio(); narrationAudio = audio;
       audio.preload = "auto"; audio.src = track.src; audio.playbackRate = store.get("rate", 1);
-      let last = -1;
+      audio.onpause = () => { if (listening === state && !audio.ended) { state.paused = true; savePosition(); updatePlayer(); } };
+      audio.onplay = () => { if (listening === state) { state.paused = false; updatePlayer(); } };
+      const fallbackStart = saved?.mode === "speech" ? track.segments[listening.index]?.start || 0 : 0;
+      const start = Math.max(0, Math.min(Number(saved?.time) || fallbackStart, track.segments.at(-1).end));
+      audio.onloadedmetadata = () => { if (listening === state) { audio.currentTime = start; updatePlayer(); } };
+      let last = -1, savedSecond = -1;
       audio.ontimeupdate = () => {
-        if (!current()) return;
-        const segment = track.segments.find((x) => audio.currentTime >= x.start && audio.currentTime < x.end);
-        if (!segment || segment.index === last) return;
-        last = segment.index;
-        $$(".s.now", card).forEach((s) => s.classList.remove("now"));
-        const sentence = all[segment.index];
-        if (sentence && !sentence.closest("[hidden]")) {
-          sentence.classList.add("now"); sentence.scrollIntoView({ block: "nearest", behavior: calm() ? "auto" : "smooth" });
+        if (listening !== state || narrationAudio !== audio) return;
+        const segment = track.segments.find(x => audio.currentTime >= x.start && audio.currentTime < x.end);
+        if (segment && segment.index !== last) {
+          last = segment.index; const sentence = all[segment.index];
+          state.index = Math.max(0, parts.indexOf(sentence));
+          if (sentence && !sentence.closest("[hidden]")) highlight(sentence);
         }
+        const second = Math.floor(audio.currentTime);
+        if (second !== savedSecond) { savedSecond = second; savePosition(); }
+        updatePlayer();
       };
-      audio.onended = () => { if (current()) stop(); };
-      const failed = () => {
-        if (!current() || narrationAudio !== audio) return;
-        audio.onended = audio.onerror = audio.ontimeupdate = null;
+      audio.onended = () => { if (listening === state) finishStory(); };
+      audio.onerror = () => {
+        if (listening !== state || narrationAudio !== audio) return;
+        audio.onended = audio.onerror = audio.ontimeupdate = audio.onloadedmetadata = audio.onpause = audio.onplay = null;
         audio.pause(); narrationAudio = null;
-        if (speech) next(); else stop();
+        if (speech) speakSentence(); else { stop(); }
       };
-      audio.onerror = failed;
-      // Fetch a complete same-origin copy for offline replay; avoid caching partial Range responses.
       if ("caches" in window && navigator.serviceWorker?.controller) {
         const url = new URL(track.src, location.href).href;
-        caches.keys().then((keys) => {
-          const key = keys.find((k) => k.startsWith("rp-"));
-          if (key) return caches.open(key).then(async (cache) => {
-            if (!await cache.match(url)) await cache.add(url);
-          });
+        caches.keys().then(keys => {
+          const key = keys.find(k => k.startsWith("rp-"));
+          if (key) return caches.open(key).then(async cache => { if (!await cache.match(url)) await cache.add(url); });
         }).catch(() => {});
       }
-      const play = audio.play();
-      if (play) play.catch(failed);
-      return;
+      updatePlayer(); playAudio(); return;
     }
-    next();
+    speakSentence();
   }
-  $$(".read").forEach((b) => {
+  if (player) {
+    $("[data-listen=previous]", player).addEventListener("click", () => skipSentence(-1));
+    $("[data-listen=next]", player).addEventListener("click", () => skipSentence(1));
+    $("[data-listen=follow]", player).addEventListener("click", () => { if (listening) { listening.follow = true; highlight(listening.sentence); updatePlayer(); } });
+    $("[data-listen=toggle]", player).addEventListener("click", toggleListening);
+    $("[data-listen=close]", player).addEventListener("click", () => stop());
+    $("[data-listen=restart]", player).addEventListener("click", () => { if (reading) readCard(reading, $(".read", reading), true, listening.edition); });
+    $("input", player).addEventListener("change", e => {
+      if (!listening) return;
+      if (narrationAudio) { narrationAudio.currentTime = +e.target.value; narrationAudio.ontimeupdate(); }
+      else {
+        ++speechTicket; if (speech) speech.cancel();
+        listening.index = Math.min(listening.parts.length - 1, Math.floor(+e.target.value));
+        if (!listening.paused) speakSentence(); else highlight(listening.parts[listening.index]);
+      }
+      savePosition(); updatePlayer();
+    });
+  }
+  ["wheel", "touchmove"].forEach(name => document.addEventListener(name, e => {
+    if (listening && !e.target.closest("#listen-player")) { listening.follow = false; updatePlayer(); }
+  }, {passive:true}));
+  $("#listen-edition")?.addEventListener("click", () => {
+    const first = playableCards()[0]; if (!first) return;
+    if ($("#read")?.hidden) tab("read");
+    revealCard(first); readCard(first, $(".read", first), true, true);
+  });
+  if (resumePrompt) $$("button", resumePrompt).forEach(b => b.addEventListener("click", () => {
+    const saved = savedCard(); if (!saved) return;
+    const card = $$(".card").find(c => c.id === saved.card);
+    // Reveal the saved card in the younger reader's one-story-at-a-time layout.
+    revealCard(card);
+    if ($(".easy", card)) easyView(card, saved.variant === "easy");
+    readCard(card, $(".read", card), b.dataset.listen === "restart", !!saved.edition);
+  }));
+  $$(".read").forEach(b => {
     const card = b.closest(".card");
     if (!speech && !narration[String($$(".card").indexOf(card))]) { b.hidden = true; return; }
-    if (narration[String($$(".card").indexOf(card))]) {
-      b.insertAdjacentHTML("afterend", ' <small class="narration-credit">AI narration</small>');
-    }
-    b.addEventListener("click", () => readCard(b.closest(".card"), b));
+    if (narration[String($$(".card").indexOf(card))]) b.insertAdjacentHTML("afterend", ' <small class="narration-credit">AI narration</small>');
+    b.addEventListener("click", () => readCard(card, b));
   });
+  if ($("#listen-edition")) $("#listen-edition").hidden = !playableCards().length;
+  refreshResume();
 
   const main = $(".issue");
   if (!main) return;
@@ -1927,7 +2101,7 @@ JS = r"""
       if (Math.abs(dx) > 60) show(at + (dx < 0 ? 1 : -1));
     });
     document.addEventListener("keydown", (e) => {
-      if ($("#read").hidden || e.target.matches("select")) return;
+      if ($("#read").hidden || e.target.matches("select,input,button,textarea") || e.target.closest("#listen-player")) return;
       if (e.key === "ArrowRight") show(at + 1); if (e.key === "ArrowLeft") show(at - 1);
     });
     show(0);
