@@ -1,0 +1,42 @@
+/* News Pebbles: the Parental Gate's dialog (app build only; see gate.js). */
+html[data-gate-page]:not(.np-unlocked) body > :not(.np-gate) { visibility: hidden !important; }
+html.np-gate-open { overflow: hidden; }
+.np-gate[hidden] { display: none !important; }
+.np-gate {
+  --g-bg: #FFF8EE; --g-card: #FFFFFF; --g-ink: #1E2A32; --g-muted: #5B6870; --g-line: #E7DCCB;
+  --g-teal: #007C89; --g-coral: #B23A30;
+  position: fixed; inset: 0; z-index: 2147483000; display: grid; place-items: center;
+  padding: 16px max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  background: rgba(20, 28, 33, .55);
+  font: 18px/1.45 "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif; color: var(--g-ink);
+}
+@media (prefers-color-scheme: dark) {
+  .np-gate { --g-card: #1B242A; --g-ink: #E8EEEC; --g-muted: #A3B0B6; --g-line: #2C3940; --g-teal: #41B6C1; --g-coral: #FF9A8F; }
+}
+html[data-theme="night"] .np-gate { --g-card: #1B242A; --g-ink: #E8EEEC; --g-muted: #A3B0B6; --g-line: #2C3940; --g-teal: #41B6C1; --g-coral: #FF9A8F; }
+.np-gate-box {
+  width: min(440px, 100%); max-height: calc(100vh - 32px); overflow: auto; box-sizing: border-box;
+  background: var(--g-card); color: var(--g-ink); border: 2px solid var(--g-line); border-radius: 22px;
+  padding: 22px 22px 18px; box-shadow: 0 18px 50px rgba(0, 0, 0, .3);
+}
+.np-gate-kicker { margin: 0 0 4px; font-size: .78em; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--g-teal); }
+.np-gate h2 { margin: 0 0 6px; font: 800 1.45em/1.15 "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif; }
+#np-gate-why { margin: 0 0 14px; color: var(--g-muted); }
+.np-gate label { display: block; font-weight: 700; margin: 0 0 8px; }
+.np-gate input {
+  box-sizing: border-box; width: 100%; min-height: 56px; padding: 10px 14px; font: 700 1.4em/1 "Atkinson Hyperlegible", system-ui, sans-serif;
+  color: var(--g-ink); background: var(--g-card); border: 2px solid var(--g-line); border-radius: 14px; letter-spacing: .06em;
+}
+.np-gate input:focus { outline: 3px solid var(--g-teal); outline-offset: 2px; border-color: var(--g-teal); }
+.np-gate input:disabled { opacity: .55; }
+.np-gate-msg { min-height: 1.45em; margin: 8px 0 4px; font-weight: 700; color: var(--g-coral); }
+.np-gate-btns { display: flex; gap: 10px; margin-top: 8px; }
+.np-gate-btns button {
+  flex: 1; min-height: 52px; border-radius: 999px; font: 800 1em/1.2 "Bricolage Grotesque", system-ui, sans-serif; cursor: pointer;
+  border: 2px solid var(--g-ink); background: transparent; color: var(--g-ink);
+}
+.np-gate-btns .np-gate-ok { background: var(--g-ink); color: var(--g-card); }
+.np-gate-btns button:disabled { opacity: .45; cursor: not-allowed; }
+.np-gate-btns button:focus-visible { outline: 3px solid var(--g-teal); outline-offset: 3px; }
+@media (max-width: 360px) { .np-gate { font-size: 16px; } .np-gate-btns { flex-direction: column-reverse; } }
+@media print { .np-gate { display: none !important; } }

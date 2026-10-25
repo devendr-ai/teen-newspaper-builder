@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, stats, threads, world, pwa, navigation
+from . import brand, edition, scenes, site, stats, threads, world, pwa, navigation
 from .chat import sentences
 
 E = html.escape
@@ -461,8 +461,7 @@ def shell(cfg, title, body, root="", here="today"):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
+{site.fonts(root)}
 {pwa.head(cfg, root)}
 <link rel="icon" href="{root}play/owl.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{root}play/play.css?v={asset_version()}">{stats.snippet(cfg, root)}</head><body>{body}
