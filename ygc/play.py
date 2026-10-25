@@ -418,9 +418,11 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, ord
 · <a href="../../e/{E(ed['id'])}/index.html">Print this paper (for grown-ups)</a></p>
 </main>
 <section id="listen-player" aria-label="Audio player" hidden>
-<p class="listen-title"></p><div class="listen-progress"><input type="range" min="0" max="100" value="0" step="0.1" aria-label="Listening progress"><span class="listen-time"></span></div>
-<div class="listen-controls"><button type="button" data-listen="previous" aria-label="Previous sentence">←</button><button type="button" data-listen="toggle">Pause</button><button type="button" data-listen="next" aria-label="Next sentence">→</button><button type="button" data-listen="close" aria-label="Close audio player">Close</button></div>
-<div class="listen-secondary"><button type="button" data-listen="restart">Start again</button><button type="button" data-listen="follow" hidden>Back to listening</button></div>
+<div class="listen-heading"><p class="listen-title"></p><span class="listen-time"></span></div>
+<div class="listen-controls"><button type="button" data-listen="previous" aria-label="Previous sentence">←</button><button type="button" data-listen="toggle">Pause</button><button type="button" data-listen="next" aria-label="Next sentence">→</button>
+<input type="range" min="0" max="100" value="0" step="0.1" aria-label="Listening progress">
+<details class="listen-more"><summary aria-label="More audio controls">⋯</summary><div><button type="button" data-listen="auto-follow" aria-pressed="true">Follow text: on</button><button type="button" data-listen="restart">Start again</button><button type="button" data-listen="close" aria-label="Close audio player">Close player</button></div></details></div>
+<button type="button" class="listen-return" data-listen="follow" hidden>Back to listening</button>
 <p class="listen-status" role="status"></p></section>
 <div id="pop" role="dialog" aria-modal="false" hidden><button type="button" class="x" aria-label="Close">✕</button><h3></h3><p class="m"></p><p class="t"></p>
 <button type="button" class="say">🔊 Say it</button></div>
@@ -1140,19 +1142,25 @@ CSS += navigation.STYLE
 
 CSS += r"""
 #listen-player{position:fixed;left:12px;right:12px;bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:7;
- max-width:740px;margin:auto;padding:10px 14px;background:var(--card);border:2px solid var(--line);border-radius:16px;box-shadow:0 3px 16px #0002;font-size:14px}
-.listen-title{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 0 4px}
-.listen-progress{display:flex;gap:10px;align-items:center}.listen-progress input{flex:1;min-width:0;min-height:32px;accent-color:var(--teal)}
-.listen-time{white-space:nowrap;font-variant-numeric:tabular-nums;font-size:13px}
-.listen-controls{display:flex;gap:8px}.listen-controls button,#listen-resume button{font:inherit;min-height:44px;border:1.5px solid var(--line);border-radius:10px;padding:5px 12px;background:var(--card);color:var(--teal);font-weight:700;cursor:pointer}
-.listen-controls button[data-listen=toggle]{background:var(--teal);border-color:var(--teal);color:var(--card);min-width:90px}
-.listen-controls button[data-listen=previous],.listen-controls button[data-listen=next]{min-width:44px}
-.listen-secondary{display:flex;justify-content:space-between;gap:8px}.listen-secondary button{font:inherit;font-size:13px;min-height:44px;border:0;background:none;color:var(--teal);padding:4px 0;text-decoration:underline;cursor:pointer}
+ max-width:580px;margin:auto;padding:6px 10px;background:var(--card);border:1.5px solid var(--line);border-radius:14px;box-shadow:0 3px 16px #0002;font-size:13px}
+.listen-heading{display:flex;align-items:center;gap:10px;margin-bottom:2px}
+.listen-title{flex:1;min-width:0;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0}
+.listen-time{flex:none;white-space:nowrap;font-variant-numeric:tabular-nums;font-size:12px}
+.listen-controls{display:flex;align-items:center;gap:4px}
+.listen-controls input{flex:1;min-width:0;width:0;min-height:44px;margin:0 4px;accent-color:var(--teal)}
+.listen-controls button,.listen-more summary,#listen-resume button{font:inherit;min-height:44px;border:1.5px solid var(--line);border-radius:9px;padding:5px 8px;background:var(--card);color:var(--teal);font-weight:700;cursor:pointer}
+.listen-controls>button{flex:none;min-width:44px}
+.listen-controls button[data-listen=toggle]{background:var(--teal);border-color:var(--teal);color:var(--card);width:66px}
+.listen-more{position:relative;flex:none}.listen-more summary{display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;list-style:none;font-size:22px;line-height:1}
+.listen-more summary::-webkit-details-marker{display:none}
+.listen-more>div{position:absolute;right:0;bottom:calc(100% + 8px);min-width:180px;padding:5px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;box-shadow:0 3px 16px #0002}
+.listen-more button{display:block;width:100%;text-align:left;border:0;white-space:nowrap}
+.listen-return{display:block;min-height:44px;border:0;background:none;color:var(--teal);font:inherit;text-decoration:underline;padding:2px 0;cursor:pointer}
 .read-edition{font:inherit;display:inline-flex;align-items:center;gap:6px;font-size:16px;font-weight:700;min-height:44px;padding:6px 12px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--teal);cursor:pointer;margin:2px 0 8px}
-.listen-controls button:last-child{margin-left:auto}.listen-status{font-size:12px;color:var(--muted);margin:3px 0 0}.listen-status:empty{display:none}
+.listen-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 #listen-resume{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);font-size:15px;margin:8px 0 16px}
-#listen-resume span{flex-basis:100%}body.listening{padding-bottom:calc(320px + env(safe-area-inset-bottom,0px))}
-body.listening #pop{bottom:calc(310px + env(safe-area-inset-bottom,0px))}
+#listen-resume span{flex-basis:100%}body.listening{padding-bottom:calc(230px + env(safe-area-inset-bottom,0px))}
+body.listening #pop{bottom:calc(220px + env(safe-area-inset-bottom,0px))}
 @media print{#listen-player,#listen-resume,#listen-edition{display:none!important}}
 """
 
@@ -1830,6 +1838,9 @@ JS = r"""
     range.setAttribute("aria-valuetext", $(".listen-time", player).textContent);
     $("[data-listen=toggle]", player).textContent = state.paused ? "Resume" : "Pause";
     $("[data-listen=follow]", player).hidden = state.follow;
+    const following = $("[data-listen=auto-follow]", player);
+    following.setAttribute("aria-pressed", String(state.follow));
+    following.textContent = state.follow ? "Follow text: on" : "Follow text: off";
     $("[data-listen=previous]", player).disabled = state.index === 0;
     $("[data-listen=next]", player).disabled = state.index >= state.parts.length - 1;
     $(".listen-status", player).textContent = state.paused ? "Paused. Your place is saved on this device." : "";
@@ -1860,6 +1871,7 @@ JS = r"""
     $$(".s.now").forEach(s => s.classList.remove("now"));
     $$(".read").forEach(b => { b.setAttribute("aria-pressed", "false"); b.setAttribute("aria-label", "Read this to me"); b.lastChild.textContent = " Read it to me"; });
     if (player) player.hidden = true;
+    if (player) $(".listen-more", player).open = false;
     document.body.classList.remove("listening"); refreshResume();
   }
   function say(text, onend) {
@@ -1874,6 +1886,7 @@ JS = r"""
   function toggleListening() {
     if (!listening) return;
     listening.paused = !listening.paused;
+    if (!listening.paused && listening.follow) highlight(listening.sentence || listening.parts[listening.index]);
     if (narrationAudio) {
       if (listening.paused) narrationAudio.pause();
       else playAudio();
@@ -1990,6 +2003,13 @@ JS = r"""
     speakSentence();
   }
   if (player) {
+    $("[data-listen=auto-follow]", player).addEventListener("click", () => {
+      if (!listening) return;
+      listening.follow = !listening.follow;
+      $(".listen-more", player).open = false;
+      if (listening.follow) highlight(listening.sentence || listening.parts[listening.index]);
+      updatePlayer();
+    });
     $("[data-listen=previous]", player).addEventListener("click", () => skipSentence(-1));
     $("[data-listen=next]", player).addEventListener("click", () => skipSentence(1));
     $("[data-listen=follow]", player).addEventListener("click", () => { if (listening) { listening.follow = true; highlight(listening.sentence); updatePlayer(); } });
@@ -1998,6 +2018,7 @@ JS = r"""
     $("[data-listen=restart]", player).addEventListener("click", () => { if (reading) readCard(reading, $(".read", reading), true, listening.edition); });
     $("input", player).addEventListener("change", e => {
       if (!listening) return;
+      listening.follow = true;
       if (narrationAudio) { narrationAudio.currentTime = +e.target.value; narrationAudio.ontimeupdate(); }
       else {
         ++speechTicket; if (speech) speech.cancel();
@@ -2007,9 +2028,8 @@ JS = r"""
       savePosition(); updatePlayer();
     });
   }
-  ["wheel", "touchmove"].forEach(name => document.addEventListener(name, e => {
-    if (listening && !e.target.closest("#listen-player")) { listening.follow = false; updatePlayer(); }
-  }, {passive:true}));
+  // Follow stays on during ordinary scrolling. It is disabled only by the explicit player control.
+  window.addEventListener("resize", () => { if (listening?.follow) highlight(listening.sentence); });
   $("#listen-edition")?.addEventListener("click", () => {
     const first = playableCards()[0]; if (!first) return;
     if ($("#read")?.hidden) tab("read");
