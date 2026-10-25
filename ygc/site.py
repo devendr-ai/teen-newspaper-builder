@@ -507,6 +507,8 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
             page(cfg, "Feedback", feedback_body(cfg["feedback_url"]), here="feedback"))
     from . import play                      # the children's side: read online and play
     play.build(out, cfg, keep=min(keep, int(cfg.get("play_keep", 7))), log=log)
+    from . import share                     # how links look when shared; sitemap, robots.txt, 404
+    share.build(out, cfg, log=log)
     open(os.path.join(out, ".nojekyll"), "w").close()
     log(f"site written to {out}")
     return out

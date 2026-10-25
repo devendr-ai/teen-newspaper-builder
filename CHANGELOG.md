@@ -8,6 +8,20 @@
 
 # Changelog
 
+
+## Sharing and search
+
+- Shared links now show a picture, a title and a description (Open Graph and Twitter tags),
+  drawn every night with the papers by `ygc/share.py`: one picture for the whole site, one
+  per paper (its latest front page, its ages and "Free to print"), and one per Read & Play
+  paper (its top story with that story's map). Every page also gets its canonical address
+  on newspebbles.com.
+- `sitemap.xml` (with each paper's date) and `robots.txt`, so search engines find each
+  morning's papers.
+- A "page not found" page with the site's header and bottom bar, links back to today's
+  papers and Read & Play, and an anonymous `404/<address>` count to spot broken links.
+- The site's fonts (Bricolage Grotesque, Atkinson Hyperlegible; SIL Open Font License) are
+  kept in `assets/fonts` for the pictures.
 ## Unreleased — 2026-10-11: a site for children and their parents
 
 - Catalog narrowed to readers aged 6 to 15 and up: nine papers. The adult and

@@ -17,5 +17,6 @@ const owl = fs.readFileSync(path.join(assets, "owl.svg"), "utf8");
     await shot(n, `<div style="width:${n}px;height:${n}px;background:#EFE9DD;display:grid;place-items:center">
       <div style="width:${n * 0.7}px;height:${n * 0.7}px">${owl.replace("<svg ", '<svg width="100%" height="100%" ')}</div></div>`, `owl-icon-${n}.png`);
   await shot(32, owl.replace("<svg ", '<svg width="32" height="32" '), "owl-32.png");
+  await shot(512, owl.replace("<svg ", '<svg width="512" height="512" '), "owl-share.png");   // for the share pictures (ygc/share.py)
   await b.close();
 })();
