@@ -136,11 +136,27 @@
             "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
           },
           {
+            "fact": "Opponents of Vucic and some independent monitoring groups warned of potential irregularities in the voting process.",
+            "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
+          },
+          {
+            "fact": "Vucic warned that any protests claiming fraud if his party won would be immediately quashed.",
+            "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
+          },
+          {
+            "fact": "Serbia lacks reliable independent polling.",
+            "source_url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement"
+          },
+          {
             "fact": "The state election commission was not expected to release the official tally before Monday.",
             "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
           },
           {
             "fact": "Lists generally need at least 3 percent of the vote to enter parliament.",
+            "source_url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
+          },
+          {
+            "fact": "All 250 seats in the National Assembly are elected in a single nationwide constituency.",
             "source_url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
           },
           {
@@ -238,6 +254,10 @@
           },
           {
             "fact": "Traders were pricing in renewed US strikes on Iran.",
+            "source_url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+          },
+          {
+            "fact": "US officials told The New York Times that the US and Israel have plans for fresh strikes on Iran after the midterm elections.",
             "source_url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
           },
           {
@@ -403,6 +423,10 @@
           {
             "fact": "Andhra Pradesh kept 25,000 electric poles and other materials ready for emergencies.",
             "source_url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-ravi-kumar-directs-power-utilities-to-ensure-uninterrupted-supply-1998743"
+          },
+          {
+            "fact": "Andhra Pradesh Chief Minister N Chandrababu Naidu directed officials to be on high alert for Cyclone Arnab.",
+            "source_url": "https://aninews.in/news/national/general-news/andhra-cm-directs-officials-to-be-on-high-alert-for-cyclone-arnab20261025221029"
           }
         ],
         "numbers": [
@@ -464,6 +488,12 @@
             "published": "2026-10-25"
           },
           {
+            "outlet": "ANI",
+            "title": "Andhra CM directs officials to be on high alert for cyclone Arnab",
+            "url": "https://aninews.in/news/national/general-news/andhra-cm-directs-officials-to-be-on-high-alert-for-cyclone-arnab20261025221029",
+            "published": "2026-10-25"
+          },
+          {
             "outlet": "Deccan Chronicle",
             "title": "Ensure Uninterrupted Power Amid Cyclone Arnab: Ravi Kumar",
             "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-ravi-kumar-directs-power-utilities-to-ensure-uninterrupted-supply-1998743",
@@ -507,12 +537,24 @@
             "source_url": "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc"
           },
           {
+            "fact": "A Federal Reserve Bank of Atlanta study found Gen Z women are dramatically less likely to want children than earlier generations.",
+            "source_url": "https://www.kpbs.org/news/national/2026/10/24/u-s-birth-rate-drops-to-record-low-but-older-women-are-having-more-babies"
+          },
+          {
             "fact": "There were about 3.6 million births in 2025, a rate of roughly 53 per 1,000 women of reproductive age.",
             "source_url": "https://www.scrippsnews.com/health/us-fertility-rate-dropped-to-another-record-low-in-2025"
           },
           {
             "fact": "The 2025 rate is nearly 20% below the rate two decades ago.",
             "source_url": "https://www.scrippsnews.com/health/us-fertility-rate-dropped-to-another-record-low-in-2025"
+          },
+          {
+            "fact": "The decline is linked to people marrying and reaching other milestones later.",
+            "source_url": "https://www.scrippsnews.com/health/us-fertility-rate-dropped-to-another-record-low-in-2025"
+          },
+          {
+            "fact": "Some experts believe women would choose to have more children if they could afford them and had supports such as affordable housing and childcare.",
+            "source_url": "https://www.kpbs.org/news/national/2026/10/24/u-s-birth-rate-drops-to-record-low-but-older-women-are-having-more-babies"
           }
         ],
         "numbers": [
@@ -547,6 +589,12 @@
             "outlet": "NPR",
             "title": "U.S. birth rate drops to record low, but older women are having more babies",
             "url": "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc",
+            "published": "2026-10-24"
+          },
+          {
+            "outlet": "KPBS (NPR)",
+            "title": "U.S. birth rate drops to record low, but older women are having more babies",
+            "url": "https://www.kpbs.org/news/national/2026/10/24/u-s-birth-rate-drops-to-record-low-but-older-women-are-having-more-babies",
             "published": "2026-10-24"
           },
           {
@@ -686,6 +734,10 @@
           {
             "fact": "Andhra Pradesh kept 25,000 electric poles and other materials ready for emergencies.",
             "source_url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-ravi-kumar-directs-power-utilities-to-ensure-uninterrupted-supply-1998743"
+          },
+          {
+            "fact": "Andhra Pradesh Chief Minister N Chandrababu Naidu directed officials to be on high alert for Cyclone Arnab.",
+            "source_url": "https://aninews.in/news/national/general-news/andhra-cm-directs-officials-to-be-on-high-alert-for-cyclone-arnab20261025221029"
           }
         ],
         "numbers": [
@@ -747,9 +799,60 @@
             "published": "2026-10-25"
           },
           {
+            "outlet": "ANI",
+            "title": "Andhra CM directs officials to be on high alert for cyclone Arnab",
+            "url": "https://aninews.in/news/national/general-news/andhra-cm-directs-officials-to-be-on-high-alert-for-cyclone-arnab20261025221029",
+            "published": "2026-10-25"
+          },
+          {
             "outlet": "Deccan Chronicle",
             "title": "Ensure Uninterrupted Power Amid Cyclone Arnab: Ravi Kumar",
             "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-ravi-kumar-directs-power-utilities-to-ensure-uninterrupted-supply-1998743",
+            "published": "2026-10-24"
+          }
+        ]
+      },
+      {
+        "id": "india-markets",
+        "headline": "Sensex Falls for a Fourth Day as Oil Passes $114",
+        "what_happened": "India's Sensex share index fell for a fourth straight session on Friday 23 October, closing at 73,123.83, down 125.56 points, as crude oil passed $114 a barrel amid tension in West Asia.",
+        "why_it_matters": "India imports much of its oil, so dearer crude worries investors about inflation and the import bill.",
+        "importance": 6,
+        "suitable_for_children": true,
+        "key_facts": [
+          {
+            "fact": "The Sensex settled at 73,123.83, down 125.56 points or 0.17%, its fourth straight session of losses, on Friday.",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          },
+          {
+            "fact": "The Sensex and Nifty ended lower for the fourth session as crude oil prices breached $114 amid tensions in West Asia.",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          },
+          {
+            "fact": "The Nifty fell 87.65 points, or 0.39%.",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          }
+        ],
+        "numbers": [
+          {
+            "label": "Sensex close on 23 October",
+            "value": 73123.83,
+            "unit": "points",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          },
+          {
+            "label": "Sensex fall on the day",
+            "value": 125.56,
+            "unit": "points",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          }
+        ],
+        "geography": "India; West Asia (the Middle East).",
+        "sources": [
+          {
+            "outlet": "Deccan Herald (PTI)",
+            "title": "Markets extend losses for 4th day amid selling pressure, oil price surge",
+            "url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634",
             "published": "2026-10-24"
           }
         ]
@@ -810,11 +913,27 @@
             "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
           },
           {
+            "fact": "Opponents of Vucic and some independent monitoring groups warned of potential irregularities in the voting process.",
+            "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
+          },
+          {
+            "fact": "Vucic warned that any protests claiming fraud if his party won would be immediately quashed.",
+            "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
+          },
+          {
+            "fact": "Serbia lacks reliable independent polling.",
+            "source_url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement"
+          },
+          {
             "fact": "The state election commission was not expected to release the official tally before Monday.",
             "source_url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
           },
           {
             "fact": "Lists generally need at least 3 percent of the vote to enter parliament.",
+            "source_url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
+          },
+          {
+            "fact": "All 250 seats in the National Assembly are elected in a single nationwide constituency.",
             "source_url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
           },
           {
@@ -922,6 +1041,10 @@
             "source_url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
           },
           {
+            "fact": "US officials told The New York Times that the US and Israel have plans for fresh strikes on Iran after the midterm elections.",
+            "source_url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+          },
+          {
             "fact": "Brent hit a six-month high above $116 a barrel as Houthi strikes fuelled supply fears.",
             "source_url": "https://www.geo.tv/latest/688036-brent-hits-six-month-high-above-116-as-houthi-attacks-stoke-supply-fears"
           }
@@ -964,6 +1087,51 @@
             "outlet": "Geo News",
             "title": "Brent crude hits 6-month high above $116 per barrel as Houthi strikes fuel supply fears",
             "url": "https://www.geo.tv/latest/688036-brent-hits-six-month-high-above-116-as-houthi-attacks-stoke-supply-fears",
+            "published": "2026-10-24"
+          }
+        ]
+      },
+      {
+        "id": "india-markets",
+        "headline": "Sensex Falls for a Fourth Day as Oil Passes $114",
+        "what_happened": "India's Sensex share index fell for a fourth straight session on Friday 23 October, closing at 73,123.83, down 125.56 points, as crude oil passed $114 a barrel amid tension in West Asia.",
+        "why_it_matters": "India imports much of its oil, so dearer crude worries investors about inflation and the import bill.",
+        "importance": 6,
+        "suitable_for_children": true,
+        "key_facts": [
+          {
+            "fact": "The Sensex settled at 73,123.83, down 125.56 points or 0.17%, its fourth straight session of losses, on Friday.",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          },
+          {
+            "fact": "The Sensex and Nifty ended lower for the fourth session as crude oil prices breached $114 amid tensions in West Asia.",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          },
+          {
+            "fact": "The Nifty fell 87.65 points, or 0.39%.",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          }
+        ],
+        "numbers": [
+          {
+            "label": "Sensex close on 23 October",
+            "value": 73123.83,
+            "unit": "points",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          },
+          {
+            "label": "Sensex fall on the day",
+            "value": 125.56,
+            "unit": "points",
+            "source_url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+          }
+        ],
+        "geography": "India; West Asia (the Middle East).",
+        "sources": [
+          {
+            "outlet": "Deccan Herald (PTI)",
+            "title": "Markets extend losses for 4th day amid selling pressure, oil price surge",
+            "url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634",
             "published": "2026-10-24"
           }
         ]
