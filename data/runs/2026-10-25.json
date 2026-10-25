@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-25",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+    "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+    "junior-daily": {"status": "passed", "reason": "", "poster": null},
+    "young-global-citizen": {"status": "passed", "reason": "", "poster": null}
+  }
+}
