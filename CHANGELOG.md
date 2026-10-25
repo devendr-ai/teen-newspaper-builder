@@ -9,6 +9,18 @@
 # Changelog
 
 
+
+## Honest bylines on the printed papers
+
+- The lead story's byline no longer says "By the Editor-in-Chief": no person writes or checks
+  the papers. The site's papers now say "Written and fact-checked by AI · News Pebbles"
+  (`site.byline()`), always on one line so the page layout never shifts; the engine's own
+  default (used by Design your own) is "Written with AI". Early issues that stored the old
+  byline print the new one.
+- Every page's footer (papers and posters) adds "Written and fact-checked by AI" and
+  "Corrections: corrections@newspebbles.com" (`corrections_email` in `site.yaml`), set
+  smaller when a long footer would otherwise run off the page.
+- The PDFs' author field is "News Pebbles", not "Editor-in-Chief".
 ## Sharing and search
 
 - Shared links now show a picture, a title and a description (Open Graph and Twitter tags),

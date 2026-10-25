@@ -9,6 +9,7 @@ import io
 
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
+from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import (BaseDocTemplate, Frame, FrameBreak, NextPageTemplate,
@@ -74,6 +75,26 @@ class Ctx:
         self.scale = float(ed["style"].get("type_scale", 1.0))
 
 
+LEGACY_BYLINES = {"By the Editor-in-Chief"}      # early issues stored the old generic byline
+
+
+def byline_para(s, ctx, w):
+    """The lead story's byline, always one line: a long one is set smaller, never wrapped, so it
+    can't change the page's layout."""
+    text = s.get("byline") or ctx.L["byline"]
+    if text in LEGACY_BYLINES:
+        text = ctx.L["byline"]
+    st = ctx.S["byline"]
+    width = stringWidth(text, st.fontName, st.fontSize)
+    if width > w:
+        size = max(5.5, st.fontSize * w / width * 0.98)
+        if stringWidth(text, st.fontName, size) > w:
+            text = text.split(" · ")[0]
+            size = min(st.fontSize, max(5.5, st.fontSize * w / stringWidth(text, st.fontName, st.fontSize) * 0.98))
+        st = ParagraphStyle(f"byline{size:.2f}", parent=st, fontSize=size)
+    return Paragraph(text, st)
+
+
 def _extras(out, s, cfg, ctx):
     for key in cfg.get("extras", []):
         if s.get(key):
@@ -92,7 +113,7 @@ def r_story(s, cfg, ctx, w):
     if s.get("deck"):
         out.append(Paragraph(s["deck"], S["deck"]))
     if size == "lead":
-        out.append(Paragraph(s.get("byline", ctx.L["byline"]), S["byline"]))
+        out.append(byline_para(s, ctx, w))
     out.append(HRule(w, 0.5))
     out.append(Spacer(1, 3))
     for i, para in enumerate(s.get("body", [])):
@@ -218,11 +239,14 @@ def _footer(canv, ed, issue, npages, credit=None):
     canv.saveState()
     canv.setFillColor(PAPER)
     canv.rect(0, 0, PAGE_W, PAGE_H, stroke=0, fill=1)
-    canv.setFont("Helvetica", 6.5)
+    text = (f"{ed['name']}  •  {date_str(issue)}  •  "
+            f"Page {canv.getPageNumber()} of {npages}" + (f"  •  {credit}" if credit else ""))
+    size = 6.5
+    while size > 5 and stringWidth(text, "Helvetica", size) > CONTENT_W:     # a long credit: smaller, still one line
+        size -= 0.25
+    canv.setFont("Helvetica", size)
     canv.setFillColor(MUTED)
-    canv.drawCentredString(PAGE_W / 2, 0.32 * inch,
-                           f"{ed['name']}  •  {date_str(issue)}  •  "
-                           f"Page {canv.getPageNumber()} of {npages}" + (f"  •  {credit}" if credit else ""))
+    canv.drawCentredString(PAGE_W / 2, 0.32 * inch, text)
     canv.restoreState()
 
 
@@ -283,16 +307,19 @@ def _masthead(canv, ed, issue, npages, qr=None):
 
 
 # ------------------------------------------------------------------ build
-def build(ed, issue, path, qr=None, credit=None):
+def build(ed, issue, path, qr=None, credit=None, byline=None, author=None):
     """Write the PDF. `qr`: the issue's Read & Play address, printed as a code in the masthead.
-    `credit`: who publishes it, at the end of every page's footer ("A News Pebbles paper · newspebbles.com")."""
+    `credit`: who publishes it, at the end of every page's footer ("A News Pebbles paper · newspebbles.com").
+    `byline`: the lead story's byline (default: the edition's label). `author`: the PDF's author field."""
     ctx = Ctx(ed, issue)
+    if byline:
+        ctx.L = dict(ctx.L, byline=byline)
     geo = page_geometry(ed)
     npages = len(geo)
     doc = BaseDocTemplate(path, pagesize=letter, leftMargin=LEFT_M, rightMargin=RIGHT_M,
                           topMargin=TOP_M, bottomMargin=BOT_M,
                           title=f"{ed['name']} — {date_str(issue)}",
-                          author=f"Editor-in-Chief, {ed['name']}")
+                          author=author or ed["name"])
     templates = []
     for p, (banner, cols) in enumerate(geo):
         frames = []

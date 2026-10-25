@@ -5,6 +5,7 @@ home_headline: Help your child understand the world in 15 minutes a day.
 description: Free, age-appropriate newspapers to print, read and talk about together. From sources you can check.
 domain: newspebbles.com
 base_url: https://newspebbles.com/
+corrections_email: corrections@newspebbles.com   # printed in every page's footer of the papers (a forwarding address)
 contact: ""            # an email address readers can send corrections to
 goatcounter: "newspebbles"       # privacy-first visit counts (ygc/stats.py): the code of a GoatCounter site, e.g. newspebbles for newspebbles.goatcounter.com
 feedback_url: "https://docs.google.com/forms/d/e/1FAIpQLSckp1619w9UDFaGy_9gz3JkTRdAdNJ5DjxUOpWPGn7X3FWO4Q/viewform"   # a Google Form (or any form) link: adds a Feedback tab and footer link
