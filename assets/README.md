@@ -7,6 +7,7 @@ everything else comes from:
 - the website's header and browser-tab icon (`python -m ygc site` copies it);
 - the builder page's header (`tools/builder/build.py` puts it in);
 - Read & Play's home-screen icons, `owl-icon-180/192/512.png`, and `owl-32.png`;
+- `owl-share.png`, the owl on a clear background for the pictures shared links show (`ygc/share.py`);
 - the printed masthead of papers with a QR code (`ygc/brand.py` draws the same SVG in the PDF).
 
 After changing `owl.svg`, redraw the PNGs and rebuild the builder page:
@@ -23,3 +24,10 @@ The name is drawn as text beside the owl (`brand.wordmark()`): "News" in ink, "P
 coral, and three small stones underneath (slate `#8E9AA0`, sand `#D9C7A3`, moss `#9DB48A`). Those
 three stones and Read & Play's pebble tower are the only pebble shapes; everything else keeps
 ordinary shapes.
+
+## Fonts
+
+`fonts/` holds the site's two typefaces, for the pictures `ygc/share.py` draws: Bricolage
+Grotesque (headings; a variable font, drawn at ExtraBold) and Atkinson Hyperlegible (text).
+Both are free under the SIL Open Font License (`fonts/OFL-*.txt`). Web pages load the same
+fonts from Google Fonts.
