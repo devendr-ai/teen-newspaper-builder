@@ -228,6 +228,8 @@ details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;paddi
 .tabbar{display:none}
 @media (max-width:699px){
   header.top nav,.js .menu{display:none!important}
+  header.top .home-masthead h1{font-size:clamp(1.625rem,3.9vw,2.34rem)}
+  .home-masthead .brandline{font-size:.9rem}
   .wrap{padding-bottom:110px}
   .tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1.5px solid var(--line);
     padding:4px 4px calc(4px + env(safe-area-inset-bottom,0px))}
@@ -285,7 +287,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
 {pwa.head(cfg, root)}{FONTS}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
 <script>document.documentElement.classList.add("js")</script></head>
-<body><div class="wrap"><header class="top"><div class="masthead"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
+<body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design</a><a href="{root}parents.html">For parents</a></nav></header>
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
