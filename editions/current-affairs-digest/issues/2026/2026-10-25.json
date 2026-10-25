@@ -1,0 +1,659 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-25",
+  "volume": 1,
+  "issue": 14,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE GULF",
+      "headline": "Riyadh Airport Partly Reopens as Houthi Missiles Keep Coming",
+      "deck": "Saudi forces intercept a missile and a drone aimed at the capital on the day two terminals restart.",
+      "body": [
+        "Saudi Arabia reopened two terminals at Riyadh's King Khalid International Airport on Sunday 25 October. Terminal 1 handles domestic flights and Terminal 2 international ones. The airport had been shut for about two weeks after strikes earlier in October by the Houthis, an armed group from Yemen, Saudi Arabia's southern neighbour, which is backed by Iran.",
+        "The attacks did not stop for the reopening. On the same day the Saudi-led coalition said it intercepted a ballistic missile launched towards Riyadh and destroyed a drone aimed at the capital. It also reported intercepting ten ballistic missiles aimed at the kingdom's southern region. A Houthi spokesman called the airport unsafe and said it remained a “military target”.",
+        "Airlines are moving cautiously. Emirates says its flights to Riyadh and Dammam are due to resume on 8 November. The United States has ordered its non-emergency government staff out of Saudi Arabia as the attacks worsened, and American embassies across the region have tightened security over warnings of Iranian plots. The US administration has said it will hold off on renewed strikes on Iran until after its 3 November midterm elections.",
+        "Markets are pricing the risk. Brent crude closed at $116.72 a barrel on Friday 23 October, its highest close since 29 April, and India's Sensex fell for a fourth straight session. The Economy page explains the numbers."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "The narrow outlet for the Gulf's oil exports",
+        "caption": "A wider war with Iran would threaten this route as well as Saudi Arabia."
+      },
+      "why": "Saudi Arabia is one of the world's largest oil exporters. Attacks on its capital add to the risk built into the price of every barrel India imports, and disrupt flights between India and the Gulf, where many Indians live and work.",
+      "sources": [
+        {
+          "outlet": "The Korea Times (AP)",
+          "title": "Saudi Arabia reopens airport as attacks by Houthi rebels persist",
+          "url": "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist"
+        },
+        {
+          "outlet": "The National",
+          "title": "Saudi Arabia intercepts barrage of Houthi missiles and drones",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/10/25/saudi-arabia-intercepts-barrage-of-houthi-missiles-and-drones/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+          "url": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html"
+        },
+        {
+          "outlet": "The National",
+          "title": "Saudi Arabia flight cancellations: Which airlines are suspending services and until when?",
+          "url": "https://www.thenationalnews.com/travel/2026/10/25/saudi-arabia-flight-cancellations-which-airlines-are-suspending-services-and-until-when/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+          "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+          "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+        },
+        {
+          "outlet": "Deccan Herald (PTI)",
+          "title": "Markets extend losses for 4th day amid selling pressure, oil price surge",
+          "url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  NORTH KOREA AND CHINA",
+      "headline": "Kim Jong Un Crosses a New Bridge Into China as Trade Ties Warm",
+      "deck": "The 3 km New Yalu River Bridge opened this month after years of delay.",
+      "body": [
+        "North Korean leader Kim Jong Un visited the Chinese border city of Dandong on Saturday 24 October, crossing the newly opened New Yalu River Bridge. The Yalu River marks part of the border between the two countries, and Dandong sits on its Chinese bank.",
+        "China sent a senior figure to meet him. Wang Huning, China's fourth-highest-ranked official, accompanied Kim and conveyed greetings from President Xi Jinping. Kim toured a Dandong automobile factory and paid tribute to Chinese soldiers at a Korean War memorial, a reminder that Chinese troops fought on North Korea's side in that war.",
+        "The bridge is about trade, and it has been a long time coming. Construction finished in 2014, but it stayed closed because connecting roads and border facilities on the North Korean side were unfinished. China and North Korea finally marked its opening, at their most significant land border crossing, with a joint ceremony on 15 October.",
+        "The 3 km crossing is expected to carry heavy equipment, raw materials and energy products, with two-way traffic around the clock. China already accounts for about 95% of North Korea's total official trade.",
+        "That worries some observers. North Korea is the world's most-sanctioned country, and some fear the bridge will help it evade bans on exporting its raw materials and other goods. Other analysts say the bridge is unlikely to bring an immediate return to the level of trade before sanctions."
+      ],
+      "illustration": {
+        "title": "A NEW ROAD OVER THE YALU",
+        "subtitle": "North Korea to China",
+        "motif": "border",
+        "caption": "China accounts for about 95% of North Korea's official trade."
+      },
+      "connect": "Geography and history meet at the Yalu. The river marks part of the North Korea-China border, and the Korean War memorial Kim visited honours the Chinese soldiers who fought there. Sanctions, bans on trade imposed to punish a country, are why every new road into North Korea is watched closely.",
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "North Korea's Kim crosses new bridge into China as trade ties warm",
+          "url": "https://www.cnn.com/2026/10/24/china/north-koreas-kim-crosses-china-bridge-intl"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Kim Jong Un crosses new bridge into China as trade ties warm",
+          "url": "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
+          "url": "https://www.nbcnews.com/world/north-korea/north-korean-leader-kim-jong-un-visits-china-inaugurate-new-cross-bord-rcna605386"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Trucks line up as long-delayed China-North Korea bridge officially opens",
+          "url": "https://www.nbcnews.com/world/asia/trucks-line-long-delayed-china-north-korea-bridge-officially-opens-rcna603642"
+        },
+        {
+          "outlet": "CNN",
+          "title": "North Korea-China bridge finally opens but will it help Pyongyang evade sanctions?",
+          "url": "https://www.cnn.com/2026/10/15/asia/china-north-korea-bridge-intl-hnk"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DISASTER MANAGEMENT",
+      "headline": "Cyclone Arnab Set to Cross the Andhra Pradesh Coast on 28 October",
+      "deck": "A red alert in southern Odisha, schools shut in five districts and rescue teams on standby.",
+      "body": [
+        "A depression, an area of low air pressure, over the Bay of Bengal is expected to strengthen into a cyclonic storm over the west-central Bay of Bengal, named Cyclone Arnab. The India Meteorological Department (IMD) expects it to cross the coast between Bapatla and Visakhapatnam in Andhra Pradesh by the forenoon of 28 October as a very severe cyclonic storm.",
+        "At landfall, the point where the storm's centre crosses onto land, maximum sustained winds are forecast at 115 to 125 km an hour, gusting to 140. Heavy to very heavy rain is forecast over coastal Andhra Pradesh from 27 to 29 October.",
+        "Odisha, to the north, is preparing even without a direct hit. The IMD's Bhubaneswar director warned that the state would likely see rain and wind, with very rough seas, and the IMD has issued a red alert there. Schools, colleges and Anganwadi centres in Ganjam, Gajapati, Rayagada, Koraput and Malkangiri districts will close on 28 and 29 October.",
+        "Odisha's Chief Minister, Mohan Charan Majhi, reviewed the preparations and set zero casualties as the state's target. Around 60 Odisha Disaster Rapid Action Force teams, 17 National Disaster Response Force teams and 225 Fire Services teams are on alert. The national force is a central body; states call on it when their own teams need help.",
+        "Andhra Pradesh, where the storm is expected to cross, is getting ready too. Chief Minister N Chandrababu Naidu directed officials to be on high alert, and the state has kept 25,000 electric poles and other materials ready to restore power once the wind drops."
+      ],
+      "illustration": {
+        "title": "BRACING FOR ARNAB",
+        "subtitle": "Landfall due 28 October",
+        "motif": "flood",
+        "caption": "Winds may gust to 140 km an hour at landfall."
+      },
+      "why": "India's east coast faces cyclones almost every year. Forecasts days ahead, school closures and pre-positioned rescue teams are the tools of disaster management that turn a dangerous storm into a manageable one.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab to make landfall in Andhra Pradesh on October 28; heavy rain storms forecast",
+          "url": "https://www.theweek.in/news/india/2026/10/25/cyclone-arnab-to-make-landfall-in-andhra-pradesh-on-october-28-forecast-for-heavy-rain-storms.html"
+        },
+        {
+          "outlet": "The Daily Jagran",
+          "title": "Bay Of Bengal Depression To Turn Into Cyclone 'Arnab', Bring Heavy Rains As Landfall Expected In Andhra On Oct 28",
+          "url": "https://www.thedailyjagran.com/india/news/cyclonic-storm-heavy-rain-bay-of-bengal-depression-to-turn-into-cyclone-arnab-landfall-expected-in-andhra-on-oct-28-10333894"
+        },
+        {
+          "outlet": "ANI",
+          "title": "Very severe storm: IMD issues red alert in Odisha ahead of cyclone Arnab",
+          "url": "https://www.aninews.in/news/national/general-news/very-severe-storm-imd-issues-red-alert-in-odisha-ahead-of-cyclone-arnab20261025180701/"
+        },
+        {
+          "outlet": "Zee News",
+          "title": "Cyclone alert in Odisha: IMD issues red warning, schools closed in 5 districts",
+          "url": "https://zeenews.india.com/education/cyclone-alert-in-odisha-imd-issues-red-warning-schools-closed-in-5-districts-3076992.html"
+        },
+        {
+          "outlet": "Nation Path India",
+          "title": "Bay of Bengal Cyclone Alert: Odisha Closes Schools in Five Districts as Andhra Pradesh Prepares for Heavy Rain",
+          "url": "https://www.nationpathindia.com/environment/bay-of-bengal-cyclone-alert-odisha-andhra-pradesh-october-2026"
+        },
+        {
+          "outlet": "ANI",
+          "title": "Andhra CM directs officials to be on high alert for cyclone Arnab",
+          "url": "https://aninews.in/news/national/general-news/andhra-cm-directs-officials-to-be-on-high-alert-for-cyclone-arnab20261025221029"
+        },
+        {
+          "outlet": "Deccan Chronicle",
+          "title": "Ensure Uninterrupted Power Amid Cyclone Arnab: Ravi Kumar",
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-ravi-kumar-directs-power-utilities-to-ensure-uninterrupted-supply-1998743"
+        },
+        {
+          "outlet": "ANI",
+          "title": "Odisha braces for cyclone Arnab, CM Majhi targets zero casualties as storm nears coast on Oct 28",
+          "url": "https://www.aninews.in/news/national/general-news/odisha-braces-for-cyclone-arnab-cm-majhi-targets-zero-casualties-as-storm-nears-coast-on-oct-2820261024203423/"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  SERBIA",
+      "headline": "Serbia's Snap Election Pits Students Against Aleksandar Vucic",
+      "deck": "Almost two years of protests become a contest for all 250 seats in parliament.",
+      "body": [
+        "In 2024 a canopy at a newly renovated railway station in Novi Sad collapsed and killed 16 people. Students led protests that lasted almost two years, against alleged corruption and authoritarianism. On Sunday 25 October those protests turned into a snap election, one called before it was due, for Serbia's 250-seat parliament.",
+        "Serbia's system is proportional. All 250 seats are elected in a single nationwide constituency, and a list generally needs at least 3% of the vote to enter parliament. The student list fielded 250 candidates, many of them academics or political outsiders, led by cardiologist Ilija Srdanovic and running on an anti-corruption platform.",
+        "Their opponent is the SNS party of Aleksandar Vucic, Serbia's longtime leader, who resigned as president in September to run for prime minister. Reuters called the vote the biggest challenge to his rule for more than a decade. An Ipsos poll gave the SNS 47% and the students 40%, but other polls put the students ahead, and Serbia lacks reliable independent polling.",
+        "Both sides raised concerns. Opponents of Vucic and some independent monitoring groups warned of possible irregularities in the voting, while Vucic warned that protests claiming fraud would be quashed. Polls closed at 8pm local time, and the official tally is not expected before Monday.",
+        "Democracy was at work in the United States too. More than 18 million Americans had voted early, by mail or in person, by 22 October, according to the University of Florida's Election Lab count cited by ABC News, ahead of the 3 November midterms. NBC News's tracker later counted 27,878,423 early votes. ABC News found Democrats make up a much larger share of early ballots so far, but cautioned that early votes are only one piece of the puzzle."
+      ],
+      "illustration": {
+        "title": "ONE COUNTRY, ONE CONSTITUENCY",
+        "subtitle": "250 seats, 3% threshold",
+        "motif": "ballot",
+        "caption": "The official tally is not expected before Monday."
+      },
+      "why": "It tests whether a street movement can turn into a parliamentary force, and how electoral rules such as a single national constituency and a 3% threshold shape who wins seats.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Serbia votes in election pitting longtime leader against student movement",
+          "url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Serbia votes as students seek to unseat Aleksandar Vucic in snap election",
+          "url": "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377"
+        },
+        {
+          "outlet": "US News (Reuters)",
+          "title": "Serbia Votes in Historic Election as Students Seek to End Vucic's Long Grip on Power",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Serbia goes to polls to choose between Vucic and student movement",
+          "url": "https://www.euronews.com/2026/10/25/serbia-goes-to-polls-to-choose-between-populist-vucic-and-student-movement"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Early vote shows Democratic enthusiasm high in some key states, but only one piece of puzzle",
+          "url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "Tracking the 2026 Early Vote: Midterm Elections",
+          "url": "https://www.nbcnews.com/politics/2026-elections/early-vote"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL",
+      "headline": "Brent Closes at $116.72, Its Highest Since April",
+      "deck": "A third straight weekly gain as traders price in Gulf attacks and possible US strikes on Iran.",
+      "body": [
+        "Brent crude, the benchmark for oil traded worldwide, gained 3.1% on Friday 23 October to settle at $116.72 a barrel, its highest close since 29 April. US crude, West Texas Intermediate (WTI), rose 3.8% to $103.27. Brent rose 6.2% over the week, its third straight weekly gain.",
+        "Three worries drove it. The Houthis kept attacking Saudi Arabia, a reported oil spill off the United Arab Emirates added to supply concerns, and traders priced in renewed US strikes on Iran. US officials told The New York Times that the US and Israel have plans for fresh strikes on Iran after the US midterm elections.",
+        "India felt it the same day. The Sensex fell 125.56 points, or 0.17%, to 73,123.83, its fourth straight losing session, and the Nifty fell 87.65 points, or 0.39%, as crude passed $114 amid tension in West Asia. India imports most of its crude, so higher oil prices feed into fuel costs, inflation and the import bill.",
+        "Gold moved the other way. Spot gold fell about 4% over the week to below $4,000 an ounce, at $3,993.96, and in India 24-carat gold cost Rs 14,258 a gram on 24 October, its first rise in five days. Analysts linked gold's weakness to the oil rally: dearer crude revives inflation worries and strengthens expectations that interest rates will stay higher for longer, which makes gold, an asset that pays no interest, less attractive."
+      ],
+      "chart": {
+        "title": "OIL PRICES AT FRIDAY'S CLOSE",
+        "subtitle": "US dollars a barrel, 23 October",
+        "labels": [
+          "WTI (US)",
+          "Brent"
+        ],
+        "values": [
+          103.27,
+          116.72
+        ],
+        "max": 130,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "Brent's highest close since 29 April. Source: CNBC."
+      },
+      "why": "Oil is priced in dollars and most of India's crude is imported, so a rise in Brent quickly reaches petrol pumps, transport costs and the prices of goods across the economy.",
+      "analyst": "Why might traders push prices up before any oil supply is actually lost? Why would Indian share prices fall when oil rises? Why might gold fall when interest rates are expected to stay high?",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+          "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+        },
+        {
+          "outlet": "Geo News",
+          "title": "Brent crude hits 6-month high above $116 per barrel as Houthi strikes fuel supply fears",
+          "url": "https://www.geo.tv/latest/688036-brent-hits-six-month-high-above-116-as-houthi-attacks-stoke-supply-fears"
+        },
+        {
+          "outlet": "Deccan Herald (PTI)",
+          "title": "Markets extend losses for 4th day amid selling pressure, oil price surge",
+          "url": "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634"
+        },
+        {
+          "outlet": "Goodreturns",
+          "title": "Gold Rates & Silver Rates Today (24/10/2026): Indian Gold Rates Jump First Time In 5 Days By Rs 1,000",
+          "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  BIOLOGY",
+      "headline": "Dwarf Reedsnakes Roll Like Wheels, Four Times Faster Than They Slither",
+      "deck": "High-speed video shows how tiny snakes escape by cartwheeling.",
+      "body": [
+        "Escaping a predator is a matter of speed. Most snakes move by lateral undulation, the familiar side-to-side slither. Dwarf reedsnakes, small snakes from Southeast Asia, have another option: they roll like a wheel. A study published on 19 October in the journal Current Biology by Yosuke Kojima and colleagues at Toho University in Japan has now measured how.",
+        "The behaviour itself was not new to science. In 2023, a Malaysian and US team described the dwarf reed snake Pseudorabdion longiceps actively cartwheeling, launching coils of its body into the air and rolling down slopes. The new study goes further. Between 2019 and 2022 the team filmed three dwarf reed species, P. saravacense, P. collaris and P. longiceps, from several angles, and compared them with three reed snakes from another genus, Calamaria, which did not roll at all.",
+        "Rolling is fast. The snakes reached peak speeds of 1.72 to 3.69 metres per second while rolling, more than 12 feet per second at the top end, about four times their peak speed when slithering. They could also stay on a test track only 20 centimetres wide, so the roll is controlled rather than a tumble.",
+        "The secret is coordination. Each cycle, a snake swings an arched section of its body down past its head, a move the researchers call a “stroke”, while its head stays pointed in the direction of travel at a fairly constant height. The researchers suggest that keeping the head steady may help the snakes stay in control at high speed."
+      ],
+      "illustration": {
+        "title": "ROLLING TO ESCAPE",
+        "subtitle": "Up to 3.69 m per second",
+        "motif": "robot",
+        "caption": "Engineers study animal movement to design robots."
+      },
+      "why": "Measuring how animals move reveals solutions that evolution has found. Engineers who design robots for rough or narrow ground, such as machines for search and rescue, look to movements like this one for ideas.",
+      "sources": [
+        {
+          "outlet": "ScienceDaily",
+          "title": "These tiny snakes roll four times faster than they slither",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261023023718.htm"
+        },
+        {
+          "outlet": "Phys.org",
+          "title": "Rolling without wheels: How dwarf reedsnakes coordinate their bodies for high-speed escapes",
+          "url": "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html"
+        },
+        {
+          "outlet": "Live Science",
+          "title": "Watch bizarre snake 'cartwheel' away from danger at more than 12 feet per second",
+          "url": "https://www.livescience.com/animals/snakes/watch-bizarre-snake-cartwheel-away-from-danger-at-more-than-12-feet-per-second"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: The birth rate fell to its lowest level ever recorded in 2025, with about 3.6 million babies born, a CDC report shows.",
+        "United States: More than 18 million Americans had voted early by 22 October, ahead of the 3 November midterm elections.",
+        "Baseball: The Milwaukee Brewers beat the Tampa Bay Rays 5-4 to lead the World Series 2-0.",
+        "Geography: Dandong, where Kim Jong Un crossed into China, sits on the Yalu River, which marks part of the North Korea-China border."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Sanctions",
+          "def": "Penalties, such as bans on trade, that countries impose to pressure another country. Today: some fear a new bridge will help North Korea evade sanctions."
+        },
+        {
+          "word": "Proportional representation",
+          "def": "A voting system that shares out seats according to each party's share of the vote. Today: Serbia elects all 250 seats in one nationwide constituency."
+        },
+        {
+          "word": "Landfall",
+          "def": "The moment a storm's centre crosses from sea onto land. Today: Cyclone Arnab is expected to make landfall in Andhra Pradesh on 28 October."
+        },
+        {
+          "word": "Lateral undulation",
+          "def": "The side-to-side wave a snake uses to slither. Today: dwarf reedsnakes roll about four times faster than they move this way."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Cyclones in the Northern Hemisphere, such as those in the Bay of Bengal, spin anticlockwise, while those south of the equator spin clockwise, because of the Earth's rotation."
+    },
+    "explainer": {
+      "title": "How India names and warns about cyclones",
+      "body": [
+        "Cyclones in the north Indian Ocean are named from a list agreed by the countries of the region, so that warnings are easy to follow and remember. The India Meteorological Department, which serves as the regional centre for cyclone forecasts, tracks a weather system as it grows from a low-pressure area into a depression and then into a cyclonic storm, and gives the storm its name at that stage.",
+        "Warnings are colour-coded. Green means no action, yellow means be aware, orange means be prepared, and red means take action. A red alert, like the one for southern Odisha this week, tells district officials to act: closing schools, moving people to shelters and placing rescue teams where they will be needed."
+      ],
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab to make landfall in Andhra Pradesh on October 28; heavy rain storms forecast",
+          "url": "https://www.theweek.in/news/india/2026/10/25/cyclone-arnab-to-make-landfall-in-andhra-pradesh-on-october-28-forecast-for-heavy-rain-storms.html"
+        },
+        {
+          "outlet": "ANI",
+          "title": "Very severe storm: IMD issues red alert in Odisha ahead of cyclone Arnab",
+          "url": "https://www.aninews.in/news/national/general-news/very-severe-storm-imd-issues-red-alert-in-odisha-ahead-of-cyclone-arnab20261025180701/"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> Which two terminals reopened at Riyadh's King Khalid International Airport?",
+        "(a) Terminals 3 and 4  (b) Terminals 1 and 2  (c) Terminals 2 and 3",
+        "<b>2.</b> When does Emirates plan to resume flights to Riyadh and Dammam?",
+        "(a) 8 November  (b) 3 November  (c) 28 October",
+        "<b>3.</b> What share of North Korea's official trade is with China?",
+        "(a) About 50%  (b) About 75%  (c) About 95%",
+        "<b>4.</b> Between which two places is Cyclone Arnab expected to cross the coast?",
+        "(a) Bapatla and Visakhapatnam  (b) Puri and Paradip  (c) Chennai and Nellore",
+        "<b>5.</b> How many seats are in Serbia's parliament?",
+        "(a) 150  (b) 250  (c) 350",
+        "<b>6.</b> Who leads Serbia's student list?",
+        "(a) Aleksandar Vucic  (b) Wang Huning  (c) Ilija Srdanovic",
+        "<b>7.</b> At what price did Brent crude settle on 23 October?",
+        "(a) $103.27  (b) $116.72  (c) $125.00",
+        "<b>8.</b> About how much faster do dwarf reedsnakes roll than slither?",
+        "(a) Twice  (b) Four times  (c) Ten times",
+        "<b>Answers.</b> 1 (b): Terminals 1 and 2. 2 (a): 8 November. 3 (c): About 95%. 4 (a): Bapatla and Visakhapatnam. 5 (b): 250. 6 (c): Ilija Srdanovic. 7 (b): $116.72. 8 (b): Four times."
+      ],
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Serbia's official election result, expected from Monday.",
+        "Cyclone Arnab's landfall in Andhra Pradesh, forecast for 28 October.",
+        "Whether Brent crude stays above $110 when markets reopen on Monday."
+      ]
+    }
+  },
+  "threads": {
+    "lead": "yemen-war"
+  },
+  "sources": [
+    "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist",
+    "https://www.thenationalnews.com/news/gulf/2026/10/25/saudi-arabia-intercepts-barrage-of-houthi-missiles-and-drones/",
+    "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
+    "https://www.thenationalnews.com/travel/2026/10/25/saudi-arabia-flight-cancellations-which-airlines-are-suspending-services-and-until-when/",
+    "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+    "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+    "https://www.geo.tv/latest/688036-brent-hits-six-month-high-above-116-as-houthi-attacks-stoke-supply-fears",
+    "https://www.deccanherald.com/business/markets/markets-extend-losses-for-4th-day-amid-selling-pressure-oil-price-surge-4192634",
+    "https://www.cnn.com/2026/10/24/china/north-koreas-kim-crosses-china-bridge-intl",
+    "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932",
+    "https://www.nbcnews.com/world/north-korea/north-korean-leader-kim-jong-un-visits-china-inaugurate-new-cross-bord-rcna605386",
+    "https://www.theweek.in/news/india/2026/10/25/cyclone-arnab-to-make-landfall-in-andhra-pradesh-on-october-28-forecast-for-heavy-rain-storms.html",
+    "https://www.thedailyjagran.com/india/news/cyclonic-storm-heavy-rain-bay-of-bengal-depression-to-turn-into-cyclone-arnab-landfall-expected-in-andhra-on-oct-28-10333894",
+    "https://www.aninews.in/news/national/general-news/very-severe-storm-imd-issues-red-alert-in-odisha-ahead-of-cyclone-arnab20261025180701/",
+    "https://zeenews.india.com/education/cyclone-alert-in-odisha-imd-issues-red-warning-schools-closed-in-5-districts-3076992.html",
+    "https://www.nationpathindia.com/environment/bay-of-bengal-cyclone-alert-odisha-andhra-pradesh-october-2026",
+    "https://aninews.in/news/national/general-news/andhra-cm-directs-officials-to-be-on-high-alert-for-cyclone-arnab20261025221029",
+    "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-ravi-kumar-directs-power-utilities-to-ensure-uninterrupted-supply-1998743",
+    "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement",
+    "https://www.nbcnews.com/world/europe/serbia-votes-students-seek-unseat-aleksandar-vucic-snap-election-rcna605377",
+    "https://www.usnews.com/news/world/articles/2026-10-24/serbia-votes-as-students-seek-to-unseat-vucic-in-snap-election",
+    "https://www.euronews.com/2026/10/25/serbia-goes-to-polls-to-choose-between-populist-vucic-and-student-movement",
+    "https://www.sciencedaily.com/releases/2026/10/261023023718.htm",
+    "https://phys.org/news/2026-10-wheels-dwarf-reedsnakes-bodies-high.html",
+    "https://www.livescience.com/animals/snakes/watch-bizarre-snake-cartwheel-away-from-danger-at-more-than-12-feet-per-second",
+    "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc",
+    "https://www.scrippsnews.com/health/us-fertility-rate-dropped-to-another-record-low-in-2025",
+    "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080",
+    "https://www.mlb.com/news/brewers-win-world-series-game-2-2026",
+    "https://www.cnn.com/2026/10/25/sport/live-news/world-series-game-2",
+    "https://www.nbcnews.com/world/asia/trucks-line-long-delayed-china-north-korea-bridge-officially-opens-rcna603642",
+    "https://www.cnn.com/2026/10/15/asia/china-north-korea-bridge-intl-hnk",
+    "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-10-2026-live-comex-mcx-gold-rate-in-india-24k-22k-18k-gold-prices-1543247.html",
+    "https://phys.org/news/2023-04-snakes-cartwheels-startle-predators.html",
+    "https://www.nbcnews.com/politics/2026-elections/early-vote",
+    "https://www.aninews.in/news/national/general-news/odisha-braces-for-cyclone-arnab-cm-majhi-targets-zero-casualties-as-storm-nears-coast-on-oct-2820261024203423/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which terminal at Riyadh's airport handles international flights?",
+        "options": [
+          "Terminal 1",
+          "Terminal 2",
+          "Terminal 4"
+        ],
+        "answer": 1,
+        "why": "Terminal 2 handles international flights; Terminal 1 domestic.",
+        "story": "lead"
+      },
+      {
+        "q": "How many ballistic missiles aimed at Saudi Arabia's south did the coalition say it intercepted?",
+        "options": [
+          "Ten",
+          "Two",
+          "Twenty"
+        ],
+        "answer": 0,
+        "why": "It reported intercepting ten ballistic missiles aimed at the south.",
+        "story": "lead"
+      },
+      {
+        "q": "Who accompanied Kim Jong Un in Dandong?",
+        "options": [
+          "Xi Jinping",
+          "Li Qiang",
+          "Wang Huning"
+        ],
+        "answer": 2,
+        "why": "Wang Huning, China's fourth-highest-ranked official, accompanied him.",
+        "story": "world"
+      },
+      {
+        "q": "How long is the New Yalu River Bridge?",
+        "options": [
+          "3 km",
+          "30 km",
+          "300 m"
+        ],
+        "answer": 0,
+        "why": "It is a 3 km crossing.",
+        "story": "world"
+      },
+      {
+        "q": "How many Odisha districts will close schools on 28 and 29 October?",
+        "options": [
+          "Three",
+          "Five",
+          "Fourteen"
+        ],
+        "answer": 1,
+        "why": "Schools in five districts will close.",
+        "story": "india"
+      },
+      {
+        "q": "What share of the vote does a list generally need to enter Serbia's parliament?",
+        "options": [
+          "3%",
+          "5%",
+          "10%"
+        ],
+        "answer": 0,
+        "why": "A list generally needs at least 3% of the vote.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "Where did the Sensex close on Friday 23 October?",
+        "options": [
+          "73,123.83",
+          "37,123.83",
+          "83,123.73"
+        ],
+        "answer": 0,
+        "why": "It fell 125.56 points to 73,123.83.",
+        "story": "economics"
+      },
+      {
+        "q": "Which university did the snake study come from?",
+        "options": [
+          "University of Warwick",
+          "Toho University",
+          "University of Florida"
+        ],
+        "answer": 1,
+        "why": "Yosuke Kojima and colleagues are at Toho University.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Riyadh's airport had been shut for about two weeks before Sunday.",
+        "true": true,
+        "why": "It had been shut for about two weeks after strikes earlier in October.",
+        "story": "lead"
+      },
+      {
+        "claim": "China accounts for about half of North Korea's official trade.",
+        "true": false,
+        "why": "China accounts for about 95% of it.",
+        "story": "world"
+      },
+      {
+        "claim": "Brent crude rose for a third straight week.",
+        "true": true,
+        "why": "It rose 6.2% over the week, its third straight weekly gain.",
+        "story": "economics"
+      },
+      {
+        "claim": "The rolling snakes kept their heads pointed backwards.",
+        "true": false,
+        "why": "Their heads stayed pointed in the direction of travel.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Dandong",
+        "lat": 40.12,
+        "lon": 124.38,
+        "countries": [
+          "North Korea",
+          "China"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Belgrade",
+        "lat": 44.79,
+        "lon": 20.45,
+        "countries": [
+          "Serbia"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How long is the New Yalu River Bridge?",
+        "answer": 3,
+        "prefix": "",
+        "unit": "km",
+        "min": 0.5,
+        "max": 15,
+        "why": "The 3 km crossing opened this month after years of delay."
+      },
+      {
+        "story": "india",
+        "q": "How many electric poles has Andhra Pradesh kept ready?",
+        "answer": 25000,
+        "prefix": "",
+        "unit": "",
+        "min": 1000,
+        "max": 100000,
+        "why": "They are ready to restore power after the cyclone."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Riyadh's Airport Opens Again as Attacks Go On",
+        "body": [
+          "Riyadh is the capital of Saudi Arabia. Its main airport had been shut for about two weeks after attacks. On Sunday, two of its terminals opened again.",
+          "The attacks come from the Houthis, an armed group in Yemen. On the same day, Saudi forces said they stopped a missile and a drone aimed at Riyadh.",
+          "Some airlines are waiting. Emirates plans to fly to Riyadh again on 8 November. The trouble has also pushed up the price of oil."
+        ]
+      },
+      "world": {
+        "headline": "Kim Jong Un Crosses a New Bridge to China",
+        "body": [
+          "Kim Jong Un leads North Korea. On Saturday he crossed a new bridge into China and visited the city of Dandong.",
+          "The bridge is 3 km long. It crosses the Yalu River, which marks part of the border. It is meant to carry far more trade.",
+          "China is North Korea's biggest trading partner, with about 95% of its official trade. Some people worry the bridge will help North Korea break trade bans."
+        ]
+      },
+      "india": {
+        "headline": "A Big Storm Heads for Andhra Pradesh",
+        "body": [
+          "A cyclone is a giant spinning storm. One called Arnab is expected to reach the coast of Andhra Pradesh on 28 October.",
+          "Its winds could gust up to 140 km an hour. Lots of rain is expected too.",
+          "Odisha will close schools in five districts. Rescue teams are ready, and Andhra Pradesh has 25,000 electric poles ready to fix power lines."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Serbia Votes in a Big Election",
+        "body": [
+          "Serbia is a country in Europe. In 2024 a roof at a train station fell down, and 16 people died.",
+          "Students protested for almost two years against leaders they said were dishonest. On Sunday, Serbia held an early election for all 250 seats in its parliament.",
+          "The students backed their own list. They faced the party of Aleksandar Vucic, Serbia's longtime leader. Polls did not agree on who was ahead."
+        ]
+      },
+      "economics": {
+        "headline": "Oil Costs the Most Since April",
+        "body": [
+          "Oil prices are counted per barrel. On Friday the world price, called Brent, closed at $116.72. That is the highest since 29 April.",
+          "People worried about attacks on Saudi Arabia and about new US strikes on Iran. Worried buyers pushed the price up.",
+          "India buys most of its oil from abroad. On the same day, a main measure of Indian share prices fell for the fourth day in a row."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Tiny Snakes That Roll Like Wheels",
+        "body": [
+          "Most snakes slither from side to side. Dwarf reedsnakes from Southeast Asia can also roll, like a wheel, to escape danger.",
+          "Scientists in Japan filmed them. Rolling, the snakes went about four times faster than when they slithered.",
+          "Their heads stayed steady, facing forward, while the rest of the body swung round and round. That may help them stay in control at speed."
+        ]
+      }
+    }
+  }
+}
