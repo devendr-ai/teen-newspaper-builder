@@ -180,7 +180,7 @@ what has passed so far: a partial day is fine; a lost day is worse.
 
 End with a short summary: papers published (with issue numbers), papers and
 posters skipped and why, the PR link, and the website:
-https://devendr-ai.github.io/teen-newspaper-builder/
+https://newspebbles.com/
 
 ## Never
 

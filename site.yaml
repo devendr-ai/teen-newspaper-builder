@@ -5,7 +5,12 @@ home_headline: Help your child understand the world in 15 minutes a day.
 description: Free, age-appropriate newspapers to print, read and talk about together. From sources you can check.
 domain: newspebbles.com
 base_url: https://newspebbles.com/
-contact: ""            # an email address readers can send corrections to
+publisher: NeRDLabs    # who makes News Pebbles: How it's made, Terms and every page's footer
+corrections_email: corrections@newspebbles.com   # printed in every page's footer of the papers (a forwarding address)
+contact: corrections@newspebbles.com   # where readers send corrections, on the website
+info_email: info@newspebbles.com       # general questions: footer, How it's made, Terms
+privacy_email: privacy@newspebbles.com # the Privacy page
+license: CC BY-NC 4.0  # what people may do with the papers: Terms and every page's footer
 goatcounter: "newspebbles"       # privacy-first visit counts (ygc/stats.py): the code of a GoatCounter site, e.g. newspebbles for newspebbles.goatcounter.com
 feedback_url: "https://docs.google.com/forms/d/e/1FAIpQLSckp1619w9UDFaGy_9gz3JkTRdAdNJ5DjxUOpWPGn7X3FWO4Q/viewform"   # a Google Form (or any form) link: adds a Feedback tab and footer link
 keep_issues: 30        # how many past issues per paper stay downloadable

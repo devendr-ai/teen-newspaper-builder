@@ -3,6 +3,7 @@
 reportlab==4.4.10
 pypdf==5.9.0
 PyYAML==6.0.3
+pillow==12.3.0      # the share pictures (ygc/share.py); ReportLab needs it too
 pytest==9.1.1
 # System package (not pip) for page previews: poppler
 #   macOS: brew install poppler      Ubuntu/Debian: sudo apt install poppler-utils

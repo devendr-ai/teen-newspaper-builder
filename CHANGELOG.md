@@ -8,6 +8,53 @@
 
 # Changelog
 
+
+
+
+
+## Code: all rights reserved
+
+- `LICENSE`: the code is © NeRDLabs, all rights reserved (readable, not reusable without
+  permission); the papers stay CC BY-NC 4.0, and third-party fonts, icons and map data keep
+  their own licences.
+- How it's made and the builder page no longer call the engine "open source".
+## Terms, publisher and contact addresses
+
+- A plain-language **Terms** page (`terms.html`), linked from every footer and the For parents
+  page: free to use; the papers are licensed **CC BY-NC 4.0** (print and share with credit, not
+  to sell); the name, logo and sources' material aren't included; written and checked by AI with
+  no person reviewing each paper; children give no personal information; no guarantee.
+- News Pebbles is made by **NeRDLabs** (`publisher` in `site.yaml`): How it's made gains "Who
+  makes News Pebbles", and every page's footer ends "© NeRDLabs · Papers free to print and share,
+  not to sell (CC BY-NC 4.0) · Contact: info@newspebbles.com".
+- Role addresses in `site.yaml`: `contact` (corrections@, shown wherever readers report
+  mistakes), `info_email` (info@) and `privacy_email` (privacy@, on the Privacy page).
+- The Privacy page describes read-aloud as it now works: recordings kept on the site, the
+  device's own voices as a fallback.
+## Honest bylines on the printed papers
+
+- The lead story's byline no longer says "By the Editor-in-Chief": no person writes or checks
+  the papers. The site's papers now say "Written and fact-checked by AI · News Pebbles"
+  (`site.byline()`), always on one line so the page layout never shifts; the engine's own
+  default (used by Design your own) is "Written with AI". Early issues that stored the old
+  byline print the new one.
+- Every page's footer (papers and posters) adds "Written and fact-checked by AI" and
+  "Corrections: corrections@newspebbles.com" (`corrections_email` in `site.yaml`), set
+  smaller when a long footer would otherwise run off the page.
+- The PDFs' author field is "News Pebbles", not "Editor-in-Chief".
+## Sharing and search
+
+- Shared links now show a picture, a title and a description (Open Graph and Twitter tags),
+  drawn every night with the papers by `ygc/share.py`: one picture for the whole site, one
+  per paper (its latest front page, its ages and "Free to print"), and one per Read & Play
+  paper (its top story with that story's map). Every page also gets its canonical address
+  on newspebbles.com.
+- `sitemap.xml` (with each paper's date) and `robots.txt`, so search engines find each
+  morning's papers.
+- A "page not found" page with the site's header and bottom bar, links back to today's
+  papers and Read & Play, and an anonymous `404/<address>` count to spot broken links.
+- The site's fonts (Bricolage Grotesque, Atkinson Hyperlegible; SIL Open Font License) are
+  kept in `assets/fonts` for the pictures.
 ## Unreleased — 2026-10-11: a site for children and their parents
 
 - Catalog narrowed to readers aged 6 to 15 and up: nine papers. The adult and

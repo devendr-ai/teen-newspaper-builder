@@ -198,3 +198,20 @@ def test_reading_data_reset_requires_confirmation_and_keeps_other_data():
                             input=json.dumps({'controls': site.reading_data_controls(), 'reader': play.JS}),
                             text=True, capture_output=True)
     assert result.returncode == 0, result.stdout + result.stderr
+
+
+def test_terms_publisher_licence_and_contact_addresses(tmp_path, monkeypatch):
+    monkeypatch.setattr(site, "issues_of", lambda ed: [])
+    out = tmp_path / "site"
+    site.build(str(out), keep=1, log=lambda *a: None)
+    cfg = site.site_config()
+    terms = (out / "terms.html").read_text(encoding="utf-8")
+    assert f"made by <b>{cfg['publisher']}</b>" in terms and "https://creativecommons.org/licenses/by-nc/4.0/" in terms
+    assert "no person reviews each paper before it is published" in terms and f"mailto:{cfg['contact']}" in terms
+    for page in ("index.html", "about.html", "privacy.html", "terms.html", "parents.html"):
+        html = (out / page).read_text(encoding="utf-8")
+        assert 'href="terms.html">Terms</a>' in html                                   # linked from every footer
+        assert f"© " in html and cfg["publisher"] in html and f"mailto:{cfg['info_email']}" in html
+    assert "Who makes News Pebbles" in (out / "about.html").read_text(encoding="utf-8")
+    assert f"mailto:{cfg['privacy_email']}" in (out / "privacy.html").read_text(encoding="utf-8")
+    assert "terms.html" in (out / "sitemap.xml").read_text(encoding="utf-8")
