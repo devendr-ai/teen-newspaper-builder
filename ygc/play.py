@@ -1191,6 +1191,13 @@ JS = r"""
   const $ = (s, el) => (el || document).querySelector(s), $$ = (s, el) => [...(el || document).querySelectorAll(s)];
   const store = { get(k, d) { try { const v = localStorage.getItem("rp-" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
                   set(k, v) { try { localStorage.setItem("rp-" + k, JSON.stringify(v)); } catch (e) {} } };
+  window.addEventListener("storage", e => {
+    if (e.key === "np-reading-reset" && e.newValue) {
+      store.set = () => {}; // Old reader callbacks must not restore data while this page reloads.
+      document.dispatchEvent(new Event("rp-reading-reset"));
+      location.reload();
+    }
+  });
   const SELF = document.currentScript ? document.currentScript.src : "";
   const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const root = document.documentElement;
@@ -1813,7 +1820,7 @@ JS = r"""
 
   // ---------------------------------------------------------------- read aloud, sentence by sentence
   const speech = "speechSynthesis" in window ? window.speechSynthesis : null;
-  let reading = null, narrationAudio = null, speechTicket = 0, listening = null;
+  let reading = null, narrationAudio = null, speechTicket = 0, listening = null, resetReadingData = false;
   const player = $("#listen-player"), resumePrompt = $("#listen-resume");
   const narrationNode = $("#narration");
   let narration = {};
@@ -1825,7 +1832,7 @@ JS = r"""
   const editionKey = $(".issue")?.dataset.key || location.pathname;
   const clock = (n) => `${Math.floor(n / 60)}:${String(Math.floor(n % 60)).padStart(2, "0")}`;
   function savePosition(done = false) {
-    if (!listening) return;
+    if (!listening || resetReadingData) return;
     const saved = positions();
     if (done) delete saved[editionKey];
     else saved[editionKey] = { card: reading.id, variant: listening.variant, src: listening.track?.src || "",
@@ -1841,6 +1848,7 @@ JS = r"""
   function refreshResume() { if (resumePrompt) resumePrompt.hidden = !!reading || !savedCard(); }
   document.addEventListener("rp-rate", () => { if (narrationAudio) narrationAudio.playbackRate = store.get("rate", 1); });
   window.addEventListener("pagehide", () => stop());
+  document.addEventListener("rp-reading-reset", () => { resetReadingData = true; stop(); });
   document.addEventListener("visibilitychange", () => { if (document.hidden) savePosition(); });
   const voice = () => {
     const vs = speech.getVoices().filter((v) => /^en/i.test(v.lang));

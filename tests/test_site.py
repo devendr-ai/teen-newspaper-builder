@@ -183,3 +183,18 @@ def test_parent_navigation_has_four_destinations_and_hub_links(tmp_path, monkeyp
     hub = (tmp_path / 'parents.html').read_text(encoding='utf-8')
     for name in ('about.html', 'standards.html', 'privacy.html', 'corrections.html', 'feedback.html', 'builder.html'):
         assert f'href="{name}"' in hub
+
+
+def test_reading_data_reset_requires_confirmation_and_keeps_other_data():
+    import json
+    import shutil
+    import subprocess
+    from pathlib import Path
+    from ygc import play
+    node = shutil.which('node')
+    if not node:
+        pytest.skip('Node.js needed for reset behavior checks')
+    result = subprocess.run([node, str(Path(__file__).with_name('reading-data-reset.cjs'))],
+                            input=json.dumps({'controls': site.reading_data_controls(), 'reader': play.JS}),
+                            text=True, capture_output=True)
+    assert result.returncode == 0, result.stdout + result.stderr

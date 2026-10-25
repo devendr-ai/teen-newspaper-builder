@@ -239,6 +239,7 @@ details summary{cursor:pointer;color:var(--cyan)}details ul{margin:6px 0 0;paddi
   .tabbar a[aria-current="page"]{color:var(--ink);background:var(--cyan-t)}}
 footer{margin-top:40px;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line);padding-top:14px}
 footer .links{margin:8px 0 0}footer .links a{color:var(--muted);font-weight:700}
+#reading-data button{font:inherit;min-height:44px}
 .doc{max-width:68ch}.doc h3{font-size:1.15rem;margin:22px 0 4px}.doc ul{padding-left:20px}.doc li{margin:4px 0}
 .doc ul.fixes{list-style:none;padding:0}.doc ul.fixes li{border-top:1px solid var(--line);padding:12px 0}
 .meta.fixed{color:#9A3B2E;margin:4px 0 0}
@@ -525,6 +526,33 @@ BUILDER_NAV_CSS = """
 """
 
 
+def reading_data_controls():
+    return '''<section id="reading-data" class="doc" style="margin-top:28px;scroll-margin-top:calc(var(--hh,90px) + 16px)"><h3>Reading data on this device</h3>
+<p>You can reset the age choice, reading and game progress, pebbles, badges, garden, saved listening position,
+reading settings, and any saved name or city in this browser on this device. Your paper designs and visit-counting choice are kept.</p>
+<button type="button" class="btn ghost" id="reading-reset">Reset this device’s reading data</button>
+<div id="reading-reset-confirm" hidden><p><b>Reset all reading data in this browser?</b> This cannot be undone.
+Other open News Pebbles reading pages will reload. Data in other browsers or on other devices is not affected.</p>
+<button type="button" class="btn" id="reading-reset-yes">Reset reading data</button>
+<button type="button" class="btn ghost" id="reading-reset-cancel">Cancel</button></div>
+<p id="reading-reset-status" role="status"></p></section>
+<script>(function(){
+const start=document.getElementById('reading-reset'),box=document.getElementById('reading-reset-confirm'),
+yes=document.getElementById('reading-reset-yes'),cancel=document.getElementById('reading-reset-cancel'),status=document.getElementById('reading-reset-status');
+start.addEventListener('click',()=>{box.hidden=false;start.hidden=true;status.textContent='';cancel.focus();});
+cancel.addEventListener('click',()=>{box.hidden=true;start.hidden=false;start.focus();});
+yes.addEventListener('click',()=>{
+ try{
+  const keys=[];for(let i=0;i<localStorage.length;i++){const key=localStorage.key(i);if(key&&key.startsWith('rp-'))keys.push(key);}
+  keys.forEach(key=>localStorage.removeItem(key));
+  localStorage.setItem('np-reading-reset',String(Date.now()));
+  status.textContent='Reading data reset in this browser. Your paper designs and visit-counting choice have been kept.';
+ }catch(e){status.textContent='Some reading data could not be cleared. Try again, or clear News Pebbles data in your browser settings.';}
+ box.hidden=true;start.hidden=false;start.focus();
+});
+})();</script>'''
+
+
 def parents_body(cfg):
     feedback = '<a class="parent-link" href="feedback.html"><b>Corrections &amp; feedback</b><span>Report a mistake or share an idea.</span></a>' if cfg.get("feedback_url") else ''
     return f'''<section class="parents"><h2>For parents</h2>
@@ -537,7 +565,7 @@ def parents_body(cfg):
 <a class="parent-link" href="standards.html"><b>Editorial standards</b><span>Our approach to sources, accuracy and age-appropriate news.</span></a>
 <a class="parent-link" href="corrections.html"><b>Corrections</b><span>See changes made to published papers.</span></a>
 {feedback}<a class="parent-link" href="privacy.html"><b>Privacy</b><span>What is saved on this device and how the site works.</span></a>
-</div></section>'''
+</div>{reading_data_controls()}</section>'''
 
 
 def feedback_body(url):
@@ -667,15 +695,21 @@ b.addEventListener("click",function(){try{if(get())localStorage.removeItem("np-n
 <p><b>The short version:</b> no accounts, no ads, no cookies, and nothing about your child is collected. Children never need to give
 a name, an email or their age.</p>
 <h3>What stays on your device</h3>
-<p>Read &amp; Play remembers a few things in this browser's storage on this device, so it can show them next time: text size and night
-mode, the reading streak, pebbles, badges and garden, game stars, recent answers (for the progress page), the date of the first paper
-read, and a name only if one is typed on a certificate or report. None of it is sent to us or anyone else. Clearing this site's data
-in your browser's settings deletes it.</p>
+<p>News Pebbles remembers your chosen age band in this browser on this device. Read &amp; Play also remembers text size, night mode,
+narration speed, the last story and listening position for up to 80 recent editions, the reading streak, pebbles, badges and garden,
+game stars, recent answers (for the progress page), the date of the first paper read, your selected city, and a name only if one is
+typed on a certificate or report. These choices and progress stay on this device; we do not send them to ourselves or anyone else.</p>
+<p>To remove this reading data, use <a href="parents.html#reading-data">Reset this device’s reading data</a> in For parents.
+This keeps your paper designs and visit-counting choice. You can also clear all News Pebbles data in your browser settings.</p>
 {counts}
 <h3>Other services the site uses</h3>
 <ul><li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>
 <li><b>Google Fonts</b> supplies the site's typefaces, so Google sees that a device loaded them.</li>
-<li><b>Read aloud</b> uses the voices your device or browser provides. Some browsers use an online voice service for this.</li>
+<li><b>Read aloud</b> normally plays pre-generated AI recordings made with Kokoro. They are generated during publishing and served
+as audio files from this site, rather than generated from a child's voice or reading activity. Your browser may cache recordings
+for offline playback. If a recording is unavailable, or for short definitions and game prompts, we use a device or browser voice.
+Some browser voices use an online service, so the text being spoken may be sent to that voice provider. Your microphone is not used.
+Saved listening positions stay in this browser on this device.</li>
 {'<li><b>The feedback form</b> is a Google Form. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>' if cfg.get("feedback_url") else ""}</ul>
 <h3>Printed papers</h3>
 <p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>""")
