@@ -21,6 +21,7 @@ process.stdin.on('end', () => {
     $:(selector,el)=>selector==='#badges details'?badges:selector==='svg'?{}:selector==='h2'?{focus:()=>focus.push(el.id)}:null,
     $$:selector=>selector==='.lobby-panel'?panels:selector==='.childnav [data-view]'?nav:selector==='.where.wide'?[fig]:[],
     lobbyPins:()=>snapshots.push('map refreshed'),
+    grownUp:()=>false,fitGarden:()=>{},
     localStorage:{getItem:k=>stored[k],setItem(){throw new Error('Navigation must not overwrite progress');},clear(){throw new Error('Must not clear progress');}}
   };
   const block = source.slice(source.indexOf('  function lobbyNavigation()'), source.indexOf("  // ---------------------------------------------------------------- the lobby: who's reading?"));
@@ -35,6 +36,8 @@ process.stdin.on('end', () => {
   assert.equal(badges.open,true);
   assert(positions.includes('map')&&positions.includes('stories')&&positions.includes('badges'));
   assert(snapshots.length>=3);assert(focus.includes('me'));
+  context.grownUp=()=>true;context.corner=view=>snapshots.push('corner:'+view);
+  for(const hash of ['badges','garden','progress']){location.hash='#'+hash;events.hashchange();visible('me');assert(snapshots.includes('corner:'+hash));}
   assert.equal(JSON.stringify(stored),before);
   console.log('Navigation routes, legacy links, map refresh and saved progress preserved');
 });
