@@ -443,17 +443,21 @@ _VERSION = ""
 ASSETS = ("play.css", "world.js", "play.js")
 
 
-def child_nav(root, here="today"):
+def child_nav(root, here="today", desktop=False):
     tabs = [("home", "index.html", "house", "Home"),
             ("today", "play/index.html#today", "newspaper", "Today"),
             ("explore", "play/index.html#explore", "compass", "Explore"),
             ("me", "play/index.html#me", "sprout", "My Pebbles")]
-    return '<nav class="tabbar childnav noprint" aria-label="Main navigation">' + "".join(
+    classes = "childnav desktopnav noprint" if desktop else "tabbar childnav noprint"
+    return f'<nav class="{classes}" aria-label="Main navigation">' + "".join(
         f'<a href="{root}{href}" data-view="{key}"' + (' aria-current="page"' if key == here else '')
         + f'><span aria-hidden="true">{navigation.icon(icon)}</span>{label}</a>' for key, href, icon, label in tabs) + '</nav>'
 
 
 def shell(cfg, title, body, root="", here="today"):
+    desktop_brand = (f'<a class="desktopbrand" href="{root}play/index.html">{brand.inline("owl")}Read &amp; Play</a>'
+                     if '<header class="bar lb">' not in body else '')
+    body = body.replace('</header>', desktop_brand + child_nav(root, here, desktop=True) + '</header>', 1)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
@@ -1162,6 +1166,24 @@ CSS += r"""
 #listen-resume span{flex-basis:100%}body.listening{padding-bottom:calc(230px + env(safe-area-inset-bottom,0px))}
 body.listening #pop{bottom:calc(220px + env(safe-area-inset-bottom,0px))}
 @media print{#listen-player,#listen-resume,#listen-edition{display:none!important}}
+.desktopbrand,.childnav.desktopnav{display:none}
+@media screen and (min-width:700px){
+ .childnav.tabbar{display:none}
+ .bar{gap:8px 18px;justify-content:flex-start}
+ .bar>.home{display:none}
+ .desktopbrand{display:inline-flex;align-items:center;gap:.25em;order:0;color:var(--coral);font-family:var(--display);font-size:1.45em;font-weight:800;text-decoration:none;white-space:nowrap}
+ .desktopbrand .owl{width:1.45em;height:1.45em}
+ .childnav.desktopnav{--nav-active-bg:#DDEFF0;display:flex;order:1;gap:4px;align-items:center;justify-content:flex-start}
+ :root[data-theme="night"] .desktopnav{--nav-active-bg:#203D40}
+ .desktopnav a{flex:none;display:flex;align-items:center;min-height:44px;padding:6px 10px;font-size:16px;font-weight:700;text-decoration:none;white-space:nowrap;border-radius:9px;color:var(--muted)}
+ .desktopnav a span{display:none}
+ .desktopnav a[aria-current="page"]{color:var(--teal);background:var(--nav-active-bg,#DDEFF0)}
+ .bar>.chips,.bar>.tools,.bar>.lvl{order:2;margin-left:auto}
+ body{padding-bottom:20px}
+ #listen-player,#pop{bottom:12px}
+ body.listening{padding-bottom:140px}
+ body.listening #pop{bottom:112px}
+}
 """
 
 JS = r"""

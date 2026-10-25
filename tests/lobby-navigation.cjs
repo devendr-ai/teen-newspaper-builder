@@ -6,8 +6,8 @@ process.stdin.on('data', chunk => source += chunk);
 process.stdin.on('end', () => {
   const events = {}, snapshots = [], positions = [], focus = [];
   const panels = ['today', 'explore', 'me'].map(id => ({id, hidden:false}));
-  const nav = ['home','today','explore','me'].map(view => ({dataset:{view},attrs:{},
-    setAttribute(k,v){this.attrs[k]=v;},removeAttribute(k){delete this.attrs[k];}}));
+  const nav = ['mobile','desktop'].flatMap(() => ['home','today','explore','me'].map(view => ({dataset:{view},attrs:{},
+    setAttribute(k,v){this.attrs[k]=v;},removeAttribute(k){delete this.attrs[k];}})));
   const badges = {open:false};
   const fig = {};
   const location = {hash:''};
@@ -27,7 +27,7 @@ process.stdin.on('end', () => {
   assert(block.includes('hashchange'));
   vm.runInNewContext(block+'\nlobbyNavigation();',context);
   function visible(view){assert.deepEqual(panels.filter(p=>!p.hidden).map(p=>p.id),[view]);
-    assert.deepEqual(nav.filter(a=>a.attrs['aria-current']==='page').map(a=>a.dataset.view),[view]);}
+    assert.deepEqual(nav.filter(a=>a.attrs['aria-current']==='page').map(a=>a.dataset.view),[view,view]);}
   visible('today');
   for(const [hash,view] of [['#explore','explore'],['#stories','explore'],['#map','explore'],['#me','me'],['#badges','me'],['#today','today'],['#unknown','today']]){
     location.hash=hash;events.hashchange();visible(view);

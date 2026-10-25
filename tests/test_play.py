@@ -481,12 +481,13 @@ def test_child_navigation_resolves_from_articles_and_story_pages(built):
              next((built / "breakfast-table").glob("*.html")), built / "threads" / "index.html"]
     for path in paths:
         markup = path.read_text(encoding="utf-8")
-        nav = re.search(r'<nav class="tabbar childnav noprint"[^>]*>(.*?)</nav>', markup, re.S).group(1)
-        links = re.findall(r'href="([^"]+)" data-view="([^"]+)"', nav)
+        navs = re.findall(r'<nav class="(?:tabbar childnav|childnav desktopnav) noprint"[^>]*>(.*?)</nav>', markup, re.S)
+        assert len(navs) == 2
+        links = re.findall(r'href="([^"]+)" data-view="([^"]+)"', ''.join(navs))
         page_url = 'https://example.test/paper/play/' + path.relative_to(built).as_posix()
         expected = {'home': 'index.html', 'today': 'play/index.html#today',
                     'explore': 'play/index.html#explore', 'me': 'play/index.html#me'}
-        assert len(links) == 4
+        assert len(links) == 8
         for href, key in links:
             assert urljoin(page_url, href) == 'https://example.test/paper/' + expected[key]
     lobby = (built / "index.html").read_text(encoding="utf-8")
