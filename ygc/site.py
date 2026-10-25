@@ -33,7 +33,193 @@ def site_config():
     cfg.setdefault("intro_title", "")
     cfg.setdefault("intro", "")
     cfg.setdefault("steps", [])
+    cfg.setdefault("subscriptions", {"enabled": False, "api_base_url": "", "whatsapp_channel_url": ""})
     return cfg
+
+
+def subscription_endpoint(cfg):
+    """A disabled/unconfigured UI never offers a form which cannot deliver."""
+    settings = cfg.get("subscriptions") or {}
+    if settings.get("enabled") is not True:
+        return ""
+    base = settings.get("api_base_url")
+    if not isinstance(base, str) or not base.strip():
+        return ""
+    from urllib.parse import urlsplit
+    try:
+        url = urlsplit(base.strip())
+        if (url.scheme != "https" or not url.hostname or url.username or url.password
+                or url.query or url.fragment or any(c.isspace() for c in base)
+                or url.hostname.startswith("replace-") or url.hostname.endswith(".example")):
+            return ""
+        url.port  # Validate malformed ports as well.
+    except ValueError:
+        return ""
+    # Accept either a Worker origin or an API base such as /api or /mail/api.
+    return base.strip().rstrip("/") + ("/api" if url.path in ("", "/") else "") + "/subscribe"
+
+
+def whatsapp_channel(cfg):
+    from urllib.parse import urlsplit
+    value = (cfg.get("subscriptions") or {}).get("whatsapp_channel_url") or ""
+    if not isinstance(value, str):
+        return ""
+    try:
+        url = urlsplit(value)
+        if (url.scheme != "https" or url.hostname not in ("whatsapp.com", "www.whatsapp.com") or not url.path.startswith("/channel/")
+                or not url.path.removeprefix("/channel/") or url.username or url.password or url.port
+                or url.query or url.fragment or any(c.isspace() for c in value)):
+            return ""
+    except ValueError:
+        return ""
+    return f'<a href="{E(value)}" target="_blank" rel="noopener noreferrer">Follow our WhatsApp Channel</a>'
+
+
+def subscription_share_url(cfg, ed, date):
+    from urllib.parse import quote
+    if not date:
+        return ""
+    base = cfg.get("base_url", "").rstrip("/")
+    text = (f'{ed["name"]} · {audience(ed)} · {date}\n'
+            f'Read & Play: {base}/play/{ed["id"]}/{date}.html\n'
+            f'Printable PDF: {base}/e/{ed["id"]}/{date}.pdf')
+    return "https://wa.me/?text=" + quote(text, safe="")
+
+
+def subscription_form(cfg, ed=None, *, root="", context="parents", date=None, published=None):
+    endpoint = subscription_endpoint(cfg)
+    if not endpoint:
+        return ""
+    ident = "subscribe-" + context + ("-" + ed["id"] if ed else "")
+    if ed:
+        choice = f'<input type="hidden" name="edition_slug" value="{E(ed["id"])}">'
+        subject = f'<p class="subscription-paper">{E(ed["name"])}</p>'
+        share_url = subscription_share_url(cfg, ed, date)
+    else:
+        options = []
+        for slug in edition.list_editions():
+            paper = edition.load(slug)
+            if (paper.get("site") or {}).get("listed") is False:
+                continue
+            latest = (published or {}).get(slug)
+            url = subscription_share_url(cfg, paper, latest[1] if latest else None)
+            options.append(f'<option value="{E(slug)}" data-share-url="{E(url)}">{E(paper["name"])} · {E(audience(paper))}</option>')
+        choice = (f'<label for="{ident}-edition">Choose your paper</label><select id="{ident}-edition" name="edition_slug" required>'
+                  '<option value="">Choose a newspaper</option>' + "".join(options) + '</select>')
+        subject, share_url = "", ""
+    share = (f'<a data-subscription-share href="{E(share_url)}" target="_blank" rel="noopener noreferrer"'
+             f'{"" if share_url else " hidden"}>Send this issue to WhatsApp</a>')
+    return f'''<section class="subscription-box" aria-labelledby="{ident}-title">
+<h3 id="{ident}-title">Get this paper by email (free)</h3>{subject}
+<p class="subscription-summary">A printable PDF and a Read &amp; Play link, delivered to a grown-up’s inbox.</p>
+<form method="dialog" data-gate-form="subscribe" data-subscribe-endpoint="{E(endpoint)}" aria-describedby="{ident}-privacy">
+<fieldset class="subscription-fields" disabled><legend class="subscription-sr">Email delivery preferences</legend>
+{choice}<fieldset class="subscription-cadence"><legend>Delivery</legend>
+<label><input type="radio" name="cadence" value="every_issue" checked> Every new issue</label>
+<label><input type="radio" name="cadence" value="weekly_weekend"> Weekend digest</label></fieldset>
+<label for="{ident}-email">Grown-up’s email address</label>
+<div class="subscription-email"><input id="{ident}-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" autocapitalize="none" spellcheck="false" placeholder="you@example.com"></div>
+<div hidden aria-hidden="true"><label for="{ident}-website">Leave this field empty</label><input id="{ident}-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
+<div class="subscription-math"><label for="{ident}-answer">For grown-ups: <span data-math-question>loading…</span></label>
+<input id="{ident}-answer" type="text" name="grownup_answer" inputmode="numeric" pattern="[0-9]+" autocomplete="off" required aria-describedby="{ident}-math-help" size="6">
+<small id="{ident}-math-help">A quick check before we send an email. Ask a grown-up to help.</small></div>
+<button type="submit" class="btn">Send confirmation email</button></fieldset>
+<p class="subscription-status" role="status" aria-live="polite" aria-atomic="true"></p><p class="subscription-error" role="alert" aria-atomic="true"></p>
+<p id="{ident}-privacy" class="subscription-privacy">For parents and carers. Confirm by email first. Unsubscribe any time. <a href="{root}privacy.html#email-delivery">Email privacy</a>.</p>
+<noscript><p>Turn on JavaScript to use the grown-up check and subscribe. You can still download every paper.</p></noscript>
+</form><p class="subscription-links">{share}{whatsapp_channel(cfg)}</p></section>'''
+
+
+def autoprint_guide():
+    return '''<details class="autoprint-guide"><summary>Want this paper to print itself automatically?</summary>
+<p>Auto-Print Magic works with a supported printer’s email-to-print service. Set it up once, then test with one issue.</p>
+<ol><li><b>Find your printer’s email address.</b> Enable HP ePrint or Epson Email Print on a compatible printer. Keep its address private and add your forwarding email address and our issue sender to its approved senders list.</li>
+<li><b>Create a rule for our issue emails.</b> Copy the sender address from your first News Pebbles paper email. In Gmail, add and verify your printer as a forwarding address, then create a filter for that sender with an attachment and choose “Forward it to”. In Outlook, use Settings → Mail → Rules: match that sender and an attachment, then “Forward to” your printer’s address. Keep the PDF attached; don’t forward the whole message as an .eml attachment.</li>
+<li><b>Test, then leave it running.</b> Forward one paper and check the printout. Where supported, choose attachments only so the email body doesn’t print too. Turn the rule off any time to stop automatic printing.</li></ol>
+<p class="subscription-privacy">Gmail requires forwarding-address verification; some printer addresses cannot complete it. Printer support and account forwarding rules vary. If setup isn’t supported, download and print the attached PDF as usual.</p>
+<p class="subscription-privacy">Setup help: <a href="https://support.google.com/mail/answer/10957" target="_blank" rel="noopener noreferrer">Gmail</a> · <a href="https://support.microsoft.com/en-us/outlook/mail/use-rules-to-automatically-forward-messages" target="_blank" rel="noopener noreferrer">Outlook</a> · <a href="https://support.hp.com/sg-en/document/ish_2060244-1929404-16" target="_blank" rel="noopener noreferrer">HP ePrint</a> · <a href="https://www.epsonconnect.com/guide/en/html/uses_1.htm" target="_blank" rel="noopener noreferrer">Epson Email Print</a></p></details>'''
+
+
+def subscription_banner():
+    return f'''<section class="subscription-banner" data-subscription-banner role="region" aria-label="Email delivery confirmation" hidden>
+<button type="button" class="subscription-dismiss" aria-label="Dismiss email delivery confirmation">Dismiss ×</button>
+<div data-subscription-confirmed hidden><h2 tabindex="-1">You’re subscribed. Welcome to News Pebbles!</h2><p>Your latest paper is on its way. Check your inbox for the printable PDF and Read &amp; Play link.</p>{autoprint_guide()}</div>
+<div data-subscription-unsubscribed hidden><h2 tabindex="-1">You’re unsubscribed</h2><p>You won’t receive more emails for this paper. You can still print and read every issue here.</p></div></section>'''
+
+
+SUBSCRIPTION_STYLE = """
+.subscription-box,.subscription-banner{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:18px;margin:18px 0}
+.subscription-box h3{font-size:1.1rem;margin:0 0 6px}.subscription-box p{margin:6px 0;font-size:.9rem}
+.subscription-paper{font-weight:700}.subscription-summary{color:var(--muted)}
+.subscription-fields,.subscription-cadence{border:0;padding:0;margin:0;min-width:0}
+.subscription-fields>label,.subscription-cadence legend,.subscription-math>label{display:block;font-weight:700;margin:12px 0 6px;font-size:.9rem}
+.subscription-fields input:not([type=radio]),.subscription-fields select{box-sizing:border-box;font:inherit;font-size:16px;border:1.5px solid var(--line);border-radius:8px;padding:10px;min-height:44px;max-width:100%;background:var(--surface);color:var(--ink)}
+.subscription-email input,.subscription-fields select{width:100%}.subscription-cadence label{display:inline-flex;align-items:center;gap:6px;min-height:44px;margin-right:14px;font-size:.9rem;cursor:pointer}
+.subscription-cadence input{width:18px;height:18px;accent-color:var(--cyan)}
+.subscription-math{margin-bottom:14px}.subscription-math input{width:100px}.subscription-math small{display:block;color:var(--muted);font-size:.8rem;margin-top:5px}
+.subscription-fields button{font:inherit;min-height:44px;cursor:pointer}.subscription-fields button:disabled{cursor:wait;opacity:.7}
+.subscription-box .subscription-privacy,.autoprint-guide .subscription-privacy{font-size:.8rem;color:var(--muted)}
+.subscription-status{color:var(--cyan);font-weight:700}.subscription-error{color:#9a3128;font-weight:700}
+.subscription-links{display:flex;flex-wrap:wrap;gap:8px 18px}.subscription-links a{font-size:.82rem}
+.subscription-box :focus-visible,.subscription-banner :focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+.subscription-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.subscription-banner{background:var(--cyan-t)}.subscription-banner h2{font-size:1.2rem;margin:0 0 8px}.subscription-dismiss{display:block;margin:0 0 10px auto;border:0;background:transparent;font:inherit;font-size:.85rem;min-height:44px;cursor:pointer;color:var(--ink)}
+.autoprint-guide{margin:18px 0;padding:14px;border:1px solid var(--line);border-radius:10px;font-size:.9rem}.autoprint-guide summary{font-weight:700;cursor:pointer}.autoprint-guide li{margin:10px 0}.autoprint-guide ol{padding-left:22px}
+@media(max-width:480px){.subscription-box{padding:14px}.subscription-cadence label{display:flex;margin:0}.subscription-fields button{width:100%}}
+@media print{.subscription-box,.subscription-banner,.autoprint-guide{display:none!important}}
+"""
+
+
+SUBSCRIPTION_SCRIPT = r'''<script>
+(function(){
+'use strict';
+// No subscription requests on load/change. Each submit owns its own math check.
+document.querySelectorAll('form[data-gate-form="subscribe"]').forEach(form=>{
+ const fields=form.querySelector('.subscription-fields'),button=form.querySelector('button[type="submit"]'),
+ status=form.querySelector('.subscription-status'),error=form.querySelector('.subscription-error'),
+ answer=form.elements.namedItem('grownup_answer'),question=form.querySelector('[data-math-question]');
+ let expected=0,busy=false;
+ function challenge(){const a=12+Math.floor(Math.random()*8),b=3+Math.floor(Math.random()*6);expected=a*b;question.textContent=a+' × '+b+' = ?';answer.value='';answer.removeAttribute('aria-invalid');}
+ form.addEventListener('submit',async event=>{
+  if(event.defaultPrevented)return;event.preventDefault();if(busy)return;
+  status.textContent='';error.textContent='';
+  if(!form.reportValidity())return;
+  if(!/^\d+$/.test(answer.value.trim())||Number(answer.value)!==expected){
+   error.textContent='Please ask a grown-up to check the answer before subscribing.';answer.setAttribute('aria-invalid','true');answer.focus();return;
+  }
+  // Future kids-mode integration hooks the form via data-gate-form="subscribe".
+  const payload={email:form.elements.namedItem('email').value.trim(),edition_slug:form.elements.namedItem('edition_slug').value,cadence:form.elements.namedItem('cadence').value,website:form.elements.namedItem('website').value};
+  busy=true;button.disabled=true;form.setAttribute('aria-busy','true');button.textContent='Sending…';status.textContent='Sending your confirmation email…';
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
+  try{
+   const response=await fetch(form.dataset.subscribeEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),credentials:'omit',cache:'no-store',redirect:'error',referrerPolicy:'no-referrer',signal:controller.signal});
+   if(!response.ok){error.textContent=response.status===429?'Too many requests. Please wait a while before trying again.':response.status===503?'Email delivery is temporarily unavailable. Please try again later.':'We couldn’t request your subscription. Check your email and try again.';return;}
+   const result=await response.json();if(result.ok!==true)throw Error('invalid_response');
+   status.textContent="Check your inbox to confirm — we'll send the latest issue right away!";form.elements.namedItem('email').value='';form.elements.namedItem('website').value='';
+  }catch(e){error.textContent='We couldn’t reach email delivery. Check your connection and try again.';}
+  finally{clearTimeout(timer);if(error.textContent)status.textContent='';challenge();busy=false;button.disabled=false;button.textContent='Send confirmation email';form.removeAttribute('aria-busy');}
+ });
+ challenge();fields.disabled=false; // Fail closed without JS or if setup cannot finish.
+ const editions=form.elements.namedItem('edition_slug'),share=form.closest('.subscription-box').querySelector('[data-subscription-share]');
+ if(editions.tagName==='SELECT'){
+  const update=()=>{const url=editions.selectedOptions[0]?.dataset.shareUrl||'';share.hidden=!url;if(url)share.href=url;else share.removeAttribute('href');};
+  editions.addEventListener('change',update);update();
+ }
+});
+const banner=document.querySelector('[data-subscription-banner]');
+if(banner){
+ const url=new URL(location.href),confirmed=url.searchParams.get('subscribed')==='true',removed=url.searchParams.get('unsubscribed')==='true';
+ if(confirmed||removed){
+  banner.hidden=false;banner.querySelector('[data-subscription-confirmed]').hidden=!confirmed||removed;
+  banner.querySelector('[data-subscription-unsubscribed]').hidden=!removed;
+  banner.querySelector('.subscription-dismiss').addEventListener('click',()=>{
+   banner.hidden=true;url.searchParams.delete('subscribed');url.searchParams.delete('unsubscribed');
+   try{history.replaceState(null,'',url.href);}catch(e){}
+  });
+ }
+}
+})();
+</script>'''
 
 
 def audience(ed):
@@ -107,7 +293,7 @@ def issue_landing(cfg, ed, date, issue, preview):
                 head_extra=share.tags(cfg, f'e/{eid}/{date}.html', title, desc, 'share/site.png', cfg['title']))
 
 
-def recommendations(published, has_png):
+def recommendations(published, has_png, cfg=None):
     """Only recommend an edition whose PDF was successfully published in this build."""
     sections = []
     for band, (eid, minutes, reason) in RECOMMENDED.items():
@@ -123,7 +309,7 @@ def recommendations(published, has_png):
 <p class="recommended-facts">{n} page{'s' if n != 1 else ''} · About {minutes} minutes to read</p>
 <p class="recommended-reason">{E(reason)}</p>{paper_actions(f'e/{eid}/{date}.pdf', f'e/{eid}/{date}.html', ed['name'] + ' · ' + band + ' · ' + date)}
 <p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>
-<a class="recommended-archive" href="e/{eid}/index.html">See past issues</a></div></article>''')
+<a class="recommended-archive" href="e/{eid}/index.html">See past issues</a>{subscription_form(cfg or {}, ed, context="recommended", date=date)}</div></article>''')
     return ('<p id="age-memory" class="age-memory" role="status" hidden></p>'
             '<section id="recommendation" aria-label="Recommended paper" hidden>' + "".join(sections) + '</section>'
             '<div class="catalogue-heading"><h2 id="catalogue-title">Browse the newspapers</h2>'
@@ -314,7 +500,7 @@ CSS += """
 """
 
 
-CSS += navigation.STYLE
+CSS += navigation.STYLE + SUBSCRIPTION_STYLE
 
 
 def feedback_nav(cfg, root=""):
@@ -371,7 +557,7 @@ const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"p
 if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
 <p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
-{tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}</body></html>"""
+{tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}{SUBSCRIPTION_SCRIPT if 'data-gate-form=' in body or 'data-subscription-banner' in body else ''}</body></html>"""
 
 
 def credit(cfg):
@@ -498,6 +684,7 @@ def build(out, keep=None, log=print):
         body = (f'<section class="lede"><div>{img}</div><div><h2 style="font-size:2rem">{E(ed["name"])}</h2>'
                 f'<p>{E(blurb)}</p><p class="meta">{E(meta)}<br>Covers: {E(desks)}</p><p>{top}</p>'
                 f'<p class="meta"><a href="feed.xml">RSS feed</a> for new issues.</p></div></section>'
+                + subscription_form(cfg, ed, root='../../', context='archive', date=latest[0] if latest else None)
                 + (f'<h2 style="font-size:1.3rem;margin-bottom:6px">Issues</h2><table><tr><th>Date</th><th>Issue</th><th>Top story</th><th></th></tr>{"".join(rows)}</table>' if rows else ""))
         open(os.path.join(edir, "index.html"), "w", encoding="utf-8").write(page(cfg, ed["name"], body, root="../../",
              head_extra=f'<link rel="alternate" type="application/rss+xml" href="feed.xml" title="{E(ed["name"])}">'))
@@ -576,11 +763,11 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         how = f'<details class="how"><summary>How it works</summary><div class="box">{heading}{text}{steps}</div></details>'
     intro = (f'<section class="intro"><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
-    body = intro + filters + recommendations(published, has_png) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
+    body = subscription_banner() + intro + filters + recommendations(published, has_png, cfg) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
     open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
     trust_pages(cfg, out, names, fixes)
     open(os.path.join(out, "parents.html"), "w", encoding="utf-8").write(
-        page(cfg, f"For parents · {cfg['title']}", parents_body(cfg), here="parents"))
+        page(cfg, f"For parents · {cfg['title']}", parents_body(cfg, published), here="parents"))
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
@@ -642,11 +829,12 @@ yes.addEventListener('click',()=>{
 })();</script>'''
 
 
-def parents_body(cfg):
+def parents_body(cfg, published=None):
     feedback = '<a class="parent-link" href="feedback.html"><b>Corrections &amp; feedback</b><span>Report a mistake or share an idea.</span></a>' if cfg.get("feedback_url") else ''
     return f'''<section class="parents"><h2>For parents</h2>
 <p>Help your child understand the world, on paper and together.</p>
 <p><a class="btn" href="index.html">{navigation.icon("printer")} Choose and print a paper</a></p>
+{subscription_form(cfg, published=published)}{autoprint_guide() if subscription_endpoint(cfg) else ""}
 <div class="parent-links">
 <a class="parent-link" href="builder.html"><b>Design your own paper</b><span>Make a printable newspaper for your family.</span></a>
 <a class="parent-link" href="play/index.html#today"><b>Reading settings</b><span>Choose an age in Read &amp; Play. Text size, night mode and narration speed are available inside each paper and stay on this device.</span></a>
@@ -809,6 +997,7 @@ typed on a certificate or report. These choices and progress stay on this device
 <p>To remove this reading data, use <a href="parents.html#reading-data">Reset this device’s reading data</a> in For parents.
 This keeps your paper designs and visit-counting choice. You can also clear all News Pebbles data in your browser settings.</p>
 {counts}
+{('<h3 id="email-delivery">Optional email delivery for grown-ups</h3><p>Only a parent or carer needs to give an email address. If you subscribe, we store that address, your chosen newspaper and delivery frequency, confirmation/unsubscribe tokens and delivery records in Cloudflare D1. Resend processes the address and sends confirmation and paper emails. We do not send reading progress, age selections saved on your device, game answers or garden data with a subscription. A hashed email/network-address counter limits repeated requests.</p><p>Confirm by email before delivery begins. Every message has an unsubscribe link, which stops future emails for that paper. Delivery history is kept to prevent duplicate sends. For deletion of your subscription information, contact us using the privacy address below. Email links shared through WhatsApp contain the paper’s public links, not your email address. Choosing WhatsApp opens that service; it is optional.</p>') if subscription_endpoint(cfg) else ''}
 <h3>Other services the site uses</h3>
 <ul><li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>
 <li><b>Google Fonts</b> supplies the site's typefaces, so Google sees that a device loaded them.</li>
