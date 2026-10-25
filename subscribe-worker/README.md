@@ -12,7 +12,17 @@ The attached PDF is downloaded from the dated URL and compared byte-for-byte by 
 
 ## Set up (one time)
 
-Requirements: Node 24+, Python 3.11+, Cloudflare Workers/D1 account, Resend account and a verified sending domain. Use a dedicated sending subdomain such as `mail.newspebbles.com` so its email DNS records can be configured without changing the website's GitHub Pages records. The sender in the checked-in configuration is a proposed address, not an already verified sender. Disable open/click tracking in Resend if maintaining tracking-free delivery is desired. Provider quotas still apply; this project does not promise unlimited free sending.
+### News Pebbles production configuration
+
+`wrangler.jsonc` now points to the production `newspebbles-subscriptions` D1 database and `https://newspebbles-subscribe.devendr.workers.dev`. The sending domain is `mail.newspebbles.com`, verified in Resend through its DKIM, SPF and return-path MX records. Secrets live only in Cloudflare; the repository contains no secret values. Do not recreate the production database when redeploying this installation.
+
+Production setup was tested with one owner-authorized confirmation and one welcome PDF. Repeating the pipeline dispatch sent no duplicate. Asset fetches use Workers-compatible `redirect: "manual"`; non-2xx responses are rejected before parsing or attaching content. Node's `redirect: "error"` is unsupported in the Workers runtime.
+
+Delivery remains disabled, cron remains empty, and the public site's `subscriptions.enabled` remains false. Activating delivery and connecting a publication hook are separate launch steps. Verify the recipient's raw message DKIM signature covers both unsubscribe headers before claiming full RFC 8058 delivery compliance; the Resend API payload alone does not prove that.
+
+### Installing another environment
+
+Requirements: Node 24+, Python 3.11+, Cloudflare Workers/D1 account, Resend account and a verified sending domain. Use a dedicated sending subdomain such as `mail.newspebbles.com` so its email DNS records can be configured without changing the website's GitHub Pages records. Replace the sender with a verified address for the new environment. Disable open/click tracking in Resend if maintaining tracking-free delivery is desired. Provider quotas still apply; this project does not promise unlimited free sending.
 
 From this folder:
 
@@ -25,7 +35,7 @@ npx wrangler login
 npx wrangler d1 create newspebbles-subscriptions
 ```
 
-Copy the returned database ID into `wrangler.jsonc` (replace the all-zero placeholder). Then:
+Copy the returned account and database IDs into `wrangler.jsonc` for that environment. Then:
 
 ```sh
 npm run db:remote
@@ -41,7 +51,7 @@ npm run deploy
 
 After configuration is reviewed, set `DELIVERY_ENABLED` to `true`, deploy, and use an address you control for the first explicit subscription/confirmation test. Once that succeeds, optionally enable `"crons": ["*/5 * * * *"]` and redeploy. The cron invokes the same dispatcher and drains/retries the outbox. It is UTC; **weekly eligibility is independently evaluated in `WEEKEND_TIMEZONE`**, default `America/Los_Angeles`, from Saturday 08:00 through Sunday 23:59, with daylight-saving support. One weekend delivery per subscriber; no resend when the issue date has not changed. Everyone receives the current latest issue immediately after verification, including a weekly subscriber joining on a weekday. A weekend welcome counts as that weekend's delivery.
 
-The checked-in cron is empty and delivery is disabled. No production account, DNS, database or email has been changed by adding these files. Account setup and an owner-controlled delivery test are still required before activation.
+The checked-in cron is empty and delivery is disabled. For a new environment, account setup and an owner-controlled delivery test are required before activation.
 
 ## API
 
