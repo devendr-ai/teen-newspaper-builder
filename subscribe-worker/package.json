@@ -1,0 +1,22 @@
+{
+  "name": "newspebbles-subscribe-worker",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "wrangler deploy --dry-run --outdir .wrangler/build",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 execute newspebbles-subscriptions --local --file schema.sql",
+    "db:remote": "wrangler d1 execute newspebbles-subscriptions --remote --file schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  },
+  "overrides": {
+    "undici": "7.30.1"
+  }
+}

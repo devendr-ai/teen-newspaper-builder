@@ -1,0 +1,38 @@
+{
+  "breakfast-table": {
+    "name": "The Breakfast Table",
+    "age": "Ages 9–11"
+  },
+  "current-affairs-digest": {
+    "name": "The Current Affairs Digest",
+    "age": "Ages 15+"
+  },
+  "europe-explained": {
+    "name": "Europe Explained",
+    "age": "Ages 12–14"
+  },
+  "global-citizen-plus": {
+    "name": "The Global Citizen Plus",
+    "age": "Ages 12–14"
+  },
+  "junior-daily": {
+    "name": "The Junior Daily",
+    "age": "Ages 9–11"
+  },
+  "junior-explorer": {
+    "name": "The Junior Explorer",
+    "age": "Ages 9–11"
+  },
+  "lab-notebook": {
+    "name": "The Lab Notebook",
+    "age": "Ages 12–14"
+  },
+  "little-explorers": {
+    "name": "The Little Explorer",
+    "age": "Ages 6–8"
+  },
+  "young-global-citizen": {
+    "name": "The Young Global Citizen Daily",
+    "age": "Ages 12–14"
+  }
+}
