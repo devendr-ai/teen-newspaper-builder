@@ -20,7 +20,7 @@ Production setup was tested with one owner-authorized confirmation and one welco
 
 Asset fetches use Workers-compatible `redirect: "manual"`; non-2xx responses are rejected before parsing or attaching content. Node's `redirect: "error"` is unsupported in the Workers runtime.
 
-Delivery remains disabled and cron remains empty. The frontend signup flag and Worker URL are configured separately in `site.yaml`; enabling that flag does not activate backend delivery. Activating delivery and connecting a publication hook are separate launch steps. Repeat the received-message authentication check when changing email providers or sender configuration; the Resend API payload alone does not prove DKIM header coverage.
+Production delivery is enabled, with a five-minute cron polling the published issue feeds and recovering pending deliveries. The frontend signup flag and Worker URL are configured separately in `site.yaml`. Every-issue subscribers receive newly published issue dates; weekend subscribers are eligible Saturday from 08:00 through Sunday in `America/Los_Angeles`, once per weekend and only when an issue is newer than their last delivery. Confirmation still sends the latest issue immediately. No publication workflow secret is required for cron dispatch. Repeat the received-message authentication check when changing email providers or sender configuration; the Resend API payload alone does not prove DKIM header coverage.
 
 ### Installing another environment
 
@@ -53,7 +53,7 @@ npm run deploy
 
 After configuration is reviewed, set `DELIVERY_ENABLED` to `true`, deploy, and use an address you control for the first explicit subscription/confirmation test. Once that succeeds, optionally enable `"crons": ["*/5 * * * *"]` and redeploy. The cron invokes the same dispatcher and drains/retries the outbox. It is UTC; **weekly eligibility is independently evaluated in `WEEKEND_TIMEZONE`**, default `America/Los_Angeles`, from Saturday 08:00 through Sunday 23:59, with daylight-saving support. One weekend delivery per subscriber; no resend when the issue date has not changed. Everyone receives the current latest issue immediately after verification, including a weekly subscriber joining on a weekday. A weekend welcome counts as that weekend's delivery.
 
-The checked-in cron is empty and delivery is disabled. For a new environment, account setup and an owner-controlled delivery test are required before activation.
+For a new environment, set `DELIVERY_ENABLED` to false and clear cron before deployment. Account setup and an owner-controlled delivery test are required before activating that environment.
 
 ## API
 

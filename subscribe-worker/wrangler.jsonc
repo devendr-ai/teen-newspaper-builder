@@ -14,10 +14,10 @@
   "vars": {
     "PUBLIC_BASE_URL": "https://newspebbles-subscribe.devendr.workers.dev",
     "RESEND_FROM": "News Pebbles <papers@mail.newspebbles.com>",
-    "DELIVERY_ENABLED": "false",
+    "DELIVERY_ENABLED": "true",
     "WEEKEND_TIMEZONE": "America/Los_Angeles",
     "DAILY_EMAIL_LIMIT": "90",
   },
-  // Enable only after domain verification, secrets and a test delivery:
-  "triggers": { "crons": [] },
+  // Poll published issues and recover pending deliveries every five minutes.
+  "triggers": { "crons": ["*/5 * * * *"] },
 }
