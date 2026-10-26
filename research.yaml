@@ -1,0 +1,6 @@
+# Publishing only: no browser requests, UI changes or extra services.
+# Both the Claude Code Routine and manual API pipeline use these limits.
+enrichment:
+  enabled: true
+  max_stories: 3           # hard ceiling: three unique stories across all due editions
+  max_content_tokens: 4000 # per fetched article; hard ceiling: 4000

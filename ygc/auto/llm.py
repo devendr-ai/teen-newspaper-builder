@@ -89,13 +89,13 @@ class Client:
                     time.sleep(delay); delay = min(delay * 2, 120); continue
                 raise RuntimeError(f"Claude API unreachable: {e}") from None
 
-    def create(self, system, messages, tools=None, max_tokens=16000, model=None):
+    def create(self, system, messages, tools=None, max_tokens=16000, model=None, max_continuations=8):
         """One logical turn. Follows pause_turn continuations and returns
         (all_content_blocks, final_text, stop_reason)."""
         self.usage.guard()
         msgs = list(messages)
         blocks = []
-        for _ in range(8):
+        for _ in range(max_continuations):
             payload = {"model": model or self.model, "max_tokens": max_tokens, "system": system,
                        "messages": msgs}
             if tools:
@@ -109,7 +109,7 @@ class Client:
                 continue
             text = "".join(b.get("text", "") for b in content if b.get("type") == "text")
             return blocks, text, resp.get("stop_reason")
-        raise RuntimeError("search turn did not finish after 8 continuations")
+        raise RuntimeError(f"tool turn did not finish after {max_continuations} continuation(s)")
 
 
 def extract_json(text):

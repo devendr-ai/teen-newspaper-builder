@@ -47,6 +47,44 @@ only when started by hand from the Actions tab. It needs the API key below;
 to make it the daily publisher again, put the `schedule:` lines back at the top
 of `.github/workflows/daily.yml` and pause the Routine.
 
+## Automatic source enrichment
+
+Both publishers read `research.yaml`. After desk research, at most three high-importance,
+age-suitable shortlisted stories get source enrichment: science/technology mechanisms
+and complex world, policy or economic context. Scores, routine results and announcements
+are skipped. The research desk supplies `enrichment_kind` and identifies primary sources;
+the shared selector also enforces dates, importance, the cap and duplicate handling.
+
+Each selected story may open one in-window primary article, plus one already-listed
+primary fallback if opening fails. Each fetch is capped at 4000 content tokens. The
+API uses Anthropic's basic `web_fetch_20250910` tool with direct REST through the existing
+client, no additional SDK or extraction service. Raw fetched documents are used for
+checking, not committed or sent to each edition's writer. At most three paraphrased
+details and short exact evidence passages enter the shared pool. Each added detail must
+pass a separate source check before the API admits it; the Routine performs the same
+explicit separate checking pass. Mechanical evidence matching is not a proof of entailment.
+
+Writers keep their existing age, page and word limits. Source errors, empty extraction,
+malformed responses and unsupported additions leave the original research available.
+The API also reserves its estimated writing budget before starting optional enrichment;
+this is a spending estimate, not a guaranteed dollar or wall-clock bound. Only request
+counts and content size are capped. Existing overall budget limits still apply.
+
+The pool's story metadata and `data/runs/<date>.json` record statuses, accepted details
+and successfully opened URLs. Set `enrichment.enabled: false` to disable the stage in
+both workflows without changing schedules. Running the following is read-only, makes
+no network requests and shows which stories qualify:
+
+```bash
+python -m ygc.auto.enrichment data/pools/YYYY-MM-DD.json --date YYYY-MM-DD
+```
+
+Older pools without classification/primary-source fields remain usable and are not
+automatically fetched. No historical papers, PDFs, website UI, emails or schedules are
+changed by this feature. The initial editorial comparison was manual; mocked integration
+checks do not substitute for a live, same-model unpublished A/B trial. Inspect the first
+scheduled runs' enrichment logs and print fit before expanding beyond the three-story cap.
+
 ## One-time setup (about 20 minutes)
 
 ### 1. Put the repository on GitHub
