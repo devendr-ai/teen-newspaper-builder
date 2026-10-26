@@ -10,7 +10,7 @@
       "deck": "The group also says it attacked Riyadh's airport again, a day after two terminals reopened.",
       "body": [
         "The East-West pipeline is about 1,200 kilometres long and carries Saudi crude oil across the country. On Monday the Houthis, an armed group in Yemen, said they had attacked its pumping stations and the airport in Riyadh, the capital. Saudi Arabia did not confirm the attacks.",
-        "The pipeline matters because the Strait of Hormuz, a narrow sea lane that ships normally use to leave the Gulf, has been largely shut by the war. That makes the pipeline an important way for oil to leave. Saudi forces say they answered by destroying missile launchers in Sanaa, Yemen's capital.",
+        "The pipeline matters because the Strait of Hormuz, a narrow sea lane that ships normally use to leave the Gulf, has been largely shut by the war. That makes the pipeline an important way for oil to leave.",
         "What does this mean at home? In the United States, the average price of a gallon of petrol was $4.28 on Sunday, according to the motoring group AAA. Oil prices eased on Monday after rising close to a six-month high last week."
       ],
       "map": {
@@ -90,7 +90,7 @@
       "deck": "Most coverage expects it to leave its rate unchanged on Wednesday.",
       "body": [
         "The Federal Reserve is the United States' central bank. It sets a key interest rate, which is the price of borrowing money. When that rate moves, the cost of loans for homes, cars and credit cards can move with it. The Fed meets on 27 and 28 October.",
-        "In September it raised its rate by a quarter of a percentage point, to a range of 3.75% to 4.00%. On 20 October, traders put the chance of no change at about 83%, and of another rise at about 17%. The decision comes at 2pm Eastern Time on Wednesday.",
+        "In September it raised its rate by a quarter of a percentage point, to a range of 3.75% to 4.00%. On 20 October, the CME FedWatch tool put the chance of no change at about 83%, and of another rise at about 17%. The decision comes at 2pm Eastern Time on Wednesday.",
         "The Fed's chair, Kevin Warsh, has not said what the Fed will do."
       ],
       "why": "Interest rates decide how much extra a family pays back on a loan, so the Fed's choice reaches many kitchen tables.",
@@ -100,9 +100,9 @@
       ],
       "sources": [
         {
-          "outlet": "New Straits Times",
-          "title": "Fed policymakers lean against October rate hike",
-          "url": "https://www.nst.com.my/amp/business/economy/2026/10/1545927/fed-policymakers-lean-against-october-rate-hike"
+          "outlet": "Nora Real Estate",
+          "title": "Interest rate predictions October 2026",
+          "url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
         },
         {
           "outlet": "CoinGape",
@@ -219,7 +219,7 @@
     "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
     "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
     "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
-    "https://www.nst.com.my/amp/business/economy/2026/10/1545927/fed-policymakers-lean-against-october-rate-hike",
+    "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/",
     "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/",
     "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb",
     "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/",
@@ -439,5 +439,8 @@
         }
       ]
     }
+  },
+  "threads": {
+    "lead": "yemen-war"
   }
 }

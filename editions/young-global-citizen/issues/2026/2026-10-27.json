@@ -163,8 +163,8 @@
       "deck": "Obama and Trump both campaigned in Michigan, and Fox News lists six Senate toss-ups.",
       "body": [
         "Election Day for the midterms, the vote halfway through a president's term, is 3 November. It decides whether Republicans keep control of the House and the Senate. Millions have already voted: AP data published on 17 October showed 6 million early votes across 39 states.",
-        "This week more states open early voting. It starts in Washington DC on Monday, in Oklahoma on Wednesday and in Kentucky on Thursday. Meanwhile the parties are campaigning in the battlegrounds. Barack Obama rallied in Cleveland and Detroit on Saturday, and Donald Trump campaigned with Republican Mike Rogers in Port Huron, Michigan, on Sunday.",
-        "Fox News lists Alaska, Iowa, Maine, Michigan, Ohio and Texas as toss-up Senate states. Its Power Rankings predict Republicans would still lose the House even with a good showing, while Speaker Mike Johnson says polls undercount Republicans."
+        "This week more states open early voting. It starts in Washington DC on Monday, in Oklahoma on Wednesday and in Kentucky on Thursday. Barack Obama rallied in Cleveland and Detroit on Saturday, and Donald Trump campaigned with Republican Mike Rogers in Port Huron, Michigan, on Sunday.",
+        "Fox News lists Alaska, Iowa, Maine, Michigan, Ohio and Texas as toss-up Senate states. Its Power Rankings predict Republicans would still lose the House even with a good showing."
       ],
       "chart": {
         "title": "EARLY VOTES SO FAR",
@@ -434,5 +434,9 @@
         ]
       }
     }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "us": "us-midterms-2026"
   }
 }

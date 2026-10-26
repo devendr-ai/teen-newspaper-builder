@@ -1,0 +1,6 @@
+{"date":"2026-10-27","by":"claude-code","editions":{
+"breakfast-table":{"status":"passed","reason":"Issue 16 written and checked against the research pool","poster":null},
+"current-affairs-digest":{"status":"passed","reason":"Issue 16 written and checked against the research pool","poster":null},
+"junior-daily":{"status":"passed","reason":"Issue 16 written and checked against the research pool","poster":null},
+"young-global-citizen":{"status":"passed","reason":"Issue 177 written and checked against the research pool","poster":null}},
+"enrichment":{"enabled":true,"selected":1,"stories":[{"headline":"Houthis Say They Hit Saudi Oil Pumping Stations and Riyadh Airport","status":"enriched","source_urls":["https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"],"note":"First primary URL (bworldonline) returned 403; the second (Reuters via Investing.com) opened. Its facts were added to the pool as ordinary key facts. Other pages (Imperial, CBS, Euronews, JC, i24, Time, Nora) were read to add detail beyond the three-story enrichment cap."}]}}

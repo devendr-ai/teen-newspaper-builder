@@ -1,0 +1,1962 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "houthi-saudi-pipeline",
+    "headline": "Houthis Say They Hit Saudi Oil Pumping Stations and Riyadh Airport",
+    "what_happened": "On Monday 26 October the Houthis, an armed group in Yemen, said they had attacked Saudi Arabia's East-West crude pumping stations and Riyadh's airport. Saudi Arabia did not confirm the attacks, and its coalition said it destroyed missile launchers in Yemen's capital, Sanaa.",
+    "why_it_matters": "Saudi Arabia is a giant oil exporter, so attacks near its oil sites worry buyers far away and can push up fuel prices.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Reuters reported on Monday 26 October that the Houthis said they attacked Saudi Arabia's East-West crude pumping stations and Riyadh's airport; there was no immediate Saudi confirmation.",
+      "source_url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+     },
+     {
+      "fact": "The Houthis also claimed strikes on the East-West pipeline, an Aramco facility in Yanbu and the Rabigh refinery.",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "fact": "King Khalid International Airport in Riyadh resumed operations at two terminals on Sunday 25 October, after an attack earlier this month that Reuters says killed 13 people.",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "fact": "The Saudi-led coalition said it destroyed two ballistic missile launchers in Sanaa, one used to fire a missile towards Riyadh that the coalition said it intercepted.",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "fact": "The coalition also said it destroyed five tunnels used to store ballistic missiles, four ballistic missile launchers and a missile storage facility in Yemen.",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "fact": "Houthi-controlled media said Saudi airstrikes killed 16 people in Sanaa and nearby areas; the toll could not be independently verified.",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "fact": "The latest fighting has effectively ended a UN-brokered truce that had largely held since 2022.",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "fact": "A satellite image reportedly showed damage at an East-West pipeline pumping station, according to The Tribune (Pakistan).",
+      "source_url": "https://tribune.com.pk/story/2636974/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation"
+     },
+     {
+      "fact": "The East-West pipeline lets Saudi Arabia export oil while avoiding the Strait of Hormuz.",
+      "source_url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+     },
+     {
+      "fact": "Kotak Neo reports oil prices eased on Monday after surging close to six-month highs late the previous week.",
+      "source_url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+     },
+     {
+      "fact": "The East-West pipeline is a 1,200-km Saudi crude pipeline and a key route for Middle East oil exports; it matters more now because the Strait of Hormuz has been largely shut by the war.",
+      "source_url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+     },
+     {
+      "fact": "Saudi Arabia temporarily shut the East-West pipeline in September as a precaution after a drone attack that Riyadh and Baghdad said came from Iraq.",
+      "source_url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+     },
+     {
+      "fact": "Strikes have intensified since the Houthis captured strategic areas on Yemen's Red Sea coast last month, advancing toward the Bab el-Mandeb Strait, a key shipping route for Gulf oil producers.",
+      "source_url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+     },
+     {
+      "fact": "The deadly airport attack earlier this month was described as the deadliest in the kingdom in over a decade.",
+      "source_url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+     },
+     {
+      "fact": "The Houthis emerged in the 1990s as a revivalist movement within Zaidism, a branch of Shi'ite Islam; in 2014 they seized Sanaa and now control most of western Yemen.",
+      "source_url": "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/"
+     },
+     {
+      "fact": "Time reports the 2022 UN-brokered truce largely held for over four years and collapsed in July 2026, after the Houthis said Saudi Arabia struck Sanaa Airport; they then began striking Aramco refineries.",
+      "source_url": "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/"
+     },
+     {
+      "fact": "Time reports the Houthis declared a blockade against Saudi Arabia in July 2026, reportedly captured Perim Island in the Bab el-Mandeb Strait in September, and that Saudi-backed forces recaptured key areas around the strait in early October.",
+      "source_url": "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/"
+     },
+     {
+      "fact": "Analysts quoted by Time say the Houthis aim to put economic and political pressure on Saudi Arabia to push it towards a political settlement.",
+      "source_url": "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/"
+     },
+     {
+      "fact": "The Saudi border with Yemen stretches more than 800 miles, which experts cite as a challenge for air defence.",
+      "source_url": "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/"
+     },
+     {
+      "fact": "The US national average gas price was $4.28 a gallon on 25 October, according to AAA as quoted by Everything Briefing.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US average gas price, 25 October (AAA)",
+      "value": 4.28,
+      "unit": "$ per gallon",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "label": "People killed at Riyadh airport in an earlier attack this month (Reuters)",
+      "value": 13,
+      "unit": "people",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     },
+     {
+      "label": "Years the UN-brokered truce had largely held",
+      "value": 4,
+      "unit": "years",
+      "source_url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+     }
+    ],
+    "geography": "Saudi Arabia and Yemen share a border on the Arabian Peninsula; the Red Sea lies to the west, with Africa on its far shore. Riyadh is Saudi Arabia's capital; Sanaa is Yemen's. The East-West pipeline avoids the Strait of Hormuz.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Reuters (via BusinessWorld)",
+      "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+      "url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/",
+      "published": "2026-10-26",
+      "primary": true
+     },
+     {
+      "outlet": "Reuters (via Investing.com)",
+      "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+      "url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874",
+      "published": "2026-10-26",
+      "primary": true
+     },
+     {
+      "outlet": "TIME",
+      "title": "Who Are the Houthis and Why Are They Attacking Saudi Arabia's Airports?",
+      "url": "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/",
+      "published": "2026-10-15",
+      "primary": false
+     },
+     {
+      "outlet": "Express Tribune",
+      "title": "Houthis say they attacked East-West oil pumping stations; no Saudi confirmation",
+      "url": "https://tribune.com.pk/story/2636974/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Kotak Neo",
+      "title": "Sensex and Nifty 50 end higher after volatile trade",
+      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Everything Briefing",
+      "title": "Gas prices, election rallies and today's developments",
+      "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "serbia-student-list",
+    "headline": "Serbia's Student List Wins the Election as Vucic Concedes",
+    "what_happened": "Serbia held an early parliamentary election on 25 October. The Student List, a new movement shaped by university students, won, and the long-time leader Aleksandar Vucic admitted defeat on election night. Early estimates give the Students about 51-52% of the vote against about 40% for his party's list.",
+    "why_it_matters": "It ends about 14 years of rule by Vucic's Serbian Progressive Party, after a year of student-led protests.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Serbia held a snap (early) parliamentary election on 25 October 2026.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "The Student List won the election, and Aleksandar Vucic conceded defeat on election night, telling supporters 'The Students' List has won'.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "fact": "Crta, an election-monitoring group, put the Student List at about 51.47% of the vote and the Vucic-led coalition at about 40.42%.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "fact": "CeSID-Ipsos projections, based on 56% of the sample processed, gave the Student List about 52% of the vote and 139 seats, and Vucic's bloc about 39.3% and 104 seats; minority parties were projected to take the remaining seven seats.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "Vucic said his party won about 1.7 million votes against about 2.2 million for the Student List.",
+      "source_url": "https://www.cnn.com/2026/10/25/europe/serbian-strongman-vucic-concedes-defeat-to-student-led-movement-intl-latam"
+     },
+     {
+      "fact": "The Student List grew out of the student movement, but none of the students appear on the list; its candidates are little-known experts, athletes, farmers and artists.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Vucic blamed Serbia's independent media and alleged interference by unnamed European countries and an 'American deep state' for the loss.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Turnout was around 68% by 7pm, above the 58.77% recorded in 2023.",
+      "source_url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/"
+     },
+     {
+      "fact": "The result ends 14 years of rule by Vucic's Serbian Progressive Party (SNS).",
+      "source_url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/"
+     },
+     {
+      "fact": "Official final results and seat totals were still to be confirmed.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "The movement began in 2024, when a concrete canopy collapsed at the railway station in Novi Sad, killing 16 people; protesters blamed corruption and graft during renovation work, and two years of protests followed.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Vucic held near-absolute power for 14 years, serving two near-full terms as president, then resigned the presidency last month to lead his campaign for prime minister.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "The Students' List campaign focused on rebuilding the economy and restoring democracy, and reached rural voters on foot and by bicycle.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Independent monitors reported dozens of irregularities, including ballot photographing that suggested voter pressure and attempted vote buying; some diaspora voters had to vote in the middle of the night.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "CBS says the result resembles the recent defeat of Viktor Orban in Hungary and could resonate across Europe, where youth protests have been widespread.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "The Student List was headed by Ilija Srdanovic, who said 'tonight Serbia has won'.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "Invalid ballots made up 1.55% of the total, and apart from minority parties no other list crossed the parliamentary threshold.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "Parties need 3% of the vote to enter parliament; Vucic said the Alliance of Vojvodina Hungarians won three seats and an Albanian party one.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "fact": "Euronews says the transition from protest movement to government will be harder than winning, with priorities including the economy, public finances, energy and relations with the EU, Russia and China.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Student List vote share (Crta estimate)",
+      "value": 51.47,
+      "unit": "%",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "label": "Vucic-led coalition vote share (Crta estimate)",
+      "value": 40.42,
+      "unit": "%",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "label": "Seats projected for the Student List (CeSID-Ipsos)",
+      "value": 139,
+      "unit": "seats",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "label": "Seats in Serbia's parliament projected for Vucic's bloc (CeSID-Ipsos)",
+      "value": 104,
+      "unit": "seats",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "label": "Turnout by 7pm",
+      "value": 68,
+      "unit": "%",
+      "source_url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/"
+     }
+    ],
+    "geography": "Serbia, a landlocked country in the Balkans in south-eastern Europe; the movement began in Novi Sad.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "European Western Balkans",
+      "title": "The Student List won snap parliamentary elections in Serbia",
+      "url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+      "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Aleksandar Vucic, Serbia's Putin-endorsed long-time leader, concedes election defeat in major political shift",
+      "url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "CNN",
+      "title": "Serbia's leader concedes defeat to student-led movement in seismic political shift",
+      "url": "https://www.cnn.com/2026/10/25/europe/serbian-strongman-vucic-concedes-defeat-to-student-led-movement-intl-latam",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Student List wins Serbian election in political earthquake as Vucic concedes defeat",
+      "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "Hungarian Conservative",
+      "title": "Aleksandar Vucic Concedes Defeat as Students End 14 Years of SNS Rule in Serbia",
+      "url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/",
+      "published": "2026-10-25",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "brazil-lula",
+    "headline": "Lula Wins Brazil's Presidential Runoff",
+    "what_happened": "Luiz Inacio Lula da Silva won Brazil's runoff on 25 October, beating Senator Flavio Bolsonaro by more than 4 million votes with counting still going. Bolsonaro has not conceded and says he will seek to annul the result.",
+    "why_it_matters": "Brazil is South America's biggest country; the result sets who leads it from January and how it deals with the United States.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brazil's Superior Electoral Court called the runoff for Lula shortly after 9pm Brasilia time on Sunday 25 October 2026.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Lula, of the Workers' Party, won just over 51% of the vote (more than 64 million ballots) against Flavio Bolsonaro's 48% (more than 59 million), a gap of over 4 million votes, with final counting still under way.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "In the first round on 4 October Flavio Bolsonaro led 47% to 45%; neither candidate reached the 50% needed to win outright.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Al Jazeera reports Lula is the first modern Brazilian politician to lose a first round and then win the presidency.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Flavio Bolsonaro has not conceded; he called the result 'impossible to acknowledge' and said he will seek to annul it, objecting to a Supreme Court ruling that extended voting by two hours to 7pm.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Lula will be sworn in on 5 January 2027; at 80 he will be the oldest Brazilian president to take the oath since democracy returned, and it is his fourth non-consecutive term.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Lula faces a right-leaning Congress, which could stall his agenda.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Flavio Bolsonaro's father, former president Jair Bolsonaro, is serving a 27-year prison sentence for plotting a coup after losing to Lula in 2022.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Mexican President Claudia Sheinbaum congratulated Lula.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "fact": "Brazilian stocks fell sharply after the result, according to CNBC's headline.",
+      "source_url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Lula vote share (just over)",
+      "value": 51,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "label": "Flavio Bolsonaro vote share",
+      "value": 48,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "label": "Votes Lula won by (more than)",
+      "value": 4,
+      "unit": "million",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     },
+     {
+      "label": "Lula's age at swearing-in",
+      "value": 80,
+      "unit": "years",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+     }
+    ],
+    "geography": "Brazil, South America; Brasilia is the capital.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Lula holds off far right with victory in Brazil presidential election",
+      "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-election",
+    "headline": "Israel Votes on Tuesday With Final Polls Pointing to Deadlock",
+    "what_happened": "Israel holds a parliamentary election on Tuesday 27 October. The last polls show neither Benjamin Netanyahu's bloc nor the opposition winning the 61 of 120 seats needed for a majority, so Arab parties and coalition talks could decide who governs.",
+    "why_it_matters": "Israelis vote for parties, not for a prime minister directly, so who governs depends on which party leader can build a majority coalition.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Israel votes on Tuesday 27 October 2026 for the 120-seat Knesset.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Israel does not directly elect its prime minister; voters choose the Knesset, and the leader most likely to form a governing coalition becomes prime minister.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "A party or bloc needs 61 of the 120 seats for a majority.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Three TV polls (Kan 11, Channel 12 and Channel 13) each project Netanyahu's right-wing and religious bloc winning 50 seats, and the opposition 'change bloc' between 52 and 56.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Gadi Eisenkot's party Yashar is projected as the largest party with 22 seats, ahead of Netanyahu's Likud with 20.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Arab parties are projected to win 14 to 16 seats and are counted in neither bloc, so they could be pivotal.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "i24NEWS, using Direct Polls, put Netanyahu's bloc at 59 seats, still short of 61.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Coalition talks could be difficult and a further election is possible if no governing majority forms.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Yashar is led by Gadi Eisenkot; Beyachad, led by Yair Lapid and Naftali Bennett, is projected at 14 seats.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Eisenkot's bloc (Yashar, Beyachad, the Democrats and Yisrael Beiteinu) is projected at 54 seats, seven short of a majority; Netanyahu's bloc at 50 includes Otzma Yehudit and Religious Zionism.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Yisrael Beiteinu's leader Avigdor Liberman refuses to serve with Arab parties, and Eisenkot has publicly ruled out relying on them, so the opposition's most direct route is blocked.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "President Isaac Herzog will first invite the leading candidate to form a government and can offer the mandate to the rival if that fails; if no coalition forms, another election could follow, possibly in 2027.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Herzog wants to avoid this, noting that Israel has voted five times in seven years.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "In i24NEWS's Direct Polls survey (22 October, 5,124 adults, margin of error 1.4 points) Likud led with 26 seats and Yashar had 21; Amcha Israel crossed the threshold with 4 seats, lifting Netanyahu's bloc to 59.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "In the Kan poll, Eisenkot's bloc had 52 seats and Netanyahu's 50; the Joint List and Ra'am were projected at 9 and 5 seats, 14 combined.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Kan asked voters what should happen if Eisenkot's bloc finishes first but short of 61: a unity government 27%, a repeat election 27%, a minority government with Arab parties abstaining 26%.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "In the Kan poll 36% of voters were undecided on which party to support.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "The Kan poll found Eisenkot ahead of Netanyahu 44% to 38% on suitability for prime minister.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Israel will close West Bank crossings on election day, according to Everything Briefing.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "Netanyahu is pressing Trump for more support ahead of a tight race, according to Everything Briefing.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "NBC News frames the vote as Netanyahu's battle for survival after the 7 October 2023 attacks.",
+      "source_url": "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Seats in the Knesset",
+      "value": 120,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "seats",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "label": "Seats projected for Eisenkot's Yashar",
+      "value": 22,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "label": "Seats projected for Netanyahu's Likud",
+      "value": 20,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "label": "Seats projected for Netanyahu's bloc in three TV polls",
+      "value": 50,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     }
+    ],
+    "geography": "Israel, on the eastern shore of the Mediterranean Sea.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "i24NEWS",
+      "title": "Final election polls point to deadlock as neither bloc secures a majority",
+      "url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "The Jewish Chronicle",
+      "title": "Final polls before 2026 Israeli elections predict coalition deadlock",
+      "url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Israel election: What to know as Netanyahu faces battle for survival after Oct. 7 attacks",
+      "url": "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Ynet",
+      "title": "Final Israel election polls put Eisenkot's Yashar ahead of Likud, but neither bloc wins a majority",
+      "url": "https://www.ynetnews.com/article/s1wppltnme",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Everything Briefing",
+      "title": "Gas prices, election rallies and today's developments",
+      "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "cyclone-arnab",
+    "headline": "Cyclone Arnab Is Due to Reach Andhra Pradesh on 28 October",
+    "what_happened": "Cyclone Arnab has strengthened over the Bay of Bengal and the India Meteorological Department expects it to cross the Andhra Pradesh and Yanam coasts by the forenoon of 28 October, possibly as a very severe cyclonic storm.",
+    "why_it_matters": "Warnings, school closures and rescue teams in place before landfall are how India's coasts limit harm from cyclones.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "An IMD bulletin issued Monday at 5:30pm said severe cyclonic storm Arnab, over the west-central Bay of Bengal, was expected to strengthen into a very severe cyclonic storm within 12 hours.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "It is forecast to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam, near Yanam, by the forenoon of 28 October.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "At 5:30pm on Monday it was at about 15.6 N, 87.3 E, roughly 490 km east-south-east of Visakhapatnam and 730 km east of Bapatla, moving west-northwest at 17 km/h.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Maximum sustained winds at landfall are forecast at 115 to 125 km/h, with gusts up to 140 km/h.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "The IMD issued a red-message cyclone warning for the Andhra Pradesh and adjoining south Odisha coasts, and red and orange alerts for heavy to extremely heavy rain in Odisha.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Impacts are expected to continue into 29 October and recede substantially from 30 October.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "225 fire service teams and NDRF personnel have been deployed for preparedness and rescue.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Schools, colleges and Anganwadi centres in Ganjam, Gajapati, Rayagada, Koraput and Malkangiri districts of Odisha are closed on 28 and 29 October.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "fact": "Odisha has 302 rescue teams on standby; fishing has been suspended and more than 4,800 boats have returned to the Kakinada coast.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "fact": "Bangladesh proposed the name 'Arnab', which comes from the cyclone-name list adopted in April 2020; in Bengali it means 'sea' or 'ocean'.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "fact": "Andhra Pradesh officials identified about 5.7 lakh (570,000) vulnerable residents and placed 10 NDRF teams and 11 SDRF teams on standby, with control rooms and relief centres being prepared; reporting did not establish that all had been moved.",
+      "source_url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901"
+     },
+     {
+      "fact": "The Centre on Monday placed the Army, Navy, Air Force and Indian Coast Guard on standby for rescue and relief operations.",
+      "source_url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901"
+     },
+     {
+      "fact": "Odisha has begun moving residents out of low-lying and landslide-prone southern districts; Ganjam, Gajapati, Rayagada, Koraput and Malkangiri are under a red warning for very heavy rain.",
+      "source_url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901"
+     },
+     {
+      "fact": "Sri Lanka's Department of Meteorology issued a red warning on Monday for strong winds and rough seas in the Bay of Bengal as Cyclonic Storm Arnab intensified.",
+      "source_url": "https://en.nhandan.vn/world-news-in-brief-october-26-post168266.html"
+     },
+     {
+      "fact": "Heavy to very heavy rain, strong winds and possible landslides are expected in several Odisha districts, with widespread rain on 28 October and isolated extremely heavy rain in some districts.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Odisha rain outlook: very heavy rain on 27 October, extremely heavy rain on 28 October, very heavy rain on 29 October.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Forecast winds at landfall (sustained, upper end)",
+      "value": 125,
+      "unit": "km/h",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Forecast gusts",
+      "value": 140,
+      "unit": "km/h",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Distance east-south-east of Visakhapatnam on Monday evening",
+      "value": 490,
+      "unit": "km",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Fire service teams and NDRF personnel deployed",
+      "value": 225,
+      "unit": "teams",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Boats back at the Kakinada coast (more than)",
+      "value": 4800,
+      "unit": "boats",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "label": "Odisha rescue teams on standby",
+      "value": 302,
+      "unit": "teams",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     }
+    ],
+    "geography": "The Bay of Bengal, off India's east coast; Andhra Pradesh and Odisha are the coastal states; Visakhapatnam, Bapatla, Yanam and Kakinada are coastal places; the Andaman Islands lie out in the bay, with Sri Vijaya Puram about 730 km south-east of the storm's position.",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Asianet Newsable (ANI)",
+      "title": "Severe Cyclone Arnab likely to intensify before Andhra coast landfall",
+      "url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Vajiram & Ravi",
+      "title": "Cyclone Arnab 2026",
+      "url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Nhan Dan",
+      "title": "World News in Brief: October 26",
+      "url": "https://en.nhandan.vn/world-news-in-brief-october-26-post168266.html",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NewsDrum (PTI)",
+      "title": "Cyclone Arnab: Andhra prepares large-scale evacuations, Centre puts armed forces on standby",
+      "url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "singapore-saudi-storage",
+    "headline": "Singapore and Saudi Arabia Plan a Crude Oil Storage Deal",
+    "what_happened": "Singapore and Saudi Arabia plan to set up a crude oil storage arrangement at Singapore's Jurong Rock Caverns, with operations expected to begin in the second half of 2027.",
+    "why_it_matters": "Storing oil near big Asian buyers can make supply steadier.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Singapore and Saudi Arabia plan to establish a crude oil storage arrangement at Singapore's Jurong Rock Caverns, with operations expected to begin in the second half of 2027.",
+      "source_url": "https://en.nhandan.vn/world-news-in-brief-october-26-post168266.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Singapore and Saudi Arabia",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Nhan Dan",
+      "title": "World News in Brief: October 26",
+      "url": "https://en.nhandan.vn/world-news-in-brief-october-26-post168266.html",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms-week",
+    "headline": "Midterm Campaign Heads Into Its Last Week as Early Voting Spreads",
+    "what_happened": "With Election Day on 3 November, party leaders campaigned in battleground states over the weekend, and early voting opens in more places this week. Fox News lists six Senate races as toss-ups.",
+    "why_it_matters": "The vote decides whether Republicans keep control of the House and Senate, and so who writes the country's laws.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Election Day for the midterms is 3 November 2026; the vote will decide whether the House and Senate keep their Republican majorities.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "Early voting begins in Washington DC on Monday 26 October, in Oklahoma on Wednesday and in Kentucky on Thursday.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "Fox News lists Alaska, Iowa, Maine, Michigan, Ohio and Texas as toss-up Senate states.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "On Saturday 24 October former president Barack Obama campaigned in Cleveland for Sherrod Brown and Amy Acton, then rallied with Michigan Democrats in Detroit.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "Donald Trump campaigned with Republican Mike Rogers in Port Huron, Michigan on 25 October.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "Fox News Power Rankings predict Republicans would still lose the House even with a good showing; House Speaker Mike Johnson says polls undercount Republicans.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "AP data published 17 October showed 6 million early votes already cast across 39 states, with California (about 757,000), Florida (669,000), Virginia (604,000), Michigan (573,000) and Pennsylvania (391,000) leading.",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     },
+     {
+      "fact": "Georgia's turnout so far passed 1 million (1,005,130) by 19 October.",
+      "source_url": "https://www.atlantanewsfirst.com/2026/10/19/more-than-1-million-votes-cast-georgias-midterm-election-so-far/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Early votes cast nationally (AP, as of 15 October)",
+      "value": 6,
+      "unit": "million",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     },
+     {
+      "label": "Early votes in California",
+      "value": 757000,
+      "unit": "votes",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     },
+     {
+      "label": "Early votes in Florida",
+      "value": 669000,
+      "unit": "votes",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     },
+     {
+      "label": "Early votes in Virginia",
+      "value": 604000,
+      "unit": "votes",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     },
+     {
+      "label": "Early votes in Michigan",
+      "value": 573000,
+      "unit": "votes",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     },
+     {
+      "label": "Early votes in Pennsylvania",
+      "value": 391000,
+      "unit": "votes",
+      "source_url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Everything Briefing",
+      "title": "Gas prices, election rallies and today's developments",
+      "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "FOX 13",
+      "title": "'No Kings' rallies across US push voting early; here's how many voters already have",
+      "url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp",
+      "published": "2026-10-17",
+      "primary": false
+     },
+     {
+      "outlet": "Atlanta News First",
+      "title": "More than 1 million votes cast in Georgia's midterm election so far",
+      "url": "https://www.atlantanewsfirst.com/2026/10/19/more-than-1-million-votes-cast-georgias-midterm-election-so-far/",
+      "published": "2026-10-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "fed-meeting",
+    "headline": "The Fed Meets This Week as Markets Expect Rates to Hold",
+    "what_happened": "The US Federal Reserve meets on 27 and 28 October, with its decision at 2pm Eastern Time on Wednesday 28 October. Forecasts lean towards no change to its 3.75%-4.00% range, after a quarter-point rise in September, though estimates of the odds vary.",
+    "why_it_matters": "The Fed's rate guides what banks charge for loans, so its decisions reach mortgages, car loans and credit cards, and can affect other countries' currencies.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Fed's meeting runs 27-28 October 2026, and the decision comes out at 2pm Eastern Time on Wednesday 28 October.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "The Fed's range is 3.75%-4.00%, after a quarter-point rise effective 17 September.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "As of 20 October, CME FedWatch showed about an 83% chance of a hold and about a 17% chance of a quarter-point hike; a cut was essentially zero.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "Octagon's page puts the market chance of no change at 53.0% and of a 25 basis-point increase at 47.0%, so estimates of the odds differ between sources.",
+      "source_url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/"
+     },
+     {
+      "fact": "Chair Kevin Warsh, speaking in Bangkok on 16 October, said 'I don't prejudge meetings', according to Reuters; he also said the Fed 'removed a dose of accommodation about a month ago'.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "US consumer prices rose 3.7% over the past year in the September report, up from 3.4% in August.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "The Fed raised its target range by 25 basis points to 3.75%-4.00% on 16 September, its first increase since 2023.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "After that meeting the median projection for the year-end rate rose to 4.1% from 3.8% in June, and 16 of 18 participants put their own year-end rate above the midpoint of the current range.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "The Fed's September projections put 2026 PCE inflation at 3.7% and unemployment at 4.1%.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "The next meeting after this one is 8-9 December.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "The July 2026 vote was 9-3 to hold, with Beth Hammack, Neel Kashkari and Lorie Logan dissenting in favour of a hike.",
+      "source_url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/"
+     },
+     {
+      "fact": "Indian stock traders were cautious ahead of the US Fed, ECB and Bank of Japan policy decisions later in the week.",
+      "source_url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Fed rate range, upper end",
+      "value": 4.0,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Fed rate range, lower end",
+      "value": 3.75,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Odds of a hold (CME FedWatch, 20 October)",
+      "value": 83,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Odds of a quarter-point hike (CME FedWatch, 20 October)",
+      "value": 17,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Consumer price rise over the past year, September",
+      "value": 3.7,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Unemployment projection for 2026 (September)",
+      "value": 4.1,
+      "unit": "%",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "label": "Median projected year-end rate (September)",
+      "value": 4.1,
+      "unit": "%",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     }
+    ],
+    "geography": "United States, Washington DC",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Nora Real Estate",
+      "title": "Interest rate predictions October 2026",
+      "url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "CoinGape",
+      "title": "Will the Fed raise interest rates after the October 2026 meeting? Odds split 50-50",
+      "url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/",
+      "published": "2026-09-18",
+      "primary": false
+     },
+     {
+      "outlet": "Octagon",
+      "title": "Fed decision in October",
+      "url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "Kotak Neo",
+      "title": "Sensex and Nifty 50 end higher after volatile trade",
+      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "world-series-game3",
+    "headline": "Brewers Lead the World Series 2-0 as Game 3 Nears",
+    "what_happened": "Milwaukee beat Tampa Bay 5-4 in Game 2 and leads 2-0; Game 3 is Monday night at Tropicana Field.",
+    "why_it_matters": "Sport item.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Brewers beat the Rays 5-4 in Game 2 on Saturday 24 October to lead the World Series 2-0.",
+      "source_url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways"
+     },
+     {
+      "fact": "Tampa Bay scored four first-inning runs; Sal Frelick's sixth-inning home run tied it and Cooper Pratt's single in the seventh gave Milwaukee the lead.",
+      "source_url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways"
+     },
+     {
+      "fact": "Game 3 is on Monday 26 October at 8pm ET at Tropicana Field in St. Petersburg, Florida.",
+      "source_url": "https://www.foxsports.com/articles/mlb/brewers-bring-20-world-series-lead-into-game-3-against-rays"
+     },
+     {
+      "fact": "Freddy Peralta, who pitched for the Brewers from 2018 to 2025, starts for Tampa Bay; Robert Gasser starts for Milwaukee.",
+      "source_url": "https://fox11online.com/sports/brewers-and-mlb/freddy-peralta-world-series-game-3-starting-pitcher-tampa-bay-rays-milwaukee"
+     }
+    ],
+    "numbers": [],
+    "geography": "Florida",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ESPN",
+      "title": "World Series Game 2: Takeaways from Brewers' win over Rays",
+      "url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "FOX Sports",
+      "title": "Brewers bring 2-0 World Series lead into Game 3 against Rays",
+      "url": "https://www.foxsports.com/articles/mlb/brewers-bring-20-world-series-lead-into-game-3-against-rays",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "FOX 11",
+      "title": "Friend to foe: Brewers face Freddy Peralta in World Series Game 3",
+      "url": "https://fox11online.com/sports/brewers-and-mlb/freddy-peralta-world-series-game-3-starting-pitcher-tampa-bay-rays-milwaukee",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-arnab",
+    "headline": "Cyclone Arnab Is Due to Reach Andhra Pradesh on 28 October",
+    "what_happened": "Cyclone Arnab has strengthened over the Bay of Bengal and the India Meteorological Department expects it to cross the Andhra Pradesh and Yanam coasts by the forenoon of 28 October, possibly as a very severe cyclonic storm.",
+    "why_it_matters": "Warnings, school closures and rescue teams in place before landfall are how India's coasts limit harm from cyclones.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "An IMD bulletin issued Monday at 5:30pm said severe cyclonic storm Arnab, over the west-central Bay of Bengal, was expected to strengthen into a very severe cyclonic storm within 12 hours.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "It is forecast to cross the Andhra Pradesh and Yanam coasts between Bapatla and Visakhapatnam, near Yanam, by the forenoon of 28 October.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "At 5:30pm on Monday it was at about 15.6 N, 87.3 E, roughly 490 km east-south-east of Visakhapatnam and 730 km east of Bapatla, moving west-northwest at 17 km/h.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Maximum sustained winds at landfall are forecast at 115 to 125 km/h, with gusts up to 140 km/h.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "The IMD issued a red-message cyclone warning for the Andhra Pradesh and adjoining south Odisha coasts, and red and orange alerts for heavy to extremely heavy rain in Odisha.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Impacts are expected to continue into 29 October and recede substantially from 30 October.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "225 fire service teams and NDRF personnel have been deployed for preparedness and rescue.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Schools, colleges and Anganwadi centres in Ganjam, Gajapati, Rayagada, Koraput and Malkangiri districts of Odisha are closed on 28 and 29 October.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "fact": "Odisha has 302 rescue teams on standby; fishing has been suspended and more than 4,800 boats have returned to the Kakinada coast.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "fact": "Bangladesh proposed the name 'Arnab', which comes from the cyclone-name list adopted in April 2020; in Bengali it means 'sea' or 'ocean'.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "fact": "Andhra Pradesh officials identified about 5.7 lakh (570,000) vulnerable residents and placed 10 NDRF teams and 11 SDRF teams on standby, with control rooms and relief centres being prepared; reporting did not establish that all had been moved.",
+      "source_url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901"
+     },
+     {
+      "fact": "The Centre on Monday placed the Army, Navy, Air Force and Indian Coast Guard on standby for rescue and relief operations.",
+      "source_url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901"
+     },
+     {
+      "fact": "Odisha has begun moving residents out of low-lying and landslide-prone southern districts; Ganjam, Gajapati, Rayagada, Koraput and Malkangiri are under a red warning for very heavy rain.",
+      "source_url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901"
+     },
+     {
+      "fact": "Sri Lanka's Department of Meteorology issued a red warning on Monday for strong winds and rough seas in the Bay of Bengal as Cyclonic Storm Arnab intensified.",
+      "source_url": "https://en.nhandan.vn/world-news-in-brief-october-26-post168266.html"
+     },
+     {
+      "fact": "Heavy to very heavy rain, strong winds and possible landslides are expected in several Odisha districts, with widespread rain on 28 October and isolated extremely heavy rain in some districts.",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "fact": "Odisha rain outlook: very heavy rain on 27 October, extremely heavy rain on 28 October, very heavy rain on 29 October.",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Forecast winds at landfall (sustained, upper end)",
+      "value": 125,
+      "unit": "km/h",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Forecast gusts",
+      "value": 140,
+      "unit": "km/h",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Distance east-south-east of Visakhapatnam on Monday evening",
+      "value": 490,
+      "unit": "km",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Fire service teams and NDRF personnel deployed",
+      "value": 225,
+      "unit": "teams",
+      "source_url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+     },
+     {
+      "label": "Boats back at the Kakinada coast (more than)",
+      "value": 4800,
+      "unit": "boats",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     },
+     {
+      "label": "Odisha rescue teams on standby",
+      "value": 302,
+      "unit": "teams",
+      "source_url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+     }
+    ],
+    "geography": "The Bay of Bengal, off India's east coast; Andhra Pradesh and Odisha are the coastal states; Visakhapatnam, Bapatla, Yanam and Kakinada are coastal places; the Andaman Islands lie out in the bay, with Sri Vijaya Puram about 730 km south-east of the storm's position.",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Asianet Newsable (ANI)",
+      "title": "Severe Cyclone Arnab likely to intensify before Andhra coast landfall",
+      "url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Vajiram & Ravi",
+      "title": "Cyclone Arnab 2026",
+      "url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Nhan Dan",
+      "title": "World News in Brief: October 26",
+      "url": "https://en.nhandan.vn/world-news-in-brief-october-26-post168266.html",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NewsDrum (PTI)",
+      "title": "Cyclone Arnab: Andhra prepares large-scale evacuations, Centre puts armed forces on standby",
+      "url": "https://www.newsdrum.in/environment/cyclone-arnab-andhra-prepares-large-scale-evacuations-centre-puts-armed-forces-on-standby-12753901",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sensex-snaps",
+    "headline": "Sensex Snaps a Four-Day Losing Streak as Oil Eases",
+    "what_happened": "India's Sensex share index closed 482.92 points higher at 73,606.75 on Monday, ending four days of falls, as oil prices eased.",
+    "why_it_matters": "India buys much of its oil from abroad, so high oil prices hurt its shares, rupee and inflation outlook.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Sensex finished up 482.92 points, or 0.66%, at 73,606.75 on Monday 26 October, snapping a four-day losing streak.",
+      "source_url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+     },
+     {
+      "fact": "Kotak Neo reports oil prices eased on Monday after surging close to six-month highs late last week, and that high oil prices have been the main drag on Indian stocks.",
+      "source_url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sensex close",
+      "value": 73606.75,
+      "unit": "points",
+      "source_url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+     },
+     {
+      "label": "Sensex gain",
+      "value": 482.92,
+      "unit": "points",
+      "source_url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ETV Bharat",
+      "title": "Stock Market Today: Sensex, Nifty Snap 4-Day Losing Streak",
+      "url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Kotak Neo",
+      "title": "Sensex and Nifty 50 end higher after volatile trade",
+      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "israel-election",
+    "headline": "Israel Votes on Tuesday With Final Polls Pointing to Deadlock",
+    "what_happened": "Israel holds a parliamentary election on Tuesday 27 October. The last polls show neither Benjamin Netanyahu's bloc nor the opposition winning the 61 of 120 seats needed for a majority, so Arab parties and coalition talks could decide who governs.",
+    "why_it_matters": "Israelis vote for parties, not for a prime minister directly, so who governs depends on which party leader can build a majority coalition.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Israel votes on Tuesday 27 October 2026 for the 120-seat Knesset.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Israel does not directly elect its prime minister; voters choose the Knesset, and the leader most likely to form a governing coalition becomes prime minister.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "A party or bloc needs 61 of the 120 seats for a majority.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Three TV polls (Kan 11, Channel 12 and Channel 13) each project Netanyahu's right-wing and religious bloc winning 50 seats, and the opposition 'change bloc' between 52 and 56.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Gadi Eisenkot's party Yashar is projected as the largest party with 22 seats, ahead of Netanyahu's Likud with 20.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Arab parties are projected to win 14 to 16 seats and are counted in neither bloc, so they could be pivotal.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "i24NEWS, using Direct Polls, put Netanyahu's bloc at 59 seats, still short of 61.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Coalition talks could be difficult and a further election is possible if no governing majority forms.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Yashar is led by Gadi Eisenkot; Beyachad, led by Yair Lapid and Naftali Bennett, is projected at 14 seats.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Eisenkot's bloc (Yashar, Beyachad, the Democrats and Yisrael Beiteinu) is projected at 54 seats, seven short of a majority; Netanyahu's bloc at 50 includes Otzma Yehudit and Religious Zionism.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Yisrael Beiteinu's leader Avigdor Liberman refuses to serve with Arab parties, and Eisenkot has publicly ruled out relying on them, so the opposition's most direct route is blocked.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "President Isaac Herzog will first invite the leading candidate to form a government and can offer the mandate to the rival if that fails; if no coalition forms, another election could follow, possibly in 2027.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "Herzog wants to avoid this, noting that Israel has voted five times in seven years.",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "fact": "In i24NEWS's Direct Polls survey (22 October, 5,124 adults, margin of error 1.4 points) Likud led with 26 seats and Yashar had 21; Amcha Israel crossed the threshold with 4 seats, lifting Netanyahu's bloc to 59.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "In the Kan poll, Eisenkot's bloc had 52 seats and Netanyahu's 50; the Joint List and Ra'am were projected at 9 and 5 seats, 14 combined.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Kan asked voters what should happen if Eisenkot's bloc finishes first but short of 61: a unity government 27%, a repeat election 27%, a minority government with Arab parties abstaining 26%.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "In the Kan poll 36% of voters were undecided on which party to support.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "The Kan poll found Eisenkot ahead of Netanyahu 44% to 38% on suitability for prime minister.",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "fact": "Israel will close West Bank crossings on election day, according to Everything Briefing.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "Netanyahu is pressing Trump for more support ahead of a tight race, according to Everything Briefing.",
+      "source_url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+     },
+     {
+      "fact": "NBC News frames the vote as Netanyahu's battle for survival after the 7 October 2023 attacks.",
+      "source_url": "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Seats in the Knesset",
+      "value": 120,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "seats",
+      "source_url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+     },
+     {
+      "label": "Seats projected for Eisenkot's Yashar",
+      "value": 22,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "label": "Seats projected for Netanyahu's Likud",
+      "value": 20,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     },
+     {
+      "label": "Seats projected for Netanyahu's bloc in three TV polls",
+      "value": 50,
+      "unit": "seats",
+      "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+     }
+    ],
+    "geography": "Israel, on the eastern shore of the Mediterranean Sea.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "i24NEWS",
+      "title": "Final election polls point to deadlock as neither bloc secures a majority",
+      "url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "The Jewish Chronicle",
+      "title": "Final polls before 2026 Israeli elections predict coalition deadlock",
+      "url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Israel election: What to know as Netanyahu faces battle for survival after Oct. 7 attacks",
+      "url": "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Ynet",
+      "title": "Final Israel election polls put Eisenkot's Yashar ahead of Likud, but neither bloc wins a majority",
+      "url": "https://www.ynetnews.com/article/s1wppltnme",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Everything Briefing",
+      "title": "Gas prices, election rallies and today's developments",
+      "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "serbia-student-list",
+    "headline": "Serbia's Student List Wins the Election as Vucic Concedes",
+    "what_happened": "Serbia held an early parliamentary election on 25 October. The Student List, a new movement shaped by university students, won, and the long-time leader Aleksandar Vucic admitted defeat on election night. Early estimates give the Students about 51-52% of the vote against about 40% for his party's list.",
+    "why_it_matters": "It ends about 14 years of rule by Vucic's Serbian Progressive Party, after a year of student-led protests.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Serbia held a snap (early) parliamentary election on 25 October 2026.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "The Student List won the election, and Aleksandar Vucic conceded defeat on election night, telling supporters 'The Students' List has won'.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "fact": "Crta, an election-monitoring group, put the Student List at about 51.47% of the vote and the Vucic-led coalition at about 40.42%.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "fact": "CeSID-Ipsos projections, based on 56% of the sample processed, gave the Student List about 52% of the vote and 139 seats, and Vucic's bloc about 39.3% and 104 seats; minority parties were projected to take the remaining seven seats.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "Vucic said his party won about 1.7 million votes against about 2.2 million for the Student List.",
+      "source_url": "https://www.cnn.com/2026/10/25/europe/serbian-strongman-vucic-concedes-defeat-to-student-led-movement-intl-latam"
+     },
+     {
+      "fact": "The Student List grew out of the student movement, but none of the students appear on the list; its candidates are little-known experts, athletes, farmers and artists.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Vucic blamed Serbia's independent media and alleged interference by unnamed European countries and an 'American deep state' for the loss.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Turnout was around 68% by 7pm, above the 58.77% recorded in 2023.",
+      "source_url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/"
+     },
+     {
+      "fact": "The result ends 14 years of rule by Vucic's Serbian Progressive Party (SNS).",
+      "source_url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/"
+     },
+     {
+      "fact": "Official final results and seat totals were still to be confirmed.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "The movement began in 2024, when a concrete canopy collapsed at the railway station in Novi Sad, killing 16 people; protesters blamed corruption and graft during renovation work, and two years of protests followed.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Vucic held near-absolute power for 14 years, serving two near-full terms as president, then resigned the presidency last month to lead his campaign for prime minister.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "The Students' List campaign focused on rebuilding the economy and restoring democracy, and reached rural voters on foot and by bicycle.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "Independent monitors reported dozens of irregularities, including ballot photographing that suggested voter pressure and attempted vote buying; some diaspora voters had to vote in the middle of the night.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "CBS says the result resembles the recent defeat of Viktor Orban in Hungary and could resonate across Europe, where youth protests have been widespread.",
+      "source_url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+     },
+     {
+      "fact": "The Student List was headed by Ilija Srdanovic, who said 'tonight Serbia has won'.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "Invalid ballots made up 1.55% of the total, and apart from minority parties no other list crossed the parliamentary threshold.",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "fact": "Parties need 3% of the vote to enter parliament; Vucic said the Alliance of Vojvodina Hungarians won three seats and an Albanian party one.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "fact": "Euronews says the transition from protest movement to government will be harder than winning, with priorities including the economy, public finances, energy and relations with the EU, Russia and China.",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Student List vote share (Crta estimate)",
+      "value": 51.47,
+      "unit": "%",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "label": "Vucic-led coalition vote share (Crta estimate)",
+      "value": 40.42,
+      "unit": "%",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+     },
+     {
+      "label": "Seats projected for the Student List (CeSID-Ipsos)",
+      "value": 139,
+      "unit": "seats",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "label": "Seats in Serbia's parliament projected for Vucic's bloc (CeSID-Ipsos)",
+      "value": 104,
+      "unit": "seats",
+      "source_url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+     },
+     {
+      "label": "Turnout by 7pm",
+      "value": 68,
+      "unit": "%",
+      "source_url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/"
+     }
+    ],
+    "geography": "Serbia, a landlocked country in the Balkans in south-eastern Europe; the movement began in Novi Sad.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "European Western Balkans",
+      "title": "The Student List won snap parliamentary elections in Serbia",
+      "url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+      "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Aleksandar Vucic, Serbia's Putin-endorsed long-time leader, concedes election defeat in major political shift",
+      "url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "CNN",
+      "title": "Serbia's leader concedes defeat to student-led movement in seismic political shift",
+      "url": "https://www.cnn.com/2026/10/25/europe/serbian-strongman-vucic-concedes-defeat-to-student-led-movement-intl-latam",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Student List wins Serbian election in political earthquake as Vucic concedes defeat",
+      "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+      "published": "2026-10-25",
+      "primary": false
+     },
+     {
+      "outlet": "Hungarian Conservative",
+      "title": "Aleksandar Vucic Concedes Defeat as Students End 14 Years of SNS Rule in Serbia",
+      "url": "https://www.hungarianconservative.com/articles/current/serbia-election-student-list-aleksandar-vucic-sns/",
+      "published": "2026-10-25",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "fed-meeting",
+    "headline": "The Fed Meets This Week as Markets Expect Rates to Hold",
+    "what_happened": "The US Federal Reserve meets on 27 and 28 October, with its decision at 2pm Eastern Time on Wednesday 28 October. Forecasts lean towards no change to its 3.75%-4.00% range, after a quarter-point rise in September, though estimates of the odds vary.",
+    "why_it_matters": "The Fed's rate guides what banks charge for loans, so its decisions reach mortgages, car loans and credit cards, and can affect other countries' currencies.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Fed's meeting runs 27-28 October 2026, and the decision comes out at 2pm Eastern Time on Wednesday 28 October.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "The Fed's range is 3.75%-4.00%, after a quarter-point rise effective 17 September.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "As of 20 October, CME FedWatch showed about an 83% chance of a hold and about a 17% chance of a quarter-point hike; a cut was essentially zero.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "Octagon's page puts the market chance of no change at 53.0% and of a 25 basis-point increase at 47.0%, so estimates of the odds differ between sources.",
+      "source_url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/"
+     },
+     {
+      "fact": "Chair Kevin Warsh, speaking in Bangkok on 16 October, said 'I don't prejudge meetings', according to Reuters; he also said the Fed 'removed a dose of accommodation about a month ago'.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "US consumer prices rose 3.7% over the past year in the September report, up from 3.4% in August.",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "fact": "The Fed raised its target range by 25 basis points to 3.75%-4.00% on 16 September, its first increase since 2023.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "After that meeting the median projection for the year-end rate rose to 4.1% from 3.8% in June, and 16 of 18 participants put their own year-end rate above the midpoint of the current range.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "The Fed's September projections put 2026 PCE inflation at 3.7% and unemployment at 4.1%.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "The next meeting after this one is 8-9 December.",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "fact": "The July 2026 vote was 9-3 to hold, with Beth Hammack, Neel Kashkari and Lorie Logan dissenting in favour of a hike.",
+      "source_url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/"
+     },
+     {
+      "fact": "Indian stock traders were cautious ahead of the US Fed, ECB and Bank of Japan policy decisions later in the week.",
+      "source_url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Fed rate range, upper end",
+      "value": 4.0,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Fed rate range, lower end",
+      "value": 3.75,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Odds of a hold (CME FedWatch, 20 October)",
+      "value": 83,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Odds of a quarter-point hike (CME FedWatch, 20 October)",
+      "value": 17,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Consumer price rise over the past year, September",
+      "value": 3.7,
+      "unit": "%",
+      "source_url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+     },
+     {
+      "label": "Unemployment projection for 2026 (September)",
+      "value": 4.1,
+      "unit": "%",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     },
+     {
+      "label": "Median projected year-end rate (September)",
+      "value": 4.1,
+      "unit": "%",
+      "source_url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+     }
+    ],
+    "geography": "United States, Washington DC",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Nora Real Estate",
+      "title": "Interest rate predictions October 2026",
+      "url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "CoinGape",
+      "title": "Will the Fed raise interest rates after the October 2026 meeting? Odds split 50-50",
+      "url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/",
+      "published": "2026-09-18",
+      "primary": false
+     },
+     {
+      "outlet": "Octagon",
+      "title": "Fed decision in October",
+      "url": "https://www.octagonai.co/markets/economics/fed/fed-decision-in-october/",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "Kotak Neo",
+      "title": "Sensex and Nifty 50 end higher after volatile trade",
+      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sensex-snaps",
+    "headline": "Sensex Snaps a Four-Day Losing Streak as Oil Eases",
+    "what_happened": "India's Sensex share index closed 482.92 points higher at 73,606.75 on Monday, ending four days of falls, as oil prices eased.",
+    "why_it_matters": "India buys much of its oil from abroad, so high oil prices hurt its shares, rupee and inflation outlook.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Sensex finished up 482.92 points, or 0.66%, at 73,606.75 on Monday 26 October, snapping a four-day losing streak.",
+      "source_url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+     },
+     {
+      "fact": "Kotak Neo reports oil prices eased on Monday after surging close to six-month highs late last week, and that high oil prices have been the main drag on Indian stocks.",
+      "source_url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sensex close",
+      "value": 73606.75,
+      "unit": "points",
+      "source_url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+     },
+     {
+      "label": "Sensex gain",
+      "value": 482.92,
+      "unit": "points",
+      "source_url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ETV Bharat",
+      "title": "Stock Market Today: Sensex, Nifty Snap 4-Day Losing Streak",
+      "url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Kotak Neo",
+      "title": "Sensex and Nifty 50 end higher after volatile trade",
+      "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "mars-canyon-active",
+    "headline": "Mars's Giant Canyon Is Still Active, a Marsquake Study Finds",
+    "what_happened": "Researchers from Imperial College London and Columbia University traced a 2021 marsquake to a fault beneath Valles Marineris, the solar system's largest canyon system, showing the canyon's faults can still slip today.",
+    "why_it_matters": "It shows Mars is not a dead world: its crust still moves, which tells scientists about its inside and how it cooled.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A study in Nature Communications by researchers at Imperial College London and Columbia University found that Valles Marineris is still tectonically active.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "A marsquake detected by NASA's InSight lander in 2021, called S0976a, started beneath the canyon, caused by rocks slipping along a fault deep in the crust.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "S0976a was the only recorded marsquake the researchers could locate in the planet's western hemisphere.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The team analysed the strength and arrival direction of seismic waves to work out the source of the quake.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "Lead author Jung-Hun Song said the faults can still slip and cause marsquakes long after the processes that formed them have ended.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The canyon system is described as a scar about 2,400 miles long.",
+      "source_url": "https://dailygalaxy.com/2026/10/a-2400-mile-scar-on-mars-is-still-moving/"
+     },
+     {
+      "fact": "The authors are Jung-Hun Song (lead author), Folarin Kolawole of Columbia University and Doyeon Kim (senior author), with Kolawole and Kim as co-authors.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The marsquake S0976a was recorded by InSight on 25 August 2021 and came from the opposite side of Mars from the lander.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The study places the rupture roughly 20 to 40 km beneath the surface in western Valles Marineris.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The researchers modelled meteoroid impacts, landslides and other mass movements and found none reproduced the observed waves; satellite images showed no fresh crater or large new landslide.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The best explanation is a strike-slip event, where blocks of crust slide horizontally past each other along a steep, deep-rooted fault.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "Valles Marineris is nearly 3,900 km long, up to 600 km wide and more than 9 km deep, about nine times longer, more than 20 times wider and about five times deeper than the Grand Canyon.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "Mars lacks moving tectonic plates, so its crust behaves more like a single cooling lid, and structures billions of years old can still control where it breaks.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "Active faulting has now been identified beneath Valles Marineris, Cerberus Fossae and southern Elysium Planitia, suggesting crustal stress varies from place to place on Mars.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "The conclusion rests on one marsquake, and the authors describe the strike-slip explanation as the best fit; InSight's mission ended in 2022, so no new seismic data can be added.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "fact": "Song said 'this is not just a dead fossil landscape'.",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Length of the Valles Marineris canyon system",
+      "value": 3900,
+      "unit": "km",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "label": "Width, up to",
+      "value": 600,
+      "unit": "km",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "label": "Depth, more than",
+      "value": 9,
+      "unit": "km",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     },
+     {
+      "label": "Length of the Valles Marineris canyon system",
+      "value": 2400,
+      "unit": "miles",
+      "source_url": "https://dailygalaxy.com/2026/10/a-2400-mile-scar-on-mars-is-still-moving/"
+     },
+     {
+      "label": "Year of the marsquake",
+      "value": 2021,
+      "unit": "",
+      "source_url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/"
+     }
+    ],
+    "geography": "Mars; Valles Marineris lies near the planet's equator.",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Imperial College London",
+      "title": "Giant canyon on Mars is still tectonically active today",
+      "url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/giant-canyon-on-mars-is-still-tectonically-active-today/",
+      "published": "2026-10-23",
+      "primary": true
+     },
+     {
+      "outlet": "The Daily Galaxy",
+      "title": "A 2,400-Mile Scar on Mars Is Still Moving, and Scientists Finally Have Proof",
+      "url": "https://dailygalaxy.com/2026/10/a-2400-mile-scar-on-mars-is-still-moving/",
+      "published": "2026-10-24",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "perseverance-record",
+    "headline": "Perseverance Sets a Record for Distance Driven on Another World",
+    "what_happened": "NASA says its Perseverance rover passed Opportunity's mark for the farthest distance driven by a vehicle on another world, reaching 28.10 miles on 11 October.",
+    "why_it_matters": "The record shows how far a rover can explore on its own on Mars.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Perseverance reached 28.10 miles on Sunday 11 October 2026, passing the previous record of 28.06 miles set by Opportunity, which explored Mars from 2004 to 2018.",
+      "source_url": "https://www.popsci.com/science/nasa-perseverance-rover-distance-record/"
+     },
+     {
+      "fact": "Perseverance covered that distance in about 5.5 years, while Opportunity took about 14 to 15 years.",
+      "source_url": "https://www.popsci.com/science/nasa-perseverance-rover-distance-record/"
+     },
+     {
+      "fact": "The rover drove almost entirely autonomously.",
+      "source_url": "https://www.popsci.com/science/nasa-perseverance-rover-distance-record/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Perseverance's distance",
+      "value": 28.1,
+      "unit": "miles",
+      "source_url": "https://www.popsci.com/science/nasa-perseverance-rover-distance-record/"
+     },
+     {
+      "label": "Opportunity's previous record",
+      "value": 28.06,
+      "unit": "miles",
+      "source_url": "https://www.popsci.com/science/nasa-perseverance-rover-distance-record/"
+     }
+    ],
+    "geography": "Mars",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Popular Science",
+      "title": "NASA's Perseverance Mars rover sets distance record",
+      "url": "https://www.popsci.com/science/nasa-perseverance-rover-distance-record/",
+      "published": "2026-10-14",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
