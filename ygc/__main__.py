@@ -188,6 +188,7 @@ def cmd_migrate(a):
 
 def cmd_due(a):
     from .auto import research, run, writer
+    from . import threads
     out = []
     for eid in edition.list_editions():
         ed = edition.load(eid)
@@ -205,8 +206,10 @@ def cmd_due(a):
     eds = [edition.load(x["edition"]) for x in out]
     desks = {k: {"label": g["label"], "hours": g["hours"], "scopes": g["scopes"], "editions": g["editions"]}
              for k, g in research.desk_groups(eds).items()}
+    review_date = a.date or max((x["date"] for x in out), default=dt.date.today().isoformat())
+    review = threads.review_published(review_date)
     if a.json:
-        print(json.dumps({"due": out, "research_desks": desks}, ensure_ascii=False, indent=1))
+        print(json.dumps({"due": out, "research_desks": desks, "thread_review": review}, ensure_ascii=False, indent=1))
         return 0
     if not out:
         print("Nothing is due.")
@@ -214,7 +217,20 @@ def cmd_due(a):
         print(f"{x['edition']:24} No. {x['issue']:<5} {x['file']}" + ("   + poster" if x["poster"] else ""))
     for k, g in desks.items():
         print(f"research  {g['label']:12} {g['hours']}h  for {', '.join(g['editions'])}")
+    print_thread_review(review)
     return 0
+
+
+def print_thread_review(rows):
+    if not rows:
+        print("Thread review: no recurring headline gaps flagged.")
+    for row in rows:
+        existing = ", ".join(row["existing_threads"])
+        action = f"check links to {existing}" if existing else "consider a new thread"
+        print(f"Thread review: {row['topic_hint']!r} appeared on {row['days_in_last_seven']} of the last 7 days; "
+              f"{row['unlinked_stories']} unlinked stories — {action} (editorial review required).")
+        for example in row["examples"]:
+            print(f"  {example['date']} {example['paper']}/{example['block']}: {example['headline']}")
 
 
 def cmd_auto(a):
@@ -286,6 +302,8 @@ def cmd_thread(a):
             print(f"{f}: note {m}")
         print(f"{f}: {'PASS' if r.ok else 'FAIL'}")
         bad += not r.ok
+    if a.review:
+        print_thread_review(threads.review_published(a.date or dt.date.today().isoformat()))
     sys.exit(1 if bad else 0)
 
 
@@ -325,6 +343,8 @@ def main(argv=None):
     p.add_argument("--pool")
     p = sub.add_parser("due"); p.add_argument("--date"); p.add_argument("--json", action="store_true")
     p = sub.add_parser("thread"); p.add_argument("files", nargs="*")
+    p.add_argument("--review", action="store_true", help="flag recurring headline coverage missing thread links")
+    p.add_argument("--date", help="YYYY-MM-DD for the seven-day coverage review")
     a = ap.parse_args(argv)
     try:
         return {"editions": cmd_editions, "new": cmd_new, "check": cmd_check, "build": cmd_build,
