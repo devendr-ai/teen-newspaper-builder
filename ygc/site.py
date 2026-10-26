@@ -10,6 +10,7 @@ import os
 import re
 import shutil
 import subprocess
+from urllib.parse import quote
 
 import yaml
 
@@ -87,6 +88,14 @@ def subscription_share_url(cfg, ed, date):
     return "https://wa.me/?text=" + quote(text, safe="")
 
 
+def subscription_link(cfg, ed):
+    if not subscription_endpoint(cfg):
+        return ""
+    href = f'parents.html?edition={quote(ed["id"], safe="")}#subscribe-parents-title'
+    return (f'<p class="recommended-note"><a class="recommended-archive subscription-signup" href="{E(href)}">'
+            'Get this paper by email (free)</a></p>')
+
+
 def subscription_form(cfg, ed=None, *, root="", context="parents", date=None, published=None):
     endpoint = subscription_endpoint(cfg)
     if not endpoint:
@@ -150,7 +159,7 @@ def subscription_banner():
 
 SUBSCRIPTION_STYLE = """
 .subscription-box,.subscription-banner{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:18px;margin:18px 0}
-.subscription-box h3{font-size:1.1rem;margin:0 0 6px}.subscription-box p{margin:6px 0;font-size:.9rem}
+.subscription-box h3{font-size:1.1rem;margin:0 0 6px;scroll-margin-top:90px}.subscription-box p{margin:6px 0;font-size:.9rem}
 .subscription-paper{font-weight:700}.subscription-summary{color:var(--muted)}
 .subscription-fields,.subscription-cadence{border:0;padding:0;margin:0;min-width:0}
 .subscription-fields>label,.subscription-cadence legend,.subscription-math>label{display:block;font-weight:700;margin:12px 0 6px;font-size:.9rem}
@@ -210,6 +219,8 @@ document.querySelectorAll('form[data-gate-form="subscribe"]').forEach(form=>{
  challenge();fields.disabled=false; // Fail closed without JS or if setup cannot finish.
  const editions=form.elements.namedItem('edition_slug'),share=form.closest('.subscription-box').querySelector('[data-subscription-share]');
  if(editions.tagName==='SELECT'){
+  const requested=new URL(location.href).searchParams.get('edition');
+  if(requested&&Array.from(editions.options).some(option=>option.value===requested))editions.value=requested;
   const update=()=>{const url=editions.selectedOptions[0]?.dataset.shareUrl||'';share.hidden=!url;if(url)share.href=url;else share.removeAttribute('href');};
   editions.addEventListener('change',update);update();
  }
@@ -320,7 +331,7 @@ def recommendations(published, has_png, cfg=None):
 <p class="recommended-facts">{n} page{'s' if n != 1 else ''} · About {minutes} minutes to read</p>
 <p class="recommended-reason">{E(reason)}</p>{paper_actions(f'e/{eid}/{date}.pdf', f'e/{eid}/{date}.html', ed['name'] + ' · ' + band + ' · ' + date)}
 <p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>
-<a class="recommended-archive" href="e/{eid}/index.html">See past issues</a>{subscription_form(cfg or {}, ed, context="recommended", date=date)}</div></article>''')
+<a class="recommended-archive" href="e/{eid}/index.html">See past issues</a>{subscription_link(cfg or {}, ed)}</div></article>''')
     return ('<p id="age-memory" class="age-memory" role="status" hidden></p>'
             '<section id="recommendation" aria-label="Recommended paper" hidden>' + "".join(sections) + '</section>'
             '<div class="catalogue-heading"><h2 id="catalogue-title">Browse the newspapers</h2>'

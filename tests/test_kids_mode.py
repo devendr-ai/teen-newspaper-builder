@@ -104,7 +104,11 @@ def test_enabled_subscriptions_keep_the_app_gate_on_all_parent_forms(builds):
         pytest.skip('Subscription UI is disabled in site.yaml')
     endpoint = site.subscription_endpoint(site.site_config())
     for mode, root in builds.items():
-        for rel in ('index.html', 'parents.html', 'e/little-explorers/index.html'):
+        home = (root / 'index.html').read_text(encoding='utf-8')
+        assert 'class="recommended-archive subscription-signup"' in home
+        assert 'parents.html?edition=little-explorers#subscribe-parents-title' in home
+        assert '<form' not in home and 'fetch(' not in home
+        for rel in ('parents.html', 'e/little-explorers/index.html'):
             doc = (root / rel).read_text(encoding='utf-8')
             forms = re.findall(r'<form\b[^>]*data-gate-form="subscribe"[^>]*>', doc)
             assert forms, (mode, rel)
