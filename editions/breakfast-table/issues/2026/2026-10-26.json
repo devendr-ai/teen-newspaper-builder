@@ -372,7 +372,100 @@
         "max": 300,
         "why": "The IMD expects gusts of up to 140 kmph."
       }
-    ]
+    ],
+    "brief": {
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning! This is the Breakfast Table Brief from News Pebbles, for Monday, 26 October. I'm Maya."
+        },
+        {
+          "who": "sam",
+          "text": "And I'm Sam. Three big stories, in about three minutes. Ready?"
+        },
+        {
+          "who": "maya",
+          "text": "Let's go. First, Saudi Arabia. On Sunday, it reopened two terminals at King Khalid International, the main airport in its capital, Riyadh.",
+          "chapter": "Riyadh & oil"
+        },
+        {
+          "who": "sam",
+          "text": "Reopened? Why was it closed?"
+        },
+        {
+          "who": "maya",
+          "text": "It had been out of service for more than two weeks, after strikes by the Houthis. They're an armed group from Yemen, the country just south of Saudi Arabia. And the attacks didn't stop on reopening day. Saudi forces said they destroyed a missile and a drone."
+        },
+        {
+          "who": "sam",
+          "text": "Okay, here's my question. Why would an airport in Saudi Arabia change what people pay for fuel, all the way over here?"
+        },
+        {
+          "who": "maya",
+          "text": "Because the attacks have pushed up the price of oil, and oil is used to make fuel for cars, planes and ships. On Friday, Brent, one of the main oil prices, closed at $116.72 a barrel. That's its highest closing price since 29 April."
+        },
+        {
+          "who": "sam",
+          "text": "So is the world actually running out of oil?"
+        },
+        {
+          "who": "maya",
+          "text": "Not yet. One analysis says no barrels are missing. The price is jumping because traders are worried about what might happen next."
+        },
+        {
+          "who": "sam",
+          "text": "So just worrying can change a price. Huh."
+        },
+        {
+          "who": "maya",
+          "text": "Story two is a storm. A cyclone is a huge spinning storm that forms over warm sea. Cyclone Arnab is expected to cross the coast of Andhra Pradesh, in India, around the morning of 28 October.",
+          "chapter": "Cyclone Arnab"
+        },
+        {
+          "who": "sam",
+          "text": "How strong is it?"
+        },
+        {
+          "who": "maya",
+          "text": "India's weather office expects steady winds of 115 to 125 kilometres an hour, with gusts up to 140."
+        },
+        {
+          "who": "sam",
+          "text": "What are people doing to get ready?"
+        },
+        {
+          "who": "maya",
+          "text": "Fishermen have been told to stay off the sea, and almost all of Andhra Pradesh's fishing boats are back in port. Next door in Odisha, schools and colleges in five districts will stay shut on 28 and 29 October."
+        },
+        {
+          "who": "sam",
+          "text": "Story three is about voting. In America, the midterm elections are on 3 November. But lots of people aren't waiting.",
+          "chapter": "Early voting"
+        },
+        {
+          "who": "maya",
+          "text": "That's right. In Georgia, more than 1 million early votes have already been cast. And in Harris County, Texas, over 104,000 people voted in person on the very first day. That beat the old first-day record of 63,188, set in 2018."
+        },
+        {
+          "who": "sam",
+          "text": "Two quick ones before we get to school. Baseball: the Milwaukee Brewers lead the Tampa Bay Rays two games to none in the World Series. Game 3 is on Monday.",
+          "chapter": "Quick ones"
+        },
+        {
+          "who": "maya",
+          "text": "And in Serbia, millions voted on Sunday in an election where students challenged the long-time leader, Aleksandar Vucic."
+        },
+        {
+          "who": "sam",
+          "text": "Here's one to talk about on the way. Why might attacks on an airport in one country change what families pay for fuel in another?",
+          "chapter": "Talk about it"
+        },
+        {
+          "who": "maya",
+          "text": "Have a great day, everyone. See you tomorrow on News Pebbles."
+        }
+      ]
+    }
   },
   "threads": {
     "lead": "yemen-war"

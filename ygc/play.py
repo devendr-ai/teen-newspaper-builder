@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline
+from . import brand, brief, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline
 from .chat import sentences
 
 E = html.escape
@@ -590,7 +590,7 @@ self.addEventListener("fetch", (e) => {
     }));
     return;
   }
-  if (r.mode === "navigate") {              // pages: the newest from the network, else the one kept
+  if (r.mode === "navigate" || u.pathname.includes("/play/briefs/")) {   // pages and the car-ride brief: newest first, else the one kept
     e.respondWith(fetch(r).then((res) => keep(r, res))
       .catch(() => caches.match(r, { ignoreSearch: true }).then((hit) => hit || caches.match("index.html"))));
     return;
@@ -706,6 +706,12 @@ def build(out, cfg, keep=7, log=print):
                           "u": f"{eid}/{date}.html#s-{bid}"} for bid, h, w in places]
         if not latest:
             continue
+        if brief.wants(ed):                         # the car-ride brief: script now, audio from ygc.narration
+            os.makedirs(os.path.join(pdir, "briefs"), exist_ok=True)
+            for date, path in issues_of(ed)[:keep]:
+                issue = json.load(open(path, encoding="utf-8"))
+                if (issue.get("play") or {}).get("brief"):
+                    brief.write(os.path.join(pdir, "briefs", f"{date}.json"), brief.data(ed, issue, date))
         for date, _ in issues_of(ed)[keep:]:       # older papers: their QR codes open the newest
             open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(stub(cfg, ed, date, latest[0]))
         newest.append(f"{eid}/{latest[0]}.html")
@@ -737,7 +743,8 @@ data-old="threads/{thread_href(t["id"], "older")}"><span class="ic" aria-hidden=
 <main class="lobby front"><section class="today lobby-panel" id="today" aria-labelledby="h-today"><p class="motto">The world's news, one pebble a day.</p>
 <div class="pick"><h2>Who's reading? <span>How old are you?</span></h2><div class="whos">{who}<button type="button" class="who" data-band="">Show all</button></div></div>
 <p class="hello" hidden><span></span> <button type="button" class="change">Change age</button></p>
-<h2 id="h-today" tabindex="-1">📰 Today’s papers</h2><div class="tiles">{"".join(tiles)}</div></section>
+<h2 id="h-today" tabindex="-1">📰 Today’s papers</h2>
+<section class="brief" id="brief" data-src="briefs/latest.json" aria-label="Car-ride brief: today's news, read aloud" hidden></section><div class="tiles">{"".join(tiles)}</div></section>
 <section class="side lobby-panel" id="explore" aria-labelledby="h-explore"><h2 id="h-explore" class="view-title" tabindex="-1">Explore</h2>
 {big_row}{news_map}</section>
 <section class="me lobby-panel" id="me" aria-labelledby="h-pebbles"><h2 id="h-pebbles" class="view-title" tabindex="-1">My Pebbles</h2><div id="corner"></div><section class="myreading" id="badges" aria-label="My reading"></section>
@@ -2697,5 +2704,8 @@ JS = r"""
   }
 })();
 """
+CSS += brief.CSS
+JS += brief.JS
+
 
 JS += story_timeline.JS

@@ -242,6 +242,13 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
             script = '<script id="narration" type="application/json">' + payload + '</script>'
             page.write_text(source.replace('</head>', script + '</head>'), encoding='utf-8')
             log(f'  narration {page.relative_to(site)}: {sum(bool(v) for v in manifest.values())} sections')
+    try:                                    # the car-ride brief is extra: a failure never blocks the papers
+        brief_sentences, brief_recordings, made = briefs(site, cache, engine, ffmpeg, latest_only, log)
+        live_sentences |= brief_sentences
+        live_recordings |= brief_recordings
+        count += made
+    except Exception as e:                  # noqa: BLE001 (logged; the site publishes without a brief)
+        log(f'  ! brief audio skipped: {e}')
     # Bound the persistent cache to the retained reading window, not every historical issue.
     for folder, live in (('sentences', live_sentences), ('recordings', live_recordings)):
         for old in (cache / folder).glob('*'):
@@ -255,6 +262,91 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
         f'Voice: {voice}. No paid speech service or API key is used.\n')
     log(f'  narration ready: {count} section versions')
     return count
+
+
+def chime(rate):
+    """Two soft notes between the brief's stories."""
+    import math
+    out = bytearray(b'\0\0' * int(rate * .15))
+    for freq, length in ((880, .16), (1318.5, .32)):
+        n = int(rate * length)
+        for i in range(n):
+            out += int(5000 * math.sin(2 * math.pi * freq * i / rate) * math.exp(-4 * i / n)).to_bytes(2, 'little', signed=True)
+    return bytes(out) + b'\0\0' * int(rate * .3)
+
+
+def brief_recording(lines, cache, engine, ffmpeg):
+    """One MP3 for a two-host script; returns it with each line's start, the length and the size."""
+    from .brief import HOSTS
+    key = fingerprint(json.dumps([[ln['who'], ln['text']] for ln in lines], ensure_ascii=False), 'brief-v1')
+    mp3, timing = cache / 'recordings' / (key + '.mp3'), cache / 'recordings' / (key + '.json')
+    if not (mp3.exists() and timing.exists()):
+        mp3.parent.mkdir(parents=True, exist_ok=True)
+        starts, cursor, rate = [], 0.0, None
+        with tempfile.TemporaryDirectory() as tmp:
+            wav = Path(tmp) / 'brief.wav'
+            with wave.open(str(wav), 'wb') as out:
+                for i, ln in enumerate(lines):
+                    with wave.open(str(sentence_wav(ln['text'], HOSTS[ln['who']]['voice'], cache, engine)), 'rb') as src:
+                        if rate is None:
+                            rate = src.getframerate()
+                            out.setparams((1, 2, rate, 0, 'NONE', 'not compressed'))
+                        if src.getframerate() != rate or src.getnchannels() != 1 or src.getsampwidth() != 2:
+                            raise ValueError('Unexpected narration audio format')
+                        frames = src.readframes(src.getnframes())
+                    if i == 0 or (ln.get('chapter') and any(x.get('chapter') for x in lines[:i])):
+                        bell = chime(rate)
+                        out.writeframes(bell)
+                        cursor += len(bell) / (2 * rate)
+                    starts.append(round(cursor, 3))
+                    out.writeframes(frames + b'\0\0' * int(rate * .32))
+                    cursor += len(frames) / (2 * rate) + .32
+            temp = Path(tmp) / 'brief.mp3'
+            subprocess.run([ffmpeg, '-hide_banner', '-loglevel', 'error', '-y', '-i', str(wav), '-af',
+                            'loudnorm=I=-16:TP=-1.5', '-ac', '1', '-codec:a', 'libmp3lame', '-b:a', '64k', str(temp)],
+                           check=True)
+            shutil.copyfile(temp, mp3)
+        timing.write_text(json.dumps({'starts': starts, 'duration': round(cursor, 2)}))
+    t = json.loads(timing.read_text())
+    if len(t['starts']) != len(lines):
+        raise ValueError('Brief timing does not match the script')
+    return key, mp3, t
+
+
+def briefs(site, cache, engine, ffmpeg='ffmpeg', latest_only=False, log=print):
+    """Audio for play/briefs/<date>.json (ygc.brief), then briefs/latest.json and the podcast feed."""
+    from . import brief
+    from .brief import HOSTS
+    folder = site / 'play' / 'briefs'
+    (site / 'play' / 'audio').mkdir(exist_ok=True)
+    sentences, recordings, made, ready = set(), set(), 0, []
+    files = sorted((f for f in folder.glob('*.json') if re.fullmatch(r'\d{4}-\d{2}-\d{2}', f.stem)), reverse=True)
+    for n, f in enumerate(files):
+        data = json.loads(f.read_text(encoding='utf-8'))
+        lines = data.get('lines') or []
+        if not lines:
+            continue
+        sentences.update(fingerprint(ln['text'], HOSTS[ln['who']]['voice']) for ln in lines)
+        key = fingerprint(json.dumps([[ln['who'], ln['text']] for ln in lines], ensure_ascii=False), 'brief-v1')
+        recordings.add(key)
+        if latest_only and n and not all((cache / 'recordings' / (key + ext)).exists() for ext in ('.mp3', '.json')):
+            continue                                       # older briefs only from the cache
+        key, mp3, t = brief_recording(lines, cache, engine, ffmpeg)
+        audio = site / 'play' / 'audio' / mp3.name
+        shutil.copyfile(mp3, audio)
+        for ln, start in zip(lines, t['starts']):
+            ln['start'] = start
+        data.update(audio='audio/' + mp3.name, duration=t['duration'], bytes=audio.stat().st_size,
+                    marks=[{'title': ln['chapter'], 'start': ln['start']} for ln in lines if ln.get('chapter')])
+        brief.write(f, data)
+        ready.append(data)
+        made += 1
+        log(f'  brief {f.name}: {t["duration"]:.0f} s')
+    if ready:
+        brief.write(folder / 'latest.json', ready[0])
+        from .site import site_config
+        (site / 'play' / 'podcast.xml').write_text(brief.feed(site_config(), ready), encoding='utf-8')
+    return sentences, recordings, made
 
 
 def main():
