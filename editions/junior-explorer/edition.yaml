@@ -29,6 +29,9 @@ voice: >-
   words or fewer. Be honest about sad news, but never graphic: say what
   happened and who is helping, and skip frightening detail.
 
+# This paper's angle when a story also runs in other papers the same day (docs/ANGLES.md).
+lens: "How it works: the science, engineering or nature behind the story."
+
 cadence:
   every_days: 7
   window_hours: 168

@@ -23,6 +23,9 @@ purpose:
 
 voice: "Direct and analytical. Show the evidence, name the trade-offs and present competing arguments fairly."
 
+# This paper's angle when a story also runs in other papers the same day (docs/ANGLES.md).
+lens: "The full picture, kept broad: what happened, the key names, numbers and dates, and how the systems behind it work."
+
 cadence:
   every_days: 1
   window_hours: 24

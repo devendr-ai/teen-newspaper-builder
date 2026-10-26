@@ -23,6 +23,9 @@ purpose:
 
 voice: "Clear, engaging and intelligent. Use analogies a middle-schooler knows. Where people genuinely disagree, give each side in its own terms."
 
+# This paper's angle when a story also runs in other papers the same day (docs/ANGLES.md).
+lens: "How it reaches the UK and Europe: European governments, prices and people."
+
 cadence:
   every_days: 2
   window_hours: 48
