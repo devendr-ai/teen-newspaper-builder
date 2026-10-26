@@ -9,8 +9,23 @@ big ongoing story one page to catch up on, in Read & Play.
 - **On the Read & Play front page:** "🧵 Big stories right now", at most three, newest first,
   with "NEW TODAY" when today's papers carry news on them. Each opens the page at the reader's
   level (the age chosen under "Who's reading?").
-- **In a story:** one purple link under the headline, "New to this story? Read the story so
-  far", only on stories that belong to a thread.
+- **In any linked story, including later stories in a paper:** a compact purple
+  "Follow the thread" badge opens an inline horizontal timeline. Every story's
+  timeline starts collapsed and has independent controls. Stories keep their existing
+  reading order and layout; no new next-story navigation is introduced.
+- **The inline timeline:** up to six distinct published headlines from the 30 days
+  ending on that issue's publication date, oldest first. It prefers the same edition
+  and otherwise uses only the exact same age band. Duplicate consecutive headlines
+  are collapsed; the first and latest reports are retained. A dated editorial
+  timeline sentence supplies "What changed?" when available. No new facts or topic
+  matches are generated in the browser.
+- **Reading an earlier report:** the original article text and sources open within
+  that story's timeline, including reports older than the retained full issue pages.
+  Returning restores the selected update and page position. The selected publication
+  date is remembered on this device; panels still start collapsed on a new page load.
+  Older reports don't become part of the main edition's audio or reading rewards.
+- **Less than two distinct recent reports:** the existing "story so far" background
+  link remains available. Stories with no editorial thread link have no thread badge.
 - **On the printed paper:** one line at the end of such a story, "New to this story? Catch up
   with The story so far on Read & Play."
 - **The page itself** (`play/threads/<id>.html` for ages 6–11, `<id>-more.html` for 12+, with a
