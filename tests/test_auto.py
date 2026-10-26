@@ -222,3 +222,41 @@ def test_pool_option_fails_sources_outside_the_research(tmp_path, capsys):
     ip = tmp_path / "issue-pool.json"; ip.write_text(json.dumps(issue_pool))
     assert main(["check", LE_ISSUE, "--archive", "--no-build", "--pool", str(ip)]) == 1
     assert "blocks.lead.sources" in capsys.readouterr().out
+
+
+def test_pipeline_enriches_shared_research_before_writing(sandbox, monkeypatch):
+    from ygc.auto import enrichment
+    api = FakeAPI(first_draft_broken=False)
+    old_research = research.research_group
+    def eligible(*args, **kwargs):
+        group = old_research(*args, **kwargs)
+        for s in group['stories']:
+            s['enrichment_kind'] = 'context'
+            for source in s['sources']:
+                source.update(primary=True, published='2026-10-12')
+        return group
+    monkeypatch.setattr(research, 'research_group', eligible)
+    monkeypatch.setattr(enrichment, 'config', lambda: {'enabled':True,'max_stories':3,'max_content_tokens':4000})
+    calls=[]
+    evidence='Officials reopened one runway after safety inspections ended.'
+    def transport(payload):
+        calls.append(copy.deepcopy(payload))
+        if payload['system'] == enrichment.SYSTEM:
+            return {'stop_reason':'end_turn','usage':{},'content':[
+                {'type':'web_fetch_tool_result','content':{'type':'web_fetch_result','url':GOOD_URLS[0],
+                    'content':{'source':{'type':'text','data':evidence}}}},
+                {'type':'text','text':json.dumps({'details':[{'kind':'concrete_detail','fact':evidence,
+                    'source_url':GOOD_URLS[0],'evidence':evidence,'background':False}]})}]}
+        if payload['system'] == enrichment.CHECK_SYSTEM:
+            return {'stop_reason':'end_turn','usage':{},'content':[{'type':'text','text':'{"supported":[0]}'}]}
+        return api(payload)
+    rep=run.run(only=['young-global-citizen'],date_override='2026-10-12',transport=transport,log=lambda *_:None)
+    assert rep['editions']['young-global-citizen']['status']=='passed'
+    assert rep['enrichment']['selected']==1 and rep['enrichment']['stories'][0]['status']=='enriched'
+    assert sum(p['system']==enrichment.SYSTEM for p in calls)==1
+    research_pool=json.loads((sandbox/'data/pools/2026-10-12.json').read_text())
+    assert all(g['stories'][0]['key_facts'][-1]['fact']==evidence for g in research_pool.values())
+    writer_calls=[p for p in calls if p['system'].startswith('# ') and not p['system'].startswith('# The Big Question')]
+    assert writer_calls and evidence in writer_calls[0]['messages'][0]['content']
+    report=json.loads((sandbox/'data/runs/2026-10-12.json').read_text())
+    assert report['enrichment']['stories'][0]['fetched_urls']==[GOOD_URLS[0]]

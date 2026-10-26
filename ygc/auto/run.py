@@ -4,7 +4,7 @@ import json
 import os
 
 from .. import checks, edition, poster
-from . import poster_writer, research, writer
+from . import enrichment, poster_writer, research, writer
 from .llm import BudgetExceeded, Client, Usage
 
 DATA = os.path.join(edition.ROOT, "data")
@@ -81,6 +81,13 @@ def run(only=None, date_override=None, dry_run=False, budget=None, transport=Non
             report["stopped"] = str(e); break
         except Exception as e:
             report["research"][key] = {"error": str(e)[:300]}
+    # Optional depth is shared across editions; reserve the estimated writing spend.
+    try:
+        report["enrichment"] = enrichment.enrich(client, pool, run_date,
+            reserve_usd=max(0.5, est - ngroups * 0.30), log=log)
+    except Exception as exc:
+        report["enrichment"] = {"status": "unavailable", "error_type": type(exc).__name__}
+        log("enrichment unavailable; continuing with ordinary research")
     pool_path = os.path.join(DATA, "pools", f"{run_date.isoformat()}.json")
     os.makedirs(os.path.dirname(pool_path), exist_ok=True)
     json.dump(pool, open(pool_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

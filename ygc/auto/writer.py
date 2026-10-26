@@ -18,6 +18,7 @@ You are writing from a RESEARCH POOL that a research desk has already verified.
   Evergreen sections (Did You Know, explainers, vocabulary definitions) may use well-established general knowledge.
 - Every story's `sources` must be copied from the pool's sources for the stories you used: {"outlet", "title", "url"}.
 - Never use a story the pool marks "suitable_for_children": false in an edition for readers under 15.
+- Enriched key_facts carry short source evidence. Use a concrete detail or a brief mechanism only when it helps this reader understand; keep existing page/word limits. Background must not sound like today's new development. Never invent scenes, dialogue, feelings or comparisons.
 - Write in your own words. No quote longer than 15 words.
 - Reply with the complete issue as one JSON object and nothing else.
 """
@@ -27,7 +28,7 @@ MAX_ROUNDS = int(os.environ.get("YGC_MAX_REPAIR_ROUNDS", 4))
 FACTCHECK_SYSTEM = """You are a fact-checker. Compare a newspaper issue with the research pool it was written from.
 List every specific claim in the news stories, briefs, watchlist and sports item (names, numbers, dates, places,
 who said or did what) that the pool does not support, or that the pool contradicts. Ignore wording, style and
-evergreen background facts. Reply with JSON only: {"unsupported": [{"where": "blocks.<id>...", "claim": "...", "problem": "..."}]}"""
+evergreen background facts. Check enriched claims against their evidence passages too; reject exaggeration or missing qualifiers. Reply with JSON only: {"unsupported": [{"where": "blocks.<id>...", "claim": "...", "problem": "..."}]}"""
 
 
 def _avoid_list(ed, date):

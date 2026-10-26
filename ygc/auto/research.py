@@ -13,6 +13,8 @@ Search the web and report the most important verified stories for one desk. Rule
 - Every fact and number cites the URL of a page your search returned, and that page must support it.
 - Prefer original reporting and official sources (wire services, major newspapers, government and institutional sites).
 - Stay inside the time window; note the publication date of each source.
+- Classify enrichment_kind: mechanism for science/technology needing how-it-works detail; context for complex world, policy or economic developments; none for scores, results, routine announcements or stories already sufficiently explained.
+- Mark a source primary:true only for official first-hand material or original reporting, not aggregators.
 - Write facts in your own words. No quote longer than 15 words.
 - Reply with one JSON object only, no other text."""
 
@@ -28,7 +30,8 @@ SHAPE = """{
       "key_facts": [{"fact": "...", "source_url": "https://..."}],
       "numbers": [{"label": "...", "value": 0, "unit": "...", "source_url": "https://..."}],
       "geography": "places involved, and any coast, strait, river or island that matters",
-      "sources": [{"outlet": "...", "title": "...", "url": "https://...", "published": "YYYY-MM-DD"}]
+      "enrichment_kind": "mechanism | context | none",
+      "sources": [{"outlet": "...", "title": "...", "url": "https://...", "published": "YYYY-MM-DD", "primary": true}]
     }
   ]
 }"""
