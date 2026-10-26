@@ -24,6 +24,9 @@ purpose:
 
 voice: "Warm, simple and exact, like a favourite teacher. Honest about hard news without graphic detail."
 
+# This paper's angle when a story also runs in other papers the same day (docs/ANGLES.md).
+lens: "Where in the world and who is involved: the places, the people, and how far away it is."
+
 cadence:
   every_days: 1
   window_hours: 24

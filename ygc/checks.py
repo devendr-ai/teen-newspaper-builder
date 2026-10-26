@@ -12,7 +12,7 @@ import re
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.platypus import Paragraph
 
-from . import render
+from . import edition, render
 from .edition import placed_blocks, desk, story_blocks
 from .graphics import IllustrationCard
 from .styles import make_styles
@@ -530,6 +530,71 @@ def check_fit(ed, issue, r):
                    f"or rebalance")
 
 
+ANGLES_FROM = dt.date(2026, 10, 27)     # papers from this date on are held to their own angle (docs/ANGLES.md)
+COPY_LIMIT = 0.35                        # share of a story's four-word runs found in another paper's story
+
+
+def _shingles(text):
+    w = re.findall(r"[a-z0-9$%.']+", text.lower())
+    return {" ".join(w[i:i + 4]) for i in range(len(w) - 3)}
+
+
+def same_day_stories(ed, d, path):
+    """[(paper name, block id, story)] for the other papers' issues dated d."""
+    out = []
+    for other in glob.glob(os.path.join(edition.ROOT, "editions", "*", "issues", "*", f"{d}.json")):
+        if path and os.path.abspath(other) == os.path.abspath(path):
+            continue
+        eid = os.path.basename(os.path.dirname(os.path.dirname(os.path.dirname(other))))
+        if eid == ed["id"]:
+            continue
+        try:
+            oed, oissue = edition.load(eid), json.load(open(other, encoding="utf-8"))
+        except Exception:
+            continue
+        out += [(oed["name"], b, oissue["blocks"][b]) for b in story_blocks(oed) if isinstance(oissue["blocks"].get(b), dict)]
+    return out
+
+
+def check_copies(ed, issue, path, d, r):
+    """Each paper tells a shared story through its own angle and in its own words: no story may repeat
+    much of another paper's story from the same day, or its headline."""
+    if d is None or d < ANGLES_FROM:
+        return
+    others = same_day_stories(ed, d, path)
+    for bid in story_blocks(ed):
+        b = issue.get("blocks", {}).get(bid)
+        if not isinstance(b, dict):
+            continue
+        mine = _shingles(" ".join(str(x) for x in b.get("body") or []))
+        head = str(b.get("headline", "")).strip().lower()
+        for name, obid, o in others:
+            if head and head == str(o.get("headline", "")).strip().lower():
+                r.err(f"blocks.{bid}.headline is the same as {name}'s {obid} today; write this paper's own headline")
+            theirs = _shingles(" ".join(str(x) for x in o.get("body") or []))
+            if len(mine) < 20 or len(theirs) < 20:
+                continue
+            share = len(mine & theirs) / min(len(mine), len(theirs))
+            if share > COPY_LIMIT:
+                r.err(f"blocks.{bid} repeats {share:.0%} of {name}'s {obid} today; tell it through this paper's "
+                      f"angle ({(ed.get('lens') or 'its reader').rstrip('.')}) and in its own words")
+
+
+def check_lead_streak(ed, issue, path, d, r):
+    """A big story may lead day after day (news value first), but the paper should then lead with the new
+    development through its angle, or with another story when one is close in news value."""
+    if d is None:
+        return
+    lead = next(iter(story_blocks(ed)), None)
+    tid = (issue.get("threads") or {}).get(lead)
+    if not tid:
+        return
+    prev = archived(ed, d, exclude=path, n=2)
+    if len(prev) == 2 and all((old.get("threads") or {}).get(lead) == tid for _, _, old in prev):
+        r.note(f"the {tid} story has led this paper three issues running: lead with today's new development "
+               f"through this paper's angle, or with another story if one is close in news value")
+
+
 def check_issue(ed, issue, path, archive=False, as_of=None):
     r = Report()
     d = check_identity(ed, issue, path, r, archive, as_of)
@@ -540,6 +605,8 @@ def check_issue(ed, issue, path, archive=False, as_of=None):
     check_sources(ed, issue, r, archive)
     check_play(ed, issue, r)
     check_threads(ed, issue, r)
+    check_copies(ed, issue, path, d, r)
+    check_lead_streak(ed, issue, path, d, r)
     if not unbuildable(r):
         try:
             check_fit(ed, issue, r)

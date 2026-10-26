@@ -292,6 +292,10 @@
           }
         }
       }
+    },
+    "lens": {
+      "type": "string",
+      "description": "This paper's angle when a story also runs in other papers the same day (docs/ANGLES.md)."
     }
   }
 }

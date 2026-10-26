@@ -174,6 +174,8 @@ def validate(ed, edition_id):
     for k in ("audience", "focus", "blurb"):
         if k in site and not isinstance(site[k], str):
             e.append(f"site.{k} must be text")
+    if "lens" in ed and not (isinstance(ed["lens"], str) and ed["lens"].strip()):
+        e.append("lens must be a sentence: this paper's angle on a story other papers also run")
     if "audio_brief" in site and not isinstance(site["audio_brief"], bool):
         e.append("site.audio_brief must be true or false")
     if pages and not pages[0].get("masthead"):

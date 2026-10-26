@@ -14,6 +14,17 @@
 
 
 
+## Angles: the same big story, a different paper
+
+- Each paper has a `lens` in its edition.yaml, added to its prompt: the angle it takes when a
+  story also runs in other papers that day. The Little Explorer keeps no lens (its mix of world
+  news and discoveries), and The Current Affairs Digest's is deliberately broad.
+- The nightly run plans the day first (`data/plans/<date>.json`, `ygc plan`): each paper's lead
+  and angle, different angles for papers that share a lead, and pool facts behind every angle.
+- `ygc check` fails a story that repeats more than 35% of another paper's story the same day, or
+  its headline (issues from 27 October 2026), holds the lead to the plan with `--plan`, and notes
+  a big story that has led three issues running. A new craft rule says why. See docs/ANGLES.md.
+
 ## The car-ride brief (test), on Read & Play
 
 - The Breakfast Table now carries a three-minute script for two AI hosts, Maya and Sam

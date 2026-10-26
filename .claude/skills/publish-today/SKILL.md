@@ -131,6 +131,25 @@ For each returned candidate only:
    and per-story status/source URLs. If time or usage is tight, log `budget_reserved`
    and continue with ordinary research rather than delaying the papers.
 
+## 1c. Plan the day's angles (before any paper)
+
+Families with more than one child read several papers, so the papers must not be
+clones. Each paper has a `lens` (in `ygc due --json`; see `docs/ANGLES.md`).
+
+1. For each due paper, pick its lead from the pool on news value alone. The day's
+   biggest story may lead several papers; that is fine.
+2. For each lead, write one sentence saying how this paper will tell it, from its
+   lens (The Little Explorer has no lens: its usual mix of world news and
+   discoveries). Papers that share a lead take **different** angles.
+3. Every angle must rest on facts in the pool. If an angle needs a fact the pool
+   doesn't have (say, how flights reroute), search for it now and add it to that
+   story's `key_facts` with its source, or choose another angle. Never write an
+   angle from memory.
+4. Save `data/plans/$D.json`:
+   `{"date": "$D", "papers": {"<id>": {"lead": "<pool story id>", "angle": "..."}}}`
+   and run `$PY -m ygc plan data/plans/$D.json --pool data/pools/$D.json` until
+   it passes. Commit the plan with the papers.
+
 ## 2. Write and check each due paper
 
 For each paper in `ygc due`, one at a time:
@@ -146,8 +165,11 @@ For each paper in `ygc due`, one at a time:
    invented colour or turn labelled background into a new development.
 3. Write the JSON over the skeleton, then check it against the pool:
    ```bash
-   $PY -m ygc check editions/<id>/issues/<year>/$D.json --pool data/pools/$D.json
+   $PY -m ygc check editions/<id>/issues/<year>/$D.json --pool data/pools/$D.json --plan data/plans/$D.json
    ```
+   The lead must be the planned story, told through the planned angle. `check`
+   also fails a story that repeats much of another paper's story today, or its
+   headline: rewrite it through this paper's angle in its own words.
    Fix every ERROR in the content (never edit the engine, the edition or the
    tests to get a pass). The `play` section is part of the paper: the games,
    `where` for the maps, `numbers` for Guess the number (2 numbers the stories

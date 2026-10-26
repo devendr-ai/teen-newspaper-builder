@@ -31,6 +31,9 @@ voice: >-
   and Reader's Digest. Use analogies a middle-schooler knows. Avoid bias; where
   people genuinely disagree, give each side in its own terms.
 
+# This paper's angle when a story also runs in other papers the same day (docs/ANGLES.md).
+lens: "What it means for families in the United States and India."
+
 cadence:
   every_days: 2
   window_hours: 48

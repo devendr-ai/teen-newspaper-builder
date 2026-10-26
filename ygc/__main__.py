@@ -15,8 +15,10 @@
   new-poster <edition> [--date D]   start a "Big Question" poster from a skeleton
   poster <poster.json> [--pool P]   check a poster and build its PDF and page image
   thread [<thread.json> ...]        check "the story so far" threads (all of threads/ when none given)
+  plan <plan.json> [--pool P]       check the day's angle plan: each due paper's lead and angle (docs/ANGLES.md)
 
   --pool data/pools/<date>.json also fails any source URL that is not in that research pool.
+  check --plan data/plans/<date>.json also fails a lead that isn't the planned story.
 """
 import argparse
 import datetime as dt
@@ -99,6 +101,14 @@ def cmd_check(a):
                  for bid, b in issue.get("blocks", {}).items() if isinstance(b, dict)
                  for s in b.get("sources", []) or []]
         r.errors += _pool_errors(a.pool, [u for _, u in found], [w for w, _ in found])
+    if a.plan:
+        from . import plan as day_plan
+        if not a.pool:
+            r.err("--plan needs --pool, to know the planned lead story's sources")
+        else:
+            lead = next(iter(edition.story_blocks(ed)), None)
+            r.errors += day_plan.lead_errors(day_plan.load(a.plan), json.load(open(a.pool, encoding="utf-8")),
+                                             ed["id"], issue, lead)
     pdf = None
     if a.no_build:
         pass
@@ -202,6 +212,7 @@ def cmd_due(a):
                     "file": os.path.relpath(os.path.join(checks.issues_dir(ed), str(d.year), f"{d}.json"),
                                             edition.ROOT),
                     "poster": bool((ed.get("automation") or {}).get("poster")),
+                    "lens": ed.get("lens", ""),
                     "avoid_vocab": vocab, "avoid_did_you_know": dyk, "previous_headlines": heads[:8]})
     eds = [edition.load(x["edition"]) for x in out]
     desks = {k: {"label": g["label"], "hours": g["hours"], "scopes": g["scopes"], "editions": g["editions"]}
@@ -219,6 +230,25 @@ def cmd_due(a):
         print(f"research  {g['label']:12} {g['hours']}h  for {', '.join(g['editions'])}")
     print_thread_review(review)
     return 0
+
+
+def cmd_plan(a):
+    """Check the day's angle plan (ygc/plan.py, docs/ANGLES.md)."""
+    from . import plan as day_plan
+    from .auto import run
+    p = day_plan.load(a.plan)
+    pool = json.load(open(a.pool, encoding="utf-8")) if a.pool else None
+    due = None
+    if p.get("date"):
+        d = dt.date.fromisoformat(p["date"])
+        due = [e for e in edition.list_editions() if run.is_due(edition.load(e), d)]
+    errors, notes = day_plan.check(p, pool, due)
+    for m in errors:
+        print(f"  ERROR    {m}")
+    for m in notes:
+        print(f"  note     {m}")
+    print(f"  RESULT   {'FAIL' if errors else 'PASS'}")
+    return 1 if errors else 0
 
 
 def print_thread_review(rows):
@@ -325,7 +355,7 @@ def main(argv=None):
     p = sub.add_parser("new"); p.add_argument("edition"); p.add_argument("--date")
     p = sub.add_parser("check"); p.add_argument("issue"); p.add_argument("--archive", action="store_true")
     p.add_argument("--out", default=OUT); p.add_argument("--no-build", action="store_true")
-    p.add_argument("--pool")
+    p.add_argument("--pool"); p.add_argument("--plan", help="data/plans/<date>.json: hold the lead to the day's plan")
     p = sub.add_parser("build"); p.add_argument("issue"); p.add_argument("--out", default=OUT)
     p = sub.add_parser("prompt"); p.add_argument("edition")
     p.add_argument("--stdout", action="store_true"); p.add_argument("--verify", action="store_true")
@@ -342,6 +372,7 @@ def main(argv=None):
     p = sub.add_parser("poster"); p.add_argument("poster"); p.add_argument("--out", default=OUT)
     p.add_argument("--pool")
     p = sub.add_parser("due"); p.add_argument("--date"); p.add_argument("--json", action="store_true")
+    p = sub.add_parser("plan"); p.add_argument("plan"); p.add_argument("--pool")
     p = sub.add_parser("thread"); p.add_argument("files", nargs="*")
     p.add_argument("--review", action="store_true", help="flag recurring headline coverage missing thread links")
     p.add_argument("--date", help="YYYY-MM-DD for the seven-day coverage review")
@@ -351,7 +382,7 @@ def main(argv=None):
                 "prompt": cmd_prompt, "create-edition": cmd_create_edition,
                 "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site,
                 "new-poster": cmd_new_poster, "poster": cmd_poster, "due": cmd_due,
-                "thread": cmd_thread, "vendor": cmd_vendor}[a.cmd](a) or 0
+                "thread": cmd_thread, "vendor": cmd_vendor, "plan": cmd_plan}[a.cmd](a) or 0
     except edition.EditionError as e:
         print(f"edition error: {e}", file=sys.stderr)
         return 2

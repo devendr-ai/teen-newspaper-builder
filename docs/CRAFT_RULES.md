@@ -64,3 +64,10 @@ A story must never be picked, or bent, to suit the map or the chart.
 *Set 2026-09-01.* A session's built-in date said August 25 while the real date
 was September 1; an issue went out a week stale and misnumbered. `check`
 enforces this in the edition's timezone.
+
+### Rule: When a story runs in several papers on the same day, tell it through this paper's own angle and in its own words.
+
+*Set 2026-10-26.* On 24 October three papers for different ages printed the same lead
+word for word, and two papers for 9 to 11 shared most of theirs. Families with more than
+one child read clones. The biggest story may still lead everywhere; what changes is the
+angle (each paper's `lens`), and `ygc check` fails a story that repeats another paper's.
