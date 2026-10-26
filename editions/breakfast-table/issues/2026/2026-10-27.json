@@ -1,0 +1,446 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-27",
+  "volume": 1,
+  "issue": 16,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA",
+      "headline": "Houthis Say They Hit Saudi Oil Pumping Stations",
+      "deck": "The group also says it attacked Riyadh's airport again, a day after two terminals reopened.",
+      "body": [
+        "The East-West pipeline is about 1,200 kilometres long and carries Saudi crude oil across the country. On Monday the Houthis, an armed group in Yemen, said they had attacked its pumping stations and the airport in Riyadh, the capital. Saudi Arabia did not confirm the attacks.",
+        "The pipeline matters because the Strait of Hormuz, a narrow sea lane that ships normally use to leave the Gulf, has been largely shut by the war. That makes the pipeline an important way for oil to leave.",
+        "What does this mean at home? In the United States, the average price of a gallon of petrol was $4.28 on Sunday, according to the motoring group AAA. Oil prices eased on Monday after rising close to a six-month high last week."
+      ],
+      "map": {
+        "title": "THE RED SEA",
+        "label_top": "SAUDI ARABIA (ASIA)",
+        "label_bottom": "AFRICA",
+        "footnote": "The Red Sea lies between Saudi Arabia and Africa",
+        "caption": "The East-West pipeline carries oil across Saudi Arabia to the Red Sea coast."
+      },
+      "why": "Oil from the Gulf fuels cars, planes and ships everywhere, so a threat to one pipeline can change what families pay far away.",
+      "sources": [
+        {
+          "outlet": "Reuters (via BusinessWorld)",
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+        },
+        {
+          "outlet": "Reuters (via Investing.com)",
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+        },
+        {
+          "outlet": "Everything Briefing",
+          "title": "Gas prices, election rallies and today's developments",
+          "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+        },
+        {
+          "outlet": "Kotak Neo",
+          "title": "Sensex and Nifty 50 end higher after volatile trade",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  BRAZIL",
+      "headline": "Lula Wins Brazil's Presidential Election",
+      "deck": "His rival says he will try to have the result cancelled.",
+      "body": [
+        "Brazil, the biggest country in South America, voted for a president on Sunday. It was a second round, called a runoff, between the two candidates who did best in the first round. Luiz Inacio Lula da Silva won with just over 51% of the votes. Senator Flavio Bolsonaro got 48%.",
+        "The contest was close. In the first round on 4 October, Bolsonaro led 47% to 45%, but neither man reached the 50% needed to win. Brazilian shares fell sharply after the result, according to CNBC.",
+        "Lula won by more than 4 million votes, with counting still going. Bolsonaro has not accepted the result. He said it was impossible to acknowledge and that he will seek to annul it. He objects to a Supreme Court decision to keep voting open two hours longer, until 7pm. Lula's allies said voting was made harder in some areas, pointing to suspended public transport.",
+        "Lula will take office on 5 January 2027. At 80, he will be the oldest president to be sworn in since Brazil returned to democracy. He will face a Congress that leans to the right, which could slow down his plans."
+      ],
+      "chart": {
+        "title": "BRAZIL'S RUNOFF",
+        "subtitle": "Share of votes, Sunday",
+        "labels": [
+          "Lula",
+          "Bolsonaro"
+        ],
+        "values": [
+          51,
+          48
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Lula's share was just over 51%. Counting was still under way. Source: Al Jazeera."
+      },
+      "connect": "Flavio Bolsonaro's father, Jair, lost to Lula in 2022 and is now serving 27 years in prison for plotting a coup after that defeat.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Lula holds off far right with victory in Brazil presidential election",
+          "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
+          "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  MONEY",
+      "headline": "The Federal Reserve Meets as Families Watch Loan Costs",
+      "deck": "Most coverage expects it to leave its rate unchanged on Wednesday.",
+      "body": [
+        "The Federal Reserve is the United States' central bank. It sets a key interest rate, which is the price of borrowing money. When that rate moves, the cost of loans for homes, cars and credit cards can move with it. The Fed meets on 27 and 28 October.",
+        "In September it raised its rate by a quarter of a percentage point, to a range of 3.75% to 4.00%. On 20 October, the CME FedWatch tool put the chance of no change at about 83%, and of another rise at about 17%. The decision comes at 2pm Eastern Time on Wednesday.",
+        "The Fed's chair, Kevin Warsh, has not said what the Fed will do."
+      ],
+      "why": "Interest rates decide how much extra a family pays back on a loan, so the Fed's choice reaches many kitchen tables.",
+      "also": [
+        "Midterms: Early voting begins in Washington DC on Monday, in Oklahoma on Wednesday and in Kentucky on Thursday. Election Day is 3 November.",
+        "Senate: Fox News lists Alaska, Iowa, Maine, Michigan, Ohio and Texas as toss-up Senate races."
+      ],
+      "sources": [
+        {
+          "outlet": "Nora Real Estate",
+          "title": "Interest rate predictions October 2026",
+          "url": "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/"
+        },
+        {
+          "outlet": "CoinGape",
+          "title": "Will the Fed raise interest rates after the October 2026 meeting?",
+          "url": "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/"
+        },
+        {
+          "outlet": "Everything Briefing",
+          "title": "Gas prices, election rallies and today's developments",
+          "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Serbia: A new Student List won Sunday's early election, and long-time leader Aleksandar Vucic said it had won; official results were still to come.",
+        "Israel: Voters choose a new parliament on Tuesday, and the final polls show neither side clearly winning the 61 seats it needs."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might an attack on a pipeline in Saudi Arabia change what a family pays for petrol far away?",
+        "Why do you think schools close and boats return to shore before a cyclone arrives?",
+        "What should a leader do when they lose an election, and why does it matter that they accept it?"
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters (via BusinessWorld)",
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+        },
+        {
+          "outlet": "Reuters (via Investing.com)",
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+        },
+        {
+          "outlet": "Asianet Newsable (ANI)",
+          "title": "Severe Cyclone Arnab likely to intensify before Andhra coast landfall",
+          "url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+        },
+        {
+          "outlet": "Vajiram & Ravi",
+          "title": "Cyclone Arnab 2026",
+          "url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Lula holds off far right with victory in Brazil presidential election",
+          "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Cyclone Arnab Is Due to Cross India's Coast on 28 October",
+      "deck": "Schools shut in five districts of Odisha as the storm grows over the sea.",
+      "body": [
+        "A cyclone is a giant storm that spins over warm sea water. Arnab is moving across the Bay of Bengal towards the coast of Andhra Pradesh, a state on India's east side. India's weather office says it could become a very severe cyclonic storm before it crosses the coast on the morning of 28 October.",
+        "The storm is expected to come ashore between Bapatla and Visakhapatnam. Winds could blow at 115 to 125 kilometres an hour, with gusts of 140. Heavy rain is forecast in Odisha, the state to the north, from 27 October, with extremely heavy rain on 28 October.",
+        "Families are being asked to get ready. Schools, colleges and Anganwadi centres, which look after young children, will close on 28 and 29 October in Ganjam, Gajapati, Rayagada, Koraput and Malkangiri. Fishing has stopped, and Odisha has 302 rescue teams on standby."
+      ],
+      "why": "A storm warning helps only if families hear it early, which is why schools close and boats return before the wind arrives.",
+      "sources": [
+        {
+          "outlet": "Asianet Newsable (ANI)",
+          "title": "Severe Cyclone Arnab likely to intensify before Andhra coast landfall",
+          "url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+        },
+        {
+          "outlet": "Vajiram & Ravi",
+          "title": "Cyclone Arnab 2026",
+          "url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "BASEBALL: BREWERS LEAD THE WORLD SERIES 2-0",
+      "body": "The Milwaukee Brewers beat the Tampa Bay Rays 5-4 in Game 2 after the Rays scored four runs in the first inning. <b>Sal Frelick</b> hit a home run in the sixth to tie it, and <b>Cooper Pratt</b>'s single in the seventh put Milwaukee ahead. Game 3 is on Monday night in St. Petersburg, Florida, where the Rays start <b>Freddy Peralta</b>, who pitched for the Brewers from 2018 to 2025.",
+      "sources": [
+        {
+          "outlet": "ESPN",
+          "title": "World Series Game 2: Takeaways from Brewers' win over Rays",
+          "url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways"
+        },
+        {
+          "outlet": "FOX Sports",
+          "title": "Brewers bring 2-0 World Series lead into Game 3 against Rays",
+          "url": "https://www.foxsports.com/articles/mlb/brewers-bring-20-world-series-lead-into-game-3-against-rays"
+        },
+        {
+          "outlet": "FOX 11",
+          "title": "Friend to foe: Brewers face Freddy Peralta in World Series Game 3",
+          "url": "https://fox11online.com/sports/brewers-and-mlb/freddy-peralta-world-series-game-3-starting-pitcher-tampa-bay-rays-milwaukee"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What the Federal Reserve decides on Wednesday.",
+        "Whether Cyclone Arnab crosses the coast on the morning of 28 October as forecast."
+      ]
+    },
+    "quote": {
+      "text": "A good plan made early is worth more than a hurry made late.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/",
+    "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874",
+    "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+    "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+    "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+    "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+    "https://www.noradarealestate.com/blog/interest-rate-predictions-october-2026/",
+    "https://coingape.com/prediction-markets/will-the-fed-raise-interest-rates-after-the-october-2026-meeting-odds-split-50-50/",
+    "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb",
+    "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/",
+    "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/",
+    "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+    "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a",
+    "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority",
+    "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways",
+    "https://www.foxsports.com/articles/mlb/brewers-bring-20-world-series-lead-into-game-3-against-rays",
+    "https://fox11online.com/sports/brewers-and-mlb/freddy-peralta-world-series-game-3-starting-pitcher-tampa-bay-rays-milwaukee"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "About how long is Saudi Arabia's East-West pipeline?",
+        "options": [
+          "1,200 kilometres",
+          "120 kilometres",
+          "12,000 kilometres"
+        ],
+        "answer": 0,
+        "why": "The paper says it is about 1,200 kilometres long.",
+        "story": "lead"
+      },
+      {
+        "q": "What share of the vote did Lula win in Brazil?",
+        "options": [
+          "Just under 40%",
+          "Just over 51%",
+          "Just over 70%"
+        ],
+        "answer": 1,
+        "why": "Lula won just over 51% of the votes.",
+        "story": "world"
+      },
+      {
+        "q": "What did the Fed raise its rate to in September?",
+        "options": [
+          "2.00% to 2.25%",
+          "3.75% to 4.00%",
+          "5.75% to 6.00%"
+        ],
+        "answer": 1,
+        "why": "It raised the range to 3.75% to 4.00%.",
+        "story": "us"
+      },
+      {
+        "q": "Where is Cyclone Arnab expected to cross the coast?",
+        "options": [
+          "Between Bapatla and Visakhapatnam",
+          "Near Mumbai",
+          "Near Kolkata"
+        ],
+        "answer": 0,
+        "why": "The weather office expects it between Bapatla and Visakhapatnam.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Houthis said they attacked Saudi pumping stations and Riyadh's airport.",
+        "true": true,
+        "why": "Saudi Arabia did not confirm the attacks.",
+        "story": "lead"
+      },
+      {
+        "claim": "Lula will be sworn in on 5 January 2027.",
+        "true": true,
+        "why": "He will take office on 5 January 2027.",
+        "story": "world"
+      },
+      {
+        "claim": "Odisha has closed schools in fifty districts.",
+        "true": false,
+        "why": "Schools close in five districts: Ganjam, Gajapati, Rayagada, Koraput and Malkangiri.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Riyadh",
+        "lat": 24.71,
+        "lon": 46.68,
+        "countries": [
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Brasilia",
+        "lat": -15.79,
+        "lon": -47.88,
+        "countries": [
+          "Brazil"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "What was the average price of a gallon of petrol in the US on Sunday, in dollars?",
+        "answer": 4.28,
+        "prefix": "$",
+        "unit": "",
+        "min": 1,
+        "max": 10,
+        "why": "AAA said the average was $4.28 a gallon."
+      },
+      {
+        "story": "india",
+        "q": "How many rescue teams does Odisha have on standby?",
+        "answer": 302,
+        "prefix": "",
+        "unit": "teams",
+        "min": 20,
+        "max": 2000,
+        "why": "Odisha has 302 rescue teams ready."
+      }
+    ],
+    "brief": {
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning! This is the Breakfast Table Brief from News Pebbles, for Tuesday, 27 October. I'm Maya."
+        },
+        {
+          "who": "sam",
+          "text": "And I'm Sam. A few big stories in about three minutes. Ready?"
+        },
+        {
+          "who": "maya",
+          "text": "Let's go. First, Saudi Arabia. On Monday the Houthis, an armed group in Yemen, said they had attacked the pumping stations of Saudi Arabia's East-West pipeline, and the airport in Riyadh.",
+          "chapter": "Riyadh & oil"
+        },
+        {
+          "who": "sam",
+          "text": "Wait, what does a pipeline do?"
+        },
+        {
+          "who": "maya",
+          "text": "It carries crude oil across the country. This one is about 1,200 kilometres long. It matters because the Strait of Hormuz, a narrow sea lane for ships, has been largely shut by the war. Saudi Arabia did not confirm the attacks."
+        },
+        {
+          "who": "sam",
+          "text": "So why would that change what people pay for petrol here?"
+        },
+        {
+          "who": "maya",
+          "text": "Oil from the Gulf is used to make fuel for cars, planes and ships. In the United States, the average price of a gallon of petrol was $4.28 on Sunday, according to AAA. Oil prices eased on Monday, but traders are watching."
+        },
+        {
+          "who": "sam",
+          "text": "Okay. What's next?"
+        },
+        {
+          "who": "maya",
+          "text": "Now, India. Cyclone Arnab is growing over the Bay of Bengal and is due to cross the coast of Andhra Pradesh on the morning of 28 October. Winds could blow at 115 to 125 kilometres an hour.",
+          "chapter": "Cyclone Arnab"
+        },
+        {
+          "who": "sam",
+          "text": "What are people doing to get ready?"
+        },
+        {
+          "who": "maya",
+          "text": "Schools close in five districts of Odisha, fishing has stopped, and Odisha has 302 rescue teams on standby."
+        },
+        {
+          "who": "maya",
+          "text": "Brazil. Luiz Inacio Lula da Silva won the presidential runoff with just over 51% of the votes. Flavio Bolsonaro got 48%. Bolsonaro says he will seek to annul the result.",
+          "chapter": "Brazil's vote"
+        },
+        {
+          "who": "sam",
+          "text": "Annul? That means cancel it, right?"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. Lula will take office on 5 January 2027."
+        },
+        {
+          "who": "maya",
+          "text": "And in the United States, the Federal Reserve meets this week. It sets a key interest rate, the price of borrowing money. It decides on Wednesday.",
+          "chapter": "The Fed"
+        },
+        {
+          "who": "sam",
+          "text": "So, quick round-up?"
+        },
+        {
+          "who": "maya",
+          "text": "Oil and a pipeline in Saudi Arabia, Lula wins in Brazil, a storm heading for India's coast, and the Fed meets on Wednesday."
+        },
+        {
+          "who": "sam",
+          "text": "Here's one for the car. Why might an attack on a pipeline in Saudi Arabia change what a family pays for petrol far away? Have a great day!"
+        }
+      ]
+    }
+  },
+  "threads": {
+    "lead": "yemen-war"
+  }
+}

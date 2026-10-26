@@ -1,0 +1,442 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-10-27",
+  "volume": 1,
+  "issue": 177,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SAUDI ARABIA",
+      "headline": "Houthis Say They Struck the Pipeline That Lets Saudi Oil Avoid Hormuz",
+      "deck": "Reuters reports the group's claims on Monday; Saudi Arabia has not confirmed them.",
+      "body": [
+        "Saudi Arabia sends much of its oil out through one sea lane, the Strait of Hormuz at the mouth of the Gulf. That lane has been largely shut by the war, so a Saudi pipeline now matters more. The East-West pipeline is about 1,200 kilometres long and gives Saudi crude a route to the Red Sea coast instead.",
+        "On Monday the Houthis, an armed group from Yemen, said they hit the pipeline's crude pumping stations and Riyadh's King Khalid International Airport. They made similar claims on Saturday, naming an Aramco site in Yanbu and the Rabigh refinery. There was no immediate Saudi confirmation. The airport had reopened two terminals on Sunday, after an attack earlier this month that Reuters says killed 13 people.",
+        "The Saudi-led coalition says it destroyed two ballistic missile launchers in Sanaa, Yemen's capital, and five tunnels used to store missiles. Houthi media say Saudi strikes killed 16 people, a figure that could not be checked. Strikes have intensified since the Houthis captured strategic areas on Yemen's Red Sea coast last month, moving towards the Bab el-Mandeb Strait, a key route for Gulf oil. The fighting has effectively ended a UN-brokered truce that had largely held since 2022.",
+        "For families, the link is the pump. The American Automobile Association (AAA) says the average US price was $4.28 a gallon on Sunday. India buys much of its oil from abroad, and its Sensex share index rose 482.92 points on Monday as oil prices eased, after four days of falls."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN (ASIA)",
+        "label_bottom": "OMAN (ARABIAN PENINSULA)",
+        "footnote": "With this lane largely shut, the Saudi pipeline is a way around it",
+        "caption": "The East-West pipeline carries Saudi crude to the Red Sea coast."
+      },
+      "why": "When a pipeline or a sea lane that carries oil is threatened, the worry spreads to petrol pumps in the US and to India's import bill.",
+      "sources": [
+        {
+          "outlet": "Reuters (via BusinessWorld)",
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/"
+        },
+        {
+          "outlet": "Reuters (via Investing.com)",
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "url": "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874"
+        },
+        {
+          "outlet": "Everything Briefing",
+          "title": "Gas prices, election rallies and today's developments",
+          "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+        },
+        {
+          "outlet": "Kotak Neo",
+          "title": "Sensex and Nifty 50 end higher after volatile trade",
+          "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Stock Market Today: Sensex, Nifty Snap 4-Day Losing Streak",
+          "url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ISRAEL",
+      "headline": "Israel Votes With Neither Side Near a Majority",
+      "deck": "The final polls point to deadlock, and Arab parties could decide who governs.",
+      "body": [
+        "Israel holds a parliamentary election on Tuesday 27 October. Unlike in the United States, voters do not pick a prime minister directly. They choose parties for the 120-seat parliament, the Knesset, and the leader who can build a governing coalition becomes prime minister. A coalition is a group of parties that agree to govern together, and it needs 61 seats.",
+        "The final polls from three TV channels give Benjamin Netanyahu's right-wing and religious bloc 50 seats. They give the opposition 'change bloc', led by former defence chief Gadi Eisenkot, between 52 and 56. Eisenkot's party, Yashar, is projected as the largest with 22 seats, ahead of Netanyahu's Likud with 20. One poll by Direct Polls, quoted by i24NEWS, put Netanyahu's bloc at 59.",
+        "Security shapes the vote. NBC News describes it as a battle for survival for Netanyahu after the attacks of 7 October 2023. Israel will close West Bank crossings on election day, and Netanyahu has been pressing US President Donald Trump for more support before a tight race. Ynet reports that the final polls put Eisenkot's party ahead of Likud.",
+        "Small parties could matter too. The Kan poll puts Amcha Israel at 2.9%, below the electoral threshold, the minimum share of votes a party needs to win any seats. Votes for a party that falls short win no seats at all, which can change the arithmetic of both blocs.",
+        "Neither camp reaches 61, and that is why the Arab parties matter. They are projected to win 14 to 16 seats and are counted in neither bloc. Coalition talks could be hard, and another election is possible if no government forms."
+      ],
+      "illustration": {
+        "title": "120 SEATS, 61 TO RULE",
+        "subtitle": "Israel's Knesset",
+        "motif": "ballot",
+        "caption": "Final polls: neither side reaches 61 seats."
+      },
+      "connect": "In the US, voters pick a president directly. In Israel, voters pick a parliament, so deals between parties decide who becomes prime minister.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Israel election: What to know as Netanyahu faces battle for survival after Oct. 7 attacks",
+          "url": "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972"
+        },
+        {
+          "outlet": "The Jewish Chronicle",
+          "title": "Final polls before 2026 Israeli elections predict coalition deadlock",
+          "url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a"
+        },
+        {
+          "outlet": "i24NEWS",
+          "title": "Final election polls point to deadlock as neither bloc secures a majority",
+          "url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+        },
+        {
+          "outlet": "Ynet",
+          "title": "Final Israel election polls put Eisenkot's Yashar ahead of Likud, but neither bloc wins a majority",
+          "url": "https://www.ynetnews.com/article/s1wppltnme"
+        },
+        {
+          "outlet": "Everything Briefing",
+          "title": "Gas prices, election rallies and today's developments",
+          "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Cyclone Arnab Gathers Strength Before Its Landfall",
+      "deck": "Odisha shuts schools and Andhra Pradesh waits for winds of up to 125 km an hour.",
+      "body": [
+        "Cyclone Arnab is still over the sea. At 5:30pm on Monday, India's weather office said it was a severe cyclonic storm about 490 kilometres east-south-east of Visakhapatnam, and expected it to become a very severe one within 12 hours.",
+        "The office forecasts that it will cross the coast between Bapatla and Visakhapatnam, near Yanam, by the forenoon of 28 October. Winds at the coast could average 115 to 125 km an hour, with gusts to 140. A red-message warning covers the Andhra Pradesh and south Odisha coasts. The rain is expected to continue into 29 October and ease from 30 October.",
+        "For families on the coast, the preparations are practical. Schools, colleges and Anganwadi centres close in five Odisha districts on 28 and 29 October. Odisha has 302 rescue teams on standby, and 225 fire service teams and NDRF personnel have been deployed. Fishing is suspended, and more than 4,800 boats have returned to the Kakinada coast."
+      ],
+      "why": "Fishing families lose a day's earnings when boats stay in, but warnings given early are how coastal India keeps people safe.",
+      "also": [
+        "Name: Bangladesh proposed 'Arnab', which means 'sea' or 'ocean' in Bengali.",
+        "Markets: The Sensex rose 482.92 points to 73,606.75, ending a four-day losing streak."
+      ],
+      "sources": [
+        {
+          "outlet": "Asianet Newsable (ANI)",
+          "title": "Severe Cyclone Arnab likely to intensify before Andhra coast landfall",
+          "url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+        },
+        {
+          "outlet": "Vajiram & Ravi",
+          "title": "Cyclone Arnab 2026",
+          "url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Stock Market Today: Sensex, Nifty Snap 4-Day Losing Streak",
+          "url": "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Brazil: Luiz Inacio Lula da Silva won the presidential runoff with just over 51% of the vote; Flavio Bolsonaro, with 48%, says he will seek to annul it.",
+        "Serbia: The Student List won Sunday's snap election, and Aleksandar Vucic said it had won; official results are still to come."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Pipeline",
+          "def": "A long pipe that carries oil or gas over land. Today: The East-West pipeline carries Saudi crude about 1,200 kilometres."
+        },
+        {
+          "word": "Coalition",
+          "def": "A group of parties that agree to govern together. Today: Israel's next government will be a coalition needing 61 seats."
+        },
+        {
+          "word": "Runoff",
+          "def": "A second round of voting between the two leading candidates. Today: Brazil's presidential runoff was won by Lula."
+        },
+        {
+          "word": "Annul",
+          "def": "To declare a result invalid, as if it had never happened. Today: Flavio Bolsonaro says he will seek to annul Brazil's result."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Bangladesh proposed the name 'Arnab' for Cyclone Arnab, and in Bengali it means 'sea' or 'ocean'."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  MIDTERMS",
+      "headline": "One Week Before the Midterms, Early Voting Spreads",
+      "deck": "Obama and Trump both campaigned in Michigan, and Fox News lists six Senate toss-ups.",
+      "body": [
+        "Election Day for the midterms, the vote halfway through a president's term, is 3 November. It decides whether Republicans keep control of the House and the Senate. Millions have already voted: AP data published on 17 October showed 6 million early votes across 39 states.",
+        "This week more states open early voting. It starts in Washington DC on Monday, in Oklahoma on Wednesday and in Kentucky on Thursday. Barack Obama rallied in Cleveland and Detroit on Saturday, and Donald Trump campaigned with Republican Mike Rogers in Port Huron, Michigan, on Sunday.",
+        "Fox News lists Alaska, Iowa, Maine, Michigan, Ohio and Texas as toss-up Senate states. Its Power Rankings predict Republicans would still lose the House even with a good showing."
+      ],
+      "chart": {
+        "title": "EARLY VOTES SO FAR",
+        "subtitle": "Thousands of votes, AP count as of 15 Oct",
+        "labels": [
+          "Calif.",
+          "Florida",
+          "Virginia",
+          "Michigan"
+        ],
+        "values": [
+          757,
+          669,
+          604,
+          573
+        ],
+        "max": 900,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Includes in-person and returned mail ballots. Source: AP via FOX 13."
+      },
+      "why": "Midterms decide who writes the laws and budgets that affect families, from fuel costs to schools.",
+      "analyst": "Why might early voting numbers be hard to read as a sign of who will win? What does it tell you that both parties are campaigning in Michigan? Why do the toss-up states matter more than the others?",
+      "sources": [
+        {
+          "outlet": "Everything Briefing",
+          "title": "Gas prices, election rallies and today's developments",
+          "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
+        },
+        {
+          "outlet": "FOX 13 (AP data)",
+          "title": "'No Kings' rallies across US push voting early; here's how many voters already have",
+          "url": "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+        },
+        {
+          "outlet": "Atlanta News First",
+          "title": "More than 1 million votes cast in Georgia's midterm election so far",
+          "url": "https://www.atlantanewsfirst.com/2026/10/19/more-than-1-million-votes-cast-georgias-midterm-election-so-far/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "BASEBALL: BREWERS NEED TWO MORE WINS",
+      "body": "Milwaukee leads Tampa Bay 2-0 in the World Series after a 5-4 Game 2 win. The Rays scored four first-inning runs, but <b>Sal Frelick</b> tied it with a sixth-inning home run and <b>Cooper Pratt</b>'s single in the seventh won it. Game 3 is on Monday night in Florida, with <b>Freddy Peralta</b> pitching for Tampa Bay against his old team.",
+      "sources": [
+        {
+          "outlet": "ESPN",
+          "title": "World Series Game 2: Takeaways from Brewers' win over Rays",
+          "url": "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways"
+        },
+        {
+          "outlet": "FOX Sports",
+          "title": "Brewers bring 2-0 World Series lead into Game 3 against Rays",
+          "url": "https://www.foxsports.com/articles/mlb/brewers-bring-20-world-series-lead-into-game-3-against-rays"
+        },
+        {
+          "outlet": "FOX 11",
+          "title": "Friend to foe: Brewers face Freddy Peralta in World Series Game 3",
+          "url": "https://fox11online.com/sports/brewers-and-mlb/freddy-peralta-world-series-game-3-starting-pitcher-tampa-bay-rays-milwaukee"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Who wins Israel's election, and whether any side can reach 61 seats.",
+        "Whether Cyclone Arnab crosses the coast by the forenoon of 28 October."
+      ]
+    },
+    "quote": {
+      "text": "News is a map: the more places you can find on it, the better you read it.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://bworldonline.com/world/2026/10/26/789259/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies/",
+    "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874",
+    "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+    "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-higher-after-volatile-trade/",
+    "https://www.nbcnews.com/world/israel/israel-election-netanyahu-eisenkot-oct-7-west-bank-likud-trump-rcna604972",
+    "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a",
+    "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority",
+    "https://www.ynetnews.com/article/s1wppltnme",
+    "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb",
+    "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/",
+    "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123",
+    "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp",
+    "https://www.atlantanewsfirst.com/2026/10/19/more-than-1-million-votes-cast-georgias-midterm-election-so-far/",
+    "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+    "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/",
+    "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+    "https://www.espn.com/mlb/story/_/id/50240898/world-series-game-2-rays-brewers-live-updates-takeaways",
+    "https://www.foxsports.com/articles/mlb/brewers-bring-20-world-series-lead-into-game-3-against-rays",
+    "https://fox11online.com/sports/brewers-and-mlb/freddy-peralta-world-series-game-3-starting-pitcher-tampa-bay-rays-milwaukee"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How long is Saudi Arabia's East-West pipeline, about?",
+        "options": [
+          "120 kilometres",
+          "1,200 kilometres",
+          "12,000 kilometres"
+        ],
+        "answer": 1,
+        "why": "The paper says it is about 1,200 kilometres long.",
+        "story": "lead"
+      },
+      {
+        "q": "How many seats does a bloc need for a majority in Israel's Knesset?",
+        "options": [
+          "61",
+          "50",
+          "120"
+        ],
+        "answer": 0,
+        "why": "A coalition needs 61 of the 120 seats.",
+        "story": "world"
+      },
+      {
+        "q": "Which party is projected as the largest in Israel's final polls?",
+        "options": [
+          "Likud",
+          "Yashar",
+          "Arab parties"
+        ],
+        "answer": 1,
+        "why": "Eisenkot's Yashar is projected to win 22 seats.",
+        "story": "world"
+      },
+      {
+        "q": "What is Election Day for the US midterms?",
+        "options": [
+          "27 October",
+          "3 November",
+          "28 October"
+        ],
+        "answer": 1,
+        "why": "Election Day is 3 November.",
+        "story": "us"
+      },
+      {
+        "q": "How many Odisha districts are closing schools on 28 and 29 October?",
+        "options": [
+          "Five",
+          "Fifteen",
+          "Fifty"
+        ],
+        "answer": 0,
+        "why": "Schools close in five districts, including Ganjam and Koraput.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Saudi Arabia confirmed the Houthi attacks on its pumping stations.",
+        "true": false,
+        "why": "There was no immediate Saudi confirmation.",
+        "story": "lead"
+      },
+      {
+        "claim": "In Israel, voters choose the prime minister directly.",
+        "true": false,
+        "why": "They choose parties for the 120-seat Knesset.",
+        "story": "world"
+      },
+      {
+        "claim": "Cyclone Arnab's name means 'sea' or 'ocean' in Bengali.",
+        "true": true,
+        "why": "Bangladesh proposed the name, which means 'sea' or 'ocean'.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "countries": [
+          "Israel"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Detroit",
+        "lat": 42.33,
+        "lon": -83.05,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "What was the average US price of a gallon of petrol on Sunday, in dollars?",
+        "answer": 4.28,
+        "prefix": "$",
+        "unit": "",
+        "min": 1,
+        "max": 10,
+        "why": "AAA said the average was $4.28 a gallon."
+      },
+      {
+        "story": "world",
+        "q": "How many seats are in Israel's Knesset?",
+        "answer": 120,
+        "prefix": "",
+        "unit": "seats",
+        "min": 20,
+        "max": 500,
+        "why": "The Knesset has 120 seats, and 61 make a majority."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Oil Pipeline in Saudi Arabia Hit, Group Says",
+        "body": [
+          "Oil travels around the world by ship. A key sea lane called the Strait of Hormuz has been largely shut by the war. So a Saudi pipeline is important. It is about 1,200 kilometres long.",
+          "On Monday a group called the Houthis, from Yemen, said it attacked the pipeline's pumping stations and an airport in Riyadh. Saudi Arabia has not confirmed this.",
+          "Oil affects what people pay for fuel. In the US, the average price was $4.28 a gallon on Sunday, says AAA."
+        ]
+      },
+      "world": {
+        "headline": "Israel Holds a Close Election",
+        "body": [
+          "Israel votes on Tuesday for a parliament of 120 seats. Voters pick parties, not a prime minister. The leader who can get 61 seats together becomes prime minister.",
+          "The last polls say neither side will reach 61. One side is projected to get 50 seats. The other is projected to get between 52 and 56.",
+          "Arab parties could win 14 to 16 seats. That could decide who forms the government."
+        ]
+      },
+      "india": {
+        "headline": "A Big Storm Is Coming to India's Coast",
+        "body": [
+          "A cyclone is a huge spinning storm over warm sea. This one is called Arnab. It is expected to reach Andhra Pradesh on 28 October.",
+          "Winds could gust up to 140 km an hour. Schools will close in five districts of Odisha. Odisha has 302 rescue teams ready.",
+          "Fishing has stopped. More than 4,800 boats have come back to the coast."
+        ]
+      },
+      "us": {
+        "headline": "Early Voting Grows Before US Elections",
+        "body": [
+          "The US holds midterm elections on 3 November. People can vote early in many states.",
+          "By 17 October, 6 million people had voted early across 39 states. This week, Washington DC, Oklahoma and Kentucky start early voting.",
+          "Fox News lists six Senate races as toss-ups. That means either party could win them. Many people are watching these races, because they help decide who controls Congress."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "us": "us-midterms-2026"
+  }
+}

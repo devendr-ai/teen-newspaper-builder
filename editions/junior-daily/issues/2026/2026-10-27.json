@@ -1,0 +1,213 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-10-27",
+  "volume": 1,
+  "issue": 16,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  INDIA",
+      "headline": "Cyclone Arnab Is Heading for India's East Coast",
+      "deck": "Two states close schools and get rescue teams ready before the storm arrives.",
+      "body": [
+        "A cyclone is a huge spinning storm that forms over warm sea water. Cyclone Arnab is growing over the Bay of Bengal, the part of the Indian Ocean on India's east side. On Monday evening it was about 490 kilometres from the port city of Visakhapatnam.",
+        "India's weather office, the India Meteorological Department, says Arnab should reach land on the morning of 28 October. It expects it to cross the coast of Andhra Pradesh between two places called Bapatla and Visakhapatnam. Winds could blow at 115 to 125 kilometres an hour, with gusts up to 140.",
+        "People are getting ready before then. In Odisha, the state just to the north, schools and colleges in five districts will close on 28 and 29 October. Odisha has 302 rescue teams on standby. Fishing has stopped, and more than 4,800 boats have come back to the Kakinada coast."
+      ],
+      "map": {
+        "title": "THE BAY OF BENGAL",
+        "label_top": "INDIA'S EAST COAST",
+        "label_bottom": "ANDAMAN ISLANDS",
+        "footnote": "Arnab was about 730 km north-west of Sri Vijaya Puram in the Andamans",
+        "caption": "Arnab is expected to cross the coast between Bapatla and Visakhapatnam."
+      },
+      "why": "Warnings and rescue teams in place days before a storm arrives help keep people safe on India's long coast.",
+      "sources": [
+        {
+          "outlet": "Asianet Newsable (ANI)",
+          "title": "Severe Cyclone Arnab likely to intensify before Andhra coast landfall",
+          "url": "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb"
+        },
+        {
+          "outlet": "Vajiram & Ravi",
+          "title": "Cyclone Arnab 2026",
+          "url": "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SERBIA",
+      "headline": "Serbia's Students Win an Election",
+      "deck": "The country's long-time leader says his side lost.",
+      "body": [
+        "Serbia is a country in south-eastern Europe. On Sunday its people voted in an election held earlier than planned, called a snap election.",
+        "A new group called the Student List won. It grew out of a movement of university students. Aleksandar Vucic, who has led Serbia for many years, told his supporters the Student List had won. Two election estimates gave the students about 51 to 52 percent of the votes. Vucic's side got about 40 percent.",
+        "Many of the candidates are not students at all. They are experts, athletes, farmers and artists."
+      ],
+      "chart": {
+        "title": "WHO GOT THE VOTES",
+        "subtitle": "Share of votes, Sunday's election",
+        "labels": [
+          "Student List",
+          "Vucic's list"
+        ],
+        "values": [
+          51.47,
+          40.42
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Early estimate by the monitoring group Crta, in percent. Final results to come."
+      },
+      "why": "In a democracy, voters can change who leads their country, and a leader who accepts the result helps keep it that way.",
+      "sources": [
+        {
+          "outlet": "European Western Balkans",
+          "title": "The Student List won snap parliamentary elections in Serbia",
+          "url": "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Student List wins Serbian election in political earthquake as Vucic concedes defeat",
+          "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Aleksandar Vucic concedes election defeat in major political shift",
+          "url": "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Brazil: Luiz Inacio Lula da Silva won the presidential runoff on Sunday with just over 51 percent of the vote.",
+        "India: The Sensex, a measure of share prices, rose 482.92 points to 73,606.75 on Monday after four days of falls."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Cyclone Arnab crosses the coast on the morning of 28 October as forecast.",
+        "Serbia's official election results."
+      ]
+    }
+  },
+  "sources": [
+    "https://newsable.asianetnews.com/india/severe-cyclone-arnab-likely-to-intensify-before-andhra-coast-landfall-articleshow-nig33fb",
+    "https://vajiramandravi.com/current-affairs/cyclone-arnab-2026/",
+    "https://europeanwesternbalkans.com/2026/10/25/the-student-list-won-snap-parliamentary-elections-in-serbia/",
+    "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+    "https://www.cbsnews.com/news/serbia-election-aleksandar-vucic-concedes-defeat/",
+    "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election",
+    "https://www.etvbharat.com/en/business/stock-market-bse-sensex-nse-nifty-crude-oil-prices-foreign-institutional-investors-enn26102601123"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What is a cyclone?",
+        "options": [
+          "A huge spinning storm over warm sea",
+          "A kind of earthquake",
+          "A very tall wave"
+        ],
+        "answer": 0,
+        "why": "The paper calls it a huge spinning storm that forms over warm sea water.",
+        "story": "lead"
+      },
+      {
+        "q": "Between which two places is Arnab expected to cross the coast?",
+        "options": [
+          "Mumbai and Goa",
+          "Bapatla and Visakhapatnam",
+          "Chennai and Kochi"
+        ],
+        "answer": 1,
+        "why": "The weather office expects it between Bapatla and Visakhapatnam.",
+        "story": "lead"
+      },
+      {
+        "q": "How many rescue teams does Odisha have on standby?",
+        "options": [
+          "32",
+          "302",
+          "3,002"
+        ],
+        "answer": 1,
+        "why": "Odisha has 302 rescue teams on standby.",
+        "story": "lead"
+      },
+      {
+        "q": "What is the group that won Serbia's election called?",
+        "options": [
+          "The Student List",
+          "The Farmers' List",
+          "The Sea List"
+        ],
+        "answer": 0,
+        "why": "A new group called the Student List won.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Arnab is expected to reach land on 28 October.",
+        "true": true,
+        "why": "The weather office expects it on the morning of 28 October.",
+        "story": "lead"
+      },
+      {
+        "claim": "Aleksandar Vucic told supporters the Student List had won.",
+        "true": true,
+        "why": "He said the Student List had won, according to the paper.",
+        "story": "world"
+      },
+      {
+        "claim": "Most of the Student List's candidates are students.",
+        "true": false,
+        "why": "Many are experts, athletes, farmers and artists.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Serbia",
+        "lat": 44.0,
+        "lon": 21.0,
+        "countries": [
+          "Serbia"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How fast could Arnab's gusts blow at landfall, in kilometres an hour?",
+        "answer": 140,
+        "prefix": "",
+        "unit": "km/h",
+        "min": 40,
+        "max": 300,
+        "why": "The weather office forecasts gusts up to 140 km/h."
+      },
+      {
+        "story": "lead",
+        "q": "How many boats have returned to the Kakinada coast?",
+        "answer": 4800,
+        "prefix": "",
+        "unit": "boats",
+        "min": 500,
+        "max": 20000,
+        "why": "More than 4,800 boats came back as fishing stopped."
+      }
+    ]
+  }
+}
