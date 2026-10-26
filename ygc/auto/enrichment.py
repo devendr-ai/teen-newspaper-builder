@@ -191,7 +191,8 @@ def enrich(client, pool, date, settings=None, reserve_usd=0, log=print):
     report = {"enabled": settings.get("enabled", False), "selected": len(rows), "stories": []}
     for row in rows:
         story = pool[row["group"]]["stories"][row["story_index"]]
-        entry = {"headline": row["headline"], "kind": row["kind"], "status": "no_new_details", "details": []}
+        entry = {"headline": row["headline"], "kind": row["kind"], "status": "no_new_details",
+                 "source_urls": [s["url"] for s in row["sources"]], "fetched_urls": [], "details": []}
         report["stories"].append(entry)
         texts = {}
         try:
