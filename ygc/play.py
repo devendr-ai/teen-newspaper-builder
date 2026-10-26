@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, edition, scenes, site, stats, threads, world, pwa, navigation
+from . import brand, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline
 from .chat import sentences
 
 E = html.escape
@@ -266,7 +266,7 @@ def quiz_pool(ed, issue):
 
 def sections(ed, issue, date, chips=None, stretch=None, orders=None):
     """[(kind, block id, html, colour)] in reading order, the data the games need, and where each story happens.
-    `chips`: {story id: link} for stories that are part of a big ongoing story ("the story so far")."""
+    `chips`: {story id: thread history or background link} for ongoing stories."""
     chips = chips or {}
     blocks = issue.get("blocks", {})
     vocab = vocab_of(issue)
@@ -319,7 +319,7 @@ def sections(ed, issue, date, chips=None, stretch=None, orders=None):
             out.append(("story", bid, f'''{easy_btn}{kick(icon, name, nice(topic))}
 <h2{' class="v-orig"' if easy_btn else ''}><span class="s">{clean(b.get("headline", ""))}</span></h2>{easy_head}
 {f'<p class="deck{orig}"><span class="s">{clean(b["deck"])}</span></p>' if b.get("deck") else ""}
-{f'<a class="tchip" href="{E(chips[bid])}">🧵 New to this story? Read the story so far →</a>' if bid in chips else ""}
+{story_timeline.render(chips[bid], bid) if bid in chips else ""}
 {top}<div class="text{orig}">{body}</div>{easy_text}{below}{boxes}
 {f'<details class="grown"><summary>For grown-ups: sources</summary><ul>{src}</ul></details>' if src else ""}''', tone))
             first = plain(b.get("body", [""])[0]) if b.get("body") else ""
@@ -667,6 +667,9 @@ def build(out, cfg, keep=7, log=print):
         return {"harder": near(BANDS[i + 1]) if 0 <= i < len(BANDS) - 1 else [],
                 "easier": near(BANDS[i - 1]) if i > 0 else []}
     known = {t["id"]: t for t in threads.load_all()}
+    bands = {eid: audience(edition.load(eid)) for eid, _, _ in every}
+    names = {eid: edition.load(eid)["name"] for eid in bands}
+    history = story_timeline.catalog(every, in_thread, bands, names)
     pages = {}                                      # (paper, date) -> age band, for pages Read & Play keeps
     for eid in edition.list_editions():
         ed = edition.load(eid)
@@ -682,7 +685,9 @@ def build(out, cfg, keep=7, log=print):
         for date, path in issues_of(ed)[:keep]:
             issue = json.load(open(path, encoding="utf-8"))
             level = threads.level_of(band)
-            chips = {b: f"../threads/{thread_href(tid, level)}" for (e, d, b), tid in in_thread.items()
+            chips = {b: {"href": f"../threads/{thread_href(tid, level)}", "title": known[tid]["title"],
+                         "updates": story_timeline.recent(history.get(tid, []), known[tid], eid, b, band, date, level)}
+                     for (e, d, b), tid in in_thread.items()
                      if e == eid and d == date and tid in known}
             try:
                 orders = [{"bid": b, "title": known[tid]["title"], "href": f"../threads/{thread_href(tid, level)}",
@@ -1154,6 +1159,7 @@ body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
 
 
 CSS += navigation.STYLE
+CSS += story_timeline.CSS
 
 CSS += r"""
 #listen-player{position:fixed;left:12px;right:12px;bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:7;
@@ -1974,6 +1980,7 @@ JS = r"""
     if (player) $(".listen-more", player).open = false;
     document.body.classList.remove("listening"); refreshResume();
   }
+  document.addEventListener('rp-thread-report', () => stop());
   function say(text, onend) {
     if (!speech) { onend(); return; }
     const ticket = speechTicket;
@@ -2215,7 +2222,7 @@ JS = r"""
     $(".prev").addEventListener("click", () => show(at - 1));
     $(".next").addEventListener("click", () => show(at + 1));
     let x0 = null;
-    $("#read").addEventListener("touchstart", (e) => { x0 = e.target.closest(".where") ? null : e.touches[0].clientX; }, { passive: true });
+    $("#read").addEventListener("touchstart", (e) => { x0 = e.target.closest(".where,.follow-thread") ? null : e.touches[0].clientX; }, { passive: true });
     $("#read").addEventListener("touchend", (e) => {
       if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; x0 = null;
       if (Math.abs(dx) > 60) show(at + (dx < 0 ? 1 : -1));
@@ -2690,3 +2697,5 @@ JS = r"""
   }
 })();
 """
+
+JS += story_timeline.JS
