@@ -1,0 +1,96 @@
+# Fixed search pages. Do not add a phrase here because today's story is interesting.
+# edition: which published paper fills the page.
+# path: where it will live on newspebbles.com once the pages are built.
+
+pages:
+  - id: grade-5
+    path: /grades/5th-grade
+    title: Current events for 5th grade, printable
+    queries:
+      - current events for 5th grade
+      - current events for 10 year olds
+    edition: breakfast-table
+    must_include:
+      - this week's lead story in HTML
+      - the page image
+      - a link to today's PDF
+
+  - id: grade-6
+    path: /grades/6th-grade
+    title: Current events for 6th grade
+    queries:
+      - current events for 6th grade
+      - current events for middle school
+    edition: junior-daily
+    must_include:
+      - the day's two stories in HTML
+      - a link to today's PDF
+
+  - id: printable
+    path: /printable
+    title: Printable current events for kids
+    queries:
+      - printable current events for kids
+      - printable news for kids
+    edition: breakfast-table
+    must_include:
+      - how to print on US Letter
+      - one sample page image
+      - no account required
+
+  - id: calm
+    path: /calm
+    title: News for kids without scary content
+    queries:
+      - news for kids without scary content
+      - age appropriate news for kids
+    edition: little-explorers
+    must_include:
+      - what is left out
+      - one calm story
+      - a link to the standards page
+
+  - id: homeschool
+    path: /homeschool
+    title: Homeschool current events for middle school
+    queries:
+      - homeschool current events middle school
+      - homeschool current events
+    edition: junior-explorer
+    must_include:
+      - weekly versus daily
+      - a sample week
+      - discussion questions already in the paper
+
+  - id: compare
+    path: /compare
+    title: A printable alternative to classroom kids news
+    queries:
+      - time for kids alternative
+      - cnn 10 alternative
+    edition: breakfast-table
+    must_include:
+      - factual differences only: print, listed sources, one age band
+      - no snark
+
+  - id: india
+    path: /india
+    title: Current affairs for kids in India
+    queries:
+      - current affairs for kids India
+      - current affairs for students India
+    edition: current-affairs-digest
+    must_include:
+      - one sample from the digest
+      - a pointer to Global Citizen Plus for ages 12–14
+
+stories:
+  path: /stories/<date>/<slug>
+  source: the lead story of each published issue
+  keep: forever
+  must_include:
+    - the printed story as HTML
+    - the issue's map or chart if it has one
+    - source links
+    - one talk-about-it line
+    - the age band and a link to the PDF
