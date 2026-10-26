@@ -458,6 +458,8 @@ def shell(cfg, title, body, root="", here="today"):
     desktop_brand = (f'<a class="desktopbrand" href="{root}play/index.html">{brand.inline("owl")}Read &amp; Play</a>'
                      if '<header class="bar lb">' not in body else '')
     body = body.replace('</header>', desktop_brand + child_nav(root, here, desktop=True) + '</header>', 1)
+    if '<header class="bar lb">' in body:
+        body = body.replace('</header>', '</header>' + pwa.tablet_prompt(), 1)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)}</title><meta name="description" content="Read today's news, hear it read aloud and play a game. For children, from {E(cfg['title'])}.">
@@ -1422,7 +1424,7 @@ JS = r"""
   if ("serviceWorker" in navigator && window.isSecureContext && SELF)
     navigator.serviceWorker.register(SELF.replace(/play\.js(\?.*)?$/, "sw.js")).catch(() => {});
   const inst = $(".install");
-  if (inst && !(window.matchMedia && matchMedia("(display-mode: standalone)").matches) && !navigator.standalone) {
+  if (inst && !document.documentElement.hasAttribute('data-tablet-install') && !(window.matchMedia && matchMedia("(display-mode: standalone)").matches) && !navigator.standalone) {
     let ask = null;
     window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); ask = e; inst.hidden = false; $(".add", inst).hidden = false; });
     $(".add", inst).addEventListener("click", () => {

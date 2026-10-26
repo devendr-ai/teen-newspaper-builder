@@ -588,6 +588,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design</a><a href="{root}parents.html">For parents</a></nav></header>
+{pwa.tablet_prompt()}
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));
 const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"px");hh();
