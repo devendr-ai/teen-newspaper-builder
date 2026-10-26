@@ -3,46 +3,41 @@
 How News Pebbles gets found. Parents do not search for "kids newspaper."
 They search for a grade, a printable, or news that is not scary. Each of
 those searches needs its own page, written from a paper that has already
-passed the usual checks. This folder is the list of those pages. It does
-not publish them yet.
+passed the usual checks.
 
-The homepage stays the age picker. It is not the page that should rank.
+Nothing outside this folder is part of that. The papers, the publisher, and
+the live site are unchanged. These files are not on newspebbles.com yet.
+Putting them there would mean changing the publisher, which this folder
+does not do.
 
-## The pages
+## What is here
 
-[`pages.yaml`](pages.yaml) is the fixed list. One page, one search phrase.
-An agent must not invent a new phrase on the day. It picks the page whose
-edition just published, and fills that page from the issue. No new facts.
+- [`pages.yaml`](pages.yaml) is the fixed list. One page, one search phrase.
+  An agent must not invent a new phrase on the day.
+- [`build_pages.py`](build_pages.py) reads published issues and writes HTML
+  only into [`site/`](site/). Run `python3 seo/build_pages.py` from the
+  repo root after new issues exist.
+- [`site/`](site/) is the built bundle: seven guide pages, one HTML page per
+  lead story, `sitemap.xml`, and `robots.txt`.
 
-Story pages are the other half. A printed issue is a PDF, and Google barely
-reads a PDF. Each lead story also lives as HTML at `/stories/<date>/<slug>`,
-with the map or chart, the sources, and the talk-about-it line. Yesterday's
-story stays up. That is what gets indexed.
+The guide pages link to the story pages. They do not repeat the full story.
+Each story page has the headline, the deck, the paragraphs, the sources, and
+a link to the existing PDF on newspebbles.com.
 
-## What each page must contain
-
-- A title that is the search phrase, not the paper's name.
-- A first sentence that repeats the phrase in plain words.
-- One real story from a published issue, in HTML.
-- The map or chart from that issue, if it has one.
-- A link to that issue's PDF, and the age band.
-- No "AI-generated" in the title or the first paragraph. That stays on
-  How it's made.
+Canonical URLs use `https://newspebbles.com/find/`. That path is the intended
+public location of `site/`. It is not live.
 
 ## When it runs
 
-After the morning publish, and only if that publish passed:
-
-1. Read `pages.yaml`.
-2. For each page whose `edition` published today, update that page from
-   the new issue.
-3. Add a story page for the lead.
-4. Add both URLs to the sitemap.
+After the morning publish, and only if that publish passed, re-run
+`python3 seo/build_pages.py`. It will refresh the guide pages and add a
+story page for each new lead. Commit the result under `seo/` only.
 
 Do not rewrite the homepage. Do not post to Reddit or email anyone from
-this job. Those are separate, and a person sends them.
+this job.
 
 ## What not to chase
 
 Ranking for "news" or "kids app." Paying for a keyword tool. Changing the
 title of the homepage every day. Putting the same story only inside a PDF.
+Adding more URLs than `pages.yaml` lists.
