@@ -133,7 +133,7 @@ CSS = r'''
 .thread-read,.thread-report>button{min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--teal);font:inherit;font-size:14px;font-weight:700;cursor:pointer}
 .thread-paging{display:flex;align-items:center;justify-content:flex-end;gap:8px;font-size:13px;margin:4px 0}.thread-paging button:disabled{opacity:.35;cursor:default}
 .follow-thread .tchip{display:inline-block;background:transparent;padding:4px 0;margin:0;min-height:44px;font-size:14px;text-decoration:underline}
-.thread-report{font-size:1em}.thread-report>button:first-child{margin-bottom:12px}.thread-report .grown{font-size:14px}
+.thread-report{font-size:var(--fs);line-height:var(--lh)}.thread-report h5{font-size:1em}.thread-report>button:first-child{margin-bottom:12px}.thread-report .grown{font-size:14px}
 .follow-thread button:focus-visible,.follow-thread>summary:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 :root[data-theme="night"] .follow-thread>summary{background:#302B4B;color:#D4CAFF}
 :root[data-theme="night"] .thread-entry,:root[data-theme="night"] .thread-node[aria-pressed=true]{background:#203D40}
