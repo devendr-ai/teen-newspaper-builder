@@ -1193,6 +1193,10 @@ body.listening #pop{bottom:calc(220px + env(safe-area-inset-bottom,0px))}
  body.listening{padding-bottom:140px}
  body.listening #pop{bottom:112px}
 }
+@media screen and (min-width:1000px){
+ .childnav.desktopnav{margin-left:auto}
+ .bar>.chips,.bar>.tools,.bar>.lvl{margin-left:0}
+}
 """
 
 JS = r"""
