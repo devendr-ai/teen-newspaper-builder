@@ -72,15 +72,24 @@ def test_recommendations_and_parent_selector_are_accessible_and_unique():
     html = site.recommendations(published, False, cfg)
     markup = Markup(html)
     forms = [a for t, a in markup.tags if t == 'form']
-    assert len(forms) == 4
-    assert all(a['data-gate-form'] == 'subscribe' and a['method'] == 'dialog' for a in forms)
+    assert forms == []
+    links = [a for t, a in markup.tags if t == 'a' and 'subscription-signup' in a.get('class', '')]
+    assert len(links) == 4
+    assert {a['href'] for a in links} == {
+        f'parents.html?edition={slug}#subscribe-parents-title' for slug, _, _ in site.RECOMMENDED.values()
+    }
+    assert site.subscription_link(config_with(enabled=False), edition.load('little-explorers')) == ''
     ids = [a['id'] for _, a in markup.tags if 'id' in a]
     assert len(ids) == len(set(ids))
     assert all(a['for'] in ids for t, a in markup.tags if t == 'label' and 'for' in a)
-    assert len([a for t, a in markup.tags if t == 'fieldset' and 'disabled' in a]) == 4
-    assert len([a for t, a in markup.tags if t == 'input' and a.get('name') == 'website' and a['tabindex'] == '-1']) == 4
-    assert 'role="status"' in html and 'role="alert"' in html and '<noscript>' in html
     parents = site.parents_body(cfg, published)
+    parent_markup = Markup(parents)
+    parent_forms = [a for t, a in parent_markup.tags if t == 'form']
+    assert len(parent_forms) == 1 and parent_forms[0]['data-gate-form'] == 'subscribe'
+    assert parent_forms[0]['method'] == 'dialog'
+    assert any(t == 'fieldset' and 'disabled' in a for t, a in parent_markup.tags)
+    assert any(t == 'input' and a.get('name') == 'website' and a['tabindex'] == '-1' for t, a in parent_markup.tags)
+    assert 'role="status"' in parents and 'role="alert"' in parents and '<noscript>' in parents
     assert '<select' in parents
     for slug in edition.list_editions():
         assert f'<option value="{slug}"' in parents
@@ -117,7 +126,10 @@ def test_built_signup_placements_and_reader_has_no_forms(tmp_path, monkeypatch, 
     home = (out / 'index.html').read_text()
     parents = (out / 'parents.html').read_text()
     archive = (out / 'e/little-explorers/index.html').read_text()
-    for html in (home, parents, archive):
+    assert not [a for t, a in Markup(home).tags if t == 'form']
+    assert bool([a for t, a in Markup(home).tags if t == 'a' and 'subscription-signup' in a.get('class', '')]) is enabled
+    assert 'fetch(' not in home
+    for html in (parents, archive):
         # Count rendered forms, not the selector in the inline script.
         assert bool([a for t, a in Markup(html).tags if t == 'form' and a.get('data-gate-form') == 'subscribe']) is enabled
         assert 'Follow our WhatsApp Channel' not in html

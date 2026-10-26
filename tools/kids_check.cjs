@@ -104,8 +104,18 @@ function solve(q) {                                // the gate's question -> its
     const before = subscriptions.length;
     await go(url);
     if (MODE === "kids" && await gateShown()) await answer(true);
-    if (url === "index.html")
+    if (url === "index.html") {
       await p.locator('.agebar button[data-v="Ages 6–8"]').click();
+      const signup = p.locator('.recommended:not([hidden]) .subscription-signup');
+      if (!(await signup.count())) continue; // Disabled builds have no signup links.
+      ok('homepage stays compact with no signup form', await p.locator('form[data-gate-form="subscribe"]').count() === 0);
+      await signup.click();
+      if (MODE === "kids") await answer(true);
+      await p.locator('select[name="edition_slug"]').waitFor();
+      ok('homepage paper is selected on Parents', await p.locator('select[name="edition_slug"]').inputValue() === 'little-explorers');
+      await p.locator('select[name="edition_slug"]').selectOption('breakfast-table');
+      ok('parent can change the selected paper', await p.locator('select[name="edition_slug"]').inputValue() === 'breakfast-table');
+    }
     const form = p.locator('form[data-gate-form="subscribe"]:visible').first();
     if (!(await form.count())) continue; // Disabled builds deliberately have no forms.
     ok(`${url}: signup makes no initial requests`, subscriptions.length === before);
