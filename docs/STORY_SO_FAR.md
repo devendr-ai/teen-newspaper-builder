@@ -84,3 +84,18 @@ The `publish-today` skill keeps threads up to date after writing the papers: it 
 stories, adds a timeline line for each new development (facts only from the research pool or
 published papers), and opens a new thread only for a story that has run on at least 3 of the
 last 7 days. A thread that can't pass its checks is left as it was; it never blocks a paper.
+
+`ygc due --json` includes `thread_review`, and `ygc thread --review --date YYYY-MM-DD`
+prints an advisory review of recurring coverage. The API publishing workflow also
+runs the review after generating papers. Shared headline phrases on at least three
+distinct days in the last seven flag unlinked stories; copies across editions on one
+day count once. Existing links suggest threads to reuse. These hints need editorial
+review: shared words can describe unrelated events, and differently worded coverage
+can be missed. The check never creates a topic or links stories automatically, and
+its warnings do not stop publication.
+
+The three-topic limit applies to the front-page highlights, not to the number of
+qualifying threads that can be created and linked from articles. The 2026 US midterm
+thread backfills existing election stories through its `stories` list, without
+rewriting old issue files or changing their printed PDFs. Future election reports
+should link to `us-midterms-2026` through their issue's `threads` field.
