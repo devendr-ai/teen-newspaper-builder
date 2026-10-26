@@ -372,7 +372,7 @@
         {
           "who": "maya",
           "text": "Let's go. First, Saudi Arabia. On Monday the Houthis, an armed group in Yemen, said they had attacked the pumping stations of Saudi Arabia's East-West pipeline, and the airport in Riyadh.",
-          "chapter": "Saudi pipeline"
+          "chapter": "Riyadh & oil"
         },
         {
           "who": "sam",
@@ -396,19 +396,6 @@
         },
         {
           "who": "maya",
-          "text": "Brazil. Luiz Inacio Lula da Silva won the presidential runoff with just over 51% of the votes. Flavio Bolsonaro got 48%. Bolsonaro says he will seek to annul the result.",
-          "chapter": "Brazil's vote"
-        },
-        {
-          "who": "sam",
-          "text": "Annul? That means cancel it, right?"
-        },
-        {
-          "who": "maya",
-          "text": "Yes. Lula will take office on 5 January 2027."
-        },
-        {
-          "who": "maya",
           "text": "Now, India. Cyclone Arnab is growing over the Bay of Bengal and is due to cross the coast of Andhra Pradesh on the morning of 28 October. Winds could blow at 115 to 125 kilometres an hour.",
           "chapter": "Cyclone Arnab"
         },
@@ -419,6 +406,19 @@
         {
           "who": "maya",
           "text": "Schools close in five districts of Odisha, fishing has stopped, and Odisha has 302 rescue teams on standby."
+        },
+        {
+          "who": "maya",
+          "text": "Brazil. Luiz Inacio Lula da Silva won the presidential runoff with just over 51% of the votes. Flavio Bolsonaro got 48%. Bolsonaro says he will seek to annul the result.",
+          "chapter": "Brazil's vote"
+        },
+        {
+          "who": "sam",
+          "text": "Annul? That means cancel it, right?"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. Lula will take office on 5 January 2027."
         },
         {
           "who": "maya",
