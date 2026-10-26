@@ -348,6 +348,11 @@ def check_play(ed, issue, r):
         check_easy(issue, p["easy"], stories, r)
     elif wants_easy(ed):
         r.note("no play.easy: Read & Play has no easier versions for this issue")
+    from . import brief
+    if p.get("brief") is not None:
+        brief.check(issue, p["brief"], r)
+    elif brief.wants(ed):
+        r.note("no play.brief: Read & Play has no car-ride brief for this issue")
 
 
 EASY_WORDS = (60, 170)          # an easier version: total words

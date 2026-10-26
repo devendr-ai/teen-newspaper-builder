@@ -139,6 +139,9 @@ def generate(ed, chat=None):
                      "idea each; explain any hard word or idea in passing; keep the most important facts and drop the "
                      "rest. Use only facts already in that story: every number must also appear in the story "
                      "(rounding is fine, like $110 for $109.86).\n")
+        from . import brief
+        if brief.wants(ed):
+            L.append(brief.PROMPT)
         L.append("**Ongoing stories (optional).** If a story continues one of the site's big ongoing stories "
                  "(a file in `threads/`, such as `yemen-war`), add `\"threads\": {\"<story id>\": \"<thread id>\"}` "
                  "at the top level of the issue. The printed story then ends with a one-line pointer to \"The story so "

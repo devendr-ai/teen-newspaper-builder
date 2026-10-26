@@ -174,6 +174,8 @@ def validate(ed, edition_id):
     for k in ("audience", "focus", "blurb"):
         if k in site and not isinstance(site[k], str):
             e.append(f"site.{k} must be text")
+    if "audio_brief" in site and not isinstance(site["audio_brief"], bool):
+        e.append("site.audio_brief must be true or false")
     if pages and not pages[0].get("masthead"):
         e.append("pages[0] must set masthead: true")
     dup = {b for b in used if used.count(b) > 1}

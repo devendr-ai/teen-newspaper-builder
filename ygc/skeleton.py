@@ -1,4 +1,5 @@
 """Empty, correctly shaped issue for an edition: the starting point for an editor."""
+from . import brief
 from .edition import desk, placed_blocks, story_blocks
 from .graphics import IllustrationCard
 
@@ -48,7 +49,8 @@ def play_skeleton(ed):
             "where": [{"story": bid, "place": "", "lat": None, "lon": None, "countries": []} for bid in story_blocks(ed)],
             "numbers": [{"story": "", "q": "", "answer": None, "prefix": "", "unit": "", "min": None, "max": None, "why": ""}
                         for _ in range(2)],
-            **({"easy": {bid: {"headline": "", "body": ["", ""]} for bid in story_blocks(ed)}} if wants_easy(ed) else {})}
+            **({"easy": {bid: {"headline": "", "body": ["", ""]} for bid in story_blocks(ed)}} if wants_easy(ed) else {}),
+            **({"brief": brief.skeleton()} if brief.wants(ed) else {})}
 
 
 def make(ed, date, number, volume=1, play=True):

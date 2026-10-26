@@ -1026,7 +1026,7 @@ def privacy_body(cfg):
 a small, privacy-first counter. It uses no cookies, and we send it only which page was opened, and these anonymous events:</p>
 <ul><li>a paper was opened in Read &amp; Play today (once per device per day);</li>
 <li>a device opened its first paper, or came back the day after, or 7 days after, its first paper;</li>
-<li>a paper was read to the end;</li><li>a PDF was downloaded.</li></ul>
+<li>a paper was read to the end;</li><li>the car-ride brief was started, or played to near its end;</li><li>a PDF was downloaded.</li></ul>
 <p>We never send a name, an age, an answer, a score or any ID. GoatCounter keeps only totals for each day, such as &ldquo;opened a paper
 today: 40&rdquo;, plus broad facts like browser, country and language. To avoid counting the same visit twice it holds the visitor's
 network address and browser type in memory for up to 8 hours, and never stores them (see
@@ -1058,6 +1058,8 @@ This keeps your paper designs and visit-counting choice. You can also clear all 
 <li><b>Read aloud</b> normally plays pre-generated AI recordings made with Kokoro. They are generated during publishing and served
 as audio files from this site, rather than generated from a child's voice or reading activity. Your browser may cache recordings
 for offline playback. If a recording is unavailable, or for short definitions and game prompts, we use a device or browser voice.
+The car-ride brief on Read &amp; Play is made the same way, with two AI voices; its podcast link lets a podcast app fetch the recordings
+from this site, and sends us nothing about who listens.
 Some browser voices use an online service, so the text being spoken may be sent to that voice provider. Your microphone is not used.
 Saved listening positions stay in this browser on this device.</li>
 {('<li><b>The feedback form</b> is a Google Form' + (', which opens in your browser only after the grown-up question' if cfg.get("kids_mode") else '') + '. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>') if cfg.get("feedback_url") else ""}</ul>

@@ -13,6 +13,21 @@
 
 
 
+
+## The car-ride brief (test), on Read & Play
+
+- The Breakfast Table now carries a three-minute script for two AI hosts, Maya and Sam
+  (`play.brief`), written from the issue's own facts and checked by `ygc check`: both hosts,
+  300 to 600 words, short chapter labels, and no number the issue doesn't give.
+- Publishing reads it aloud with two Kokoro voices and a chime between stories, and writes
+  `play/briefs/latest.json` and a podcast feed, `play/podcast.xml`.
+- Read & Play (not the home page) shows it as one compact row under *Today's papers*:
+  play, the current story, chapter buttons, a progress line, and a ⋯ menu with Read along,
+  Jump to a story, Speed, Add to Apple Podcasts and Copy podcast link. A mini-player stays on
+  screen while scrolling; lock-screen and car controls work through Media Session.
+- Two anonymous counts, `brief/started` and `brief/finished`, to judge the test (privacy
+  page updated). See `docs/AUDIO_BRIEF.md`.
+
 ## App build for the Kids Category, and self-hosted fonts and Pyodide
 
 - Every build serves its own fonts (`assets/fonts/web`, refreshed by `tools/brand/fonts.py`)

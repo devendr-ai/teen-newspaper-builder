@@ -92,3 +92,4 @@ automation:
 site:
   focus: "Family"
   blurb: "A daily family paper: calm, accurate news with something to talk about together."
+  audio_brief: true      # play.brief: the car-ride brief on Read & Play (ygc/brief.py)
