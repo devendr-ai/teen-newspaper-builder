@@ -56,6 +56,11 @@ jobs:
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
           python -m ygc auto $ARGS
 
+      - name: Review recurring coverage for missing threads
+        if: github.event.inputs.dry_run != 'true'
+        continue-on-error: true
+        run: python -m ygc thread --review
+
       - name: Save new issues
         if: github.event.inputs.dry_run != 'true'
         env:

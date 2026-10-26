@@ -201,6 +201,7 @@ def test_due_lists_what_to_write_today(sandbox, capsys):
     assert le["issue"] == 2 and le["poster"] and le["file"].endswith("little-explorers/issues/2026/2026-10-17.json")
     assert "Hurricane" in le["avoid_vocab"]
     assert "world" in out["research_desks"]
+    assert isinstance(out["thread_review"], list)
     assert main(["due", "--date", "2026-10-16", "--json"]) == 0              # a Friday: no weekly papers
     assert "little-explorers" not in {x["edition"] for x in json.loads(capsys.readouterr().out)["due"]}
 

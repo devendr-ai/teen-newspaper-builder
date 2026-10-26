@@ -115,22 +115,29 @@ Big ongoing stories each have a thread in `threads/<id>.json`: one page a child 
 read to catch up, written for younger (6–11) and older (12+) readers. See
 `docs/STORY_SO_FAR.md` for the full shape. `$PY -m ygc thread` checks them all.
 
-1. **Link today's stories.** For each story you published today that continues an
+1. **Review recurring coverage.** Read `thread_review` in `ygc due --json` and run
+   `$PY -m ygc thread --review --date "$D"` after writing today's papers. These
+   shared-headline hints flag coverage on at least 3 distinct days in the last 7;
+   copies across editions on one day count once. They are advisory and may miss
+   stories with different wording. Review the examples, reuse an existing thread
+   when appropriate, and never group unrelated events merely because words match.
+2. **Link today's stories.** For each story you published today that continues an
    existing thread, add `"threads": {"<story id>": "<thread id>"}` to that issue and
    run `ygc check` on it again: the printed story gains a one-line pointer, so trim
    if a column is now over.
-2. **Add today's news to each thread with news.** Append one timeline line per new
+3. **Add today's news to each thread with news.** Append one timeline line per new
    development: `date` (when it happened), `reported` (`$D`), and one short
    sentence each in `younger` and `older`. Update `one_minute`, `who` and
    `questions` only if the picture changed, and add the new source URLs (from the
    pool) to `sources`. Same rules as the papers: only facts in the pool or in
    papers already published, nothing graphic, gentle wording for younger readers.
-3. **Open a new thread** only for a story that has run in the papers on at least 3
+4. **Open a new thread** only for a story that has run in the papers on at least 3
    of the last 7 days (check `previous_headlines` in `ygc due --json`) and has no
    thread yet. Write both levels, a `where`, a short timeline from the published
    stories, and a `worry` note for wars and disasters; then link today's stories.
-   At most three threads should be active; don't open one for a single event.
-4. `$PY -m ygc thread` must pass. Commit threads with the papers. If a thread can't
+   The front page highlights at most three active threads; other qualifying topics
+   can still have threads linked from their stories. Don't open one for a single event.
+5. `$PY -m ygc thread` must pass. Commit threads with the papers. If a thread can't
    pass, leave it unchanged (and remove today's `threads` links to it): a thread
    never blocks a paper.
 

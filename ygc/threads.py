@@ -169,3 +169,65 @@ def check(t, as_of=None):
     if "…" in json.dumps({k: t.get(k) for k in ("title", "younger", "older", "timeline")}, ensure_ascii=False):
         r.err("contains '…': end sentences properly")
     return r
+
+
+# An advisory safety net for the publisher, not automatic topic assignment.
+_REVIEW_STOP = set("a an the and or but for from with without as at by in into of on to is are was were be been being it its this that these those new latest after before over more than says said say has have had will would can could may amid again now still how why what who when where their them they our your about up out off".split())
+
+
+def recurring_gaps(issues, as_of, index=None):
+    """Possible recurring coverage (3 distinct days in 7) needing editorial review.
+
+    Shared headline phrases are only suggestions. They never create a thread or
+    link a story. Existing linked coverage helps suggest a thread to reuse.
+    """
+    end = dt.date.fromisoformat(as_of)
+    start = (end - dt.timedelta(days=6)).isoformat()
+    index = story_index(issues) if index is None else index
+    phrases = {}
+    for paper, date, issue in issues:
+        if not start <= date <= as_of:
+            continue
+        for block, content in issue.get("blocks", {}).items():
+            if not isinstance(content, dict) or not content.get("headline") or not isinstance(content.get("body"), list):
+                continue
+            headline = str(content["headline"])
+            words = [w for w in re.findall(r"[a-z]{2,}", headline.lower()) if w not in _REVIEW_STOP]
+            terms = {" ".join(words[i:i+n]) for n in (2, 3) for i in range(len(words)-n+1)}
+            key = (paper, date, block)
+            for term in terms:
+                phrases.setdefault(term, {})[key] = {"paper": paper, "date": date, "block": block, "headline": headline}
+    possible = []
+    for term, refs in phrases.items():
+        dates = {key[1] for key in refs}
+        missing = {key for key in refs if key not in index}
+        if len(dates) >= 3 and missing:
+            possible.append((term, refs, dates, missing))
+    possible.sort(key=lambda row: (-len(row[2]), -len(row[3]), -len(row[0].split()), row[0]))
+    result, covered = [], set()
+    for term, refs, dates, missing in possible:
+        if missing <= covered:
+            continue
+        result.append({"topic_hint": term, "days_in_last_seven": len(dates), "first_report": min(dates),
+                       "latest_report": max(dates), "unlinked_stories": len(missing),
+                       "existing_threads": sorted({index[key] for key in refs if key in index}),
+                       "examples": [refs[key] for key in sorted(missing, key=lambda key: (key[1], key[0], key[2]), reverse=True)[:3]]})
+        covered.update(missing)
+        if len(result) == 10:
+            break
+    return result
+
+
+def review_published(as_of):
+    from . import edition, site
+    start = (dt.date.fromisoformat(as_of) - dt.timedelta(days=6)).isoformat()
+    issues = []
+    for eid in edition.list_editions():
+        ed = edition.load(eid)
+        if (ed.get("site") or {}).get("listed") is False:
+            continue
+        for date, path in site.issues_of(ed):
+            if start <= date <= as_of:
+                with open(path, encoding="utf-8") as source:
+                    issues.append((eid, date, json.load(source)))
+    return recurring_gaps(issues, as_of)
