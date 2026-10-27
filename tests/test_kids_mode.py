@@ -71,6 +71,7 @@ def test_the_app_build_puts_the_gate_on_every_page_and_marks_grown_up_things(bui
     for rel in kids.GATE_PAGES:
         assert re.match(r"<!doctype html>\s*<html data-gate-page", (k / rel).read_text(encoding="utf-8")), rel
     assert 'href="/gate/gate.js"' in (k / "404.html").read_text(encoding="utf-8").replace("src=", "href=")
+    assert "data-gate-page " not in (k / "parents.html").read_text(encoding="utf-8")
     index = (k / "index.html").read_text(encoding="utf-8")
     assert '<a data-gate="always" data-gate-reason="share" class="btn ghost edition-share"' in index
     assert '<a data-gate data-gate-reason="print" class="btn recommended-print"' in index

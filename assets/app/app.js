@@ -230,7 +230,12 @@
     var box = document.getElementById("np-app");
     if (!box) return;
     var on = document.getElementById("np-rem-on"), time = document.getElementById("np-rem-time");
-    var save = function () { post({ t: "reminder", on: on.checked, time: time.value || "07:00" }); };
+    var save = function () {
+      var desired = { t: "reminder", on: on.checked, time: time.value || "07:00" };
+      if (typeof window.npGate !== 'function') { post({t:'settings?'}); return; }
+      var authorize = window.npGate.parent || function (yes,no) { window.npGate('grown',yes,no); };
+      authorize(function () { post(desired); },function () { post({t:'settings?'}); });
+    };
     on.addEventListener("change", save); time.addEventListener("change", function () { if (on.checked) save(); });
     post({ t: "settings?" });
   }
