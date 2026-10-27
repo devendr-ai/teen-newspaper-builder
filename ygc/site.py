@@ -119,6 +119,9 @@ def subscription_form(cfg, ed=None, *, root="", context="parents", date=None, pu
         subject, share_url = "", ""
     share = (f'<a data-subscription-share href="{E(share_url)}" target="_blank" rel="noopener noreferrer"'
              f'{"" if share_url else " hidden"}>Send this issue to WhatsApp</a>')
+    math_check = '' if cfg.get('kids_mode') else f'''<div class="subscription-math"><label for="{ident}-answer">For grown-ups: <span data-math-question>loading…</span></label>
+<input id="{ident}-answer" type="text" name="grownup_answer" inputmode="numeric" pattern="[0-9]+" autocomplete="off" required aria-describedby="{ident}-math-help" size="6">
+<small id="{ident}-math-help">A quick check before we send an email. Ask a grown-up to help.</small></div>'''
     return f'''<section class="subscription-box" aria-labelledby="{ident}-title">
 <h3 id="{ident}-title">Get this paper by email (free)</h3>{subject}
 <p class="subscription-summary">A printable PDF and a Read &amp; Play link, delivered to a grown-up’s inbox.</p>
@@ -130,9 +133,7 @@ def subscription_form(cfg, ed=None, *, root="", context="parents", date=None, pu
 <label for="{ident}-email">Grown-up’s email address</label>
 <div class="subscription-email"><input id="{ident}-email" type="email" name="email" required maxlength="254" autocomplete="email" inputmode="email" autocapitalize="none" spellcheck="false" placeholder="you@example.com"></div>
 <div hidden aria-hidden="true"><label for="{ident}-website">Leave this field empty</label><input id="{ident}-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
-<div class="subscription-math"><label for="{ident}-answer">For grown-ups: <span data-math-question>loading…</span></label>
-<input id="{ident}-answer" type="text" name="grownup_answer" inputmode="numeric" pattern="[0-9]+" autocomplete="off" required aria-describedby="{ident}-math-help" size="6">
-<small id="{ident}-math-help">A quick check before we send an email. Ask a grown-up to help.</small></div>
+{math_check}
 <button type="submit" class="btn">Send confirmation email</button></fieldset>
 <p class="subscription-status" role="status" aria-live="polite" aria-atomic="true"></p><p class="subscription-error" role="alert" aria-atomic="true"></p>
 <p id="{ident}-privacy" class="subscription-privacy">For parents and carers. Confirm by email first. Unsubscribe any time. <a href="{root}privacy.html#email-delivery">Email privacy</a>.</p>
@@ -188,21 +189,22 @@ document.querySelectorAll('form[data-gate-form="subscribe"]').forEach(form=>{
  const fields=form.querySelector('.subscription-fields'),button=form.querySelector('button[type="submit"]'),
  status=form.querySelector('.subscription-status'),error=form.querySelector('.subscription-error'),
  answer=form.elements.namedItem('grownup_answer'),question=form.querySelector('[data-math-question]');
+ const isKids=form.dataset.subscribeKids==='true';
  let expected=0,busy=false,authorizing=false;
- function challenge(){const a=12+Math.floor(Math.random()*8),b=3+Math.floor(Math.random()*6);expected=a*b;question.textContent=a+' × '+b+' = ?';answer.value='';answer.removeAttribute('aria-invalid');}
+ function challenge(){if(isKids)return;const a=12+Math.floor(Math.random()*8),b=3+Math.floor(Math.random()*6);expected=a*b;question.textContent=a+' × '+b+' = ?';answer.value='';answer.removeAttribute('aria-invalid');}
  form.addEventListener('submit',async event=>{
   if(event.defaultPrevented)return;event.preventDefault();if(busy||authorizing)return;
   status.textContent='';error.textContent='';
   if(!form.reportValidity())return;
-  if(!/^\d+$/.test(answer.value.trim())||Number(answer.value)!==expected){
+  if(!isKids&&(!/^\d+$/.test(answer.value.trim())||Number(answer.value)!==expected)){
    error.textContent='Please ask a grown-up to check the answer before subscribing.';answer.setAttribute('aria-invalid','true');answer.focus();return;
   }
   const nativeParent=window.NPApp&&window.NPApp.native;
   // Native parentPost owns its gate; web kids builds use the existing browser gate.
-  if(form.dataset.subscribeKids==='true'&&!nativeParent){
+  if(isKids&&!nativeParent){
    if(typeof window.npGate!=='function'){error.textContent='Please wait for the grown-up check to load, then try again.';return;}
    authorizing=true;let allowed=false;
-   try{allowed=await new Promise(resolve=>window.npGate('link',()=>resolve(true),()=>resolve(false)));}
+   try{allowed=await new Promise(resolve=>{const yes=()=>resolve(true),no=()=>resolve(false);if(window.npGate.parent)window.npGate.parent(yes,no);else window.npGate('link',yes,no);});}
    finally{authorizing=false;}
    if(!allowed)return;
   }

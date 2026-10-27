@@ -42,10 +42,17 @@ Links out, email and anything else that isn't a saved page open outside the app 
 
 The saved pages have a `file:` origin. They must not POST directly to the Worker from the WebView:
 the Worker's browser CORS allowlist deliberately excludes `null`. In the installed app,
-`NPApp.parentPost(url, payload)` asks the existing grown-up question **before posting any message**,
+`NPApp.parentPost(url, payload)` uses the existing grown-up authorization **before posting any message**,
 then `mobile/src/parent-api.ts` sends the request using native networking. The reply returns to the
 same form/game. Cancelling or a missing gate sends nothing; offline failures leave a retryable error.
 Ordinary website and browser kids builds keep their existing fetch and gate paths.
+
+On For parents, the entry check authorizes signup for that page visit: there is no inline sum and no
+second dialog when submitting. `npGate.parent()` reads the gate's private page-unlock state; it does
+not trust a CSS class or persist a device-wide unlock. Archive signup and sharing a poll response
+outside the parent area still ask once. Leaving/back navigation locks parent pages again. External
+links and sharing to other apps retain their separate always-ask checks. Public website forms retain
+their inline sum.
 
 The native handler permits only `/api/subscribe` from local parents/archive pages and
 `/api/polls/vote` from local dated reader pages. It validates the source directory, exact service URL,

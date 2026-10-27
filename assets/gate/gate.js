@@ -232,4 +232,10 @@
 
   // For code that leaves the app or shares by itself: npGate("share", function () { ... }).
   window.npGate = function (reason, onPass, onCancel) { open(reason, onPass, onCancel); };
+  // In-app parent actions can reuse this page's actual unlock (not a CSS flag or saved boolean).
+  // Leaving the page still clears it; external links/share keep their always-ask behavior.
+  window.npGate.parent = function (onPass, onCancel) {
+    if (pageOpen) onPass();
+    else open('grown', onPass, onCancel);
+  };
 })();

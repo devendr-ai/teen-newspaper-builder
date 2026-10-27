@@ -126,19 +126,22 @@ function solve(q) {                                // the gate's question -> its
     if (await form.locator('select[name="edition_slug"]').count())
       await form.locator('select[name="edition_slug"]').selectOption("little-explorers");
     await form.locator('[name="email"]').fill("parent@example.com");
-    await form.locator('[name="grownup_answer"]').fill("1");
+    if (MODE === "web") {
+      await form.locator('[name="grownup_answer"]').fill("1");
+      await form.evaluate(f => f.requestSubmit());
+      ok(`${url}: wrong math sends nothing`, subscriptions.length === before);
+      const factors = (await form.locator('[data-math-question]').textContent()).match(/\d+/g).map(Number);
+      await form.locator('[name="grownup_answer"]').fill(String(factors[0] * factors[1]));
+    } else ok(`${url}: no duplicate inline math`, await form.locator('[name="grownup_answer"]').count() === 0);
+    const parentOpen = await p.evaluate(() => document.documentElement.hasAttribute('data-gate-page') && document.documentElement.classList.contains('np-unlocked'));
     await form.evaluate(f => f.requestSubmit());
-    ok(`${url}: wrong math sends nothing`, subscriptions.length === before);
-    const factors = (await form.locator('[data-math-question]').textContent()).match(/\d+/g).map(Number);
-    await form.locator('[name="grownup_answer"]').fill(String(factors[0] * factors[1]));
-    await form.evaluate(f => f.requestSubmit());
-    if (MODE === "kids") {
+    if (MODE === "kids" && !parentOpen) {
       ok(`${url}: app gate blocks network`, await gateShown() && subscriptions.length === before);
       await p.click(".np-gate-back");
       ok(`${url}: cancelling sends nothing`, subscriptions.length === before);
       await form.evaluate(f => f.requestSubmit());
       await answer(true);
-    }
+    } else if (MODE === "kids") ok(`${url}: parent unlock is reused`, !(await gateShown()));
     await form.locator('.subscription-status').filter({ hasText: "Check your inbox to confirm" }).waitFor();
     const sent = subscriptions.slice(before).filter(r => r.method === "POST");
     ok(`${url}: one authorized request`, sent.length === 1 &&

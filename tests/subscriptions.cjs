@@ -43,7 +43,7 @@ process.stdin.on('end',async()=>{
  // In the installed app, only the gated native transport may send the payload.
  let nativeCalls=[];
  f=setup({kids:true,gate:()=>{throw Error('duplicate gate');},native:async(url,payload)=>{nativeCalls.push({url,payload});return {ok:true,status:202,json:async()=>({ok:true})};}});
- assert.equal(nativeCalls.length,0);f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.equal(nativeCalls.length,1);assert.match(f.status.textContent,/Check your inbox/);
+ assert.equal(nativeCalls.length,0);assert.equal(f.items.grownup_answer.value,'');await f.submit();assert.equal(f.calls.length,0);assert.equal(nativeCalls.length,1);assert.match(f.status.textContent,/Check your inbox/);
  assert.equal(nativeCalls[0].payload.email,'parent@example.com');
  f=setup({kids:true,native:async()=>null});f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.equal(f.status.textContent,'');assert.equal(f.error.textContent,'');assert.equal(f.button.disabled,false);
  f=setup({kids:true,native:async()=>{throw Error('offline')}});f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.match(f.error.textContent,/connection/);assert.equal(f.button.disabled,false);

@@ -8,6 +8,12 @@
 
 # Changelog
 
+## One parent check for app email signup
+
+- App forms no longer add an inline sum. For parents reuses its entry unlock when submitting a
+  subscription; archive forms still require one grown-up check. The unlock ends with the page visit.
+- External links and sharing to other apps keep their existing checks. Public website signup is unchanged.
+
 ## App signup and reader responses from offline pages
 
 - After the grown-up check, email signup and optional analyst response sharing use a narrow native
