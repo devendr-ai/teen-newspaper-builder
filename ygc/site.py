@@ -197,8 +197,9 @@ document.querySelectorAll('form[data-gate-form="subscribe"]').forEach(form=>{
   if(!/^\d+$/.test(answer.value.trim())||Number(answer.value)!==expected){
    error.textContent='Please ask a grown-up to check the answer before subscribing.';answer.setAttribute('aria-invalid','true');answer.focus();return;
   }
-  // The app gate is supplied by the separate kids-mode workstream.
-  if(form.dataset.subscribeKids==='true'){
+  const nativeParent=window.NPApp&&window.NPApp.native;
+  // Native parentPost owns its gate; web kids builds use the existing browser gate.
+  if(form.dataset.subscribeKids==='true'&&!nativeParent){
    if(typeof window.npGate!=='function'){error.textContent='Please wait for the grown-up check to load, then try again.';return;}
    authorizing=true;let allowed=false;
    try{allowed=await new Promise(resolve=>window.npGate('link',()=>resolve(true),()=>resolve(false)));}
@@ -207,14 +208,15 @@ document.querySelectorAll('form[data-gate-form="subscribe"]').forEach(form=>{
   }
   const payload={email:form.elements.namedItem('email').value.trim(),edition_slug:form.elements.namedItem('edition_slug').value,cadence:form.elements.namedItem('cadence').value,website:form.elements.namedItem('website').value};
   busy=true;button.disabled=true;form.setAttribute('aria-busy','true');button.textContent='Sending…';status.textContent='Sending your confirmation email…';
-  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
+  const controller=new AbortController(),timer=nativeParent?null:setTimeout(()=>controller.abort(),20000);
   try{
-   const response=await fetch(form.dataset.subscribeEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),credentials:'omit',cache:'no-store',redirect:'error',referrerPolicy:'no-referrer',signal:controller.signal});
+   const response=nativeParent?await window.NPApp.parentPost(form.dataset.subscribeEndpoint,payload):await fetch(form.dataset.subscribeEndpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),credentials:'omit',cache:'no-store',redirect:'error',referrerPolicy:'no-referrer',signal:controller.signal});
+   if(!response)return; // The grown-up cancelled; no request was sent.
    if(!response.ok){error.textContent=response.status===429?'Too many requests. Please wait a while before trying again.':response.status===503?'Email delivery is temporarily unavailable. Please try again later.':'We couldn’t request your subscription. Check your email and try again.';return;}
    const result=await response.json();if(result.ok!==true)throw Error('invalid_response');
    status.textContent="Check your inbox to confirm — we'll send the latest issue right away!";form.elements.namedItem('email').value='';form.elements.namedItem('website').value='';
   }catch(e){error.textContent='We couldn’t reach email delivery. Check your connection and try again.';}
-  finally{clearTimeout(timer);if(error.textContent)status.textContent='';challenge();busy=false;button.disabled=false;button.textContent='Send confirmation email';form.removeAttribute('aria-busy');}
+  finally{clearTimeout(timer);status.textContent=status.textContent==='Sending your confirmation email…'?'':status.textContent;if(error.textContent)status.textContent='';challenge();busy=false;button.disabled=false;button.textContent='Send confirmation email';form.removeAttribute('aria-busy');}
  });
  challenge();fields.disabled=false; // Fail closed without JS or if setup cannot finish.
  const editions=form.elements.namedItem('edition_slug'),share=form.closest('.subscription-box').querySelector('[data-subscription-share]');

@@ -8,6 +8,14 @@
 
 # Changelog
 
+## App signup and reader responses from offline pages
+
+- After the grown-up check, email signup and optional analyst response sharing use a narrow native
+  connection, so the saved app pages work with the Worker's existing strict browser CORS settings.
+- Reject other destinations, local page contexts and unexpected payload fields. Cancellation sends
+  nothing; connection failures remain retryable. The public website keeps its existing behavior.
+- An updated Expo project/native build is required alongside the updated content pack.
+
 
 
 

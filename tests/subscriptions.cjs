@@ -4,7 +4,7 @@ let source='';process.stdin.setEncoding('utf8');process.stdin.on('data',chunk=>s
 process.stdin.on('end',async()=>{
  const script=source.match(/<script>([\s\S]*?)<\/script>/)[1];
  function node(extra={}){return {value:'',hidden:false,textContent:'',attrs:{},handlers:{},setAttribute(k,v){this.attrs[k]=v;},removeAttribute(k){delete this.attrs[k];},focus(){this.focused=true;},addEventListener(k,f){this.handlers[k]=f;},...extra};}
- function setup({kids=false,gate,selector=false,url='https://newspebbles.com/',valid=true,response,missing=false}={}){
+ function setup({kids=false,gate,native,selector=false,url='https://newspebbles.com/',valid=true,response,missing=false}={}){
   let timerCallback;
   const calls=[],historyCalls=[],fields=node({disabled:true}),button=node(),status=node(),error=node(),question=node(),share=node();
   const items={email:node({value:'parent@example.com'}),edition_slug:node({tagName:selector?'SELECT':'INPUT',value:'little-explorers',options:[{value:'little-explorers'},{value:'breakfast-table'}],selectedOptions:[{dataset:{shareUrl:'https://wa.me/?text=dated-issue'}}]}),cadence:node({value:'every_issue'}),website:node(),grownup_answer:node()};
@@ -13,7 +13,7 @@ process.stdin.on('end',async()=>{
    closest:()=>({querySelector:()=>share})});
   const confirmed=node({hidden:true}),removed=node({hidden:true}),dismiss=node(),banner=node({hidden:true,querySelector:s=>({'[data-subscription-confirmed]':confirmed,'[data-subscription-unsubscribed]':removed,'.subscription-dismiss':dismiss})[s]});
   const math=Object.create(Math);math.random=()=>0; // 12 × 3 = 36
-  const ctx={window:{npGate:gate},document:{querySelectorAll:()=>missing?[]:[form],querySelector:()=>banner},Math:math,URL,location:{href:url},history:{replaceState:(...args)=>historyCalls.push(args)},AbortController,setTimeout:(fn,ms)=>{assert.equal(ms,20000);timerCallback=fn;return 1;},clearTimeout:()=>{},
+  const ctx={window:{npGate:gate,NPApp:native?{native:true,parentPost:native}:undefined},document:{querySelectorAll:()=>missing?[]:[form],querySelector:()=>banner},Math:math,URL,location:{href:url},history:{replaceState:(...args)=>historyCalls.push(args)},AbortController,setTimeout:(fn,ms)=>{assert.equal(ms,20000);timerCallback=fn;return 1;},clearTimeout:()=>{},
    fetch:async(url,options)=>{calls.push({url,options});return response?response(options):{ok:true,status:202,json:async()=>({ok:true})};}};
   vm.runInNewContext(script,ctx);
   return {timeout:()=>timerCallback(),calls,items,form,fields,button,status,error,question,share,confirmed,removed,dismiss,banner,historyCalls,submit:()=>form.handlers.submit({preventDefault(){}})};
@@ -40,5 +40,12 @@ process.stdin.on('end',async()=>{
  f=setup({kids:true});f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.match(f.error.textContent,/grown-up check/);
  let grant,cancel;f=setup({kids:true,gate:(reason,yes,no)=>{assert.equal(reason,'link');grant=yes;cancel=no;}});f.items.grownup_answer.value='36';const gated=f.submit();assert.equal(f.calls.length,0);await f.submit();assert.equal(f.calls.length,0);grant();await gated;assert.equal(f.calls.length,1);
  f=setup({kids:true,gate:(reason,yes,no)=>{cancel=no;}});f.items.grownup_answer.value='36';const cancelled=f.submit();cancel();await cancelled;assert.equal(f.calls.length,0);
+ // In the installed app, only the gated native transport may send the payload.
+ let nativeCalls=[];
+ f=setup({kids:true,gate:()=>{throw Error('duplicate gate');},native:async(url,payload)=>{nativeCalls.push({url,payload});return {ok:true,status:202,json:async()=>({ok:true})};}});
+ assert.equal(nativeCalls.length,0);f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.equal(nativeCalls.length,1);assert.match(f.status.textContent,/Check your inbox/);
+ assert.equal(nativeCalls[0].payload.email,'parent@example.com');
+ f=setup({kids:true,native:async()=>null});f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.equal(f.status.textContent,'');assert.equal(f.error.textContent,'');assert.equal(f.button.disabled,false);
+ f=setup({kids:true,native:async()=>{throw Error('offline')}});f.items.grownup_answer.value='36';await f.submit();assert.equal(f.calls.length,0);assert.match(f.error.textContent,/connection/);assert.equal(f.button.disabled,false);
  console.log('Subscription UI: zero initial requests, scoped math gate, future gate cancellation, minimal payload, loading/double-submit, errors, share changes and banners passed.');
 });

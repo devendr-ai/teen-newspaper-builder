@@ -93,10 +93,31 @@
   };
   if (!RN) return;
 
+  // Parent-only API actions from file: pages cannot use browser CORS. Ask here, before even
+  // posting a message to native code. No network fallback if the gate or native reply is missing.
+  var parentJobs = {}, parentSeq = 0, parentPrefix = Date.now().toString(36) + '-' + Math.random().toString(36).slice(2);
+  window.NPApp.parentPost = function (url, body) {
+    return new Promise(function (resolve, reject) {
+      if (typeof window.npGate !== 'function') { reject(new Error('gate_unavailable')); return; }
+      window.npGate('grown', function () {
+        var id = parentPrefix + '-' + (++parentSeq);
+        var timer = setTimeout(function () { delete parentJobs[id]; reject(new Error('native_request_timeout')); }, 22000);
+        parentJobs[id] = function (m) {
+          clearTimeout(timer); delete parentJobs[id];
+          if (m.error) { reject(new Error('native_request_failed')); return; }
+          resolve({ ok: m.status >= 200 && m.status < 300, status: m.status, json: function () { return Promise.resolve(m.data); } });
+        };
+        post({ t: 'parent-request', id: id, url: url, body: body });
+      }, function () { resolve(null); });
+    });
+  };
+
   // ---------------------------------------------------------------- messages from the app
   window.__np = function (m) {
     if (!m) return;
-    if (m.t === "status") {
+    if (m.t === 'parent-result') {
+      if (parentJobs[m.id]) parentJobs[m.id](m);
+    } else if (m.t === "status") {
       var s = m.s || null;
       if (s && players[s.id]) players[s.id]._status(s);
       emit(s);

@@ -30,7 +30,8 @@
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "lint": "expo lint",
-    "doctor": "expo-doctor"
+    "doctor": "expo-doctor",
+    "test:parent-api": "node tests/parent-api.cjs"
   },
   "private": true
 }
