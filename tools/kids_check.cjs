@@ -9,6 +9,8 @@
 // Web: nothing is gated, and nothing loads from Google Fonts or a CDN. Prints one JSON report;
 // exit code 1 if anything failed. Needs Playwright with Chromium (CHROME=path to use a given one).
 const { chromium } = require("playwright");
+// A new window starts at about:blank: wait until it reaches an address matching `re` (slow machines).
+const settle = async (w, re) => { if (w) await w.waitForURL(re, { timeout: 15000 }).catch(() => {}); return w; };
 const fs = require("fs"), path = require("path");
 
 const BASE = process.argv[2] || "http://localhost:8777/", MODE = process.argv[3] || "kids";
@@ -180,10 +182,11 @@ function solve(q) {                                // the gate's question -> its
        /Too many tries/.test(await p.locator("#np-gate-msg").textContent()), await p.locator("#np-gate-msg").textContent());
     await p.waitForTimeout(31000);
     ok("after 30 seconds the gate asks again", !(await p.locator("#np-gate-answer").isDisabled()));
-    const popup = p.waitForEvent("popup", { timeout: 4000 }).catch(() => null);
+    const popup = p.waitForEvent("popup", { timeout: 15000 }).catch(() => null);
     const href = await src.getAttribute("href");
     await answer(true);
     const opened = await popup;
+    await settle(opened, (u) => u.href.startsWith(href.slice(0, 20)));
     ok("right answer opens the source", opened && opened.url().startsWith(href.slice(0, 20)), opened ? opened.url() : "no new page");
     if (opened) await opened.close();
     // 2. the next link out asks again (no lasting unlock)
@@ -217,9 +220,9 @@ function solve(q) {                                // the gate's question -> its
     if (await print.count()) {
       await print.evaluate((a) => a.click());
       ok("Print this paper (website side): gate appears", await gateShown());
-      const pdf = p.waitForEvent("popup", { timeout: 4000 }).catch(() => null);
+      const pdf = p.waitForEvent("popup", { timeout: 15000 }).catch(() => null);
       await answer(true);
-      const w = await pdf;
+      const w = await settle(await pdf, /\.pdf$/);
       ok("…then the PDF opens", w && /\.pdf$/.test(w.url()), w ? w.url() : "");
       if (w) await w.close();
     }
@@ -245,9 +248,10 @@ function solve(q) {                                // the gate's question -> its
     ok("feedback: no embedded form", (await p.locator("iframe").count()) === 0);
     await form.evaluate((a) => a.click());
     ok("feedback form button: gate appears even on the unlocked page", await gateShown());
-    const fpop = p.waitForEvent("popup", { timeout: 4000 }).catch(() => null);
+    const fpop = p.waitForEvent("popup", { timeout: 15000 }).catch(() => null);
     await answer(true);
     const fw = await fpop;
+    await settle(fw, /docs\.google\.com/);
     ok("…then the Google Form opens", fw && /docs\.google\.com/.test(fw.url()), fw ? fw.url() : "");
     if (fw) await fw.close();
     ok("feedback: email options", (await p.locator('a[href^="mailto:"]').count()) >= 2);
@@ -277,7 +281,7 @@ function solve(q) {                                // the gate's question -> its
       const size = await pdfLink.evaluate(async (a) => (await (await fetch(a.href)).arrayBuffer()).byteLength);
       ok("builder: the PDF is real", size > 3000, size + " bytes");
       const openIt = p.locator('#result a[target="_blank"]');
-      const ow = p.waitForEvent("popup", { timeout: 4000 }).catch(() => null);
+      const ow = p.waitForEvent("popup", { timeout: 15000 }).catch(() => null);
       await openIt.evaluate((a) => a.click());
       const w = await ow;
       ok("builder: Open it works on the unlocked page", w && !(await gateShown()));

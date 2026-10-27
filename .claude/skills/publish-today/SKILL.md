@@ -249,6 +249,9 @@ Only issues and posters that passed are left in the working tree.
    left out), keep the papers that passed `ygc check`: publish them, and put
    the failing test's name and message in the pull request so the owner can
    fix the test. A passing paper is never dropped for someone else's test.
+   Never reshape today's content (reorder chapters, reword a headline, swap a
+   story) just to satisfy a test that expects something about another day's
+   paper: that hides a broken test. Report it instead.
 3. Commit (`Papers for $D`), push your branch, open a pull request to `main`
    titled `Papers for $D` with one line per paper (passed / skipped and why),
    then **merge it straight away** with the GitHub tools: the owner has asked
