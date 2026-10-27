@@ -1359,6 +1359,32 @@
       "primary": false
      }
     ]
+   },
+   {
+    "id": "psg-lyon",
+    "headline": "PSG Beat Lyon 2-0",
+    "what_happened": "Sky Sports' scores page for 26 October lists Paris Saint-Germain 2, Lyon 0 in Ligue 1, and Sevilla 2, Osasuna 0 in La Liga.",
+    "why_it_matters": "A sporting result.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "geography": "France; Spain",
+    "key_facts": [
+     {
+      "fact": "Sky Sports' scores for 26 October list Paris Saint-Germain 2, Lyon 0 in Ligue 1 and Sevilla 2, Osasuna 0 in La Liga, all at full time.",
+      "source_url": "https://www.skysports.com/football-scores-fixtures/2026-10-26"
+     }
+    ],
+    "numbers": [],
+    "sources": [
+     {
+      "outlet": "Sky Sports",
+      "title": "Football scores and fixtures, 26 October 2026",
+      "url": "https://www.skysports.com/football-scores-fixtures/2026-10-26",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
    }
   ]
  }
