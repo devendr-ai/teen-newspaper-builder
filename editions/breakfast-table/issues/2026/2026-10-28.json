@@ -1,0 +1,432 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-28",
+  "volume": 1,
+  "issue": 17,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  OIL",
+      "headline": "Oil Stays Above $114 While Attacks and Talks Go On in the Gulf",
+      "deck": "Saudi Arabia says it stopped more drones as three countries meet Iran's leaders.",
+      "body": [
+        "Oil is the raw material for petrol and diesel, so its price ends up on the signs at filling stations. On Monday a barrel of Brent crude, the price many countries follow, closed at $115.81. Early on Tuesday it was $114.68.",
+        "Part of the reason is a fight in the Gulf region. The Houthis, an armed group in Yemen, keep attacking Saudi Arabia, which sells a great deal of oil. Saudi Arabia's allies said they destroyed three drones aimed at the capital, Riyadh, and southern areas on Monday.",
+        "There is also some diplomacy. On Monday, senior officials from Saudi Arabia, Turkey and Pakistan met Iran's leaders in Tehran, and Iranian state media said they agreed to keep talking. Buyers are watching the Gulf closely."
+      ],
+      "map": {
+        "title": "THE PERSIAN GULF",
+        "label_top": "IRAN",
+        "label_bottom": "SAUDI ARABIA",
+        "footnote": "Talks took place in Tehran, Iran's capital",
+        "caption": "The Gulf lies between Iran and Saudi Arabia."
+      },
+      "why": "Dearer crude can mean dearer fuel, and fuel is part of the cost of getting food and families around.",
+      "sources": [
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        },
+        {
+          "outlet": "Baird Maritime",
+          "title": "Oil prices rise as fresh Houthi strikes on Saudi targets rattle nerves",
+          "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  EUROPE",
+      "headline": "Europe's Living-Cost Anger Reaches Streets in Three Countries",
+      "deck": "Higher fuel and energy bills are behind protests from France to Portugal.",
+      "body": [
+        "Prices for fuel and energy have climbed across Europe, and last weekend people took to the streets. In France, the unrest led to 2,400 arrests, and President Emmanuel Macron said the protesters' demands were legitimate while condemning violence and looting.",
+        "The protests were not only in France. In Milan, in Italy, police clashed with protesters angry about public services and rising living costs. In Portugal, thousands marched against high housing costs.",
+        "The European Commission estimates the Iran conflict has cost Europe about 100 billion euros through disrupted trade and energy markets. It also says gas prices have jumped about 140% and diesel prices have doubled.",
+        "Fuel is part of the cost of moving almost everything by road, so a rise at the pump can show up in other prices too."
+      ],
+      "chart": {
+        "title": "PRICES CLIMB",
+        "subtitle": "Rise in a year, in percent",
+        "labels": [
+          "UK motor fuels",
+          "French energy"
+        ],
+        "values": [
+          30,
+          21.3
+        ],
+        "max": 40,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "UK: year to September (ONS, via ITV). France: September (INSEE)."
+      },
+      "connect": "The oil price in this paper's top story feeds into fuel and energy costs.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Anger at rising fuel prices bolsters Europe's far right as unrest sweeps France",
+          "url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "What's making Europe so angry?",
+          "url": "https://www.cnbc.com/2026/10/20/france-protests-europe-cost-living-violence.html"
+        },
+        {
+          "outlet": "ITV News",
+          "title": "UK inflation jumps to highest rate in almost a year after fuel prices climb",
+          "url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "More Than 30 Million Americans Have Already Voted",
+      "deck": "A week before the midterms, early voting is running strongly.",
+      "body": [
+        "The United States holds midterm elections on 3 November, halfway through a president's term, to choose members of Congress. Many people do not wait for that day. They vote early, by post or in person.",
+        "With a week to go, more than 30 million Americans have already voted, according to election trackers. In Louisiana, early voting ends on Tuesday, and more than 363,000 people have cast ballots there.",
+        "Early totals show how many people are taking part. They do not show who is winning, so the real result will come after election day."
+      ],
+      "why": "Voting is how families have a say, and early voting gives people more than one chance to use it.",
+      "also": [
+        "Fed: The US central bank decides on its key interest rate on Wednesday at 2 pm Eastern Time; traders put about an 11% chance on a rise.",
+        "Louisiana: Early voting there ends on Tuesday 27 October."
+      ],
+      "sources": [
+        {
+          "outlet": "States Newsroom",
+          "title": "Early voting surges in midterm elections as millions cast their ballots",
+          "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+        },
+        {
+          "outlet": "Axios New Orleans",
+          "title": "Early voting in Louisiana midterms ends Tuesday",
+          "url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: President Zelenskyy said Ukraine, Russia and the United States agreed to hold three-way talks next month.",
+        "Israel: Voters went to the polls on Tuesday, and exit polls suggest neither main side won outright; official results are still to come."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "If petrol costs more, what else might cost more too, and why?",
+        "Why do you think authorities in India move people to shelters before a storm arrives, not after?",
+        "Early voting lets people vote before election day. Why might a country offer more than one day to vote?"
+      ],
+      "sources": [
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        },
+        {
+          "outlet": "States Newsroom",
+          "title": "Early voting surges in midterm elections as millions cast their ballots",
+          "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Families on India's East Coast Move to Shelters Before Arnab",
+      "deck": "A very severe cyclone is due to arrive in the small hours of Wednesday.",
+      "body": [
+        "Imagine being told to leave your home before a storm. For more than 114,000 people in Andhra Pradesh and Odisha, on India's east coast, that happened on Tuesday. They were moved from low-lying coastal districts to shelters.",
+        "The storm is Cyclone Arnab, a very severe cyclonic storm over the Bay of Bengal. India's weather office expects it to cross the coast between 2 am and 4 am on Wednesday, near Visakhapatnam. Gusts could reach 150 kilometres an hour.",
+        "Life on the coast has changed for a few days. Odisha closed schools in 16 of its 30 districts, and at least 50 trains and 21 flights were cancelled. In Andhra Pradesh, 1,351 pregnant women were taken to hospitals as a precaution. Andhra Pradesh also set up 1,087 medical teams and 1,274 ambulances."
+      ],
+      "why": "For a family, a storm warning means a plan: where to go, what to bring and when to leave.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
+          "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+        }
+      ]
+    },
+    "sports": {
+      "title": "DARTS: ROSS SMITH WINS THE EUROPEAN CHAMPIONSHIP",
+      "body": "<b>Ross Smith</b> beat <b>Martin Schindler</b> 11-8 in the final of the European Championship in Dortmund, Germany, on Sunday.",
+      "sources": [
+        {
+          "outlet": "Morning Star",
+          "title": "Sport in brief: October 26, 2026",
+          "url": "https://morningstaronline.co.uk/article/sport-brief-october-26-2026"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Cyclone Arnab crosses the coast between 2 am and 4 am on Wednesday.",
+        "What the Federal Reserve decides on Wednesday at 2 pm Eastern Time."
+      ]
+    },
+    "quote": {
+      "text": "A good plan made early is worth more than a hurry made late.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html",
+    "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears",
+    "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+    "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves",
+    "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france",
+    "https://www.cnbc.com/2026/10/20/france-protests-europe-cost-living-violence.html",
+    "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb",
+    "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+    "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart",
+    "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+    "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate",
+    "https://morningstaronline.co.uk/article/sport-brief-october-26-2026"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Where did officials from Saudi Arabia, Turkey and Pakistan meet Iran's leaders?",
+        "options": [
+          "Tehran",
+          "Riyadh",
+          "Istanbul"
+        ],
+        "answer": 0,
+        "why": "They met Iran's leaders in Tehran on Monday.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Brent crude close at on Monday?",
+        "options": [
+          "$115.81",
+          "$85.81",
+          "$155.81"
+        ],
+        "answer": 0,
+        "why": "A barrel of Brent closed at $115.81.",
+        "story": "lead"
+      },
+      {
+        "q": "How many arrests followed the weekend unrest in France?",
+        "options": [
+          "24",
+          "240",
+          "2,400"
+        ],
+        "answer": 2,
+        "why": "The unrest in France led to 2,400 arrests.",
+        "story": "world"
+      },
+      {
+        "q": "When do the US midterm elections take place?",
+        "options": [
+          "3 November",
+          "28 October",
+          "1 January"
+        ],
+        "answer": 0,
+        "why": "The paper says the midterms are on 3 November.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Houthis are an armed group in Yemen.",
+        "true": true,
+        "why": "The paper describes them as an armed group in Yemen.",
+        "story": "lead"
+      },
+      {
+        "claim": "More than 30 million Americans have already voted early.",
+        "true": true,
+        "why": "Election trackers say more than 30 million have voted.",
+        "story": "us"
+      },
+      {
+        "claim": "Cyclone Arnab is due to cross the coast in the afternoon.",
+        "true": false,
+        "why": "The weather office expects it between 2 am and 4 am.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France",
+          "Italy",
+          "Portugal"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How many arrests followed the weekend unrest in France?",
+        "answer": 2400,
+        "prefix": "",
+        "unit": "arrests",
+        "min": 200,
+        "max": 10000,
+        "why": "The unrest in France led to 2,400 arrests."
+      },
+      {
+        "story": "india",
+        "q": "More than how many people were moved from coastal districts?",
+        "answer": 114000,
+        "prefix": "",
+        "unit": "people",
+        "min": 10000,
+        "max": 500000,
+        "why": "More than 114,000 people were relocated."
+      }
+    ],
+    "brief": {
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning! This is the Breakfast Table Brief from News Pebbles, for Wednesday, 28 October. I'm Maya."
+        },
+        {
+          "who": "sam",
+          "text": "And I'm Sam. A few big stories in about three minutes. Ready?"
+        },
+        {
+          "who": "maya",
+          "text": "Let's go. First, oil. A barrel of Brent crude, the price many countries follow, closed at $115.81 on Monday. Early on Tuesday it was $114.68.",
+          "chapter": "Oil prices"
+        },
+        {
+          "who": "sam",
+          "text": "Why is it so high?"
+        },
+        {
+          "who": "maya",
+          "text": "A group in Yemen called the Houthis keeps attacking Saudi Arabia, which sells a great deal of oil. Saudi Arabia's allies said they destroyed three drones on Monday. But there are talks too. Officials from Saudi Arabia, Turkey and Pakistan met Iran's leaders in Tehran."
+        },
+        {
+          "who": "sam",
+          "text": "What is Brent?"
+        },
+        {
+          "who": "maya",
+          "text": "Brent crude is the price that many countries follow when they buy oil. That is why you hear about it so often."
+        },
+        {
+          "who": "sam",
+          "text": "And oil is made into petrol?"
+        },
+        {
+          "who": "maya",
+          "text": "Yes, petrol and diesel. So dearer oil can mean dearer fuel for families."
+        },
+        {
+          "who": "maya",
+          "text": "Next, India. Cyclone Arnab is a very severe storm over the Bay of Bengal. It is due to cross the coast between 2 am and 4 am on Wednesday, near Visakhapatnam.",
+          "chapter": "Cyclone Arnab"
+        },
+        {
+          "who": "sam",
+          "text": "What are people doing?"
+        },
+        {
+          "who": "maya",
+          "text": "More than 114,000 people moved from coastal areas to shelters. Odisha closed schools in 16 of its 30 districts. Gusts could reach 150 kilometres an hour."
+        },
+        {
+          "who": "maya",
+          "text": "Now Europe. Protests over living costs spread across several countries. In France, the weekend unrest led to 2,400 arrests.",
+          "chapter": "Europe's anger"
+        },
+        {
+          "who": "sam",
+          "text": "Why are people so upset?"
+        },
+        {
+          "who": "maya",
+          "text": "Fuel and energy bills have climbed. The European Commission says the Iran conflict has cost Europe about 100 billion euros."
+        },
+        {
+          "who": "maya",
+          "text": "Last, the United States. The midterm elections are on 3 November, and more than 30 million Americans have already voted early.",
+          "chapter": "Early voting"
+        },
+        {
+          "who": "sam",
+          "text": "Is that all the news from the US?"
+        },
+        {
+          "who": "maya",
+          "text": "Not quite. In Louisiana, early voting ends on Tuesday, and more than 363,000 people have already voted there. Early totals show how many people take part, not who is winning."
+        },
+        {
+          "who": "sam",
+          "text": "So, quick round-up?"
+        },
+        {
+          "who": "maya",
+          "text": "Oil stays high, a storm reaches India's coast, Europe is angry about prices, and Americans vote early."
+        },
+        {
+          "who": "sam",
+          "text": "Here's one for the car. If petrol costs more, what else might cost more too? Have a great day!"
+        }
+      ]
+    }
+  },
+  "threads": {
+    "lead": "yemen-war",
+    "us": "us-midterms-2026"
+  }
+}

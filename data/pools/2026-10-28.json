@@ -1,0 +1,1483 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-arnab",
+    "headline": "Very Severe Cyclone Arnab Is Due to Hit Andhra Pradesh in the Early Hours of 28 October",
+    "what_happened": "Cyclone Arnab strengthened into a very severe cyclonic storm over the Bay of Bengal. The India Meteorological Department's 5:30 pm bulletin on 27 October forecast landfall between 2 am and 4 am on 28 October near Visakhapatnam. More than 114,000 people have been moved from vulnerable coastal districts of Andhra Pradesh and Odisha.",
+    "why_it_matters": "Wind at this speed can badly damage buildings, so moving people to shelters before landfall protects lives.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "geography": "Bay of Bengal; east coast of India; Visakhapatnam in Andhra Pradesh; southern Odisha",
+    "key_facts": [
+     {
+      "fact": "At Andhra Pradesh landfall the IMD expects winds of 125 to 135 kmph, gusting up to 150 kmph.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "The IMD's 5:30 pm bulletin forecast an early landfall between 2 am and 4 am on 28 October, near Visakhapatnam.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "More than 114,000 residents were relocated from vulnerable coastal districts: more than 84,000 in Andhra Pradesh and more than 30,000 in Odisha.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "About 4,000 cyclone shelters are set up across the two states, including 2,131 in Andhra's coastal districts.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "Andhra Pradesh deployed 1,087 medical teams, 1,274 ambulances and 8,281 emergency beds, and moved 1,351 pregnant women to hospitals.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "At least 21 flights were cancelled at Vijayawada and Visakhapatnam on Tuesday, and at least 50 trains were cancelled.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "Odisha closed schools in 16 of its 30 districts.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "The southern Odisha coast may see winds of 60 to 80 kmph.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "Andhra Pradesh's Chief Minister N. Chandrababu Naidu said there is no need for people to panic but they have to take precautions.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "More than 12 million people live along the projected path of the storm.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "fact": "The storm formed over the Bay of Bengal, a major breeding ground for tropical cyclones that frequently affects India's eastern coast.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "fact": "At the time of Al Jazeera's report the storm was 260 km southeast of Visakhapatnam and forecast to turn northwest.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People moved from coastal districts",
+      "value": 114000,
+      "unit": "people",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "label": "Gust speed at landfall",
+      "value": 150,
+      "unit": "kmph",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "label": "Cyclone shelters",
+      "value": 4000,
+      "unit": "shelters",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "label": "People along the projected path",
+      "value": 12,
+      "unit": "million",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "label": "Odisha districts with schools closed",
+      "value": 16,
+      "unit": "of 30 districts",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "The Week",
+      "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+      "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html",
+      "published": "2026-10-27",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
+      "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Arnab to bring heavy rain, storms to Bengal, Odisha",
+      "url": "https://www.theweek.in/news/india/2026/10/24/cyclone-arnab-to-bring-heavy-rain-storms-to-bengal-odisha-october-25.html",
+      "published": "2026-10-24",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oil-houthi-saudi",
+    "headline": "Oil Stays Above $114 as Attacks on Saudi Arabia Continue and Gulf Talks Begin",
+    "what_happened": "Brent crude settled at $115.81 a barrel on Monday 26 October and was near $114.68 early on Tuesday. Houthi attacks on Saudi Arabia have continued: the Saudi-led coalition said it destroyed three drones aimed at Riyadh and southern regions on Monday. Also on Monday, officials from Saudi Arabia, Turkey and Pakistan met Iran's leadership in Tehran.",
+    "why_it_matters": "Saudi Arabia is a giant oil exporter, so attacks and talks in the Gulf move fuel prices for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Saudi Arabia (Riyadh, Yanbu, Shaybah); Yemen; Iran (Tehran); Strait of Hormuz and the Gulf",
+    "key_facts": [
+     {
+      "fact": "Monday's settlements were Brent $115.81 a barrel (briefly above $117 during the day) and WTI $101.76.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "On Tuesday 27 October in early Asian trade Brent was $114.68 and WTI $100.83.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "On Monday senior officials from Saudi Arabia, Turkey and Pakistan met Iran's leadership in Tehran; Iranian state media said the states agreed to keep talking.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "CNBC reported that Saudi Defence Minister Prince Khalid bin Salman met Iranian President Masoud Pezeshkian.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "Houthi attacks on Saudi Arabia have continued; the Saudi-led coalition said it destroyed three drones aimed at Riyadh and southern regions on Monday.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "On 19 October the Houthis said they attacked Saudi energy, airport and military targets including an Aramco facility in Yanbu, the Shaybah oilfield and Riyadh's King Khalid International Airport; Saudi authorities did not immediately confirm, and Reuters could not verify the claims.",
+      "source_url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+     },
+     {
+      "fact": "Increased threats to commercial shipping cut crude flows through the Hormuz region to about 8.5 million barrels a day in the week to 19 October, down from more than 20 million the week before, according to Kpler.",
+      "source_url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude settlement, Monday 26 October",
+      "value": 115.81,
+      "unit": "dollars a barrel",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "label": "WTI settlement, Monday 26 October",
+      "value": 101.76,
+      "unit": "dollars a barrel",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "label": "Drones the coalition said it destroyed on Monday",
+      "value": 3,
+      "unit": "drones",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+      "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Baird Maritime",
+      "title": "Oil prices rise as fresh Houthi strikes on Saudi targets rattle nerves",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves",
+      "published": "2026-10-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-talks",
+    "headline": "Ukraine, Russia and the US Agree to Hold Three-Way Talks Next Month",
+    "what_happened": "Ukrainian President Volodymyr Zelenskyy said on 26 October that Ukraine, Russia and the US have agreed to hold three-way talks next month. He renewed his call for a meeting with Putin on territorial issues. Russia says the talks will not pause the fighting.",
+    "why_it_matters": "Talks are how wars can end, but both sides still disagree about land.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Ukraine; Russia; United States",
+    "key_facts": [
+     {
+      "fact": "Zelenskyy said Ukraine, Russia and the US have agreed to hold trilateral talks next month; the report gives no exact date or venue.",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+     },
+     {
+      "fact": "Zelenskyy renewed his call for a meeting with Putin to discuss territorial issues.",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+     },
+     {
+      "fact": "Putin said the aim is lasting security through final peace agreements, not a short-lived ceasefire.",
+      "source_url": "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061"
+     },
+     {
+      "fact": "Russia has said it has no intention of halting hostilities during the peace talks.",
+      "source_url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+     }
+    ],
+    "numbers": [],
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Zelenskyy says peace talks with Russia, US to restart",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "The Moscow Times",
+      "title": "Putin says renewed peace talks must focus on security",
+      "url": "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061",
+      "published": "2026-10-23",
+      "primary": false
+     },
+     {
+      "outlet": "Ukrainska Pravda",
+      "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-election",
+    "headline": "Israel Votes, and Exit Polls Show No Clear Winner",
+    "what_happened": "Israelis voted in a national election on 27 October. Exit polls suggest neither Prime Minister Benjamin Netanyahu nor his main rival, former military chief Gadi Eisenkot, won outright. Final results had not been published.",
+    "why_it_matters": "No party has enough seats alone, so the next government has to be built from several parties.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Israel",
+    "key_facts": [
+     {
+      "fact": "A majority in Israel's Knesset needs 61 of the 120 seats.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "CNN reported that Netanyahu and his main rival, former military chief Gadi Eisenkot, appear short of outright victory, according to exit polls.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Channel 12's exit poll projected the prime minister's bloc falling from 68 seats in the previous Knesset to 50 seats.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Turnout was reportedly the highest since at least 1999.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Exit polls are not final counts; official results come from the Central Elections Committee.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "of 120 seats",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Israeli election live: No clear winner, exit polls suggest",
+      "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Israel's elections 2026 explained in maps and charts",
+      "url": "https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Israel election 2026: War, security and coalition math",
+      "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-early-voting",
+    "headline": "More Than 30 Million Americans Have Voted Early a Week Before the Midterms",
+    "what_happened": "With a week to go before the 3 November midterm elections, more than 30 million Americans have already voted, according to election trackers. Early voting in Louisiana ends on Tuesday, and more than 363,000 people have voted there.",
+    "why_it_matters": "Early voting lets people vote before election day, and big numbers show many are taking part.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "geography": "United States; Louisiana",
+    "key_facts": [
+     {
+      "fact": "More than 30 million Americans have already voted with a week to go before the 3 November midterm elections.",
+      "source_url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+     },
+     {
+      "fact": "Early voting in Louisiana ends on Tuesday 27 October; more than 363,000 people have already cast ballots there.",
+      "source_url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+     },
+     {
+      "fact": "AP analysis of data through 20 October found early voting up 74% in Texas versus the same point in 2022, more than doubled in Kansas, and up more than 30% in Maine, North Carolina and Ohio; Republicans were a smaller share of early voters than four years earlier in most of these states.",
+      "source_url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/"
+     },
+     {
+      "fact": "Early voting in Texas runs 19 to 30 October; more than 4 million Texans had voted a week in; in Harris County more than 104,000 voted in person on day one, a first-day midterm record.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "Texas Senate candidates are Ken Paxton (R), James Talarico (D) and Ted Brown (L); University of Houston's Nancy Sims said it is a little hard to extrapolate from turnout.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Americans who have voted early",
+      "value": 30,
+      "unit": "million",
+      "source_url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+     },
+     {
+      "label": "Louisiana ballots cast early",
+      "value": 363000,
+      "unit": "ballots",
+      "source_url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "States Newsroom",
+      "title": "Early voting surges in midterm elections as millions cast their ballots",
+      "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Axios New Orleans",
+      "title": "Early voting in Louisiana midterms ends Tuesday",
+      "url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "AURN",
+      "title": "Early Voting Surges in Key Senate Battlegrounds",
+      "url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "ABC13",
+      "title": "Final week of early voting underway in Texas",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "fed-meeting",
+    "headline": "The Fed Meets This Week as Families Watch Loan Costs",
+    "what_happened": "The US Federal Reserve's two-day meeting began on Tuesday 27 October, with its decision due on Wednesday 28 October at 2 pm US Eastern time. Traders put about an 11% chance on a rate hike this week, according to Reuters.",
+    "why_it_matters": "The Fed's rate influences what it costs to borrow money for homes, cars and credit cards.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "United States",
+    "key_facts": [
+     {
+      "fact": "The two-day FOMC meeting began Tuesday 27 October; the decision is due Wednesday 28 October at 2 pm EDT.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "Traders priced about an 11% chance of a rate hike this week and about 82% for December, according to Reuters.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Traders' chance of a hike this week",
+      "value": 11,
+      "unit": "%",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+      "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-arnab",
+    "headline": "Very Severe Cyclone Arnab Is Due to Hit Andhra Pradesh in the Early Hours of 28 October",
+    "what_happened": "Cyclone Arnab strengthened into a very severe cyclonic storm over the Bay of Bengal. The India Meteorological Department's 5:30 pm bulletin on 27 October forecast landfall between 2 am and 4 am on 28 October near Visakhapatnam. More than 114,000 people have been moved from vulnerable coastal districts of Andhra Pradesh and Odisha.",
+    "why_it_matters": "Wind at this speed can badly damage buildings, so moving people to shelters before landfall protects lives.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "geography": "Bay of Bengal; east coast of India; Visakhapatnam in Andhra Pradesh; southern Odisha",
+    "key_facts": [
+     {
+      "fact": "At Andhra Pradesh landfall the IMD expects winds of 125 to 135 kmph, gusting up to 150 kmph.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "The IMD's 5:30 pm bulletin forecast an early landfall between 2 am and 4 am on 28 October, near Visakhapatnam.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "More than 114,000 residents were relocated from vulnerable coastal districts: more than 84,000 in Andhra Pradesh and more than 30,000 in Odisha.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "About 4,000 cyclone shelters are set up across the two states, including 2,131 in Andhra's coastal districts.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "Andhra Pradesh deployed 1,087 medical teams, 1,274 ambulances and 8,281 emergency beds, and moved 1,351 pregnant women to hospitals.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "At least 21 flights were cancelled at Vijayawada and Visakhapatnam on Tuesday, and at least 50 trains were cancelled.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "Odisha closed schools in 16 of its 30 districts.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "The southern Odisha coast may see winds of 60 to 80 kmph.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "Andhra Pradesh's Chief Minister N. Chandrababu Naidu said there is no need for people to panic but they have to take precautions.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "fact": "More than 12 million people live along the projected path of the storm.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "fact": "The storm formed over the Bay of Bengal, a major breeding ground for tropical cyclones that frequently affects India's eastern coast.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "fact": "At the time of Al Jazeera's report the storm was 260 km southeast of Visakhapatnam and forecast to turn northwest.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People moved from coastal districts",
+      "value": 114000,
+      "unit": "people",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "label": "Gust speed at landfall",
+      "value": 150,
+      "unit": "kmph",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "label": "Cyclone shelters",
+      "value": 4000,
+      "unit": "shelters",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     },
+     {
+      "label": "People along the projected path",
+      "value": 12,
+      "unit": "million",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "label": "Odisha districts with schools closed",
+      "value": 16,
+      "unit": "of 30 districts",
+      "source_url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "The Week",
+      "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+      "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html",
+      "published": "2026-10-27",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
+      "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Arnab to bring heavy rain, storms to Bengal, Odisha",
+      "url": "https://www.theweek.in/news/india/2026/10/24/cyclone-arnab-to-bring-heavy-rain-storms-to-bengal-odisha-october-25.html",
+      "published": "2026-10-24",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "india-rupee",
+    "headline": "The Rupee Weakens Past 95 to the Dollar as Oil Stays Near $115",
+    "what_happened": "The rupee slipped to about 95.22 per US dollar in early trade on Tuesday 27 October, weighed down by high oil prices and a stronger dollar ahead of the US Fed decision. A provisional close of 95.12 was reported.",
+    "why_it_matters": "India buys much of its oil from abroad, so a weaker rupee makes imports such as fuel cost more.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "India",
+    "key_facts": [
+     {
+      "fact": "The rupee fell 7 paise to 95.22 against the US dollar in early trade on 27 October.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Another report gives a provisional close of 95.12, helped by RBI support, with crude near $116.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "On 7 October the RBI raised its repo rate by 25 basis points to 5.5% and the Sensex closed at 72,638.70.",
+      "source_url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions"
+     },
+     {
+      "fact": "The rupee settled 22 paise lower at 95.15 on Monday, its third straight day of decline, losing 77 paise over three sessions.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "The dollar index rose 0.06% to 101.86; foreign institutional investors sold net equities worth Rs 1,462.49 crore on Monday.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Forex traders said the rupee showed some recovery on likely RBI intervention but failed to withstand foreign fund outflows.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Analysts attributed higher crude to Houthi-led attacks on Saudi oil infrastructure; Sensex settled at 73,598.67 and Nifty at 22,749.75 on Monday.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias and USD-INR between Rs 94.85 and Rs 95.50.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Rupees per US dollar in early trade",
+      "value": 95.22,
+      "unit": "rupees",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "DT Next",
+      "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+      "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "HDFC Sky",
+      "title": "Rupee closes at 95.12 on RBI support",
+      "url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "BBN Times",
+      "title": "BSE Sensex falls to 72,638.70 after RBI raises repo rate to 5.5%",
+      "url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions",
+      "published": "2026-10-07",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-early-voting",
+    "headline": "More Than 30 Million Americans Have Voted Early a Week Before the Midterms",
+    "what_happened": "With a week to go before the 3 November midterm elections, more than 30 million Americans have already voted, according to election trackers. Early voting in Louisiana ends on Tuesday, and more than 363,000 people have voted there.",
+    "why_it_matters": "Early voting lets people vote before election day, and big numbers show many are taking part.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "geography": "United States; Louisiana",
+    "key_facts": [
+     {
+      "fact": "More than 30 million Americans have already voted with a week to go before the 3 November midterm elections.",
+      "source_url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+     },
+     {
+      "fact": "Early voting in Louisiana ends on Tuesday 27 October; more than 363,000 people have already cast ballots there.",
+      "source_url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+     },
+     {
+      "fact": "AP analysis of data through 20 October found early voting up 74% in Texas versus the same point in 2022, more than doubled in Kansas, and up more than 30% in Maine, North Carolina and Ohio; Republicans were a smaller share of early voters than four years earlier in most of these states.",
+      "source_url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/"
+     },
+     {
+      "fact": "Early voting in Texas runs 19 to 30 October; more than 4 million Texans had voted a week in; in Harris County more than 104,000 voted in person on day one, a first-day midterm record.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "Texas Senate candidates are Ken Paxton (R), James Talarico (D) and Ted Brown (L); University of Houston's Nancy Sims said it is a little hard to extrapolate from turnout.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Americans who have voted early",
+      "value": 30,
+      "unit": "million",
+      "source_url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+     },
+     {
+      "label": "Louisiana ballots cast early",
+      "value": 363000,
+      "unit": "ballots",
+      "source_url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "States Newsroom",
+      "title": "Early voting surges in midterm elections as millions cast their ballots",
+      "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Axios New Orleans",
+      "title": "Early voting in Louisiana midterms ends Tuesday",
+      "url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "AURN",
+      "title": "Early Voting Surges in Key Senate Battlegrounds",
+      "url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "ABC13",
+      "title": "Final week of early voting underway in Texas",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-election",
+    "headline": "Israel Votes, and Exit Polls Show No Clear Winner",
+    "what_happened": "Israelis voted in a national election on 27 October. Exit polls suggest neither Prime Minister Benjamin Netanyahu nor his main rival, former military chief Gadi Eisenkot, won outright. Final results had not been published.",
+    "why_it_matters": "No party has enough seats alone, so the next government has to be built from several parties.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Israel",
+    "key_facts": [
+     {
+      "fact": "A majority in Israel's Knesset needs 61 of the 120 seats.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "CNN reported that Netanyahu and his main rival, former military chief Gadi Eisenkot, appear short of outright victory, according to exit polls.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Channel 12's exit poll projected the prime minister's bloc falling from 68 seats in the previous Knesset to 50 seats.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Turnout was reportedly the highest since at least 1999.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Exit polls are not final counts; official results come from the Central Elections Committee.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "of 120 seats",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Israeli election live: No clear winner, exit polls suggest",
+      "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Israel's elections 2026 explained in maps and charts",
+      "url": "https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Israel election 2026: War, security and coalition math",
+      "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-houthi-saudi",
+    "headline": "Oil Stays Above $114 as Attacks on Saudi Arabia Continue and Gulf Talks Begin",
+    "what_happened": "Brent crude settled at $115.81 a barrel on Monday 26 October and was near $114.68 early on Tuesday. Houthi attacks on Saudi Arabia have continued: the Saudi-led coalition said it destroyed three drones aimed at Riyadh and southern regions on Monday. Also on Monday, officials from Saudi Arabia, Turkey and Pakistan met Iran's leadership in Tehran.",
+    "why_it_matters": "Saudi Arabia is a giant oil exporter, so attacks and talks in the Gulf move fuel prices for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Saudi Arabia (Riyadh, Yanbu, Shaybah); Yemen; Iran (Tehran); Strait of Hormuz and the Gulf",
+    "key_facts": [
+     {
+      "fact": "Monday's settlements were Brent $115.81 a barrel (briefly above $117 during the day) and WTI $101.76.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "On Tuesday 27 October in early Asian trade Brent was $114.68 and WTI $100.83.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "On Monday senior officials from Saudi Arabia, Turkey and Pakistan met Iran's leadership in Tehran; Iranian state media said the states agreed to keep talking.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "CNBC reported that Saudi Defence Minister Prince Khalid bin Salman met Iranian President Masoud Pezeshkian.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "Houthi attacks on Saudi Arabia have continued; the Saudi-led coalition said it destroyed three drones aimed at Riyadh and southern regions on Monday.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "On 19 October the Houthis said they attacked Saudi energy, airport and military targets including an Aramco facility in Yanbu, the Shaybah oilfield and Riyadh's King Khalid International Airport; Saudi authorities did not immediately confirm, and Reuters could not verify the claims.",
+      "source_url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+     },
+     {
+      "fact": "Increased threats to commercial shipping cut crude flows through the Hormuz region to about 8.5 million barrels a day in the week to 19 October, down from more than 20 million the week before, according to Kpler.",
+      "source_url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude settlement, Monday 26 October",
+      "value": 115.81,
+      "unit": "dollars a barrel",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "label": "WTI settlement, Monday 26 October",
+      "value": 101.76,
+      "unit": "dollars a barrel",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "label": "Drones the coalition said it destroyed on Monday",
+      "value": 3,
+      "unit": "drones",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+      "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Baird Maritime",
+      "title": "Oil prices rise as fresh Houthi strikes on Saudi targets rattle nerves",
+      "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves",
+      "published": "2026-10-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "fed-meeting",
+    "headline": "The Fed Meets This Week as Families Watch Loan Costs",
+    "what_happened": "The US Federal Reserve's two-day meeting began on Tuesday 27 October, with its decision due on Wednesday 28 October at 2 pm US Eastern time. Traders put about an 11% chance on a rate hike this week, according to Reuters.",
+    "why_it_matters": "The Fed's rate influences what it costs to borrow money for homes, cars and credit cards.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "United States",
+    "key_facts": [
+     {
+      "fact": "The two-day FOMC meeting began Tuesday 27 October; the decision is due Wednesday 28 October at 2 pm EDT.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "Traders priced about an 11% chance of a rate hike this week and about 82% for December, according to Reuters.",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Traders' chance of a hike this week",
+      "value": 11,
+      "unit": "%",
+      "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "FinanceFeeds",
+      "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+      "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "india-rupee",
+    "headline": "The Rupee Weakens Past 95 to the Dollar as Oil Stays Near $115",
+    "what_happened": "The rupee slipped to about 95.22 per US dollar in early trade on Tuesday 27 October, weighed down by high oil prices and a stronger dollar ahead of the US Fed decision. A provisional close of 95.12 was reported.",
+    "why_it_matters": "India buys much of its oil from abroad, so a weaker rupee makes imports such as fuel cost more.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "India",
+    "key_facts": [
+     {
+      "fact": "The rupee fell 7 paise to 95.22 against the US dollar in early trade on 27 October.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Another report gives a provisional close of 95.12, helped by RBI support, with crude near $116.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "On 7 October the RBI raised its repo rate by 25 basis points to 5.5% and the Sensex closed at 72,638.70.",
+      "source_url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions"
+     },
+     {
+      "fact": "The rupee settled 22 paise lower at 95.15 on Monday, its third straight day of decline, losing 77 paise over three sessions.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "The dollar index rose 0.06% to 101.86; foreign institutional investors sold net equities worth Rs 1,462.49 crore on Monday.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Forex traders said the rupee showed some recovery on likely RBI intervention but failed to withstand foreign fund outflows.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Analysts attributed higher crude to Houthi-led attacks on Saudi oil infrastructure; Sensex settled at 73,598.67 and Nifty at 22,749.75 on Monday.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias and USD-INR between Rs 94.85 and Rs 95.50.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Rupees per US dollar in early trade",
+      "value": 95.22,
+      "unit": "rupees",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "DT Next",
+      "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+      "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "HDFC Sky",
+      "title": "Rupee closes at 95.12 on RBI support",
+      "url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "BBN Times",
+      "title": "BSE Sensex falls to 72,638.70 after RBI raises repo rate to 5.5%",
+      "url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions",
+      "published": "2026-10-07",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "rubin-dwarf-planet",
+    "headline": "Rubin Observatory Finds Its First Dwarf Planet Candidate",
+    "what_happened": "Astronomers using the Vera C. Rubin Observatory found a possible dwarf planet beyond Neptune, provisionally named 2026 ED138. It is about 1,000 km across and sits about 46 astronomical units from the Sun. More observations are needed before it can be confirmed.",
+    "why_it_matters": "It shows that our solar system still has large worlds to discover in the far, dim edge.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "geography": "outer solar system beyond Neptune; observatory sees the Southern Hemisphere sky",
+    "key_facts": [
+     {
+      "fact": "The dwarf planet candidate is provisionally named 2026 ED138 and is estimated at 600 to 1,500 km across; Mario Juric says it is roughly 1,000 km across.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "It is about 46 astronomical units from the Sun; Pluto averages 40 au.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "On 13 October Matthew Holman ran Rubin data through a search code he wrote with Kevin Napier; the code matches billions of moving-object detections to find those belonging to the same object.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "Mario Juric of the University of Washington, who leads Rubin's solar system team, confirmed it with 20 more observations going back to March 2026.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "The team traced more than ten years of its orbit using archival images dating to 2016.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "If confirmed it would join the five dwarf planets recognised by the International Astronomical Union: Pluto, Ceres, Eris, Haumea and Makemake.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "Rubin's Legacy Survey of Space and Time began in June 2026; in April the team announced over 11,000 new asteroids, including roughly 380 new trans-Neptunian objects.",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Estimated width",
+      "value": 1000,
+      "unit": "km",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "label": "Distance from the Sun",
+      "value": 46,
+      "unit": "astronomical units",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "label": "Pluto's average distance from the Sun",
+      "value": 40,
+      "unit": "astronomical units",
+      "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "University of Washington",
+      "title": "Rubin Observatory reveals its first dwarf planet candidate",
+      "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate",
+      "published": "2026-10-27",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-budget",
+    "headline": "Chancellor John Healey Delivers His First Budget on 28 October",
+    "what_happened": "Chancellor John Healey, 101 days into the job, is due to present his first Budget to the House of Commons on 28 October. It is expected to be a 'steady-as-she-goes' Budget, with support on energy bills for poorer households and a freeze on fuel duty. Higher government borrowing costs linked to the Iran war have shrunk the room he has to spend.",
+    "why_it_matters": "A Budget decides taxes and spending, which touch household bills across the country.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "United Kingdom; House of Commons, London",
+    "key_facts": [
+     {
+      "fact": "John Healey has been Chancellor for 101 days and is set to present his fiscal plans to the House of Commons.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "The Budget is expected to be 'steady-as-she-goes', meant to give 'breathing space' to hard-pressed households.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "Expected measures: energy bills support for poorer households, a freeze on fuel duty, action to help first-time buyers and tax relief for smaller businesses.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "Healey plans a new raid on banks and a crackdown on online retailers such as Amazon, eBay and Temu.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "The Office for Budget Responsibility forecast a buffer of about 24 billion pounds in March; the Resolution Foundation estimates it has roughly halved to 12 billion pounds because of higher borrowing costs linked to the Iran war.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "The personal allowance has been frozen at 12,570 pounds since 2022 and no major income tax changes are expected.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "A new tax allowance is planned for low-income pensioners who would otherwise be pulled into the tax system for the first time.",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "fact": "Healey said the Budget will move money and power out of Westminster and into every postcode around Britain, and will meet the fiscal rules.",
+      "source_url": "https://gov.uk/government/news/budget-to-move-power-and-money-out-of-westminster-and-into-every-postcode-around-britain"
+     },
+     {
+      "fact": "The OBR will publish its economic and fiscal forecast on the same day as the Budget.",
+      "source_url": "https://gov.uk/government/news/budget-to-move-power-and-money-out-of-westminster-and-into-every-postcode-around-britain"
+     },
+     {
+      "fact": "UK inflation rose to 3.5% in September 2026 from 3.1% in August, driven mainly by fuel; motor fuels rose 30% in the year to September.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "fact": "Average petrol reached 169.5p a litre, the highest in around four years, and diesel hit 192.5p, its highest since July 2022.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Days Healey has been Chancellor",
+      "value": 101,
+      "unit": "days",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "label": "Personal allowance (frozen since 2022)",
+      "value": 12570,
+      "unit": "pounds",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "label": "UK inflation, September",
+      "value": 3.5,
+      "unit": "%",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "label": "Average petrol price",
+      "value": 169.5,
+      "unit": "pence a litre",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "label": "Headroom, OBR March forecast",
+      "value": 24,
+      "unit": "billion pounds",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     },
+     {
+      "label": "Headroom, Resolution Foundation estimate",
+      "value": 12,
+      "unit": "billion pounds",
+      "source_url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "Headtopics",
+      "title": "John Healey to unveil first Budget amid economic turmoil",
+      "url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "GOV.UK",
+      "title": "Budget to move power and money out of Westminster",
+      "url": "https://gov.uk/government/news/budget-to-move-power-and-money-out-of-westminster-and-into-every-postcode-around-britain",
+      "published": "2026-07-31",
+      "primary": true
+     },
+     {
+      "outlet": "ITV News",
+      "title": "UK inflation jumps to highest rate in almost a year",
+      "url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb",
+      "published": "2026-10-21",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "uk-prices",
+    "headline": "UK Prices Rise 3.5% in a Year as Fuel Costs Climb, on the Eve of the Budget",
+    "what_happened": "UK inflation rose to 3.5% in September from 3.1% in August, driven mainly by fuel. Average petrol reached 169.5p a litre, the highest in around four years, and diesel hit 192.5p.",
+    "why_it_matters": "Higher fuel prices make trips and deliveries cost more, which feeds into shop prices.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "United Kingdom",
+    "key_facts": [
+     {
+      "fact": "UK CPI inflation rose to 3.5% in September 2026, up from 3.1% in August, driven mainly by fuel.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "fact": "Motor fuels rose 30% in the year to September, up from 23% in August.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "fact": "Average petrol reached 169.5p per litre, the highest in around four years; diesel hit 192.5p, its highest since July 2022.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "fact": "Reports attribute the fuel rise to the Iran war, which has squeezed global oil and gas supplies.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "fact": "Some economists think the rise could prompt the Bank of England to raise interest rates next month.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "UK inflation, September",
+      "value": 3.5,
+      "unit": "%",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "label": "UK inflation, August",
+      "value": 3.1,
+      "unit": "%",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "label": "Average petrol price",
+      "value": 169.5,
+      "unit": "pence a litre",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "ITV News",
+      "title": "UK inflation jumps to highest rate in almost a year after fuel prices climb",
+      "url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb",
+      "published": "2026-10-21",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "europe-protests",
+    "headline": "Cost-of-Living Anger Spreads Across Europe as Fuel Prices Climb",
+    "what_happened": "Protests over living costs and public services have spread across Europe. In France, weekend unrest led to 2,400 arrests; in Milan police clashed with protesters; in Portugal thousands marched against housing costs. The European Commission estimates the Iran conflict has cost Europe about 100 billion euros.",
+    "why_it_matters": "When fuel and energy cost more, family budgets tighten, and that can change politics.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "France, Italy, Portugal, Germany, Poland",
+    "key_facts": [
+     {
+      "fact": "The European Commission estimates the Iran conflict has cost Europe roughly 100 billion euros through disrupted trade and energy markets.",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     },
+     {
+      "fact": "Gas prices have jumped about 140% and diesel prices have doubled.",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     },
+     {
+      "fact": "Weekend unrest in France led to 2,400 arrests; President Macron said protesters' demands were legitimate while condemning violence and looting.",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     },
+     {
+      "fact": "French energy prices rose 21.3% year on year in September, according to INSEE.",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     },
+     {
+      "fact": "In Milan police clashed on Sunday with protesters over poor public services and rising living costs; thousands protested in Portugal on Saturday against housing costs.",
+      "source_url": "https://www.cnbc.com/2026/10/20/france-protests-europe-cost-living-violence.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Arrests in France after weekend unrest",
+      "value": 2400,
+      "unit": "arrests",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     },
+     {
+      "label": "French energy price rise, year on year to September",
+      "value": 21.3,
+      "unit": "%",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     },
+     {
+      "label": "Estimated cost of the Iran conflict to Europe",
+      "value": 100,
+      "unit": "billion euros",
+      "source_url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Anger at rising fuel prices bolsters Europe's far right as unrest sweeps France",
+      "url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "What's making Europe so angry?",
+      "url": "https://www.cnbc.com/2026/10/20/france-protests-europe-cost-living-violence.html",
+      "published": "2026-10-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-talks",
+    "headline": "Ukraine, Russia and the US Agree to Hold Three-Way Talks Next Month",
+    "what_happened": "Ukrainian President Volodymyr Zelenskyy said on 26 October that Ukraine, Russia and the US have agreed to hold three-way talks next month. He renewed his call for a meeting with Putin on territorial issues. Russia says the talks will not pause the fighting.",
+    "why_it_matters": "Talks are how wars can end, but both sides still disagree about land.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Ukraine; Russia; United States",
+    "key_facts": [
+     {
+      "fact": "Zelenskyy said Ukraine, Russia and the US have agreed to hold trilateral talks next month; the report gives no exact date or venue.",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+     },
+     {
+      "fact": "Zelenskyy renewed his call for a meeting with Putin to discuss territorial issues.",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+     },
+     {
+      "fact": "Putin said the aim is lasting security through final peace agreements, not a short-lived ceasefire.",
+      "source_url": "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061"
+     },
+     {
+      "fact": "Russia has said it has no intention of halting hostilities during the peace talks.",
+      "source_url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+     }
+    ],
+    "numbers": [],
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Zelenskyy says peace talks with Russia, US to restart",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "The Moscow Times",
+      "title": "Putin says renewed peace talks must focus on security",
+      "url": "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061",
+      "published": "2026-10-23",
+      "primary": false
+     },
+     {
+      "outlet": "Ukrainska Pravda",
+      "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-election",
+    "headline": "Israel Votes, and Exit Polls Show No Clear Winner",
+    "what_happened": "Israelis voted in a national election on 27 October. Exit polls suggest neither Prime Minister Benjamin Netanyahu nor his main rival, former military chief Gadi Eisenkot, won outright. Final results had not been published.",
+    "why_it_matters": "No party has enough seats alone, so the next government has to be built from several parties.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "geography": "Israel",
+    "key_facts": [
+     {
+      "fact": "A majority in Israel's Knesset needs 61 of the 120 seats.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "CNN reported that Netanyahu and his main rival, former military chief Gadi Eisenkot, appear short of outright victory, according to exit polls.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Channel 12's exit poll projected the prime minister's bloc falling from 68 seats in the previous Knesset to 50 seats.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Turnout was reportedly the highest since at least 1999.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Exit polls are not final counts; official results come from the Central Elections Committee.",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "of 120 seats",
+      "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     }
+    ],
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Israeli election live: No clear winner, exit polls suggest",
+      "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Israel's elections 2026 explained in maps and charts",
+      "url": "https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts",
+      "published": "2026-10-20",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Israel election 2026: War, security and coalition math",
+      "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "sports": {
+  "label": "SPORTS",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "darts-euro",
+    "headline": "Ross Smith Wins the European Darts Championship",
+    "what_happened": "Ross Smith beat Martin Schindler 11-8 in the European Championship final in Dortmund on Sunday.",
+    "why_it_matters": "A sporting result.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "geography": "Dortmund, Germany",
+    "key_facts": [
+     {
+      "fact": "Ross Smith beat Martin Schindler 11-8 in the European Championship final in Dortmund on Sunday 25 October.",
+      "source_url": "https://morningstaronline.co.uk/article/sport-brief-october-26-2026"
+     }
+    ],
+    "numbers": [],
+    "sources": [
+     {
+      "outlet": "Morning Star",
+      "title": "Sport in brief: October 26, 2026",
+      "url": "https://morningstaronline.co.uk/article/sport-brief-october-26-2026",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "psg-lyon",
+    "headline": "PSG Beat Lyon 2-0",
+    "what_happened": "Sky Sports' scores page for 26 October lists Paris Saint-Germain 2, Lyon 0 in Ligue 1, and Sevilla 2, Osasuna 0 in La Liga.",
+    "why_it_matters": "A sporting result.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "geography": "France; Spain",
+    "key_facts": [
+     {
+      "fact": "Sky Sports' scores for 26 October list Paris Saint-Germain 2, Lyon 0 in Ligue 1 and Sevilla 2, Osasuna 0 in La Liga, all at full time.",
+      "source_url": "https://www.skysports.com/football-scores-fixtures/2026-10-26"
+     }
+    ],
+    "numbers": [],
+    "sources": [
+     {
+      "outlet": "Sky Sports",
+      "title": "Football scores and fixtures, 26 October 2026",
+      "url": "https://www.skysports.com/football-scores-fixtures/2026-10-26",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}

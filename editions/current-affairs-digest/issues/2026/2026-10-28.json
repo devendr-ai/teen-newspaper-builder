@@ -1,0 +1,603 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-10-28",
+  "volume": 1,
+  "issue": 17,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  INDIA",
+      "headline": "Very Severe Cyclone Arnab Is Forecast to Make Landfall Near Visakhapatnam Before Dawn",
+      "deck": "The IMD expects the storm to cross the coast between 2 am and 4 am on 28 October; more than 114,000 people have been moved.",
+      "body": [
+        "Cyclone Arnab has intensified into a 'very severe cyclonic storm', according to the India Meteorological Department (IMD). The IMD's 5:30 pm bulletin on 27 October forecast landfall, the moment the storm's centre crosses the coast, between 2 am and 4 am on 28 October near Visakhapatnam in Andhra Pradesh. Sustained winds of 125 to 135 km/h are expected at landfall, gusting up to 150 km/h, and the southern Odisha coast may see 60 to 80 km/h.",
+        "Earlier forecasts differed on timing. Al Jazeera's report on 27 October cited landfall at 11:30 am on Wednesday, winds of 115-125 km/h and a storm then 260 km south-east of Visakhapatnam. The IMD's later bulletin, reported by The Week, brought the forecast forward to the early hours and raised the wind speeds. More than 12 million people live along the projected path, according to Al Jazeera.",
+        "The response is large. The Week reports that more than 114,000 residents have been relocated from vulnerable coastal districts: over 84,000 in Andhra Pradesh and over 30,000 in Odisha. About 4,000 cyclone shelters are open across both states, 2,131 of them in Andhra's coastal districts. Andhra Pradesh deployed 1,087 medical teams, 1,274 ambulances and 8,281 emergency beds, and moved 1,351 pregnant women to hospitals.",
+        "Disruption has followed. At least 21 flights were cancelled at Vijayawada and Visakhapatnam on Tuesday, and at least 50 trains were cancelled: 24 by South Coast Railway, 22 by East Coast Railway and 4 by South Eastern Railway. Odisha closed schools in 16 of its 30 districts. Andhra Pradesh's Chief Minister, N. Chandrababu Naidu, said there is no need to panic but people must take precautions, while the IMD warned that winds at this speed can cause major damage to property."
+      ],
+      "map": {
+        "title": "THE BAY OF BENGAL",
+        "label_top": "ODISHA",
+        "label_bottom": "ANDHRA PRADESH",
+        "footnote": "Landfall forecast near Visakhapatnam, 2-4 am on 28 October",
+        "caption": "Winds of 125-135 km/h are forecast at the Andhra coast, 60-80 km/h in southern Odisha."
+      },
+      "why": "Early evacuation, shelters and rail and air cancellations are the tools that turn a forecast into fewer casualties, and this storm tests all of them at once.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
+          "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab to bring heavy rain, storms to Bengal, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/24/cyclone-arnab-to-bring-heavy-rain-storms-to-bengal-odisha-october-25.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Ukraine, Russia and the US Agree to Three-Way Talks, but Fighting Will Not Pause",
+      "deck": "Zelenskyy announced talks 'next month'; Moscow says there will be no halt in hostilities.",
+      "body": [
+        "Ukrainian President Volodymyr Zelenskyy said on 26 October that Ukraine, Russia and the United States have agreed to hold trilateral talks next month. Al Jazeera's report gave no exact date or venue. Zelenskyy also renewed his call for a meeting with Russian President Vladimir Putin to discuss what he called territorial issues, the question of who controls which land.",
+        "Russia's position, as reported, is narrower. On 23 October Putin said the aim is lasting security through final peace agreements, not a short-lived ceasefire, according to The Moscow Times. Ukrainska Pravda reported on 26 October that Russia has no intention of halting hostilities while the talks take place.",
+        "The two sides therefore start with different expectations. Kyiv is asking for a leaders' meeting on territory; Moscow is asking for a settlement that covers security more broadly and is not offering a pause in fighting. Until a date and venue are announced, the announcement itself is the only confirmed change.",
+        "For readers following the story, three things are worth tracking: when and where the talks will be held, whether Zelenskyy and Putin ever meet face to face, and whether Russia's refusal to pause hostilities changes once the delegations sit down. Each is a way to judge whether the announcement turns into a real negotiation."
+      ],
+      "illustration": {
+        "title": "TALKS WITHOUT A PAUSE",
+        "subtitle": "26 October",
+        "motif": "podium",
+        "caption": "Three-way talks are due next month; no date or venue has been given."
+      },
+      "connect": "Zelenskyy wants a leaders' meeting on territory, while Putin wants lasting agreements on security; that gap is what the talks must cross.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Zelenskyy says peace talks with Russia, US to restart",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+        },
+        {
+          "outlet": "The Moscow Times",
+          "title": "Putin says renewed peace talks must focus on security",
+          "url": "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061"
+        },
+        {
+          "outlet": "Ukrainska Pravda",
+          "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ECONOMY",
+      "headline": "The Rupee Slips Past 95 per Dollar With Crude Near $115",
+      "deck": "The currency weakened in early trade ahead of the US Federal Reserve's decision.",
+      "body": [
+        "The rupee fell 7 paise to 95.22 against the US dollar in early trade on Tuesday 27 October, according to DT Next, pressured by elevated crude oil prices, geopolitical uncertainty and a stronger dollar ahead of the Fed's decision. A paise is one hundredth of a rupee.",
+        "HDFC Sky reported a provisional close of 95.12, a small gain it linked to Reserve Bank of India (RBI) support, with crude still near $116. The two figures differ because one is early trade and the other is the provisional close.",
+        "The slide has been steady. The rupee settled 22 paise lower at 95.15 on Monday, its third straight day of decline, and has lost 77 paise over three sessions, according to DT Next. The dollar index rose 0.06% to 101.86, and foreign institutional investors sold net equities worth Rs 1,462.49 crore on Monday. Forex traders said the rupee recovered a little on likely RBI intervention but could not withstand the foreign fund outflows. Analysts tied the high crude price to Houthi-led attacks on Saudi oil infrastructure.",
+        "Equity markets were soft too: the Sensex settled at 73,598.67 and the Nifty at 22,749.75 on Monday, according to HDFC Sky. Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to keep a negative bias, trading between 94.85 and 95.50, although hopes of US-Iran de-escalation in talks could support it at lower levels. Policy is already tighter. On 7 October the RBI raised its repo rate by 25 basis points to 5.5%, and the Sensex closed that day at 72,638.70, down 0.59%, according to BBN Times."
+      ],
+      "illustration": {
+        "title": "A WEAKER RUPEE",
+        "subtitle": "Per dollar, 27 Oct",
+        "motif": "skyline",
+        "caption": "About 95.22 in early trade; a provisional close of 95.12 was reported."
+      },
+      "why": "India buys much of its oil abroad and pays in dollars, so a weaker rupee makes the same barrel cost more.",
+      "sources": [
+        {
+          "outlet": "DT Next",
+          "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+          "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+        },
+        {
+          "outlet": "HDFC Sky",
+          "title": "Rupee closes at 95.12 on RBI support",
+          "url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+        },
+        {
+          "outlet": "BBN Times",
+          "title": "BSE Sensex falls to 72,638.70 after RBI raises repo rate to 5.5%",
+          "url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "More Than 30 Million Americans Have Voted Early a Week Before the Midterms",
+      "deck": "Louisiana's early voting closes on Tuesday after more than 363,000 ballots.",
+      "body": [
+        "The US midterm elections on 3 November choose a new Congress halfway through a presidential term. Voters in most states do not have to wait until that day: they can vote by mail or in person early. With a week to go, more than 30 million Americans have already cast ballots, according to States Newsroom.",
+        "The scale differs by state. Early voting in Louisiana ends on Tuesday 27 October, and Axios reports more than 363,000 people have already voted there.",
+        "The surge is sharpest in the Senate battlegrounds. An Associated Press analysis of data through 20 October, cited by AURN, found early voting in Texas up 74% from the same point in 2022, more than doubled in Kansas, and up more than 30% in Maine, North Carolina and Ohio. Republicans made up a smaller share of early voters than four years earlier in most of these states.",
+        "Texas shows the scale. Early voting there runs from 19 to 30 October, and ABC13 reports more than 4 million Texans had voted a week in. In Harris County, more than 104,000 people voted in person on the first day, a first-day record for a midterm. The Senate candidates are Ken Paxton (Republican), James Talarico (Democrat) and Ted Brown (Libertarian). Even so, the University of Houston's Nancy Sims cautions that it is 'a little hard to extrapolate' from turnout, and ABC13 notes that Harris County broke early-voting records in 2018 but Democrats still lost statewide.",
+        "High early turnout shows participation, not outcomes. Early totals do not say which candidates are ahead."
+      ],
+      "illustration": {
+        "title": "VOTING BEFORE ELECTION DAY",
+        "subtitle": "US, 27 October",
+        "motif": "ballot",
+        "caption": "More than 30 million ballots are in with a week to go."
+      },
+      "why": "Early voting spreads an election over days, so turnout can be measured before election day.",
+      "sources": [
+        {
+          "outlet": "States Newsroom",
+          "title": "Early voting surges in midterm elections as millions cast their ballots",
+          "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+        },
+        {
+          "outlet": "Axios New Orleans",
+          "title": "Early voting in Louisiana midterms ends Tuesday",
+          "url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+        },
+        {
+          "outlet": "AURN",
+          "title": "Early Voting Surges in Key Senate Battlegrounds",
+          "url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/"
+        },
+        {
+          "outlet": "ABC13",
+          "title": "Final week of early voting underway in Texas",
+          "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL",
+      "headline": "Brent Stays Near $115 as Houthi Attacks Continue and Tehran Hosts Talks",
+      "deck": "Brent settled at $115.81 on Monday; WTI at $101.76.",
+      "body": [
+        "Brent crude, the benchmark price used for much of the world's oil, settled at $115.81 a barrel on Monday 26 October after briefly rising above $117, and US benchmark WTI settled at $101.76, according to FinanceFeeds. In early Asian trade on Tuesday, Brent was $114.68 and WTI $100.83.",
+        "Two forces pull in different directions. Houthi attacks on Saudi Arabia continue: the Saudi-led coalition said it destroyed three drones aimed at Riyadh and southern regions on Monday. On 19 October the Houthis claimed attacks on an Aramco facility in Yanbu, the Shaybah oilfield and two airports; Saudi authorities did not immediately confirm, and Reuters could not verify them.",
+        "Meanwhile officials from Saudi Arabia, Turkey and Pakistan met Iran's leaders in Tehran on Monday, and Iranian state media said they agreed to keep talking, and CNBC reported that Saudi Defence Minister Prince Khalid bin Salman met Iranian President Masoud Pezeshkian. Shipping threats have also cut crude flows through the Hormuz region to about 8.5 million barrels a day in the week to 19 October from more than 20 million the week before, according to Kpler."
+      ],
+      "chart": {
+        "title": "OIL PRICES",
+        "subtitle": "Dollars a barrel",
+        "labels": [
+          "Brent 26",
+          "WTI 26",
+          "Brent 27",
+          "WTI 27"
+        ],
+        "values": [
+          115.81,
+          101.76,
+          114.68,
+          100.83
+        ],
+        "max": 140,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "Monday settlement; Tuesday early Asian trade. Source: FinanceFeeds."
+      },
+      "why": "Oil is an input to transport and power, so prices at this level raise costs for importers such as India and the UK.",
+      "analyst": "Why might talks lower the price even while attacks go on? Why does Brent trade above WTI here, and what could narrow the gap? Who gains from dearer oil, and who pays?",
+      "sources": [
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        },
+        {
+          "outlet": "Baird Maritime",
+          "title": "Oil prices rise as fresh Houthi strikes on Saudi targets rattle nerves",
+          "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+      "headline": "Rubin Observatory Finds a Possible Dwarf Planet Beyond Neptune",
+      "deck": "The candidate, 2026 ED138, is about 1,000 km across and 46 au from the Sun.",
+      "body": [
+        "Astronomers using the Vera C. Rubin Observatory have found a dwarf planet candidate, provisionally named 2026 ED138. It is a trans-Neptunian object, one that orbits beyond Neptune, and is estimated at 600 to 1,500 km across; Mario Juric, the University of Washington professor who leads Rubin's solar system team, says it is roughly 1,000 km. It lies about 46 astronomical units (au) from the Sun, while Pluto averages 40 au.",
+        "The discovery came from software. On 13 October Matthew Holman of the Harvard & Smithsonian Center for Astrophysics ran Rubin data through a search code he wrote with Kevin Napier, which matches billions of moving-object detections to find those belonging to the same object. Juric then found 20 more observations going back to March 2026, and archival images dating to 2016 let the team trace more than ten years of its orbit.",
+        "The telescope matters too. The NSF-DOE Vera C. Rubin Observatory uses the Simonyi Survey Telescope to repeatedly image the Southern Hemisphere sky, which is what gives a search code enough repeat pictures to link moving points into orbits. It is not yet confirmed. More observations are needed to measure the size exactly. If confirmed, it would join the five dwarf planets recognised by the International Astronomical Union: Pluto, Ceres, Eris, Haumea and Makemake. Holman works at the Harvard & Smithsonian Center for Astrophysics, and Juric is at the University of Washington. Rubin's Legacy Survey of Space and Time began in June 2026, and in April the team announced over 11,000 new asteroids, including roughly 380 new trans-Neptunian objects."
+      ],
+      "illustration": {
+        "title": "BEYOND NEPTUNE",
+        "subtitle": "2026 ED138",
+        "motif": "globe",
+        "caption": "About 1,000 km across, 46 au from the Sun."
+      },
+      "why": "The find shows how much of the outer solar system is still unmapped, and how search software is now as important as the telescope.",
+      "sources": [
+        {
+          "outlet": "University of Washington",
+          "title": "Rubin Observatory reveals its first dwarf planet candidate",
+          "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: The Federal Reserve decides on its key rate on Wednesday at 2 pm Eastern Time; traders put about an 11% chance on a hike this week, according to Reuters.",
+        "United Kingdom: Chancellor John Healey presents his first Budget on 28 October, expected to freeze fuel duty and back poorer households with energy bills support.",
+        "Israel: Voters went to the polls on Tuesday; exit polls suggest neither Netanyahu nor Gadi Eisenkot won outright, and a majority needs 61 of 120 seats.",
+        "Europe: Protests over living costs spread across France, Italy and Portugal; the Commission estimates the Iran conflict has cost Europe about 100 billion euros."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Landfall",
+          "def": "The moment a storm's centre crosses a coastline. Today: Cyclone Arnab is forecast to make landfall near Visakhapatnam."
+        },
+        {
+          "word": "Benchmark",
+          "def": "A standard price or measure others are compared with. Today: Brent crude is the benchmark for much of the world's oil."
+        },
+        {
+          "word": "Exit poll",
+          "def": "A survey of voters as they leave polling stations. Today: Exit polls in Israel suggest nobody won outright."
+        },
+        {
+          "word": "Astronomical unit",
+          "def": "The average distance from Earth to the Sun, used to measure distances in the solar system. Today: 2026 ED138 is about 46 au from the Sun."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Light from the Sun takes about eight minutes to reach Earth, which is one astronomical unit away."
+    },
+    "explainer": {
+      "title": "What makes a dwarf planet",
+      "body": [
+        "Pluto was called a planet until 2006, when the International Astronomical Union (IAU) set out a definition. A planet orbits the Sun, is massive enough to be nearly round, and has cleared other bodies from the neighbourhood of its orbit.",
+        "A dwarf planet orbits the Sun and is nearly round, but has not cleared its orbit. The IAU recognises five: Pluto, Ceres, Eris, Haumea and Makemake. Ceres lies in the asteroid belt between Mars and Jupiter; the others are beyond Neptune.",
+        "Size matters because a dwarf planet must be large enough to be nearly round. That is why the team says more observations of 2026 ED138 are needed to measure its size exactly before it can be confirmed."
+      ],
+      "sources": [
+        {
+          "outlet": "University of Washington",
+          "title": "Rubin Observatory reveals its first dwarf planet candidate",
+          "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> When is Arnab forecast to make landfall?",
+        "(a) 2-4 am on 28 October  (b) Noon on 27 October  (c) 6 pm on 29 October",
+        "<b>2.</b> How many people have been relocated from coastal districts?",
+        "(a) About 11,000  (b) More than 114,000  (c) More than 1.14 million",
+        "<b>3.</b> Who announced three-way talks next month?",
+        "(a) Zelenskyy  (b) Macron  (c) Healey",
+        "<b>4.</b> What was the rupee's early-trade level on Tuesday?",
+        "(a) 52.22  (b) 95.22  (c) 125.22",
+        "<b>5.</b> When do the US midterm elections take place?",
+        "(a) 3 November  (b) 28 October  (c) 1 December",
+        "<b>6.</b> What did Brent settle at on Monday?",
+        "(a) $115.81  (b) $101.76  (c) $85.81",
+        "<b>7.</b> How far from the Sun is 2026 ED138?",
+        "(a) About 4.6 au  (b) About 46 au  (c) About 460 au",
+        "<b>8.</b> How many seats does a majority in Israel's Knesset need?",
+        "(a) 61  (b) 51  (c) 120",
+        "<b>Answers:</b> 1 a, 2 b, 3 a, 4 b, 5 a, 6 a, 7 b, 8 a."
+      ],
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Zelenskyy says peace talks with Russia, US to restart",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+        },
+        {
+          "outlet": "DT Next",
+          "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+          "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+        },
+        {
+          "outlet": "States Newsroom",
+          "title": "Early voting surges in midterm elections as millions cast their ballots",
+          "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        },
+        {
+          "outlet": "University of Washington",
+          "title": "Rubin Observatory reveals its first dwarf planet candidate",
+          "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+        },
+        {
+          "outlet": "CNN",
+          "title": "Israeli election live: No clear winner, exit polls suggest",
+          "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Cyclone Arnab makes landfall between 2 am and 4 am on 28 October as forecast.",
+        "The Fed's decision on Wednesday at 2 pm Eastern Time, and the UK Budget the same day.",
+        "Official results of Israel's election."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html",
+    "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears",
+    "https://www.theweek.in/news/india/2026/10/24/cyclone-arnab-to-bring-heavy-rain-storms-to-bengal-odisha-october-25.html",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart",
+    "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061",
+    "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/",
+    "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade",
+    "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead",
+    "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions",
+    "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+    "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data",
+    "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+    "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves",
+    "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate",
+    "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+    "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027",
+    "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "What is landfall?",
+        "options": [
+          "The moment a storm's centre crosses the coast",
+          "The start of a storm over the sea",
+          "The end of the rainy season"
+        ],
+        "answer": 0,
+        "why": "The paper defines landfall as the moment the storm's centre crosses the coast.",
+        "story": "lead"
+      },
+      {
+        "q": "How many cyclone shelters are open across Andhra Pradesh and Odisha?",
+        "options": [
+          "About 400",
+          "About 4,000",
+          "About 40,000"
+        ],
+        "answer": 1,
+        "why": "The Week reports about 4,000 cyclone shelters across the two states.",
+        "story": "lead"
+      },
+      {
+        "q": "What does Russia say about fighting during the talks?",
+        "options": [
+          "It will not halt hostilities",
+          "It will pause for a month",
+          "It will withdraw"
+        ],
+        "answer": 0,
+        "why": "Ukrainska Pravda reports Russia has no intention of halting hostilities during the talks.",
+        "story": "world"
+      },
+      {
+        "q": "What did the RBI raise its repo rate to on 7 October?",
+        "options": [
+          "4.5%",
+          "5.5%",
+          "6.5%"
+        ],
+        "answer": 1,
+        "why": "The RBI raised its repo rate by 25 basis points to 5.5%.",
+        "story": "india"
+      },
+      {
+        "q": "How many Americans have voted early, according to States Newsroom?",
+        "options": [
+          "More than 3 million",
+          "More than 30 million",
+          "More than 300 million"
+        ],
+        "answer": 1,
+        "why": "More than 30 million Americans have already voted.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "Which price did WTI settle at on Monday?",
+        "options": [
+          "$101.76",
+          "$115.81",
+          "$14.68"
+        ],
+        "answer": 0,
+        "why": "WTI settled at $101.76 a barrel on Monday.",
+        "story": "economics"
+      },
+      {
+        "q": "Who runs Rubin's solar system team?",
+        "options": [
+          "Mario Juric",
+          "Matthew Holman",
+          "Kevin Napier"
+        ],
+        "answer": 0,
+        "why": "Mario Juric of the University of Washington leads Rubin's solar system team.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "Which dwarf planet lies in the asteroid belt?",
+        "options": [
+          "Eris",
+          "Ceres",
+          "Pluto"
+        ],
+        "answer": 1,
+        "why": "The explainer says Ceres lies in the asteroid belt between Mars and Jupiter.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Al Jazeera's earlier report cited an 11:30 am landfall time, while the IMD's later bulletin said 2 to 4 am.",
+        "true": true,
+        "why": "The forecast was brought forward in the later bulletin.",
+        "story": "lead"
+      },
+      {
+        "claim": "Russia says it will halt hostilities while the three-way talks take place.",
+        "true": false,
+        "why": "Ukrainska Pravda reports Russia has no intention of halting hostilities.",
+        "story": "world"
+      },
+      {
+        "claim": "The rupee fell to about 95.22 per dollar in early trade on Tuesday.",
+        "true": true,
+        "why": "DT Next reported a 7 paise fall to 95.22.",
+        "story": "india"
+      },
+      {
+        "claim": "Pluto averages 46 au from the Sun.",
+        "true": false,
+        "why": "Pluto averages 40 au; the candidate 2026 ED138 is about 46 au.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Persian Gulf",
+        "lat": 27.0,
+        "lon": 51.5,
+        "countries": [
+          "Saudi Arabia",
+          "Iran"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many people have been relocated from coastal districts?",
+        "answer": 114000,
+        "prefix": "",
+        "unit": "people",
+        "min": 10000,
+        "max": 500000,
+        "why": "More than 114,000 residents were relocated."
+      },
+      {
+        "story": "science_and_technology",
+        "q": "How far is 2026 ED138 from the Sun, in astronomical units?",
+        "answer": 46,
+        "prefix": "",
+        "unit": "au",
+        "min": 5,
+        "max": 200,
+        "why": "It lies about 46 au from the Sun."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "A Strong Cyclone Is Near India's Coast",
+        "body": [
+          "Cyclone Arnab is a very severe storm. India's weather office says it will reach land near Visakhapatnam between 2 am and 4 am on 28 October. Winds could blow at 125 to 135 km/h.",
+          "More than 114,000 people have moved away from the coast. About 4,000 shelters are open. Odisha closed schools in 16 of its 30 districts.",
+          "At least 50 trains and 21 flights were cancelled. The leader of Andhra Pradesh said people should not panic but must take care."
+        ]
+      },
+      "world": {
+        "headline": "Ukraine, Russia and the US Plan Talks",
+        "body": [
+          "Ukraine's president, Volodymyr Zelenskyy, says Ukraine, Russia and the US will hold talks next month. No date or place has been given.",
+          "He also wants to meet Russia's president, Vladimir Putin, to talk about land. That is called a territorial issue.",
+          "Russia says it wants lasting peace deals, not a short pause. It also says it will not stop fighting during the talks."
+        ]
+      },
+      "india": {
+        "headline": "India's Rupee Gets Weaker",
+        "body": [
+          "The rupee fell to about 95.22 for one US dollar on Tuesday. High oil prices and a strong dollar pushed it down.",
+          "Another report gave 95.12 at the close. India's central bank, the RBI, was said to have helped. Oil was still near $116 a barrel.",
+          "On 7 October the RBI raised its main interest rate to 5.5%. A weaker rupee can make imported fuel cost more."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Millions of Americans Vote Early",
+        "body": [
+          "More than 30 million Americans have already voted in the midterm elections. The election day is 3 November.",
+          "Many states let people vote early by mail or in person. In Louisiana, more than 363,000 people have voted early.",
+          "Early numbers show how many people are voting. They do not show who is winning. Louisiana's early voting ends on Tuesday, 27 October."
+        ]
+      },
+      "economics": {
+        "headline": "Oil Stays Above $100 a Barrel",
+        "body": [
+          "A barrel of Brent oil closed at $115.81 on Monday. A barrel of the US kind, WTI, closed at $101.76.",
+          "Attacks on Saudi Arabia go on. The Saudi side says it destroyed three drones on Monday.",
+          "Officials from Saudi Arabia, Turkey and Pakistan also met Iran's leaders in Tehran. They agreed to keep talking. Oil prices stayed high on Tuesday."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Possible New Dwarf Planet",
+        "body": [
+          "Astronomers found a possible dwarf planet far beyond Neptune. It is named 2026 ED138 for now. It is about 1,000 km across.",
+          "It is about 46 au from the Sun. Pluto is about 40 au away.",
+          "More study is needed. If it is confirmed, it will join five known dwarf planets, such as Pluto and Ceres. Pluto is one of them, and it is about 40 au from the Sun."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "economics": "yemen-war",
+    "world": "russia-ukraine",
+    "politics_and_civics": "us-midterms-2026"
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-10-28",
+  "volume": 1,
+  "issue": 10,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  ISRAEL",
+      "headline": "Israel Votes, and Exit Polls Show No Clear Winner",
+      "deck": "A majority needs 61 of the Knesset's 120 seats, and exit polls suggest nobody is there yet.",
+      "body": [
+        "Israel held a national election on 27 October to choose its parliament, the Knesset. The Knesset has 120 seats, so a party or group of parties needs 61 to hold a majority. That number is the key to the whole story: with 61, a government can pass laws; without it, it cannot.",
+        "Exit polls, which ask voters as they leave polling stations, suggest the result is not clear. CNN reported that Prime Minister Benjamin Netanyahu and his main rival, former military chief Gadi Eisenkot, appear short of outright victory. Channel 12's exit poll projected the prime minister's bloc falling from 68 seats in the previous Knesset to 50 seats. Turnout, the share of people who voted, was reportedly the highest since at least 1999.",
+        "Exit polls are estimates, not results. Official results come from Israel's Central Elections Committee, and the numbers can move as real votes are counted. So the main facts are still to come: the final seat totals, and which parties can join together to reach 61."
+      ],
+      "map": {
+        "title": "THE EASTERN MEDITERRANEAN",
+        "label_top": "ISRAEL",
+        "label_bottom": "EGYPT",
+        "footnote": "Israel voted on 27 October",
+        "caption": "Israel held its national election on 27 October."
+      },
+      "why": "A seat count of 61 decides who can govern, which is why one number can matter more than the total of votes.",
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Israeli election live: No clear winner, exit polls suggest",
+          "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Ukraine, Russia and the US Plan Three-Way Talks",
+      "deck": "Zelenskyy says they agreed to meet next month; Moscow says fighting will go on.",
+      "body": [
+        "Ukraine's President, Volodymyr Zelenskyy, said on 26 October that Ukraine, Russia and the United States have agreed to hold talks next month. These are called trilateral talks because there are three sides. No date or location has been announced.",
+        "The two warring sides want different things. Zelenskyy has renewed his call for a meeting with Putin on territorial issues, meaning who controls which land. Putin said talks should aim for lasting security through final agreements, not a short-lived ceasefire, and Russia says it has no intention of halting hostilities while the talks run.",
+        "Geography explains why the land question is so hard: the war is being fought over territory, so any deal must say where lines are drawn."
+      ],
+      "illustration": {
+        "title": "TALKS NEXT MONTH",
+        "subtitle": "Three sides",
+        "motif": "border",
+        "caption": "No date or venue has been announced."
+      },
+      "connect": "A negotiation over land links this story to history lessons on treaties and borders.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Zelenskyy says peace talks with Russia, US to restart",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+        },
+        {
+          "outlet": "The Moscow Times",
+          "title": "Putin says renewed peace talks must focus on security",
+          "url": "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061"
+        },
+        {
+          "outlet": "Ukrainska Pravda",
+          "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  GEOGRAPHY",
+      "headline": "A Warm Bay Sends Cyclone Arnab Toward the Andhra Coast",
+      "deck": "Landfall is forecast in the small hours of 28 October.",
+      "body": [
+        "Geography helps explain why India's east coast is so often in the path of storms. Al Jazeera notes that the Bay of Bengal is a major breeding ground for tropical cyclones. Arnab grew there and is now classed as a very severe cyclonic storm.",
+        "Look at the forecast as a map. The weather office expects the centre to come ashore close to Visakhapatnam, between 2 am and 4 am on 28 October. Odisha, further north along the coast, should feel weaker winds of 60 to 80 km/h, while Andhra Pradesh could see 125 to 135 km/h, with gusts up to 150. More than 12 million people live along the projected path.",
+        "Preparation is under way on both sides of the state border: over 84,000 people moved in Andhra Pradesh and over 30,000 in Odisha, about 4,000 shelters are open, and 16 of Odisha's 30 districts closed schools."
+      ],
+      "illustration": {
+        "title": "CYCLONE ARNAB",
+        "subtitle": "Bay of Bengal",
+        "motif": "flood",
+        "caption": "Landfall forecast near Visakhapatnam."
+      },
+      "why": "Where a coast faces warm sea water, shelters and early warnings decide how many people are safe.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
+          "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ECONOMY",
+      "headline": "The Fed Decides on Interest Rates as Traders Expect a Hold",
+      "deck": "Traders put about an 11% chance on a hike this week.",
+      "body": [
+        "The Federal Reserve is the United States' central bank. Its two-day policy meeting began on Tuesday 27 October, and its decision is due on Wednesday 28 October at 2 pm US Eastern time. The interest rate it sets influences how much it costs to borrow money.",
+        "According to Reuters, traders put about an 11% chance on a rate hike this week and about 82% on a hike by December. In other words, most traders expect no change now, but many expect a rise later in the year.",
+        "Interest rates matter beyond the United States. A stronger dollar was one reason the Indian rupee slipped past 95 per dollar in early trade on Tuesday, according to DT Next."
+      ],
+      "chart": {
+        "title": "HIKE ODDS",
+        "subtitle": "Traders' chance of a Fed rate rise",
+        "labels": [
+          "This week",
+          "December"
+        ],
+        "values": [
+          11,
+          82
+        ],
+        "max": 100,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Percent, per Reuters via FinanceFeeds."
+      },
+      "why": "One decision about a rate in Washington can change borrowing costs and currencies around the world.",
+      "analyst": "Why might traders expect a rise by December but not this week? What does a weaker rupee mean for India's fuel imports? Who benefits when borrowing is cheaper?",
+      "sources": [
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        },
+        {
+          "outlet": "DT Next",
+          "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+          "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "A Maths Search Turns Up a Possible Dwarf Planet",
+      "deck": "2026 ED138 sits about 46 au from the Sun and is roughly 1,000 km wide.",
+      "body": [
+        "Space distances need their own unit. One astronomical unit (au) is the average distance from Earth to the Sun. A possible dwarf planet found with the Vera C. Rubin Observatory, provisionally called 2026 ED138, is about 46 au out. Pluto, for comparison, averages 40 au.",
+        "Its width is not yet pinned down: the estimate runs from 600 to 1,500 km, and Mario Juric, who leads Rubin's solar system team, puts it at about 1,000 km.",
+        "The key was a program, not a lens. Matthew Holman and Kevin Napier wrote search code that links billions of moving-object detections that belong to the same object. Holman ran Rubin data through it on 13 October. Confirmation would make 2026 ED138 the sixth dwarf planet after Pluto, Ceres, Eris, Haumea and Makemake."
+      ],
+      "illustration": {
+        "title": "A POSSIBLE DWARF PLANET",
+        "subtitle": "2026 ED138",
+        "motif": "globe",
+        "caption": "About 46 au from the Sun."
+      },
+      "why": "Mathematics and software let astronomers find a world that no one had spotted in decades of looking.",
+      "sources": [
+        {
+          "outlet": "University of Washington",
+          "title": "Rubin Observatory reveals its first dwarf planet candidate",
+          "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  CURRENCY",
+      "headline": "India's Rupee Slips Past 95 per Dollar as Oil Stays Near $115",
+      "deck": "The currency was about 95.22 in early trade on Tuesday.",
+      "body": [
+        "An exchange rate tells you how much of one currency buys another. On Tuesday 27 October the rupee fell 7 paise to 95.22 against the US dollar in early trade, according to DT Next, weighed down by high oil prices and a stronger dollar. HDFC Sky reported a provisional close of 95.12.",
+        "India buys oil from abroad, and oil is priced in dollars, so a weaker rupee makes the same barrel cost more. On Monday a barrel of Brent crude settled at $115.81, per FinanceFeeds.",
+        "The Reserve Bank of India raised its repo rate to 5.5% on 7 October, according to BBN Times."
+      ],
+      "illustration": {
+        "title": "THE RUPEE AND THE DOLLAR",
+        "subtitle": "27 October",
+        "motif": "skyline",
+        "caption": "About 95.22 rupees per dollar in early trade."
+      },
+      "why": "Prices for oil are set in dollars, so currency moves reach petrol pumps and shops.",
+      "sources": [
+        {
+          "outlet": "DT Next",
+          "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+          "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+        },
+        {
+          "outlet": "HDFC Sky",
+          "title": "Rupee closes at 95.12 on RBI support",
+          "url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+        },
+        {
+          "outlet": "BBN Times",
+          "title": "BSE Sensex falls to 72,638.70 after RBI raises repo rate to 5.5%",
+          "url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions"
+        },
+        {
+          "outlet": "FinanceFeeds",
+          "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
+          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United Kingdom: Chancellor John Healey presents his first Budget on 28 October.",
+        "United States: More than 30 million Americans have voted early before the 3 November midterms.",
+        "Europe: Protests over living costs spread across France, Italy and Portugal after weekend unrest led to 2,400 arrests in France.",
+        "Oil: Brent crude settled at $115.81 a barrel on Monday, and WTI at $101.76."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Exit poll",
+          "def": "A survey of voters as they leave the polling station. Today: Exit polls suggest nobody won Israel's election outright."
+        },
+        {
+          "word": "Trilateral",
+          "def": "Involving three sides. Today: Ukraine, Russia and the US plan trilateral talks."
+        },
+        {
+          "word": "Exchange rate",
+          "def": "How much of one currency buys another. Today: The rupee is about 95 to the dollar."
+        },
+        {
+          "word": "Astronomical unit",
+          "def": "The average distance from Earth to the Sun. Today: 2026 ED138 is about 46 au from the Sun."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Pluto was called a planet until 2006, when the International Astronomical Union set out the rules that make it a dwarf planet."
+    },
+    "explainer": {
+      "title": "Why 61 of 120 matters",
+      "body": [
+        "In a parliament, a majority means more than half the seats. Israel's Knesset has 120 seats, so 61 is a majority.",
+        "When no party reaches 61 alone, parties must join together to form a government. This is called a coalition. The parties bargain over who gets which job and which policies come first, and that can take time."
+      ],
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Israeli election live: No clear winner, exit polls suggest",
+          "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> How many seats does a majority in Israel's Knesset need?",
+        "(a) 61  (b) 51  (c) 120",
+        "<b>2.</b> Which sides agreed to talks next month?",
+        "(a) Ukraine, Russia and the US  (b) India, China and Japan  (c) Brazil, Peru and Chile",
+        "<b>3.</b> When is Arnab forecast to cross the coast?",
+        "(a) 2-4 am on 28 October  (b) Noon on 25 October  (c) Evening of 30 October",
+        "<b>4.</b> What did the rupee fall to in early trade?",
+        "(a) 59.22  (b) 95.22  (c) 152.22",
+        "<b>5.</b> What is 2026 ED138?",
+        "(a) A dwarf planet candidate  (b) A cyclone  (c) A currency",
+        "<b>Answers.</b> 1 (a), 2 (a), 3 (a), 4 (b), 5 (a)."
+      ],
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Israeli election live: No clear winner, exit polls suggest",
+          "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Zelenskyy says peace talks with Russia, US to restart",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        },
+        {
+          "outlet": "DT Next",
+          "title": "Rupee falls 7 paise to 95.22 against US dollar in early trade",
+          "url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+        },
+        {
+          "outlet": "University of Washington",
+          "title": "Rubin Observatory reveals its first dwarf planet candidate",
+          "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why might exit polls and final results differ?",
+        "Why might a country hold talks while fighting continues?",
+        "How can shelters and early warnings help a coastal community stay safe?"
+      ],
+      "sources": [
+        {
+          "outlet": "CNN",
+          "title": "Israeli election live: No clear winner, exit polls suggest",
+          "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Zelenskyy says peace talks with Russia, US to restart",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Thousands in Andhra, Odisha evacuated ahead of Cyclone Arnab's early landfall",
+          "url": "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Numbers tell a story, but you have to ask who is counting and why.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart",
+    "https://www.themoscowtimes.com/2026/10/23/putin-says-renewed-peace-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall-a94061",
+    "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/",
+    "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears",
+    "https://www.theweek.in/news/india/2026/10/27/cyclone-arnab-landfall-andhra-odisha.html",
+    "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+    "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade",
+    "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead",
+    "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions",
+    "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "How many seats does Israel's Knesset have?",
+        "options": [
+          "60",
+          "120",
+          "240"
+        ],
+        "answer": 1,
+        "why": "The Knesset has 120 seats.",
+        "story": "lead"
+      },
+      {
+        "q": "What is an exit poll?",
+        "options": [
+          "A survey of voters leaving polling stations",
+          "The final official result",
+          "A kind of ballot"
+        ],
+        "answer": 0,
+        "why": "The paper says exit polls ask voters as they leave.",
+        "story": "lead"
+      },
+      {
+        "q": "What does 'trilateral' mean in the Ukraine story?",
+        "options": [
+          "Three sides",
+          "Two sides",
+          "Four sides"
+        ],
+        "answer": 0,
+        "why": "They are called trilateral because there are three sides.",
+        "story": "world"
+      },
+      {
+        "q": "How many cyclone shelters are open across the two states?",
+        "options": [
+          "About 400",
+          "About 4,000",
+          "About 40,000"
+        ],
+        "answer": 1,
+        "why": "About 4,000 cyclone shelters are open.",
+        "story": "india"
+      },
+      {
+        "q": "How far from the Sun is 2026 ED138?",
+        "options": [
+          "About 4.6 au",
+          "About 46 au",
+          "About 460 au"
+        ],
+        "answer": 1,
+        "why": "It is about 46 au from the Sun.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Exit polls and official results are the same thing.",
+        "true": false,
+        "why": "Exit polls are estimates; official results come from the Central Elections Committee.",
+        "story": "lead"
+      },
+      {
+        "claim": "More than 114,000 people have been moved from coastal districts ahead of Arnab.",
+        "true": true,
+        "why": "Over 84,000 in Andhra Pradesh and over 30,000 in Odisha.",
+        "story": "india"
+      },
+      {
+        "claim": "Traders put about an 11% chance on a Fed rate hike this week.",
+        "true": true,
+        "why": "Reuters reports about 11% for this week and about 82% for December.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Israel",
+        "lat": 31.5,
+        "lon": 34.9,
+        "countries": [
+          "Israel"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Visakhapatnam",
+        "lat": 17.69,
+        "lon": 83.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many of the Knesset's 120 seats make a majority?",
+        "answer": 61,
+        "prefix": "",
+        "unit": "seats",
+        "min": 30,
+        "max": 120,
+        "why": "A majority needs 61 of the 120 seats."
+      },
+      {
+        "story": "economics",
+        "q": "What did the rupee fall to against the dollar in early trade?",
+        "answer": 95.22,
+        "prefix": "Rs ",
+        "unit": "",
+        "min": 50,
+        "max": 150,
+        "why": "DT Next reported 95.22 rupees to the dollar."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Israel Votes, With No Clear Winner",
+        "body": [
+          "Israel held an election on 27 October. Its parliament has 120 seats. A majority needs 61 seats.",
+          "Exit polls suggest nobody won a clear victory. Exit polls ask people as they leave the polling place.",
+          "Exit polls are only estimates. Official results will come later from the election officials, and the count can change. A party or group needs 61 seats to have a majority and to form a government."
+        ]
+      },
+      "world": {
+        "headline": "Ukraine, Russia and the US Plan Talks",
+        "body": [
+          "Ukraine's president says Ukraine, Russia and the US will hold talks next month. No date or place has been given.",
+          "He wants to meet Russia's president, Putin, to talk about land.",
+          "Russia says it wants lasting peace deals, not a short pause. It also says it will not stop fighting during the talks. The date and place of the talks are not yet known."
+        ]
+      },
+      "india": {
+        "headline": "A Strong Cyclone Nears India's Coast",
+        "body": [
+          "Cyclone Arnab is a very severe storm over the Bay of Bengal. It should reach land between 2 am and 4 am on 28 October.",
+          "More than 84,000 people have moved away from the coast in Andhra Pradesh. More than 30,000 have moved in Odisha. About 4,000 shelters are open.",
+          "Odisha closed schools in 16 of its 30 districts. More than 12 million people live along the storm's path."
+        ]
+      },
+      "us": {
+        "headline": "The US Central Bank Decides on Rates",
+        "body": [
+          "The Federal Reserve is the US central bank. It will announce its decision on Wednesday 28 October.",
+          "Traders think there is about an 11% chance it will raise rates this week.",
+          "They think there is about an 82% chance of a rise by December. The decision comes at 2 pm US Eastern time. A hike means the Fed raises its rate, so borrowing costs more."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Possible New Dwarf Planet",
+        "body": [
+          "Astronomers found a possible dwarf planet far beyond Neptune. It is named 2026 ED138 for now.",
+          "It is about 1,000 km across. It is about 46 au from the Sun, and Pluto is about 40 au away.",
+          "If it is confirmed, it will join five known dwarf planets, such as Pluto and Ceres. It still needs more study to be confirmed."
+        ]
+      },
+      "economics": {
+        "headline": "India's Rupee Gets Weaker",
+        "body": [
+          "The rupee fell to about 95.22 for one US dollar on Tuesday. High oil prices and a strong dollar pushed it down.",
+          "India buys oil from other countries and pays in dollars. A weaker rupee makes oil cost more.",
+          "On Monday a barrel of Brent oil closed at $115.81. Brent is a price many countries follow. The rupee was also pushed down by a stronger dollar."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "world": "russia-ukraine"
+  }
+}

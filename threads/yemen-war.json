@@ -202,6 +202,12 @@
       "reported": "2026-10-27",
       "younger": "The Houthis said they hit a Saudi oil pipeline's pumping stations and Riyadh's airport again; Saudi Arabia has not confirmed it.",
       "older": "The Houthis claim strikes on Saudi Arabia's East-West crude pumping stations and Riyadh's airport; Riyadh has not confirmed. The Saudi-led coalition says it destroyed missile launchers and storage tunnels in Yemen, and Houthi media say 16 died in Sanaa."
+    },
+    {
+      "date": "2026-10-26",
+      "reported": "2026-10-28",
+      "younger": "The Saudi side said it destroyed three drones aimed at Riyadh and the south, while officials from three countries met Iran's leaders in Tehran.",
+      "older": "The Saudi-led coalition says it destroyed three drones aimed at Riyadh and southern regions; separately, Saudi, Turkish and Pakistani officials meet Iran's leaders in Tehran. Brent settles at $115.81."
     }
   ],
   "stories": [
@@ -349,6 +355,21 @@
       "paper": "global-citizen-plus",
       "date": "2026-10-16",
       "block": "lead"
+    },
+    {
+      "paper": "breakfast-table",
+      "date": "2026-10-28",
+      "block": "lead"
+    },
+    {
+      "paper": "junior-daily",
+      "date": "2026-10-28",
+      "block": "world"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-28",
+      "block": "economics"
     }
   ],
   "sources": [
@@ -388,6 +409,7 @@
     "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
     "https://www.koreatimes.co.kr/world/20261025/saudi-arabia-reopens-airport-as-attacks-by-houthi-rebels-persist",
     "https://za.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4524874",
-    "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/"
+    "https://time.com/article/2026/10/15/who-are-the-houthi-rebels-saudi-arabia-oil-airport-attacks/",
+    "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
   ]
 }

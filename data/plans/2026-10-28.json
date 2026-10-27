@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-28",
+ "papers": {
+  "junior-daily": {
+   "lead": "cyclone-arnab",
+   "angle": "Where the storm is, which coast and cities it will hit, how many people live in its path and how far the shelters reach."
+  },
+  "breakfast-table": {
+   "lead": "oil-houthi-saudi",
+   "angle": "What high oil prices and Gulf attacks can mean for what a family pays for fuel, and a question to talk about at the table."
+  },
+  "current-affairs-digest": {
+   "lead": "cyclone-arnab",
+   "angle": "The full picture: forecast, official numbers, evacuation and disruption figures and who is in charge of the response."
+  },
+  "europe-explained": {
+   "lead": "uk-budget",
+   "angle": "What the Chancellor is expected to announce and how fuel prices and borrowing costs limit what he can do for UK households."
+  },
+  "global-citizen-plus": {
+   "lead": "israel-election",
+   "angle": "Civics and maths of the vote: why 61 of 120 seats matter and what exit polls are and are not."
+  }
+ }
+}

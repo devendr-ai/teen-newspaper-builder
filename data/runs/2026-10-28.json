@@ -1,0 +1,7 @@
+{"date": "2026-10-28", "by": "claude-code", "editions": {
+ "junior-daily": {"status": "passed", "reason": "", "poster": null},
+ "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+ "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+ "europe-explained": {"status": "passed", "reason": "", "poster": null},
+ "global-citizen-plus": {"status": "passed", "reason": "", "poster": null}},
+ "enrichment": {"enabled": true, "selected": 0, "note": "Selective source-depth step not run; stories were fetched directly during research where possible. Story threads not updated."}}

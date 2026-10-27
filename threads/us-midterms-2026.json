@@ -121,6 +121,12 @@
       "reported": "2026-10-27",
       "younger": "Early voting opens in more places this week, and both parties are campaigning in the states that could go either way.",
       "older": "Our report described the final week before 3 November: early voting opening in Washington DC, Oklahoma and Kentucky, and Fox News listing six Senate toss-ups, separate from any result."
+    },
+    {
+      "date": "2026-10-27",
+      "reported": "2026-10-28",
+      "younger": "More than 30 million Americans have already voted early.",
+      "older": "Election trackers report more than 30 million early votes a week before the 3 November midterms; early totals show participation, not who is winning."
     }
   ],
   "stories": [
@@ -253,6 +259,16 @@
       "paper": "global-citizen-plus",
       "date": "2026-10-26",
       "block": "us"
+    },
+    {
+      "paper": "breakfast-table",
+      "date": "2026-10-28",
+      "block": "us"
+    },
+    {
+      "paper": "current-affairs-digest",
+      "date": "2026-10-28",
+      "block": "politics_and_civics"
     }
   ],
   "sources": [
@@ -295,6 +311,7 @@
     "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
     "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer",
     "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
-    "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp"
+    "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp",
+    "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
   ]
 }
