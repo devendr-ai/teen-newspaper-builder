@@ -68,8 +68,101 @@ def story_rel(issue, block):
     return f"stories/{issue['date']}/{slug(block.get('headline'))}.html"
 
 
-def page(title, description, canonical, body, depth):
+def json_ld(title, description, canonical, schema_type="WebPage", date=None, breadcrumbs=None):
+    """Structured data (Schema.org JSON-LD) for search engines and AI assistants."""
+    org_id = f"{ORIGIN}/#organization"
+    graph = [{
+        "@type": "NewsMediaOrganization",
+        "@id": org_id,
+        "name": "News Pebbles",
+        "url": f"{ORIGIN}/",
+        "logo": f"{ORIGIN}/share/site.png",
+        "publishingPrinciples": f"{ORIGIN}/standards.html",
+        "correctionsPolicy": f"{ORIGIN}/corrections.html",
+        "ethicsPolicy": f"{ORIGIN}/standards.html",
+        "knowsAbout": [
+            "Children's News",
+            "Current Events for Kids",
+            "Civics Education",
+            "Homeschooling Materials",
+            "Middle School Reading",
+            "Elementary Education"
+        ]
+    }]
+
+    if schema_type == "NewsArticle":
+        item = {
+            "@type": "NewsArticle",
+            "headline": title.split(" · ")[0] if " · " in title else title,
+            "description": description,
+            "url": canonical,
+            "mainEntityOfPage": canonical,
+            "inLanguage": "en-US",
+            "publisher": {"@id": org_id}
+        }
+        if date:
+            item["datePublished"] = date
+            item["dateModified"] = date
+        graph.append(item)
+    elif schema_type == "Article":
+        item = {
+            "@type": "Article",
+            "headline": title,
+            "description": description,
+            "url": canonical,
+            "mainEntityOfPage": canonical,
+            "inLanguage": "en-US",
+            "publisher": {"@id": org_id}
+        }
+        if date:
+            item["datePublished"] = date
+            item["dateModified"] = date
+        graph.append(item)
+    elif schema_type == "WebSite":
+        graph.append({
+            "@type": "WebSite",
+            "@id": f"{ORIGIN}/#website",
+            "url": f"{ORIGIN}/",
+            "name": "News Pebbles",
+            "description": description,
+            "inLanguage": "en-US",
+            "publisher": {"@id": org_id}
+        })
+    else:
+        graph.append({
+            "@type": "WebPage",
+            "name": title,
+            "description": description,
+            "url": canonical,
+            "publisher": {"@id": org_id}
+        })
+
+    if breadcrumbs:
+        items = []
+        for i, (name, crumb_url) in enumerate(breadcrumbs, 1):
+            items.append({
+                "@type": "ListItem",
+                "position": i,
+                "name": name,
+                "item": crumb_url
+            })
+        graph.append({
+            "@type": "BreadcrumbList",
+            "itemListElement": items
+        })
+
+    scripts = []
+    for item in graph:
+        obj = {"@context": "https://schema.org"}
+        obj.update(item)
+        scripts.append(f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>')
+    return "\n".join(scripts)
+
+
+def page(title, description, canonical, body, depth, schema_type="WebPage", date=None, breadcrumbs=None):
     root = "../" * depth
+    share_img = f"{ORIGIN}/share/site.png"
+    ld = json_ld(title, description, canonical, schema_type=schema_type, date=date, breadcrumbs=breadcrumbs)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +171,18 @@ def page(title, description, canonical, body, depth):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{esc(canonical)}">
+<meta property="og:type" content="{"article" if schema_type in ("Article", "NewsArticle") else "website"}">
+<meta property="og:site_name" content="News Pebbles">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:image" content="{share_img}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{share_img}">
 <link rel="stylesheet" href="{root}style.css">
+{ld}
 </head>
 <body>
 <header class="top">
@@ -144,7 +248,14 @@ def story_html(eid, issue):
         bits.append("</ul>")
     bits.append(f"<p><a class='btn' href='{esc(pdf)}'>Print this issue (PDF)</a></p>")
     desc = deck or (paras(block)[0][:150] if paras(block) else headline)
-    return rel, page(f"{headline} · news for ages {age}", desc, f"{BASE}/{rel}", "\n".join(bits), depth=2), headline, deck, date
+    canonical = f"{BASE}/{rel}"
+    crumbs = [
+        ("News Pebbles Find", f"{BASE}/index.html"),
+        ("Stories", f"{BASE}/archive.html"),
+        (headline, canonical)
+    ]
+    return rel, page(f"{headline} · news for ages {age}", desc, canonical, "\n".join(bits), depth=2,
+                     schema_type="NewsArticle", date=date, breadcrumbs=crumbs), headline, deck, date
 
 
 def guide(rel, title, description, intro, eid, catalog):
@@ -173,20 +284,53 @@ def guide(rel, title, description, intro, eid, catalog):
 """
     # depth 1 for grades/*, depth 0 for top-level
     depth = rel.count("/")
-    write(rel, page(title, description, f"{BASE}/{rel}", body, depth))
+    canonical = f"{BASE}/{rel}"
+    crumbs = [
+        ("News Pebbles Find", f"{BASE}/index.html"),
+        (title, canonical)
+    ]
+    write(rel, page(title, description, canonical, body, depth,
+                    schema_type="Article", date=latest[3] if latest else None, breadcrumbs=crumbs))
+
+
+def write_llms_txt():
+    """Generates llms.txt and llms-full.txt in the search site."""
+    llms = f"""# News Pebbles · Search & Grade Guides
+
+> Curated current-events reading guides and searchable story texts for kids, parents, and educators.
+
+## Guides by Grade & Topic
+- [Current events for 5th grade, printable]({BASE}/grades/5th-grade.html): Short printable paper for ages 9 to 11 with checkable sources.
+- [Current events for 6th grade]({BASE}/grades/6th-grade.html): Daily one-page overview for middle schoolers.
+- [Homeschool current events for middle school]({BASE}/homeschool.html): Weekly paper with discussion questions.
+- [Printable current events for kids]({BASE}/printable.html): US Letter printables, no login required.
+- [News for kids without scary content]({BASE}/calm.html): Calm news for ages 6 to 8 without graphic detail.
+- [A printable alternative to classroom kids news]({BASE}/compare.html): Factual comparisons with listed sources.
+- [Current affairs for kids in India]({BASE}/india.html): Daily digest for ages 15+ and Indian competitive exams.
+- [All stories archive]({BASE}/archive.html): Complete searchable archive of published lead stories.
+
+## Editorial & Safety
+- [Main Website]({ORIGIN}/)
+- [Editorial Standards]({ORIGIN}/standards.html)
+- [Corrections Policy]({ORIGIN}/corrections.html)
+"""
+    write("llms.txt", llms)
+    write("llms-full.txt", llms)
 
 
 def main():
     catalog = {eid: [] for eid in EDITIONS}
     urls = []
+    dates_by_rel = {}
     for eid in EDITIONS:
         for issue in issues(eid):
             if not lead(issue).get("headline"):
                 continue
             rel, doc, headline, deck, date = story_html(eid, issue)
             write(rel, doc)
-            catalog[eid].append(( "../" + rel if False else rel, headline, deck, date))
+            catalog[eid].append((rel, headline, deck, date))
             urls.append(rel)
+            dates_by_rel[rel] = date
         catalog[eid].sort(key=lambda r: r[3], reverse=True)
 
     def href(from_rel, story_rel_path):
@@ -237,12 +381,18 @@ def main():
         for rel, headline, deck, date in rows:
             items.append((date, f"<li><a href='{rel}'>{esc(headline)}</a> <span>{esc(edition_name(eid))} · {esc(date)}</span></li>"))
     items.sort(reverse=True)
+    latest_date = items[0][0] if items else "2026-10-27"
+
+    archive_crumbs = [
+        ("News Pebbles Find", f"{BASE}/index.html"),
+        ("Stories", f"{BASE}/archive.html")
+    ]
     write("archive.html", page(
         "News stories for kids, by date",
         "Every lead story from the published kids' papers, as a page you can read and cite.",
         f"{BASE}/archive.html",
         "<h1>Stories</h1><ul class='stories'>" + "".join(h for _, h in items) + "</ul>",
-        0))
+        0, schema_type="WebPage", breadcrumbs=archive_crumbs))
     write("index.html", page(
         "Find a kids' news story by grade",
         "Printable current events for 5th grade, 6th grade, homeschool, and India, with the full story in HTML.",
@@ -258,7 +408,7 @@ def main():
 <li><a href="india.html">Current affairs for kids in India</a><p>Ages 15+ digest.</p></li>
 <li><a href="archive.html">All stories</a><p>One page per lead story.</p></li>
 </ul>""",
-        0))
+        0, schema_type="WebSite"))
 
     css = """body{margin:0;font:18px/1.5 Georgia,serif;color:#1c1915;background:#faf7f1}
 a{color:#0f3d36} .top{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;
@@ -276,15 +426,30 @@ footer{border-top:1px solid #d9d0c3;padding:16px 20px 32px;font:14px/1.4 system-
 footer p{max-width:40rem;margin:0 auto}
 """
     write("style.css", css)
+    write_llms_txt()
+
     locs = ["index.html", "archive.html", "grades/5th-grade.html", "grades/6th-grade.html",
             "printable.html", "calm.html", "homeschool.html", "compare.html", "india.html"] + urls
     body = ['<?xml version="1.0" encoding="UTF-8"?>',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for rel in locs:
-        body.append(f"<url><loc>{BASE}/{rel}</loc></url>")
+        mod = dates_by_rel.get(rel, latest_date)
+        body.append(f"<url><loc>{BASE}/{rel}</loc><lastmod>{mod}</lastmod></url>")
     body.append("</urlset>\n")
     write("sitemap.xml", "\n".join(body))
-    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
+
+    robots = (
+        "User-agent: *\nAllow: /\n\n"
+        "# AI search and answer engines\n"
+        "User-agent: GPTBot\nAllow: /\n\n"
+        "User-agent: ChatGPT-User\nAllow: /\n\n"
+        "User-agent: ClaudeBot\nAllow: /\n\n"
+        "User-agent: PerplexityBot\nAllow: /\n\n"
+        "User-agent: Google-Extended\nAllow: /\n\n"
+        "User-agent: Applebot-Extended\nAllow: /\n\n"
+        f"Sitemap: {BASE}/sitemap.xml\n"
+    )
+    write("robots.txt", robots)
     print(f"wrote {len(locs)} urls under seo/site")
 
 
