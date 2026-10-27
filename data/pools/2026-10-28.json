@@ -334,6 +334,18 @@
      {
       "fact": "Early voting in Louisiana ends on Tuesday 27 October; more than 363,000 people have already cast ballots there.",
       "source_url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+     },
+     {
+      "fact": "AP analysis of data through 20 October found early voting up 74% in Texas versus the same point in 2022, more than doubled in Kansas, and up more than 30% in Maine, North Carolina and Ohio; Republicans were a smaller share of early voters than four years earlier in most of these states.",
+      "source_url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/"
+     },
+     {
+      "fact": "Early voting in Texas runs 19 to 30 October; more than 4 million Texans had voted a week in; in Harris County more than 104,000 voted in person on day one, a first-day midterm record.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "Texas Senate candidates are Ken Paxton (R), James Talarico (D) and Ted Brown (L); University of Houston's Nancy Sims said it is a little hard to extrapolate from turnout.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
      }
     ],
     "numbers": [
@@ -362,6 +374,20 @@
       "outlet": "Axios New Orleans",
       "title": "Early voting in Louisiana midterms ends Tuesday",
       "url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "AURN",
+      "title": "Early Voting Surges in Key Senate Battlegrounds",
+      "url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "ABC13",
+      "title": "Final week of early voting underway in Texas",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
       "published": "2026-10-27",
       "primary": false
      }
@@ -547,6 +573,26 @@
      {
       "fact": "On 7 October the RBI raised its repo rate by 25 basis points to 5.5% and the Sensex closed at 72,638.70.",
       "source_url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions"
+     },
+     {
+      "fact": "The rupee settled 22 paise lower at 95.15 on Monday, its third straight day of decline, losing 77 paise over three sessions.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "The dollar index rose 0.06% to 101.86; foreign institutional investors sold net equities worth Rs 1,462.49 crore on Monday.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Forex traders said the rupee showed some recovery on likely RBI intervention but failed to withstand foreign fund outflows.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Analysts attributed higher crude to Houthi-led attacks on Saudi oil infrastructure; Sensex settled at 73,598.67 and Nifty at 22,749.75 on Monday.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias and USD-INR between Rs 94.85 and Rs 95.50.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
      }
     ],
     "numbers": [
@@ -605,6 +651,18 @@
      {
       "fact": "Early voting in Louisiana ends on Tuesday 27 October; more than 363,000 people have already cast ballots there.",
       "source_url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data"
+     },
+     {
+      "fact": "AP analysis of data through 20 October found early voting up 74% in Texas versus the same point in 2022, more than doubled in Kansas, and up more than 30% in Maine, North Carolina and Ohio; Republicans were a smaller share of early voters than four years earlier in most of these states.",
+      "source_url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/"
+     },
+     {
+      "fact": "Early voting in Texas runs 19 to 30 October; more than 4 million Texans had voted a week in; in Harris County more than 104,000 voted in person on day one, a first-day midterm record.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "Texas Senate candidates are Ken Paxton (R), James Talarico (D) and Ted Brown (L); University of Houston's Nancy Sims said it is a little hard to extrapolate from turnout.",
+      "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
      }
     ],
     "numbers": [
@@ -633,6 +691,20 @@
       "outlet": "Axios New Orleans",
       "title": "Early voting in Louisiana midterms ends Tuesday",
       "url": "https://www.axios.com/local/new-orleans/2026/10/27/early-voting-louisiana-midterms-data",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "AURN",
+      "title": "Early Voting Surges in Key Senate Battlegrounds",
+      "url": "https://aurn.com/early-voting-2026-midterms-senate-battlegrounds/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "ABC13",
+      "title": "Final week of early voting underway in Texas",
+      "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
       "published": "2026-10-27",
       "primary": false
      }
@@ -842,6 +914,26 @@
      {
       "fact": "On 7 October the RBI raised its repo rate by 25 basis points to 5.5% and the Sensex closed at 72,638.70.",
       "source_url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions"
+     },
+     {
+      "fact": "The rupee settled 22 paise lower at 95.15 on Monday, its third straight day of decline, losing 77 paise over three sessions.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "The dollar index rose 0.06% to 101.86; foreign institutional investors sold net equities worth Rs 1,462.49 crore on Monday.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Forex traders said the rupee showed some recovery on likely RBI intervention but failed to withstand foreign fund outflows.",
+      "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade"
+     },
+     {
+      "fact": "Analysts attributed higher crude to Houthi-led attacks on Saudi oil infrastructure; Sensex settled at 73,598.67 and Nifty at 22,749.75 on Monday.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias and USD-INR between Rs 94.85 and Rs 95.50.",
+      "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
      }
     ],
     "numbers": [

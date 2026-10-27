@@ -39,7 +39,7 @@
       "headline": "Oil Stays Dear as Attacks on Saudi Arabia Go On",
       "deck": "Three countries met Iran's leaders as a barrel stayed above $100.",
       "body": [
-        "Oil is turned into petrol and diesel, and Saudi Arabia, a Gulf country in Asia, sells a great deal of it. A group in Yemen called the Houthis keeps attacking Saudi Arabia. Its allies say they stopped three drones aimed at Riyadh and the south on Monday.",
+        "Oil is turned into petrol and diesel, and Saudi Arabia, a Gulf country in Asia, sells a great deal of it. A group in Yemen called the Houthis keeps attacking Saudi Arabia. Its allies say they stopped three drones on Monday.",
         "Buyers worry about supplies. On Monday, a barrel of Brent crude, the price many countries follow, closed at $115.81.",
         "Officials from Saudi Arabia, Turkey and Pakistan also met Iran's leaders in Tehran on Monday."
       ],
@@ -203,5 +203,8 @@
         "why": "Brent closed at $115.81 a barrel."
       }
     ]
+  },
+  "threads": {
+    "world": "yemen-war"
   }
 }
