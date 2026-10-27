@@ -601,7 +601,7 @@ b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList
 const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"px");hh();
 if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
-<p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
+<p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}find/index.html">Grade guides</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
 {tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}{SUBSCRIPTION_SCRIPT if 'data-gate-form=' in body else SUBSCRIPTION_BANNER_SCRIPT if 'data-subscription-banner' in body else ''}</body></html>"""
 
 
@@ -811,8 +811,14 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     intro = (f'<section class="intro"><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
     body = subscription_banner() + intro + filters + recommendations(published, has_png, cfg) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
-    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
+    home_title = f"{cfg['title']}: Free Daily Newspapers for Kids & Teens | Print & Read"
+    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, home_title, body))
     trust_pages(cfg, out, names, fixes)
+    find_src = os.path.join(ROOT, "seo", "site")
+    if os.path.isdir(find_src):
+        find_dest = os.path.join(out, "find")
+        shutil.copytree(find_src, find_dest, dirs_exist_ok=True,
+                        ignore=shutil.ignore_patterns("robots.txt", "sitemap.xml"))
     open(os.path.join(out, "parents.html"), "w", encoding="utf-8").write(
         page(cfg, f"For parents · {cfg['title']}", parents_body(cfg, published), here="parents"))
     shutil.copytree(os.path.join(brand.ASSETS, "fonts", "web"), os.path.join(out, "fonts"), dirs_exist_ok=True)

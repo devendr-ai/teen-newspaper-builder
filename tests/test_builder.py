@@ -8,6 +8,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 
 import pytest
 from pypdf import PdfReader
@@ -44,7 +45,7 @@ def generated():
 
 
 def test_page_is_up_to_date():
-    subprocess.run(["python", os.path.join(BUILDER, "build.py"), "--verify"], check=True)
+    subprocess.run([sys.executable, os.path.join(BUILDER, "build.py"), "--verify"], check=True)
 
 
 def test_every_generated_edition_validates_and_builds(generated, tmp_path, monkeypatch):
