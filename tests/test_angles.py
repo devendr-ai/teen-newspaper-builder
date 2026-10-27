@@ -12,6 +12,7 @@ from ygc import checks, edition, plan, prompt
 
 ROOT = edition.ROOT
 DAY = "2026-10-26"
+FUTURE = "2030-01-07"          # tests that add issues use a date no real paper will have
 
 
 def load(eid, d=DAY):
@@ -62,7 +63,7 @@ def copy_check(ed, issue, path):
 def test_the_copy_check_catches_a_copied_lead_and_headline(tmp_path, monkeypatch):
     bt, jd = load("breakfast-table"), load("junior-daily")
     for i in (bt, jd):
-        i["date"] = "2026-10-27"
+        i["date"] = FUTURE
     jd["blocks"]["lead"] = copy.deepcopy(bt["blocks"]["lead"])
     paths = place(tmp_path, monkeypatch, {"breakfast-table": bt, "junior-daily": jd})
     errs = copy_check(edition.load("junior-daily"), jd, paths["junior-daily"])
@@ -74,7 +75,7 @@ def test_the_copy_check_catches_a_copied_lead_and_headline(tmp_path, monkeypatch
 def test_the_copy_check_lets_different_tellings_through(tmp_path, monkeypatch):
     bt, jd = load("breakfast-table"), load("junior-daily")
     for i in (bt, jd):
-        i["date"] = "2026-10-27"
+        i["date"] = FUTURE
     paths = place(tmp_path, monkeypatch, {"breakfast-table": bt, "junior-daily": jd})
     assert copy_check(edition.load("junior-daily"), jd, paths["junior-daily"]) == []
 
@@ -85,22 +86,23 @@ def test_earlier_issues_are_left_alone():
     assert copy_check(edition.load("global-citizen-plus"), gcp, path) == []
 
 
-def test_three_leads_running_on_one_story_get_a_note(tmp_path, monkeypatch):
-    issues = {}
-    root_issues = []
-    for n, d in enumerate(("2026-10-27", "2026-10-28", "2026-10-29")):
+def test_three_leads_running_on_one_story_get_a_note(tmp_path):
+    folder = tmp_path / "junior-daily" / "issues" / "2030"
+    folder.mkdir(parents=True)
+    ed = dict(edition.load("junior-daily"), _dir=str(tmp_path / "junior-daily"))   # its own archive, not the real one
+    days = ("2030-01-07", "2030-01-08", "2030-01-09")
+    for n, d in enumerate(days):
         i = load("junior-daily")
         i.update(date=d, issue=20 + n, threads={"lead": "yemen-war"})
-        root_issues.append(i)
-    root = place(tmp_path, monkeypatch, {})
-    folder = os.path.join(edition.ROOT, "editions", "junior-daily", "issues", "2026")
-    for i in root_issues:
-        json.dump(i, open(os.path.join(folder, f"{i['date']}.json"), "w"))
-    last = root_issues[-1]
+        (folder / f"{d}.json").write_text(json.dumps(i), encoding="utf-8")
+    last = json.loads((folder / f"{days[-1]}.json").read_text(encoding="utf-8"))
     r = checks.Report()
-    checks.check_lead_streak(edition.load("junior-daily"), last, os.path.join(folder, "2026-10-29.json"),
-                             dt.date(2026, 10, 29), r)
+    checks.check_lead_streak(ed, last, str(folder / f"{days[-1]}.json"), dt.date(2030, 1, 9), r)
     assert any("led this paper three issues running" in n for n in r.notes) and not r.errors
+    (folder / f"{days[0]}.json").unlink()                                       # only two running: no note
+    r = checks.Report()
+    checks.check_lead_streak(ed, last, str(folder / f"{days[-1]}.json"), dt.date(2030, 1, 9), r)
+    assert not r.notes
 
 
 POOL = {"world": {"stories": [
@@ -109,7 +111,7 @@ POOL = {"world": {"stories": [
 
 
 def test_the_plan_needs_every_due_paper_a_real_lead_and_different_angles():
-    good = {"date": "2026-10-27", "papers": {
+    good = {"date": FUTURE, "papers": {
         "breakfast-table": {"lead": "riyadh", "angle": "What the reopening means for families who fly"},
         "junior-daily": {"lead": "riyadh", "angle": "Where Riyadh is, and who is firing at it"},
         "europe-explained": {"lead": "oil", "angle": "Why traders price in risk before any oil is lost"}}}

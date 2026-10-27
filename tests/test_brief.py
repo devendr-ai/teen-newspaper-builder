@@ -94,8 +94,11 @@ def test_read_and_play_has_the_slot_and_the_script_but_not_the_home_page(built):
     lobby = (built / "play" / "index.html").read_text(encoding="utf-8")
     assert '<section class="brief" id="brief" data-src="briefs/latest.json"' in lobby
     assert lobby.index('id="brief"') > lobby.index('id="h-today"')
-    data = json.loads((built / "play" / "briefs" / "2026-10-26.json").read_text(encoding="utf-8"))
-    assert data["name"] == "The Breakfast Table" and data["chapters"][0] == "Riyadh & oil"
+    newest = max((built / "play" / "briefs").glob("20*.json"))          # whatever the newest brief is today
+    data = json.loads(newest.read_text(encoding="utf-8"))
+    script = json.load(open(os.path.join(ROOT, "editions", "breakfast-table", "issues", newest.stem[:4], newest.name),
+                            encoding="utf-8"))["play"]["brief"]["lines"]
+    assert data["name"] == "The Breakfast Table" and data["chapters"] == [ln["chapter"] for ln in script if ln.get("chapter")]
     assert {ln["name"] for ln in data["lines"]} == {"Maya", "Sam"}
     js = (built / "play" / "play.js").read_text(encoding="utf-8")
     assert "Car-ride brief" in js and "mediaSession" in js and "brief/started" in js and "brief/finished" in js
@@ -107,7 +110,7 @@ def test_audio_latest_and_podcast_feed(tmp_path, built, encoder):
     (s / "play" / "audio").mkdir(exist_ok=True)
     cache, tone = tmp_path / "cache", Tone()
     _, recordings, made = narration.briefs(s, cache, lambda: tone, encoder, latest_only=True, log=lambda *a: None)
-    assert made == 1 and set(tone.calls) == {"af_heart", "am_michael"}
+    assert made >= 1 and set(tone.calls) == {"af_heart", "am_michael"}   # the newest; older ones only if cached
     latest = json.loads((s / "play" / "briefs" / "latest.json").read_text(encoding="utf-8"))
     assert (s / "play" / latest["audio"]).stat().st_size == latest["bytes"] > 0
     starts = [ln["start"] for ln in latest["lines"]]
@@ -116,7 +119,7 @@ def test_audio_latest_and_podcast_feed(tmp_path, built, encoder):
     rss = ET.parse(s / "play" / "podcast.xml").getroot()
     item = rss.find("channel/item")
     assert item.find("enclosure").get("url").endswith(latest["audio"].split("/")[-1])
-    assert item.find("enclosure").get("type") == "audio/mpeg" and "Riyadh & oil" in item.find("title").text
+    assert item.find("enclosure").get("type") == "audio/mpeg" and latest["chapters"][0] in item.find("title").text
     assert rss.find("channel/title").text.endswith("The Breakfast Table Brief")
     calls = len(tone.calls)                                                 # a rebuild reuses the cached recording
     narration.briefs(s, cache, lambda: tone, encoder, latest_only=True, log=lambda *a: None)

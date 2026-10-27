@@ -25,13 +25,14 @@ const ok = (name, pass, info) => out.push({ name, pass: !!pass, info });
     ok(`${label}: counts a start`, state.counts.some(c => c.startsWith('brief/started')), state.counts);
     ok(`${label}: shows where it is`, /^Now: /.test(state.h), state.h);
     
-    // jump to Cyclone Arnab from the menu
+    // jump to the second story from the menu
     await page.click('#brief .nb-more');
     ok(`${label}: menu opens`, await page.isVisible('#brief .nb-menu'));
     
+    const second = await page.$eval('#brief .nb-menu .jump button:nth-child(2)', e => e.textContent);
     await page.click('#brief .nb-menu .jump button:nth-child(2)');
     await page.waitForTimeout(800);
-    ok(`${label}: jumps to a story`, /Cyclone Arnab/.test(await page.$eval('#brief .nb-h', e => e.innerText)));
+    ok(`${label}: jumps to a story`, (await page.$eval('#brief .nb-h', e => e.innerText)).includes(second), second);
     // read along
     await page.click('#brief .nb-more'); await page.click('#brief [data-do="read"]');
     await page.waitForTimeout(400);
