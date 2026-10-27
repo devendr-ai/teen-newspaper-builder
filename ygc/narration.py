@@ -16,6 +16,8 @@ import urllib.request
 import wave
 from html.parser import HTMLParser
 
+from . import listen
+
 ENGINE = 'kokoro-onnx-0.4.8-v1.0-int8-pcm-v1'
 VOICE = 'af_heart'
 RELEASE = 'https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/'
@@ -211,7 +213,7 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
     live_sentences, live_recordings = set(), set()
     # Newest issues first; content-addressed sentence and track files are shared across editions.
     pages = sorted((site / 'play').rglob('*.html'), key=lambda p: p.name, reverse=True)
-    latest = {}
+    latest, papers = {}, []
     for page in pages:
         if re.fullmatch(r'\d{4}-\d{2}-\d{2}', page.stem):
             latest.setdefault(page.parent, page)
@@ -242,6 +244,8 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
             script = '<script id="narration" type="application/json">' + payload + '</script>'
             page.write_text(source.replace('</head>', script + '</head>'), encoding='utf-8')
             log(f'  narration {page.relative_to(site)}: {sum(bool(v) for v in manifest.values())} sections')
+            if page in latest.values():
+                papers.append(listen.paper(page, source, manifest, band_of(page.parent.name)))
     try:                                    # the car-ride brief is extra: a failure never blocks the papers
         brief_sentences, brief_recordings, made = briefs(site, cache, engine, ffmpeg, latest_only, log)
         live_sentences |= brief_sentences
@@ -249,6 +253,7 @@ def build(site, cache, voice=VOICE, model_dir=None, engine_factory=None, ffmpeg=
         count += made
     except Exception as e:                  # noqa: BLE001 (logged; the site publishes without a brief)
         log(f'  ! brief audio skipped: {e}')
+    listen.write_json(site, papers)            # the app's Listen tab
     # Bound the persistent cache to the retained reading window, not every historical issue.
     for folder, live in (('sentences', live_sentences), ('recordings', live_recordings)):
         for old in (cache / folder).glob('*'):
@@ -311,6 +316,15 @@ def brief_recording(lines, cache, engine, ffmpeg):
     if len(t['starts']) != len(lines):
         raise ValueError('Brief timing does not match the script')
     return key, mp3, t
+
+
+def band_of(eid):
+    """A paper's age band (for the Listen tab's order), or "" if it isn't a paper."""
+    from . import edition, site
+    try:
+        return site.audience(edition.load(eid))
+    except Exception:                       # noqa: BLE001 (a folder that isn't a paper)
+        return ""
 
 
 def briefs(site, cache, engine, ffmpeg='ffmpeg', latest_only=False, log=print):

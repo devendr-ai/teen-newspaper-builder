@@ -5,7 +5,7 @@ name: Deploy the website
 on:
   push:
     branches: [main]
-    paths: ["editions/**", "threads/**", "ygc/**", "site.yaml", "tools/**", "requirements-narration.txt", ".github/workflows/pages.yml"]
+    paths: ["editions/**", "threads/**", "ygc/**", "assets/**", "site.yaml", "tools/**", "requirements-narration.txt", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -42,6 +42,9 @@ jobs:
         run: pip install -r requirements-narration.txt
       - name: Narrate published stories with Kokoro
         run: python -u -m ygc.narration --site _site --latest-only
+      - name: Build the app's offline pack (newspebbles.com/app/)
+        continue-on-error: true    # the website publishes anyway; phones keep what they saved
+        run: bash tools/app_pack.sh
       - name: Save generated narration
         uses: actions/cache/save@v4
         if: always() && hashFiles('.cache/narration/recordings/*.mp3') != ''

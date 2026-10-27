@@ -548,6 +548,9 @@ def tabbar(cfg, root, here):
     """The phone's bottom bar: the same links as the header, one tap from anywhere on the page."""
     tabs = [("papers", "index.html", "house", "Home"), ("play", "play/index.html", "headphones", "Read &amp; Play"),
             ("design", "builder.html", "pencil", "Design"), ("parents", "parents.html", "users", "For parents")]
+    if cfg.get("kids_mode"):                    # the app: Listen instead of Design (which is in For parents)
+        tabs[1:3] = [("play", "play/index.html", "newspaper", "Read &amp; Play"),
+                     ("listen", "play/listen.html", "headphones", "Listen")]
     if here in ("about", "feedback"):
         here = "parents"
     now = ' aria-current="page"'
@@ -587,7 +590,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <script>document.documentElement.classList.add("js")</script></head>
 <body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
-<nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a><a href="{root}builder.html">Design</a><a href="{root}parents.html">For parents</a></nav></header>
+<nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a>{f'<a href="{root}play/listen.html">Listen</a>' if cfg.get("kids_mode") else f'<a href="{root}builder.html">Design</a>'}<a href="{root}parents.html">For parents</a></nav></header>
 {pwa.tablet_prompt()}
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));
@@ -877,14 +880,38 @@ yes.addEventListener('click',()=>{
 })();</script>'''
 
 
+# The app build's settings on For parents: filled in and shown by app.js only inside the app.
+APP_BOX = """<style>.np-appbox{background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:14px 16px 4px;margin:14px 0 20px}
+.np-appbox h3{margin:0 0 4px;font-size:1.3rem}
+.np-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.np-row>label,.np-row>span:first-child{display:flex;flex-direction:column}.np-row span span,.np-row label span{color:var(--muted);font-size:.92rem}
+.np-ctl{display:flex;align-items:center;gap:10px;flex:none}
+.np-ctl input[type=time]{font:inherit;font-weight:700;border:1.5px solid var(--line);border-radius:10px;padding:6px 8px;background:var(--paper);color:var(--ink);min-height:44px}
+.np-switch{appearance:none;-webkit-appearance:none;width:51px;height:31px;border-radius:16px;background:#C9C3B8;position:relative;cursor:pointer;margin:0;flex:none;transition:background .2s}
+.np-switch::after{content:"";position:absolute;left:2px;top:2px;width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 1px 3px #0003;transition:left .2s}
+.np-switch:checked{background:#34C759}.np-switch:checked::after{left:22px}
+.np-switch:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.np-ok{color:#2E7D4F;white-space:nowrap}.np-note{color:var(--muted);font-size:.9rem;margin:10px 0}</style>
+<section class="np-appbox" id="np-app" hidden aria-labelledby="np-app-h"><h3 id="np-app-h">This app</h3>
+<div class="np-row"><label for="np-rem-on"><b>Morning reminder</b><span>&ldquo;Today&rsquo;s papers are ready&rdquo;, at</span></label>
+<span class="np-ctl"><input type="time" id="np-rem-time" value="07:00" aria-label="Reminder time">
+<input type="checkbox" id="np-rem-on" class="np-switch" role="switch"></span></div>
+<div class="np-row"><span><b>Saved for offline</b><span id="np-off-what">Papers and audio from the last 7 days</span></span>
+<b class="np-ok" id="np-off-state"></b></div>
+<p class="np-note" id="np-off-note"></p></section>"""
+
+
+
 def parents_body(cfg, published=None):
     feedback = '<a class="parent-link" href="feedback.html"><b>Corrections &amp; feedback</b><span>Report a mistake or share an idea.</span></a>' if cfg.get("feedback_url") else ''
-    return f'''<section class="parents"><h2>For parents</h2>
+    app = bool(cfg.get("kids_mode"))
+    design = (f"{cfg['base_url'].rstrip('/')}/builder.html" if app and cfg.get("base_url") else "builder.html")
+    return f'''<section class="parents"><h2>For parents</h2>{APP_BOX if app else ""}
 <p>Help your child understand the world, on paper and together.</p>
 <p><a class="btn" href="index.html">{navigation.icon("printer")} Choose and print a paper</a></p>
 {subscription_form(cfg, published=published)}{autoprint_guide() if subscription_endpoint(cfg) else ""}
 <div class="parent-links">
-<a class="parent-link" href="builder.html"><b>Design your own paper</b><span>Make a printable newspaper for your family.</span></a>
+<a class="parent-link" href="{design}"><b>Design your own paper</b><span>Make a printable newspaper for your family{" (opens the News Pebbles website)" if app else ""}.</span></a>
 <a class="parent-link" href="play/index.html#today"><b>Reading settings</b><span>Choose an age in Read &amp; Play. Text size, night mode and narration speed are available inside each paper and stay on this device.</span></a>
 <a class="parent-link" href="about.html"><b>How it’s made</b><span>How the papers are researched, written and checked.</span></a>
 <a class="parent-link" href="standards.html"><b>Editorial standards</b><span>Our approach to sources, accuracy and age-appropriate news.</span></a>
@@ -1053,7 +1080,7 @@ This keeps your paper designs and visit-counting choice. You can also clear all 
 {counts}
 {('<h3 id="email-delivery">Optional email delivery for grown-ups</h3><p>Only a parent or carer needs to give an email address. If you subscribe, we store that address, your chosen newspaper and delivery frequency, confirmation/unsubscribe tokens and delivery records in Cloudflare D1. Resend processes the address and sends confirmation and paper emails. We do not send reading progress, age selections saved on your device, game answers or garden data with a subscription. A hashed email/network-address counter limits repeated requests.</p><p>Confirm by email before delivery begins. Every message has an unsubscribe link, which stops future emails for that paper. Delivery history is kept to prevent duplicate sends. For deletion of your subscription information, contact us using the privacy address below. Email links shared through WhatsApp contain the paper’s public links, not your email address. Choosing WhatsApp opens that service; it is optional.</p>') if subscription_endpoint(cfg) else ''}
 <h3>Other services the site uses</h3>
-<ul>{'<li><b>Inside the app</b>, every page, picture, recording and typeface comes from the app itself; no other company is contacted. Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
+<ul>{f'<li><b>Inside the app</b>, every page, picture, recording and typeface is saved on the device. The only thing it fetches is each day&rsquo;s papers, from {E(cfg.get("domain") or "our website")} (GitHub Pages, which like any web host sees the device&rsquo;s network address). Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
 <li><b>Typefaces and the Design-your-own engine</b> are served from {E(cfg["title"])} itself, not from Google or other font and code services.</li>
 <li><b>Read aloud</b> normally plays pre-generated AI recordings made with Kokoro. They are generated during publishing and served
 as audio files from this site, rather than generated from a child's voice or reading activity. Your browser may cache recordings
@@ -1063,6 +1090,11 @@ from this site, and sends us nothing about who listens.
 Some browser voices use an online service, so the text being spoken may be sent to that voice provider. Your microphone is not used.
 Saved listening positions stay in this browser on this device.</li>
 {('<li><b>The feedback form</b> is a Google Form' + (', which opens in your browser only after the grown-up question' if cfg.get("kids_mode") else '') + '. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>') if cfg.get("feedback_url") else ""}</ul>
+<h3>The News Pebbles app (iPhone and iPad)</h3>
+<p>The app shows these same pages. When it opens, it downloads the day&rsquo;s papers and recordings from {E(cfg.get("domain") or "this website")}
+and keeps the last 7 days on the device, so they work offline. It counts nothing, has no ads and no account, and sends nothing else to us
+or anyone else. The morning reminder is a notification the device sets for itself, at the time a grown-up chooses in For parents.
+Reading data in the app stays on the device; deleting the app deletes it.</p>
 <h3>Printed papers</h3>
 <p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>
 {privacy_contact(cfg)}""")

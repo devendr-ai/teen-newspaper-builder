@@ -262,7 +262,8 @@ JS = r"""
     document.body.append(sheet, mini);
     box.hidden = false;
 
-    const audio = new Audio();
+    const audio = window.NPApp && NPApp.native            // the app: the phone's own player (lock screen, screen off)
+      ? NPApp.audio({ id: "brief-" + b.date, title: "Car-ride brief · " + b.day, artist: b.name }) : new Audio();
     audio.preload = "none";
     audio.src = b.audio;
     const card = $(".nb", box), menu = $(".nb-menu", box), more = $(".nb-more", box), chips = $(".nb-ch", box);
