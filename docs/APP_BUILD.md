@@ -7,7 +7,7 @@ same home page; Listen takes Design's place in the tab bar. The code is in `mobi
 |---|---|
 | **The pages** | The app build of the site (`--kids`, below), served nightly at `https://newspebbles.com/app/` |
 | **Offline** | Each time the app opens it downloads `app/manifest.json` and fetches only the files that changed (`mobile/src/content.ts`). The last 7 days of papers and recordings stay on the phone |
-| **Listen tab** (app only) | `play/listen.html`: the car-ride briefs and each paper read aloud. Replaces the Design tab; Design is in For parents, inside the app (one grown-up question for both) |
+| **Listen tab** (app only) | `play/listen.html`: the car-ride briefs and each paper read aloud. Replaces the Design tab; Design is in For parents, inside the app (one grown-up question when opening Design) |
 | **Design your own** | Works offline in the app: its engine is in the pack. The finished PDF opens the share sheet (print, Files, send) |
 | **Audio with the screen locked** | The brief and the Listen tab play in the phone's own player (`mobile/src/player.ts`, expo-audio): lock screen, Control Center, car, next story |
 | **Morning reminder** | For parents → This app: a daily notification the phone sets for itself (`mobile/src/reminder.ts`). No push server |
@@ -47,10 +47,10 @@ then `mobile/src/parent-api.ts` sends the request using native networking. The r
 same form/game. Cancelling or a missing gate sends nothing; offline failures leave a retryable error.
 Ordinary website and browser kids builds keep their existing fetch and gate paths.
 
-On For parents, the entry check authorizes signup for that page visit: there is no inline sum and no
-second dialog when submitting. `npGate.parent()` reads the gate's private page-unlock state; it does
-not trust a CSS class or persist a device-wide unlock. Archive signup and sharing a poll response
-outside the parent area still ask once. Leaving/back navigation locks parent pages again. External
+For parents opens without an entry check. Signup asks once, on submission, with no additional inline
+sum. Reminder changes and resetting reading data ask at the action too. Design, Feedback and the
+monthly report retain their page-entry checks. `npGate.parent()` reads the gate's private page-unlock
+state on those gated pages; it does not trust a CSS class or persist a device-wide unlock. External
 links and sharing to other apps retain their separate always-ask checks. Public website forms retain
 their inline sum.
 
@@ -127,12 +127,12 @@ wrong answers pause it for 30 seconds. One listener on each page covers:
 - **share** ("Share this edition", `data-gate="always"`) and the builder's **AI helper** buttons;
 - **print**: "Print this paper", the certificate's print button, Read & Play's "Print this paper
   (for grown-ups)";
-- **parents' pages** (`kids.GATE_PAGES`: For parents, Feedback, Design your own, the monthly
+- **parents' pages** (`kids.GATE_PAGES`: Feedback, Design your own, the monthly
   report), which stay hidden until the sum is answered.
 
 The unlock is only in the open page's memory: leaving the page (or coming back to it from the
 back button) asks again. One exception: a link from an unlocked parents' page straight to another
-(`data-gate-pages` on every page's `<html>`; For parents → Design your own) doesn't ask twice. The dialog is an accessible modal: labelled, keyboard-trapped, Escape and
+(`data-gate-pages` on every page's `<html>`; Feedback → Design your own) doesn't ask twice. The dialog is an accessible modal: labelled, keyboard-trapped, Escape and
 "Go back" cancel, large targets, dark mode. Mark anything new with `data-gate` (and
 `data-gate-reason="link|mail|share|print|page|grown"`), or call `npGate(reason, onPass)` from code.
 

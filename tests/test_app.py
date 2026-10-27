@@ -62,7 +62,7 @@ def test_for_parents_has_the_app_box_only_in_the_app(builds):
     doc = (app / "parents.html").read_text(encoding="utf-8")
     assert '<section class="np-appbox" id="np-app" hidden' in doc and 'id="np-rem-on"' in doc
     assert 'class="parent-link" href="builder.html"' in doc                 # Design stays in the app
-    assert 'data-gate-pages="parents.html feedback.html builder.html play/report.html"' in doc
+    assert 'data-gate-pages="feedback.html builder.html play/report.html"' in doc
     assert "np-appbox" not in (web / "parents.html").read_text(encoding="utf-8")
 
 

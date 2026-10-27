@@ -112,7 +112,7 @@ function solve(q) {                                // the gate's question -> its
       if (!(await signup.count())) continue; // Disabled builds have no signup links.
       ok('homepage stays compact with no signup form', await p.locator('form[data-gate-form="subscribe"]').count() === 0);
       await signup.click();
-      if (MODE === "kids") await answer(true);
+      if (MODE === "kids" && await gateShown()) await answer(true);
       await p.locator('select[name="edition_slug"]').waitFor();
       ok('homepage paper is selected on Parents', await p.locator('select[name="edition_slug"]').inputValue() === 'little-explorers');
       await p.locator('select[name="edition_slug"]').selectOption('breakfast-table');
@@ -237,7 +237,7 @@ function solve(q) {                                // the gate's question -> its
     await answer(true);
     ok("…then printing opens", await p.evaluate(() => window.__printed === 1));
     // 8. the parents' pages
-    for (const u of ["parents.html", "play/report.html", "feedback.html"]) {
+    for (const u of ["play/report.html", "feedback.html"]) {
       await go("index.html"); await go(u);
       const hidden = await p.evaluate(() => getComputedStyle(document.body.firstElementChild).visibility === "hidden");
       ok(`${u}: hidden behind the gate`, hidden && await gateShown());
@@ -263,14 +263,15 @@ function solve(q) {                                // the gate's question -> its
     await p.locator("button.print").click();
     ok("report: print works on the unlocked page", await p.evaluate(() => window.__printed >= 1) && !(await gateShown()));
     // back-forward cache: coming back asks again
-    await go("parents.html"); await answer(true);
+    await go("parents.html");
     await go("about.html"); await p.goBack(); await p.waitForTimeout(500);
-    ok("parents' page asks again after leaving and coming back", await gateShown());
+    ok("parents page remains open after coming back", !(await gateShown()));
     // For parents → Design: the grown-up already answered, so Design opens without a second question
-    await go("parents.html"); await answer(true);
+    await go("parents.html");
     await p.locator('.parent-link[href="builder.html"]').click();
     await p.waitForURL(/builder\.html$/); await p.waitForTimeout(500);
-    ok("parents → Design: one question, not two", !(await gateShown()), p.url());
+    ok("parents → Design: Design asks once", await gateShown(), p.url());
+    await answer(true);
     // 9. the builder: gated, then everything works, Pyodide from this site
     await go("builder.html");
     ok("builder: gate appears", await gateShown());

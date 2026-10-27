@@ -8,6 +8,11 @@
 
 # Changelog
 
+## Open For parents, check once at signup
+
+- For parents now opens directly in the app. Submitting email signup asks once; there is no extra inline sum.
+- Reminder changes and resetting reading data retain action checks. Restricted tools and external links keep their existing checks.
+
 ## One parent check for app email signup
 
 - App forms no longer add an inline sum. For parents reuses its entry unlock when submitting a

@@ -18,7 +18,7 @@ from .edition import ROOT
 
 GATE_SRC = os.path.join(ROOT, "assets", "gate")
 APP_JS = os.path.join(ROOT, "assets", "app", "app.js")
-GATE_PAGES = ("parents.html", "feedback.html", "builder.html", "play/report.html")
+GATE_PAGES = ("feedback.html", "builder.html", "play/report.html")
 
 # Buttons and links that are for grown-ups but stay inside the app: [file pattern, tag pattern, reason, always]
 MARKS = [
@@ -26,6 +26,7 @@ MARKS = [
     (r".*", r'<a class="btn recommended-print"', "print", False),                   # "Print this paper"
     (r"^play/certificate\.html$", r'<button type="button" class="big go print"', "print", False),
     (r"^play/(?!threads/)[^/]+/[^/]+\.html$", r'<a href="[^"]*">(?=Print this paper \(for grown-ups\))', "print", False),
+    (r"^parents\.html$", r'<button type="button" class="btn ghost" id="reading-reset"', "grown", False),
     (r"^builder\.html$", r'<button type="button" class="btn go" data-bot=', "link", True),   # the AI chatbots
 ]
 
