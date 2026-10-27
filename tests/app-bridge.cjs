@@ -72,8 +72,17 @@ function nativeApp() {
   await page.check('#np-rem-on');
   const rem = (await sent()).filter((m) => m.t === 'reminder').pop();
   ok('parents: the reminder goes to the phone', rem && rem.on === true && rem.time === '06:45', rem);
-  const design = await page.$eval('.parent-link[href*="builder.html"]', (a) => a.getAttribute('href'));
-  ok('parents: Design opens the website', /^https:\/\//.test(design), design);
+  ok('parents: Design stays in the app', await page.$eval('.parent-link[href*="builder.html"]', (a) => a.getAttribute('href')) === 'builder.html');
+
+  // A PDF made in Design goes to the phone's share sheet
+  await page.evaluate(() => {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob(['%PDF-1.4 test'], { type: 'application/pdf' }));
+    a.download = 'my-paper.pdf'; a.textContent = 'Download the PDF'; document.body.appendChild(a); a.click();
+  });
+  await page.waitForTimeout(400);
+  const made = (await sent()).filter((m) => m.t === 'pdfData').pop();
+  ok('design: the PDF goes to the share sheet', made && made.name === 'my-paper.pdf' && Buffer.from(made.data, 'base64').toString().startsWith('%PDF'), made && made.name);
 
   // Print after the gate, and the certificate's window.print()
   await page.goto(B + 'play/index.html', { waitUntil: 'networkidle' });

@@ -14,6 +14,14 @@
 
 
 
+## The app: Design your own inside the app, and a smaller first download
+
+- For parents → Design your own now opens inside the app, offline, without a second grown-up
+  question (a link from one unlocked parents' page to another hands the unlock over). The finished
+  PDF opens the iPhone's share sheet: print, save to Files or send.
+- The app keeps recordings for each paper's newest issue and the Listen tab only; older issues read
+  aloud with the phone's voice. First download about 80 MB instead of 117 MB.
+
 ## The News Pebbles app for iPhone and iPad (first version)
 
 - `mobile/`: an Expo app that shows the website's own pages, starting on the same home page. Papers and

@@ -104,6 +104,26 @@
     else if (m.t === "go" && ROOT) location.href = new URL(m.href, ROOT).href;      // e.g. the mini-player → Listen
   };
 
+  // Files saved on the phone: some iOS versions won't fetch() file: addresses, so read them the old way
+  // (the builder's engine, Listen's list, the brief).
+  var nativeFetch = window.fetch && window.fetch.bind(window);
+  var TYPES = { wasm: "application/wasm", json: "application/json", js: "text/javascript", zip: "application/zip" };
+  window.fetch = function (input, init) {
+    var url = abs(typeof input === "string" ? input : (input && input.url) || "");
+    if (!/^file:/.test(url) || (init && init.method && init.method !== "GET")) return nativeFetch(input, init);
+    return new Promise(function (ok, fail) {
+      var x = new XMLHttpRequest();
+      x.open("GET", url);
+      x.responseType = "arraybuffer";
+      x.onload = function () {
+        var ext = url.split(/[?#]/)[0].split(".").pop().toLowerCase();
+        ok(new Response(x.response, { status: 200, headers: { "Content-Type": TYPES[ext] || "application/octet-stream" } }));
+      };
+      x.onerror = function () { fail(new TypeError("Could not read " + url)); };
+      x.send();
+    });
+  };
+
   document.documentElement.classList.add("np-app");
   var css = document.createElement("style");               // things that only make sense on the website
   css.textContent = "html.np-app #np-tablet-install,html.np-app .install,html.np-app .nb-menu a[href^='podcasts:']," +
@@ -130,6 +150,19 @@
       e.preventDefault();
       post({ t: "print", url: u, title: a.getAttribute("data-share-title") || document.title });
     }
+  });
+  // A PDF made on the phone (Design your own): the share sheet, to print, save to Files or send.
+  window.addEventListener("click", function (e) {
+    if (e.defaultPrevented) return;
+    var a = e.target.closest && e.target.closest('a[href^="blob:"]');
+    if (!a) return;
+    e.preventDefault();
+    var name = a.getAttribute("download") || "News Pebbles.pdf";
+    fetch(a.href).then(function (r) { return r.blob(); }).then(function (b) {
+      var f = new FileReader();
+      f.onload = function () { post({ t: "pdfData", name: name, data: String(f.result).split(",")[1] }); };
+      f.readAsDataURL(b);
+    });
   });
   navigator.share = function (d) {
     d = d || {};

@@ -905,13 +905,12 @@ APP_BOX = """<style>.np-appbox{background:var(--surface);border:1.5px solid var(
 def parents_body(cfg, published=None):
     feedback = '<a class="parent-link" href="feedback.html"><b>Corrections &amp; feedback</b><span>Report a mistake or share an idea.</span></a>' if cfg.get("feedback_url") else ''
     app = bool(cfg.get("kids_mode"))
-    design = (f"{cfg['base_url'].rstrip('/')}/builder.html" if app and cfg.get("base_url") else "builder.html")
     return f'''<section class="parents"><h2>For parents</h2>{APP_BOX if app else ""}
 <p>Help your child understand the world, on paper and together.</p>
 <p><a class="btn" href="index.html">{navigation.icon("printer")} Choose and print a paper</a></p>
 {subscription_form(cfg, published=published)}{autoprint_guide() if subscription_endpoint(cfg) else ""}
 <div class="parent-links">
-<a class="parent-link" href="{design}"><b>Design your own paper</b><span>Make a printable newspaper for your family{" (opens the News Pebbles website)" if app else ""}.</span></a>
+<a class="parent-link" href="builder.html"><b>Design your own paper</b><span>Make a printable newspaper for your family.</span></a>
 <a class="parent-link" href="play/index.html#today"><b>Reading settings</b><span>Choose an age in Read &amp; Play. Text size, night mode and narration speed are available inside each paper and stay on this device.</span></a>
 <a class="parent-link" href="about.html"><b>How it’s made</b><span>How the papers are researched, written and checked.</span></a>
 <a class="parent-link" href="standards.html"><b>Editorial standards</b><span>Our approach to sources, accuracy and age-appropriate news.</span></a>

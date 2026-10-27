@@ -61,7 +61,8 @@ def test_for_parents_has_the_app_box_only_in_the_app(builds):
     web, app = builds
     doc = (app / "parents.html").read_text(encoding="utf-8")
     assert '<section class="np-appbox" id="np-app" hidden' in doc and 'id="np-rem-on"' in doc
-    assert re.search(r'href="https://[^"]+/builder\.html"', doc)          # Design opens the website, behind the gate
+    assert 'class="parent-link" href="builder.html"' in doc                 # Design stays in the app
+    assert 'data-gate-pages="parents.html feedback.html builder.html play/report.html"' in doc
     assert "np-appbox" not in (web / "parents.html").read_text(encoding="utf-8")
 
 
@@ -90,9 +91,15 @@ def test_the_pack_trims_and_lists_every_file(builds, tmp_path):
     _, app = builds
     pack = tmp_path / "pack"
     shutil.copytree(app, pack)
+    (pack / "play" / "audio" / ("0" * 64 + ".mp3")).write_bytes(b"an older issue's recording")
     m = apppack.pack(str(pack), log=lambda *a: None)
-    for gone in ("builder.html", "vendor", "share", "404.html", "play/podcast.xml"):
+    for gone in ("share", "404.html", "play/podcast.xml"):
         assert not (pack / gone).exists() and gone not in m["files"]
+    assert "builder.html" in m["files"] and any(f.startswith("vendor/pyodide/") for f in m["files"])   # Design works offline
+    data = json.loads((pack / "play" / "listen.json").read_text(encoding="utf-8"))
+    heard = {b["audio"] for b in data["briefs"]} | {t["src"] for p in data["papers"] for t in p["tracks"]}
+    kept = {f[len("play/"):] for f in m["files"] if f.startswith("play/audio/") and f.endswith(".mp3")}
+    assert heard <= kept and ("audio/" + "0" * 64 + ".mp3") not in kept      # older issues' audio left out
     on_disk = {str(p.relative_to(pack)).replace(os.sep, "/") for p in pack.rglob("*") if p.is_file()} - {"manifest.json"}
     assert set(m["files"]) == on_disk and m["start"] == "index.html" and m["v"] == 1
     rel, (h, size) = next(iter(m["files"].items()))

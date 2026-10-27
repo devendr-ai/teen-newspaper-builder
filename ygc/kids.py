@@ -61,6 +61,7 @@ def finish(out, cfg, log=print):
             if "</head>" not in doc or "gate/gate.js" in doc:
                 continue
             doc = doc.replace("</head>", head(_root_for(rel, site_root)) + "</head>", 1)
+            doc = re.sub(r"<html\b", f'<html data-gate-pages="{" ".join(GATE_PAGES)}"', doc, count=1)
             if rel in GATE_PAGES:
                 doc = re.sub(r"<html\b", "<html data-gate-page", doc, count=1)
             for files, tag, reason, always in MARKS:

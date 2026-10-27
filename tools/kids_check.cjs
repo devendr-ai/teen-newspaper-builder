@@ -263,6 +263,11 @@ function solve(q) {                                // the gate's question -> its
     await go("parents.html"); await answer(true);
     await go("about.html"); await p.goBack(); await p.waitForTimeout(500);
     ok("parents' page asks again after leaving and coming back", await gateShown());
+    // For parents → Design: the grown-up already answered, so Design opens without a second question
+    await go("parents.html"); await answer(true);
+    await p.locator('.parent-link[href="builder.html"]').click();
+    await p.waitForURL(/builder\.html$/); await p.waitForTimeout(500);
+    ok("parents → Design: one question, not two", !(await gateShown()), p.url());
     // 9. the builder: gated, then everything works, Pyodide from this site
     await go("builder.html");
     ok("builder: gate appears", await gateShown());
