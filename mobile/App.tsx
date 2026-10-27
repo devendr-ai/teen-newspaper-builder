@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState, type ComponentRef } from 'rea
 import { ActivityIndicator, AppState, Linking, Pressable, Share, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import { File, Paths } from 'expo-file-system';
 import * as Print from 'expo-print';
 import { WebView, type WebViewMessageEvent } from 'react-native-webview';
 import type { ShouldStartLoadRequest } from 'react-native-webview/lib/WebViewTypes';
@@ -116,6 +117,16 @@ function Main() {
       case 'printHtml':
         try {
           await Print.printAsync({ html: m.html, orientation: m.landscape ? Print.Orientation.landscape : Print.Orientation.portrait });
+        } catch {}
+        break;
+      case 'pdfData':                         // a paper made with Design your own: print, save to Files or send
+        try {
+          const name = String(m.name || 'News Pebbles.pdf').replace(/[^\w .()-]/g, '_');
+          const file = new File(Paths.cache, name.endsWith('.pdf') ? name : name + '.pdf');
+          if (file.exists) file.delete();
+          file.create();
+          file.writeSync(String(m.data || ''), { encoding: 'base64' });
+          await Share.share({ url: file.uri });
         } catch {}
         break;
       case 'share':

@@ -7,7 +7,8 @@ same home page; Listen takes Design's place in the tab bar. The code is in `mobi
 |---|---|
 | **The pages** | The app build of the site (`--kids`, below), served nightly at `https://newspebbles.com/app/` |
 | **Offline** | Each time the app opens it downloads `app/manifest.json` and fetches only the files that changed (`mobile/src/content.ts`). The last 7 days of papers and recordings stay on the phone |
-| **Listen tab** (app only) | `play/listen.html`: the car-ride briefs and each paper read aloud. Replaces the Design tab; Design is in For parents and opens the website |
+| **Listen tab** (app only) | `play/listen.html`: the car-ride briefs and each paper read aloud. Replaces the Design tab; Design is in For parents, inside the app (one grown-up question for both) |
+| **Design your own** | Works offline in the app: its engine is in the pack. The finished PDF opens the share sheet (print, Files, send) |
 | **Audio with the screen locked** | The brief and the Listen tab play in the phone's own player (`mobile/src/player.ts`, expo-audio): lock screen, Control Center, car, next story |
 | **Morning reminder** | For parents → This app: a daily notification the phone sets for itself (`mobile/src/reminder.ts`). No push server |
 | **Print and share** | After the Parental Gate, the iPhone's print sheet (PDFs, the certificate) and share sheet |
@@ -47,12 +48,13 @@ python -u -m ygc.narration --site _app_build --latest-only    # recordings come 
 python -m ygc app-pack --site _app_build                     # trims it, writes manifest.json
 ```
 
-`app-pack` leaves out what the app doesn't use (the Design engine and `builder.html`, link-preview
-pictures, the podcast feed, `404.html`), points any link to `builder.html` at the website, and writes
+`app-pack` leaves out what the app doesn't use (link-preview pictures, the podcast feed, `404.html`)
+and the recordings of older issues: it keeps each paper's newest issue and everything on the Listen
+tab, and older issues read aloud with the phone's own voice. It writes
 `manifest.json`: `{"v": 1, "id", "built", "start": "index.html", "files": {path: [sha256 prefix, bytes]}}`.
 The narration step also writes `play/listen.json` for the Listen tab (`ygc/listen.py`). If the pack
-fails, the website still publishes and phones keep what they saved. About 20 MB of pages plus the
-day's recordings.
+fails, the website still publishes and phones keep what they saved. About 80 MB on the first open
+(about half of it recordings, 16 MB the Design engine), then only what changed each day.
 
 ### Try it, build it, ship it
 
@@ -100,7 +102,8 @@ wrong answers pause it for 30 seconds. One listener on each page covers:
   report), which stay hidden until the sum is answered.
 
 The unlock is only in the open page's memory: leaving the page (or coming back to it from the
-back button) asks again. The dialog is an accessible modal: labelled, keyboard-trapped, Escape and
+back button) asks again. One exception: a link from an unlocked parents' page straight to another
+(`data-gate-pages` on every page's `<html>`; For parents → Design your own) doesn't ask twice. The dialog is an accessible modal: labelled, keyboard-trapped, Escape and
 "Go back" cancel, large targets, dark mode. Mark anything new with `data-gate` (and
 `data-gate-reason="link|mail|share|print|page|grown"`), or call `npGate(reason, onPass)` from code.
 

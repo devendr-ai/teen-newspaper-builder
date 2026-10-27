@@ -9,8 +9,10 @@
      hidden until the sum is answered.
    The unlock lives only in this page view's memory: it ends when the page is left (or comes back
    from the back-forward cache), and links out, email and share always ask again
-   (data-gate="always"). Three wrong answers pause the gate for 30 seconds.
-   Nothing is stored except that pause, in sessionStorage. */
+   (data-gate="always"). One exception: a link from an unlocked parents' page straight to another
+   (data-gate-pages on <html>, e.g. For parents → Design) opens it without asking again.
+   Three wrong answers pause the gate for 30 seconds.
+   Nothing is stored except that pause and that hand-over, in sessionStorage. */
 (function () {
   "use strict";
   if (window.npGate) return;
@@ -26,6 +28,7 @@
   };
   var me = doc.currentScript ? doc.currentScript.src : "";
   var HOME = me ? me.replace(/gate\/gate\.js(\?.*)?$/, "index.html") : "index.html";
+  var ROOT = HOME.replace(/index\.html$/, ""), HANDOFF = "np-gate-handoff", HANDOFF_MS = 15000;
   var pageOpen = false, wrong = 0, pausedUntil = 0, box = null, sum = null, job = null, back = null, timer = 0, hidden = [];
 
   // ---------------------------------------------------------------- the sums
@@ -199,8 +202,28 @@
     html.classList.remove("np-unlocked");
     open("page", function () { pageOpen = true; html.classList.add("np-unlocked"); }, leave);
   }
+  // From an unlocked parents' page straight to another one (For parents → Design): no second question.
+  function gatedPage(u) {
+    var pages = (html.getAttribute("data-gate-pages") || "").split(" ");
+    var path = u.href.split(/[?#]/)[0];
+    return u.origin === location.origin && path.indexOf(ROOT) === 0 && pages.indexOf(path.slice(ROOT.length)) >= 0;
+  }
+  doc.addEventListener("click", function (e) {
+    if (!pageOpen || e.defaultPrevented) return;
+    var a = e.target && e.target.closest ? e.target.closest("a[href]") : null, u;
+    if (!a) return;
+    try { u = new URL(a.href, location.href); } catch (x) { return; }
+    if (gatedPage(u)) try { sessionStorage.setItem(HANDOFF, JSON.stringify({ to: u.href.split(/[?#]/)[0], at: Date.now() })); } catch (x) {}
+  });
+  function handedOver() {
+    var h = null;
+    try { h = JSON.parse(sessionStorage.getItem(HANDOFF) || "null"); sessionStorage.removeItem(HANDOFF); } catch (e) {}
+    return !!h && h.to === location.href.split(/[?#]/)[0] && Date.now() - h.at < HANDOFF_MS;
+  }
   function start() {
-    if (html.hasAttribute("data-gate-page")) lockPage();
+    if (!html.hasAttribute("data-gate-page")) return;
+    if (handedOver()) { pageOpen = true; html.classList.add("np-unlocked"); }
+    else lockPage();
   }
   window.addEventListener("pageshow", function (e) {           // back from the back-forward cache: ask again
     if (e.persisted && html.hasAttribute("data-gate-page")) { if (box && !box.hidden) close(); lockPage(); }
