@@ -99,7 +99,8 @@
   window.NPApp.parentPost = function (url, body) {
     return new Promise(function (resolve, reject) {
       if (typeof window.npGate !== 'function') { reject(new Error('gate_unavailable')); return; }
-      window.npGate('grown', function () {
+      var authorize = window.npGate.parent || function (yes, no) { window.npGate('grown', yes, no); };
+      authorize(function () {
         var id = parentPrefix + '-' + (++parentSeq);
         var timer = setTimeout(function () { delete parentJobs[id]; reject(new Error('native_request_timeout')); }, 22000);
         parentJobs[id] = function (m) {

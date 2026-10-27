@@ -157,6 +157,7 @@ def test_existing_kids_gate_is_required_for_app_subscriptions():
     cfg['kids_mode'] = True
     form = site.subscription_form(cfg, edition.load('little-explorers'))
     assert 'data-subscribe-kids="true"' in form
+    assert 'name="grownup_answer"' not in form and 'subscription-math' not in form
     public = site.subscription_form(config_with(), edition.load('little-explorers'))
     assert 'data-subscribe-kids="false"' in public
 

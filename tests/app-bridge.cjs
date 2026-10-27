@@ -64,10 +64,21 @@ function nativeApp() {
 
   // For parents → This app (after the gate)
   await page.goto(B + 'parents.html', { waitUntil: 'networkidle' });
-  await page.evaluate(() => {                         // past the gate (tests/test_kids_mode.py checks the gate itself)
-    const h = document.documentElement; h.classList.add('np-unlocked'); h.classList.remove('np-gate-open');
-    document.querySelectorAll('.np-gate').forEach((e) => e.remove()); document.querySelectorAll('[inert]').forEach((e) => e.removeAttribute('inert'));
-  });
+  const question = await page.locator('#np-gate-q').textContent();
+  const words = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split(' ');
+  const number = word => word.split('-').reduce((sum,w)=>sum+({twenty:20,thirty:30,forty:40,fifty:50,sixty:60,seventy:70,eighty:80,ninety:90}[w] ?? words.indexOf(w)),0);
+  const parts = question.match(/What is ([a-z-]+) (?:multiplied by|times) ([a-z-]+)(?:, plus ([a-z-]+))?\?/);
+  await page.fill('#np-gate-answer',String(number(parts[1])*number(parts[2])+(parts[3]?number(parts[3]):0)));
+  await page.click('.np-gate-ok');
+  ok('parents: one real entry check unlocks page', await page.locator('html').evaluate(h=>h.classList.contains('np-unlocked')));
+  ok('parents: no second math field', await page.locator('.subscription-math').count() === 0);
+  await page.selectOption('select[name="edition_slug"]','little-explorers');
+  await page.fill('input[name="email"]','parent@example.com');
+  await page.locator('form[data-gate-form="subscribe"]').evaluate(f=>f.requestSubmit());
+  await page.locator('.subscription-status').filter({hasText:'Check your inbox'}).waitFor();
+  ok('parents: signup succeeds without another gate', await page.locator('.np-gate:not([hidden])').count() === 0 && (await sent()).filter(m=>m.t==='parent-request').length === 1);
+  // Separate transport checks below start with a clean message log.
+  await page.evaluate(()=>{window.__sent=[];});
   await page.waitForTimeout(200);
   ok('parents: This app is shown, filled in', await page.isVisible('#np-app') && (await page.$eval('#np-off-what', (e) => e.textContent)).includes('41 MB'));
   await page.check('#np-rem-on');
