@@ -1,12 +1,27 @@
-# News Pebbles: Print-Ready Daily Newspapers for Kids & Teens
+# ygc — print-ready newspapers for young readers
 
-[![Website](https://img.shields.io/badge/Website-newspebbles.com-coral?style=flat-square)](https://newspebbles.com)
-[![Python](https://img.shields.io/badge/Python-3.12+-blue?style=flat-square)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-green?style=flat-square)](LICENSE)
+**Run a website of automatically published papers for children:** nine
+ready-made editions for ages 6 to 15 and up, researched, written, checked and
+published every morning by Claude (a daily Claude Code Routine, or the API through
+GitHub Actions). Parents pick a paper for
+their child's age, download today's PDF and print it. The youngest readers also get a
+one-page "Big Question" poster: one idea, pictures, something to try and questions
+to talk about together ([docs/POSTERS.md](docs/POSTERS.md)). Setup takes about 20 minutes: [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
-**News Pebbles** (teen newspaper builder) is an open-source engine for automatically publishing calm, age-appropriate current events newspapers for children, teens, and young readers (ages 6 to 18). Built with Python and ReportLab for families, homeschool education, and classroom discussions.
+**For the children themselves:** *Read & Play* (`/play/`) puts each recent issue
+online for a tablet or phone: one story per screen for younger readers, read aloud
+with the sentence lit up, new words to tap, bigger text and a night mode, and a
+word game at the end. See [docs/READ_AND_PLAY.md](docs/READ_AND_PLAY.md).
 
-## Examples and Output Screenshots
+**Or let parents make their own:** the website's *Design your own* page writes
+instructions for the parent's own AI chatbot (ChatGPT, Claude or Gemini), then
+checks the chatbot's reply and builds the same PDF, all inside the browser.
+See [docs/DESIGN_YOUR_OWN.md](docs/DESIGN_YOUR_OWN.md).
+
+Build a real, printable newspaper for any reader: choose their age, what the
+paper is for, which countries and topics it covers, how many pages it runs to
+and how often it comes out. All of that lives in one YAML file. The engine
+handles layout, AI instructions and quality checks.
 
 | *The Young Global Citizen Daily* — age 13, 2 pages, every 2 days | *The Junior Explorer* — age 9, 3 pages, weekly |
 |---|---|
@@ -79,10 +94,3 @@ in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
   created it.
 
 `python -m pytest -q` must pass before pushing; CI runs it on every push.
-
-## License & Community
-
-- **License:** Content and layouts are licensed under [Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)](LICENSE).
-- **Contributing:** See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-- **Security:** See [SECURITY.md](SECURITY.md).
-- **Corrections & Feedback:** Email `corrections@newspebbles.com` or `info@newspebbles.com`.

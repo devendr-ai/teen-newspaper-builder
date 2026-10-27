@@ -41,13 +41,9 @@ def test_every_page_gets_preview_tags_and_the_site_gets_a_sitemap_robots_and_404
 
     robots = (out / "robots.txt").read_text()
     assert "Allow: /" in robots and f"Sitemap: {base}sitemap.xml" in robots
-    assert "User-agent: GPTBot" in robots and "User-agent: PerplexityBot" in robots
     sm = (out / "sitemap.xml").read_text(encoding="utf-8")
-    assert f"<loc>{base}</loc><lastmod>" in sm and f"<loc>{base}play/little-explorers/{date}.html</loc><lastmod>{date}</lastmod>" in sm
+    assert f"<loc>{base}</loc>" in sm and f"<loc>{base}play/little-explorers/{date}.html</loc><lastmod>{date}</lastmod>" in sm
     assert "404.html" not in sm
-    assert (out / "llms.txt").exists() and (out / "llms-full.txt").exists()
-    assert 'application/ld+json' in home and 'NewsMediaOrganization' in home
-    assert 'name="twitter:title"' in home and 'name="twitter:image"' in home
 
     lost = (out / "404.html").read_text(encoding="utf-8")       # served at any address, so its links start at the root
     assert "We can't find that page" in lost and 'href="/index.html"' in lost and 'href="/play/index.html"' in lost

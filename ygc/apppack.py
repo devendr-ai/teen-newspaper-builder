@@ -16,7 +16,7 @@ import os
 import re
 import shutil
 
-DROP = ("share", "sitemap.xml", "robots.txt", "CNAME", "404.html", "play/podcast.xml", "play/sw.js", "find", "llms.txt", "llms-full.txt")
+DROP = ("share", "sitemap.xml", "robots.txt", "CNAME", "404.html", "play/podcast.xml", "play/sw.js")
 NARRATION = re.compile(r'<script id="narration" type="application/json">(.*?)</script>', re.S)
 MANIFEST = "manifest.json"
 VERSION = 1

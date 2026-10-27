@@ -13,7 +13,6 @@ which are kept in assets/fonts (SIL Open Font License).
 import datetime as dt
 import functools
 import html
-import json
 import os
 import re
 
@@ -313,99 +312,6 @@ def url(cfg, rel):
     return base + rel
 
 
-def json_ld(cfg, rel, title, desc, image):
-    """Structured data (Schema.org JSON-LD) for search engines and AI agents."""
-    base = (cfg.get("base_url") or "").rstrip("/") + "/"
-    if not cfg.get("base_url") or rel == "404.html":
-        return ""
-    org_id = f"{base}#organization"
-    website_id = f"{base}#website"
-    graph = []
-
-    org = {
-        "@type": "NewsMediaOrganization",
-        "@id": org_id,
-        "name": cfg.get("title", "News Pebbles"),
-        "url": base,
-        "logo": f"{base}share/site.png",
-        "publishingPrinciples": f"{base}standards.html",
-        "correctionsPolicy": f"{base}corrections.html",
-        "ethicsPolicy": f"{base}standards.html",
-        "knowsAbout": [
-            "Children's News",
-            "Current Events for Kids",
-            "Civics Education",
-            "Homeschooling Materials",
-            "Middle School Reading",
-            "Elementary Education"
-        ]
-    }
-    if cfg.get("info_email"):
-        org["email"] = cfg["info_email"]
-
-    is_home = rel in ("index.html", "")
-    if is_home:
-        graph.append(org)
-        graph.append({
-            "@type": "WebSite",
-            "@id": website_id,
-            "url": base,
-            "name": cfg.get("title", "News Pebbles"),
-            "description": desc or cfg.get("description", ""),
-            "inLanguage": "en-US",
-            "publisher": {"@id": org_id}
-        })
-    elif rel.startswith("play/") and rel.endswith(".html") and not rel.endswith("index.html") and not rel.endswith("listen.html"):
-        graph.append({
-            "@type": "NewsArticle",
-            "headline": title.split(" · ")[0] if " · " in title else title,
-            "description": desc,
-            "image": [f"{base}{image}"] if image else [],
-            "url": url(cfg, rel),
-            "inLanguage": "en-US",
-            "publisher": {"@id": org_id}
-        })
-    elif rel.startswith("e/") and rel.endswith(".html") and not rel.endswith("index.html"):
-        graph.append({
-            "@type": "PublicationIssue",
-            "name": title,
-            "description": desc,
-            "url": url(cfg, rel),
-            "publisher": {"@id": org_id}
-        })
-    elif rel.startswith("e/") and rel.endswith("index.html"):
-        graph.append({
-            "@type": "Periodical",
-            "name": title.split(" · ")[0] if " · " in title else title,
-            "description": desc,
-            "url": url(cfg, rel),
-            "publisher": {"@id": org_id}
-        })
-    elif rel.startswith("find/"):
-        graph.append({
-            "@type": "Article",
-            "headline": title.split(" · ")[0] if " · " in title else title,
-            "description": desc,
-            "url": url(cfg, rel),
-            "publisher": {"@id": org_id}
-        })
-    else:
-        graph.append({
-            "@type": "WebPage",
-            "name": title,
-            "description": desc,
-            "url": url(cfg, rel),
-            "publisher": {"@id": org_id}
-        })
-
-    scripts = []
-    for item in graph:
-        obj = {"@context": "https://schema.org"}
-        obj.update(item)
-        scripts.append(f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>')
-    return "".join(scripts)
-
-
 def tags(cfg, rel, title, desc, image, alt):
     base = (cfg.get("base_url") or "").rstrip("/") + "/"
     out = []
@@ -413,17 +319,10 @@ def tags(cfg, rel, title, desc, image, alt):
         out.append(f'<link rel="canonical" href="{E(url(cfg, rel))}"><meta property="og:url" content="{E(url(cfg, rel))}">')
     out.append(f'<meta property="og:type" content="website"><meta property="og:site_name" content="{E(cfg["title"])}">'
                f'<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">'
-               f'<meta name="twitter:card" content="summary_large_image">'
-               f'<meta name="twitter:title" content="{E(title)}">'
-               f'<meta name="twitter:description" content="{E(desc)}">')
+               f'<meta name="twitter:card" content="summary_large_image">')
     if cfg.get("base_url") and image:
         out.append(f'<meta property="og:image" content="{E(base + image)}"><meta property="og:image:width" content="{W}">'
-                   f'<meta property="og:image:height" content="{H}"><meta property="og:image:alt" content="{E(alt)}">'
-                   f'<meta name="twitter:image" content="{E(base + image)}">'
-                   f'<meta name="twitter:image:alt" content="{E(alt)}">')
-    ld = json_ld(cfg, rel, title, desc, image)
-    if ld:
-        out.append(ld)
+                   f'<meta property="og:image:height" content="{H}"><meta property="og:image:alt" content="{E(alt)}">')
     return "".join(out)
 
 
@@ -462,55 +361,12 @@ def not_found(cfg):
     return site.page(cfg, f"Page not found · {cfg['title']}", body, root=root, head_extra=head, here="")
 
 
-def write_llms_txt(out, cfg):
-    """Writes /llms.txt and /llms-full.txt for LLMs and AI search engines (Perplexity, ChatGPT, Claude)."""
-    base = (cfg.get("base_url") or "").rstrip("/") + "/"
-    title = cfg.get("title", "News Pebbles")
-    desc = cfg.get("description", "Free, age-appropriate newspapers to print, read and talk about together.")
-
-    llms = f"""# {title}
-
-> {desc}
-
-## Overview
-News Pebbles publishes free, calm, age-appropriate daily and weekly current affairs newspapers for children and teenagers (ages 6–18). Designed for families, homeschoolers, and educators to print on US Letter paper, read on tablet, or listen to in the car. Grounded exclusively in verified, traceable news sources.
-
-## Priority Pages
-- [Today's Papers]({base}): Age selector, daily downloads, and printable PDFs.
-- [Read & Play]({base}play/): Interactive tablet reader with synchronized read-aloud sentence audio, vocabulary tap, and daily word games.
-- [Car-Ride Audio Brief]({base}play/listen.html): 5-minute morning news podcast for the school run.
-- [Podcast RSS Feed]({base}play/podcast.xml): Audio podcast feed for Apple Podcasts and Spotify.
-- [Newspaper Builder]({base}builder.html): Browser-based configurator to design custom editions.
-- [For Parents & Educators]({base}parents.html): Printing guide, routine tips, and educational standards.
-- [Search & Grade Guides]({base}find/): Curated guides by grade (5th grade, 6th grade) and topic (homeschool, calm news).
-
-## Editions by Age Band
-- [Little Explorers (Ages 6–8)]({base}e/little-explorers/): Gentle 1–2 page introduction to news, science, and the "Big Question" poster.
-- [Junior Explorer (Ages 9–11)]({base}e/junior-explorer/): Weekly 3-page deep dive with map hunt and explorer challenges.
-- [The Breakfast Table (Ages 9–11)]({base}e/breakfast-table/): Daily 2-page family morning conversation starter.
-- [Junior Daily (Ages 9–11)]({base}e/junior-daily/): Daily 1-page quick briefing.
-- [Young Global Citizen (Ages 12–14)]({base}e/young-global-citizen/): World affairs, economics, science, and perspective.
-- [Current Affairs Digest (Ages 15+)]({base}e/current-affairs-digest/): In-depth 4-page analysis, key terminology, and comprehension quiz.
-- [Global Citizen Plus (Ages 15+)]({base}e/global-citizen-plus/): Comprehensive 4-page international edition.
-- [Lab Notebook]({base}e/lab-notebook/): STEM, science discoveries, and innovation focus.
-- [Europe Explained]({base}e/europe-explained/): European institutions, culture, and affairs.
-
-## Editorial Principles & Trust
-- [Editorial Standards]({base}standards.html): Verified sources only, no sensationalism, zero graphic violence, calm tone.
-- [How It's Made]({base}about.html): Transparent AI research and ReportLab layout pipeline.
-- [Corrections Policy]({base}corrections.html): Published correction log for transparency.
-"""
-    open(os.path.join(out, "llms.txt"), "w", encoding="utf-8").write(llms)
-    open(os.path.join(out, "llms-full.txt"), "w", encoding="utf-8").write(llms)
-
-
 def build(out, cfg, log=print):
     """Pictures, preview tags, sitemap.xml, robots.txt and 404.html for the built site in `out`."""
     from . import edition, site
     pics = os.path.join(out, "share")
     site_card(cfg, os.path.join(pics, "site.png"))
-    home_title = f"{cfg['title']}: Free Daily Newspapers for Kids & Teens | Print & Read"
-    special = {"index.html": (home_title, cfg["description"], "share/site.png",
+    special = {"index.html": (f"{cfg['title']}: {cfg['tagline']}", cfg["description"], "share/site.png",
                               f"{cfg['title']}: {cfg['tagline']}")}
     lastmod = {}
     for eid in edition.list_editions():
@@ -571,26 +427,13 @@ def build(out, cfg, log=print):
         doc = doc.replace("</head>", tags(cfg, rel, title, desc, image, alt) + "</head>", 1)
         open(p, "w", encoding="utf-8").write(doc)
 
-    write_llms_txt(out, cfg)
-
     if cfg.get("base_url"):
-        default_mod = max(lastmod.values()) if lastmod else dt.date.today().isoformat()
         listed = [r for r in sorted(pages) if r != "404.html" and 'class="stub"' not in open(os.path.join(out, r), encoding="utf-8").read()]
-        rows = "".join(f"<url><loc>{E(url(cfg, r))}</loc><lastmod>{lastmod.get(r, default_mod)}</lastmod></url>"
+        rows = "".join(f"<url><loc>{E(url(cfg, r))}</loc>{f'<lastmod>{lastmod[r]}</lastmod>' if r in lastmod else ''}</url>"
                        for r in listed)
         open(os.path.join(out, "sitemap.xml"), "w", encoding="utf-8").write(
             '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
             + rows + "</urlset>\n")
-        robots_txt = (
-            f"User-agent: *\nAllow: /\n\n"
-            f"# AI search and answer engines\n"
-            f"User-agent: GPTBot\nAllow: /\n\n"
-            f"User-agent: ChatGPT-User\nAllow: /\n\n"
-            f"User-agent: ClaudeBot\nAllow: /\n\n"
-            f"User-agent: PerplexityBot\nAllow: /\n\n"
-            f"User-agent: Google-Extended\nAllow: /\n\n"
-            f"User-agent: Applebot-Extended\nAllow: /\n\n"
-            f"Sitemap: {(cfg['base_url'].rstrip('/'))}/sitemap.xml\n"
-        )
-        open(os.path.join(out, "robots.txt"), "w", encoding="utf-8").write(robots_txt)
+        open(os.path.join(out, "robots.txt"), "w", encoding="utf-8").write(
+            f"User-agent: *\nAllow: /\n\nSitemap: {(cfg['base_url'].rstrip('/'))}/sitemap.xml\n")
     log(f"  share: {len(os.listdir(pics))} pictures, preview tags on {len(pages)} pages")
