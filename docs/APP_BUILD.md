@@ -1,3 +1,76 @@
+# The News Pebbles app (iPhone and iPad)
+
+The app is the website's own pages, saved on the phone, plus what only an app can do. It starts on the
+same home page; Listen takes Design's place in the tab bar. The code is in `mobile/` (Expo).
+
+| What | How |
+|---|---|
+| **The pages** | The app build of the site (`--kids`, below), served nightly at `https://newspebbles.com/app/` |
+| **Offline** | Each time the app opens it downloads `app/manifest.json` and fetches only the files that changed (`mobile/src/content.ts`). The last 7 days of papers and recordings stay on the phone |
+| **Listen tab** (app only) | `play/listen.html`: the car-ride briefs and each paper read aloud. Replaces the Design tab; Design is in For parents and opens the website |
+| **Audio with the screen locked** | The brief and the Listen tab play in the phone's own player (`mobile/src/player.ts`, expo-audio): lock screen, Control Center, car, next story |
+| **Morning reminder** | For parents → This app: a daily notification the phone sets for itself (`mobile/src/reminder.ts`). No push server |
+| **Print and share** | After the Parental Gate, the iPhone's print sheet (PDFs, the certificate) and share sheet |
+| **iPad** | The same pages; they already lay out for tablets |
+
+### How a page talks to the app (`assets/app/app.js`)
+
+Every page of the app build loads `app.js` first. Inside the app (`window.ReactNativeWebView`) it adds
+`window.NPApp` and sends JSON messages; the app answers by calling `window.__np(message)`.
+
+| Page → app | Meaning |
+|---|---|
+| `{t:"page", url, bg, dark}` | a page opened (the app colours the status bar to match) |
+| `{t:"audio", op:"list", id, title, tracks:[{src,title}]}` | play these tracks in the phone's player; also `play`, `pause`, `toggle`, `next`, `seek`, `rate` |
+| `{t:"claim", id}` | this page shows its own player for `id` (`"*"` on Listen), so the app hides its mini-player |
+| `{t:"print", url}` / `{t:"printHtml", html}` | print a PDF, or a page with its styles built in (the certificate) |
+| `{t:"share", title, text, url}` | the share sheet |
+| `{t:"settings?"}` / `{t:"reminder", on, time}` | For parents → This app |
+
+| App → page | Meaning |
+|---|---|
+| `{t:"status", s}` | what's playing: `{id, title, track, index, count, playing, time, duration, ended}` |
+| `{t:"settings", reminder, offline}` | fills in This app |
+| `{t:"go", href}` | open a page (the mini-player opens Listen) |
+
+The brief's player uses `NPApp.audio()`, which behaves like an `<audio>` element but plays in the phone.
+In a browser `NPApp.native` is false: Listen plays its tracks itself and everything else is the website.
+Links out, email and anything else that isn't a saved page open outside the app (Safari, Mail), after the gate.
+
+### The offline pack (`ygc/apppack.py`)
+
+Both deploys (`pages.yml`, `daily.yml`) run `tools/app_pack.sh` after the website's narration:
+
+```sh
+python -m ygc site --kids --keep 7 --out _app_build
+python -u -m ygc.narration --site _app_build --latest-only    # recordings come from the cache
+python -m ygc app-pack --site _app_build                     # trims it, writes manifest.json
+```
+
+`app-pack` leaves out what the app doesn't use (the Design engine and `builder.html`, link-preview
+pictures, the podcast feed, `404.html`), points any link to `builder.html` at the website, and writes
+`manifest.json`: `{"v": 1, "id", "built", "start": "index.html", "files": {path: [sha256 prefix, bytes]}}`.
+The narration step also writes `play/listen.json` for the Listen tab (`ygc/listen.py`). If the pack
+fails, the website still publishes and phones keep what they saved. About 20 MB of pages plus the
+day's recordings.
+
+### Try it, build it, ship it
+
+On a Mac, from `mobile/`:
+
+1. **Try it on your iPhone (free, no build):** `npm install`, then `npx expo start` and scan the QR code
+   with the Expo Go app. It loads the live pack from newspebbles.com.
+2. **TestFlight:** `npx eas-cli@latest build --platform ios --profile production`, then
+   `npx eas-cli@latest submit --platform ios --latest`. The first build asks to sign in to the Apple
+   Developer account and creates the certificates; EAS keeps them.
+3. **The App Store:** everything to paste into App Store Connect is in `mobile/store/`.
+
+Checks: `npm run typecheck`, `npm run lint`, and `npx expo export --platform ios` (bundles the app).
+`tests/test_app.py` checks the website side, including `tests/app-bridge.cjs` in a real browser with a
+stand-in for the app.
+
+---
+
 # The app build (Kids Category / Families)
 
 `python -m ygc site --kids --out _kids` builds the same site for the News Pebbles app, ready for

@@ -14,6 +14,21 @@
 
 
 
+## The News Pebbles app for iPhone and iPad (first version)
+
+- `mobile/`: an Expo app that shows the website's own pages, starting on the same home page. Papers and
+  recordings from the last 7 days are saved on the phone each time it opens, so it works offline.
+- New in the app only: a **Listen** tab (the car-ride briefs and every paper read aloud) in place of
+  Design, which moves to For parents and opens the website. The brief and Listen play in the phone's own
+  player: on with the screen locked, on the lock screen and in the car, with next-story controls.
+- For parents → **This app**: a morning reminder at a time a grown-up picks (set on the phone, no
+  push server) and what's saved for offline. Print and share use the iPhone's own sheets, after the
+  Parental Gate.
+- The deploys now also publish the app's offline pack at `/app/` (`tools/app_pack.sh`,
+  `python -m ygc app-pack`), and narration writes `play/listen.json`. The privacy page describes the app.
+- App Store listing, privacy answers and a screenshot tool: `mobile/store/`, `tools/app_screenshots.cjs`.
+  See docs/APP_BUILD.md.
+
 ## Angles: the same big story, a different paper
 
 - Each paper has a `lens` in its edition.yaml, added to its prompt: the angle it takes when a

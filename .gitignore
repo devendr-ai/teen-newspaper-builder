@@ -6,3 +6,4 @@ __pycache__/
 .DS_Store
 _site/
 .cache/
+_app_build/

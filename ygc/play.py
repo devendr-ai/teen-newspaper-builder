@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, brief, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline, analyst
+from . import brand, brief, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline, analyst, listen
 from .chat import sentences
 
 E = html.escape
@@ -445,11 +445,13 @@ _VERSION = ""
 ASSETS = ("play.css", "world.js", "play.js")
 
 
-def child_nav(root, here="today", desktop=False):
+def child_nav(root, here="today", desktop=False, app=False):
     tabs = [("home", "index.html", "house", "Home"),
             ("today", "play/index.html#today", "newspaper", "Today"),
             ("explore", "play/index.html#explore", "compass", "Explore"),
             ("me", "play/index.html#me", "sprout", "My Pebbles")]
+    if app:                                         # the app build: Listen (the car-ride brief and papers read aloud)
+        tabs.insert(3, ("listen", "play/listen.html", "headphones", "Listen"))
     classes = "childnav desktopnav noprint" if desktop else "tabbar childnav noprint"
     return f'<nav class="{classes}" aria-label="Main navigation">' + "".join(
         f'<a href="{root}{href}" data-view="{key}"' + (' aria-current="page"' if key == here else '')
@@ -459,7 +461,8 @@ def child_nav(root, here="today", desktop=False):
 def shell(cfg, title, body, root="", here="today"):
     desktop_brand = (f'<a class="desktopbrand" href="{root}play/index.html">{brand.inline("owl")}Read &amp; Play</a>'
                      if '<header class="bar lb">' not in body else '')
-    body = body.replace('</header>', desktop_brand + child_nav(root, here, desktop=True) + '</header>', 1)
+    app = bool(cfg.get("kids_mode"))
+    body = body.replace('</header>', desktop_brand + child_nav(root, here, desktop=True, app=app) + '</header>', 1)
     if '<header class="bar lb">' in body:
         body = body.replace('</header>', '</header>' + pwa.tablet_prompt(), 1)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -469,7 +472,7 @@ def shell(cfg, title, body, root="", here="today"):
 {pwa.head(cfg, root)}
 <link rel="icon" href="{root}play/owl.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{root}play/play.css?v={asset_version()}">{stats.snippet(cfg, root)}</head><body>{body}
-{child_nav(root, here)}
+{child_nav(root, here, app=app)}
 <script src="{root}play/world.js?v={asset_version()}"></script><script src="{root}play/play.js?v={asset_version()}"></script></body></html>"""
 
 
@@ -765,6 +768,8 @@ Maps show India's borders as on India's official maps (Natural Earth, India view
     open(os.path.join(pdir, "certificate.html"), "w", encoding="utf-8").write(certificate(cfg))
     names = {e: edition.load(e)["name"] for e in edition.list_editions()}
     open(os.path.join(pdir, "report.html"), "w", encoding="utf-8").write(report(cfg, names))
+    if cfg.get("kids_mode"):
+        open(os.path.join(pdir, "listen.html"), "w", encoding="utf-8").write(listen.page(cfg))
     for n in (180, 192, 512):                     # the owl, from assets/ (tools/brand/make_icons.js)
         shutil.copy(os.path.join(brand.ASSETS, f"owl-icon-{n}.png"), os.path.join(pdir, f"icon-{n}.png"))
     shutil.copy(brand.SVG, os.path.join(pdir, "owl.svg"))

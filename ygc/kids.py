@@ -4,7 +4,8 @@ The public website stays exactly as it is. The kids build is the same site with:
 - no visit counting (stats.py stays silent: no pixel, no 404 count, no Read & Play events);
 - the feedback page's embedded Google Form swapped for a button and email links (site.feedback_body);
 - the Parental Gate (assets/gate/) on every page: links out, email, share and print ask a grown-up,
-  and the parents' pages (GATE_PAGES) stay hidden until a grown-up answers.
+  and the parents' pages (GATE_PAGES) stay hidden until a grown-up answers;
+- the app bridge (assets/app/app.js), the Listen tab (ygc/listen.py) and For parents → "This app".
 
 Nothing is removed: every link, button and page still works, behind the gate where it leaves the
 app or is meant for grown-ups. `finish()` runs last, over the built site.
@@ -16,6 +17,7 @@ import shutil
 from .edition import ROOT
 
 GATE_SRC = os.path.join(ROOT, "assets", "gate")
+APP_JS = os.path.join(ROOT, "assets", "app", "app.js")
 GATE_PAGES = ("parents.html", "feedback.html", "builder.html", "play/report.html")
 
 # Buttons and links that are for grown-ups but stay inside the app: [file pattern, tag pattern, reason, always]
@@ -30,7 +32,8 @@ MARKS = [
 
 def head(rel_root):
     return (f'<link rel="stylesheet" href="{rel_root}gate/gate.css">'
-            f'<script src="{rel_root}gate/gate.js" defer></script>')
+            f'<script src="{rel_root}gate/gate.js" defer></script>'
+            f'<script src="{rel_root}app.js"></script>')             # the app bridge (assets/app/app.js): first
 
 
 def _root_for(rel, site_root):
@@ -45,6 +48,7 @@ def finish(out, cfg, log=print):
     os.makedirs(dst, exist_ok=True)
     for f in ("gate.js", "gate.css"):
         shutil.copy(os.path.join(GATE_SRC, f), os.path.join(dst, f))
+    shutil.copy(APP_JS, os.path.join(out, "app.js"))
     site_root = re.sub(r"^https?://[^/]+", "", (cfg.get("base_url") or "/").rstrip("/") + "/") or "/"
     pages = marked = 0
     for dp, _, fs in os.walk(out):

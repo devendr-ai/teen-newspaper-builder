@@ -342,6 +342,11 @@ def cmd_site(a):
     site.build(a.out, keep=a.keep, kids=a.kids)
 
 
+def cmd_app_pack(a):
+    from . import apppack
+    apppack.pack(a.site)
+
+
 def cmd_vendor(a):
     from . import vendor
     print(vendor.ensure())
@@ -368,6 +373,8 @@ def main(argv=None):
     p.add_argument("--keep", type=int)
     p.add_argument("--kids", action="store_true", help="the app build (Apple Kids Category, Google Play Families)")
     sub.add_parser("vendor")
+    p = sub.add_parser("app-pack", help="trim an app build (site --kids) and write its manifest.json")
+    p.add_argument("--site", default=os.path.join(edition.ROOT, "_site", "app"))
     p = sub.add_parser("new-poster"); p.add_argument("edition"); p.add_argument("--date")
     p = sub.add_parser("poster"); p.add_argument("poster"); p.add_argument("--out", default=OUT)
     p.add_argument("--pool")
@@ -380,7 +387,7 @@ def main(argv=None):
     try:
         return {"editions": cmd_editions, "new": cmd_new, "check": cmd_check, "build": cmd_build,
                 "prompt": cmd_prompt, "create-edition": cmd_create_edition,
-                "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site,
+                "migrate": cmd_migrate, "auto": cmd_auto, "site": cmd_site, "app-pack": cmd_app_pack,
                 "new-poster": cmd_new_poster, "poster": cmd_poster, "due": cmd_due,
                 "thread": cmd_thread, "vendor": cmd_vendor, "plan": cmd_plan}[a.cmd](a) or 0
     except edition.EditionError as e:

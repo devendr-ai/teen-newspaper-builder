@@ -84,9 +84,10 @@ def test_the_app_build_puts_the_gate_on_every_page_and_marks_grown_up_things(bui
 
 
 def test_the_app_build_keeps_every_feature(builds):
-    """Nothing is removed: the same pages, the same links (sources, licence, email), the builder and its engine."""
+    """Nothing is removed: the same pages, the same links (sources, licence, email), the builder and its engine.
+    The app adds its bridge and the Listen tab (tests/test_app.py)."""
     w, k = builds["web"], builds["kids"]
-    files = lambda root: {rel for rel, _ in pages(root)} - {"gate/gate.js", "gate/gate.css"}
+    files = lambda root: {rel for rel, _ in pages(root)} - {"gate/gate.js", "gate/gate.css", "app.js", "play/listen.html"}
     assert files(w) == files(k)
     links = lambda root: sorted(h for rel, doc in pages(root) if rel.endswith(".html")
                                 for h in re.findall(r'<a\b[^>]*href="(https?://[^"]+|mailto:[^"]+)"', doc)

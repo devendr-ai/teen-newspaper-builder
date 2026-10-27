@@ -98,6 +98,10 @@ jobs:
       - name: Narrate published stories with Kokoro
         if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
         run: python -u -m ygc.narration --site _site --latest-only
+      - name: Build the app's offline pack (newspebbles.com/app/)
+        if: github.event.inputs.dry_run != 'true' && env.REVIEW_PENDING != '1'
+        continue-on-error: true    # the website publishes anyway; phones keep what they saved
+        run: bash tools/app_pack.sh
       - name: Save generated narration
         uses: actions/cache/save@v4
         if: always() && hashFiles('.cache/narration/recordings/*.mp3') != ''
