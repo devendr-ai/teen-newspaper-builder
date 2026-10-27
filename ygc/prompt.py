@@ -136,6 +136,9 @@ def generate(ed, chat=None):
                  f"empty) and `unit` (\"km\", \"years\", \"%\"...) for showing it, a slider from `min` to `max` "
                  f"that leaves room on both sides of the answer, `why` one sentence saying what the number means, and "
                  f"`story`. Pick numbers worth guessing (sizes, prices, distances, counts), not dates.\n")
+        from . import analyst
+        if analyst.wants(ed):
+            L.append(analyst.PROMPT)
         if skeleton.wants_easy(ed):
             L.append("**Easier versions (online only).** Fill `play.easy` with an easier version of every story, for "
                      "a reader who finds it hard: a plain `headline` and a `body` of 2 to 4 short paragraphs (60 to "

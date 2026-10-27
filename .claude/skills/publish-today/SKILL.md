@@ -187,6 +187,16 @@ For each paper in `ygc due`, one at a time:
    move on. Commit each paper as soon as it passes
    (`git add editions/<id> && git commit -m "<Paper name>, $D"`).
 
+### Older-reader analyst games
+
+For papers aged 12+, follow `ygc/analyst.py`'s PROMPT and the generated edition prompt.
+Fill `play.analyst.domino` and `play.analyst.call` only when this issue supports them;
+use null otherwise. Verify every proposed causal arrow against the story and research
+pool in a separate checking pass. Exact evidence matching alone is not proof of causation.
+No invented policy announcements, certainty, opinion scores or voting totals. Clearly
+label hypothetical choices; both options need a fair benefit and cost. Never modify
+archived papers to fill game slots. Existing games remain the fallback when a mode is null.
+
 ## 2b. The story so far (after the papers)
 
 Big ongoing stories each have a thread in `threads/<id>.json`: one page a child can

@@ -1041,7 +1041,7 @@ st.textContent=off?"This device isn't counted.":"This device is counted.";}
 b.addEventListener("click",function(){try{if(get())localStorage.removeItem("np-nocount");else localStorage.setItem("np-nocount","1")}catch(e){}show();});show();})()</script>"""
               if counting else "<h3>What we count</h3><p>Nothing: visits aren't counted at the moment.</p>")
     return _doc("Privacy", f"""
-<p><b>The short version:</b> no accounts, no ads, no cookies, and nothing about your child is collected. Children never need to give
+<p><b>The short version:</b> no accounts, no ads, no cookies, and children never need to identify themselves. Children never need to give
 a name, an email or their age.</p>
 <h3>What stays on your device</h3>
 <p>News Pebbles remembers your chosen age band in this browser on this device. Read &amp; Play also remembers text size, night mode,
@@ -1052,8 +1052,18 @@ typed on a certificate or report. These choices and progress stay on this device
 This keeps your paper designs and visit-counting choice. You can also clear all News Pebbles data in your browser settings.</p>
 {counts}
 {('<h3 id="email-delivery">Optional email delivery for grown-ups</h3><p>Only a parent or carer needs to give an email address. If you subscribe, we store that address, your chosen newspaper and delivery frequency, confirmation/unsubscribe tokens and delivery records in Cloudflare D1. Resend processes the address and sends confirmation and paper emails. We do not send reading progress, age selections saved on your device, game answers or garden data with a subscription. A hashed email/network-address counter limits repeated requests.</p><p>Confirm by email before delivery begins. Every message has an unsubscribe link, which stops future emails for that paper. Delivery history is kept to prevent duplicate sends. For deletion of your subscription information, contact us using the privacy address below. Email links shared through WhatsApp contain the paper’s public links, not your email address. Choosing WhatsApp opens that service; it is optional.</p>') if subscription_endpoint(cfg) else ''}
+<h3>Optional analyst responses (ages 12+)</h3>
+<p>You Make the Call first saves a choice on this device. Only pressing “Add my response” sends that choice, the public
+question identifier and a random receipt for that question to our Cloudflare Worker. No name, account or email is requested.
+The receipt prevents ordinary repeat submissions from this browser and lets a changed choice update the same response.
+It is not a verified count of unique people. The server stores the choice and a hashed receipt for up to 90 days;
+short-lived, secret-hashed network counters limit abuse and expire after two hours. The hosting provider handles network
+addresses when serving requests. Aggregate results appear only after five responses and are not a representative survey.</p>
+<p>In the kids app a grown-up must unlock sharing before any voting request. Sharing is optional and does not affect
+completion or rewards. Resetting this device’s reading data clears local choices and receipts; it does not retract a
+previously shared anonymous response. Server records expire automatically.</p>
 <h3>Other services the site uses</h3>
-<ul>{'<li><b>Inside the app</b>, every page, picture, recording and typeface comes from the app itself; no other company is contacted. Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
+<ul>{'<li><b>Inside the app</b>, every page, picture, recording and typeface comes from the app itself; no other company is contacted automatically. Optional response sharing contacts Cloudflare only after the grown-up question. Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
 <li><b>Typefaces and the Design-your-own engine</b> are served from {E(cfg["title"])} itself, not from Google or other font and code services.</li>
 <li><b>Read aloud</b> normally plays pre-generated AI recordings made with Kokoro. They are generated during publishing and served
 as audio files from this site, rather than generated from a child's voice or reading activity. Your browser may cache recordings
