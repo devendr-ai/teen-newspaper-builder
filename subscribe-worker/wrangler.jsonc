@@ -15,6 +15,7 @@
     "PUBLIC_BASE_URL": "https://newspebbles-subscribe.devendr.workers.dev",
     "RESEND_FROM": "News Pebbles <papers@mail.newspebbles.com>",
     "DELIVERY_ENABLED": "true",
+    "POLLS_ENABLED": "true",
     "WEEKEND_TIMEZONE": "America/Los_Angeles",
     "DAILY_EMAIL_LIMIT": "90",
   },

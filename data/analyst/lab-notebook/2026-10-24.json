@@ -1,0 +1,23 @@
+{
+  "domino": null,
+  "call": {
+    "story": "lead",
+    "question": "How would you handle an important but unconfirmed attack claim?",
+    "premise": "The lead story distinguishes claims about attacks from independent confirmation.",
+    "evidence": "These are Houthi claims; the report does not confirm them independently.",
+    "framing": "Hypothetical decision based on this story: imagine you are setting an editor’s publication policy.",
+    "options": [
+      {
+        "label": "Report the claim with clear attribution",
+        "benefit": "Readers learn what a named source says while the story is developing.",
+        "cost": "An unconfirmed claim could gain attention even if it later proves wrong."
+      },
+      {
+        "label": "Wait for independent confirmation",
+        "benefit": "The report could rely on stronger evidence before spreading the claim.",
+        "cost": "Readers might learn about an important development later."
+      }
+    ],
+    "reflection": "What would count as independent confirmation, and how urgent is this information?"
+  }
+}

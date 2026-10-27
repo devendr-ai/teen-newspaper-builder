@@ -124,7 +124,7 @@ How to test:
 4. For parents → This app: turn on the morning reminder and pick a time (a local notification; there is no push server).
 5. Print: on a paper's page, "Print this paper" opens the iOS print sheet after the grown-up question.
 
-There are no ads, no analytics and no third-party SDKs in the app. Links out open in Safari.
+There are no ads, no analytics and no third-party SDKs in the app. Links out open in Safari. Optional email delivery and anonymous "You Make the Call" responses (ages 12+) are sent only after the grown-up question.
 ```
 
 ## 6. TestFlight (before the App Store)

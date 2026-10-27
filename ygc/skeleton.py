@@ -44,7 +44,8 @@ def wants_easy(ed):
 
 def play_skeleton(ed):
     nq, nf = play_counts(ed)
-    return {"quiz": [{"q": "", "options": ["", "", ""], "answer": 0, "why": "", "story": ""} for _ in range(nq)],
+    from . import analyst
+    return {**({"analyst": {"domino": None, "call": None}} if analyst.wants(ed) else {}), "quiz": [{"q": "", "options": ["", "", ""], "answer": 0, "why": "", "story": ""} for _ in range(nq)],
             "fact_or_fiction": [{"claim": "", "true": True, "why": "", "story": ""} for _ in range(nf)],
             "where": [{"story": bid, "place": "", "lat": None, "lon": None, "countries": []} for bid in story_blocks(ed)],
             "numbers": [{"story": "", "q": "", "answer": None, "prefix": "", "unit": "", "min": None, "max": None, "why": ""}

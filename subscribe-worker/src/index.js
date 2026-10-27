@@ -1,3 +1,4 @@
+import { vote } from "./polls.js";
 import {
   SITE,
   ALLOWED_ORIGINS,
@@ -290,7 +291,9 @@ export function createWorker(overrides = {}) {
                     "Access-Control-Max-Age": "600",
                   },
                 });
-        } else if (
+        } else if (url.pathname === "/api/polls/vote" && request.method === "POST")
+          response = await vote(request, env, s);
+        else if (
           url.pathname === "/api/subscribe" &&
           request.method === "POST"
         )
@@ -357,6 +360,7 @@ export function createWorker(overrides = {}) {
       });
     },
     async scheduled(event, env, ctx) {
+      if (env.POLLS_ENABLED === "true") ctx.waitUntil(env.DB.prepare("DELETE FROM poll_votes WHERE created_at<?").bind(s.now()-90*86400000).run());
       if (enabled(env))
         ctx.waitUntil(
           (async () => {
