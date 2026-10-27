@@ -27,7 +27,7 @@ MAX_ROUNDS = int(os.environ.get("YGC_MAX_REPAIR_ROUNDS", 4))
 
 FACTCHECK_SYSTEM = """You are a fact-checker. Compare a newspaper issue with the research pool it was written from.
 List every specific claim in the news stories, briefs, watchlist and sports item (names, numbers, dates, places,
-who said or did what) that the pool does not support, or that the pool contradicts. Ignore wording, style and
+who said or did what) that the pool does not support, or that the pool contradicts. Also check play.analyst factual premises and each causal link against the story and pool. Proposed policy options must be labelled hypothetical when not reported, balanced and ungraded. Ignore wording, style and
 evergreen background facts. Check enriched claims against their evidence passages too; reject exaggeration or missing qualifiers. Reply with JSON only: {"unsupported": [{"where": "blocks.<id>...", "claim": "...", "problem": "..."}]}"""
 
 

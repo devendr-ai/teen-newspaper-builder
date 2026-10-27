@@ -338,6 +338,10 @@ def check_play(ed, issue, r):
                 r.err(f"{w}.true must be true or false")
     if len(facts) >= 2 and len({f.get("true") for f in facts if isinstance(f, dict)}) < 2:
         r.err("play.fact_or_fiction: include at least one true claim and one that isn't true")
+    from . import analyst
+    if p.get("analyst") is not None:
+        for error in analyst.errors(issue, p["analyst"]):
+            r.err(error)
     check_where(p.get("where"), stories, r)
     if p.get("numbers") is not None:
         check_numbers(issue, p["numbers"], stories, r)

@@ -15,7 +15,7 @@ import os
 import re
 import shutil
 
-from . import brand, brief, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline
+from . import brand, brief, edition, scenes, site, stats, threads, world, pwa, navigation, story_timeline, analyst
 from .chat import sentences
 
 E = html.escape
@@ -377,7 +377,7 @@ def sections(ed, issue, date, chips=None, stretch=None, orders=None):
         return found[:6]
     stretch = stretch or {}
     return out, {"vocab": vocab, "stories": [s for s in stories if s["headline"] and s["first"]], "quiz": quiz, "facts": facts,
-                 "where": where, "numbers": numbers, "harder": related(stretch.get("harder"), gentle=True),
+                 "where": where, "numbers": numbers, "analyst": analyst.reader_data(ed, issue, at), "harder": related(stretch.get("harder"), gentle=True),
                  "easier": related(stretch.get("easier")),
                  "order": [{"title": o["title"], "href": o["href"], "card": at.get(o["bid"], -1), "events": o["events"]}
                            for o in orders or [] if len(o["events"]) >= 3]}, places
@@ -389,6 +389,8 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, ord
     secs, data, places = sections(ed, issue, date, chips, stretch, orders)
     cards = "".join(f'<section class="card {k} t-{tone}" id="s-{E(b)}" data-i="{i}" data-b="{E(b)}"><button type="button" class="read" aria-label="Read this to me">'
                     f'<span aria-hidden="true">🔊</span> Read it to me</button>{h}</section>' for i, (k, b, h, tone) in enumerate(secs))
+    data["poll_gated"] = bool(cfg.get("kids_mode"))
+    data["poll_api"] = analyst.endpoint(cfg) if data.get("analyst", {}).get("call") else ""
     d = dt.date.fromisoformat(date)
     mode = "cards" if band in CARD_BANDS else "scroll"
     earlier = "".join(f'<option value="{o}.html"{" selected" if o == date else ""}>{dt.date.fromisoformat(o):%a %d %b}</option>'
@@ -670,6 +672,7 @@ def build(out, cfg, keep=7, log=print):
     bands = {eid: audience(edition.load(eid)) for eid, _, _ in every}
     names = {eid: edition.load(eid)["name"] for eid in bands}
     history = story_timeline.catalog(every, in_thread, bands, names)
+    poll_catalog = {}
     pages = {}                                      # (paper, date) -> age band, for pages Read & Play keeps
     for eid in edition.list_editions():
         ed = edition.load(eid)
@@ -699,6 +702,9 @@ def build(out, cfg, keep=7, log=print):
                 log(f"  ! play {eid} {date}: {e}")
                 continue
             open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(html_)
+            call = analyst.get(ed, issue).get("call")
+            if call:
+                poll_catalog[analyst.poll_id(ed, issue, call)] = {"date": date}
             pages[(eid, date)] = band
             if not latest:
                 latest = (date, lead_headline(ed, issue), issue)
@@ -724,6 +730,7 @@ def build(out, cfg, keep=7, log=print):
 {thumb(lead, u, None if lead.get("illustration") else where_of(lead, given))}<div class="tx"><p class="when">{name} · {dt.date.fromisoformat(latest[0]):%a %d %b}<!--NEW--><span class="done" hidden> · ✓ read</span></p>
 <h2><a href="{u}">{E(latest[1])}</a></h2><div class="go2"><a class="big go" href="{u}" aria-label="Read {name}">Read</a><a class="big" href="{u}#play" aria-label="Play {name}">Play</a></div></div></article>'''))
         log(f"  play {eid}: {len(dates)} issue(s)")
+    open(os.path.join(pdir, "polls.json"), "w", encoding="utf-8").write(json.dumps(poll_catalog))
     big = write_threads(pdir, cfg, known, in_thread, pages)
     fresh = max((t[2] for t in tiles), default="")
     tiles = [t[3].replace("<!--NEW-->", ' <span class="new">NEW</span>' if t[2] == fresh else "") for t in sorted(tiles)]
@@ -2296,7 +2303,7 @@ JS = r"""
       if (n === 3) addTo("3s-" + name, key);
     }
     let set = false;
-    if (GAMES.length > 1 && GAMES.every((g) => best(g.id) > 0) && addTo("sets", key)) {
+    if (GAMES.length > 1 && GAMES.every(completed) && addTo("sets", key)) {
       set = true;
       if (!store.get("hinted", []).includes(key)) addTo("clean", key);
     }
@@ -2310,31 +2317,39 @@ JS = r"""
       + fresh.map((b) => `<a class="newbadge" href="../certificate.html?b=${b.id}"><span class="bi" aria-hidden="true">${b.icon}</span>
           <span><b>${grown ? "Achievement" : "New badge"}: ${esc(nameOf(b))}</b><small>For ${esc(b.did)} · Print the certificate 🖨️</small></span></a>`).join("");
   }
+__ANALYST_JS__
   if (data.quiz.length) GAMES.push({ id: "quiz", ic: "❓", name: "Quiz", sub: data.quiz.length + " questions about today's paper", run: quiz });
   if (window.WORLD && data.where.length >= 2) GAMES.push({ id: "map", ic: "📍", name: "Map hunt", sub: say2("Find where the stories happened", "Pin where the stories happened"), run: hunt });
   if (data.numbers.length) GAMES.push({ id: "numbers", ic: "🎚️", name: "Guess the number", sub: say2("Numbers from today's news", "Estimate the numbers in the news"), run: numbers });
   if (data.order.length) GAMES.push({ id: "order", ic: "🔀", name: "Put it in order", sub: say2("What happened first?", "Order the events of a big story"), run: order });
-  if (data.facts.length) GAMES.push({ id: "facts", ic: "🕵️", name: "Fact or fiction?", sub: "True, or not true?", run: facts });
-  if (data.vocab.length >= 2) GAMES.push({ id: "words", ic: "🔤", name: "Word match", sub: "Match each new word to its meaning", run: () => match("words") });
+  if (grown && data.analyst?.call) GAMES.push({id:"call",ic:"⚖️",name:"You Make the Call",sub:"Weigh two policy trade-offs",run:analystCall});
+  else if (data.facts.length) GAMES.push({ id: "facts", ic: "🕵️", name: "Fact or fiction?", sub: "True, or not true?", run: facts });
+  if (grown && data.analyst?.domino) GAMES.push({id:"domino",ic:"🔗",name:"Domino Effect",sub:"Connect causes and consequences",run:analystDomino});
+  else if (data.vocab.length >= 2) GAMES.push({ id: "words", ic: "🔤", name: "Word match", sub: "Match each new word to its meaning", run: () => match("words") });
   else if (data.stories.length >= 2) GAMES.push({ id: "words", ic: "📰", name: "Story match", sub: "Match each headline to its story", run: () => match("words") });
+  if (grown && data.analyst?.domino && data.analyst?.call) {
+    const a=GAMES.findIndex(g=>g.id==="domino"), b=GAMES.findIndex(g=>g.id==="call");
+    if(a>b)[GAMES[a],GAMES[b]]=[GAMES[b],GAMES[a]];
+  }
   function game() {
     stop();
     box.className = "card game" + (grown ? " grown" : "");
     if (!GAMES.length) { box.innerHTML = "<p>No game for this issue. Come back tomorrow!</p>"; return; }
     if (GAMES.length === 1) { run(GAMES[0]); return; }
-    const played = GAMES.filter((g) => best(g.id) > 0).length;
+    const played = GAMES.filter(completed).length;
     box.innerHTML = `<h2>${say2("Pick a game", "Today's games")}</h2><p class="how">${played === GAMES.length
       ? say2("Full set done! Play again to practise. Your first-try stars are the ones that count.",
              "Set complete. Replay any game to practise; first attempts are what count.")
       : say2(`Play all ${GAMES.length} for a Full set ⭐ (${played} done)`, `Play all ${GAMES.length} to complete the set (${played} done).`)}</p>
       <div class="menu">${GAMES.map((g, i) =>
-      `<button type="button" data-g="${i}"><span class="ic" aria-hidden="true">${g.ic}</span><span><b>${g.name}</b><small>${g.sub}</small></span>
+      `<button type="button" class="${["domino","call"].includes(g.id)?"analyst-new":""}" data-g="${i}"><span class="ic" aria-hidden="true">${g.ic}</span><span><b>${g.name}</b><small>${g.sub}</small></span>
        ${menuStars(g.id)}</button>`).join("")}</div>`;
     $$(".menu button", box).forEach((b) => b.addEventListener("click", () => run(GAMES[+b.dataset.g])));
   }
   function menuStars(id) {
+    if(id === "call") return store.get("done-"+key+"-call",false) ? `<span class="got">Completed</span>` : `<span class="analyst-new-tag">NEW</span>`;
     const f = firstOf(id), b = best(id);
-    if (f === null && !b) return "";
+    if (f === null && !b) return id === "domino" ? `<span class="analyst-new-tag">NEW</span>` : "";
     return `<span class="got" aria-label="First try ${f || 0} stars, now ${b} stars"><small>${say2("1st try", "1st")}</small>${f === null ? "–" : stars3(f)}
       <small>${say2("Now", "Best")}</small>${stars3(b)}</span>`;
   }
@@ -2704,8 +2719,11 @@ JS = r"""
   }
 })();
 """
+CSS += analyst.CSS
 CSS += brief.CSS
 JS += brief.JS
 
 
 JS += story_timeline.JS
+
+JS = JS.replace("__ANALYST_JS__", analyst.JS)

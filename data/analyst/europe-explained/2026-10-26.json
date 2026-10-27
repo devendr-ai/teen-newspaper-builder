@@ -1,0 +1,59 @@
+{
+  "domino": {
+    "story": "lead",
+    "question": "How can reports of attacks move oil prices before a confirmed supply loss?",
+    "qualification": "This is the risk-pricing explanation in this story. Claimed attacks and confirmed physical supply losses are different things.",
+    "steps": [
+      {
+        "text": "Reports describe attacks on Saudi sites.",
+        "evidence": "The cause is a new wave of attacks on Saudi Arabia by the Houthis, an armed group from Yemen."
+      },
+      {
+        "text": "Traders face a risk of disrupted oil supplies.",
+        "evidence": "One analysis says physical supply losses are not confirmed, so the price reflects a probability of disruption rather than missing barrels."
+      },
+      {
+        "text": "Oil prices reflect the possibility of disruption.",
+        "evidence": "One analysis says physical supply losses are not confirmed, so the price reflects a probability of disruption rather than missing barrels."
+      },
+      {
+        "text": "Brent settles at a higher price.",
+        "evidence": "Brent crude, the benchmark price for oil traded around the world, settled at $116.72 a barrel on Friday 23 October, up $3.55 or 3.14% on the day."
+      }
+    ],
+    "links": [
+      {
+        "why": "The story links the rise to reports of attacks. Such reports create uncertainty about future oil supplies.",
+        "evidence": "The cause is a new wave of attacks on Saudi Arabia by the Houthis, an armed group from Yemen."
+      },
+      {
+        "why": "The analysis describes a price for the possibility of disruption, even without a confirmed physical supply loss.",
+        "evidence": "One analysis says physical supply losses are not confirmed, so the price reflects a probability of disruption rather than missing barrels."
+      },
+      {
+        "why": "That risk-pricing explanation is offered for the reported rise in Brent. It does not prove that barrels have already disappeared.",
+        "evidence": "One analysis says physical supply losses are not confirmed, so the price reflects a probability of disruption rather than missing barrels."
+      }
+    ]
+  },
+  "call": {
+    "story": "lead",
+    "question": "Would you issue an early warning about the risk to oil supplies?",
+    "premise": "The story reports higher oil prices while analysts say physical supply losses are not confirmed.",
+    "evidence": "One analysis says physical supply losses are not confirmed, so the price reflects a probability of disruption rather than missing barrels.",
+    "framing": "Hypothetical decision based on this story: imagine you advise a public information service.",
+    "options": [
+      {
+        "label": "Warn early, explain the uncertainty",
+        "benefit": "People could prepare before a possible disruption.",
+        "cost": "A warning could raise concern even if supplies continue normally."
+      },
+      {
+        "label": "Wait for verified supply losses",
+        "benefit": "A warning would rest on firmer evidence of actual disruption.",
+        "cost": "People could have less time to prepare if the risk becomes real."
+      }
+    ],
+    "reflection": "What new evidence would make you change your recommendation?"
+  }
+}

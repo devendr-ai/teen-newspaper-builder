@@ -34,3 +34,7 @@ subscriptions:
   api_base_url: "https://newspebbles-subscribe.devendr.workers.dev"
   # Add an official https://whatsapp.com/channel/... URL when ready.
   whatsapp_channel_url: ""
+
+# Shared analyst responses: no request before a reader explicitly shares.
+analyst_games:
+  api_base_url: "https://newspebbles-subscribe.devendr.workers.dev"
