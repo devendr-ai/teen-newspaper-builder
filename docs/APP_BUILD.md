@@ -38,6 +38,28 @@ The brief's player uses `NPApp.audio()`, which behaves like an `<audio>` element
 In a browser `NPApp.native` is false: Listen plays its tracks itself and everything else is the website.
 Links out, email and anything else that isn't a saved page open outside the app (Safari, Mail), after the gate.
 
+### Email signup and optional reader responses
+
+The saved pages have a `file:` origin. They must not POST directly to the Worker from the WebView:
+the Worker's browser CORS allowlist deliberately excludes `null`. In the installed app,
+`NPApp.parentPost(url, payload)` asks the existing grown-up question **before posting any message**,
+then `mobile/src/parent-api.ts` sends the request using native networking. The reply returns to the
+same form/game. Cancelling or a missing gate sends nothing; offline failures leave a retryable error.
+Ordinary website and browser kids builds keep their existing fetch and gate paths.
+
+The native handler permits only `/api/subscribe` from local parents/archive pages and
+`/api/polls/vote` from local dated reader pages. It validates the source directory, exact service URL,
+payload fields and size; there is no arbitrary URL/header/method proxy and no secret in the app.
+The native request identifies the first-party site with `Origin: https://newspebbles.com`;
+this header is CORS compatibility, **not authentication**. Server validation, rate limits and email
+double opt-in still apply. Changing the service URL in site.yaml also requires updating the native
+allowlist. Worker CORS and deployed backend settings are unchanged.
+
+Reload the updated Expo project (or install a new native build) as well as refreshing the content
+pack: older shells do not implement this message and fail closed after a timeout. A content-only
+update cannot add native handlers. Run `npm run test:parent-api` in `mobile/` for the handler's
+network/source/payload checks; browser bridge tests cover approval and cancellation without real sends.
+
 ### The offline pack (`ygc/apppack.py`)
 
 Both deploys (`pages.yml`, `daily.yml`) run `tools/app_pack.sh` after the website's narration:

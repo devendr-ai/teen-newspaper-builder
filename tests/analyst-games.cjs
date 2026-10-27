@@ -7,6 +7,23 @@ await page.locator('#game .back').click();const policyButton=page.locator('#game
 const context=await browser.newContext();const page=await context.newPage();let outside=0;await page.route('https://newspebbles-subscribe.devendr.workers.dev/**',r=>{outside++;return r.abort()});await page.goto(process.argv[2]+'/kids/play/global-citizen-plus/2026-10-26.html#play');await page.locator('#game .menu').getByRole('button',{name:/You Make the Call/}).click();await page.locator('[data-call-choice="0"]').click();assert.equal(outside,0);await page.locator('[data-call-share]').click();await page.locator('.np-gate:not([hidden])').waitFor();assert.equal(outside,0);await page.locator('.np-gate-back').click();assert.equal(outside,0);
 // Explicitly authorise through a test gate spy; no changed production gate logic.
 await page.evaluate(()=>{window.npGate=(reason,pass)=>pass()});await page.route('https://newspebbles-subscribe.devendr.workers.dev/**',r=>{outside++;return r.fulfill({status:200,contentType:'application/json',body:'{"total":0,"counts":[0,0]}'})});await page.locator('[data-call-share]').click();await page.waitForFunction(()=>document.querySelector('.analyst-results').textContent.includes('Response added'));assert.equal(outside,1);await context.close();
+// Installed app path: choosing stays local; sharing waits for the gate and uses the native reply.
+const nativeContext=await browser.newContext();await nativeContext.addInitScript(()=>{
+ window.__parentMessages=[];
+ window.ReactNativeWebView={postMessage(raw){const m=JSON.parse(raw);if(m.t==='parent-request'){window.__parentMessages.push(m);setTimeout(()=>window.__np({t:'parent-result',id:m.id,status:200,data:{total:6,counts:[2,4]}}),10);}}};
+});
+const nativePage=await nativeContext.newPage();let nativeBrowserRequests=0;
+await nativePage.route('https://newspebbles-subscribe.devendr.workers.dev/**',r=>{nativeBrowserRequests++;return r.abort()});
+await nativePage.goto(process.argv[2]+'/kids/play/global-citizen-plus/2026-10-26.html#play');
+await nativePage.locator('#game .menu').getByRole('button',{name:/You Make the Call/}).click();
+await nativePage.locator('[data-call-choice="1"]').click();assert.equal(await nativePage.evaluate(()=>window.__parentMessages.length),0);
+await nativePage.locator('[data-call-share]').click();await nativePage.locator('.np-gate:not([hidden])').waitFor();
+assert.equal(await nativePage.evaluate(()=>window.__parentMessages.length),0);await nativePage.locator('.np-gate-back').click();
+await nativePage.evaluate(()=>{window.npGate=(reason,pass)=>pass()});await nativePage.locator('[data-call-share]').click();
+await nativePage.locator('.analyst-results').getByRole('heading',{name:'Reader responses'}).waitFor();
+const nativeMessages=await nativePage.evaluate(()=>window.__parentMessages);
+assert.equal(nativeMessages.length,1);assert.equal(nativeMessages[0].body.choice,1);assert.equal(nativeBrowserRequests,0);
+await nativeContext.close();
 // A younger reader and an unconverted archive keep their original games.
 for(const path of ['/web/play/breakfast-table/2026-10-27.html#play','/web/play/global-citizen-plus/2026-10-24.html#play']){const c=await browser.newContext();const p=await c.newPage();await p.goto(process.argv[2]+path);const text=await p.locator('#game .menu').innerText();assert(text.includes('Fact or fiction')&&(text.includes('Word match')||text.includes('Story match')));assert(!text.includes('Domino Effect')&&!text.includes('You Make the Call'));await c.close();}
 }finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

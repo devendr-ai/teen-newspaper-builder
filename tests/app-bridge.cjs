@@ -13,6 +13,7 @@ function nativeApp() {
       const m = JSON.parse(raw);
       window.__sent.push(m);
       const reply = (x) => setTimeout(() => window.__np && window.__np(x), 30);
+      if (m.t === 'parent-request') reply({ t: 'parent-result', id: m.id, status: 200, data: { ok: true, total: 5, counts: [2,3] } });
       if (m.t === 'settings?') reply({ t: 'settings', reminder: { on: false, time: '06:45' },
         offline: { state: '✓ Up to date', what: 'Papers and audio from the last 7 days · 41 MB', note: 'Updated 6:31 AM.' } });
       if (m.t === 'audio' && m.op === 'list') reply({ t: 'status', s: { id: m.id, title: m.title, track: m.tracks[0].title,
@@ -73,6 +74,30 @@ function nativeApp() {
   const rem = (await sent()).filter((m) => m.t === 'reminder').pop();
   ok('parents: the reminder goes to the phone', rem && rem.on === true && rem.time === '06:45', rem);
   ok('parents: Design stays in the app', await page.$eval('.parent-link[href*="builder.html"]', (a) => a.getAttribute('href')) === 'builder.html');
+
+  // The native API transport itself owns the gate, including direct calls to it. No browser fetch.
+  const parentChecks = await page.evaluate(async () => {
+    let pass, cancel, fetches = 0;
+    const originalGate = window.npGate, originalFetch = window.fetch;
+    window.fetch = () => { fetches++; throw Error('unexpected browser network'); };
+    window.npGate = (reason, yes, no) => { pass = yes; cancel = no; };
+    const endpoint = 'https://newspebbles-subscribe.devendr.workers.dev/api/subscribe';
+    const payload = {email:'parent@example.com',edition_slug:'little-explorers',cadence:'every_issue',website:''};
+    const count = () => window.__sent.filter(m => m.t === 'parent-request').length;
+    const first = window.NPApp.parentPost(endpoint,payload);
+    const before = count(); cancel(); const cancelled = await first;
+    const afterCancel = count();
+    const second = window.NPApp.parentPost(endpoint,payload);
+    pass(); const response = await second;
+    const data = await response.json();
+    window.npGate = undefined;
+    let closed = false;try { await window.NPApp.parentPost(endpoint,payload); } catch { closed = true; }
+    window.npGate = originalGate; window.fetch = originalFetch;
+    return {before,afterCancel,cancelled,afterPass:count(),ok:response.ok,data,fetches,closed};
+  });
+  ok('parent API: no message before gate or after cancellation', parentChecks.before === 0 && parentChecks.afterCancel === 0 && parentChecks.cancelled === null, parentChecks);
+  ok('parent API: sends only after approval, renders native reply, no browser fetch', parentChecks.afterPass === 1 && parentChecks.ok && parentChecks.data.ok && parentChecks.fetches === 0, parentChecks);
+  ok('parent API: missing gate fails closed', parentChecks.closed && parentChecks.afterPass === 1);
 
   // A PDF made in Design goes to the phone's share sheet
   await page.evaluate(() => {

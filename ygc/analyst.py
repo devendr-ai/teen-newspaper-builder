@@ -165,12 +165,15 @@ JS = r'''
       const button=$("[data-call-share]",box),status=$(".analyst-results",box);button.disabled=true;
       let timer;
       try{
-        const gated=data.poll_gated===true;
+        const nativeParent=window.NPApp&&window.NPApp.native;
+        const gated=data.poll_gated===true&&!nativeParent;
         if(gated){if(typeof window.npGate!=="function")throw Error("gate_unavailable");const allowed=await new Promise(resolve=>window.npGate("grown",()=>resolve(true),()=>resolve(false)));if(!allowed)return;}
         receipt=receipt||store.get("call-receipt-"+d.poll_id,null);
         if(typeof receipt!=="string"||!(/^[a-f0-9]{64}$/).test(receipt)){receipt=Array.from(crypto.getRandomValues(new Uint8Array(32)),v=>v.toString(16).padStart(2,"0")).join("");store.set("call-receipt-"+d.poll_id,receipt);}
-        const controller=new AbortController();timer=setTimeout(()=>controller.abort(),10000);status.textContent="Sending your response…";
-        const response=await fetch(atob(data.poll_api),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({poll_id:d.poll_id,choice,receipt}),signal:controller.signal,credentials:"omit"});
+        const controller=new AbortController();timer=nativeParent?null:setTimeout(()=>controller.abort(),10000);status.textContent="Sending your response…";
+        const payload={poll_id:d.poll_id,choice,receipt};
+        const response=nativeParent?await window.NPApp.parentPost(atob(data.poll_api),payload):await fetch(atob(data.poll_api),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload),signal:controller.signal,credentials:"omit"});
+        if(!response){status.textContent="";return;}
         if(!response.ok)throw Error("unavailable");const tally=await response.json();
         if(!Number.isSafeInteger(tally.total)||tally.total<0||!Array.isArray(tally.counts)||tally.counts.length!==2||!tally.counts.every(n=>Number.isSafeInteger(n)&&n>=0)||tally.counts[0]+tally.counts[1]!==tally.total)throw Error("invalid_tally");
         if(tally.total<5){status.textContent="Response added. Results appear after at least five responses.";return;}

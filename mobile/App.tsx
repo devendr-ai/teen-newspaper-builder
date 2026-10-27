@@ -14,6 +14,7 @@ import * as content from './src/content';
 import * as player from './src/player';
 import * as reminder from './src/reminder';
 import { MiniPlayer } from './src/MiniPlayer';
+import { parentRequest } from './src/parent-api';
 
 const PAPER = '#F4F1EA';
 const STALE = 30 * 60 * 1000;                   // check for new papers when the app comes back after this long
@@ -111,6 +112,9 @@ function Main() {
       case 'claim': setClaimed(m.id); break;
       case 'status?': send({ t: 'status', s: player.current() }); break;
       case 'audio': player.handle(m); break;
+      case 'parent-request':
+        send(await parentRequest(m, e.nativeEvent.url, content.rootUri));
+        break;
       case 'print':
         try { await Print.printAsync({ uri: m.url }); } catch {}
         break;
