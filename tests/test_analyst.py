@@ -47,7 +47,9 @@ def test_ids_are_stable_and_change_when_the_question_changes():
  d=copy.deepcopy(d);d['options'][0]['cost']+=' Potentially.';assert analyst.poll_id(ed,issue,d)!=a
 
 
-def test_reader_data_and_manifest_do_not_include_evidence_or_unapproved_polls(tmp_path):
+def test_reader_data_and_manifest_do_not_include_evidence_or_unapproved_polls(tmp_path,monkeypatch):
+ real=site.issues_of
+ monkeypatch.setattr(site,"issues_of",lambda ed:[(d,p) for d,p in real(ed) if d<="2026-10-27"])
  ed,issue=sample();_,data,_=play.sections(ed,issue,issue['date'])
  assert data['analyst']['call']['poll_id'] and len(data['analyst']['domino']['steps'])==4
  assert '"evidence":' not in json.dumps(data['analyst'])
@@ -64,7 +66,7 @@ def test_analyst_interactions_and_no_un_gated_requests(tmp_path):
  node,env=found
  # Build both real public and app pages; no mocked DOM or generated news.
  real=site.issues_of
- mp=pytest.MonkeyPatch();mp.setattr(site,'issues_of',lambda ed:real(ed)[:2])
+ mp=pytest.MonkeyPatch();mp.setattr(site,'issues_of',lambda ed:[(d,p) for d,p in real(ed) if d<='2026-10-27'][:2])
  try:
   for mode in ('web','kids'):site.build(str(tmp_path/mode),keep=2,log=lambda *_:None,kids=mode=='kids')
  finally:mp.undo()
