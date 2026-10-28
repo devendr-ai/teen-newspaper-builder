@@ -68,7 +68,13 @@ def test_only_explicit_editorial_thread_membership_enters_the_catalog():
 @pytest.fixture(scope="module")
 def built(tmp_path_factory):
     out = tmp_path_factory.mktemp("timeline-site")
-    play.build(str(out), site.site_config(), keep=2, log=lambda *a: None)
+    real = site.issues_of                 # pinned: each night's papers must not change which pages are kept
+    mp = pytest.MonkeyPatch()
+    mp.setattr(site, "issues_of", lambda ed: [(d, p) for d, p in real(ed) if d <= "2026-10-26"])
+    try:
+        play.build(str(out), site.site_config(), keep=2, log=lambda *a: None)
+    finally:
+        mp.undo()
     return out
 
 

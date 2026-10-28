@@ -440,7 +440,7 @@ def check_paper(ed, text, date, number=1, out_pdf=None):
     issue, fixed = repair(ed, issue)
     issue, cut = fit(ed, issue, limit=CHAT_TRIM_LIMIT)
     path = os.path.join(checks.issues_dir(ed), date[:4], f"{date}.json")
-    r = checks.check_issue(ed, issue, path, archive=False, as_of=dt.date.fromisoformat(date))
+    r = checks.check_issue(ed, issue, path, archive=False, as_of=dt.date.fromisoformat(date), require_fill=False)
     res = {"ok": r.ok, "errors": r.errors, "issue": json.dumps(issue, ensure_ascii=False, indent=2),
            "problem": "", "fix": "", "fill": "",
            "trimmed": [f"{n} sentence{'s' if n > 1 else ''} from the end of {_name(ed, b)}" for b, n in cut.items()],

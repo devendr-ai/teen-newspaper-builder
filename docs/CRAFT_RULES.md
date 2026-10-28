@@ -71,3 +71,12 @@ enforces this in the edition's timezone.
 word for word, and two papers for 9 to 11 shared most of theirs. Families with more than
 one child read clones. The biggest story may still lead everywhere; what changes is the
 angle (each paper's `lens`), and `ygc check` fails a story that repeats another paper's.
+
+### Rule: Fill the printed page with sourced substance; never leave a column half empty, and never pad.
+
+*Set 2026-10-28.* The 4-page papers went out with story columns 10–30 lines short, about
+40% white on some pages, because a short column was only a note. From 29 October `ygc check`
+fails a story column that ends more than 6 lines short. Fill it with more of what the sources
+say: what happened, who said what, the numbers, how it works, what comes next. If the research
+pool runs out, research further and add the facts to the pool. Invented colour, repeated points
+and filler sentences are never the fix.
