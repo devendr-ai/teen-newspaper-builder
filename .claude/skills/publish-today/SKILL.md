@@ -65,6 +65,10 @@ Rules for the pool (these are what make the papers trustworthy):
   Records and "firsts" must be stated by a source, never worked out.
 - Prefer original reporting and official sources; note each source's date and
   stay inside the window.
+- **Gather enough for the space.** In the 4-page papers a story fills a whole column (about 350–450
+  words), so give every story that may lead or fill a column at least 8–10 `key_facts`: what
+  happened, who said what, numbers, how it works, what comes next. A thin pool is how pages end up
+  half empty.
 - Mark `"suitable_for_children": false` when the core facts are too graphic
   for ages 6–14. Those stories are never used in papers for under-15s.
 - Use the desk keys exactly as `research_desks` gives them (`world`, `india`,
@@ -177,8 +181,11 @@ For each paper in `ygc due`, one at a time:
    (an easier version of each story, using only that story's facts), and, for
    The Breakfast Table, `brief` (the car-ride brief: a three-minute script for
    two hosts, Maya and Sam, using only this issue's facts; the website turns it
-   into audio). Fill columns that show free lines. Open the page PNGs
-   in `build/` and look at them.
+   into audio). **Fill the page:** from 29 October 2026 `check` fails a story column that ends more
+   than 6 lines short, and says how many words of room are left. Fill it with more sourced detail
+   from the pool; if the pool runs out, research that story further and add the new facts and
+   sources to the pool first. Never pad with invented colour or repeated points. Open the page PNGs
+   in `build/` and look at them: no page should end in a large white gap.
 4. Fact-check before calling it done: reread every figure, name, place, date
    and claim against the pool entry it came from, and remove anything the
    pool doesn't support. For enriched claims, also check their evidence passages and

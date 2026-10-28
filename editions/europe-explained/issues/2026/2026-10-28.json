@@ -40,16 +40,18 @@
       "headline": "Three-Way Ukraine Talks Are Set for Next Month, Without a Pause in Fighting",
       "deck": "For Europe, the talks decide a security question on its own doorstep.",
       "body": [
-        "Ukraine, Russia and the United States have agreed to hold three-way talks next month, Ukrainian President Volodymyr Zelenskyy said on 26 October. Al Jazeera's report gave no date or venue. Europe is not named as a party in this report, even though the war is on the European continent.",
+        "Ukraine, Russia and the United States have agreed to hold three-way talks next month, Ukrainian President Volodymyr Zelenskyy said on 26 October. The Kremlin has since said it agreed in principle to a meeting on 10 November in Abu Dhabi, the capital of the United Arab Emirates. Europe is not named as a party in this report, even though the war is on the European continent.",
         "Russia's President Vladimir Putin said on 23 October that renewed talks must focus on security for Russia, Ukraine and Europe overall, according to The Moscow Times. That wording matters to European governments, because it puts Europe's own security on the agenda.",
         "But there is no truce attached. Russia has said it has no intention of halting hostilities during the talks, Ukrainska Pravda reported, and Putin has said he wants final agreements rather than a short-lived ceasefire. Zelenskyy, for his part, has renewed his call for a meeting with Putin on territorial issues.",
-        "What is still unknown is practical: the date, the venue and who will sit at the table for each side. Until those are announced, what Europe has is an agreement in principle between three parties, one of which says the fighting will carry on."
+        "Europe's own part is harder to pin down. On 20 October Zelenskyy met US envoy Steve Witkoff and European leaders in Oslo. Witkoff then carried new ideas, worked out with European countries and Ukraine, to Russia. The Kremlin brushed them aside: Putin's aide Yuri Ushakov said there wasn't really much substance in them.",
+        "On 27 October the leaders of Finland and Norway held a rare direct call with Putin, which the Finnish president's office said was arranged from Helsinki. Moscow played the call down and blamed EU and NATO policies for dragging out the war. Not every European capital welcomed it: Denmark's Prime Minister, Mette Frederiksen, said she was very sceptical about reaching out to Putin and urged Europe to act together.",
+        "The hardest question is still land. Russia demands that Ukraine leave the part of the eastern Donetsk region it still holds, and Ukraine says that would amount to surrender. Whether the 10 November date holds, and who will speak for Europe, are the next things to watch."
       ],
       "illustration": {
         "title": "THREE-WAY TALKS NEXT MONTH",
         "subtitle": "Ukraine, Russia, US",
         "motif": "podium",
-        "caption": "No date or venue has been announced."
+        "caption": "Russia says 10 November, in Abu Dhabi."
       },
       "connect": "Putin's phrase 'security for Europe overall' links the Ukraine talks to every European capital.",
       "sources": [
@@ -67,6 +69,26 @@
           "outlet": "Ukrainska Pravda",
           "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
           "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia and Ukraine say talks planned for November in UAE",
+          "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
+          "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+          "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Ukraine and Russia both say ready to resume trilateral talks with US",
+          "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks"
         }
       ]
     },
@@ -77,7 +99,9 @@
       "body": [
         "Inflation is the rate at which prices rise over a year. In September UK consumer price inflation rose to 3.5%, up from 3.1% in August, driven mainly by fuel, according to the figures reported by ITV News.",
         "Motor fuels cost 30% more than a year earlier, up from a 23% rise in August. Average petrol reached 169.5p a litre, the highest in around four years, and diesel hit 192.5p, its highest since July 2022. Reports attribute the rise to the Iran war, which has squeezed global oil and gas supplies.",
-        "Some economists think the rise could prompt the Bank of England to raise interest rates next month."
+        "Some economists think the rise could prompt the Bank of England to raise interest rates next month.",
+        "The rise is not only about fuel. Core inflation, which leaves out energy, food, alcohol and tobacco, went up from 2.6% to 2.8%, and inflation in services rose from 3.4% to 3.7%, the Office for National Statistics (ONS) said.",
+        "Chancellor John Healey blamed the price rises on conflicts in the Middle East and Europe. The Bank of England's next interest-rate decision is on 5 November, and the ONS publishes October's inflation figures on 18 November."
       ],
       "why": "Fuel is a cost for nearly every journey and delivery, so a big rise at the pump can lift prices in shops as well.",
       "also": [
@@ -94,6 +118,11 @@
           "outlet": "Headtopics",
           "title": "John Healey to unveil first Budget amid economic turmoil",
           "url": "https://uk.headtopics.com/news/john-healey-to-unveil-first-budget-amid-economic-turmoil-89257027"
+        },
+        {
+          "outlet": "Office for National Statistics",
+          "title": "Consumer price inflation, UK: September 2026",
+          "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
         }
       ]
     },
@@ -187,7 +216,7 @@
     "watchlist": {
       "items": [
         "The UK Budget and the OBR forecast on 28 October, and the US Fed's decision the same day.",
-        "The date and venue of the three-way Ukraine talks, and Israel's official election results."
+        "Whether the three-way Ukraine talks meet on 10 November, and Israel's official election results."
       ]
     },
     "quote": {
@@ -366,7 +395,7 @@
       "world": {
         "headline": "Ukraine, Russia and the US Plan Talks",
         "body": [
-          "Ukraine's president says Ukraine, Russia and the US will hold talks next month. No date or place is known.",
+          "Ukraine's president says Ukraine, Russia and the US will hold talks next month. Russia says they could meet on 10 November in Abu Dhabi.",
           "Russia's president, Vladimir Putin, says talks must cover security for Europe too.",
           "Russia also says it will not stop fighting during the talks. Putin says he wants lasting peace deals, not a short pause. Ukraine's president also wants to meet Putin to talk about land."
         ]

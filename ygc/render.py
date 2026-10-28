@@ -381,5 +381,6 @@ def measure(ed, issue):
                 "capacity": h, "free": 0.0 if fl else free, "over": over,
                 "over_lines": lines, "over_chars": int(lines * w / avg_char),
                 "free_lines": (0.0 if fl else free) / body.leading,
+                "line_chars": int(w / avg_char),
             })
     return out

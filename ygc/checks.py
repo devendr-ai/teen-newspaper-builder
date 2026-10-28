@@ -523,12 +523,25 @@ def check_sources(ed, issue, r, archive):
             (r.note if archive else r.err)(f"blocks.{bid}: no sources listed")
 
 
-def check_fit(ed, issue, r):
+FILL_FROM = dt.date(2026, 10, 29)       # papers from this date on must fill their story columns
+FILL_LIMIT = 6                           # empty lines a story column may end with
+
+
+def check_fit(ed, issue, r, d=None, archive=False):
+    stories = set(story_blocks(ed))
+    held = not archive and d is not None and d >= FILL_FROM
     for m in render.measure(ed, issue):
         where = f"page {m['page']} column {m['column']} ({', '.join(m['blocks'])})"
         if m["over"] > 0.5:
             r.err(f"{where} is OVER by {m['over']:.0f} pt — cut about "
                   f"{m['over_lines']:.1f} lines (~{m['over_chars']} characters)")
+        elif held and round(m["free_lines"]) > FILL_LIMIT and stories & set(m["blocks"]):
+            words = int(m["free_lines"] * m["line_chars"] / 6)
+            r.err(f"{where} ends {m['free_lines']:.0f} lines short (room for about {words} more words): "
+                  f"a printed page must not be left half empty. Add sourced detail from the research pool "
+                  f"(more of what happened, numbers, who said what, how it works, what comes next); if the "
+                  f"pool runs out, research the story further and add the facts and sources to the pool "
+                  f"first. Never invent detail to fill space")
         elif m["free_lines"] > 4:
             r.note(f"{where} ends {m['free_lines']:.0f} lines short; add a sentence "
                    f"or rebalance")
@@ -599,7 +612,8 @@ def check_lead_streak(ed, issue, path, d, r):
                f"through this paper's angle, or with another story if one is close in news value")
 
 
-def check_issue(ed, issue, path, archive=False, as_of=None):
+def check_issue(ed, issue, path, archive=False, as_of=None, require_fill=True):
+    """`require_fill=False`: a family's own paper (Design your own), where a short column is only a note."""
     r = Report()
     d = check_identity(ed, issue, path, r, archive, as_of)
     check_unfilled(ed, issue, r)
@@ -613,7 +627,7 @@ def check_issue(ed, issue, path, archive=False, as_of=None):
     check_lead_streak(ed, issue, path, d, r)
     if not unbuildable(r):
         try:
-            check_fit(ed, issue, r)
+            check_fit(ed, issue, r, d, archive or not require_fill)
         except Exception as e:
             r.err(f"could not lay out the issue: {e!r}")
     return r

@@ -1,3 +1,13 @@
+## Papers fill their pages
+
+- From 29 October 2026, `ygc check` fails a story column that ends more than 6 lines short, and says
+  how many words of room are left (it was only a note, so 4-page papers went out up to 40% white).
+  Fill comes from more sourced detail; if the research pool runs out, the nightly run researches
+  further. A new craft rule says never pad. Published papers and Design your own are unaffected.
+- The nightly skill now gathers 8–10 key facts for every story that fills a column.
+- `tests/test_story_timeline.py` is pinned to issues up to 26 October, so each night's papers no
+  longer break it.
+
 ## Natural read-aloud narration
 
 - Publish free Kokoro recordings for Read & Play stories, easier versions and
