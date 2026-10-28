@@ -20,7 +20,11 @@
         "label_top": "ISRAEL",
         "label_bottom": "EGYPT",
         "footnote": "Israel voted on 27 October",
-        "caption": "Israel held its national election on 27 October."
+        "caption": "Locator: Israel on the Mediterranean coast, with Egypt to the southwest.",
+        "countries": [
+          "Israel",
+          "Egypt"
+        ]
       },
       "why": "A seat count of 61 decides who can govern, which is why one number can matter more than the total of votes.",
       "sources": [
@@ -55,9 +59,14 @@
       ],
       "illustration": {
         "title": "TALKS NEXT MONTH",
-        "subtitle": "Three sides",
-        "motif": "border",
-        "caption": "The Kremlin says 10 November, in Abu Dhabi."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "The Kremlin says 10 November, in Abu Dhabi.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
       },
       "connect": "A negotiation over land links this story to history lessons on treaties and borders.",
       "sources": [

@@ -19,9 +19,9 @@ def craft_rules():
 
 
 def _graphic_note(g):
-    return {"map": "a map (two land areas split by water: pick the water geography that "
-                   "genuinely matters to the story)",
-            "illustration": "an illustration (choose a motif from the fixed list)",
+    return {"map": "a real geographic locator map: set countries to recognised country names; "
+                   "optionally set place to a known city or sea/strait. Never invent coastlines, borders or routes",
+            "illustration": "an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story)",
             "chart": "a 2-4 bar chart built only from real, sourced numbers"}[g]
 
 

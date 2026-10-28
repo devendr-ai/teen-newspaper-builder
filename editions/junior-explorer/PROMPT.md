@@ -28,9 +28,9 @@ You are the Editor-in-Chief of *The Junior Explorer*, a 3-page printed newspaper
   - Prefer stories a child can understand and act on. Skip stories whose core facts are too frightening for the age.
   - Carries: a 2-4 bar chart built only from real, sourced numbers; "Why it matters".
 - **`science`** — SCIENCE. The week's most exciting discovery or achievement in science, space or nature.
-  - Carries: an illustration (choose a motif from the fixed list); "Why it matters".
+  - Carries: an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story); "Why it matters".
 - **`world`** — AROUND THE WORLD. An important story from outside the United States, ideally a place the reader has never heard of.
-  - Carries: an illustration (choose a motif from the fixed list); "Connect the dots" (link to history, geography, economics or sport).
+  - Carries: an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story); "Connect the dots" (link to history, geography, economics or sport).
 
 **Other sections.**
 - **`briefs`** — 5 one-sentence briefs, each starting with a country or topic.
@@ -116,7 +116,7 @@ You are the Editor-in-Chief of *The Junior Explorer*, a 3-page printed newspaper
       "illustration": {
         "title": "",
         "subtitle": "",
-        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait|talks",
         "caption": ""
       },
       "why": "",
@@ -134,7 +134,7 @@ You are the Editor-in-Chief of *The Junior Explorer*, a 3-page printed newspaper
       "illustration": {
         "title": "",
         "subtitle": "",
-        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait|talks",
         "caption": ""
       },
       "connect": "",

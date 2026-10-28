@@ -1,3 +1,13 @@
+## Factual print visuals
+
+- Printed locator maps now use the same Natural Earth country geometry as Read & Play,
+  including neighbour context, readable country labels and a source credit. Legacy country
+  labels still work. Unknown locations show a clear text card instead of invented geography.
+- Publishing prompts request explicit countries and known places. No routes, meeting venues
+  or event scenes are inferred from the map. The browser paper designer includes the map data.
+- The Global Citizen Plus issue for 28 October demonstrates a real Israel/Egypt locator and
+  a labelled three-party talks diagram, preserving its four-page newspaper layout.
+
 ## Papers fill their pages
 
 - From 29 October 2026, `ygc check` fails a story column that ends more than 6 lines short, and says

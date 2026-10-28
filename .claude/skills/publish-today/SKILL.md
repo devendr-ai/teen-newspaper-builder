@@ -167,7 +167,8 @@ For each paper in `ygc due`, one at a time:
    enriched concrete detail or short mechanism only where it improves understanding;
    keep the same age level, word budgets, fonts and page plan. Never fill space with
    invented colour or turn labelled background into a new development.
-3. Write the JSON over the skeleton, then check it against the pool:
+3. For printed visuals, maps use real Natural Earth geography: fill `map.countries` with recognised country names (1-6), and optionally `map.place` with a known city or named sea/strait. Never use a generic sketch to imply a coastline, border, route or venue. Choose illustrations for explanatory value. For a sourced three-party negotiation, `motif: "talks"` with exactly three short `participants` names makes a labelled diagram, not an invented meeting scene. Participants must appear in the story; the diagram must not invent a date, venue or outcome.
+4. Write the JSON over the skeleton, then check it against the pool:
    ```bash
    $PY -m ygc check editions/<id>/issues/<year>/$D.json --pool data/pools/$D.json --plan data/plans/$D.json
    ```
@@ -186,11 +187,11 @@ For each paper in `ygc due`, one at a time:
    from the pool; if the pool runs out, research that story further and add the new facts and
    sources to the pool first. Never pad with invented colour or repeated points. Open the page PNGs
    in `build/` and look at them: no page should end in a large white gap.
-4. Fact-check before calling it done: reread every figure, name, place, date
+5. Fact-check before calling it done: reread every figure, name, place, date
    and claim against the pool entry it came from, and remove anything the
    pool doesn't support. For enriched claims, also check their evidence passages and
    qualifiers; do not assume a retrieved URL proves every associated claim.
-5. After about 5 failed attempts, give up on that paper: delete its JSON and
+6. After about 5 failed attempts, give up on that paper: delete its JSON and
    move on. Commit each paper as soon as it passes
    (`git add editions/<id> && git commit -m "<Paper name>, $D"`).
 

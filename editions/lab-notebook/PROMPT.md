@@ -25,16 +25,16 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
 
 - **`lead`** — TOP STORY. The single most important story of the window for this reader, from the world.
   - If a running story is still the biggest, it leads again, written as the new development.
-  - Carries: a map (two land areas split by water: pick the water geography that genuinely matters to the story); "Why this matters".
+  - Carries: a real geographic locator map: set countries to recognised country names; optionally set place to a known city or sea/strait. Never invent coastlines, borders or routes; "Why this matters".
 - **`world`** — WORLD. The next most important world story, from a region or field the lead doesn't cover.
-  - Carries: an illustration (choose a motif from the fixed list); "Connect the dots" (link to history, geography, economics or sport).
+  - Carries: an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story); "Connect the dots" (link to history, geography, economics or sport).
 - **`science_and_technology`** — SCIENCE & TECH. The most significant discovery, research result or technology development of the window.
   - Prefer peer-reviewed findings and official data over company announcements.
-  - Carries: an illustration (choose a motif from the fixed list); "Why this matters".
+  - Carries: an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story); "Why this matters".
 - **`climate_and_environment`** — CLIMATE & ENVIRONMENT. The most significant climate, weather or environmental story, with evidence and scale.
-  - Carries: an illustration (choose a motif from the fixed list); "Why this matters".
+  - Carries: an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story); "Why this matters".
 - **`health`** — HEALTH. The most significant public-health or medical-science story, reported with care and evidence.
-  - Carries: an illustration (choose a motif from the fixed list); "Why this matters".
+  - Carries: an illustration (choose a motif from the fixed list; talks requires exactly three short participants named in the story); "Why this matters".
 - **`history_and_geography`** — HISTORY & GEOGRAPHY. A current story whose roots in history or geography are worth explaining.
   - Carries: a 2-4 bar chart built only from real, sourced numbers; "Why this matters"; "Think like an analyst" (questions only, never answers).
 
@@ -119,7 +119,7 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
       "illustration": {
         "title": "",
         "subtitle": "",
-        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait|talks",
         "caption": ""
       },
       "connect": "",
@@ -137,7 +137,7 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
       "illustration": {
         "title": "",
         "subtitle": "",
-        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait|talks",
         "caption": ""
       },
       "why": "",
@@ -155,7 +155,7 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
       "illustration": {
         "title": "",
         "subtitle": "",
-        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait|talks",
         "caption": ""
       },
       "why": "",
@@ -173,7 +173,7 @@ You are the Editor-in-Chief of *The Lab Notebook*, a 4-page printed newspaper. Y
       "illustration": {
         "title": "",
         "subtitle": "",
-        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait",
+        "motif": "airdefense|ballot|border|capitol|court|cricket|farm|fire|flood|globe|grid|hospital|podium|protest|robot|rocket|ship|skyline|strait|talks",
         "caption": ""
       },
       "why": "",
