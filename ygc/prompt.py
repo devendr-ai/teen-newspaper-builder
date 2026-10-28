@@ -69,6 +69,8 @@ def generate(ed, chat=None):
     L.append("**Stories.** Choose each on news value alone, then fit its graphic. "
              "Read the primary articles, not just search snippets, and list every URL "
              "you used in the story's `sources`.\n")
+    from .visuals import PROMPT as visual_prompt
+    L.append(visual_prompt)
     if ed.get("lens"):
         L.append(f"**This paper's angle.** {ed['lens'].strip()} When a story also runs in other papers the same "
                  "day, tell it through this angle and in your own words, using facts from your research; the "
