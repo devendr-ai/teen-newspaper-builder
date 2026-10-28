@@ -61,6 +61,18 @@
      {
       "fact": "At the time of Al Jazeera's report the storm was 260 km southeast of Visakhapatnam and forecast to turn northwest.",
       "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "fact": "More than 30,000 fishing boats were secured along the Andhra Pradesh coast, and over 2,000 cyclone shelters were set up across 20 districts.",
+      "source_url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506"
+     },
+     {
+      "fact": "Odisha officials planned to evacuate about 48,000 people from areas likely to be affected.",
+      "source_url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506"
+     },
+     {
+      "fact": "Heavy rain and gusty winds had already started lashing parts of the Andhra Pradesh coast on Tuesday, and officials cancelled some train services.",
+      "source_url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506"
      }
     ],
     "numbers": [
@@ -116,6 +128,13 @@
       "url": "https://www.theweek.in/news/india/2026/10/24/cyclone-arnab-to-bring-heavy-rain-storms-to-bengal-odisha-october-25.html",
       "published": "2026-10-24",
       "primary": false
+     },
+     {
+      "outlet": "ABC News (AP)",
+      "title": "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+      "url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506",
+      "published": "2026-10-27",
+      "primary": false
      }
     ]
    },
@@ -156,6 +175,26 @@
      {
       "fact": "Increased threats to commercial shipping cut crude flows through the Hormuz region to about 8.5 million barrels a day in the week to 19 October, down from more than 20 million the week before, according to Kpler.",
       "source_url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+     },
+     {
+      "fact": "Gulf crude exports fell for a fourth straight week, and flows through the Strait of Hormuz were about 60% of their normal level.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "The Houthis said they hit pumping stations on Saudi Arabia's East-West crude pipeline and Riyadh airport over the weekend, with no immediate Saudi confirmation.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "Brent settled at $116.72 on Friday 23 October, its highest close since April, capping a 6% weekly gain.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "On Monday Brent settled 91 cents lower at $115.81 and WTI fell $1.51 to $101.76.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "Global distillate inventories were nearly 5% below their five-year average.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
      }
     ],
     "numbers": [
@@ -192,6 +231,13 @@
       "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves",
       "published": "2026-10-19",
       "primary": false
+     },
+     {
+      "outlet": "RTÉ",
+      "title": "Oil up slightly as diplomacy hopes counter renewed hits",
+      "url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/",
+      "published": "2026-10-27",
+      "primary": false
      }
     ]
    },
@@ -220,6 +266,62 @@
      {
       "fact": "Russia has said it has no intention of halting hostilities during the peace talks.",
       "source_url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+     },
+     {
+      "fact": "Putin aide Yuri Ushakov said Russia had agreed in principle to meet on 10 November; Kremlin spokesperson Dmitry Peskov said the meeting would be held in Abu Dhabi.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "Zelenskyy said Russia supports a trilateral meeting at the level of the negotiating teams.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "Zelenskyy said any peace agreement would need strong security guarantees for Ukraine and funding for 10 years to maintain the Ukrainian army.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "The last US-mediated peace talks took place in February, before the United States and Israel launched a war against Iran.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "US envoy Steve Witkoff met Zelenskyy in Oslo on 20 October and Putin in St Petersburg the next day.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy"
+     },
+     {
+      "fact": "Russia demands that Ukraine pull out of the territory it still controls in the eastern Donetsk region; Ukraine rejects this as tantamount to capitulation.",
+      "source_url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks"
+     },
+     {
+      "fact": "Russia and Ukraine both said they were ready to resume trilateral talks with Washington after Witkoff met both leaders.",
+      "source_url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks"
+     },
+     {
+      "fact": "A localised ceasefire around the occupied city of Oleshky took effect early on Tuesday 27 October to allow humanitarian aid; Russia, Ukraine and the US have not said who would monitor it.",
+      "source_url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia"
+     },
+     {
+      "fact": "Finland's President Alexander Stubb and Norway's leader held a rare direct call with Putin on Tuesday 27 October; Stubb's office said it was initiated from Helsinki to discuss diplomatic efforts to end the war.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "The Kremlin's readout played down the call, said lasting peace depends on Russia's interests being fully taken into account, and blamed EU and NATO policies for prolonging the fighting.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "Danish Prime Minister Mette Frederiksen said she was very sceptical about reaching out to Putin and urged Europe to act together.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "On 20 October Zelenskyy, US envoy Steve Witkoff and European leaders met in Oslo to discuss ending the war.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "The Kremlin dismissed new ideas brought by Witkoff that were developed with European countries and Ukraine; Ushakov said there wasn't really much substance in them.",
+      "source_url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
+     },
+     {
+      "fact": "Ushakov said Russia was in principle ready to resume trilateral talks in mid-November, after the US midterm elections.",
+      "source_url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
      }
     ],
     "numbers": [],
@@ -243,6 +345,48 @@
       "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/",
       "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Russia and Ukraine say talks planned for November in UAE",
+      "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
+      "published": "2026-10-23",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Putin and Zelenskyy back three-way US peace talks on Ukraine",
+      "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+      "published": "2026-10-21",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Ukraine and Russia both say ready to resume trilateral talks with US",
+      "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
+      "published": "2026-10-21",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "US-brokered truce begins in Ukraine city occupied by Russia",
+      "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
+      "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+      "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+      "published": "2026-10-22",
       "primary": false
      }
     ]
@@ -276,6 +420,38 @@
      {
       "fact": "Exit polls are not final counts; official results come from the Central Elections Committee.",
       "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Channel 12's exit poll put Netanyahu's bloc on track for 50 seats and Gadi Eisenkot's bloc for 52.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Channel 14, which is strongly pro-Netanyahu, showed the prime minister's coalition at 60 seats and Eisenkot's at 43.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Turnout was 77.7%, the highest since 1999, according to Israel's Central Elections Committee; some 5.7 million voters cast ballots.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Likely weeks of coalition negotiations follow; President Isaac Herzog will ask a candidate to try to form a government.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Eisenkot has all but ruled out forming a government with Arab parties, complicating his path to a majority.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Channel 13 and Channel 11 (Kan) exit polls had Netanyahu's bloc and the opposition bloc tied at 51 seats each.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
+     },
+     {
+      "fact": "Likud was projected at close to 27 seats, appearing to be the largest party; Eisenkot's Yashar party was projected at roughly 21 to 22 seats.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
+     },
+     {
+      "fact": "Arab parties were projected at a combined 17 to 18 seats, outside both blocs.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
      }
     ],
     "numbers": [
@@ -306,6 +482,20 @@
       "title": "Israel election 2026: War, security and coalition math",
       "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
       "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Exit polls indicate no clear winner in Israeli election",
+      "url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "The Jerusalem Post",
+      "title": "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority",
+      "url": "https://www.jpost.com/israel-election-2026/article-913053",
+      "published": "2026-10-27",
       "primary": false
      }
     ]
@@ -346,6 +536,14 @@
      {
       "fact": "Texas Senate candidates are Ken Paxton (R), James Talarico (D) and Ted Brown (L); University of Houston's Nancy Sims said it is a little hard to extrapolate from turnout.",
       "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "One week before Election Day, more than 31 million people had voted early, according to data from 47 states and the District of Columbia.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/27/midterm-election-roundup-california-washington-ballots-counting-early-voting"
+     },
+     {
+      "fact": "About 14.3 million voters had cast ballots by 21 October, according to the University of Florida's Election Lab.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/21/midterm-election-early-voting"
      }
     ],
     "numbers": [
@@ -390,6 +588,20 @@
       "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
       "published": "2026-10-27",
       "primary": false
+     },
+     {
+      "outlet": "Spectrum News",
+      "title": "Legal fights over ballots unfold as early voting surges a week before midterms",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/27/midterm-election-roundup-california-washington-ballots-counting-early-voting",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Spectrum News",
+      "title": "More than 14 million Americans have already voted ahead of midterms",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/21/midterm-election-early-voting",
+      "published": "2026-10-21",
+      "primary": false
      }
     ]
    },
@@ -410,6 +622,34 @@
      {
       "fact": "Traders priced about an 11% chance of a rate hike this week and about 82% for December, according to Reuters.",
       "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "Fed funds futures point to about a 10% chance of a hike this week and a better than 80% probability of an increase in December.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "Most credit cards carry variable rates that move closely with the Fed's benchmark; the average rate on a new credit card offer is 23.96%, according to LendingTree.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "The 10-year Treasury yield has been near 5%, keeping the average 30-year fixed mortgage rate close to 7.4%, according to Mortgage News Daily.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "Because the Fed has kept rates high, savers earn relatively attractive yields on high-yield savings accounts.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "Fed Chair Kevin Warsh has repeatedly rejected telling markets what he plans to do before the committee meets.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "A CNBC survey of 30 economists and strategists found 93% expect a pause this week and 76% a hike in December.",
+      "source_url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
+     },
+     {
+      "fact": "Traders on Kalshi priced a 93% chance the Fed holds steady this week; the status quo is a target range of 3.75% to 4.00%.",
+      "source_url": "https://news.kalshi.com/p/interest-rate-odds-fed-october-2026"
      }
     ],
     "numbers": [
@@ -425,6 +665,27 @@
       "outlet": "FinanceFeeds",
       "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
       "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+      "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Federal Reserve rate hikes are coming, but not this week: CNBC survey",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Kalshi News",
+      "title": "Interest rate odds: Traders forecast a 93% chance the Fed holds in October",
+      "url": "https://news.kalshi.com/p/interest-rate-odds-fed-october-2026",
       "published": "2026-10-27",
       "primary": false
      }
@@ -494,6 +755,18 @@
      {
       "fact": "At the time of Al Jazeera's report the storm was 260 km southeast of Visakhapatnam and forecast to turn northwest.",
       "source_url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears"
+     },
+     {
+      "fact": "More than 30,000 fishing boats were secured along the Andhra Pradesh coast, and over 2,000 cyclone shelters were set up across 20 districts.",
+      "source_url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506"
+     },
+     {
+      "fact": "Odisha officials planned to evacuate about 48,000 people from areas likely to be affected.",
+      "source_url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506"
+     },
+     {
+      "fact": "Heavy rain and gusty winds had already started lashing parts of the Andhra Pradesh coast on Tuesday, and officials cancelled some train services.",
+      "source_url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506"
      }
     ],
     "numbers": [
@@ -549,6 +822,13 @@
       "url": "https://www.theweek.in/news/india/2026/10/24/cyclone-arnab-to-bring-heavy-rain-storms-to-bengal-odisha-october-25.html",
       "published": "2026-10-24",
       "primary": false
+     },
+     {
+      "outlet": "ABC News (AP)",
+      "title": "India evacuates tens of thousands as Cyclone Arnab nears eastern coast",
+      "url": "https://abcnews.com/International/wireStory/india-evacuates-tens-thousands-cyclone-arnab-nears-eastern-137599506",
+      "published": "2026-10-27",
+      "primary": false
      }
     ]
    },
@@ -593,6 +873,22 @@
      {
       "fact": "Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias and USD-INR between Rs 94.85 and Rs 95.50.",
       "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "Business Recorder reported the rupee ended Tuesday 27 October at 95.1150 per dollar, with higher oil prices and equity outflows leaving it reliant on Reserve Bank of India support.",
+      "source_url": "https://www.brecorder.com/news/40446129/indian-rupee-boxed-in-range-traders-focus-on-oil-outflows-and-rbis-defence"
+     },
+     {
+      "fact": "India depends on imports to meet nearly 90% of its crude oil requirements.",
+      "source_url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-eight-day-winning-streak-as-rise-in-crude-offsets-inflows-126102201371_1.html"
+     },
+     {
+      "fact": "On 22 October the rupee weakened to 94.83 per dollar, ending eight sessions of gains, as crude prices and dollar buying offset inflows.",
+      "source_url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-eight-day-winning-streak-as-rise-in-crude-offsets-inflows-126102201371_1.html"
+     },
+     {
+      "fact": "The RBI said it would meet the entire daily dollar needs of Indian Oil Corporation, HPCL and BPCL through a special window from 12 October.",
+      "source_url": "https://www.business-standard.com/economy/news/rbi-s-rupee-defence-measures-may-offer-near-term-relief-say-analysts-126101100471_1.html"
      }
     ],
     "numbers": [
@@ -623,6 +919,27 @@
       "title": "BSE Sensex falls to 72,638.70 after RBI raises repo rate to 5.5%",
       "url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions",
       "published": "2026-10-07",
+      "primary": false
+     },
+     {
+      "outlet": "Business Recorder",
+      "title": "Indian rupee boxed in range; traders focus on oil, outflows and RBI's defence",
+      "url": "https://www.brecorder.com/news/40446129/indian-rupee-boxed-in-range-traders-focus-on-oil-outflows-and-rbis-defence",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "Rupee snaps eight-day winning streak as rise in crude offsets inflows",
+      "url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-eight-day-winning-streak-as-rise-in-crude-offsets-inflows-126102201371_1.html",
+      "published": "2026-10-22",
+      "primary": false
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "RBI's rupee-defence measures may offer near-term relief, say analysts",
+      "url": "https://www.business-standard.com/economy/news/rbi-s-rupee-defence-measures-may-offer-near-term-relief-say-analysts-126101100471_1.html",
+      "published": "2026-10-11",
       "primary": false
      }
     ]
@@ -663,6 +980,14 @@
      {
       "fact": "Texas Senate candidates are Ken Paxton (R), James Talarico (D) and Ted Brown (L); University of Houston's Nancy Sims said it is a little hard to extrapolate from turnout.",
       "source_url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/"
+     },
+     {
+      "fact": "One week before Election Day, more than 31 million people had voted early, according to data from 47 states and the District of Columbia.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/27/midterm-election-roundup-california-washington-ballots-counting-early-voting"
+     },
+     {
+      "fact": "About 14.3 million voters had cast ballots by 21 October, according to the University of Florida's Election Lab.",
+      "source_url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/21/midterm-election-early-voting"
      }
     ],
     "numbers": [
@@ -707,6 +1032,20 @@
       "url": "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
       "published": "2026-10-27",
       "primary": false
+     },
+     {
+      "outlet": "Spectrum News",
+      "title": "Legal fights over ballots unfold as early voting surges a week before midterms",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/27/midterm-election-roundup-california-washington-ballots-counting-early-voting",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Spectrum News",
+      "title": "More than 14 million Americans have already voted ahead of midterms",
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/21/midterm-election-early-voting",
+      "published": "2026-10-21",
+      "primary": false
      }
     ]
    },
@@ -739,6 +1078,38 @@
      {
       "fact": "Exit polls are not final counts; official results come from the Central Elections Committee.",
       "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Channel 12's exit poll put Netanyahu's bloc on track for 50 seats and Gadi Eisenkot's bloc for 52.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Channel 14, which is strongly pro-Netanyahu, showed the prime minister's coalition at 60 seats and Eisenkot's at 43.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Turnout was 77.7%, the highest since 1999, according to Israel's Central Elections Committee; some 5.7 million voters cast ballots.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Likely weeks of coalition negotiations follow; President Isaac Herzog will ask a candidate to try to form a government.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Eisenkot has all but ruled out forming a government with Arab parties, complicating his path to a majority.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Channel 13 and Channel 11 (Kan) exit polls had Netanyahu's bloc and the opposition bloc tied at 51 seats each.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
+     },
+     {
+      "fact": "Likud was projected at close to 27 seats, appearing to be the largest party; Eisenkot's Yashar party was projected at roughly 21 to 22 seats.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
+     },
+     {
+      "fact": "Arab parties were projected at a combined 17 to 18 seats, outside both blocs.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
      }
     ],
     "numbers": [
@@ -769,6 +1140,20 @@
       "title": "Israel election 2026: War, security and coalition math",
       "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
       "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Exit polls indicate no clear winner in Israeli election",
+      "url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "The Jerusalem Post",
+      "title": "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority",
+      "url": "https://www.jpost.com/israel-election-2026/article-913053",
+      "published": "2026-10-27",
       "primary": false
      }
     ]
@@ -817,6 +1202,26 @@
      {
       "fact": "Increased threats to commercial shipping cut crude flows through the Hormuz region to about 8.5 million barrels a day in the week to 19 October, down from more than 20 million the week before, according to Kpler.",
       "source_url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
+     },
+     {
+      "fact": "Gulf crude exports fell for a fourth straight week, and flows through the Strait of Hormuz were about 60% of their normal level.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "The Houthis said they hit pumping stations on Saudi Arabia's East-West crude pipeline and Riyadh airport over the weekend, with no immediate Saudi confirmation.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "Brent settled at $116.72 on Friday 23 October, its highest close since April, capping a 6% weekly gain.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "On Monday Brent settled 91 cents lower at $115.81 and WTI fell $1.51 to $101.76.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
+     },
+     {
+      "fact": "Global distillate inventories were nearly 5% below their five-year average.",
+      "source_url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/"
      }
     ],
     "numbers": [
@@ -853,6 +1258,13 @@
       "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves",
       "published": "2026-10-19",
       "primary": false
+     },
+     {
+      "outlet": "RTÉ",
+      "title": "Oil up slightly as diplomacy hopes counter renewed hits",
+      "url": "https://www.rte.ie/news/business/2026/1027/1596940-world-oil-prices/",
+      "published": "2026-10-27",
+      "primary": false
      }
     ]
    },
@@ -873,6 +1285,34 @@
      {
       "fact": "Traders priced about an 11% chance of a rate hike this week and about 82% for December, according to Reuters.",
       "source_url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+     },
+     {
+      "fact": "Fed funds futures point to about a 10% chance of a hike this week and a better than 80% probability of an increase in December.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "Most credit cards carry variable rates that move closely with the Fed's benchmark; the average rate on a new credit card offer is 23.96%, according to LendingTree.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "The 10-year Treasury yield has been near 5%, keeping the average 30-year fixed mortgage rate close to 7.4%, according to Mortgage News Daily.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "Because the Fed has kept rates high, savers earn relatively attractive yields on high-yield savings accounts.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "Fed Chair Kevin Warsh has repeatedly rejected telling markets what he plans to do before the committee meets.",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html"
+     },
+     {
+      "fact": "A CNBC survey of 30 economists and strategists found 93% expect a pause this week and 76% a hike in December.",
+      "source_url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
+     },
+     {
+      "fact": "Traders on Kalshi priced a 93% chance the Fed holds steady this week; the status quo is a target range of 3.75% to 4.00%.",
+      "source_url": "https://news.kalshi.com/p/interest-rate-odds-fed-october-2026"
      }
     ],
     "numbers": [
@@ -888,6 +1328,27 @@
       "outlet": "FinanceFeeds",
       "title": "Brent Crude Price: $114.68 Tuesday, FOMC day one",
       "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+      "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+      "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Federal Reserve rate hikes are coming, but not this week: CNBC survey",
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Kalshi News",
+      "title": "Interest rate odds: Traders forecast a 93% chance the Fed holds in October",
+      "url": "https://news.kalshi.com/p/interest-rate-odds-fed-october-2026",
       "published": "2026-10-27",
       "primary": false
      }
@@ -934,6 +1395,22 @@
      {
       "fact": "Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias and USD-INR between Rs 94.85 and Rs 95.50.",
       "source_url": "https://hdfcsky.com/news/rupee-closes-9512-rbi-support-crude-fed-ahead"
+     },
+     {
+      "fact": "Business Recorder reported the rupee ended Tuesday 27 October at 95.1150 per dollar, with higher oil prices and equity outflows leaving it reliant on Reserve Bank of India support.",
+      "source_url": "https://www.brecorder.com/news/40446129/indian-rupee-boxed-in-range-traders-focus-on-oil-outflows-and-rbis-defence"
+     },
+     {
+      "fact": "India depends on imports to meet nearly 90% of its crude oil requirements.",
+      "source_url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-eight-day-winning-streak-as-rise-in-crude-offsets-inflows-126102201371_1.html"
+     },
+     {
+      "fact": "On 22 October the rupee weakened to 94.83 per dollar, ending eight sessions of gains, as crude prices and dollar buying offset inflows.",
+      "source_url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-eight-day-winning-streak-as-rise-in-crude-offsets-inflows-126102201371_1.html"
+     },
+     {
+      "fact": "The RBI said it would meet the entire daily dollar needs of Indian Oil Corporation, HPCL and BPCL through a special window from 12 October.",
+      "source_url": "https://www.business-standard.com/economy/news/rbi-s-rupee-defence-measures-may-offer-near-term-relief-say-analysts-126101100471_1.html"
      }
     ],
     "numbers": [
@@ -964,6 +1441,27 @@
       "title": "BSE Sensex falls to 72,638.70 after RBI raises repo rate to 5.5%",
       "url": "https://www.bbntimes.com/global-economy/bse-sensex-falls-to-72-638-70-after-rbi-raises-repo-rate-to-5-5-amid-us-iran-tensions",
       "published": "2026-10-07",
+      "primary": false
+     },
+     {
+      "outlet": "Business Recorder",
+      "title": "Indian rupee boxed in range; traders focus on oil, outflows and RBI's defence",
+      "url": "https://www.brecorder.com/news/40446129/indian-rupee-boxed-in-range-traders-focus-on-oil-outflows-and-rbis-defence",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "Rupee snaps eight-day winning streak as rise in crude offsets inflows",
+      "url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-eight-day-winning-streak-as-rise-in-crude-offsets-inflows-126102201371_1.html",
+      "published": "2026-10-22",
+      "primary": false
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "RBI's rupee-defence measures may offer near-term relief, say analysts",
+      "url": "https://www.business-standard.com/economy/news/rbi-s-rupee-defence-measures-may-offer-near-term-relief-say-analysts-126101100471_1.html",
+      "published": "2026-10-11",
       "primary": false
      }
     ]
@@ -1012,6 +1510,50 @@
      {
       "fact": "Rubin's Legacy Survey of Space and Time began in June 2026; in April the team announced over 11,000 new asteroids, including roughly 380 new trans-Neptunian objects.",
       "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
+     },
+     {
+      "fact": "2026 ED138 was found in Rubin observations spanning 4 March to 11 July 2026.",
+      "source_url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+     },
+     {
+      "fact": "Matthew Holman, who found it, works at the Center for Astrophysics | Harvard & Smithsonian.",
+      "source_url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+     },
+     {
+      "fact": "The International Astronomical Union's Minor Planet Center announced the discovery in an electronic circular.",
+      "source_url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+     },
+     {
+      "fact": "Mario Juric and Matthew Holman presented the result at the 58th meeting of the Division for Planetary Sciences in Spokane.",
+      "source_url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+     },
+     {
+      "fact": "Further observations are needed to tell whether it has enough mass to pull itself into a round shape, a key requirement for a dwarf planet.",
+      "source_url": "https://www.scientificamerican.com/article/the-vera-c-rubin-observatory-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet/"
+     },
+     {
+      "fact": "It stayed hidden for years because it sits in a star-crowded part of the sky.",
+      "source_url": "https://www.scientificamerican.com/article/the-vera-c-rubin-observatory-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet/"
+     },
+     {
+      "fact": "If confirmed, ED138 would be among the largest dwarf planets ever discovered in this region of the Solar System.",
+      "source_url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+     },
+     {
+      "fact": "Rubin observed ED138 30 times on 20 nights between 4 March and 11 July 2026.",
+      "source_url": "https://noirlab.edu/public/news/noirlab2626/"
+     },
+     {
+      "fact": "Archival images from the Dark Energy Camera, found by the Asteroid Institute's ADAM Precovery service, gave data going back to 2016.",
+      "source_url": "https://noirlab.edu/public/news/noirlab2626/"
+     },
+     {
+      "fact": "The 600 to 1,500 km size estimate is based on ED138's distance, brightness and estimated surface reflectivity (albedo).",
+      "source_url": "https://noirlab.edu/public/news/noirlab2626/"
+     },
+     {
+      "fact": "Initial analysis indicates it may be among the largest and brightest bodies discovered in this region of the Solar System.",
+      "source_url": "https://noirlab.edu/public/news/noirlab2626/"
      }
     ],
     "numbers": [
@@ -1041,6 +1583,27 @@
       "url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate",
       "published": "2026-10-27",
       "primary": true
+     },
+     {
+      "outlet": "Rubin Observatory",
+      "title": "NSF–DOE Vera C. Rubin Observatory Reveals Its First Dwarf Planet Candidate in Our Solar System",
+      "url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Scientific American",
+      "title": "The Vera C. Rubin Observatory may have just discovered our solar system's sixth dwarf planet",
+      "url": "https://www.scientificamerican.com/article/the-vera-c-rubin-observatory-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet/",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "NOIRLab",
+      "title": "NSF–DOE Vera C. Rubin Observatory Reveals Its First Dwarf Planet Candidate in Our Solar System",
+      "url": "https://noirlab.edu/public/news/noirlab2626/",
+      "published": "2026-10-27",
+      "primary": false
      }
     ]
    }
@@ -1197,6 +1760,18 @@
      {
       "fact": "Some economists think the rise could prompt the Bank of England to raise interest rates next month.",
       "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
+     },
+     {
+      "fact": "The ONS said core inflation, which leaves out energy, food, alcohol and tobacco, rose from 2.6% to 2.8%, and services inflation rose from 3.4% to 3.7%.",
+      "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+     },
+     {
+      "fact": "The next Bank of England interest-rate decision is on 5 November, and the next ONS inflation figures are due on 18 November 2026.",
+      "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+     },
+     {
+      "fact": "Chancellor John Healey blamed the price rises on conflicts in the Middle East and Europe.",
+      "source_url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb"
      }
     ],
     "numbers": [
@@ -1224,6 +1799,13 @@
       "outlet": "ITV News",
       "title": "UK inflation jumps to highest rate in almost a year after fuel prices climb",
       "url": "https://www.itv.com/news/2026-10-21/uk-inflation-jumps-to-highest-rate-in-almost-a-year-after-fuel-prices-climb",
+      "published": "2026-10-21",
+      "primary": false
+     },
+     {
+      "outlet": "Office for National Statistics",
+      "title": "Consumer price inflation, UK: September 2026",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026",
       "published": "2026-10-21",
       "primary": false
      }
@@ -1329,6 +1911,62 @@
      {
       "fact": "Russia has said it has no intention of halting hostilities during the peace talks.",
       "source_url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/"
+     },
+     {
+      "fact": "Putin aide Yuri Ushakov said Russia had agreed in principle to meet on 10 November; Kremlin spokesperson Dmitry Peskov said the meeting would be held in Abu Dhabi.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "Zelenskyy said Russia supports a trilateral meeting at the level of the negotiating teams.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "Zelenskyy said any peace agreement would need strong security guarantees for Ukraine and funding for 10 years to maintain the Ukrainian army.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "The last US-mediated peace talks took place in February, before the United States and Israel launched a war against Iran.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+     },
+     {
+      "fact": "US envoy Steve Witkoff met Zelenskyy in Oslo on 20 October and Putin in St Petersburg the next day.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy"
+     },
+     {
+      "fact": "Russia demands that Ukraine pull out of the territory it still controls in the eastern Donetsk region; Ukraine rejects this as tantamount to capitulation.",
+      "source_url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks"
+     },
+     {
+      "fact": "Russia and Ukraine both said they were ready to resume trilateral talks with Washington after Witkoff met both leaders.",
+      "source_url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks"
+     },
+     {
+      "fact": "A localised ceasefire around the occupied city of Oleshky took effect early on Tuesday 27 October to allow humanitarian aid; Russia, Ukraine and the US have not said who would monitor it.",
+      "source_url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia"
+     },
+     {
+      "fact": "Finland's President Alexander Stubb and Norway's leader held a rare direct call with Putin on Tuesday 27 October; Stubb's office said it was initiated from Helsinki to discuss diplomatic efforts to end the war.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "The Kremlin's readout played down the call, said lasting peace depends on Russia's interests being fully taken into account, and blamed EU and NATO policies for prolonging the fighting.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "Danish Prime Minister Mette Frederiksen said she was very sceptical about reaching out to Putin and urged Europe to act together.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "On 20 October Zelenskyy, US envoy Steve Witkoff and European leaders met in Oslo to discuss ending the war.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin"
+     },
+     {
+      "fact": "The Kremlin dismissed new ideas brought by Witkoff that were developed with European countries and Ukraine; Ushakov said there wasn't really much substance in them.",
+      "source_url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
+     },
+     {
+      "fact": "Ushakov said Russia was in principle ready to resume trilateral talks in mid-November, after the US midterm elections.",
+      "source_url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
      }
     ],
     "numbers": [],
@@ -1352,6 +1990,48 @@
       "title": "Russia has no intention of halting hostilities in Ukraine during peace talks",
       "url": "https://www.pravda.com.ua/eng/news/2026/10/26/8059753/",
       "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Russia and Ukraine say talks planned for November in UAE",
+      "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
+      "published": "2026-10-23",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Putin and Zelenskyy back three-way US peace talks on Ukraine",
+      "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+      "published": "2026-10-21",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Ukraine and Russia both say ready to resume trilateral talks with US",
+      "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
+      "published": "2026-10-21",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "US-brokered truce begins in Ukraine city occupied by Russia",
+      "url": "https://www.france24.com/en/live-news/20261027-us-brokered-truce-begins-in-ukraine-city-occupied-by-russia",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
+      "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
+      "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks",
+      "published": "2026-10-22",
       "primary": false
      }
     ]
@@ -1385,6 +2065,38 @@
      {
       "fact": "Exit polls are not final counts; official results come from the Central Elections Committee.",
       "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+     },
+     {
+      "fact": "Channel 12's exit poll put Netanyahu's bloc on track for 50 seats and Gadi Eisenkot's bloc for 52.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Channel 14, which is strongly pro-Netanyahu, showed the prime minister's coalition at 60 seats and Eisenkot's at 43.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Turnout was 77.7%, the highest since 1999, according to Israel's Central Elections Committee; some 5.7 million voters cast ballots.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Likely weeks of coalition negotiations follow; President Isaac Herzog will ask a candidate to try to form a government.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Eisenkot has all but ruled out forming a government with Arab parties, complicating his path to a majority.",
+      "source_url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+     },
+     {
+      "fact": "Channel 13 and Channel 11 (Kan) exit polls had Netanyahu's bloc and the opposition bloc tied at 51 seats each.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
+     },
+     {
+      "fact": "Likud was projected at close to 27 seats, appearing to be the largest party; Eisenkot's Yashar party was projected at roughly 21 to 22 seats.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
+     },
+     {
+      "fact": "Arab parties were projected at a combined 17 to 18 seats, outside both blocs.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-913053"
      }
     ],
     "numbers": [
@@ -1415,6 +2127,20 @@
       "title": "Israel election 2026: War, security and coalition math",
       "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
       "published": "2026-10-26",
+      "primary": false
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Exit polls indicate no clear winner in Israeli election",
+      "url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "The Jerusalem Post",
+      "title": "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority",
+      "url": "https://www.jpost.com/israel-election-2026/article-913053",
+      "published": "2026-10-27",
       "primary": false
      }
     ]
