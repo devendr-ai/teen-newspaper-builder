@@ -14,7 +14,7 @@ from urllib.parse import quote
 
 import yaml
 
-from . import brand, checks, edition, poster, render, stats, pwa, navigation
+from . import brand, checks, edition, poster, render, stats, pwa, navigation, weekend
 
 ROOT = edition.ROOT
 E = html.escape
@@ -269,13 +269,46 @@ RECOMMENDED = {
 }
 
 
-def paper_actions(pdf, link, title):
-    return (f'<div class="edition-actions"><a class="btn recommended-print" href="{E(pdf)}" target="_blank" rel="noopener">'
+def weekend_choice(pdf):
+    """Only called for variants successfully rendered in this build."""
+    puzzles = pdf[:-4] + '-puzzles.pdf'
+    return (f'<div class="weekend-download" data-news="{E(pdf)}" data-puzzles="{E(puzzles)}">'
+            '<fieldset class="weekend-choice"><legend>Weekend paper</legend>'
+            '<label><input type="radio" value="news" checked> News only</label>'
+            '<label><input type="radio" value="puzzles"> News + Puzzles</label></fieldset>'
+            '<p class="weekend-note" aria-live="polite">2 news pages. Optional extra: a story comic, word hunt and drawing.</p>')
+
+
+WEEKEND_SCRIPT = """<script>
+(()=>{
+ const groups=[...document.querySelectorAll('.weekend-download')];if(!groups.length)return;
+ const key='np-weekend-print';let selected='news';try{if(localStorage.getItem(key)==='puzzles')selected='puzzles';}catch(e){}
+ function apply(value){groups.forEach((g,i)=>{
+  g.querySelectorAll('input[type=radio]').forEach(r=>{r.name='weekend-print-'+i;r.checked=r.value===value;});
+  const a=g.querySelector('a[data-weekend-pdf]');a.href=value==='puzzles'?g.dataset.puzzles:g.dataset.news;
+  if(a.hasAttribute('download'))a.download=a.href.split('/').pop();
+  g.querySelector('.weekend-note').textContent=value==='puzzles'?'3 pages: 2 news pages + 1 comic and puzzles page.':'2 news pages. Optional extra: a story comic, word hunt and drawing.';
+ });}
+ apply(selected);groups.forEach(g=>g.addEventListener('change',e=>{if(!e.target.matches('input[type=radio]'))return;apply(e.target.value);try{localStorage.setItem(key,e.target.value);}catch(err){}}));
+})();
+</script>"""
+
+
+def weekend_link(pdf, label='Download PDF'):
+    return (weekend_choice(pdf) + f'<a class="btn" data-weekend-pdf href="{E(pdf)}" download>{E(label)}</a>'
+            + f'<noscript> <a data-weekend-fallback href="{E(pdf[:-4] + "-puzzles.pdf")}" download>News + Puzzles (3 pages)</a></noscript></div>')
+
+
+def paper_actions(pdf, link, title, puzzles=False):
+    actions = (f'<div class="edition-actions"><a class="btn recommended-print" href="{E(pdf)}" target="_blank" rel="noopener">'
             f'{navigation.icon("printer")} Print this paper</a>'
             f'<a class="btn ghost edition-share" href="{E(link)}" data-share-title="{E(title)}" '
             f'aria-label="Share this edition" title="Share this edition">{navigation.icon("share-2")}</a></div>'
             '<div class="share-feedback" hidden><p role="status"></p>'
             '<input type="text" readonly aria-label="Edition link to copy" hidden></div>')
+    if puzzles:
+        return weekend_choice(pdf) + actions.replace('class="btn recommended-print"', 'class="btn recommended-print" data-weekend-pdf') + f'<noscript><a data-weekend-fallback href="{E(pdf[:-4] + "-puzzles.pdf")}">News + Puzzles (3 pages)</a></noscript></div>'
+    return actions
 
 
 SHARE_SCRIPT = '''<script>
@@ -295,7 +328,7 @@ document.addEventListener('click',async event=>{
 </script>'''
 
 
-def issue_landing(cfg, ed, date, issue, preview):
+def issue_landing(cfg, ed, date, issue, preview, puzzles=False):
     """A dated print/share destination; never redirects a recipient to a newer issue."""
     from . import share
     eid, n = ed['id'], len(ed['pages'])
@@ -311,7 +344,7 @@ def issue_landing(cfg, ed, date, issue, preview):
             f'<p class="recommended-facts">{n} page{"s" if n != 1 else ""}'
             + (f' · About {minutes} minutes to read' if minutes else '') + '</p>'
             f'<p class="recommended-reason">{E(lead_headline(ed, issue))}</p>'
-            + paper_actions(f'{date}.pdf', f'{date}.html', title)
+            + paper_actions(f'{date}.pdf', f'{date}.html', title, puzzles)
             + f'<p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>'
             f'<a class="recommended-archive" href="{date}.pdf" target="_blank" rel="noopener">Preview this paper (PDF)</a>'
             '<br><a class="recommended-archive" href="../../index.html">Find more papers for your child</a></div></article>')
@@ -333,7 +366,7 @@ def recommendations(published, has_png, cfg=None):
 {cover}<div class="recommended-copy"><p class="recommended-label">A good place to start · {E(band)}</p>
 <h2>{E(ed["name"])}</h2><p class="recommended-date">Latest issue · {dt.date.fromisoformat(date):%A %d %B %Y}</p>
 <p class="recommended-facts">{n} page{'s' if n != 1 else ''} · About {minutes} minutes to read</p>
-<p class="recommended-reason">{E(reason)}</p>{paper_actions(f'e/{eid}/{date}.pdf', f'e/{eid}/{date}.html', ed['name'] + ' · ' + band + ' · ' + date)}
+<p class="recommended-reason">{E(reason)}</p>{paper_actions(f'e/{eid}/{date}.pdf', f'e/{eid}/{date}.html', ed['name'] + ' · ' + band + ' · ' + date, (eid, date) in (cfg or {}).get('_weekend_pdfs', set()))}
 <p class="recommended-note">Free PDF · US Letter. Use your device’s print controls.</p>
 <a class="recommended-archive" href="e/{eid}/index.html">See past issues</a>{subscription_link(cfg or {}, ed)}</div></article>''')
     return ('<p id="age-memory" class="age-memory" role="status" hidden></p>'
@@ -460,6 +493,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offse
 .recommended-date{font-size:.86rem;color:var(--muted);margin:0 0 10px}
 .recommended-facts{font-size:.9rem;font-weight:700;margin:0 0 10px}
 .recommended-reason{margin:0 0 18px;max-width:60ch}
+.weekend-choice{border:0;padding:0;margin:12px 0 4px;display:flex;flex-wrap:wrap;gap:8px}.weekend-choice legend{font-weight:700;font-size:.8rem;margin-bottom:6px}.weekend-choice label{display:inline-flex;align-items:center;gap:6px;border:1px solid #B9C3C1;border-radius:8px;padding:8px 10px;font-size:.85rem;cursor:pointer;min-height:44px}.weekend-choice label:has(input:checked){background:#DDEFF0;border-color:#007D87}.weekend-choice input{accent-color:#007D87}.weekend-note{font-size:.78rem;color:#5C6970;margin:6px 0 12px}.weekend-download{max-width:100%}
 .recommended-print{padding:12px 22px;min-height:48px}
 .edition-actions{display:flex;align-items:stretch;gap:8px;clear:both}
 .edition-share{display:inline-flex;align-items:center;justify-content:center;width:48px;min-width:48px;min-height:48px;padding:10px;font:inherit}
@@ -602,7 +636,7 @@ const hh=()=>document.documentElement.style.setProperty("--hh",h.offsetHeight+"p
 if(window.ResizeObserver)new ResizeObserver(hh).observe(h);else addEventListener("resize",hh);}})()</script>
 {body}<footer>Written by AI from verified news sources, then checked automatically. Every issue lists its sources{contact}.
 <p class="links"><a href="{root}about.html">How it's made</a> · <a href="{root}standards.html">Editorial standards</a> · <a href="{root}corrections.html">Corrections</a> · <a href="{root}privacy.html">Privacy</a> · <a href="{root}terms.html">Terms</a></p>{owner_line(cfg, root)}</footer></div>
-{tabbar(cfg, root, here)}{SHARE_SCRIPT if 'data-share-title=' in body else ''}{SUBSCRIPTION_SCRIPT if 'data-gate-form=' in body else SUBSCRIPTION_BANNER_SCRIPT if 'data-subscription-banner' in body else ''}</body></html>"""
+{tabbar(cfg, root, here)}{WEEKEND_SCRIPT if 'class="weekend-download"' in body else ''}{SHARE_SCRIPT if 'data-share-title=' in body else ''}{SUBSCRIPTION_SCRIPT if 'data-gate-form=' in body else SUBSCRIPTION_BANNER_SCRIPT if 'data-subscription-banner' in body else ''}</body></html>"""
 
 
 def credit(cfg):
@@ -699,6 +733,7 @@ def build(out, keep=None, log=print, kids=False):
     cards = []          # (has_issue, audience order, name, html)
     fixes, names = corrections(), {}
     published = {}
+    cfg["_weekend_pdfs"] = set()
     for eid in edition.list_editions():
         ed = edition.load(eid)
         names[eid] = ed["name"]
@@ -727,14 +762,24 @@ def build(out, keep=None, log=print, kids=False):
                              byline=byline(cfg), author=cfg["title"])
             except Exception as e:
                 log(f"  ! {eid} {date}: {e}"); continue
+            extras = False
+            if (cfg.get("weekend_puzzles") or {}).get("enabled") is True:
+                try:
+                    extras = weekend.build(ed, date, issue, os.path.join(edir, pdf), os.path.join(edir, f"{date}-puzzles.pdf"))
+                except Exception as error:
+                    log(f"  ! {eid} weekend {date}: {error}; news only")
+                if extras:
+                    cfg['_weekend_pdfs'].add((eid, date))
             preview = os.path.join(edir, f"{date}.png")
             if has_png:
                 subprocess.run(["pdftoppm", "-png", "-r", "60", "-f", "1", "-l", "1", "-singlefile",
                                 os.path.join(edir, pdf), os.path.join(edir, date)], check=False)
             open(os.path.join(edir, f"{date}.html"), "w", encoding="utf-8").write(
-                issue_landing(cfg, ed, date, issue, os.path.exists(preview)))
+                issue_landing(cfg, ed, date, issue, os.path.exists(preview), extras))
             if latest is None:
                 latest = (date, issue)
+                if extras:
+                    shutil.copy(os.path.join(edir, f"{date}-puzzles.pdf"), os.path.join(edir, "latest-puzzles.pdf"))
                 shutil.copy(os.path.join(edir, pdf), os.path.join(edir, "latest.pdf"))
                 if os.path.exists(preview):
                     shutil.copy(preview, os.path.join(edir, "cover.png"))
@@ -746,9 +791,10 @@ def build(out, keep=None, log=print, kids=False):
             fixed = "".join(f'<p class="meta fixed">Corrected {dt.date.fromisoformat(c["fixed"]):%d %b}: {E(c["what"])} '
                             f'<a href="../../corrections.html">All corrections</a></p>'
                             for c in fixes if c["paper"] == eid and c["issue"] == date)
+            download = weekend_link(pdf) if extras else f'<a class="btn ghost" href="{pdf}" download>PDF</a>'
             rows.append(f'<tr><td>{d:%a %d %b %Y}</td><td>No. {issue.get("issue", "")}</td>'
                         f'<td>{E(lead_headline(ed, issue))}{fixed}<details><summary>Sources</summary><ul>{srcs}</ul></details></td>'
-                        f'<td><a class="btn ghost" href="{pdf}" download>PDF</a>{ptd}</td></tr>')
+                        f'<td>{download}{ptd}</td></tr>')
             link = f'{cfg["base_url"].rstrip("/")}/e/{eid}/{pdf}' if cfg["base_url"] else pdf
             items.append(f"<item><title>{E(ed['name'])}, No. {issue.get('issue', '')}: {E(lead_headline(ed, issue))}</title>"
                          f"<link>{E(link)}</link><guid>{E(link)}</guid>"
@@ -763,6 +809,8 @@ def build(out, keep=None, log=print, kids=False):
                  if latest and has_png else f'<a class="cover soon" href="e/{eid}/index.html">{"Latest issue" if latest else "First issue coming soon"}</a>')
         dl = (f'<a class="btn" href="e/{eid}/latest.pdf" download="{eid}-{latest[0]}.pdf">Download PDF</a>'
               if latest else "")
+        if latest and (eid, latest[0]) in cfg['_weekend_pdfs']:
+            dl = weekend_link(f'e/{eid}/{latest[0]}.pdf')
         cards.append((latest is None, FACET_ORDER.get(audience(ed), 50), ed["name"], f'''<article class="card" data-kind="paper" data-edition="{E(eid)}" data-audience="{E(audience(ed))}" data-length="{E(length_band(n))}" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
 {cover}<h2>{E(ed['name'])}<!--NEW--></h2><p>{E(blurb)}</p><div class="meta">{E(meta)}{f" · latest {dt.date.fromisoformat(latest[0]):%d %b}" if latest else ""}</div>
 <div class="actions">{dl}<a class="btn ghost" href="e/{eid}/index.html">All issues</a></div></article>''', latest and latest[0]))
@@ -782,6 +830,8 @@ def build(out, keep=None, log=print, kids=False):
         desks = ", ".join(d["label"].title() for d in ed["desks"] if d["id"] != "top")
         top = (f'<a class="btn" href="latest.pdf" download="{eid}-{latest[0]}.pdf">Download the latest issue (PDF)</a>'
                if latest else '<p class="empty">The first issue hasn\'t been published yet.</p>')
+        if latest and (eid, latest[0]) in cfg['_weekend_pdfs']:
+            top = weekend_link(f'{latest[0]}.pdf', 'Download the latest issue (PDF)')
         if latest_poster:
             q = posters[latest_poster]["question"]
             top += (f' <a class="btn poster" href="latest-poster.pdf" download="{eid}-{latest_poster}-poster.pdf">Download the poster (PDF)</a>'
@@ -789,7 +839,7 @@ def build(out, keep=None, log=print, kids=False):
                     f'something to try and questions to talk about together.</p>')
         img = f'<img src="cover.png" alt="" style="width:100%;border:1px solid #B9C3C1">' if latest and has_png else ""
         body = (f'<section class="lede"><div>{img}</div><div><h2 style="font-size:2rem">{E(ed["name"])}</h2>'
-                f'<p>{E(blurb)}</p><p class="meta">{E(meta)}<br>Covers: {E(desks)}</p><p>{top}</p>'
+                f'<p>{E(blurb)}</p><p class="meta">{E(meta)}<br>Covers: {E(desks)}</p><div>{top}</div>'
                 f'<p class="meta"><a href="feed.xml">RSS feed</a> for new issues.</p></div></section>'
                 + subscription_form(cfg, ed, root='../../', context='archive', date=latest[0] if latest else None)
                 + (f'<h2 style="font-size:1.3rem;margin-bottom:6px">Issues</h2><table><tr><th>Date</th><th>Issue</th><th>Top story</th><th></th></tr>{"".join(rows)}</table>' if rows else ""))
