@@ -592,7 +592,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <link rel="icon" href="{root}owl.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon.png" sizes="32x32">
 {pwa.head(cfg, root)}{fonts(root)}{head_extra}<style>{CSS}</style>{stats.snippet(cfg, root)}
 <script>document.documentElement.classList.add("js")</script></head>
-<body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])}">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
+<body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])} · Free Kids Newspaper and Daily Newsletter">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a>{f'<a href="{root}play/listen.html">Listen</a>' if cfg.get("kids_mode") else f'<a href="{root}builder.html">Design</a>'}<a href="{root}parents.html">For parents</a></nav></header>
 {pwa.tablet_prompt()}
@@ -624,6 +624,66 @@ def qr_url(cfg, eid, date):
     if not start or not cfg.get("base_url") or date < start:
         return None
     return f"{cfg['base_url'].rstrip('/')}/play/{eid}/{date}.html"
+
+
+def home_json_ld(cfg):
+    """Structured data (Schema.org JSON-LD) for search engines without changing visual content."""
+    base = cfg.get("base_url", "https://newspebbles.com/").rstrip("/")
+    org_id = f"{base}/#organization"
+    items = [
+        {
+            "@type": "WebSite",
+            "@id": f"{base}/#website",
+            "url": f"{base}/",
+            "name": cfg.get("title", "News Pebbles"),
+            "alternateName": [
+                "News Pebbles Kids Newspaper",
+                "News Pebbles Daily Kids Newsletter",
+                "News Pebbles Children's Newspaper",
+                "Free Kids Newspaper"
+            ],
+            "description": cfg.get("description", ""),
+            "inLanguage": "en-US",
+            "publisher": {"@id": org_id}
+        },
+        {
+            "@type": "NewsMediaOrganization",
+            "@id": org_id,
+            "name": cfg.get("title", "News Pebbles"),
+            "url": f"{base}/",
+            "logo": f"{base}/share/site.png",
+            "publishingPrinciples": f"{base}/standards.html",
+            "correctionsPolicy": f"{base}/corrections.html",
+            "ethicsPolicy": f"{base}/standards.html",
+            "knowsAbout": [
+                "Kids Newspaper",
+                "Kids Newsletter",
+                "Children's News",
+                "Current Events for Kids",
+                "Printable Student Newspaper",
+                "Elementary Education",
+                "Middle School Current Affairs"
+            ],
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Children's newspaper",
+                    "sameAs": "https://en.wikipedia.org/wiki/Children%27s_newspaper"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Newsletter",
+                    "sameAs": "https://en.wikipedia.org/wiki/Newsletter"
+                }
+            ]
+        }
+    ]
+    scripts = []
+    for item in items:
+        obj = {"@context": "https://schema.org"}
+        obj.update(item)
+        scripts.append(f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>')
+    return "\n".join(scripts)
 
 
 def build(out, keep=None, log=print, kids=False):
@@ -699,7 +759,7 @@ def build(out, keep=None, log=print, kids=False):
         meta = f"{audience(ed)} · {n} page{'s' if n != 1 else ''} · {frequency(ed)}"
         blurb = s.get("blurb") or ed["reader"]["profile"]
         focus = s.get("focus") or "World affairs"
-        cover = (f'<a class="cover" href="e/{eid}/index.html"><img src="e/{eid}/cover.png" alt="Front page of the latest {E(ed["name"])}" loading="lazy"></a>'
+        cover = (f'<a class="cover" href="e/{eid}/index.html"><img src="e/{eid}/cover.png" alt="Front page of the latest {E(ed["name"])} kids newspaper edition" loading="lazy"></a>'
                  if latest and has_png else f'<a class="cover soon" href="e/{eid}/index.html">{"Latest issue" if latest else "First issue coming soon"}</a>')
         dl = (f'<a class="btn" href="e/{eid}/latest.pdf" download="{eid}-{latest[0]}.pdf">Download PDF</a>'
               if latest else "")
@@ -811,7 +871,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     intro = (f'<section class="intro"><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}</section>')
     body = subscription_banner() + intro + filters + recommendations(published, has_png, cfg) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
-    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body))
+    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body, head_extra=home_json_ld(cfg)))
     trust_pages(cfg, out, names, fixes)
     open(os.path.join(out, "parents.html"), "w", encoding="utf-8").write(
         page(cfg, f"For parents · {cfg['title']}", parents_body(cfg, published), here="parents"))
@@ -822,6 +882,13 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
     for f in glob.glob(os.path.join(brand.ASSETS, "google*.html")):
         shutil.copy(f, os.path.join(out, os.path.basename(f)))
+    for txt in ("llms.txt", "llms-full.txt"):
+        src = os.path.join(brand.ASSETS, txt)
+        if os.path.exists(src):
+            shutil.copy(src, os.path.join(out, txt))
+    find_src = os.path.join(ROOT, "seo", "site")
+    if os.path.isdir(find_src):
+        shutil.copytree(find_src, os.path.join(out, "find"), dirs_exist_ok=True)
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))

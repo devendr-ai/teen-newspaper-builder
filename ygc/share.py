@@ -428,7 +428,7 @@ def build(out, cfg, log=print):
         open(p, "w", encoding="utf-8").write(doc)
 
     if cfg.get("base_url"):
-        listed = [r for r in sorted(pages) if r != "404.html" and not r.startswith("google") and 'class="stub"' not in open(os.path.join(out, r), encoding="utf-8").read()]
+        listed = [r for r in sorted(pages) if r != "404.html" and not os.path.basename(r).startswith("google") and 'class="stub"' not in open(os.path.join(out, r), encoding="utf-8").read()]
         rows = "".join(f"<url><loc>{E(url(cfg, r))}</loc>{f'<lastmod>{lastmod[r]}</lastmod>' if r in lastmod else ''}</url>"
                        for r in listed)
         open(os.path.join(out, "sitemap.xml"), "w", encoding="utf-8").write(
