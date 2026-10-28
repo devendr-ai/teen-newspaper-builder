@@ -80,3 +80,11 @@ def test_replacements_are_required_checked_and_preserve_page_count(tmp_path):
 def test_legacy_illustrations_and_charts_keep_working():
     assert 'class="bc' in play.top_figure({'chart': {'title':'x','labels':['A','B'],'values':[1,2],'max':2}},None)
     assert 'scene' in play.top_figure({'illustration':{'motif':'globe'}},None)
+
+
+def test_chart_labels_do_not_silently_round_source_numbers():
+    s = story('economics')
+    s['body'].append('The comparison value is 123456.789 in this test.')
+    s['visual']['items'][0].update(value=123456.789, evidence='The comparison value is 123456.789 in this test.')
+    assert visuals.validate(s) == []
+    assert '123456.789' in visuals.svg(s['visual'])
