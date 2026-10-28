@@ -154,3 +154,17 @@ def test_the_app_points_at_the_pack():
     assert cfg["name"] == "News Pebbles" and cfg["ios"]["supportsTablet"] is True
     audio = next(p for p in cfg["plugins"] if isinstance(p, list) and p[0] == "expo-audio")[1]
     assert audio["enableBackgroundPlayback"] is True and audio["microphonePermission"] is False
+    assert cfg["android"]["package"] == cfg["ios"]["bundleIdentifier"] == "com.newspebbles.app"
+    assert "android.permission.RECORD_AUDIO" in cfg["android"]["blockedPermissions"]
+
+
+def test_the_app_builds_for_google_play():
+    eas = json.loads(Path(ROOT, "mobile", "eas.json").read_text(encoding="utf-8"))
+    assert eas["build"]["production"]["android"]["buildType"] == "app-bundle"
+    assert eas["build"]["preview"]["android"]["buildType"] == "apk"
+    assert eas["submit"]["production"]["android"]["track"] == "alpha"          # closed testing
+    app = Path(ROOT, "mobile", "App.tsx").read_text(encoding="utf-8")
+    assert "hardwareBackPress" in app and "case 'openPdf'" in app and "Sharing.shareAsync" in app
+    listing = Path(ROOT, "mobile", "store", "play-listing.md").read_text(encoding="utf-8")
+    short = re.search(r"Short description \(80 max\):\*\*\n\n```\n(.+)\n```", listing).group(1)
+    assert len(short) <= 80 and "Data safety" in listing and "12 testers" in listing

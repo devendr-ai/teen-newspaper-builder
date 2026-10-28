@@ -154,7 +154,9 @@
 
   function hello() {
     var bg = getComputedStyle(document.body).backgroundColor;
+    var tabbar = document.querySelector(".tabbar");                // Android colours the strip under it to match
     post({ t: "page", url: location.href, title: document.title, bg: bg,
+           bar: tabbar ? getComputedStyle(tabbar).backgroundColor : bg,
            dark: document.documentElement.getAttribute("data-theme") === "night" });
     if (/\/play\/listen\.html$/.test(location.pathname)) post({ t: "claim", id: "*" });   // Listen shows its own player
     Object.keys(players).forEach(function (id) { post({ t: "claim", id: id }); });
@@ -172,6 +174,14 @@
       e.preventDefault();
       post({ t: "print", url: u, title: a.getAttribute("data-share-title") || document.title });
     }
+  });
+  // Android's WebView can't show a PDF: the app opens it in the phone's PDF viewer.
+  if (/Android/i.test(navigator.userAgent)) window.addEventListener("click", function (e) {
+    if (e.defaultPrevented) return;
+    var a = e.target.closest && e.target.closest("a[href]");
+    if (!a || /^blob:/.test(a.getAttribute("href"))) return;
+    var u = abs(a.getAttribute("href"));
+    if (/\.pdf(\?|#|$)/i.test(u)) { e.preventDefault(); post({ t: "openPdf", url: u }); }
   });
   // A PDF made on the phone (Design your own): the share sheet, to print, save to Files or send.
   window.addEventListener("click", function (e) {

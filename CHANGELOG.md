@@ -1,3 +1,15 @@
+## The app on Android
+
+- The Expo app now runs on Android phones and tablets: the back button and gesture go back a page,
+  a paper's PDF opens in the phone's PDF viewer (Android's WebView can't show PDFs), the Design PDF
+  goes to the share sheet, the morning reminder has its own notification channel, and the tab bar
+  stays clear of the system navigation bar.
+- `eas.json` has Android profiles (`preview` for an installable `.apk`, `production` for the Play
+  `.aab`, submit to the closed testing track).
+- `mobile/store/play-listing.md`: the Google Play listing, Data safety and Families answers, and the
+  closed-testing steps; `tools/app_screenshots.cjs … play` makes the Play screenshots, feature graphic
+  and icon (`mobile/store/play/`).
+
 ## Remove misleading winners' podiums
 
 - Correct all 15 published issues that used a ranked sports podium for talks, elections,

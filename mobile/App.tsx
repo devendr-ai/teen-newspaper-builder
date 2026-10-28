@@ -2,11 +2,14 @@
 // plus what only an app can do: offline papers, audio with the screen locked, a morning reminder, and the
 // phone's print and share sheets after the Parental Gate. See docs/APP_BUILD.md.
 import { useCallback, useEffect, useRef, useState, type ComponentRef } from 'react';
-import { ActivityIndicator, AppState, Linking, Pressable, Share, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, AppState, BackHandler, Linking, Platform, Pressable, Share, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { File, Paths } from 'expo-file-system';
+import { getContentUriAsync } from 'expo-file-system/legacy';
+import * as IntentLauncher from 'expo-intent-launcher';
 import * as Print from 'expo-print';
+import * as Sharing from 'expo-sharing';
 import { WebView, type WebViewMessageEvent } from 'react-native-webview';
 import type { ShouldStartLoadRequest } from 'react-native-webview/lib/WebViewTypes';
 
@@ -18,6 +21,7 @@ import { parentRequest } from './src/parent-api';
 
 const PAPER = '#F4F1EA';
 const STALE = 30 * 60 * 1000;                   // check for new papers when the app comes back after this long
+const ANDROID = Platform.OS === 'android';
 
 export default function App() {
   return (
@@ -36,7 +40,8 @@ function Main() {
   const [start, setStart] = useState<string | null>(null);
   const [pack, setPack] = useState<content.Pack | null>(null);
   const [updating, setUpdating] = useState(false);
-  const [page, setPage] = useState({ url: '', bg: PAPER, dark: false });
+  const [page, setPage] = useState({ url: '', bg: PAPER, bar: PAPER, dark: false });
+  const [canGoBack, setCanGoBack] = useState(false);
   const [claimed, setClaimed] = useState<string | null>(null);
   const [status, setStatus] = useState<player.Status | null>(null);
   const [denied, setDenied] = useState(false);
@@ -106,7 +111,7 @@ function Main() {
     try { m = JSON.parse(e.nativeEvent.data); } catch { return; }
     switch (m.t) {
       case 'page':
-        setPage({ url: m.url, bg: m.bg || PAPER, dark: !!m.dark || isDark(m.bg) });
+        setPage({ url: m.url, bg: m.bg || PAPER, bar: m.bar || m.bg || PAPER, dark: !!m.dark || isDark(m.bg) });
         setClaimed(null);
         break;
       case 'claim': setClaimed(m.id); break;
@@ -115,6 +120,7 @@ function Main() {
       case 'parent-request':
         send(await parentRequest(m, e.nativeEvent.url, content.rootUri));
         break;
+      case 'openPdf': await openPdf(m.url); break;
       case 'print':
         try { await Print.printAsync({ uri: m.url }); } catch {}
         break;
@@ -130,7 +136,8 @@ function Main() {
           if (file.exists) file.delete();
           file.create();
           file.writeSync(String(m.data || ''), { encoding: 'base64' });
-          await Share.share({ url: file.uri });
+          if (ANDROID) await Sharing.shareAsync(file.uri, { mimeType: 'application/pdf', dialogTitle: name });
+          else await Share.share({ url: file.uri });
         } catch {}
         break;
       case 'share':
@@ -146,8 +153,21 @@ function Main() {
     }
   }, [send, settings]);
 
+  // Android's back button and gesture go back a page, and leave the app only from the first one.
+  useEffect(() => {
+    if (!ANDROID) return;
+    const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (!canGoBack) return false;
+      web.current?.goBack();
+      return true;
+    });
+    return () => sub.remove();
+  }, [canGoBack]);
+
   // Pages come from the phone; anything else (links out, email) opens outside the app, after the gate.
+  // Android's WebView can't show a PDF, so a paper's PDF opens in the phone's PDF viewer instead.
   const onLoad = useCallback((req: ShouldStartLoadRequest) => {
+    if (ANDROID && /^file:.*\.pdf(\?|#|$)/i.test(req.url)) { openPdf(req.url); return false; }
     if (/^(file|about|data|blob):/.test(req.url)) return true;
     Linking.openURL(req.url).catch(() => {});
     return false;
@@ -207,7 +227,10 @@ function Main() {
         setSupportMultipleWindows={false}
         contentInsetAdjustmentBehavior="never"
         onShouldStartLoadWithRequest={onLoad}
-        onNavigationStateChange={(n) => { if (/\.pdf(\?|#|$)/i.test(n.url)) setPage((p) => ({ ...p, url: n.url })); }}
+        onNavigationStateChange={(n) => {
+          setCanGoBack(n.canGoBack);
+          if (/\.pdf(\?|#|$)/i.test(n.url)) setPage((p) => ({ ...p, url: n.url }));
+        }}
         onMessage={onMessage}
         onContentProcessDidTerminate={() => web.current?.reload()}
       />
@@ -221,8 +244,21 @@ function Main() {
           onClose={player.stop}
         />
       )}
+      {ANDROID && <View style={{ height: insets.bottom, backgroundColor: page.bar }} />}
     </View>
   );
+}
+
+/** Android: show a saved PDF in the phone's PDF viewer, or the share sheet if there isn't one. */
+async function openPdf(url: string) {
+  if (!url.startsWith(content.rootUri)) return;
+  const path = decodeURI(url.split(/[?#]/)[0]);
+  try {
+    const data = await getContentUriAsync(path);
+    await IntentLauncher.startActivityAsync('android.intent.action.VIEW', { data, flags: 1, type: 'application/pdf' });
+  } catch {
+    try { await Sharing.shareAsync(path, { mimeType: 'application/pdf' }); } catch {}
+  }
 }
 
 function isDark(color?: string): boolean {
