@@ -188,6 +188,8 @@ def page(title, description, canonical, body, depth, schema_type="WebPage", date
 <header class="top">
 <a class="mark" href="{root}index.html">News Pebbles · Find</a>
 <nav>
+<a href="{root}kids-newspaper.html">Kids newspaper</a>
+<a href="{root}kids-newsletter.html">Newsletter</a>
 <a href="{root}grades/5th-grade.html">5th grade</a>
 <a href="{root}grades/6th-grade.html">6th grade</a>
 <a href="{root}printable.html">Printable</a>
@@ -300,6 +302,8 @@ def write_llms_txt():
 > Curated current-events reading guides and searchable story texts for kids, parents, and educators.
 
 ## Guides by Grade & Topic
+- [Free kids newspaper to print]({BASE}/kids-newspaper.html): Calm daily printable newspaper for kids with checkable sources.
+- [Free kids newsletter & daily current events]({BASE}/kids-newsletter.html): Daily current events newsletter for children and families.
 - [Current events for 5th grade, printable]({BASE}/grades/5th-grade.html): Short printable paper for ages 9 to 11 with checkable sources.
 - [Current events for 6th grade]({BASE}/grades/6th-grade.html): Daily one-page overview for middle schoolers.
 - [Homeschool current events for middle school]({BASE}/homeschool.html): Weekly paper with discussion questions.
@@ -339,6 +343,16 @@ def main():
     def cat(from_rel, eid):
         return [(href(from_rel, r), h, d, dt) for r, h, d, dt in catalog[eid]]
 
+    guide("kids-newspaper.html",
+          "Free kids newspaper to print · Daily current events for children",
+          "A free, calm daily kids newspaper designed to print on US Letter paper. Fact-checked news for elementary and middle school students without scary details.",
+          "<p>News Pebbles is a free daily newspaper for kids. Each edition is carefully edited for a specific age group, from elementary explorers (ages 6–8) to middle schoolers (ages 9–14). Download the PDF, print it in two minutes, and place it on the breakfast table for 15 minutes of calm, meaningful reading together.</p>",
+          "breakfast-table", {k: cat("kids-newspaper.html", k) for k in catalog})
+    guide("kids-newsletter.html",
+          "Free kids newsletter · Calm daily current events digest",
+          "A free daily current events newsletter for kids and families. Important world news explained simply and calmly, with vocabulary definitions and discussion questions.",
+          "<p>Our daily kids newsletter provides young readers with honest, clear reporting on science, nature, world events, and culture. Parents and educators can receive each issue directly by email or print it out every morning—completely free with zero advertisements.</p>",
+          "junior-daily", {k: cat("kids-newsletter.html", k) for k in catalog})
     guide("grades/5th-grade.html",
           "Current events for 5th grade, printable",
           "A short printable paper of current events for 5th grade, ages 9 to 11, with sources a parent can check.",
@@ -399,6 +413,8 @@ def main():
         f"{BASE}/index.html",
         """<h1>Find a paper by what you searched</h1>
 <ul class="stories">
+<li><a href="kids-newspaper.html">Free kids newspaper to print</a><p>Calm daily newspaper for elementary and middle schoolers.</p></li>
+<li><a href="kids-newsletter.html">Free kids newsletter &amp; digest</a><p>Daily current events for students and families.</p></li>
 <li><a href="grades/5th-grade.html">Current events for 5th grade</a><p>Printable, ages 9–11.</p></li>
 <li><a href="grades/6th-grade.html">Current events for 6th grade</a><p>The day's stories on one page.</p></li>
 <li><a href="printable.html">Printable current events for kids</a><p>US Letter, no account.</p></li>
@@ -428,7 +444,8 @@ footer p{max-width:40rem;margin:0 auto}
     write("style.css", css)
     write_llms_txt()
 
-    locs = ["index.html", "archive.html", "grades/5th-grade.html", "grades/6th-grade.html",
+    locs = ["index.html", "archive.html", "kids-newspaper.html", "kids-newsletter.html",
+            "grades/5th-grade.html", "grades/6th-grade.html",
             "printable.html", "calm.html", "homeschool.html", "compare.html", "india.html"] + urls
     body = ['<?xml version="1.0" encoding="UTF-8"?>',
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

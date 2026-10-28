@@ -84,6 +84,36 @@ pages:
       - one sample from the digest
       - a pointer to Global Citizen Plus for ages 12–14
 
+  - id: kids-newspaper
+    path: /kids-newspaper
+    title: Free Kids Newspaper to Print
+    queries:
+      - kids newspaper
+      - free kids newspaper
+      - newspaper for kids
+      - daily newspaper for children
+    edition: breakfast-table
+    must_include:
+      - how the free kids newspaper works
+      - age categories from elementary to teens
+      - printable US Letter format
+      - discussion prompts
+
+  - id: kids-newsletter
+    path: /kids-newsletter
+    title: Free Kids Newsletter & Daily Current Events
+    queries:
+      - kids newsletter
+      - children newsletter
+      - current events newsletter for kids
+      - daily kids newsletter
+    edition: junior-daily
+    must_include:
+      - what is included in the kids newsletter
+      - 15-minute daily reading habit
+      - checkable sources and zero sensationalism
+      - free email subscription link
+
 stories:
   path: /stories/<date>/<slug>
   source: the lead story of each published issue
