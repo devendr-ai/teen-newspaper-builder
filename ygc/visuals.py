@@ -75,6 +75,8 @@ def validate(story):
                 fail(f'item label needs 1-{limit} characters')
             if kind == 'bars' and not numeric(item.get('value')):
                 fail('bar values must be finite non-negative numbers')
+            elif kind == 'bars' and stringWidth(str(item['value']), 'Helvetica-Bold', 11) > 288 / len(items) - 6:
+                fail('bar value is too wide; use an appropriately sourced display unit')
             if isinstance(item.get('label'), str):
                 lines = textwrap.wrap(item['label'], 13 if kind == 'bars' else 50)
                 max_width = 288 / len(items) - 6 if kind == 'bars' else 276
@@ -124,7 +126,7 @@ def commands(v):
         for i, item in enumerate(items):
             x = 36 + pitch*i + pitch/2; height = 62*item['value']/top
             out.append(('rect', x-pitch*.28, 115-height, pitch*.56, height, TEAL))
-            text(x, 109-height, f"{item['value']:g}", 11, anchor='middle', bold=True)
+            text(x, 109-height, str(item['value']), 11, anchor='middle', bold=True)
             for j, line in enumerate(textwrap.wrap(item['label'], 13)):
                 text(x, 129+j*10, line, 9, anchor='middle')
     else:
@@ -168,7 +170,7 @@ def summary(v):
     if v['type'] == 'seats':
         detail = f"{v['threshold']} seats needed for a majority of {v['total']}. Threshold, not results."
     elif v['type'] == 'bars':
-        detail = '; '.join(f"{i['label']}: {i['value']:g} {v['unit']}" for i in v['items']) + '. Zero baseline.'
+        detail = '; '.join(f"{i['label']}: {i['value']} {v['unit']}" for i in v['items']) + '. Zero baseline.'
     else:
         detail = '; '.join(f"{n+1}. {i['label']}" for n,i in enumerate(v['items']))
     return v['title'] + '. ' + detail
