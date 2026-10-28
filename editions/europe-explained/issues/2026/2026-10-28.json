@@ -47,17 +47,6 @@
         "On 27 October the leaders of Finland and Norway held a rare direct call with Putin, which the Finnish president's office said was arranged from Helsinki. Moscow played the call down and blamed EU and NATO policies for dragging out the war. Not every European capital welcomed it: Denmark's Prime Minister, Mette Frederiksen, said she was very sceptical about reaching out to Putin and urged Europe to act together.",
         "The hardest question is still land. Russia demands that Ukraine leave the part of the eastern Donetsk region it still holds, and Ukraine says that would amount to surrender. Whether the 10 November date holds, and who will speak for Europe, are the next things to watch."
       ],
-      "illustration": {
-        "title": "THREE-WAY TALKS NEXT MONTH",
-        "subtitle": "Explainer diagram",
-        "motif": "talks",
-        "caption": "Russia says 10 November, in Abu Dhabi.",
-        "participants": [
-          "Ukraine",
-          "Russia",
-          "United States"
-        ]
-      },
       "connect": "Putin's phrase 'security for Europe overall' links the Ukraine talks to every European capital.",
       "sources": [
         {
@@ -95,7 +84,27 @@
           "title": "Ukraine and Russia both say ready to resume trilateral talks with US",
           "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks"
         }
-      ]
+      ],
+      "visual": {
+        "type": "positions",
+        "title": "WHAT MAKES THESE TALKS DIFFICULT?",
+        "caption": "Reported positions and an unresolved role, not an agreed settlement.",
+        "source_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart",
+        "items": [
+          {
+            "label": "Russia: Ukraine should leave the Donetsk land it still holds",
+            "evidence": "Russia demands that Ukraine leave the part of the eastern Donetsk region it still holds"
+          },
+          {
+            "label": "Ukraine: that would amount to surrender",
+            "evidence": "Ukraine says that would amount to surrender"
+          },
+          {
+            "label": "Europe: not named as a party in the report",
+            "evidence": "Europe is not named as a party in this report"
+          }
+        ]
+      }
     },
     "uk": {
       "kicker": "UNITED KINGDOM  •  PRICES",

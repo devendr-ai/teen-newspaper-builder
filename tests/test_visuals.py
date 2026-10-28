@@ -104,3 +104,14 @@ def test_podium_cannot_be_selected_as_a_metaphor_for_talks_or_awards():
     checks.check_graphics(edition.load('global-citizen-plus'), s, 'world', 260, result)
     assert any('podium' in err for err in result.errors)
     assert 'medal ranks or confetti' in prompt.generate(edition.load('europe-explained'))
+
+
+def test_negotiation_positions_explain_disagreement_without_ranks_or_arrows():
+    p = Path(edition.ROOT) / 'editions/europe-explained/issues/2026/2026-10-28.json'
+    s = json.loads(p.read_text())['blocks']['world']
+    assert visuals.validate(s) == []
+    v = s['visual']; assert v['type'] == 'positions'
+    assert not any(p[0] in ('line', 'circle') for p in visuals.commands(v))
+    labels = [p[3] for p in visuals.commands(v) if p[0] == 'text']
+    assert not any(label in ('1','2','3') for label in labels)
+    assert 'Donetsk' in visuals.svg(v) and 'surrender' in visuals.summary(v)

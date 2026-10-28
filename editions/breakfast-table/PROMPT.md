@@ -30,7 +30,7 @@ real locator maps. Never force a chart when data are missing; use a sourced expl
 locator instead. Decorative globes/skylines must not stand in for an explanation. Never use
 sports podiums, medal ranks or confetti to depict talks, speeches, awards without rankings,
 or the number of participants. For three-party talks use the sourced `talks` diagram.
-`visual` schema: {"type":"seats|bars|steps", "title":"short title", "caption":"what it shows",
+`visual` schema: {"type":"seats|bars|steps|positions", "title":"short title", "caption":"what it shows",
 "source_url":"one of this story's source URLs"}. All evidence fields must be exact excerpts
 from the story body/deck, which must itself be grounded in the research sources.
 - seats: add `total`, `threshold` (integer seats), `total_evidence`, `threshold_evidence`.
@@ -39,6 +39,8 @@ from the story body/deck, which must itself be grounded in the research sources.
   `label` <=22 characters, non-negative numeric `value`, and `evidence` containing that number).
   Compare like with like, distinguish estimates from confirmed numbers in the caption.
   The chart always starts at zero. Never mix currencies, units or probabilities with counts.
+- positions: use 2-4 `items` with short `label` and exact `evidence` for each reported
+  position or unresolved question. Neutral equal rows, no ranking, arrows or implied sequence.
 - steps: add `items` (2-4 objects with `label` <=72 characters and `evidence`). The order
   must be supported by the article; no invented step, causal claim or guaranteed outcome.
 Titles <=44 characters, captions <=220. Cite the graphic's numbers and claims in the story
