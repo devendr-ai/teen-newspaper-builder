@@ -134,7 +134,7 @@ def scene_html(kind, spec):
     s = spec or {}
     cap = plain(s.get("caption", ""))
     title = plain(s.get("title", ""))
-    svg = scenes.scene(s.get("motif", ""), cap or title) if kind == "illustration" else scenes.sketch_map(s, cap or title)
+    svg = scenes.scene(s.get("motif", ""), cap or title, s) if kind == "illustration" else scenes.sketch_map(s, cap or title)
     badge = f'<span class="badge">{E(nice(title))}</span>' if title and kind == "illustration" else ""
     return f'<figure class="pic">{badge}{svg}' + (f"<figcaption>{E(cap)}</figcaption>" if cap else "") + "</figure>"
 
@@ -198,7 +198,7 @@ def thumb(story, href, w=None):
     if icon == "📰" and (story.get("map") or story.get("chart")):    # a map's whole picture won't fit this small
         icon, tone = ("🌍", "teal") if story.get("map") else ("📊", "sun")
     if story.get("illustration"):
-        pic = scenes.scene(story["illustration"].get("motif", ""), plain(story["illustration"].get("caption", "")))
+        pic = scenes.scene(story["illustration"].get("motif", ""), plain(story["illustration"].get("caption", "")), story["illustration"])
     elif w:
         pic = (f'<span class="mini" data-c="{E("|".join(w["countries"]))}" data-lat="{w["lat"]}" data-lon="{w["lon"]}" '
                f'data-box="{w["box"]}"><span class="ic">{icon}</span></span>')

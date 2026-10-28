@@ -6,6 +6,7 @@ Every graphic takes its column width from the caller.
 from reportlab.lib import colors
 from reportlab.lib.units import inch
 from reportlab.platypus import Flowable
+from reportlab.pdfbase.pdfmetrics import stringWidth
 
 INK       = colors.HexColor("#1A1A1A")
 ACCENT    = colors.HexColor("#A6192E")
@@ -30,7 +31,7 @@ class HRule(Flowable):
 
 
 class StyledMap(Flowable):
-    """Stylized two-landmass map with a chokepoint / border marker."""
+    """Natural Earth locator map; legacy country labels resolve to real geometry."""
     def __init__(self, spec, width=COL_W, height=1.5*inch):
         Flowable.__init__(self)
         self.spec = spec or {}
@@ -38,33 +39,8 @@ class StyledMap(Flowable):
         self.height = height
 
     def draw(self):
-        c = self.canv
-        w, h = self.width, self.height
-        c.setFillColor(colors.HexColor("#CDE4EF"))
-        c.rect(0, 0, w, h, stroke=0, fill=1)
-        c.setFillColor(colors.HexColor("#E3D6B3"))
-        p = c.beginPath()
-        p.moveTo(0, h); p.lineTo(w, h); p.lineTo(w, h*0.58)
-        p.lineTo(w*0.72, h*0.63); p.lineTo(w*0.55, h*0.50)
-        p.lineTo(w*0.40, h*0.64); p.lineTo(w*0.20, h*0.72); p.lineTo(0, h*0.70)
-        p.close(); c.drawPath(p, stroke=0, fill=1)
-        p = c.beginPath()
-        p.moveTo(0, 0); p.lineTo(w, 0); p.lineTo(w, h*0.33)
-        p.lineTo(w*0.78, h*0.36); p.lineTo(w*0.60, h*0.28)
-        p.lineTo(w*0.42, h*0.38); p.lineTo(w*0.24, h*0.30); p.lineTo(0, h*0.28)
-        p.close(); c.drawPath(p, stroke=0, fill=1)
-        c.setStrokeColor(ACCENT); c.setLineWidth(1.6); c.setDash(4, 2)
-        c.line(w*0.04, h*0.46, w*0.96, h*0.46); c.setDash()
-        c.setFillColor(ACCENT); c.circle(w*0.48, h*0.46, 3.5, stroke=0, fill=1)
-        c.setFillColor(INK); c.setFont("Helvetica-Bold", 7)
-        c.drawRightString(w*0.96, h*0.86, self.spec.get("label_top", ""))
-        c.drawString(w*0.04, h*0.09, self.spec.get("label_bottom", ""))
-        c.setFont("Helvetica-Bold", 6.5); c.setFillColor(ACCENT)
-        c.drawCentredString(w*0.50, h*0.51, self.spec.get("title", ""))
-        c.setFillColor(SECONDARY); c.setFont("Helvetica-Oblique", 6)
-        c.drawString(w*0.03, h*0.39, self.spec.get("footnote", ""))
-        c.setStrokeColor(INK); c.setLineWidth(0.5)
-        c.rect(0, 0, w, h, stroke=1, fill=0)
+        from .print_maps import draw
+        draw(self.canv, self.spec, self.width, self.height)
 
 
 class BarChart(Flowable):
@@ -150,6 +126,25 @@ class IllustrationCard(Flowable):
             while x < w:
                 c.line(x, y, x+6, y+1.4); c.line(x+6, y+1.4, x+12, y)
                 x += 12
+
+    def _draw_talks(self, c, w, h):
+        names = self.spec.get('participants', [])
+        if not isinstance(names, list) or len(names) != 3 or any(not isinstance(n, str) for n in names):
+            raise ValueError('talks diagram needs exactly three sourced participants')
+        c.setFillColor(PAPER); c.rect(0, 0, w, h, stroke=0, fill=1)
+        c.setFillColor(SECONDARY); c.setFont('Helvetica-Bold', 8)
+        c.drawString(9, h - 15, "WHO'S INVOLVED?")
+        gap, margin = 7, 9
+        bw, by, bh = (w - margin * 2 - gap * 2) / 3, h * .43, 28
+        c.setStrokeColor(MUTED); c.setLineWidth(.6)
+        c.line(margin + bw / 2, by + bh / 2, w - margin - bw / 2, by + bh / 2)
+        for i, name in enumerate(names):
+            x = margin + i * (bw + gap)
+            c.setFillColor(LIGHTBG); c.setStrokeColor(SECONDARY); c.roundRect(x, by, bw, bh, 3, stroke=1, fill=1)
+            size = min(8, (bw - 8) / max(1, stringWidth(name, 'Helvetica-Bold', 1)))
+            c.setFillColor(INK); c.setFont('Helvetica-Bold', size); c.drawCentredString(x + bw / 2, by + 10, name)
+        c.setFont('Helvetica', 6.5); c.setFillColor(MUTED)
+        c.drawCentredString(w / 2, 24, 'Trilateral means three parties')
 
     # ---- motifs ---------------------------------------------------
     def _draw_ship(self, c, w, h):
@@ -554,6 +549,7 @@ class IllustrationCard(Flowable):
         "court": _draw_court,
         "protest": _draw_protest,
         "hospital": _draw_hospital,
+        "talks": _draw_talks,
     }
 
     @classmethod

@@ -1184,6 +1184,7 @@ def engine_zip(path):
                     if f.endswith(keep):
                         full = os.path.join(d, f)
                         z.write(full, os.path.relpath(full, rel_to))
+        z.write(os.path.join(ROOT, "data", "world", "countries.topo.json"), "data/world/countries.topo.json")
         for f in ("CRAFT_RULES.md", "POSTERS.md"):
             z.write(os.path.join(ROOT, "docs", f), f"docs/{f}")
     return path

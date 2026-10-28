@@ -345,17 +345,23 @@ def chart_free_map(spec):
               f'<text x="10" y="140" font-size="11" font-weight="700" fill="{INK}">{E(s.get("label_bottom", ""))}</text>')
 
 
+def talks(spec=None):
+    names = (spec or {}).get("participants", [])
+    boxes = ''.join(f'<rect x="{8+i*112}" y="45" width="100" height="45" rx="6" fill="{WHITE}" stroke="{TEAL}"/><text x="{58+i*112}" y="72" text-anchor="middle" font-size="11" fill="{INK}">{E(n)}</text>' for i,n in enumerate(names))
+    return f'<rect width="340" height="150" fill="#FAF7F1"/>{boxes}<text x="170" y="120" text-anchor="middle" font-size="12" fill="{INK}">Trilateral means three parties</text>'
+
+
 SCENES = {"ship": ship, "strait": strait, "border": border, "fire": fire, "flood": flood, "grid": grid, "ballot": ballot,
           "airdefense": airdefense, "rocket": rocket, "podium": podium, "cricket": cricket, "skyline": skyline,
           "capitol": capitol, "robot": robot, "farm": farm, "globe": globe, "court": court, "protest": protest,
-          "hospital": hospital}
+          "hospital": hospital, "talks": talks}
 
 
-def scene(motif, label=""):
+def scene(motif, label="", spec=None):
     """The moving picture for a motif, as inline SVG (an unknown motif gets the globe)."""
     draw = SCENES.get(motif, globe)
     return (f'<svg class="scene" viewBox="0 0 340 150" role="img" aria-label="{E(label or motif)}" '
-            f'font-family="Atkinson Hyperlegible, sans-serif">{draw()}</svg>')
+            f'font-family="Atkinson Hyperlegible, sans-serif">{talks(spec) if motif == "talks" else draw()}</svg>')
 
 
 def sketch_map(spec, label=""):

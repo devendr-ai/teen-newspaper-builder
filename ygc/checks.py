@@ -223,6 +223,16 @@ def check_graphics(ed, s, where, W, r):
                     r.err(f"{where}.chart label {lab!r} collides with its neighbour")
     mp = s.get("map")
     if mp:
+        from . import print_maps, world
+        if 'countries' in mp:
+            names = mp['countries']
+            if not isinstance(names, list) or not names or len(names) > 6 or any(not isinstance(n, str) or not world.country_name(n) for n in names):
+                r.err(f"{where}.map.countries: use 1-6 recognised country names")
+        names, place = print_maps.places(mp)
+        if mp.get('place') and not place:
+            r.err(f"{where}.map.place: use a known city or named sea/strait; never invent coordinates")
+        if not names and not place:
+            r.note(f"{where}.map: no recognised location; a text card replaces the map. Supply countries or a known place")
         for k, font, size, room in (("title", "Helvetica-Bold", 6.5, 0.90),
                                     ("label_top", "Helvetica-Bold", 7, 0.90),
                                     ("label_bottom", "Helvetica-Bold", 7, 0.90),
@@ -231,6 +241,15 @@ def check_graphics(ed, s, where, W, r):
                 r.err(f"{where}.map.{k} runs past the edge of the map")
     il = s.get("illustration")
     if il:
+        if il.get('motif') == 'talks':
+            names = il.get('participants')
+            if not isinstance(names, list) or len(names) != 3 or any(not isinstance(n, str) or not n.strip() or len(n) > 22 for n in names) or len(set(n for n in names if isinstance(n, str))) != 3:
+                r.err(f"{where}.illustration.participants: talks needs three distinct short names from the story")
+            else:
+                text = " ".join(str(s.get(k, "")) for k in ("headline", "body", "kicker")).casefold()
+                for name in names:
+                    if name.casefold() not in text:
+                        r.err(f"{where}.illustration.participants: {name!r} must be named in the story")
         if il.get("motif") not in IllustrationCard._MOTIFS:
             r.err(f"{where}.illustration.motif {il.get('motif')!r}: choose one of "
                   f"{', '.join(IllustrationCard.known_motifs())}")
