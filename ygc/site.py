@@ -820,6 +820,8 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         shutil.copy(os.path.join(brand.ASSETS, "fonts", lic), os.path.join(out, "fonts", lic))
     shutil.copy(brand.SVG, os.path.join(out, "owl.svg"))                    # the logo, and the browser-tab icon
     shutil.copy(os.path.join(brand.ASSETS, "owl-32.png"), os.path.join(out, "favicon.png"))
+    for f in glob.glob(os.path.join(brand.ASSETS, "google*.html")):
+        shutil.copy(f, os.path.join(out, os.path.basename(f)))
     b = os.path.join(ROOT, "tools", "newspaper-builder.html")
     if os.path.exists(b):
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))

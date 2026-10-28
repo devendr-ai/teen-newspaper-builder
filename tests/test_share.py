@@ -22,6 +22,8 @@ def test_every_page_gets_preview_tags_and_the_site_gets_a_sitemap_robots_and_404
     assert f'<meta property="og:image" content="{base}share/site.png">' in home
     assert f'<link rel="canonical" href="{base}">' in home and 'name="twitter:card" content="summary_large_image"' in home
     for p in out.rglob("*.html"):                                   # every page, once
+        if p.name.startswith("google"):
+            continue
         assert p.read_text(encoding="utf-8").count('property="og:title"') == 1, p
 
     date = real(edition.load("little-explorers"))[0][0]
