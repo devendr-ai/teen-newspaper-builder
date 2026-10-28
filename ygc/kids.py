@@ -22,6 +22,8 @@ GATE_PAGES = ("feedback.html", "builder.html", "play/report.html")
 
 # Buttons and links that are for grown-ups but stay inside the app: [file pattern, tag pattern, reason, always]
 MARKS = [
+    (r".*", r'<a class="btn" data-weekend-pdf', "print", False),
+    (r".*", r'<a data-weekend-fallback', "print", False),
     (r".*", r'<a class="btn ghost edition-share"', "share", True),                  # share sheet / copy link
     (r".*", r'<a class="btn recommended-print"', "print", False),                   # "Print this paper"
     (r"^play/certificate\.html$", r'<button type="button" class="big go print"', "print", False),

@@ -297,3 +297,13 @@ https://newspebbles.com/
   during a publishing run. A problem there is reported in the summary, not fixed.
 - Never publish a paper or poster that hasn't passed `check`/`poster` with `--pool`.
 - Never publish the owner's email address or personal details.
+
+### Optional Little Explorer weekend supplement
+
+Website printing only: see `docs/WEEKEND_EXTRAS.md`. For a Saturday/Sunday Little
+Explorer, a reviewed issue-specific comic and puzzle spec may be added under
+`editions/little-explorers/weekend/`. The site builds the optional three-page
+News + Puzzles PDF automatically when that matching spec validates. Keep the
+regular two-page PDF and email delivery unchanged. Never recycle an older comic
+or publish unchecked generated art. If no reviewed art is available, publish the
+news normally; the optional choice stays hidden for that issue.

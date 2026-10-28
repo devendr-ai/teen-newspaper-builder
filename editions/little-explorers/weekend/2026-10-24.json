@@ -1,0 +1,43 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-24",
+  "story_block": "science_and_technology",
+  "headline": "A Robot Drives Far on Mars",
+  "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+  "image": "assets/2026-10-24-rover.jpg",
+  "image_sha256": "7857f47537806245b264b6a3eca900f4023e3b5bfd2d68e2f08ce1c976a175a8",
+  "panels": [
+    {
+      "caption": "Meet Perseverance. It is a rover on Mars.",
+      "evidence": "NASA's rover Perseverance is on Mars."
+    },
+    {
+      "caption": "A rover is a robot car. It explores another world.",
+      "evidence": "A rover is a robot car. It explores another world."
+    },
+    {
+      "caption": "Perseverance mostly steers itself.",
+      "evidence": "Perseverance mostly steers itself."
+    },
+    {
+      "caption": "It has driven farther than the old rover record.",
+      "evidence": "On October 11, the rover passed a record."
+    },
+    {
+      "caption": "It has also collected rock samples.",
+      "evidence": "It has also collected 29 rock samples."
+    },
+    {
+      "caption": "Next, it will visit a huge block of old rock.",
+      "evidence": "Next it will visit a huge block of old rock."
+    }
+  ],
+  "words": [
+    "ROVER",
+    "MARS",
+    "ROCK"
+  ],
+  "jumble_hint": "A robot car that explores another world:",
+  "drawing_prompt": "What would your robot look for on Mars?",
+  "discussion": "Why might a robot need to choose a safe path?"
+}
