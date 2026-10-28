@@ -68,9 +68,14 @@
       ],
       "illustration": {
         "title": "TALKS ON THE TABLE",
-        "subtitle": "No deal yet",
-        "motif": "podium",
-        "caption": "Talks are due to restart after 10 November."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "Talks are due to restart after 10 November.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
       },
       "connect": "Geography: earlier rounds were held in Abu Dhabi and Geneva, and Witkoff also met Putin in St. Petersburg and Zelensky in Oslo. Diplomacy here is shuttle work between capitals, with an envoy carrying proposals between parties that have not yet sat down together.",
       "sources": [

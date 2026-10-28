@@ -52,9 +52,14 @@
       ],
       "illustration": {
         "title": "WHO IS AT THE TABLE",
-        "subtitle": "Three sides, one table",
-        "motif": "podium",
-        "caption": "Talks would restart after 10 November."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "Talks would restart after 10 November.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "US"
+        ]
       },
       "connect": "Peace efforts have moved between countries: Abu Dhabi, Geneva, Oslo and St Petersburg. Diplomats often meet in cities away from the fighting, so each side can talk without being at home.",
       "sources": [

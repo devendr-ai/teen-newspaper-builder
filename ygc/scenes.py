@@ -352,7 +352,7 @@ def talks(spec=None):
 
 
 SCENES = {"ship": ship, "strait": strait, "border": border, "fire": fire, "flood": flood, "grid": grid, "ballot": ballot,
-          "airdefense": airdefense, "rocket": rocket, "podium": podium, "cricket": cricket, "skyline": skyline,
+          "airdefense": airdefense, "rocket": rocket, "cricket": cricket, "skyline": skyline,
           "capitol": capitol, "robot": robot, "farm": farm, "globe": globe, "court": court, "protest": protest,
           "hospital": hospital, "talks": talks}
 

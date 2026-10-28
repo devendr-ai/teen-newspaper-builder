@@ -539,7 +539,6 @@ class IllustrationCard(Flowable):
         "ballot": _draw_ballot,
         "airdefense": _draw_airdefense,
         "rocket": _draw_rocket,
-        "podium": _draw_podium,
         "cricket": _draw_cricket,
         "skyline": _draw_skyline,
         "capitol": _draw_capitol,

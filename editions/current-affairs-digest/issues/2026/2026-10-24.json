@@ -47,9 +47,14 @@
       ],
       "illustration": {
         "title": "Talks, again",
-        "subtitle": "A date after 10 November",
-        "motif": "podium",
-        "caption": "The three sides last met in Geneva in February."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "The three sides last met in Geneva in February.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "US"
+        ]
       },
       "connect": "Geography and history: St. Petersburg and Oslo, where Witkoff also met Zelenskyy, sit on the Baltic and North Sea coasts of Europe. Past rounds of talks have been held in Abu Dhabi and Geneva.",
       "sources": [

@@ -50,9 +50,14 @@
       ],
       "illustration": {
         "title": "Three-way talks may restart",
-        "subtitle": "Next round: Abu Dhabi",
-        "motif": "podium",
-        "caption": "Talks are due to resume after 10 November."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "Talks are due to resume after 10 November.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "US"
+        ]
       },
       "connect": "Economics: EU leaders ended last week's summit without agreeing new money for Ukraine, so any talks happen while European budgets are still unsettled.",
       "sources": [

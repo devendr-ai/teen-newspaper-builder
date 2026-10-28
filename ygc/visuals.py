@@ -17,8 +17,10 @@ majority-seat threshold diagram, clearly distinguished from results. Economics: 
 comparison when the story supplies comparable numbers with the same unit. Science: use a
 short explanation of the observed mechanism or discovery process. Geography stories keep
 real locator maps. Never force a chart when data are missing; use a sourced explanation or
-locator instead. Decorative globes/skylines must not stand in for an explanation.
-`visual` schema: {"type":"seats|bars|steps", "title":"short title", "caption":"what it shows",
+locator instead. Decorative globes/skylines must not stand in for an explanation. Never use
+sports podiums, medal ranks or confetti to depict talks, speeches, awards without rankings,
+or the number of participants. For three-party talks use the sourced `talks` diagram.
+`visual` schema: {"type":"seats|bars|steps|positions", "title":"short title", "caption":"what it shows",
 "source_url":"one of this story's source URLs"}. All evidence fields must be exact excerpts
 from the story body/deck, which must itself be grounded in the research sources.
 - seats: add `total`, `threshold` (integer seats), `total_evidence`, `threshold_evidence`.
@@ -27,6 +29,8 @@ from the story body/deck, which must itself be grounded in the research sources.
   `label` <=22 characters, non-negative numeric `value`, and `evidence` containing that number).
   Compare like with like, distinguish estimates from confirmed numbers in the caption.
   The chart always starts at zero. Never mix currencies, units or probabilities with counts.
+- positions: use 2-4 `items` with short `label` and exact `evidence` for each reported
+  position or unresolved question. Neutral equal rows, no ranking, arrows or implied sequence.
 - steps: add `items` (2-4 objects with `label` <=72 characters and `evidence`). The order
   must be supported by the article; no invented step, causal claim or guaranteed outcome.
 Titles <=44 characters, captions <=220. Cite the graphic's numbers and claims in the story
@@ -64,7 +68,7 @@ def validate(story):
             fail('seats needs integer total 2-2000 and a simple majority threshold (total // 2 + 1)')
         evidence(v.get('total_evidence'), total)
         evidence(v.get('threshold_evidence'), threshold)
-    elif kind in ('bars', 'steps'):
+    elif kind in ('bars', 'steps', 'positions'):
         items = v.get('items')
         if not isinstance(items, list) or not 2 <= len(items) <= 4 or not all(isinstance(i, dict) for i in items):
             fail('needs 2-4 item objects')
@@ -89,7 +93,7 @@ def validate(story):
             if not any(numeric(i.get('value')) and i['value'] > 0 for i in items):
                 fail('bars needs at least one positive value')
     else:
-        fail('type must be seats, bars or steps')
+        fail('type must be seats, bars, steps or positions')
     return errors
 
 
@@ -134,11 +138,12 @@ def commands(v):
         for i, item in enumerate(items):
             y = 27+i*pitch
             out.append(('rect', 12, y, 316, pitch-5, LIGHT))
-            text(23, y+(pitch-5)/2+3, str(i+1), 10, TEAL, bold=True)
+            if v['type'] == 'steps':
+                text(23, y+(pitch-5)/2+3, str(i+1), 10, TEAL, bold=True)
             lines = textwrap.wrap(item['label'], 50)
             for j, line in enumerate(lines):
-                text(43, y+(pitch-5)/2+3+(j-(len(lines)-1)/2)*11, line, 10)
-            if i < len(items)-1:
+                text(43 if v['type'] == 'steps' else 23, y+(pitch-5)/2+3+(j-(len(lines)-1)/2)*11, line, 10)
+            if v['type'] == 'steps' and i < len(items)-1:
                 # Reading order, not an inferred causal arrow.
                 out.append(('line', 29, y+pitch-5, 29, y+pitch, MUTED))
     return out
@@ -172,7 +177,7 @@ def summary(v):
     elif v['type'] == 'bars':
         detail = '; '.join(f"{i['label']}: {i['value']} {v['unit']}" for i in v['items']) + '. Zero baseline.'
     else:
-        detail = '; '.join(f"{n+1}. {i['label']}" for n,i in enumerate(v['items']))
+        detail = '; '.join((f'{n+1}. ' if v['type'] == 'steps' else '') + i['label'] for n,i in enumerate(v['items']))
     return v['title'] + '. ' + detail
 
 

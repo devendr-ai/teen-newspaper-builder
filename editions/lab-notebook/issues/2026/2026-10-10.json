@@ -67,19 +67,33 @@
         "Soai's reaction offers a clue to one of science's oldest puzzles: why life on Earth uses molecules of only one hand. A small, random imbalance on the early Earth might have been amplified in the same way.",
         "This is not the first Nobel for that challenge. In 2001 the chemistry prize went to three chemists who invented catalysts that make mostly one hand, methods now used to produce medicines. Kagan was a pioneer of that field; this year's prize honours his discovery that the relationship between a catalyst's purity and the product's purity is not a straight line, and Soai's demonstration that a reaction can copy its own handedness."
       ],
-      "illustration": {
-        "title": "MIRROR-IMAGE MOLECULES",
-        "subtitle": "Stockholm, Sweden",
-        "motif": "podium",
-        "caption": "The two winners share a prize of 12 million Swedish crowns."
-      },
       "why": "Getting the hand wrong can be deadly. In the 1950s and 60s, the drug thalidomide was sold as a mixture of both hands, and thousands of babies were born with severe birth defects. Work like Kagan's and Soai's helps chemists make medicines with just the hand they want. Today, medicine regulators expect drug makers to study each hand of a new molecule separately.",
       "sources": [
         "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
         "https://www.chemistryworld.com/news/reactions-that-demonstrate-how-homochirality-can-emerge-take-chemistry-nobel-prize/4024187.article",
         "https://cen.acs.org/people/nobel-prize/chemistry-nobel-chirality-kagan-soai/104/web/2026/10",
         "https://edition.cnn.com/2026/10/07/science/nobel-prize-chemistry-2026-henri-kagan-kenso-soai-winner-intl"
-      ]
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW THE REACTION AMPLIFIES A BIAS",
+        "caption": "How Soai's reaction amplifies a small imbalance.",
+        "source_url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+        "items": [
+          {
+            "label": "Start with a tiny excess of one molecular hand",
+            "evidence": "a tiny excess of one hand snowballs into almost pure product"
+          },
+          {
+            "label": "The product speeds up making more of itself",
+            "evidence": "a reaction whose product speeds up the making of more of itself"
+          },
+          {
+            "label": "The imbalance grows into almost pure product",
+            "evidence": "a tiny excess of one hand snowballs into almost pure product"
+          }
+        ]
+      }
     },
     "climate_and_environment": {
       "kicker": "CLIMATE & ENVIRONMENT  •  COP31",
