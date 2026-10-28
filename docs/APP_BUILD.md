@@ -1,4 +1,4 @@
-# The News Pebbles app (iPhone and iPad)
+# The News Pebbles app (iPhone, iPad and Android)
 
 The app is the website's own pages, saved on the phone, plus what only an app can do. It starts on the
 same home page; Listen takes Design's place in the tab bar. The code is in `mobile/` (Expo).
@@ -13,6 +13,7 @@ same home page; Listen takes Design's place in the tab bar. The code is in `mobi
 | **Morning reminder** | For parents → This app: a daily notification the phone sets for itself (`mobile/src/reminder.ts`). No push server |
 | **Print and share** | After the Parental Gate, the iPhone's print sheet (PDFs, the certificate) and share sheet |
 | **iPad** | The same pages; they already lay out for tablets |
+| **Android** | The same app. Differences: the back button and gesture go back a page (`BackHandler`); a paper's PDF opens in the phone's PDF viewer, since Android's WebView can't show PDFs (`openPdf`); the Design PDF goes to the share sheet through expo-sharing; the reminder has its own notification channel; a strip under the tab bar keeps it clear of the system navigation bar |
 
 ### How a page talks to the app (`assets/app/app.js`)
 
@@ -94,9 +95,14 @@ On a Mac, from `mobile/`:
 2. **TestFlight:** `npx eas-cli@latest build --platform ios --profile production`, then
    `npx eas-cli@latest submit --platform ios --latest`. The first build asks to sign in to the Apple
    Developer account and creates the certificates; EAS keeps them.
-3. **The App Store:** everything to paste into App Store Connect is in `mobile/store/`.
+3. **The App Store:** everything to paste into App Store Connect is in `mobile/store/listing.md`.
+4. **Android:** try it with Expo Go on an Android phone (same QR code), or
+   `npx eas-cli@latest build --platform android --profile preview` for an `.apk` to install. For Google
+   Play, `--profile production` makes the `.aab`; the listing, Data safety answers and the closed-testing
+   steps are in `mobile/store/play-listing.md`, the images in `mobile/store/play/`.
 
-Checks: `npm run typecheck`, `npm run lint`, and `npx expo export --platform ios` (bundles the app).
+Checks: `npm run typecheck`, `npm run lint`, and `npx expo export --platform ios` / `--platform android`
+(bundles the app).
 `tests/test_app.py` checks the website side, including `tests/app-bridge.cjs` in a real browser with a
 stand-in for the app.
 

@@ -152,6 +152,24 @@ function nativeApp() {
   await plain.click('#lp-papers .lp-row');
   await plain.waitForTimeout(1500);
   ok('browser: Listen plays by itself', await plain.isVisible('#lp-now'), errs2);
+
+  // Android: a paper's PDF opens in the phone's PDF viewer (its WebView can't show one), and the page
+  // tells the app the tab bar's colour for the strip under it
+  const droid = await browser.newPage({ viewport: { width: 412, height: 915 },
+    userAgent: 'Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Mobile Safari/537.36' });
+  const errs3 = []; droid.on('pageerror', (e) => errs3.push(e.message));
+  await droid.addInitScript(nativeApp);
+  await droid.goto(B + 'e/' + paper, { waitUntil: 'networkidle' });
+  const before = droid.url();
+  await droid.click('a.recommended-archive');
+  await droid.waitForTimeout(300);
+  const dsent = await droid.evaluate(() => window.__sent);
+  const open = dsent.filter((m) => m.t === 'openPdf').pop();
+  ok('android: a PDF link goes to the phone\'s PDF viewer', open && /\.pdf$/.test(open.url) && droid.url() === before, open);
+  await droid.goto(B + 'index.html', { waitUntil: 'networkidle' });
+  const hello = (await droid.evaluate(() => window.__sent)).filter((m) => m.t === 'page').pop();
+  ok('android: the page sends the tab bar colour', hello && /^rgb/.test(hello.bar), hello);
+  ok('android: no page errors', errs3.length === 0, errs3);
   await browser.close();
   console.log(JSON.stringify(out, null, 1));
   process.exit(out.every((x) => x.pass) ? 0 : 1);
