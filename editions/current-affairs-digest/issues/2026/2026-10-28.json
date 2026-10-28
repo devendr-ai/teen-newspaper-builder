@@ -54,9 +54,14 @@
       ],
       "illustration": {
         "title": "TALKS WITHOUT A PAUSE",
-        "subtitle": "26 October",
-        "motif": "podium",
-        "caption": "The Kremlin says 10 November, in Abu Dhabi."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "The Kremlin says 10 November, in Abu Dhabi.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
       },
       "connect": "Zelenskyy wants a leaders' meeting on territory, while Putin wants lasting agreements on security; that gap is what the talks must cross.",
       "sources": [

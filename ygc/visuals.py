@@ -17,7 +17,9 @@ majority-seat threshold diagram, clearly distinguished from results. Economics: 
 comparison when the story supplies comparable numbers with the same unit. Science: use a
 short explanation of the observed mechanism or discovery process. Geography stories keep
 real locator maps. Never force a chart when data are missing; use a sourced explanation or
-locator instead. Decorative globes/skylines must not stand in for an explanation.
+locator instead. Decorative globes/skylines must not stand in for an explanation. Never use
+sports podiums, medal ranks or confetti to depict talks, speeches, awards without rankings,
+or the number of participants. For three-party talks use the sourced `talks` diagram.
 `visual` schema: {"type":"seats|bars|steps", "title":"short title", "caption":"what it shows",
 "source_url":"one of this story's source URLs"}. All evidence fields must be exact excerpts
 from the story body/deck, which must itself be grounded in the research sources.

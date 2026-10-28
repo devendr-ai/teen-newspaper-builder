@@ -149,12 +149,6 @@
         "What happens next is a matter of process. President Isaac Herzog will first invite the leading candidate to form a government and can offer the mandate to the rival if that fails. If no coalition forms, another election could follow, possibly in 2027. Herzog wants to avoid that, noting Israel has voted five times in seven years. Kan asked voters what should happen if Eisenkot's bloc finishes first but short of 61: a unity government 27%, a repeat election 27%, a minority government with Arab parties abstaining 26%.",
         "NBC News describes the vote as Netanyahu's battle for survival after the 7 October 2023 attacks. In the Kan poll 36% of voters were undecided on which party to support, 80% of opposition voters and 75% of coalition voters were certain to vote, and Eisenkot led Netanyahu 44% to 38% on suitability for prime minister. Israel will close West Bank crossings on election day, and an exit poll is scheduled for 10pm IST."
       ],
-      "illustration": {
-        "title": "61 OF 120",
-        "subtitle": "The majority needed",
-        "motif": "podium",
-        "caption": "Final polls leave both blocs short of a majority."
-      },
       "why": "A parliamentary system rewards the ability to make deals: the party with the most seats may still be unable to govern.",
       "sources": [
         {
@@ -182,7 +176,17 @@
           "title": "Gas prices, election rallies and today's developments",
           "url": "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays"
         }
-      ]
+      ],
+      "visual": {
+        "type": "seats",
+        "title": "WHY 61 SEATS MATTERS",
+        "caption": "Majority threshold, not poll projections or election results.",
+        "source_url": "https://www.thejc.com/news/israel/final-polls-2026-israeli-elections-coalition-deadlock-wrapvp7a",
+        "total": 120,
+        "threshold": 61,
+        "total_evidence": "120-seat Knesset",
+        "threshold_evidence": "a coalition needs 61 seats"
+      }
     },
     "economics": {
       "kicker": "ECONOMY  •  INTEREST RATES",

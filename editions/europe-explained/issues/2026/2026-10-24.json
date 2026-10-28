@@ -45,9 +45,14 @@
       ],
       "illustration": {
         "title": "Talks, again",
-        "subtitle": "A date after 10 November",
-        "motif": "podium",
-        "caption": "Earlier rounds were held in Abu Dhabi and Geneva."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "Earlier rounds were held in Abu Dhabi and Geneva.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "US"
+        ]
       },
       "connect": "Geography: Oslo and St. Petersburg are both Baltic-region cities, while the earlier talks were held in Abu Dhabi and Geneva, neutral places far from the fighting.",
       "sources": [

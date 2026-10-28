@@ -164,12 +164,6 @@
         "<b>Literature (October 8).</b> Canadian poet and classics scholar Anne Carson, 76, won for work that plays with the classical tradition and creates new forms for contemporary literature. Born in Toronto, she has also held Icelandic citizenship since 2022; her best-known books include Autobiography of Red and Eros the Bittersweet. Each prize is worth 12 million Swedish kronor.",
         "Key facts for revision: Medicine was announced by the Nobel Assembly at the Karolinska Institute; Physics and Chemistry by the Royal Swedish Academy of Sciences; Literature by the Swedish Academy; Peace by the Norwegian Nobel Committee. The prizes were first awarded in 1901 under the will of Alfred Nobel, the inventor of dynamite."
       ],
-      "illustration": {
-        "title": "NOBEL PRIZES 2026",
-        "subtitle": "Stockholm, Sweden",
-        "motif": "podium",
-        "caption": "Each prize is presented on December 10, the anniversary of Alfred Nobel's death."
-      },
       "why": "Two of the three science prizes reward new tools rather than single discoveries: a way to control brain cells with light, and a telescope that looks for particles instead of light. Tools like these open whole fields, which is why they often win Nobels.",
       "sources": [
         "https://nobelprize.org/prizes/medicine/2026/press-release",
@@ -179,7 +173,27 @@
         "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
         "https://www.aljazeera.com/news/2026/10/8/canadian-anne-carson-wins-2026-nobel-prize-in-literature",
         "https://www.npr.org/2026/10/08/nx-s1-5984350/nobel-prize-in-literature-anne-carson"
-      ]
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW OPTOGENETICS WORKS",
+        "caption": "An example from the medicine prize: using light to study nerve cells.",
+        "source_url": "https://nobelprize.org/prizes/medicine/2026/press-release",
+        "items": [
+          {
+            "label": "Identify a light-sensitive protein",
+            "evidence": "identified channelrhodopsin, a light-sensitive protein in a single-celled alga"
+          },
+          {
+            "label": "Use light to switch individual nerve cells on or off",
+            "evidence": "a tool that switches individual nerve cells on or off with light"
+          },
+          {
+            "label": "Study how the brain shapes memory and behaviour",
+            "evidence": "revealing how the brain shapes memory, feelings and behaviour"
+          }
+        ]
+      }
     },
     "briefs": {
       "items": [

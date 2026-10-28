@@ -49,9 +49,14 @@
       ],
       "illustration": {
         "title": "THREE-WAY TALKS NEXT MONTH",
-        "subtitle": "Ukraine, Russia, US",
-        "motif": "podium",
-        "caption": "Russia says 10 November, in Abu Dhabi."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "Russia says 10 November, in Abu Dhabi.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
       },
       "connect": "Putin's phrase 'security for Europe overall' links the Ukraine talks to every European capital.",
       "sources": [

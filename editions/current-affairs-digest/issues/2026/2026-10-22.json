@@ -46,9 +46,14 @@
       ],
       "illustration": {
         "title": "Three-way talks may restart",
-        "subtitle": "Next round: Abu Dhabi",
-        "motif": "podium",
-        "caption": "Talks are due to resume after 10 November."
+        "subtitle": "Explainer diagram",
+        "motif": "talks",
+        "caption": "Talks are due to resume after 10 November.",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "US"
+        ]
       },
       "connect": "Geography and economics: the war has pushed up energy prices around the world, which is why diplomacy in St Petersburg and Oslo can affect fuel bills in India.",
       "sources": [

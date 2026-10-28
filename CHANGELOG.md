@@ -1,3 +1,13 @@
+## Remove misleading winners' podiums
+
+- Correct all 15 published issues that used a ranked sports podium for talks, elections,
+  EU funding or Nobel science. Talks now name three equally sized parties; other replacements
+  explain the sourced seat threshold, funding process or scientific mechanism.
+- Remove the ambiguous `podium` motif from allowed publishing choices and Read & Play's
+  registered scenes. New submissions using it fail the existing motif validation.
+- Publishing guidance explicitly forbids medal rankings/confetti for unranked participants.
+  Article text, issue dates and page plans are unchanged.
+
 ## Explain each story with its visual
 
 - Story-level `visual` overrides fixed section graphics without changing the page plan:

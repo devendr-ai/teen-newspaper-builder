@@ -88,3 +88,19 @@ def test_chart_labels_do_not_silently_round_source_numbers():
     s['visual']['items'][0].update(value=123456.789, evidence='The comparison value is 123456.789 in this test.')
     assert visuals.validate(s) == []
     assert '123456.789' in visuals.svg(s['visual'])
+
+
+def test_podium_cannot_be_selected_as_a_metaphor_for_talks_or_awards():
+    from ygc.graphics import IllustrationCard
+    from ygc import prompt
+    assert 'podium' not in IllustrationCard.known_motifs()
+    for p in Path(edition.ROOT).glob('editions/*/issues/*/*.json'):
+        issue = json.loads(p.read_text())
+        assert all(b.get('illustration', {}).get('motif') != 'podium'
+                   for b in issue['blocks'].values() if isinstance(b, dict)), str(p)
+    s = story(); s.pop('visual')
+    s['illustration'] = dict(motif='podium',title='Three-way talks',subtitle='Three sides',caption='Talks')
+    result = checks.Report()
+    checks.check_graphics(edition.load('global-citizen-plus'), s, 'world', 260, result)
+    assert any('podium' in err for err in result.errors)
+    assert 'medal ranks or confetti' in prompt.generate(edition.load('europe-explained'))

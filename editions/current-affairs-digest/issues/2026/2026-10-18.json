@@ -50,12 +50,6 @@
         "On the EU budget, the Commission proposed nearly 2 trillion euros for 2028–2034. The Irish presidency’s compromise would cut about 141 billion euros, but Euronews reports it is dead. Costa is expected to present a compromise before a special summit on November 26.",
         "Elsewhere on the summit agenda, leaders asked the Commission for a toolbox of trade defences against China, including quotas and tariffs. The EU’s trade deficit with China is about 360 billion euros, and Chinese exports to the EU rose 25% over the past year. Russian strikes killed three people in Kharkiv and left hundreds of thousands without power."
       ],
-      "illustration": {
-        "title": "EUROPE’S BILL",
-        "subtitle": "Brussels summit",
-        "motif": "podium",
-        "caption": "Leaders asked the Commission how to fill the gap."
-      },
       "connect": "Ukraine’s funding is now tied to wider EU budget fights: six fiscally conservative states want a smaller budget while 17 “Friends of Cohesion” want to protect farm and regional funds.",
       "sources": [
         {
@@ -73,7 +67,27 @@
           "title": "EU summit ends with mounting bills and unresolved divisions",
           "url": "https://news.cgtn.com/news/2026-10-17/EU-summit-ends-with-mounting-bills-and-unresolved-divisions-1Rj3f0YKAxy/p.html"
         }
-      ]
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "UKRAINE FUNDING: WHAT HAPPENS NEXT",
+        "caption": "The existing loan and the extra request cover different funding needs.",
+        "source_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff",
+        "items": [
+          {
+            "label": "EU: EUR90bn loan covering 2026 and 2027",
+            "evidence": "a 90 billion euro loan covering 2026 and 2027"
+          },
+          {
+            "label": "Ukraine: request for an extra EUR70bn",
+            "evidence": "asked for an extra 70 billion euros"
+          },
+          {
+            "label": "Commission: propose how to close the gap",
+            "evidence": "the Commission was asked to propose how to close the gap"
+          }
+        ]
+      }
     },
     "india": {
       "kicker": "INDIA  •  NEW DELHI",
