@@ -197,7 +197,10 @@ def thumb(story, href, w=None):
     _, icon, tone = desk(re.sub(r"(?i)\b(top|big|lead) story\b", "", plain(story.get("kicker", ""))))
     if icon == "📰" and (story.get("map") or story.get("chart")):    # a map's whole picture won't fit this small
         icon, tone = ("🌍", "teal") if story.get("map") else ("📊", "sun")
-    if story.get("illustration"):
+    if story.get("visual"):
+        from .visuals import svg
+        pic = svg(story["visual"])
+    elif story.get("illustration"):
         pic = scenes.scene(story["illustration"].get("motif", ""), plain(story["illustration"].get("caption", "")), story["illustration"])
     elif w:
         pic = (f'<span class="mini" data-c="{E("|".join(w["countries"]))}" data-lat="{w["lat"]}" data-lon="{w["lon"]}" '
@@ -209,6 +212,10 @@ def thumb(story, href, w=None):
 
 def top_figure(story, w):
     """The picture at the top of a story card: its real map, moving picture, or growing chart."""
+    if story.get("visual"):
+        from .visuals import svg
+        v = story["visual"]
+        return f'<figure class="pic">{svg(v)}<figcaption>{E(v["caption"])}</figcaption></figure>'
     if story.get("map"):
         return where_html(w) if w else scene_html("map", story["map"])
     if story.get("illustration"):

@@ -161,7 +161,7 @@ def check_blocks(ed, issue, r):
             if s.get("kicker") and _lines(s["kicker"], S["section_tag"], w) > 1:
                 r.err(f"{where}.kicker wraps; keep it to one line")
             for g in cfg.get("graphics", []):
-                if g not in s:
+                if g not in s and "visual" not in s:
                     r.err(f"{where}.{g} is required by the edition")
             for x in cfg.get("extras", []):
                 if x not in s:
@@ -196,6 +196,11 @@ def check_blocks(ed, issue, r):
 
 
 def check_graphics(ed, s, where, W, r):
+    if "visual" in s:
+        from .visuals import validate
+        for message in validate(s):
+            r.err(f"{where}.{message}")
+        return
     ch = s.get("chart")
     if ch:
         labels, values = ch.get("labels", []), ch.get("values", [])

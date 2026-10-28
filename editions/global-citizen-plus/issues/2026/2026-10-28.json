@@ -15,17 +15,6 @@
         "Channel 12 gave Netanyahu's bloc 50 seats and Eisenkot's bloc 52, while Channel 13 and Kan put both blocs level at 51. Do the sums with Channel 12: 50 plus 52 is 102, so 18 seats sit outside both blocs. The Jerusalem Post reported that Arab parties were projected at 17 to 18 seats, and NBC News reported that Eisenkot has all but ruled out governing with them. That is why neither man has an easy path to 61.",
         "Turnout was 77.7%, the highest since 1999, according to the Central Elections Committee, with some 5.7 million people voting. Netanyahu's Likud was projected to be the largest single party, at close to 27 seats. Now likely weeks of talks begin, and President Isaac Herzog will ask a candidate to try to form a government."
       ],
-      "map": {
-        "title": "THE EASTERN MEDITERRANEAN",
-        "label_top": "ISRAEL",
-        "label_bottom": "EGYPT",
-        "footnote": "Israel voted on 27 October",
-        "caption": "Locator: Israel on the Mediterranean coast, with Egypt to the southwest.",
-        "countries": [
-          "Israel",
-          "Egypt"
-        ]
-      },
       "why": "A seat count of 61 decides who can govern, which is why one number can matter more than the total of votes.",
       "sources": [
         {
@@ -43,7 +32,17 @@
           "title": "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority",
           "url": "https://www.jpost.com/israel-election-2026/article-913053"
         }
-      ]
+      ],
+      "visual": {
+        "type": "seats",
+        "title": "WHY 61 SEATS MATTERS",
+        "caption": "61 of 120 seats for a majority. Threshold only, not results.",
+        "source_url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl",
+        "total": 120,
+        "threshold": 61,
+        "total_evidence": "The Knesset has 120 seats",
+        "threshold_evidence": "a party or group of parties needs 61 to hold a majority"
+      }
     },
     "world": {
       "kicker": "WORLD  •  UKRAINE",
@@ -218,12 +217,6 @@
         "Rubin is only getting started. Its sky survey, the Legacy Survey of Space and Time, began in June 2026, and in April the team announced over 11,000 new asteroids, including roughly 380 new objects beyond Neptune.",
         "If it is confirmed, the Rubin team says 2026 ED138 would be among the largest dwarf planets ever discovered in this region of the solar system."
       ],
-      "illustration": {
-        "title": "A POSSIBLE DWARF PLANET",
-        "subtitle": "2026 ED138",
-        "motif": "globe",
-        "caption": "About 46 au from the Sun."
-      },
       "why": "Mathematics and software let astronomers find a world that no one had spotted in decades of looking.",
       "sources": [
         {
@@ -241,7 +234,27 @@
           "title": "The Vera C. Rubin Observatory may have just discovered our solar system's sixth dwarf planet",
           "url": "https://www.scientificamerican.com/article/the-vera-c-rubin-observatory-may-have-just-discovered-our-solar-systems-sixth-dwarf-planet/"
         }
-      ]
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW THE OBJECT WAS FOUND",
+        "caption": "Software linked observations; further observations are still needed to establish whether the object qualifies as a dwarf planet.",
+        "source_url": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate",
+        "items": [
+          {
+            "label": "Search code links detections of the same object",
+            "evidence": "search code that links billions of moving-object detections that belong to the same object"
+          },
+          {
+            "label": "20 more observations confirm the object",
+            "evidence": "confirmed the object with 20 more observations going back to March 2026"
+          },
+          {
+            "label": "Next: test whether gravity makes it round",
+            "evidence": "Further observations are needed to tell whether 2026 ED138 has enough mass for its own gravity to pull it into a round shape"
+          }
+        ]
+      }
     },
     "economics": {
       "kicker": "ECONOMY  •  CURRENCY",
@@ -257,12 +270,6 @@
         "What next? Anuj Choudhary of Mirae Asset Sharekhan expects the rupee to trade with a negative bias, between 94.85 and 95.50 per dollar. Business Recorder reported that higher oil prices and outflows have left the rupee relying on the central bank's support.",
         "The dollar itself was a little stronger: the dollar index, which compares it with other major currencies, rose 0.06% to 101.86."
       ],
-      "illustration": {
-        "title": "THE RUPEE AND THE DOLLAR",
-        "subtitle": "27 October",
-        "motif": "skyline",
-        "caption": "About 95.22 rupees per dollar in early trade."
-      },
       "why": "Prices for oil are set in dollars, so currency moves reach petrol pumps and shops.",
       "sources": [
         {
@@ -305,7 +312,26 @@
           "title": "RBI's rupee-defence measures may offer near-term relief, say analysts",
           "url": "https://www.business-standard.com/economy/news/rbi-s-rupee-defence-measures-may-offer-near-term-relief-say-analysts-126101100471_1.html"
         }
-      ]
+      ],
+      "visual": {
+        "type": "bars",
+        "title": "MORE RUPEES FOR ONE DOLLAR",
+        "caption": "Monday close versus Tuesday early trade: 7 paise more per dollar. These are different points in time, not a Tuesday closing rate.",
+        "source_url": "https://www.dtnext.in/news/business/rupee-falls-7-paise-to-9522-against-us-dollar-in-early-trade",
+        "unit": "Rupees per US dollar",
+        "items": [
+          {
+            "label": "Monday close",
+            "value": 95.15,
+            "evidence": "The rupee settled at 95.15 on Monday"
+          },
+          {
+            "label": "Tuesday early",
+            "value": 95.22,
+            "evidence": "the rupee fell 7 paise to 95.22 against the US dollar in early trade"
+          }
+        ]
+      }
     },
     "briefs": {
       "items": [

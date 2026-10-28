@@ -118,19 +118,25 @@ def r_story(s, cfg, ctx, w):
     out.append(Spacer(1, 3))
     for i, para in enumerate(s.get("body", [])):
         out.append(Paragraph(para, S["body_lead"] if i == 0 else S["body"]))
-    if "map" in graphics and s.get("map"):
+    if s.get("visual"):
+        from .visuals import StoryVisual, height
         out.append(Spacer(1, 3))
-        out.append(StyledMap(s["map"], width=w, height=1.7 * inch))
-        out.append(Paragraph(s["map"].get("caption", ""), S["caption"]))
-    if "illustration" in graphics and s.get("illustration"):
-        out.append(Spacer(1, 3))
-        h = 1.25 * inch if size == "lead" else 1.40 * inch
-        out.append(IllustrationCard(s["illustration"], width=w, height=h))
-        out.append(Paragraph(s["illustration"].get("caption", ""), S["caption"]))
-    if "chart" in graphics and s.get("chart"):
-        out.append(Spacer(1, 4))
-        out.append(BarChart(s["chart"], width=w, height=1.80 * inch))
-        out.append(Paragraph(s["chart"].get("caption", ""), S["caption"]))
+        out.append(StoryVisual(s["visual"], w, height(graphics, size)))
+        out.append(Paragraph(s["visual"].get("caption", ""), S["caption"]))
+    else:
+        if "map" in graphics and s.get("map"):
+            out.append(Spacer(1, 3))
+            out.append(StyledMap(s["map"], width=w, height=1.7 * inch))
+            out.append(Paragraph(s["map"].get("caption", ""), S["caption"]))
+        if "illustration" in graphics and s.get("illustration"):
+            out.append(Spacer(1, 3))
+            h = 1.25 * inch if size == "lead" else 1.40 * inch
+            out.append(IllustrationCard(s["illustration"], width=w, height=h))
+            out.append(Paragraph(s["illustration"].get("caption", ""), S["caption"]))
+        if "chart" in graphics and s.get("chart"):
+            out.append(Spacer(1, 4))
+            out.append(BarChart(s["chart"], width=w, height=1.80 * inch))
+            out.append(Paragraph(s["chart"].get("caption", ""), S["caption"]))
     _extras(out, s, cfg, ctx)
     if (ctx.issue.get("threads") or {}).get(getattr(ctx, "bid", None)):     # part of a big ongoing story
         out.append(Paragraph("New to this story? Catch up with <b>The story so far</b> on Read &amp; Play.",

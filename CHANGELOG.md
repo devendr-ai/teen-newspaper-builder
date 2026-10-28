@@ -1,3 +1,14 @@
+## Explain each story with its visual
+
+- Story-level `visual` overrides fixed section graphics without changing the page plan:
+  majority seat diagrams, comparable zero-baseline bars, and short science/process explanations.
+- Every new visual requires a story source URL and exact evidence excerpts. Numbers must occur
+  in their evidence; the editorial fact-checker also checks meaning, units and ordered claims.
+- Print and Read & Play share one layout; accessible text includes all diagram numbers/steps.
+  Publishing prompts and the nightly instructions choose by story, retaining real locators when useful.
+- The 28 October Global Citizen Plus sample replaces its election locator, currency skyline
+  and science globe with explanatory visuals; article text and four-page format are preserved.
+
 ## Factual print visuals
 
 - Printed locator maps now use the same Natural Earth country geometry as Read & Play,

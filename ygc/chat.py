@@ -54,8 +54,7 @@ def field_rules(ed):
         L.append(f"- `illustration`: `title` at most 44 characters, `subtitle` at most 25; `motif` is exactly one "
                  "word from the list in the skeleton.")
     if "map" in used:
-        L.append("- `map`: `title` names the water (e.g. \"STRAIT OF HORMUZ\"); `label_top` and `label_bottom` are the "
-                 "two land areas on either side, one or two words each in capitals; `footnote` may be empty.")
+        L.append("- `map`: a real locator; use recognised `countries` and optionally a known `place`. Never invent a coastline or route.")
     if "chart" in used:
         L.append(f"- `chart`: 2 to 4 bars from real, sourced numbers. `labels` at most {lim.get(2, 15)} characters with "
                  f"2 bars, {lim.get(3, 10)} with 3, {lim.get(4, 8)} with 4; `values` are plain numbers; `max` is at least "
