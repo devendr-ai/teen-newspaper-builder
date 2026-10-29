@@ -26,17 +26,17 @@ export function currentProps(): Props {
   return e ? propsFor(e) : EMPTY;
 }
 async function apply() { if (available) await (await import('./native')).apply(currentProps()); }
-function adopt(next: Feed) {
+function adopt(next: Feed, keepNewer = false) {
   const before = feed();
   // A background refresh may be ahead of the app's downloaded newspaper pack.
   const editions = next.editions.map(e => {
     const old = before.editions.find(o => o.edition === e.edition);
-    return old && old.date > e.date ? old : e;
+    return keepNewer && old && old.date > e.date ? old : e;
   });
   store(CACHE, { v: 1, editions });
 }
 export async function syncFromPack() {
-  try { adopt(parseFeed(JSON.parse(new File(fileUri('widgets.json')).textSync()))); } catch { /* retain cached question */ }
+  try { adopt(parseFeed(JSON.parse(new File(fileUri('widgets.json')).textSync())), true); } catch { /* retain cached question */ }
   await apply();
 }
 export async function refresh() {
