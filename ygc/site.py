@@ -448,7 +448,7 @@ nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:4px 18px}nav a{font-weight:
 @media (max-width:999px){.js .menu{display:block}.js header.top nav{display:none;width:100%;flex-direction:column;gap:0;margin:0}
   .js header.top.open nav{display:flex}.js header.top nav a{padding:10px 2px;border-top:1px solid var(--line)}}
 .intro{margin:0 0 6px}.intro .motto{margin:2px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(1.25rem,2.6vw,1.6rem);letter-spacing:-.01em}.intro .lede{display:inline;margin:0 8px 0 0;color:var(--muted)}.intro[data-photo]{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(230px,.8fr);gap:24px;align-items:center;margin:12px 0 18px}.intro .ritual{color:var(--cyan);font-weight:700;margin:12px 0 0}.intro-photo{margin:0}.intro-photo img{display:block;width:100%;height:190px;object-fit:cover;object-position:50% 0;border-radius:10px}.intro-photo figcaption{font-size:.7rem;color:var(--muted);margin-top:3px}
-@media(max-width:650px){.intro[data-photo]{display:block;margin:0 0 14px}.intro .ritual{margin-top:8px;font-size:.9rem}.intro-photo{margin-top:10px}.intro-photo img{height:105px;object-position:50% 0}}
+@media(max-width:650px){.intro[data-photo]{display:block;margin:0 0 6px}.intro .ritual,.intro-photo{display:none}}
 .how{display:inline}.how summary{display:inline}
 .how summary{color:var(--cyan);font-weight:700;cursor:pointer;list-style:none}.how summary::-webkit-details-marker{display:none}
 .how summary::after{content:" ›"}.how[open] summary::after{content:" ‹"}
@@ -921,7 +921,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         steps = f'<ol class="steps">{steps}</ol>' if steps else ""
         how = f'<details class="how"><summary>How it works</summary><div class="box">{heading}{text}{steps}</div></details>'
     # Only local, explicitly configured assets: safe in the offline app as well.
-    photo = cfg.get("home_photo") or {}
+    photo = {} if kids else (cfg.get("home_photo") or {})
     filename = photo.get("image", "")
     source = os.path.join(brand.ASSETS, filename)
     has_photo = bool(filename and os.path.basename(filename) == filename and os.path.isfile(source))
@@ -931,7 +931,7 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         figure = (f'<figure class="intro-photo"><img src="{E(filename)}" width="900" height="600" '
                   f'alt="{E(photo.get("alt", ""))}" decoding="async">'
                   f'<figcaption>{E(photo.get("caption", ""))}</figcaption></figure>')
-    ritual = f'<p class="ritual">{E(cfg["home_ritual"])}</p>' if cfg.get("home_ritual") else ""
+    ritual = f'<p class="ritual">{E(cfg["home_ritual"])}</p>' if cfg.get("home_ritual") and not kids else ""
     intro_photo_attr = " data-photo" if has_photo else ""
     intro = (f'<section class="intro"{intro_photo_attr}><div><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}{ritual}</div>{figure}</section>')
