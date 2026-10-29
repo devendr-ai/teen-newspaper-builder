@@ -7,7 +7,7 @@ export type Status = {
   id: string; title: string; track: string; index: number; count: number;
   playing: boolean; time: number; duration: number; ended: boolean;
 };
-type Load = { id: string; title?: string; artist?: string; tracks: Track[]; at?: number; rate?: number };
+type Load = { id: string; title?: string; artist?: string; tracks: Track[]; at?: number; rate?: number; autoplay?: boolean };
 
 let list: AudioPlaylist | null = null;
 let now: (Load & { title: string }) | null = null;
@@ -73,7 +73,7 @@ export function load(m: Load) {
     { title: m.tracks[0]?.title || now.title, artist: now.title, albumTitle: 'News Pebbles' },
     { showNextTrack: several, showPreviousTrack: several, showSeekForward: !several, showSeekBackward: !several },
   );
-  list.play();
+  if (m.autoplay !== false) list.play();
 }
 
 export function play() { list?.play(); }

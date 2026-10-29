@@ -968,6 +968,8 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
             page(cfg, "Feedback", feedback_body(cfg["feedback_url"], cfg), here="feedback"))
     from . import play                      # the children's side: read online and play
     play.build(out, cfg, keep=min(keep, int(cfg.get("play_keep", 7))), log=log)
+    from . import widgets
+    widgets.write(out, published)
     from . import share                     # how links look when shared; sitemap, robots.txt, 404
     share.build(out, cfg, log=log)
     if cfg["kids_mode"]:
@@ -1036,7 +1038,18 @@ APP_BOX = """<style>.np-appbox{background:var(--surface);border:1.5px solid var(
 <input type="checkbox" id="np-rem-on" class="np-switch" role="switch"></span></div>
 <div class="np-row"><span><b>Saved for offline</b><span id="np-off-what">Papers and audio from the last 7 days</span></span>
 <b class="np-ok" id="np-off-state"></b></div>
-<p class="np-note" id="np-off-note"></p></section>"""
+<p class="np-note" id="np-off-note"></p>
+<section id="np-widget-panel" hidden aria-labelledby="np-widget-title">
+<div class="np-row"><label for="np-widget-on"><b id="np-widget-title">A question to share</b><span>One question from your paper, on your home screen.</span></label>
+<input type="checkbox" id="np-widget-on" class="np-switch" role="switch"></div>
+<p><label for="np-widget-edition">Paper for the widget</label><br><select id="np-widget-edition" style="max-width:100%;font:inherit;padding:8px;min-height:44px"></select></p>
+<p class="np-note" id="np-widget-note"></p>
+<details><summary>Add the widget to your screen</summary><p>First turn it on above and choose a paper.</p>
+<p><b>iPhone home screen:</b> touch and hold an empty area, tap Edit, then Add Widget. Find News Pebbles and add “A question to share.”</p>
+<p><b>iPhone Lock Screen:</b> touch and hold your Lock Screen, tap Customize, then the widget area. Choose News Pebbles.</p>
+<p><b>Android:</b> touch and hold an empty home-screen area, tap Widgets, then drag the News Pebbles question onto your screen.</p>
+<p>Tap the question to open its paper. If its car-ride brief is saved, the audio player will be ready—tap Play to listen. The issue date stays visible when offline. Refresh times are controlled by your phone.</p></details>
+</section></section>"""
 
 
 
@@ -1227,7 +1240,7 @@ addresses when serving requests. Aggregate results appear only after five respon
 completion or rewards. Resetting this device’s reading data clears local choices and receipts; it does not retract a
 previously shared anonymous response. Server records expire automatically.</p>
 <h3>Other services the site uses</h3>
-<ul>{f'<li><b>Inside the app</b>, every page, picture, recording and typeface is saved on the device. On its own it fetches only each day&rsquo;s papers, from {E(cfg.get("domain") or "our website")} (GitHub Pages, which like any web host sees the device&rsquo;s network address). Optional response sharing contacts Cloudflare only after the grown-up question. Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
+<ul>{f'<li><b>Inside the app</b>, every page, picture, recording and typeface is saved on the device. On its own it fetches only each day&rsquo;s papers and any parent-enabled widget questions, from {E(cfg.get("domain") or "our website")} (GitHub Pages, which like any web host sees the device&rsquo;s network address). Optional response sharing contacts Cloudflare only after the grown-up question. Links to other websites, email and sharing open only after a grown-up answers a question.</li>' if cfg.get("kids_mode") else '<li><b>GitHub Pages</b> hosts the site. Like any web host, it sees the address of each device that visits.</li>'}
 <li><b>Typefaces and the Design-your-own engine</b> are served from {E(cfg["title"])} itself, not from Google or other font and code services.</li>
 <li><b>Read aloud</b> normally plays pre-generated AI recordings made with Kokoro. They are generated during publishing and served
 as audio files from this site, rather than generated from a child's voice or reading activity. Your browser may cache recordings
@@ -1237,11 +1250,14 @@ from this site, and sends us nothing about who listens.
 Some browser voices use an online service, so the text being spoken may be sent to that voice provider. Your microphone is not used.
 Saved listening positions stay in this browser on this device.</li>
 {('<li><b>The feedback form</b> is a Google Form' + (', which opens in your browser only after the grown-up question' if cfg.get("kids_mode") else '') + '. Please don&rsquo;t include your child&rsquo;s full name or anything that identifies them.</li>') if cfg.get("feedback_url") else ""}</ul>
-<h3>The News Pebbles app (iPhone and iPad)</h3>
+<h3>The News Pebbles app (iPhone, iPad and Android)</h3>
 <p>The app shows these same pages. When it opens, it downloads the day&rsquo;s papers and recordings from {E(cfg.get("domain") or "this website")}
-and keeps the last 7 days on the device, so they work offline. It counts nothing, has no ads and no account, and sends nothing else to us
-or anyone else. The morning reminder is a notification the device sets for itself, at the time a grown-up chooses in For parents.
+and keeps the last 7 days on the device, so they work offline. It counts nothing, has no ads and no account. The morning reminder is a notification the device sets for itself, at the time a grown-up chooses in For parents.
 Reading data in the app stays on the device; deleting the app deletes it.</p>
+<p>If a grown-up enables a question widget, the chosen paper and latest question are saved on this device.
+The app may fetch a small public question feed from our website in the background while enabled; it attaches no email,
+child&rsquo;s name, device identifier or reading progress. The phone controls update timing, so the widget shows the issue date.
+Turn it off in For parents to stop widget updates and clear its displayed question.</p>
 <h3>Printed papers</h3>
 <p>The QR code on a printed paper opens that paper's page in Read &amp; Play. It carries nothing about who scanned it.</p>
 {privacy_contact(cfg)}""")

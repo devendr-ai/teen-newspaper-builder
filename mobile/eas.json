@@ -23,6 +23,10 @@
       "android": {
         "buildType": "app-bundle"
       }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     }
   },
   "submit": {

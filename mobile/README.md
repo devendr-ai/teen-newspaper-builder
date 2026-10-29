@@ -20,3 +20,8 @@ npx eas-cli@latest build --platform android --profile preview      # an .apk to 
 | `src/player.ts` | The phone's player (expo-audio): lock screen, background, next story |
 | `src/reminder.ts` | The daily "Today's papers are ready" notification |
 | `src/MiniPlayer.tsx` | What's playing, on pages without their own player |
+
+## Question widgets
+
+See [setup, privacy, offline behaviour and testing](../docs/QUESTION_WIDGETS.md).
+Widgets need a new native build; Expo Go remains supported for the rest of the app.
