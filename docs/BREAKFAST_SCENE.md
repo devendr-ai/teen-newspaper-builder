@@ -1,7 +1,8 @@
 # Homepage breakfast scene
 
 Asset: `assets/breakfast-table.webp` (900 × 600, approximately 94 KB), copied to
-the public and app build roots by the homepage renderer. No external image host.
+the public website build root by the homepage renderer. It is omitted from
+the app build. No external image host.
 
 The image is an **AI-illustrated product scene**, not a customer photograph.
 Its visible caption discloses this. Replace it with a genuine photo of a printed
@@ -19,6 +20,7 @@ page of The Little Explorer, 24 October 2026. Final prompt:
 > morning light and paper texture. No phone, tablet, face, testimonial or
 > invented replacement news. Disclose it as an AI-illustrated scene.
 
-Desktop uses a compact image beside the existing introduction. At widths up to
-650px, it becomes a 105px strip beneath the supporting line. Original homepage
+The website uses a compact image beside the existing introduction at widths
+above 650px. Phone layouts hide both the image and the ritual line. The app
+build omits both entirely at every screen size. Original homepage
 fonts, navigation, age selection, recommendations and print/share controls remain.
