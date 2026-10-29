@@ -968,6 +968,8 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
             page(cfg, "Feedback", feedback_body(cfg["feedback_url"], cfg), here="feedback"))
     from . import play                      # the children's side: read online and play
     play.build(out, cfg, keep=min(keep, int(cfg.get("play_keep", 7))), log=log)
+    from . import widgets
+    widgets.write(out, published)
     from . import share                     # how links look when shared; sitemap, robots.txt, 404
     share.build(out, cfg, log=log)
     if cfg["kids_mode"]:
@@ -1036,7 +1038,18 @@ APP_BOX = """<style>.np-appbox{background:var(--surface);border:1.5px solid var(
 <input type="checkbox" id="np-rem-on" class="np-switch" role="switch"></span></div>
 <div class="np-row"><span><b>Saved for offline</b><span id="np-off-what">Papers and audio from the last 7 days</span></span>
 <b class="np-ok" id="np-off-state"></b></div>
-<p class="np-note" id="np-off-note"></p></section>"""
+<p class="np-note" id="np-off-note"></p>
+<section id="np-widget-panel" hidden aria-labelledby="np-widget-title">
+<div class="np-row"><label for="np-widget-on"><b id="np-widget-title">A question to share</b><span>One question from your paper, on your home screen.</span></label>
+<input type="checkbox" id="np-widget-on" class="np-switch" role="switch"></div>
+<p><label for="np-widget-edition">Paper for the widget</label><br><select id="np-widget-edition" style="max-width:100%;font:inherit;padding:8px;min-height:44px"></select></p>
+<p class="np-note" id="np-widget-note"></p>
+<details><summary>Add the widget to your screen</summary><p>First turn it on above and choose a paper.</p>
+<p><b>iPhone home screen:</b> touch and hold an empty area, tap Edit, then Add Widget. Find News Pebbles and add “A question to share.”</p>
+<p><b>iPhone Lock Screen:</b> touch and hold your Lock Screen, tap Customize, then the widget area. Choose News Pebbles.</p>
+<p><b>Android:</b> touch and hold an empty home-screen area, tap Widgets, then drag the News Pebbles question onto your screen.</p>
+<p>Tap the question to open its paper. If its car-ride brief is saved, the audio player will be ready—tap Play to listen. The issue date stays visible when offline. Refresh times are controlled by your phone.</p></details>
+</section></section>"""
 
 
 
