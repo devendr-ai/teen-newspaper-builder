@@ -87,6 +87,7 @@ OFFLINE
 FOR GROWN-UPS
 • Print any paper (US Letter) for the breakfast table
 • A morning reminder at the time you choose
+• An optional home-screen widget with a question from your chosen paper, to talk about together
 • Every link out, share, print and the parents' pages ask a grown-up a quick question first
 
 PRIVATE BY DESIGN
@@ -123,7 +124,8 @@ How to test:
 3. Grown-up question: links to news sources, sharing, printing and the For parents tab ask a sum written in words, e.g. "What is sixteen multiplied by four?" (answer 64). Three wrong answers pause it for 30 seconds.
 4. For parents → This app: turn on the morning reminder and pick a time (a local notification; there is no push server).
 5. Print: on a paper's page, "Print this paper" opens the iOS print sheet after the grown-up question.
-6. For parents → Design your own (no second question): parents build a custom paper with their own AI chatbot (the chatbot opens in Safari after the grown-up question); the finished PDF opens the share sheet.
+6. For parents → This app → A question to share: choose a paper and turn it on, then add the News Pebbles widget from the Home Screen or Lock Screen widget picker. Tapping it opens that issue.
+7. For parents → Design your own (no second question): parents build a custom paper with their own AI chatbot (the chatbot opens in Safari after the grown-up question); the finished PDF opens the share sheet.
 
 There are no ads, no analytics and no third-party SDKs in the app. Links out open in Safari. Optional email delivery and anonymous "You Make the Call" responses (ages 12+) are sent only after the grown-up question.
 ```
