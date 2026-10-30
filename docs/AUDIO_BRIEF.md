@@ -1,31 +1,54 @@
 # The car-ride brief
 
-A three-minute, two-host audio version of **The Breakfast Table**, on Read & Play
-only (not the home page). It is a test: we keep it if families start and finish it.
+A **3–5 minute**, two-host conversation from **The Breakfast Table**, on Read & Play
+and the app's Listen tab. Read it to me still narrates each article faithfully.
 
 ## How it is made
 
-1. **Script.** The nightly run writes `play.brief.lines` in each Breakfast Table issue,
-   following `editions/breakfast-table/PROMPT.md`. Each line is
-   `{"who": "maya" | "sam", "text": "...", "chapter": "Riyadh & oil"}`; `chapter`
-   marks the first line of each story. Maya explains; Sam asks what a curious
-   nine-year-old would ask.
-2. **Check.** `ygc check` runs `ygc/brief.py: check()`. It requires both hosts, 300 to
-   600 words, 2 to 6 short chapter labels, turns of at most 70 words, no web
-   addresses, and **no number that the issue itself doesn't give** (rounding allowed).
-   A paper opts in with `site: {audio_brief: true}` in its `edition.yaml`.
-3. **Site build.** `ygc site` writes the script to `play/briefs/<date>.json`, and the
-   lobby gets an empty `#brief` slot under *Today's papers*.
-4. **Audio.** The publishing step `python -m ygc.narration` (`briefs()`) reads the
-   newest script aloud with two Kokoro voices (Maya `af_heart`, Sam `am_michael`), adds a
-   short chime between stories, and writes `play/audio/<hash>.mp3`, the line and chapter
-   timings, `play/briefs/latest.json` and the podcast feed `play/podcast.xml`. Recordings
-   are cached in `.cache/narration` like story narration, so a rebuild costs nothing. A new
-   brief adds a few minutes to the deploy.
+1. **Script.** Scheduled issue generation writes `play.brief.format: 2` with a warm
+   welcome/curiosity hook (about 15 seconds), exactly three stories with a concrete
+   sourced explanation each, two quiz questions and answers, one family discussion
+   question and a cheerful close. Maya hosts; Sam asks purposeful questions. Target
+   450–620 words. Story turns reference their issue block via `story`; chapters label
+   the three story starts. See `ygc/brief.py: PROMPT` for the versioned fields.
+2. **Grounding.** The writer uses the existing verified research pool. Its independent
+   fact-check explicitly reviews every brief claim against both the referenced story
+   and the pool. Mechanical checks enforce order, three distinct story references,
+   two existing quiz items about covered stories, exact checked answers, the issue's
+   discussion question, no added numbers, short turns and both hosts. These checks
+   do not replace editorial review. Legacy archived scripts remain valid.
+3. **Podcastfy + Kokoro.** `ygc/podcast.py` implements Podcastfy's `TTSProvider` with
+   our existing local Kokoro engine and cache. Podcastfy parses its Person1/Person2
+   transcript; a round-trip assertion prevents any dropped, reordered or added words,
+   including consecutive same-host turns. Kokoro voices remain Maya `af_heart` and
+   Sam `am_michael`. No cloud speech API or extra LLM is invoked.
+4. **Pacing.** Our assembler preserves line/chapter timings, adds a small story chime,
+   inserts **four seconds of silence after each quiz question**, normalizes the MP3,
+   and checks actual PCM duration is **180–300 seconds** before publication. It never
+   speeds up or pads an unsuitable script to fake the target. A failed new episode
+   is logged/skipped; older cached ready episodes can still be served.
+5. **Delivery.** Site generation writes `play/briefs/<date>.json`; narration adds audio,
+   timestamps, `latest.json` and the RSS feed. Public web and the app pack use the same
+   recording. The current dated sample updates only `play.brief` in the 28 October
+   issue; its printed articles and quiz are unchanged. Future scheduled issues use
+   the new prompt automatically. Cached legacy recordings are reused unchanged.
+
+Publishing prerequisites (Python 3.11+):
+
+```sh
+pip install -r requirements-narration.txt
+pip install --no-deps -r requirements-podcast.txt
+```
+
+The second command pins Podcastfy 0.4.3 without its unused dependency tree. Only its
+standard-library `podcastfy.tts.base` interface is imported; no cloud SDK, web-content
+extraction or Podcastfy transcript generator is used. The existing issue writer
+creates the grounded conversation. Both publishing workflows install this component;
+there is no additional paid provider or account. FFmpeg and espeak-ng are still needed.
 
 ## The player (`ygc/brief.py`: `CSS`, `JS`)
 
-One compact row at the top of *Today's papers*: artwork, "Car-ride brief · 3 min", title,
+One compact row at the top of *Today's papers*: artwork, "Car-ride brief" with its measured duration, title,
 play and a ⋯ menu. While it plays, the title shows the current story ("Now: Cyclone
 Arnab"), chapter buttons appear on wider screens, and a thin line along the bottom shows
 progress. The ⋯ menu has **Read along** (the script with the current line highlighted;

@@ -72,7 +72,61 @@ class Tone:
 
     def synthesize(self, text, voice):
         self.calls.append(voice)
-        return b"\x10\x00" * 2400, 24000
+        return b"\x10\x00" * int(24000 * len(text.split()) * .4), 24000
+
+
+def modern_issue():
+    return json.load(open(os.path.join(ROOT, "editions", "breakfast-table", "issues", "2026", "2026-10-28.json")))
+
+
+def test_conversational_structure_and_checked_quiz():
+    i = modern_issue()
+    assert errors(i) == []
+    b = i["play"]["brief"]
+    assert b["format"] == 2
+    assert {ln["story"] for ln in b["lines"] if ln["section"] == "story"} == {"lead", "world", "us"}
+    assert len([ln for ln in b["lines"] if ln["section"] == "quiz_question"]) == 2
+    assert "play.brief" in __import__('ygc.auto.writer', fromlist=['FACTCHECK_SYSTEM']).FACTCHECK_SYSTEM
+
+
+@pytest.mark.parametrize("change,message", [
+    (lambda lines: lines[2].update(story="missing"), "news story block"),
+    (lambda lines: next(x for x in lines if x["section"] == "quiz_answer").update(text="An invented answer."), "exactly"),
+    (lambda lines: next(x for x in lines if x["section"] == "discussion").update(text="An invented question?"), "question from this issue"),
+    (lambda lines: lines.reverse(), "in order"),
+])
+def test_conversational_checks_reject_unsupported_structure(change, message):
+    i = modern_issue()
+    change(i["play"]["brief"]["lines"])
+    assert any(message in e for e in errors(i))
+
+
+def test_podcastfy_preserves_turns_and_uses_only_local_kokoro(tmp_path):
+    from ygc.podcast import turns
+    lines = [{"who": "maya", "text": "Hello & welcome."},
+             {"who": "maya", "text": "Same host again."},
+             {"who": "sam", "text": "Why does it matter?"}]
+    tone = Tone()
+    assert len(list(turns(lines, tmp_path, lambda: tone))) == 3
+    assert tone.calls == ["af_heart", "af_heart", "am_michael"]
+    list(turns(lines, tmp_path, lambda: tone))
+    assert len(tone.calls) == 3  # the adapter reuses our existing speech cache
+
+
+def test_new_audio_has_quiz_pauses_and_duration_guard(tmp_path, encoder):
+    i = modern_issue()
+    lines = brief.data(edition.load("breakfast-table"), i, i["date"])["lines"]
+    _, _, timing = narration.brief_recording(lines, tmp_path, lambda: Tone(), encoder, version=2)
+    assert 180 <= timing["duration"] <= 300
+    for n, ln in enumerate(lines):
+        if ln["section"] == "quiz_question":
+            speech = len(ln["text"].split()) * .4
+            assert timing["starts"][n + 1] - timing["starts"][n] == pytest.approx(speech + 4, abs=.01)
+    changed = copy.deepcopy(lines)
+    changed[0]["chapter"] = "Different boundary"
+    assert narration.brief_key(lines, 2) != narration.brief_key(changed, 2)
+    with pytest.raises(ValueError, match="180–300s"):
+        narration.brief_recording(lines[:2], tmp_path, lambda: Tone(), encoder, version=2)
 
 
 @pytest.fixture

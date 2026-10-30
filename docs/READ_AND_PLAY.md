@@ -220,6 +220,7 @@ To audition them locally:
 ```sh
 # Install ffmpeg and espeak-ng using your system package manager first.
 pip install -r requirements.txt -r requirements-narration.txt
+pip install --no-deps -r requirements-podcast.txt
 python -m ygc site --out _site
 python -m ygc.narration --site _site --voice af_heart
 # To compare the other voice, rerun with --voice af_bella.

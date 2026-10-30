@@ -1,0 +1,4 @@
+# Install with: pip install --no-deps -r requirements-podcast.txt
+# We use only the standard-library TTSProvider transcript/parser interface.
+# Cloud SDKs, URL ingestion and Podcastfy's LLM clients are intentionally unused.
+podcastfy==0.4.3

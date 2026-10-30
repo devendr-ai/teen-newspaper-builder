@@ -5,7 +5,7 @@ name: Deploy the website
 on:
   push:
     branches: [main]
-    paths: ["editions/**", "threads/**", "data/analyst/**", "ygc/**", "assets/**", "site.yaml", "tools/**", "requirements-narration.txt", ".github/workflows/pages.yml"]
+    paths: ["editions/**", "threads/**", "data/analyst/**", "ygc/**", "assets/**", "site.yaml", "tools/**", "requirements-narration.txt", "requirements-podcast.txt", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -39,7 +39,9 @@ jobs:
           key: narration-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: narration-v1-${{ runner.os }}-
       - name: Install free narration engine
-        run: pip install -r requirements-narration.txt
+        run: |
+          pip install -r requirements-narration.txt
+          pip install --no-deps -r requirements-podcast.txt
       - name: Narrate published stories with Kokoro
         run: python -u -m ygc.narration --site _site --latest-only
       - name: Build the app's offline pack (newspebbles.com/app/)

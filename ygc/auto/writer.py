@@ -27,7 +27,7 @@ MAX_ROUNDS = int(os.environ.get("YGC_MAX_REPAIR_ROUNDS", 4))
 
 FACTCHECK_SYSTEM = """You are a fact-checker. Compare a newspaper issue with the research pool it was written from.
 List every specific claim in the news stories, briefs, watchlist and sports item (names, numbers, dates, places,
-who said or did what) that the pool does not support, or that the pool contradicts. Also check blocks.*.visual: its evidence excerpts, numbers, labels, units, comparability, and every step or relationship against the story and pool. A matching number alone does not prove its meaning. Seat thresholds are not election results; estimates must remain labelled. Also check play.analyst factual premises and each causal link against the story and pool. Proposed policy options must be labelled hypothetical when not reported, balanced and ungraded. Ignore wording, style and
+who said or did what) that the pool does not support, or that the pool contradicts. Also check every factual claim in play.brief against the issue story block it references AND the research pool; explanations must be supported, not merely plausible. Quiz and discussion must come from this issue. Also check blocks.*.visual: its evidence excerpts, numbers, labels, units, comparability, and every step or relationship against the story and pool. A matching number alone does not prove its meaning. Seat thresholds are not election results; estimates must remain labelled. Also check play.analyst factual premises and each causal link against the story and pool. Proposed policy options must be labelled hypothetical when not reported, balanced and ungraded. Ignore wording, style and
 evergreen background facts. Check enriched claims against their evidence passages too; reject exaggeration or missing qualifiers. Reply with JSON only: {"unsupported": [{"where": "blocks.<id>...", "claim": "...", "problem": "..."}]}"""
 
 
@@ -99,6 +99,9 @@ def write_edition(client, ed, date, number, volume, pool, path, log=print):
             msgs.append({"role": "user", "content": feedback}); continue
         issue.update({"edition": ed["id"], "date": date.isoformat(), "issue": number, "volume": volume})
         r = checks.check_issue(ed, issue, path, archive=False, as_of=date)
+        from .. import brief
+        if brief.wants(ed) and (issue.get("play") or {}).get("brief", {}).get("format") != brief.FORMAT:
+            r.err("play.brief: new issues must use format 2 and the conversational episode structure")
         r.errors += _source_errors(issue, allowed)
         try:
             fit = render.measure(ed, issue) if not checks.unbuildable(r) else []

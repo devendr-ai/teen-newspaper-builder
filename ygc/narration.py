@@ -280,10 +280,18 @@ def chime(rate):
     return bytes(out) + b'\0\0' * int(rate * .3)
 
 
-def brief_recording(lines, cache, engine, ffmpeg):
+def brief_key(lines, version=1):
+    if version == 1:
+        return fingerprint(json.dumps([[ln['who'], ln['text']] for ln in lines], ensure_ascii=False), 'brief-v1')
+    # Chapter boundaries and pauses affect the recording, even if speech is identical.
+    return fingerprint(json.dumps([[ln['who'], ln['text'], ln.get('section'), ln.get('chapter')] for ln in lines],
+                                  ensure_ascii=False), 'podcastfy-0.4.3-kokoro-v2-pause4')
+
+
+def brief_recording(lines, cache, engine, ffmpeg, version=1):
     """One MP3 for a two-host script; returns it with each line's start, the length and the size."""
     from .brief import HOSTS
-    key = fingerprint(json.dumps([[ln['who'], ln['text']] for ln in lines], ensure_ascii=False), 'brief-v1')
+    key = brief_key(lines, version)
     mp3, timing = cache / 'recordings' / (key + '.mp3'), cache / 'recordings' / (key + '.json')
     if not (mp3.exists() and timing.exists()):
         mp3.parent.mkdir(parents=True, exist_ok=True)
@@ -291,21 +299,33 @@ def brief_recording(lines, cache, engine, ffmpeg):
         with tempfile.TemporaryDirectory() as tmp:
             wav = Path(tmp) / 'brief.wav'
             with wave.open(str(wav), 'wb') as out:
-                for i, ln in enumerate(lines):
-                    with wave.open(str(sentence_wav(ln['text'], HOSTS[ln['who']]['voice'], cache, engine)), 'rb') as src:
-                        if rate is None:
-                            rate = src.getframerate()
-                            out.setparams((1, 2, rate, 0, 'NONE', 'not compressed'))
-                        if src.getframerate() != rate or src.getnchannels() != 1 or src.getsampwidth() != 2:
-                            raise ValueError('Unexpected narration audio format')
-                        frames = src.readframes(src.getnframes())
+                def legacy_turns():
+                    for ln in lines:
+                        with wave.open(str(sentence_wav(ln['text'], HOSTS[ln['who']]['voice'], cache, engine)), 'rb') as src:
+                            if src.getnchannels() != 1 or src.getsampwidth() != 2:
+                                raise ValueError('Unexpected narration audio format')
+                            yield src.readframes(src.getnframes()), src.getframerate()
+                if version == 2:
+                    from .podcast import turns
+                    audio_turns = turns(lines, cache, engine)
+                else:
+                    audio_turns = legacy_turns()
+                for i, (ln, (frames, sample_rate)) in enumerate(zip(lines, audio_turns)):
+                    if rate is None:
+                        rate = sample_rate
+                        out.setparams((1, 2, rate, 0, 'NONE', 'not compressed'))
+                    if sample_rate != rate:
+                        raise ValueError('Unexpected narration audio format')
                     if i == 0 or (ln.get('chapter') and any(x.get('chapter') for x in lines[:i])):
                         bell = chime(rate)
                         out.writeframes(bell)
                         cursor += len(bell) / (2 * rate)
                     starts.append(round(cursor, 3))
-                    out.writeframes(frames + b'\0\0' * int(rate * .32))
-                    cursor += len(frames) / (2 * rate) + .32
+                    pause = 4.0 if version == 2 and ln.get('section') == 'quiz_question' else .32
+                    out.writeframes(frames + b'\0\0' * int(rate * pause))
+                    cursor += len(frames) / (2 * rate) + pause
+            if version == 2 and not 180 <= cursor <= 300:
+                raise ValueError(f'Car-ride brief is {cursor:.0f}s; revise the script to fit 180–300s')
             temp = Path(tmp) / 'brief.mp3'
             subprocess.run([ffmpeg, '-hide_banner', '-loglevel', 'error', '-y', '-i', str(wav), '-af',
                             'loudnorm=I=-16:TP=-1.5', '-ac', '1', '-codec:a', 'libmp3lame', '-b:a', '64k', str(temp)],
@@ -341,11 +361,16 @@ def briefs(site, cache, engine, ffmpeg='ffmpeg', latest_only=False, log=print):
         if not lines:
             continue
         sentences.update(fingerprint(ln['text'], HOSTS[ln['who']]['voice']) for ln in lines)
-        key = fingerprint(json.dumps([[ln['who'], ln['text']] for ln in lines], ensure_ascii=False), 'brief-v1')
+        version = data.get('format', 1)
+        key = brief_key(lines, version)
         recordings.add(key)
         if latest_only and n and not all((cache / 'recordings' / (key + ext)).exists() for ext in ('.mp3', '.json')):
             continue                                       # older briefs only from the cache
-        key, mp3, t = brief_recording(lines, cache, engine, ffmpeg)
+        try:
+            key, mp3, t = brief_recording(lines, cache, engine, ffmpeg, version)
+        except Exception as e:  # a bad optional episode must not hide the previous ready brief
+            log(f'  ! brief {f.name} skipped: {e}')
+            continue
         audio = site / 'play' / 'audio' / mp3.name
         shutil.copyfile(mp3, audio)
         for ln, start in zip(lines, t['starts']):
