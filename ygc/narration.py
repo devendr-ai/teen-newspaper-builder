@@ -84,8 +84,9 @@ def tracks(source):
             for i, card in enumerate(parser.cards) if card}
 
 
-def fingerprint(text, voice):
-    return hashlib.sha256((ENGINE + '\0' + voice + '\0' + normalized(text)).encode()).hexdigest()
+def fingerprint(text, voice, speed=1.0):
+    cadence = '' if speed == 1.0 else f'\0speed={speed:g}'
+    return hashlib.sha256((ENGINE + '\0' + voice + '\0' + normalized(text) + cadence).encode()).hexdigest()
 
 
 def download(url, dest):
@@ -135,18 +136,18 @@ class KokoroEngine:
                 return session.run(outputs, inputs)
         self.engine.sess = ModelSession()
 
-    def synthesize(self, text, voice):
-        samples, rate = self.engine.create(text, voice=voice, speed=1.0, lang='en-us')
+    def synthesize(self, text, voice, speed=1.0):
+        samples, rate = self.engine.create(text, voice=voice, speed=speed, lang='en-us')
         pcm = (self.np.clip(samples, -1, 1) * 32767).astype('<i2').tobytes()
         if not pcm:
             raise ValueError('Kokoro returned empty audio')
         return pcm, rate
 
 
-def sentence_wav(text, voice, cache, engine):
-    path = cache / 'sentences' / (fingerprint(text, voice) + '.wav')
+def sentence_wav(text, voice, cache, engine, speed=1.0):
+    path = cache / 'sentences' / (fingerprint(text, voice, speed) + '.wav')
     if not path.exists():
-        pcm, rate = engine().synthesize(text, voice)
+        pcm, rate = engine().synthesize(text, voice) if speed == 1.0 else engine().synthesize(text, voice, speed=speed)
         path.parent.mkdir(parents=True, exist_ok=True)
         temp = path.with_suffix('.tmp')
         with wave.open(str(temp), 'wb') as out:
@@ -284,8 +285,10 @@ def brief_key(lines, version=1):
     if version == 1:
         return fingerprint(json.dumps([[ln['who'], ln['text']] for ln in lines], ensure_ascii=False), 'brief-v1')
     # Chapter boundaries and pauses affect the recording, even if speech is identical.
-    return fingerprint(json.dumps([[ln['who'], ln['text'], ln.get('section'), ln.get('chapter')] for ln in lines],
-                                  ensure_ascii=False), 'podcastfy-0.4.3-kokoro-v2-pause4')
+    from .brief import PODCAST_HOSTS, PODCAST_SPEED
+    return fingerprint(json.dumps({"lines": [[ln['who'], ln['text'], ln.get('section'), ln.get('chapter')] for ln in lines],
+                                   "hosts": PODCAST_HOSTS}, ensure_ascii=False),
+                       'podcastfy-0.4.3-kokoro-v2-pause4', PODCAST_SPEED)
 
 
 def brief_recording(lines, cache, engine, ffmpeg, version=1):
@@ -350,7 +353,7 @@ def band_of(eid):
 def briefs(site, cache, engine, ffmpeg='ffmpeg', latest_only=False, log=print):
     """Audio for play/briefs/<date>.json (ygc.brief), then briefs/latest.json and the podcast feed."""
     from . import brief
-    from .brief import HOSTS
+    from .brief import HOSTS, PODCAST_HOSTS, PODCAST_SPEED
     folder = site / 'play' / 'briefs'
     (site / 'play' / 'audio').mkdir(exist_ok=True)
     sentences, recordings, made, ready = set(), set(), 0, []
@@ -360,8 +363,9 @@ def briefs(site, cache, engine, ffmpeg='ffmpeg', latest_only=False, log=print):
         lines = data.get('lines') or []
         if not lines:
             continue
-        sentences.update(fingerprint(ln['text'], HOSTS[ln['who']]['voice']) for ln in lines)
         version = data.get('format', 1)
+        hosts, speed = (PODCAST_HOSTS, PODCAST_SPEED) if version == 2 else (HOSTS, 1.0)
+        sentences.update(fingerprint(ln['text'], hosts[ln['who']]['voice'], speed) for ln in lines)
         key = brief_key(lines, version)
         recordings.add(key)
         if latest_only and n and not all((cache / 'recordings' / (key + ext)).exists() for ext in ('.mp3', '.json')):

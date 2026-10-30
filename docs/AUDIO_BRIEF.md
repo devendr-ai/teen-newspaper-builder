@@ -20,8 +20,9 @@ and the app's Listen tab. Read it to me still narrates each article faithfully.
 3. **Podcastfy + Kokoro.** `ygc/podcast.py` implements Podcastfy's `TTSProvider` with
    our existing local Kokoro engine and cache. Podcastfy parses its Person1/Person2
    transcript; a round-trip assertion prevents any dropped, reordered or added words,
-   including consecutive same-host turns. Kokoro voices remain Maya `af_heart` and
-   Sam `am_michael`. No cloud speech API or extra LLM is invoked.
+   including consecutive same-host turns. Conversational Kokoro voices are Maya `af_bella` and
+   Sam `am_michael`, synthesized at **1.06×**. Article narration and legacy briefs
+   retain their original voices and cadence. Voice and speed are included in cache keys. No cloud speech API or extra LLM is invoked.
 4. **Pacing.** Our assembler preserves line/chapter timings, adds a small story chime,
    inserts **four seconds of silence after each quiz question**, normalizes the MP3,
    and checks actual PCM duration is **180–300 seconds** before publication. It never

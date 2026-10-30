@@ -12,6 +12,8 @@ from xml.sax.saxutils import escape
 
 HOSTS = {"maya": {"name": "Maya", "voice": "af_heart"},       # explains; the voice Read & Play already uses
          "sam": {"name": "Sam", "voice": "am_michael"}}       # asks what a curious reader would ask
+PODCAST_HOSTS = {**HOSTS, "maya": {"name": "Maya", "voice": "af_bella"}}
+PODCAST_SPEED = 1.06  # synthesis cadence, not the listener's playback-speed setting
 WORDS = (300, 600)              # about 2 to 4 minutes at a calm pace
 LINE_WORDS = 70
 CHAPTERS = (2, 6)

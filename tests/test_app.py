@@ -23,7 +23,7 @@ class Quiet(SimpleHTTPRequestHandler):
 
 
 class Tone:
-    def synthesize(self, text, voice):
+    def synthesize(self, text, voice, speed=1.0):
         # Approximate speech length so the episode's real duration guard is exercised.
         return b"\x10\x00" * int(24000 * len(text.split()) * .4), 24000
 

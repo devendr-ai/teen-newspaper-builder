@@ -69,9 +69,11 @@ def test_the_full_check_runs_the_brief_check():
 class Tone:
     def __init__(self):
         self.calls = []
+        self.speeds = []
 
-    def synthesize(self, text, voice):
+    def synthesize(self, text, voice, speed=1.0):
         self.calls.append(voice)
+        self.speeds.append(speed)
         return b"\x10\x00" * int(24000 * len(text.split()) * .4), 24000
 
 
@@ -108,9 +110,21 @@ def test_podcastfy_preserves_turns_and_uses_only_local_kokoro(tmp_path):
              {"who": "sam", "text": "Why does it matter?"}]
     tone = Tone()
     assert len(list(turns(lines, tmp_path, lambda: tone))) == 3
-    assert tone.calls == ["af_heart", "af_heart", "am_michael"]
+    assert tone.calls == ["af_bella", "af_bella", "am_michael"]
+    assert tone.speeds == [1.06, 1.06, 1.06]
     list(turns(lines, tmp_path, lambda: tone))
     assert len(tone.calls) == 3  # the adapter reuses our existing speech cache
+    narration.sentence_wav(lines[0]["text"], "af_bella", tmp_path, lambda: tone)
+    assert len(tone.calls) == 4 and tone.speeds[-1] == 1.0
+
+
+def test_brief_cache_includes_voice_and_speed_without_changing_legacy(monkeypatch):
+    lines = modern_issue()["play"]["brief"]["lines"]
+    old, modern = narration.brief_key(lines, 1), narration.brief_key(lines, 2)
+    monkeypatch.setattr(brief, "PODCAST_SPEED", 1.08)
+    assert narration.brief_key(lines, 1) == old
+    assert narration.brief_key(lines, 2) != modern
+    assert narration.fingerprint("Hello", "af_bella") != narration.fingerprint("Hello", "af_bella", 1.06)
 
 
 def test_new_audio_has_quiz_pauses_and_duration_guard(tmp_path, encoder):
@@ -164,7 +178,7 @@ def test_audio_latest_and_podcast_feed(tmp_path, built, encoder):
     (s / "play" / "audio").mkdir(exist_ok=True)
     cache, tone = tmp_path / "cache", Tone()
     _, recordings, made = narration.briefs(s, cache, lambda: tone, encoder, latest_only=True, log=lambda *a: None)
-    assert made >= 1 and set(tone.calls) == {"af_heart", "am_michael"}   # the newest; older ones only if cached
+    assert made >= 1 and set(tone.calls) == {"af_bella", "am_michael"}   # the newest; older ones only if cached
     latest = json.loads((s / "play" / "briefs" / "latest.json").read_text(encoding="utf-8"))
     assert (s / "play" / latest["audio"]).stat().st_size == latest["bytes"] > 0
     starts = [ln["start"] for ln in latest["lines"]]
