@@ -10,13 +10,13 @@ import wave
 
 def turns(lines, cache, engine):
     from podcastfy.tts.base import TTSProvider
-    from .brief import HOSTS
+    from .brief import PODCAST_HOSTS, PODCAST_SPEED
     from .narration import sentence_wav
 
     class KokoroTTS(TTSProvider):
         def generate_audio(self, text, voice, model="kokoro", voice2=None):
             self.validate_parameters(text, voice, model)
-            return sentence_wav(text, voice, cache, engine).read_bytes()
+            return sentence_wav(text, voice, cache, engine, speed=PODCAST_SPEED).read_bytes()
 
     provider = KokoroTTS()
     # Explicit empty counterparts preserve consecutive same-host turns. Never let
@@ -33,7 +33,7 @@ def turns(lines, cache, engine):
     if parsed != expected:
         raise ValueError("Podcastfy changed the checked transcript")
     for who, text in parsed:
-        raw = provider.generate_audio(text, HOSTS[who]["voice"])
+        raw = provider.generate_audio(text, PODCAST_HOSTS[who]["voice"])
         with wave.open(io.BytesIO(raw), "rb") as src:
             if src.getnchannels() != 1 or src.getsampwidth() != 2:
                 raise ValueError("Unexpected podcast audio format")
