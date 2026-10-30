@@ -928,9 +928,10 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     figure = ""
     if has_photo:
         shutil.copy(source, os.path.join(out, filename))
+        caption = f'<figcaption>{E(photo["caption"])}</figcaption>' if photo.get("caption") else ""
         figure = (f'<figure class="intro-photo"><img src="{E(filename)}" width="900" height="600" '
                   f'alt="{E(photo.get("alt", ""))}" decoding="async">'
-                  f'<figcaption>{E(photo.get("caption", ""))}</figcaption></figure>')
+                  f'{caption}</figure>')
     ritual = f'<p class="ritual">{E(cfg["home_ritual"])}</p>' if cfg.get("home_ritual") and not kids else ""
     intro_photo_attr = " data-photo" if has_photo else ""
     intro = (f'<section class="intro"{intro_photo_attr}><div><p class="motto">{E(cfg["home_headline"])}</p>'
