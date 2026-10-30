@@ -56,6 +56,7 @@ OFFLINE
 FOR GROWN-UPS
 • Print any paper for the breakfast table
 • A morning reminder at the time you choose
+• An optional home-screen widget with a question from your chosen paper, to talk about together
 • Every link out, share, print and the parents' pages ask a grown-up a quick question first
 
 PRIVATE BY DESIGN

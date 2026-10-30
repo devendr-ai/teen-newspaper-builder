@@ -90,8 +90,11 @@ fails, the website still publishes and phones keep what they saved. About 80 MB 
 
 On a Mac, from `mobile/`:
 
-1. **Try it on your iPhone (free, no build):** `npm install`, then `npx expo start` and scan the QR code
-   with the Expo Go app. It loads the live pack from newspebbles.com.
+1. **Try it on your iPhone (free, no build):** `npm install`, then `npm start` (`expo start --go`) and scan
+   the QR code with the Expo Go app. It loads the live pack from newspebbles.com. Plain `npx expo start`
+   serves a development build instead, because `expo-dev-client` is installed (for the widgets): Expo Go
+   can't open that. Widgets need a development build: `npx eas-cli@latest build --profile development`,
+   then `npm run start:dev`.
 2. **TestFlight:** `npx eas-cli@latest build --platform ios --profile production`, then
    `npx eas-cli@latest submit --platform ios --latest`. The first build asks to sign in to the Apple
    Developer account and creates the certificates; EAS keeps them.

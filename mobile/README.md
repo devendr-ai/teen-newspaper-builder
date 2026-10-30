@@ -6,7 +6,8 @@ See [docs/APP_BUILD.md](../docs/APP_BUILD.md) for how it works, and [store/](sto
 
 ```sh
 npm install
-npx expo start                                                     # try it in Expo Go
+npm start                                                          # try it in Expo Go (expo start --go)
+npm run start:dev                                                  # in a development build (widgets)
 npm run typecheck && npm run lint
 npx eas-cli@latest build --platform ios --profile production       # then: eas-cli submit --platform ios --latest
 npx eas-cli@latest build --platform android --profile production   # the .aab for Google Play
