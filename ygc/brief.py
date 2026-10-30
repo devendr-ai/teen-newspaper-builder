@@ -1,4 +1,4 @@
-"""The car-ride brief: a 3-minute, two-host audio version of a paper, on Read & Play.
+"""The car-ride brief: a 3–5 minute, two-host audio version of a paper, on Read & Play.
 
 A paper opts in with `site: {audio_brief: true}` in its edition.yaml (The Breakfast Table). Its issues then
 carry `play.brief` (online only, never printed): a short script for two hosts, Maya and Sam, written only
@@ -23,21 +23,107 @@ def wants(ed):
     return bool((ed.get("site") or {}).get("audio_brief"))
 
 
+FORMAT = 2
+PODCAST_WORDS = (450, 620)
+SECTIONS = ("welcome", "story", "quiz_question", "quiz_answer", "discussion", "close")
+
+
 def skeleton():
-    return {"lines": [{"who": "maya", "text": "", "chapter": ""}, {"who": "sam", "text": ""},
-                      {"who": "maya", "text": ""}]}
+    return {"format": FORMAT, "lines": [
+        {"who": "maya", "text": "", "section": "welcome"},
+        {"who": "sam", "text": "", "section": "story", "story": "lead", "chapter": ""}]}
 
 
-PROMPT = ("**Car-ride brief (online only, read aloud).** Fill `play.brief.lines` with a script of about three "
-          f"minutes ({WORDS[0]} to {WORDS[1]} words) for two hosts who talk the family through this issue on the "
-          "way to school. `who` is `maya` (who explains) or `sam` (who asks what a curious nine-year-old would "
-          "ask, like \"Wait, why does that change prices here?\"); `text` is what they say, one to three short "
-          f"sentences (at most {LINE_WORDS} words). Open with a hello naming the paper and the day, cover the "
-          "lead and two or three other stories, then a one-line round-up, and end with the issue's first TALK "
-          "ABOUT IT question for the car. Put `chapter` (a short label of at most "
-          f"{CHAPTER_CHARS} characters, like \"Riyadh & oil\") on the first line of each story, "
-          f"{CHAPTERS[0]} to {CHAPTERS[1]} in all. Use only facts already in this issue, with numbers written as "
-          "the issue writes them; no new facts, no jokes about the news, nothing scary, and no made-up banter.\n")
+PROMPT = f"""**Car-ride brief (online only, read aloud).** Set `play.brief.format` to {FORMAT}.
+Write {PODCAST_WORDS[0]}–{PODCAST_WORDS[1]} spoken words, targeting 3–5 minutes for ages 9–11.
+Keep the printed articles unchanged. Maya (`who: maya`) is a warm host; Sam (`who: sam`)
+asks natural, purposeful questions. Short spoken sentences, no fake reactions, invented
+scenes, frightening language or jokes about suffering. Each line: `who`, `text` (at most
+{LINE_WORDS} words), `section`, and these extra fields where specified. Use this exact order:
+1. `welcome`: about 25–35 words (15 seconds), name the paper/date and a curiosity hook.
+2. `story`: exactly THREE distinct issue stories, lead first. Roughly 100–140 words each,
+   over several host turns. Set `story` to the source block ID on EVERY story turn. Put a
+   distinct short `chapter` (max {CHAPTER_CHARS} characters) only on each story's first turn.
+   Explain one concrete mechanism/detail per story, supported by that block. Avoid a list
+   of statistics; explain what the news means. No additional facts from memory.
+3. `quiz_question`, `quiz_answer`, `quiz_question`, `quiz_answer`: choose TWO distinct
+   existing `play.quiz` items about the three covered stories. Each line has `quiz` (the
+   zero-based item index). Copy the question's `q` EXACTLY; copy the correct option plus
+   a space plus `why` EXACTLY for the answer. The renderer inserts a four-second thinking
+   pause after each question. Do not write pause cues into speech.
+4. `discussion`: copy ONE existing TALK ABOUT IT question exactly, inviting family thought.
+5. `close`: a brief cheerful goodbye, without another question or invented promises.
+Use only facts already in this issue and preserve their uncertainty/attribution. Numbers
+must match the issue. No new facts, quotations, URLs, ads or shout-outs. This is a separate
+listening script: Read it to me remains the exact article narration.
+"""
+
+
+def _check_format(issue, lines, r):
+    """Versioned rules do not invalidate existing published legacy episodes."""
+    groups = []
+    for ln in lines:
+        section = ln.get("section")
+        if not groups or groups[-1] != section:
+            groups.append(section)
+    if groups != ["welcome", "story", "quiz_question", "quiz_answer", "quiz_question", "quiz_answer", "discussion", "close"]:
+        r.err("play.brief: use welcome, three stories, two question/answer pairs, discussion, close in order")
+    story_ids = []
+    quizzes = issue.get("play", {}).get("quiz", [])
+    questions, answers = [], []
+    discussions = issue.get("blocks", {}).get("discussion", {}).get("body", [])
+    for ln in lines:
+        section, text = ln.get("section"), str(ln.get("text", "")).strip()
+        if section not in SECTIONS:
+            r.err("play.brief: every line needs a valid section")
+        if section == "story":
+            ref = ln.get("story")
+            block = issue.get("blocks", {}).get(ref, {}) if isinstance(ref, str) else {}
+            if not block.get("headline") or not block.get("body"):
+                r.err("play.brief: story must reference a news story block in this issue")
+            if not story_ids or story_ids[-1] != ref:
+                story_ids.append(ref)
+                if not ln.get("chapter"):
+                    r.err("play.brief: each story starts with a chapter")
+            elif ln.get("chapter"):
+                r.err("play.brief: chapter only on the first turn of each story")
+        elif ln.get("chapter"):
+            r.err("play.brief: chapters label stories only")
+        if section in ("quiz_question", "quiz_answer"):
+            idx = ln.get("quiz")
+            if type(idx) is not int or not 0 <= idx < len(quizzes):
+                r.err("play.brief: quiz must reference an existing quiz item")
+                continue
+            q = quizzes[idx]
+            try:
+                answer = q["options"][q["answer"]] + " " + q["why"]
+            except (KeyError, IndexError, TypeError):
+                r.err("play.brief: source quiz item must have a valid answer")
+                continue
+            if section == "quiz_question":
+                questions.append(idx)
+                expected = q["q"]
+            else:
+                answers.append(idx)
+                expected = answer
+            if text != expected:
+                r.err("play.brief: copy the checked quiz question/answer exactly")
+        if section == "discussion" and text not in discussions:
+            r.err("play.brief: discussion must be a question from this issue")
+        if "<" in text or ">" in text:
+            r.err("play.brief: no speech markup")
+    if len(story_ids) != 3 or len(set(story_ids)) != 3 or story_ids[0] != "lead":
+        r.err("play.brief: exactly three distinct stories, lead first")
+    if len(questions) != 2 or len(set(questions)) != 2 or questions != answers:
+        r.err("play.brief: two distinct questions with matching answers")
+    for idx in questions:
+        if quizzes[idx].get("story") not in story_ids:
+            r.err("play.brief: quiz must cover a story heard in this brief")
+    for section in ("welcome", "discussion", "close"):
+        if sum(ln.get("section") == section for ln in lines) != 1:
+            r.err(f"play.brief: exactly one {section} line")
+    if sum(len(str(ln.get("text", "")).split()) for ln in lines if ln.get("section") == "welcome") > 45:
+        r.err("play.brief: keep the welcome to about fifteen seconds")
 
 
 def _numbers(text):
@@ -62,6 +148,12 @@ def check(issue, brief, r):
     if not isinstance(lines, list) or len(lines) < 6:
         r.err("play.brief.lines: a script of at least 6 lines")
         return
+    modern = brief.get("format") == FORMAT
+    if brief.get("format", 1) not in (1, FORMAT):
+        r.err("play.brief: unsupported format")
+    if modern and all(isinstance(ln, dict) for ln in lines):
+        _check_format(issue, lines, r)
+    limits = PODCAST_WORDS if modern else WORDS
     words, speakers, chapters = 0, set(), []
     for i, ln in enumerate(lines):
         at = f"play.brief.lines[{i}]"
@@ -85,8 +177,8 @@ def check(issue, brief, r):
             if len(ch) > CHAPTER_CHARS:
                 r.err(f"{at}.chapter: at most {CHAPTER_CHARS} characters")
             chapters.append(ch)
-    if not WORDS[0] <= words <= WORDS[1]:
-        r.err(f"play.brief: {words} words; write {WORDS[0]} to {WORDS[1]} (about three minutes)")
+    if not limits[0] <= words <= limits[1]:
+        r.err(f"play.brief: {words} words; write {limits[0]} to {limits[1]} (three to five minutes for new briefs)")
     if not set(HOSTS) <= speakers:
         r.err("play.brief: both hosts, maya and sam, should speak")
     if not CHAPTERS[0] <= len(chapters) <= CHAPTERS[1]:
@@ -111,11 +203,12 @@ def check(issue, brief, r):
 def data(ed, issue, date):
     """The script as Read & Play serves it (play/briefs/<date>.json), before audio is made."""
     lines = [{"who": ln["who"], "name": HOSTS[ln["who"]]["name"], "text": str(ln["text"]).strip(),
+              **({"section": ln["section"]} if ln.get("section") else {}),
               **({"chapter": str(ln["chapter"]).strip()} if str(ln.get("chapter") or "").strip() else {})}
              for ln in (issue.get("play") or {}).get("brief", {}).get("lines", [])
              if isinstance(ln, dict) and ln.get("who") in HOSTS and str(ln.get("text", "")).strip()]
     day = dt.date.fromisoformat(date)
-    return {"paper": ed["id"], "name": ed["name"], "date": date, "day": f"{day:%a} {day.day} {day:%b}",
+    return {"format": (issue.get("play") or {}).get("brief", {}).get("format", 1), "paper": ed["id"], "name": ed["name"], "date": date, "day": f"{day:%a} {day.day} {day:%b}",
             "title": f"{ed['name']} Brief, {day.day} {day:%B %Y}",
             "chapters": [ln["chapter"] for ln in lines if ln.get("chapter")], "lines": lines}
 
@@ -137,7 +230,7 @@ def feed(cfg, episodes):
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel><title>{escape(title)}</title><link>{escape(base + 'play/')}</link><language>en</language>
-<description>{escape("Three minutes of the day's news for the ride to school, from The Breakfast Table. Two AI voices, Maya and Sam, talk through the paper using only its checked facts.")}</description>
+<description>{escape("Three to five minutes of the day's news for the ride to school, from The Breakfast Table. Two AI voices, Maya and Sam, talk through the paper using only its checked facts.")}</description>
 <itunes:author>{escape(cfg.get('title', 'News Pebbles'))}</itunes:author><itunes:explicit>false</itunes:explicit>
 <itunes:category text="Kids &amp; Family"/><itunes:image href="{escape(base + 'play/icon-512.png')}"/>
 {''.join(items)}

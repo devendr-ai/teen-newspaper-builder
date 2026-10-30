@@ -24,7 +24,8 @@ class Quiet(SimpleHTTPRequestHandler):
 
 class Tone:
     def synthesize(self, text, voice):
-        return b"\x10\x00" * 2400, 24000
+        # Approximate speech length so the episode's real duration guard is exercised.
+        return b"\x10\x00" * int(24000 * len(text.split()) * .4), 24000
 
 
 @pytest.fixture(scope="module")

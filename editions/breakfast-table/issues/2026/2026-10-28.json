@@ -333,94 +333,121 @@
       }
     ],
     "brief": {
+      "format": 2,
       "lines": [
         {
           "who": "maya",
-          "text": "Good morning! This is the Breakfast Table Brief from News Pebbles, for Wednesday, 28 October. I'm Maya."
+          "text": "Good morning, and welcome to The Breakfast Table for Wednesday, 28 October. I'm Maya, with Sam. Today, how can news far away reach a family’s fuel bill? Let's follow the connection.",
+          "section": "welcome"
         },
         {
           "who": "sam",
-          "text": "And I'm Sam. A few big stories in about three minutes. Ready?"
+          "text": "Our first story is about oil. We hear about its price in the news, but what does a barrel of oil have to do with a trip to the filling station?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Oil and everyday costs"
         },
         {
           "who": "maya",
-          "text": "Let's go. First, oil. A barrel of Brent crude, the price many countries follow, closed at $115.81 on Monday. Early on Tuesday it was $114.68.",
-          "chapter": "Oil prices"
+          "text": "Oil is the raw material for petrol and diesel. That is the connection. The price of crude oil can affect the fuel families buy. On Monday, Brent crude closed at $115.81 a barrel. Brent is an oil price many countries follow.",
+          "section": "story",
+          "story": "lead"
         },
         {
           "who": "sam",
-          "text": "Why is it so high?"
+          "text": "And the paper connects the price to fighting in the Gulf region. Saudi Arabia sells a great deal of oil. It has faced more attacks by the Houthis, an armed group in Yemen. But there are talks happening too?",
+          "section": "story",
+          "story": "lead"
         },
         {
           "who": "maya",
-          "text": "A group in Yemen called the Houthis keeps attacking Saudi Arabia, which sells a great deal of oil. Saudi Arabia's allies said they destroyed three drones on Monday. But there are talks too. Officials from Saudi Arabia, Turkey and Pakistan met Iran's leaders in Tehran."
+          "text": "Yes. Officials from Saudi Arabia, Turkey and Pakistan met Iran's leaders in Tehran on Monday. Iranian state media said they agreed to keep talking. So buyers are watching both the attacks and the diplomacy. Dearer oil can mean dearer fuel, which is part of the cost of moving food and families around.",
+          "section": "story",
+          "story": "lead"
         },
         {
           "who": "sam",
-          "text": "What is Brent?"
+          "text": "That helps explain our next story: living costs in Europe. Higher fuel and energy bills have brought people onto the streets. The paper reports protests in France, Italy and Portugal, with different concerns in each place.",
+          "section": "story",
+          "story": "world",
+          "chapter": "When prices travel"
         },
         {
           "who": "maya",
-          "text": "Brent crude is the price that many countries follow when they buy oil. That is why you hear about it so often."
+          "text": "In France, the unrest led to 2,400 arrests. President Emmanuel Macron said the protesters' demands were legitimate, while condemning violence and looting. In Milan, people were angry about public services and rising living costs. In Portugal, thousands marched against high housing costs.",
+          "section": "story",
+          "story": "world"
         },
         {
           "who": "sam",
-          "text": "And oil is made into petrol?"
+          "text": "So the connection with our oil story is fuel. The paper says fuel is part of the cost of moving almost everything by road. A higher price at the pump can therefore show up in other prices too.",
+          "section": "story",
+          "story": "world"
         },
         {
           "who": "maya",
-          "text": "Yes, petrol and diesel. So dearer oil can mean dearer fuel for families."
-        },
-        {
-          "who": "maya",
-          "text": "Next, India. Cyclone Arnab is a very severe storm over the Bay of Bengal. It is due to cross the coast between 2 am and 4 am on Wednesday, near Visakhapatnam.",
-          "chapter": "Cyclone Arnab"
+          "text": "Exactly. A fuel bill and a housing bill are different costs, but both matter to families. This is why the paper looks beyond the oil price itself. It helps us understand what people are concerned about in everyday life.",
+          "section": "story",
+          "story": "world"
         },
         {
           "who": "sam",
-          "text": "What are people doing?"
+          "text": "Now to the United States, where many people have already voted ahead of the midterm elections. Does a big early voting total tell us who is winning?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Votes before the day"
         },
         {
           "who": "maya",
-          "text": "More than 114,000 people moved from coastal areas to shelters. Odisha closed schools in 16 of its 30 districts. Gusts could reach 150 kilometres an hour."
-        },
-        {
-          "who": "maya",
-          "text": "Now Europe. Protests over living costs spread across several countries. In France, the weekend unrest led to 2,400 arrests.",
-          "chapter": "Europe's anger"
+          "text": "No. That is the important distinction. The elections take place on 3 November, halfway through a president's term, to choose members of Congress. People can vote early by post or in person, rather than waiting for election day.",
+          "section": "story",
+          "story": "us"
         },
         {
           "who": "sam",
-          "text": "Why are people so upset?"
+          "text": "More than 30 million Americans had already voted, according to the election trackers cited in the paper. That tells us about participation: how many people have taken part. It does not tell us the result.",
+          "section": "story",
+          "story": "us"
         },
         {
           "who": "maya",
-          "text": "Fuel and energy bills have climbed. The European Commission says the Iran conflict has cost Europe about 100 billion euros."
-        },
-        {
-          "who": "maya",
-          "text": "Last, the United States. The midterm elections are on 3 November, and more than 30 million Americans have already voted early.",
-          "chapter": "Early voting"
+          "text": "Right. Early voting gives people more than one chance to vote. But we still have to wait for the result after election day. Keep that difference in mind: a count of people taking part is not a count showing who has won. Ready for a quick quiz?",
+          "section": "story",
+          "story": "us"
         },
         {
           "who": "sam",
-          "text": "Is that all the news from the US?"
+          "text": "Where did officials from Saudi Arabia, Turkey and Pakistan meet Iran's leaders?",
+          "section": "quiz_question",
+          "quiz": 0
         },
         {
           "who": "maya",
-          "text": "Not quite. In Louisiana, early voting ends on Tuesday, and more than 363,000 people have already voted there. Early totals show how many people take part, not who is winning."
+          "text": "Tehran They met Iran's leaders in Tehran on Monday.",
+          "section": "quiz_answer",
+          "quiz": 0
         },
         {
           "who": "sam",
-          "text": "So, quick round-up?"
+          "text": "When do the US midterm elections take place?",
+          "section": "quiz_question",
+          "quiz": 3
         },
         {
           "who": "maya",
-          "text": "Oil stays high, a storm reaches India's coast, Europe is angry about prices, and Americans vote early."
+          "text": "3 November The paper says the midterms are on 3 November.",
+          "section": "quiz_answer",
+          "quiz": 3
         },
         {
           "who": "sam",
-          "text": "Here's one for the car. If petrol costs more, what else might cost more too? Have a great day!"
+          "text": "If petrol costs more, what else might cost more too, and why?",
+          "section": "discussion"
+        },
+        {
+          "who": "maya",
+          "text": "That is your question to talk about together. Thanks for joining us. Keep noticing the connections around you, and have a lovely day.",
+          "section": "close"
         }
       ]
     }
