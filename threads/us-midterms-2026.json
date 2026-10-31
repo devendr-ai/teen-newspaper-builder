@@ -1,317 +1,324 @@
 {
-  "id": "us-midterms-2026",
-  "title": "US midterm elections",
-  "opened": "2026-10-12",
-  "where": {
-    "place": "United States",
-    "lat": 39.8,
-    "lon": -98.6,
-    "countries": [
-      "United States"
-    ]
-  },
-  "younger": {
-    "one_minute": "Americans are choosing people for Congress, the group that helps make their country's laws. These votes happen halfway through a president's four-year term, so they are called midterms. Election Day is 3 November, but many people can vote earlier. Our papers follow what voters are deciding and how voting works.",
-    "who": [
-      {
-        "name": "Voters",
-        "about": "People who choose who will represent them."
-      },
-      {
-        "name": "Congress",
-        "about": "Two groups, the House and Senate, that help make US laws."
-      },
-      {
-        "name": "The main parties",
-        "about": "Democrats and Republicans put forward candidates with different ideas."
-      },
-      {
-        "name": "Election officials",
-        "about": "People who organise voting and count ballots under their state’s rules."
-      }
-    ],
-    "questions": [
-      {
-        "q": "Why are they called midterms?",
-        "a": "They happen in the middle of a president's four-year term. People choose members of Congress, rather than a president."
-      },
-      {
-        "q": "Why do some people vote early?",
-        "a": "Some states let voters cast a ballot before Election Day, in person or by mail. The options and deadlines depend on where a person lives."
-      },
-      {
-        "q": "Do lots of early votes tell us who will win?",
-        "a": "No. The number of ballots cast is different from the number of votes each candidate receives. Votes still have to be counted."
-      }
-    ]
-  },
-  "older": {
-    "one_minute": "The US midterm elections take place on 3 November 2026, halfway through the president's four-year term. Voters choose members of the House of Representatives and Senate, whose majorities shape lawmaking, spending and oversight. Our coverage follows voter concerns, early voting and election rules. Early turnout figures describe participation; they do not establish which party or candidate has won.",
-    "who": [
-      {
-        "name": "Voters",
-        "about": "Eligible citizens choosing representatives under their state’s voting rules."
-      },
-      {
-        "name": "Congress",
-        "about": "The House and Senate; their party majorities shape legislation, spending and oversight."
-      },
-      {
-        "name": "Democrats and Republicans",
-        "about": "The two main parties competing for seats in Congress."
-      },
-      {
-        "name": "State and local election officials",
-        "about": "Administer voting, count ballots and report results under state law."
-      }
-    ],
-    "questions": [
-      {
-        "q": "What changes if a party gains control of a chamber?",
-        "a": "The majority chooses leaders and committee chairs and influences which legislation advances. Control of Congress affects how easily a president can pursue a legislative agenda."
-      },
-      {
-        "q": "What do early-voting records tell us?",
-        "a": "They describe how many people have cast ballots at a particular stage. They do not establish who is winning. Comparisons also depend on dates, state rules and voting methods."
-      },
-      {
-        "q": "Why do election rules differ across states?",
-        "a": "States administer elections under state and federal law. Registration deadlines, early-voting periods and voting methods can differ. Official state or local election websites provide the rules for a particular voter."
-      }
-    ]
-  },
-  "timeline": [
-    {
-      "date": "2026-10-12",
-      "reported": "2026-10-12",
-      "younger": "Our papers looked at the questions living costs raised for voters before the midterms.",
-      "older": "Our published coverage examined living costs and voter concerns before the midterms."
-    },
-    {
-      "date": "2026-10-17",
-      "reported": "2026-10-17",
-      "younger": "Our papers explained why votes for Congress matter for the laws a country makes.",
-      "older": "Our papers explained how the House and Senate elections can change control of Congress and the president’s room to legislate."
-    },
-    {
-      "date": "2026-10-21",
-      "reported": "2026-10-21",
-      "younger": "Our reports described record early voting in Harris County, Texas.",
-      "older": "Published reports described record first-day early turnout in Harris County, Texas, and explained how early voting works."
-    },
-    {
-      "date": "2026-10-23",
-      "reported": "2026-10-23",
-      "younger": "Our papers reported a rise in early voting in several US states.",
-      "older": "Our coverage described early-voting increases in Senate battleground states, comparing participation with the same stage of the previous midterms."
-    },
-    {
-      "date": "2026-10-24",
-      "reported": "2026-10-24",
-      "older": "Our older-reader coverage examined court decisions about voting rules close to Election Day and why the timing of changes matters."
-    },
-    {
-      "date": "2026-10-26",
-      "reported": "2026-10-26",
-      "younger": "Our papers reported early-voting records in Georgia and Harris County, Texas.",
-      "older": "Our latest reports described early-voting records in Georgia and Harris County, Texas, while keeping turnout figures separate from election results."
-    },
-    {
-      "date": "2026-10-26",
-      "reported": "2026-10-27",
-      "younger": "Early voting opens in more places this week, and both parties are campaigning in the states that could go either way.",
-      "older": "Our report described the final week before 3 November: early voting opening in Washington DC, Oklahoma and Kentucky, and Fox News listing six Senate toss-ups, separate from any result."
-    },
-    {
-      "date": "2026-10-27",
-      "reported": "2026-10-28",
-      "younger": "More than 30 million Americans have already voted early.",
-      "older": "Election trackers report more than 30 million early votes a week before the 3 November midterms; early totals show participation, not who is winning."
-    }
-  ],
-  "stories": [
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-12",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-12",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "global-citizen-plus",
-      "date": "2026-10-12",
-      "block": "us"
-    },
-    {
-      "paper": "young-global-citizen",
-      "date": "2026-10-12",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-16",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-17",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "little-explorers",
-      "date": "2026-10-17",
-      "block": "us"
-    },
-    {
-      "paper": "young-global-citizen",
-      "date": "2026-10-17",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-20",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-21",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-21",
-      "block": "world"
-    },
-    {
-      "paper": "junior-daily",
-      "date": "2026-10-21",
-      "block": "world"
-    },
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-22",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-22",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "global-citizen-plus",
-      "date": "2026-10-22",
-      "block": "us"
-    },
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-23",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-23",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "junior-daily",
-      "date": "2026-10-23",
-      "block": "world"
-    },
-    {
-      "paper": "young-global-citizen",
-      "date": "2026-10-23",
-      "block": "us"
-    },
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-24",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-24",
-      "block": "politics_and_civics"
-    },
-    {
-      "paper": "global-citizen-plus",
-      "date": "2026-10-24",
-      "block": "us"
-    },
-    {
-      "paper": "junior-explorer",
-      "date": "2026-10-24",
-      "block": "lead"
-    },
-    {
-      "paper": "little-explorers",
-      "date": "2026-10-24",
-      "block": "us"
-    },
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-26",
-      "block": "us"
-    },
-    {
-      "paper": "global-citizen-plus",
-      "date": "2026-10-26",
-      "block": "us"
-    },
-    {
-      "paper": "breakfast-table",
-      "date": "2026-10-28",
-      "block": "us"
-    },
-    {
-      "paper": "current-affairs-digest",
-      "date": "2026-10-28",
-      "block": "politics_and_civics"
-    }
-  ],
-  "sources": [
-    "https://www.usa.gov/midterm-elections",
-    "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
-    "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
-    "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b",
-    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
-    "https://theconversation.com/what-recent-polling-suggests-will-happen-in-the-us-midterm-elections-294713",
-    "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
-    "http://www.jpost.com/american-politics/article-912801",
-    "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
-    "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
-    "https://www.nbcnews.com/politics/2026-elections/early-vote",
-    "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/",
-    "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
-    "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/",
-    "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/",
-    "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
-    "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
-    "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
-    "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
-    "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
-    "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22",
-    "https://www.washingtontimes.com/news/2026/oct/22/parties-put-supreme-court-ballot-contentious-midterm-battle-control/",
-    "https://nolabels.org/the-latest/what-the-supreme-court-heard-in-october-2026/",
-    "https://www.scotusblog.com/2026/10/court-grants-cases-on-doge-data-dispute-what-qualifies-as-material-support-/",
-    "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
-    "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/",
-    "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
-    "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
-    "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
-    "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
-    "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact",
-    "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
-    "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142",
-    "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
-    "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/",
-    "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds",
-    "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
-    "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer",
-    "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
-    "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp",
-    "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots"
+ "id": "us-midterms-2026",
+ "title": "US midterm elections",
+ "opened": "2026-10-12",
+ "where": {
+  "place": "United States",
+  "lat": 39.8,
+  "lon": -98.6,
+  "countries": [
+   "United States"
   ]
+ },
+ "younger": {
+  "one_minute": "Americans are choosing people for Congress, the group that helps make their country's laws. These votes happen halfway through a president's four-year term, so they are called midterms. Election Day is 3 November, but many people can vote earlier. Our papers follow what voters are deciding and how voting works.",
+  "who": [
+   {
+    "name": "Voters",
+    "about": "People who choose who will represent them."
+   },
+   {
+    "name": "Congress",
+    "about": "Two groups, the House and Senate, that help make US laws."
+   },
+   {
+    "name": "The main parties",
+    "about": "Democrats and Republicans put forward candidates with different ideas."
+   },
+   {
+    "name": "Election officials",
+    "about": "People who organise voting and count ballots under their state’s rules."
+   }
+  ],
+  "questions": [
+   {
+    "q": "Why are they called midterms?",
+    "a": "They happen in the middle of a president's four-year term. People choose members of Congress, rather than a president."
+   },
+   {
+    "q": "Why do some people vote early?",
+    "a": "Some states let voters cast a ballot before Election Day, in person or by mail. The options and deadlines depend on where a person lives."
+   },
+   {
+    "q": "Do lots of early votes tell us who will win?",
+    "a": "No. The number of ballots cast is different from the number of votes each candidate receives. Votes still have to be counted."
+   }
+  ]
+ },
+ "older": {
+  "one_minute": "The US midterm elections take place on 3 November 2026, halfway through the president's four-year term. Voters choose members of the House of Representatives and Senate, whose majorities shape lawmaking, spending and oversight. Our coverage follows voter concerns, early voting and election rules. Early turnout figures describe participation; they do not establish which party or candidate has won.",
+  "who": [
+   {
+    "name": "Voters",
+    "about": "Eligible citizens choosing representatives under their state’s voting rules."
+   },
+   {
+    "name": "Congress",
+    "about": "The House and Senate; their party majorities shape legislation, spending and oversight."
+   },
+   {
+    "name": "Democrats and Republicans",
+    "about": "The two main parties competing for seats in Congress."
+   },
+   {
+    "name": "State and local election officials",
+    "about": "Administer voting, count ballots and report results under state law."
+   }
+  ],
+  "questions": [
+   {
+    "q": "What changes if a party gains control of a chamber?",
+    "a": "The majority chooses leaders and committee chairs and influences which legislation advances. Control of Congress affects how easily a president can pursue a legislative agenda."
+   },
+   {
+    "q": "What do early-voting records tell us?",
+    "a": "They describe how many people have cast ballots at a particular stage. They do not establish who is winning. Comparisons also depend on dates, state rules and voting methods."
+   },
+   {
+    "q": "Why do election rules differ across states?",
+    "a": "States administer elections under state and federal law. Registration deadlines, early-voting periods and voting methods can differ. Official state or local election websites provide the rules for a particular voter."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "date": "2026-10-12",
+   "reported": "2026-10-12",
+   "younger": "Our papers looked at the questions living costs raised for voters before the midterms.",
+   "older": "Our published coverage examined living costs and voter concerns before the midterms."
+  },
+  {
+   "date": "2026-10-17",
+   "reported": "2026-10-17",
+   "younger": "Our papers explained why votes for Congress matter for the laws a country makes.",
+   "older": "Our papers explained how the House and Senate elections can change control of Congress and the president’s room to legislate."
+  },
+  {
+   "date": "2026-10-21",
+   "reported": "2026-10-21",
+   "younger": "Our reports described record early voting in Harris County, Texas.",
+   "older": "Published reports described record first-day early turnout in Harris County, Texas, and explained how early voting works."
+  },
+  {
+   "date": "2026-10-23",
+   "reported": "2026-10-23",
+   "younger": "Our papers reported a rise in early voting in several US states.",
+   "older": "Our coverage described early-voting increases in Senate battleground states, comparing participation with the same stage of the previous midterms."
+  },
+  {
+   "date": "2026-10-24",
+   "reported": "2026-10-24",
+   "older": "Our older-reader coverage examined court decisions about voting rules close to Election Day and why the timing of changes matters."
+  },
+  {
+   "date": "2026-10-26",
+   "reported": "2026-10-26",
+   "younger": "Our papers reported early-voting records in Georgia and Harris County, Texas.",
+   "older": "Our latest reports described early-voting records in Georgia and Harris County, Texas, while keeping turnout figures separate from election results."
+  },
+  {
+   "date": "2026-10-26",
+   "reported": "2026-10-27",
+   "younger": "Early voting opens in more places this week, and both parties are campaigning in the states that could go either way.",
+   "older": "Our report described the final week before 3 November: early voting opening in Washington DC, Oklahoma and Kentucky, and Fox News listing six Senate toss-ups, separate from any result."
+  },
+  {
+   "date": "2026-10-27",
+   "reported": "2026-10-28",
+   "younger": "More than 30 million Americans have already voted early.",
+   "older": "Election trackers report more than 30 million early votes a week before the 3 November midterms; early totals show participation, not who is winning."
+  },
+  {
+   "date": "2026-10-30",
+   "reported": "2026-10-31",
+   "younger": "President Trump put two cancelled campaign trips back on his schedule before Election Day on 3 November.",
+   "older": "After announcing on 29 October that he would cancel rallies in Kansas and Iowa, Trump reversed course on 30 October; both are now set for Sunday, ahead of the 3 November midterms."
+  }
+ ],
+ "stories": [
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-12",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-12",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-12",
+   "block": "us"
+  },
+  {
+   "paper": "young-global-citizen",
+   "date": "2026-10-12",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-16",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-17",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "little-explorers",
+   "date": "2026-10-17",
+   "block": "us"
+  },
+  {
+   "paper": "young-global-citizen",
+   "date": "2026-10-17",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-20",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-21",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-21",
+   "block": "world"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-21",
+   "block": "world"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-22",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-22",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-22",
+   "block": "us"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-23",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-23",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "junior-daily",
+   "date": "2026-10-23",
+   "block": "world"
+  },
+  {
+   "paper": "young-global-citizen",
+   "date": "2026-10-23",
+   "block": "us"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-24",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-24",
+   "block": "politics_and_civics"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-24",
+   "block": "us"
+  },
+  {
+   "paper": "junior-explorer",
+   "date": "2026-10-24",
+   "block": "lead"
+  },
+  {
+   "paper": "little-explorers",
+   "date": "2026-10-24",
+   "block": "us"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-26",
+   "block": "us"
+  },
+  {
+   "paper": "global-citizen-plus",
+   "date": "2026-10-26",
+   "block": "us"
+  },
+  {
+   "paper": "breakfast-table",
+   "date": "2026-10-28",
+   "block": "us"
+  },
+  {
+   "paper": "current-affairs-digest",
+   "date": "2026-10-28",
+   "block": "politics_and_civics"
+  }
+ ],
+ "sources": [
+  "https://www.usa.gov/midterm-elections",
+  "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+  "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/20/564842/harris-county-midterm-early-voter-turnout-record-first-day/",
+  "https://www.11alive.com/article/news/politics/elections/georgia-early-voting-2026-midterm-elections-1-million-votes-cast/85-59983cc6-2291-435c-a429-f242acc2b24b",
+  "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/",
+  "https://theconversation.com/what-recent-polling-suggests-will-happen-in-the-us-midterm-elections-294713",
+  "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
+  "http://www.jpost.com/american-politics/article-912801",
+  "https://spectrumlocalnews.com/us/snplus/politics/2026/10/22/early-voting-surges-states-competitive-senate-races",
+  "https://www.wfdd.org/politics-government/2026-10-22/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows",
+  "https://www.nbcnews.com/politics/2026-elections/early-vote",
+  "https://www.thenationalnews.com/news/us/2026/09/18/early-voting-begins-in-some-states-ahead-of-crucial-us-midterms/",
+  "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+  "https://www.counton2.com/news/your-local-election-hq/day-1-of-early-voting-more-than-doubles-previous-midterms-first-day-turnout-in-s-c/",
+  "https://abc13.com/live-updates/2026-midterm-election-early-voting-starts-monday-runs-oct-30-texas/19850056/entry/19964333/",
+  "https://www.cnn.com/2026/10/20/politics/live-news/midterm-election-congress",
+  "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-south-carolina-mississippi-minnesota",
+  "https://www.foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+  "https://forbes.com/sites/saradorn/2026/10/06/trumps-approval-rating-stagnates-at-record-low-32-in-latest-poll",
+  "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+  "https://foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22",
+  "https://www.washingtontimes.com/news/2026/oct/22/parties-put-supreme-court-ballot-contentious-midterm-battle-control/",
+  "https://nolabels.org/the-latest/what-the-supreme-court-heard-in-october-2026/",
+  "https://www.scotusblog.com/2026/10/court-grants-cases-on-doge-data-dispute-what-qualifies-as-material-support-/",
+  "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
+  "https://abc7news.com/post/2026-election-news-early-voting-begins-us-midterm-elections-could-flip-control-congress/19846626/",
+  "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats",
+  "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+  "https://thehill.com/homenews/campaign/6105817-cook-political-report-kansas-south-caroline-senate-race-shift-democrats/",
+  "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+  "https://thehill.com/homenews/campaign/6152887-2026-midterm-could-be-most-expensive-ever-adimpact",
+  "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+  "https://www.bluewin.ch/en/news/international/what-you-need-to-know-about-midterms-in-the-u.s.-li.3630142",
+  "https://www.aljazeera.com/news/2026/10/12/trump-critic-democratic-rep-ilhan-omars-home-searched-by-federal-agents",
+  "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/",
+  "https://www.usnews.com/news/world/articles/2026-09-21/exclusive-trump-approval-falls-to-career-low-of-32-as-high-costs-bite-reuters-ipsos-poll-finds",
+  "https://kuwaittimes.com/article/51620/business/us-consumer-prices-accelerate-on-costlier-gasoline/",
+  "https://www.ksl.com/article/51636254/consumer-prices-accelerate-in-september-on-costlier-gasoline-core-cpi-firmer",
+  "https://everythingbriefing.substack.com/p/gas-prices-election-rallies-and-todays",
+  "https://www.fox13news.com/news/no-kings-rallies-across-us-push-voting-early-heres-how-many-voters-already-have.amp",
+  "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+  "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+ ]
 }

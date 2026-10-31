@@ -12,7 +12,7 @@
         "For many American families, the price at the gas pump is now part of the election. Voters choose a new Congress in the midterm elections on Tuesday 3 November, and President Trump has just rewritten his closing schedule. On 29 October he said he was cancelling his rallies in Kansas and Iowa. One day later, a source close to the administration said he would speak at both, in person, on Sunday.",
         "Why would a rally in Kansas matter so much? The state has gone without a Democratic senator in a full term since 1932, which makes it a hard place for that party. Even so, an Emerson College poll found Democrat Adam Hamilton, a megachurch pastor, at 49% against 45% for Republican Sen. Roger Marshall. A single poll samples only some voters, so it hints at a close race rather than a result. The new schedule also leans harder on “tele-rallies”, in which Trump appears by video.",
         "The pump is the reason analysts see risk for his party. They warn that Republicans could be punished over the cost of living, since fuel costs more than normal because of the US-Israel war on Iran. The global oil benchmark, Brent crude, briefly rose above $117 a barrel on Friday. That is its highest level since April and more than 60% above where it stood before the war.",
-        "Oil helps set what families pay for fuel, shipping and many everyday goods. Nobody can yet say how many voters will let those prices decide their vote. The count that follows Tuesday will begin to answer that."
+        "Oil helps set what families pay for fuel, shipping and many everyday goods. Nobody can yet say how many voters will let prices decide."
       ],
       "map": {
         "title": "THE UNITED STATES",
@@ -395,5 +395,8 @@
         ]
       }
     }
+  },
+  "threads": {
+    "lead": "us-midterms-2026"
   }
 }
