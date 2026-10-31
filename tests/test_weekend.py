@@ -80,7 +80,8 @@ def test_all_committed_weekend_specs_are_valid():
 
 def test_print_choices_are_only_offered_for_successful_variants(tmp_path, monkeypatch):
     real = site.issues_of
-    monkeypatch.setattr(site, 'issues_of', lambda ed: real(ed)[:1] if ed['id'] == weekend.EDITION else [])
+    # The issue with the reviewed supplement, as the newest one; later Saturdays may not have one.
+    monkeypatch.setattr(site, 'issues_of', lambda ed: [i for i in real(ed) if i[0] <= '2026-10-24'][:1] if ed['id'] == weekend.EDITION else [])
     out = tmp_path/'site'
     site.build(str(out), keep=1, log=lambda *a: None)
     index = (out/'index.html').read_text()

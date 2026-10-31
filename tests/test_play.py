@@ -435,10 +435,15 @@ def test_stretch_and_easier_questions_come_from_neighbouring_ages_about_this_pap
     assert "function skillCheck()" in js and 'const SKILL = ["Pebble", "Stone", "Boulder"]' in js
 
 
-def test_put_it_in_order_uses_big_story_timelines_with_one_right_answer(built):
+def test_put_it_in_order_uses_big_story_timelines_with_one_right_answer(built, tmp_path, monkeypatch):
+    # The newest issue that links a big story, not simply the newest issue: not every day has one.
     ed = edition.load("global-citizen-plus")
-    date = site.issues_of(ed)[0][0]
-    page = (built / "global-citizen-plus" / f"{date}.html").read_text(encoding="utf-8")
+    linked = next((d, p) for d, p in site.issues_of(ed) if json.load(open(p, encoding="utf-8")).get("threads"))
+    real = site.issues_of
+    monkeypatch.setattr(site, "issues_of", lambda e: [linked] if e["id"] == ed["id"] else real(e)[:1])
+    play.build(str(tmp_path), site.site_config(), keep=1, log=lambda *a: None)
+    date = linked[0]
+    page = (tmp_path / "play" / "global-citizen-plus" / f"{date}.html").read_text(encoding="utf-8")
     data = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', page, re.S).group(1))
     assert data["order"], "a linked big story gives an ordering game"
     for o in data["order"]:
