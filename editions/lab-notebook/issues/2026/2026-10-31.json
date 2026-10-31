@@ -1,0 +1,494 @@
+{
+  "edition": "lab-notebook",
+  "date": "2026-10-31",
+  "volume": 1,
+  "issue": 4,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  HEALTH SCIENCE",
+      "headline": "The First mRNA Flu Shot Is Ready for This Flu Season",
+      "deck": "In a trial of about 40,000 people, it gave 27 percent fewer flu cases than a conventional shot. What is still unproven matters too.",
+      "body": [
+        "Every autumn, doctors offer a flu shot, and for decades almost all of them have been made the same way. This year a second kind exists. On August 5, 2026, the US Food and Drug Administration (FDA) approved mFlusiva, made by Moderna, the first flu vaccine to use mRNA, the same technology as COVID-19 shots. It is approved for people aged 50 and older.",
+        "To see what is different, start with the familiar shot. Conventional flu vaccines are grown in chicken eggs and contain inactivated virus pieces. An mRNA vaccine delivers genetic instructions instead, and the body's own cells use them to make flu virus proteins. Those proteins teach the immune system to respond, so it is ready if the real virus arrives.",
+        "Does the new method work better? The approval rested on a study of about 40,000 people who received either mFlusiva or a conventional flu shot. The mRNA group had 27 percent fewer flu cases. A June 2026 study in Nature Immunology found a stronger, longer-lasting immune response: antibody levels were much higher a month after vaccination and stayed elevated for six months.",
+        "A yardstick helps here. Conventional flu vaccines are typically 40 to 60 percent effective at preventing infection, depending on the year, often because predicted strains do not match circulating ones. mRNA production could potentially be shortened to a couple of months, allowing faster updates if the strains change.",
+        "Caution is part of the evidence. Whether the mRNA vaccine reduces transmission is unproven, and Moderna's timeline for people under 50 is unknown."
+      ],
+      "map": {
+        "title": "UNITED STATES",
+        "label_top": "UNITED STATES (NORTH AMERICA)",
+        "label_bottom": "FDA APPROVAL: AUGUST 5, 2026",
+        "footnote": "Approved for people aged 50 and older",
+        "caption": "The US approved the first mRNA flu vaccine."
+      },
+      "why": "Flu vaccines are re-made every year because the virus changes, so a method that could be updated faster, if the evidence holds, could matter for every future flu season.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Here's what the first mRNA flu vaccine could mean for flu season",
+          "url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL AND SHIPPING",
+      "headline": "Oil Stays Above $110 as Ships Find Ways Around Hormuz",
+      "deck": "Shuttle boats and pipelines now carry oil past a danger zone, but prices keep climbing.",
+      "body": [
+        "A barrel of oil is the hidden ingredient in a surprising number of things: the diesel in a delivery truck, the fuel in a cargo ship, the price on a shelf. On Friday 30 October, Brent crude, a widely used world benchmark, briefly topped $117 a barrel, its highest since April and more than 60% above pre-war levels. The Strait of Hormuz, a narrow passage between Iran and Oman and the UAE, normally carries about one-fifth of global oil and LNG, which is natural gas turned into liquid.",
+        "The puzzle is that oil is flowing. Data from Kpler show Gulf crude exports averaging 24.6 million barrels a day in the week to October 18, more than before the war. Part of the answer is a clever workaround. Small shuttle boats take oil through the strait and pour it into tankers waiting off Oman and the UAE, outside the danger zone. In August, over 70% of crude crossing the strait travelled this way.",
+        "Pipes offer a second route. Saudi Arabia's East-West pipeline ends at the Red Sea port of Yanbu, and the UAE's Habshan-Fujairah pipeline also skirts the strait. Together they helped 40% of Gulf exports bypass it in September, compared with 17% before the war. Even so, the International Energy Agency (IEA) puts September output from OPEC's Gulf members at 15.8 million barrels a day, only 75% of the pre-war baseline.",
+        "So what keeps pushing prices up? Analysts name fear of fresh US-Iran fighting, shrinking stockpiles and expensive shipping. Freight has hit about $40 a barrel, roughly ten times normal. UKMTO logged 32 attacks on commercial vessels in October, the deadliest month since the war began. The IEA says observed inventories dropped by 10 million barrels in September and sit 509 million barrels under pre-war levels.",
+        "Traders expect the squeeze to last: October 2027 Brent futures were above $90. Analyst Isabel Figuerola-Ferretti says $70 would need lasting de-escalation and normal shipping."
+      ],
+      "illustration": {
+        "title": "WORKAROUNDS AROUND HORMUZ",
+        "subtitle": "Shuttle boats, pipelines",
+        "motif": "ship",
+        "caption": "Over 70% of crude crossing the strait in August used ship-to-ship transfers."
+      },
+      "connect": "Geography: a strait is a narrow waterway between two bodies of land, so a small patch of sea can shape prices far away. Economics: when supply is uncertain and stockpiles shrink, buyers pay more.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+          "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "A Space Helicopter Rehearses Its Titan Flight on a Computer",
+      "deck": "NASA's Dragonfly has completed a simulated first flight, testing sensors that must work without help from Earth.",
+      "body": [
+        "Flying a helicopter on another world is hard to practise in advance, so engineers rehearse on a computer. NASA's Dragonfly is a rotorcraft, a helicopter-like craft, built to make multiple flights to different places on Saturn's moon Titan. Launch is no earlier than 2028. It arrives in 2034 and then spends three years flying. On October 23, NASA reported that Dragonfly had completed a simulation of its first flight.",
+        "Think of it as a flight simulator for the spacecraft's own brain. The 'first flight' ran on a computer testbed at the Johns Hopkins Applied Physics Laboratory in Laurel, Maryland, in real time on flight-like avionics, the electronics that control a craft. In the simulation Dragonfly separated from its backshell, the protective cover used during arrival, flew over Titan's sand dunes, scanned the terrain for a safe site, circled back and landed.",
+        "How does a craft pick a landing spot? Lidar, which measures the altitude and slope of the terrain and spots hazards, does much of the work. Dragonfly also has two navigation cameras and inertial measurement units. To test the cameras, a camera emulator using graphics processors rendered simulated Titan scenes in real time, matching the 20 to 70 millisecond exposure times the real cameras will use.",
+        "The reason for such care is distance. Dragonfly must fly on Titan without real-time help from Earth, so every sensor and decision has to be rehearsed. Engineer Zach Putnam called first flight 'our most challenging flight' because it uses every flight sensor. He added: 'Everything we do on Titan has to happen autonomously.'",
+        "A simulation is not the end of testing. Next, the team will run first flight on the actual flight system, test other flight profiles and deliberately introduce faults to confirm that the craft responds on its own. Introducing faults on purpose may sound odd, but it shows whether the autonomous responses work before the real mission depends on them. First flight is the hardest test because it uses every flight sensor, including the lidar, the two navigation cameras and the inertial measurement units."
+      ],
+      "illustration": {
+        "title": "DRAGONFLY SIMULATION",
+        "subtitle": "Titan rotorcraft test",
+        "motif": "robot",
+        "caption": "Dragonfly flew over simulated sand dunes and landed."
+      },
+      "why": "A craft that must decide for itself needs to be tested under strain on the ground first, and deliberately causing faults shows how it will cope.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Dragonfly Completes First Simulated Flight",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+        }
+      ]
+    },
+    "climate_and_environment": {
+      "kicker": "CLIMATE & ENVIRONMENT  •  CYCLONE AND CLIMATE TALKS",
+      "headline": "After Cyclone Arnab, a Count of Damage, and Climate Talks Ahead",
+      "deck": "A very severe cyclone crossed Andhra Pradesh, flooded southern Odisha and left a bill still being added up.",
+      "body": [
+        "A cyclone is measured twice: first as wind and rain, then as damage. Arnab made landfall near Yanam on the Andhra Pradesh coast on Wednesday 28 October as a 'very severe cyclonic storm', according to the India Meteorological Department. Core winds were 125-135 km/h with gusts up to 150 km/h, and the heaviest rain recorded was 261.5 mm at Kannuripalem in Anakapalli district.",
+        "Over land, the storm began to fade. It weakened into a 'deep depression' by Wednesday afternoon. Before it arrived, about 50,000 people in Andhra Pradesh and about 48,000 in Odisha were told to move to safer areas, and at least 609 schools across Andhra Pradesh were turned into rehabilitation centres. Kakinada resident Sadiq said early warnings helped people prepare, and many locked their homes and left.",
+        "Then came the tally. Chief Minister N. Chandrababu Naidu puts the preliminary loss at Rs 4,600 crore, which could rise after a detailed assessment, and says at least seven people died. An early count by the National Disaster Response Force (NDRF) had been three. Crops on about 70,900 hectares, mainly paddy, were reported damaged. Konaseema and West Godavari were hardest hit, with around 8,000 electricity poles down in Konaseema alone and power cut in nearly 400 villages.",
+        "Help is already moving. Families leaving relief camps get 25 kg of rice and cash, and Union government teams were due to visit Andhra Pradesh on October 30 to assess the damage. In southern Odisha, where floods followed, over 100,000 people were evacuated, including 2,200 pregnant women, and on October 29 the state sent over 300 disaster response teams into Ganjam and eight other districts.",
+        "Looking wider, countries will meet to discuss climate change soon. The COP31 summit runs from November 9 to 20 in Antalya, Turkey, with Australia's Chris Bowen presiding over negotiations. Fossil fuels are not expected to be part of the talks. Fossil fuel emissions hit record highs in 2025, and in September the UN conceded that the 1.5C target will be missed within years.",
+        "Turkey is promoting a voluntary target to raise electricity's share of global energy demand from about 20% to 35% by 2035. Critics note that one-third of electricity is generated by coal."
+      ],
+      "illustration": {
+        "title": "CYCLONE ARNAB'S TRACK",
+        "subtitle": "Andhra Pradesh to Odisha",
+        "motif": "flood",
+        "caption": "Over 100,000 people were evacuated in southern Odisha."
+      },
+      "why": "Early warnings and evacuations of tens of thousands of people helped limit the harm from a very severe cyclone, though the final cost is still being counted.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Cyclone Arnab: At least 3 killed",
+          "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+        },
+        {
+          "outlet": "The News Minute",
+          "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+        },
+        {
+          "outlet": "Down To Earth",
+          "title": "Cyclone Arnab batters southern Odisha",
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Fossil fuels off COP31 agenda as global output keeps rising",
+          "url": "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising"
+        }
+      ]
+    },
+    "health": {
+      "kicker": "HEALTH & BODY  •  ANCIENT DNA",
+      "headline": "Ancient Human DNA Found on Cave Walls, but the Painters Remain Unknown",
+      "deck": "Only one of five positive samples came from a painting.",
+      "body": [
+        "Who painted the animals on cave walls thousands of years ago? Nobody wrote it down, so scientists looked for another clue: DNA, the molecule that carries genetic instructions in our cells. A study in Nature Communications has recovered ancient human DNA from cave walls for the first time. The team took more than 100 samples from 11 painted caves in Spain and Portugal. Half came from paintings and half from bare rock nearby.",
+        "The bare rock matters, because it is the comparison. If DNA gathered on the paint, that would be a clue; if it was just as common on blank stone, it would not. Five samples tested positive, and only one was from a painting, at Escoural Cave in Portugal. The other four were from blank walls at Escoural and Covarón Cave in Spain. At Altamira cave, no human DNA turned up, which is also a result worth recording.",
+        "Some details suggest a person touched the rock. Two Escoural samples held no animal DNA, which hints that someone interacted directly with the wall. As for age, the DNA looks at least 2,000 years old judging by how much it has degraded, and probably much older. The two best-preserved samples resembled hunter-gatherers, people who live by hunting and gathering food, who lived in Europe as early as 16,000 years ago.",
+        "Even so, the result stops short of naming artists. Rock art specialist Benjamin Smith said the DNA could come from anyone who stood near the rock, possibly long after the art was made. So the study shows that human traces survive on cave walls, not who made the paintings. Four of the five positive samples came from blank rock, which is why the painter question stays open.",
+        "What would close the gap? Researchers would need DNA more concentrated in paintings than on blank walls, or DNA dated to the same period as the art. Either result would link the genetic trace to the paint rather than to a later visitor. Until then, the study is a careful first step. It could one day help show who made prehistoric art, if DNA can be tied to the paint.",
+        "For a young scientist, the lesson is about evidence. A new method can produce a striking headline, yet the strength of a conclusion depends on what the data can actually connect. Here the connection between the DNA and the artists has not been made, and the researchers' own comparison with bare rock is what shows it."
+      ],
+      "illustration": {
+        "title": "DNA ON PAINTED CAVE WALLS",
+        "subtitle": "Spain and Portugal",
+        "motif": "globe",
+        "caption": "More than 100 samples were taken from 11 caves."
+      },
+      "why": "Ancient DNA can tell us about people who left no writing, but a result is only as strong as the link between the DNA and the thing being studied.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "In painted caves, ancient human DNA clings to the walls",
+          "url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+        }
+      ]
+    },
+    "history_and_geography": {
+      "kicker": "HISTORY & GEOGRAPHY  •  MONEY AND SECURITY",
+      "headline": "Binance Reports a $6.3 Billion Breach, Possibly a Record Crypto Heist",
+      "deck": "Attackers took control of wallets in about 20 minutes, and the exchange says it will cover every loss.",
+      "body": [
+        "Cryptocurrency is digital money that moves between online accounts called wallets, and exchanges such as Binance hold wallets for millions of people. Binance, the world's largest crypto exchange, said on Thursday 29 October that a security breach affected an estimated $6.3 billion in assets, potentially the largest crypto heist on record. As of its 2025 annual report it had 335 million registered users and about $162.8 billion in assets under custody.",
+        "How did it happen? TRM Labs said the attackers gained the ability to order wallets Binance uses to transfer funds into hacker-controlled wallets. Early investigation pointed to a hacked laptop belonging to a Binance engineer. Most of the theft took about 20 minutes. TRM Labs and Chainalysis said they were highly confident North Korea was responsible; North Korea routinely denies such accusations.",
+        "Some money was caught in time. Binance said it had recovered or frozen about $3 billion. Stablecoin issuers, whose coins are designed to hold a steady value, froze about half the stolen assets, including nearly $1.57 billion by Tether and more than $800 million by Circle. Binance halted withdrawals, said user funds were safe and expected to resume withdrawals within 48 hours.",
+        "Be careful when comparing the figures. The $6.3 billion is an estimate of assets affected, and the $3 billion recovered or frozen is also approximate. The amounts frozen by Tether and by Circle are reported separately, so they should not simply be added to anything else.",
+        "The company's promise is blunt. Co-CEO Richard Teng said, 'we're covering every loss.' Markets reacted anyway: Bitcoin hit a six-week low of $76,368 and shares in the exchange Coinbase slid 4.8%."
+      ],
+      "chart": {
+        "title": "BINANCE BREACH IN BILLIONS",
+        "subtitle": "US$ billion (estimates)",
+        "labels": [
+          "Affected",
+          "Frozen",
+          "Tether",
+          "Circle"
+        ],
+        "values": [
+          6.3,
+          3,
+          1.57,
+          0.8
+        ],
+        "max": 7,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Estimated assets affected, about $3 billion recovered or frozen, and amounts frozen by two stablecoin issuers."
+      },
+      "why": "The breach shows that a weak point can be a single laptop, and why companies that hold other people's money must protect every step.",
+      "analyst": "Why might freezing stolen assets work for some coins and not others? What would you want a company to prove before trusting it with money? Why do investigators say 'highly confident' rather than 'certain'?",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Binance hit by $6.3 billion security breach",
+          "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Brazil: Luiz Inacio Lula da Silva won the October 25 runoff against Flavio Bolsonaro with about 51.75% of the vote, and Bolsonaro has not conceded.",
+        "United States: The Federal Reserve kept its benchmark rate at 3.75-4% on October 28 in a 10-2 vote, with two officials wanting a quarter-point rise.",
+        "Canada: Leaders launched an 'Alliance for the Future' with the EU in Montreal, and the European Investment Bank will invest in Canadian raw minerals.",
+        "Crypto: Binance said a security breach affected an estimated $6.3 billion in assets and that it had recovered or frozen about $3 billion."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Strain",
+          "def": "A particular variety of a virus, which can differ slightly from others of the same kind. Today: conventional flu vaccines are often less effective because predicted strains do not match circulating ones."
+        },
+        {
+          "word": "Lidar",
+          "def": "A sensor that measures distance and shape, using light, to map terrain. Today: Dragonfly's lidar measures altitude and slope and spots hazards."
+        },
+        {
+          "word": "Freight",
+          "def": "The cost of carrying goods, such as oil, from one place to another. Today: freight has reached about $40 a barrel, roughly ten times the usual rate."
+        },
+        {
+          "word": "Stablecoin",
+          "def": "A digital coin designed to hold a steady value, often matched to a currency. Today: stablecoin issuers froze about half the assets taken in the Binance breach."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Dragonfly's rehearsal used a camera emulator that matched the 20 to 70 millisecond exposure times of the real cameras, so even the 'eyes' of the spacecraft were simulated."
+    },
+    "explainer": {
+      "title": "How an mRNA vaccine differs from an egg-grown one",
+      "body": [
+        "Most flu vaccines are grown in chicken eggs and contain inactivated virus pieces. The immune system learns to recognise those pieces, so it can respond faster if the real virus arrives. Growing the virus takes time, and that matters because the strains must be predicted well ahead of the flu season.",
+        "An mRNA vaccine works differently. mRNA is a set of genetic instructions. The vaccine delivers those instructions, and the body's cells use them to make flu virus proteins that teach the immune system to respond. Because it does not need to grow a virus in eggs, production could potentially be shortened to a couple of months, which could allow faster updates if the strains change."
+      ],
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Here's what the first mRNA flu vaccine could mean for flu season",
+          "url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What is different about how an mRNA flu vaccine works?",
+        "(a) It is grown in chicken eggs  (b) It delivers genetic instructions for making flu proteins  (c) It contains a whole live virus",
+        "<b>2.</b> How many fewer flu cases did the mRNA group have in the trial?",
+        "(a) 7 percent  (b) 27 percent  (c) 72 percent",
+        "<b>3.</b> What share of Gulf exports bypassed the Strait of Hormuz in September?",
+        "(a) 17%  (b) 40%  (c) 75%",
+        "<b>4.</b> What does Dragonfly's lidar measure?",
+        "(a) Temperature and wind  (b) Terrain altitude and slope  (c) Radio signals from Earth",
+        "<b>5.</b> How many of the cave samples tested positive for human DNA?",
+        "(a) Five  (b) Eleven  (c) More than 100",
+        "<b>Answers.</b> 1 (b): It delivers genetic instructions for making flu proteins. 2 (b): 27 percent. 3 (b): 40%. 4 (b): Terrain altitude and slope. 5 (a): Five."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "A trial found 27 percent fewer flu cases with the mRNA shot. What other information would you want before deciding it is better for everyone?",
+        "Dragonfly's team will cause faults on purpose in tests. Why might that make a space mission safer?",
+        "Oil is moving through Hormuz by shuttle boats and pipelines, yet prices still rise. What does that tell you about what sets a price?"
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "A good result tells you what happened; a good scientist asks what it cannot tell you.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+    "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+    "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+    "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising",
+    "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+    "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+    "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+    "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season",
+    "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+    "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "How does an mRNA flu vaccine teach the immune system?",
+        "options": [
+          "By delivering genetic instructions for making flu virus proteins",
+          "By injecting a live flu virus",
+          "By growing the virus in chicken eggs"
+        ],
+        "answer": 0,
+        "why": "It delivers genetic instructions for making flu virus proteins.",
+        "story": "lead"
+      },
+      {
+        "q": "What share of Gulf exports bypassed the Strait of Hormuz in September?",
+        "options": [
+          "17%",
+          "75%",
+          "40%"
+        ],
+        "answer": 2,
+        "why": "It was 40%, up from 17% before the war.",
+        "story": "world"
+      },
+      {
+        "q": "What does Dragonfly's lidar measure?",
+        "options": [
+          "Terrain altitude and slope",
+          "Temperature and wind",
+          "Radio signals from Earth"
+        ],
+        "answer": 0,
+        "why": "Lidar measures terrain altitude and slope and spots hazards.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "What was the highest rainfall recorded during Cyclone Arnab?",
+        "options": [
+          "26.15 mm",
+          "261.5 mm",
+          "2,615 mm"
+        ],
+        "answer": 1,
+        "why": "The highest rainfall was 261.5 mm at Kannuripalem.",
+        "story": "climate_and_environment"
+      },
+      {
+        "q": "How many cave samples had ancient human DNA?",
+        "options": [
+          "Five",
+          "Eleven",
+          "More than 100"
+        ],
+        "answer": 0,
+        "why": "Five samples tested positive; only one was from a painting.",
+        "story": "health"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The mRNA flu vaccine is approved for children.",
+        "true": false,
+        "why": "It is approved for people aged 50 and older.",
+        "story": "lead"
+      },
+      {
+        "claim": "Dragonfly's first flight was a computer simulation.",
+        "true": true,
+        "why": "It ran on a computer testbed in Maryland, not on Titan.",
+        "story": "science_and_technology"
+      },
+      {
+        "claim": "Most cave samples that had human DNA came from paintings.",
+        "true": false,
+        "why": "Only one of the five positive samples came from a painting.",
+        "story": "health"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "United States",
+        "lat": 39.8,
+        "lon": -98.6,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.6,
+        "lon": 56.3,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Laurel, Maryland",
+        "lat": 39.1,
+        "lon": -76.85,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "climate_and_environment",
+        "place": "Yanam",
+        "lat": 16.73,
+        "lon": 82.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "health",
+        "place": "Escoural Cave",
+        "lat": 38.54,
+        "lon": -8.16,
+        "countries": [
+          "Portugal",
+          "Spain"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "In the trial, by what percent did the mRNA group have fewer flu cases?",
+        "answer": 27,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "why": "The mRNA group had 27 percent fewer flu cases than people given a conventional shot."
+      },
+      {
+        "story": "world",
+        "q": "About how much per barrel has freight reached?",
+        "answer": 40,
+        "prefix": "$",
+        "unit": "",
+        "min": 0,
+        "max": 100,
+        "why": "Freight is roughly ten times the usual rate."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "A New Kind of Flu Shot Is Ready",
+        "body": [
+          "This year there is a new flu shot. It is called mFlusiva. The US approved it on August 5, 2026. It is for people aged 50 and older.",
+          "Most flu shots are grown in chicken eggs. This one uses mRNA. mRNA is a set of instructions. Body cells follow it to make pieces of the flu virus. That teaches the immune system what to look for.",
+          "In a trial of about 40,000 people, the new shot gave 27 percent fewer flu cases than a regular shot. Scientists do not yet know if it stops people from passing flu on."
+        ]
+      },
+      "world": {
+        "headline": "Oil Is Still Costly",
+        "body": [
+          "Oil is the fuel for many ships and trucks. On October 30, a barrel of Brent oil briefly cost more than $117.",
+          "Much of the world's oil crosses the Strait of Hormuz, a narrow sea passage. Ships now use tricks to get oil past it. Small boats move oil to tankers outside the danger zone. Pipelines also carry oil around the strait.",
+          "Even so, prices stay high. Shipping costs about $40 a barrel, roughly ten times the usual rate. Attacks on ships also rose in October."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A Space Helicopter Practises on a Computer",
+        "body": [
+          "NASA is building a helicopter-like craft called Dragonfly. It will fly on Saturn's moon Titan. It launches in 2028 at the earliest and arrives in 2034.",
+          "On October 23, NASA said Dragonfly finished a pretend first flight. It ran on a computer in Maryland. The craft flew over sand dunes, looked for a safe spot, and landed.",
+          "Dragonfly uses lidar to measure the ground's height and slope. It also has cameras. It must make choices alone, because it cannot get help from Earth in time. Next, engineers will test it with faults on purpose."
+        ]
+      },
+      "climate_and_environment": {
+        "headline": "Cyclone Arnab Hits India's East Coast",
+        "body": [
+          "Cyclone Arnab reached the coast of Andhra Pradesh on October 28. Its winds blew at 125-135 km/h, with gusts up to 150 km/h.",
+          "The leader of the state says at least seven people died. He thinks the loss is about Rs 4,600 crore. Crops on about 70,900 hectares were damaged. About 8,000 electricity poles fell in one area.",
+          "The storm then brought floods to Odisha. More than 100,000 people there moved to safety. Early warnings helped many families get ready."
+        ]
+      },
+      "health": {
+        "headline": "DNA Found on Cave Walls",
+        "body": [
+          "Scientists tested more than 100 spots in 11 painted caves in Spain and Portugal. They found human DNA from long ago in five spots.",
+          "Only one of those spots was a painting. The other four were bare rock. So we still do not know who made the paintings.",
+          "The DNA is at least 2,000 years old, and probably much older. Some of it looked like hunter-gatherers who lived in Europe as early as 16,000 years ago."
+        ]
+      },
+      "history_and_geography": {
+        "headline": "A Crypto Company Says Thieves Struck",
+        "body": [
+          "Binance is the world's largest crypto exchange. Crypto is digital money kept in online accounts called wallets. On October 29, Binance said a security breach affected about $6.3 billion.",
+          "Most of the theft took about 20 minutes. Experts said hackers got into a Binance engineer's laptop. Two security firms said they were highly confident North Korea was responsible. North Korea routinely denies such claims.",
+          "Binance said it had recovered or frozen about $3 billion. It stopped withdrawals for a short time. Its co-boss said, 'we're covering every loss.'"
+        ]
+      }
+    }
+  }
+}
