@@ -1184,6 +1184,21 @@ def privacy_contact(cfg):
             f'{by}</p>')
 
 
+def delete_data(cfg):
+    """How to delete your data: the page Google Play links to as the app's data deletion URL."""
+    mail = cfg.get("privacy_email") or ""
+    ask = f'<a href="mailto:{E(mail)}?subject=Delete%20my%20data">{E(mail)}</a>' if mail else "us"
+    return f"""<section id="delete-your-data" style="scroll-margin-top:calc(var(--hh,90px) + 16px)"><h3>Delete your data</h3>
+<p>{E(cfg["title"])} (the website and the app) has no accounts. Only two things ever reach us, and only if a grown-up chooses:</p>
+<ol><li><b>An email address for paper delivery.</b> To stop the emails, use the unsubscribe link in any of them. To delete the
+address and everything kept with it (the chosen paper and frequency, its confirmation and unsubscribe codes, and its delivery
+history), email {ask} from that address with &ldquo;Delete my data&rdquo;. We delete it all and reply to confirm, within 30 days.</li>
+<li><b>Anonymous &ldquo;You Make the Call&rdquo; answers.</b> They carry no name or email, so we can&rsquo;t find one person&rsquo;s
+answer; every answer is deleted automatically after 90 days.</li></ol>
+<p>Everything else stays on your own device: reset it with <a href="parents.html#reading-data">Reset this device&rsquo;s reading data</a>
+in For parents, or delete the app, which deletes its saved papers, recordings and progress.</p></section>"""
+
+
 def privacy_body(cfg):
     counting = bool(stats.endpoint(cfg))
     counts = ("""<h3>What we count</h3>
@@ -1208,6 +1223,7 @@ b.addEventListener("click",function(){try{if(get())localStorage.removeItem("np-n
     return _doc("Privacy", f"""
 <p><b>The short version:</b> no accounts, no ads, no cookies, and children never need to identify themselves. Children never need to give
 a name, an email or their age.</p>
+{delete_data(cfg)}
 <h3>What stays on your device</h3>
 <p>News Pebbles remembers your chosen age band in this browser on this device. Read &amp; Play also remembers text size, night mode,
 narration speed, the last story and listening position for up to 80 recent editions, the reading streak, pebbles, badges and garden,

@@ -157,6 +157,8 @@ def test_the_app_points_at_the_pack():
     assert audio["enableBackgroundPlayback"] is True and audio["microphonePermission"] is False
     assert cfg["android"]["package"] == cfg["ios"]["bundleIdentifier"] == "com.newspebbles.app"
     assert "android.permission.RECORD_AUDIO" in cfg["android"]["blockedPermissions"]
+    # Play's Families policy: no advertising ID. A library (Firebase, behind the reminder) can add it.
+    assert "com.google.android.gms.permission.AD_ID" in cfg["android"]["blockedPermissions"]
 
 
 def test_the_app_builds_for_google_play():
@@ -183,3 +185,15 @@ def test_platform_files_are_not_shadowed_by_their_fallback():
         for other in ("ts", "tsx"):
             fallback = variant.with_name(f"{stem}.{other}")
             assert other == ext or not fallback.exists(), f"{fallback.relative_to(ROOT)} shadows {variant.name}"
+
+
+def test_the_privacy_page_says_how_to_delete_your_data(tmp_path):
+    # Google Play links to privacy.html#delete-your-data as the app's data deletion URL: it must name the
+    # app, give the steps, and say what is deleted and kept.
+    cfg = site.site_config()
+    cfg["kids_mode"] = False
+    section = site.delete_data(cfg)
+    assert 'id="delete-your-data"' in section and cfg["title"] in section
+    assert cfg["privacy_email"] in section and "unsubscribe" in section and "90 days" in section
+    assert 'href="parents.html#reading-data"' in section
+    assert 'id="reading-data"' in site.reading_data_controls()
