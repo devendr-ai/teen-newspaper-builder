@@ -2,6 +2,8 @@
 // For parents shows "This app":
 //   NODE_PATH=$(npm root -g) node tools/app_screenshots.cjs https://newspebbles.com/app/ mobile/store/screenshots
 //     App Store: 6.9" iPhone (1320 × 2868) and 13" iPad (2064 × 2752)
+//   ... mobile/store/screenshots/iphone-other-sizes apple-iphone-sizes
+//     the other iPhone sizes App Store Connect accepts (1290 × 2796, 1284 × 2778, 1242 × 2688, 1242 × 2208)
 //   NODE_PATH=$(npm root -g) node tools/app_screenshots.cjs https://newspebbles.com/app/ mobile/store/play play
 //     Google Play: phone (1080 × 1920), 7" and 10" tablets (1200 × 1920, 1600 × 2560), the 1024 × 500
 //     feature graphic and the 512 × 512 icon
@@ -10,7 +12,10 @@ const fs = require('fs'), path = require('path');
 const [B, OUT, STORE] = [process.argv[2], process.argv[3] || 'mobile/store/screenshots', process.argv[4] || 'apple'];
 const DEVICES = STORE === 'play'
   ? [['phone', { width: 360, height: 640 }, 3], ['tablet7', { width: 600, height: 960 }, 2], ['tablet10', { width: 800, height: 1280 }, 2]]
-  : [['iphone', { width: 440, height: 956 }, 3], ['ipad', { width: 1032, height: 1376 }, 2]];
+  : STORE === 'apple-iphone-sizes'                       // every other size App Store Connect accepts for iPhone
+    ? [['iphone-1290x2796', { width: 430, height: 932 }, 3], ['iphone-1284x2778', { width: 428, height: 926 }, 3],
+       ['iphone-1242x2688', { width: 414, height: 896 }, 3], ['iphone-1242x2208', { width: 414, height: 736 }, 3]]
+    : [['iphone', { width: 440, height: 956 }, 3], ['ipad', { width: 1032, height: 1376 }, 2]];
 const ICON = path.join(__dirname, '..', 'mobile', 'assets', 'icon.png');
 
 // Google Play's feature graphic: the owl, the wordmark and what the app does, in the site's own fonts.
