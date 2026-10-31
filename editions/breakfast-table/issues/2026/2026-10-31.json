@@ -1,0 +1,455 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-10-31",
+  "volume": 1,
+  "issue": 18,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  OIL",
+      "headline": "Oil Stays Above $110 as Ships Find Ways Around the Strait of Hormuz",
+      "deck": "Gulf oil is flowing again, yet the price keeps climbing, and that can reach the family shopping bill.",
+      "body": [
+        "When a lorry brings food to your local shop, it runs on fuel, and fuel starts with oil. Much of that oil sails through one narrow sea lane, the Strait of Hormuz, between Iran and the countries of Oman and the United Arab Emirates.",
+        "Here is the surprise. Data firm Kpler says Gulf countries sent out 24.6 million barrels a day in the week to 18 October, more than before the war. Yet on Friday 30 October Brent, a price many countries follow, briefly went above $117 a barrel, its highest since April.",
+        "Why? Oil is taking costlier routes. Shuttle boats pass it to tankers waiting off Oman and the UAE, and moving a barrel has cost about $40 lately, around ten times normal, says LSEG, another data firm. October was also the deadliest month for attacks on merchant ships since the war began, with 32 incidents logged by UKMTO."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN",
+        "label_bottom": "OMAN AND UAE",
+        "footnote": "Fujairah, UAE, lies on the Gulf of Oman coast",
+        "caption": "The strait lies between Iran and the coast of Oman and the UAE."
+      },
+      "why": "Oil sets the price of fuel, shipping and many goods, so a squeezed strait can raise costs for families far away.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+          "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ISRAEL",
+      "headline": "Israel's Election Ends With No Majority for Either Side",
+      "deck": "With 120 seats in parliament and 61 needed, the vote left leaders short and talking.",
+      "body": [
+        "Picture a class election where nobody gets enough votes to win. Israel is in that spot after voting on 27 October. A government needs 61 of the 120 seats in its parliament, the Knesset, and no side reached it.",
+        "Benjamin Netanyahu's allies won 53 seats and the opposition bloc led by Gadi Eisenkot won 48. Two Arab-led parties, the United Arab List and the Joint List, won 19 together. Netanyahu has ruled out a government with them, calling it 'forbidden'. Analyst Roi Zur of Essex University says 'the numbers don't add up for any side'.",
+        "Next, President Isaac Herzog chooses someone he thinks can build a government, and that person has about 28 days. If they fail, he can choose another. If every step fails, Israelis return to the polls for a second election."
+      ],
+      "chart": {
+        "title": "SEATS WON",
+        "subtitle": "Knesset seats; 61 of 120 needed",
+        "labels": [
+          "Netanyahu",
+          "Eisenkot",
+          "Arab-led"
+        ],
+        "values": [
+          53,
+          48,
+          19
+        ],
+        "max": 70,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Final results. A majority needs 61 of the 120 seats; no group reached it."
+      },
+      "connect": "Elections everywhere turn votes into power, but the rules differ: this paper's US story mentions elections for Congress on 3 November, while Israel must first build a team that can reach 61.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "How can Israel break its election deadlock?",
+          "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  MONEY",
+      "headline": "The Fed Holds Interest Rates, With Two Votes for a Rise",
+      "deck": "The cost of borrowing stays put for now, but a rise is expected in December.",
+      "body": [
+        "Families borrow for homes, cars and credit cards, and borrowing's price is called interest. The US central bank, the Federal Reserve, sets a benchmark rate that guides it. On 28 October the Fed kept that rate at 3.75% to 4%, in a 10 to 2 vote.",
+        "Two officials wanted a rise of a quarter of a percentage point: Governor Lisa Cook and Beth Hammack of the Cleveland Fed. Their worry is inflation, how fast prices rise. It reached 3.7% in September from 3.4% in August, largely because of energy prices.",
+        "The Fed meets again on 8 and 9 December, and a rise is widely expected then."
+      ],
+      "why": "Interest rates affect the cost of mortgages, car loans and credit cards.",
+      "also": [
+        "Midterms: President Trump has brought back two cancelled rallies, in Kansas and Iowa, for Sunday, before the elections on Tuesday 3 November.",
+        "Crypto: Binance, a crypto exchange, said a breach affected about $6.3 billion in assets and that it will cover every loss."
+      ],
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump reverses course, reinstates cancelled campaign rallies",
+          "url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Binance hit by $6.3 billion security breach",
+          "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Brazil: Luiz Inacio Lula da Silva won the 25 October runoff against Flavio Bolsonaro with about 51.75% of the vote, and Bolsonaro has not conceded.",
+        "Space: NASA's Swift telescope made its final observation on 20 October after 21 years, and it is expected to re-enter Earth's atmosphere within a few weeks."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "If the price of oil stays high, which things your family buys might cost more, and why?",
+        "Why do you think authorities in India give warnings and move people to shelters before a storm hits?",
+        "When no group wins enough votes to govern, what could people do to reach an agreement?"
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+          "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Cyclone Arnab: At least 3 killed",
+          "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+        },
+        {
+          "outlet": "The News Minute",
+          "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+        },
+        {
+          "outlet": "Down To Earth",
+          "title": "Cyclone Arnab batters southern Odisha",
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "How can Israel break its election deadlock?",
+          "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Cyclone Arnab Leaves Damage Across Andhra Pradesh and Floods in Odisha",
+      "deck": "Early warnings moved tens of thousands of people before the storm; now the clean-up begins.",
+      "body": [
+        "Picture a family on the Andhra Pradesh coast on Wednesday 28 October. Cyclone Arnab reached land near Yanam that day, rated a 'very severe cyclonic storm' by India's weather office, with winds of 125 to 135 km/h at its core and gusts up to 150 km/h. It faded to a 'deep depression' by afternoon.",
+        "Many families were not at home when it arrived. Officials asked about 50,000 people in Andhra Pradesh and about 48,000 in Odisha to move somewhere safer, and at least 609 Andhra schools became places to stay. Sadiq, of Kakinada, said the warnings gave people time to prepare. In southern Odisha, floods followed and over 100,000 people were evacuated.",
+        "The clean-up has now started. Chief Minister N. Chandrababu Naidu says the first estimate of losses is Rs 4,600 crore (a crore is ten million), and may grow. He says at least seven people died, up from three in an earlier count. Farm fields covering about 70,900 hectares, mostly rice paddy, were damaged, and nearly 400 villages lost power. Families leaving relief camps get 25 kg of rice and cash."
+      ],
+      "why": "Early warnings and evacuations of tens of thousands of people helped limit the harm from a very severe cyclone.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Cyclone Arnab: At least 3 killed",
+          "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+        },
+        {
+          "outlet": "The News Minute",
+          "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+        },
+        {
+          "outlet": "Down To Earth",
+          "title": "Cyclone Arnab batters southern Odisha",
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER: A QUIET DAY",
+      "body": "No verified sports results today. Back tomorrow.",
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether Trump's rallies in Kansas and Iowa go ahead on Sunday, two days before the midterms on Tuesday 3 November.",
+        "Whether Brent crude, which briefly topped $117 on Friday, stays above $110 next week."
+      ]
+    },
+    "quote": {
+      "text": "Prices travel a long way before they reach our table.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+    "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock",
+    "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+    "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies",
+    "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+    "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+    "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+    "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+    "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many attacks on merchant ships did UKMTO log in October?",
+        "options": [
+          "32",
+          "3",
+          "320"
+        ],
+        "answer": 0,
+        "why": "UKMTO logged 32 incidents in October, the deadliest month for attacks on merchant ships since the war began.",
+        "story": "lead"
+      },
+      {
+        "q": "How many seats does a group need for a majority in Israel's Knesset?",
+        "options": [
+          "51",
+          "61",
+          "120"
+        ],
+        "answer": 1,
+        "why": "A government needs 61 of the Knesset's 120 seats.",
+        "story": "world"
+      },
+      {
+        "q": "Where did Cyclone Arnab come ashore on 28 October?",
+        "options": [
+          "Near Chennai",
+          "Near Mumbai",
+          "Near Yanam"
+        ],
+        "answer": 2,
+        "why": "Arnab made landfall near Yanam on the Andhra Pradesh coast.",
+        "story": "india"
+      },
+      {
+        "q": "How did the Federal Reserve vote on 28 October?",
+        "options": [
+          "12 to 0 to raise rates",
+          "10 to 2 to keep rates",
+          "6 to 6 with no result"
+        ],
+        "answer": 1,
+        "why": "The Fed kept its benchmark rate at 3.75% to 4% in a 10 to 2 vote.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Gulf crude exports are now lower than they were before the war.",
+        "true": false,
+        "why": "Kpler says exports averaged 24.6 million barrels a day in the week to 18 October, above the pre-war average.",
+        "story": "lead"
+      },
+      {
+        "claim": "If every step to form a government fails, Israelis return to the polls for a second election.",
+        "true": true,
+        "why": "The paper says a second election follows if every step fails.",
+        "story": "world"
+      },
+      {
+        "claim": "Families leaving relief camps in Andhra Pradesh get 25 kg of rice and cash.",
+        "true": true,
+        "why": "The paper reports that families leaving relief camps get 25 kg of rice and cash.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "countries": [
+          "Israel"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Yanam",
+        "lat": 16.73,
+        "lon": 82.22,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "Brent crude briefly topped how many dollars a barrel on Friday 30 October?",
+        "answer": 117,
+        "prefix": "$",
+        "unit": "a barrel",
+        "min": 50,
+        "max": 200,
+        "why": "Brent briefly topped $117 a barrel, its highest since April."
+      },
+      {
+        "story": "india",
+        "q": "At least how many schools in Andhra Pradesh became rehabilitation centres?",
+        "answer": 609,
+        "prefix": "",
+        "unit": "schools",
+        "min": 100,
+        "max": 2000,
+        "why": "At least 609 schools in Andhra Pradesh were turned into rehabilitation centres."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for Saturday, 31 October. I'm Maya, with Sam. Today, why can a faraway strip of sea change what a family pays at the shops? Let's find out.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Our top story is about the Strait of Hormuz. Where is it, and why does it matter at home?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "The squeezed strait"
+        },
+        {
+          "who": "maya",
+          "text": "It lies between Iran and the countries of Oman and the United Arab Emirates. Much of the world's oil sails through it, and oil is where fuel starts. Even a lorry bringing food to a shop runs on fuel.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "So if Gulf oil is flowing again, why is the price still rising? Brent crude briefly topped $117 a barrel on Friday.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Because oil is taking costlier routes. Shuttle boats pass it to tankers waiting off Oman and the UAE. Moving a barrel has cost about $40 lately, around ten times normal, as insurance and handling cost more. October was also the deadliest month for attacks on merchant ships since the war began, with 32 incidents logged.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now to Israel, where voters went to the polls on 27 October. What happened?",
+          "section": "story",
+          "story": "world",
+          "chapter": "A vote with no winner"
+        },
+        {
+          "who": "maya",
+          "text": "No side won a majority. Israel's parliament, the Knesset, has 120 seats, and a government needs 61. Netanyahu's allies won 53. The opposition bloc led by Gadi Eisenkot won 48. Two Arab-led parties won 19 together.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "So what happens when nobody reaches 61?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "There are set steps. President Isaac Herzog picks the candidate he thinks is most likely to form a government, and that person has about 28 days. If they fail, he can pick another. If every step fails, Israelis return to the polls for a second election.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Our last story is from India. Cyclone Arnab came ashore on 28 October. How did people get ready?",
+          "section": "story",
+          "story": "india",
+          "chapter": "After Cyclone Arnab"
+        },
+        {
+          "who": "maya",
+          "text": "Warnings came first. About 50,000 people in Andhra Pradesh and about 48,000 in Odisha were told to move to safer areas, and at least 609 schools in Andhra Pradesh became rehabilitation centres. A Kakinada resident named Sadiq said the early warnings helped people prepare.",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "sam",
+          "text": "And what about the damage afterwards?",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "maya",
+          "text": "Chief Minister Naidu puts the early loss at Rs 4,600 crore and said at least seven people were killed. Crops on about 70,900 hectares were reported damaged. Families leaving relief camps get 25 kg of rice and cash. Ready for a quick quiz?",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "sam",
+          "text": "How many attacks on merchant ships did UKMTO log in October?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "32 UKMTO logged 32 incidents in October, the deadliest month for attacks on merchant ships since the war began.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "Where did Cyclone Arnab come ashore on 28 October?",
+          "section": "quiz_question",
+          "quiz": 2
+        },
+        {
+          "who": "maya",
+          "text": "Near Yanam Arnab made landfall near Yanam on the Andhra Pradesh coast.",
+          "section": "quiz_answer",
+          "quiz": 2
+        },
+        {
+          "who": "sam",
+          "text": "If the price of oil stays high, which things your family buys might cost more, and why?",
+          "section": "discussion"
+        },
+        {
+          "who": "maya",
+          "text": "That is your question to talk about together. Thanks for listening. Have a lovely day.",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}

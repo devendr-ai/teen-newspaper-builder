@@ -1,0 +1,322 @@
+{
+  "edition": "junior-explorer",
+  "date": "2026-10-31",
+  "volume": 1,
+  "issue": 4,
+  "blocks": {
+    "lead": {
+      "kicker": "BIG STORY  •  SPACE",
+      "headline": "A Titan Helicopter Practises on a Computer First",
+      "deck": "NASA's Dragonfly finished a pretend first flight. The real one is years away.",
+      "body": [
+        "Pilots practise before a big flight. So do robots. NASA's Dragonfly is a rotorcraft, a flying machine with spinning blades. It will fly on Titan, a moon of Saturn. On 23 October NASA said it had finished its first flight, but only on a computer.",
+        "That pretend run is a simulation. In it, Dragonfly separated from its backshell. Then it flew over Titan's sand dunes. It scanned the terrain for a safe site. Then it circled back and landed.",
+        "Dragonfly will be on its own. Engineer Zach Putnam said, “Everything we do on Titan has to happen autonomously.” That means without a person steering."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "THE PRETEND FLIGHT, STEP BY STEP",
+        "caption": "What Dragonfly did in NASA's simulated first flight.",
+        "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+        "items": [
+          {
+            "label": "Separates from its backshell",
+            "evidence": "Dragonfly separated from its backshell"
+          },
+          {
+            "label": "Flies over Titan's sand dunes",
+            "evidence": "flew over Titan's sand dunes"
+          },
+          {
+            "label": "Scans the ground for a safe site",
+            "evidence": "scanned the terrain for a safe site"
+          },
+          {
+            "label": "Circles back and lands",
+            "evidence": "circled back and landed"
+          }
+        ]
+      },
+      "why": "Dragonfly must fly on Titan without real-time help from Earth, so rehearsals test every sensor and decision.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Dragonfly Completes First Simulated Flight",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+        }
+      ]
+    },
+    "science": {
+      "kicker": "SCIENCE  •  SPACE TELESCOPE",
+      "headline": "A Fast-Turning Space Telescope Says Goodbye",
+      "deck": "NASA's Swift hunted giant explosions for 21 years. Its last observation was on 20 October.",
+      "body": [
+        "Swift is a telescope that orbits Earth. It launched on 20 November 2004. NASA planned a two-year main mission, but Swift worked for more than 10 times that long.",
+        "Swift hunted gamma-ray bursts, the most powerful explosions in the cosmos. It observed more than 2,000. It also studied more than 1,400 supernova explosions. A supernova is a star blowing up.",
+        "Speed was its skill. After it detected a burst, it could turn its telescopes to that spot in about a minute. In May 2005 it watched a short burst that lasted only 0.03 seconds.",
+        "Now Swift orbits below 275 kilometres. The air is thicker there, and stronger drag keeps its telescopes from holding steady. Drag is the slowing push of air. Its final observation was on 20 October 2026. NASA expects it to re-enter Earth's atmosphere within a few weeks."
+      ],
+      "illustration": {
+        "title": "SWIFT IN ORBIT",
+        "subtitle": "Launched in 2004",
+        "motif": "rocket",
+        "caption": "It could turn to a new burst in about a minute."
+      },
+      "why": "Swift saw thousands of the biggest explosions in space, and its data fills an archive scientists will use for years.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Swift Mission Ends, Leaves Behind Scientific Bonanza",
+          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "AROUND THE WORLD  •  INDIA",
+      "headline": "Early Warnings and School Shelters Help in Cyclone Arnab",
+      "deck": "The storm crossed India's east coast on 28 October. Tens of thousands moved first.",
+      "body": [
+        "A cyclone is a huge spinning storm with strong winds and heavy rain. Cyclone Arnab crossed the coast of Andhra Pradesh, in southeast India, on 28 October. India's weather office called it a very severe cyclonic storm. Gusts reached 150 kilometres an hour. A fast car on a highway goes about 100.",
+        "The storm's best defence was a warning. Officials told about 50,000 people in Andhra Pradesh and about 48,000 in Odisha to move to safer areas. At least 609 schools became rehabilitation centres, places where families can stay.",
+        "Sadiq, who lives in Kakinada, said the warnings helped people prepare. Many locked their homes and moved. Chief Minister N. Chandrababu Naidu says at least seven people died.",
+        "The storm weakened by Wednesday afternoon, but it still did harm. Mr Naidu puts the early loss at Rs 4,600 crore, and says it could rise after a closer check. Around 8,000 electricity poles fell in Konaseema alone. Power was cut in nearly 400 villages.",
+        "Later, floods reached southern Odisha, where more than 100,000 people were evacuated, meaning moved away from danger.",
+        "Families who leave relief camps get 25 kilograms of rice and cash."
+      ],
+      "illustration": {
+        "title": "STORM ON THE COAST",
+        "subtitle": "Andhra Pradesh, India",
+        "motif": "flood",
+        "caption": "Arnab came ashore near Yanam; floods reached Ganjam in Odisha."
+      },
+      "connect": "Geography: Andhra Pradesh and Odisha sit side by side on India's east coast, near the Bay of Bengal.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Cyclone Arnab: At least 3 killed",
+          "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+        },
+        {
+          "outlet": "The News Minute",
+          "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+        },
+        {
+          "outlet": "Down To Earth",
+          "title": "Cyclone Arnab batters southern Odisha",
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Spain and Portugal: Scientists found ancient human DNA on cave walls in five samples, from a study of 11 painted caves.",
+        "Brazil: Luiz Inacio Lula da Silva won the 25 October runoff vote with about 51.7% of the vote.",
+        "Turkey: The COP31 climate summit will run from 9 to 20 November in the city of Antalya.",
+        "Canada: Canada and the European Union launched an Alliance for the Future at a summit in Montreal.",
+        "Health: The United States approved the first flu vaccine that uses mRNA, for people 50 and older."
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER",
+      "body": "Athletes rehearse before a big game. Dragonfly's team did the same. Try a space warm-up at home: <b>hop like a rotorcraft</b>, look around, pick a safe spot and land softly on both feet.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Dragonfly Completes First Simulated Flight",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Simulation",
+          "def": "A pretend run on a computer that copies something real. Today: Dragonfly finished a simulation of its first flight on Titan."
+        },
+        {
+          "word": "Autonomous",
+          "def": "Doing a job without a person steering. Today: Dragonfly must act autonomously on Titan."
+        },
+        {
+          "word": "Drag",
+          "def": "The slowing push of air on something that moves through it. Today: Stronger drag keeps Swift's telescopes from holding steady."
+        },
+        {
+          "word": "Evacuate",
+          "def": "To move people away from danger. Today: More than 100,000 people were evacuated in southern Odisha."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "LAND ON YOUR OWN TITAN",
+      "body": [
+        "Build a pretend Titan on the floor. Use cushions and books as sand dunes. One person is Dragonfly and walks slowly over the dunes with a toy. Look at the ground, pick the flattest safe spot and land the toy there. No one may tell Dragonfly where to go.",
+        "Now add a fault, which is a problem. While Dragonfly is not looking, a helper moves a cushion into the landing spot. Can Dragonfly spot the new hazard and choose another place alone? NASA's team also plans to add faults on purpose, to check that Dragonfly answers them by itself."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Dragonfly Completes First Simulated Flight",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Swift's picture archive is open to the public. It holds more than 1.5 million ultraviolet and optical images, about 12 terabytes in all."
+    },
+    "explainer": {
+      "title": "HOW A ROBOT FLIES BY ITSELF",
+      "body": [
+        "Titan is far from Earth, so a pilot at home cannot steer Dragonfly in real time. The robot has to look, think and act on its own. It needs sensors that work like eyes and a sense of balance.",
+        "Dragonfly's lidar measures how high the ground is and how steep it is, and spots hazards. Two navigation cameras look at the terrain. Inertial measurement units sense how the craft moves. The computer combines these clues to choose a safe place to land. That is why engineers rehearse every sensor on the ground first."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Dragonfly Completes First Simulated Flight",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Swift re-enters Earth's atmosphere, which NASA expects within a few weeks.",
+        "Dragonfly's next tests: the first flight on the actual flight system, then deliberate faults.",
+        "The start of the COP31 climate summit in Antalya, Turkey, on 9 November."
+      ]
+    },
+    "quote": {
+      "text": "Practise, test, then fly.",
+      "by": "The Junior Explorer"
+    }
+  },
+  "sources": [
+    "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+    "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+    "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+    "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+    "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+    "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+    "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+    "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win",
+    "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising",
+    "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty",
+    "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Where did Dragonfly's pretend first flight happen?",
+        "options": [
+          "On a computer",
+          "On Titan",
+          "On a Saturn rocket"
+        ],
+        "answer": 0,
+        "why": "It was a simulation on a computer testbed in Laurel, Maryland.",
+        "story": "lead"
+      },
+      {
+        "q": "How fast could Swift turn to a new burst?",
+        "options": [
+          "In about a day",
+          "In about a minute",
+          "In about a year"
+        ],
+        "answer": 1,
+        "why": "It could turn its telescopes to a burst in about a minute.",
+        "story": "science"
+      },
+      {
+        "q": "What does Lidar measure for Dragonfly?",
+        "options": [
+          "Wind speed on Earth",
+          "How high and steep the ground is",
+          "The colour of Saturn"
+        ],
+        "answer": 1,
+        "why": "Lidar measures the ground's height and slope and spots hazards.",
+        "story": "lead"
+      },
+      {
+        "q": "What did many schools in Andhra Pradesh become?",
+        "options": [
+          "Weather stations",
+          "Farms",
+          "Rehabilitation centres"
+        ],
+        "answer": 2,
+        "why": "At least 609 schools became places for families to stay.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Swift was designed for a two-year mission but worked more than 10 times as long.",
+        "true": true,
+        "why": "NASA says it operated for more than 10 times its planned primary mission.",
+        "story": "science"
+      },
+      {
+        "claim": "Dragonfly will arrive on Titan in 2028.",
+        "true": false,
+        "why": "Launch is planned for no earlier than 2028. It arrives in 2034.",
+        "story": "lead"
+      },
+      {
+        "claim": "Officials warned people before Cyclone Arnab arrived.",
+        "true": true,
+        "why": "About 50,000 people in Andhra Pradesh were told to move to safer areas.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Laurel, Maryland",
+        "lat": 39.0993,
+        "lon": -76.8483,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Yanam, Andhra Pradesh",
+        "lat": 16.7333,
+        "lon": 82.2167,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "science",
+        "q": "How many gamma-ray bursts did Swift observe, at least?",
+        "answer": 2000,
+        "prefix": "",
+        "unit": "bursts",
+        "min": 200,
+        "max": 9000,
+        "why": "More than 2,000 of the most powerful explosions in the cosmos."
+      },
+      {
+        "story": "world",
+        "q": "At least how many schools in Andhra Pradesh became rehabilitation centres?",
+        "answer": 609,
+        "prefix": "",
+        "unit": "schools",
+        "min": 50,
+        "max": 3000,
+        "why": "At least 609 schools became places for families to stay."
+      }
+    ]
+  }
+}

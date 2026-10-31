@@ -1,0 +1,545 @@
+{
+ "edition": "global-citizen-plus",
+ "date": "2026-10-31",
+ "volume": 1,
+ "issue": 11,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  ISRAEL",
+   "headline": "Israel's Final Count: 53, 48 and 19, and No Majority",
+   "deck": "With 61 of 120 seats needed, neither main bloc got there, so a process of steps toward a government begins.",
+   "body": [
+    "Start with the arithmetic. Israel's parliament, the Knesset, has 120 seats, and a majority needs 61. After the 27 October election, nobody has 61. Turnout was 77.9%, and final results came early on 30 October.",
+    "The seats split three ways. Prime Minister Benjamin Netanyahu's bloc won 53, which is eight short of 61. The opposition bloc led by Gadi Eisenkot (Yashar party) won 48, thirteen short. The United Arab List (Ra'am) and the Joint List together won 19. Add 53, 48 and 19 and you reach all 120 seats, with no side at the line.",
+    "The Arab-led parties are the obvious question mark, and the politics is blunt. Netanyahu has ruled out a government with them, posting on X that it is “forbidden”, while Likud accused them of “stealing” the election. Eisenkot would only partner with parties that recognise Israel as a Jewish and democratic state, endorse the Declaration of Independence's values and commit to national service.",
+    "Counting took time. At least 500,000 “double envelope” votes from soldiers and diplomats were counted on 29 October; the inner envelope keeps the ballot anonymous and the outer one lets officials verify the voter. Analyst Roi Zur of Essex University says “the numbers don't add up for any side.”",
+    "The route to a government has steps. First, President Isaac Herzog picks the candidate he judges most likely to form one, and that person gets about 28 days, which can be extended. If the attempt fails, Herzog can choose another candidate with the same type of window. After a second failure, a 21-day period opens in which 61 Knesset members can ask Herzog to give the task to a Knesset member. If every step fails, Israelis go back to the polls for a second election."
+   ],
+   "why": "A majority needs 61 seats, and a split of 53, 48 and 19 leaves no side there, so Herzog's steps and deadlines begin.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "How can Israel break its election deadlock?",
+     "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+    }
+   ],
+   "visual": {
+    "type": "seats",
+    "title": "WHY 61 SEATS MATTERS",
+    "caption": "61 of 120 seats make a majority. Threshold only, not the election result.",
+    "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock",
+    "total": 120,
+    "threshold": 61,
+    "total_evidence": "has 120 seats",
+    "threshold_evidence": "a majority needs 61"
+   }
+  },
+  "world": {
+   "kicker": "WORLD  •  EUROPE",
+   "headline": "Young Europeans Take Rising Costs to the Streets",
+   "deck": "Marches in Italy, a large turnout expected in Germany and heavy policing in France all share one complaint: living costs.",
+   "body": [
+    "A single complaint is travelling across Europe: life costs too much. On 30 October tens of thousands of students and union members marched through dozens of Italian cities, among them Rome, Milan and Naples, while the government stepped up security. Marchers asked for cheaper living, more spending on education and an end to wars in the Middle East.",
+    "Italy's numbers explain the mood. The price of food, energy, transport and bills has climbed 68% since 2000, yet average wages have dropped by almost 5%. The Italian government has offered some relief: a €175 million package for truck drivers, farmers and fishermen squeezed by fuel prices, and a proposed €2,500 yearly bonus for workers under 30 in the draft 2027 budget.",
+    "Germany is next. Around 150,000 people registered for Saturday's marches in some 30 cities, from Berlin to Cologne, organised by a non-partisan alliance, “GenZ regelt!”, that rejects all violence. Its members cite rising living costs, poorly maintained schools, and cuts to education, culture and healthcare. They also fear that a new voluntary service model for expanding the army could turn compulsory. Researcher Christian Volk says “enormous” pressure is building.",
+    "France is braced for more. Its October 17 protests turned into some of its worst rioting in years, and some 70,000 police are going on duty for a third weekend. Interior Minister Laurent Nuñez warned of a high risk of disorder on Halloween, and over 40 Paris metro stations will shut."
+   ],
+   "illustration": {
+    "title": "THREE COUNTRIES, ONE COMPLAINT",
+    "subtitle": "Italy, Germany and France",
+    "motif": "protest",
+    "caption": "Students and unions in Italy, a non-partisan alliance in Germany, and heavy policing in France."
+   },
+   "connect": "Economics and geography meet here. Students and unions in Italy, a non-partisan alliance in Germany and heavy policing in France all trace back to living costs. Italy puts the gap in numbers, with prices up 68% since 2000 and average wages down almost 5%.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Italy tightens security as students, unions launch nationwide protests",
+     "url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Germans to join Europe's youth protest wave",
+     "url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+    },
+    {
+     "outlet": "France 24",
+     "title": "French minister warns of 'very high' violence risk",
+     "url": "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  CYCLONE ARNAB",
+   "headline": "After Arnab: Damage in Andhra Pradesh, Floods in Odisha",
+   "deck": "Chief Minister N. Chandrababu Naidu puts the preliminary loss at Rs 4,600 crore after the storm crossed near Yanam.",
+   "body": [
+    "Geography first. Cyclone Arnab came ashore on Wednesday 28 October near Yanam on the Andhra Pradesh coast, and its effects reached as far as southern Odisha. The India Meteorological Department described a “very severe cyclonic storm” at landfall: winds of 125 to 135 km/h near the core, with gusts reaching 150 km/h. Over Wednesday afternoon it weakened into a “deep depression”.",
+    "Science next: rain. The wettest reading was 261.5 mm at Kannuripalem, in Anakapalli district. Konaseema and West Godavari took the worst of the damage, and the storm left about 8,000 electricity poles down in Konaseema alone. Power was cut in nearly 400 villages, and crops on about 70,900 hectares, mainly paddy, were reported damaged.",
+    "Maths of the warnings. Authorities told about 50,000 people in Andhra Pradesh and about 48,000 in Odisha to move to safer areas, roughly 98,000 together. At least 609 schools across Andhra Pradesh were turned into rehabilitation centres. Sadiq, a Kakinada resident, said the early warnings helped people prepare, and many locked their homes and moved.",
+    "Maths of the loss. Chief Minister N. Chandrababu Naidu puts the preliminary loss at Rs 4,600 crore, and it could rise after a detailed assessment. He says at least seven people were killed; the National Disaster Response Force had counted three in an early tally.",
+    "Relief is under way. Families leaving relief camps are given 25 kg of rice and cash. Teams from the Union government were due to visit Andhra Pradesh on 30 October to assess the damage.",
+    "Then the floods. In southern Odisha, over 100,000 people were evacuated, among them 2,200 pregnant women. On 29 October the state sent over 300 disaster response teams into flood-hit Ganjam and eight other districts.",
+    "Compare the two coasts. Before landfall, about 48,000 people in Odisha were told to move to safer areas. Afterwards more than 100,000 were evacuated there, over twice as many.",
+    "Compare the death counts. The early National Disaster Response Force tally was three; Naidu now says at least seven. He also says the Rs 4,600 crore estimate could rise. A crore is ten million, so that is 46 billion rupees."
+   ],
+   "illustration": {
+    "title": "ARNAB'S TRACK ON LAND",
+    "subtitle": "Andhra Pradesh to Odisha",
+    "motif": "flood",
+    "caption": "Landfall near Yanam; flooding in Ganjam and eight other districts of southern Odisha."
+   },
+   "why": "About 98,000 people across two states were told to move to safer areas before landfall, but houses, crops and power lines still need rebuilding.",
+   "sources": [
+    {
+     "outlet": "The Week",
+     "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+     "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+    },
+    {
+     "outlet": "Khaleej Times",
+     "title": "Cyclone Arnab: At least 3 killed",
+     "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+    },
+    {
+     "outlet": "The News Minute",
+     "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+     "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+    },
+    {
+     "outlet": "Down To Earth",
+     "title": "Cyclone Arnab batters southern Odisha",
+     "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  CRYPTO",
+   "headline": "A $6.3 Billion Crypto Breach Shakes Binance",
+   "deck": "The world's largest crypto exchange says it has frozen or recovered about $3 billion and will cover losses.",
+   "body": [
+    "Technology and money collided on Thursday 29 October. Binance, the world's largest crypto exchange, said a security breach hit an estimated $6.3 billion in assets and could be the largest crypto heist on record. Markets reacted: Bitcoin fell to a six-week low of $76,368, and Coinbase shares slid 4.8%.",
+    "How did the attackers get in? TRM Labs said they gained the ability to order wallets Binance uses for transfers to move funds into wallets the hackers controlled. Early investigation pointed to a hacked laptop belonging to a Binance engineer. Most of the theft happened in about 20 minutes.",
+    "Binance then moved to contain the damage. It halted withdrawals, said user funds were safe and expected to resume withdrawals within 48 hours. Co-CEO Richard Teng said, “we're covering every loss.” The company says it has recovered or frozen about $3 billion.",
+    "Maths of speed. Most of the theft happened in about 20 minutes, while Binance expects to resume withdrawals within 48 hours. That is 2,880 minutes of closed withdrawals for every 20 minutes of theft, a reminder that clean-up takes far longer than an attack.",
+    "Maths of the freeze. Stablecoin issuers froze about half the stolen assets: nearly $1.57 billion by Tether and more than $800 million by Circle. Add those two figures and you get about $2.4 billion, well over a third of the $6.3 billion affected.",
+    "On blame, TRM Labs and Chainalysis said they were highly confident North Korea was responsible. North Korea routinely denies such accusations.",
+    "Scale explains the alarm. As of its 2025 annual report, Binance had 335 million registered users and about $162.8 billion in assets under custody. The $6.3 billion hit is a small slice of that total, yet it is potentially the biggest crypto theft on record."
+   ],
+   "chart": {
+    "title": "BINANCE BREACH",
+    "subtitle": "US dollars, billions",
+    "labels": [
+     "Affected",
+     "Held back"
+    ],
+    "values": [
+     6.3,
+     3
+    ],
+    "max": 8,
+    "value_prefix": "$",
+    "highlight_after": 0,
+    "caption": "Billions of dollars, estimates from Binance. Held back means recovered or frozen."
+   },
+   "why": "Most of the theft took about 20 minutes, and early signs point to one hacked engineer laptop, a reminder of how much can be at stake at an exchange.",
+   "analyst": "Why might a company promise to cover every loss? What do you gain and lose when a stablecoin issuer can freeze coins? Which figures here are estimates, and which are confirmed?",
+   "sources": [
+    {
+     "outlet": "France 24",
+     "title": "Binance hit by $6.3 billion security breach",
+     "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  SPACE",
+   "headline": "NASA's Swift Telescope Signs Off After 21 Years",
+   "deck": "Built for a two-year job, it watched the universe's biggest explosions for far longer.",
+   "body": [
+    "Maths of a mission. NASA's Neil Gehrels Swift Observatory launched on 20 November 2004 and was designed for a two-year primary mission. It operated for more than ten times that long. Its last observation came on 20 October 2026, and its science operations have now ended.",
+    "Astronomy: the targets. Swift observed more than 2,000 gamma-ray bursts, described as the most powerful explosions in the cosmos, and studied more than 1,400 supernova explosions. About 7,000 published papers have drawn on its data.",
+    "Reaction speed was its edge. After detecting a burst, Swift could turn its telescopes to the burst's location in about a minute. In May 2005 it recorded its first short-burst afterglow, from GRB 050509B, a burst that lasted only 0.03 seconds. The observations supported theories that short bursts come from mergers of two neutron stars.",
+    "Physics: the ending. Swift now orbits below 171 miles (275 km), where stronger atmospheric drag keeps its telescopes from holding steady. NASA expects the spacecraft to re-enter Earth's atmosphere within a few weeks.",
+    "History: the legacy. In 2018 NASA renamed the observatory to honour Neil Gehrels, its first principal investigator.",
+    "Data: the archive. The public archive holds nearly 22 years of measurements and more than 1.5 million ultraviolet and optical images, about 12 terabytes in all. For anyone studying space's biggest explosions, those 12 terabytes are open to use now that the telescope has stopped observing.",
+    "Compare the clocks. The mission was planned for two years and the archive spans nearly 22, so the data record is about eleven times longer than the original plan.",
+    "Physics check: Swift is at about 275 km, and the drag there is stronger than before, so the telescopes cannot hold steady. Steadiness matters because Swift's whole job was pointing quickly at a burst's location, which it could do in about a minute.",
+    "Numbers to compare: more than 2,000 bursts, more than 1,400 supernova explosions, about 7,000 papers, more than 1.5 million images. Each figure measures a different thing, which is why a mission's success cannot be summed up in a single number."
+   ],
+   "why": "Swift's public archive means scientists can keep mining 22 years of measurements of space's biggest explosions long after the telescope has fallen silent.",
+   "sources": [
+    {
+     "outlet": "NASA",
+     "title": "NASA's Swift Mission Ends, Leaves Behind Scientific Bonanza",
+     "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+    }
+   ],
+   "illustration": {
+    "title": "A LONG WATCH ENDS",
+    "subtitle": "Swift, 2004 to 2026",
+    "motif": "rocket",
+    "caption": "Launched in 2004, last observation on 20 October 2026."
+   }
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  OIL",
+   "headline": "Oil Tops $117 Even as Gulf Crude Flows Again",
+   "deck": "Ships and pipelines are carrying more oil around the Strait of Hormuz, yet costs and fears keep prices high.",
+   "body": [
+    "Here is a puzzle: more Gulf oil is moving, yet its price is climbing. On Friday 30 October, December Brent futures briefly passed $117 a barrel. Brent is at its highest since April and more than 60% above where it was before the war. Meanwhile Kpler data show Gulf crude exports averaging 24.6 million barrels a day in the week to 18 October, more than before the war.",
+    "The International Energy Agency (IEA) supplies a clue. It puts September output from Gulf members of OPEC at 15.8 million barrels a day, only 75% of the pre-war baseline. Stocks are draining too: observed global inventories fell by 10 million barrels in September and sit 509 million barrels below pre-war levels.",
+    "So how is oil leaving the Gulf? The Strait of Hormuz normally carries about one-fifth of the world's oil and LNG (liquefied natural gas). Today shuttle boats move oil through the strait and load it onto tankers outside the danger zone, off Oman and the UAE; over 70% of crude crossing the strait used this method in August, per Kpler. Pipelines add routes: Saudi Arabia's East-West pipeline runs to the Red Sea port of Yanbu, and the UAE's Habshan-Fujairah pipeline also carries oil around the strait. In September 40% of Gulf exports bypassed the strait, against 17% before the war.",
+    "Detours are costly. LSEG data show freight at roughly $40 a barrel in recent weeks, about ten times the usual rate, as insurance and logistics costs climb. Risk is real as well: the maritime monitor UKMTO had logged 32 attacks on commercial ships in October by Friday, the deadliest month for such attacks since the war began.",
+    "Brent futures for October 2027 delivery were above $90 a barrel on Friday, suggesting markets expect prices to stay high for a long time. Analyst Isabel Figuerola-Ferretti says getting back to $70 would take lasting de-escalation, normal transit through Hormuz, rebuilt inventories and freight costs back to usual levels. Until then, households pay for it at the pump and in the shops.",
+    "Analysts blame the high price on fear of renewed US-Iran fighting, falling stockpiles and costly shipping, even though Gulf exports are above their pre-war average and Gulf production is still at 75% of its pre-war baseline."
+   ],
+   "illustration": {
+    "title": "OIL TAKES THE LONG WAY",
+    "subtitle": "Strait of Hormuz",
+    "motif": "strait",
+    "caption": "Shuttle boats, tankers and pipelines to Yanbu and Fujairah carry oil around the danger zone."
+   },
+   "why": "Oil sets the price of fuel, shipping and many goods, so a squeezed strait raises costs for families far from the Gulf.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+     "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Brazil: Luiz Inacio Lula da Silva won the 25 October runoff against Flavio Bolsonaro with about 51.75% of the vote, while Bolsonaro has not conceded.",
+    "United Kingdom: Chancellor John Healey's first budget on 28 October doubles the surcharge on bank profits to 6% for 15 months from January.",
+    "United States: Voters choose Congress in the midterm elections on Tuesday 3 November, and President Trump has reinstated rallies in Kansas and Iowa.",
+    "Climate: The COP31 summit runs from 9 to 20 November in Antalya, Turkey, with Australia's Chris Bowen presiding over negotiations."
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Coalition",
+     "def": "A government formed when several parties join together because none has a majority alone. Today: Netanyahu's bloc won 53 seats and Eisenkot's bloc 48, and a majority needs 61."
+    },
+    {
+     "word": "Gamma-ray burst",
+     "def": "A burst of gamma rays, a form of light. Today: Swift observed more than 2,000 gamma-ray bursts, the most powerful explosions in the cosmos."
+    },
+    {
+     "word": "Freight",
+     "def": "The cost of carrying goods from one place to another. Today: Freight costs for oil have reached about $40 per barrel, roughly ten times the usual rate."
+    },
+    {
+     "word": "Stablecoin",
+     "def": "A digital coin designed to hold a steady value. Today: Stablecoin issuers froze about half the assets stolen in the Binance breach."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "Swift's first short-burst afterglow, GRB 050509B in May 2005, lasted only 0.03 seconds."
+  },
+  "explainer": {
+   "title": "Why a narrow strait matters",
+   "body": [
+    "The Strait of Hormuz is a narrow waterway, and normally about one-fifth of global oil and LNG passes through it.",
+    "Ships have found ways around it. Shuttle boats move oil through the strait to tankers outside the danger zone, and pipelines reach the Red Sea port of Yanbu and the UAE's Fujairah. In September 40% of Gulf exports bypassed the strait, up from 17% before the war, and freight costs have reached about $40 a barrel, roughly ten times the usual rate."
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+     "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Five questions on this issue",
+   "body": [
+    "<b>1.</b> How many seats does a majority in Israel's Knesset need?",
+    "(a) 51  (b) 61  (c) 120",
+    "<b>2.</b> How many seats did Netanyahu's bloc win?",
+    "(a) 19  (b) 48  (c) 53",
+    "<b>3.</b> What is the German protest alliance called?",
+    "(a) GenZ regelt!  (b) Alliance for the Future  (c) Yashar",
+    "<b>4.</b> How much did Binance say was affected by the breach?",
+    "(a) $6.3 million  (b) $6.3 billion  (c) $63 billion",
+    "<b>5.</b> How long was Swift's primary mission designed to last?",
+    "(a) Two years  (b) Twenty-one years  (c) Two months",
+    "<b>Answers.</b> 1 (b), 2 (c), 3 (a), 4 (b), 5 (a)."
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "How can Israel break its election deadlock?",
+     "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Germans to join Europe's youth protest wave",
+     "url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Binance hit by $6.3 billion security breach",
+     "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+    },
+    {
+     "outlet": "NASA",
+     "title": "NASA's Swift Mission Ends, Leaves Behind Scientific Bonanza",
+     "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+    }
+   ]
+  },
+  "discussion": {
+   "title": "DISCUSS",
+   "body": [
+    "Why might a party refuse to work with another even when it needs its seats?",
+    "Why do young people in different countries protest about the same things at the same time?",
+    "If a company promises to cover every loss after a theft, what else might customers want to know?"
+   ],
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "How can Israel break its election deadlock?",
+     "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Italy tightens security as students, unions launch nationwide protests",
+     "url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Binance hit by $6.3 billion security breach",
+     "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+    }
+   ]
+  },
+  "quote": {
+   "text": "Counting is only the first step; deciding what to do with the count is the hard part.",
+   "by": "The Editor"
+  }
+ },
+ "sources": [
+  "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock",
+  "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests",
+  "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave",
+  "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+  "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+  "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+  "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+  "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+  "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+  "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+  "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+  "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win",
+  "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb",
+  "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising",
+  "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+ ],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "How many seats are in Israel's Knesset?",
+    "options": [
+     "61",
+     "120",
+     "240"
+    ],
+    "answer": 1,
+    "why": "The Knesset has 120 seats, and 61 make a majority.",
+    "story": "lead"
+   },
+   {
+    "q": "Which Israeli party or bloc won 48 seats?",
+    "options": [
+     "Netanyahu's bloc",
+     "The Arab-led parties",
+     "The opposition bloc led by Gadi Eisenkot"
+    ],
+    "answer": 2,
+    "why": "The opposition bloc led by Eisenkot won 48.",
+    "story": "lead"
+   },
+   {
+    "q": "What do the German protesters' alliance call itself?",
+    "options": [
+     "Alliance for the Future",
+     "GenZ regelt!",
+     "Students United"
+    ],
+    "answer": 1,
+    "why": "The non-partisan alliance is called GenZ regelt!.",
+    "story": "world"
+   },
+   {
+    "q": "Roughly how much of Gulf oil bypassed the Strait of Hormuz in September?",
+    "options": [
+     "17%",
+     "40%",
+     "75%"
+    ],
+    "answer": 1,
+    "why": "In September 40% of Gulf exports bypassed the strait, up from 17% before the war.",
+    "story": "economics"
+   },
+   {
+    "q": "How much did Binance say was affected by its security breach?",
+    "options": [
+     "$6.3 million",
+     "$6.3 billion",
+     "$63 billion"
+    ],
+    "answer": 1,
+    "why": "Binance said an estimated $6.3 billion in assets was affected.",
+    "story": "us"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Netanyahu's bloc won enough seats to reach the 61-seat majority.",
+    "true": false,
+    "why": "His bloc won 53 seats, short of 61.",
+    "story": "lead"
+   },
+   {
+    "claim": "Over 100,000 people were evacuated in southern Odisha after Arnab.",
+    "true": true,
+    "why": "Down To Earth reports over 100,000 evacuated, including 2,200 pregnant women.",
+    "story": "india"
+   },
+   {
+    "claim": "Swift was designed for a mission of about two years.",
+    "true": true,
+    "why": "It was designed for a two-year primary mission and operated for more than ten times that long.",
+    "story": "science_and_technology"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Jerusalem",
+    "lat": 31.77,
+    "lon": 35.21,
+    "countries": [
+     "Israel"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Rome",
+    "lat": 41.9,
+    "lon": 12.5,
+    "countries": [
+     "Italy",
+     "Germany",
+     "France"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Yanam",
+    "lat": 16.73,
+    "lon": 82.22,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "Strait of Hormuz",
+    "lat": 26.57,
+    "lon": 56.25,
+    "countries": [
+     "Iran",
+     "Oman",
+     "United Arab Emirates"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "lead",
+    "q": "What was turnout in Israel's 27 October vote?",
+    "answer": 77.9,
+    "prefix": "",
+    "unit": "%",
+    "min": 40,
+    "max": 100,
+    "why": "Turnout, the share of voters who took part, was 77.9%."
+   },
+   {
+    "story": "india",
+    "q": "What preliminary loss did Chief Minister Naidu put on Arnab's damage?",
+    "answer": 4600,
+    "prefix": "Rs ",
+    "unit": "crore",
+    "min": 500,
+    "max": 10000,
+    "why": "Naidu puts the preliminary loss at Rs 4,600 crore, and it could rise."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Israel's Election Gives No Clear Winner",
+    "body": [
+     "Israel held an election on 27 October. Its parliament is called the Knesset. It has 120 seats. A group needs 61 seats to have a majority.",
+     "The final count is in. Netanyahu's group won 53 seats. The opposition group led by Gadi Eisenkot won 48. Two Arab-led parties won 19 seats together.",
+     "So nobody reached 61. Netanyahu says he will not work with the Arab parties. Eisenkot says he will only work with parties that agree to certain rules.",
+     "Now the president, Isaac Herzog, picks someone to try to form a government. That person has about 28 days. If every try fails, Israelis vote again."
+    ]
+   },
+   "world": {
+    "headline": "Young People Protest Across Europe",
+    "body": [
+     "Young people are marching in several European countries. On 30 October, tens of thousands marched in Italy. They want lower living costs and better schools.",
+     "In Italy, prices have risen 68% since 2000. Average wages have fallen by almost 5%. The government has offered some help.",
+     "In Germany, about 150,000 people signed up to protest on Saturday. Their group says it rejects all violence.",
+     "In France, about 70,000 police will be out for a third weekend of protests. The interior minister fears trouble on Halloween."
+    ]
+   },
+   "india": {
+    "headline": "Cyclone Arnab Leaves Damage and Floods",
+    "body": [
+     "Cyclone Arnab hit the coast of Andhra Pradesh on 28 October. Its winds were strong, up to 150 km/h in gusts. Then it grew weaker.",
+     "Before it came, about 50,000 people in Andhra Pradesh were told to move to safer places. About 48,000 were told to move in Odisha. Schools became shelters.",
+     "The chief minister says at least seven people died. He says the damage so far is Rs 4,600 crore. That number could grow.",
+     "In Odisha, floods followed. More than 100,000 people were moved to safety."
+    ]
+   },
+   "us": {
+    "headline": "A Huge Crypto Theft Hits Binance",
+    "body": [
+     "Binance is the world's biggest crypto exchange. On 29 October it said hackers had hit about $6.3 billion in assets.",
+     "Most of the theft took about 20 minutes. Early checks point to a hacked laptop that belonged to a Binance engineer.",
+     "Binance stopped withdrawals and said customer money was safe. It says it has recovered or frozen about $3 billion. Its co-CEO said it would cover every loss.",
+     "Two firms said they were highly confident North Korea was behind it. North Korea routinely denies such claims."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "NASA's Swift Telescope Ends Its Work",
+    "body": [
+     "NASA's Swift telescope watched space for 21 years. It was built to work for only two years.",
+     "Swift studied gamma-ray bursts. These are huge explosions in space. It saw more than 2,000 of them. It could turn to face a burst in about a minute.",
+     "Now Swift is flying too low. The air around Earth pulls on it and shakes its telescopes. It made its last observation on 20 October.",
+     "Swift will fall back into Earth's atmosphere within a few weeks. Its data are in a public archive that scientists can use for years."
+    ]
+   },
+   "economics": {
+    "headline": "Oil Is Flowing, but Prices Are High",
+    "body": [
+     "Oil is the fuel that moves cars and ships. On 30 October, a barrel of Brent oil cost more than $117 for a short time.",
+     "Oil from the Gulf is moving again. But the Strait of Hormuz is a narrow, risky path. Usually one-fifth of the world's oil goes through it.",
+     "Now ships use pipes and small boats to get around it. That costs more. Shipping oil costs about $40 a barrel, ten times the usual price.",
+     "Experts say prices may stay high for a long time. Families pay more for fuel and goods."
+    ]
+   }
+  }
+ }
+}

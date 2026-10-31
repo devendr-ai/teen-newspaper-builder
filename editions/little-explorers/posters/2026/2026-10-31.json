@@ -1,0 +1,65 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-31",
+  "question": "Why do scientists look at old cave walls?",
+  "skill": "See, think, wonder",
+  "happened": "Scientists went into 11 painted caves in Spain and Portugal. They took more than 100 samples from the walls. Five had tiny bits of DNA from people long ago. Scientists still cannot say who made the paintings.",
+  "hero": {
+    "motif": "globe",
+    "caption": "Clues hide on old cave walls"
+  },
+  "steps": [
+    {
+      "title": "Touch",
+      "motif": "globe",
+      "text": "Long ago, people touched cave walls."
+    },
+    {
+      "title": "Leave a trace",
+      "motif": "globe",
+      "text": "They left tiny bits of DNA behind."
+    },
+    {
+      "title": "Find it",
+      "motif": "globe",
+      "text": "Now scientists take samples to find the DNA."
+    }
+  ],
+  "home": {
+    "chain": [
+      "Touch",
+      "Trace",
+      "Clue",
+      "Home"
+    ],
+    "text": "You leave traces too. A fingerprint on a window is a clue about who was there. Scientists read clues like this."
+  },
+  "find_it": {
+    "map": {
+      "title": "PAINTED CAVES",
+      "label_top": "SPAIN",
+      "label_bottom": "PORTUGAL",
+      "footnote": ""
+    },
+    "text": "The caves are in Spain and Portugal. Point to both countries on the map."
+  },
+  "try_it": {
+    "title": "Hunt for clues",
+    "steps": [
+      "Ask a grown-up to touch a clean window or mirror.",
+      "Look closely. Can you see a fingerprint?",
+      "Talk about who left it. How do you know?"
+    ]
+  },
+  "talk": {
+    "questions": [
+      "What clue do you leave when you touch something?",
+      "What would you ask a person who painted a cave?"
+    ],
+    "tip": "Today's skill is see, think, wonder. Ask what they see, what they think it means, and what they wonder. Don't correct; add one more detail."
+  },
+  "next_week": "Scientists want to tie DNA to the paint itself. Do you think they will find a way? Guess, then check.",
+  "sources": [
+    "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+  ]
+}

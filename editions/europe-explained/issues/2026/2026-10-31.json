@@ -1,0 +1,373 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-10-31",
+  "volume": 1,
+  "issue": 11,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  ITALY, GERMANY, FRANCE",
+      "headline": "Young Europeans Take Their Money Worries to the Streets",
+      "deck": "Marches in Italy, a huge sign-up in Germany and heavy policing in France show how rising prices have become a protest issue.",
+      "body": [
+        "Across Europe this week, young people have been marching, and the reasons they give are about money and the future. On 30 October tens of thousands of students and union members marched in dozens of Italian cities, including Rome, Milan and Naples, and the government tightened security. Al Jazeera reports that they want lower living costs, more investment in education and an end to wars in the Middle East.",
+        "The Italian marchers can point to numbers. Italian prices for food, energy, transport and bills have risen 68% since 2000, while average wages have fallen by almost 5%. Last week the government approved a 175 million euro aid package for truck drivers, farmers and fishermen hit by fuel price increases, and its draft 2027 budget proposes an annual bonus of 2,500 euros for workers under 30.",
+        "Germany is next. About 150,000 people had registered for Saturday's demonstrations in around 30 cities, including Berlin, Frankfurt and Cologne, according to France 24. A non-partisan alliance called 'GenZ regelt!', which rejects all violence, organised them. Supporters cite rising living costs, poorly maintained schools, and cuts to education, culture and healthcare. They also fear a plan to expand the military through a voluntary service model could lead to compulsory service.",
+        "Germany has not yet seen what France has. Youth-led protests have spread across France, Italy and Spain in recent weeks, and nationwide protests in France on 17 October became some of the country's worst rioting in years. For a third weekend, France is deploying some 70,000 police officers. Interior Minister Laurent Nunez warned of a high risk of disorder on Halloween."
+      ],
+      "map": {
+        "title": "THREE PROTEST CAPITALS",
+        "label_top": "GERMANY  •  Berlin",
+        "label_bottom": "ITALY  •  Rome  |  FRANCE  •  Paris",
+        "footnote": "Marches in Italy, sign-ups in Germany, police in France",
+        "caption": "Protests over living costs and schools in Italy, Germany and France.",
+        "countries": [
+          "Italy",
+          "Germany",
+          "France"
+        ],
+        "place": "Paris"
+      },
+      "why": "When prices rise faster than wages, young people say they have little say in their future, and governments must choose between help and policing.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Italy tightens security as students, unions launch nationwide protests",
+          "url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Germans to join Europe's youth protest wave",
+          "url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+        },
+        {
+          "outlet": "France 24",
+          "title": "French minister warns of 'very high' violence risk",
+          "url": "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL AND SHIPPING",
+      "headline": "Why Europe's Fuel Bills Stay High While Gulf Oil Keeps Flowing",
+      "deck": "Dearer shipping, rising danger and thin stocks help explain why governments in Europe are still paying for fuel relief.",
+      "body": [
+        "Oil can be flowing and still be expensive, and that is the puzzle behind this week's fuel prices. Al Jazeera reports that Gulf oil is leaving in larger amounts than before the war, yet the cost of getting it to buyers has jumped. For UK and European governments, that cost eventually lands on households.",
+        "Start with the journey. Because the Strait of Hormuz is risky, shuttle boats carry oil through it and load it onto tankers off Oman and the United Arab Emirates, outside the danger zone. Kpler says over 70% of the crude crossing the strait used this method in August. Pipelines add another way around: in September 40% of Gulf exports bypassed the strait, up from 17% before the war.",
+        "Next, the bill for that journey. Freight costs have reached about $40 per barrel, roughly ten times the usual rate, according to LSEG data, as insurance and logistics costs climb. The risk is real: the UKMTO logged 32 attacks on commercial vessels in October, the deadliest month since the war began.",
+        "Then, the cushion. The IEA says observed global stocks fell by 10 million barrels in September and sit 509 million barrels below pre-war levels. Fewer stored barrels leave less to calm the market if supply wobbles.",
+        "Europeans should not expect a quick fix. Brent futures for October 2027 were above $90 a barrel on Friday, which suggests markets expect prices to stay high for a long time. Analyst Isabel Figuerola-Ferretti says a return to $70 would need lasting de-escalation, normal shipping through Hormuz, rebuilt stocks and freight back to normal.",
+        "That matters on this side of the world. In the UK, a one-off 100 pound payment is going to 20 million households as gas and electricity prices rise, and Italy approved a 175 million euro package for truck drivers, farmers and fishermen hit by fuel price increases."
+      ],
+      "illustration": {
+        "title": "THE LONG WAY ROUND",
+        "subtitle": "Pipes, boats, costly sea",
+        "motif": "strait",
+        "caption": "The Strait of Hormuz normally carries about one-fifth of global oil and LNG."
+      },
+      "connect": "Prices are not set only by how much oil exists: the cost, risk and stock levels along the route all end up in what Europeans pay.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+          "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  THE BUDGET",
+      "headline": "Bank Profits Face a Bigger Surcharge as Homes Get 100 Pounds",
+      "deck": "Healey's first Budget helps with energy bills but leaves the government little room to spend.",
+      "body": [
+        "A Budget is the Chancellor's statement of how the government will raise and spend money. On 28 October Chancellor John Healey delivered the first of Prime Minister Andy Burnham's government. Burnham replaced Keir Starmer in July.",
+        "Households get direct help. A one-off 100 pound payment goes to 20 million households as gas and electricity prices rise, largely because of the Middle East conflict. Fixed fees on gas bills will go and the fuel duty freeze is extended.",
+        "To help pay, Labour will double the surcharge on UK bank profits to 6% for 15 months from January, which the official forecaster, the OBR, estimates will raise 1.5 billion pounds.",
+        "Room to spend is small. Fiscal headroom for 2029-2030 falls to 15 billion pounds from 23.6 billion in March, as higher borrowing costs raise debt repayments. Healey said 'Fiscal discipline is my first commitment' and kept Rachel Reeves's fiscal rules."
+      ],
+      "why": "Higher energy and borrowing costs linked to the war squeeze both household bills and the government's finances.",
+      "also": [
+        "Defence: Healey pledged 3% of GDP on defence by 2030.",
+        "Politics: Burnham ruled out a snap election next year."
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "UK set for cautious budget as borrowing costs climb",
+          "url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Israel: Netanyahu's bloc won 53 of 120 Knesset seats and the opposition bloc 48; a majority needs 61.",
+        "Brazil: Lula won the 25 October runoff with about 51.75% of the vote; Bolsonaro has not conceded."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Surcharge",
+          "def": "An extra charge on top of a tax. Today: the Budget doubles the surcharge on UK bank profits to 6%."
+        },
+        {
+          "word": "Freight",
+          "def": "Goods carried by ship, and the price of carrying them. Today: freight costs for oil have reached about $40 per barrel, roughly ten times the usual rate."
+        },
+        {
+          "word": "Rearmament",
+          "def": "Building up a country's armed forces again. Today: German protesters object to a plan to expand the military through a voluntary service model."
+        },
+        {
+          "word": "Bypass",
+          "def": "A route that goes around a blocked or risky place. Today: pipelines let Gulf oil bypass the Strait of Hormuz."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Normally the Strait of Hormuz carries about one-fifth of the world's oil and liquefied natural gas."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  CANADA",
+      "headline": "The EU and Canada Look for Friends in Minerals and Digital Trade",
+      "deck": "A summit in Montreal produced an 'Alliance for the Future' as leaders point to global uncertainty.",
+      "body": [
+        "While protests dominate the news at home, European leaders have also been looking abroad for partners. On Friday 30 October, Carney, Costa and von der Leyen launched what they called an Alliance for the Future at a summit in Montreal, where Canada and the European Union (EU) sought deeper ties.",
+        "The deals are practical. The European Investment Bank will invest in critical Canadian resources, particularly raw minerals, which are materials taken from the ground. A digital trade deal was also signed.",
+        "Ukraine is part of the package. Canada said it would join the EU's 90 billion euro support loan for Kyiv.",
+        "Al Jazeera frames the summit as a response to worsening global uncertainty. How much the bank will invest has not been reported in our sources."
+      ],
+      "why": "Countries are building new partnerships as global uncertainty grows, and minerals and digital rules are two areas where partners can agree.",
+      "analyst": "Why might the EU want partners that supply raw minerals? What could a digital trade deal change for businesses on both sides of the Atlantic? What would you want to know about how the investment bank will spend its money?",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU and Canada seek deeper ties amid worsening global uncertainty",
+          "url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty"
+        }
+      ],
+      "visual": {
+        "type": "positions",
+        "title": "WHAT WAS AGREED IN MONTREAL",
+        "caption": "Three reported outcomes of the summit; no ranking is implied.",
+        "source_url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty",
+        "items": [
+          {
+            "label": "Minerals: bank to invest in Canada",
+            "evidence": "The European Investment Bank will invest in critical Canadian resources, particularly raw minerals"
+          },
+          {
+            "label": "Trade: digital deal signed",
+            "evidence": "A digital trade deal was also signed."
+          },
+          {
+            "label": "Ukraine: Canada joins EU loan",
+            "evidence": "Canada said it would join the EU's 90 billion euro support loan for Kyiv."
+          }
+        ]
+      }
+    },
+    "sports": {
+      "title": "SPORTS CORNER: NO SCORES TODAY",
+      "body": "This issue's research found no verified sports results, so we leave scores out rather than guess. For weekend fixtures, check a trusted sports site.",
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether Germany's protests on Saturday pass peacefully, and how France's third weekend of protests goes on Halloween.",
+        "Whether Israel's President Herzog picks a candidate to try to form a government, and whether Brent oil prices stay above $110."
+      ]
+    },
+    "quote": {
+      "text": "Prices are numbers, but anger is felt in the shopping basket.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests",
+    "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave",
+    "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+    "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+    "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb",
+    "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "How many police officers is France deploying for the third weekend of protests?",
+        "options": [
+          "Some 7,000",
+          "Some 70,000",
+          "Some 700,000"
+        ],
+        "answer": 1,
+        "why": "France is deploying some 70,000 police officers in Paris and other cities.",
+        "story": "lead"
+      },
+      {
+        "q": "What is the German protest alliance called?",
+        "options": [
+          "GenZ regelt!",
+          "Alliance for the Future",
+          "Gen Next"
+        ],
+        "answer": 0,
+        "why": "The non-partisan alliance is called 'GenZ regelt!' and rejects all violence.",
+        "story": "lead"
+      },
+      {
+        "q": "In September, what share of Gulf exports bypassed the Strait of Hormuz?",
+        "options": [
+          "17%",
+          "40%",
+          "75%"
+        ],
+        "answer": 1,
+        "why": "In September 40% of Gulf exports bypassed the strait, up from 17% before the war.",
+        "story": "world"
+      },
+      {
+        "q": "To what level will the UK surcharge on bank profits be doubled?",
+        "options": [
+          "3%",
+          "12%",
+          "6%"
+        ],
+        "answer": 2,
+        "why": "Labour will double the surcharge on UK bank profits to 6% for 15 months from January.",
+        "story": "uk"
+      },
+      {
+        "q": "In which city did the EU and Canada launch their Alliance for the Future?",
+        "options": [
+          "Brussels",
+          "Montreal",
+          "Paris"
+        ],
+        "answer": 1,
+        "why": "Carney, Costa and von der Leyen launched it in Montreal.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Italian average wages have risen almost 5% since 2000 while prices rose 68%.",
+        "true": false,
+        "why": "Prices rose 68% but average wages fell by almost 5%.",
+        "story": "lead"
+      },
+      {
+        "claim": "A one-off 100 pound payment is going to 20 million UK households.",
+        "true": true,
+        "why": "It goes to 20 million households as gas and electricity prices rise.",
+        "story": "uk"
+      },
+      {
+        "claim": "Oil is not flowing out of the Gulf at all, which is why prices are high.",
+        "true": false,
+        "why": "Gulf crude exports averaged 24.6 million barrels per day, above the pre-war average; prices are high for other reasons.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France",
+          "Italy",
+          "Germany"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Montreal",
+        "lat": 45.5,
+        "lon": -73.57,
+        "countries": [
+          "Canada"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many people had registered for Saturday's protests in Germany?",
+        "answer": 150000,
+        "prefix": "",
+        "unit": "people",
+        "min": 10000,
+        "max": 500000,
+        "why": "About 150,000 people had registered for demonstrations in around 30 German cities."
+      },
+      {
+        "story": "uk",
+        "q": "To what percentage will the surcharge on UK bank profits be doubled?",
+        "answer": 6,
+        "prefix": "",
+        "unit": "%",
+        "min": 1,
+        "max": 20,
+        "why": "The surcharge on bank profits doubles to 6% for 15 months from January."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Young People March Over Prices",
+        "body": [
+          "Young people across Europe are protesting. They say prices are rising and they have little say in their future.",
+          "On 30 October, tens of thousands of students and workers marched in dozens of Italian cities. In Italy, prices for food, energy, transport and bills have risen 68% since 2000. Average wages have fallen by almost 5%. The Italian government has offered 175 million euros to truck drivers, farmers and fishermen.",
+          "In Germany, about 150,000 people signed up for protests in around 30 cities. Their group, GenZ regelt!, says it rejects all violence. In France, some 70,000 police officers will be on duty for a third weekend of protests."
+        ]
+      },
+      "world": {
+        "headline": "Oil Is Still Costly",
+        "body": [
+          "Oil is a fuel that sets the price of many things. Gulf oil is leaving in larger amounts than before the war, but it is still expensive to move.",
+          "Because the Strait of Hormuz is risky, small boats carry oil through it and load it onto tankers outside the danger zone. Pipelines carry some around the strait too. In September, 40% of Gulf exports went around it.",
+          "Shipping costs are about ten times the usual rate, and ships have been attacked. Stored oil is also lower than before the war. So fuel stays dear for people in Europe."
+        ]
+      },
+      "uk": {
+        "headline": "The UK Budget Helps With Bills",
+        "body": [
+          "A Budget is a plan for how a government raises and spends money. On 28 October, John Healey, the UK's Chancellor, gave his first one.",
+          "A one-off payment of 100 pounds will go to 20 million households. Gas bills will lose some fixed fees. Banks will pay a bigger extra tax on their profits: 6% for 15 months from January.",
+          "There is not much spare money. The government's cushion for 2029-2030 falls to 15 billion pounds from 23.6 billion in March. Growth is forecast at 1.2% this year and 1.0% in 2027."
+        ]
+      },
+      "europe": {
+        "headline": "The EU and Canada Sign Deals",
+        "body": [
+          "The European Union and Canada held a summit in Montreal on Friday 30 October. They launched what they called an Alliance for the Future.",
+          "The European Investment Bank will invest in Canadian raw minerals. These are materials dug out of the ground. The two sides also signed a digital trade deal.",
+          "Canada said it would join the EU's 90 billion euro loan to help Ukraine's capital, Kyiv."
+        ]
+      }
+    }
+  }
+}

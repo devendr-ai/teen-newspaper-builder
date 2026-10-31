@@ -1,0 +1,270 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-10-31",
+  "volume": 1,
+  "issue": 4,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SPAIN AND PORTUGAL",
+      "headline": "Tiny Traces of People Found on Cave Walls",
+      "deck": "Scientists found bits of DNA from people who lived long ago.",
+      "body": [
+        "Some caves have pictures painted on their walls. Scientists went into 11 of these caves in Spain and Portugal. They looked for tiny traces of people from long ago.",
+        "The traces are called DNA. DNA is like a tiny set of instructions inside every living thing. The scientists took more than 100 samples. Half came from painted spots. Half came from bare rock nearby.",
+        "Five samples had human DNA. Only one came from a painting, in Escoural Cave in Portugal. The DNA is at least 2,000 years old, and probably much older.",
+        "The scientists cannot say who painted the pictures. Rock art expert Benjamin Smith said the DNA could come from anyone near the rock, maybe long after the art was made."
+      ],
+      "map": {
+        "title": "PAINTED CAVES",
+        "label_top": "SPAIN",
+        "label_bottom": "PORTUGAL",
+        "footnote": "Caves in two countries",
+        "caption": "The 11 caves are in Spain and Portugal."
+      },
+      "why": "One day, DNA might help show who made the oldest art, if scientists can match it to the paint.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "In painted caves, ancient human DNA clings to the walls",
+          "url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  INDIA",
+      "headline": "After the Storm, Helpers Reach Families",
+      "deck": "A big storm called Arnab crossed the coast of India.",
+      "body": [
+        "A cyclone is a huge spinning storm with strong wind and rain. Cyclone Arnab reached the coast of Andhra Pradesh, in India, on Wednesday, October 28. It came ashore near a town called Yanam.",
+        "Before the storm came, officials asked about 50,000 people in Andhra Pradesh to move to safer places. About 48,000 more moved in Odisha. At least 609 schools became shelters. A man named Sadiq in Kakinada said the early warnings helped people get ready.",
+        "Sadly, at least seven people died in Andhra Pradesh. Crops on about 70,900 hectares were damaged. Power went out in nearly 400 villages. In southern Odisha, floods followed. Over 100,000 people were taken to safety.",
+        "Families who leave the shelters get 25 kilograms of rice and some money."
+      ],
+      "illustration": {
+        "title": "CYCLONE ARNAB",
+        "subtitle": "India's east coast",
+        "motif": "flood",
+        "caption": "Floods covered some places in Odisha."
+      },
+      "why": "Warnings and shelters helped many people stay safe in a very strong storm.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Cyclone Arnab: At least 3 killed",
+          "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+        },
+        {
+          "outlet": "The News Minute",
+          "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+        },
+        {
+          "outlet": "Down To Earth",
+          "title": "Cyclone Arnab batters southern Odisha",
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  MONEY",
+      "headline": "The Fed Waits to Change Its Rate",
+      "deck": "Twelve grown-ups voted. Ten said keep it the same.",
+      "body": [
+        "The Federal Reserve is a group that helps look after money in the United States. When people borrow money, they pay a little extra. That extra is called interest. The Fed sets a main rate that helps decide how much extra.",
+        "On October 28, the Fed kept its main rate at 3.75 to 4 percent. Twelve members voted. Ten voted to keep the rate. Two wanted to raise it by a quarter of a percentage point. They were Lisa Cook and Beth Hammack.",
+        "Why did two want a rise? Prices have been going up. In September, prices were 3.7 percent higher than a year before. In August, they were 3.4 percent higher. Higher energy prices were a big reason.",
+        "The Fed raised its rate in September. That was the first rise since July 2023. Many people expect another rise at the next meeting, on December 8 and 9."
+      ],
+      "chart": {
+        "title": "HOW THE FED VOTED",
+        "subtitle": "Number of members",
+        "labels": [
+          "Keep the rate",
+          "Raise the rate"
+        ],
+        "values": [
+          10,
+          2
+        ],
+        "max": 12,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Ten of 12 voted to keep the rate."
+      },
+      "why": "Interest rates change how much grown-ups pay for things like houses and cars.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Space: NASA's Swift telescope made its last look at the sky on October 20 after 21 years, and it has studied more than 2,000 huge space explosions.",
+        "Brazil: Luiz Inacio Lula da Silva won the vote for president on October 25, and he will serve a fourth term."
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "A Helicopter Practises for Another Moon",
+      "deck": "NASA tried a first flight on a computer.",
+      "body": [
+        "Saturn is a planet with rings. It has a moon called Titan. NASA plans to send a helicopter there. It is called Dragonfly.",
+        "Dragonfly will not leave Earth before 2028. In October, the team tried its first flight in a simulation. A simulation is a pretend flight inside a computer.",
+        "In the pretend flight, Dragonfly flew over sand dunes and scanned the ground for a safe spot. Then it circled back and landed. It used lidar, which measures how high and steep the ground is.",
+        "Titan is far away, so Dragonfly must decide things on its own. Engineer Zach Putnam said the first flight is the most challenging one, because it uses every sensor. Next, the team will add pretend problems to check that it reacts well."
+      ],
+      "why": "Practising on the ground helps a robot flyer stay safe when no one can steer it.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Dragonfly Completes First Simulated Flight",
+          "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Ancient",
+          "def": "Very, very old. Today: Scientists found ancient DNA on cave walls."
+        },
+        {
+          "word": "Cyclone",
+          "def": "A huge spinning storm with strong wind and rain. Today: Cyclone Arnab came ashore in India."
+        },
+        {
+          "word": "Simulation",
+          "def": "A pretend test done inside a computer. Today: Dragonfly flew in a simulation first."
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+    "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+    "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+    "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+    "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+    "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Where are the painted caves?",
+        "options": [
+          "Spain and Portugal",
+          "India and Brazil",
+          "Canada and Mexico"
+        ],
+        "answer": 0,
+        "why": "The 11 caves are in Spain and Portugal.",
+        "story": "lead"
+      },
+      {
+        "q": "What is a cyclone?",
+        "options": [
+          "A tiny bug",
+          "A huge spinning storm",
+          "A kind of bread"
+        ],
+        "answer": 1,
+        "why": "A cyclone is a huge spinning storm with strong wind and rain.",
+        "story": "world"
+      },
+      {
+        "q": "What did Dragonfly do in its pretend flight?",
+        "options": [
+          "It sank in a lake",
+          "It landed in a safe spot",
+          "It flew back to Earth"
+        ],
+        "answer": 1,
+        "why": "It scanned the ground, circled back and landed.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Scientists found human DNA on cave walls.",
+        "true": true,
+        "why": "Five samples from cave walls had ancient human DNA.",
+        "story": "lead"
+      },
+      {
+        "claim": "Scientists found human DNA on every painting they tested.",
+        "true": false,
+        "why": "Only one of the five DNA samples came from a painting.",
+        "story": "lead"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Escoural Cave, Portugal",
+        "lat": 38.54,
+        "lon": -8.16,
+        "countries": [
+          "Spain",
+          "Portugal"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Yanam, India",
+        "lat": 16.73,
+        "lon": 82.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Laurel, Maryland",
+        "lat": 39.1,
+        "lon": -76.85,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many painted caves did the scientists visit?",
+        "answer": 11,
+        "prefix": "",
+        "unit": "caves",
+        "min": 1,
+        "max": 40,
+        "why": "The scientists took samples in 11 caves in Spain and Portugal."
+      },
+      {
+        "story": "world",
+        "q": "About how many schools became shelters in Andhra Pradesh?",
+        "answer": 609,
+        "prefix": "",
+        "unit": "schools",
+        "min": 50,
+        "max": 2000,
+        "why": "At least 609 schools became shelters for families."
+      }
+    ]
+  }
+}
