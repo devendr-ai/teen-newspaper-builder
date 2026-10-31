@@ -65,10 +65,20 @@ Rules for the pool (these are what make the papers trustworthy):
   Records and "firsts" must be stated by a source, never worked out.
 - Prefer original reporting and official sources; note each source's date and
   stay inside the window.
-- **Gather enough for the space.** In the 4-page papers a story fills a whole column (about 350–450
-  words), so give every story that may lead or fill a column at least 8–10 `key_facts`: what
-  happened, who said what, numbers, how it works, what comes next. A thin pool is how pages end up
-  half empty.
+- **Search like a reporter, not a headline reader.** Generic queries ("world news today") return
+  aggregator pages and look thin; that says nothing about the day. Search named outlets with
+  `allowed_domains` and dated queries, e.g. world: apnews.com, reuters.com, bbc.com, aljazeera.com,
+  npr.org, france24.com, theguardian.com; India: thehindu.com, indianexpress.com,
+  hindustantimes.com, ndtv.com, livemint.com; science: sciencenews.org, nasa.gov, space.com,
+  newscientist.com; sport: espn.com, espncricinfo.com, bbc.com/sport. Then search again for each
+  story you pick (official statements, numbers, what happens next). A full day takes dozens of
+  searches and that's expected. **Thin first results are never a reason to publish nothing.**
+- **Gather enough for the space, as a target, not a gate.** In the 4-page papers a story fills a
+  whole column (about 350–450 words), so aim for 8–10 `key_facts` for the stories that will lead or
+  fill a column: what happened, who said what, numbers, how it works, what comes next. Briefs and
+  short slots need only 2–3. A story with fewer facts can still run; give the big slots to the
+  stories with the most coverage. Sourced background also counts: how a cyclone forms (from a
+  weather service page), what a parliament's majority is (from an official or reference page).
 - Mark `"suitable_for_children": false` when the core facts are too graphic
   for ages 6–14. Those stories are never used in papers for under-15s.
 - Use the desk keys exactly as `research_desks` gives them (`world`, `india`,
@@ -85,7 +95,8 @@ Rules for the pool (these are what make the papers trustworthy):
   again when there's a genuinely new development (the paper's PROMPT.md allows
   it). Check the `previous_headlines` and write the new part.
 - Skip a paper only after really trying to write it. Never skip the whole day
-  before you've written and checked each due paper.
+  before you've written and checked each due paper. Publishing nothing is right only when nothing
+  is due.
 
 ## 1b. Selective source depth (automatic, before writing)
 
@@ -186,7 +197,9 @@ For each paper in `ygc due`, one at a time:
    into audio). **Fill the page:** from 29 October 2026 `check` fails a story column that ends more
    than 6 lines short, and says how many words of room are left. Fill it with more sourced detail
    from the pool; if the pool runs out, research that story further and add the new facts and
-   sources to the pool first. Never pad with invented colour or repeated points. Open the page PNGs
+   sources to the pool first. If a story still can't fill its column, swap in a better-covered story
+   for that slot; a short column is a reason to change the story, never to skip the paper or the day.
+   Never pad with invented colour or repeated points. Open the page PNGs
    in `build/` and look at them: no page should end in a large white gap.
 5. Fact-check before calling it done: reread every figure, name, place, date
    and claim against the pool entry it came from, and remove anything the
