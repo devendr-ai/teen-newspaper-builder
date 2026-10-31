@@ -2,10 +2,9 @@
 // plus what only an app can do: offline papers, audio with the screen locked, a morning reminder, and the
 // phone's print and share sheets after the Parental Gate. See docs/APP_BUILD.md.
 import { useCallback, useEffect, useRef, useState, type ComponentRef } from 'react';
-import { ActivityIndicator, Alert, AppState, BackHandler, Linking, Platform, Pressable, Share, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, AppState, BackHandler, Linking, Platform, Pressable, Share, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { useLocalSearchParams } from 'expo-router';
 import { File, Paths } from 'expo-file-system';
 import { getContentUriAsync } from 'expo-file-system/legacy';
 import * as IntentLauncher from 'expo-intent-launcher';
@@ -19,8 +18,6 @@ import * as player from './src/player';
 import * as reminder from './src/reminder';
 import { MiniPlayer } from './src/MiniPlayer';
 import { parentRequest } from './src/parent-api';
-import * as questionWidget from './src/widgets/service';
-import { intent, audioPath } from './src/widgets/core';
 
 const PAPER = '#F4F1EA';
 const STALE = 30 * 60 * 1000;                   // check for new papers when the app comes back after this long
@@ -38,10 +35,6 @@ type Phase = { kind: 'loading'; done: number; total: number } | { kind: 'failed'
 
 function Main() {
   const insets = useSafeAreaInsets();
-  const params = useLocalSearchParams();
-  const handledWidget = useRef('');
-  const alive = useRef(true);
-  useEffect(() => { alive.current = true; return () => { alive.current = false; }; }, []);
   const web = useRef<ComponentRef<typeof WebView>>(null);
   const [initialPack] = useState(() => content.local());
   const [phase, setPhase] = useState<Phase>(() => initialPack ? { kind: 'ready' } : { kind: 'loading', done: 0, total: 0 });
@@ -64,7 +57,6 @@ function Main() {
       const before = content.local()?.id;
       const got = await content.sync(first ? (p) => setPhase({ kind: 'loading', ...p }) : undefined);
       setPack(got);
-      questionWidget.syncFromPack().catch(() => {});
       if (first) { setStart(content.fileUri(got.start)); setPhase({ kind: 'ready' }); }
       else if (got.id !== before && /\/index\.html$/.test(page.url)) web.current?.reload();   // new papers on a front page
     } catch {
@@ -91,54 +83,12 @@ function Main() {
 
   useEffect(() => { if (phase.kind === 'ready') send({ t: 'status', s: status }); }, [status, phase.kind, send]);
 
-  // Router handles cold and warm widget links; only exact downloaded issue pages
-  // are accepted. An archived redirect must never silently open a different issue.
-  useEffect(() => {
-    const target = intent(params.widget, params.issue);
-    if (!target || phase.kind !== 'ready' || !pack) return;
-    const token = target.edition + target.date + String(params.request || '');
-    if (handledWidget.current === token) return;
-    handledWidget.current = token;
-    (async () => {
-      try {
-        let got = content.local();
-        const ready = () => {
-          if (!got?.files[target.reader]) return false;
-          const f = new File(content.fileUri(target.reader));
-          return f.exists && f.textSync().includes(`name="np-issue" content="${target.edition}/${target.date}"`);
-        };
-        if (!ready()) { got = await content.sync(); if (alive.current) setPack(got); }
-        if (!ready() || !questionWidget.feed().editions.some(e => e.edition === target.edition)) throw new Error('This issue is not saved on this device. Connect to the internet and refresh your papers.');
-        if (!alive.current || handledWidget.current !== token) return;
-        setStart(content.fileUri(target.reader));
-        setClaimed(null);
-        // Prepare, don't autoplay. Playback starts only after the parent taps Play.
-        const briefFile = `play/briefs/${target.date}.json`;
-        try {
-          const data = got?.files[briefFile] ? JSON.parse(new File(content.fileUri(briefFile)).textSync()) : null;
-          const audio = audioPath(data, target.edition, target.date);
-          if (audio && got?.files[audio] && new File(content.fileUri(audio)).exists) {
-            const id = 'brief-' + target.date;
-            if (player.current()?.id !== id) {
-              await player.setup();
-              player.load({ id, title: 'Car-ride brief · ' + target.date, artist: data.name,
-                tracks: [{ src: content.fileUri(audio), title: data.name + ' · ' + target.date }], autoplay: false });
-            }
-          } else player.stop(); // A different issue's audio must not accompany the fallback story.
-        } catch { player.stop(); } // Missing audio never prevents reading the matching issue.
-      } catch (error) {
-        if (alive.current) Alert.alert('Open your paper', error instanceof Error ? error.message : 'Please refresh your papers and try again.');
-      }
-    })();
-  }, [params.widget, params.issue, params.request, pack, phase.kind]);
-
   const settings = useCallback(() => {
     const mb = Math.round(content.bytes(pack) / 1e6);
     const when = pack ? new Date(pack.synced).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) : '';
     send({
       t: 'settings',
       reminder: reminder.get(),
-      widgets: questionWidget.settings(),
       offline: {
         state: updating ? 'Updating…' : pack ? '✓ Up to date' : '',
         what: `Papers and audio from the last 7 days${mb ? ` · ${mb} MB` : ''}`,
@@ -189,13 +139,6 @@ function Main() {
         try { await Share.share({ title: m.title, message: [m.text, m.url].filter(Boolean).join(' '), url: m.url || undefined }); } catch {}
         break;
       case 'settings?': settings(); break;
-      case 'widget-save': {
-        if (e.nativeEvent.url.split(/[?#]/)[0] !== content.rootUri.replace(/\/$/, '') + '/parents.html') break;
-        try { await questionWidget.save(m.on === true, String(m.edition || '')); }
-        catch (error) { Alert.alert('Question widget', error instanceof Error ? error.message : 'Could not update the widget.'); }
-        settings();
-        break;
-      }
       case 'reminder': {
         const r = await reminder.set(!!m.on, String(m.time || '07:00'));
         setDenied(!!r.denied);

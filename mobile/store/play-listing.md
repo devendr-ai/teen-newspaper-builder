@@ -56,7 +56,6 @@ OFFLINE
 FOR GROWN-UPS
 • Print any paper for the breakfast table
 • A morning reminder at the time you choose
-• An optional home-screen widget with a question from your chosen paper, to talk about together
 • Links out, sharing, printing, email sign-up and the grown-ups' tools ask a grown-up a quick question first
 
 PRIVATE BY DESIGN
@@ -97,7 +96,7 @@ sharing.
 - Age groups: **6–8, 9–12, 13–15, 16–17** (add 18+ too if you want adults to find the 15+ paper)
 - Because under-13s are included, the app follows the **Families policy**: no ads, no analytics or
   tracking SDKs, no account, and a grown-up question before links out, sharing, printing, email sign-up, the reminder
-  and widget settings, and the grown-ups' tools (Design your own, the progress report). Answer "Could your store listing unintentionally appeal to children?" with **Yes** (it is meant to).
+  setting, and the grown-ups' tools (Design your own, the progress report). Answer "Could your store listing unintentionally appeal to children?" with **Yes** (it is meant to).
 
 **News apps:** **Yes**. It publishes daily news. The publisher contact is `info@newspebbles.com` and
 `https://newspebbles.com/about.html`; sources are listed in every issue.

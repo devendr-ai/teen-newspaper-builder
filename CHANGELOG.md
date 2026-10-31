@@ -1,3 +1,12 @@
+## Question widget removed (for now)
+
+- The iPhone/Android question widget is gone: its app code (`mobile/src/widgets`, the router
+  routes, the background task), its native setup (the widget extension, App Group and Android
+  widget), the "A question to share" panel in For parents, `widgets.json` and its tests and docs.
+  Choosing a paper for it was confusing; it can come back as a simpler design.
+- The app's entry point is plain `registerRootComponent(App)` again, without Expo Router or
+  `expo-dev-client`, so `npx expo start` opens in Expo Go.
+
 ## The nightly run publishes again
 
 - The 29–31 October runs published nothing: after a few generic searches the run read "8–10 key
