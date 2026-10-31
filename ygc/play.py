@@ -436,9 +436,7 @@ def issue_page(cfg, ed, band, issue, date, others, chips=None, stretch=None, ord
 <div id="pop" role="dialog" aria-modal="false" hidden><button type="button" class="x" aria-label="Close">✕</button><h3></h3><p class="m"></p><p class="t"></p>
 <button type="button" class="say">🔊 Say it</button></div>
 <script id="data" type="application/json">{json.dumps(data, ensure_ascii=False).replace("</", "<\\/")}</script>'''
-    doc = shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../")
-    doc = doc.replace("</head>", f'<meta name="np-issue" content="{ed["id"]}/{date}"></head>', 1)
-    return doc, places
+    return shell(cfg, f"{ed['name']}, {d:%d %b} · Read & Play", body, root="../../"), places
 
 
 # ------------------------------------------------------------------ the space
