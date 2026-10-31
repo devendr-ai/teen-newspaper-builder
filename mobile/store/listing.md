@@ -8,6 +8,27 @@ with `NODE_PATH=$(npm root -g) node tools/app_screenshots.cjs https://newspebble
 Don't add the app in App Store Connect until you're ready: the developer name shown on the App Store is fixed
 when the first app is added (for an individual account it is the account holder's legal name).
 
+## Submission checklist
+
+In App Store Connect (signed in as the account holder), app **News Pebbles**:
+
+1. **TestFlight:** the build you'll submit is installed and checked on an iPhone: papers open, Listen
+   keeps playing with the screen locked, the reminder asks for permission, the widget adds and opens
+   its issue, and papers open with no internet.
+2. **App Information** (section 1 below): subtitle, categories, content rights, age rating
+   (section 3), privacy policy URL.
+3. **App Privacy** ([app-privacy.md](app-privacy.md)): the answers, then **Publish**.
+4. **Pricing and Availability** (section 2): Free; all countries except China mainland.
+5. **iOS App → 1.0 Prepare for Submission** (section 4): screenshots from [screenshots/](screenshots/)
+   (iPhone 6.9" and iPad 13"), promotional text, description, keywords, support and marketing URLs,
+   copyright; under **Build**, pick the TestFlight build.
+6. **App Review Information** (section 5): sign-in not required, contact details, the notes.
+7. **Version Release:** *Manually release this version*, so you choose the launch moment after approval.
+8. **Add for Review**, then **Submit to App Review**. Review usually takes 1–2 days; Apple emails the result.
+
+If Apple asks questions, they appear in App Store Connect under **App Review**; reply there.
+
+
 ---
 
 ## 1. App Information
@@ -26,7 +47,7 @@ when the first app is added (for an individual account it is the account holder'
 | Support URL | `https://newspebbles.com/feedback.html` |
 | Marketing URL | `https://newspebbles.com/` |
 | Copyright | `2026` and the developer account's legal name |
-| Kids Category | No (the papers cover ages 6–18; the app still follows the Kids Category rules: no ads, no tracking, a grown-up question before links out, sharing, printing and the parents' pages) |
+| Kids Category | No (the papers cover ages 6–18; the app still follows the Kids Category rules: no ads, no tracking, a grown-up question before links out, sharing, printing, email sign-up, the reminder and widget settings, and the grown-ups' tools (Design your own, the progress report)) |
 
 ## 2. Pricing and Availability
 
@@ -88,7 +109,7 @@ FOR GROWN-UPS
 • Print any paper (US Letter) for the breakfast table
 • A morning reminder at the time you choose
 • An optional home-screen widget with a question from your chosen paper, to talk about together
-• Every link out, share, print and the parents' pages ask a grown-up a quick question first
+• Links out, sharing, printing, email sign-up and the grown-ups' tools ask a grown-up a quick question first
 
 PRIVATE BY DESIGN
 • No accounts, no ads, no tracking, nothing counted in the app
@@ -121,13 +142,13 @@ News Pebbles has no accounts or sign-in. On first launch it downloads the day's 
 How to test:
 1. Home: choose an age (e.g. 9–11) and open a paper. Read & Play shows today's papers; tap Read or Play.
 2. Listen tab: tap the car-ride brief or any paper. Audio keeps playing with the screen locked; the lock screen shows play/pause and next story.
-3. Grown-up question: links to news sources, sharing, printing and the For parents tab ask a sum written in words, e.g. "What is sixteen multiplied by four?" (answer 64). Three wrong answers pause it for 30 seconds.
-4. For parents → This app: turn on the morning reminder and pick a time (a local notification; there is no push server).
+3. Grown-up question: links out, sharing, printing, email sign-up, the reminder and widget settings, and the grown-ups' tools (Design your own, the progress report) ask a sum written in words, e.g. "What is sixteen multiplied by four?" (answer 64). Three wrong answers pause it for 30 seconds. The For parents tab itself opens without it, so parents can read about the papers.
+4. For parents → This app: turn on the morning reminder and pick a time (after the grown-up question; a local notification, there is no push server).
 5. Print: on a paper's page, "Print this paper" opens the iOS print sheet after the grown-up question.
 6. For parents → This app → A question to share: choose a paper and turn it on, then add the News Pebbles widget from the Home Screen or Lock Screen widget picker. Tapping it opens that issue.
-7. For parents → Design your own (no second question): parents build a custom paper with their own AI chatbot (the chatbot opens in Safari after the grown-up question); the finished PDF opens the share sheet.
+7. For parents → Design your own (opens after the grown-up question): parents build a custom paper with their own AI chatbot. Opening the chatbot leaves the app for Safari, so it asks again; the finished PDF opens the share sheet.
 
-There are no ads, no analytics and no third-party SDKs in the app. Links out open in Safari. Optional email delivery and anonymous "You Make the Call" responses (ages 12+) are sent only after the grown-up question.
+There are no ads, no analytics, no tracking and no third-party SDKs beyond Expo's own libraries. Links out open in Safari. Optional email delivery and anonymous "You Make the Call" responses (ages 12+) are sent only after the grown-up question.
 ```
 
 ## 6. TestFlight (before the App Store)

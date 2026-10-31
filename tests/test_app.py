@@ -169,3 +169,17 @@ def test_the_app_builds_for_google_play():
     listing = Path(ROOT, "mobile", "store", "play-listing.md").read_text(encoding="utf-8")
     short = re.search(r"Short description \(80 max\):\*\*\n\n```\n(.+)\n```", listing).group(1)
     assert len(short) <= 80 and "Data safety" in listing and "12 testers" in listing
+
+
+def test_platform_files_are_not_shadowed_by_their_fallback():
+    # Metro tries every platform variant of one extension before the next, so a fallback `x.ts`
+    # beside `x.ios.tsx` wins on iPhone: the widget then never got its question. Keep each fallback
+    # in the same extension as its platform variants.
+    src = Path(ROOT, "mobile", "src")
+    for variant in src.rglob("*.*.ts*"):
+        stem, platform, ext = variant.name.rsplit(".", 2)
+        if platform not in ("ios", "android", "native", "web"):
+            continue
+        for other in ("ts", "tsx"):
+            fallback = variant.with_name(f"{stem}.{other}")
+            assert other == ext or not fallback.exists(), f"{fallback.relative_to(ROOT)} shadows {variant.name}"
