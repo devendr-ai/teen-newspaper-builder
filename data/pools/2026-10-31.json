@@ -1,0 +1,2147 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-prices-hormuz",
+    "headline": "Oil Stays Above $110 as Ships Find Ways Around the Strait of Hormuz",
+    "what_happened": "Oil from Gulf countries is flowing again in larger amounts than before the war, but Brent crude briefly topped $117 a barrel on Friday 30 October. Analysts blame fear of renewed US-Iran fighting, falling stockpiles and costly shipping.",
+    "why_it_matters": "Oil sets the price of fuel, shipping and many goods, so a squeezed strait raises costs for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Gulf crude exports averaged 24.6 million barrels per day in the week to October 18, above the pre-war average, according to Kpler.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Gulf production is still short of normal: the IEA puts September OPEC Gulf output at 15.8 million barrels per day, or 75% of the pre-war baseline.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "On Friday, December-delivery Brent futures briefly topped $117 a barrel; Brent is at its highest since April and more than 60% above pre-war levels.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Normally the Strait of Hormuz carries about one-fifth of global oil and LNG.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Ship-to-ship transfers: shuttle boats move oil through the strait and load it onto tankers outside the danger zone, off Oman and the UAE; over 70% of crude crossing the strait used this method in August, per Kpler.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Pipeline bypasses: Saudi Arabia's East-West pipeline runs to the Red Sea port of Yanbu and the UAE's Habshan-Fujairah pipeline also carries oil around the strait; in September 40% of Gulf exports bypassed the strait, up from 17% before the war.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Freight costs have reached about $40 per barrel in recent weeks, roughly ten times the usual rate, per LSEG data, as insurance and logistics costs climb.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "October was the deadliest month for attacks on commercial vessels since the war began, with 32 incidents logged by UKMTO as of Friday.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Observed global inventories fell by 10 million barrels in September and stocks are 509 million barrels below pre-war levels, per the IEA.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Brent futures for October 2027 delivery were above $90 a barrel on Friday, suggesting markets expect prices to stay high for a long time.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Analyst Isabel Figuerola-Ferretti says a return to $70 would need lasting de-escalation, normal Hormuz transit and shipping, rebuilt inventories and freight costs back to normal.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE; Gulf; Red Sea port of Yanbu; Fujairah on the UAE's Gulf of Oman coast",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+      "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-deadlock",
+    "headline": "Israel's Election Ends With No Majority for Either Side",
+    "what_happened": "Final results show Netanyahu's bloc with 53 of the Knesset's 120 seats and the opposition bloc led by Gadi Eisenkot with 48; Arab-led parties won 19. A majority needs 61.",
+    "why_it_matters": "Without a majority, Israel faces weeks of coalition talks and possibly another election.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "No party or bloc reached the 61-seat majority needed in the 120-seat Knesset; turnout in the October 27 vote was 77.9% and the Central Elections Committee published final results early on October 30.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Netanyahu's bloc won 53 seats; the opposition bloc led by Gadi Eisenkot (Yashar party) won 48; the United Arab List (Ra'am) and the Joint List together won 19.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "At least 500,000 'double envelope' votes from soldiers and diplomats were counted on October 29; the inner envelope keeps the ballot anonymous and the outer one lets officials verify the voter.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Step one: President Isaac Herzog picks the candidate he judges most likely to form a government, who has about 28 days, which can be extended.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "If that candidate fails, Herzog can pick another with the same type of window; if the second also fails, a 21-day period opens in which 61 Knesset members can ask Herzog to assign the task to a Knesset member.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "If every step fails, Israelis return to the polls for a second election.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Netanyahu has ruled out a government with the Arab parties, posting on X that it is 'forbidden'; Likud accused them of 'stealing' the election.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Eisenkot says he would only partner with parties that recognise Israel as a Jewish and democratic state, endorse the Declaration of Independence's values and commit to national service.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Analyst Roi Zur of Essex University says 'the numbers don't add up for any side'.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     }
+    ],
+    "numbers": [],
+    "geography": "Israel; Knesset in Jerusalem",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "How can Israel break its election deadlock?",
+      "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "spain-train-crash",
+    "headline": "Spain Mourns After a High-Speed Train Crash Near Madrid",
+    "what_happened": "A Renfe high-speed train hit the rear of a stalled Iryo train near Urda, south of Madrid, on 28 October. At least 68 people died. A signalling computer failure is at the centre of the investigation.",
+    "why_it_matters": "It is the deadliest European rail accident since 2013 and raises questions about ageing signalling on Spain's oldest high-speed line.",
+    "importance": 9,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "The crash happened at about 8:53am on Wednesday 28 October near Urda, when a Renfe train hit the rear of a stalled Iryo train; both were travelling from Madrid to Seville, with 397 and 147 passengers.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "At least 68 people died and about 80 were injured; it is the deadliest European rail accident since the 2013 Santiago de Compostela derailment, which killed 80.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "About 8:30am a computer failure disabled LZB, the main automatic signalling system, and about six trains on a 63 km stretch stopped automatically; at 8:36am controllers cleared the Renfe train to resume normal speed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Transport Minister Oscar Puente called the control centre's order 'inexplicable'; when LZB fails trains may move at no more than 40 km/h.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "LZB dates from the Madrid-Seville line's opening in 1992; it is Spain's only high-speed route still using it, and a contract to replace it was won in 2021 and is still underway.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Prime Minister Pedro Sanchez declared three days of national mourning starting Thursday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "It is Spain's second deadly high-speed crash of 2026, after 18 January near Adamuz that killed 46.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Adif suspended high-speed services between Madrid and Andalusia; Renfe suspended ticket sales on the corridor until 13 December.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "The Civil Guard has sent a disaster investigation team, and national elections are weeks away.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     }
+    ],
+    "numbers": [],
+    "geography": "Urda, Toledo province, south of Madrid; Madrid-Seville line",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "What we know about Spain's second high-speed rail tragedy this year",
+      "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oleshky-evacuation",
+    "headline": "Residents Leave Oleshky During a US-Brokered Ceasefire",
+    "what_happened": "People left the Russian-occupied town of Oleshky in Ukraine's Kherson region during a rare four-day ceasefire announced by US First Lady Melania Trump. Shortages of food and medicine had hit the town hard.",
+    "why_it_matters": "It is the longest pause in fighting anywhere on the front line since Russia's 2022 invasion, and shows a way to get help to people caught in a war zone.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Oleshky's pre-war population was about 24,000; it has fallen to roughly 2,000.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Ukrainian negotiator David Arakhamia said the Ukrainian delegation and evacuated residents set off for Anapa, a Russian Black Sea city, then are expected to fly to Belarus and travel by bus to Ukraine.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Ukrainian and Russian officials visited the town together, delivering aid and helping people who wanted to leave.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Russia deployed 25 buses and nine ambulances, according to ombudsman Yana Lantratova; neither side said how many people left.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "The truce was announced last week by US First Lady Melania Trump; it is in its fourth day, due to end Sunday evening, and is the longest pause in fighting anywhere on the front line since 2022.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Earlier partial ceasefires, such as around Orthodox Easter, were marred by accusations of violations.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Attacks elsewhere in Ukraine continued; a drone strike on a train station in Dnipro on Thursday killed at least 13 people.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Russia and Ukraine are due to meet next month with US envoys in the United Arab Emirates to try to revive peace talks; no date has been set.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     }
+    ],
+    "numbers": [],
+    "geography": "Oleshky, Kherson region, southern Ukraine; Anapa on Russia's Black Sea coast; Belarus",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
+      "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "youth-protests-europe",
+    "headline": "Young People's Protests Spread Across Europe",
+    "what_happened": "Tens of thousands of students and union members marched in Italy on 30 October, France prepared for a third weekend of protests, and about 150,000 people registered for protests in around 30 German cities on Saturday.",
+    "why_it_matters": "Young people say rising living costs, school spending and rearmament are shaping a future they have little say in.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tens of thousands of students and union members marched in dozens of Italian cities on 30 October, including Rome, Milan and Naples; the government tightened security.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "Protesters want lower living costs, more investment in education and an end to wars in the Middle East.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "Italian prices for food, energy, transport and bills have risen 68% since 2000 while average wages have fallen by almost 5%.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "Last week the Italian government approved a €175 million aid package for truck drivers, farmers and fishermen hit by fuel price increases; the draft 2027 budget proposes an annual bonus of €2,500 for workers under 30.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "In Germany about 150,000 people had registered for Saturday's demonstrations in around 30 cities, including Berlin, Frankfurt and Cologne, organised by a non-partisan alliance called 'GenZ regelt!'; the group rejects all violence.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "German protesters cite rising living costs, poorly maintained schools, cuts to education, culture and healthcare, and a plan to expand the military through a new voluntary service model, which they fear could lead to compulsory service.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "Youth-led protests have spread across France, Italy and Spain in recent weeks; in France, nationwide protests on October 17 became some of the country's worst rioting in years.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "Protest researcher Christian Volk of Humboldt University says Germany could see a major protest movement and that 'enormous' pressure is building.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "France is deploying some 70,000 police officers in Paris and other cities for a third weekend of protests, and Interior Minister Laurent Nuñez warned of a high risk of disorder on Halloween; more than 40 Paris metro stations will be closed.",
+      "source_url": "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests"
+     }
+    ],
+    "numbers": [],
+    "geography": "Rome, Milan, Naples (Italy); Berlin, Frankfurt, Cologne (Germany); Paris (France)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Italy tightens security as students, unions launch nationwide protests",
+      "url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Germans to join Europe's youth protest wave",
+      "url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "French minister warns of 'very high' violence risk",
+      "url": "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "arnab-aftermath",
+    "headline": "Cyclone Arnab Leaves Damage Across Andhra Pradesh and Floods in Odisha",
+    "what_happened": "Cyclone Arnab crossed the Andhra Pradesh coast on 28 October. Chief Minister N. Chandrababu Naidu puts the preliminary loss at Rs 4,600 crore and says at least seven people died; floods hit southern Odisha.",
+    "why_it_matters": "Early warnings and evacuations of tens of thousands of people helped limit the harm from a very severe cyclone.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Arnab made landfall near Yanam on the Andhra Pradesh coast on Wednesday 28 October as a 'very severe cyclonic storm' with core winds of 125-135 km/h and gusts up to 150 km/h, said the India Meteorological Department.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "The highest rainfall recorded was 261.5 mm at Kannuripalem in Anakapalli district.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "At least 609 schools across Andhra Pradesh were turned into rehabilitation centres.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "The storm weakened into a 'deep depression' through Wednesday afternoon; about 50,000 people were told to move to safer areas in Andhra Pradesh and about 48,000 in Odisha.",
+      "source_url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+     },
+     {
+      "fact": "Kakinada resident Sadiq said early warnings from authorities helped people prepare, and many locked their homes and moved to safer places.",
+      "source_url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+     },
+     {
+      "fact": "Chief Minister Naidu puts the preliminary loss at Rs 4,600 crore, which could rise after a detailed assessment, and said at least seven people were killed; an early NDRF count had been three.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "Crops on about 70,900 hectares, mainly paddy, were reported damaged; Konaseema and West Godavari were hardest hit, around 8,000 electricity poles fell in Konaseema alone, and power was cut in nearly 400 villages.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "Families leaving relief camps get 25 kg of rice and cash; teams from the Union government were due to visit Andhra Pradesh on October 30 to assess the damage.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "In southern Odisha over 100,000 people, including 2,200 pregnant women, were evacuated, and the state sent over 300 disaster response teams into flood-hit Ganjam and eight other districts on October 29.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+     }
+    ],
+    "numbers": [],
+    "geography": "Andhra Pradesh coast near Yanam, Kakinada, Konaseema; southern Odisha, Ganjam; Bay of Bengal",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+      "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Khaleej Times",
+      "title": "Cyclone Arnab: At least 3 killed",
+      "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "The News Minute",
+      "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+      "published": "2026-10-29",
+      "primary": false
+     },
+     {
+      "outlet": "Down To Earth",
+      "title": "Cyclone Arnab batters southern Odisha",
+      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "lula-fourth-term",
+    "headline": "Brazil's Lula Wins a Fourth Term as His Rival Refuses to Concede",
+    "what_happened": "Luiz Inacio Lula da Silva won Brazil's 25 October runoff against Flavio Bolsonaro with about 51.7% of the vote. Bolsonaro has not conceded and has left Brazil.",
+    "why_it_matters": "It is a record fourth term for a non-consecutive presidency, and shows how a disputed result can test a democracy.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Lula won the October 25 runoff against Flavio Bolsonaro with about 51.75% of the vote at 98.76% counted.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+     },
+     {
+      "fact": "Bolsonaro led the first round on October 4 and polls showed the runoff virtually tied; no other candidate in modern Brazilian history has lost the first round only to win the second.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+     },
+     {
+      "fact": "Analysts credit higher turnout; Lula gained more than 10 million additional votes compared with the first round.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brazil",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Brazil election results 2026: Key takeaways from Lula's historic win",
+      "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ebola-outbreak",
+    "headline": "Ebola Cases in DR Congo Pass 10,000 as the First Vaccine Trial Begins",
+    "what_happened": "Confirmed Ebola cases in the Democratic Republic of the Congo passed 10,000 with 4,887 deaths. WHO announced on 23 October that the first clinical trial of a vaccine against this strain had started.",
+    "why_it_matters": "No vaccine or treatment is approved for this Bundibugyo strain, so the trial matters for stopping the outbreak.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Government data on 27 October showed 10,060 confirmed Ebola cases and 4,887 deaths in the DRC, the fastest-growing outbreak in the country's history.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Globally it is the second-largest Ebola outbreak on record; only the 2014-2016 West African epidemic, which infected 28,600 people, was larger.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The outbreak was declared on May 15 and is caused by the Bundibugyo strain; no vaccine or treatment for it has been approved.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "About 80% of new cases come from outside known chains of transmission; Africa CDC says at least 95% must come from known contacts before it is under control.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Cases are in 66 health zones across eight provinces, and have spread to Uganda, Kenya (nine confirmed cases) and Nigeria.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "On 23 October WHO announced the first vaccine clinical trial had started in DRC.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     }
+    ],
+    "numbers": [],
+    "geography": "Democratic Republic of the Congo, Ituri province; Uganda; Kenya",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ebola cases in DR Congo surpass 10,000",
+      "url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "midterm-rallies",
+    "headline": "Trump Brings Back Two Cancelled Rallies Before Tuesday's Midterms",
+    "what_happened": "A day after announcing he would cancel campaign rallies in Kansas and Iowa, President Trump reversed course; both are now on Sunday, ahead of Tuesday 3 November's midterm elections.",
+    "why_it_matters": "Midterms decide who controls Congress, and fuel prices linked to the Iran war are a worry for Republicans.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 29 October Trump announced he would cancel rallies in Kansas and Iowa; on 30 October a source close to the administration said he would headline both in person, on Sunday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "The schedule was rearranged to include more 'tele-rallies', which let Trump attend virtually.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "Kansas has not elected a Democrat to a full Senate term since 1932; an Emerson College poll had Democrat Adam Hamilton, a megachurch pastor, ahead of Republican Sen. Roger Marshall 49% to 45%.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "Analysts warn Republicans could face backlash over the cost of living, as fuel prices are higher than normal because of the US-Israel war on Iran.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "The midterm elections are on Tuesday 3 November.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Kansas, Iowa",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump reverses course, reinstates cancelled campaign rallies",
+      "url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "fed-holds",
+    "headline": "The Fed Holds Interest Rates, With Two Votes for a Rise",
+    "what_happened": "The US Federal Reserve kept its benchmark rate at 3.75-4% on 28 October in a 10-2 vote. Two officials wanted a quarter-point rise, and a rise is expected in December.",
+    "why_it_matters": "Interest rates affect the cost of mortgages, car loans and credit cards.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Fed kept its benchmark rate at 3.75-4% on October 28; the vote was 10-2.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "Governor Lisa Cook and Beth Hammack of the Cleveland Fed voted to raise rates by a quarter percentage point.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "US annual inflation rose to 3.7% in September from 3.4% in August, with energy prices largely accounting for the surge.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "Policymakers are widely expected to raise rates at their next meeting on December 8-9; the Fed raised rates in September, its first increase since July 2023.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "binance-hack",
+    "headline": "Binance Says $6.3 Billion Was Hit in a Possible Record Crypto Heist",
+    "what_happened": "Binance, the world's largest crypto exchange, said a security breach affected about $6.3 billion in assets and halted withdrawals. It said it had recovered or frozen about $3 billion and would cover losses.",
+    "why_it_matters": "It shows how a single stolen laptop or key can put huge sums at risk, and why exchanges guard their wallets.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Binance said on Thursday 29 October that a breach affected an estimated $6.3 billion in assets, potentially the largest crypto heist on record.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Most of the theft happened in about 20 minutes; Binance said it had recovered or frozen about $3 billion.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "TRM Labs said the attackers gained the ability to order wallets Binance uses to transfer funds into hacker-controlled wallets; early investigation pointed to a hacked laptop belonging to a Binance engineer.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "TRM Labs and Chainalysis said they were highly confident North Korea was responsible; North Korea routinely denies such accusations.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Binance halted withdrawals, said user funds were safe and expected to resume withdrawals within 48 hours; co-CEO Richard Teng said 'we're covering every loss'.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Stablecoin issuers froze about half the stolen assets, including nearly $1.57 billion by Tether and more than $800 million by Circle.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Bitcoin hit a six-week low of $76,368 and Coinbase shares slid 4.8%.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Binance has 335 million registered users and about $162.8 billion in assets under custody as of its 2025 annual report.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     }
+    ],
+    "numbers": [],
+    "geography": "n/a",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Binance hit by $6.3 billion security breach",
+      "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "arnab-aftermath",
+    "headline": "Cyclone Arnab Leaves Damage Across Andhra Pradesh and Floods in Odisha",
+    "what_happened": "Cyclone Arnab crossed the Andhra Pradesh coast on 28 October. Chief Minister N. Chandrababu Naidu puts the preliminary loss at Rs 4,600 crore and says at least seven people died; floods hit southern Odisha.",
+    "why_it_matters": "Early warnings and evacuations of tens of thousands of people helped limit the harm from a very severe cyclone.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Arnab made landfall near Yanam on the Andhra Pradesh coast on Wednesday 28 October as a 'very severe cyclonic storm' with core winds of 125-135 km/h and gusts up to 150 km/h, said the India Meteorological Department.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "The highest rainfall recorded was 261.5 mm at Kannuripalem in Anakapalli district.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "At least 609 schools across Andhra Pradesh were turned into rehabilitation centres.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "The storm weakened into a 'deep depression' through Wednesday afternoon; about 50,000 people were told to move to safer areas in Andhra Pradesh and about 48,000 in Odisha.",
+      "source_url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+     },
+     {
+      "fact": "Kakinada resident Sadiq said early warnings from authorities helped people prepare, and many locked their homes and moved to safer places.",
+      "source_url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+     },
+     {
+      "fact": "Chief Minister Naidu puts the preliminary loss at Rs 4,600 crore, which could rise after a detailed assessment, and said at least seven people were killed; an early NDRF count had been three.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "Crops on about 70,900 hectares, mainly paddy, were reported damaged; Konaseema and West Godavari were hardest hit, around 8,000 electricity poles fell in Konaseema alone, and power was cut in nearly 400 villages.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "Families leaving relief camps get 25 kg of rice and cash; teams from the Union government were due to visit Andhra Pradesh on October 30 to assess the damage.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "In southern Odisha over 100,000 people, including 2,200 pregnant women, were evacuated, and the state sent over 300 disaster response teams into flood-hit Ganjam and eight other districts on October 29.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+     }
+    ],
+    "numbers": [],
+    "geography": "Andhra Pradesh coast near Yanam, Kakinada, Konaseema; southern Odisha, Ganjam; Bay of Bengal",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+      "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Khaleej Times",
+      "title": "Cyclone Arnab: At least 3 killed",
+      "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "The News Minute",
+      "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+      "published": "2026-10-29",
+      "primary": false
+     },
+     {
+      "outlet": "Down To Earth",
+      "title": "Cyclone Arnab batters southern Odisha",
+      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "israel-deadlock",
+    "headline": "Israel's Election Ends With No Majority for Either Side",
+    "what_happened": "Final results show Netanyahu's bloc with 53 of the Knesset's 120 seats and the opposition bloc led by Gadi Eisenkot with 48; Arab-led parties won 19. A majority needs 61.",
+    "why_it_matters": "Without a majority, Israel faces weeks of coalition talks and possibly another election.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "No party or bloc reached the 61-seat majority needed in the 120-seat Knesset; turnout in the October 27 vote was 77.9% and the Central Elections Committee published final results early on October 30.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Netanyahu's bloc won 53 seats; the opposition bloc led by Gadi Eisenkot (Yashar party) won 48; the United Arab List (Ra'am) and the Joint List together won 19.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "At least 500,000 'double envelope' votes from soldiers and diplomats were counted on October 29; the inner envelope keeps the ballot anonymous and the outer one lets officials verify the voter.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Step one: President Isaac Herzog picks the candidate he judges most likely to form a government, who has about 28 days, which can be extended.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "If that candidate fails, Herzog can pick another with the same type of window; if the second also fails, a 21-day period opens in which 61 Knesset members can ask Herzog to assign the task to a Knesset member.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "If every step fails, Israelis return to the polls for a second election.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Netanyahu has ruled out a government with the Arab parties, posting on X that it is 'forbidden'; Likud accused them of 'stealing' the election.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Eisenkot says he would only partner with parties that recognise Israel as a Jewish and democratic state, endorse the Declaration of Independence's values and commit to national service.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     },
+     {
+      "fact": "Analyst Roi Zur of Essex University says 'the numbers don't add up for any side'.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock"
+     }
+    ],
+    "numbers": [],
+    "geography": "Israel; Knesset in Jerusalem",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "How can Israel break its election deadlock?",
+      "url": "https://www.aljazeera.com/news/2026/10/30/how-can-israel-break-its-election-deadlock",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "midterm-rallies",
+    "headline": "Trump Brings Back Two Cancelled Rallies Before Tuesday's Midterms",
+    "what_happened": "A day after announcing he would cancel campaign rallies in Kansas and Iowa, President Trump reversed course; both are now on Sunday, ahead of Tuesday 3 November's midterm elections.",
+    "why_it_matters": "Midterms decide who controls Congress, and fuel prices linked to the Iran war are a worry for Republicans.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 29 October Trump announced he would cancel rallies in Kansas and Iowa; on 30 October a source close to the administration said he would headline both in person, on Sunday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "The schedule was rearranged to include more 'tele-rallies', which let Trump attend virtually.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "Kansas has not elected a Democrat to a full Senate term since 1932; an Emerson College poll had Democrat Adam Hamilton, a megachurch pastor, ahead of Republican Sen. Roger Marshall 49% to 45%.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "Analysts warn Republicans could face backlash over the cost of living, as fuel prices are higher than normal because of the US-Israel war on Iran.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     },
+     {
+      "fact": "The midterm elections are on Tuesday 3 November.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Kansas, Iowa",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump reverses course, reinstates cancelled campaign rallies",
+      "url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "lula-fourth-term",
+    "headline": "Brazil's Lula Wins a Fourth Term as His Rival Refuses to Concede",
+    "what_happened": "Luiz Inacio Lula da Silva won Brazil's 25 October runoff against Flavio Bolsonaro with about 51.7% of the vote. Bolsonaro has not conceded and has left Brazil.",
+    "why_it_matters": "It is a record fourth term for a non-consecutive presidency, and shows how a disputed result can test a democracy.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Lula won the October 25 runoff against Flavio Bolsonaro with about 51.75% of the vote at 98.76% counted.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+     },
+     {
+      "fact": "Bolsonaro led the first round on October 4 and polls showed the runoff virtually tied; no other candidate in modern Brazilian history has lost the first round only to win the second.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+     },
+     {
+      "fact": "Analysts credit higher turnout; Lula gained more than 10 million additional votes compared with the first round.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brazil",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Brazil election results 2026: Key takeaways from Lula's historic win",
+      "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win",
+      "published": "2026-10-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-prices-hormuz",
+    "headline": "Oil Stays Above $110 as Ships Find Ways Around the Strait of Hormuz",
+    "what_happened": "Oil from Gulf countries is flowing again in larger amounts than before the war, but Brent crude briefly topped $117 a barrel on Friday 30 October. Analysts blame fear of renewed US-Iran fighting, falling stockpiles and costly shipping.",
+    "why_it_matters": "Oil sets the price of fuel, shipping and many goods, so a squeezed strait raises costs for families far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Gulf crude exports averaged 24.6 million barrels per day in the week to October 18, above the pre-war average, according to Kpler.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Gulf production is still short of normal: the IEA puts September OPEC Gulf output at 15.8 million barrels per day, or 75% of the pre-war baseline.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "On Friday, December-delivery Brent futures briefly topped $117 a barrel; Brent is at its highest since April and more than 60% above pre-war levels.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Normally the Strait of Hormuz carries about one-fifth of global oil and LNG.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Ship-to-ship transfers: shuttle boats move oil through the strait and load it onto tankers outside the danger zone, off Oman and the UAE; over 70% of crude crossing the strait used this method in August, per Kpler.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Pipeline bypasses: Saudi Arabia's East-West pipeline runs to the Red Sea port of Yanbu and the UAE's Habshan-Fujairah pipeline also carries oil around the strait; in September 40% of Gulf exports bypassed the strait, up from 17% before the war.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Freight costs have reached about $40 per barrel in recent weeks, roughly ten times the usual rate, per LSEG data, as insurance and logistics costs climb.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "October was the deadliest month for attacks on commercial vessels since the war began, with 32 incidents logged by UKMTO as of Friday.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Observed global inventories fell by 10 million barrels in September and stocks are 509 million barrels below pre-war levels, per the IEA.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Brent futures for October 2027 delivery were above $90 a barrel on Friday, suggesting markets expect prices to stay high for a long time.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     },
+     {
+      "fact": "Analyst Isabel Figuerola-Ferretti says a return to $70 would need lasting de-escalation, normal Hormuz transit and shipping, rebuilt inventories and freight costs back to normal.",
+      "source_url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz between Iran and Oman/UAE; Gulf; Red Sea port of Yanbu; Fujairah on the UAE's Gulf of Oman coast",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+      "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "uk-budget",
+    "headline": "Chancellor Healey Doubles the Bank Profits Surcharge in His First Budget",
+    "what_happened": "On 28 October UK Chancellor John Healey delivered the first budget of Prime Minister Andy Burnham's government: a £100 payment for 20 million households, a doubled surcharge on bank profits and a pledge of 3% of GDP on defence by 2030.",
+    "why_it_matters": "Higher energy and borrowing costs from the Iran war squeeze households and leave the government little room to spend.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Labour will double the surcharge on UK bank profits to 6% for 15 months from January; the OBR estimates it will raise £1.5 billion.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "A one-off £100 payment goes to 20 million households as gas and electricity prices rise, largely because of the Middle East conflict; fixed fees on gas bills will be removed and the fuel duty freeze extended.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Growth is forecast at 1.2% this year and 1.0% in 2027, worse than expected for 2027 because of the Middle East war.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Fiscal headroom for 2029-2030 falls to £15 billion from £23.6 billion in March as higher borrowing costs raise debt repayments.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Healey said 'Fiscal discipline is my first commitment' and kept Rachel Reeves's fiscal rules, which require day-to-day spending to be covered by tax receipts.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Healey pledged to raise defence spending to 3% of GDP by 2030; details on NATO's 3.5%-by-2035 target were delayed until next year.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Burnham replaced Keir Starmer in July; Conservative leader Kemi Badenoch accused him of delaying hard decisions, and Burnham ruled out a snap election next year.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "UK set for cautious budget as borrowing costs climb",
+      "url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "fed-holds",
+    "headline": "The Fed Holds Interest Rates, With Two Votes for a Rise",
+    "what_happened": "The US Federal Reserve kept its benchmark rate at 3.75-4% on 28 October in a 10-2 vote. Two officials wanted a quarter-point rise, and a rise is expected in December.",
+    "why_it_matters": "Interest rates affect the cost of mortgages, car loans and credit cards.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Fed kept its benchmark rate at 3.75-4% on October 28; the vote was 10-2.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "Governor Lisa Cook and Beth Hammack of the Cleveland Fed voted to raise rates by a quarter percentage point.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "US annual inflation rose to 3.7% in September from 3.4% in August, with energy prices largely accounting for the surge.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "Policymakers are widely expected to raise rates at their next meeting on December 8-9; the Fed raised rates in September, its first increase since July 2023.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "binance-hack",
+    "headline": "Binance Says $6.3 Billion Was Hit in a Possible Record Crypto Heist",
+    "what_happened": "Binance, the world's largest crypto exchange, said a security breach affected about $6.3 billion in assets and halted withdrawals. It said it had recovered or frozen about $3 billion and would cover losses.",
+    "why_it_matters": "It shows how a single stolen laptop or key can put huge sums at risk, and why exchanges guard their wallets.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Binance said on Thursday 29 October that a breach affected an estimated $6.3 billion in assets, potentially the largest crypto heist on record.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Most of the theft happened in about 20 minutes; Binance said it had recovered or frozen about $3 billion.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "TRM Labs said the attackers gained the ability to order wallets Binance uses to transfer funds into hacker-controlled wallets; early investigation pointed to a hacked laptop belonging to a Binance engineer.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "TRM Labs and Chainalysis said they were highly confident North Korea was responsible; North Korea routinely denies such accusations.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Binance halted withdrawals, said user funds were safe and expected to resume withdrawals within 48 hours; co-CEO Richard Teng said 'we're covering every loss'.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Stablecoin issuers froze about half the stolen assets, including nearly $1.57 billion by Tether and more than $800 million by Circle.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Bitcoin hit a six-week low of $76,368 and Coinbase shares slid 4.8%.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Binance has 335 million registered users and about $162.8 billion in assets under custody as of its 2025 annual report.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     }
+    ],
+    "numbers": [],
+    "geography": "n/a",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Binance hit by $6.3 billion security breach",
+      "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cave-wall-dna",
+    "headline": "Scientists Find Ancient Human DNA on Cave Walls for the First Time",
+    "what_happened": "Researchers sampled more than 100 spots in 11 painted caves in Spain and Portugal and found ancient human DNA in five samples. The finding cannot yet link anyone to the paintings.",
+    "why_it_matters": "It could one day help show who made prehistoric art, if DNA can be tied to the paint.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study in Nature Communications recovered ancient human DNA from cave walls for the first time.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "Researchers took more than 100 samples from 11 caves in Spain and Portugal, half from paintings and half from bare rock nearby.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "Five samples tested positive; only one came from a painting, at Escoural Cave in Portugal, and the other four came from blank walls at Escoural and Covarón Cave in Spain.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "The DNA is at least 2,000 years old based on degradation, probably much older; the two best-preserved samples resembled hunter-gatherers who lived in Europe as early as 16,000 years ago.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "At Escoural two samples had no animal DNA, which suggests a person interacted directly with the wall.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "The study cannot link the DNA to the artists; rock art specialist Benjamin Smith said it could come from anyone near the rock, possibly long after the art was made.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "To tie DNA to the art, researchers would need DNA more concentrated in paintings than on blank walls, or DNA dated to the same period; Altamira cave yielded no human DNA.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     }
+    ],
+    "numbers": [],
+    "geography": "Escoural Cave, Portugal; Covarón Cave and Altamira, Spain",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "In painted caves, ancient human DNA clings to the walls",
+      "url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+      "published": "2026-07-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "mrna-flu-vaccine",
+    "headline": "The First mRNA Flu Vaccine Is Ready for This Flu Season",
+    "what_happened": "The US approved Moderna's mFlusiva, the first flu vaccine to use mRNA, for people 50 and older. In a trial of about 40,000 people it gave 27 percent fewer flu cases than a conventional shot.",
+    "why_it_matters": "mRNA vaccines could be updated faster than egg-grown ones if the flu strains change.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The FDA approved mFlusiva on August 5, 2026, the first flu vaccine to use the same mRNA technology as COVID-19 shots, for people ages 50 and older.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Approval was based on a study of about 40,000 people who got either mFlusiva or a conventional flu shot; the mRNA group had 27 percent fewer flu cases.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "A June 2026 Nature Immunology study found a stronger and longer-lasting immune response; antibody levels were much higher a month after vaccination and stayed elevated for six months.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Conventional flu vaccines are grown in chicken eggs and use inactivated virus pieces; the mRNA vaccine delivers genetic instructions for making flu virus proteins that teach the immune system to respond.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Conventional vaccines are typically 40 to 60 percent effective at preventing infection, depending on the year, often because predicted strains do not match circulating ones.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "mRNA production could potentially be shortened to a couple of months, allowing faster updates.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Whether the mRNA vaccine reduces transmission is unproven, and Moderna's timeline for people under 50 is unknown.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     }
+    ],
+    "numbers": [],
+    "geography": "n/a",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Here's what the first mRNA flu vaccine could mean for flu season",
+      "url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season",
+      "published": "2026-08-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "swift-ends",
+    "headline": "NASA's Swift Space Telescope Ends Its Mission After 21 Years",
+    "what_happened": "NASA's Neil Gehrels Swift Observatory made its final observation on 20 October and has ended science operations. It orbits below 275 km, where drag keeps it from holding steady, and will re-enter within a few weeks.",
+    "why_it_matters": "Swift saw thousands of the biggest explosions in space and its data fills an archive scientists will use for years.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Swift launched on November 20, 2004 and was designed for a two-year primary mission but operated for more than 10 times that long.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "It observed more than 2,000 gamma-ray bursts, the most powerful explosions in the cosmos, and studied more than 1,400 supernova explosions; its data contributed to about 7,000 published papers.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "It could turn its telescopes to a burst's location in about a minute after detecting it.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "Its first short-burst afterglow came in May 2005 with GRB 050509B, which lasted only 0.03 seconds; the observations supported theories that short bursts come from mergers of two neutron stars.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "The spacecraft now orbits below 171 miles (275 km), where stronger atmospheric drag keeps its telescopes from holding steady; it made its final observation on October 20, 2026 and is expected to re-enter Earth's atmosphere within a few weeks.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "The archive holds nearly 22 years of measurements and more than 1.5 million ultraviolet/optical images, about 12 terabytes in all, and is public.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "In 2018 NASA renamed it to honor Neil Gehrels, its first principal investigator.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Earth orbit",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Swift Mission Ends, Leaves Behind Scientific Bonanza",
+      "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+      "published": "2026-10-23",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "dragonfly-sim",
+    "headline": "NASA's Titan Helicopter Dragonfly Completes Its First Simulated Flight",
+    "what_happened": "NASA's Dragonfly rotorcraft completed a computer simulation of its first flight on Saturn's moon Titan, run in real time on flight-like avionics at the Johns Hopkins Applied Physics Laboratory.",
+    "why_it_matters": "Dragonfly must fly on Titan without real-time help from Earth, so rehearsals test every sensor and decision.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Dragonfly is a NASA rotorcraft that will make multiple flights to explore different places on Saturn's moon Titan; launch is no earlier than 2028 and it arrives in 2034, then spends three years flying.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "The 'first flight' was a simulation on a computer testbed at the Johns Hopkins Applied Physics Laboratory in Laurel, Maryland.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "In the simulation Dragonfly separated from its backshell, flew over Titan's sand dunes, scanned the terrain for a safe site, circled back and landed.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "Lidar measures terrain altitude and slope and spots hazards; Dragonfly also has two navigation cameras and inertial measurement units.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "A camera emulator using graphics processors rendered simulated Titan scenes in real time, matching the 20 to 70 millisecond exposure times the real cameras will use.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "Engineer Zach Putnam said first flight is 'our most challenging flight' because it uses every flight sensor, and 'Everything we do on Titan has to happen autonomously.'",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "Next the team will run first flight on the actual flight system, test other flight profiles and deliberately introduce faults to confirm autonomous responses.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Saturn's moon Titan; Laurel, Maryland",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Dragonfly Completes First Simulated Flight",
+      "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+      "published": "2026-10-23",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "binance-hack",
+    "headline": "Binance Says $6.3 Billion Was Hit in a Possible Record Crypto Heist",
+    "what_happened": "Binance, the world's largest crypto exchange, said a security breach affected about $6.3 billion in assets and halted withdrawals. It said it had recovered or frozen about $3 billion and would cover losses.",
+    "why_it_matters": "It shows how a single stolen laptop or key can put huge sums at risk, and why exchanges guard their wallets.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Binance said on Thursday 29 October that a breach affected an estimated $6.3 billion in assets, potentially the largest crypto heist on record.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Most of the theft happened in about 20 minutes; Binance said it had recovered or frozen about $3 billion.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "TRM Labs said the attackers gained the ability to order wallets Binance uses to transfer funds into hacker-controlled wallets; early investigation pointed to a hacked laptop belonging to a Binance engineer.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "TRM Labs and Chainalysis said they were highly confident North Korea was responsible; North Korea routinely denies such accusations.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Binance halted withdrawals, said user funds were safe and expected to resume withdrawals within 48 hours; co-CEO Richard Teng said 'we're covering every loss'.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Stablecoin issuers froze about half the stolen assets, including nearly $1.57 billion by Tether and more than $800 million by Circle.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Bitcoin hit a six-week low of $76,368 and Coinbase shares slid 4.8%.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     },
+     {
+      "fact": "Binance has 335 million registered users and about $162.8 billion in assets under custody as of its 2025 annual report.",
+      "source_url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist"
+     }
+    ],
+    "numbers": [],
+    "geography": "n/a",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Binance hit by $6.3 billion security breach",
+      "url": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-budget",
+    "headline": "Chancellor Healey Doubles the Bank Profits Surcharge in His First Budget",
+    "what_happened": "On 28 October UK Chancellor John Healey delivered the first budget of Prime Minister Andy Burnham's government: a £100 payment for 20 million households, a doubled surcharge on bank profits and a pledge of 3% of GDP on defence by 2030.",
+    "why_it_matters": "Higher energy and borrowing costs from the Iran war squeeze households and leave the government little room to spend.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Labour will double the surcharge on UK bank profits to 6% for 15 months from January; the OBR estimates it will raise £1.5 billion.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "A one-off £100 payment goes to 20 million households as gas and electricity prices rise, largely because of the Middle East conflict; fixed fees on gas bills will be removed and the fuel duty freeze extended.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Growth is forecast at 1.2% this year and 1.0% in 2027, worse than expected for 2027 because of the Middle East war.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Fiscal headroom for 2029-2030 falls to £15 billion from £23.6 billion in March as higher borrowing costs raise debt repayments.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Healey said 'Fiscal discipline is my first commitment' and kept Rachel Reeves's fiscal rules, which require day-to-day spending to be covered by tax receipts.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Healey pledged to raise defence spending to 3% of GDP by 2030; details on NATO's 3.5%-by-2035 target were delayed until next year.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     },
+     {
+      "fact": "Burnham replaced Keir Starmer in July; Conservative leader Kemi Badenoch accused him of delaying hard decisions, and Burnham ruled out a snap election next year.",
+      "source_url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "UK set for cautious budget as borrowing costs climb",
+      "url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "youth-protests-europe",
+    "headline": "Young People's Protests Spread Across Europe",
+    "what_happened": "Tens of thousands of students and union members marched in Italy on 30 October, France prepared for a third weekend of protests, and about 150,000 people registered for protests in around 30 German cities on Saturday.",
+    "why_it_matters": "Young people say rising living costs, school spending and rearmament are shaping a future they have little say in.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tens of thousands of students and union members marched in dozens of Italian cities on 30 October, including Rome, Milan and Naples; the government tightened security.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "Protesters want lower living costs, more investment in education and an end to wars in the Middle East.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "Italian prices for food, energy, transport and bills have risen 68% since 2000 while average wages have fallen by almost 5%.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "Last week the Italian government approved a €175 million aid package for truck drivers, farmers and fishermen hit by fuel price increases; the draft 2027 budget proposes an annual bonus of €2,500 for workers under 30.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests"
+     },
+     {
+      "fact": "In Germany about 150,000 people had registered for Saturday's demonstrations in around 30 cities, including Berlin, Frankfurt and Cologne, organised by a non-partisan alliance called 'GenZ regelt!'; the group rejects all violence.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "German protesters cite rising living costs, poorly maintained schools, cuts to education, culture and healthcare, and a plan to expand the military through a new voluntary service model, which they fear could lead to compulsory service.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "Youth-led protests have spread across France, Italy and Spain in recent weeks; in France, nationwide protests on October 17 became some of the country's worst rioting in years.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "Protest researcher Christian Volk of Humboldt University says Germany could see a major protest movement and that 'enormous' pressure is building.",
+      "source_url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave"
+     },
+     {
+      "fact": "France is deploying some 70,000 police officers in Paris and other cities for a third weekend of protests, and Interior Minister Laurent Nuñez warned of a high risk of disorder on Halloween; more than 40 Paris metro stations will be closed.",
+      "source_url": "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests"
+     }
+    ],
+    "numbers": [],
+    "geography": "Rome, Milan, Naples (Italy); Berlin, Frankfurt, Cologne (Germany); Paris (France)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Italy tightens security as students, unions launch nationwide protests",
+      "url": "https://aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Germans to join Europe's youth protest wave",
+      "url": "https://www.france24.com/en/live-news/20261030-germans-to-join-europe-s-youth-protest-wave",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "French minister warns of 'very high' violence risk",
+      "url": "https://www.france24.com/en/europe/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "spain-train-crash",
+    "headline": "Spain Mourns After a High-Speed Train Crash Near Madrid",
+    "what_happened": "A Renfe high-speed train hit the rear of a stalled Iryo train near Urda, south of Madrid, on 28 October. At least 68 people died. A signalling computer failure is at the centre of the investigation.",
+    "why_it_matters": "It is the deadliest European rail accident since 2013 and raises questions about ageing signalling on Spain's oldest high-speed line.",
+    "importance": 9,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "The crash happened at about 8:53am on Wednesday 28 October near Urda, when a Renfe train hit the rear of a stalled Iryo train; both were travelling from Madrid to Seville, with 397 and 147 passengers.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "At least 68 people died and about 80 were injured; it is the deadliest European rail accident since the 2013 Santiago de Compostela derailment, which killed 80.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "About 8:30am a computer failure disabled LZB, the main automatic signalling system, and about six trains on a 63 km stretch stopped automatically; at 8:36am controllers cleared the Renfe train to resume normal speed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Transport Minister Oscar Puente called the control centre's order 'inexplicable'; when LZB fails trains may move at no more than 40 km/h.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "LZB dates from the Madrid-Seville line's opening in 1992; it is Spain's only high-speed route still using it, and a contract to replace it was won in 2021 and is still underway.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Prime Minister Pedro Sanchez declared three days of national mourning starting Thursday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "It is Spain's second deadly high-speed crash of 2026, after 18 January near Adamuz that killed 46.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Adif suspended high-speed services between Madrid and Andalusia; Renfe suspended ticket sales on the corridor until 13 December.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "The Civil Guard has sent a disaster investigation team, and national elections are weeks away.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     }
+    ],
+    "numbers": [],
+    "geography": "Urda, Toledo province, south of Madrid; Madrid-Seville line",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "What we know about Spain's second high-speed rail tragedy this year",
+      "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "canada-eu",
+    "headline": "The EU and Canada Sign Deals on Minerals and Digital Trade",
+    "what_happened": "At a summit in Montreal, Canada and the EU launched an 'Alliance for the Future', agreed that the European Investment Bank will invest in Canadian raw minerals, and signed a digital trade deal.",
+    "why_it_matters": "Countries are building new partnerships as global uncertainty grows.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Friday Carney, Costa and von der Leyen launched what they called an Alliance for the Future in Montreal.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty"
+     },
+     {
+      "fact": "The European Investment Bank will invest in critical Canadian resources, particularly raw minerals, and a digital trade deal was signed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty"
+     },
+     {
+      "fact": "Canada said it would join the EU's 90 billion euro support loan for Kyiv.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty"
+     }
+    ],
+    "numbers": [],
+    "geography": "Montreal, Canada; Brussels",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "EU and Canada seek deeper ties amid worsening global uncertainty",
+      "url": "https://www.aljazeera.com/news/2026/10/30/eu-and-canada-seek-deeper-ties-amid-worsening-global-uncertainty",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oleshky-evacuation",
+    "headline": "Residents Leave Oleshky During a US-Brokered Ceasefire",
+    "what_happened": "People left the Russian-occupied town of Oleshky in Ukraine's Kherson region during a rare four-day ceasefire announced by US First Lady Melania Trump. Shortages of food and medicine had hit the town hard.",
+    "why_it_matters": "It is the longest pause in fighting anywhere on the front line since Russia's 2022 invasion, and shows a way to get help to people caught in a war zone.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Oleshky's pre-war population was about 24,000; it has fallen to roughly 2,000.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Ukrainian negotiator David Arakhamia said the Ukrainian delegation and evacuated residents set off for Anapa, a Russian Black Sea city, then are expected to fly to Belarus and travel by bus to Ukraine.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Ukrainian and Russian officials visited the town together, delivering aid and helping people who wanted to leave.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Russia deployed 25 buses and nine ambulances, according to ombudsman Yana Lantratova; neither side said how many people left.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "The truce was announced last week by US First Lady Melania Trump; it is in its fourth day, due to end Sunday evening, and is the longest pause in fighting anywhere on the front line since 2022.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Earlier partial ceasefires, such as around Orthodox Easter, were marred by accusations of violations.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Attacks elsewhere in Ukraine continued; a drone strike on a train station in Dnipro on Thursday killed at least 13 people.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     },
+     {
+      "fact": "Russia and Ukraine are due to meet next month with US envoys in the United Arab Emirates to try to revive peace talks; no date has been set.",
+      "source_url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation"
+     }
+    ],
+    "numbers": [],
+    "geography": "Oleshky, Kherson region, southern Ukraine; Anapa on Russia's Black Sea coast; Belarus",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
+      "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science": {
+  "label": "SCIENCE",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "dragonfly-sim",
+    "headline": "NASA's Titan Helicopter Dragonfly Completes Its First Simulated Flight",
+    "what_happened": "NASA's Dragonfly rotorcraft completed a computer simulation of its first flight on Saturn's moon Titan, run in real time on flight-like avionics at the Johns Hopkins Applied Physics Laboratory.",
+    "why_it_matters": "Dragonfly must fly on Titan without real-time help from Earth, so rehearsals test every sensor and decision.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Dragonfly is a NASA rotorcraft that will make multiple flights to explore different places on Saturn's moon Titan; launch is no earlier than 2028 and it arrives in 2034, then spends three years flying.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "The 'first flight' was a simulation on a computer testbed at the Johns Hopkins Applied Physics Laboratory in Laurel, Maryland.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "In the simulation Dragonfly separated from its backshell, flew over Titan's sand dunes, scanned the terrain for a safe site, circled back and landed.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "Lidar measures terrain altitude and slope and spots hazards; Dragonfly also has two navigation cameras and inertial measurement units.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "A camera emulator using graphics processors rendered simulated Titan scenes in real time, matching the 20 to 70 millisecond exposure times the real cameras will use.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "Engineer Zach Putnam said first flight is 'our most challenging flight' because it uses every flight sensor, and 'Everything we do on Titan has to happen autonomously.'",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     },
+     {
+      "fact": "Next the team will run first flight on the actual flight system, test other flight profiles and deliberately introduce faults to confirm autonomous responses.",
+      "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Saturn's moon Titan; Laurel, Maryland",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Dragonfly Completes First Simulated Flight",
+      "url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+      "published": "2026-10-23",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "swift-ends",
+    "headline": "NASA's Swift Space Telescope Ends Its Mission After 21 Years",
+    "what_happened": "NASA's Neil Gehrels Swift Observatory made its final observation on 20 October and has ended science operations. It orbits below 275 km, where drag keeps it from holding steady, and will re-enter within a few weeks.",
+    "why_it_matters": "Swift saw thousands of the biggest explosions in space and its data fills an archive scientists will use for years.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Swift launched on November 20, 2004 and was designed for a two-year primary mission but operated for more than 10 times that long.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "It observed more than 2,000 gamma-ray bursts, the most powerful explosions in the cosmos, and studied more than 1,400 supernova explosions; its data contributed to about 7,000 published papers.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "It could turn its telescopes to a burst's location in about a minute after detecting it.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "Its first short-burst afterglow came in May 2005 with GRB 050509B, which lasted only 0.03 seconds; the observations supported theories that short bursts come from mergers of two neutron stars.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "The spacecraft now orbits below 171 miles (275 km), where stronger atmospheric drag keeps its telescopes from holding steady; it made its final observation on October 20, 2026 and is expected to re-enter Earth's atmosphere within a few weeks.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "The archive holds nearly 22 years of measurements and more than 1.5 million ultraviolet/optical images, about 12 terabytes in all, and is public.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     },
+     {
+      "fact": "In 2018 NASA renamed it to honor Neil Gehrels, its first principal investigator.",
+      "source_url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Earth orbit",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Swift Mission Ends, Leaves Behind Scientific Bonanza",
+      "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+      "published": "2026-10-23",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "cave-wall-dna",
+    "headline": "Scientists Find Ancient Human DNA on Cave Walls for the First Time",
+    "what_happened": "Researchers sampled more than 100 spots in 11 painted caves in Spain and Portugal and found ancient human DNA in five samples. The finding cannot yet link anyone to the paintings.",
+    "why_it_matters": "It could one day help show who made prehistoric art, if DNA can be tied to the paint.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study in Nature Communications recovered ancient human DNA from cave walls for the first time.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "Researchers took more than 100 samples from 11 caves in Spain and Portugal, half from paintings and half from bare rock nearby.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "Five samples tested positive; only one came from a painting, at Escoural Cave in Portugal, and the other four came from blank walls at Escoural and Covarón Cave in Spain.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "The DNA is at least 2,000 years old based on degradation, probably much older; the two best-preserved samples resembled hunter-gatherers who lived in Europe as early as 16,000 years ago.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "At Escoural two samples had no animal DNA, which suggests a person interacted directly with the wall.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "The study cannot link the DNA to the artists; rock art specialist Benjamin Smith said it could come from anyone near the rock, possibly long after the art was made.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "To tie DNA to the art, researchers would need DNA more concentrated in paintings than on blank walls, or DNA dated to the same period; Altamira cave yielded no human DNA.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     }
+    ],
+    "numbers": [],
+    "geography": "Escoural Cave, Portugal; Covarón Cave and Altamira, Spain",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "In painted caves, ancient human DNA clings to the walls",
+      "url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+      "published": "2026-07-20",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "climate & environment": {
+  "label": "CLIMATE & ENVIRONMENT",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cop31-modest",
+    "headline": "COP31 Climate Talks Open in Turkey With Modest Hopes",
+    "what_happened": "The COP31 climate summit runs from 9 to 20 November in Antalya, Turkey, with Australia's Chris Bowen presiding over negotiations. Negotiators are not expected to agree new binding limits on fossil fuels.",
+    "why_it_matters": "Fossil fuel emissions hit record highs in 2025, and the UN conceded in September that the 1.5C target will be missed within years.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "COP31 is scheduled for Antalya, Turkey, from November 9 to 20, 2026; Turkey hosts and Australia's Chris Bowen presides over negotiations.",
+      "source_url": "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising"
+     },
+     {
+      "fact": "Fossil fuels are not expected to be part of the negotiations; the words were not mentioned by name at COP30 in Brazil last year.",
+      "source_url": "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising"
+     },
+     {
+      "fact": "Turkey is promoting a voluntary target to raise electricity's share of global energy demand from about 20% to 35% by 2035; critics note one-third of electricity is generated by coal.",
+      "source_url": "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising"
+     },
+     {
+      "fact": "Fossil fuel emissions hit record highs in 2025, and in September the UN conceded the 1.5C target will be missed in a matter of years.",
+      "source_url": "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising"
+     }
+    ],
+    "numbers": [],
+    "geography": "Antalya, Turkey",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Fossil fuels off COP31 agenda as global output keeps rising",
+      "url": "https://www.france24.com/en/live-news/20261008-fossil-fuels-off-cop31-agenda-as-global-output-keeps-rising",
+      "published": "2026-10-08",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "arnab-aftermath",
+    "headline": "Cyclone Arnab Leaves Damage Across Andhra Pradesh and Floods in Odisha",
+    "what_happened": "Cyclone Arnab crossed the Andhra Pradesh coast on 28 October. Chief Minister N. Chandrababu Naidu puts the preliminary loss at Rs 4,600 crore and says at least seven people died; floods hit southern Odisha.",
+    "why_it_matters": "Early warnings and evacuations of tens of thousands of people helped limit the harm from a very severe cyclone.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Arnab made landfall near Yanam on the Andhra Pradesh coast on Wednesday 28 October as a 'very severe cyclonic storm' with core winds of 125-135 km/h and gusts up to 150 km/h, said the India Meteorological Department.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "The highest rainfall recorded was 261.5 mm at Kannuripalem in Anakapalli district.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "At least 609 schools across Andhra Pradesh were turned into rehabilitation centres.",
+      "source_url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+     },
+     {
+      "fact": "The storm weakened into a 'deep depression' through Wednesday afternoon; about 50,000 people were told to move to safer areas in Andhra Pradesh and about 48,000 in Odisha.",
+      "source_url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+     },
+     {
+      "fact": "Kakinada resident Sadiq said early warnings from authorities helped people prepare, and many locked their homes and moved to safer places.",
+      "source_url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+     },
+     {
+      "fact": "Chief Minister Naidu puts the preliminary loss at Rs 4,600 crore, which could rise after a detailed assessment, and said at least seven people were killed; an early NDRF count had been three.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "Crops on about 70,900 hectares, mainly paddy, were reported damaged; Konaseema and West Godavari were hardest hit, around 8,000 electricity poles fell in Konaseema alone, and power was cut in nearly 400 villages.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "Families leaving relief camps get 25 kg of rice and cash; teams from the Union government were due to visit Andhra Pradesh on October 30 to assess the damage.",
+      "source_url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+     },
+     {
+      "fact": "In southern Odisha over 100,000 people, including 2,200 pregnant women, were evacuated, and the state sent over 300 disaster response teams into flood-hit Ganjam and eight other districts on October 29.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+     }
+    ],
+    "numbers": [],
+    "geography": "Andhra Pradesh coast near Yanam, Kakinada, Konaseema; southern Odisha, Ganjam; Bay of Bengal",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+      "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Khaleej Times",
+      "title": "Cyclone Arnab: At least 3 killed",
+      "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "The News Minute",
+      "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss",
+      "published": "2026-10-29",
+      "primary": false
+     },
+     {
+      "outlet": "Down To Earth",
+      "title": "Cyclone Arnab batters southern Odisha",
+      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "health": {
+  "label": "HEALTH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "mrna-flu-vaccine",
+    "headline": "The First mRNA Flu Vaccine Is Ready for This Flu Season",
+    "what_happened": "The US approved Moderna's mFlusiva, the first flu vaccine to use mRNA, for people 50 and older. In a trial of about 40,000 people it gave 27 percent fewer flu cases than a conventional shot.",
+    "why_it_matters": "mRNA vaccines could be updated faster than egg-grown ones if the flu strains change.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The FDA approved mFlusiva on August 5, 2026, the first flu vaccine to use the same mRNA technology as COVID-19 shots, for people ages 50 and older.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Approval was based on a study of about 40,000 people who got either mFlusiva or a conventional flu shot; the mRNA group had 27 percent fewer flu cases.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "A June 2026 Nature Immunology study found a stronger and longer-lasting immune response; antibody levels were much higher a month after vaccination and stayed elevated for six months.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Conventional flu vaccines are grown in chicken eggs and use inactivated virus pieces; the mRNA vaccine delivers genetic instructions for making flu virus proteins that teach the immune system to respond.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Conventional vaccines are typically 40 to 60 percent effective at preventing infection, depending on the year, often because predicted strains do not match circulating ones.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "mRNA production could potentially be shortened to a couple of months, allowing faster updates.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     },
+     {
+      "fact": "Whether the mRNA vaccine reduces transmission is unproven, and Moderna's timeline for people under 50 is unknown.",
+      "source_url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season"
+     }
+    ],
+    "numbers": [],
+    "geography": "n/a",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Here's what the first mRNA flu vaccine could mean for flu season",
+      "url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season",
+      "published": "2026-08-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ebola-outbreak",
+    "headline": "Ebola Cases in DR Congo Pass 10,000 as the First Vaccine Trial Begins",
+    "what_happened": "Confirmed Ebola cases in the Democratic Republic of the Congo passed 10,000 with 4,887 deaths. WHO announced on 23 October that the first clinical trial of a vaccine against this strain had started.",
+    "why_it_matters": "No vaccine or treatment is approved for this Bundibugyo strain, so the trial matters for stopping the outbreak.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Government data on 27 October showed 10,060 confirmed Ebola cases and 4,887 deaths in the DRC, the fastest-growing outbreak in the country's history.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Globally it is the second-largest Ebola outbreak on record; only the 2014-2016 West African epidemic, which infected 28,600 people, was larger.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The outbreak was declared on May 15 and is caused by the Bundibugyo strain; no vaccine or treatment for it has been approved.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "About 80% of new cases come from outside known chains of transmission; Africa CDC says at least 95% must come from known contacts before it is under control.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Cases are in 66 health zones across eight provinces, and have spread to Uganda, Kenya (nine confirmed cases) and Nigeria.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "On 23 October WHO announced the first vaccine clinical trial had started in DRC.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak"
+     }
+    ],
+    "numbers": [],
+    "geography": "Democratic Republic of the Congo, Ituri province; Uganda; Kenya",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Ebola cases in DR Congo surpass 10,000",
+      "url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "history & geography": {
+  "label": "HISTORY & GEOGRAPHY",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cave-wall-dna",
+    "headline": "Scientists Find Ancient Human DNA on Cave Walls for the First Time",
+    "what_happened": "Researchers sampled more than 100 spots in 11 painted caves in Spain and Portugal and found ancient human DNA in five samples. The finding cannot yet link anyone to the paintings.",
+    "why_it_matters": "It could one day help show who made prehistoric art, if DNA can be tied to the paint.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study in Nature Communications recovered ancient human DNA from cave walls for the first time.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "Researchers took more than 100 samples from 11 caves in Spain and Portugal, half from paintings and half from bare rock nearby.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "Five samples tested positive; only one came from a painting, at Escoural Cave in Portugal, and the other four came from blank walls at Escoural and Covarón Cave in Spain.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "The DNA is at least 2,000 years old based on degradation, probably much older; the two best-preserved samples resembled hunter-gatherers who lived in Europe as early as 16,000 years ago.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "At Escoural two samples had no animal DNA, which suggests a person interacted directly with the wall.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "The study cannot link the DNA to the artists; rock art specialist Benjamin Smith said it could come from anyone near the rock, possibly long after the art was made.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     },
+     {
+      "fact": "To tie DNA to the art, researchers would need DNA more concentrated in paintings than on blank walls, or DNA dated to the same period; Altamira cave yielded no human DNA.",
+      "source_url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+     }
+    ],
+    "numbers": [],
+    "geography": "Escoural Cave, Portugal; Covarón Cave and Altamira, Spain",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "In painted caves, ancient human DNA clings to the walls",
+      "url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+      "published": "2026-07-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "hormuz-tanker",
+    "headline": "Oman Rescues 25 Crew From a Burning Tanker in the Strait of Hormuz",
+    "what_happened": "Oman's Maritime Security Centre said it evacuated 25 crew from the RITI, a burning crude oil tanker in the Strait of Hormuz. Iran said it halted three tankers using unauthorised routes.",
+    "why_it_matters": "Attacks and incidents on ships raise the cost of moving oil and show how fragile a narrow waterway can be.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Oman's Maritime Security Centre said on Friday that it evacuated 25 crew members from the RITI, a burning crude oil tanker in the Strait of Hormuz; Oman said it flies the Panamanian flag.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
+     },
+     {
+      "fact": "Iran's Revolutionary Guard said three oil tankers were halted while trying to use 'unauthorised routes' to cross the strait, and said one was a supertanker; it is unclear whether the RITI is one of them.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
+     },
+     {
+      "fact": "In a later statement the IRGC said a supertanker carrying more than two million barrels 'exploded and caught fire today' on an unauthorised route; it attributed halts to 'incidents' or ships hitting mines.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
+     },
+     {
+      "fact": "The US military denies the mine claims; US Central Command chief Brad Cooper said the strait's 'internationally recognised primary transit routes' had been cleared of Iranian sea mines.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
+     },
+     {
+      "fact": "Tehran has asserted control over much of the waterway since the US and Israel launched the war on 28 February.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
+     },
+     {
+      "fact": "Qatari officials travelled to Iran to try to revive a ceasefire deal with the US.",
+      "source_url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz; Oman; Iran",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
+      "url": "https://aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "spain-train-crash",
+    "headline": "Spain Mourns After a High-Speed Train Crash Near Madrid",
+    "what_happened": "A Renfe high-speed train hit the rear of a stalled Iryo train near Urda, south of Madrid, on 28 October. At least 68 people died. A signalling computer failure is at the centre of the investigation.",
+    "why_it_matters": "It is the deadliest European rail accident since 2013 and raises questions about ageing signalling on Spain's oldest high-speed line.",
+    "importance": 9,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "The crash happened at about 8:53am on Wednesday 28 October near Urda, when a Renfe train hit the rear of a stalled Iryo train; both were travelling from Madrid to Seville, with 397 and 147 passengers.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "At least 68 people died and about 80 were injured; it is the deadliest European rail accident since the 2013 Santiago de Compostela derailment, which killed 80.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "About 8:30am a computer failure disabled LZB, the main automatic signalling system, and about six trains on a 63 km stretch stopped automatically; at 8:36am controllers cleared the Renfe train to resume normal speed.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Transport Minister Oscar Puente called the control centre's order 'inexplicable'; when LZB fails trains may move at no more than 40 km/h.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "LZB dates from the Madrid-Seville line's opening in 1992; it is Spain's only high-speed route still using it, and a contract to replace it was won in 2021 and is still underway.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Prime Minister Pedro Sanchez declared three days of national mourning starting Thursday.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "It is Spain's second deadly high-speed crash of 2026, after 18 January near Adamuz that killed 46.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "Adif suspended high-speed services between Madrid and Andalusia; Renfe suspended ticket sales on the corridor until 13 December.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     },
+     {
+      "fact": "The Civil Guard has sent a disaster investigation team, and national elections are weeks away.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+     }
+    ],
+    "numbers": [],
+    "geography": "Urda, Toledo province, south of Madrid; Madrid-Seville line",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "What we know about Spain's second high-speed rail tragedy this year",
+      "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
