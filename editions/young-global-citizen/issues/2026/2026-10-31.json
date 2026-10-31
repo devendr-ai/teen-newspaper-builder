@@ -1,0 +1,399 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-10-31",
+  "volume": 1,
+  "issue": 178,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  MIDTERMS AND FUEL",
+      "headline": "Trump Revives Two Cancelled Rallies as Fuel Prices Weigh on Midterm Voters",
+      "deck": "Days before Tuesday's elections, the president reversed himself, while analysts warn that the cost of living could cost Republicans votes.",
+      "body": [
+        "For many American families, the price at the gas pump is now part of the election. Voters choose a new Congress in the midterm elections on Tuesday 3 November, and President Trump has just rewritten his closing schedule. On 29 October he said he was cancelling his rallies in Kansas and Iowa. One day later, a source close to the administration said he would speak at both, in person, on Sunday.",
+        "Why would a rally in Kansas matter so much? The state has gone without a Democratic senator in a full term since 1932, which makes it a hard place for that party. Even so, an Emerson College poll found Democrat Adam Hamilton, a megachurch pastor, at 49% against 45% for Republican Sen. Roger Marshall. A single poll samples only some voters, so it hints at a close race rather than a result. The new schedule also leans harder on “tele-rallies”, in which Trump appears by video.",
+        "The pump is the reason analysts see risk for his party. They warn that Republicans could be punished over the cost of living, since fuel costs more than normal because of the US-Israel war on Iran. The global oil benchmark, Brent crude, briefly rose above $117 a barrel on Friday. That is its highest level since April and more than 60% above where it stood before the war.",
+        "Oil helps set what families pay for fuel, shipping and many everyday goods. Nobody can yet say how many voters will let those prices decide their vote. The count that follows Tuesday will begin to answer that."
+      ],
+      "map": {
+        "title": "THE UNITED STATES",
+        "label_top": "CANADA",
+        "label_bottom": "MEXICO",
+        "footnote": "Sunday rallies: Kansas and Iowa, in the Midwest",
+        "caption": "Voters in every state choose on Tuesday 3 November."
+      },
+      "why": "Midterm elections decide who controls Congress, and the price of fuel is something every family feels. When prices rise, voters may judge leaders by what they pay, so an oil shock far away can become a ballot-box story at home.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump reverses course, reinstates cancelled campaign rallies",
+          "url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+          "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UK BUDGET",
+      "headline": "Britain's New Chancellor Offers Energy Help and Taxes Bank Profits",
+      "deck": "Healey's first budget gives households a one-off payment, while a weaker growth forecast limits how much he can spend.",
+      "body": [
+        "A budget is a government's yearly plan for what it will tax and spend, and Britain's came on 28 October. Chancellor John Healey delivered it as the first of Prime Minister Andy Burnham's government. Burnham replaced Keir Starmer in July. The mood in the room was shaped by something far from London: gas and electricity prices are rising, largely because of the Middle East conflict.",
+        "That is why the headline measure is help with bills. A one-off payment of 100 pounds goes to 20 million households. Fixed fees on gas bills will be removed, and the freeze on fuel duty, a tax on petrol and diesel, will be extended.",
+        "To pay for some of it, Labour will double the surcharge on bank profits to 6% for 15 months from January. The Office for Budget Responsibility, the official forecaster, estimates this will raise 1.5 billion pounds. Healey said “Fiscal discipline is my first commitment” and kept the fiscal rules set by Rachel Reeves, which require day-to-day spending to be covered by tax receipts.",
+        "Yet the room for manoeuvre is shrinking. Growth is forecast at 1.2% this year and 1.0% in 2027, worse than expected for 2027 because of the Middle East war. Fiscal headroom for 2029-2030, the cushion before the rules are broken, falls to 15 billion pounds from 23.6 billion in March, as higher borrowing costs raise debt repayments. Healey also pledged to lift defence spending to 3% of GDP by 2030. Conservative leader Kemi Badenoch accused Burnham of delaying hard decisions, and he ruled out a snap election next year."
+      ],
+      "illustration": {
+        "title": "A BUDGET AND ENERGY BILLS",
+        "subtitle": "Help with rising bills",
+        "motif": "skyline",
+        "caption": "The one-off payment goes to 20 million UK households."
+      },
+      "connect": "Economics links this to the lead story: when oil and gas get dearer, governments everywhere feel pressure to cushion families, and higher borrowing costs mean they have less money to do it with. Britain's payment and America's fuel-price worry are two answers to one shock.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "UK set for cautious budget as borrowing costs climb",
+          "url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  CYCLONE ARNAB",
+      "headline": "After Arnab, Andhra Pradesh Counts Its Losses and Credits Early Warnings",
+      "deck": "The chief minister puts preliminary damage at Rs 4,600 crore; evacuations of tens of thousands helped limit the harm.",
+      "body": [
+        "Think of a cyclone in two halves: the days before it arrives and the days after. Arnab reached the Andhra Pradesh coast near Yanam on Wednesday 28 October, rated by the India Meteorological Department as a very severe storm, with gusts of up to 150 km/h. It lost strength within hours.",
+        "The first half is why the toll was not higher. About 50,000 people in Andhra Pradesh and about 48,000 in Odisha were asked to leave for safer ground, and at least 609 schools became shelters. A Kakinada resident named Sadiq said the alerts gave people time to get ready.",
+        "The second half is still being tallied. Chief Minister N. Chandrababu Naidu estimates the early loss at Rs 4,600 crore and says at least seven people died. Paddy fields were hit hardest, with crops on about 70,900 hectares damaged, and power failed in nearly 400 villages."
+      ],
+      "why": "A cyclone tests preparation as much as power. Warnings, shelters and evacuations turn a very severe storm into a smaller disaster, while farm and power losses show how its cost lasts after the wind stops.",
+      "also": [
+        "Odisha: over 100,000 people were evacuated in the south, and over 300 disaster response teams went into Ganjam and eight other districts.",
+        "Relief: families leaving relief camps get 25 kg of rice and cash, and Union government teams were due to assess damage on 30 October."
+      ],
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+          "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+        },
+        {
+          "outlet": "Khaleej Times",
+          "title": "Cyclone Arnab: At least 3 killed",
+          "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+        },
+        {
+          "outlet": "The News Minute",
+          "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+          "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+        },
+        {
+          "outlet": "Down To Earth",
+          "title": "Cyclone Arnab batters southern Odisha",
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Canada: Carney and EU leaders, meeting in Montreal, launched an Alliance for the Future, and Canada said it would join the EU's 90 billion euro support loan for Kyiv.",
+        "Brazil: Luiz Inacio Lula da Silva won the 25 October runoff with about 51.75% of the vote, and rival Flavio Bolsonaro has not conceded."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Midterm elections",
+          "def": "Elections held partway through a president's term that decide who controls Congress. Today: Americans vote in them on Tuesday 3 November."
+        },
+        {
+          "word": "Brent crude",
+          "def": "A widely used global benchmark price for a barrel of oil. Today: it briefly topped $117 on Friday."
+        },
+        {
+          "word": "Surcharge",
+          "def": "An extra charge added on top of a normal one. Today: Britain will double its surcharge on bank profits to 6%."
+        },
+        {
+          "word": "Inflation",
+          "def": "The rate at which prices rise. Today: US inflation rose to 3.7% in September from 3.4% in August."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Midterm elections get their name because they fall in the middle of a president's four-year term."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  THE FED",
+      "headline": "The Fed Holds Interest Rates, but Two Officials Wanted a Rise",
+      "deck": "With inflation climbing because of energy prices, borrowing costs for families may rise before the year ends.",
+      "body": [
+        "The Federal Reserve, the central bank that sets America's benchmark interest rate, decided to leave it alone on 28 October. It kept the rate at 3.75-4%, in a 10-2 vote. Interest rates set the price of borrowing, so they flow through to mortgages, car loans and credit cards.",
+        "The two votes against were not for staying put but for going higher. Governor Lisa Cook and Beth Hammack of the Cleveland Fed voted to raise rates by a quarter percentage point. Their worry is inflation, the rate at which prices rise. US annual inflation rose to 3.7% in September from 3.4% in August, with energy prices largely accounting for the surge. That links the Fed's room to the oil story playing out in the Gulf.",
+        "The Fed has already moved once this autumn. It raised rates in September, its first increase since July 2023. Policymakers are widely expected to raise them again at their next meeting on 8-9 December."
+      ],
+      "chart": {
+        "title": "US ANNUAL INFLATION",
+        "subtitle": "Percent, August and September",
+        "labels": [
+          "August",
+          "September"
+        ],
+        "values": [
+          3.4,
+          3.7
+        ],
+        "max": 5,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Energy prices largely account for the rise. Source: NPR."
+      },
+      "why": "Interest rates decide how costly it is to borrow for a home or a car, and inflation decides how far a paycheck stretches. When the Fed weighs one against the other, families feel the result.",
+      "analyst": "Why might two officials want a rise now, when the rest wanted to wait? What would you want to know about whether energy prices will stay high? Who is helped, and who is hurt, when borrowing gets more expensive?",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER: A QUIET DAY",
+      "body": "No verified sports results today. Back tomorrow.",
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Whether Trump takes the stage in Kansas and Iowa on Sunday, and what voters decide on Tuesday 3 November.",
+        "Whether Brent crude, which briefly topped $117 on Friday, keeps climbing."
+      ]
+    },
+    "quote": {
+      "text": "A price is a message: when oil costs more far away, the news arrives at home.",
+      "by": "The Editors"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "Al Jazeera",
+      "title": "Trump reverses course, reinstates cancelled campaign rallies",
+      "url": "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
+      "url": "https://aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+    },
+    {
+      "outlet": "France 24",
+      "title": "UK set for cautious budget as borrowing costs climb",
+      "url": "https://www.france24.com/en/live-news/20261028-uk-set-for-cautious-budget-as-borrowing-costs-climb"
+    },
+    {
+      "outlet": "The Week",
+      "title": "Cyclone Arnab makes landfall; heavy rains lash Andhra Pradesh, Odisha",
+      "url": "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-makes-landfall-andhra-pradesh.amp.html"
+    },
+    {
+      "outlet": "Khaleej Times",
+      "title": "Cyclone Arnab: At least 3 killed",
+      "url": "https://www.khaleejtimes.com/world/asia/cyclone-arnab-landfall-india-killed-homes-damaged"
+    },
+    {
+      "outlet": "The News Minute",
+      "title": "Cyclone Arnab impact on Andhra: Seven dead, CM Naidu estimates Rs 4600 crore loss",
+      "url": "https://www.thenewsminute.com/andhra-pradesh/cyclone-arnab-impact-on-andhra-seven-dead-cm-naidu-estimates-rs-4600-crore-loss"
+    },
+    {
+      "outlet": "Down To Earth",
+      "title": "Cyclone Arnab batters southern Odisha",
+      "url": "https://www.downtoearth.org.in/climate-change/cyclone-arnab-batters-southern-odisha-over-100000-evacuated"
+    },
+    {
+      "outlet": "NPR",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Which two states had rallies that Trump cancelled and then brought back?",
+        "options": [
+          "Kansas and Iowa",
+          "Texas and Ohio",
+          "Florida and Georgia"
+        ],
+        "answer": 0,
+        "why": "The paper says he reinstated rallies in Kansas and Iowa.",
+        "story": "lead"
+      },
+      {
+        "q": "Why do analysts say Republicans could face a backlash?",
+        "options": [
+          "Tickets to rallies cost too much",
+          "Fuel prices are higher than normal",
+          "Voting has been delayed"
+        ],
+        "answer": 1,
+        "why": "Analysts point to the cost of living and fuel prices tied to the war on Iran.",
+        "story": "lead"
+      },
+      {
+        "q": "How many UK households get the one-off 100-pound payment?",
+        "options": [
+          "2 million",
+          "20 million",
+          "200 million"
+        ],
+        "answer": 1,
+        "why": "The budget sends it to 20 million households.",
+        "story": "world"
+      },
+      {
+        "q": "Where did Cyclone Arnab make landfall?",
+        "options": [
+          "Near Yanam, Andhra Pradesh",
+          "Near Chennai, Tamil Nadu",
+          "Near Puri, Odisha"
+        ],
+        "answer": 0,
+        "why": "The IMD said landfall was near Yanam on the Andhra Pradesh coast.",
+        "story": "india"
+      },
+      {
+        "q": "What did the Fed do with its benchmark rate on 28 October?",
+        "options": [
+          "Raised it",
+          "Kept it at 3.75-4%",
+          "Cut it"
+        ],
+        "answer": 1,
+        "why": "It held the rate at 3.75-4% in a 10-2 vote.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Kansas has elected a Democrat to a full Senate term in recent years.",
+        "true": false,
+        "why": "The paper says Kansas has not done so since 1932.",
+        "story": "lead"
+      },
+      {
+        "claim": "Britain's budget doubles a surcharge on bank profits.",
+        "true": true,
+        "why": "The surcharge doubles to 6% for 15 months from January.",
+        "story": "world"
+      },
+      {
+        "claim": "Both Fed officials who dissented wanted to cut interest rates.",
+        "true": false,
+        "why": "Cook and Hammack voted to raise rates by a quarter point.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Kansas",
+        "lat": 38.5,
+        "lon": -98.0,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Yanam",
+        "lat": 16.73,
+        "lon": 82.22,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How many million households get the one-off payment in Britain's budget?",
+        "answer": 20,
+        "prefix": "",
+        "unit": "million",
+        "min": 1,
+        "max": 100,
+        "why": "The 100-pound payment goes to 20 million households."
+      },
+      {
+        "story": "india",
+        "q": "What is the preliminary loss from Cyclone Arnab, in crore rupees, per the Andhra Pradesh chief minister?",
+        "answer": 4600,
+        "prefix": "Rs ",
+        "unit": "crore",
+        "min": 500,
+        "max": 15000,
+        "why": "Chief Minister Naidu says it could rise after a detailed assessment."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Trump Brings Back Two Rallies Before the Vote",
+        "body": [
+          "Americans vote on Tuesday 3 November. These are the midterm elections. They decide who controls Congress.",
+          "President Trump said on 29 October that he would cancel rallies in Kansas and Iowa. The next day, a source close to the administration said he would go to both on Sunday after all. There will also be more tele-rallies. In these, he joins virtually.",
+          "Experts say fuel prices are a worry for Republicans. Fuel costs more than normal because of the war on Iran. Brent crude, a main oil price, briefly topped $117 a barrel on Friday. When fuel costs more, families feel it."
+        ]
+      },
+      "world": {
+        "headline": "Britain's Budget Helps With Energy Bills",
+        "body": [
+          "A budget is a government's plan for taxes and spending. Britain's came on 28 October. The new chancellor, John Healey, gave it.",
+          "Gas and electricity prices are rising, mostly because of the conflict in the Middle East. So every one of 20 million households will get a one-off payment of 100 pounds. Fixed fees on gas bills will be removed.",
+          "The government will also double a surcharge on bank profits to 6% for 15 months from January. Growth is forecast at 1.2% this year. That is lower than hoped for 2027, because of the war."
+        ]
+      },
+      "india": {
+        "headline": "Cyclone Arnab Leaves Damage in Andhra Pradesh",
+        "body": [
+          "Cyclone Arnab hit the coast of Andhra Pradesh on 28 October. It was a very severe storm. Its gusts reached up to 150 km/h.",
+          "Before it arrived, about 50,000 people in Andhra Pradesh and about 48,000 in Odisha were told to move to safer places. At least 609 schools became shelters. A man named Sadiq said the warnings helped people prepare.",
+          "The chief minister says the damage is about Rs 4,600 crore. He says at least seven people died. Crops on about 70,900 hectares were damaged. Power was cut in nearly 400 villages."
+        ]
+      },
+      "us": {
+        "headline": "The Fed Keeps Interest Rates the Same",
+        "body": [
+          "The Federal Reserve is America's central bank. On 28 October it kept its main interest rate at 3.75-4%. Ten officials voted yes and two voted no.",
+          "The two wanted the rate to go up a little. Inflation is how fast prices rise. It went up to 3.7% in September from 3.4% in August. Energy prices were the main reason.",
+          "Interest rates change what it costs to borrow money for things like homes and cars. Experts expect the Fed to raise rates at its next meeting on 8-9 December."
+        ]
+      }
+    }
+  }
+}
