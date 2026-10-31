@@ -157,6 +157,8 @@ def test_the_app_points_at_the_pack():
     assert audio["enableBackgroundPlayback"] is True and audio["microphonePermission"] is False
     assert cfg["android"]["package"] == cfg["ios"]["bundleIdentifier"] == "com.newspebbles.app"
     assert "android.permission.RECORD_AUDIO" in cfg["android"]["blockedPermissions"]
+    # Play's Families policy: no advertising ID. A library (Firebase, behind the reminder) can add it.
+    assert "com.google.android.gms.permission.AD_ID" in cfg["android"]["blockedPermissions"]
 
 
 def test_the_app_builds_for_google_play():
