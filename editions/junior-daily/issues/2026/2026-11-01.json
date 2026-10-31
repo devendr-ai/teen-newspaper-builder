@@ -1,0 +1,216 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-01",
+  "volume": 1,
+  "issue": 19,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  CALIFORNIA, USA",
+      "headline": "A Judge Weighs a Fight Over 20,000 California Ballots",
+      "deck": "The US Justice Department wants California to set aside ballots it says may come from non-citizens.",
+      "body": [
+        "In the United States, voters choose leaders in elections, and in California ballots were already being mailed out. The US Justice Department, the federal government's law office, sued California on 15 October. It asked a court to stop the state counting about 20,000 ballots, which it suspects come from people who are not US citizens.",
+        "California refused to set those ballots aside. Its lawyer, Michael Cohen, told the court that the law the department points to has nothing to do with running elections. It makes it a misdemeanor, a minor crime, for a non-citizen to vote in a federal election, and it targets voters, not election workers.",
+        "On Tuesday 27 October, Judge David Carter held a hearing. He said any threats to election workers should stop at once. He seemed doubtful about the demand and said he would rule on Wednesday."
+      ],
+      "map": {
+        "countries": [
+          "United States"
+        ],
+        "title": "WHERE THE CASE IS",
+        "label_top": "UNITED STATES",
+        "label_bottom": "CALIFORNIA",
+        "footnote": "A federal judge is hearing the case",
+        "caption": "The dispute is about ballots in California, on the west coast of the United States."
+      },
+      "why": "Judges decide whether every eligible vote is counted fairly, and who gets to say a voter is not eligible.",
+      "sources": [
+        {
+          "outlet": "Democracy Docket",
+          "title": "Election worker threats must 'cease immediately,' judge tells DOJ ahead of crucial California voter ruling",
+          "url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+        },
+        {
+          "outlet": "CalMatters",
+          "title": "Trump noncitizen voting court",
+          "url": "https://calmatters.org/justice/2026/10/trump-noncitizen-voting-court/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ISRAEL",
+      "headline": "Israel's Vote Count Leaves Neither Side in Charge",
+      "deck": "After the 27 October election, no group has the 61 seats it needs in a 120-seat parliament.",
+      "body": [
+        "Israel's parliament, the Knesset, has 120 seats, so a group needs 61 for a majority. Israel voted on 27 October, and 77.7% of eligible voters took part, the highest share since 1999.",
+        "With most votes counted, Prime Minister Benjamin Netanyahu's bloc, a team of allied parties, had 53 seats. Gadi Eisenkot's bloc had 48. Arab parties had 19. Netanyahu rejects working with Arab parties, and they have ruled out joining his government.",
+        "Next, President Isaac Herzog will pick someone to try to form a government, with up to 42 days."
+      ],
+      "chart": {
+        "title": "SEATS IN ISRAEL'S PARLIAMENT",
+        "subtitle": "Seats so far, 61 needed",
+        "labels": [
+          "Netanyahu",
+          "Eisenkot",
+          "Arab"
+        ],
+        "values": [
+          53,
+          48,
+          19
+        ],
+        "max": 70,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Unofficial counts with most votes counted. Final results are due on 4 November."
+      },
+      "why": "Whoever forms the next government will decide Israel's laws and its choices about the war.",
+      "sources": [
+        {
+          "outlet": "Jewish News",
+          "title": "Arab parties gain seat as 76.8% of Israeli ballot boxes counted",
+          "url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Five key takeaways from Israel's parliamentary elections",
+          "url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+        },
+        {
+          "outlet": "Korea Times (AP)",
+          "title": "Israelis await final election results as Netanyahu remains far from defeated",
+          "url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Israel: Final official results are due on 4 November.",
+        "California: Mail ballots went to all registered voters."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Judge Carter names a special master.",
+        "Whether Israel's final results on 4 November change the seat counts."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling",
+    "https://calmatters.org/justice/2026/10/trump-noncitizen-voting-court/",
+    "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/",
+    "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections",
+    "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "About how many California ballots does the Justice Department want set aside?",
+        "options": [
+          "2,000",
+          "20,000",
+          "200,000"
+        ],
+        "answer": 1,
+        "why": "The paper says the department asked about 20,000 ballots to be set aside.",
+        "story": "lead"
+      },
+      {
+        "q": "What is a special master, as the paper explains it?",
+        "options": [
+          "An outside expert who weighs evidence for a judge",
+          "A voter who counts ballots",
+          "A leader of a parliament"
+        ],
+        "answer": 0,
+        "why": "The paper describes a special master as an outside expert who weighs evidence for a judge.",
+        "story": "lead"
+      },
+      {
+        "q": "How many seats does a group need for a majority in Israel's Knesset?",
+        "options": [
+          "48",
+          "53",
+          "61"
+        ],
+        "answer": 2,
+        "why": "The Knesset has 120 seats, so a majority needs 61.",
+        "story": "world"
+      },
+      {
+        "q": "Who will choose someone to try to form Israel's next government?",
+        "options": [
+          "President Isaac Herzog",
+          "Judge David Carter",
+          "Michael Cohen"
+        ],
+        "answer": 0,
+        "why": "President Isaac Herzog will talk to party leaders and choose someone.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Judge David Carter held his hearing on Tuesday 27 October.",
+        "true": true,
+        "why": "The paper says he held a hearing in the case on Tuesday 27 October.",
+        "story": "lead"
+      },
+      {
+        "claim": "California agreed to set aside the 20,000 ballots.",
+        "true": false,
+        "why": "California refused to set those ballots aside.",
+        "story": "lead"
+      },
+      {
+        "claim": "Israel's election turnout was the highest since 1999.",
+        "true": true,
+        "why": "77.7% of eligible voters took part, the highest share since 1999.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "California",
+        "lat": 36.78,
+        "lon": -119.42,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "countries": [
+          "Israel"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many California ballots does the Justice Department want set aside?",
+        "answer": 20000,
+        "prefix": "",
+        "unit": "ballots",
+        "min": 0,
+        "max": 60000,
+        "why": "The department asked a court to stop about 20,000 ballots being counted."
+      },
+      {
+        "story": "world",
+        "q": "What share of eligible Israeli voters took part in the election?",
+        "answer": 77.7,
+        "prefix": "",
+        "unit": "%",
+        "min": 40,
+        "max": 100,
+        "why": "Turnout was 77.7%, the highest since 1999."
+      }
+    ]
+  }
+}
