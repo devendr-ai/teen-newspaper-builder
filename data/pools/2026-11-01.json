@@ -1,0 +1,210 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "israel-count",
+    "headline": "Israel's vote count leaves neither side with a majority",
+    "what_happened": "Israel voted on 27-28 October 2026. With most votes counted, Benjamin Netanyahu's bloc had 53 seats and Gadi Eisenkot's bloc 48, with Arab parties on 19. Neither side had the 61 seats needed to govern.",
+    "why_it_matters": "President Isaac Herzog must now pick someone to try to build a government, and if nobody can, Israel faces new elections.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Knesset, Israel's parliament, has 120 seats, so a majority needs 61 seats.",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     },
+     {
+      "fact": "At 93% of ordinary ballots counted (85.6% of all votes), Netanyahu's bloc was on 53 seats, Eisenkot's on 48 and the Arab parties on 19; neither main bloc had the 61 seats needed.",
+      "source_url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+     },
+     {
+      "fact": "Turnout was 77.7% of eligible voters, the highest since 1999.",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     },
+     {
+      "fact": "No single party has ever won a 61-seat majority in Israel.",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     },
+     {
+      "fact": "Gadi Eisenkot, leader of the Yashar party, is a centrist former military chief.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+     },
+     {
+      "fact": "Netanyahu, Likud's leader, is seeking to become the country's longest-serving prime minister and faces an ongoing corruption trial.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+     },
+     {
+      "fact": "Netanyahu rejects working with Arab-led parties, and they have ruled out joining his government.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+     },
+     {
+      "fact": "Eisenkot and several other opposition leaders ruled out forming a coalition with Arab parties.",
+      "source_url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+     },
+     {
+      "fact": "Arab citizens make up about 20% of Israel's population.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+     },
+     {
+      "fact": "President Isaac Herzog will consult party leaders and nominate a candidate to form a government, and the nominee will have up to 42 days.",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     },
+     {
+      "fact": "If no government forms, Netanyahu's cabinet stays on as a caretaker and new elections are called.",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     },
+     {
+      "fact": "Between 430,000 and 480,000 votes cast in 'double envelopes', including soldiers' votes, were counted separately and could affect about 12 Knesset seats.",
+      "source_url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+     },
+     {
+      "fact": "Final official results are due on 4 November.",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     },
+     {
+      "fact": "Voter anger focused on Netanyahu's far-right alliance and on draft exemptions for ultra-Orthodox Jewish men.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+     },
+     {
+      "fact": "Israel held five elections between April 2019 and November 2022.",
+      "source_url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Netanyahu bloc seats",
+      "value": 53,
+      "unit": "seats",
+      "source_url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+     },
+     {
+      "label": "Eisenkot bloc seats",
+      "value": 48,
+      "unit": "seats",
+      "source_url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+     },
+     {
+      "label": "Arab parties seats",
+      "value": 19,
+      "unit": "seats",
+      "source_url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/"
+     },
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "seats",
+      "source_url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+     }
+    ],
+    "geography": "Israel; the Knesset meets in Jerusalem",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Five key takeaways from Israel's parliamentary elections",
+      "url": "https://aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Korea Times (AP)",
+      "title": "Israelis await final election results as Netanyahu remains far from defeated",
+      "url": "https://www.koreatimes.co.kr/world/20261028/israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Jewish News",
+      "title": "Arab parties gain seat as 76.8% of Israeli ballot boxes counted",
+      "url": "https://www.jewishnews.co.uk/liveblog_entry/arab-parties-gain-seat-as-76-8-of-israeli-ballot-boxes-counted/",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "california-ballots",
+    "headline": "A judge weighs the Justice Department's bid to set aside 20,000 California ballots",
+    "what_happened": "The US Justice Department asked a federal court to stop California counting about 20,000 ballots from people it suspects are not citizens. Judge David Carter said at a hearing on 27 October that threats to election workers should cease immediately.",
+    "why_it_matters": "The ruling affects how ballots are counted in a midterm election, and who decides whether a voter is eligible.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "U.S. District Judge David Carter presided over a hearing on Tuesday, 27 October, and said he would rule on the Justice Department's request on Wednesday.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "Carter said: \"This court believes that it would be wise that any threats to state and county election employees cease immediately.\"",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "The Justice Department sought an emergency order to stop California from counting about 20,000 ballots from people it suspects may be noncitizens.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "The Justice Department sued California on 15 October, more than a week after mail ballots went to all registered voters.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "The department demanded that California set aside the 20,000 ballots after the state refused to voluntarily sequester them.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "California Deputy Attorney General Michael Cohen argued for the state and said the federal law cited, 18 U.S.C. \u00a7 611, has nothing to do with election administration.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "18 U.S.C. \u00a7 611 makes noncitizen voting in federal elections a misdemeanor and targets individual voters, not election workers.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "First Assistant U.S. Attorney Bill Essayli represented the Justice Department and has repeatedly threatened to prosecute election officials who do not set aside ballots until voters' citizenship is confirmed.",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     },
+     {
+      "fact": "Judge Carter took the case over from Judge John Holcomb, and had earlier dismissed a separate Justice Department suit for California's unredacted voter data.",
+      "source_url": "https://calmatters.org/justice/2026/10/trump-noncitizen-voting-court/"
+     },
+     {
+      "fact": "Carter seemed skeptical of the demand, said he would likely appoint a special master to weigh the evidence, and said the claimed emergency was partly 'self-constructed' because the government had known about the allegations since July.",
+      "source_url": "https://calmatters.org/justice/2026/10/trump-noncitizen-voting-court/"
+     },
+     {
+      "fact": "The 9th Circuit appeals court dismissed the Justice Department's emergency appeal 2-1 for lack of jurisdiction, without deciding whether its legal theory holds up.",
+      "source_url": "https://calmatters.org/justice/2026/10/trump-noncitizen-voting-court/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Ballots in dispute",
+      "value": 20000,
+      "unit": "ballots",
+      "source_url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling"
+     }
+    ],
+    "geography": "California, United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Democracy Docket",
+      "title": "Election worker threats must 'cease immediately,' judge tells DOJ ahead of crucial California voter ruling",
+      "url": "https://www.democracydocket.com/news-alerts/election-worker-threats-must-cease-immediately-judge-tells-doj-ahead-of-crucial-california-voter-ruling",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "CalMatters",
+      "title": "Trump noncitizen voting court",
+      "url": "https://calmatters.org/justice/2026/10/trump-noncitizen-voting-court/",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
