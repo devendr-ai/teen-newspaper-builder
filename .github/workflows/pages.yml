@@ -13,9 +13,12 @@ permissions:
   pages: write
   id-token: write
 
+# Queue, never cancel: a deploy records narration for an hour or more, and a cancelled run
+# saves none of it, so each merge used to restart the audio and today's papers never went live.
+# GitHub keeps one waiting run per group, so a burst of merges still deploys only the newest.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
