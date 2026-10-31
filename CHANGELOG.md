@@ -1,3 +1,11 @@
+## The nightly run publishes again
+
+- The 29–31 October runs published nothing: after a few generic searches the run read "8–10 key
+  facts per story" as a bar every story must clear, and stopped. The publish-today skill now treats
+  it as a target for column-filling stories (briefs need 2–3), says how to search (named outlets,
+  dated queries, a follow-up search per story), that thin first results never justify publishing
+  nothing, and that a column that can't be filled means swapping the story, not skipping the paper.
+
 ## The app on Android
 
 - The Expo app now runs on Android phones and tablets: the back button and gesture go back a page,
