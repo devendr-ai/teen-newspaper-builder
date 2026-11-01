@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-02",
+  "by": "claude-code",
+  "enrichment": {
+    "enabled": true,
+    "selected": 0,
+    "note": "not run; no fetches attempted"
+  },
+  "editions": {
+    "junior-daily": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "breakfast-table": {
+      "status": "skipped",
+      "reason": "Skipped: today's research pool (web search snippets only) held too few sourced facts to fill 4-page columns without padding; no verified Mexico City GP result for the sports slot",
+      "poster": null
+    },
+    "current-affairs-digest": {
+      "status": "skipped",
+      "reason": "Skipped: today's research pool (web search snippets only) held too few sourced facts to fill 4-page columns without padding",
+      "poster": null
+    },
+    "europe-explained": {
+      "status": "skipped",
+      "reason": "Skipped: today's research pool (web search snippets only) held too few sourced facts to fill 4-page columns without padding",
+      "poster": null
+    },
+    "global-citizen-plus": {
+      "status": "skipped",
+      "reason": "Skipped: today's research pool (web search snippets only) held too few sourced facts to fill 4-page columns without padding",
+      "poster": null
+    },
+    "young-global-citizen": {
+      "status": "skipped",
+      "reason": "Skipped: today's research pool (web search snippets only) held too few sourced facts to fill 4-page columns without padding",
+      "poster": null
+    }
+  }
+}

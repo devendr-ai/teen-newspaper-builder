@@ -1,0 +1,1037 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "hormuz-tankers",
+    "headline": "Iran says four oil tankers hit mines in the Strait of Hormuz",
+    "what_happened": "Iran's Revolutionary Guard said four oil tankers hit mines and caught fire in the Strait of Hormuz. The claim has not been independently verified, and Qatari mediators have been trying to restart talks between the US and Iran.",
+    "why_it_matters": "The strait is a narrow sea route for oil, and the US-Iran war that began in February 2026 has not been settled by a deal.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Iran's Revolutionary Guard said four oil tankers, including one carrying more than 2 million barrels of oil, hit mines and caught fire in the Strait of Hormuz; the Guard said one was a supertanker.",
+      "source_url": "https://www.manilatimes.net/2026/11/01/world/americas-emea/iran-says-4-tankers-hit-mines-catch-fire-in-hormuz-strait/2458755"
+     },
+     {
+      "fact": "Early reports on Friday 30 October cited two tankers; the Guard later raised its count to four.",
+      "source_url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu"
+     },
+     {
+      "fact": "The IRGC blamed mines, but maritime security officials have previously said there is no evidence of mines in the Strait; the reports have not been independently verified.",
+      "source_url": "https://www.manilatimes.net/2026/11/01/world/americas-emea/iran-says-4-tankers-hit-mines-catch-fire-in-hormuz-strait/2458755"
+     },
+     {
+      "fact": "The attack appeared to be the first reported successful use of limpet mines against a vessel in the Strait since the US-Iran war began in February 2026, and it was not clear who was responsible.",
+      "source_url": "https://www.manilatimes.net/2026/11/01/world/americas-emea/iran-says-4-tankers-hit-mines-catch-fire-in-hormuz-strait/2458755"
+     },
+     {
+      "fact": "Qatari mediators held talks in Tehran aimed at restarting direct US-Iran negotiations.",
+      "source_url": "https://cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html"
+     },
+     {
+      "fact": "On Saturday 31 October Iran's top diplomat said there were no plans to hold talks with the United States, despite growing concerns over a return to war.",
+      "source_url": "https://www.manilatimes.net/2026/11/01/world/americas-emea/iran-says-4-tankers-hit-mines-catch-fire-in-hormuz-strait/2458755"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz, between Iran and Oman; Qatar mediating; Tehran",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Manila Times",
+      "title": "Iran says 4 tankers hit mines, catch fire in Hormuz Strait",
+      "url": "https://www.manilatimes.net/2026/11/01/world/americas-emea/iran-says-4-tankers-hit-mines-catch-fire-in-hormuz-strait/2458755",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Iran's Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
+      "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations",
+      "url": "https://cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "poland-tribunal",
+    "headline": "Poland's government and president clash over the Constitutional Tribunal",
+    "what_happened": "Prime Minister Donald Tusk's government moved to reshape Poland's Constitutional Tribunal, suspending its head judge. Riot police were deployed outside the court and President Karol Nawrocki held crisis talks.",
+    "why_it_matters": "It is a fight over who controls the court that can strike down laws, between a pro-EU government and a president allied with the opposition.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tusk's government moved on Friday 30 October to reshape the Constitutional Tribunal; Judge Bogdan Swiczkowski, the tribunal's head, was suspended after refusing to let a new member nominated by Tusk and approved by parliament take his seat; his deputy was also suspended.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "Riot police were deployed outside the Constitutional Tribunal as the dispute escalated into a confrontation between Tusk's government and the nationalist opposition.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "President Karol Nawrocki, an ally of the PiS party, turned back to Poland midair while flying to Senegal and arrived at the tribunal during the night, then held crisis talks with political leaders.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff"
+     },
+     {
+      "fact": "Tusk argues the tribunal's judges were not politically neutral and called the removal a 'painful' but necessary decision to restore the rule of law after years of erosion under PiS rule.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "Earlier this year Nawrocki refused to swear in three of the six magistrates appointed by parliament.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "US Ambassador Tom Rose called for calm on all sides.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     }
+    ],
+    "numbers": [],
+    "geography": "Warsaw, Poland (Constitutional Tribunal); Senegal (president's cancelled trip)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Polish president holds crisis talks in court standoff",
+      "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "CNN",
+      "title": "Poland's top court: long-running spat between pro-Europe PM and pro-Trump president erupts",
+      "url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Protests outside Poland's constitutional court: what's the crisis about?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oleshky-truce",
+    "headline": "Civilians leave Russian-occupied Oleshky during a rare local truce",
+    "what_happened": "Hundreds of residents of Oleshky reached Ukraine via Belarus on Saturday 31 October under a six-day local ceasefire, the first humanitarian truce of its kind in more than four years of war.",
+    "why_it_matters": "It shows that even in a long war, a short agreement can let trapped civilians get out.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Starved and exhausted residents of the Russian-controlled town of Oleshky crossed into Ukraine on Saturday under the first humanitarian truce of its kind in more than four years of the war.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "The truce was a six-day local ceasefire, and the White House said US First Lady Melania Trump helped broker it.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "An estimated 2,000 people remained in Oleshky when the truce took hold.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "Four planes carrying the evacuees arrived in the southeastern Belarusian town of Gomel, and the evacuees then reached the border with Ukraine in Chernihiv region.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine"
+     },
+     {
+      "fact": "Ukrainian officials said the Russian military provided safe corridors for the evacuees and was de-mining roads near Oleshky.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "Moscow and Kyiv kept trading attacks elsewhere during the truce; the Bryansk governor said a Ukrainian drone killed two people and injured five in the settlement of Klimovo on Saturday.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     }
+    ],
+    "numbers": [],
+    "geography": "Oleshky (Kherson region, Ukraine); Gomel, Belarus; Chernihiv region",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Residents evacuated from Russian-occupied Oleshky reach Ukraine after localized ceasefire",
+      "url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
+      "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "italy-strike",
+    "headline": "Thousands strike across Italy against living costs and rearmament",
+    "what_happened": "A 24-hour general strike on Friday 30 October brought tens of thousands onto the streets of more than 40 Italian cities. In Rome a group split off and clashed with police near the Colosseum.",
+    "why_it_matters": "It shows how rising prices and arms spending are stirring protest in Europe.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The strike on Friday 30 October was a 24-hour general strike called by the grassroots union USB, against the cost of living and European rearmament.",
+      "source_url": "https://www.hngn.com/articles/273660/20261031/italys-general-strike-fills-40-cities-clashes-colosseum.htm"
+     },
+     {
+      "fact": "Reports put turnout at tens of thousands across more than 40 cities.",
+      "source_url": "https://www.hngn.com/articles/273660/20261031/italys-general-strike-fills-40-cities-clashes-colosseum.htm"
+     },
+     {
+      "fact": "In Rome about 300 people split from the main march and went to the Colosseum, built barricades from bins, set fire to bins and electric scooters, and threw objects at riot police.",
+      "source_url": "https://www.wantedinrome.com/news/clashes-in-rome-and-turin-as-italy-protests-turn-violent.html"
+     },
+     {
+      "fact": "Eight people were detained, according to Euronews.",
+      "source_url": "https://www.euronews.com/2026/10/30/italy-on-high-alert-as-thousands-take-the-streets-in-nationwide-strike"
+     },
+     {
+      "fact": "Police used water cannon in the evening when a large crowd tried to reach parliament, and also in Turin against students and activists.",
+      "source_url": "https://www.tbsnews.net/worldbiz/europe/mass-protests-sweep-italy-during-nationwide-strike-1588406"
+     },
+     {
+      "fact": "Interior Minister Matteo Piantedosi praised the police.",
+      "source_url": "https://www.wantedinrome.com/news/clashes-in-rome-and-turin-as-italy-protests-turn-violent.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Rome (Colosseum, parliament), Turin, Italy",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Italy on high alert as thousands take the streets in nationwide strike",
+      "url": "https://www.euronews.com/2026/10/30/italy-on-high-alert-as-thousands-take-the-streets-in-nationwide-strike",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "HNGN",
+      "title": "Italy's general strike fills 40 cities; clashes at Colosseum",
+      "url": "https://www.hngn.com/articles/273660/20261031/italys-general-strike-fills-40-cities-clashes-colosseum.htm",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Wanted in Rome",
+      "title": "Clashes in Rome and Turin as Italy protests turn violent",
+      "url": "https://www.wantedinrome.com/news/clashes-in-rome-and-turin-as-italy-protests-turn-violent.html",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "TBS News",
+      "title": "Mass protests sweep Italy during nationwide strike",
+      "url": "https://www.tbsnews.net/worldbiz/europe/mass-protests-sweep-italy-during-nationwide-strike-1588406",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms-early",
+    "headline": "US midterms: record early voting two days before Election Day",
+    "what_happened": "With the midterm elections on 3 November, more than 50 million early and mail ballots had been cast by Sunday, and Texas set a midterm early-voting record.",
+    "why_it_matters": "Midterms decide Congress, which makes the country's laws, so turnout shapes what happens next.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The US midterm elections take place on 3 November 2026.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "A University of Florida analysis put early votes above 50 million as of Sunday 1 November, compared with 46 million who voted early in the 2022 midterms.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean"
+     },
+     {
+      "fact": "More than 7.7 million Texans voted early, a 40.5% turnout rate that surpasses the modern-day midterm high set in 2018.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Harris County, Texas, finished early voting with 1,081,010 voters, the most ever for a midterm there.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Georgia had more than 2.5 million ballots cast by Friday morning, passing the 2.3 million from early voting in 2022.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Early voting was up more than 30 percent over 2022 in Maine, Michigan, North Carolina and Kansas.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Democrats lead national polls and have voted early at higher rates, but early turnout does not show which candidates voters chose.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Texas, Georgia, Maine, Michigan, North Carolina, Kansas",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "More than 50 million votes cast in US midterm elections: what does it mean?",
+      "url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Texas Tribune",
+      "title": "More than 7.7 million Texans voted early in 2026 election, surpassing 2018 record",
+      "url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "US midterms: 3 days to go",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "sir-rally",
+    "headline": "Opposition rally in Delhi demands Election Commissioner resign over voter lists",
+    "what_happened": "Thousands rallied at Ramlila Maidan in New Delhi on Sunday 1 November, led by Rahul Gandhi, demanding the resignation of Chief Election Commissioner Gyanesh Kumar over the revision of voter lists.",
+    "why_it_matters": "Voter lists decide who can vote, so disputes over them go to the heart of trust in elections.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Thousands marched in New Delhi on Sunday 1 November, demanding the resignation of the election chief; Congress leader Rahul Gandhi led the demonstration, the latest in more than a month of protests over the revision of electoral rolls.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The protest targets changes to voter lists that opposition parties say favour Prime Minister Narendra Modi's ruling party.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "Officials ramped up security and announced traffic diversions as marchers headed toward Ramlila Maidan.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The INDIA bloc held a 'Vote Bachao, Desh Bachao' rally at Ramlila Maidan, and the demand was the resignation of Chief Election Commissioner Gyanesh Kumar.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     },
+     {
+      "fact": "The INDIA bloc alleges the Special Intensive Revision (SIR) exercise led to the deletion of 13.2 crore voters' names.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     },
+     {
+      "fact": "The Election Commission denied favouring any party and said wrongly removed voters may register again.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     },
+     {
+      "fact": "Union Home Minister Amit Shah accused the opposition of disrupting Parliament and taking parliamentary issues to the streets.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi (Ramlila Maidan), India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Thousands rally in New Delhi to demand India's election chief resign",
+      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Asianet Newsable",
+      "title": "INDIA bloc holds mega rally in Delhi over alleged electoral roll bias",
+      "url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "The Wire",
+      "title": "'Modi cannot escape', says Rahul Gandhi as thousands gather",
+      "url": "https://m.thewire.in/article/politics/modi-cannot-escape-says-rahul-gandhi-india-bloc-ramlila-stage",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "gst-october",
+    "headline": "India's GST collections rise 22.9% to Rs 2.31 lakh crore in October",
+    "what_happened": "Gross goods and services tax collections were Rs 2,31,290 crore in October 2026, up 22.9% from Rs 1,88,125 crore a year earlier. Imports drove much of the rise.",
+    "why_it_matters": "GST is a tax on goods and services that funds governments, so its size is a rough guide to economic activity, though some commentary says price rises inflated the import figure.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Gross GST collections rose 22.9% year on year to Rs 2,31,290 crore in October 2026, against Rs 1,88,125 crore in October 2025.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "fact": "Net GST revenue after refunds grew 25.6% to Rs 2,03,356 crore, from Rs 1,61,900 crore in October 2025.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "fact": "Import-related tax revenue rose 42.2% to Rs 72,246 crore, while domestic collections grew 15.8% to Rs 1,59,044 crore.",
+      "source_url": "https://www.nationpress.com/business/gst-collections-hit-indian-rupee231-lakh-crore-in-oct"
+     },
+     {
+      "fact": "Some commentary cautions that a significant part of the import GST jump could reflect price-driven inflation rather than higher volumes.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "fact": "For April to October 2026, cumulative gross GST collection was Rs 14,77,569 crore, up 13.2%.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Gross GST collection, October 2026",
+      "value": 231290,
+      "unit": "Rs crore",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "label": "Gross GST collection, October 2025",
+      "value": 188125,
+      "unit": "Rs crore",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Business Today",
+      "title": "Gross GST collections hit Rs 2.31 lakh crore in October",
+      "url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Zee Business",
+      "title": "GST collection October 2026",
+      "url": "https://www.zeebiz.com/economy-infra/news-gst-collection-october-2026-gross-revenue-rises-23-to-rs-231-lakh-crore-net-collection-up-256-404894",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Nation Press",
+      "title": "GST collections surge 22.9% to Rs 2.31 lakh crore in October 2026",
+      "url": "https://www.nationpress.com/business/gst-collections-hit-indian-rupee231-lakh-crore-in-oct",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "sir-rally",
+    "headline": "Opposition rally in Delhi demands Election Commissioner resign over voter lists",
+    "what_happened": "Thousands rallied at Ramlila Maidan in New Delhi on Sunday 1 November, led by Rahul Gandhi, demanding the resignation of Chief Election Commissioner Gyanesh Kumar over the revision of voter lists.",
+    "why_it_matters": "Voter lists decide who can vote, so disputes over them go to the heart of trust in elections.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Thousands marched in New Delhi on Sunday 1 November, demanding the resignation of the election chief; Congress leader Rahul Gandhi led the demonstration, the latest in more than a month of protests over the revision of electoral rolls.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The protest targets changes to voter lists that opposition parties say favour Prime Minister Narendra Modi's ruling party.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "Officials ramped up security and announced traffic diversions as marchers headed toward Ramlila Maidan.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The INDIA bloc held a 'Vote Bachao, Desh Bachao' rally at Ramlila Maidan, and the demand was the resignation of Chief Election Commissioner Gyanesh Kumar.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     },
+     {
+      "fact": "The INDIA bloc alleges the Special Intensive Revision (SIR) exercise led to the deletion of 13.2 crore voters' names.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     },
+     {
+      "fact": "The Election Commission denied favouring any party and said wrongly removed voters may register again.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     },
+     {
+      "fact": "Union Home Minister Amit Shah accused the opposition of disrupting Parliament and taking parliamentary issues to the streets.",
+      "source_url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi (Ramlila Maidan), India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Thousands rally in New Delhi to demand India's election chief resign",
+      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Asianet Newsable",
+      "title": "INDIA bloc holds mega rally in Delhi over alleged electoral roll bias",
+      "url": "https://newsable.asianetnews.com/india/india-bloc-holds-mega-rally-in-delhi-over-alleged-electoral-roll-bias-articleshow-yf179e0",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "The Wire",
+      "title": "'Modi cannot escape', says Rahul Gandhi as thousands gather",
+      "url": "https://m.thewire.in/article/politics/modi-cannot-escape-says-rahul-gandhi-india-bloc-ramlila-stage",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "poland-tribunal",
+    "headline": "Poland's government and president clash over the Constitutional Tribunal",
+    "what_happened": "Prime Minister Donald Tusk's government moved to reshape Poland's Constitutional Tribunal, suspending its head judge. Riot police were deployed outside the court and President Karol Nawrocki held crisis talks.",
+    "why_it_matters": "It is a fight over who controls the court that can strike down laws, between a pro-EU government and a president allied with the opposition.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tusk's government moved on Friday 30 October to reshape the Constitutional Tribunal; Judge Bogdan Swiczkowski, the tribunal's head, was suspended after refusing to let a new member nominated by Tusk and approved by parliament take his seat; his deputy was also suspended.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "Riot police were deployed outside the Constitutional Tribunal as the dispute escalated into a confrontation between Tusk's government and the nationalist opposition.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "President Karol Nawrocki, an ally of the PiS party, turned back to Poland midair while flying to Senegal and arrived at the tribunal during the night, then held crisis talks with political leaders.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff"
+     },
+     {
+      "fact": "Tusk argues the tribunal's judges were not politically neutral and called the removal a 'painful' but necessary decision to restore the rule of law after years of erosion under PiS rule.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "Earlier this year Nawrocki refused to swear in three of the six magistrates appointed by parliament.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "US Ambassador Tom Rose called for calm on all sides.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     }
+    ],
+    "numbers": [],
+    "geography": "Warsaw, Poland (Constitutional Tribunal); Senegal (president's cancelled trip)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Polish president holds crisis talks in court standoff",
+      "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "CNN",
+      "title": "Poland's top court: long-running spat between pro-Europe PM and pro-Trump president erupts",
+      "url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Protests outside Poland's constitutional court: what's the crisis about?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-midterms-early",
+    "headline": "US midterms: record early voting two days before Election Day",
+    "what_happened": "With the midterm elections on 3 November, more than 50 million early and mail ballots had been cast by Sunday, and Texas set a midterm early-voting record.",
+    "why_it_matters": "Midterms decide Congress, which makes the country's laws, so turnout shapes what happens next.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The US midterm elections take place on 3 November 2026.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "A University of Florida analysis put early votes above 50 million as of Sunday 1 November, compared with 46 million who voted early in the 2022 midterms.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean"
+     },
+     {
+      "fact": "More than 7.7 million Texans voted early, a 40.5% turnout rate that surpasses the modern-day midterm high set in 2018.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Harris County, Texas, finished early voting with 1,081,010 voters, the most ever for a midterm there.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Georgia had more than 2.5 million ballots cast by Friday morning, passing the 2.3 million from early voting in 2022.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Early voting was up more than 30 percent over 2022 in Maine, Michigan, North Carolina and Kansas.",
+      "source_url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+     },
+     {
+      "fact": "Democrats lead national polls and have voted early at higher rates, but early turnout does not show which candidates voters chose.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Texas, Georgia, Maine, Michigan, North Carolina, Kansas",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "More than 50 million votes cast in US midterm elections: what does it mean?",
+      "url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Texas Tribune",
+      "title": "More than 7.7 million Texans voted early in 2026 election, surpassing 2018 record",
+      "url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "US midterms: 3 days to go",
+      "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "gst-october",
+    "headline": "India's GST collections rise 22.9% to Rs 2.31 lakh crore in October",
+    "what_happened": "Gross goods and services tax collections were Rs 2,31,290 crore in October 2026, up 22.9% from Rs 1,88,125 crore a year earlier. Imports drove much of the rise.",
+    "why_it_matters": "GST is a tax on goods and services that funds governments, so its size is a rough guide to economic activity, though some commentary says price rises inflated the import figure.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Gross GST collections rose 22.9% year on year to Rs 2,31,290 crore in October 2026, against Rs 1,88,125 crore in October 2025.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "fact": "Net GST revenue after refunds grew 25.6% to Rs 2,03,356 crore, from Rs 1,61,900 crore in October 2025.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "fact": "Import-related tax revenue rose 42.2% to Rs 72,246 crore, while domestic collections grew 15.8% to Rs 1,59,044 crore.",
+      "source_url": "https://www.nationpress.com/business/gst-collections-hit-indian-rupee231-lakh-crore-in-oct"
+     },
+     {
+      "fact": "Some commentary cautions that a significant part of the import GST jump could reflect price-driven inflation rather than higher volumes.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "fact": "For April to October 2026, cumulative gross GST collection was Rs 14,77,569 crore, up 13.2%.",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Gross GST collection, October 2026",
+      "value": 231290,
+      "unit": "Rs crore",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     },
+     {
+      "label": "Gross GST collection, October 2025",
+      "value": 188125,
+      "unit": "Rs crore",
+      "source_url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Business Today",
+      "title": "Gross GST collections hit Rs 2.31 lakh crore in October",
+      "url": "https://www.businesstoday.in/india/story/gross-gst-collections-hit-rs2-31-lakh-crore-in-october-marks-22-9-yoy-rise-on-robust-domestic-growth-564976-2026-11-01",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Zee Business",
+      "title": "GST collection October 2026",
+      "url": "https://www.zeebiz.com/economy-infra/news-gst-collection-october-2026-gross-revenue-rises-23-to-rs-231-lakh-crore-net-collection-up-256-404894",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Nation Press",
+      "title": "GST collections surge 22.9% to Rs 2.31 lakh crore in October 2026",
+      "url": "https://www.nationpress.com/business/gst-collections-hit-indian-rupee231-lakh-crore-in-oct",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "rubin-dwarf",
+    "headline": "Rubin Observatory spots a possible new dwarf planet beyond Neptune",
+    "what_happened": "Astronomers announced on 27 October that the Vera C. Rubin Observatory has spotted 2026 ED138, a candidate that could become the sixth known dwarf planet. It is not yet confirmed.",
+    "why_it_matters": "Scientists cannot call it a dwarf planet until they pin down its size.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 27 October 2026 astronomers said the Vera C. Rubin Observatory has spotted a candidate, designated 2026 ED138, that could become the 6th known dwarf planet.",
+      "source_url": "https://www.livescience.com/space/planets/bright-object-beyond-pluto-may-be-the-solar-systems-sixth-dwarf-planet"
+     },
+     {
+      "fact": "Matthew Holman found it on 13 October while running a search code through Rubin data with colleague Kevin Napier; it appeared in observations captured between 4 March and 11 July 2026.",
+      "source_url": "https://www.livescience.com/space/planets/bright-object-beyond-pluto-may-be-the-solar-systems-sixth-dwarf-planet"
+     },
+     {
+      "fact": "One study estimated its size between 600 and 1,500 kilometres across; Pluto is 2,377 km in diameter.",
+      "source_url": "https://www.space.com/astronomy/dwarf-planets/astronomers-found-a-mysterious-object-beyond-neptune-and-it-could-be-a-new-dwarf-planet"
+     },
+     {
+      "fact": "Scientists won't know whether it is a dwarf planet until astronomers pin down its size.",
+      "source_url": "https://www.space.com/astronomy/dwarf-planets/astronomers-found-a-mysterious-object-beyond-neptune-and-it-could-be-a-new-dwarf-planet"
+     },
+     {
+      "fact": "Rubin is expected to discover an estimated 32,000 objects beyond Neptune's orbit over the next decade, several of which could also be dwarf planets.",
+      "source_url": "https://www.livescience.com/space/planets/bright-object-beyond-pluto-may-be-the-solar-systems-sixth-dwarf-planet"
+     },
+     {
+      "fact": "It is the largest trans-Neptunian object found in about 20 years, and Rubin found it while still being commissioned.",
+      "source_url": "https://www.livescience.com/space/planets/bright-object-beyond-pluto-may-be-the-solar-systems-sixth-dwarf-planet"
+     }
+    ],
+    "numbers": [],
+    "geography": "Beyond Neptune's orbit; Vera C. Rubin Observatory, Chile",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Stanford News",
+      "title": "Rubin spots dwarf planet candidate beyond Pluto",
+      "url": "https://news.stanford.edu/stories/2026/10/rubin-observatory-dwarf-planet-candidate",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Live Science",
+      "title": "Vera C. Rubin Observatory discovers possible new solar system dwarf planet beyond Neptune",
+      "url": "https://www.livescience.com/space/planets/bright-object-beyond-pluto-may-be-the-solar-systems-sixth-dwarf-planet",
+      "published": "2026-10-27",
+      "primary": false
+     },
+     {
+      "outlet": "Space.com",
+      "title": "Astronomers found a mysterious object beyond Neptune",
+      "url": "https://www.space.com/astronomy/dwarf-planets/astronomers-found-a-mysterious-object-beyond-neptune-and-it-could-be-a-new-dwarf-planet",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-burnham",
+    "headline": "UK Prime Minister Burnham announces tax change and speaks on slavery apology",
+    "what_happened": "Prime Minister Andy Burnham said the tax-free allowance for side income will rise to 3,000 pounds from April, and said he is open to a British apology for slavery but rules out reparations.",
+    "why_it_matters": "It shows the new government's first policies, and the Commonwealth meeting next week.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Andy Burnham became Prime Minister on 20 July 2026, replacing Keir Starmer.",
+      "source_url": "https://www.itv.com/news/2026-11-01/burnham-warned-formal-apology-for-slavery-will-open-door-to-reparations-demands"
+     },
+     {
+      "fact": "Burnham announced the tax-free allowance for side income rises to 3,000 pounds from April next year, affecting about 400,000 people.",
+      "source_url": "https://britbrief.co.uk/politics/westminster/burnham-triples-side-hustle-tax-free-allowance-to-3000.html"
+     },
+     {
+      "fact": "Burnham said he is open to a British apology for slavery but has ruled out reparations; critics warned an apology could invite compensation demands.",
+      "source_url": "https://www.itv.com/news/2026-11-01/burnham-warned-formal-apology-for-slavery-will-open-door-to-reparations-demands"
+     },
+     {
+      "fact": "He is due at the Commonwealth Heads of Government Meeting in the Caribbean next week, with the King's opening address at the summit in Antigua and Barbuda on Tuesday.",
+      "source_url": "https://www.itv.com/news/2026-11-01/burnham-warned-formal-apology-for-slavery-will-open-door-to-reparations-demands"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom; Antigua and Barbuda",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ITV News",
+      "title": "Burnham warned formal apology for slavery will open door to reparations demands",
+      "url": "https://www.itv.com/news/2026-11-01/burnham-warned-formal-apology-for-slavery-will-open-door-to-reparations-demands",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Brit Brief",
+      "title": "Burnham triples side hustle tax-free allowance to 3,000",
+      "url": "https://britbrief.co.uk/politics/westminster/burnham-triples-side-hustle-tax-free-allowance-to-3000.html",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "poland-tribunal",
+    "headline": "Poland's government and president clash over the Constitutional Tribunal",
+    "what_happened": "Prime Minister Donald Tusk's government moved to reshape Poland's Constitutional Tribunal, suspending its head judge. Riot police were deployed outside the court and President Karol Nawrocki held crisis talks.",
+    "why_it_matters": "It is a fight over who controls the court that can strike down laws, between a pro-EU government and a president allied with the opposition.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tusk's government moved on Friday 30 October to reshape the Constitutional Tribunal; Judge Bogdan Swiczkowski, the tribunal's head, was suspended after refusing to let a new member nominated by Tusk and approved by parliament take his seat; his deputy was also suspended.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "Riot police were deployed outside the Constitutional Tribunal as the dispute escalated into a confrontation between Tusk's government and the nationalist opposition.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "President Karol Nawrocki, an ally of the PiS party, turned back to Poland midair while flying to Senegal and arrived at the tribunal during the night, then held crisis talks with political leaders.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff"
+     },
+     {
+      "fact": "Tusk argues the tribunal's judges were not politically neutral and called the removal a 'painful' but necessary decision to restore the rule of law after years of erosion under PiS rule.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "Earlier this year Nawrocki refused to swear in three of the six magistrates appointed by parliament.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     },
+     {
+      "fact": "US Ambassador Tom Rose called for calm on all sides.",
+      "source_url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl"
+     }
+    ],
+    "numbers": [],
+    "geography": "Warsaw, Poland (Constitutional Tribunal); Senegal (president's cancelled trip)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Polish president holds crisis talks in court standoff",
+      "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "CNN",
+      "title": "Poland's top court: long-running spat between pro-Europe PM and pro-Trump president erupts",
+      "url": "https://edition.cnn.com/2026/11/01/europe/poland-constitutional-tribunal-tusk-intl",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Protests outside Poland's constitutional court: what's the crisis about?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "italy-strike",
+    "headline": "Thousands strike across Italy against living costs and rearmament",
+    "what_happened": "A 24-hour general strike on Friday 30 October brought tens of thousands onto the streets of more than 40 Italian cities. In Rome a group split off and clashed with police near the Colosseum.",
+    "why_it_matters": "It shows how rising prices and arms spending are stirring protest in Europe.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The strike on Friday 30 October was a 24-hour general strike called by the grassroots union USB, against the cost of living and European rearmament.",
+      "source_url": "https://www.hngn.com/articles/273660/20261031/italys-general-strike-fills-40-cities-clashes-colosseum.htm"
+     },
+     {
+      "fact": "Reports put turnout at tens of thousands across more than 40 cities.",
+      "source_url": "https://www.hngn.com/articles/273660/20261031/italys-general-strike-fills-40-cities-clashes-colosseum.htm"
+     },
+     {
+      "fact": "In Rome about 300 people split from the main march and went to the Colosseum, built barricades from bins, set fire to bins and electric scooters, and threw objects at riot police.",
+      "source_url": "https://www.wantedinrome.com/news/clashes-in-rome-and-turin-as-italy-protests-turn-violent.html"
+     },
+     {
+      "fact": "Eight people were detained, according to Euronews.",
+      "source_url": "https://www.euronews.com/2026/10/30/italy-on-high-alert-as-thousands-take-the-streets-in-nationwide-strike"
+     },
+     {
+      "fact": "Police used water cannon in the evening when a large crowd tried to reach parliament, and also in Turin against students and activists.",
+      "source_url": "https://www.tbsnews.net/worldbiz/europe/mass-protests-sweep-italy-during-nationwide-strike-1588406"
+     },
+     {
+      "fact": "Interior Minister Matteo Piantedosi praised the police.",
+      "source_url": "https://www.wantedinrome.com/news/clashes-in-rome-and-turin-as-italy-protests-turn-violent.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Rome (Colosseum, parliament), Turin, Italy",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Italy on high alert as thousands take the streets in nationwide strike",
+      "url": "https://www.euronews.com/2026/10/30/italy-on-high-alert-as-thousands-take-the-streets-in-nationwide-strike",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "HNGN",
+      "title": "Italy's general strike fills 40 cities; clashes at Colosseum",
+      "url": "https://www.hngn.com/articles/273660/20261031/italys-general-strike-fills-40-cities-clashes-colosseum.htm",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Wanted in Rome",
+      "title": "Clashes in Rome and Turin as Italy protests turn violent",
+      "url": "https://www.wantedinrome.com/news/clashes-in-rome-and-turin-as-italy-protests-turn-violent.html",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "TBS News",
+      "title": "Mass protests sweep Italy during nationwide strike",
+      "url": "https://www.tbsnews.net/worldbiz/europe/mass-protests-sweep-italy-during-nationwide-strike-1588406",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oleshky-truce",
+    "headline": "Civilians leave Russian-occupied Oleshky during a rare local truce",
+    "what_happened": "Hundreds of residents of Oleshky reached Ukraine via Belarus on Saturday 31 October under a six-day local ceasefire, the first humanitarian truce of its kind in more than four years of war.",
+    "why_it_matters": "It shows that even in a long war, a short agreement can let trapped civilians get out.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Starved and exhausted residents of the Russian-controlled town of Oleshky crossed into Ukraine on Saturday under the first humanitarian truce of its kind in more than four years of the war.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "The truce was a six-day local ceasefire, and the White House said US First Lady Melania Trump helped broker it.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "An estimated 2,000 people remained in Oleshky when the truce took hold.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "Four planes carrying the evacuees arrived in the southeastern Belarusian town of Gomel, and the evacuees then reached the border with Ukraine in Chernihiv region.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine"
+     },
+     {
+      "fact": "Ukrainian officials said the Russian military provided safe corridors for the evacuees and was de-mining roads near Oleshky.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     },
+     {
+      "fact": "Moscow and Kyiv kept trading attacks elsewhere during the truce; the Bryansk governor said a Ukrainian drone killed two people and injured five in the settlement of Klimovo on Saturday.",
+      "source_url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+     }
+    ],
+    "numbers": [],
+    "geography": "Oleshky (Kherson region, Ukraine); Gomel, Belarus; Chernihiv region",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour",
+      "title": "Residents evacuated from Russian-occupied Oleshky reach Ukraine after localized ceasefire",
+      "url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
+      "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
