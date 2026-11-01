@@ -1,0 +1,216 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-02",
+  "volume": 1,
+  "issue": 20,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE",
+      "headline": "Hundreds Leave Oleshky During a Six-Day Truce",
+      "deck": "People from a Russian-held town reached Ukraine through Belarus on Saturday 31 October.",
+      "body": [
+        "Ukraine and Russia have been at war for more than four years. On Saturday 31 October, civilians from Oleshky, a town Russia controls, crossed into Ukraine under a truce, a short agreement to stop fighting. Reports call it the first humanitarian truce of its kind in the war.",
+        "The truce covered only the area around Oleshky and lasted six days. The White House said Melania Trump, the wife of the US president, helped to arrange it. About 2,000 people were still in the town when it began.",
+        "Four planes carried the evacuees to Gomel, in Belarus. From there they reached the border with Ukraine, in the Chernihiv region. Ukrainian officials said Russia's army provided safe routes and cleared mines from roads near Oleshky. The war went on elsewhere: a drone killed two people in Russia's Bryansk region, its governor said."
+      ],
+      "map": {
+        "countries": [
+          "Ukraine",
+          "Belarus"
+        ],
+        "title": "WHERE THE TRUCE WAS",
+        "label_top": "UKRAINE",
+        "label_bottom": "BELARUS",
+        "footnote": "Evacuees flew to Gomel in Belarus",
+        "caption": "People left Oleshky in Ukraine, flew to Belarus, then reached the Ukrainian border."
+      },
+      "why": "Even in a long war, a short local agreement can give trapped families a way out.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour",
+          "title": "Residents evacuated from Russian-occupied Oleshky reach Ukraine after localized ceasefire",
+          "url": "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
+          "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UNITED STATES",
+      "headline": "More Than 50 Million Americans Have Voted Early",
+      "deck": "The midterm elections are on Tuesday 3 November.",
+      "body": [
+        "US midterm elections are held halfway through a president's term, this year on 3 November. Voters choose members of Congress, which makes the country's laws.",
+        "A University of Florida analysis put early votes above 50 million by Sunday 1 November. In the 2022 midterms, 46 million voted early. Texas had more than 7.7 million early voters, a 40.5% turnout rate that beats its 2018 record.",
+        "Early turnout does not show who people picked."
+      ],
+      "chart": {
+        "title": "EARLY VOTES IN MIDTERMS",
+        "subtitle": "Millions of people",
+        "labels": [
+          "2022 (all)",
+          "2026 (so far)"
+        ],
+        "values": [
+          46,
+          50
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "The 2026 count is more than 50 million as of 1 November."
+      },
+      "why": "Congress makes the country's laws, so voting helps decide who writes them.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "More than 50 million votes cast in US midterm elections: what does it mean?",
+          "url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean"
+        },
+        {
+          "outlet": "Texas Tribune",
+          "title": "More than 7.7 million Texans voted early in 2026 election, surpassing 2018 record",
+          "url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US midterms: 3 days to go",
+          "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: The Revolutionary Guard said four oil tankers hit mines in the Strait of Hormuz; this is not independently verified.",
+        "Italy: Tens of thousands joined a 24-hour strike over rising living costs."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Ukraine and Russia agree to more missions like this one.",
+        "How many people vote on 3 November in the US."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.pbs.org/newshour/world/residents-evacuated-from-russian-occupied-oleshky-reach-ukraine-after-localized-ceasefire",
+    "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine",
+    "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean",
+    "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/",
+    "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How long did the truce around Oleshky last?",
+        "options": [
+          "Six days",
+          "Six hours",
+          "Six weeks"
+        ],
+        "answer": 0,
+        "why": "The paper says the truce lasted six days.",
+        "story": "lead"
+      },
+      {
+        "q": "Through which country did evacuees travel on their way to Ukraine?",
+        "options": [
+          "Poland",
+          "Belarus",
+          "Romania"
+        ],
+        "answer": 1,
+        "why": "Four planes carried evacuees to Gomel in Belarus.",
+        "story": "lead"
+      },
+      {
+        "q": "When are the US midterm elections?",
+        "options": [
+          "Tuesday 3 November",
+          "Sunday 1 November",
+          "Friday 30 October"
+        ],
+        "answer": 0,
+        "why": "The midterms are on Tuesday 3 November.",
+        "story": "world"
+      },
+      {
+        "q": "About how many people voted early in the 2022 midterms?",
+        "options": [
+          "16 million",
+          "46 million",
+          "96 million"
+        ],
+        "answer": 1,
+        "why": "The paper says 46 million people voted early in 2022.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "About 2,000 people were still in Oleshky when the truce began.",
+        "true": true,
+        "why": "The paper says about 2,000 people remained in the town.",
+        "story": "lead"
+      },
+      {
+        "claim": "The truce stopped all fighting in Ukraine and Russia.",
+        "true": false,
+        "why": "The truce covered only the area around Oleshky, and drone attacks went on elsewhere.",
+        "story": "lead"
+      },
+      {
+        "claim": "Texas broke its midterm early-voting record from 2018.",
+        "true": true,
+        "why": "Texas had more than 7.7 million early voters, a turnout rate of 40.5%, above the 2018 record.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Oleshky",
+        "lat": 46.62,
+        "lon": 32.72,
+        "countries": [
+          "Ukraine",
+          "Belarus"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Texas",
+        "lat": 31.0,
+        "lon": -100.0,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many people were still in Oleshky when the truce began?",
+        "answer": 2000,
+        "prefix": "",
+        "unit": "people",
+        "min": 0,
+        "max": 6000,
+        "why": "An estimated 2,000 people remained in the town."
+      },
+      {
+        "story": "world",
+        "q": "How many Texans voted early?",
+        "answer": 7.7,
+        "prefix": "",
+        "unit": "million",
+        "min": 0,
+        "max": 20,
+        "why": "More than 7.7 million Texans voted early."
+      }
+    ]
+  }
+}
