@@ -1,100 +1,96 @@
-# The Big Question poster
+# The Big Question poster — now the Weekend News Poster
 
-A one-page companion to a paper's issue, made for the youngest readers (ages 6–8).
-Children this age don't read columns of news. They learn from a picture, something
-to do with their hands, and a conversation with a grown-up. So the poster takes
-**one** story from the week and turns it into **one idea** they can keep.
-
-The website offers it as a second download next to the issue ("Download poster").
+A one-page, news-first companion to The Little Explorer for ages 6–8, including
+second and third graders. Version 2 replaces the repetitive single-question
+activity layout with **two news stories**, supporting visuals and a small comic.
+Keep the newspaper character: the same `PAPER`, `INK` and burgundy `ACCENT` as
+other editions, serif headlines and body text, fine rules, generous readable type.
+No preschool mascots, colouring sheets or full-page comics.
 
 ```bash
-python -m ygc new-poster little-explorers --date 2026-10-10   # skeleton in editions/<id>/posters/<year>/
-python -m ygc poster editions/little-explorers/posters/2026/2026-10-10.json   # check, build PDF + page image
+python -m ygc new-poster little-explorers --date 2026-11-07
+python -m ygc poster editions/little-explorers/posters/2026/2026-11-07.json --pool data/pools/2026-11-07.json
 ```
 
-`poster` prints PASS or a located error ("talk tip is OVER by 7 pt"), the same way
-`check` does for issues. Look at the page image before publishing.
+Every text box is measured. Inspect the rendered page before publishing. Existing
+unversioned posters keep their historical layout and remain downloadable.
 
 ## Automatic posters
 
-The daily Claude Code Routine (`/publish-today`) writes the poster on The
-Little Explorer's day and checks it with `python -m ygc poster <file> --pool
-data/pools/<date>.json`. The API pipeline does the same, as follows.
+The existing daily Claude Code Routine runs `/publish-today`. **Keep the existing
+Saturday schedule:** `automation.enabled: true`, `weekday: saturday`, `poster: true`
+in `editions/little-explorers/edition.yaml`. Do not create a second scheduler.
+The next regular poster after 31 October is Saturday **7 November 2026**.
 
-A paper with `poster: true` under `automation:` in its `edition.yaml` (The Little
-Explorer has it) gets its poster from the daily job. On the day the paper is due,
-after its issue passes and is saved, the job:
+After the Saturday issue passes, the Routine creates a version 2 skeleton, follows
+this guide, checks with the same research pool, inspects the PNG and publishes.
+The optional API pipeline uses this guide and the full checked issue as well;
+it repairs validation errors and runs its independent fact-check. A failed
+poster never blocks the paper. Publication rebuilds the existing dated PDF,
+`latest-poster.pdf`, its homepage thumbnail and its archive download link.
 
-1. writes that week's poster from the same research pool, with this file as the
-   instructions, the issue's headlines as the starting point, and last week's
-   `next_week` guess so the poster can check it;
-2. runs the poster checker (every box measured, motifs, characters) and requires
-   every URL in `sources` to be in the research pool;
-3. sends any errors back for repair (up to 4 rounds), then an independent
-   fact-check against the pool;
-4. saves `editions/<id>/posters/<year>/<date>.json` only if all of that passes.
+## Two news stories
 
-A failed poster never blocks the paper: the issue is already saved, the run report
-(`data/runs/<date>.json`) records the poster's result under the paper, and the
-workflow shows a warning. It costs about one or two extra Claude calls a week.
+Choose **two distinct topics from the same dated issue**. Prefer one world or
+current-affairs story and one science, nature or discovery story when suitable.
+Never replace an important story with a cartoon simply because it is easier to
+illustrate. Explain hard news calmly; never lead with frightening or graphic detail.
 
-## The layout (same every week)
+Each `stories[]` entry contains:
 
-| Field | What it is | Size |
-|---|---|---|
-| `question` | The headline, asked the way a child would ask it | 2 lines at most |
-| `skill` | The thinking skill this poster practises, shown as a badge | 1–3 words |
-| `happened` | What happened, the gentle version | 3–4 short sentences |
-| `hero` | The big picture: `motif` and a short `caption` | caption ≤ 60 characters |
-| `steps` | "How it works": exactly 3 pictures, each with `title`, `motif`, `text` | title ≤ 22 characters, text 1 sentence |
-| `home` | "It reaches your home": a `chain` of 2–5 one-word boxes, then `text` | 2–3 sentences |
-| `find_it` | A map (`title`, `label_top`, `label_bottom`, optional `footnote`) and an instruction | 1–2 sentences |
-| `try_it` | Something to do at home: `title` and 2–4 `steps` | 1 sentence per step |
-| `talk` | 2 `questions` for the child and a `tip` for the grown-up | tip ≤ 2 sentences |
-| `next_week` | A guess to make now and check in next week's poster | 1–2 sentences |
-| `sources` | URLs every fact came from (shown on the paper's web page, not printed) | at least 1 |
+- `block`: the exact block ID in that issue; the two block IDs must differ.
+- `kicker`, `headline`, `deck`: short newspaper headings, not baby talk.
+- `body`: 2–3 short paragraphs, roughly 70–90 words total. Explain what happened,
+  how it works and what is still unknown. Do not drop uncertainties.
+- `evidence`: one exact excerpt from the issue body/deck per paragraph. Excerpts
+  must support the adapted news text; inclusion alone does not prove a claim.
+- `why`: one useful sentence explaining why the story matters.
+- `sources`: URL strings copied from this story's issue sources and research pool.
+- `visual`: use the evidence-linked visual schema below. Required on story 2.
+- Optional `art`: reviewed local artwork only, with `file` under `assets/poster/`,
+  its `sha256` and a short `caption`. Never invent a filename or hash. If no
+  reviewed art is supplied, OMIT it: the first story still gets a real map.
 
-Motifs: `bottleneck` (a wide sea squeezed through a narrow gap, with ships queuing)
-plus every illustration motif the papers use: airdefense, ballot, border, capitol,
-court, cricket, farm, fire, flood, globe, grid, hospital, podium, protest, robot,
-rocket, ship, skyline, strait.
+Top-level `question` is a short descriptive title for the website card. Top-level
+`sources` must be the union of the two stories' sources. Set `version: 2`.
 
-## Writing rules
+## A visual that explains
 
-### Rule: One idea, not a digest.
-Pick the week's biggest story, then find the lasting idea underneath it: a
-bottleneck, a food chain, why ice floats, what a vote is. The news is the hook;
-the idea is what the child keeps.
+The first story has `find_it`: `story_block`, `map` with 1–3 canonical `countries`,
+`text`, and an exact issue `evidence` excerpt. Countries must be named in that
+story. Natural Earth geometry supplies the real coastline and country shapes;
+never paint or invent a map. Choose a first story with an identifiable country.
 
-### Rule: Never lead with war, death or danger.
-Take the *why* behind a hard story, not the frightening part. A war that closes a
-sea route becomes "why do ships squeeze through one gap?", not missiles. Say what
-happened honestly and briefly ("because of fighting nearby"), then move to the idea.
+Story 2 has a `visual`: `type`, `title`, `caption`, `source_url` and the evidence
+fields described by the standard issue visual schema (`ygc/visuals.py`).
+Use `steps` for a sourced process, `positions` for different reported positions,
+`bars` for comparable reported numbers, or `seats` for a majority threshold.
+Evidence is copied exactly from the poster story's own body/deck. Its source URL
+must occur in that story's sources. Never invent a number or causal sequence.
+For `steps`, `items` is 2–4 objects with `label` (<=72 characters) and `evidence`.
+Titles <=44 characters, captions <=220. The standard visual validator also runs.
 
-### Rule: Start from the child's world.
-Connect the story to something on their table, in their pocket or on their street:
-milk, a phone, a slide at the park. The `home` chain should end in their home.
+Artwork is an explanation, not photographic proof. Caption it as an illustration;
+never portray invented people, cave art, maps or machinery as documentary fact.
+The current cave sample image is conceptual, not a depiction of the actual cave.
 
-### Rule: The picture explains first.
-Choose motifs that show the idea before a word is read. The three steps should be a
-little story: before, the change, the result.
+## A small supporting comic
 
-### Rule: Name the thinking skill, and keep it simple.
-Rotate through a small set so children recognise them: ripple effect, cause and
-effect, compare, predict and check, see-think-wonder, describe with "because".
+`comic` has `story_block` and exactly three `panels`. Tara and Leo are fictional
+school reporters; their reusable newsroom art is not a scene from the news.
+Speakers are **Leo, Tara, Leo**, matching the reviewed artwork. Each panel has
+`speaker`, `text` (<=95 characters) and an exact `evidence` excerpt from its selected
+issue story. Dialogue must relate to that evidence. A question, a useful explanation
+and a light response work well. Never invent quotes attributed to real people.
+All dialogue is typeset, not baked into generated images. Keep it around the bottom
+one-seventh of the page; the two news reports remain the priority.
 
-### Rule: The grown-up is part of the design.
-`talk.tip` tells the parent, in under 30 seconds, how to have the conversation:
-ask open questions, don't correct, add one more step to what the child says.
+## Historical posters
 
-### Rule: Every fact comes from a source.
-The same rule as the papers: figures, names and places come from a source you read,
-and the URLs go in `sources`. Evergreen science in `try_it` may use well-established
-facts. Use plain words a 6-year-old knows, or explain the one new word you need.
+Unversioned/version 1 files use the old “One idea, not a digest” layout with hero
+motifs (including `bottleneck`), steps and activities. Their renderer and checks
+remain for archives only. Do not use that schema for new scheduled posters.
 
-### Rule: Close the loop next week.
-`next_week` asks for a guess. Next week's poster can open by checking it
-("Last week you guessed... here is what happened").
-
-Use only characters the PDF fonts can print: plain English punctuation plus • — “ ” é ü.
-No arrows (→), no `…`.
+Use printable punctuation only, no emoji or arrows. Every news claim needs its
+source, not a remembered fact. Before committing: check with `--pool`, inspect the
+full-page PNG for readability, and confirm exactly one PDF page.

@@ -143,7 +143,7 @@ def test_poster_is_written_from_the_same_research_repaired_and_published(sandbox
     asks = [p for p in api.calls if p["system"].startswith("# The Big Question")]
     first, repair = asks[0]["messages"][0]["content"], asks[-1]["messages"][-1]["content"]
     assert "RESEARCH POOL" in first and GOOD_URLS[0] in first            # same research as the paper
-    assert "Last week's poster (2026-10-10)" in first                      # closes the loop
+    assert "This week's issue covers" in first and "happened" not in first.split("RESEARCH POOL:")[0]
     assert "dragon" in repair and "not in the research pool" in repair      # checker errors fed back
     assert json.load(open(sandbox / "data" / "runs" / "2026-10-17.json"))["editions"]["little-explorers"]["poster"]["status"] == "passed"
 

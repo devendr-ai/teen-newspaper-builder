@@ -1,3 +1,12 @@
+## The Little Explorer's news-first weekend poster
+
+- Two sourced news topics, the papers' cream-and-burgundy theme, real Natural
+  Earth geography and a small original Tara/Leo newsroom strip. News stays primary.
+- New posters quote evidence from their accompanying checked issue. The automatic
+  writer receives the full issue, checks diagrams and dialogue, and measures print fit.
+- The 31 October poster uses the cave-DNA and Dragonfly stories. Earlier posters
+  retain their original layouts. The existing Saturday refresh cadence is unchanged.
+
 ## Question widget removed (for now)
 
 - The iPhone/Android question widget is gone: its app code (`mobile/src/widgets`, the router

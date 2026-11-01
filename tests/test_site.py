@@ -58,6 +58,10 @@ def test_site_lists_every_edition_and_serves_latest_pdfs(tmp_path):
     assert 'href="index.html" aria-current="page"' in bar and 'href="play/index.html"' in bar and 'href="builder.html"' in bar
     le = out / "e" / "little-explorers"                     # the Big Question poster is a second download
     newest_poster = poster.posters_of(edition.load("little-explorers"))[0][0]
+    latest_spec = json.load(open(poster.posters_of(edition.load("little-explorers"))[0][1]))
+    if latest_spec.get("version") == 2:
+        assert '<h2>Weekend News Poster' in index
+        assert 'Two stories from this week' in index
     assert (le / "latest-poster.pdf").exists() and (le / f"{newest_poster}-poster.pdf").exists()
     assert 'href="e/little-explorers/latest-poster.pdf"' in index
     assert (le / "poster-cover.png").exists() or not shutil.which("pdftoppm")

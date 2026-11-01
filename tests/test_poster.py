@@ -47,4 +47,4 @@ def test_bad_motif_missing_sources_and_unprintable_characters_are_refused():
 def test_skeleton_is_refused_until_filled_in():
     ed = edition.load("little-explorers")
     errs = poster.check(ed, poster.skeleton(ed, "2026-10-10"), SAMPLE).errors
-    assert any("question is empty" in e for e in errs) and any("motif" in e for e in errs)
+    assert any(e.startswith("question:") for e in errs) and any("block must name" in e for e in errs)

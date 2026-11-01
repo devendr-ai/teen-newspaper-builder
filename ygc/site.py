@@ -821,12 +821,16 @@ def build(out, keep=None, log=print, kids=False):
                 subprocess.run(["pdftoppm", "-png", "-r", "60", "-singlefile", os.path.join(edir, "latest-poster.pdf"),
                                 os.path.join(edir, "poster-cover")], check=False)
             pq = posters[latest_poster]["question"]
+            news_poster = posters[latest_poster].get("version") == 2
+            poster_title = "Weekend News Poster" if news_poster else "The Big Question"
+            poster_blurb = ("Two stories from this week's paper, with a real map, an explanation to explore and a short comic."
+                            if news_poster else "One big idea from this week's news on a single page: a picture to explore, something to try at home and questions to talk about together.")
             pcover = (f'<a class="cover" href="e/{eid}/latest-poster.pdf"><img src="e/{eid}/poster-cover.png" '
-                      f'alt="The latest Big Question poster: {E(pq)}" loading="lazy"></a>' if has_png
+                      f'alt="The latest {E(poster_title)}: {E(pq)}" loading="lazy"></a>' if has_png
                       else f'<a class="cover soon" href="e/{eid}/latest-poster.pdf">{E(pq)}</a>')
             pmeta = f"{audience(ed)} · 1-page poster · {frequency(ed)} · latest {dt.date.fromisoformat(latest_poster):%d %b}"
             cards.append((False, FACET_ORDER.get(audience(ed), 50), ed["name"] + " poster", f'''<article class="card" data-kind="poster" data-audience="{E(audience(ed))}" data-length="1 page" data-focus="{E(focus)}" data-frequency="{E(frequency(ed))}">
-{pcover}<span class="tag">Poster</span><h2>The Big Question<!--NEW--></h2><p>One big idea from this week's news on a single page: a picture to explore, something to try at home and questions to talk about together. This week: &ldquo;{E(pq)}&rdquo;</p><div class="meta">{E(pmeta)} · from {E(ed["name"])}</div>
+{pcover}<span class="tag">Poster</span><h2>{E(poster_title)}<!--NEW--></h2><p>{E(poster_blurb)} This week: &ldquo;{E(pq)}&rdquo;</p><div class="meta">{E(pmeta)} · from {E(ed["name"])}</div>
 <div class="actions"><a class="btn poster" href="e/{eid}/latest-poster.pdf" download="{eid}-{latest_poster}-poster.pdf">Download poster</a><a class="btn ghost" href="e/{eid}/index.html">All posters</a></div></article>''', latest_poster))
         # edition page
         desks = ", ".join(d["label"].title() for d in ed["desks"] if d["id"] != "top")

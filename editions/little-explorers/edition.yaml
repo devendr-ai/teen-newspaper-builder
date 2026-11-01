@@ -89,7 +89,7 @@ rules:
 automation:
   enabled: true
   weekday: saturday
-  poster: true            # also write that week's Big Question poster (docs/POSTERS.md)
+  poster: true            # also write that week's two-story news poster (docs/POSTERS.md)
 site:
   focus: "Science and nature"
   blurb: "Two gentle pages a week: a big story, a science wonder and new words, for ages 6–8 reading with a grown-up."

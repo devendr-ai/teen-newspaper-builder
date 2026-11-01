@@ -62,7 +62,7 @@ def test_replies_that_are_not_a_paper_are_explained(text, needle):
 def test_poster_instructions_and_checks(tmp_path):
     ed = edition.load("little-explorers")
     t = chat.poster_instructions(ed, "2026-10-10")
-    assert "One idea, not a digest" in t and "Automatic posters" not in t and "bottleneck" in t
+    assert "Two news stories" in t and "Automatic posters" not in t and '"version": 2' in t
     spec = json.load(open(POSTER, encoding="utf-8"))
     assert chat.check_poster(ed, reply(spec), "2026-10-10", out_pdf=str(tmp_path / "p.pdf"))["ok"]
     spec["hero"]["motif"] = "dragon"
