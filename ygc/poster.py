@@ -1,10 +1,7 @@
-"""The "Big Question" poster: one printed page that turns one news story into one idea.
+"""One-page companions: version 2 is a two-story Weekend News Poster.
 
-A companion to an edition's issue, made for the youngest readers (6-8), who learn
-from a picture and a conversation rather than from columns of text. Same layout
-every week: a question, a big drawing, what happened, how it works in three
-pictures, how it reaches your home, something to try, somewhere to find on a map,
-questions to talk about, and a guess to check next week.
+Unversioned historical Big Question posters retain their original rendering.
+New posters use news_poster's newspaper layout and evidence checks.
 
 Every word is typeset here, never painted into a picture, so nothing can be
 misspelt by an image generator. Every box is measured: text that doesn't fit is a
@@ -71,19 +68,8 @@ def posters_of(ed):
 
 
 def skeleton(ed, date):
-    return {
-        "edition": ed["id"], "date": date,
-        "question": "", "skill": "",
-        "happened": "",
-        "hero": {"motif": "|".join(HERO_MOTIFS), "caption": ""},
-        "steps": [{"title": "", "motif": "", "text": ""} for _ in range(3)],
-        "home": {"chain": ["", "", "", ""], "text": ""},
-        "find_it": {"map": {"title": "", "label_top": "", "label_bottom": "", "footnote": ""}, "text": ""},
-        "try_it": {"title": "", "steps": ["", "", ""]},
-        "talk": {"questions": ["", ""], "tip": ""},
-        "next_week": "",
-        "sources": [],
-    }
+    from . import news_poster
+    return news_poster.skeleton(ed, date)
 
 
 # ------------------------------------------------------------------ drawing helpers
@@ -190,6 +176,9 @@ def _mini(c, motif, x, y, w, h):
 
 # ------------------------------------------------------------------ page
 def draw(c, ed, poster, problems, credit=None):
+    if poster.get("version") == 2:
+        from . import news_poster
+        return news_poster.draw(c, ed, poster, problems, credit)
     top = PAGE_H - M
 
     # ---- header band: paper name, the question, this week's skill
@@ -300,6 +289,12 @@ def draw(c, ed, poster, problems, credit=None):
 def check(ed, poster, path):
     """Return a checks.Report with errors and notes, like checks.check_issue."""
     r = checks.Report()
+    if poster.get("version") == 2:
+        from . import news_poster
+        return news_poster.check(ed, poster, path)
+    if "version" in poster and poster["version"] != 1:
+        r.err("poster.version must be 1 (legacy) or 2 (news poster)")
+        return r
     if poster.get("edition") != ed["id"]:
         r.err(f"poster.edition is {poster.get('edition')!r}, expected {ed['id']!r}")
     m = FNAME_RE.search(os.path.basename(path))
@@ -369,6 +364,10 @@ def check(ed, poster, path):
 
 
 def build(ed, poster, out_pdf, credit=None, author=None):
+    if poster.get("version") == 2:
+        r = check(ed, poster, path_for(ed, poster["date"]))
+        if not r.ok:
+            raise ValueError("Invalid news poster: " + "; ".join(r.errors))
     problems = []
     c = Canvas(out_pdf, pagesize=letter)
     c.setTitle(f"{ed['name']}: {poster['question']}")

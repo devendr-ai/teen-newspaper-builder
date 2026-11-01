@@ -15,11 +15,14 @@ RULES = """
 
 AUTOMATION RULES (these override anything above about commands or files):
 - You are writing one poster as JSON. Use ONLY facts in the RESEARCH POOL for anything about the news:
-  figures, names, places and dates. Evergreen science in try_it may use well-established facts.
-- Build the poster on one story the accompanying issue covers (prefer its lead), and never on a story
-  marked "suitable_for_children": false.
+  figures, names, places, dates and every factual comic line.
+- Build a version 2 poster with TWO different stories the accompanying issue covers. News comes first;
+  the comic is a small supporting strip. Never use a story marked "suitable_for_children": false.
+- Match each stories[].block to an issue block. Supply one exact issue-body/deck evidence excerpt per
+  paragraph, a source URL from that story, and exact issue excerpts for the map and comic.
+- Use a real locator map for the first story. The second story needs a sourced visual explanation.
+- Do not invent an art file or image hash. Omit art unless a reviewed local asset is explicitly supplied.
 - "sources" is a list of URL strings, each copied exactly from a "url" in the pool's sources.
-- hero.motif and every steps[].motif must be one of: {motifs}.
 - Use only characters the PDF fonts can print: plain English punctuation plus • — “ ” é ü. No arrows, no "…".
 - Reply with the poster JSON only, shaped exactly like:
 {shape}"""
@@ -31,21 +34,9 @@ def _guide():
 
 
 def _issue_summary(issue):
-    lines = []
-    for bid, b in (issue or {}).get("blocks", {}).items():
-        if isinstance(b, dict) and b.get("headline"):
-            lines.append(f"- {bid}: {b['headline']}" + (f" ({b['deck']})" if b.get("deck") else ""))
-    return "\n".join(lines)
-
-
-def _last_guess(ed, date):
-    for d, path in poster.posters_of(ed):
-        if d < date:
-            try:
-                return d, json.load(open(path, encoding="utf-8")).get("next_week", "")
-            except (OSError, ValueError):
-                return None
-    return None
+    # The writer needs the actual verified text for paragraph, visual and comic evidence.
+    return dumps({bid: b for bid, b in (issue or {}).get("blocks", {}).items()
+                  if isinstance(b, dict) and b.get("headline") and b.get("body")})
 
 
 def _source_errors(spec, allowed):
@@ -63,13 +54,9 @@ def write_poster(client, ed, date, issue, pool, log=print):
         return None, {"status": "skipped", "reason": "no verified research for this paper"}
     shape = json.dumps(poster.skeleton(ed, day), ensure_ascii=False, indent=1)
     system = _guide() + RULES.format(motifs=", ".join(poster.HERO_MOTIFS), shape=shape)
-    prev = _last_guess(ed, day)
-    user = (f"Write the Big Question poster for {ed['name']} dated {day}.\n"
+    user = (f"Write the two-story Weekend News Poster for {ed['name']} dated {day}.\n"
             f"Set \"edition\": \"{ed['id']}\", \"date\": \"{day}\".\n"
             f"This week's issue covers:\n{_issue_summary(issue)}\n"
-            + (f"\nLast week's poster ({prev[0]}) asked children to guess: \"{prev[1]}\" "
-               "If this week's research answers it, open \"happened\" by checking the guess.\n"
-               if prev and prev[1] else "")
             + f"\nRESEARCH POOL:\n{dumps(slice_)}")
     path = poster.path_for(ed, day)
     msgs = [{"role": "user", "content": user}]
@@ -95,8 +82,8 @@ def write_poster(client, ed, date, issue, pool, log=print):
                 factchecks += 1
                 report["factcheck_rounds"] = factchecks
                 _, ftext, _ = client.create(FACTCHECK_SYSTEM, [{"role": "user", "content":
-                    f"RESEARCH POOL:\n{dumps(slice_)}\n\nPOSTER (try_it may use well-established "
-                    f"everyday science):\n{json.dumps(spec, ensure_ascii=False)}"}],
+                    f"RESEARCH POOL:\n{dumps(slice_)}\n\nPOSTER (check both news stories and comic):\n"
+                    f"{json.dumps(spec, ensure_ascii=False)}"}],
                     max_tokens=4000, model=os.environ.get("YGC_CHECK_MODEL") or None)
                 try:
                     bad = extract_json(ftext).get("unsupported", [])

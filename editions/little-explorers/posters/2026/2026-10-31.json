@@ -1,65 +1,110 @@
 {
+  "version": 2,
   "edition": "little-explorers",
   "date": "2026-10-31",
-  "question": "Why do scientists look at old cave walls?",
-  "skill": "See, think, wonder",
-  "happened": "Scientists went into 11 painted caves in Spain and Portugal. They took more than 100 samples from the walls. Five had tiny bits of DNA from people long ago. Scientists still cannot say who made the paintings.",
-  "hero": {
-    "motif": "globe",
-    "caption": "Clues hide on old cave walls"
-  },
-  "steps": [
+  "question": "Ancient cave clues and a robot helicopter",
+  "stories": [
     {
-      "title": "Touch",
-      "motif": "globe",
-      "text": "Long ago, people touched cave walls."
+      "block": "lead",
+      "kicker": "DISCOVERY • SPAIN AND PORTUGAL",
+      "headline": "Cave walls hold ancient clues",
+      "deck": "Tiny traces of DNA offer a new way to study the past.",
+      "body": [
+        "Scientists studied 11 painted caves in Spain and Portugal. They looked for tiny traces of people who lived long ago.",
+        "They took more than 100 samples. Five contained human DNA. DNA is a tiny set of instructions inside living things. Only one of those five samples came from a painting.",
+        "The clues are exciting, but they do not tell us who painted the pictures. The DNA could come from someone who was near the rock much later."
+      ],
+      "evidence": [
+        "Some caves have pictures painted on their walls. Scientists went into 11 of these caves in Spain and Portugal. They looked for tiny traces of people from long ago.",
+        "The traces are called DNA. DNA is like a tiny set of instructions inside every living thing. The scientists took more than 100 samples. Half came from painted spots. Half came from bare rock nearby. Five samples had human DNA. Only one came from a painting, in Escoural Cave in Portugal. The DNA is at least 2,000 years old, and probably much older.",
+        "The scientists cannot say who painted the pictures. Rock art expert Benjamin Smith said the DNA could come from anyone near the rock, maybe long after the art was made."
+      ],
+      "why": "DNA might one day help scientists learn more about the people behind ancient art.",
+      "sources": [
+        "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+      ],
+      "art": {
+        "file": "cave-sampling.jpg",
+        "sha256": "7cf7148db40bb25b864a622f5e76938a93195207fd7c668805fc721798994c10",
+        "caption": "Illustration: collecting a wall sample, not the actual cave."
+      }
     },
     {
-      "title": "Leave a trace",
-      "motif": "globe",
-      "text": "They left tiny bits of DNA behind."
-    },
-    {
-      "title": "Find it",
-      "motif": "globe",
-      "text": "Now scientists take samples to find the DNA."
+      "block": "science_and_technology",
+      "kicker": "SPACE • TITAN",
+      "headline": "A practice flight for another moon",
+      "deck": "Dragonfly tries its first flight in a computer, not in space.",
+      "body": [
+        "NASA plans to send Dragonfly, a robot helicopter, to Titan. Titan is a moon of Saturn. The helicopter will not leave Earth before 2028.",
+        "The team tried a first flight inside a computer. This is called a simulation. In that pretend flight, Dragonfly scanned the ground for a safe place, then landed.",
+        "Titan is far away. The flyer must make decisions on its own. Practising helps the team test how it will react."
+      ],
+      "evidence": [
+        "Saturn is a planet with rings. It has a moon called Titan. NASA plans to send a helicopter there. It is called Dragonfly. Dragonfly will not leave Earth before 2028. In October, the team tried its first flight in a simulation. A simulation is a pretend flight inside a computer.",
+        "In the pretend flight, Dragonfly flew over sand dunes and scanned the ground for a safe spot. Then it circled back and landed. It used lidar, which measures how high and steep the ground is.",
+        "Titan is far away, so Dragonfly must decide things on its own. Engineer Zach Putnam said the first flight is the most challenging one, because it uses every sensor. Next, the team will add pretend problems to check that it reacts well."
+      ],
+      "why": "Testing a pretend flight helps engineers prepare a robot for a distant world.",
+      "sources": [
+        "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "A COMPUTER FLIGHT, STEP BY STEP",
+        "caption": "This happened in a simulation. Dragonfly has not flown on Titan.",
+        "source_url": "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/",
+        "items": [
+          {
+            "label": "Practise in a computer",
+            "evidence": "The team tried a first flight inside a computer."
+          },
+          {
+            "label": "Scan for a safe place",
+            "evidence": "Dragonfly scanned the ground for a safe place, then landed."
+          },
+          {
+            "label": "Land in the simulation",
+            "evidence": "Dragonfly scanned the ground for a safe place, then landed."
+          }
+        ]
+      }
     }
   ],
-  "home": {
-    "chain": [
-      "Touch",
-      "Trace",
-      "Clue",
-      "Home"
-    ],
-    "text": "You leave traces too. A fingerprint on a window is a clue about who was there. Scientists read clues like this."
-  },
   "find_it": {
+    "story_block": "lead",
     "map": {
-      "title": "PAINTED CAVES",
-      "label_top": "SPAIN",
-      "label_bottom": "PORTUGAL",
-      "footnote": ""
+      "title": "WHERE IN THE WORLD?",
+      "countries": [
+        "Spain",
+        "Portugal"
+      ],
+      "footnote": "Natural Earth locator map"
     },
-    "text": "The caves are in Spain and Portugal. Point to both countries on the map."
+    "text": "Find Spain and Portugal in Europe. The caves are in both countries.",
+    "evidence": "Some caves have pictures painted on their walls. Scientists went into 11 of these caves in Spain and Portugal. They looked for tiny traces of people from long ago."
   },
-  "try_it": {
-    "title": "Hunt for clues",
-    "steps": [
-      "Ask a grown-up to touch a clean window or mirror.",
-      "Look closely. Can you see a fingerprint?",
-      "Talk about who left it. How do you know?"
+  "comic": {
+    "story_block": "science_and_technology",
+    "panels": [
+      {
+        "speaker": "Leo",
+        "text": "Has Dragonfly flown on Titan already?",
+        "evidence": "Dragonfly will not leave Earth before 2028. In October, the team tried its first flight in a simulation. A simulation is a pretend flight inside a computer."
+      },
+      {
+        "speaker": "Tara",
+        "text": "Not yet. This flight was inside a computer!",
+        "evidence": "Dragonfly will not leave Earth before 2028. In October, the team tried its first flight in a simulation. A simulation is a pretend flight inside a computer."
+      },
+      {
+        "speaker": "Leo",
+        "text": "So a pretend flight is serious practice.",
+        "evidence": "Titan is far away, so Dragonfly must decide things on its own. Engineer Zach Putnam said the first flight is the most challenging one, because it uses every sensor. Next, the team will add pretend problems to check that it reacts well."
+      }
     ]
   },
-  "talk": {
-    "questions": [
-      "What clue do you leave when you touch something?",
-      "What would you ask a person who painted a cave?"
-    ],
-    "tip": "Today's skill is see, think, wonder. Ask what they see, what they think it means, and what they wonder. Don't correct; add one more detail."
-  },
-  "next_week": "Scientists want to tie DNA to the paint itself. Do you think they will find a way? Guess, then check.",
   "sources": [
-    "https://www.sciencenews.org/article/ancient-human-dna-cave-walls"
+    "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+    "https://science.nasa.gov/blogs/dragonfly/2026/10/23/nasas-dragonfly-completes-first-simulated-flight/"
   ]
 }

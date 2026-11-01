@@ -468,12 +468,14 @@ POSTER_RULES = """
 
 RULES FOR THIS CHAT (these override anything above about commands or files):
 - Today is {today}. Search the web for this week's news first. Every news fact, name, place and number must
-  come from a page you found in this search, never from memory. Evergreen science in try_it may use
-  well-established facts. If you cannot search the web, reply only: "I can't search the web, so I can't
+  come from a page you found in this search, never from memory. Use the accompanying checked issue
+  for all evidence excerpts. If you cannot search the web, reply only: "I can't search the web, so I can't
   write this week's poster." and stop.
 - Write for {reader}.
 - "sources" is a list of the URLs (strings) of the pages your facts came from.
-- hero.motif and every steps[].motif must be one of: {motifs}.
+- Write version 2: two sourced news stories, a real locator map, an explanatory diagram and a small comic.
+- Evidence must quote exact excerpts from the accompanying issue. Do not invent art files or image hashes.
+- If you do not have an accompanying issue, ask the grown-up to paste it before drafting the poster.
 - Use only characters the PDF fonts can print: plain English punctuation plus • — “ ” é ü. No arrows, no "…".
 - Reply with the poster JSON only, in a single ```json code block, shaped exactly like this. If the grown-up
   sends back a list of fixes, make every fix and reply with the complete corrected JSON.

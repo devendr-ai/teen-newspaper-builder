@@ -259,10 +259,12 @@ $PY -m ygc new-poster <id> --date $D
 $PY -m ygc poster editions/<id>/posters/<year>/$D.json --pool data/pools/$D.json
 ```
 
-Every rule in `docs/POSTERS.md` applies: one idea, never lead with war or
-danger, start from the child's world, `sources` are URL strings from the pool.
-If last week's poster asked for a guess (`next_week`) and the research answers
-it, open `happened` by checking it. Look at the page PNG. If it can't pass
+Every rule in `docs/POSTERS.md` applies: version 2 has TWO news stories from
+the accompanying checked issue, not an activity sheet. Include exact issue
+evidence for every paragraph, map and comic panel. Never lead with war or
+danger. Sources must be URL strings from the pool. Use real country geometry,
+a sourced explanatory diagram and a small Tara/Leo comic. Do not invent art
+files or hashes; omit optional art when none has been reviewed. Look at the page PNG. If it can't pass
 after about 5 attempts, delete the file: **a failed poster never blocks
 the paper.**
 
