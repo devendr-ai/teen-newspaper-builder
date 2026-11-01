@@ -46,3 +46,9 @@ analyst_games:
 # Website downloads only. Emails continue to receive the regular news PDF.
 weekend_puzzles:
   enabled: true
+
+# Public website showcase only. Leave blank until each store approves its listing.
+# These URLs never appear in the --kids / installed-app build.
+mobile_app:
+  app_store_url: ""
+  google_play_url: ""

@@ -1,3 +1,13 @@
+## Public website app showcase
+
+- `app.html` introduces screen-locked listening, seven days of offline papers and
+  the device's morning reminder, using real app screenshots and the existing theme.
+- Public parent navigation is Home, Read & Play, Design, App, For parents. Public
+  Read & Play navigation is Home, Today, Explore, My Pebbles, App.
+- Store downloads remain Coming soon until official listing URLs are configured.
+  The showcase, screenshots and links are excluded from the `--kids` app build;
+  native code, app permissions, version and store submissions are untouched.
+
 ## The Little Explorer's news-first weekend poster
 
 - Two sourced news topics, the papers' cream-and-burgundy theme, real Natural

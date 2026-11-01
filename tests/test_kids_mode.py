@@ -88,9 +88,10 @@ def test_the_app_build_keeps_every_feature(builds):
     """Nothing is removed: the same pages, the same links (sources, licence, email), the builder and its engine.
     The app adds its bridge and the Listen tab (tests/test_app.py)."""
     w, k = builds["web"], builds["kids"]
-    files = lambda root: {rel for rel, _ in pages(root)} - {"gate/gate.js", "gate/gate.css", "app.js", "play/listen.html"}
+    # The public-only store showcase is deliberately absent from the submitted app.
+    files = lambda root: {rel for rel, _ in pages(root)} - {"gate/gate.js", "gate/gate.css", "app.js", "play/listen.html", "app.html"}
     assert files(w) == files(k)
-    links = lambda root: sorted(h for rel, doc in pages(root) if rel.endswith(".html")
+    links = lambda root: sorted(h for rel, doc in pages(root) if rel.endswith(".html") and rel != "app.html"
                                 for h in re.findall(r'<a\b[^>]*href="(https?://[^"]+|mailto:[^"]+)"', doc)
                                 if "goatcounter.com" not in h)            # the app counts nothing, so has no counter to link to
     web_links, kid_links = links(w), links(k)
@@ -195,3 +196,22 @@ def test_in_a_real_browser(builds, mode):
     report = json.loads(out[out.index("{"):]) if "{" in out else {"failed": -1, "results": [], "error": r.stderr[-2000:]}
     failed = [x for x in report["results"] if not x["pass"]]
     assert r.returncode == 0 and not failed, (failed, report.get("error"), r.stderr[-1500:])
+
+
+def test_app_showcase_is_public_only_and_keeps_reviewed_app_navigation(builds):
+    public, app = builds['web'], builds['kids']
+    assert (public/'app.html').exists()
+    assert (public/'app-showcase/today.jpg').exists()
+    assert not (app/'app.html').exists()
+    assert not (app/'app-showcase').exists()
+    assert 'Take News Pebbles with you' in (public/'index.html').read_text()
+    for rel, doc in pages(app):
+        if rel.endswith('.html'):
+            assert 'href="app.html"' not in doc and '/app.html"' not in doc, rel
+            assert 'app-teaser' not in doc and 'app-showcase/' not in doc, rel
+    parent = (app/'index.html').read_text()
+    nav = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', parent, re.S).group(1)
+    assert re.findall(r'href="([^"]+)"', nav) == ['index.html', 'play/index.html', 'play/listen.html', 'parents.html']
+    reader = (app/'play/index.html').read_text()
+    nav = re.search(r'<nav class="tabbar childnav noprint"[^>]*>(.*?)</nav>', reader, re.S).group(1)
+    assert re.findall(r'data-view="([^"]+)"', nav) == ['home', 'today', 'explore', 'listen', 'me']

@@ -507,8 +507,8 @@ def test_child_navigation_resolves_from_articles_and_story_pages(built):
         links = re.findall(r'href="([^"]+)" data-view="([^"]+)"', ''.join(navs))
         page_url = 'https://example.test/paper/play/' + path.relative_to(built).as_posix()
         expected = {'home': 'index.html', 'today': 'play/index.html#today',
-                    'explore': 'play/index.html#explore', 'me': 'play/index.html#me'}
-        assert len(links) == 8
+                    'explore': 'play/index.html#explore', 'me': 'play/index.html#me', 'app': 'app.html'}
+        assert len(links) == 10
         for href, key in links:
             assert urljoin(page_url, href) == 'https://example.test/paper/' + expected[key]
     lobby = (built / "index.html").read_text(encoding="utf-8")
