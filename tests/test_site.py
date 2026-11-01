@@ -177,13 +177,13 @@ def test_recommendations_skip_unpublished_pdfs():
     assert 'e/little-explorers/' not in recs
 
 
-def test_parent_navigation_has_four_destinations_and_hub_links(tmp_path, monkeypatch):
+def test_public_navigation_has_five_destinations_and_hub_links(tmp_path, monkeypatch):
     monkeypatch.setattr(site, 'issues_of', lambda ed: [])
     site.build(str(tmp_path), keep=1, log=lambda *a: None)
     for name in ('index.html', 'parents.html', 'builder.html', 'about.html', 'feedback.html'):
         page = (tmp_path / name).read_text(encoding='utf-8')
         nav = re.search(r'<nav class="tabbar"[^>]*>(.*?)</nav>', page, re.S).group(1)
-        assert re.findall(r'href="([^"]+)"', nav) == ['index.html', 'play/index.html', 'builder.html', 'parents.html']
+        assert re.findall(r'href="([^"]+)"', nav) == ['index.html', 'play/index.html', 'builder.html', 'app.html', 'parents.html']
     hub = (tmp_path / 'parents.html').read_text(encoding='utf-8')
     for name in ('about.html', 'standards.html', 'privacy.html', 'corrections.html', 'feedback.html', 'builder.html'):
         assert f'href="{name}"' in hub

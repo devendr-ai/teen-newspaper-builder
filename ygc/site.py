@@ -14,7 +14,7 @@ from urllib.parse import quote
 
 import yaml
 
-from . import brand, checks, edition, poster, render, stats, pwa, navigation, weekend
+from . import brand, checks, edition, poster, render, stats, pwa, navigation, weekend, app_showcase
 
 ROOT = edition.ROOT
 E = html.escape
@@ -591,6 +591,8 @@ def tabbar(cfg, root, here):
     if cfg.get("kids_mode"):                    # the app: Listen instead of Design (which is in For parents)
         tabs[1:3] = [("play", "play/index.html", "newspaper", "Read &amp; Play"),
                      ("listen", "play/listen.html", "headphones", "Listen")]
+    if not cfg.get("kids_mode"):
+        tabs.insert(3, ("app", "app.html", "smartphone", "App"))
     if here in ("about", "feedback"):
         here = "parents"
     now = ' aria-current="page"'
@@ -621,6 +623,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
     if cfg.get("feedback_url"):
         contact += f' · Spotted a mistake, or have an idea? <a href="{root}feedback.html">Tell us</a>'
 
+    app_link = (f'<a href="{root}app.html"' + (' aria-current="page"' if here == "app" else "") + ">App</a>") if not cfg.get("kids_mode") else ""
     brandline = f'<p class="brandline">{E(cfg["tagline"])}</p>' if here == "papers" and not root else ""
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -630,7 +633,7 @@ def page(cfg, title, body, root="", head_extra="", here="papers"):
 <script>document.documentElement.classList.add("js")</script></head>
 <body><div class="wrap"><header class="top"><div class="masthead{' home-masthead' if brandline else ''}"><h1><a href="{root}index.html" aria-label="{E(cfg['title'])} · Free Kids Newspaper and Daily Newsletter">{brand.inline()}{brand.wordmark(cfg['title'])}</a></h1>{brandline}</div>
 <button type="button" class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
-<nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a>{f'<a href="{root}play/listen.html">Listen</a>' if cfg.get("kids_mode") else f'<a href="{root}builder.html">Design</a>'}<a href="{root}parents.html">For parents</a></nav></header>
+<nav id="nav"><a href="{root}index.html">Home</a><a href="{root}play/index.html">Read &amp; Play</a>{f'<a href="{root}play/listen.html">Listen</a>' if cfg.get("kids_mode") else f'<a href="{root}builder.html">Design</a>'}{app_link}<a href="{root}parents.html">For parents</a></nav></header>
 {pwa.tablet_prompt()}
 <script>(function(){{const h=document.querySelector("header.top"),b=h.querySelector(".menu");
 b.addEventListener("click",()=>b.setAttribute("aria-expanded",String(h.classList.toggle("open"))));
@@ -940,11 +943,17 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
     intro_photo_attr = " data-photo" if has_photo else ""
     intro = (f'<section class="intro"{intro_photo_attr}><div><p class="motto">{E(cfg["home_headline"])}</p>'
              f'<p class="lede">{E(cfg["description"])}</p>{how}{ritual}</div>{figure}</section>')
-    body = subscription_banner() + intro + filters + recommendations(published, has_png, cfg) + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
-    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body, head_extra=home_json_ld(cfg)))
+    app_teaser = app_showcase.teaser() if not kids else ""
+    body = subscription_banner() + intro + filters + recommendations(published, has_png, cfg) + app_teaser + f'<div class="grid">{"".join(cards)}</div><p id="none" class="empty" hidden>No paper matches all of those. Try removing a filter.</p>' + script
+    open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(page(cfg, cfg["title"], body, head_extra=home_json_ld(cfg) + (f"<style>{app_showcase.TEASER_CSS}</style>" if not kids else "")))
     trust_pages(cfg, out, names, fixes)
     open(os.path.join(out, "parents.html"), "w", encoding="utf-8").write(
         page(cfg, f"For parents · {cfg['title']}", parents_body(cfg, published), here="parents"))
+    if not kids:
+        open(os.path.join(out, "app.html"), "w", encoding="utf-8").write(
+            page(cfg, f"The app · {cfg['title']}", app_showcase.body(cfg), here="app",
+                 head_extra=f"<style>{app_showcase.CSS}</style>"))
+        shutil.copytree(os.path.join(brand.ASSETS, "app-showcase"), os.path.join(out, "app-showcase"), dirs_exist_ok=True)
     shutil.copytree(os.path.join(brand.ASSETS, "fonts", "web"), os.path.join(out, "fonts"), dirs_exist_ok=True)
     for lic in ("OFL-AtkinsonHyperlegible.txt", "OFL-BricolageGrotesque.txt"):
         shutil.copy(os.path.join(brand.ASSETS, "fonts", lic), os.path.join(out, "fonts", lic))
@@ -964,6 +973,9 @@ more.addEventListener('click',()=>{box.hidden=!box.hidden;more.setAttribute('ari
         html = (open(b, encoding="utf-8").read().replace("<!--FEEDBACK-->", feedback_nav(cfg))
                 .replace("<!--PARENT_NAV-->", tabbar(cfg, "", "design"))
                 .replace("</head>", pwa.head(cfg) + "<style>" + BUILDER_NAV_CSS + navigation.STYLE + "</style>" + stats.snippet(cfg) + "</head>", 1))
+        if not kids:
+            html = html.replace('<a href="parents.html">For parents</a></nav>',
+                                '<a href="app.html">App</a><a href="parents.html">For parents</a></nav>', 1)
         open(os.path.join(out, "builder.html"), "w", encoding="utf-8").write(self_host_assets(html))
         engine_zip(os.path.join(out, "builder-engine.zip"))
         from . import vendor                 # Pyodide, for the builder page only

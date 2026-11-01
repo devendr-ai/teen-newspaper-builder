@@ -459,6 +459,8 @@ def child_nav(root, here="today", desktop=False, app=False):
             ("me", "play/index.html#me", "sprout", "My Pebbles")]
     if app:                                         # the app build: Listen (the car-ride brief and papers read aloud)
         tabs.insert(3, ("listen", "play/listen.html", "headphones", "Listen"))
+    else:                                           # public website only; never advertise inside the app
+        tabs.append(("app", "app.html", "smartphone", "App"))
     classes = "childnav desktopnav noprint" if desktop else "tabbar childnav noprint"
     return f'<nav class="{classes}" aria-label="Main navigation">' + "".join(
         f'<a href="{root}{href}" data-view="{key}"' + (' aria-current="page"' if key == here else '')
