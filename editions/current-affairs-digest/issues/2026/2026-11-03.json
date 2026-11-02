@@ -1,0 +1,579 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-11-03",
+  "volume": 1,
+  "issue": 19,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE",
+      "headline": "A Six-Day Truce in Oleshky Ends, and a Deadly Strike Hits Aid Seekers in Zaporizhzhia",
+      "deck": "Zelensky says Ukraine, Russia and the US could hold technical talks on 6-10 November; neither date nor venue is final.",
+      "body": [
+        "A six-day humanitarian ceasefire in Oleshky, a town in Russian-held Kherson region in southern Ukraine, took effect on 27 October and officially ended on 1 November at 10:59 pm. It was meant for aid and civilian evacuation. Evacuees from Oleshky arrived in Ukraine on Saturday via Belarus, during what Euronews described as a rare humanitarian truce between Kyiv and Moscow.",
+        "When it ended, each side described what the pause had been used for. Ukraine's General Staff said Russian forces used it to rotate personnel and bring in ammunition, and that Ukrainian forces honoured its terms. Kremlin spokesperson Dmitry Peskov said Moscow had no detailed information and that moving troops during a ceasefire could be normal.",
+        "The hopes raised by the truce were then hit by a far deadlier attack. On Monday a Russian strike on Komyshuvakha, a settlement in Zaporizhzhia region, killed at least 24 people, Ukraine's State Emergency Service said, including two rescue workers and four police officers. Governor Ivan Fedorov said Russian forces fired at least nine KAB-3000 bombs. The target was reportedly a school used for humanitarian purposes, where people were receiving aid. President Volodymyr Zelenskyy called the attack 'utterly horrific' and said Russia was sending 'an entirely opposite signal' to hopes of progress toward peace.",
+        "Diplomacy is still being discussed. Zelensky said technical-level talks among Ukraine, Russia and the US, with the US as mediator, could be held on 6-10 November. Abu Dhabi is the main venue under consideration, with Switzerland also mentioned, and neither date nor venue is final. Kremlin aide Yuri Ushakov said President Vladimir Putin would take a call from Zelensky if Ukraine initiated it."
+      ],
+      "map": {
+        "title": "KHERSON AND ZAPORIZHZHIA",
+        "label_top": "KHERSON",
+        "label_bottom": "ZAPORIZHZHIA",
+        "footnote": "Oleshky is in Kherson region; Komyshuvakha is in Zaporizhzhia region",
+        "caption": "Both regions lie in southern and southeastern Ukraine.",
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      "why": "A local truce let civilians leave one town, but the same week showed how quickly it can give way to violence; whether talks happen will turn on a date and venue not yet fixed.",
+      "sources": [
+        {
+          "outlet": "Sunday Guardian",
+          "title": "Ukraine says Russia used Oleshky ceasefire to improve its position",
+          "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Hopes of progress toward peace knocked by deadly Russian attack on Zaporizhzhia",
+          "url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN AND THE GULF",
+      "headline": "Oil Falls as Iran and Qatar Hold a Third Day of Talks to End the War",
+      "deck": "No deal has been reported, and attacks on tankers in the Strait of Hormuz keep raising costs.",
+      "body": [
+        "Iranian and Qatari officials held a third straight day of talks aimed at a deal to end the US-Israeli war on Iran, with Qatar acting as mediator. Iranian Foreign Minister Abbas Araqchi said on Sunday that the talks were 'ongoing and progressing' and that Tehran is prepared for 'both defence and diplomacy'. No deal has been reported.",
+        "Oil prices reacted. Brent crude, the international benchmark, rose almost 14% in October and ended the month at its highest level in six months. On Monday it fell. The AP reported a drop of about 7.5% to roughly $104.98 a barrel, against near $70 before the war, while an Australian market report had Brent at about $111 on Monday afternoon after reaching $117.64 earlier in the day.",
+        "Several things keep prices high. Attacks on oil tankers transiting the Strait of Hormuz are raising global energy and shipping costs. OPEC+, the group of oil producers that includes Russia, kept its December production targets steady on Sunday and is not expected to make further changes until next year.",
+        "The next test may come after the US midterm elections. Tim Waterer, a market analyst, said rhetoric around Iran could rise and push Brent toward $120 once the vote is over. The war is now in its ninth month, and rising gas prices have been a major issue in the American campaign.",
+        "Health diplomacy also made news in Geneva. World Health Organization Director-General Tedros Adhanom Ghebreyesus told a negotiating meeting that recent outbreaks, including Ebola, show the need to complete the international pandemic treaty. The Pandemic Agreement was adopted in May 2025 as a framework for future pandemics, but wealthy and developing nations still disagree on how it will work in practice. Negotiators left out how the Pathogen Access and Benefit-Sharing (PABS) system will work. It governs how pathogens with pandemic potential are obtained and how the resulting vaccines, tests and treatments are shared. Tedros recalled that during COVID-19 vaccines were developed quickly, but many countries waited while others secured far more than they needed."
+      ],
+      "illustration": {
+        "title": "TALKS THROUGH A MEDIATOR",
+        "subtitle": "Explainer diagram",
+        "motif": "strait",
+        "caption": "The Strait of Hormuz lies between Iran and Oman."
+      },
+      "connect": "Geography and economics: the Strait of Hormuz sits between Iran and Oman, so a war around it can raise fuel and shipping costs far away, which is why gas prices became a US election issue.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "AP via ClickOnDetroit",
+          "title": "The Latest: Democrats and Republicans make a final push",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Markets live, 2 November",
+          "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Recent virus outbreaks show urgent need to complete pandemic treaty",
+          "url": "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ANDHRA PRADESH",
+      "headline": "Cyclone Murasu Forecast to Hit Southern Andhra Pradesh Overnight",
+      "deck": "Winds of 100-110 kmph were expected near Nellore and Ongole; Chennai closed its schools on Monday.",
+      "body": [
+        "A severe cyclonic storm called Murasu was forecast to cross the southern Andhra Pradesh coast between Nellore and Narsapur, near Ongole, between 11:30 pm on 2 November and 4 am on 3 November. Winds of 100-110 kmph were expected, gusting to 120 kmph. In Tamil Nadu, Chennai closed its schools on 2 November, while Delhi-NCR was reported to be spared.",
+        "The storm arrives days after Cyclone Arnab, so the coast is being tested twice in quick succession. The forecast gave a crossing window and a stretch of coast, not a single time and place.",
+        "Elsewhere in India, the Finance Ministry said on 1 November that gross Goods and Services Tax (GST) collections rose nearly 23% from a year earlier to over Rs 2.31 lakh crore in October 2026. The ministry attributed the growth to domestic economic activity and higher tax revenue from imports. Finance Minister Nirmala Sitharaman separately said the economy shows no fragility and urged confidence.",
+        "Prime Minister Narendra Modi also inaugurated the four-day Bharat Renewable Energy Summit & Expo 2026 at Bharat Mandapam in New Delhi on 2 November. It runs until 5 November under the theme 'Invest. Innovate. Inspire.' and is held alongside the 9th ISA Assembly and the 4th International Conference on Green Hydrogen. Its country partners are Australia, Denmark, the EU, France, Germany, the Netherlands, Norway, Sweden and the UK.",
+        "On the railways, Railway Minister Ashwini Vaishnaw announced on 1 November, during an inspection at BEML in Bengaluru, that India's first indigenous bullet train design is ready. Manufacturing is progressing, and the first prototype is scheduled to roll out early; BEML's Bengaluru facilities are handling the models and systems of the trainset.",
+        "In sport, Ishan Kishan set an Indian record for the most T20 international runs in a calendar year in the fifth T20I against New Zealand at Seddon Park, Hamilton, on 1 November. He has scored 1,220 runs in 37 innings in 2026, passing Suryakumar Yadav's 1,164 runs from 2022. In badminton, PV Sindhu won the Hylo Open women's singles in Saarbrucken, beating Denmark's Line Kjaersfeldt 21-12, 21-14, and became the first Indian woman to win that title; Lakshya Sen won the men's singles. India's hockey team beat South Korea 8-0 in the Asian Champions Trophy league finale and will face them again in the semi-finals."
+      ],
+      "illustration": {
+        "title": "WATCHING THE COAST",
+        "subtitle": "Explainer diagram",
+        "motif": "flood",
+        "caption": "Forecast crossing: between Nellore and Narsapur, near Ongole."
+      },
+      "why": "Forecast windows and school closures are how authorities prepare people before a storm arrives, while GST data is one of the monthly signals of how much economic activity the country is recording.",
+      "sources": [
+        {
+          "outlet": "Indian Opinion",
+          "title": "Today in India: 2 November 2026",
+          "url": "https://indianopinion.org/today-in-india-2-november-2026/"
+        },
+        {
+          "outlet": "GK Now",
+          "title": "Current Affairs - 2 November 2026",
+          "url": "https://gknow.in/current-affairs-2-november-2026/"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "Americans Vote Today in Midterms That Decide Who Controls Congress",
+      "deck": "Both parties made a final push on Monday; gas prices and the Iran war loom over the campaign.",
+      "body": [
+        "Voters across the United States go to the polls on 3 November in midterm elections, which fall in the middle of a president's term and decide control of the House and Senate for the last two years of Donald Trump's presidency. The AP's analysis says midterms usually act as a referendum on the president's party, and that high gas prices, grocery costs and inflation have made that harder for Republicans. If Democrats gain at least one chamber, they would gain subpoena power, meaning the legal power to require witnesses or documents.",
+        "Trump spent the final weekend rallying in Iowa and Kansas, then gave a nearly hourlong closing speech on Monday at the Lincoln Memorial Reflecting Pool. He said Tuesday's elections could be the most important midterms in his lifetime, acknowledged that sitting presidents usually lose midterms, and said he hopes voters weigh falling oil prices. The administration also pledged $15 billion to farmers before the vote to offset diesel and fertilizer costs, with over half of it a one-time diesel payment.",
+        "A court fight over voters reached the highest level. On Monday the Trump administration asked the US Supreme Court for emergency relief to set aside about 20,000 California mail ballots that it suspects came from non-citizens, until their status is verified. An appeals court rejected the request, and US District Chief Judge James Boasberg denied it and warned it could disenfranchise citizens. California officials call the list highly unreliable and say it likely includes many citizens, and a group said over 40% of the people on it do not appear in the state voter file. The Justice Department defended the list's accuracy.",
+        "Practical details differ by place. After flooding in Pagosa Springs, Colorado, affected residents can get replacement ballots at any voter center in the state, and mail ballots can be returned to any drop box or voter center by 7 pm on Election Day. In Washington, DC, which has nearly 700,000 residents, more than Wyoming or Vermont, voters will elect a nonvoting House delegate and 'shadow' senators and a representative who push for statehood. One voter, Shane Dunn, 65, a former cook from Levittown, Pennsylvania, said to be voting for the first time in his life.",
+        "Politics elsewhere also turned on who controls a court. In Poland, President Karol Nawrocki entered the Constitutional Tribunal in person to demand the return of its suspended conservative chief judge, while Prime Minister Donald Tusk's government seated new judges and riot police clashed with protesters. Tusk urged the president to confirm the judges. France's Marine Le Pen condemned the crisis, and Polish Foreign Minister Radoslaw Sikorski told her not to interfere."
+      ],
+      "illustration": {
+        "title": "ELECTION DAY",
+        "subtitle": "Explainer diagram",
+        "motif": "ballot",
+        "caption": "The House and Senate are both at stake."
+      },
+      "why": "Control of Congress decides who can pass laws, approve budgets and investigate the administration for the next two years, so a midterm can change policy without a presidential election.",
+      "sources": [
+        {
+          "outlet": "AP via ClickOnDetroit",
+          "title": "The Latest: Democrats and Republicans make a final push",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Europe Today: Tusk v Nawrocki",
+          "url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  MARKETS",
+      "headline": "Big Tech Sell-Off Wipes More Than $2.6 Trillion From Value in October",
+      "deck": "The Nasdaq ended Friday almost 8% below its record high from three weeks earlier.",
+      "body": [
+        "Shares of the biggest technology companies slid sharply last week, and investors are asking whether the huge spending on artificial intelligence (AI) will pay off. More than US$2.6 trillion was wiped from big tech market value in October, and the Nasdaq fell about 6% for the month. On Friday the S&P 500 fell 1.8%, the Dow 1.1% and the Nasdaq 2.9%, leaving the Nasdaq almost 8% below its record high from three weeks earlier.",
+        "Friday's fall followed weak quarterly results. Intel fell almost 30% and Amazon also disappointed. Alphabet had its biggest one-day percentage fall on record after weak search advertising results and rising cash burn. The chips index fell 7.2% and Nvidia dropped more than 4%. Meta's planned record US$97.5 billion capital raise raised concerns about shareholder dilution, which means existing owners' stakes would be worth a smaller share of the company.",
+        "The picture is not all gloomy. JP Morgan says over 80% of S&P 500 companies that have reported beat earnings estimates, with earnings per share growth of around 19%. Even so, investors are still worried about how the AI spending will earn its money back. Strategist Gerard Minack argues that AI investment may earn poor returns, warning that big spending booms historically end badly for early investors.",
+        "Other markets moved too. Gold fell 3.5% on Friday to a one-year low, and silver fell 6.5%. Crypto was hit by a hack of about US$6.3 billion at Binance, followed by large customer withdrawals, and Coinbase, Strategy and Robinhood fell 7-11% on Friday. Next week Apple, AMD, Qualcomm and Palantir report results.",
+        "Central banks add another pressure. The Reserve Bank of Australia decides on Tuesday and markets widely expected a 25 basis point hike, taking its cash rate to 4.85%. A basis point is one hundredth of a percentage point. The Bank of England is tipped to raise rates by 25 basis points to 4.0% on Thursday, and the US 10-year government bond yield was 4.93%. Higher rates make borrowing cost more, and they can weigh on share prices."
+      ],
+      "chart": {
+        "title": "FRIDAY'S FALL IN US SHARE INDEXES",
+        "subtitle": "Per cent fall on Friday",
+        "labels": [
+          "Dow",
+          "S&P 500",
+          "Nasdaq"
+        ],
+        "values": [
+          1.1,
+          1.8,
+          2.9
+        ],
+        "max": 4,
+        "value_prefix": "",
+        "highlight_after": 2,
+        "caption": "Per cent fall in each index on Friday. Source: ABC News (Australia)."
+      },
+      "why": "Pension funds and savings accounts hold these shares, and companies that have fallen in value may spend and hire less, so a tech slide can reach households.",
+      "analyst": "Why did the Nasdaq fall further than the Dow? What would investors need to see to believe AI spending will pay off, and who bears the cost if it does not?",
+      "sources": [
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Markets live, 2 November",
+          "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Two NASA Probes Prepare Earth Flybys for Mars; Telescopes Spot 27 New Distant Bodies",
+      "deck": "ESCAPADE's burns come on 7 and 9 November; separately, Hubble and Webb extend the census beyond Neptune.",
+      "body": [
+        "NASA's twin ESCAPADE spacecraft will each make a powered flyby of Earth in November to head for Mars. A powered flyby combines Earth's gravity with a roughly 9-minute engine burn at closest approach, raising speed by more than 1,000 mph, from about 6.3 to 6.7 miles per second. Spacecraft 1's closest approach is around 5 am EST on Saturday 7 November and spacecraft 2's around 6 am EST on Monday 9 November, each 600 to 1,100 miles above Earth. Each spacecraft is about the size of a standard refrigerator, and the burns occur over southern Australia.",
+        "The route explains the wait. ESCAPADE launched in November 2025, when Earth and Mars were on opposite sides of the Sun, so the spacecraft looped around the Earth-Sun L2 point and returned to Earth once the planets realigned. After a cruise of roughly 10 months they arrive at Mars on 7 and 9 September 2027, and will be the first multi-spacecraft mission to fly in formation around Mars, studying how the solar wind drives atmospheric loss, meaning how the stream of charged particles from the Sun helps the Martian atmosphere escape into space.",
+        "Further out, a census of trans-Neptunian objects (TNOs), the small icy bodies beyond Neptune, has grown by 27. Two papers in The Astronomical Journal report the deepest survey of these objects so far, made by pointing Hubble (visible light) and Webb (infrared) at one patch of sky at the same moment, a first for this kind of study. The smallest newcomer is about 3 miles (5 km) wide, and most TNOs are over 100 million times fainter than the naked eye can detect.",
+        "The sizes and colours carry the findings. Webb's measurements show fewer very small TNOs than some planet formation models predict, and small TNOs share the colours of much larger ones, suggesting surfaces little changed since the solar system formed. Researchers have not settled whether that is because they were hit less often than expected or keep their original composition after impacts. Marielle Eduardo of the University of Victoria led the size study and Anastasia Morgan of Northern Arizona University the colour study. TNOs matter because they are leftover building blocks that never grew into full planets, so what they are made of and how many there are tests ideas about how planets formed.",
+        "The survey also separates two families. 'Cold' TNOs formed where they now orbit, on near-circular paths close to the planets' plane. 'Hot' TNOs formed between Uranus and Neptune and were flung outward when the giant planets migrated, so they follow elongated orbits above and below that plane."
+      ],
+      "illustration": {
+        "title": "A GRAVITY ASSIST TO MARS",
+        "subtitle": "Explainer diagram",
+        "motif": "rocket",
+        "caption": "Each probe fires a 9-minute burn at closest approach to Earth."
+      },
+      "why": "A flyby saves a trip of its own; TNOs are leftover building blocks that never grew into full planets, so they preserve clues about how planets formed.",
+      "sources": [
+        {
+          "outlet": "ScienceDaily",
+          "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+        },
+        {
+          "outlet": "NASA",
+          "title": "NASA's Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+          "url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Germany and France: Largely peaceful Gen Z protests over living costs turned violent after dark in several German cities, and hundreds of thousands joined protests across France for a third weekend.",
+        "Belgium: Prime Minister Bart De Wever offered his government's resignation to King Philippe after budget talks failed; the king will consult coalition party chairs from 3 November and meets De Wever again on 6 November.",
+        "Bulgaria: Exit polls put acting President Iliana Yotova on about 57-58% in the runoff, and her rival Andrey Gyurov conceded; if confirmed, she would be the first elected female head of state.",
+        "Spain: A Renfe high-speed train crashed into the back of a stationary Iryo train near Urda, about 130 km south of Madrid; 69 people were killed, and the cause is still being investigated."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Truce",
+          "def": "An agreement to stop fighting for a set time. Today: a six-day truce in Oleshky ended on 1 November at 10:59 pm."
+        },
+        {
+          "word": "Mediator",
+          "def": "A neutral party that helps opponents reach agreement. Today: Qatar is mediating the talks to end the war on Iran, and the US would mediate the proposed Ukraine talks."
+        },
+        {
+          "word": "Subpoena",
+          "def": "A legal order that requires a person to testify or hand over documents. Today: Democrats would gain subpoena power if they win at least one chamber of Congress."
+        },
+        {
+          "word": "Trans-Neptunian object",
+          "def": "A small icy body that orbits the Sun beyond Neptune. Today: Hubble and Webb found 27 new ones."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Washington, DC has nearly 700,000 residents, more than Wyoming or Vermont, yet its voters elect only a nonvoting House delegate."
+    },
+    "explainer": {
+      "title": "Why midterms are a referendum",
+      "body": [
+        "Control of Congress decides who can pass laws and investigate the administration. AP's analysis says midterms usually act as a referendum on the president's party, and that high gas prices, grocery costs and inflation have made that harder for Republicans this year. D.C. voters, who number nearly 700,000, will elect a nonvoting House delegate and \"shadow\" senators who push for statehood.",
+        "Either chamber can change what the president can achieve. Because both must agree before a law passes, winning even one chamber gives the opposition a voice in budgets and bills. As the AP notes, a Democratic win in one chamber would also give the party subpoena power, a tool for investigations."
+      ],
+      "sources": [
+        {
+          "outlet": "AP via ClickOnDetroit",
+          "title": "The Latest: Democrats and Republicans make a final push",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> How long did the Oleshky ceasefire last?",
+        "(a) Six days  (b) Six hours  (c) Six weeks",
+        "<b>2.</b> How many people did Ukraine's emergency service say were killed in Komyshuvakha, at least?",
+        "(a) 14  (b) 24  (c) 124",
+        "<b>3.</b> Which country is mediating the Iran talks described today?",
+        "(a) Qatar  (b) Norway  (c) Brazil",
+        "<b>4.</b> Which strait are attacks on tankers affecting?",
+        "(a) Bosphorus  (b) Hormuz  (c) Malacca",
+        "<b>5.</b> Between which two coastal places was Cyclone Murasu forecast to cross?",
+        "(a) Nellore and Narsapur  (b) Goa and Kochi  (c) Puri and Kolkata",
+        "<b>6.</b> By how much did the Nasdaq fall on Friday?",
+        "(a) 2.9%  (b) 0.9%  (c) 12%",
+        "<b>7.</b> How many new TNOs did Hubble and Webb find?",
+        "(a) 7  (b) 27  (c) 270",
+        "<b>8.</b> What does a Democratic win in at least one chamber give the party?",
+        "(a) A veto  (b) Subpoena power  (c) A new president",
+        "<b>Answers:</b> 1 a, 2 b, 3 a, 4 b, 5 a, 6 a, 7 b, 8 b."
+      ],
+      "sources": [
+        {
+          "outlet": "Sunday Guardian",
+          "title": "Ukraine says Russia used Oleshky ceasefire to improve its position",
+          "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Hopes of progress toward peace knocked by deadly Russian attack on Zaporizhzhia",
+          "url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "Indian Opinion",
+          "title": "Today in India: 2 November 2026",
+          "url": "https://indianopinion.org/today-in-india-2-november-2026/"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Markets live, 2 November",
+          "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+        },
+        {
+          "outlet": "ScienceDaily",
+          "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Ukraine talks: whether Ukraine, Russia and the US agree a date and venue for technical talks in the 6-10 November window.",
+        "US results: which party wins control of the House and Senate, and whether the California ballot dispute is settled by the Supreme Court.",
+        "Belgium: whether King Philippe accepts the government's resignation after meeting De Wever again on 6 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/",
+    "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-",
+    "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+    "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+    "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+    "https://indianopinion.org/today-in-india-2-november-2026/",
+    "https://gknow.in/current-affairs-2-november-2026/",
+    "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
+    "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief",
+    "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes",
+    "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail",
+    "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "When did the six-day Oleshky ceasefire officially end?",
+        "options": [
+          "27 October",
+          "1 November",
+          "6 November"
+        ],
+        "answer": 1,
+        "why": "It officially ended on 1 November at 10:59 pm.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Zelensky say could be held on 6-10 November?",
+        "options": [
+          "A Ukraine election",
+          "Technical-level talks with Russia and the US",
+          "A prisoner swap only"
+        ],
+        "answer": 1,
+        "why": "He said technical-level talks among Ukraine, Russia and the US could be held then.",
+        "story": "lead"
+      },
+      {
+        "q": "Who is mediating the talks to end the war on Iran?",
+        "options": [
+          "Qatar",
+          "Norway",
+          "Brazil"
+        ],
+        "answer": 0,
+        "why": "Iranian and Qatari officials held three straight days of talks.",
+        "story": "world"
+      },
+      {
+        "q": "What did analyst Tim Waterer say could push Brent toward $120?",
+        "options": [
+          "A Qatari deal",
+          "Rising rhetoric around Iran after the midterms",
+          "An OPEC+ output rise"
+        ],
+        "answer": 1,
+        "why": "He said rhetoric around Iran could rise after the midterms.",
+        "story": "world"
+      },
+      {
+        "q": "Where was Cyclone Murasu forecast to cross the coast?",
+        "options": [
+          "Between Nellore and Narsapur",
+          "Near Mumbai",
+          "Near Kolkata"
+        ],
+        "answer": 0,
+        "why": "The forecast crossing was between Nellore and Narsapur, near Ongole.",
+        "story": "india"
+      },
+      {
+        "q": "What did the US administration ask the Supreme Court about?",
+        "options": [
+          "20,000 California mail ballots",
+          "A new election date",
+          "Voting machines in Iowa"
+        ],
+        "answer": 0,
+        "why": "It asked for emergency relief over about 20,000 California mail ballots.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "How much did the Nasdaq fall on Friday?",
+        "options": [
+          "2.9%",
+          "0.9%",
+          "12%"
+        ],
+        "answer": 0,
+        "why": "The Nasdaq fell 2.9% on Friday.",
+        "story": "economics"
+      },
+      {
+        "q": "How many new trans-Neptunian objects did the survey find?",
+        "options": [
+          "7",
+          "27",
+          "270"
+        ],
+        "answer": 1,
+        "why": "The deepest survey found 27 previously unknown objects.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Oleshky ceasefire lasted six days.",
+        "true": true,
+        "why": "It took effect on 27 October and ended on 1 November.",
+        "story": "lead"
+      },
+      {
+        "claim": "Hubble collected infrared light while Webb collected visible light.",
+        "true": false,
+        "why": "Hubble collected visible light and Webb collected infrared light.",
+        "story": "science_and_technology"
+      },
+      {
+        "claim": "The Nasdaq ended Friday almost 8% below its record high.",
+        "true": true,
+        "why": "The record high was three weeks earlier.",
+        "story": "economics"
+      },
+      {
+        "claim": "Brent crude was near $70 a barrel before the Iran war.",
+        "true": true,
+        "why": "The AP says Brent was near $70 before the war.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Kherson",
+        "lat": 46.64,
+        "lon": 32.62,
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Nellore",
+        "lat": 14.44,
+        "lon": 79.99,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington, DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "New York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "At least how many people did Ukraine's emergency service say were killed in Komyshuvakha?",
+        "answer": 24,
+        "prefix": "",
+        "unit": "people",
+        "min": 0,
+        "max": 60,
+        "why": "At least 24 people were killed, including two rescue workers and four police officers."
+      },
+      {
+        "story": "science_and_technology",
+        "q": "How many previously unknown trans-Neptunian objects did the survey find?",
+        "answer": 27,
+        "prefix": "",
+        "unit": "objects",
+        "min": 0,
+        "max": 80,
+        "why": "The deepest survey found 27 previously unknown icy bodies beyond Neptune."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "A short truce in Ukraine ends",
+        "body": [
+          "A six-day truce in a town called Oleshky ended on 1 November. It let people get aid and leave the town. Some arrived in Ukraine on Saturday.",
+          "On Monday, a Russian strike hit a place called Komyshuvakha. Ukraine's emergency service said at least 24 people were killed. People there had been getting aid.",
+          "Ukraine's leader said talks with Russia and the US could be held on 6-10 November. The date and place are not final."
+        ]
+      },
+      "world": {
+        "headline": "Talks to end the Iran war go on",
+        "body": [
+          "Officials from Iran and Qatar talked for a third day. They want a deal to end the war. Qatar is helping the sides talk.",
+          "No deal has been reported. Oil prices fell on Monday. Brent oil was near $70 before the war, and it was about $111 on Monday.",
+          "Attacks on oil tankers near the Strait of Hormuz are making fuel and shipping cost more."
+        ]
+      },
+      "india": {
+        "headline": "A cyclone heads for Andhra Pradesh",
+        "body": [
+          "A strong storm called Cyclone Murasu was expected to reach the coast of Andhra Pradesh. It was forecast to cross between Nellore and Narsapur, late on 2 November or early on 3 November.",
+          "Winds of 100-110 kmph were expected. Chennai closed its schools on 2 November.",
+          "India also said its GST tax collections rose nearly 23% in October. GST is a tax on goods and services."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Americans vote for Congress",
+        "body": [
+          "Americans vote on 3 November in midterm elections. They choose who controls Congress, which makes laws.",
+          "Many people are worried about the cost of gas and food. President Trump gave a speech on Monday and said the vote is very important.",
+          "A court fight is going on about 20,000 mail ballots in California. California officials say the list may include many citizens."
+        ]
+      },
+      "economics": {
+        "headline": "Tech company shares fall",
+        "body": [
+          "Shares in big technology companies fell last week. More than $2.6 trillion in value was lost in October.",
+          "On Friday the Nasdaq fell 2.9%. It was almost 8% below its record high from three weeks earlier.",
+          "Investors are asking if the huge spending on AI will pay off. Strong profits were reported by many firms, but worries remain about the big bills."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Two telescopes find 27 icy worlds",
+        "body": [
+          "Hubble and Webb telescopes looked at the same part of the sky. Hubble sees visible light. Webb sees infrared light.",
+          "They found 27 new icy objects beyond Neptune. The smallest is about 3 miles across.",
+          "These objects are leftovers that never grew into full planets. They can help us learn how planets formed. Their colours suggest they have changed little since the solar system formed."
+        ]
+      }
+    }
+  }
+}

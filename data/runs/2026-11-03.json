@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-03",
+ "by": "claude-code",
+ "editions": {
+  "breakfast-table": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "current-affairs-digest": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "europe-explained": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "global-citizen-plus": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "junior-daily": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "young-global-citizen": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  }
+ },
+ "enrichment": {
+  "enabled": true,
+  "selected": 1,
+  "stories": [
+   {
+    "headline": "Two NASA spacecraft will swing past Earth to fire their engines toward Mars",
+    "status": "no_new_details",
+    "source_urls": [
+     "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+    ],
+    "note": "primary page already used as the story's source in the pool"
+   }
+  ]
+ }
+}
