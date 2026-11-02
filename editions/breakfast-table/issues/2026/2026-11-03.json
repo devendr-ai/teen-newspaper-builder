@@ -1,0 +1,426 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-03",
+  "volume": 1,
+  "issue": 19,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UNITED STATES",
+      "headline": "Americans Vote on Tuesday to Decide Who Controls Congress",
+      "deck": "Gas prices and the cost of living have been big topics as the last day of campaigning ends.",
+      "body": [
+        "Americans vote on Tuesday 3 November in the midterm elections. The results will decide who controls the House and the Senate, the two parts of Congress, for the last two years of President Trump's term.",
+        "On Monday, Mr Trump gave a nearly hourlong closing speech at the Lincoln Memorial Reflecting Pool. He said Tuesday's elections could be the most important midterms in his lifetime. He admitted that sitting presidents usually lose midterms.",
+        "Prices are a big reason why. The U.S.-Iran war is in its ninth month, and rising gas prices have been a major issue. The Associated Press says high gas prices, grocery costs and inflation have made things harder for Republicans. Democrats could win at least one chamber, which would give them subpoena power."
+      ],
+      "map": {
+        "title": "THE UNITED STATES",
+        "label_top": "WASHINGTON, D.C.",
+        "label_bottom": "VOTING ON TUESDAY",
+        "footnote": "Trump's closing speech was in Washington, D.C.",
+        "caption": "Voters in every state elect lawmakers to Congress."
+      },
+      "why": "The vote decides which party controls the House and Senate for the last two years of Trump's term, and gas and grocery prices were central to the campaign.",
+      "sources": [
+        {
+          "outlet": "AP via ClickOnDetroit",
+          "title": "The Latest: Democrats and Republicans make a final push one day before midterm elections",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  BULGARIA",
+      "headline": "Bulgaria Looks Set to Elect Its First Woman President",
+      "deck": "Exit polls show Iliana Yotova well ahead in Sunday's runoff, and her rival has accepted the result.",
+      "body": [
+        "Bulgaria, a country in Europe on the Black Sea, voted on Sunday 1 November in a runoff for president. A runoff is a second vote between the two candidates who did best the first time.",
+        "Exit polls, which ask people how they voted as they leave, showed acting President Iliana Yotova, 62, ahead with between 57.4% and 58.2%. Her rival, Andrey Gyurov, had between 38.6% and 39.6%, and he conceded, saying the results must be accepted. If official results confirm it, she would be Bulgaria's first elected female head of state.",
+        "The two wanted different things on the war in Ukraine. Yotova called for a peaceful end through talks with Russia. Gyurov signalled closer alignment with Western partners and stronger support for Ukraine. The presidency is largely ceremonial, but the president leads the armed forces, can veto laws and signs international treaties. A president serves five years and can serve two terms."
+      ],
+      "chart": {
+        "title": "RUNOFF EXIT POLLS",
+        "subtitle": "Share of the vote, % (lowest estimate)",
+        "labels": [
+          "Yotova",
+          "Gyurov"
+        ],
+        "values": [
+          57.4,
+          38.6
+        ],
+        "max": 70,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Exit polls, not final results. Polling institutes gave Yotova 57.4% to 58.2% and Gyurov 38.6% to 39.6%."
+      },
+      "connect": "Countries choose leaders in different ways. This paper's US story is about voting for lawmakers in one round, while Bulgaria picked a president in two rounds, with a runoff between the top two.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Bulgaria's acting president Yotova leads in exit polls of runoff election",
+          "url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  COURTS",
+      "headline": "Who Counts as a Voter? A Court Fight Reaches Washington",
+      "deck": "California ballots from about 20,000 people are at the centre of an argument days before the count.",
+      "body": [
+        "Voting rules can end up in court at the last minute. On Monday the Trump administration asked the Supreme Court for emergency help with about 20,000 California mail ballots. It suspects they came from people who might not be U.S. citizens.",
+        "Judges have so far said no. An appeals court turned the request down, and Chief Judge James Boasberg denied it too, warning that citizens could lose their votes.",
+        "California officials call the list highly unreliable and say it likely includes many citizens. A group says over 40% of the names are not in the state voter file. The Justice Department defends the list."
+      ],
+      "why": "Courts settle arguments about who may vote.",
+      "also": [
+        "Farms: $15 billion was pledged to farmers to offset diesel and fertilizer costs.",
+        "Washington, D.C.: Its nearly 700,000 residents will elect a nonvoting House delegate and \"shadow\" lawmakers who push for statehood."
+      ],
+      "sources": [
+        {
+          "outlet": "AP via ClickOnDetroit",
+          "title": "The Latest: Democrats and Republicans make a final push one day before midterm elections",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: Severe Cyclone Murasu was expected to cross the Andhra Pradesh coast near Ongole between 11:30 PM on 2 November and 4 AM on 3 November.",
+        "Space: NASA's twin ESCAPADE spacecraft pass Earth on 7 and 9 November, firing engines for about nine minutes to speed toward Mars."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might the price of gas or groceries change how a family decides to vote, or what it thinks about the news?",
+        "Why do you think courts are asked to decide arguments about ballots instead of the politicians themselves?",
+        "Bulgaria's president is mostly ceremonial but leads the armed forces. Why might a country want a leader who has some jobs but not all of them?"
+      ],
+      "sources": [
+        {
+          "outlet": "AP via ClickOnDetroit",
+          "title": "The Latest: Democrats and Republicans make a final push one day before midterm elections",
+          "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Bulgaria's acting president Yotova leads in exit polls of runoff election",
+          "url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ECONOMY",
+      "headline": "India's GST Tax Collections Jump Nearly 23% in a Year",
+      "deck": "More money moved through shops, services and ports, so the government collected more tax.",
+      "body": [
+        "India's government collected much more Goods and Services Tax, or GST, in October than a year earlier. The Finance Ministry said on 1 November that gross GST collections rose by nearly 23% to over Rs 2.31 lakh crore. GST is a tax added to many goods and services, and it helps pay for roads, schools and other public services.",
+        "The ministry said the growth was driven by activity inside India and by higher tax collected on imports, which are goods brought in from other countries.",
+        "Finance Minister Sitharaman has also been speaking about the economy. She said it shows no fragility and urged people to have confidence.",
+        "Money is also being invited into clean energy. On 2 November Prime Minister Narendra Modi opened the four-day Bharat Renewable Energy Summit & Expo in New Delhi. It runs until 5 November under the theme \"Invest. Innovate. Inspire.\", with country partners including Australia, Denmark, the EU, France, Germany, the Netherlands, Norway, Sweden and the UK."
+      ],
+      "why": "GST helps pay for public services, so rising collections show more money moving through the economy.",
+      "sources": [
+        {
+          "outlet": "GK Now",
+          "title": "Current Affairs - 2 November 2026",
+          "url": "https://gknow.in/current-affairs-2-november-2026/"
+        },
+        {
+          "outlet": "Indian Opinion",
+          "title": "Today in India: 2 November 2026",
+          "url": "https://indianopinion.org/today-in-india-2-november-2026/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER: RECORDS ABROAD",
+      "body": "Cricket: <b>Ishan Kishan</b> scored 1,220 runs in 37 T20I innings in 2026, an Indian record for a calendar year, passing Suryakumar Yadav's 1,164 from 2022. Badminton: PV Sindhu won the Hylo Open women's singles in Saarbrucken, beating Denmark's Line Kjaersfeldt 21-12, 21-14. Lakshya Sen won the men's title.",
+      "sources": [
+        {
+          "outlet": "GK Now",
+          "title": "Current Affairs - 2 November 2026",
+          "url": "https://gknow.in/current-affairs-2-november-2026/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Cyclone Murasu crosses the Andhra Pradesh coast as forecast, and what damage it leaves.",
+        "Whether the first ESCAPADE spacecraft passes Earth on 7 November and fires its engine as planned."
+      ]
+    },
+    "quote": {
+      "text": "A vote is a way of telling leaders what matters to us.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+    "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election",
+    "https://gknow.in/current-affairs-2-november-2026/",
+    "https://indianopinion.org/today-in-india-2-november-2026/",
+    "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What does Tuesday's midterm vote decide control of?",
+        "options": [
+          "The Supreme Court",
+          "Congress, the House and the Senate",
+          "The United Nations"
+        ],
+        "answer": 1,
+        "why": "The results will decide who controls the House and the Senate for the last two years of Trump's term.",
+        "story": "lead"
+      },
+      {
+        "q": "Where did President Trump give his closing midterm speech on Monday?",
+        "options": [
+          "At a school in Kansas",
+          "At the White House gate",
+          "At the Lincoln Memorial Reflecting Pool"
+        ],
+        "answer": 2,
+        "why": "He gave a nearly hourlong closing speech at the Lincoln Memorial Reflecting Pool in Washington.",
+        "story": "lead"
+      },
+      {
+        "q": "Who led the exit polls in Bulgaria's presidential runoff?",
+        "options": [
+          "Iliana Yotova",
+          "Andrey Gyurov",
+          "Rumen Radev"
+        ],
+        "answer": 0,
+        "why": "Acting President Iliana Yotova led the exit polls with between 57.4% and 58.2%.",
+        "story": "world"
+      },
+      {
+        "q": "About how many California mail ballots did the Trump administration ask the Supreme Court to set aside?",
+        "options": [
+          "2,000",
+          "20,000",
+          "200,000"
+        ],
+        "answer": 1,
+        "why": "The administration asked the Supreme Court on Monday to set aside about 20,000 California mail ballots.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "President Trump said sitting presidents never lose midterm elections.",
+        "true": false,
+        "why": "He admitted that sitting presidents usually lose midterms.",
+        "story": "lead"
+      },
+      {
+        "claim": "Bulgaria's president is mostly ceremonial but leads the armed forces.",
+        "true": true,
+        "why": "The presidency is largely ceremonial, though the president leads the armed forces, can veto laws and signs treaties.",
+        "story": "world"
+      },
+      {
+        "claim": "India's GST collections fell in October.",
+        "true": false,
+        "why": "Gross GST collections rose by nearly 23% to over Rs 2.31 lakh crore.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Sofia",
+        "lat": 42.7,
+        "lon": 23.32,
+        "countries": [
+          "Bulgaria"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "California",
+        "lat": 36.78,
+        "lon": -119.42,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "us",
+        "q": "About how many California mail ballots did the administration ask the Supreme Court to set aside?",
+        "answer": 20000,
+        "prefix": "",
+        "unit": "ballots",
+        "min": 1000,
+        "max": 100000,
+        "why": "The administration asked the court to set aside about 20,000 California mail ballots."
+      },
+      {
+        "story": "india",
+        "q": "By roughly what percent did India's GST collections rise in October from a year earlier?",
+        "answer": 23,
+        "prefix": "",
+        "unit": "%",
+        "min": 2,
+        "max": 60,
+        "why": "Gross GST collections rose by nearly 23% year on year."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for Tuesday, 3 November. I'm Maya, with Sam. Today, why does the price of gas show up in an election? Let's find out.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Our top story is from the United States, where people vote on Tuesday 3 November. What are they voting for?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Midterm vote"
+        },
+        {
+          "who": "maya",
+          "text": "They are midterm elections, and they decide who controls Congress. Congress has two parts, the House and the Senate. The results will decide who controls both for the last two years of President Trump's term.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "What did the president say on the last day of campaigning?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "On Monday he gave a nearly hourlong closing speech in Washington, at the Lincoln Memorial Reflecting Pool. He said Tuesday's elections could be the most important midterms in his lifetime, and he admitted that sitting presidents usually lose midterms. He said he hopes voters weigh falling oil prices.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Why do gas prices matter so much?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "The U.S.-Iran war is in its ninth month, and rising gas prices have been a major issue. The Associated Press says high gas prices, grocery costs and inflation have made things harder for Republicans. Democrats could win at least one chamber, which would give them subpoena power.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Next, Bulgaria. What happened there on Sunday?",
+          "section": "story",
+          "story": "world",
+          "chapter": "Bulgaria votes"
+        },
+        {
+          "who": "maya",
+          "text": "Bulgarians voted in a runoff for president, a second vote between the top two candidates. Exit polls showed acting President Iliana Yotova ahead, with between 57.4 and 58.2 percent. Her rival, Andrey Gyurov, accepted the result.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Do the two candidates want different things?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Yes, on the war in Ukraine. Yotova wants a peaceful end through talks with Russia. Gyurov signalled closer alignment with Western partners and stronger support for Ukraine. If confirmed, she would be Bulgaria's first elected female head of state.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Back in the United States, there is also a court fight over mail ballots.",
+          "section": "story",
+          "story": "us",
+          "chapter": "Ballot fight"
+        },
+        {
+          "who": "maya",
+          "text": "On Monday the Trump administration asked the Supreme Court for emergency help to set aside about 20,000 California mail ballots. It suspects they came from people who may not be citizens. A judge and an appeals court had already said no.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "What do California officials say?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "They call the list highly unreliable and say it likely includes many U.S. citizens. The Justice Department defended the list's accuracy. Ready for a quick quiz?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Who led the exit polls in Bulgaria's presidential runoff?",
+          "section": "quiz_question",
+          "quiz": 2
+        },
+        {
+          "who": "maya",
+          "text": "Iliana Yotova Acting President Iliana Yotova led the exit polls with between 57.4% and 58.2%.",
+          "section": "quiz_answer",
+          "quiz": 2
+        },
+        {
+          "who": "sam",
+          "text": "About how many California mail ballots did the Trump administration ask the Supreme Court to set aside?",
+          "section": "quiz_question",
+          "quiz": 3
+        },
+        {
+          "who": "maya",
+          "text": "20,000 The administration asked the Supreme Court on Monday to set aside about 20,000 California mail ballots.",
+          "section": "quiz_answer",
+          "quiz": 3
+        },
+        {
+          "who": "sam",
+          "text": "Why might the price of gas or groceries change how a family decides to vote, or what it thinks about the news?",
+          "section": "discussion"
+        },
+        {
+          "who": "maya",
+          "text": "That's the news for today. Thanks for listening, and have a great day.",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}
