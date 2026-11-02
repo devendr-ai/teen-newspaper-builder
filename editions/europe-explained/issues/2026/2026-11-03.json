@@ -1,0 +1,422 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-11-03",
+  "volume": 1,
+  "issue": 12,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  BELGIUM",
+      "headline": "Belgium's Government Offers to Quit After Talks on Money Fail",
+      "deck": "Prime Minister Bart De Wever told the king his team could not agree how to cut the country's costs.",
+      "body": [
+        "On Monday 2 November, Belgium's prime minister, Bart De Wever, went to the royal palace and offered King Philippe the resignation of his whole government. The reason was that talks among his core cabinet about the country's budget, the plan for what it will earn and spend, had failed overnight. Belgium is a monarchy, so the king receives a resignation and decides what to do with it.",
+        "The palace said the king is considering the offer. He will talk to the chairs of the parties in the governing coalition, starting on Tuesday 3 November, and has said the country \"cannot afford\" a long political crisis. De Wever is due to meet him again on Friday 6 November. If the resignation is accepted, new elections would be called.",
+        "The talks broke down over a question about money that many European governments face. Belgium must save €10 billion to stay inside European Union spending limits. Its deficit, the gap between what it spends and what it earns in a year, was 5% of its national income in 2025, while the EU maximum is 3%.",
+        "The parties disagree about how to close that gap. The centrist and socialist parties, Les Engagés, Vooruit and CD&V, want €1 billion to €1.5 billion raised by taxing higher incomes. The conservative N-VA and the liberal MR want spending cuts instead. Deputy Prime Minister David Clarinval blamed Vooruit.",
+        "The five parties together are known as the \"Arizona\" coalition, and it took them 234 days to form a government in the first place. The crisis shows how hard it can be for several parties to share one set of choices about who pays and what gets cut."
+      ],
+      "map": {
+        "title": "BELGIUM IN CRISIS",
+        "label_top": "BELGIUM  •  Brussels",
+        "label_bottom": "Royal palace  |  king consults party chairs",
+        "footnote": "The king meets party chairs from 3 November",
+        "caption": "Belgium's government has offered its resignation to the king.",
+        "countries": [
+          "Belgium"
+        ],
+        "place": "Brussels"
+      },
+      "why": "Every EU country has to keep its deficit under the same limit, so a budget row in Brussels can end a government, and it affects interest rates and trust across Europe.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Belgium's PM De Wever to offer resignation to king after overnight budget talks fail",
+          "url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN TALKS",
+      "headline": "Talks to End the Iran War Push Oil Prices Down",
+      "deck": "Iranian and Qatari officials met for a third straight day, and no deal has been reported.",
+      "body": [
+        "The war between Iran and the United States and Israel is now in its ninth month, and its effects on fuel prices have reached Europe. Oil is the price that Europe's families and firms feel first when the Middle East is in turmoil. On Monday it fell after Iranian and Qatari officials held a third straight day of talks aimed at a deal to end the war between Iran and the United States and Israel. Qatar is acting as a go-between, passing messages between the sides.",
+        "Iran's foreign minister, Abbas Araqchi, said on Sunday that the talks were \"ongoing and progressing.\" He added that Tehran is prepared for both defence and diplomacy. No deal has been reported.",
+        "Prices moved a lot. Brent crude, the benchmark oil price used in Europe, rose almost 14% in October and finished the month at its highest level in six months. On Monday afternoon in Australia it was about $111 a barrel, down 2.1%, after reaching $117.64 earlier in the day.",
+        "The risk has not gone away. Attacks on oil tankers using the Strait of Hormuz are raising energy and shipping costs worldwide. One analyst, Tim Waterer, said talk about Iran could grow louder after the US midterm elections and push Brent toward $120. OPEC+, the group of oil producers, kept its December production targets unchanged on Sunday and is not expected to change policy again until next year.",
+        "For perspective, the Associated Press reported that Brent was near $70 a barrel before the war began, so even Monday's fall left it far above that level. The AP also noted that rising gas prices have been a major issue in the US midterm elections taking place on Tuesday, a sign that the cost of the war is being felt well beyond the region. For now, the talks in Qatar are the main hope that the price will keep falling."
+      ],
+      "illustration": {
+        "title": "OIL AND THE STRAIT",
+        "subtitle": "Costs stay high",
+        "motif": "strait",
+        "caption": "Oil prices fell on Monday as Iran and Qatar held talks."
+      },
+      "connect": "Geography: the Strait of Hormuz is a narrow sea route, and when ships there are attacked, fuel and shipping costs rise in Europe too.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Markets live, 2 November",
+          "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  EU TIES",
+      "headline": "Before a Summit, the UK and EU Disagree on How to Draw Closer",
+      "deck": "Both sides want more cooperation, but they differ on the route.",
+      "body": [
+        "The United Kingdom and the European Union will hold a summit on 20 November. Both sides agree they need closer cooperation, but they do not agree on how to get there.",
+        "The EU's foreign policy chief, Kaja Kallas, said the UK should first join the EU's existing defence frameworks rather than start talks on rejoining the bloc. She said some people in Brussels are still \"traumatised\" by Brexit, and that the negotiations will be difficult.",
+        "UK Defence Secretary Wes Streeting said Britain remains committed to closer defence ties, even though it stayed out of the EU's €150 billion SAFE defence loan scheme last year. Talks failed over an estimated entry fee of €4 billion to €6 billion, which the UK government saw as poor value.",
+        "The summit follows a change at the top. Prime Minister Andy Burnham has promised to rebuild relations with the EU on trade, education, energy and defence, and has not ruled out talks on full membership."
+      ],
+      "why": "Britain and the EU are close neighbours, so their deals on defence and trade affect jobs, prices and security on both sides of the Channel.",
+      "also": [
+        "Budget: Chancellor John Healey's first budget, on 28 October, offered households and businesses some help with energy bills this winter.",
+        "Rates: the Bank of England is tipped to raise its rate to 4.0% on Thursday."
+      ],
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Brussels still 'traumatised' by Brexit, EU foreign policy chief warns",
+          "url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+        },
+        {
+          "outlet": "AP via NY1",
+          "title": "UK Treasury chief faces headwinds as he delivers first budget",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/28/uk-treasury-chief-faces-headwinds-as-he-delivers-first-budget-under-new-prime-minister-andy-burnham"
+        },
+        {
+          "outlet": "ABC News (Australia)",
+          "title": "Markets live, 2 November",
+          "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: A six-day local truce around Oleshky ended on 1 November, and Zelensky said three-way talks with Russia and the US could be held on 6-10 November, with Abu Dhabi the main venue under consideration.",
+        "Bulgaria: Acting President Iliana Yotova led exit polls with about 58% in Sunday's runoff, which would make her the first elected woman to lead the country, and her rival Andrey Gyurov conceded."
+      ],
+      "sources": []
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Resignation",
+          "def": "Formally giving up a job or a government's power. Today: Belgium's prime minister offered his government's resignation to the king."
+        },
+        {
+          "word": "Deficit",
+          "def": "The gap when a government spends more than it earns in a year. Today: Belgium's deficit was 5% of national income, above the EU maximum of 3%."
+        },
+        {
+          "word": "Coalition",
+          "def": "A government made of several parties that agree to share power. Today: Belgium's five-party \"Arizona\" coalition split over taxes and cuts."
+        },
+        {
+          "word": "Mediator",
+          "def": "A go-between who helps two opponents talk. Today: Qatar is mediating between Iran and its opponents."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Belgium's five-party \"Arizona\" coalition took 234 days to form, a long time for a government to be put together."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  PROTESTS",
+      "headline": "Young Protesters Take Living-Cost Anger to German and French Streets",
+      "deck": "Peaceful marches turned violent after dark in several German cities.",
+      "body": [
+        "Rising living costs have pushed young people onto the streets in two of Europe's biggest countries. In Germany, largely peaceful afternoon protests, mainly over the cost of living, turned violent after dark on Saturday in several cities, including Frankfurt, Cologne, Hamburg and Berlin.",
+        "The sizes differed from city to city. Police put the youth demonstration in Berlin at about 3,500 people, with about 60 arrests, while about 8,000 people demonstrated in Frankfurt. In Hamburg, around 120 people were temporarily detained.",
+        "Germany's interior minister, Alexander Dobrindt, called for harsh penalties, and the organisers distanced themselves from the violence.",
+        "In France, hundreds of thousands of people joined protests against the rising cost of living on the third weekend of demonstrations. Authorities opened an attempted murder investigation after an officer was set on fire when a petrol bomb went off at his feet in Paris."
+      ],
+      "chart": {
+        "title": "PEOPLE ON THE STREET",
+        "subtitle": "Police and report estimates, Saturday",
+        "labels": [
+          "Berlin",
+          "Frankfurt"
+        ],
+        "values": [
+          3500,
+          8000
+        ],
+        "max": 10000,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Berlin's figure is the police estimate; Frankfurt's is from the Euronews report."
+      },
+      "why": "When prices rise, protest can spread across borders and put pressure on governments to act.",
+      "analyst": "Why might a protest be peaceful by day and violent after dark? What evidence would show who was responsible?",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Germany 'Gen Z' protests turn violent as shops looted",
+          "url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Paris riots: France investigates after petrol bomb sets officer on fire",
+          "url": "https://www.euronews.com/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORT  •  BADMINTON",
+      "body": "PV Sindhu won the Hylo Open women's singles in Saarbrücken, Germany, on 1 November, beating Denmark's Line Kjaersfeldt 21-12, 21-14, and became the first Indian woman to win that title.",
+      "sources": [
+        {
+          "outlet": "GK Now",
+          "title": "Current Affairs - 2 November 2026",
+          "url": "https://gknow.in/current-affairs-2-november-2026/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Belgium: whether King Philippe accepts the resignation after meeting party chairs, and what De Wever says when they meet again on Friday 6 November.",
+        "Ukraine: whether the three-way talks happen on 6-10 November, and where."
+      ]
+    },
+    "quote": {
+      "text": "A budget is a promise about what a country will pay for, and who will pay.",
+      "by": "Europe Explained"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "Euronews",
+      "title": "Belgium's PM De Wever to offer resignation to king after overnight budget talks fail",
+      "url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+    },
+    {
+      "outlet": "CNBC",
+      "title": "Oil slips more than 1% as talks continue on ending Iran war",
+      "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+    },
+    {
+      "outlet": "ABC News (Australia)",
+      "title": "Markets live, 2 November",
+      "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Brussels still 'traumatised' by Brexit, EU foreign policy chief warns",
+      "url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+    },
+    {
+      "outlet": "AP via NY1",
+      "title": "UK Treasury chief faces headwinds as he delivers first budget",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/28/uk-treasury-chief-faces-headwinds-as-he-delivers-first-budget-under-new-prime-minister-andy-burnham"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Germany 'Gen Z' protests turn violent as shops looted",
+      "url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Paris riots: France investigates after petrol bomb sets officer on fire",
+      "url": "https://www.euronews.com/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire"
+    },
+    {
+      "outlet": "Sunday Guardian",
+      "title": "Ukraine says Russia used Oleshky ceasefire to 'improve its position'",
+      "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+    },
+    {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Who did Belgium's prime minister offer his government's resignation to?",
+        "options": [
+          "The EU Commission",
+          "King Philippe",
+          "The Bank of England"
+        ],
+        "answer": 1,
+        "why": "De Wever met King Philippe at the royal palace.",
+        "story": "lead"
+      },
+      {
+        "q": "How much must Belgium save to stay within EU spending limits?",
+        "options": [
+          "€1 billion",
+          "€10 billion",
+          "€100 billion"
+        ],
+        "answer": 1,
+        "why": "The paper says Belgium must save €10 billion.",
+        "story": "lead"
+      },
+      {
+        "q": "Which group is acting as a go-between in the Iran talks?",
+        "options": [
+          "Qatar",
+          "Norway",
+          "Bulgaria"
+        ],
+        "answer": 0,
+        "why": "Iranian and Qatari officials held three days of talks.",
+        "story": "world"
+      },
+      {
+        "q": "When will the UK-EU summit be held?",
+        "options": [
+          "6 November",
+          "20 November",
+          "18 December"
+        ],
+        "answer": 1,
+        "why": "The summit is on 20 November.",
+        "story": "uk"
+      },
+      {
+        "q": "About how many people did police say joined the Berlin youth demonstration?",
+        "options": [
+          "350",
+          "3,500",
+          "35,000"
+        ],
+        "answer": 1,
+        "why": "Police put the Berlin demonstration at about 3,500 people.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Belgium's deficit in 2025 was 5% of national income, above the EU maximum of 3%.",
+        "true": true,
+        "why": "The paper gives those two figures.",
+        "story": "lead"
+      },
+      {
+        "claim": "The UK joined the EU's €150 billion SAFE defence loan scheme last year.",
+        "true": false,
+        "why": "The UK stayed out after talks failed over the entry fee.",
+        "story": "uk"
+      },
+      {
+        "claim": "Oil prices fell on Monday as Iran and Qatar held talks.",
+        "true": true,
+        "why": "Brent fell as the third day of talks went on.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom",
+          "Belgium"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Frankfurt",
+        "lat": 50.11,
+        "lon": 8.68,
+        "countries": [
+          "Germany",
+          "France"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many days did it take to form Belgium's \"Arizona\" coalition?",
+        "answer": 234,
+        "prefix": "",
+        "unit": "days",
+        "min": 50,
+        "max": 500,
+        "why": "It took 234 days for the five parties to agree on a government."
+      },
+      {
+        "story": "europe",
+        "q": "About how many people demonstrated in Frankfurt?",
+        "answer": 8000,
+        "prefix": "",
+        "unit": "people",
+        "min": 1000,
+        "max": 20000,
+        "why": "About 8,000 people demonstrated in Frankfurt, mostly peacefully before violence broke out."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Belgium's government offers to quit",
+        "body": [
+          "Belgium's prime minister, Bart De Wever, went to see the king on Monday. He offered to resign with his whole government. His team could not agree on a plan for money.",
+          "Belgium must save €10 billion to follow EU rules. Some parties want to tax people who earn more. Others want to cut spending. They could not agree.",
+          "The king is thinking about it. He will talk to party leaders from Tuesday. If he accepts, there will be new elections."
+        ]
+      },
+      "world": {
+        "headline": "Talks to end the Iran war lower oil prices",
+        "body": [
+          "Officials from Iran and Qatar talked for a third day. They want a deal to end the war. No deal has been reported.",
+          "Oil prices fell on Monday. Brent oil was about $111 a barrel in the afternoon. It rose almost 14% in October. Before the war, it was near $70.",
+          "Attacks on oil tankers near the Strait of Hormuz still make energy costs higher. The war is in its ninth month."
+        ]
+      },
+      "uk": {
+        "headline": "UK and EU disagree on how to get closer",
+        "body": [
+          "The UK and the EU will hold a summit on 20 November. Both want to work more closely together. They do not agree on how.",
+          "The EU's Kaja Kallas said the UK should first join EU defence plans. The UK's Wes Streeting said Britain wants closer defence ties.",
+          "Britain's new prime minister, Andy Burnham, wants better relations with the EU."
+        ]
+      },
+      "europe": {
+        "headline": "Young people protest high costs",
+        "body": [
+          "Young people marched in Germany and France because living costs are rising. In Germany, the marches were mostly peaceful in the afternoon. After dark, some turned violent.",
+          "Police said about 3,500 people marched in Berlin. About 8,000 marched in Frankfurt.",
+          "In France, hundreds of thousands of people took part in protests for the third weekend. A police officer was set on fire in Paris, and police are investigating."
+        ]
+      }
+    }
+  }
+}
