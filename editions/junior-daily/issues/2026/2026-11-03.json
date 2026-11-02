@@ -1,0 +1,197 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-03",
+  "volume": 1,
+  "issue": 21,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  INDIA",
+      "headline": "Cyclone Murasu Heads for India’s Andhra Coast",
+      "deck": "A severe storm was forecast to cross the coast late on Monday night, 2 November.",
+      "body": [
+        "A cyclone is a huge spinning storm that forms over warm sea and brings strong wind and rain when it reaches land. One such storm, named Murasu, was heading for the east coast of India on Monday 2 November. Forecasters call it a severe cyclonic storm.",
+        "The storm was expected to cross the coast of Andhra Pradesh, a state in southern India. The crossing point was forecast between the towns of Nellore and Narsapur, close to the town of Ongole. That crossing was expected between 11:30 PM on 2 November and 4 AM on 3 November.",
+        "Winds were expected to blow at 100 to 110 kilometres an hour, with gusts up to 120 kilometres an hour. Further south, schools in the big city of Chennai were closed on Monday. Far away in the north, the capital region around Delhi was reported to be spared."
+      ],
+      "map": {
+        "title": "WHERE MURASU IS FORECAST TO CROSS",
+        "label_top": "INDIA",
+        "label_bottom": "BAY OF BENGAL",
+        "footnote": "Between Nellore and Narsapur, near Ongole",
+        "caption": "The storm was forecast to cross India’s east coast in Andhra Pradesh.",
+        "countries": [
+          "India"
+        ]
+      },
+      "why": "A coast that is warned ahead of time has a better chance to get ready, and schools can close before the wind arrives.",
+      "sources": [
+        {
+          "outlet": "Indian Opinion",
+          "title": "Today in India: 2 November 2026",
+          "url": "https://indianopinion.org/today-in-india-2-november-2026/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SPACE",
+      "headline": "Two NASA Spacecraft Will Swing Past Earth on the Way to Mars",
+      "deck": "Flybys are set for 7 and 9 November.",
+      "body": [
+        "NASA’s two ESCAPADE spacecraft, each about the size of a standard refrigerator, launched in November 2025, when Earth and Mars were on opposite sides of the Sun. They waited for the planets to line up.",
+        "Now they use Earth’s gravity and an engine burn of about nine minutes. The first spacecraft passes closest around 5 a.m. US Eastern time on Saturday 7 November. The second follows on Monday 9 November.",
+        "The burn adds more than 1,000 miles an hour, taking each from about 6.3 to 6.7 miles per second. They reach Mars on 7 and 9 September 2027."
+      ],
+      "chart": {
+        "title": "SPEED BEFORE AND AFTER THE BURN",
+        "subtitle": "Miles per second",
+        "labels": [
+          "Before burn",
+          "After burn"
+        ],
+        "values": [
+          6.3,
+          6.7
+        ],
+        "max": 8,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Each burn raises speed from about 6.3 to 6.7 miles per second."
+      },
+      "why": "Earth’s gravity plus a short burn gives the push needed to reach Mars.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA’s Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+          "url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: GST tax collections rose nearly 23% in October, to over Rs 2.31 lakh crore.",
+        "India: Narendra Modi opened a renewable energy summit in New Delhi."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Where Cyclone Murasu crosses the coast.",
+        "The first ESCAPADE flyby on 7 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://indianopinion.org/today-in-india-2-november-2026/",
+    "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
+    "https://gknow.in/current-affairs-2-november-2026/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which Indian state was Cyclone Murasu forecast to cross?",
+        "options": [
+          "Andhra Pradesh",
+          "Punjab",
+          "Rajasthan"
+        ],
+        "answer": 0,
+        "why": "The paper says the storm was forecast to cross the Andhra Pradesh coast.",
+        "story": "lead"
+      },
+      {
+        "q": "What was closed in Chennai on Monday?",
+        "options": [
+          "Schools",
+          "Airports",
+          "Banks"
+        ],
+        "answer": 0,
+        "why": "Schools in Chennai were closed on 2 November.",
+        "story": "lead"
+      },
+      {
+        "q": "How big is each ESCAPADE spacecraft?",
+        "options": [
+          "About the size of a school bus",
+          "About the size of a standard refrigerator",
+          "About the size of a football"
+        ],
+        "answer": 1,
+        "why": "The paper says each is about the size of a standard refrigerator.",
+        "story": "world"
+      },
+      {
+        "q": "When do the spacecraft arrive at Mars?",
+        "options": [
+          "In September 2027",
+          "In November 2026",
+          "In March 2030"
+        ],
+        "answer": 0,
+        "why": "They arrive on 7 and 9 September 2027.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Cyclone Murasu was forecast to cross the coast between Nellore and Narsapur.",
+        "true": true,
+        "why": "Forecasters named that stretch, near Ongole.",
+        "story": "lead"
+      },
+      {
+        "claim": "Both ESCAPADE spacecraft pass Earth on the same day.",
+        "true": false,
+        "why": "The first passes on Saturday 7 November and the second on Monday 9 November.",
+        "story": "world"
+      },
+      {
+        "claim": "Each spacecraft’s engine burn lasts about nine minutes.",
+        "true": true,
+        "why": "The paper says each burn lasts about nine minutes.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Earth, on the way to Mars",
+        "lat": -30.0,
+        "lon": 135.0,
+        "countries": [
+          "Australia"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How fast could gusts of wind reach in Cyclone Murasu?",
+        "answer": 120,
+        "prefix": "",
+        "unit": "km an hour",
+        "min": 40,
+        "max": 200,
+        "why": "Winds of 100 to 110 kilometres an hour were forecast, with gusts up to 120."
+      },
+      {
+        "story": "world",
+        "q": "About how many minutes does each engine burn last?",
+        "answer": 9,
+        "prefix": "",
+        "unit": "minutes",
+        "min": 1,
+        "max": 30,
+        "why": "Each burn at closest approach lasts about nine minutes."
+      }
+    ]
+  }
+}

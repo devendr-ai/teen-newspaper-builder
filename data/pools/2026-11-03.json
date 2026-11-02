@@ -1,0 +1,1290 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "iran-qatar-talks",
+    "headline": "Oil falls as Iran and Qatar hold a third day of talks to end the war",
+    "what_happened": "Iranian and Qatari officials held a third straight day of talks aimed at a deal to end the war, and oil prices fell on Monday. No deal has been reported.",
+    "why_it_matters": "A fifth of the world's oil normally passes through the Strait of Hormuz, so news from the talks moves fuel prices around the world.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Iranian and Qatari officials held a third straight day of talks aimed at a deal to end the U.S.-Israeli war on Iran.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Iranian Foreign Minister Abbas Araqchi said on Sunday the talks were \"ongoing and progressing\" and that Tehran is prepared for \"both defence and diplomacy.\"",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Brent crude ended October at its highest level in six months; the AP reported it fell about 7.5% on Monday to roughly $104.98 a barrel, against near $70 before the war.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Brent was about US$111 a barrel on Monday afternoon in Australia, after reaching US$117.64 earlier; it rose almost 14% in October.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "Attacks on oil tankers transiting the Strait of Hormuz are raising global energy and shipping costs.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "OPEC+ kept December production targets steady on Sunday and is not expected to make further policy changes until next year.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "An analyst, Tim Waterer, said rhetoric around Iran could rise and push Brent toward $120 after the US midterm elections.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "The U.S.-Iran war is in its ninth month, and rising gas prices have been a major midterm issue.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Strait of Hormuz (between Iran and Oman); Qatar mediating; Iran; Saudi Arabia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Oil slips more than 1% as talks continue on ending Iran war",
+      "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+      "published": "2026-11-02",
+      "primary": false
+     },
+     {
+      "outlet": "AP via ClickOnDetroit",
+      "title": "The Latest: Democrats and Republicans make a final push",
+      "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "zaporizhzhia-strike",
+    "headline": "Russian bombs kill at least 24 people waiting for aid in Zaporizhzhia region",
+    "what_happened": "A Russian attack on the Komyshuvakha settlement in Ukraine's Zaporizhzhia region killed at least 24 people on Monday, Ukraine's emergency service said. President Zelenskyy said it dampened hopes raised by a short truce nearby.",
+    "why_it_matters": "The attack came just after a six-day local truce and ahead of possible new talks, and shows how fragile hopes for peace are.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Ukraine's State Emergency Service said at least 24 people were killed, including two rescue workers and four police officers.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     },
+     {
+      "fact": "Regional governor Ivan Fedorov said Russian forces fired at least nine KAB-3000 bombs over the course of the day; the target was reportedly a school used for humanitarian purposes where people were receiving aid.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     },
+     {
+      "fact": "Zelenskyy called the attack \"utterly horrific\" and said Russia was sending \"an entirely opposite signal\" to hopes of progress toward peace.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     },
+     {
+      "fact": "Evacuees from occupied Oleshky arrived in Ukraine on Saturday via Belarus during a rare humanitarian truce between Kyiv and Moscow.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     }
+    ],
+    "numbers": [],
+    "geography": "Komyshuvakha, Zaporizhzhia region, southeastern Ukraine; Oleshky, Kherson region",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Hopes of progress toward peace knocked by deadly Russian attack on Zaporizhzhia",
+      "url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-truce-talks",
+    "headline": "A six-day truce in Oleshky ends as Ukraine, Russia and the US eye talks next week",
+    "what_happened": "A six-day humanitarian ceasefire in Oleshky, in Russian-held Kherson region, ended on 1 November. Zelensky said three-way technical talks could be held 6-10 November, with Abu Dhabi the main venue under consideration.",
+    "why_it_matters": "Local truces and talks are small steps in a war that has gone on for years; where and when talks happen decides whether they can begin.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The 6-day ceasefire in Oleshky took effect on 27 October and officially ended on 1 November at 10:59 PM; it was meant for humanitarian aid and civilian evacuation.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     },
+     {
+      "fact": "Zelensky said technical-level talks among Ukraine, Russia and the US, with the US mediating, could be held 6-10 November 2026; Abu Dhabi is the main venue under consideration, with Switzerland also mentioned, and neither date nor venue is final.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     },
+     {
+      "fact": "Ukraine's General Staff said Russian forces used the pause to rotate personnel and bring in ammunition; Kremlin spokesperson Dmitry Peskov said Moscow had no detailed information and that moving troops during a ceasefire could be normal.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     },
+     {
+      "fact": "Kremlin aide Yuri Ushakov said Putin would take a call from Zelensky if Ukraine initiated it.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Oleshky, Kherson region (Russian-held); Abu Dhabi, UAE; Switzerland",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Sunday Guardian",
+      "title": "Ukraine says Russia used Oleshky ceasefire to 'improve its position'; Zelensky reveals dates for upcoming trilateral talks",
+      "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "pandemic-treaty-ebola",
+    "headline": "WHO chief says Ebola shows the world must finish its pandemic treaty",
+    "what_happened": "WHO Director-General Tedros Adhanom Ghebreyesus told a meeting in Geneva on Monday that recent outbreaks, including Ebola, show the pandemic treaty must be completed.",
+    "why_it_matters": "The treaty is meant to make sure vaccines and treatments reach every country fairly in a future outbreak.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tedros said at a negotiating meeting in Geneva: \"A pathogen threat anywhere can become a threat everywhere, to people of every country.\"",
+      "source_url": "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief"
+     },
+     {
+      "fact": "The Pandemic Agreement was adopted in May 2025 as a framework for future pandemics, but wealthy and developing nations still disagree on how it will work in practice.",
+      "source_url": "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief"
+     },
+     {
+      "fact": "Negotiators left out how the Pathogen Access and Benefit-Sharing (PABS) system will work; it governs how pathogens with pandemic potential are obtained and how resulting vaccines, tests and treatments are shared.",
+      "source_url": "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief"
+     },
+     {
+      "fact": "Tedros said that during COVID-19 vaccines were developed quickly, but many countries waited while others secured far more than they needed.",
+      "source_url": "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief"
+     }
+    ],
+    "numbers": [],
+    "geography": "Geneva, Switzerland (WHO); Democratic Republic of Congo (Ebola outbreak)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Recent virus outbreaks show urgent need to complete pandemic treaty, says WHO chief",
+      "url": "https://www.euronews.com/2026/11/02/recent-virus-outbreaks-show-urgent-need-to-complete-pandemic-treaty-says-who-chief",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "midterms-eve",
+    "headline": "Americans vote tomorrow in midterm elections that decide control of Congress",
+    "what_happened": "On the eve of the 3 November midterms, both parties made a final push. Trump gave a closing speech at the Lincoln Memorial Reflecting Pool, and gas prices, the Iran war and the cost of living were central issues.",
+    "why_it_matters": "The elections decide who controls the House and Senate for the last two years of Trump's term.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "AP's analysis says midterms usually act as referendums on the president's party; high gas prices, grocery costs and inflation have made that harder for Republicans.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Trump held rallies on Sunday in Iowa and Kansas and gave a nearly hourlong closing speech on Monday at the Lincoln Memorial Reflecting Pool, saying Tuesday's elections could be the most important midterms in his lifetime.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Trump acknowledged that sitting presidents usually lose midterms, and said he hopes voters weigh falling oil prices when they vote.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Democrats could gain at least one chamber of Congress, which would give them subpoena power.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "The administration pledged $15 billion to farmers before the midterms to offset diesel and fertilizer costs, with over half a one-time diesel payment.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Flooding in Pagosa Springs, Colorado, changed voting plans: affected residents can get replacement ballots at any voter center in the state, and mail ballots can be returned to any drop box or voter center by 7 p.m. on Election Day.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Voters in Washington, D.C., which has nearly 700,000 residents, more than Wyoming or Vermont, will elect a nonvoting House delegate and \"shadow\" senators and a representative who push for statehood.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Shane Dunn, 65, a former cook from Levittown, Pennsylvania, voted for the first time in his life.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Washington D.C.; Iowa, Kansas, Colorado, Michigan",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "AP via ClickOnDetroit",
+      "title": "The Latest: Democrats and Republicans make a final push one day before midterm elections",
+      "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "california-ballots",
+    "headline": "A court fight over 20,000 California mail ballots reaches the Supreme Court",
+    "what_happened": "The Trump administration asked the US Supreme Court on Monday for emergency relief over about 20,000 California mail ballots it suspects came from non-citizens. A judge and an appeals court had already refused.",
+    "why_it_matters": "It shows how courts are settling disputes over who may vote, right at the end of an election.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Trump administration asked the U.S. Supreme Court on Monday for emergency relief to set aside about 20,000 California mail ballots until the voters' status is verified.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "An appeals court rejected the request, and U.S. District Chief Judge James Boasberg denied it and warned it could disenfranchise citizens.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "California officials call the list highly unreliable and say it likely includes many U.S. citizens; a group said over 40% of people on it don't appear in the state voter file.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "The Justice Department defended the list's accuracy.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     }
+    ],
+    "numbers": [],
+    "geography": "California; Washington D.C.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "AP via ClickOnDetroit",
+      "title": "The Latest: final push before midterm elections",
+      "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-murasu",
+    "headline": "Cyclone Murasu is forecast to hit southern Andhra Pradesh, days after Arnab",
+    "what_happened": "A severe cyclonic storm called Murasu was expected to cross the southern Andhra coast between Nellore and Narsapur, near Ongole, between 11:30 PM on 2 November and 4 AM on 3 November.",
+    "why_it_matters": "Andhra Pradesh is still recovering from Cyclone Arnab, so a second storm in a week raises the importance of early warnings.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A severe cyclonic storm, Murasu, was expected to cross the southern Andhra coast between Nellore and Narsapur near Ongole, between 11:30 PM on 2 November and 4 AM on 3 November.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     },
+     {
+      "fact": "Expected winds were 100-110 kmph, gusting to 120 kmph.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     },
+     {
+      "fact": "Chennai schools were closed on 2 November.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     },
+     {
+      "fact": "Delhi-NCR was reported to be spared.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Andhra Pradesh coast between Nellore and Narsapur near Ongole; Chennai, Tamil Nadu",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Indian Opinion",
+      "title": "Today in India: 2 November 2026",
+      "url": "https://indianopinion.org/today-in-india-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "gst-october",
+    "headline": "India's GST collections jump nearly 23% in October",
+    "what_happened": "The Finance Ministry said gross Goods and Services Tax collections rose nearly 23% from a year earlier to over Rs 2.31 lakh crore in October 2026.",
+    "why_it_matters": "GST is a tax on goods and services that helps pay for roads, schools and other public services, so rising collections show more money moving through the economy.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Gross GST collections rose nearly 23% year-on-year to over Rs 2.31 lakh crore in October 2026, the Finance Ministry reported on 1 November.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Growth was driven by domestic economic activity and higher tax revenue from imports.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Finance Minister Sitharaman said the economy shows no fragility and urged confidence.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "renewable-summit",
+    "headline": "Modi opens a four-day renewable energy summit in New Delhi",
+    "what_happened": "PM Narendra Modi inaugurated the Bharat Renewable Energy Summit & Expo 2026 at Bharat Mandapam on 2 November.",
+    "why_it_matters": "India is trying to attract investment in clean energy such as solar and green hydrogen.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The summit runs from 2 to 5 November under the theme \"Invest. Innovate. Inspire.\"",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Country partners are Australia, Denmark, the EU, France, Germany, the Netherlands, Norway, Sweden and the UK.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "It is held alongside the 9th ISA Assembly and the 4th International Conference on Green Hydrogen.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Bharat Mandapam, New Delhi",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "bullet-train-design",
+    "headline": "India's first home-built bullet train design is ready, says the railway minister",
+    "what_happened": "Railway Minister Ashwini Vaishnaw said on 1 November that India's first indigenous bullet train design is ready, during an inspection at BEML in Bengaluru.",
+    "why_it_matters": "Building trains at home would mean India makes more of its own high-speed rail technology.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Ashwini Vaishnaw announced the design on 1 November 2026 during an inspection at BEML in Bengaluru.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Manufacturing is progressing and the first prototype is scheduled to roll out early; BEML's Bengaluru facilities are handling the models and systems of the trainset.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "BEML, Bengaluru, Karnataka",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "kishan-record",
+    "headline": "Ishan Kishan sets an Indian record for T20 runs in a year; Sindhu wins the Hylo Open",
+    "what_happened": "In the fifth T20I against New Zealand in Hamilton, Ishan Kishan passed Suryakumar Yadav's Indian record for T20I runs in a calendar year. PV Sindhu won the Hylo Open in Saarbrucken.",
+    "why_it_matters": "Records and titles mark how Indian players are doing ahead of big tournaments.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 1 November 2026 at Seddon Park, Hamilton, Kishan set an Indian record for most T20I runs in a calendar year with 1,220 runs in 37 innings in 2026, passing Suryakumar Yadav's 1,164 from 2022.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "PV Sindhu won the Hylo Open women's singles in Saarbrucken on 1 November, beating Denmark's Line Kjaersfeldt 21-12, 21-14, and became the first Indian woman to win that title.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Lakshya Sen won the men's singles title.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "India beat South Korea 8-0 in the Asian Champions Trophy hockey league finale and will face them again in the semi-finals.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Hamilton, New Zealand; Saarbrucken, Germany",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "midterms-eve",
+    "headline": "Americans vote tomorrow in midterm elections that decide control of Congress",
+    "what_happened": "On the eve of the 3 November midterms, both parties made a final push. Trump gave a closing speech at the Lincoln Memorial Reflecting Pool, and gas prices, the Iran war and the cost of living were central issues.",
+    "why_it_matters": "The elections decide who controls the House and Senate for the last two years of Trump's term.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "AP's analysis says midterms usually act as referendums on the president's party; high gas prices, grocery costs and inflation have made that harder for Republicans.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Trump held rallies on Sunday in Iowa and Kansas and gave a nearly hourlong closing speech on Monday at the Lincoln Memorial Reflecting Pool, saying Tuesday's elections could be the most important midterms in his lifetime.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Trump acknowledged that sitting presidents usually lose midterms, and said he hopes voters weigh falling oil prices when they vote.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Democrats could gain at least one chamber of Congress, which would give them subpoena power.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "The administration pledged $15 billion to farmers before the midterms to offset diesel and fertilizer costs, with over half a one-time diesel payment.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Flooding in Pagosa Springs, Colorado, changed voting plans: affected residents can get replacement ballots at any voter center in the state, and mail ballots can be returned to any drop box or voter center by 7 p.m. on Election Day.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Voters in Washington, D.C., which has nearly 700,000 residents, more than Wyoming or Vermont, will elect a nonvoting House delegate and \"shadow\" senators and a representative who push for statehood.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "Shane Dunn, 65, a former cook from Levittown, Pennsylvania, voted for the first time in his life.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; Washington D.C.; Iowa, Kansas, Colorado, Michigan",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "AP via ClickOnDetroit",
+      "title": "The Latest: Democrats and Republicans make a final push one day before midterm elections",
+      "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "poland-tribunal",
+    "headline": "Poland's president and prime minister clash over the Constitutional Tribunal",
+    "what_happened": "Polish President Karol Nawrocki entered the Constitutional Tribunal in person to demand the return of its suspended conservative chief judge, while Prime Minister Donald Tusk's government seated new judges and riot police clashed with protesters.",
+    "why_it_matters": "A country's top court decides whether laws follow the constitution, so who sits on it matters to everyone.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Nawrocki entered the Constitutional Tribunal in person to demand the return of its suspended conservative chief judge.",
+      "source_url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+     },
+     {
+      "fact": "Tusk's government seated new judges, and riot police clashed with protesters; Tusk urged the president to confirm the judges.",
+      "source_url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+     },
+     {
+      "fact": "France's Marine Le Pen condemned the crisis, and Polish Foreign Minister Radoslaw Sikorski told her not to interfere.",
+      "source_url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+     }
+    ],
+    "numbers": [],
+    "geography": "Warsaw, Poland",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Europe Today: Tusk v Nawrocki - Poland's Constitutional Tribunal crisis explodes",
+      "url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "california-ballots",
+    "headline": "A court fight over 20,000 California mail ballots reaches the Supreme Court",
+    "what_happened": "The Trump administration asked the US Supreme Court on Monday for emergency relief over about 20,000 California mail ballots it suspects came from non-citizens. A judge and an appeals court had already refused.",
+    "why_it_matters": "It shows how courts are settling disputes over who may vote, right at the end of an election.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Trump administration asked the U.S. Supreme Court on Monday for emergency relief to set aside about 20,000 California mail ballots until the voters' status is verified.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "An appeals court rejected the request, and U.S. District Chief Judge James Boasberg denied it and warned it could disenfranchise citizens.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "California officials call the list highly unreliable and say it likely includes many U.S. citizens; a group said over 40% of people on it don't appear in the state voter file.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     },
+     {
+      "fact": "The Justice Department defended the list's accuracy.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     }
+    ],
+    "numbers": [],
+    "geography": "California; Washington D.C.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "AP via ClickOnDetroit",
+      "title": "The Latest: final push before midterm elections",
+      "url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ai-selloff",
+    "headline": "Big tech shares slide as worries grow about the cost of AI",
+    "what_happened": "More than US$2.6 trillion was wiped from big tech market value in October, and the Nasdaq was almost 8% below its record high from three weeks earlier after a sell-off on Friday.",
+    "why_it_matters": "Many people's savings are invested in these shares, and the slide shows doubts about whether huge AI spending will pay off.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Friday the S&P 500 fell 1.8%, the Dow 1.1% and the Nasdaq 2.9%; the Nasdaq was almost 8% below its record high from three weeks earlier.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "More than US$2.6 trillion was wiped from big tech market value in October, and the Nasdaq fell about 6% for the month.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "Friday's selloff followed weak quarterly results from Intel (down almost 30%) and Amazon, and Alphabet had its biggest one-day percentage fall on record.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "JP Morgan says over 80% of S&P 500 companies that have reported beat earnings estimates, but investors remain worried about how AI spending will pay off.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "Gold fell 3.5% on Friday to a one-year low.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "Apple, AMD, Qualcomm and Palantir report results next week.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Westpac reports $6.8 billion profit, ASX slides ahead of RBA meeting — as it happened",
+      "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oil-price-month",
+    "headline": "Oil rose almost 14% in October, then fell on peace-talk hopes",
+    "what_happened": "Brent crude rose almost 14% in October and WTI 15%, reaching a six-month high, before sliding on Monday as Iran-Qatar talks continued.",
+    "why_it_matters": "Fuel and shipping costs affect prices of almost everything families buy.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent rose almost 14% in October and WTI 15%.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "Brent was about US$111 a barrel on Monday afternoon in Australia, down 2.1%, after reaching US$117.64 earlier.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "Brent ended October at its highest level in six months.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "The AP reported Brent was near $70 before the war.",
+      "source_url": "https://www.clickondetroit.com/news/politics/2026/11/02/the-latest-democrats-and-republicans-make-a-final-push-one-day-before-midterm-elections/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Global; Strait of Hormuz",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Markets live Nov 2",
+      "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "gst-october",
+    "headline": "India's GST collections jump nearly 23% in October",
+    "what_happened": "The Finance Ministry said gross Goods and Services Tax collections rose nearly 23% from a year earlier to over Rs 2.31 lakh crore in October 2026.",
+    "why_it_matters": "GST is a tax on goods and services that helps pay for roads, schools and other public services, so rising collections show more money moving through the economy.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Gross GST collections rose nearly 23% year-on-year to over Rs 2.31 lakh crore in October 2026, the Finance Ministry reported on 1 November.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Growth was driven by domestic economic activity and higher tax revenue from imports.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Finance Minister Sitharaman said the economy shows no fragility and urged confidence.",
+      "source_url": "https://indianopinion.org/today-in-india-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "rate-hikes",
+    "headline": "Central banks are raising interest rates as inflation worries grow",
+    "what_happened": "Markets widely expected the Reserve Bank of Australia to raise rates by 0.25 percentage points on Tuesday, and the Bank of England was tipped to raise to 4.0% on Thursday.",
+    "why_it_matters": "Higher interest rates make loans and mortgages cost more, but are meant to slow rising prices.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The RBA decides on Tuesday (3 November); markets widely expected a 25 basis point hike, taking the cash rate to 4.85%.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "The Bank of England is tipped to raise rates by 25 basis points to 4.0% on Thursday.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "The US 10-year yield was 4.93%.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     }
+    ],
+    "numbers": [],
+    "geography": "Australia; United Kingdom; United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Markets live Nov 2",
+      "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "hubble-webb-tnos",
+    "headline": "Hubble and Webb find 27 new icy bodies beyond Neptune",
+    "what_happened": "Using NASA's Hubble and James Webb telescopes together for the first time on these objects, astronomers found 27 previously unknown trans-Neptunian objects, the smallest about 3 miles (5 km) across.",
+    "why_it_matters": "These leftover building blocks keep clues about how planets formed.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Hubble and Webb telescopes observed the same patch of sky at the same time; Hubble collected visible light and Webb infrared light.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     },
+     {
+      "fact": "The survey found 27 previously unknown trans-Neptunian objects (TNOs), small icy bodies beyond Neptune; the smallest is about 3 miles (5 km) across.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     },
+     {
+      "fact": "Most TNOs are more than 100 million times fainter than what the naked eye can see.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     },
+     {
+      "fact": "Cold TNOs formed where they now orbit, on nearly circular paths close to the plane of the planets; hot TNOs formed between the orbits of Uranus and Neptune and were scattered outward when the giant planets migrated early on.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     },
+     {
+      "fact": "Small TNOs have colors similar to much larger ones, suggesting their surfaces have changed little since the solar system formed.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     },
+     {
+      "fact": "TNOs are leftover building blocks that never grew into full planets, so they preserve clues about how planets formed.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     },
+     {
+      "fact": "Marielle Eduardo of the University of Victoria led the size study and Anastasia Morgan of Northern Arizona University led the color study; the papers are in The Astronomical Journal.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "The region beyond Neptune",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "escapade-flyby",
+    "headline": "Two NASA spacecraft will swing past Earth to fire their engines toward Mars",
+    "what_happened": "NASA's twin ESCAPADE spacecraft will each do a powered Earth flyby in November, on 7 and 9 November, to speed up toward Mars.",
+    "why_it_matters": "It uses Earth's gravity plus an engine burn to save fuel on the way to Mars.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Each spacecraft combines Earth's gravity with a roughly 9-minute engine burn at closest approach, raising speed by more than 1,000 mph, from about 6.3 to 6.7 miles per second.",
+      "source_url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+     },
+     {
+      "fact": "Spacecraft 1's closest approach is around 5 a.m. EST on Saturday 7 November and spacecraft 2's around 6 a.m. EST on Monday 9 November.",
+      "source_url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+     },
+     {
+      "fact": "At closest approach each is 600 to 1,100 miles above Earth and about the size of a standard refrigerator.",
+      "source_url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+     },
+     {
+      "fact": "ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun; the spacecraft looped around the Earth-Sun L2 point and returned to use Earth's gravity once the planets realigned.",
+      "source_url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+     },
+     {
+      "fact": "After a roughly 10-month cruise they arrive at Mars on 7 and 9 September 2027.",
+      "source_url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+     },
+     {
+      "fact": "ESCAPADE will be the first multi-spacecraft mission to fly in formation around Mars, studying how the solar wind drives atmospheric loss.",
+      "source_url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Earth to Mars; burns over southern Australia",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Twin ESCAPADE Spacecraft to Slingshot Past Earth on Way to Mars",
+      "url": "https://science.nasa.gov/blogs/escapade/2026/11/02/nasas-twin-escapade-spacecraft-to-slingshot-past-earth-on-way-to-mars/",
+      "published": "2026-11-02",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "bullet-train-design",
+    "headline": "India's first home-built bullet train design is ready, says the railway minister",
+    "what_happened": "Railway Minister Ashwini Vaishnaw said on 1 November that India's first indigenous bullet train design is ready, during an inspection at BEML in Bengaluru.",
+    "why_it_matters": "Building trains at home would mean India makes more of its own high-speed rail technology.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Ashwini Vaishnaw announced the design on 1 November 2026 during an inspection at BEML in Bengaluru.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     },
+     {
+      "fact": "Manufacturing is progressing and the first prototype is scheduled to roll out early; BEML's Bengaluru facilities are handling the models and systems of the trainset.",
+      "source_url": "https://gknow.in/current-affairs-2-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "BEML, Bengaluru, Karnataka",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "GK Now",
+      "title": "Current Affairs - 2 November 2026",
+      "url": "https://gknow.in/current-affairs-2-november-2026/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-eu-summit",
+    "headline": "Before the UK-EU summit, Brussels and London disagree on how to get closer",
+    "what_happened": "The EU and UK hold a summit on 20 November. EU foreign policy chief Kaja Kallas said the UK should first join EU defence frameworks, while UK Defence Secretary Wes Streeting said the UK stays committed to closer defence cooperation.",
+    "why_it_matters": "The UK and EU are close neighbours and trade partners, so how they cooperate affects prices, jobs and security.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The EU and UK are holding a summit on 20 November; both sides agree on the need for closer cooperation but differ on how.",
+      "source_url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+     },
+     {
+      "fact": "Kallas said the UK should first join the EU's existing defence frameworks rather than open talks on rejoining the bloc, and said: \"These negotiations will be difficult, and we are not there yet.\"",
+      "source_url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+     },
+     {
+      "fact": "Streeting said the UK is committed to closer defence cooperation even though it opted out of the EU's EUR150 billion SAFE defence loan scheme last year after talks failed over an estimated EUR4-6 billion entry fee.",
+      "source_url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+     },
+     {
+      "fact": "Prime Minister Andy Burnham has pledged to rebuild EU relations, including on trade, education, energy and defence, and has not ruled out talks on full EU membership.",
+      "source_url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+     },
+     {
+      "fact": "Streeting warned against EU protectionism in the \"Made in Europe\" industrial drive, because the UK is outside the single market.",
+      "source_url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brussels, Belgium; London, UK; Berlin",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Brussels still 'traumatised' by Brexit, EU foreign policy chief warns",
+      "url": "https://www.euronews.com/2026/11/02/brussels-still-traumatised-by-brexit-eu-foreign-policy-chief-warns",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "healey-budget",
+    "headline": "Healey's first budget offers help with winter energy bills",
+    "what_happened": "Chancellor John Healey used his first budget on 28 October to offer households and businesses support with energy bills this winter, framed as a response to the Iran-war price spike.",
+    "why_it_matters": "Energy bills are one of the biggest costs for families in winter.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Healey used his first budget on Wednesday 28 October to offer households and businesses some support with energy bills this winter.",
+      "source_url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/28/uk-treasury-chief-faces-headwinds-as-he-delivers-first-budget-under-new-prime-minister-andy-burnham"
+     },
+     {
+      "fact": "Healey was appointed Chancellor by Prime Minister Andy Burnham in July 2026.",
+      "source_url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/28/uk-treasury-chief-faces-headwinds-as-he-delivers-first-budget-under-new-prime-minister-andy-burnham"
+     }
+    ],
+    "numbers": [],
+    "geography": "United Kingdom",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "AP via NY1",
+      "title": "UK Treasury chief faces headwinds as he delivers first budget under new prime minister, Andy Burnham",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/28/uk-treasury-chief-faces-headwinds-as-he-delivers-first-budget-under-new-prime-minister-andy-burnham",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "rate-hikes",
+    "headline": "Central banks are raising interest rates as inflation worries grow",
+    "what_happened": "Markets widely expected the Reserve Bank of Australia to raise rates by 0.25 percentage points on Tuesday, and the Bank of England was tipped to raise to 4.0% on Thursday.",
+    "why_it_matters": "Higher interest rates make loans and mortgages cost more, but are meant to slow rising prices.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The RBA decides on Tuesday (3 November); markets widely expected a 25 basis point hike, taking the cash rate to 4.85%.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "The Bank of England is tipped to raise rates by 25 basis points to 4.0% on Thursday.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     },
+     {
+      "fact": "The US 10-year yield was 4.93%.",
+      "source_url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+     }
+    ],
+    "numbers": [],
+    "geography": "Australia; United Kingdom; United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "Markets live Nov 2",
+      "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "belgium-crisis",
+    "headline": "Belgium's prime minister offers his government's resignation after budget talks fail",
+    "what_happened": "Prime Minister Bart De Wever offered his government's resignation to King Philippe on Monday after overnight budget talks failed. The king is considering it and will consult party chairs from Tuesday.",
+    "why_it_matters": "Belgium must cut its deficit to meet EU rules; a government collapse could mean new elections.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "De Wever met King Philippe on Monday 2 November to offer his government's resignation after talks with his core cabinet on the budget failed overnight.",
+      "source_url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+     },
+     {
+      "fact": "The palace said the king is considering the resignation, will consult coalition party chairs from Tuesday 3 November, and says the country \"cannot afford\" a prolonged political crisis; De Wever is due to meet him again on Friday 6 November.",
+      "source_url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+     },
+     {
+      "fact": "Belgium must save EUR10 billion to stay within EU spending limits; the 2025 deficit was 5% of GDP against an EU maximum of 3%.",
+      "source_url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+     },
+     {
+      "fact": "Centrist and socialist parties want EUR1-1.5 billion raised by taxing higher incomes, while the conservative N-VA and liberal MR want spending cuts.",
+      "source_url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+     },
+     {
+      "fact": "If the resignation is accepted, new elections would be called.",
+      "source_url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+     },
+     {
+      "fact": "The five-party \"Arizona\" coalition took 234 days to form.",
+      "source_url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brussels, Belgium",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Belgium's PM De Wever to offer resignation to king after overnight budget talks fail",
+      "url": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "bulgaria-runoff",
+    "headline": "Bulgaria's Iliana Yotova wins the presidential runoff, exit polls show",
+    "what_happened": "Acting President Iliana Yotova led exit polls with about 57-58% in Sunday's runoff, which would make her Bulgaria's first elected female head of state; her rival Andrey Gyurov conceded.",
+    "why_it_matters": "The result shows how Bulgarians weigh closeness to Russia against Western partners during the war in Ukraine.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Polling institutes estimated Yotova, 62, at 57.4% to 58.2% and Gyurov at 38.6% to 39.6%; Gyurov conceded.",
+      "source_url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+     },
+     {
+      "fact": "If confirmed, Yotova would be Bulgaria's first elected female head of state.",
+      "source_url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+     },
+     {
+      "fact": "Yotova advocated a peaceful resolution to the war in Ukraine through negotiations with Russia, while Gyurov signalled closer alignment with Western partners.",
+      "source_url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+     },
+     {
+      "fact": "The presidency is largely ceremonial, but the president leads the armed forces, can veto legislation and signs international treaties; presidents serve five-year terms, limited to two.",
+      "source_url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+     }
+    ],
+    "numbers": [],
+    "geography": "Bulgaria; Black Sea",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Bulgaria's acting president Yotova leads in exit polls of runoff election",
+      "url": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "poland-tribunal",
+    "headline": "Poland's president and prime minister clash over the Constitutional Tribunal",
+    "what_happened": "Polish President Karol Nawrocki entered the Constitutional Tribunal in person to demand the return of its suspended conservative chief judge, while Prime Minister Donald Tusk's government seated new judges and riot police clashed with protesters.",
+    "why_it_matters": "A country's top court decides whether laws follow the constitution, so who sits on it matters to everyone.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Nawrocki entered the Constitutional Tribunal in person to demand the return of its suspended conservative chief judge.",
+      "source_url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+     },
+     {
+      "fact": "Tusk's government seated new judges, and riot police clashed with protesters; Tusk urged the president to confirm the judges.",
+      "source_url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+     },
+     {
+      "fact": "France's Marine Le Pen condemned the crisis, and Polish Foreign Minister Radoslaw Sikorski told her not to interfere.",
+      "source_url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes"
+     }
+    ],
+    "numbers": [],
+    "geography": "Warsaw, Poland",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Europe Today: Tusk v Nawrocki - Poland's Constitutional Tribunal crisis explodes",
+      "url": "https://www.euronews.com/2026/11/02/europe-today-tusk-v-nawrocki-polands-constitutional-court-crisis-explodes",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "gen-z-protests",
+    "headline": "Young people protest rising living costs in Germany and France; some protests turn violent",
+    "what_happened": "Largely peaceful 'Gen Z' protests over living costs in German cities turned violent after dark on Saturday, and French protests drew hundreds of thousands for a third weekend.",
+    "why_it_matters": "Young people say prices and costs are hitting them hardest, and governments are under pressure to respond.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "In Germany, largely peaceful afternoon protests mainly over rising living costs turned violent after dark in several cities including Frankfurt, Cologne, Hamburg and Berlin.",
+      "source_url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted"
+     },
+     {
+      "fact": "Police put the Berlin youth demonstration at about 3,500 people, with about 60 arrests; about 8,000 demonstrated in Frankfurt.",
+      "source_url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted"
+     },
+     {
+      "fact": "Hundreds of thousands of people joined protests across France on the third weekend of demonstrations against the rising cost of living.",
+      "source_url": "https://www.euronews.com/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire"
+     },
+     {
+      "fact": "French authorities opened an attempted murder investigation after an officer was set on fire when a petrol bomb went off at his feet in Paris.",
+      "source_url": "https://www.euronews.com/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire"
+     },
+     {
+      "fact": "The French government announced measures on university admissions, more teachers and capped class sizes as limited school protests resumed.",
+      "source_url": "https://www.euronews.com/my-europe/europe-news"
+     }
+    ],
+    "numbers": [],
+    "geography": "Germany (Berlin, Hamburg, Frankfurt, Cologne); France (Paris)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Germany 'Gen Z' protests turn violent as shops looted",
+      "url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Paris riots: France investigates after petrol bomb sets officer on fire",
+      "url": "https://www.euronews.com/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "spain-train-crash",
+    "headline": "Spain's train crash toll reaches 69",
+    "what_happened": "A Renfe high-speed train crashed into the back of a stationary Iryo train near the village of Urda, about 130 km south of Madrid; 69 people were killed.",
+    "why_it_matters": "It is Spain's second high-speed train collision this year, raising questions about rail safety.",
+    "importance": 7,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "69 people were killed; the crash happened outside the village of Urda, about 130 km south of Madrid.",
+      "source_url": "https://www.euronews.com/2026/11/02/one-czech-national-and-four-us-citizens-among-spain-train-crash-dead-officials-say"
+     },
+     {
+      "fact": "An automatic safety system failed and halted all trains on a 63 km stretch of track, and a control centre then authorised the Renfe service to resume while the Iryo train was still stationary; the article does not establish a final cause.",
+      "source_url": "https://www.euronews.com/2026/11/02/one-czech-national-and-four-us-citizens-among-spain-train-crash-dead-officials-say"
+     },
+     {
+      "fact": "Victims included 54 from Spain, 4 from the United States and people from France, Portugal, Canada, Japan, Argentina, Mexico, Tunisia and the Czech Republic.",
+      "source_url": "https://www.euronews.com/2026/11/02/one-czech-national-and-four-us-citizens-among-spain-train-crash-dead-officials-say"
+     },
+     {
+      "fact": "A January crash in Andalusia killed 46 people.",
+      "source_url": "https://www.euronews.com/2026/11/02/one-czech-national-and-four-us-citizens-among-spain-train-crash-dead-officials-say"
+     }
+    ],
+    "numbers": [],
+    "geography": "Urda, about 130 km south of Madrid, Spain",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "One Czech national and four US citizens among Spain train crash dead",
+      "url": "https://www.euronews.com/2026/11/02/one-czech-national-and-four-us-citizens-among-spain-train-crash-dead-officials-say",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-truce-talks",
+    "headline": "A six-day truce in Oleshky ends as Ukraine, Russia and the US eye talks next week",
+    "what_happened": "A six-day humanitarian ceasefire in Oleshky, in Russian-held Kherson region, ended on 1 November. Zelensky said three-way technical talks could be held 6-10 November, with Abu Dhabi the main venue under consideration.",
+    "why_it_matters": "Local truces and talks are small steps in a war that has gone on for years; where and when talks happen decides whether they can begin.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The 6-day ceasefire in Oleshky took effect on 27 October and officially ended on 1 November at 10:59 PM; it was meant for humanitarian aid and civilian evacuation.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     },
+     {
+      "fact": "Zelensky said technical-level talks among Ukraine, Russia and the US, with the US mediating, could be held 6-10 November 2026; Abu Dhabi is the main venue under consideration, with Switzerland also mentioned, and neither date nor venue is final.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     },
+     {
+      "fact": "Ukraine's General Staff said Russian forces used the pause to rotate personnel and bring in ammunition; Kremlin spokesperson Dmitry Peskov said Moscow had no detailed information and that moving troops during a ceasefire could be normal.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     },
+     {
+      "fact": "Kremlin aide Yuri Ushakov said Putin would take a call from Zelensky if Ukraine initiated it.",
+      "source_url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Oleshky, Kherson region (Russian-held); Abu Dhabi, UAE; Switzerland",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Sunday Guardian",
+      "title": "Ukraine says Russia used Oleshky ceasefire to 'improve its position'; Zelensky reveals dates for upcoming trilateral talks",
+      "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-ukraine-says-russia-used-oleshky-ceasefire-to-improve-its-position-zelensky-reveals-dates-for-upcoming-trilateral-talks-316035/",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "zaporizhzhia-strike",
+    "headline": "Russian bombs kill at least 24 people waiting for aid in Zaporizhzhia region",
+    "what_happened": "A Russian attack on the Komyshuvakha settlement in Ukraine's Zaporizhzhia region killed at least 24 people on Monday, Ukraine's emergency service said. President Zelenskyy said it dampened hopes raised by a short truce nearby.",
+    "why_it_matters": "The attack came just after a six-day local truce and ahead of possible new talks, and shows how fragile hopes for peace are.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Ukraine's State Emergency Service said at least 24 people were killed, including two rescue workers and four police officers.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     },
+     {
+      "fact": "Regional governor Ivan Fedorov said Russian forces fired at least nine KAB-3000 bombs over the course of the day; the target was reportedly a school used for humanitarian purposes where people were receiving aid.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     },
+     {
+      "fact": "Zelenskyy called the attack \"utterly horrific\" and said Russia was sending \"an entirely opposite signal\" to hopes of progress toward peace.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     },
+     {
+      "fact": "Evacuees from occupied Oleshky arrived in Ukraine on Saturday via Belarus during a rare humanitarian truce between Kyiv and Moscow.",
+      "source_url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-"
+     }
+    ],
+    "numbers": [],
+    "geography": "Komyshuvakha, Zaporizhzhia region, southeastern Ukraine; Oleshky, Kherson region",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Hopes of progress toward peace knocked by deadly Russian attack on Zaporizhzhia",
+      "url": "https://www.euronews.com/2026/11/02/hopes-of-progress-toward-peace-knocked-by-deadly-russian-attack-on-zaporizhzhia-zelenskyy-",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
