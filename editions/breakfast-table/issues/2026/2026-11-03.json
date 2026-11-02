@@ -87,7 +87,7 @@
     },
     "briefs": {
       "items": [
-        "India: Severe Cyclone Murasu was expected to cross the Andhra Pradesh coast near Ongole between 11:30 PM on 2 November and 4 AM on 3 November.",
+        "India: Gross GST collections rose nearly 23% in October to over Rs 2.31 lakh crore, the Finance Ministry said.",
         "Space: NASA's twin ESCAPADE spacecraft pass Earth on 7 and 9 November, firing engines for about nine minutes to speed toward Mars."
       ]
     },
@@ -112,22 +112,16 @@
       ]
     },
     "india": {
-      "kicker": "INDIA  •  ECONOMY",
-      "headline": "India's GST Tax Collections Jump Nearly 23% in a Year",
-      "deck": "More money moved through shops, services and ports, so the government collected more tax.",
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Chennai Shuts Schools as Cyclone Murasu Nears India's East Coast",
+      "deck": "Schools were shut in Chennai, and families along the coast were waiting for the storm to arrive.",
       "body": [
-        "India's government collected much more Goods and Services Tax, or GST, in October than a year earlier. The Finance Ministry said on 1 November that gross GST collections rose by nearly 23% to over Rs 2.31 lakh crore. GST is a tax added to many goods and services, and it helps pay for roads, schools and other public services.",
-        "The ministry said the growth was driven by activity inside India and by higher tax collected on imports, which are goods brought in from other countries.",
-        "Finance Minister Sitharaman has also been speaking about the economy. She said it shows no fragility and urged people to have confidence.",
-        "Money is also being invited into clean energy. On 2 November Prime Minister Narendra Modi opened the four-day Bharat Renewable Energy Summit & Expo in New Delhi. It runs until 5 November under the theme \"Invest. Innovate. Inspire.\", with country partners including Australia, Denmark, the EU, France, Germany, the Netherlands, Norway, Sweden and the UK."
+        "A severe cyclonic storm called Murasu was heading for the east coast of India. It was expected to cross the southern coast of Andhra Pradesh, between the towns of Nellore and Narsapur, near Ongole. The forecast time was between 11:30 PM on 2 November and 4 AM on 3 November, so many families would be awake or sleeping through it.",
+        "The winds were forecast at 100-110 kmph, with gusts up to 120 kmph. That is why Chennai, a big city in Tamil Nadu, closed its schools on 2 November. Delhi and the area around it were reported to be spared.",
+        "Families can plan better when a storm is announced in advance. A forecast tells people where and about when it will arrive, so they can decide what to do and where to go. Remember that this is a forecast written before the storm arrived, so the real time and strength may differ."
       ],
-      "why": "GST helps pay for public services, so rising collections show more money moving through the economy.",
+      "why": "A forecast tells families where a storm will cross and roughly when, so schools and homes can get ready.",
       "sources": [
-        {
-          "outlet": "GK Now",
-          "title": "Current Affairs - 2 November 2026",
-          "url": "https://gknow.in/current-affairs-2-november-2026/"
-        },
         {
           "outlet": "Indian Opinion",
           "title": "Today in India: 2 November 2026",
@@ -148,7 +142,7 @@
     },
     "watchlist": {
       "items": [
-        "Whether Cyclone Murasu crosses the Andhra Pradesh coast as forecast, and what damage it leaves.",
+        "Whether Cyclone Murasu crosses the Andhra Pradesh coast as forecast, and how strong its winds are.",
         "Whether the first ESCAPADE spacecraft passes Earth on 7 November and fires its engine as planned."
       ]
     },
@@ -225,9 +219,9 @@
         "story": "world"
       },
       {
-        "claim": "India's GST collections fell in October.",
+        "claim": "Chennai kept its schools open on 2 November because of Cyclone Murasu.",
         "true": false,
-        "why": "Gross GST collections rose by nearly 23% to over Rs 2.31 lakh crore.",
+        "why": "Chennai schools were closed on 2 November.",
         "story": "india"
       }
     ],
@@ -261,9 +255,9 @@
       },
       {
         "story": "india",
-        "place": "New Delhi",
-        "lat": 28.61,
-        "lon": 77.21,
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
         "countries": [
           "India"
         ]
@@ -282,13 +276,13 @@
       },
       {
         "story": "india",
-        "q": "By roughly what percent did India's GST collections rise in October from a year earlier?",
-        "answer": 23,
+        "q": "What top wind speed in kmph was forecast for gusts in Cyclone Murasu?",
+        "answer": 120,
         "prefix": "",
-        "unit": "%",
-        "min": 2,
-        "max": 60,
-        "why": "Gross GST collections rose by nearly 23% year on year."
+        "unit": "kmph",
+        "min": 40,
+        "max": 250,
+        "why": "Winds of 100-110 kmph were forecast, gusting to 120 kmph."
       }
     ],
     "brief": {
