@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-04",
+ "by": "claude-code",
+ "editions": {
+  "breakfast-table": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "current-affairs-digest": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "junior-daily": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  }
+ },
+ "enrichment": {
+  "enabled": true,
+  "selected": 3,
+  "stories": [
+   {
+    "headline": "Europe's Hera spacecraft sees the asteroid pair NASA's DART hit",
+    "status": "no_new_details",
+    "source_urls": [
+     "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+    ],
+    "note": "primary page already fetched in full during research and used as the story's source"
+   },
+   {
+    "headline": "Voyager 1 is about to be one light-day from Earth",
+    "status": "no_new_details",
+    "source_urls": [
+     "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+    ],
+    "note": "primary page already fetched in full during research and used as the story's source"
+   },
+   {
+    "headline": "Japanese scientists find all five DNA and RNA 'letters' in samples from asteroid Ryugu",
+    "status": "no_new_details",
+    "source_urls": [
+     "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+    ],
+    "note": "primary page already fetched in full during research and used as the story's source"
+   }
+  ]
+ }
+}
