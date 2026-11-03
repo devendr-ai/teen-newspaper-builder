@@ -1,0 +1,467 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-04",
+  "volume": 1,
+  "issue": 20,
+  "threads": {
+    "lead": "us-midterms-2026"
+  },
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UNITED STATES",
+      "headline": "Americans Vote in Midterm Elections for Congress",
+      "deck": "Prices and the war with Iran were on many voters’ minds on Tuesday 3 November.",
+      "body": [
+        "On Tuesday 3 November, Americans voted in midterm elections. They decide which party controls Congress, the group of lawmakers who write the country’s laws, for the last two years of President Trump’s term. Voters chose all 435 seats in the House of Representatives and 35 seats in the Senate.",
+        "Many voters said money worries were on their minds. They cited high prices and the war with Iran. More than 59 million Americans voted early, according to the University of Florida Voting Lab.",
+        "Forecasters widely expected Democrats to win the House, while control of the Senate was less clear. Those are forecasts, not results. CBS News notes that close races may be called later, and that this is not in itself a sign of fraud."
+      ],
+      "map": {
+        "title": "ELECTION DAY ACROSS THE COUNTRY",
+        "label_top": "UNITED STATES",
+        "label_bottom": "ALL 435 HOUSE SEATS UP",
+        "footnote": "35 Senate seats and 36 governors’ races on the ballot too",
+        "caption": "Voters in every state chose lawmakers for Congress.",
+        "countries": [
+          "United States"
+        ]
+      },
+      "why": "The vote decides which party controls the House and the Senate for the last two years of Trump’s term.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "5 things to watch on Election Day as Democrats push for control of Congress",
+          "url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SPACE",
+      "headline": "Scientists Find All Five DNA “Letters” in Samples From an Asteroid",
+      "deck": "Rock from the asteroid Ryugu held the chemical building blocks of genetic information.",
+      "body": [
+        "Scientists have found all five chemical “letters” of DNA and RNA in samples from a space rock. These letters are called nucleobases. The five are adenine, guanine, cytosine, thymine and uracil.",
+        "Japan’s Hayabusa2 mission collected samples from the carbon-rich asteroid Ryugu and brought 5.4 grams back to Earth in 2020. A team of Japanese scientists then worked in ultra-clean laboratory conditions so that nothing from Earth could get mixed in.",
+        "They used water and hydrochloric acid to pull organic molecules out of the rock. All five nucleobases turned up in both samples they analysed. The results appeared in the journal Nature Astronomy.",
+        "There are limits. The study looked at only two samples, and it does not show that these molecules made life. It suggests the letters were widespread in the early Solar System."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "FROM ASTEROID TO LAB RESULT",
+        "caption": "The order of steps reported for the Ryugu study.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+        "items": [
+          {
+            "label": "Hayabusa2 collects rock from Ryugu",
+            "evidence": "Hayabusa2 mission collected samples from the carbon-rich asteroid Ryugu"
+          },
+          {
+            "label": "5.4 grams come back to Earth in 2020",
+            "evidence": "brought 5.4 grams back to Earth in 2020"
+          },
+          {
+            "label": "Clean-lab team pulls out the molecules",
+            "evidence": "They used water and hydrochloric acid to pull organic molecules out of the rock"
+          },
+          {
+            "label": "All five nucleobases turn up in both samples",
+            "evidence": "All five nucleobases turned up in both samples they analysed"
+          }
+        ]
+      },
+      "connect": "Space rocks that land on Earth, called meteorites, can be contaminated. That is why samples collected in space, like Ryugu’s, are so valuable. NASA’s asteroid Bennu also gave all five nucleobases in 2025.",
+      "sources": [
+        {
+          "outlet": "The Conversation via ScienceDaily",
+          "title": "All 5 genetic 'letters' of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Officials Fix Machine Problems as Ballots Are Counted Safely",
+      "deck": "The Justice Department said it was sending about 1,000 monitors to all 50 states.",
+      "body": [
+        "On election day, some places had trouble with their voting machines. In Westchester County, New York, scanner problems meant ballots that could not be scanned were collected securely and counted.",
+        "In Fulton County, Georgia, two machine problems affected about 1,000 early ballots. Officials planned a public rescan.",
+        "The Justice Department said it would send about 1,000 monitors to all 50 states, the first time it has done so. Separately, the Supreme Court said no to a Justice Department request to make California set aside about 20,000 mail ballots from alleged noncitizens."
+      ],
+      "why": "Checking votes carefully helps people trust the result.",
+      "also": [
+        "Minnesota: People cast 886,427 early ballots through Sunday, above its 2022 midterm record of 687,062.",
+        "Alaska: Voters rank candidates, and the lowest finisher is dropped until one candidate has more than 50%."
+      ],
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: Oil fell for a second day on hopes of talks to end the war, with Brent at $103.60 a barrel.",
+        "Space: NASA says Voyager 1 will be one light-day from Earth on 18 November."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Many voters said high prices were on their minds. How might the cost of everyday things change what a family thinks about the news?",
+        "Some machines had problems on election day, and officials counted ballots another way. Why is it good to have a back-up plan for something as important as voting?",
+        "Scientists found the five DNA letters in rock from an asteroid. What would you like to ask a scientist who studies space rocks?"
+      ],
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "The Conversation via ScienceDaily",
+          "title": "All 5 genetic 'letters' of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  WEATHER",
+      "headline": "Cyclone Murasu Hits Andhra Pradesh and Thousands Move to Shelters",
+      "deck": "No deaths had been reported in the latest official updates.",
+      "body": [
+        "Severe Cyclonic Storm Murasu crossed India’s south Andhra Pradesh coast near Ongole in the early hours of Tuesday 3 November. India’s weather department said winds were around 100 to 110 kilometres an hour, with gusts up to 120.",
+        "About 10,000 people moved into relief shelters. Strong winds and heavy rain knocked down trees and electricity poles and flooded low-lying areas. Schools in some districts stayed closed, and 19 domestic flights were cancelled. Andhra Pradesh’s disaster authority said no deaths or injuries had been reported so far.",
+        "Farms took a hit. The Tribune reported more than 30,000 hectares of crops damaged across 15 districts, mostly paddy, cotton and maize. Families can report problems such as power cuts and fallen trees through a WhatsApp service called Mana Mitra. The weather department expected the storm to weaken, but heavy rain to continue."
+      ],
+      "why": "Warnings and shelters help families get to safety, and a repair list helps them get back to normal.",
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "NationPath News",
+          "title": "Cyclone Murasu completes landfall near Ongole; heavy rain batters Andhra Pradesh",
+          "url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER: MONDAY NIGHT",
+      "body": "Basketball: Luka Doncic scored 42 as the Lakers beat Miami 138-117, and Stephen Curry scored 34 in Golden State’s 116-113 win over Phoenix. Football: Chicago beat Seattle 34-17 in the NFL.",
+      "sources": [
+        {
+          "outlet": "Plain Text Sports",
+          "title": "NBA Scores on November 2, 2026",
+          "url": "https://plaintextsports.com/nba/2026-11-02/"
+        },
+        {
+          "outlet": "ESPN",
+          "title": "NFL Schedule - 2026 Season",
+          "url": "https://www.espn.com/nfl/schedule"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "The vote counts, and which party wins the House and Senate.",
+        "Where the Iran talks go next, and what happens to oil prices."
+      ]
+    },
+    "quote": {
+      "text": "A vote is a way of telling leaders what matters to us.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "https://www.cnbc.com/2026/11/03/election-day-congress-races.html",
+    "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+    "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+    "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026",
+    "https://plaintextsports.com/nba/2026-11-02/",
+    "https://www.espn.com/nfl/schedule"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many seats in the House of Representatives were on the ballot?",
+        "options": [
+          "435",
+          "35",
+          "36"
+        ],
+        "answer": 0,
+        "why": "All 435 House seats were on the ballot.",
+        "story": "lead"
+      },
+      {
+        "q": "How many Americans had voted early, according to the University of Florida Voting Lab?",
+        "options": [
+          "About 5 million",
+          "More than 59 million",
+          "About 590 million"
+        ],
+        "answer": 1,
+        "why": "More than 59 million Americans voted early.",
+        "story": "lead"
+      },
+      {
+        "q": "What mission brought samples back from the asteroid Ryugu?",
+        "options": [
+          "Hayabusa2",
+          "Voyager",
+          "Hera"
+        ],
+        "answer": 0,
+        "why": "Japan’s Hayabusa2 mission collected the samples.",
+        "story": "world"
+      },
+      {
+        "q": "How many nucleobases were found in the Ryugu samples?",
+        "options": [
+          "Two",
+          "Three",
+          "Five"
+        ],
+        "answer": 2,
+        "why": "All five nucleobases were found in both samples.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Justice Department said it would send about 1,000 monitors to all 50 states.",
+        "true": true,
+        "why": "It said so, calling this the first time it has done so.",
+        "story": "us"
+      },
+      {
+        "claim": "Cyclone Murasu crossed the coast of Tamil Nadu.",
+        "true": false,
+        "why": "It crossed the south Andhra Pradesh coast near Ongole.",
+        "story": "india"
+      },
+      {
+        "claim": "Scientists say the Ryugu finding proves that these molecules made life.",
+        "true": false,
+        "why": "The paper says the study does not show that.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Fulton County, Georgia",
+        "lat": 33.8,
+        "lon": -84.4,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many seats in the House of Representatives were on the ballot?",
+        "answer": 435,
+        "prefix": "",
+        "unit": "seats",
+        "min": 100,
+        "max": 700,
+        "why": "All 435 House seats were on the ballot."
+      },
+      {
+        "story": "india",
+        "q": "About how many people moved into relief shelters in Andhra Pradesh?",
+        "answer": 10000,
+        "prefix": "",
+        "unit": "people",
+        "min": 1000,
+        "max": 50000,
+        "why": "About 10,000 people moved into relief shelters."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for Wednesday, 4 November. I'm Maya, with Sam. Today, why do prices show up on a ballot? Let's find out.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Our top story is from the United States, where people voted on Tuesday. What were they voting for?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Midterm vote"
+        },
+        {
+          "who": "maya",
+          "text": "They were midterm elections, and they decide which party controls Congress for the last two years of President Trump's term. Voters chose all 435 seats in the House of Representatives and 35 seats in the Senate.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Does the result come in right away?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Not always. CBS News notes that close races may be called later, and that this is not in itself a sign of fraud.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Why were people talking about prices?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Many voters said high prices for everyday goods and the war with Iran were on their minds. More than 59 million Americans voted early. Forecasters widely expected Democrats to win the House, but those are forecasts, not results.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now to space. What did scientists find in rock from an asteroid?",
+          "section": "story",
+          "story": "world",
+          "chapter": "Asteroid letters"
+        },
+        {
+          "who": "maya",
+          "text": "Samples from the asteroid Ryugu, brought back to Earth in 2020 by Japan's Hayabusa2 mission, held all five chemical letters of DNA and RNA. They are called nucleobases.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "How did the scientists make sure the letters came from the asteroid?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "They worked in ultra-clean laboratory conditions so that nothing from Earth could get mixed in. The study looked at only two samples, and it does not show that these molecules made life.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Why are samples from space so useful?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Samples from asteroids matter because meteorites that land on Earth can be contaminated. Pristine samples collected in space avoid that problem. NASA's asteroid Bennu also gave all five nucleobases in 2025.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Back on Earth, how did election officials deal with problems with voting machines?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Counting safely"
+        },
+        {
+          "who": "maya",
+          "text": "In Westchester County, New York, ballots that could not be scanned were collected securely and counted. In Fulton County, Georgia, two machine problems affected about 1,000 early ballots, and officials planned a public rescan.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Why does it matter that officials rescan and recount?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Checking votes carefully helps people trust the result. It is also why the count can take time.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Is anyone checking the work?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "The Justice Department said it would send about 1,000 monitors to all 50 states, the first time it has done so. Ready for a quick quiz?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "How many seats in the House of Representatives were on the ballot?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "435 All 435 House seats were on the ballot.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "How many nucleobases were found in the Ryugu samples?",
+          "section": "quiz_question",
+          "quiz": 3
+        },
+        {
+          "who": "maya",
+          "text": "Five All five nucleobases were found in both samples.",
+          "section": "quiz_answer",
+          "quiz": 3
+        },
+        {
+          "who": "sam",
+          "text": "Some machines had problems on election day, and officials counted ballots another way. Why is it good to have a back-up plan for something as important as voting?",
+          "section": "discussion"
+        },
+        {
+          "who": "maya",
+          "text": "That's the news for today. Thanks for listening, and have a great day.",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}

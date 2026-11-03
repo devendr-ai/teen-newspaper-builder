@@ -1,0 +1,605 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-11-04",
+  "volume": 1,
+  "issue": 20,
+  "threads": {
+    "politics_and_civics": "us-midterms-2026"
+  },
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  INDIA",
+      "headline": "Cyclone Murasu Hits Andhra Pradesh; About 10,000 Move to Shelters",
+      "deck": "The second cyclone to reach the region in a week brought wind, floods and crop damage. No deaths had been reported.",
+      "body": [
+        "Severe Cyclonic Storm Murasu crossed the south Andhra Pradesh coast near Ongole in the early hours of Tuesday 3 November. India’s weather department, the IMD, said it crossed between Nellore and Narsapur between 3:30 am and 5:30 am IST. Landfall means the moment a storm’s centre crosses from sea to land. Sustained winds were about 100 to 110 kmph, with gusts up to 120 kmph.",
+        "Heavy rain came with the wind. Naguluppalapadu in Prakasam district recorded 198.01 mm of rain up to 6 am, and Kothapatnam 182.25 mm. Trees and electricity poles fell, low-lying areas flooded, and 19 domestic flights were cancelled in Andhra Pradesh during the early phase of the disruption.",
+        "The state moved 10,805 people to cyclone shelters, according to The Tribune; the Union Home Ministry’s figure was about 10,000. Prakhar Jain of the state disaster management authority said no deaths or injuries had been reported so far.",
+        "Farmers took the heaviest hit. The Tribune reported more than 30,000 hectares of crops damaged across 15 districts, mostly paddy, cotton and maize. A government press release gave 30,661 acres, and the article did not explain the difference, so the total may change.",
+        "The IMD expected Murasu to weaken to a deep depression, with heavy rain continuing."
+      ],
+      "map": {
+        "title": "WHERE MURASU CROSSED THE COAST",
+        "label_top": "INDIA",
+        "label_bottom": "BAY OF BENGAL",
+        "footnote": "Between Nellore and Narsapur, near Ongole",
+        "caption": "The storm crossed India’s east coast in Andhra Pradesh.",
+        "countries": [
+          "India"
+        ]
+      },
+      "why": "Landfall is only part of the danger: heavy rain continues after the wind drops, and damage to crops and power lines lasts longer than the storm. Shelters and relief camps are how authorities limit harm.",
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "NationPath News",
+          "title": "Cyclone Murasu completes landfall near Ongole; heavy rain batters Andhra Pradesh",
+          "url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  HEALTH",
+      "headline": "Ebola Outbreak in DR Congo Passes 10,000 Confirmed Cases as Vaccine Trial Runs",
+      "deck": "The outbreak is caused by Bundibugyo virus, a strain with no licensed vaccine or treatment.",
+      "body": [
+        "The European Centre for Disease Prevention and Control (ECDC) reported 10,193 confirmed Ebola cases and 4,960 deaths in the Democratic Republic of the Congo in its update of 29 October, with Congo data through 27 October. Of those who tested positive, 2,749 have recovered, and 936 patients are in hospital isolation. ECDC notes that Congo’s figures are under continuous review and harmonisation, so counts can change.",
+        "The cause matters. This outbreak is caused by Bundibugyo virus, not the Zaire species behind earlier large outbreaks, and there are no licensed vaccines or specific therapeutics for Bundibugyo virus disease. ECDC says early genomes from Congo and Uganda show sequences distinct from previous outbreaks.",
+        "The disease has spread widely inside Congo. Sixty-six of 178 health zones are affected across eight provinces. Ituri has the most cases, 7,278 with 3,407 deaths, followed by Nord-Kivu with 2,361 cases and 1,325 deaths. The latest update added 52 new confirmed cases and 32 new deaths, 31 of the cases in Ituri.",
+        "Vaccine research is moving in parallel. The TUMAINI Phase 2/3 trial began on 23 October in Bunia, Ituri, testing several vaccine candidates including Ervebo, the licensed rVSV-ZEBOV vaccine. WHO and its vaccine advisers, SAGE, recommend using Ervebo, primarily within a research protocol. A campaign for frontline workers with Ervebo began on 27 August in Kisangani. Other candidates, including ones from Oxford and Moderna, are in pre-clinical or early-stage trials.",
+        "Beyond Congo, Kenya reported 9 confirmed cases and 2 deaths as of 26 October, all linked to a first case that had travelled from Congo via Uganda. Nigeria reported one case on 20 October, in a woman who had travelled from Uganda; she was evacuated to Switzerland for treatment. Uganda declared its own outbreak over on 28 July, and WHO did so on 27 August. ECDC rates the risk as low for people from the EU and EEA living in or travelling to affected areas, and very low for the general EU and EEA population."
+      ],
+      "illustration": {
+        "title": "AN OUTBREAK IN EASTERN CONGO",
+        "subtitle": "Explainer diagram",
+        "motif": "hospital",
+        "caption": "Ituri and Nord-Kivu have the most confirmed cases."
+      },
+      "connect": "Geography and health: cases are concentrated in the eastern provinces of Ituri and Nord-Kivu, yet travel carried the virus to Kenya and Nigeria. That is why contact tracing, which follows everyone who met a patient, and quick trials matter.",
+      "sources": [
+        {
+          "outlet": "ECDC",
+          "title": "Ebola disease caused by Bundibugyo virus, DRC and neighbouring countries",
+          "url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  COURTS",
+      "headline": "Supreme Court Allows Green Firecrackers in Delhi-NCR for Two Diwali Days",
+      "deck": "A bench set strict rules, and the full ban returns on 9 November.",
+      "body": [
+        "On 2 November the Supreme Court allowed approved green firecrackers to be made, sold and burst in Delhi and the National Capital Region for a limited period around Diwali. The bench was Justice M. M. Sundresh and Justice Prasanna B. Varale. The relaxation is temporary, and the complete ban returns on 9 November 2026. The case is Arjun Gopal and Others v. Union of India and Others.",
+        "The hours are reported differently. LiveLaw reports that bursting is allowed from 6 AM to 8 PM on 7 November and from 7 AM to 10 PM on 8 November. Bar & Bench reports narrower windows, 6 to 7 AM and 8 to 10 PM on both days, so the court’s order text is the safest guide.",
+        "The rules for sellers are strict. Only crackers approved by CSIR-NEERI may be sold, and conventional crackers may not enter the market disguised as green. Ladis, crackers joined in series, garlands and crackers containing barium are banned. Each box must carry a batch-specific QR code that shows the manufacturer, registration, licence, formulation and test certificate. Sale is allowed only at locations designated by district authorities and police, and sale elsewhere, including online platforms, is prohibited.",
+        "Enforcement falls on the police and pollution boards. Police must patrol designated markets, verify QR codes, confiscate illegal crackers and check vehicles entering Delhi-NCR. No bursting is allowed within 300 metres of hospitals, nursing homes, health centres, old-age homes, silence zones and educational institutions. The Central and State Pollution Control Boards must file daily air-quality reports for 2 to 6 November, 7 to 8 November and 9 to 30 November.",
+        "The directions broadly follow last year’s order, which also allowed a similar Diwali relaxation. Manufacturers and traders in Delhi-NCR must furnish monetary security that is forfeited immediately on a violation, and licences of violating traders will be cancelled immediately. The court invoked the Precautionary Principle, meaning acting proactively rather than reacting after harm occurs, and said it wants people to “embrace the Precautionary Principle by being proactive.” Authorities must also give an affidavit on the precise increase in patient admissions at hospitals and health centres. All reports and affidavits are due by 14 December, and a compliance hearing is listed for 16 December."
+      ],
+      "illustration": {
+        "title": "THE COURT SETS THE RULES",
+        "subtitle": "Explainer diagram",
+        "motif": "court",
+        "caption": "Approved green crackers only, with fixed hours and no-cracker zones."
+      },
+      "why": "The order shows a court weighing a festival tradition against public health. Its conditions, from QR codes to hospital-admission reports, mean the effect of the relaxation will be measured, and the 16 December hearing will test whether the rules were followed.",
+      "sources": [
+        {
+          "outlet": "LiveLaw",
+          "title": "Supreme Court allows certified green crackers in Delhi-NCR for Diwali on Nov 7-8; year-round ban to resume on Nov 9",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+        },
+        {
+          "outlet": "Bar & Bench",
+          "title": "Diwali 2026: Supreme Court allows bursting of green crackers in Delhi-NCR on November 7 and 8",
+          "url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "US Midterms: Voters Decide Control of Congress",
+      "deck": "All 435 House seats and 35 Senate seats were on the ballot on Tuesday 3 November.",
+      "body": [
+        "Americans voted on Tuesday 3 November in midterm elections that decide control of Congress for the last two years of President Donald Trump’s term. All 435 House seats and 35 Senate seats were on the ballot, and 36 states were electing governors. Before the vote, Republicans held 53 Senate seats to the Democrats’ 47. In the House, Republicans held 218 seats plus an independent who normally caucuses with them, Democrats held 214, and two seats were vacant.",
+        "The stakes differ by chamber. Democrats are widely projected to win the House, which would make Rep. Hakeem Jeffries the first Black House speaker in US history. CBS’s Battleground Tracker of 25 October projected 229 Democratic House seats, within a range of 215 to 237; at 215, Republicans would keep a narrow majority. House Speaker Mike Johnson said control could hinge on about 21 seats. The Senate is harder to call: Democrats need to flip four Republican seats while holding all their own. CBS named 11 key races, including Texas, where State Rep. James Talarico (D) faces Attorney General Ken Paxton (R), and Michigan, where Abdul El-Sayed (D) faces former Rep. Mike Rogers (R).",
+        "Voters pointed to high consumer prices, the war with Iran, perceived government corruption and an immigration crackdown, and Trump’s approval ratings have been persistently low. In Kansas, which has not elected a Democratic senator since 1932, the Senate race was rated a toss-up. More than 59 million Americans voted early, according to the University of Florida Voting Lab. Minnesota recorded 886,427 early ballots through Sunday, above its 2022 midterm record of 687,062.",
+        "The map itself is part of the story. Republican-led states redrew congressional maps mid-decade to favour the GOP, and Democrats responded with their own redraws. In Texas and Florida, Republicans redrew nine seats to be more Republican, but the Cook Political Report favours Republicans in only three of them. An April Supreme Court decision weakened a key section of the Voting Rights Act, which endangers majority-Black districts in the South. The Justice Department said it would deploy about 1,000 monitors to all 50 states.",
+        "Polls closed at 7 p.m. Eastern time in Georgia, Indiana, Kentucky, South Carolina, Vermont and Virginia, with later closings elsewhere. CBS notes that close races may be called later, and that this is not in itself evidence of fraud."
+      ],
+      "illustration": {
+        "title": "WHAT WAS ON THE BALLOT",
+        "subtitle": "Explainer diagram",
+        "motif": "ballot",
+        "caption": "Both chambers of Congress were at stake."
+      },
+      "why": "Control of a chamber decides which party sets its agenda. CNBC notes that Democratic control of the House or Senate would bring more congressional oversight and investigations of the administration, so a midterm can change politics without a presidential election.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "5 things to watch on Election Day as Democrats push for control of Congress",
+          "url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  MARKETS",
+      "headline": "Sensex and Nifty Rise for a Fourth Day as Crude Oil Eases",
+      "deck": "Hopes of talks to end the Iran war pushed oil lower, and Indian shares followed.",
+      "body": [
+        "India’s stock markets rose for a fourth straight day on Tuesday 3 November. The Nifty finished 1.58% higher at 23,810.85, and the Sensex gained 1.62% to close at 76,917.85. Business Standard’s headline said foreign portfolio investor buying was the highest in a year, and its report described easing crude oil prices as a driver of the rally.",
+        "The day before was bigger. On Monday 2 November the Sensex surged 1,233.25 points, or 1.66%, to close at 75,692.78, and the Nifty rose 387.70 points to settle at 23,440.80. The rupee was at 94.90 per US dollar that day, with marginal gains.",
+        "Oil is the link. Brent crude, the international benchmark, fell 7.6% on Monday to close at $104.77 a barrel, its sharpest drop in three months, after Washington and Tehran signalled openness to talks. On Tuesday Brent fell another $1.17 to settle at $103.60. Even so, crude gained more than 10% in October as markets priced in escalation risk, and Goldman Sachs raised its December Brent forecast to $105, warning that prices could reach $140 if Gulf output stays 3.5 million barrels a day below 2025 levels.",
+        "Why does this reach households? India’s inflation rate rose to 5.54% in September from 4.83% in August, and Trading Economics said higher oil prices and a weaker rupee drove transport inflation to 5.01%. The Reserve Bank of India raised its repo rate, the rate at which it lends to banks, by 25 basis points to 5.5% on 7 October, its first rise since 2023, and raised its retail inflation forecast for FY27 from 5% to 5.2%. A basis point is one hundredth of a percentage point.",
+        "CNBC notes that the oil market has sold off on settlement rumours earlier in the war, only for the conflict to escalate and prices to spike again, so the rally rests on hope rather than a deal."
+      ],
+      "chart": {
+        "title": "INDIAN SHARES: DAILY GAINS",
+        "subtitle": "Per cent rise at close",
+        "labels": [
+          "Sensex Mon",
+          "Sensex Tue",
+          "Nifty Tue"
+        ],
+        "values": [
+          1.66,
+          1.62,
+          1.58
+        ],
+        "max": 2,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Sensex rose 1.66% on Monday 2 November and 1.62% on Tuesday 3 November; Nifty rose 1.58% on Tuesday."
+      },
+      "why": "Higher oil prices and a weaker rupee drove India’s transport inflation to 5.01%, and the RBI has started raising rates. Cheaper oil could ease that pressure, but only if the fall lasts.",
+      "analyst": "What would have to happen in the Iran talks for oil to keep falling, and what would send it back up? Who gains and who loses if the RBI keeps raising rates while oil is lower?",
+      "sources": [
+        {
+          "outlet": "Business Standard",
+          "title": "Markets extend gains for fourth day; FPI buying highest in a year",
+          "url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+        },
+        {
+          "outlet": "Telangana Today",
+          "title": "Sensex jumps 1,233 points, Nifty closes above 23,400 on oil price fall",
+          "url": "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+          "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "India's central bank hikes rates for the first time since 2023 as inflation risks build",
+          "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+        },
+        {
+          "outlet": "Trading Economics",
+          "title": "India Inflation Rate",
+          "url": "https://tradingeconomics.com/india/inflation-cpi"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Voyager 1 Is About to Be One Light-Day From Earth",
+      "deck": "The 1977 probe will reach 25.89 billion km on 18 November, a distance light takes a day to cross.",
+      "body": [
+        "NASA’s Voyager 1 will reach one light-day from Earth, 16.09 billion miles (25.89 billion km), on 18 November, according to NASA’s Jet Propulsion Laboratory (JPL). A light-day is the distance light travels in one day. NASA says no other human-made object has reached this distance. Voyager 1 travels at about 38,000 mph (61,155 kph) through interstellar space, and a round trip for a signal now takes about 48 hours.",
+        "The probe launched in 1977, nearly 50 years ago, with 10 instruments; two have been deactivated in recent years because of power limits. Both Voyager spacecraft have crossed into interstellar space, and they are the only craft to study that region directly. Their power comes from radioisotope thermoelectric generators, which turn heat from plutonium decay into electricity, and each probe loses about 4 watts a year.",
+        "To stretch that power, engineers made a change in early September, replacing three devices with lower-power alternatives. The six devices involved help maintain internal temperatures. The work came about six weeks after an identical procedure on Voyager 2. Without it, another instrument could have been shut down as early as summer 2027.",
+        "The mission also had a scare. On 18 and 19 October NASA’s Deep Space Network failed to receive Voyager 1’s signal on two attempts 24 hours apart, when it was about 16 billion miles (24 billion km) away. Contact returned on 20 October, about 48 hours after the interruption began. Engineers found that one set of thrusters had stopped working and the spacecraft had switched to backup thrusters under its fault protection system. The cause is not yet determined.",
+        "“This is the first time we’ve seen the spacecraft do something like this,” said Kareem Badaruddin, Voyager mission manager at JPL. Suzanne Dodd, the Voyager project manager, described the delay as waiting “two days before you finally get a response.” The milestone is about distance, not a physical event: EarthSky notes that Voyager 1 will not detect any change in its environment, and nothing will change aboard, when it passes one light-day. JPL’s news item says Voyager 1 still has two science instruments operating. The JPL release is a press release, not a peer-reviewed paper."
+      ],
+      "illustration": {
+        "title": "ONE LIGHT-DAY FROM EARTH",
+        "subtitle": "Explainer diagram",
+        "motif": "rocket",
+        "caption": "A signal now needs about 48 hours for a round trip."
+      },
+      "why": "Voyager shows how long space missions depend on careful engineering: with power falling by about 4 watts a year, each change that saves energy can keep an instrument running longer, and every command now takes about two days to be answered.",
+      "sources": [
+        {
+          "outlet": "NASA JPL via ScienceDaily",
+          "title": "NASA's Voyager 1 is about to reach a historic one-light-day milestone",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+        },
+        {
+          "outlet": "EarthSky",
+          "title": "Voyager 1 to reach 1 light-day from Earth on November 18",
+          "url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+        },
+        {
+          "outlet": "NASA JPL",
+          "title": "NASA's Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+          "url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: Brent crude settled at $103.60 after a second day of falls; Trump said Tehran wants a deal, while Iran’s foreign ministry spokesman said it will reject diplomacy based on coercion, with Qatar mediating.",
+        "Space: Europe’s Hera spacecraft photographed the asteroids Didymos and Dimorphos as two separate objects for the first time, about 197 million km from Earth; detailed images are due on 25 November.",
+        "Japan: A team of Japanese scientists reported in Nature Astronomy that two samples from the asteroid Ryugu contained all five nucleobases, the letters of DNA and RNA.",
+        "United States: Minnesota recorded 886,427 early ballots through Sunday, above its 2022 midterm record of 687,062."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Landfall",
+          "def": "The moment a storm’s centre crosses from sea to land. Today: Cyclone Murasu made landfall near Ongole on 3 November."
+        },
+        {
+          "word": "Precautionary Principle",
+          "def": "The idea of acting early to prevent harm rather than reacting after it happens. Today: the Supreme Court invoked it in its Diwali firecracker order."
+        },
+        {
+          "word": "Ranked-choice voting",
+          "def": "A system in which voters rank candidates and the lowest finisher is dropped until one passes 50%. Today: Alaska’s Senate race uses it."
+        },
+        {
+          "word": "Light-day",
+          "def": "The distance light travels in one day, about 25.89 billion km. Today: Voyager 1 reaches one on 18 November."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A radio message to Voyager 1 needs about 48 hours for a round trip, so engineers wait two days for a reply."
+    },
+    "explainer": {
+      "title": "How Alaska’s ranked-choice voting works",
+      "body": [
+        "In Alaska, the top four primary finishers appear on the general election ballot. Voters then rank the candidates. If no one has more than 50% of first choices, the lowest finisher is eliminated and their votes are redistributed to those voters’ next choices. This repeats until one candidate exceeds 50%.",
+        "Alaska’s Senate race was one of the 11 key races CBS named, and it is held by Republicans. CBS notes that close races may be called later, which is not in itself evidence of fraud."
+      ],
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> Which Indian state did Cyclone Murasu cross?",
+        "(a) Andhra Pradesh  (b) Odisha  (c) Kerala",
+        "<b>2.</b> How many people did the state move to cyclone shelters, according to The Tribune?",
+        "(a) 1,080  (b) 10,805  (c) 108,050",
+        "<b>3.</b> Which virus causes the outbreak in the Democratic Republic of the Congo?",
+        "(a) Zaire virus  (b) Bundibugyo virus  (c) Marburg virus",
+        "<b>4.</b> How many of Congo’s 178 health zones are affected?",
+        "(a) 66  (b) 16  (c) 116",
+        "<b>5.</b> Which body must approve the green crackers allowed in Delhi-NCR?",
+        "(a) CSIR-NEERI  (b) CPCB only  (c) The Election Commission",
+        "<b>6.</b> How many House seats were on the ballot in the US midterms?",
+        "(a) 35  (b) 100  (c) 435",
+        "<b>7.</b> For how many days in a row had India’s Sensex and Nifty risen by 3 November?",
+        "(a) Two  (b) Four  (c) Ten",
+        "<b>8.</b> On which date will Voyager 1 reach one light-day from Earth?",
+        "(a) 18 November  (b) 1 December  (c) 25 October",
+        "<b>Answers:</b> 1 a, 2 b, 3 b, 4 a, 5 a, 6 c, 7 b, 8 a."
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "ECDC",
+          "title": "Ebola disease caused by Bundibugyo virus, DRC and neighbouring countries",
+          "url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+        },
+        {
+          "outlet": "LiveLaw",
+          "title": "Supreme Court allows certified green crackers in Delhi-NCR for Diwali on Nov 7-8; year-round ban to resume on Nov 9",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "Business Standard",
+          "title": "Markets extend gains for fourth day; FPI buying highest in a year",
+          "url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+        },
+        {
+          "outlet": "NASA JPL via ScienceDaily",
+          "title": "NASA's Voyager 1 is about to reach a historic one-light-day milestone",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Cyclone Murasu: the final damage count for crops and homes in Andhra Pradesh, and whether any deaths are reported.",
+        "US midterms: which party wins the House and the Senate, and how long the close races take to call.",
+        "Iran: whether the Qatar-mediated talks produce a deal, and whether oil keeps falling from $103.60."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "https://www.cnbc.com/2026/11/03/election-day-congress-races.html",
+    "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+    "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+    "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026",
+    "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8",
+    "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915",
+    "https://www.ecdc.europa.eu/en/epipulse_event/2104",
+    "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
+    "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+    "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+    "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html",
+    "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall",
+    "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+    "https://tradingeconomics.com/india/inflation-cpi"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Which Indian state did Cyclone Murasu cross?",
+        "options": [
+          "Andhra Pradesh",
+          "Odisha",
+          "Kerala"
+        ],
+        "answer": 0,
+        "why": "The IMD said it crossed the south Andhra Pradesh coast near Ongole.",
+        "story": "lead"
+      },
+      {
+        "q": "How many people did the state move to cyclone shelters, according to The Tribune?",
+        "options": [
+          "1,080",
+          "10,805",
+          "108,050"
+        ],
+        "answer": 1,
+        "why": "The Tribune reported 10,805 people moved to cyclone shelters.",
+        "story": "lead"
+      },
+      {
+        "q": "Which virus causes the outbreak in the Democratic Republic of the Congo?",
+        "options": [
+          "Zaire virus",
+          "Bundibugyo virus",
+          "Marburg virus"
+        ],
+        "answer": 1,
+        "why": "ECDC says the outbreak is caused by Bundibugyo virus.",
+        "story": "world"
+      },
+      {
+        "q": "How many of Congo’s 178 health zones are affected?",
+        "options": [
+          "66",
+          "16",
+          "116"
+        ],
+        "answer": 0,
+        "why": "Sixty-six of 178 health zones across eight provinces are affected.",
+        "story": "world"
+      },
+      {
+        "q": "Which body must approve the green crackers allowed in Delhi-NCR?",
+        "options": [
+          "CSIR-NEERI",
+          "CPCB only",
+          "The Election Commission"
+        ],
+        "answer": 0,
+        "why": "Only CSIR-NEERI-approved green crackers may be sold.",
+        "story": "india"
+      },
+      {
+        "q": "How many House seats were on the ballot in the US midterms?",
+        "options": [
+          "35",
+          "100",
+          "435"
+        ],
+        "answer": 2,
+        "why": "All 435 House seats were on the ballot.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "For how many days in a row had India’s Sensex and Nifty risen by 3 November?",
+        "options": [
+          "Two",
+          "Four",
+          "Ten"
+        ],
+        "answer": 1,
+        "why": "Markets rose for a fourth straight day.",
+        "story": "economics"
+      },
+      {
+        "q": "On which date will Voyager 1 reach one light-day from Earth?",
+        "options": [
+          "18 November",
+          "1 December",
+          "25 October"
+        ],
+        "answer": 0,
+        "why": "JPL says the milestone comes on 18 November.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Cyclone Murasu crossed the coast between Nellore and Narsapur, near Ongole.",
+        "true": true,
+        "why": "The IMD said it crossed between Nellore and Narsapur, near Ongole.",
+        "story": "lead"
+      },
+      {
+        "claim": "There is a licensed vaccine for Bundibugyo virus disease.",
+        "true": false,
+        "why": "ECDC says there are no licensed vaccines or specific therapeutics for it; Ervebo is being tested in a trial.",
+        "story": "world"
+      },
+      {
+        "claim": "The Supreme Court’s order allows green crackers in Delhi-NCR permanently.",
+        "true": false,
+        "why": "The relaxation is temporary and the complete ban returns on 9 November.",
+        "story": "india"
+      },
+      {
+        "claim": "Brent crude settled at $103.60 on 3 November after falling for a second day.",
+        "true": true,
+        "why": "CNBC reported Brent fell $1.17 to settle at $103.60.",
+        "story": "economics"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Bunia",
+        "lat": 1.57,
+        "lon": 30.25,
+        "countries": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Pasadena",
+        "lat": 34.15,
+        "lon": -118.14,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many people did the state move to cyclone shelters, according to The Tribune?",
+        "answer": 10805,
+        "prefix": "",
+        "unit": "people",
+        "min": 1000,
+        "max": 50000,
+        "why": "The Tribune reported 10,805 people moved to cyclone shelters."
+      },
+      {
+        "story": "world",
+        "q": "How many confirmed Ebola cases did ECDC report in Congo?",
+        "answer": 10193,
+        "prefix": "",
+        "unit": "cases",
+        "min": 1000,
+        "max": 30000,
+        "why": "ECDC reported 10,193 confirmed cases in its 29 October update."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "A cyclone hits India’s east coast",
+        "body": [
+          "A strong storm called Cyclone Murasu reached the coast of Andhra Pradesh in India on 3 November. It crossed the coast near Ongole. Winds blew at about 100 to 110 kmph.",
+          "Heavy rain flooded low places and knocked down trees. The state moved 10,805 people to shelters. Officials said no deaths had been reported so far.",
+          "The storm damaged crops on more than 30,000 hectares of land. Farmers grow paddy, cotton and maize there. The storm was expected to get weaker."
+        ]
+      },
+      "world": {
+        "headline": "Ebola cases pass 10,000 in Congo",
+        "body": [
+          "There is an Ebola outbreak in the Democratic Republic of the Congo. ECDC reported 10,193 confirmed cases and 4,960 deaths.",
+          "This outbreak is caused by Bundibugyo virus. It has no licensed vaccine. On 23 October, doctors began a trial in Bunia to test vaccines.",
+          "Cases were also found in Kenya and Nigeria. ECDC says the risk for most people in Europe is very low."
+        ]
+      },
+      "india": {
+        "headline": "Court allows some firecrackers",
+        "body": [
+          "India’s Supreme Court allowed green firecrackers in Delhi and nearby areas for Diwali. Only crackers approved by CSIR-NEERI can be sold.",
+          "There are strict rules. Crackers cannot be burst within 300 metres of hospitals. Each box needs a QR code. Police will check markets and vehicles. Officials must report air quality every day. The full ban returns on 9 November."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Americans vote for Congress",
+        "body": [
+          "On 3 November, Americans voted in midterm elections. They chose all 435 seats in the House and 35 seats in the Senate. They decide which party controls Congress.",
+          "More than 59 million people voted early. Some voting machines had problems, and officials counted ballots another way. The Justice Department sent about 1,000 monitors to all 50 states. Results for close races can take longer to be called."
+        ]
+      },
+      "economics": {
+        "headline": "Indian shares rise as oil gets cheaper",
+        "body": [
+          "India’s main share indexes rose for a fourth day on 3 November. The Sensex gained 1.62% and the Nifty gained 1.58%.",
+          "Oil prices fell on hopes of talks to end the Iran war. Brent oil settled at $103.60 a barrel. Higher oil prices had pushed up India’s inflation.",
+          "But oil rose more than 10% in October, so prices could jump again."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Voyager 1 is very far from Earth",
+        "body": [
+          "Voyager 1 is a NASA space probe. It was launched in 1977. On 18 November it will be one light-day from Earth. That is 25.89 billion km.",
+          "The probe moves at about 38,000 mph. A message takes about 48 hours to go there and back. Engineers are saving power, because the probe loses about 4 watts every year. Two science instruments are still working."
+        ]
+      }
+    }
+  }
+}

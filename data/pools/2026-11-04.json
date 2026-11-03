@@ -1,0 +1,1759 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms",
+    "headline": "Americans vote in midterm elections that decide who controls Congress",
+    "what_happened": "On Tuesday 3 November 2026 Americans voted in midterm elections for all 435 House seats and 35 Senate seats, and for governors in 36 states. The results decide which party controls Congress for the last two years of President Trump's term.",
+    "why_it_matters": "Congress writes the laws and controls government spending, so who controls it shapes what the president can and cannot do.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "All 435 House seats and 35 Senate seats are on the ballot, and 36 states are electing governors.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Republicans hold 53 Senate seats and Democrats 47.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In the House, Republicans hold 218 seats plus an independent who normally caucuses with them, Democrats hold 214, and two seats are vacant.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "More than 59 million Americans voted early, according to the University of Florida Voting Lab.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS's Battleground Tracker, dated 25 October, projects Democrats winning 229 House seats, within a range of 215 to 237; at 215, Republicans would keep a narrow majority.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS named 11 key Senate races: Alaska, Iowa, Kansas, Maine, North Carolina, Ohio, South Carolina and Texas (Republican-held) and Georgia, Michigan and New Hampshire (Democratic-held).",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Democrats would need to flip four Republican Senate seats while holding all their current seats to win a Senate majority.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Voters cite high consumer prices, the war with Iran, perceived government corruption and an immigration crackdown as concerns, and Trump's approval ratings are persistently low.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Democrats are widely projected to win the House, which would make Rep. Hakeem Jeffries the first Black House speaker in U.S. history.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "In Texas, State Rep. James Talarico (D) faces Attorney General Ken Paxton (R) for the Senate; polling averages show Talarico with a slim lead.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Speaker Mike Johnson said House control could hinge on about 21 seats.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Michigan, 32.9% of active registered voters had voted by 7 a.m. Tuesday.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Polls close at 7 p.m. Eastern time in Georgia, Indiana, Kentucky, South Carolina, Vermont and Virginia.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS notes that close races may be called later, and that this is not in itself evidence of fraud.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Republican-led states redrew congressional maps mid-decade to favor the GOP, and Democrats responded with their own redraws.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "An April Supreme Court decision weakened a key Voting Rights Act section, which endangers majority-Black districts in the South.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Texas and Florida: Republicans redrew nine seats to be more Republican, but the Cook Political Report favors Republicans in only three of them.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Kansas has not elected a Democratic senator since 1932; Cook moved the Kansas Senate race to toss-up on 6 October.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "A Texas Senate win would be the first Democratic Senate pickup there since the 1980s.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "House seats on ballot",
+      "value": 435,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "label": "Senate seats on ballot",
+      "value": 35,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "label": "Early votes",
+      "value": 59,
+      "unit": "million",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     }
+    ],
+    "geography": "United States; Texas, Michigan, Maine, Georgia, Alaska",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "5 things to watch on Election Day as Democrats push for control of Congress",
+      "url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iran-talks-oil",
+    "headline": "Oil prices fall for a second day on hopes of talks to end the Iran war",
+    "what_happened": "Brent crude settled at $103.60 a barrel on Tuesday 3 November after falling for a second day, as hopes grew for a diplomatic end to the war with Iran. It remains unclear where the talks actually stand.",
+    "why_it_matters": "About a fifth of the world's oil normally passes through the Strait of Hormuz, so news from the war and talks moves fuel prices in many countries.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude, the international benchmark, fell $1.17 to settle at $103.60 on Tuesday 3 November 2026.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "U.S. West Texas Intermediate futures fell 37 cents to close at $96.09 a barrel.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Crude fell for a second straight session on Tuesday; oil sold off more than 7% on Monday after Washington and Tehran signaled openness to talks.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Crude gained more than 10% in October as markets priced in escalation risk.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Trump said Tehran wants \"to make a deal and that could happen.\"",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Qatar, mediating, said its delegation held talks in Tehran aimed at preventing further escalation and ending the conflict.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Iran's Foreign Ministry spokesman, Esmaeil Baqaei, said Tuesday that Tehran will reject diplomacy based on coercion, according to state-owned IRNA.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Vice President Vance told CNN: \"The president and I both feel really good about the prospect of potentially coming to a negotiated settlement.\"",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "On Sunday 1 November Secretary of State Marco Rubio said Trump would like to resolve the war diplomatically and prefers not to use military force.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "At least four commercial ship attacks have been reported since the start of November, according to the UK Maritime Trade Operations Centre, in the Persian Gulf, the Strait of Hormuz and the Gulf of Oman.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "The conflict has disrupted global energy supplies for about eight months.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Brent fell 7.6% on Monday 2 November to close at $104.77 a barrel, its sharpest drop in three months.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "Goldman Sachs raised its December Brent forecast to $105 and warned that prices could reach $140 if Gulf output remains 3.5 million barrels a day below 2025 levels.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "The oil market has sold off during earlier phases of the war on rumors of a settlement, only for the conflict to escalate and prices to spike again.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "High oil prices have contributed substantially to U.S. inflation and gasoline prices, a concern for Trump before the midterms.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Last week, two Federal Reserve presidents said interest rates will need to rise to curb inflation.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent, 3 Nov",
+      "value": 103.6,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "label": "WTI, 3 Nov",
+      "value": 96.09,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "label": "Brent, 2 Nov",
+      "value": 104.77,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     }
+    ],
+    "geography": "Iran, Qatar, Strait of Hormuz, Persian Gulf, Gulf of Oman",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ebola-drc",
+    "headline": "Ebola outbreak in DR Congo passes 10,000 confirmed cases as a vaccine trial runs",
+    "what_happened": "The European disease agency ECDC reported 10,193 confirmed Ebola cases and 4,960 deaths in the Democratic Republic of the Congo, in an outbreak of a rare strain with no licensed vaccine.",
+    "why_it_matters": "Scientists are testing vaccines while health workers trace contacts, because this strain has no approved vaccine or treatment.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "ECDC's update of 29 October, with Congo data through 27 October, reported 10,193 confirmed cases and 4,960 deaths in the Democratic Republic of the Congo.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "2,749 people who tested positive have recovered, and 936 patients are hospitalised in isolation.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "The outbreak is caused by Bundibugyo virus, not the Zaire species behind earlier large outbreaks.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "There are no licensed vaccines or specific therapeutics for Bundibugyo virus disease.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "66 of 178 health zones are affected across eight provinces; Ituri has the most cases, with 7,278 and 3,407 deaths.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "The TUMAINI Phase 2/3 trial launched on 23 October 2026 in Bunia, Ituri, testing several vaccine candidates including Ervebo, the licensed rVSV-ZEBOV vaccine.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "WHO and SAGE recommend using Ervebo, primarily within a research protocol.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "Kenya reported 9 confirmed cases and 2 deaths as of 26 October; Nigeria reported one case on 20 October in a woman who had travelled from Uganda, who was evacuated to Switzerland for treatment.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "Uganda declared its outbreak over on 28 July, and WHO declared it over on 27 August.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "ECDC rates the risk as low for EU/EEA people living in or travelling to affected areas, and very low for the general EU/EEA population.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     },
+     {
+      "fact": "Congo's figures are under continuous review and harmonisation, so counts may change.",
+      "source_url": "https://www.ecdc.europa.eu/en/epipulse_event/2104"
+     }
+    ],
+    "numbers": [],
+    "geography": "Democratic Republic of the Congo (Ituri, North Kivu); Kenya; Nigeria",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ECDC",
+      "title": "Ebola disease caused by Bundibugyo virus, DRC and neighbouring countries",
+      "url": "https://www.ecdc.europa.eu/en/epipulse_event/2104",
+      "published": "2026-10-29",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "cyclone-murasu-landfall",
+    "headline": "Cyclone Murasu hits Andhra Pradesh, damaging crops and forcing thousands into shelters",
+    "what_happened": "Severe Cyclonic Storm Murasu crossed the south Andhra Pradesh coast near Ongole in the early hours of Tuesday 3 November. About 10,000 people were moved to shelters and no deaths had been reported by the latest official updates.",
+    "why_it_matters": "Cyclones bring wind, heavy rain and floods; early warnings and shelters help keep people safe, but crops and electricity lines are often damaged.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India's weather department (IMD) said the severe cyclonic storm crossed the coast between Nellore and Narsapur, near Ongole, between 3:30 am and 5:30 am IST on 3 November.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "Sustained winds were around 100 to 110 kmph with gusts up to 120 kmph.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "Naguluppalapadu in Prakasam recorded 198.01 mm of rain up to 6 am on 3 November, and Kothapatnam 182.25 mm.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "About 10,000 people were moved into relief shelters, according to information the Union Home Ministry shared.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "State figures put the number moved to cyclone shelters at 10,805, with 171 relief camps set up and 14,810 food packets distributed.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Andhra Pradesh State Disaster Management Authority Managing Director Prakhar Jain said no deaths or injuries had been reported so far.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Strong winds and heavy rain uprooted trees, toppled electricity poles and flooded low-lying areas; salt pans around Ongole were inundated.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "The Tribune reported over 30,000 hectares of standing crops damaged across 15 districts, with paddy, cotton and maize hit hardest; a government press release gave 30,661 acres, a mismatch the article did not explain.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "The storm affected 132 mandals in 15 districts; Krishna, Bapatla and Nandyal were among the worst hit for crops.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "19 domestic flights were cancelled in Andhra Pradesh during the early phase of the disruption, and schools in some districts stayed closed.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "IMD expected Murasu to weaken to a cyclonic storm and then a deep depression, with continued heavy to very heavy rain across the affected districts.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "It is the second cyclone to hit the region in a week, after Cyclone Arnab.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "The state launched a WhatsApp grievance service called Mana Mitra so residents can report power cuts, fallen trees and waterlogging.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Union Home Minister Amit Shah spoke with Chief Minister N. Chandrababu Naidu and pledged all possible central assistance; NDRF and SDRF teams are on the ground.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Residents were advised to follow official warnings, avoid flooded roads and stay away from the sea until authorities lift restrictions.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People moved to shelters",
+      "value": 10805,
+      "unit": "people",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Relief camps",
+      "value": 171,
+      "unit": "camps",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Crops damaged",
+      "value": 30000,
+      "unit": "hectares",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     }
+    ],
+    "geography": "Andhra Pradesh, India: Ongole (Prakasam district), between Nellore and Narsapur, Bay of Bengal coast",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "The Tribune",
+      "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+      "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "NationPath News",
+      "title": "Cyclone Murasu completes landfall near Ongole; heavy rain batters Andhra Pradesh",
+      "url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "voyager-1-light-day",
+    "headline": "Voyager 1 is about to be one light-day from Earth",
+    "what_happened": "NASA's Voyager 1, launched in 1977, will reach 16.09 billion miles (25.89 billion km) from Earth on 18 November, a distance light takes a day to cross.",
+    "why_it_matters": "No other human-made object has travelled so far; signals now take about two days for a round trip.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 will reach one light-day from Earth, 16.09 billion miles (25.89 billion km), on 18 November.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "No other human-made object has reached this distance.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager 1 travels at about 38,000 mph (61,155 kph) through interstellar space.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "A round trip for a signal takes about 48 hours.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager launched in 1977, nearly 50 years ago, carrying 10 instruments; two have been deactivated in recent years because of power limits.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Both Voyager spacecraft have crossed into interstellar space and are the only craft to directly study that region.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager's power source converts heat from plutonium decay into electricity and loses about 4 watts per year.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "In early September engineers replaced three devices with lower-power alternatives, work that could keep another instrument running past summer 2027.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "On 18 and 19 October NASA's Deep Space Network did not receive Voyager 1's signal; contact returned on 20 October, and one set of thrusters had stopped working so the spacecraft switched to backup thrusters.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager mission manager Kareem Badaruddin said of the incident: \"This is the first time we've seen the spacecraft do something like this.\"",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "The milestone is about distance, not a physical event: Voyager 1 will not detect any change in its environment, and nothing will change aboard the spacecraft, when it passes one light-day.",
+      "source_url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+     },
+     {
+      "fact": "JPL's news item says Voyager 1 still has two science instruments operating.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/"
+     },
+     {
+      "fact": "Commands to Voyager take about a day each way; project manager Suzanne Dodd said: you send your message and then wait two days before you get a response.",
+      "source_url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance",
+      "value": 16.09,
+      "unit": "billion miles",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "label": "Speed",
+      "value": 38000,
+      "unit": "mph",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "label": "Round trip signal",
+      "value": 48,
+      "unit": "hours",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     }
+    ],
+    "geography": "Interstellar space, beyond the Solar System",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA JPL via ScienceDaily",
+      "title": "NASA's Voyager 1 is about to reach a historic one-light-day milestone",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
+      "published": "2026-11-03",
+      "primary": true
+     },
+     {
+      "outlet": "EarthSky",
+      "title": "Voyager 1 to reach 1 light-day from Earth on November 18",
+      "url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "NASA JPL",
+      "title": "NASA's Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+      "url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+      "published": "2026-11-03",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms",
+    "headline": "Americans vote in midterm elections that decide who controls Congress",
+    "what_happened": "On Tuesday 3 November 2026 Americans voted in midterm elections for all 435 House seats and 35 Senate seats, and for governors in 36 states. The results decide which party controls Congress for the last two years of President Trump's term.",
+    "why_it_matters": "Congress writes the laws and controls government spending, so who controls it shapes what the president can and cannot do.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "All 435 House seats and 35 Senate seats are on the ballot, and 36 states are electing governors.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Republicans hold 53 Senate seats and Democrats 47.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In the House, Republicans hold 218 seats plus an independent who normally caucuses with them, Democrats hold 214, and two seats are vacant.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "More than 59 million Americans voted early, according to the University of Florida Voting Lab.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS's Battleground Tracker, dated 25 October, projects Democrats winning 229 House seats, within a range of 215 to 237; at 215, Republicans would keep a narrow majority.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS named 11 key Senate races: Alaska, Iowa, Kansas, Maine, North Carolina, Ohio, South Carolina and Texas (Republican-held) and Georgia, Michigan and New Hampshire (Democratic-held).",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Democrats would need to flip four Republican Senate seats while holding all their current seats to win a Senate majority.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Voters cite high consumer prices, the war with Iran, perceived government corruption and an immigration crackdown as concerns, and Trump's approval ratings are persistently low.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Democrats are widely projected to win the House, which would make Rep. Hakeem Jeffries the first Black House speaker in U.S. history.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "In Texas, State Rep. James Talarico (D) faces Attorney General Ken Paxton (R) for the Senate; polling averages show Talarico with a slim lead.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Speaker Mike Johnson said House control could hinge on about 21 seats.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Michigan, 32.9% of active registered voters had voted by 7 a.m. Tuesday.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Polls close at 7 p.m. Eastern time in Georgia, Indiana, Kentucky, South Carolina, Vermont and Virginia.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS notes that close races may be called later, and that this is not in itself evidence of fraud.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Republican-led states redrew congressional maps mid-decade to favor the GOP, and Democrats responded with their own redraws.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "An April Supreme Court decision weakened a key Voting Rights Act section, which endangers majority-Black districts in the South.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Texas and Florida: Republicans redrew nine seats to be more Republican, but the Cook Political Report favors Republicans in only three of them.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Kansas has not elected a Democratic senator since 1932; Cook moved the Kansas Senate race to toss-up on 6 October.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "A Texas Senate win would be the first Democratic Senate pickup there since the 1980s.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "House seats on ballot",
+      "value": 435,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "label": "Senate seats on ballot",
+      "value": 35,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "label": "Early votes",
+      "value": 59,
+      "unit": "million",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     }
+    ],
+    "geography": "United States; Texas, Michigan, Maine, Georgia, Alaska",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "5 things to watch on Election Day as Democrats push for control of Congress",
+      "url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "midterms-counting",
+    "headline": "Officials add safeguards as ballots are cast and counted on Election Day",
+    "what_happened": "On Election Day, election officials in several places dealt with machine problems, and the Justice Department said it would send about 1,000 monitors to all 50 states.",
+    "why_it_matters": "Counting and checking votes carefully is how people can trust a result, even when it takes time.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Justice Department said it would deploy about 1,000 monitors to all 50 states, the first time it has done so.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Westchester County, New York, scanner problems forced emergency procedures; ballots that could not be scanned were to be collected securely and counted.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "New York's state board said the affected scanners rejected ballots rather than miscounting them, and that canvass, recanvass and audit procedures remain in place.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Fulton County, Georgia, two machine issues affected about 1,000 early ballots; officials planned a public rescan, and Secretary of State Brad Raffensperger said results should not be delayed.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "The Supreme Court denied the Justice Department's request to make California set aside about 20,000 mail ballots from alleged noncitizens.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Alaska, the top four primary finishers appear on the ballot; voters rank candidates, the lowest finisher is eliminated and their votes are redistributed until one candidate exceeds 50%.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Minnesota recorded 886,427 early ballots through Sunday, above its 2022 midterm record of 687,062.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "St. Lucie County, Florida, moved some precincts because of flooding.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; New York, Georgia, California, Alaska, Florida",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-murasu-landfall",
+    "headline": "Cyclone Murasu hits Andhra Pradesh, damaging crops and forcing thousands into shelters",
+    "what_happened": "Severe Cyclonic Storm Murasu crossed the south Andhra Pradesh coast near Ongole in the early hours of Tuesday 3 November. About 10,000 people were moved to shelters and no deaths had been reported by the latest official updates.",
+    "why_it_matters": "Cyclones bring wind, heavy rain and floods; early warnings and shelters help keep people safe, but crops and electricity lines are often damaged.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India's weather department (IMD) said the severe cyclonic storm crossed the coast between Nellore and Narsapur, near Ongole, between 3:30 am and 5:30 am IST on 3 November.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "Sustained winds were around 100 to 110 kmph with gusts up to 120 kmph.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "Naguluppalapadu in Prakasam recorded 198.01 mm of rain up to 6 am on 3 November, and Kothapatnam 182.25 mm.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "About 10,000 people were moved into relief shelters, according to information the Union Home Ministry shared.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "State figures put the number moved to cyclone shelters at 10,805, with 171 relief camps set up and 14,810 food packets distributed.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Andhra Pradesh State Disaster Management Authority Managing Director Prakhar Jain said no deaths or injuries had been reported so far.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Strong winds and heavy rain uprooted trees, toppled electricity poles and flooded low-lying areas; salt pans around Ongole were inundated.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "The Tribune reported over 30,000 hectares of standing crops damaged across 15 districts, with paddy, cotton and maize hit hardest; a government press release gave 30,661 acres, a mismatch the article did not explain.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "The storm affected 132 mandals in 15 districts; Krishna, Bapatla and Nandyal were among the worst hit for crops.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "19 domestic flights were cancelled in Andhra Pradesh during the early phase of the disruption, and schools in some districts stayed closed.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "IMD expected Murasu to weaken to a cyclonic storm and then a deep depression, with continued heavy to very heavy rain across the affected districts.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     },
+     {
+      "fact": "It is the second cyclone to hit the region in a week, after Cyclone Arnab.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "The state launched a WhatsApp grievance service called Mana Mitra so residents can report power cuts, fallen trees and waterlogging.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Union Home Minister Amit Shah spoke with Chief Minister N. Chandrababu Naidu and pledged all possible central assistance; NDRF and SDRF teams are on the ground.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Residents were advised to follow official warnings, avoid flooded roads and stay away from the sea until authorities lift restrictions.",
+      "source_url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People moved to shelters",
+      "value": 10805,
+      "unit": "people",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Relief camps",
+      "value": 171,
+      "unit": "camps",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Crops damaged",
+      "value": 30000,
+      "unit": "hectares",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     }
+    ],
+    "geography": "Andhra Pradesh, India: Ongole (Prakasam district), between Nellore and Narsapur, Bay of Bengal coast",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "The Tribune",
+      "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+      "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "NationPath News",
+      "title": "Cyclone Murasu completes landfall near Ongole; heavy rain batters Andhra Pradesh",
+      "url": "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "diwali-green-crackers",
+    "headline": "Supreme Court allows green firecrackers in Delhi-NCR for two Diwali evenings",
+    "what_happened": "The Supreme Court permitted the sale and bursting of approved green firecrackers in Delhi and the National Capital Region on 7 and 8 November, within set hours.",
+    "why_it_matters": "Delhi's air is a public-health concern, so the court is weighing a tradition against pollution rules.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Supreme Court permitted the sale and bursting of approved green firecrackers in Delhi and the National Capital Region for a limited period around Diwali.",
+      "source_url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+     },
+     {
+      "fact": "Bursting is permitted between 6 AM and 7 AM, and 8 PM and 10 PM on November 7 and 8.",
+      "source_url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+     },
+     {
+      "fact": "The permission is subject to enforcement and monitoring safeguards.",
+      "source_url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+     },
+     {
+      "fact": "The case is Arjun Gopal and Others v. Union of India and Others, and the report was published on 2 November 2026.",
+      "source_url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+     },
+     {
+      "fact": "A bench of Justice MM Sundresh and Justice Prasanna B Varale allowed the manufacture, sale and bursting of approved green firecrackers in Delhi-NCR for a limited pre-Diwali period; the complete ban returns on 9 November 2026.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "LiveLaw reports bursting is permitted from 6 AM to 8 PM on 7 November and from 7 AM to 10 PM on 8 November; Bar & Bench reports narrower windows (6 to 7 AM and 8 to 10 PM on both days), so the order text should be checked.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "Only CSIR-NEERI-approved green crackers may be sold, and conventional crackers may not enter the market disguised as green.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "The Court invoked the Precautionary Principle, meaning acting proactively rather than reacting after harm occurs, and said it wants people to \"embrace the Precautionary Principle by being proactive.\"",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "No bursting is allowed within 300 metres of hospitals, nursing homes, primary and district health centres, old-age homes, silence zones and educational institutions.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "Banned items include ladis (crackers joined in series), garlands, crackers containing barium, and any crackers not approved as green by CSIR-NEERI.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "Each box must carry a product- and batch-specific QR code that shows the manufacturer, registration, licence, formulation and test certificate.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "Sale is allowed only at locations designated by district authorities and police; sale everywhere else, including online platforms, is prohibited.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "Police must patrol designated locations, verify QR codes, confiscate illegal crackers and check vehicles entering Delhi-NCR.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "The Central and State Pollution Control Boards must file daily air-quality reports for 2 to 6 November, 7 to 8 November and 9 to 30 November.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "Authorities must also give an affidavit on the precise increase in patient admissions at hospitals and health centres; all reports are due by 14 December 2026, with a compliance hearing listed for 16 December.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     },
+     {
+      "fact": "The directions broadly follow last year's order, which also allowed a similar Diwali relaxation.",
+      "source_url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915"
+     }
+    ],
+    "numbers": [],
+    "geography": "Delhi and the National Capital Region, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Bar & Bench",
+      "title": "Diwali 2026: Supreme Court allows bursting of green crackers in Delhi-NCR on November 7 and 8",
+      "url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8",
+      "published": "2026-11-02",
+      "primary": false
+     },
+     {
+      "outlet": "LiveLaw",
+      "title": "Supreme Court allows certified green crackers in Delhi-NCR for Diwali on Nov 7-8; year-round ban to resume on Nov 9",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-allows-certified-green-crackers-in-delhi-ncr-for-diwali-on-nov-7-8-year-round-ban-to-resume-on-nov-9-556915",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms",
+    "headline": "Americans vote in midterm elections that decide who controls Congress",
+    "what_happened": "On Tuesday 3 November 2026 Americans voted in midterm elections for all 435 House seats and 35 Senate seats, and for governors in 36 states. The results decide which party controls Congress for the last two years of President Trump's term.",
+    "why_it_matters": "Congress writes the laws and controls government spending, so who controls it shapes what the president can and cannot do.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "All 435 House seats and 35 Senate seats are on the ballot, and 36 states are electing governors.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Republicans hold 53 Senate seats and Democrats 47.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In the House, Republicans hold 218 seats plus an independent who normally caucuses with them, Democrats hold 214, and two seats are vacant.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "More than 59 million Americans voted early, according to the University of Florida Voting Lab.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS's Battleground Tracker, dated 25 October, projects Democrats winning 229 House seats, within a range of 215 to 237; at 215, Republicans would keep a narrow majority.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS named 11 key Senate races: Alaska, Iowa, Kansas, Maine, North Carolina, Ohio, South Carolina and Texas (Republican-held) and Georgia, Michigan and New Hampshire (Democratic-held).",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Democrats would need to flip four Republican Senate seats while holding all their current seats to win a Senate majority.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Voters cite high consumer prices, the war with Iran, perceived government corruption and an immigration crackdown as concerns, and Trump's approval ratings are persistently low.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Democrats are widely projected to win the House, which would make Rep. Hakeem Jeffries the first Black House speaker in U.S. history.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "In Texas, State Rep. James Talarico (D) faces Attorney General Ken Paxton (R) for the Senate; polling averages show Talarico with a slim lead.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Speaker Mike Johnson said House control could hinge on about 21 seats.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Michigan, 32.9% of active registered voters had voted by 7 a.m. Tuesday.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Polls close at 7 p.m. Eastern time in Georgia, Indiana, Kentucky, South Carolina, Vermont and Virginia.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "CBS notes that close races may be called later, and that this is not in itself evidence of fraud.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Republican-led states redrew congressional maps mid-decade to favor the GOP, and Democrats responded with their own redraws.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "An April Supreme Court decision weakened a key Voting Rights Act section, which endangers majority-Black districts in the South.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Texas and Florida: Republicans redrew nine seats to be more Republican, but the Cook Political Report favors Republicans in only three of them.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "Kansas has not elected a Democratic senator since 1932; Cook moved the Kansas Senate race to toss-up on 6 October.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     },
+     {
+      "fact": "A Texas Senate win would be the first Democratic Senate pickup there since the 1980s.",
+      "source_url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "House seats on ballot",
+      "value": 435,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "label": "Senate seats on ballot",
+      "value": 35,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "label": "Early votes",
+      "value": 59,
+      "unit": "million",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     }
+    ],
+    "geography": "United States; Texas, Michigan, Maine, Georgia, Alaska",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "5 things to watch on Election Day as Democrats push for control of Congress",
+      "url": "https://www.cnbc.com/2026/11/03/election-day-congress-races.html",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "midterms-counting",
+    "headline": "Officials add safeguards as ballots are cast and counted on Election Day",
+    "what_happened": "On Election Day, election officials in several places dealt with machine problems, and the Justice Department said it would send about 1,000 monitors to all 50 states.",
+    "why_it_matters": "Counting and checking votes carefully is how people can trust a result, even when it takes time.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Justice Department said it would deploy about 1,000 monitors to all 50 states, the first time it has done so.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Westchester County, New York, scanner problems forced emergency procedures; ballots that could not be scanned were to be collected securely and counted.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "New York's state board said the affected scanners rejected ballots rather than miscounting them, and that canvass, recanvass and audit procedures remain in place.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Fulton County, Georgia, two machine issues affected about 1,000 early ballots; officials planned a public rescan, and Secretary of State Brad Raffensperger said results should not be delayed.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "The Supreme Court denied the Justice Department's request to make California set aside about 20,000 mail ballots from alleged noncitizens.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "In Alaska, the top four primary finishers appear on the ballot; voters rank candidates, the lowest finisher is eliminated and their votes are redistributed until one candidate exceeds 50%.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Minnesota recorded 886,427 early ballots through Sunday, above its 2022 midterm record of 687,062.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "St. Lucie County, Florida, moved some precincts because of flooding.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States; New York, Georgia, California, Alaska, Florida",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iran-talks-oil",
+    "headline": "Oil prices fall for a second day on hopes of talks to end the Iran war",
+    "what_happened": "Brent crude settled at $103.60 a barrel on Tuesday 3 November after falling for a second day, as hopes grew for a diplomatic end to the war with Iran. It remains unclear where the talks actually stand.",
+    "why_it_matters": "About a fifth of the world's oil normally passes through the Strait of Hormuz, so news from the war and talks moves fuel prices in many countries.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude, the international benchmark, fell $1.17 to settle at $103.60 on Tuesday 3 November 2026.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "U.S. West Texas Intermediate futures fell 37 cents to close at $96.09 a barrel.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Crude fell for a second straight session on Tuesday; oil sold off more than 7% on Monday after Washington and Tehran signaled openness to talks.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Crude gained more than 10% in October as markets priced in escalation risk.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Trump said Tehran wants \"to make a deal and that could happen.\"",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Qatar, mediating, said its delegation held talks in Tehran aimed at preventing further escalation and ending the conflict.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Iran's Foreign Ministry spokesman, Esmaeil Baqaei, said Tuesday that Tehran will reject diplomacy based on coercion, according to state-owned IRNA.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Vice President Vance told CNN: \"The president and I both feel really good about the prospect of potentially coming to a negotiated settlement.\"",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "On Sunday 1 November Secretary of State Marco Rubio said Trump would like to resolve the war diplomatically and prefers not to use military force.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "At least four commercial ship attacks have been reported since the start of November, according to the UK Maritime Trade Operations Centre, in the Persian Gulf, the Strait of Hormuz and the Gulf of Oman.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "The conflict has disrupted global energy supplies for about eight months.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Brent fell 7.6% on Monday 2 November to close at $104.77 a barrel, its sharpest drop in three months.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "Goldman Sachs raised its December Brent forecast to $105 and warned that prices could reach $140 if Gulf output remains 3.5 million barrels a day below 2025 levels.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "The oil market has sold off during earlier phases of the war on rumors of a settlement, only for the conflict to escalate and prices to spike again.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "High oil prices have contributed substantially to U.S. inflation and gasoline prices, a concern for Trump before the midterms.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Last week, two Federal Reserve presidents said interest rates will need to rise to curb inflation.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent, 3 Nov",
+      "value": 103.6,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "label": "WTI, 3 Nov",
+      "value": 96.09,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "label": "Brent, 2 Nov",
+      "value": 104.77,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     }
+    ],
+    "geography": "Iran, Qatar, Strait of Hormuz, Persian Gulf, Gulf of Oman",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-markets-oil",
+    "headline": "Sensex and Nifty rise for a fourth day as crude oil eases",
+    "what_happened": "India's Sensex closed 1.62% higher at 76,917.85 and the Nifty 1.58% higher at 23,810.85 on Tuesday 3 November, the fourth day of gains, helped by softer crude oil.",
+    "why_it_matters": "India buys much of its fuel abroad, so oil prices feed into inflation and the rupee; the market moves show how closely investors watch the Iran talks.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Nifty finished 1.58% higher at 23,810.85 and the Sensex gained 1.62% to close at 76,917.85, the fourth day of gains.",
+      "source_url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+     },
+     {
+      "fact": "Business Standard's headline said foreign portfolio investor (FPI) buying was the highest in a year, and the report described easing crude oil prices as a driver of the rally.",
+      "source_url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+     },
+     {
+      "fact": "On Monday 2 November the Sensex surged 1,233.25 points, or 1.66%, to close at 75,692.78, and the Nifty rose 387.70 points to settle at 23,440.80.",
+      "source_url": "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall"
+     },
+     {
+      "fact": "On Monday crude fell sharply on hopes around US-Iran talks; WTI declined nearly 3% to about $99.70 and Brent traded below $109.",
+      "source_url": "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall"
+     },
+     {
+      "fact": "On Monday the rupee was at 94.90 per US dollar, with marginal gains.",
+      "source_url": "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall"
+     },
+     {
+      "fact": "Brent crude settled at $103.60 on Tuesday 3 November after falling for a second day.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Brent fell 7.6% on Monday 2 November to close at $104.77 a barrel, its sharpest drop in three months.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "Crude gained more than 10% in October as markets priced in escalation risk.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Goldman Sachs raised its December Brent forecast to $105 and warned prices could reach $140 if Gulf output stays 3.5 million barrels a day below 2025 levels.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "The Reserve Bank of India raised its repo rate by 25 basis points to 5.5% at its 7 October meeting, its first rise since 2023, and changed its stance from neutral to calibrated tightening.",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     },
+     {
+      "fact": "India's headline inflation rate rose to 5.54% in September 2026 from 4.83% in August; higher oil prices and a weaker rupee drove transport inflation to 5.01%.",
+      "source_url": "https://tradingeconomics.com/india/inflation-cpi"
+     },
+     {
+      "fact": "The RBI raised its retail inflation forecast for FY27 from 5% to 5.2%.",
+      "source_url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sensex gain, 3 Nov",
+      "value": 1.62,
+      "unit": "%",
+      "source_url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+     },
+     {
+      "label": "Nifty gain, 3 Nov",
+      "value": 1.58,
+      "unit": "%",
+      "source_url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html"
+     },
+     {
+      "label": "Sensex gain, 2 Nov",
+      "value": 1.66,
+      "unit": "%",
+      "source_url": "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall"
+     }
+    ],
+    "geography": "India; Gulf oil supply",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Business Standard",
+      "title": "Markets extend gains for fourth day; FPI buying highest in a year",
+      "url": "https://business-standard.com/markets/news/markets-extend-gains-for-fourth-day-fpi-buying-highest-in-a-year-126110301699_1.html",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "Telangana Today",
+      "title": "Sensex jumps 1,233 points, Nifty closes above 23,400 on oil price fall",
+      "url": "https://telanganatoday.com/sensex-jumps-1233-points-nifty-closes-above-23400-on-oil-price-fall",
+      "published": "2026-11-02",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "Trading Economics",
+      "title": "India Inflation Rate",
+      "url": "https://tradingeconomics.com/india/inflation-cpi",
+      "published": "2026-10-12",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "India's central bank hikes rates for the first time since 2023 as inflation risks build",
+      "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+      "published": "2026-10-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iran-talks-oil",
+    "headline": "Oil prices fall for a second day on hopes of talks to end the Iran war",
+    "what_happened": "Brent crude settled at $103.60 a barrel on Tuesday 3 November after falling for a second day, as hopes grew for a diplomatic end to the war with Iran. It remains unclear where the talks actually stand.",
+    "why_it_matters": "About a fifth of the world's oil normally passes through the Strait of Hormuz, so news from the war and talks moves fuel prices in many countries.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude, the international benchmark, fell $1.17 to settle at $103.60 on Tuesday 3 November 2026.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "U.S. West Texas Intermediate futures fell 37 cents to close at $96.09 a barrel.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Crude fell for a second straight session on Tuesday; oil sold off more than 7% on Monday after Washington and Tehran signaled openness to talks.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Crude gained more than 10% in October as markets priced in escalation risk.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Trump said Tehran wants \"to make a deal and that could happen.\"",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Qatar, mediating, said its delegation held talks in Tehran aimed at preventing further escalation and ending the conflict.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Iran's Foreign Ministry spokesman, Esmaeil Baqaei, said Tuesday that Tehran will reject diplomacy based on coercion, according to state-owned IRNA.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Vice President Vance told CNN: \"The president and I both feel really good about the prospect of potentially coming to a negotiated settlement.\"",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "On Sunday 1 November Secretary of State Marco Rubio said Trump would like to resolve the war diplomatically and prefers not to use military force.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "At least four commercial ship attacks have been reported since the start of November, according to the UK Maritime Trade Operations Centre, in the Persian Gulf, the Strait of Hormuz and the Gulf of Oman.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "The conflict has disrupted global energy supplies for about eight months.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Brent fell 7.6% on Monday 2 November to close at $104.77 a barrel, its sharpest drop in three months.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "Goldman Sachs raised its December Brent forecast to $105 and warned that prices could reach $140 if Gulf output remains 3.5 million barrels a day below 2025 levels.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "The oil market has sold off during earlier phases of the war on rumors of a settlement, only for the conflict to escalate and prices to spike again.",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     },
+     {
+      "fact": "High oil prices have contributed substantially to U.S. inflation and gasoline prices, a concern for Trump before the midterms.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "fact": "Last week, two Federal Reserve presidents said interest rates will need to rise to curb inflation.",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent, 3 Nov",
+      "value": 103.6,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "label": "WTI, 3 Nov",
+      "value": 96.09,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+     },
+     {
+      "label": "Brent, 2 Nov",
+      "value": 104.77,
+      "unit": "US$ a barrel",
+      "source_url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+     }
+    ],
+    "geography": "Iran, Qatar, Strait of Hormuz, Persian Gulf, Gulf of Oman",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "hera-didymos",
+    "headline": "Europe's Hera spacecraft sees the asteroid pair NASA's DART hit",
+    "what_happened": "ESA's Hera spacecraft has photographed Didymos and Dimorphos as two separate objects for the first time, about 197 million km from Earth, on its way to study the asteroid NASA deliberately hit in 2022.",
+    "why_it_matters": "Hera helps scientists learn how an asteroid responds to a hit, which helps plan how to deflect one in future.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Hera's black-and-white Asteroid Framing Camera captured Didymos and Dimorphos as two separate objects for the first time, instead of one point of light.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "The pair is about 197 million kilometers from Earth; the image was taken on the evening of 18 October, when Hera was about 1,280 kilometers from its targets.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "Dimorphos is about 151 meters across, roughly comparable to the Great Pyramid of Giza, and Didymos is about 780 meters across, slightly shorter than the Burj Khalifa.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "Dimorphos orbits Didymos at an average separation of 1.15 kilometers.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "NASA's DART spacecraft struck Dimorphos on 26 September 2022 at about 6.1 kilometers per second.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "The impact shortened Dimorphos's orbital period around Didymos by about 33 minutes, much more than computer simulations had predicted.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "Dimorphos is the first object in the Solar System whose orbit humans have measurably changed, said mission manager Ian Carnelli.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "Hera fired its thrusters twice in early October, a week apart, slowing it to 20 meters per second relative to the asteroids.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "Hera will release two CubeSats, each about the size of a shoebox, to gather observations from much closer range.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "The first detailed images of Dimorphos will be unveiled on 25 November.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "fact": "Open questions include whether DART left a crater, whether it changed the asteroid's shape significantly, and what its composition, internal structure and mass are.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Dimorphos width",
+      "value": 151,
+      "unit": "metres",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     },
+     {
+      "label": "Didymos width",
+      "value": 780,
+      "unit": "metres",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+     }
+    ],
+    "geography": "Space: the Didymos-Dimorphos asteroid pair, about 197 million km from Earth",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ESA via ScienceDaily",
+      "title": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+      "published": "2026-11-03",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "ryugu-nucleobases",
+    "headline": "Japanese scientists find all five DNA and RNA 'letters' in samples from asteroid Ryugu",
+    "what_happened": "A team of Japanese scientists reported in Nature Astronomy that two samples from the asteroid Ryugu contained all five nucleobases, the chemical letters used in DNA and RNA.",
+    "why_it_matters": "It suggests these building blocks were widespread in the early Solar System and may have formed in space.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Japan's Hayabusa2 mission collected samples from the carbon-rich asteroid Ryugu and returned 5.4 grams of pristine material to Earth in 2020.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "Nucleobases are nitrogen-containing molecules that serve as the 'letters' of genetic information in DNA and RNA; the five are adenine, guanine, cytosine, thymine and uracil.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "The study, 'A complete set of canonical nucleobases in the carbonaceous asteroid (162173) Ryugu', appeared in Nature Astronomy in 2026.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "Researchers worked in ultra-clean laboratory conditions to avoid contamination, extracted organic molecules using water and hydrochloric acid, and purified them for detection.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "All five nucleobases were found in the two Ryugu samples analysed, in roughly similar amounts.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "Pristine samples from NASA's asteroid Bennu also yielded all five nucleobases in 2025.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "Meteorites that land on Earth can be contaminated, which is why pristine samples collected in space matter.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "The study analysed only two samples, and the finding does not show that these molecules produced life.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     },
+     {
+      "fact": "The finding suggests nucleobases were widespread in the early Solar System and may have been delivered to early Earth.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "Asteroid Ryugu; samples returned to Earth in 2020 by Japan's Hayabusa2",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "The Conversation via ScienceDaily",
+      "title": "All 5 genetic 'letters' of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "published": "2026-11-03",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "voyager-1-light-day",
+    "headline": "Voyager 1 is about to be one light-day from Earth",
+    "what_happened": "NASA's Voyager 1, launched in 1977, will reach 16.09 billion miles (25.89 billion km) from Earth on 18 November, a distance light takes a day to cross.",
+    "why_it_matters": "No other human-made object has travelled so far; signals now take about two days for a round trip.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 will reach one light-day from Earth, 16.09 billion miles (25.89 billion km), on 18 November.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "No other human-made object has reached this distance.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager 1 travels at about 38,000 mph (61,155 kph) through interstellar space.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "A round trip for a signal takes about 48 hours.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager launched in 1977, nearly 50 years ago, carrying 10 instruments; two have been deactivated in recent years because of power limits.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Both Voyager spacecraft have crossed into interstellar space and are the only craft to directly study that region.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager's power source converts heat from plutonium decay into electricity and loses about 4 watts per year.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "In early September engineers replaced three devices with lower-power alternatives, work that could keep another instrument running past summer 2027.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "On 18 and 19 October NASA's Deep Space Network did not receive Voyager 1's signal; contact returned on 20 October, and one set of thrusters had stopped working so the spacecraft switched to backup thrusters.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "Voyager mission manager Kareem Badaruddin said of the incident: \"This is the first time we've seen the spacecraft do something like this.\"",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "fact": "The milestone is about distance, not a physical event: Voyager 1 will not detect any change in its environment, and nothing will change aboard the spacecraft, when it passes one light-day.",
+      "source_url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+     },
+     {
+      "fact": "JPL's news item says Voyager 1 still has two science instruments operating.",
+      "source_url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/"
+     },
+     {
+      "fact": "Commands to Voyager take about a day each way; project manager Suzanne Dodd said: you send your message and then wait two days before you get a response.",
+      "source_url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance",
+      "value": 16.09,
+      "unit": "billion miles",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "label": "Speed",
+      "value": 38000,
+      "unit": "mph",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     },
+     {
+      "label": "Round trip signal",
+      "value": 48,
+      "unit": "hours",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm"
+     }
+    ],
+    "geography": "Interstellar space, beyond the Solar System",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA JPL via ScienceDaily",
+      "title": "NASA's Voyager 1 is about to reach a historic one-light-day milestone",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
+      "published": "2026-11-03",
+      "primary": true
+     },
+     {
+      "outlet": "EarthSky",
+      "title": "Voyager 1 to reach 1 light-day from Earth on November 18",
+      "url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "NASA JPL",
+      "title": "NASA's Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+      "url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+      "published": "2026-11-03",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "sport": {
+  "label": "SPORT",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "monday-sport",
+    "headline": "Lakers, Warriors and Bears win on Monday night",
+    "what_happened": "Results from Monday 2 November: the Lakers beat Miami 138-117, Golden State edged Phoenix 116-113 and Chicago beat Seattle 34-17 in the NFL.",
+    "why_it_matters": "Sport news.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Los Angeles Lakers beat Miami 138-117 on 2 November, with Luka Doncic scoring 42.",
+      "source_url": "https://plaintextsports.com/nba/2026-11-02/"
+     },
+     {
+      "fact": "Golden State beat Phoenix 116-113 on 2 November, with Stephen Curry scoring 34.",
+      "source_url": "https://plaintextsports.com/nba/2026-11-02/"
+     },
+     {
+      "fact": "Oklahoma City beat Cleveland 117-112 on 2 November, with Shai Gilgeous-Alexander scoring 43.",
+      "source_url": "https://plaintextsports.com/nba/2026-11-02/"
+     },
+     {
+      "fact": "New Orleans beat Memphis 135-134 in overtime on 2 November, with Zion Williamson scoring 25.",
+      "source_url": "https://plaintextsports.com/nba/2026-11-02/"
+     },
+     {
+      "fact": "In the NFL, Chicago beat Seattle 34-17, according to ESPN's schedule page.",
+      "source_url": "https://www.espn.com/nfl/schedule"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Plain Text Sports",
+      "title": "NBA Scores on November 2, 2026",
+      "url": "https://plaintextsports.com/nba/2026-11-02/",
+      "published": "2026-11-02",
+      "primary": false
+     },
+     {
+      "outlet": "ESPN",
+      "title": "NFL Schedule - 2026 Season",
+      "url": "https://www.espn.com/nfl/schedule",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,199 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-04",
+  "volume": 1,
+  "issue": 22,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  IRAN AND THE GULF",
+      "headline": "Oil Prices Fall Again as Talks to End the Iran War Continue",
+      "deck": "Qatar is helping to carry messages between Iran and the United States.",
+      "body": [
+        "A war involving Iran has gone on for about eight months. On Tuesday 3 November, hopes of peace talks pushed the price of oil down for a second day.",
+        "The talks are not simple. Qatar is acting as a go-between, which is called a mediator. It said its team held talks in Tehran, Iran’s capital, to stop things getting worse. President Trump said Iran wants “to make a deal and that could happen.”",
+        "Iran’s answer was more careful. Its foreign ministry spokesman, Esmaeil Baqaei, said Iran will reject diplomacy based on pressure and threats. Vice President Vance still said he feels good about a possible settlement.",
+        "Ships sail through the Strait of Hormuz, a sea passage near Iran. A shipping group reported at least 4 attacks on ships in November, in the Persian Gulf, the Strait of Hormuz and the Gulf of Oman."
+      ],
+      "map": {
+        "title": "WHERE THE TALKS AND THE SHIPS ARE",
+        "label_top": "IRAN AND QATAR",
+        "label_bottom": "STRAIT OF HORMUZ",
+        "footnote": "Talks in Tehran, with Qatar as go-between",
+        "caption": "The map marks Iran and Qatar.",
+        "countries": [
+          "Iran",
+          "Qatar"
+        ],
+        "place": "Strait of Hormuz"
+      },
+      "why": "High oil prices have pushed up petrol prices and inflation in the United States.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+          "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SPACE",
+      "headline": "Europe’s Hera Spacecraft Spots Two Asteroids NASA Studied",
+      "deck": "The pair is about 197 million kilometres from Earth.",
+      "body": [
+        "In 2022, NASA’s DART spacecraft crashed into an asteroid called Dimorphos, which circles Didymos. Now Europe’s Hera spacecraft is arriving to look.",
+        "On 18 October Hera took a picture from about 1,280 kilometres away. For the first time, it showed Didymos and Dimorphos as two separate objects, not one dot of light. Dimorphos is about 151 metres across, and Didymos is about 780 metres.",
+        "The crash shortened Dimorphos’s trip around Didymos by about 33 minutes. First detailed pictures are due on 25 November."
+      ],
+      "chart": {
+        "title": "HOW WIDE ARE THE ASTEROIDS?",
+        "subtitle": "Width in metres",
+        "labels": [
+          "Dimorphos",
+          "Didymos"
+        ],
+        "values": [
+          151,
+          780
+        ],
+        "max": 900,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Dimorphos is about 151 metres wide and Didymos about 780 metres."
+      },
+      "why": "It helps scientists plan how to push an asteroid away.",
+      "sources": [
+        {
+          "outlet": "ESA via ScienceDaily",
+          "title": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Americans voted on 3 November in midterm elections for Congress.",
+        "India: Cyclone Murasu crossed the Andhra Pradesh coast on 3 November."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Iran and the United States reach a deal.",
+        "Hera’s pictures on 25 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+    "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+    "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "https://www.nationpathindia.com/national/cyclone-murasu-landfall-andhra-pradesh-heavy-rain-evacuation-november-2026"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which country is acting as a go-between in the talks?",
+        "options": [
+          "Qatar",
+          "Brazil",
+          "Japan"
+        ],
+        "answer": 0,
+        "why": "Qatar is mediating and said its team held talks in Tehran.",
+        "story": "lead"
+      },
+      {
+        "q": "What fell in price for a second day?",
+        "options": [
+          "Oil",
+          "Bread",
+          "Gold"
+        ],
+        "answer": 0,
+        "why": "Oil fell for a second straight day on hopes of talks.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Hera’s camera show for the first time?",
+        "options": [
+          "Two separate asteroids",
+          "A new planet",
+          "A comet’s tail"
+        ],
+        "answer": 0,
+        "why": "It saw Didymos and Dimorphos as two separate objects.",
+        "story": "world"
+      },
+      {
+        "q": "When are Hera’s first detailed pictures of Dimorphos due?",
+        "options": [
+          "25 November",
+          "1 January",
+          "4 July"
+        ],
+        "answer": 0,
+        "why": "The first detailed images will be unveiled on 25 November.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Iran’s foreign ministry said it will reject diplomacy based on pressure and threats.",
+        "true": true,
+        "why": "Spokesman Esmaeil Baqaei said so on Tuesday.",
+        "story": "lead"
+      },
+      {
+        "claim": "Dimorphos is bigger than Didymos.",
+        "true": false,
+        "why": "Dimorphos is about 151 metres across and Didymos about 780 metres.",
+        "story": "world"
+      },
+      {
+        "claim": "The 2022 crash shortened Dimorphos’s trip around Didymos by about 33 minutes.",
+        "true": true,
+        "why": "Its trip around Didymos got about 33 minutes shorter.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.5,
+        "lon": 56.5,
+        "countries": [
+          "Iran",
+          "Qatar"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many ship attacks has a shipping group reported in November so far, at least?",
+        "answer": 4,
+        "prefix": "",
+        "unit": "attacks",
+        "min": 0,
+        "max": 20,
+        "why": "The UK Maritime Trade Operations Centre reported at least four."
+      },
+      {
+        "story": "world",
+        "q": "About how wide is the asteroid Dimorphos?",
+        "answer": 151,
+        "prefix": "",
+        "unit": "metres",
+        "min": 20,
+        "max": 600,
+        "why": "Dimorphos is about 151 metres across."
+      }
+    ]
+  }
+}
