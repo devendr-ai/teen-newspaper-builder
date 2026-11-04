@@ -219,6 +219,22 @@
      {
       "fact": "In August NASA and Katalyst Space said a LINK spacecraft would not capture or boost Swift because of an attitude control problem.",
       "source_url": "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/"
+     },
+     {
+      "fact": "NASA's mission chief scientist, Brad Cenko, said a handful of pieces made of tungsten, which is denser than lead, and some mirror parts could survive re-entry.",
+      "source_url": "https://cdapress.com/news/2026/oct/31/nasa-telescope-is-on-the-verge-of-plunging-back-to-earth-after-failed-rescue-mission/"
+     },
+     {
+      "fact": "Katalyst's LINK spacecraft launched on 3 July, but on 19 August NASA and Katalyst announced it would not capture or boost Swift because of attitude control issues; a NASA spokesperson said there are no plans for another boost mission.",
+      "source_url": "https://cdapress.com/news/2026/oct/31/nasa-telescope-is-on-the-verge-of-plunging-back-to-earth-after-failed-rescue-mission/"
+     },
+     {
+      "fact": "Gamma-ray bursts are described as the most violent explosions in the known universe.",
+      "source_url": "https://www.natureworldnews.com/articles/73674/20261029/swift-nears-reentry-nasa-has-no-dedicated-replacement-catching-gamma-ray-bursts-within-minutes.htm"
+     },
+     {
+      "fact": "NASA has no dedicated spacecraft ready to take over Swift's signature job of spotting cosmic explosions and turning its telescopes on them within minutes.",
+      "source_url": "https://www.natureworldnews.com/articles/73674/20261029/swift-nears-reentry-nasa-has-no-dedicated-replacement-catching-gamma-ray-bursts-within-minutes.htm"
      }
     ],
     "geography": "Earth orbit; possible debris zone between 20.6\u00b0 N and 20.6\u00b0 S",
@@ -236,6 +252,20 @@
       "title": "NASA abandons mission to save Swift Observatory",
       "url": "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/",
       "published": "2026-08-20",
+      "primary": false
+     },
+     {
+      "outlet": "Coeur d'Alene Press (AP)",
+      "title": "NASA telescope is on the verge of plunging back to Earth after failed rescue mission",
+      "url": "https://cdapress.com/news/2026/oct/31/nasa-telescope-is-on-the-verge-of-plunging-back-to-earth-after-failed-rescue-mission/",
+      "published": "2026-10-31",
+      "primary": false
+     },
+     {
+      "outlet": "Nature World News",
+      "title": "Swift nears reentry; NASA has no dedicated replacement for catching gamma-ray bursts within minutes",
+      "url": "https://www.natureworldnews.com/articles/73674/20261029/swift-nears-reentry-nasa-has-no-dedicated-replacement-catching-gamma-ray-bursts-within-minutes.htm",
+      "published": "2026-10-29",
       "primary": false
      }
     ]
