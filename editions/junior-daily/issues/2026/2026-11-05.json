@@ -1,0 +1,212 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-05",
+  "volume": 1,
+  "issue": 23,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  IRAN AND QATAR",
+      "headline": "Iran and Qatar Keep Talking as Oil Prices Dip",
+      "deck": "Officials met for a third day in a row to look for a deal to end the war. Oil stayed expensive, but the price slipped.",
+      "body": [
+        "Officials from Iran and Qatar sat down together on Sunday 1 November for a third day in a row. They were looking for a deal to end the war between Iran on one side and the United States and Israel on the other. Iran’s foreign minister, Abbas Araqchi, said the talks were “ongoing and progressing”.",
+        "Iran’s rulers celebrated the American midterm results as a rebuke of President Trump. Even so, Supreme Leader Mojtaba Khamenei dismissed the idea of a major change in America’s policy toward Iran.",
+        "The Strait of Hormuz is a narrow stretch of water. Oil ships sail through it, and attacks on tankers there are raising energy and shipping costs worldwide. Brent crude, a widely quoted oil price, fell $1.59, or 1.40%, to $111.84 a barrel on Monday 2 November."
+      ],
+      "map": {
+        "title": "WHERE THE TALKS AND THE SHIPS ARE",
+        "label_top": "IRAN AND QATAR",
+        "label_bottom": "STRAIT OF HORMUZ",
+        "footnote": "Oil tankers pass through the Strait of Hormuz",
+        "caption": "The map marks Iran, Qatar and the Strait of Hormuz.",
+        "countries": [
+          "Iran",
+          "Qatar"
+        ],
+        "place": "Strait of Hormuz"
+      },
+      "why": "Oil ships pass the Strait of Hormuz, so the war and the talks affect fuel prices around the world.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "World in brief: November 4, 2026",
+          "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Russian Strikes Hit Ukraine’s Power Stations",
+      "deck": "Kyiv lost running water for more than 16 hours.",
+      "body": [
+        "Zelensky said Russia hit power sites in four Ukrainian regions overnight, cutting electricity to hundreds of thousands of homes. Ukraine’s air force said it shot down 371 of 433 long-range drones launched since Saturday evening.",
+        "On Tuesday, Ukraine’s energy ministry said, Russia launched one of its largest attacks of the year on energy sites in 10 regions. In Kyiv, people lost running water for more than 16 hours; pumping stations restarted Wednesday afternoon."
+      ],
+      "chart": {
+        "title": "DRONES AIMED AT UKRAINE",
+        "subtitle": "Long-range drones since Saturday evening",
+        "labels": [
+          "Launched",
+          "Shot down"
+        ],
+        "values": [
+          433,
+          371
+        ],
+        "max": 500,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Ukraine’s air force said it shot down 371 of 433 drones."
+      },
+      "why": "Power and water stations keep homes warm and clean as winter nears.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Russian strikes cut power to thousands in Ukraine",
+          "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Zelenskyy aid center attack",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Democrats were projected to win control of the Senate after the 3 November midterm elections, with 51 seats needed for control.",
+        "Australia: Government lawyers told the High Court the under-16 social media ban is needed to protect “developing brains”."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Iran and its negotiating partners announce a deal to end the war.",
+        "Whether Russia hits Ukraine’s power system again."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+    "https://morningstaronline.co.uk/article/world-brief-november-4-2026",
+    "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784",
+    "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/",
+    "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+    "https://www.thenewsminute.com/news/reddit-files-high-court-challenge-against-australias-under-16-social-media-ban"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which narrow waterway do oil ships pass through near Iran?",
+        "options": [
+          "Strait of Hormuz",
+          "English Channel",
+          "Suez Canal"
+        ],
+        "answer": 0,
+        "why": "Ships carrying oil pass the Strait of Hormuz.",
+        "story": "lead"
+      },
+      {
+        "q": "Which country’s officials held talks with Iran?",
+        "options": [
+          "Brazil",
+          "Qatar",
+          "Japan"
+        ],
+        "answer": 1,
+        "why": "Iranian and Qatari officials held three days of talks.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Ukraine’s air force say it shot down?",
+        "options": [
+          "371 of 433 drones",
+          "All of the missiles",
+          "Nothing"
+        ],
+        "answer": 0,
+        "why": "It said it shot down 371 of 433 drones.",
+        "story": "world"
+      },
+      {
+        "q": "How long did Kyiv lose running water?",
+        "options": [
+          "About one hour",
+          "More than 16 hours",
+          "Three days"
+        ],
+        "answer": 1,
+        "why": "Kyiv residents lost water for more than 16 hours.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Iran’s foreign minister said the talks were “ongoing and progressing”.",
+        "true": true,
+        "why": "Abbas Araqchi said this.",
+        "story": "lead"
+      },
+      {
+        "claim": "Brent crude oil fell to $111.84 a barrel on 2 November.",
+        "true": true,
+        "why": "It fell $1.59, or 1.40%, to $111.84.",
+        "story": "lead"
+      },
+      {
+        "claim": "Kyiv’s pumping stations started working again on Monday morning.",
+        "true": false,
+        "why": "The water company said they resumed on Wednesday afternoon.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.5,
+        "lon": 56.5,
+        "countries": [
+          "Iran",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "What was the price of a barrel of Brent crude on 2 November, in dollars?",
+        "answer": 111.84,
+        "prefix": "$",
+        "unit": "",
+        "min": 60,
+        "max": 160,
+        "why": "Brent fell to $111.84 a barrel."
+      },
+      {
+        "story": "world",
+        "q": "Of 433 drones Russia launched, how many did Ukraine’s air force say it shot down?",
+        "answer": 371,
+        "prefix": "",
+        "unit": "drones",
+        "min": 100,
+        "max": 500,
+        "why": "It said it shot down 371 of the 433."
+      }
+    ]
+  }
+}

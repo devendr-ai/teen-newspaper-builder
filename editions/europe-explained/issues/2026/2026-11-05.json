@@ -1,0 +1,460 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-11-05",
+  "volume": 1,
+  "issue": 13,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  BELGIUM",
+      "headline": "Countries Hoping to Join the EU Meet in Brussels",
+      "deck": "At a summit on 3 November, leaders said which candidates are racing ahead and which have stalled.",
+      "body": [
+        "On Tuesday 3 November, leaders of countries that want to join the European Union met in Brussels, Belgium, for the Euronews EU Enlargement Summit. Enlargement is the process by which new countries join the EU. Leaders from Ukraine, Albania, Moldova, Georgia, North Macedonia, Armenia and Croatia took part.",
+        "The council's president, António Costa, set the tone. He called enlargement \"the best geopolitical investment Europe has made\". He also said the fourth EU-Western Balkans Summit would be held in three weeks.",
+        "Who is closest to joining? According to Euronews, Montenegro is nearest the finish line but is stalled by bilateral issues with Croatia that are rooted in the Yugoslav Wars. Montenegro's EU minister said negotiating chapters could close this year, with accession, the moment a country formally joins, following in 2028. Albania is second-closest.",
+        "Other candidates are moving at very different speeds. Moldova is progressing so quickly that the European Commission has reallocated internal resources to keep pace. Ukraine has made formal progress since the change of government in Hungary, and is still expected to open all of its negotiating clusters before the end of 2026. Georgia, by contrast, has effectively halted amid democratic backsliding, and Enlargement Commissioner Marta Kos said it is \"a candidate country only on paper\".",
+        "Even the countries that are ready face a risk from inside the EU. Croatian Prime Minister Andrej Plenkovic warned that France's upcoming presidential elections could derail the accession process."
+      ],
+      "map": {
+        "title": "WHO WANTS TO JOIN",
+        "label_top": "BRUSSELS  •  Belgium",
+        "label_bottom": "Candidates at the summit",
+        "footnote": "Leaders met on 3 November",
+        "caption": "The summit took place in Brussels; Ukraine, Albania, Moldova, Montenegro and Georgia are among the candidates discussed.",
+        "countries": [
+          "Belgium",
+          "Ukraine",
+          "Albania",
+          "Moldova",
+          "Montenegro",
+          "Georgia"
+        ],
+        "place": "Brussels"
+      },
+      "why": "Countries joining the EU would change borders, trade and who has a say in Europe, so the decisions made now will shape the continent for years.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "EU enlargement at a turning point as leaders gather for Euronews summit",
+          "url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+        },
+        {
+          "outlet": "Council of the EU",
+          "title": "Statement by President Costa in the context of the Euronews EU Enlargement Summit 2026",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN AND QATAR",
+      "headline": "Iran Talks Ease Oil Prices, but Fuel Stays Dear",
+      "deck": "Qatar is helping Iran look for a deal to end its war with the United States and Israel.",
+      "body": [
+        "Oil is the thread that links a war in the Gulf to bills across Europe. On Sunday 1 November, Iranian and Qatari officials held a third straight day of talks aimed at a deal to end the war between Iran on one side and the United States and Israel on the other. Qatar is acting as the go-between, passing ideas from one side to the other.",
+        "Iran's foreign minister, Abbas Araqchi, said the talks were \"ongoing and progressing\" and that Tehran is prepared for both defense and diplomacy. Markets listened. On Monday 2 November, Brent crude futures, a widely quoted oil price, fell $1.59, or 1.40%, to $111.84 a barrel, while U.S. West Texas Intermediate was at $102.56.",
+        "Falling is not the same as cheap. Brent had ended October at its highest level in six months, amid concerns that the conflict could escalate after the American midterm elections on 3 November. One analyst said Brent could approach $120 a barrel if the rhetoric around Iran escalates after the vote. Attacks on oil tankers passing through the Strait of Hormuz are also raising global energy and shipping costs.",
+        "Other forces are pulling on the price too. OPEC+, the group of oil-producing countries that agrees output levels, kept its December production targets unchanged on Sunday.",
+        "The war itself became an election issue. Trump started it in February, and higher oil prices from it were cited as a factor in his party's losses. Vice President JD Vance wrote that \"The reason we lost is the war.\" Trump called that \"largely true\" because the war raised gasoline prices in the short term, but said he would do it again, because \"it's the only answer\" in the long term.",
+        "The politics moved after the vote. According to the Morning Star, Iran's rulers celebrated the US midterm results as a rebuke of President Trump, while Supreme Leader Mojtaba Khamenei dismissed the prospect of a major change in American policy toward Iran."
+      ],
+      "illustration": {
+        "title": "OIL AND THE STRAIT",
+        "subtitle": "Talks on, prices high",
+        "motif": "strait",
+        "caption": "Oil prices dipped on 2 November as Iran and Qatar held talks."
+      },
+      "connect": "Geography and economics meet at the Strait of Hormuz: ships carrying oil pass through it, so a conflict there can raise fuel prices in countries that never see the fighting.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "World in brief: November 4, 2026",
+          "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Election 2026 live results",
+          "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  ANTIGUA AND BARBUDA",
+      "headline": "Burnham Opens the Door to a Slave Trade Apology",
+      "deck": "The prime minister rejects reparations but offers talks as the Commonwealth meets in the Caribbean.",
+      "body": [
+        "Britain's prime minister, Andy Burnham, said his government will consider apologising for the first time for Britain's role in the transatlantic slave trade. He ruled out reparations, which are payments to make up for a wrong, and offered a \"structured dialogue\" with affected nations.",
+        "The Commonwealth Heads of Government Meeting is being hosted by Antigua and Barbuda in St John's from 1 to 4 November. The Commonwealth has 56 independent member nations, many of them former British colonies, and it is Burnham's first summit as prime minister.",
+        "Burnham said people alive today cannot be held liable for historical wrongs they did not commit, though Britain \"participated in the trade in human lives\". Instead of reparations he wants to tackle debt, giving vulnerable countries longer repayment periods and lower interest rates.",
+        "Barbados Prime Minister Mia Mottley welcomed the acknowledgment but said differences remain on reparations. Antigua and Barbuda's Gaston Browne called it a \"significant and welcome development\" but said the Caribbean's position on reparations is unchanged."
+      ],
+      "why": "A formal apology from the British state would be a major step in how the country talks about its history, and Caribbean leaders say the question of reparations stays open.",
+      "also": [
+        "Bank of England: its rate decision is due at 12:00 UK time on Thursday 5 November.",
+        "Budget: Chancellor John Healey delivered his first Budget on 28 October."
+      ],
+      "sources": [
+        {
+          "outlet": "AP via KIRO 7",
+          "title": "UK leader Burnham hints at apology for country's role in slave trade but rejects reparations",
+          "url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+        },
+        {
+          "outlet": "Express & Star",
+          "title": "King arrives in Antigua and Barbuda as slavery debate persists",
+          "url": "https://www.expressandstar.com/uk-news/king-arrives-in-antigua-and-barbuda-as-slavery-debate-persists-9321797"
+        },
+        {
+          "outlet": "ITV News",
+          "title": "I've 'come to listen to people', says Burnham as King set to open Commonwealth summit",
+          "url": "https://itv.com/news/2026-11-03/ive-come-to-listen-to-people-says-burnham-as-king-opens-commonwealth-summit"
+        },
+        {
+          "outlet": "ITV News",
+          "title": "Andy Burnham admits first Budget as prime minister was not what he wanted",
+          "url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted"
+        },
+        {
+          "outlet": "Finance Calendar",
+          "title": "Bank of England MPC rate decision, November 2026",
+          "url": "https://www.financecalendar.com/event/bank-of-england-mpc-rate-decision-november-2026/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "European Union: new non-binding guidelines from the Commission on 4 November advise people to be able to cope for 72 hours in an emergency.",
+        "EU-UK: the second summit is in Brussels on 20 November."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Enlargement",
+          "def": "New countries joining the EU. Today: Costa praised enlargement at the Brussels summit."
+        },
+        {
+          "word": "Accession",
+          "def": "A country formally joining. Today: Montenegro's minister said accession could follow in 2028."
+        },
+        {
+          "word": "Reparations",
+          "def": "Payments to make up for a past wrong. Today: Burnham ruled them out."
+        },
+        {
+          "word": "Preparedness",
+          "def": "Being ready before an emergency. Today: the guidelines ask people to prepare for 72 hours."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Britain banned the slave trade in 1807."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  UKRAINE",
+      "headline": "Russian Strikes Cut Ukraine's Power and Water",
+      "deck": "Hundreds of drones and missiles hit energy sites, and Kyiv lost running water for more than 16 hours.",
+      "body": [
+        "Ukraine's winter fear arrived early. Ukrainian President Volodymyr Zelensky said strikes overnight on 1 November hit power sites in four regions, leaving hundreds of thousands of households without electricity. The air force said it intercepted 371 of 433 long-range drones fired since the evening of Saturday 31 October.",
+        "Then came a bigger blow. On Tuesday 3 November, Ukraine's energy ministry said, Russia carried out one of its largest attacks of the year, hitting facilities in 10 regions. People in Kyiv were without running water for more than 16 hours, until pumping stations restarted on Wednesday afternoon, the utility Kyivvodokanal reported.",
+        "President Trump has repeatedly urged an energy ceasefire, a promise not to hit power plants. Kyiv says it backs a full ceasefire on energy targets, including its own grid, but that Moscow will not agree."
+      ],
+      "chart": {
+        "title": "DRONES OVER UKRAINE",
+        "subtitle": "Ukraine's air force, since Saturday evening",
+        "labels": [
+          "Launched",
+          "Shot down"
+        ],
+        "values": [
+          433,
+          371
+        ],
+        "max": 500,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Both figures are from Ukraine's air force and cover long-range drones launched by Russia since Saturday evening."
+      },
+      "why": "Power and water stations keep homes warm and clean as winter nears.",
+      "analyst": "Why might a ceasefire on energy targets be easier or harder to agree than a full ceasefire? What evidence would show whether either side is keeping to it?",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Russian strikes cut power to thousands in Ukraine, despite Trump's energy ceasefire push",
+          "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Zelenskyy aid center attack",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORT  •  FOOTBALL",
+      "body": "No match results were confirmed in time for this issue.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Bank of England: whether it changes its interest rate when it announces its decision on Thursday 5 November.",
+        "Brussels: the second EU-UK summit on 20 November and the EU-Western Balkans summit on 25 November."
+      ]
+    },
+    "quote": {
+      "text": "Knowing what to do in the first three days eases any emergency.",
+      "by": "Europe Explained"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "Euronews",
+      "title": "EU enlargement at a turning point as leaders gather for Euronews summit",
+      "url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+    },
+    {
+      "outlet": "Council of the EU",
+      "title": "Statement by President Costa in the context of the Euronews EU Enlargement Summit 2026",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/"
+    },
+    {
+      "outlet": "CNBC",
+      "title": "Oil slips more than 1% as talks continue on ending Iran war",
+      "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+    },
+    {
+      "outlet": "Morning Star",
+      "title": "World in brief: November 4, 2026",
+      "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+    },
+    {
+      "outlet": "ABC News",
+      "title": "Election 2026 live results",
+      "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+    },
+    {
+      "outlet": "CNBC",
+      "title": "2026 midterm election results: House, Senate live updates",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+    },
+    {
+      "outlet": "AP via KIRO 7",
+      "title": "UK leader Burnham hints at apology for country's role in slave trade but rejects reparations",
+      "url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+    },
+    {
+      "outlet": "Express & Star",
+      "title": "King arrives in Antigua and Barbuda as slavery debate persists",
+      "url": "https://www.expressandstar.com/uk-news/king-arrives-in-antigua-and-barbuda-as-slavery-debate-persists-9321797"
+    },
+    {
+      "outlet": "ITV News",
+      "title": "I've 'come to listen to people', says Burnham as King set to open Commonwealth summit",
+      "url": "https://itv.com/news/2026-11-03/ive-come-to-listen-to-people-says-burnham-as-king-opens-commonwealth-summit"
+    },
+    {
+      "outlet": "NBC News",
+      "title": "Russian strikes cut power to thousands in Ukraine, despite Trump's energy ceasefire push",
+      "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+    },
+    {
+      "outlet": "CBS News",
+      "title": "Zelenskyy aid center attack",
+      "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Where did the Euronews EU Enlargement Summit take place?",
+        "options": [
+          "Kyiv",
+          "Brussels",
+          "Tirana"
+        ],
+        "answer": 1,
+        "why": "The summit took place in Brussels on 3 November.",
+        "story": "lead"
+      },
+      {
+        "q": "Which candidate did Euronews say is closest to joining the EU?",
+        "options": [
+          "Georgia",
+          "Albania",
+          "Montenegro"
+        ],
+        "answer": 2,
+        "why": "Montenegro is nearest the finish line but stalled by issues with Croatia.",
+        "story": "lead"
+      },
+      {
+        "q": "Which country mediated talks with Iran to end the war?",
+        "options": [
+          "Qatar",
+          "Norway",
+          "Egypt"
+        ],
+        "answer": 0,
+        "why": "Iranian and Qatari officials held a third straight day of talks.",
+        "story": "world"
+      },
+      {
+        "q": "What does the paper say the UK prime minister rejects?",
+        "options": [
+          "An apology",
+          "Reparations",
+          "The Commonwealth"
+        ],
+        "answer": 1,
+        "why": "Burnham will consider an apology but rejects reparations.",
+        "story": "uk"
+      },
+      {
+        "q": "How long did Kyiv residents lose running water?",
+        "options": [
+          "More than 16 hours",
+          "About one hour",
+          "Three days"
+        ],
+        "answer": 0,
+        "why": "Kyiv residents lost running water for more than 16 hours.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Commonwealth has 56 independent member nations.",
+        "true": true,
+        "why": "The paper says the Commonwealth has 56 independent member nations.",
+        "story": "uk"
+      },
+      {
+        "claim": "Brent crude rose above $120 a barrel on 2 November.",
+        "true": false,
+        "why": "Brent fell to $111.84; an analyst said it could approach $120 if rhetoric escalates.",
+        "story": "world"
+      },
+      {
+        "claim": "Georgia is moving faster than any other candidate.",
+        "true": false,
+        "why": "Georgia's accession has effectively halted, and Marta Kos called it a candidate only on paper.",
+        "story": "lead"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "St John's",
+        "lat": 17.12,
+        "lon": -61.85,
+        "countries": [
+          "Antigua and Barbuda",
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "europe",
+        "q": "How many long-range drones did Ukraine's air force say it shot down?",
+        "answer": 371,
+        "prefix": "",
+        "unit": "drones",
+        "min": 100,
+        "max": 600,
+        "why": "Ukraine's air force said it shot down 371 of the 433 drones Russia launched."
+      },
+      {
+        "story": "uk",
+        "q": "How many independent nations are in the Commonwealth?",
+        "answer": 56,
+        "prefix": "",
+        "unit": "nations",
+        "min": 10,
+        "max": 100,
+        "why": "The Commonwealth has 56 independent member nations, many of them former British colonies."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Countries that want to join the EU meet",
+        "body": [
+          "On 3 November, leaders of countries that want to join the European Union met in Brussels. Joining the EU is called enlargement. Leaders from Ukraine, Albania, Moldova and other countries came.",
+          "The head of the European Council, António Costa, said enlargement is the best geopolitical investment Europe has made. Montenegro is closest to joining, and its minister said it could join in 2028. Albania is second-closest.",
+          "Not every country is moving fast. Georgia has effectively halted, and Marta Kos said it is a candidate only on paper. Croatia's leader warned that France's elections could slow things down."
+        ]
+      },
+      "world": {
+        "headline": "Talks to end the Iran war go on",
+        "body": [
+          "Iran and Qatar held three days of talks about ending a war. The war involves Iran, the United States and Israel. Qatar is helping the sides talk.",
+          "Oil prices dipped on 2 November. Brent crude fell to $111.84 a barrel. That is still very high. It ended October at its highest level in six months.",
+          "Ships carrying oil pass through the Strait of Hormuz. Attacks on tankers there are raising energy and shipping costs, so the war can change fuel prices far away."
+        ]
+      },
+      "uk": {
+        "headline": "UK leader may say sorry for the slave trade",
+        "body": [
+          "Britain's prime minister, Andy Burnham, said he will consider saying sorry for Britain's part in the slave trade. He does not want to pay reparations. Reparations are payments to make up for a wrong.",
+          "He spoke before a meeting of the Commonwealth in Antigua and Barbuda. The Commonwealth has 56 nations, many of them once ruled by Britain.",
+          "Caribbean leaders welcomed his words. They said they still want to talk about reparations."
+        ]
+      },
+      "europe": {
+        "headline": "Russian attacks hit Ukraine's power and water",
+        "body": [
+          "Russia attacked power sites in Ukraine. Hundreds of thousands of homes lost electricity. Ukraine's air force said it shot down 371 of 433 drones.",
+          "On Tuesday, Russia hit energy sites in 10 regions. People in Kyiv had no running water for more than 16 hours.",
+          "Ukraine says it would agree to a ceasefire on energy targets. It says Russia will not."
+        ]
+      }
+    }
+  }
+}

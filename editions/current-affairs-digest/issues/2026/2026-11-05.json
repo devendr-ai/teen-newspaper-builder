@@ -1,0 +1,624 @@
+{
+ "edition": "current-affairs-digest",
+ "date": "2026-11-05",
+ "volume": 1,
+ "issue": 21,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UNITED STATES",
+   "headline": "Democrats Win Control of Congress in US Midterm Elections",
+   "deck": "Projections give the party the Senate, the House and at least 28 governorships, with a few close races still being counted.",
+   "body": [
+    "Voters across the United States chose on Tuesday 3 November 2026 which party will control Congress for the last two years of President Donald Trump’s term. By Wednesday, ABC News, CNBC and CBS News all projected that Democrats had won both chambers. In the Senate, 51 seats are needed for control. CNBC said Democrats were on track for at least 54 seats and Republicans for at least 42, with Alaska and Mississippi the only races uncalled by midday Wednesday.",
+    "In Mississippi, Democrat Scott Colom led Republican Senator Cindy Hyde-Smith by fewer than 100 votes with 96% counted. CBS listed Democratic Senate flips in Texas, where James Talarico beat Ken Paxton, and Ohio, where Sherrod Brown beat Jon Husted, among others.",
+    "The House result is less precise. CNBC projected at least 250 House seats for Democrats and at least 160 for Republicans, while CBS estimated a Democratic total between 251 and 268, with about 75 races still undetermined. Democrats also flipped five Republican-held governorships: Texas, Georgia, Ohio, Iowa and Nevada, giving them at least 28 governorships, their first majority since 2010, CNBC reported.",
+    "CBS reported that Democratic control of the House gives the party subpoena power, the legal authority to demand documents and testimony, over the final two years of Trump’s term. Trump said he would use his veto as needed.",
+    "Vice President JD Vance wrote that the reason Republicans lost was the Iran war. Trump called that “largely true”, saying the war raised gasoline prices, but said he would do it again."
+   ],
+   "map": {
+    "title": "WHERE VOTERS DECIDED",
+    "label_top": "UNITED STATES",
+    "label_bottom": "ATLANTIC OCEAN",
+    "footnote": "Capital: Washington, DC",
+    "caption": "Control of both chambers of Congress, and of governors’ offices in many states, was decided in the 3 November vote.",
+    "countries": [
+     "United States"
+    ]
+   },
+   "why": "Congress writes the laws and controls government spending, so a Democratic majority gives the party power to block nominees, investigate and shape legislation for Trump’s last two years. Seat counts may still shift as the final ballots are counted.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "2026 midterm election results: House, Senate live updates",
+     "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "2026 midterm election updates as fallout begins over sweeping Democratic victories",
+     "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Election 2026 live results: Trump defends Iran war after Vance blames it for GOP losses",
+     "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  UKRAINE",
+   "headline": "Russian Bombs Hit a School Used as an Aid Centre in Southern Ukraine",
+   "deck": "At least 40 people were reported killed in Komyshuvakha, as Russia also struck Ukraine’s power grid.",
+   "body": [
+    "On Monday 2 November 2026, Russian aerial bombs hit a school in Komyshuvakha, a village in Ukraine’s Zaporizhzhia region, where people were collecting humanitarian aid. The Kyiv Independent reported at least 33 people killed, including two rescue workers and four police officers. CBS News later reported the toll as 40, and Ukrainian President Volodymyr Zelensky said more than 30 people might still be under the rubble as rescue efforts continued.",
+    "The village lies about 20 km from the front line and has been considered a front-line settlement since November 2025, amid repeated Russian guided aerial bomb attacks. Zelensky said Russia dropped nine more aerial bombs on a shelter where survivors had gone for safety after the first strike. He called it an “exceptionally horrific strike” and said Russian forces could not have been unaware that aid was handed out there every week.",
+    "Russia gave a different account. Its Defense Ministry said the strike targeted Ukraine’s military and claimed that as many as 25 Ukrainian service members were killed; Russia denies deliberately targeting civilians. Zelensky’s own appeal was direct: “Ukraine needs air defense support right now.”",
+    "Rescuers faced a second problem: the shelter was hit after survivors had already moved there, and Zelensky said more than 30 people might still be under the rubble. Counts therefore moved between reports, from 33 in the Kyiv Independent to 40 in CBS News, and the figure should be treated as provisional until the search ends.",
+    "The weapon matters to that appeal. Guided aerial bombs fitted with wing kits can travel tens of kilometres, letting aircraft strike from outside the range of air defence.",
+    "The strike came as Russia was also attacking Ukraine’s power and water systems, and Ukraine says it supports a full ceasefire on energy targets, including its own grid, but says Moscow will not agree."
+   ],
+   "illustration": {
+    "title": "BOMBS FROM OUTSIDE AIR DEFENCE",
+    "subtitle": "Explainer diagram",
+    "motif": "airdefense",
+    "caption": "Wing-kit bombs can travel tens of kilometres, so aircraft can release them from outside air-defence range."
+   },
+   "connect": "Geography and economics: front-line villages near Zaporizhzhia face repeated bomb attacks, while the strikes on power and water stations hit cities far from the front, which matters as winter nears.",
+   "sources": [
+    {
+     "outlet": "Kyiv Independent",
+     "title": "Exceptionally horrific strike: Russian bombs strike school used as humanitarian aid center in Zaporizhzhia Oblast",
+     "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Ukraine Russia war Zelenskyy aid center attack death toll",
+     "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Russian strikes cut power to thousands in Ukraine",
+     "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  ANDHRA PRADESH",
+   "headline": "Cyclone Murasu Weakens After Damaging Andhra Pradesh Crops",
+   "deck": "More than 30,000 hectares of crops were damaged, and 10,805 people were moved to shelters.",
+   "body": [
+    "The India Meteorological Department (IMD) said Severe Cyclonic Storm Murasu crossed the south Andhra Pradesh coast near Ongole, in Prakasam district, at around 1 am on Tuesday 3 November. The system began as a low-pressure area over the Bay of Bengal, was classed a cyclonic storm on 1 November and a severe one on 2 November. Winds reached 100-110 km/h, gusting to 120 km/h. The IMD expected a deep depression by Tuesday night and full dissipation by 5 November.",
+    "The damage count is the new development. The Tribune reported more than 30,000 hectares of standing crops damaged across 15 districts, with Krishna, Bapatla and Nandyal hit hardest; paddy, cotton and maize suffered most, and flooded salt pans cost farmers and workers income. A later report in the Hans India, dated 4 November, put the state’s figures for Murasu at crops destroyed on nearly 52,500 hectares and 465 villages in seven districts severely affected, with a loss estimated at Rs 343 crore. The two counts differ, so the figures differ between reports.",
+    "The relief effort was large. The state moved 10,805 people to cyclone shelters, set up 171 relief camps and distributed 14,810 food packets, the Tribune said. ETV Bharat reported that 14 National Disaster Response Force (NDRF) teams were deployed in Andhra Pradesh, three of them moved from Tamil Nadu, and that in Odisha 1,65,809 people were evacuated from six southern districts. Fishermen were advised not to go to sea until the morning of 4 November.",
+    "Casualty reports differ. Prakhar Jain of the Andhra Pradesh State Disaster Management Authority said no deaths or injuries had been reported when the Tribune wrote, while a later ETV Bharat live blog said at least two people died. Home Minister Amit Shah said he had spoken to Chief Minister Chandrababu Naidu and that NDRF and SDRF teams were on the ground.",
+    "The money question follows. After a call with Prime Minister Narendra Modi, Naidu sent the Centre a proposal for immediate help of over Rs 4,500 crore for areas hit by both Murasu and the earlier Cyclone Arnab, the Hans India reported. For Arnab the state estimated a loss of at least Rs 4,563 crore, with 781 villages battered and 29,000 electric poles destroyed. Arnab killed seven people in Andhra Pradesh, according to a 29 October report."
+   ],
+   "illustration": {
+    "title": "A STORM, THEN A CLEAN-UP",
+    "subtitle": "Explainer diagram",
+    "motif": "flood",
+    "caption": "Wind, rain and flooding hit crops, salt pans and power lines across 15 districts."
+   },
+   "why": "A cyclone’s damage continues after the wind drops: crops, salt pans and power lines take longer to recover than the storm lasts. Two cyclones in a week leave farms and relief teams little time to recover.",
+   "sources": [
+    {
+     "outlet": "The Tribune",
+     "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+     "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+    },
+    {
+     "outlet": "ETV Bharat",
+     "title": "Cyclone Murasu LIVE",
+     "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+    },
+    {
+     "outlet": "Kathmandu Post",
+     "title": "Cyclone Arnab kills seven in Andhra Pradesh as heavy rain hits eastern India",
+     "url": "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india"
+    },
+    {
+     "outlet": "The Hans India",
+     "title": "AP Govt seeks Rs 4,500 cr immediate Central assistance for twin cyclone damages",
+     "url": "https://www.thehansindia.com/andhra-pradesh/ap-govt-seeks-rs-4500-cr-immediate-central-assistance-for-twin-cyclone-damages-1139211"
+    }
+   ]
+  },
+  "politics_and_civics": {
+   "kicker": "POLITICS & CIVICS  •  INDIA",
+   "headline": "Election Commission Defends Voter-List Revision in the Supreme Court",
+   "deck": "A 248-page reply asks the court to dismiss petitions against the revision and against the Chief Election Commissioner.",
+   "body": [
+    "India’s Election Commission (EC), the constitutional body that runs the country’s elections, has told the Supreme Court that its revision of the electoral rolls was lawful. It filed a 248-page counter-affidavit, a formal written reply, responding to petitions against Chief Election Commissioner Gyanesh Kumar and against the Special Intensive Revision (SIR) of the rolls. All India Radio News said the document was filed by Deputy Election Commissioner Bhanu Prakash Yeturu. Electoral rolls decide who can vote, so courts check that the process is lawful and fair.",
+    "The EC’s main defence rests on the Constitution. It says its three SIR orders were issued under Article 324 on unanimous decisions of all three commissioners. It asked the court to dismiss the petitions, calling them misconceived. It also pointed to Article 324(5), saying the Chief Election Commissioner can be removed only in the same way as a Supreme Court judge, and argued that a prayer to restrain him from functioning is not maintainable.",
+    "The EC also answered specific allegations. The petitions said the statutory Form 6, the voter-registration application, had been amended; the EC rejects this and says the SIR declaration is a separate document, not a part of Form 6. It says the allegations rest on one newspaper report, which is not evidence of the facts it describes. It adds that a commissioner’s query while a file is processed does not count as a Commission decision. Later orders replaced the declaration used in Bihar, so applicants can now give details of themselves and their parents or grandparents from the 2002-03 rolls.",
+    "The petitioners want much more than a ruling on one order. According to WION, they seek the reversal of 14 SIR-related decisions and an inquiry by a special investigation team. After the EC’s earlier affidavit of 26 October, the Supreme Court gave petitioner Rakesh Kumar Singh 10 days to reply, WION reported.",
+    "Outside the court, Human Rights Watch said in a report dated 29 October that India’s removal of over 130 million names from voter rolls was arbitrary and deeply flawed. It says the first phase, in Bihar, deleted about 4.7 million names, and that the second covered 10 states and 2 union territories. The Election Commission rejected allegations of irregularities in an October affidavit. Human Rights Watch noted that in May 2026 the Supreme Court ruled that the data did not indicate “systemic disenfranchisement”.",
+    "A bench headed by Chief Justice Surya Kant was to hear the petitions. The outcome is not yet known."
+   ],
+   "illustration": {
+    "title": "THE COURT CHECKS THE ROLLS",
+    "subtitle": "Explainer diagram",
+    "motif": "court",
+    "caption": "The Election Commission and its critics now argue their cases before the Supreme Court."
+   },
+   "why": "The voter list decides who can vote, so a dispute over how it is revised goes to the heart of fair elections. The court’s eventual decision will show how far the Commission’s powers can be reviewed.",
+   "sources": [
+    {
+     "outlet": "All India Radio News",
+     "title": "EC defends SIR of electoral rolls before Supreme Court",
+     "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+    },
+    {
+     "outlet": "WION",
+     "title": "SC defers pleas against CEC Gyanesh Kumar by 10 days",
+     "url": "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675"
+    },
+    {
+     "outlet": "Human Rights Watch",
+     "title": "India: Mass Voter Roll Exclusions Deeply Flawed",
+     "url": "https://www.hrw.org/news/2026/10/29/india-mass-voter-roll-exclusions-deeply-flawed"
+    }
+   ]
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  OIL",
+   "headline": "Oil Slips as Iran Talks Continue, but Stays Above $100 a Barrel",
+   "deck": "Brent crude was still around $112 on Monday 2 November, even after a third day of talks to end the war.",
+   "body": [
+    "Oil prices slipped more than 1% on Monday 2 November as Iranian and Qatari officials held a third straight day of talks aimed at a deal to end the US-Israeli war on Iran. Brent crude futures fell $1.59, or 1.40%, to $111.84 a barrel, and US West Texas Intermediate (WTI), the American benchmark, was at $102.56. Brent is the international benchmark price, which is why both numbers matter.",
+    "The fall came with little to rely on. Iran’s foreign minister Abbas Araqchi said the talks with Qatari officials were “ongoing and progressing”, and that Tehran is prepared for both defense and diplomacy. But CNBC noted that Brent had ended October at its highest level in six months, amid fears the conflict could escalate after the US midterm elections.",
+    "Supply worries explain why prices stay high. Attacks on oil tankers passing through the Strait of Hormuz are raising global energy and shipping costs. OPEC+, the group of oil producers, kept its December production targets unchanged on Sunday.",
+    "The next move depends on rhetoric as much as on barrels. Analyst Tim Waterer said the market remains alert to talk that could push Brent toward $120 after the midterms. By Wednesday 4 November, HDFC Sky reported, Brent futures had slipped a further 0.4% to $103.2 a barrel and WTI to $95.6, after Brent touched its lowest level in nearly four weeks the session before. The report added that US crude inventories fell by 5.27 million barrels in the week to 30 October, per the American Petroleum Institute, when analysts had expected a rise of about 880,000 barrels.",
+    "For India, which imports much of its oil, high crude prices raise fuel costs and weigh on the wider economy. Yet pump prices did not move: on 4 November, petrol in Delhi stayed at Rs 102.12 a litre and diesel at Rs 95.20, while Mumbai petrol was Rs 111.21 and diesel Rs 97.83, and Hyderabad petrol Rs 116.15, one of the highest among the cities HDFC Sky listed."
+   ],
+   "chart": {
+    "title": "OIL PRICE, 2 NOVEMBER",
+    "subtitle": "Dollars per barrel",
+    "labels": [
+     "Brent crude",
+     "US WTI"
+    ],
+    "values": [
+     111.84,
+     102.56
+    ],
+    "max": 120,
+    "value_prefix": "$",
+    "highlight_after": 1,
+    "caption": "Brent fell 1.40% to $111.84; WTI was at $102.56, down 1.50%."
+   },
+   "why": "Oil prices feed into fuel, transport and food costs, so a war that threatens shipping through Hormuz reaches households far from the Gulf.",
+   "analyst": "Why might oil stay above $100 even while talks are described as progressing? Who gains and who loses if Brent moves toward $120?",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Oil slips more than 1% as talks continue on ending Iran war",
+     "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+    },
+    {
+     "outlet": "HDFC Sky",
+     "title": "Petrol, Diesel Prices Today, November 4, 2026",
+     "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-november-4-2026-check-latest-rates-in-delhi-mumbai-kolkata-chennai-bengaluru"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  BIOLOGY",
+   "headline": "Trees Sense Their Own Shape to Straighten Themselves",
+   "deck": "French researchers found trees grow special wood on both sides of the trunk to pull it upright.",
+   "body": [
+    "A tree knocked sideways by a storm can still end up growing upright, and French researchers have now shown how. The study, by scientists at INRAE, the French national research institute, and Université Clermont Auvergne, was published in New Phytologist on 2 September 2026. It found that trees sense their own shape and grow a special kind of wood to correct it.",
+    "To follow the experiment, it helps to know what tension wood is. INRAE says it acts like a muscle: on the upper side of a stem it contracts and pulls the stem upward. Before this study, it was thought to form only on the upper side. The experiment began with young poplar trees laid horizontally. Over about ten days their stems curved upward until their tops were vertical. That raised a question: do trees only react to gravity and light, or do they also sense their own bend?",
+    "To separate those cues, the researchers moved the trees onto a clinostat, a horizontal platform rotating inside a sphere lit from all directions, which removed steady gravity and light signals. In that setup, tension wood on the upper side stopped forming, and identical wood formed on the opposite side, acting as an opposing muscle that pulled in the reverse direction. The opposing forces gradually straightened the stems over several weeks.",
+    "The finding also answers an old puzzle. INRAE says plants use proprioception to control their posture and stay as straight as possible, but the biological mechanism behind it was unknown until this study. Tension wood can be seen at the base of trees on mountain slopes. Its formation is a complex, cell-regulated process with several stages, and proprioception governs it. Félix Hartmann, an INRAE research engineer, said revealing the remarkable capabilities of trees requires a great deal of ingenuity.",
+    "The researchers say this shows trees use proprioception, an internal sense of their own shape, to decide where tension wood forms. Proprioception means perceiving the position of one’s own body parts, and it was long thought to exist only in animals; a 2012 study involving INRAE showed plants have it too. Bruno Moulia, INRAE research director, said the team had uncovered “a genuine sensorimotor loop” operating in the woody parts of trees.",
+    "The authors suggest uses in forests and fields. The findings may help explain how trees stay resilient after storms or landslides. Breeding crops for proprioception could favour plants that stay upright, which could reduce lodging, the term for crops falling flat near the end of the season and causing yield losses. INRAE also says poor coordination of tension wood activation can create excessive internal stress, which affects wood quality."
+   ],
+   "illustration": {
+    "title": "HOW A TREE STRAIGHTENS",
+    "subtitle": "Explainer diagram",
+    "motif": "farm",
+    "caption": "Tension wood pulls a leaning stem upward; the trees also sense their own bend."
+   },
+   "why": "If trees can sense and correct their own shape, foresters and farmers may be able to breed straighter trees and crops that stay standing until harvest, and wood of better quality.",
+   "sources": [
+    {
+     "outlet": "ScienceDaily",
+     "title": "Trees have an inner sense of shape that helps them straighten",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+    },
+    {
+     "outlet": "INRAE",
+     "title": "A newly discovered role for tension wood: the muscle trees use to correct their posture",
+     "url": "https://www.inrae.fr/en/news/newly-discovered-role-tension-wood-muscle-trees-use-correct-their-posture"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Space: NASA’s Swift Observatory, launched in 2004 to study gamma-ray bursts, was expected to re-enter Earth’s atmosphere on 4 November, and NASA expected most of it to burn up.",
+    "United States: roughly two dozen of 41 local data-centre ballot measures in 10 states passed preliminary counts, restricting or blocking data centres, CNBC reported.",
+    "United States: Elon Musk spent at least $474 million on the midterms; of 44 federal races his PAC targeted, Republicans it backed or opposed lost 29, won 3, with 12 pending.",
+    "Georgia: Keisha Lance Bottoms was elected governor and would be the first Black woman governor of any state, CBS News reported."
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Counter-affidavit",
+     "def": "A written statement filed in court in reply to another side’s claims. Today: the Election Commission filed a 248-page one in the Supreme Court."
+    },
+    {
+     "word": "Benchmark",
+     "def": "A standard price or measure used for comparison. Today: Brent crude and WTI are benchmark oil prices."
+    },
+    {
+     "word": "Tension wood",
+     "def": "Wood that forms on one side of a stem and pulls it toward that side. Today: it pulled leaning poplar stems upright."
+    },
+    {
+     "word": "Flip",
+     "def": "To win a seat or office from the other party. Today: Democrats flipped five Republican-held governorships."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "Cyclones and hurricanes are the same kind of storm; in the northwest Pacific the same storm is called a typhoon."
+  },
+  "explainer": {
+   "title": "How the two houses of Congress count",
+   "body": [
+    "The US Congress has two chambers. The House of Representatives has 435 seats and a party needs 218 for a majority, and every House seat is up for election every two years. The Senate has 100 seats, two for each state, and a party needs 51 to control it, which ABC News used in its tally.",
+    "That is why a midterm election can change so much: the president’s party can lose control of one or both chambers without the president himself being on the ballot. Control matters because bills must pass both chambers, and the House, which holds the power of subpoena, can investigate the government."
+   ],
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "2026 midterm election results: House, Senate live updates",
+     "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Election 2026 live results: Trump defends Iran war after Vance blames it for GOP losses",
+     "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Eight questions on this issue",
+   "body": [
+    "<b>1.</b> How many Senate seats are needed for control?",
+    "(a) 51  (b) 54  (c) 435",
+    "<b>2.</b> How many Republican-held governorships did Democrats flip?",
+    "(a) Three  (b) Five  (c) Ten",
+    "<b>3.</b> Where did Russian bombs hit a school used as an aid centre?",
+    "(a) Komyshuvakha  (b) Kyiv  (c) Oleshky",
+    "<b>4.</b> How many people did the Tribune say were moved to cyclone shelters?",
+    "(a) 1,080  (b) 10,805  (c) 108,050",
+    "<b>5.</b> Under which article does the EC say it issued its SIR orders?",
+    "(a) Article 21  (b) Article 324  (c) Article 370",
+    "<b>6.</b> What was Brent crude at on 2 November?",
+    "(a) $111.84  (b) $102.56  (c) $120",
+    "<b>7.</b> What wood pulled the poplar stems upright?",
+    "(a) Heartwood  (b) Tension wood  (c) Bark",
+    "<b>8.</b> Whom did Vance say the loss was due to?",
+    "(a) The Iran war  (b) The ballroom  (c) Data centres",
+    "<b>Answers:</b> 1 a, 2 b, 3 a, 4 b, 5 b, 6 a, 7 b, 8 a."
+   ],
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "2026 midterm election results: House, Senate live updates",
+     "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+    },
+    {
+     "outlet": "ABC News",
+     "title": "Election 2026 live results: Trump defends Iran war after Vance blames it for GOP losses",
+     "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+    },
+    {
+     "outlet": "Kyiv Independent",
+     "title": "Exceptionally horrific strike: Russian bombs strike school used as humanitarian aid center in Zaporizhzhia Oblast",
+     "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+    },
+    {
+     "outlet": "The Tribune",
+     "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+     "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+    },
+    {
+     "outlet": "All India Radio News",
+     "title": "EC defends SIR of electoral rolls before Supreme Court",
+     "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Oil slips more than 1% as talks continue on ending Iran war",
+     "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+    },
+    {
+     "outlet": "ScienceDaily",
+     "title": "Trees have an inner sense of shape that helps them straighten",
+     "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "US midterms: whether Colom or Hyde-Smith wins Mississippi, and who wins the Alaska Senate race, as counting continues.",
+    "Ukraine: the final death toll at Komyshuvakha, and whether Russia carries out a new large attack on Ukraine’s energy system.",
+    "Iran: whether the Qatar-mediated talks produce a deal, and whether Brent crude moves toward $120 or falls from $111.84."
+   ]
+  }
+ },
+ "sources": [
+  "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+  "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+  "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+  "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/",
+  "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/",
+  "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784",
+  "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+  "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486",
+  "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india",
+  "https://www.thehansindia.com/andhra-pradesh/ap-govt-seeks-rs-4500-cr-immediate-central-assistance-for-twin-cyclone-damages-1139211",
+  "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/",
+  "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675",
+  "https://www.hrw.org/news/2026/10/29/india-mass-voter-roll-exclusions-deeply-flawed",
+  "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+  "https://hdfcsky.com/news/petrol-diesel-prices-today-november-4-2026-check-latest-rates-in-delhi-mumbai-kolkata-chennai-bengaluru",
+  "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+  "https://www.inrae.fr/en/news/newly-discovered-role-tension-wood-muscle-trees-use-correct-their-posture"
+ ],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "How many Senate seats are needed for control?",
+    "options": [
+     "51",
+     "54",
+     "435"
+    ],
+    "answer": 0,
+    "why": "ABC News said 51 Senate seats are needed for control.",
+    "story": "lead"
+   },
+   {
+    "q": "How many Republican-held governorships did Democrats flip?",
+    "options": [
+     "Three",
+     "Five",
+     "Ten"
+    ],
+    "answer": 1,
+    "why": "CNBC said Democrats flipped five: Texas, Georgia, Ohio, Iowa and Nevada.",
+    "story": "lead"
+   },
+   {
+    "q": "Where did Russian bombs hit a school used as an aid centre?",
+    "options": [
+     "Kyiv",
+     "Oleshky",
+     "Komyshuvakha"
+    ],
+    "answer": 2,
+    "why": "The strike was in Komyshuvakha, in the Zaporizhzhia region.",
+    "story": "world"
+   },
+   {
+    "q": "How many people were moved to cyclone shelters, according to the Tribune?",
+    "options": [
+     "1,080",
+     "108,050",
+     "10,805"
+    ],
+    "answer": 2,
+    "why": "The Tribune reported 10,805 people moved to shelters.",
+    "story": "india"
+   },
+   {
+    "q": "Under which article does the EC say it issued its SIR orders?",
+    "options": [
+     "Article 324",
+     "Article 21",
+     "Article 370"
+    ],
+    "answer": 0,
+    "why": "The EC said its three SIR orders were issued under Article 324.",
+    "story": "politics_and_civics"
+   },
+   {
+    "q": "What was Brent crude at on 2 November?",
+    "options": [
+     "$120 a barrel",
+     "$102.56 a barrel",
+     "$111.84 a barrel"
+    ],
+    "answer": 2,
+    "why": "Brent fell to $111.84 a barrel.",
+    "story": "economics"
+   },
+   {
+    "q": "Which kind of wood pulled the poplar stems upright?",
+    "options": [
+     "Heartwood",
+     "Tension wood",
+     "Bark"
+    ],
+    "answer": 1,
+    "why": "Tension wood on the upper side pulled the stems upward.",
+    "story": "science_and_technology"
+   },
+   {
+    "q": "What did Vance say was the reason Republicans lost?",
+    "options": [
+     "The ballroom",
+     "Data centres",
+     "The Iran war"
+    ],
+    "answer": 2,
+    "why": "Vance wrote that the reason they lost was the war.",
+    "story": "lead"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Democrats flipped five Republican-held governorships.",
+    "true": true,
+    "why": "CNBC said they flipped Texas, Georgia, Ohio, Iowa and Nevada.",
+    "story": "lead"
+   },
+   {
+    "claim": "Cyclone Murasu crossed the coast near Ongole in Prakasam district.",
+    "true": true,
+    "why": "The IMD said it crossed near Ongole in Prakasam district.",
+    "story": "india"
+   },
+   {
+    "claim": "Russia’s Defense Ministry said the Komyshuvakha strike killed only civilians.",
+    "true": false,
+    "why": "It said the strike targeted Ukraine’s military and claimed up to 25 service members were killed.",
+    "story": "world"
+   },
+   {
+    "claim": "Brent crude fell to $111.84 a barrel on Monday 2 November.",
+    "true": true,
+    "why": "Brent futures fell $1.59, or 1.40%, to $111.84.",
+    "story": "economics"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Washington DC",
+    "lat": 38.9,
+    "lon": -77.04,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Zaporizhzhia",
+    "lat": 47.84,
+    "lon": 35.14,
+    "countries": [
+     "Ukraine"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Ongole",
+    "lat": 15.5,
+    "lon": 80.05,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "politics_and_civics",
+    "place": "New Delhi",
+    "lat": 28.61,
+    "lon": 77.21,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "Strait of Hormuz",
+    "lat": 26.57,
+    "lon": 56.25,
+    "countries": [
+     "Iran"
+    ]
+   },
+   {
+    "story": "science_and_technology",
+    "place": "Paris",
+    "lat": 48.86,
+    "lon": 2.35,
+    "countries": [
+     "France"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "india",
+    "q": "How many people were moved to cyclone shelters, according to the Tribune?",
+    "answer": 10805,
+    "prefix": "",
+    "unit": "people",
+    "min": 1000,
+    "max": 50000,
+    "why": "The Tribune reported 10,805 people moved to shelters."
+   },
+   {
+    "story": "world",
+    "q": "About how far from the front line is Komyshuvakha?",
+    "answer": 20,
+    "prefix": "",
+    "unit": "km",
+    "min": 1,
+    "max": 100,
+    "why": "The village lies about 20 km from the front line."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Democrats win control of Congress",
+    "body": [
+     "Americans voted on 3 November. News groups said Democrats had won both parts of Congress, the Senate and the House.",
+     "In the Senate, 51 seats are needed to be in charge. Democrats were on track for at least 54. Democrats also took five governor jobs from Republicans, including Texas and Georgia.",
+     "Vice President JD Vance said Republicans lost because of the Iran war. President Trump said that was largely true because the war made gasoline cost more."
+    ]
+   },
+   "world": {
+    "headline": "Bombs hit a school used for aid in Ukraine",
+    "body": [
+     "On 2 November Russian bombs hit a school in Komyshuvakha, a village in Ukraine. People were getting help there, such as food and supplies.",
+     "At least 40 people were reported killed. Ukraine’s president said more bombs hit a shelter after the first strike.",
+     "Russia said it was aiming at Ukraine’s army. Russia says it does not aim at civilians.",
+     "The bombs are guided, so planes can drop them from far away. Air defences find them hard to stop."
+    ]
+   },
+   "india": {
+    "headline": "Cyclone Murasu damages crops in Andhra Pradesh",
+    "body": [
+     "A strong storm called Cyclone Murasu reached the coast of Andhra Pradesh in India on 3 November. Winds blew at up to 110 km/h.",
+     "The storm damaged crops on more than 30,000 hectares of land. The state moved 10,805 people to shelters.",
+     "The storm was expected to weaken soon. It was the second cyclone in the area in a week."
+    ]
+   },
+   "politics_and_civics": {
+    "headline": "The Election Commission answers in court",
+    "body": [
+     "India’s Election Commission looks after elections. It has been asked questions in the Supreme Court about how it updates voter lists.",
+     "It wrote a long reply of 248 pages. It said its work was lawful and asked the court to dismiss the cases.",
+     "The people who brought the cases want 14 decisions reversed. The court has not yet decided.",
+     "It asked the court to dismiss the cases. Judges will now look at the arguments."
+    ]
+   },
+   "economics": {
+    "headline": "Oil is cheaper, but still costly",
+    "body": [
+     "Oil is sold by the barrel. On 2 November one kind, called Brent, cost $111.84 a barrel. That was a little lower than before.",
+     "The price fell because Iran and Qatar held talks to end a war. But ships carrying oil still face attacks near the Strait of Hormuz.",
+     "India buys a lot of oil from abroad. So high oil prices can make fuel cost more."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "Trees can sense their own shape",
+    "body": [
+     "Scientists in France studied young trees called poplars. When the trees were laid on their sides, they grew upward again.",
+     "They grew a special wood on the upper side of the stem. It pulled the stem up. Even when light and gravity cues were removed, the trees grew this wood and straightened.",
+     "The scientists say trees can sense their own shape. This might help grow straighter trees."
+    ]
+   }
+  }
+ }
+}
