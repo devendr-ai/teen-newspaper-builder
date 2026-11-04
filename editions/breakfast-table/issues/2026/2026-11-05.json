@@ -1,0 +1,474 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-05",
+  "volume": 1,
+  "issue": 21,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  INDIA",
+      "headline": "Cyclone Murasu Batters India’s East Coast and Damages Crops",
+      "deck": "Thousands of people stayed in shelters while the storm crossed the Andhra Pradesh coast.",
+      "body": [
+        "Cyclone Murasu, a huge spinning storm, crossed the coast of Andhra Pradesh in India near the city of Ongole at around 1 am on Tuesday 3 November. Winds reached 100 to 110 kilometres an hour. It uprooted trees, toppled electricity poles and flooded low-lying areas.",
+        "More than 30,000 hectares of crops were damaged across 15 districts. Paddy, cotton and maize suffered most. Many people had already moved to safety: The Tribune reported 10,805 people in cyclone shelters, and 14 NDRF rescue teams were sent to the state.",
+        "No deaths were reported when the Tribune wrote, but a later live blog said at least two people had died. It was the second cyclone to hit the region in a week."
+      ],
+      "map": {
+        "title": "WHERE MURASU CROSSED THE COAST",
+        "label_top": "ANDHRA PRADESH",
+        "label_bottom": "NEAR ONGOLE",
+        "footnote": "Prakasam district, on the Bay of Bengal coast",
+        "caption": "Murasu crossed the coast near Ongole around 1 am on 3 November.",
+        "countries": [
+          "India"
+        ],
+        "place": "Bay of Bengal"
+      },
+      "why": "Early warnings and shelters help families stay safe, and damaged crops show how a storm can hurt farmers’ work as well as their homes.",
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Cyclone Murasu LIVE",
+          "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+        },
+        {
+          "outlet": "Kathmandu Post",
+          "title": "Cyclone Arnab kills seven in Andhra Pradesh as heavy rain hits eastern India",
+          "url": "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN",
+      "headline": "Iran and Qatar Keep Talking About Ending the War as Oil Prices Dip",
+      "deck": "Officials met for a third day on Sunday 1 November, and fuel prices slipped on hopes for peace.",
+      "body": [
+        "Iran and Qatar held talks for a third day in a row on Sunday 1 November, aiming to end the war between Iran and the United States and Israel. Iran’s foreign minister said the talks were “ongoing and progressing.”",
+        "Oil is the link to family budgets. Attacks on tankers passing through the Strait of Hormuz are raising energy and shipping costs around the world. On Monday 2 November, Brent crude, a main world price, fell $1.59 to $111.84 a barrel as people hoped for peace.",
+        "Brent had ended October at its highest level in six months. One analyst said it could near $120 a barrel if angry words about Iran return.",
+        "OPEC+, a group of oil-producing countries, kept its December production targets unchanged on Sunday. Morning Star reported that Iran’s rulers saw the American midterm results as a rebuke of President Trump, while Supreme Leader Mojtaba Khamenei dismissed the idea of a major change in US policy toward Iran."
+      ],
+      "chart": {
+        "title": "OIL PRICE PER BARREL",
+        "subtitle": "Two main prices, 2 November",
+        "labels": [
+          "Brent crude",
+          "US WTI"
+        ],
+        "values": [
+          111.84,
+          102.56
+        ],
+        "max": 120,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "WTI is the main US price."
+      },
+      "connect": "Geography meets money at the Strait of Hormuz: ships carrying oil pass through it.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "Morning Star",
+          "title": "World in brief: November 4, 2026",
+          "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ELECTIONS",
+      "headline": "Democrats Win Control of Congress in the Midterm Elections",
+      "deck": "A few close races were still being counted on Wednesday.",
+      "body": [
+        "Democrats were projected to win both chambers of Congress, the lawmakers who write the country’s laws. CNBC projected at least 250 of the House’s 435 seats for Democrats. In the Senate, 51 seats are needed for control, and Democrats were on track for at least 54.",
+        "Alaska and Mississippi had not been called by Wednesday midday. Democrats also flipped five governorships: Texas, Georgia, Ohio, Iowa and Nevada.",
+        "House control brings subpoena power, which can demand documents in investigations. President Trump said he will use his veto, the power to block a bill, as needed."
+      ],
+      "why": "Which party controls Congress shapes which laws can pass.",
+      "also": [
+        "Georgia: Keisha Lance Bottoms would be the first Black woman governor of any state, CBS reported.",
+        "Local votes: About two dozen of 41 data-center measures passed to restrict them, CNBC said."
+      ],
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "2026 midterm election updates",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Election 2026 live results",
+          "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Space: NASA’s Swift Observatory was expected to re-enter the atmosphere on 4 November.",
+        "Ukraine: Kyiv residents lost running water for more than 16 hours after attacks."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Families moved to shelters before the cyclone. What would you pack if you had to leave home quickly?",
+        "The storm damaged crops. How might that change what a farmer’s family does next?",
+        "Why might it matter that many people take part in choosing leaders?"
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ELECTIONS",
+      "headline": "Election Commission Defends Its Voter-List Check in Supreme Court",
+      "deck": "The commission filed a 248-page reply and asked the court to dismiss the petitions.",
+      "body": [
+        "India keeps lists, called electoral rolls, of the people allowed to vote. The Election Commission, which runs the country’s elections, is rechecking those lists in a process it calls a Special Intensive Revision, or SIR. Some people disagree with how it is being done, so they went to the Supreme Court.",
+        "In reply, the commission handed the court 248 pages. It says it followed the Constitution, using Article 324, and that all three of its commissioners agreed on its three SIR orders. It wants the court to throw out the complaints, which it calls misconceived.",
+        "The complaints are also aimed at Gyanesh Kumar, who leads the commission. The people who brought them want 14 decisions about the rechecking undone, and a special team to investigate. The commission answered that under Article 324(5) its leader can be removed only in the way a Supreme Court judge is.",
+        "Next, the judges decide. A bench led by Chief Justice Surya Kant was due to hear the case. WION reported that, after the commission filed its sworn statement on 26 October, the court gave one petitioner, Rakesh Kumar Singh, 10 days to respond."
+      ],
+      "why": "Voter lists decide who can vote, so courts check that the way they are updated is lawful and fair.",
+      "sources": [
+        {
+          "outlet": "All India Radio News",
+          "title": "EC defends SIR of electoral rolls before Supreme Court",
+          "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+        },
+        {
+          "outlet": "WION",
+          "title": "SC defers pleas against CEC Gyanesh Kumar by 10 days",
+          "url": "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER",
+      "body": "No match results were confirmed in time for this issue.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Alaska and Mississippi, the last uncalled Senate races, are decided.",
+        "Whether the Iran and Qatar talks lead to a deal to end the war, and what happens to oil prices."
+      ]
+    },
+    "quote": {
+      "text": "A storm passes, but neighbours who help each other stay.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+    "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486",
+    "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india",
+    "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+    "https://morningstaronline.co.uk/article/world-brief-november-4-2026",
+    "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+    "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+    "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/",
+    "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "According to The Tribune, about how many people went to cyclone shelters in Andhra Pradesh?",
+        "options": [
+          "10,805",
+          "1,805",
+          "108,050"
+        ],
+        "answer": 0,
+        "why": "The Tribune reported that 10,805 people went to cyclone shelters.",
+        "story": "lead"
+      },
+      {
+        "q": "Which crops suffered most from Cyclone Murasu?",
+        "options": [
+          "Tea, coffee and rubber",
+          "Wheat, apples and sugar cane",
+          "Paddy, cotton and maize"
+        ],
+        "answer": 2,
+        "why": "Paddy, cotton and maize suffered most.",
+        "story": "lead"
+      },
+      {
+        "q": "What was the price of Brent crude oil on Monday 2 November?",
+        "options": [
+          "$11.18 a barrel",
+          "$111.84 a barrel",
+          "$411.84 a barrel"
+        ],
+        "answer": 1,
+        "why": "Brent crude fell to $111.84 a barrel.",
+        "story": "world"
+      },
+      {
+        "q": "How many Senate seats does it take to control the Senate?",
+        "options": [
+          "51",
+          "35",
+          "54"
+        ],
+        "answer": 0,
+        "why": "It takes 51 seats to control the Senate.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Cyclone Murasu crossed the coast near Ongole in Prakasam district.",
+        "true": true,
+        "why": "The weather department said it crossed near Ongole at around 1 am on 3 November.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Election Commission asked the Supreme Court to accept the petitions against its voter-list check.",
+        "true": false,
+        "why": "It asked the court to dismiss the petitions.",
+        "story": "india"
+      },
+      {
+        "claim": "CBS News estimated that Democrats could win between 251 and 268 House seats.",
+        "true": true,
+        "why": "That was CBS News’s estimate, and some races were still undecided.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many people went to cyclone shelters in Andhra Pradesh?",
+        "answer": 10805,
+        "prefix": "",
+        "unit": "people",
+        "min": 1000,
+        "max": 50000,
+        "why": "The Tribune reported that 10,805 people went to cyclone shelters."
+      },
+      {
+        "story": "world",
+        "q": "What was the price of Brent crude oil per barrel on 2 November?",
+        "answer": 111.84,
+        "prefix": "$",
+        "unit": "a barrel",
+        "min": 50,
+        "max": 200,
+        "why": "Brent crude fell to $111.84 a barrel that Monday."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for Thursday, 5 November. I’m Maya, with Sam. Today, a storm, a vote and an oil price. Let’s begin.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Our top story is from India. What happened?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Cyclone Murasu"
+        },
+        {
+          "who": "maya",
+          "text": "A storm called Cyclone Murasu crossed the coast of Andhra Pradesh, a state on India’s east coast, near the city of Ongole. A cyclone is a huge spinning storm with strong winds and heavy rain. Winds reached 100 to 110 kilometres an hour.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "What did it do?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "It uprooted trees, knocked over electricity poles and flooded low-lying areas. More than 30,000 hectares of crops were damaged, and paddy, cotton and maize suffered most.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Were people kept safe?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Many had moved to shelters. The Tribune reported that 10,805 people went to cyclone shelters. When the Tribune reported, no deaths had been reported, but a later live blog said at least two people had died. It was the second cyclone to hit the region in a week.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now to the Middle East. How can talks about a war change what things cost?",
+          "section": "story",
+          "story": "world",
+          "chapter": "Talks and oil"
+        },
+        {
+          "who": "maya",
+          "text": "Iran and Qatar held a third day of talks on Sunday 1 November, aimed at ending the war between Iran and the United States and Israel. Iran’s foreign minister said the talks were ongoing and progressing.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "And the oil?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Attacks on oil tankers passing through the Strait of Hormuz are raising energy and shipping costs around the world. On Monday 2 November, Brent crude, a main world price, fell to $111.84 a barrel, as people hoped for peace.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Is that price low?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Not really. Brent ended October at its highest level in six months. One analyst said it could near $120 a barrel if angry words about Iran return.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Last, the United States. Who won the midterm elections?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Midterm result"
+        },
+        {
+          "who": "maya",
+          "text": "Democrats were projected to win control of both the House and the Senate. CNBC’s election team projected at least 250 House seats for Democrats. In the Senate, it takes 51 seats to control it, and Democrats were on track for at least 54.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "What can the new majority do?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Control of the House brings a power called a subpoena, which can demand documents and testimony in investigations. President Trump said he will use his veto, the power to block a bill, when he thinks he needs to. Alaska and Mississippi had not been called by Wednesday midday. Ready for a quick quiz?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "According to The Tribune, about how many people went to cyclone shelters in Andhra Pradesh?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "10,805 The Tribune reported that 10,805 people went to cyclone shelters.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "How many Senate seats does it take to control the Senate?",
+          "section": "quiz_question",
+          "quiz": 3
+        },
+        {
+          "who": "maya",
+          "text": "51 It takes 51 seats to control the Senate.",
+          "section": "quiz_answer",
+          "quiz": 3
+        },
+        {
+          "who": "sam",
+          "text": "Families moved to shelters before the cyclone. What would you pack if you had to leave home quickly?",
+          "section": "discussion"
+        },
+        {
+          "who": "maya",
+          "text": "That’s the news for today. Thanks for listening, and have a great day.",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}

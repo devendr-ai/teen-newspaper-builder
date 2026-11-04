@@ -1,0 +1,584 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-11-05",
+  "volume": 1,
+  "issue": 13,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  GEOGRAPHY",
+      "headline": "Cyclone Murasu Comes Ashore in Andhra Pradesh, Flattening Crops",
+      "deck": "A storm born over the Bay of Bengal crossed the coast near Ongole around 1 am on 3 November.",
+      "body": [
+        "Look at a map of India and the east coast faces the Bay of Bengal, which is where Murasu was born. It began as a low-pressure system over that water, was named a cyclonic storm on 1 November and became a severe cyclonic storm a day later.",
+        "By around 1 am on Tuesday 3 November it had reached land. The India Meteorological Department placed the crossing near Ongole, in Prakasam district of Andhra Pradesh, with winds of 100 to 110 km/h and gusts up to 120 km/h. Trees were uprooted and low-lying areas flooded.",
+        "Fields suffered most. Across 15 districts, over 30,000 hectares of standing crops were damaged, with Krishna, Bapatla and Nandyal worst hit. Paddy, cotton and maize took the greatest losses.",
+        "Officials had moved people out of harm's way beforehand. The Tribune counted 10,805 people in cyclone shelters and 171 relief camps, and 14 National Disaster Response Force teams were deployed in the state.",
+        "Counting the human cost took time. Prakhar Jain of the state disaster authority reported no deaths or injuries when the Tribune wrote, but a later live blog said at least two people had died.",
+        "Recovery is harder because Murasu was the second cyclone to strike the region in a week. A 29 October report said Cyclone Arnab killed seven people in Andhra Pradesh."
+      ],
+      "map": {
+        "title": "INDIA'S EAST COAST",
+        "label_top": "ANDHRA PRADESH AND ODISHA (BAY OF BENGAL COAST)",
+        "label_bottom": "TAMIL NADU (SOUTH)",
+        "footnote": "Murasu crossed the coast near Ongole in Prakasam district",
+        "caption": "Andhra Pradesh sits on India's east coast, facing the Bay of Bengal."
+      },
+      "why": "Geography explains the risk: the east coast faces warm Bay of Bengal waters where cyclones form, so shelters, forecasts and fast rescue teams matter to millions of people.",
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Cyclone Murasu LIVE",
+          "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+        },
+        {
+          "outlet": "Kathmandu Post",
+          "title": "Cyclone Arnab kills seven in Andhra Pradesh as heavy rain hits eastern India",
+          "url": "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "War Over Power Grids Spills Into Fuel Prices From Ukraine to Russia",
+      "deck": "Russia hit electricity in four Ukrainian regions, while Ukraine's drones struck Russian fuel sites.",
+      "body": [
+        "A modern war can be fought over the systems that keep homes running. Ukrainian President Volodymyr Zelensky said Russian strikes hit power infrastructure in four regions overnight, leaving hundreds of thousands of households without electricity on Sunday 1 November.",
+        "Numbers show the size of the air war. Ukraine's air force said it shot down 371 of the 433 long-range drones Russia had launched since Saturday evening. Russia's Defense Ministry said it downed 235 Ukrainian drones over its regions overnight.",
+        "Defence has limits, and an unnamed Ukrainian official said Russians were trying to exploit a shortage of interceptors for ballistic missiles. Later, Ukraine's energy ministry said that on Tuesday Russia hit energy facilities in 10 regions in one of its largest attacks of the year.",
+        "Water depends on electricity, as Kyiv learned. Residents lost running water for more than 16 hours, and utility Kyivvodokanal said its pumping stations restarted on Wednesday afternoon.",
+        "The war also reaches economics. Russia said Ukraine resumed strikes on its oil refineries and ignored a request from US President Donald Trump to stop, and Trump blamed those attacks for higher diesel costs. Experts quoted by Reuters said rising energy costs are largely due to the Strait of Hormuz crisis.",
+        "Both sides talk about an energy ceasefire but disagree on who blocks it. Ukraine says it supports a full ceasefire on energy targets, including its own grid, and says Moscow is unwilling to agree.",
+        "Smaller pauses do exist. A six-day local ceasefire around the Russian-controlled town of Oleshky held on its final day, while fighting continued elsewhere along the front line."
+      ],
+      "illustration": {
+        "title": "WHEN THE GRID GOES DOWN",
+        "subtitle": "Ukraine's power and water",
+        "motif": "grid",
+        "caption": "Pumping stations need electricity, so power cuts can stop running water."
+      },
+      "connect": "Science and economics: water pumps run on electricity, and fuel prices connect distant wars to the cost of diesel in other countries.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Russian strikes cut power to thousands in Ukraine, despite Trump's energy ceasefire push",
+          "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Ukraine-Russia war: Zelenskyy aid center attack death toll",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  CIVICS",
+      "headline": "Why India's Election Commission Is Defending Its Voter-List Check in Court",
+      "deck": "Its 248-page reply to the Supreme Court says the Special Intensive Revision was lawful.",
+      "body": [
+        "Citizenship classes teach that a vote begins with being on the list, and that is why a voter-list review has become a Supreme Court matter. The Election Commission of India, which runs the country's elections, filed a 248-page reply defending its Special Intensive Revision (SIR) of the electoral rolls.",
+        "The reply answers petitions against Chief Election Commissioner Gyanesh Kumar and the Commission's decisions during the SIR. Petitioners seek the reversal of 14 SIR-related decisions and an inquiry by a special investigation team.",
+        "Legal authority is the Commission's first defence. It says the SIR was authorised by law and that its three SIR orders were issued under Article 324 of the Constitution on unanimous decisions of all three commissioners. The affidavit was filed by Deputy Election Commissioner Bhanu Prakash Yeturu.",
+        "It also rejected a claim about paperwork. Form 6 is the application an eligible person uses to seek a place on the rolls, and the Commission said the statutory Form 6 was not changed; the declaration used in the SIR is a separate document issued by the SIR orders.",
+        "The Commission asked the court to dismiss the petitions as misconceived, noting that they rest on a single newspaper report, which it said is not treated as evidence of the facts it reports. It said it had neither released nor authorised the release of any internal note to a news agency.",
+        "A constitutional safeguard is also at issue. Under Article 324(5), the Commission said, the Chief Election Commissioner can be removed only in the way a Supreme Court judge is, so a prayer to stop him functioning is not maintainable.",
+        "The case moves in stages. A bench headed by Chief Justice Surya Kant was to hear the petitions, and after the Commission's affidavit of 26 October, WION reported, petitioner Rakesh Kumar Singh was given 10 days to reply.",
+        "No ruling has been made, so both sets of arguments are still before the court."
+      ],
+      "illustration": {
+        "title": "THE COURT WEIGHS THE VOTER LIST",
+        "subtitle": "Supreme Court of India",
+        "motif": "court",
+        "caption": "The Election Commission says the revision was lawful; petitioners want 14 decisions reversed."
+      },
+      "why": "Civics: electoral rolls decide who can vote, so courts check that the process behind them is lawful and fair.",
+      "sources": [
+        {
+          "outlet": "News On AIR",
+          "title": "EC defends SIR of electoral rolls before Supreme Court",
+          "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+        },
+        {
+          "outlet": "WION",
+          "title": "SC defers pleas against CEC Gyanesh Kumar by 10 days",
+          "url": "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CIVICS",
+      "headline": "Democrats Win Control of the Senate and House in the Midterms",
+      "deck": "Projections put Democrats at no fewer than 54 Senate seats, with 51 needed for control.",
+      "body": [
+        "Midterm elections are held halfway through a president's four-year term, and on 3 November Americans used theirs to change who runs Congress. CNBC's Election Desk projected that Democrats would win at least 250 House seats and Republicans at least 160, as of early Wednesday.",
+        "Other counts differ slightly because races were still being called. CBS projected a Democratic House with an estimate of 251 to 268 seats, with about 75 House races undetermined in its early-morning update.",
+        "The Senate shows how the numbers work. Fifty-one seats are needed for control, and Democrats were on track for at least 54 to Republicans' at least 42. Alaska and Mississippi were still uncalled midday Wednesday, and in Mississippi Democrat Scott Colom led Republican Sen. Cindy Hyde-Smith by under 100 votes with 96% counted.",
+        "Several seats changed hands. CBS listed Democratic flips in Texas, where James Talarico beat Ken Paxton, and in Ohio, where Sherrod Brown beat Jon Husted, along with Kansas, Iowa, South Carolina, Maine and Michigan.",
+        "States elected governors too. Democrats flipped five Republican-held governorships, in Texas, Georgia, Ohio, Iowa and Nevada, giving them at least 28 governorships, their first majority since 2010, according to CNBC.",
+        "Control of the House brings new powers. CBS reported that Democratic control gives the party subpoena and investigative power over Trump's final two years, and Trump said he will use his veto power as needed. Hakeem Jeffries is expected to become Speaker.",
+        "Markets noticed. The Dow was up about 3% midday Wednesday, its biggest one-day gain since April 2025, according to CNBC."
+      ],
+      "chart": {
+        "title": "SENATE SEATS, PROJECTED",
+        "subtitle": "Senate seats",
+        "labels": [
+          "Needed",
+          "Democrats",
+          "Republican"
+        ],
+        "values": [
+          51,
+          54,
+          42
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Democrats were on track for at least 54 seats and Republicans at least 42; Alaska and Mississippi were uncalled."
+      },
+      "why": "Civics: in the US system laws need both the House and the Senate, so winning both chambers lets one party shape the budget and investigations.",
+      "analyst": "Why might different news outlets give different House seat estimates on the same morning? What does a lead of under 100 votes mean for how a race should be counted? What would you want to know before judging why voters chose as they did?",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Election Day 2026 midterms live updates",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Election 2026 live results",
+          "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  BIOLOGY",
+      "headline": "Museum Frogs Point to a Fungus Behind a 50-Year-Old Mystery",
+      "deck": "Tests on more than 370 preserved amphibians from Brazil's Atlantic Forest link a fungus to a crash in the late 1970s.",
+      "body": [
+        "Biology often starts with a puzzle, and this one is about frogs that vanished. Amphibian populations at the Boracéia Biological Station in Brazil's Atlantic Forest, one of the world's richest regions for amphibian diversity, declined sharply between 1979 and 1982. Nobody was sure why.",
+        "The clues sat on museum shelves. Between the 1970s and 1980s, former Smithsonian curator William Ronald Heyer made five collecting trips to Boracéia: two in the 1970s, before the major declines, and three in the 1980s, after the die-offs.",
+        "Researchers led by Jack L. Boyette of Pennsylvania State University tested over 370 of those preserved amphibians, from 17 species, for the chytrid fungus Batrachochytrium dendrobatidis. That fungus was formally identified and described only in 1999, after many declines had begun.",
+        "The dates told the story. None of the specimens collected before 1979 tested positive, while more than half of those collected in the 1980s did. The fungus is believed to have originated in Asia and spread worldwide in the 1970s and 1980s.",
+        "The picture is not simple. The most severely declined species showed no detectable infection in the specimens, while stable species often carried it.",
+        "The researchers offer a hypothesis: some species tolerate infection, while very susceptible ones died so quickly that infected animals were rarely collected. They add that environmental factors such as climate change or extreme weather could also have played a role.",
+        "Recovery is part of the story. Between 2022 and 2024 the team made six visits and found 12 of the 17 historical species, and most appear to have recovered, although the fungus is still present. Five species were not found, so their status is uncertain.",
+        "The findings were published in Molecular Ecology and apply to Boracéia, not automatically to the rest of the Atlantic Forest. Next, the team hopes to analyse DNA from museum specimens to learn why some species tolerate the fungus better."
+      ],
+      "illustration": {
+        "title": "CLUES IN A MUSEUM JAR",
+        "subtitle": "Boracéia, Brazil",
+        "motif": "globe",
+        "caption": "Specimens from before 1979 had no fungus; more than half from the 1980s did."
+      },
+      "why": "Science: old museum collections can answer questions that nobody could test at the time, which helps scientists protect wildlife.",
+      "sources": [
+        {
+          "outlet": "ScienceDaily",
+          "title": "Museum frogs reveal a fungus behind a 50-year-old mystery",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL",
+      "headline": "Oil Falls More Than 7% as Iran Signals Talks, Its Biggest Slump in Three Months",
+      "deck": "US crude closed below $100 a barrel on Monday 2 November, the day before the US midterm elections.",
+      "body": [
+        "Supply and demand explain much of the oil market, and on Monday 2 November hopes of peace outweighed fears. Bloomberg reported that oil prices fell more than 7%, the largest slump in three months. Earlier that day Reuters had Brent down 1.40% at $111.84 a barrel.",
+        "By the close, prices were lower still. West Texas Intermediate futures for December delivery settled about 7.4% lower at $96.46 a barrel, below the $100 mark, and Brent for January settlement dropped 7.6% to close at $104.77.",
+        "Diplomacy lay behind the move. Iranian and Qatari officials held a third straight day of talks on Sunday, and Iran's foreign minister, Abbas Araqchi, called them 'ongoing and progressing'. State-run IRNA reported that Iran's supreme leader approved the government pursuing negotiations.",
+        "The United States sent signals too. Asked whether he would resume strikes on Iran after Tuesday's vote, US President Donald Trump said 'no', according to a media pool report.",
+        "The fall spread beyond oil. Bloomberg reported that European benchmark gas futures fell almost 11% at one point, and that US heating oil had its steepest drop in six months.",
+        "Traders called it a release of worry. Darrell Fletcher of Bannockburn Capital Markets said a lot of risk premium was seeping out of crude oil and European natural gas. Brent had ended October at its highest level in six months.",
+        "Big problems remain. The two sides have not agreed on terms for fully reopening the Strait of Hormuz, described as the world's most important energy chokepoint, and attacks on tankers there are raising global energy and shipping costs.",
+        "Other forces also push prices. Escalating Ukrainian attacks on Russian refineries had pushed fuel prices higher in recent months, and OPEC+ kept December production targets steady on Sunday.",
+        "Markets act fast on such news. Kpler's Bridgeton Research Group said trend-following commodity trading advisers cut their Brent long positions, which are bets on rising prices, to 91% from 100% at the start of the session."
+      ],
+      "illustration": {
+        "title": "A NARROW ROUTE, A WIDE EFFECT",
+        "subtitle": "Strait of Hormuz",
+        "motif": "strait",
+        "caption": "Attacks on tankers in the strait raise shipping and energy costs worldwide."
+      },
+      "why": "Oil sets the cost of fuel and shipping, so a barrel price near $112 can reach family budgets in countries that import much of their oil, such as India.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Oil slips more than 1% as talks continue on ending Iran war",
+          "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+        },
+        {
+          "outlet": "Rigzone (Bloomberg)",
+          "title": "Oil Prices Sink as Iran Signals Talks",
+          "url": "https://www.rigzone.com/news/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United Kingdom: Prime Minister Andy Burnham said his government will consider apologising for Britain's role in the transatlantic slave trade, but he rejects reparations.",
+        "European Union: Leaders of candidate countries met European Council President António Costa in Brussels on 3 November for the Euronews EU Enlargement Summit.",
+        "Australia: Government lawyers told the High Court that the under-16 social media ban is necessary to protect \"developing brains\", while Reddit challenges it.",
+        "Ukraine: Russia launched one of its largest attacks of the year on Ukrainian energy sites on Tuesday, hitting facilities in 10 regions, according to Ukraine's energy ministry."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Landfall",
+          "def": "The moment a storm moves from the sea onto land. Today: Cyclone Murasu made landfall near Ongole in Andhra Pradesh at around 1 am on 3 November."
+        },
+        {
+          "word": "Affidavit",
+          "def": "A written statement sworn to be true, often filed in court. Today: The Election Commission filed a 248-page counter-affidavit in the Supreme Court."
+        },
+        {
+          "word": "Hypothesis",
+          "def": "A proposed explanation that still has to be tested. Today: Researchers call their idea about why the worst-hit frogs showed no infection a hypothesis."
+        },
+        {
+          "word": "Reparations",
+          "def": "Payments or other amends for harm done in the past. Today: Prime Minister Burnham rejects reparations for the slave trade but will consider an apology."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A hectare is a square 100 metres on each side, so the more than 30,000 hectares of crops damaged by Cyclone Murasu cover about 300 square kilometres."
+    },
+    "explainer": {
+      "title": "What is a cyclone shelter for?",
+      "body": [
+        "Cyclone Murasu formed from a low-pressure system over the Bay of Bengal and crossed land with winds of 100 to 110 km/h, gusting to 120. At those speeds, trees fall and electricity poles topple, so people near the coast are moved to buildings that are meant to hold up.",
+        "According to the Tribune, 10,805 people went to cyclone shelters in Andhra Pradesh, and the state set up 171 relief camps. Moving people early is the main way officials try to keep a storm's damage to crops and property from becoming a loss of life."
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Cyclone Murasu LIVE",
+          "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> Near which town did Cyclone Murasu cross the coast?",
+        "(a) Ongole  (b) Chennai  (c) Kolkata",
+        "<b>2.</b> How many House seats did CNBC's Election Desk project for Democrats, at least?",
+        "(a) 160  (b) 250  (c) 435",
+        "<b>3.</b> What is an affidavit?",
+        "(a) A sworn written statement  (b) A kind of storm  (c) A voting machine",
+        "<b>4.</b> Which fungus did researchers look for in preserved Brazilian amphibians?",
+        "(a) Chytrid  (b) Yeast  (c) Mould from bread",
+        "<b>5.</b> By about how much did oil prices fall on Monday 2 November, according to Bloomberg?",
+        "(a) More than 7%  (b) 70%  (c) 0.7%",
+        "<b>Answers.</b> 1 (a), 2 (b), 3 (a), 4 (a), 5 (a)."
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "outlet": "News On AIR",
+          "title": "EC defends SIR of electoral rolls before Supreme Court",
+          "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+        },
+        {
+          "outlet": "ScienceDaily",
+          "title": "Museum frogs reveal a fungus behind a 50-year-old mystery",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+        },
+        {
+          "outlet": "Rigzone (Bloomberg)",
+          "title": "Oil Prices Sink as Iran Signals Talks",
+          "url": "https://www.rigzone.com/news/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why might a coast that is hit by two cyclones in a week need different help from one hit by a single storm?",
+        "Why should courts check how a voter list is made, and who should decide if the list is fair?",
+        "Oil prices fell when talks continued but stayed high. Why might prices respond to news about talks before any deal exists?"
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "News On AIR",
+          "title": "EC defends SIR of electoral rolls before Supreme Court",
+          "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+        },
+        {
+          "outlet": "Rigzone (Bloomberg)",
+          "title": "Oil Prices Sink as Iran Signals Talks",
+          "url": "https://www.rigzone.com/news/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Maps show where a storm lands; people decide how ready they are.",
+      "by": "The Global Citizen Plus"
+    }
+  },
+  "sources": [
+    "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+    "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486",
+    "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india",
+    "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784",
+    "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/",
+    "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/",
+    "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675",
+    "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+    "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+    "https://www.sciencedaily.com/releases/2026/11/261102202838.htm",
+    "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+    "https://morningstaronline.co.uk/article/world-brief-november-4-2026",
+    "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp",
+    "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit",
+    "https://www.rigzone.com/news/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Near which town in Andhra Pradesh did Cyclone Murasu cross the coast?",
+        "options": [
+          "Ongole",
+          "Chennai",
+          "Kolkata"
+        ],
+        "answer": 0,
+        "why": "The Meteorological Department said it crossed near Ongole in Prakasam district.",
+        "story": "lead"
+      },
+      {
+        "q": "How many long-range drones did Ukraine's air force say it shot down since Saturday evening?",
+        "options": [
+          "37",
+          "371",
+          "433"
+        ],
+        "answer": 1,
+        "why": "Ukraine's air force said it shot down 371 of 433 drones.",
+        "story": "world"
+      },
+      {
+        "q": "How many pages was the Election Commission's counter-affidavit?",
+        "options": [
+          "24",
+          "148",
+          "248"
+        ],
+        "answer": 2,
+        "why": "The Commission filed a 248-page counter-affidavit.",
+        "story": "india"
+      },
+      {
+        "q": "How many Senate seats are needed for control?",
+        "options": [
+          "51",
+          "54",
+          "42"
+        ],
+        "answer": 0,
+        "why": "Fifty-one Senate seats are needed for control.",
+        "story": "us"
+      },
+      {
+        "q": "How many preserved amphibians did researchers test?",
+        "options": [
+          "Over 37",
+          "Over 370",
+          "Over 3,700"
+        ],
+        "answer": 1,
+        "why": "They tested over 370 preserved amphibians from 17 species.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Cyclone Murasu was the second cyclone to hit the region in a week.",
+        "true": true,
+        "why": "It followed Cyclone Arnab, which killed seven people in Andhra Pradesh according to a 29 October report.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Election Commission asked the Supreme Court to dismiss the petitions.",
+        "true": true,
+        "why": "It asked for the petitions to be dismissed, calling them misconceived.",
+        "story": "india"
+      },
+      {
+        "claim": "Oil prices rose more than 7% on Monday 2 November.",
+        "true": false,
+        "why": "Oil prices fell more than 7%, the largest slump in three months.",
+        "story": "economics"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Atlantic Forest",
+        "lat": -23.65,
+        "lon": -45.87,
+        "countries": [
+          "Brazil"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many people were moved to cyclone shelters, according to the Tribune?",
+        "answer": 10805,
+        "prefix": "",
+        "unit": "people",
+        "min": 1000,
+        "max": 30000,
+        "why": "The Tribune reported 10,805 people were moved to cyclone shelters."
+      },
+      {
+        "story": "economics",
+        "q": "At what price did Brent for January settlement close on Monday 2 November?",
+        "answer": 104.77,
+        "prefix": "$",
+        "unit": "a barrel",
+        "min": 60,
+        "max": 160,
+        "why": "Brent for January settlement dropped 7.6% to close at $104.77."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "A Strong Storm Hits India's East Coast",
+        "body": [
+          "A storm called Cyclone Murasu hit India's east coast in the early hours of 3 November. It crossed the coast near Ongole in Andhra Pradesh at around 1 am.",
+          "Winds blew at 100 to 110 km/h. Trees fell and electricity poles toppled. More than 30,000 hectares of crops were damaged.",
+          "Officials moved 10,805 people to cyclone shelters and the state set up 171 relief camps. Early reports on deaths differed. One said none, and a later one said at least two.",
+          "It was the second cyclone to hit the region in a week."
+        ]
+      },
+      "world": {
+        "headline": "Ukraine Loses Power and Water",
+        "body": [
+          "Russia hit power stations in four parts of Ukraine overnight. Hundreds of thousands of homes lost electricity.",
+          "Ukraine's air force said it shot down 371 of 433 long-range drones.",
+          "People in Kyiv lost running water for more than 16 hours. Pumping stations started again on Wednesday afternoon.",
+          "Ukraine says it wants a ceasefire on power targets. It says Russia will not agree."
+        ]
+      },
+      "india": {
+        "headline": "A Court Case About Who Can Vote",
+        "body": [
+          "India's Election Commission keeps a list of people who can vote. It changed how the list is checked. Some people went to court to challenge this.",
+          "The Commission sent the Supreme Court a 248-page reply. It said its orders were lawful. It asked the court to dismiss the cases.",
+          "Petitioners want 14 decisions reversed. The court has not decided yet."
+        ]
+      },
+      "us": {
+        "headline": "Democrats Win Control of Congress",
+        "body": [
+          "On 3 November, Americans voted in elections halfway through the president's term. Democrats were on track to win the Senate and the House.",
+          "In the Senate, 51 seats are needed for control. Democrats were on track for at least 54 and Republicans for at least 42.",
+          "CNBC projected at least 250 House seats for Democrats. Democrats also won five governor jobs from Republicans.",
+          "Two Senate races, in Alaska and Mississippi, were still not called."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Old Museum Frogs Solve a Mystery",
+        "body": [
+          "In the late 1970s, many frogs in a Brazilian forest disappeared. Scientists did not know why.",
+          "Researchers tested over 370 frogs and other amphibians kept in a museum. None collected before 1979 had a fungus called chytrid. More than half of those collected in the 1980s did.",
+          "The fungus may have spread around the world in the 1970s and 1980s. Between 2022 and 2024, the team found 12 of the 17 species again. Most seem to have recovered."
+        ]
+      },
+      "economics": {
+        "headline": "Oil Prices Fall Sharply",
+        "body": [
+          "Oil is the fuel that moves cars and ships. On Monday 2 November, oil prices fell more than 7%. That was the biggest slump in three months.",
+          "US oil closed at $96.46 a barrel. Brent closed at $104.77.",
+          "Iran and Qatar held three days of talks to try to end a war. That gave people hope. A trader said some of the worry was seeping out of the market.",
+          "But the two sides have not agreed on how to fully reopen the Strait of Hormuz. Attacks on tankers there make shipping cost more."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-11-05",
+  "volume": 1,
+  "issue": 180,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  AMERICA VOTES",
+      "headline": "Democrats Projected to Win Both the House and the Senate",
+      "deck": "A few close races were still being counted, but the result will change what Congress does in the last two years of President Trump's term.",
+      "body": [
+        "Congress writes the laws and decides how the country's money is spent, so which party controls it matters to every family. On Tuesday 3 November, voters in the midterm elections, held halfway through a president's four-year term, appeared to give that control to the Democrats. CNBC's Election Desk projected at least 250 House seats for them by early Wednesday, while CBS estimated 251 to 268, with about 75 races still undecided.",
+        "The Senate looked just as clear. Fifty-one seats are needed for control, and Democrats were on track for at least 54. Only Alaska and Mississippi were uncalled by Wednesday midday; in Mississippi, Democrat Scott Colom led Senator Cindy Hyde-Smith by under 100 votes. Democrats also flipped five governorships, which CNBC said gives them at least 28, their first majority since 2010.",
+        "So what turned so many votes? Vice President JD Vance wrote, “The reason we lost is the war,” meaning the war with Iran that President Trump started in February. Trump called that “largely true” because the war raised gasoline prices in the short term, but said he would do it again.",
+        "Now the new majority gets real power. Control of the House lets Democrats issue subpoenas and investigate the administration, and Hakeem Jeffries is expected to become Speaker. Trump said he will use his veto power as needed."
+      ],
+      "map": {
+        "title": "THE UNITED STATES",
+        "label_top": "CANADA",
+        "label_bottom": "MEXICO",
+        "footnote": "Texas, Georgia, Ohio, Iowa and Nevada elected Democratic governors",
+        "caption": "Voters in states across the country changed who will lead them and who controls Congress.",
+        "countries": [
+          "United States"
+        ]
+      },
+      "why": "Congress shapes health care and trade rules that touch family budgets. CBS listed Democratic goals such as restoring health tax credits, opposing tariffs and ending the Iran war, and attacks on tankers are raising energy and shipping costs worldwide, including for India.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Election Day 2026 midterms live updates",
+          "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Election 2026 live results",
+          "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SPACE",
+      "headline": "NASA's Swift Space Telescope Falls Back to Earth After Nearly 22 Years",
+      "deck": "The satellite has no thrusters to lift itself, so the thin upper air slowly pulled it down.",
+      "body": [
+        "Satellites do not stay up forever, and one of NASA's most useful is coming home. The Neil Gehrels Swift Observatory was expected to re-enter Earth's atmosphere on 4 November. The US Space Force estimated the moment at about 3:30 a.m. Eastern time that day, give or take eleven hours, which shows how hard it is to time a fall.",
+        "Why is it falling? Swift was launched in 2004 and was designed for a two-year main mission, but it operated for nearly 22 years. Its job was to watch gamma-ray bursts, described as the most violent explosions in the known universe, using three telescopes and alerting other observatories quickly. NASA has no spacecraft ready to take over its job of spotting such explosions within minutes. Swift has no thrusters and cannot raise its own altitude, and increased solar activity expands the upper atmosphere, which adds drag and drags it lower.",
+        "A rescue was tried first. A Katalyst LINK spacecraft launched on 3 July, but on 19 August NASA and Katalyst announced it would not capture or boost Swift because of attitude control issues. A NASA spokesperson said there are no plans for another boost mission and the telescope was left to fall.",
+        "What happens to something this big? The spacecraft weighs roughly 3,200 pounds, and NASA expects most of it to burn up. Its chief scientist, Brad Cenko, said a handful of tungsten pieces, a metal denser than lead, and some mirror parts could survive. Any debris would land between latitudes 20.6 degrees north and 20.6 degrees south, and NASA put the chance of injuring any person at about one in 2,100."
+      ],
+      "illustration": {
+        "title": "SWIFT RE-ENTRY",
+        "subtitle": "Launched in 2004",
+        "motif": "rocket",
+        "caption": "Swift cannot raise its own orbit, so it is sinking into the atmosphere."
+      },
+      "connect": "Science: a satellite stays in orbit because it moves sideways fast enough to keep falling around Earth. Drag from the thin upper air slows it, so it sinks, and a satellite without thrusters cannot climb back up.",
+      "sources": [
+        {
+          "outlet": "Next Horizon",
+          "title": "5 Science News Stories — November 3, 2026",
+          "url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html"
+        },
+        {
+          "outlet": "Popular Science",
+          "title": "NASA abandons mission to save Swift Observatory",
+          "url": "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/"
+        },
+        {
+          "outlet": "Coeur d'Alene Press (AP)",
+          "title": "NASA telescope is on the verge of plunging back to Earth after failed rescue mission",
+          "url": "https://cdapress.com/news/2026/oct/31/nasa-telescope-is-on-the-verge-of-plunging-back-to-earth-after-failed-rescue-mission/"
+        },
+        {
+          "outlet": "Nature World News",
+          "title": "Swift nears reentry; NASA has no dedicated replacement for catching gamma-ray bursts within minutes",
+          "url": "https://www.natureworldnews.com/articles/73674/20261029/swift-nears-reentry-nasa-has-no-dedicated-replacement-catching-gamma-ray-bursts-within-minutes.htm"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  CYCLONE MURASU",
+      "headline": "Murasu Storm Ruins Crops on Andhra Pradesh's Coast",
+      "deck": "For families who live and farm there, it was the second cyclone in a week.",
+      "body": [
+        "For millions who live on India's east coast, a cyclone is a recurring danger: a huge spinning storm born over warm sea. Murasu came ashore near Ongole, in Prakasam district of Andhra Pradesh, at around 1 am on Tuesday 3 November, the weather department (IMD) said. It had grown from a low-pressure area over the Bay of Bengal, and its winds reached 100 to 110 km/h.",
+        "Farmers took the biggest hit. The Tribune reported damage to more than 30,000 hectares of standing crops in 15 districts, mostly paddy, cotton and maize, and flooded salt pans cost farmers and workers.",
+        "Help moved fast. About 10,805 people went to cyclone shelters, the state opened 171 relief camps, and 14 national disaster response teams were deployed. Officials first said no deaths or injuries had been reported; a later live blog said at least two people died.",
+        "Another storm had struck days earlier. Cyclone Arnab killed seven people in Andhra Pradesh, according to a 29 October report, so Murasu arrived before the region could recover."
+      ],
+      "why": "Shelters and warnings protect families, but damaged harvests can hit a farm family's income for months.",
+      "also": [
+        "Odisha: 1,65,809 people were evacuated from six southern districts.",
+        "Courts: the Election Commission filed a 248-page reply defending its voter-list revision."
+      ],
+      "sources": [
+        {
+          "outlet": "The Tribune",
+          "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+          "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Cyclone Murasu live updates",
+          "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+        },
+        {
+          "outlet": "Kathmandu Post",
+          "title": "Cyclone Arnab kills seven in Andhra Pradesh",
+          "url": "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india"
+        },
+        {
+          "outlet": "News On AIR",
+          "title": "EC defends SIR of electoral rolls before Supreme Court",
+          "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Australia: government lawyers told the High Court the ban on social media for under-16s is needed to protect “developing brains”, while Reddit and the Digital Freedom Project are challenging it.",
+        "European Union: Council President António Costa called enlargement “the best geopolitical investment Europe has made” at a Brussels summit on 3 November."
+      ],
+      "sources": [
+        {
+          "outlet": "Morning Star",
+          "title": "World in brief: November 4, 2026",
+          "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+        },
+        {
+          "outlet": "Council of the EU",
+          "title": "Statement by President Costa in the context of the Euronews EU Enlargement Summit 2026",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Landfall",
+          "def": "The moment a storm's centre moves from the sea onto land. Today: Cyclone Murasu made landfall near Ongole at around 1 am on Tuesday."
+        },
+        {
+          "word": "Veto",
+          "def": "A president's power to reject a bill that Congress has passed. Today: Trump said he will use his veto power as needed."
+        },
+        {
+          "word": "Subpoena",
+          "def": "A legal order to hand over documents or give evidence. Today: Control of the House gives Democrats the power to issue subpoenas."
+        },
+        {
+          "word": "Power grid",
+          "def": "The network of wires and stations that carries electricity to homes. Today: Russian strikes hit the grid in four Ukrainian regions."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A hectare is 10,000 square metres, a square 100 metres on each side."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  MONEY AND VOTES",
+      "headline": "Elon Musk Spent at Least $474 Million on the Midterms, and Many of His Picks Lost",
+      "deck": "CNBC counted the results in the races his political group targeted, while voters also decided on data centers and a billionaire tax.",
+      "body": [
+        "Elections cost money, and one person spent a great deal of it. CNBC reported that Elon Musk spent at least $474 million on the midterms, including $224 million in Texas.",
+        "Did the spending work? Musk's group, called America PAC, targeted 44 federal races. CNBC counted that Republicans it backed or opposed lost 29 of them, won 3, and that 12 were still undecided at the time of its report.",
+        "Voters also decided questions directly on the ballot. In California, Proposition 40, a tax on billionaires, had 43.7% yes votes with 83% of precincts partly reporting, which was short of a majority.",
+        "Closer to home, neighbours voted on data centers, the large buildings full of computers that power artificial intelligence. About 41 local ballot measures on them were decided in 10 states, and preliminary results suggest roughly two dozen passed to restrict or block data centers, according to CNBC."
+      ],
+      "chart": {
+        "title": "RACES MUSK'S GROUP TARGETED",
+        "subtitle": "44 federal races, early count",
+        "labels": [
+          "Lost",
+          "Won",
+          "Undecided"
+        ],
+        "values": [
+          29,
+          3,
+          12
+        ],
+        "max": 35,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Counts from CNBC; 12 races were still undecided when it reported."
+      },
+      "why": "In this vote, big spending did not guarantee wins, and neighbours used local ballots to say what they want built nearby.",
+      "analyst": "Does spending more money always win more votes? What other evidence would you want before deciding what caused each result?",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "2026 midterm election results: House, Senate live updates",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+        },
+        {
+          "outlet": "Smart Cities Dive",
+          "title": "Data centers on more than three dozen local ballots",
+          "url": "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "Brewers win their first World Series",
+      "body": "The <b>Milwaukee Brewers</b> beat the <b>Tampa Bay Rays</b> in Game 5 on Wednesday 28 October in St. Petersburg, Florida, to win the World Series. Spectrum News said it was the franchise's first championship.",
+      "sources": [
+        {
+          "outlet": "Spectrum News",
+          "title": "Milwaukee Brewers win World Series",
+          "url": "https://spectrumnews1.com/wi/milwaukee/news/2026/10/28/milwaukee-brewers-win-world-series"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Senate: Alaska and Mississippi were still uncalled on Wednesday, and in Mississippi Democrat Scott Colom led by under 100 votes.",
+        "India: a Supreme Court bench headed by Chief Justice Surya Kant was to hear petitions about the Election Commission's revision of voter lists."
+      ]
+    },
+    "quote": {
+      "text": "A vote is a small sentence that becomes a very large paragraph.",
+      "by": "The Editors"
+    }
+  },
+  "sources": [
+    "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+    "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+    "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html",
+    "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/",
+    "https://cdapress.com/news/2026/oct/31/nasa-telescope-is-on-the-verge-of-plunging-back-to-earth-after-failed-rescue-mission/",
+    "https://www.natureworldnews.com/articles/73674/20261029/swift-nears-reentry-nasa-has-no-dedicated-replacement-catching-gamma-ray-bursts-within-minutes.htm",
+    "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+    "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486",
+    "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india",
+    "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/",
+    "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/",
+    "https://spectrumnews1.com/wi/milwaukee/news/2026/10/28/milwaukee-brewers-win-world-series",
+    "https://morningstaronline.co.uk/article/world-brief-november-4-2026",
+    "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "How many Senate seats are needed to control the Senate?",
+        "options": [
+          "51",
+          "60",
+          "54"
+        ],
+        "answer": 0,
+        "why": "Fifty-one Senate seats are needed for control.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Vice President Vance say was the reason Republicans lost?",
+        "options": [
+          "The economy",
+          "The war",
+          "A shutdown"
+        ],
+        "answer": 1,
+        "why": "Vance wrote that the reason Republicans lost is the war with Iran.",
+        "story": "lead"
+      },
+      {
+        "q": "Why can Swift not raise its own orbit?",
+        "options": [
+          "It has no thrusters",
+          "It ran out of light",
+          "It is too far away"
+        ],
+        "answer": 0,
+        "why": "Swift has no thrusters and cannot raise its own altitude.",
+        "story": "world"
+      },
+      {
+        "q": "Near which city did Cyclone Murasu cross the coast?",
+        "options": [
+          "Chennai",
+          "Ongole",
+          "Kolkata"
+        ],
+        "answer": 1,
+        "why": "The IMD said Murasu crossed the coast near Ongole in Prakasam district.",
+        "story": "india"
+      },
+      {
+        "q": "How much did CNBC report Elon Musk spent on the midterms, at least?",
+        "options": [
+          "$224 million",
+          "$474 million",
+          "$44 million"
+        ],
+        "answer": 1,
+        "why": "CNBC reported Musk spent at least $474 million.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Democrats flipped five Republican-held governorships.",
+        "true": true,
+        "why": "They flipped Texas, Georgia, Ohio, Iowa and Nevada.",
+        "story": "lead"
+      },
+      {
+        "claim": "NASA expected all of Swift to survive re-entry.",
+        "true": false,
+        "why": "NASA expected most of it to burn up, though some parts may survive.",
+        "story": "world"
+      },
+      {
+        "claim": "Cyclone Murasu hit Andhra Pradesh two weeks after another cyclone.",
+        "true": false,
+        "why": "It was the second cyclone to hit the region in a week.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Earth orbit",
+        "lat": 0.0,
+        "lon": 0.0,
+        "countries": []
+      },
+      {
+        "story": "india",
+        "place": "Ongole",
+        "lat": 15.5,
+        "lon": 80.05,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Texas",
+        "lat": 31.0,
+        "lon": -100.0,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "us",
+        "q": "At least how many millions of dollars did Elon Musk spend on the midterms?",
+        "answer": 474,
+        "prefix": "$",
+        "unit": "million",
+        "min": 100,
+        "max": 1000,
+        "why": "CNBC reported Musk spent at least $474 million, including $224 million in Texas."
+      },
+      {
+        "story": "india",
+        "q": "How many people were moved to cyclone shelters, according to The Tribune?",
+        "answer": 10805,
+        "prefix": "",
+        "unit": "people",
+        "min": 1000,
+        "max": 30000,
+        "why": "The Tribune reported 10,805 people were taken to cyclone shelters."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Democrats Look Set to Win Congress",
+        "body": [
+          "Americans voted on Tuesday 3 November. Congress writes the laws and decides how money is spent. It looks like the Democrats will win both parts of it.",
+          "CNBC said Democrats would win at least 250 seats in the House. In the Senate, 51 seats are needed to control it. Democrats were on track for at least 54.",
+          "Democrats also flipped five governor jobs. Vice President JD Vance said the reason Republicans lost is the war with Iran. President Trump said he will use his veto power if needed."
+        ]
+      },
+      "world": {
+        "headline": "NASA's Swift Telescope Falls to Earth",
+        "body": [
+          "Swift is a NASA space telescope launched in 2004. It watched gamma-ray bursts for nearly 22 years. It was expected to fall back to Earth on 4 November.",
+          "Swift has no thrusters, so it cannot raise its own orbit. Extra solar activity makes the upper air drag on it. NASA expected most of its 3,200 pounds to burn up.",
+          "Some parts may survive. NASA put the chance of injuring a person at about one in 2,100."
+        ]
+      },
+      "india": {
+        "headline": "Cyclone Murasu Hits Andhra Pradesh",
+        "body": [
+          "A strong storm called Cyclone Murasu reached India's east coast near Ongole at around 1 am on Tuesday. Winds reached 100 to 110 km/h.",
+          "More than 30,000 hectares of crops were damaged across 15 districts. Paddy, cotton and maize were hurt the most.",
+          "About 10,805 people were moved to shelters. The state set up 171 relief camps. It was the second cyclone in a week to hit the area."
+        ]
+      },
+      "us": {
+        "headline": "Elon Musk Spent $474 Million",
+        "body": [
+          "Elon Musk spent at least $474 million on the midterms. That included $224 million in Texas.",
+          "His group targeted 44 races. CNBC said Republicans he backed or opposed lost 29 of them and won 3. Twelve were still undecided.",
+          "Voters also decided about 41 local questions on data centers. These are big buildings full of computers. Roughly two dozen votes were to restrict or block them."
+        ]
+      }
+    }
+  }
+}
