@@ -1,0 +1,1565 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "komyshuvakha-strike",
+    "headline": "Russian bombs hit a school used as an aid centre in southern Ukraine; dozens killed",
+    "what_happened": "On 2 November 2026 Russian aerial bombs hit a school used to hand out humanitarian aid in Komyshuvakha, a village in Ukraine's Zaporizhzhia region. At least 40 people were reported killed and rescuers were still searching the rubble.",
+    "why_it_matters": "Aid points and shelters are meant to protect civilians, and Ukraine's president said the attack showed Russia does not want to calm the war.",
+    "importance": 9,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "The attack was on Monday 2 November 2026 in Komyshuvakha, Zaporizhzhia Oblast, about 20 km from the front line.",
+      "source_url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+     },
+     {
+      "fact": "The Kyiv Independent reported at least 33 killed, including two rescue workers and four police officers; the toll was later reported as 40.",
+      "source_url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+     },
+     {
+      "fact": "Zelensky said Russia dropped nine more aerial bombs on a shelter where people had gone for safety after the first strike.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+     },
+     {
+      "fact": "Zelensky said more than 30 people might still be under the rubble, and rescue efforts continued.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+     },
+     {
+      "fact": "The settlement has been considered front-line since November 2025 amid repeated Russian guided aerial bomb attacks.",
+      "source_url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+     },
+     {
+      "fact": "Zelensky called it an 'exceptionally horrific strike' and said Russian forces could not have been unaware that aid was distributed there weekly.",
+      "source_url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+     },
+     {
+      "fact": "Russia's Defense Ministry said the strike targeted Ukraine's military and claimed as many as 25 Ukrainian service members were killed; Russia denies deliberately targeting civilians.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+     },
+     {
+      "fact": "Zelensky said: 'Ukraine needs air defense support right now.'",
+      "source_url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+     },
+     {
+      "fact": "Guided aerial bombs fitted with wing kits can travel tens of kilometres, letting aircraft strike from outside air defence range.",
+      "source_url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/"
+     }
+    ],
+    "geography": "Komyshuvakha, Zaporizhzhia region, southern Ukraine",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Kyiv Independent",
+      "title": "'Exceptionally horrific strike' \u2014 Russian bombs hit school used as humanitarian aid center",
+      "url": "https://kyivindependent.com/exceptionally-horrific-strike-russian-bombs-strike-school-used-as-humanitarian-aid-center-in-zaporizhzhia-oblast-killing-24/",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Ukraine's leader says Russian 'insane attack' on aid center may have killed 70",
+      "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iran-talks-oil",
+    "headline": "Iran and Qatar hold talks on ending the war as oil prices dip",
+    "what_happened": "Iranian and Qatari officials held a third straight day of talks on 1 November 2026 aimed at ending the war between Iran and the US and Israel. Oil prices slipped on hopes of progress but stayed high.",
+    "why_it_matters": "Ships carrying oil pass the Strait of Hormuz, so the war and the talks affect fuel prices around the world.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Iranian and Qatari officials held a third straight day of talks on Sunday 1 November 2026 aimed at a deal to end the U.S.-Israeli war on Iran.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Iran's foreign minister Abbas Araqchi said the talks were 'ongoing and progressing' and that Tehran is prepared for both defense and diplomacy.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "On Monday 2 November Brent crude futures fell $1.59, or 1.40%, to $111.84 a barrel, and U.S. West Texas Intermediate was at $102.56.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Brent ended October at its highest level in six months amid concerns the conflict could escalate after the US midterm elections.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "An analyst said Brent could approach $120 a barrel if rhetoric around Iran escalates after the midterms.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Attacks on oil tankers passing through the Strait of Hormuz are raising global energy and shipping costs.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "OPEC+ kept its December production targets unchanged on Sunday.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Iran's rulers celebrated the US midterm results as a rebuke of Trump; Supreme Leader Mojtaba Khamenei dismissed the prospect of a major change in US policy toward Iran.",
+      "source_url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+     }
+    ],
+    "geography": "Iran, Qatar, Strait of Hormuz, Persian Gulf",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Oil slips more than 1% as talks continue on ending Iran war",
+      "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+      "published": "2026-11-02",
+      "primary": false
+     },
+     {
+      "outlet": "Morning Star",
+      "title": "World in brief: November 4, 2026",
+      "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-energy-strikes",
+    "headline": "Russian drones and missiles hit Ukraine's power, leaving hundreds of thousands without electricity",
+    "what_happened": "Russia hit power infrastructure in four Ukrainian regions overnight on 1 November, and a larger attack followed. Kyiv residents lost running water for more than 16 hours.",
+    "why_it_matters": "Power and water stations keep homes warm and clean as winter nears.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Zelensky said Russia hit power infrastructure in four Ukrainian regions overnight, cutting electricity to hundreds of thousands of households.",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     },
+     {
+      "fact": "Ukraine's air force said it shot down 371 of 433 long-range drones Russia launched since Saturday evening.",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     },
+     {
+      "fact": "Russia's Defense Ministry said it downed 235 Ukrainian drones over Russian regions overnight.",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     },
+     {
+      "fact": "Ukraine supports a full ceasefire on energy targets, including its own grid, but says Moscow won't agree.",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     },
+     {
+      "fact": "On Tuesday Russia launched one of its largest attacks of the year on Ukrainian energy infrastructure, hitting facilities in 10 regions, per Ukraine's energy ministry.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+     },
+     {
+      "fact": "Kyiv residents lost running water for more than 16 hours; pumping stations resumed Wednesday afternoon, per the utility Kyivvodokanal.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/"
+     },
+     {
+      "fact": "Melania Trump brokered a temporary ceasefire in Russian-occupied Oleshky so civilians could be evacuated and aid delivered; the White House put the remaining population at roughly 1,700 to 2,000 people, including about 50 children.",
+      "source_url": "https://www.kttc.com/2026/10/23/white-house-announces-melania-trump-secures-ceasefire-russian-occupied-ukrainian-city/?outputType=amp"
+     }
+    ],
+    "geography": "Ukraine, Kyiv, Oleshky",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NBC News",
+      "title": "Russian strikes cut power to thousands in Ukraine, despite Trump's energy ceasefire push",
+      "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Zelenskyy aid center attack",
+      "url": "https://www.cbsnews.com/news/ukraine-russia-war-zelenskyy-aid-center-attack-death-toll/",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "swift-reentry",
+    "headline": "NASA's Swift space telescope is falling back to Earth after 22 years",
+    "what_happened": "NASA's Swift Observatory, launched in 2004 to watch gamma-ray bursts, was expected to re-enter Earth's atmosphere on 4 November 2026. NASA expected most of it to burn up.",
+    "why_it_matters": "It shows how satellites that cannot raise their own orbit slowly sink, and how agencies track them.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "NASA's Neil Gehrels Swift Observatory launched in 2004, was designed for a two-year primary mission and operated for nearly 22 years.",
+      "source_url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html"
+     },
+     {
+      "fact": "Swift's main target was gamma-ray bursts, using three telescopes and rapidly alerting other observatories.",
+      "source_url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html"
+     },
+     {
+      "fact": "The US Space Force estimated re-entry at about 3:30 a.m. EST on 4 November, with an uncertainty of eleven hours.",
+      "source_url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html"
+     },
+     {
+      "fact": "The spacecraft weighs roughly 3,200 pounds and NASA expects most of it to burn up, though some parts may survive.",
+      "source_url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html"
+     },
+     {
+      "fact": "Any surviving debris would fall between latitudes 20.6\u00b0 N and 20.6\u00b0 S; NASA estimated the injury risk to a person at about one in 2,100.",
+      "source_url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html"
+     },
+     {
+      "fact": "Increased solar activity expands the upper atmosphere and adds drag, and Swift has no thrusters and cannot raise its own altitude.",
+      "source_url": "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/"
+     },
+     {
+      "fact": "In August NASA and Katalyst Space said a LINK spacecraft would not capture or boost Swift because of an attitude control problem.",
+      "source_url": "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/"
+     }
+    ],
+    "geography": "Earth orbit; possible debris zone between 20.6\u00b0 N and 20.6\u00b0 S",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Next Horizon",
+      "title": "5 Science News Stories \u2014 November 3, 2026",
+      "url": "https://www.nexthorizon.space/2026/11/5-science-news-stories-november-3-2026.html",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "Popular Science",
+      "title": "NASA abandons mission to save Swift Observatory",
+      "url": "https://popsci.com/science/nasa-abandons-swift-observatory-rescue/",
+      "published": "2026-08-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "aus-social-media-ban",
+    "headline": "Australia defends its under-16 social media ban in the High Court",
+    "what_happened": "Government lawyers told Australia's High Court that the ban on social media for under-16s is necessary to protect developing brains. Reddit and the Digital Freedom Project are challenging it.",
+    "why_it_matters": "Many countries are watching whether laws can limit children's use of social media.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Government lawyers told the High Court that Australia's under-16 social media ban is necessary to protect 'developing brains'.",
+      "source_url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+     },
+     {
+      "fact": "Reddit and the Digital Freedom Project are challenging the ban, which took effect last year.",
+      "source_url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026"
+     },
+     {
+      "fact": "Reddit filed its challenge in December 2025, arguing the law curtails political communication.",
+      "source_url": "https://www.thenewsminute.com/news/reddit-files-high-court-challenge-against-australias-under-16-social-media-ban"
+     },
+     {
+      "fact": "The law requires certain platforms to take 'reasonable steps' to stop under-16s having accounts; platforms face fines of $49.5 million.",
+      "source_url": "https://www.thenewsminute.com/news/reddit-files-high-court-challenge-against-australias-under-16-social-media-ban"
+     }
+    ],
+    "geography": "Australia",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Morning Star",
+      "title": "World in brief: November 4, 2026",
+      "url": "https://morningstaronline.co.uk/article/world-brief-november-4-2026",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "The News Minute",
+      "title": "Reddit files High Court challenge",
+      "url": "https://www.thenewsminute.com/news/reddit-files-high-court-challenge-against-australias-under-16-social-media-ban",
+      "published": "2025-12-12",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms-result",
+    "headline": "Democrats win control of the US Senate and House in the midterm elections",
+    "what_happened": "In elections on 3 November 2026 Democrats were projected to win both chambers of Congress, with the Senate at least 54 seats and the House more than 250. A few close races were still being counted.",
+    "why_it_matters": "Congress writes laws and controls spending, so Democratic control gives them power to block nominees, investigate, and shape laws for Trump's last two years.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "CNBC's Election Desk projected Democrats would win at least 250 House seats and Republicans at least 160, as of early Wednesday.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "CBS projected Democrats winning the House with an estimate of 251 to 268 seats; about 75 House races were undetermined in its early-morning update.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Democrats were on track for at least 54 Senate seats and Republicans at least 42; Alaska and Mississippi were uncalled midday Wednesday.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Fifty-one Senate seats are needed for control.",
+      "source_url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+     },
+     {
+      "fact": "In Mississippi, Democrat Scott Colom led Sen. Cindy Hyde-Smith by under 100 votes with 96% counted.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Democrats' Senate flips included Texas (James Talarico over Ken Paxton), Ohio (Sherrod Brown over Jon Husted), Kansas, Iowa, South Carolina, Maine and Michigan.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Democrats flipped five Republican-held governorships: Texas, Georgia, Ohio, Iowa and Nevada, giving them at least 28 governorships, their first majority since 2010.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Democratic House control gives the party subpoena and investigative power over Trump's final two years; Trump said he will use his veto power as needed.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Hakeem Jeffries is expected to become Speaker; Speaker Mike Johnson will not seek the minority leader post.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "The Dow was up about 3% midday, its biggest one-day gain since April 2025.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     }
+    ],
+    "geography": "United States; Texas, Georgia, Michigan, Maine, Alaska, Mississippi",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "2026 midterm election results: House, Senate live updates",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "2026 midterm election updates",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "ABC News",
+      "title": "Election 2026 live results",
+      "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "firsts",
+    "headline": "Midterm winners include several historic firsts",
+    "what_happened": "Several candidates were elected to historic firsts on 3 November 2026, including a Georgia governor who would be the first Black woman governor of any state.",
+    "why_it_matters": "Who holds office shapes whose voices are heard in making laws.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Keisha Lance Bottoms would be Georgia's first woman governor, first Black governor, and the first Black woman governor of any state (CBS).",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Abdul El-Sayed defeated Mike Rogers 52% to 45% in Michigan and would be the first Muslim senator (CNBC).",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Deb Haaland will be the first female Native American governor, in New Mexico (CNBC).",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Gina Hinojosa will be Texas's first Latina governor (CNBC).",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Melat Kiros, 29, is the first Gen Z woman elected to Congress (CBS).",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "At least 17 women will lead states next year, up from 14 (CNBC).",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "CBS said Jeffries would be the first Black Speaker of the House.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     }
+    ],
+    "geography": "Georgia, Michigan, New Mexico, Texas, Colorado",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "2026 midterm election results live updates",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "2026 midterm election updates",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "trump-iran-war-blame",
+    "headline": "After the losses, Vance blames the Iran war and Trump says 'I'd do it again'",
+    "what_happened": "Vice President JD Vance said the Republicans lost because of the Iran war, and Trump said that was largely true because the war raised gasoline prices.",
+    "why_it_matters": "It shows how prices at the pump can influence how people vote.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Vance wrote: 'The reason we lost is the war.'",
+      "source_url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+     },
+     {
+      "fact": "Trump said Vance's analysis was 'largely true' because the war raised gasoline prices in the short term.",
+      "source_url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+     },
+     {
+      "fact": "Trump said that if he could do it again he would, because 'it's the only answer' in the long term, and 'You can't let Iran have a nuclear weapon.'",
+      "source_url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+     },
+     {
+      "fact": "Trump started the Iran war in February, and higher oil prices from it were cited as a factor in the losses.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Democratic agenda items include reversing Medicaid cuts, restoring ACA tax credits, opposing tariffs and ending the Iran war.",
+      "source_url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+     },
+     {
+      "fact": "Florida Gov. Ron DeSantis called the GOP losses 'close to an extinction-level event' and said Florida was the one state that 'held the line'.",
+      "source_url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085"
+     }
+    ],
+    "geography": "United States; Iran",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ABC News",
+      "title": "Election 2026 live results: Trump defends Iran war after Vance blames it",
+      "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "CNBC",
+      "title": "midterm results",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "data-center-votes",
+    "headline": "Voters in local elections moved to restrict data centers",
+    "what_happened": "About 41 local ballot measures on data centers were voted on in 10 states on 3 November, and preliminary results suggest roughly two dozen passed to restrict or block them.",
+    "why_it_matters": "Data centers that power AI use a lot of electricity and water, so neighbours are voting on whether to allow them.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Preliminary results suggest roughly two dozen of 41 local data-center measures in 10 states passed, restricting or blocking data centers (CNBC).",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Before the election, Ballotpedia-based reporting counted 35 measures scheduled for 3 November, with Ohio accounting for 21 across 18 jurisdictions.",
+      "source_url": "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/"
+     },
+     {
+      "fact": "Most measures would restrict development; 17 called for prohibiting data center development, while eight would empower local governments to permit it.",
+      "source_url": "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/"
+     },
+     {
+      "fact": "All six measures decided earlier in 2026 limited development.",
+      "source_url": "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/"
+     }
+    ],
+    "geography": "Ohio, Illinois, Wisconsin, Kansas, California, Michigan, Nevada, Florida",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "midterm results live updates",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "Smart Cities Dive",
+      "title": "Data centers on more than 3 dozen local ballots",
+      "url": "https://www.smartcitiesdive.com/news/data-centers-on-more-than-3-dozen-local-ballots/873183/",
+      "published": "2026-10",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "musk-spending",
+    "headline": "Elon Musk spent at least $474 million on the midterms; many of his picks lost",
+    "what_happened": "CNBC reported that Elon Musk spent at least $474 million, including $224 million in Texas. Of 44 federal races his PAC targeted, Republicans it backed or opposed lost 29, won 3, and 12 were pending.",
+    "why_it_matters": "It shows that spending money does not guarantee votes.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Elon Musk spent at least $474 million, including $224 million in Texas.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "Of 44 federal races his America PAC targeted, Republicans it backed or opposed lost 29, won 3, and 12 were pending.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     },
+     {
+      "fact": "California's billionaire tax (Proposition 40) had 43.7% yes votes with 83% of precincts partly reporting, short of a majority.",
+      "source_url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+     }
+    ],
+    "geography": "Texas, California",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "midterm results live updates",
+      "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-murasu",
+    "headline": "Cyclone Murasu hits Andhra Pradesh coast; thousands move to shelters",
+    "what_happened": "Severe Cyclonic Storm Murasu crossed the south Andhra Pradesh coast near Ongole in Prakasam district in the early hours of Tuesday 3 November 2026. It uprooted trees, toppled electricity poles and flooded low-lying areas. Thousands of people were moved to shelters.",
+    "why_it_matters": "It was the second cyclone to hit the region in a week, so people, farms and relief teams had little time to recover.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The India Meteorological Department said Murasu crossed the coast near Ongole in Prakasam district at around 1 am on Tuesday.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Murasu formed from a low-pressure system over the Bay of Bengal, became a cyclonic storm on 1 November and a severe cyclonic storm on 2 November.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Winds reached 100-110 km/h, with gusts up to 120 km/h.",
+      "source_url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+     },
+     {
+      "fact": "The IMD expected the storm to weaken into a deep depression by Tuesday night and to dissipate fully by 5 November.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "More than 30,000 hectares of standing crops were damaged across 15 districts; Krishna, Bapatla and Nandyal were worst hit, and paddy, cotton and maize suffered most.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Salt pans were flooded, causing losses for farmers and workers.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "10,805 people were moved to cyclone shelters, according to the Tribune report; the state set up 171 relief camps and distributed 14,810 food packets.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Prakhar Jain, managing director of the Andhra Pradesh State Disaster Management Authority, said no deaths or injuries had been reported at the time of the Tribune report; a later live blog said at least two people died in cyclone-related incidents.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "NDRF deployed 14 teams in Andhra Pradesh, three of them moved from Tamil Nadu.",
+      "source_url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+     },
+     {
+      "fact": "In Odisha, 1,65,809 people were evacuated from six southern districts.",
+      "source_url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+     },
+     {
+      "fact": "The IMD advised fishermen not to go to sea until the morning of 4 November.",
+      "source_url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+     },
+     {
+      "fact": "Home Minister Amit Shah said he had spoken to Chief Minister Chandrababu Naidu and that NDRF and SDRF teams were already on the ground.",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "fact": "Murasu was the second cyclone to hit the region in a week, after Cyclone Arnab, which killed seven people in Andhra Pradesh according to a 29 October report.",
+      "source_url": "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People moved to cyclone shelters",
+      "value": 10805,
+      "unit": "people",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Crops damaged",
+      "value": 30000,
+      "unit": "hectares (more than)",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Relief camps",
+      "value": 171,
+      "unit": "camps",
+      "source_url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops"
+     },
+     {
+      "label": "Wind speed",
+      "value": 110,
+      "unit": "km/h (sustained, up to)",
+      "source_url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+     }
+    ],
+    "geography": "Ongole, Prakasam district, Andhra Pradesh, on India's east coast on the Bay of Bengal; Odisha to the north-east",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "The Tribune",
+      "title": "Cyclone Murasu makes landfall in Andhra, damages 30,000 hectares of crops",
+      "url": "https://www.tribuneindia.com/news/india/cyclone-murasu-makes-landfall-in-andhra-damages-30000-hectares-of-crops",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "ETV Bharat",
+      "title": "Cyclone Murasu LIVE",
+      "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "Kathmandu Post",
+      "title": "Cyclone Arnab kills seven in Andhra Pradesh as heavy rain hits eastern India",
+      "url": "https://kathmandupost.com/world/2026/10/29/cyclone-arnab-kills-seven-in-andhra-pradesh-as-heavy-rain-hits-eastern-india",
+      "published": "2026-10-29",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ec-sir-supreme-court",
+    "headline": "Election Commission defends its voter-list revision in the Supreme Court",
+    "what_happened": "The Election Commission of India filed a 248-page reply in the Supreme Court to petitions about its Special Intensive Revision (SIR) of electoral rolls and the Chief Election Commissioner. It says the revision was lawful and the petitions should be dismissed.",
+    "why_it_matters": "Electoral rolls decide who can vote, so courts check that the process is lawful and fair.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Election Commission filed a 248-page counter-affidavit in the Supreme Court responding to petitions against Chief Election Commissioner Gyanesh Kumar and the SIR of electoral rolls.",
+      "source_url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+     },
+     {
+      "fact": "The EC says its three SIR orders were issued under Article 324 of the Constitution on unanimous decisions of all three commissioners.",
+      "source_url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+     },
+     {
+      "fact": "A bench headed by Chief Justice Surya Kant was to hear the petitions.",
+      "source_url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+     },
+     {
+      "fact": "The EC asked for the petitions to be dismissed, calling them misconceived.",
+      "source_url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+     },
+     {
+      "fact": "Under Article 324(5), the Chief Election Commissioner can be removed only in the same way as a Supreme Court judge, the EC said.",
+      "source_url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/"
+     },
+     {
+      "fact": "Petitioners seek the reversal of 14 SIR-related decisions and an inquiry by a special investigation team.",
+      "source_url": "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675"
+     },
+     {
+      "fact": "After the EC's affidavit of 26 October, the Supreme Court gave petitioner Rakesh Kumar Singh 10 days to reply, according to WION.",
+      "source_url": "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi, India",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "All India Radio News",
+      "title": "EC defends SIR of electoral rolls before Supreme Court",
+      "url": "https://newsonair.gov.in/ec-defends-sir-of-electoral-rolls-before-supreme-court/",
+      "published": "2026-10-27",
+      "primary": true
+     },
+     {
+      "outlet": "WION",
+      "title": "SC defers pleas against CEC Gyanesh Kumar by 10 days",
+      "url": "https://www.wionews.com/india-news/sc-defers-pleas-against-cec-gyanesh-kumar-by-10-days-petitioners-get-time-to-respond-to-eci-1793091410675",
+      "published": "2026-10-27",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-iran-talks",
+    "headline": "Oil prices slip as Iran talks continue, but stay high",
+    "what_happened": "Oil prices slipped more than 1% on Monday 2 November as Iranian and Qatari officials held a third day of talks on ending the war involving Iran. Brent crude was still around $112 a barrel.",
+    "why_it_matters": "India imports much of its oil, so high crude prices affect fuel costs and the economy.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Brent crude futures fell $1.59, or 1.40%, to $111.84 a barrel by 0011 GMT on Monday.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "US West Texas Intermediate was at $102.56 a barrel, down 1.50%.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Brent ended October at its highest level in six months, amid fears the US-Iran conflict could escalate after the US midterm elections.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Iranian Foreign Minister Abbas Araqchi said the talks with Qatari officials were 'ongoing and progressing'.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Attacks on oil tankers in the Strait of Hormuz are raising global energy and shipping costs.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "OPEC+ kept December production targets steady on Sunday.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "fact": "Analyst Tim Waterer said the market remains alert to rhetoric that could push Brent toward $120 after the midterms.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude",
+      "value": 111.84,
+      "unit": "US dollars per barrel",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     },
+     {
+      "label": "WTI crude",
+      "value": 102.56,
+      "unit": "US dollars per barrel",
+      "source_url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html"
+     }
+    ],
+    "geography": "Strait of Hormuz, Iran, Qatar, Saudi Arabia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Oil slips more than 1% as talks continue on ending Iran war",
+      "url": "https://www.cnbc.com/amp/2026/11/02/oil-slips-more-than-1percent-as-talks-continue-on-ending-iran-war.html",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "trees-straighten",
+    "headline": "Trees have an inner sense of shape that helps them straighten",
+    "what_happened": "French researchers found that trees sense their own shape and grow special wood on either side of the trunk to pull it upright.",
+    "why_it_matters": "It could help foresters and farmers breed straighter trees and crops that stay standing.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, by INRAE researchers in France, was published in New Phytologist.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "Young poplar trees were laid horizontally and their stems curved upward over time.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "Tension wood on the upper side of the stem pulled the stem upward.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "After about ten days the trees were moved onto a rotating platform inside a sphere lit evenly from all directions, which removed steady gravity and light cues.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "In that setup, tension wood on the upper side stopped forming and identical tension wood formed on the opposite side, pulling the other way.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "The opposing forces gradually straightened the stems over several weeks.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "The researchers say trees use proprioception, an internal sense of their own shape, to decide where tension wood forms.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "The authors suggest it could help trees recover from storms and landslides, and inform breeding for straighter trees and crops less prone to falling over before harvest.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     },
+     {
+      "fact": "Bruno Moulia, INRAE research director: 'What we have uncovered is a genuine sensorimotor loop operating in the woody parts of trees!'",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "Scientists Discover the Hidden 'muscles' Trees Use to Straighten Themselves",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "frogs-chytrid",
+    "headline": "Museum frogs reveal a fungus behind a 50-year-old mystery",
+    "what_happened": "Scientists tested preserved amphibians from Brazil's Atlantic Forest and found evidence that the chytrid fungus caused sharp declines in the late 1970s and early 1980s.",
+    "why_it_matters": "It shows museum collections can solve old mysteries and help protect wildlife.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Researchers tested over 370 preserved amphibians from 17 species collected at the Borac\u00e9ia Biological Station in Brazil's Atlantic Forest.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "Amphibian populations there declined sharply between 1979 and 1982.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "None of the specimens collected before 1979 tested positive for the chytrid fungus; more than half of those collected in the 1980s did.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "The fungus is Batrachochytrium dendrobatidis; it is believed to have originated in Asia and spread worldwide in the 1970s and 1980s.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "The most severely declined species showed no detectable infection in the specimens, while stable species often carried it.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "The researchers' proposed explanation, which is a hypothesis, is that some species tolerate infection while very susceptible ones died so quickly that infected animals were rarely collected.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "Between 2022 and 2024 the team made six visits and found 12 of the 17 historical species; most appear to have recovered, although the fungus is still present.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     },
+     {
+      "fact": "The findings were published in Molecular Ecology, and apply to Borac\u00e9ia, not automatically to the rest of the Atlantic Forest.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "A 50-year-old Mystery of Vanishing Frogs Reveals a Hidden Killer",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102202838.htm",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ape-fossil-egypt",
+    "headline": "Ape fossil from Egypt could change the story of ape origins",
+    "what_happened": "A 17-18-million-year-old jaw found at Wadi Moghra in Egypt is the first definitive fossil ape from North Africa, and may change where scientists think living apes began.",
+    "why_it_matters": "It suggests the ancestors of living apes may have lived in North Africa and the Middle East rather than only East Africa.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The fossil species is Masripithecus moghraensis, about 17 to 18 million years old, from Wadi Moghra in northern Egypt.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     },
+     {
+      "fact": "It is the first definitive fossil ape found in North Africa.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     },
+     {
+      "fact": "The team from Mansoura University in Egypt and the University of Southern California found it on expeditions in 2023 and 2024; it was published in Science on 26 March 2026.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     },
+     {
+      "fact": "The authors' analyses point to North Africa and the Middle East as the likely home of the common ancestor of all living apes, challenging the East African origin model.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     },
+     {
+      "fact": "The jaw has large canines and rounded, textured chewing surfaces, suggesting a mainly fruit diet that could handle harder foods like nuts.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     },
+     {
+      "fact": "Only part of a lower jaw has been found, so its body size and behaviour are unknown.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     },
+     {
+      "fact": "The researchers do not claim it was a direct ancestor of humans or living apes.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "Ancient Ape Fossil in Egypt Could Rewrite the Story of Human Origins",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "virus-assembly",
+    "headline": "Scientists watch virus-like particles build themselves one piece at a time",
+    "what_happened": "Oxford researchers used a technique that weighs single molecules to watch an engineered virus-like particle assemble, learning how it avoids mistakes.",
+    "why_it_matters": "Understanding assembly could help design antiviral drugs and vaccines.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Oxford study was published in Nature.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "The team studied an engineered virus-like particle made of 60 protein units.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "They used mass photometry, a technique developed at Oxford that measures the mass of single molecules from the light they scatter.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "Early protein connections are weak, so wrong combinations can separate and retry.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "A closed ring of five larger building blocks is the first highly stable structure, and later stages need fewer extra blocks, so growth speeds up.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "The earliest stage, nucleation, is the most difficult step.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "Understanding this could support antiviral drugs that disrupt capsid assembly and improve vaccine design.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     },
+     {
+      "fact": "Dr Roi Asor: 'The weak interactions give the system room to make mistakes.'",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm"
+     }
+    ],
+    "numbers": [],
+    "geography": "",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily",
+      "title": "Oxford Scientists Discover How Viruses Build Themselves Without a Blueprint",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231248.htm",
+      "published": "2026-10-22",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "burnham-slavery-apology",
+    "headline": "UK prime minister opens door to an apology for the slave trade but rules out reparations",
+    "what_happened": "Prime Minister Andy Burnham said his government will consider apologising for the first time for Britain's role in the transatlantic slave trade, but rejected reparations. He offered a 'structured dialogue' with affected nations ahead of the Commonwealth leaders' meeting in Antigua and Barbuda.",
+    "why_it_matters": "A formal apology from the British state would be a major step in how the country talks about its history, and Caribbean leaders say reparations remain an open question.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Prime Minister Andy Burnham said his government will consider apologising for the first time for Britain's role in the transatlantic slave trade, but he rejects reparations.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "He wrote in the Guardian on Saturday that Britain must acknowledge its 'complicated history' to protect the Commonwealth.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "He offered a 'structured dialogue' with affected nations and said he will hear calls for a formal state apology.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "He said people living today cannot be held liable for historical wrongs they did not personally commit.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "He said Britain 'participated in the trade in human lives' and expressed sorrow for the suffering it caused.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "Instead of reparations he wants to address debt: working with wealthy nations and investors to give vulnerable countries longer repayment periods and lower interest rates; former PM Gordon Brown will attend the Commonwealth meeting to support this.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "Barbados Prime Minister Mia Mottley welcomed Burnham's acknowledgment and openness to an apology but said differences remain on reparations.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "Antigua and Barbuda Prime Minister Gaston Browne called the comments a 'significant and welcome development' and said the Caribbean's position on reparatory justice is unchanged.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "Britain banned the slave trade in 1807 and outlawed slavery across the British Empire in 1833; the trade involved the transfer of several million people from Africa.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "fact": "King Charles III, on a nine-day Caribbean trip, said in Nassau in the Bahamas that he acknowledged 'the great suffering and injustices of the past' but did not apologise, because the monarch speaks on behalf of the elected government.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Commonwealth member nations",
+      "value": 56,
+      "unit": "independent nations",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "label": "Slave trade banned in Britain",
+      "value": 1807,
+      "unit": "year",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     },
+     {
+      "label": "Slavery outlawed across the British Empire",
+      "value": 1833,
+      "unit": "year",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     }
+    ],
+    "geography": "United Kingdom; Antigua and Barbuda (St John's); Bahamas; Barbados; Caribbean Sea; Africa",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "AP via KIRO 7",
+      "title": "UK leader Burnham hints at apology for country's role in slave trade but rejects reparations",
+      "url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp",
+      "published": "2026-10-31",
+      "primary": true
+     },
+     {
+      "outlet": "Express & Star",
+      "title": "King arrives in Antigua and Barbuda as slavery debate persists",
+      "url": "https://www.expressandstar.com/uk-news/king-arrives-in-antigua-and-barbuda-as-slavery-debate-persists-9321797",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "Daily Sabah",
+      "title": "UK PM opens door to slavery apology but rules out reparations",
+      "url": "https://www.dailysabah.com/world/europe/uk-pm-opens-door-to-slavery-apology-but-rules-out-reparations/amp",
+      "published": "2026-10-31",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "chogm-antigua",
+    "headline": "King and prime minister join Commonwealth leaders in Antigua",
+    "what_happened": "The 28th Commonwealth Heads of Government Meeting is being hosted by Antigua and Barbuda in St John's from 1 to 4 November. King Charles presides as head of the 'family of nations', and Prime Minister Andy Burnham is attending his first Commonwealth summit.",
+    "why_it_matters": "The Commonwealth links 56 countries, many of them former British colonies, and this meeting is where the slavery apology debate plays out.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The 28th Commonwealth Heads of Government Meeting (CHOGM) is hosted by Antigua and Barbuda from 1 to 4 November in St John's.",
+      "source_url": "https://www.expressandstar.com/uk-news/king-arrives-in-antigua-and-barbuda-as-slavery-debate-persists-9321797"
+     },
+     {
+      "fact": "King Charles will preside over the meeting in his role as head of the 'family of nations', and Prime Minister Andy Burnham and Foreign Secretary Ed Miliband will join him.",
+      "source_url": "https://www.expressandstar.com/uk-news/king-arrives-in-antigua-and-barbuda-as-slavery-debate-persists-9321797"
+     },
+     {
+      "fact": "Burnham told ITV News he has 'come to listen to people' and wants a 'new approach to the Commonwealth'; it is his first Commonwealth summit as prime minister.",
+      "source_url": "https://itv.com/news/2026-11-03/ive-come-to-listen-to-people-says-burnham-as-king-opens-commonwealth-summit"
+     },
+     {
+      "fact": "Government sources said any aid offered would involve no additional spending.",
+      "source_url": "https://itv.com/news/2026-11-03/ive-come-to-listen-to-people-says-burnham-as-king-opens-commonwealth-summit"
+     },
+     {
+      "fact": "The Commonwealth has 56 independent member nations, many of them former British colonies.",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Commonwealth member nations",
+      "value": 56,
+      "unit": "independent nations",
+      "source_url": "https://www.kiro7.com/news/world/uk-prime-minister/HV7FVJYSUE7RBN7BLJJNJ36C6M/?outputType=amp"
+     }
+    ],
+    "geography": "St John's, Antigua and Barbuda, in the eastern Caribbean",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Express & Star",
+      "title": "King arrives in Antigua and Barbuda as slavery debate persists",
+      "url": "https://www.expressandstar.com/uk-news/king-arrives-in-antigua-and-barbuda-as-slavery-debate-persists-9321797",
+      "published": "2026-11-01",
+      "primary": false
+     },
+     {
+      "outlet": "ITV News",
+      "title": "I've 'come to listen to people', says Burnham as King set to open Commonwealth summit",
+      "url": "https://itv.com/news/2026-11-03/ive-come-to-listen-to-people-says-burnham-as-king-opens-commonwealth-summit",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "burnham-100-days",
+    "headline": "Burnham's first 100 days: prime minister says it is 'difficult to say' if legal migration is too high or low",
+    "what_happened": "An ITV Tonight programme on 3 November looked at Andy Burnham's first 100 days in Downing Street. He told ITV he has not set a target for net migration and called his first Budget not what he wanted.",
+    "why_it_matters": "It shows how the new prime minister is handling migration and money, two of the biggest issues for voters.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The ITV Tonight special 'Burnham: Inside The First 100 Days' was set to air on 3 November and covers his early days in Downing Street, his first Prime Minister's Questions and his first Budget.",
+      "source_url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted"
+     },
+     {
+      "fact": "Asked about legal migration, Burnham said it was 'difficult to say' whether current levels are too high or too low.",
+      "source_url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted"
+     },
+     {
+      "fact": "He said he had not put a target number on the level of net migration he would like to see.",
+      "source_url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted"
+     },
+     {
+      "fact": "His premiership began on 20 July 2026, after he succeeded Keir Starmer.",
+      "source_url": "https://en.wikipedia.org/wiki/Premiership_of_Andy_Burnham"
+     }
+    ],
+    "numbers": [],
+    "geography": "Downing Street, London",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ITV News",
+      "title": "Andy Burnham: 'Difficult to say' whether legal migration is too high or low",
+      "url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted",
+      "published": "2026-10-30",
+      "primary": false
+     },
+     {
+      "outlet": "Wikipedia",
+      "title": "Premiership of Andy Burnham",
+      "url": "https://en.wikipedia.org/wiki/Premiership_of_Andy_Burnham",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "boe-decision",
+    "headline": "Bank of England to announce its interest rate decision on Thursday",
+    "what_happened": "The Bank of England's Monetary Policy Committee is due to announce its next interest rate decision on Thursday 5 November 2026 at 12:00 UK time, alongside a new Monetary Policy Report.",
+    "why_it_matters": "Interest rates affect the cost of mortgages and loans for families.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The next Bank of England interest rate decision is on Thursday 5 November 2026 at 12:00 UK time, alongside a new Monetary Policy Report.",
+      "source_url": "https://www.financecalendar.com/event/bank-of-england-mpc-rate-decision-november-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "London",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "FinanceCalendar",
+      "title": "Bank of England MPC Rate Decision November 2026",
+      "url": "https://www.financecalendar.com/event/bank-of-england-mpc-rate-decision-november-2026/",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "healey-budget",
+    "headline": "Chancellor John Healey delivered his first Budget on 28 October",
+    "what_happened": "Chancellor John Healey delivered his first Autumn Budget on Wednesday 28 October 2026.",
+    "why_it_matters": "Budgets set the taxes people pay and how government money is spent.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The UK Autumn Budget 2026 took place on Wednesday 28 October 2026, and Chancellor John Healey delivered his first Budget speech.",
+      "source_url": "https://www.saffery.com/insights/publications/budget-2021-our-analysis"
+     },
+     {
+      "fact": "Burnham told ITV his first Budget as prime minister was not what he wanted.",
+      "source_url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted"
+     }
+    ],
+    "numbers": [],
+    "geography": "London",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Saffery",
+      "title": "Autumn Budget 2026",
+      "url": "https://www.saffery.com/insights/publications/budget-2021-our-analysis",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "ITV News",
+      "title": "Andy Burnham admits first Budget as prime minister was not what he wanted",
+      "url": "https://www.itv.com/news/2026-10-30/andy-burnham-admits-first-budget-as-prime-minister-was-not-what-he-wanted",
+      "published": "2026-10-30",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-enlargement-summit",
+    "headline": "EU leaders and candidate countries meet in Brussels to talk about growing the Union",
+    "what_happened": "The second Euronews EU Enlargement Summit took place in Brussels on 3 November. European Council President Ant\u00f3nio Costa and leaders from candidate countries discussed which countries could join the European Union and when.",
+    "why_it_matters": "Countries joining the EU would change borders, trade and who has a say in Europe.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Euronews EU Enlargement Summit took place in Brussels on 3 November 2026, with leaders from Ukraine, Albania, Moldova, Georgia, North Macedonia, Armenia, Croatia and the European Council.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     },
+     {
+      "fact": "European Council President Ant\u00f3nio Costa called enlargement 'the best geopolitical investment Europe has made' and said he has visited all candidate countries several times.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/"
+     },
+     {
+      "fact": "Costa said the fourth EU-Western Balkans Summit would be held in three weeks.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/"
+     },
+     {
+      "fact": "Ukraine has made formal progress since the change of government in Hungary and is still expected to open all negotiating clusters before the end of 2026.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     },
+     {
+      "fact": "Montenegro is closest to the finish line but is stalled by bilateral issues with Croatia rooted in the Yugoslav Wars; its EU minister said negotiating chapters could close this year, with accession following in 2028.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     },
+     {
+      "fact": "Albania is considered the second-closest candidate.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     },
+     {
+      "fact": "Moldova is progressing so quickly that the Commission has reallocated internal resources to keep pace.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     },
+     {
+      "fact": "Georgia's accession has effectively halted amid democratic backsliding; Enlargement Commissioner Marta Kos said it is 'a candidate country only on paper'.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     },
+     {
+      "fact": "Croatian Prime Minister Andrej Plenkovi\u0107 warned that France's upcoming presidential elections could derail the accession process.",
+      "source_url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brussels, Belgium; Western Balkans (Montenegro, Albania, North Macedonia); Ukraine; Moldova; Georgia; Armenia; Croatia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU enlargement at a turning point as leaders gather for Euronews summit",
+      "url": "https://www.euronews.com/2026/11/03/eu-enlargement-at-a-turning-point-as-leaders-gather-for-euronews-summit",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "Council of the EU",
+      "title": "Statement by President Costa in the context of the Euronews EU Enlargement Summit 2026",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/03/statement-by-president-costa-in-the-context-of-the-euronews-eu-enlargement-summit-2026/",
+      "published": "2026-11-03",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "eu-preparedness",
+    "headline": "European Commission publishes guidelines to help families prepare for emergencies",
+    "what_happened": "On 4 November, Commissioner Hadja Lahbib presented non-binding Population Preparedness Guidelines at the European Civil Protection Forum, including advice to be able to cope for 72 hours in an emergency.",
+    "why_it_matters": "Floods, storms and other crises can cut power or water; being ready for the first three days helps people stay safe.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Commissioner for Equality, Preparedness and Crisis Management Hadja Lahbib presented the measures at the European Civil Protection Forum.",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     },
+     {
+      "fact": "The non-binding Population Preparedness Guidelines help people meet essential needs during the first 72 hours of an emergency, using emergency supplies and grab bags.",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     },
+     {
+      "fact": "The guidelines propose adding preparedness to early childhood and primary curricula, with teacher training, and keeping lessons free of fear or anxiety.",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     },
+     {
+      "fact": "They also cover making preparedness accessible to people with disabilities and giving citizens timely, accessible and reliable information before, during and after emergencies.",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     },
+     {
+      "fact": "The Commission proposes an annual EU Preparedness Day on 23 October, starting in 2027, marking the creation of the Civil Protection Mechanism in 2001, now 25 years old.",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     },
+     {
+      "fact": "The European Citizens' Panel on Preparedness had 150 citizens, met from March to May 2026 and recommended an annual EU Preparedness Week.",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Self-sufficiency window",
+      "value": 72,
+      "unit": "hours",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     },
+     {
+      "label": "Citizens on the preparedness panel",
+      "value": 150,
+      "unit": "citizens",
+      "source_url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2"
+     }
+    ],
+    "geography": "European Union",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The European Sting",
+      "title": "Commission takes new steps to prepare Europeans for growing crisis risks",
+      "url": "https://europeansting.com/2026/11/04/commission-takes-new-steps-to-prepare-europeans-for-growing-crisis-risks-2",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-school-strike",
+    "headline": "Russia strikes a school used as shelter in southeastern Ukraine, Zelensky says",
+    "what_happened": "CNN reported on 3 November that Russia dropped at least nine bombs on a school building in southeastern Ukraine where people had taken shelter, and Zelensky called it one of the war's deadliest attacks. It came before another large barrage of drones and missiles aimed at energy infrastructure.",
+    "why_it_matters": "Attacks on power networks and civilian buildings affect millions of people as winter approaches.",
+    "importance": 8,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Russia dropped at least nine bombs on a school building in southeastern Ukraine where people had taken shelter, and Zelensky called it one of the deadliest attacks of the war.",
+      "source_url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
+     },
+     {
+      "fact": "Zelensky said the attack came just before Russia launched a barrage of hundreds of drones and dozens of missiles aimed at Ukraine's energy infrastructure, despite Trump's calls for an energy ceasefire.",
+      "source_url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl"
+     },
+     {
+      "fact": "Ukraine's air force said it had shot down 371 of 433 long-range drones launched by Russia since Saturday evening.",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     },
+     {
+      "fact": "Russian strikes hit power infrastructure in four Ukrainian regions overnight, cutting electricity to hundreds of thousands of households.",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Drones shot down",
+      "value": 371,
+      "unit": "of 433 launched",
+      "source_url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784"
+     }
+    ],
+    "geography": "Zaporizhzhia region, southeastern Ukraine",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CNN",
+      "title": "Russian bombing of Ukrainian aid center is one of the war's 'deadliest attacks,' Zelensky says",
+      "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl",
+      "published": "2026-11-03",
+      "primary": false
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Russian strikes cut power to thousands in Ukraine, despite Trump's energy ceasefire push",
+      "url": "https://www.nbcnews.com/world/ukraine/russian-strikes-cut-power-thousands-ukraine-trumps-energy-ceasefire-rcna606784",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "eu-diesel",
+    "headline": "Europe weighs releasing emergency diesel stocks as US pressure grows",
+    "what_happened": "Earlier this autumn the Trump administration asked EU governments to release 120 million barrels of diesel from strategic reserves over 180 days, and floated a US diesel export ban. EU governments held emergency talks.",
+    "why_it_matters": "Diesel moves goods and powers farms and lorries, so prices affect shop prices.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Trump administration reportedly asked EU governments to release 120 million barrels of diesel from strategic reserves over 180 days.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks"
+     },
+     {
+      "fact": "Washington floated a US diesel export ban to lower domestic prices before the 3 November midterms.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks"
+     },
+     {
+      "fact": "The US supplied half of the EU's diesel imports in August, according to the European Commission.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks"
+     },
+     {
+      "fact": "A French proposal would have European countries release 50 million barrels, with IEA members also contributing.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks"
+     },
+     {
+      "fact": "The Commission said supplies were stable for the time being, and reserves are also needed as insurance because the Iran war has disrupted Gulf supply.",
+      "source_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Diesel requested",
+      "value": 120,
+      "unit": "million barrels",
+      "source_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks"
+     }
+    ],
+    "geography": "European Union; United States; Persian Gulf",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
+      "url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks",
+      "published": "2026-10-02",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "eu-uk-summit",
+    "headline": "EU and UK to hold second summit in Brussels on 20 November",
+    "what_happened": "Ant\u00f3nio Costa and Ursula von der Leyen will welcome Prime Minister Andy Burnham in Brussels on 20 November for the second EU-UK summit.",
+    "why_it_matters": "The summit will review how the UK and EU work together on defence, energy, trade and migration.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The second EU-UK summit takes place in Brussels on 20 November; leaders will review progress since the 2025 London summit, covering defence and security, energy, agrifood rules, climate, people-to-people contacts, and migration and law enforcement.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/eu-uk-summit-to-take-place-in-brussels-on-20-november/"
+     },
+     {
+      "fact": "A joint declaration is expected at the end of the summit.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/eu-uk-summit-to-take-place-in-brussels-on-20-november/"
+     },
+     {
+      "fact": "An EU-Western Balkans summit follows in Brussels on 25 November.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/eu-uk-summit-to-take-place-in-brussels-on-20-november/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Brussels, Belgium; United Kingdom",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Council of the EU",
+      "title": "EU-UK summit to take place in Brussels on 20 November",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/eu-uk-summit-to-take-place-in-brussels-on-20-november/",
+      "published": "2026-10-12",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ }
+}
