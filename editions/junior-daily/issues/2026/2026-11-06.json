@@ -1,0 +1,213 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-06",
+  "volume": 1,
+  "issue": 24,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UNITED STATES",
+      "headline": "Democrats Win Control of Both Houses of Congress",
+      "deck": "After the midterm elections, Democrats will run the House and the Senate. Republicans are choosing new leaders.",
+      "body": [
+        "Americans voted in midterm elections on Tuesday 3 November. Congress has two houses: the House of Representatives and the Senate. Democrats will control both when the new Congress meets in January.",
+        "In the House, Democrats had won at least 240 seats to the Republicans’ 147. In the Senate, the Democratic group will have at least 54 senators. Alaska and Mississippi were too close to call.",
+        "The loss is changing who leads Republicans. House Speaker Mike Johnson said he will not try to lead House Republicans in the next Congress. Two Republican representatives, Steve Scalise and Jim Jordan, both said they will run for minority leader. Democrat Hakeem Jeffries will run for speaker, and he would be the first African American to hold that job."
+      ],
+      "map": {
+        "title": "WHERE THE VOTES WERE COUNTED",
+        "label_top": "UNITED STATES",
+        "label_bottom": "ALASKA AND MISSISSIPPI STILL CLOSE",
+        "footnote": "Two Senate races were still too close to call",
+        "caption": "The map marks the United States, where both houses of Congress changed hands.",
+        "countries": [
+          "United States"
+        ]
+      },
+      "why": "Congress writes the nation’s laws, so the party in charge decides which ones it takes up.",
+      "sources": [
+        {
+          "outlet": "Democracy Now",
+          "title": "Headlines for November 5, 2026",
+          "url": "https://www.democracynow.org/2026/11/5/headlines"
+        },
+        {
+          "outlet": "Just Security",
+          "title": "Early Edition: November 5, 2026",
+          "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock Market News for Nov 5, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  OIL",
+      "headline": "Oil Prices Drop More Than 8% in One Day",
+      "deck": "Hopes for an end to the Iran war pushed oil to its lowest price since 31 August.",
+      "body": [
+        "The price of crude oil fell by more than 8% on Wednesday 4 November. Oil is made into fuel for cars, trucks and planes.",
+        "Brent crude, a widely used world price, fell $8.98 to $94.62 a barrel. A second price, called WTI, fell $7.97 to $88.12. Both were the lowest finishing prices since 31 August.",
+        "Traders hoped the war between Iran and the United States and Israel might end. Shares of energy companies fell 4.8% as oil got cheaper."
+      ],
+      "chart": {
+        "title": "OIL PRICES, 4 NOVEMBER",
+        "subtitle": "Dollars a barrel at the close",
+        "labels": [
+          "Brent",
+          "WTI"
+        ],
+        "values": [
+          94.62,
+          88.12
+        ],
+        "max": 120,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Brent finished at $94.62 and WTI at $88.12 a barrel."
+      },
+      "why": "Oil makes fuel, so a lower price can mean cheaper travel and goods for families.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Stock Market News for Nov 5, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+        },
+        {
+          "outlet": "Democracy Now",
+          "title": "Headlines for November 5, 2026",
+          "url": "https://www.democracynow.org/2026/11/5/headlines"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "South Africa: Local elections began on Wednesday, with full results expected Sunday.",
+        "Montenegro: The EU could finish membership talks with Montenegro by the end of this year."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the Senate races in Alaska and Mississippi are decided.",
+        "Whether oil prices keep falling as talks to end the Iran war continue."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.democracynow.org/2026/11/5/headlines",
+    "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many parts, called houses, does Congress have?",
+        "options": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 0,
+        "why": "The paper names the House of Representatives and the Senate.",
+        "story": "lead"
+      },
+      {
+        "q": "Which Democrat said he will run for speaker?",
+        "options": [
+          "Jim Jordan",
+          "Hakeem Jeffries",
+          "Steve Scalise"
+        ],
+        "answer": 1,
+        "why": "Hakeem Jeffries will run for speaker.",
+        "story": "lead"
+      },
+      {
+        "q": "How far did Brent crude fall on 4 November?",
+        "options": [
+          "Below $50 a barrel",
+          "To $94.62 a barrel",
+          "To $150 a barrel"
+        ],
+        "answer": 1,
+        "why": "Brent fell to $94.62 a barrel.",
+        "story": "world"
+      },
+      {
+        "q": "When are South Africa’s local election results expected?",
+        "options": [
+          "Sunday",
+          "Wednesday",
+          "Tuesday"
+        ],
+        "answer": 0,
+        "why": "Full results are expected on Sunday.",
+        "story": "lead"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Democrats will control both the House and the Senate.",
+        "true": true,
+        "why": "The paper says they will run both houses.",
+        "story": "lead"
+      },
+      {
+        "claim": "Speaker Mike Johnson said he will try to lead House Republicans in the next Congress.",
+        "true": false,
+        "why": "He said he will not seek that job.",
+        "story": "lead"
+      },
+      {
+        "claim": "Oil fell by more than 8% on 4 November.",
+        "true": true,
+        "why": "Crude fell more than 8% that day.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.5,
+        "lon": 56.5,
+        "countries": [
+          "Iran",
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "At least how many House seats had Democrats won?",
+        "answer": 240,
+        "prefix": "",
+        "unit": "seats",
+        "min": 100,
+        "max": 435,
+        "why": "Democrats had won at least 240 House seats to the Republicans’ 147."
+      },
+      {
+        "story": "world",
+        "q": "What was the price of a barrel of Brent crude at the close on 4 November, in dollars?",
+        "answer": 94.62,
+        "prefix": "$",
+        "unit": "",
+        "min": 50,
+        "max": 140,
+        "why": "Brent finished at $94.62 a barrel."
+      }
+    ]
+  }
+}
