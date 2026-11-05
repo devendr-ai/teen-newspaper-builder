@@ -1,0 +1,265 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "midterms-result",
+    "headline": "Democrats win control of both houses of Congress",
+    "what_happened": "Democrats will control both the House and the Senate when the new Congress meets in January. Republican Speaker Mike Johnson will not lead House Republicans in the minority.",
+    "why_it_matters": "Congress writes laws, so the party in charge decides what it takes up.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Democrats will control both chambers of Congress when the 120th Congress convenes in January, with larger majorities.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "In the House, Democrats had won at least 240 seats to Republicans' 147, with about four dozen races uncalled.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "The Democratic caucus in the Senate will have at least 54 senators; Alaska and Mississippi remained too close to call.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "House Speaker Mike Johnson will not seek to lead House Republicans in the next Congress after the party lost its majority.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Reps. Steve Scalise and Jim Jordan both announced bids for minority leader.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Democratic Leader Hakeem Jeffries will run for speaker when Congress convenes on January 3; he would be the first African American to hold the post.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Vice President JD Vance wrote on social media: \"The reason we lost is the war.\"",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Trump said the Iran war was 'largely true' as a cause because it raised gas prices in the short term.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Stocks rallied on Wednesday 4 November; the Dow rose 3% to close at 53,356.12.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "Alaska: Democrat Mary Peltola led Sen. Dan Sullivan by 637 votes with nearly a quarter of ballots uncounted.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "House seats won by Democrats (at least)",
+      "value": 240,
+      "unit": "seats",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "label": "Republican House seats",
+      "value": 147,
+      "unit": "seats",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Democracy Now",
+      "title": "Headlines for November 5, 2026",
+      "url": "https://www.democracynow.org/2026/11/5/headlines",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: November 5, 2026",
+      "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Stock Market News for Nov 5, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "oil-falls",
+    "headline": "Oil prices drop more than 8% as hopes grow for an end to the Iran war",
+    "what_happened": "Crude oil fell more than 8% on Wednesday 4 November, to its lowest price since 31 August.",
+    "why_it_matters": "Cheaper oil can mean cheaper fuel for families.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Crude fell more than 8% on Wednesday 4 November, easing energy-inflation worries.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "Brent fell $8.98, or 8.7%, to $94.62 a barrel.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "WTI fell $7.97, or 8.3%, to $88.12 a barrel.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "Both benchmarks reached their lowest settlements since August 31.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "Hopes for an end to the U.S.-Israeli war with Iran helped stocks and pushed oil down.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "Energy shares fell: the energy sector of the S&P 500 dropped 4.8%.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "fact": "Trump said the war was 'largely true' as a cause of Republican losses because it raised gas prices in the short term.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Iran's Revolutionary Guard said two oil tankers and a tugboat caught fire after using unauthorized Strait of Hormuz routes.",
+      "source_url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent crude",
+      "value": 94.62,
+      "unit": "dollars a barrel",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     },
+     {
+      "label": "WTI crude",
+      "value": 88.12,
+      "unit": "dollars a barrel",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html"
+     }
+    ],
+    "geography": "Iran, United States, Strait of Hormuz",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Yahoo Finance",
+      "title": "Stock Market News for Nov 5, 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-5-132500891.html",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "Democracy Now",
+      "title": "Headlines for November 5, 2026",
+      "url": "https://www.democracynow.org/2026/11/5/headlines",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: November 5, 2026",
+      "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "south-africa-vote",
+    "headline": "South Africa votes in local elections",
+    "what_happened": "Voting began Wednesday across all 257 municipalities.",
+    "why_it_matters": "Local councils run water and power.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voting began Wednesday across all 257 municipalities.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Full results are expected Sunday.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     },
+     {
+      "fact": "Voters' top concerns are unreliable water and power, unemployment, crime and a shortage of affordable housing.",
+      "source_url": "https://www.democracynow.org/2026/11/5/headlines"
+     }
+    ],
+    "numbers": [],
+    "geography": "South Africa",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Democracy Now",
+      "title": "Headlines for November 5, 2026",
+      "url": "https://www.democracynow.org/2026/11/5/headlines",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "montenegro-eu",
+    "headline": "EU could finish talks with Montenegro by year end",
+    "what_happened": "The European Commission said the EU could conclude accession negotiations with Montenegro by the end of this year.",
+    "why_it_matters": "Joining the EU is a long process.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The European Commission said the EU could conclude accession negotiations with Montenegro by the end of this year and sign an accession treaty as soon as June 2027.",
+      "source_url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Montenegro, EU",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: November 5, 2026",
+      "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-talks",
+    "headline": "Trilateral talks planned",
+    "what_happened": "Zelenskyy spoke with US envoys ahead of talks.",
+    "why_it_matters": "Talks on postwar recovery.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Zelenskyy spoke for 90 minutes with U.S. Special Envoys Steve Witkoff and Jared Kushner in Brussels ahead of trilateral talks with Russia and the U.S. set for Nov. 10-11, focused on postwar recovery.",
+      "source_url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Ukraine",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Just Security",
+      "title": "Early Edition: November 5, 2026",
+      "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
