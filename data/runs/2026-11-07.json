@@ -1,0 +1,56 @@
+{
+ "date": "2026-11-07",
+ "by": "claude-code",
+ "enrichment": {
+  "enabled": false,
+  "selected": 0,
+  "note": "selector not run"
+ },
+ "editions": {
+  "junior-daily": {
+   "status": "passed",
+   "reason": "",
+   "poster": null
+  },
+  "breakfast-table": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  },
+  "current-affairs-digest": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  },
+  "europe-explained": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  },
+  "global-citizen-plus": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  },
+  "junior-explorer": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  },
+  "lab-notebook": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  },
+  "little-explorers": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked; its poster was not written either",
+   "poster": null
+  },
+  "young-global-citizen": {
+   "status": "skipped",
+   "reason": "Not written this run: the research pool covers only the world desk and the run ended before the other papers could be researched, written and checked",
+   "poster": null
+  }
+ }
+}
