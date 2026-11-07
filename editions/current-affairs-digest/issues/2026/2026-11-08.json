@@ -1,0 +1,629 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-11-08",
+  "volume": 1,
+  "issue": 22,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  ISRAEL",
+      "headline": "Israel’s President Asks Gadi Eisenkot to Try to Form a Government",
+      "deck": "An election on 27 October left Prime Minister Netanyahu’s coalition short of a majority, so President Herzog has turned to his rival.",
+      "body": [
+        "On Saturday 7 November, President Isaac Herzog chose Gadi Eisenkot, leader of the Yashar party and a former military chief, to try to form Israel’s next government. Herzog’s role is largely ceremonial, so his choice starts a process rather than ending one. Israel’s parliament, the Knesset, has 120 seats, and a government needs 61 of them to command a majority.",
+        "That is the number Prime Minister Benjamin Netanyahu’s religious-nationalist coalition missed on 27 October: it won 53 of the 120 seats, short of the 61 needed. Likud won the most seats of any single party, 27, but Yashar came next with 21, making it the second-largest party. Every government must therefore be built from several parties.",
+        "Eisenkot’s bloc of four Jewish-led parties won 48 seats in total. Two Arab parties won 19 seats, an unprecedented number. Eisenkot is 66, the son of Moroccan immigrants, and would be Israel’s first prime minister from the Mizrahi community. He entered politics in 2022 and has sworn that he will not serve in a government with Netanyahu.",
+        "The law now sets a clock. Eisenkot has 28 days to try to form a government, with a possible 14-day extension. If he fails, another candidate can try, and if that candidate also fails, parliament can nominate someone else. If no one succeeds, Israel holds another election.",
+        "Analysts see three possible paths: a minority government backed from outside by Arab parties, a coalition with ultra-Orthodox parties, or a unity government with Netanyahu. They say all three are unlikely, and they expect weeks of negotiations."
+      ],
+      "map": {
+        "title": "WHERE THE KNESSET SITS",
+        "label_top": "ISRAEL",
+        "label_bottom": "MEDITERRANEAN SEA",
+        "footnote": "Parliament: the Knesset, Jerusalem",
+        "caption": "Israel’s 120-seat Knesset decides who can govern; 61 seats make a majority.",
+        "countries": [
+          "Israel"
+        ]
+      },
+      "why": "A government in Israel needs the backing of 61 of 120 Knesset seats, and no party won close to that, so the result depends on deals between parties. The 28-day clock and the fallback of another election show how a parliamentary system forces compromise or a fresh vote.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Israeli president picks Netanyahu's rival Eisenkot to try to form government",
+          "url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Kyiv Loses Power and a Bridge Days Before Abu Dhabi Talks",
+      "deck": "Ballistic missiles and drones hit the capital’s energy sites and the Northern Bridge as winter sets in.",
+      "body": [
+        "Kyiv woke on Saturday 7 November to damage from an overnight Russian attack. Missiles and drones struck the capital and the region around it, hitting energy infrastructure and a major bridge across the Dnipro River. The mayor, Vitali Klitschko, said several waves of ballistic missiles came in and several of them struck the Northern Bridge. One person died and eight were wounded, one of them a child.",
+        "The scale was large. President Volodymyr Zelensky counted 172 drones and 36 ballistic missiles, and Ukraine’s energy ministry said power cuts reached five regions. The regional governor, Tymur Tkachenko, said energy sites in at least three districts of the Kyiv region were hit, and further strikes left the city of Chernihiv in darkness, cut off from the power grid. Russia’s defence ministry gave its own account: it said it hit military-industrial sites and energy and transport infrastructure in and around Kyiv.",
+        "For the people of a city of more than three million, the effect is felt as a daily routine. A France 24 correspondent described about two to three hours of electricity a day, no heating and daily water outages, while temperatures in Kyiv were near freezing on Saturday morning. Klitschko called the situation for power, heating and water extremely difficult. Zelensky has criticised Klitschko’s crisis management, saying Kyiv is the region least prepared to deal with the situation, so the damage has also become a political argument.",
+        "Why now? Russia has stepped up its air attacks as its ground offensive has largely stalled, and recent weeks have seen attacks on Kyiv’s bridges that snarl traffic. Elsewhere, a recovery operation continues at Komyshuvakha in southern Ukraine, where a former school and shelter was struck on Monday.",
+        "Diplomacy is the next step. A new round of three-way talks between Ukrainian and Russian officials is due in Abu Dhabi within days, as part of a US-backed peace push that has so far produced few results. Zelensky accused Moscow of raising the pressure on Kyiv before that meeting, which he said is set for Tuesday and Wednesday. The war is now more than four and a half years old."
+      ],
+      "illustration": {
+        "title": "POWER GRID UNDER STRAIN",
+        "subtitle": "Explainer diagram",
+        "motif": "grid",
+        "caption": "Energy sites in at least three districts of the Kyiv region were hit overnight."
+      },
+      "connect": "Geography and economics: Kyiv, on the Dnipro River, relies on bridges and energy sites that keep a city of homes, water and heating running, and the talks are being held in Abu Dhabi, in the United Arab Emirates.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ELECTIONS",
+      "headline": "Delhi Rally Demands the Election Chief Quit Over Voter-List Revision",
+      "deck": "More than 130 million names were removed from voter lists; the Election Commission says wrongly removed voters can register again.",
+      "body": [
+        "On Sunday 1 November, thousands of people rallied in New Delhi demanding that Chief Election Commissioner Gyanesh Kumar resign. The demonstration was led by Rahul Gandhi, the Congress leader, together with opposition allies, and was the latest of more than a month of protests. Opposition leaders rode in an open-top jeep and demonstrators waved Indian and party flags as they marched from central New Delhi toward Ramlila Maidan. Hundreds of police were deployed with riot-control vehicles, and officials announced traffic diversions.",
+        "The dispute is about voter lists, the registers that decide who is allowed to vote. Opposition parties say a revision of the lists removed more than 130 million names. They allege it disproportionately affected Muslims and other minorities, whom they consider unlikely to support Prime Minister Narendra Modi’s Hindu nationalist BJP. These are the opposition’s claims, and the Election Commission answers them directly.",
+        "The Election Commission denies favouring any party. It says that voters whose names were wrongly removed may register again. The BJP, for its part, accuses opposition parties of undermining democracy by challenging legitimate electoral procedures. Health Minister Jagat Prakash Nadda called the rally a carefully orchestrated drama, and told the news agency ANI it was a calculated conspiracy to plunge the nation into anarchy in the name of democracy.",
+        "The unrest has a longer history. Near-daily protests by opposition parties, students and the youth-led Cockroach Janta Party have run since late September, with protesters calling for Kumar to step down. They began after Kumar’s two deputies raised concerns about the voter-list revisions, registration procedures and digital systems. That means questions about the process came from inside the Commission as well as from the street.",
+        "Two readings of the rally sit side by side. To the opposition, it is a protest against an official they say should go. To the BJP and Minister Nadda, it is a staged challenge to lawful procedure. The Commission denies bias and points to the route by which a wrongly removed voter can return to the list.",
+        "Analysts describe the protests and the growing opposition support as Prime Minister Modi’s most serious political crisis since he took office in 2014. The next general election in India is due in 2029, so the argument over who is on the lists will run for years before voters next go to the polls."
+      ],
+      "illustration": {
+        "title": "WHO CAN VOTE?",
+        "subtitle": "Explainer diagram",
+        "motif": "ballot",
+        "caption": "A revision removed more than 130 million names; the Election Commission says wrongly removed voters may register again."
+      },
+      "why": "A person who is missing from the voter list cannot vote, so how lists are revised and corrected affects the fairness of every election. The dispute puts two claims side by side: the opposition says minorities were hit hardest, while the Commission says it favours no party and that wrongly removed voters can re-register.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Thousands rally in New Delhi to demand India's election chief resign",
+          "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "After Midterm Wins, Democrats Plan Their Agenda for Congress",
+      "deck": "Democrats won both the House and Senate, and Trump has named Stephen Miller his new chief of staff.",
+      "body": [
+        "Democrats won control of both chambers of Congress in this week’s midterm elections, which leaves President Donald Trump facing a divided government for his last two years in office. Democrats take control in early January. Trump has taken mixed positions: he has said he can work with Democrats on many things, but he has also warned he is ready to use his executive power to veto Democratic legislation.",
+        "A veto matters because of how Congress is built. A presidential veto can only be overridden with two-thirds of both chambers, which the Democratic Party cannot command by itself. Most legislation also needs 60 votes in the Senate to avoid a filibuster, a tactic that can block a vote. Commentators therefore expect that the next Congress is unlikely to see much major legislation signed into law.",
+        "Democrats still have tools. Their early priorities include restoring enhanced ACA health subsidies, reversing Medicaid cuts, reasserting Congress’s authority over tariffs and forcing votes to end the Iran war through war powers resolutions. Control of the committees brings subpoena power, the legal authority to demand documents and testimony, and Democrats plan a long list of investigations. Reported topics include the Epstein files, Elon Musk, the Iran war and Trump’s business interests.",
+        "The losing side is reshuffling. Mike Johnson plans to step down as the top House Republican in the new Congress, according to a source familiar with his plans. Vice President JD Vance said the reason Republicans lost is the war, and Trump said that was largely true. Trump has also said a third impeachment attempt would destroy the Democratic Party, according to AFP.",
+        "On Friday 6 November, Trump named Stephen Miller as his chief of staff, effective Monday 9 November. Miller is 41, has been one of Trump’s closest aides for more than a decade and is currently Deputy Chief of Staff for Policy and homeland security advisor. He replaces Susie Wiles, 69, the first female White House chief of staff, whose last day was Friday, and she moves to the Trump Political Operation.",
+        "Miller drove the mass deportation programme, which often involved raids by masked agents, and Senate Minority Leader Chuck Schumer vowed to oppose his appointment, calling him the architect of the administration’s harshest policies. France 24 reports that the choice suggests Trump is prepared to double down on his policies, though it gives no specific plans."
+      ],
+      "illustration": {
+        "title": "A DIVIDED GOVERNMENT",
+        "subtitle": "Explainer diagram",
+        "motif": "capitol",
+        "caption": "Democrats hold both chambers of Congress from early January; Trump keeps the veto."
+      },
+      "why": "Control of Congress decides which bills can pass and who can investigate the government. With a veto, a 60-vote Senate threshold and a new chief of staff, both sides have tools to block each other, so most major laws are unlikely.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+          "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+        },
+        {
+          "outlet": "NPR",
+          "title": "What's next for Democrats after the midterms",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  JOBS",
+      "headline": "Strong Jobs Report Revives Rate Worries as Wages Lag Prices",
+      "deck": "US employers added 165,000 jobs in October, but wage growth of 3.1% is below inflation, and the Federal Reserve is weighing another rate rise.",
+      "body": [
+        "The US Labor Department reported on Friday 6 November that employers added 165,000 jobs in October and that unemployment fell to 4.1% from 4.2%. AFP reported that analysts had expected only 65,000 new jobs and unemployment to hold at 4.2%. September looks quite different: employers added only 29,000 jobs, and unemployment rose to 4.2%. The October report also revised August and September up by a total of 84,000 jobs.",
+        "The gains were uneven. Hospitals, factories and transportation companies added jobs, while restaurants and construction companies shed workers. For households, the key number is pay. Average hourly earnings rose 3.1% over the past year, a slightly bigger gain than the month before, yet wages continue to lag behind stubbornly high inflation, meaning most workers see real wage losses.",
+        "Prices are the other half of that comparison. Annual inflation reached 3.7% in September, up from 3.4% in August, and gasoline was up about 34% year over year. Higher fuel costs stem from the conflict with Iran, which has pushed up energy prices.",
+        "That is why the Federal Reserve is watching. It raised its benchmark interest rate by a quarter point in September, its first rise in over three years, taking the range to 3.75 to 4%. At its late-October meeting it held rates steady, with two members voting for another increase. Mortgage rates reached a three-year high of 7.4% in October, and the housing market has been sluggish.",
+        "Strong hiring can cut both ways. AFP reported that the October data could add to pressure for further rate rises, and NPR reported that investors widely expect a December increase, but the Fed has not decided. Its next decision is set for 8-9 December."
+      ],
+      "chart": {
+        "title": "WAGES VS PRICES",
+        "subtitle": "Percent rise over a year",
+        "labels": [
+          "Wages",
+          "Prices"
+        ],
+        "values": [
+          3.1,
+          3.7
+        ],
+        "max": 4,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Hourly earnings rose 3.1% over the year to October; inflation was 3.7% in September, the latest month reported."
+      },
+      "why": "Jobs, wages and prices decide how far a household’s income goes, and the Fed weighs them when setting interest rates. Strong hiring with pay lagging prices means people can find work but their money buys less, while higher rates raise the cost of borrowing.",
+      "analyst": "Why might strong hiring make the Fed more likely to raise rates rather than less? Who gains and who loses if mortgage rates stay near 7.4%?",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Hiring jumps: The economy added 165,000 jobs last month",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+        },
+        {
+          "outlet": "France 24",
+          "title": "US job growth tops expectations in October",
+          "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+          "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fed leaves interest rates unchanged despite inflation in the US",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  EARTH SCIENCE",
+      "headline": "Melting Permafrost Causes a New Kind of Giant Landslide",
+      "deck": "Frozen ground in Canada’s north can break loose from below and slide as one huge block, researchers report.",
+      "body": [
+        "Researchers have described a new type of large landslide in Canada’s Northwest Territories, which they call a permafrost detachment slide. Permafrost is ground that has stayed frozen for at least two consecutive years. The study, published in Geophysical Research Letters on 28 September, was led by Joseph Young, who was then a permafrost geologist at the University of Alberta in Edmonton.",
+        "The slides are enormous. A 2018 landslide moved 18 million cubic metres of earth, a slab with a volume roughly equal to seven Great Pyramids of Giza. It dammed the Redstone River and created a lake 3.5 kilometres long, and it began in ground that had been frozen for years, which puzzled scientists. A 2017 slide in the same region moved 4.5 million cubic metres of material. Permafrost normally melts from the top down and releases muddy slurry, but at some sites large blocks of still-frozen ground moved hundreds of metres.",
+        "The study explains how this happens, step by step. Wildfire and extreme summer heat warm and weaken the frozen ground surface, which begins to creep. Tension cracks then form and grow. Water seeps through the cracks deep into the frozen ground and reaches beneath the permafrost layer, thawing it from below. Eventually the frozen layer detaches and slides as a large intact block.",
+        "Field observations placed the sliding surfaces roughly 20 metres underground, at the base of the permafrost layer. Satellite data showed the ground at both sites had been moving metres per year for decades. Instruments tracked ground temperature from 2020 to 2022, comparing undisturbed forest with areas burned about 25 years earlier. The researchers say the slides may be triggered by wildfires that occurred decades earlier.",
+        "The risk may be wider than two sites. More than 150 other slides identified by satellite in the region may also be permafrost detachment slides. Risk is likely highest where the permafrost layer is relatively thin and warm and a rapid warming event sets the process in motion. Dmitry Nicolsky, a University of Alaska Fairbanks geophysicist who was not involved in the study, noted that large slides usually move slowly when they begin in thawing layers, but said scientists do not know whether the ground will move slowly or catastrophically."
+      ],
+      "why": "Warming ground in cold regions can fail in ways scientists have not seen before, which could threaten land, rivers and anything built near them. Understanding the steps helps researchers tell where the risk is highest: places with thin, warm permafrost.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Melting permafrost has birthed a new type of large landslide",
+          "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+        }
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW A FROZEN LAYER BREAKS LOOSE",
+        "caption": "The sequence reported in the study; it describes how these slides happen, not when the next one will.",
+        "source_url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide",
+        "items": [
+          {
+            "label": "Wildfire and heat warm the frozen surface",
+            "evidence": "Wildfire and extreme summer heat warm and weaken the frozen ground surface"
+          },
+          {
+            "label": "Tension cracks form and grow",
+            "evidence": "Tension cracks then form and grow"
+          },
+          {
+            "label": "Water thaws the permafrost from below",
+            "evidence": "reaches beneath the permafrost layer, thawing it from below"
+          },
+          {
+            "label": "The frozen layer slides as one block",
+            "evidence": "the frozen layer detaches and slides as a large intact block"
+          }
+        ]
+      }
+    },
+    "briefs": {
+      "items": [
+        "France: student unions said about 250,000 people joined protests across the country on Saturday over living costs and school conditions, while the Interior Ministry put the figure at about 146,000.",
+        "Europe: Paris prosecutors opened an investigation into bogus bomb threats that targeted dozens of flights over the past week, and no explosives have been found.",
+        "Iran: Qatar’s prime minister said the US and Iran should not wait for a “perfect moment” to reach a deal, as the UKMTO reported at least 11 ships attacked in and around the Strait of Hormuz in the week to 6 November.",
+        "Pandas: Ping Ping and Fu Shuang, both born in 2020, went on show at Zoo Atlanta on Friday on a 10-year loan from China."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Knesset",
+          "def": "Israel’s parliament, which has 120 seats. Today: a government needs 61 Knesset seats, and Netanyahu’s coalition won 53."
+        },
+        {
+          "word": "Filibuster",
+          "def": "A tactic that can block a vote in the US Senate. Today: most legislation needs 60 votes to avoid one."
+        },
+        {
+          "word": "Real wages",
+          "def": "Pay measured against rising prices. Today: wages rose 3.1% but lag inflation, so most workers saw real wage losses."
+        },
+        {
+          "word": "Permafrost",
+          "def": "Ground that has stayed frozen for at least two consecutive years. Today: thawing permafrost has produced a new type of giant landslide in Canada’s north."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A 2018 landslide in Canada’s Northwest Territories moved a slab of earth with a volume roughly equal to seven Great Pyramids of Giza."
+    },
+    "explainer": {
+      "title": "What counts as a majority?",
+      "body": [
+        "Governments need different numbers in different systems. In Israel’s 120-seat Knesset, a government needs 61 seats, so a coalition of several parties has to be built when no party wins that many. If a candidate cannot do it within 28 days, plus a possible 14-day extension, another can try, and if no one succeeds Israel holds another election.",
+        "The United States works differently. Most legislation still needs 60 votes in the Senate to avoid a filibuster, and a presidential veto can only be overridden with two-thirds of both chambers. That is why winning control of Congress does not by itself mean a party can pass its agenda."
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+          "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> How many Knesset seats does a government need for a majority?",
+        "(a) 51  (b) 61  (c) 120",
+        "<b>2.</b> How many seats did Likud win, the most of any single party?",
+        "(a) 27  (b) 21  (c) 53",
+        "<b>3.</b> Which bridge over the Dnipro did Kyiv’s mayor say was struck?",
+        "(a) Southern Bridge  (b) Western Bridge  (c) Northern Bridge",
+        "<b>4.</b> How many names did the voter-list revision remove?",
+        "(a) Over 13 million  (b) Over 130 million  (c) Over 1,300 million",
+        "<b>5.</b> How many Senate votes are needed to avoid a filibuster on most legislation?",
+        "(a) 51  (b) 67  (c) 60",
+        "<b>6.</b> How much did average hourly earnings rise over the year?",
+        "(a) 4.1%  (b) 3.1%  (c) 3.7%",
+        "<b>7.</b> Which river did the 2018 permafrost landslide dam?",
+        "(a) Redstone River  (b) Dnipro River  (c) Yukon River",
+        "<b>8.</b> What is needed to override a presidential veto?",
+        "(a) A simple majority of the House  (b) Two-thirds of both chambers  (c) The Supreme Court’s approval",
+        "<b>Answers:</b> 1 b, 2 a, 3 c, 4 b, 5 c, 6 b, 7 a, 8 b."
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Hiring jumps: The economy added 165,000 jobs last month",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+          "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Thousands rally in New Delhi to demand India's election chief resign",
+          "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+        },
+        {
+          "outlet": "Science News",
+          "title": "Melting permafrost has birthed a new type of large landslide",
+          "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Israel: whether Eisenkot can win the backing of 61 Knesset members within his 28 days, and which path he chooses.",
+        "Ukraine: what comes out of the three-way talks in Abu Dhabi on Tuesday and Wednesday, and whether Russia strikes Kyiv’s energy sites again.",
+        "India and the United States: how the Election Commission and opposition respond over the voter lists, and Stephen Miller’s first day as chief of staff on Monday 9 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+    "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections",
+    "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us",
+    "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
+    "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress",
+    "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
+    "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+    "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents",
+    "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287",
+    "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
+    "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo",
+    "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+    "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
+    "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+    "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen",
+    "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october",
+    "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government",
+    "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+    "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations",
+    "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction",
+    "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year",
+    "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation",
+    "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "How many Knesset seats does a government need for a majority?",
+        "options": [
+          "51",
+          "61",
+          "120"
+        ],
+        "answer": 1,
+        "why": "The paper says a government needs 61 of the 120 seats.",
+        "story": "lead"
+      },
+      {
+        "q": "How many seats did Likud win, the most of any single party?",
+        "options": [
+          "27",
+          "21",
+          "53"
+        ],
+        "answer": 0,
+        "why": "Likud won 27 seats; Yashar won 21.",
+        "story": "lead"
+      },
+      {
+        "q": "Which bridge over the Dnipro did Kyiv’s mayor say was struck?",
+        "options": [
+          "Southern Bridge",
+          "Western Bridge",
+          "Northern Bridge"
+        ],
+        "answer": 2,
+        "why": "Klitschko said several missiles struck the Northern Bridge.",
+        "story": "world"
+      },
+      {
+        "q": "How many names did the voter-list revision remove?",
+        "options": [
+          "Over 13 million",
+          "Over 130 million",
+          "Over 1,300 million"
+        ],
+        "answer": 1,
+        "why": "The revision removed more than 130 million names.",
+        "story": "india"
+      },
+      {
+        "q": "How many Senate votes are needed to avoid a filibuster on most legislation?",
+        "options": [
+          "51",
+          "67",
+          "60"
+        ],
+        "answer": 2,
+        "why": "Most legislation still needs 60 votes in the Senate.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "How much did average hourly earnings rise over the year?",
+        "options": [
+          "4.1%",
+          "3.1%",
+          "3.7%"
+        ],
+        "answer": 1,
+        "why": "Average hourly earnings rose 3.1% over the past year.",
+        "story": "economics"
+      },
+      {
+        "q": "Which river did the 2018 permafrost landslide dam?",
+        "options": [
+          "Redstone River",
+          "Dnipro River",
+          "Yukon River"
+        ],
+        "answer": 0,
+        "why": "The 2018 slide dammed the Redstone River.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "What is needed to override a presidential veto?",
+        "options": [
+          "A simple majority of the House",
+          "Two-thirds of both chambers",
+          "The Supreme Court’s approval"
+        ],
+        "answer": 1,
+        "why": "A veto can only be overridden with two-thirds of both chambers.",
+        "story": "politics_and_civics"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Gadi Eisenkot has 28 days to try to form a government, with a possible 14-day extension.",
+        "true": true,
+        "why": "The paper says he has 28 days, with a possible 14-day extension.",
+        "story": "lead"
+      },
+      {
+        "claim": "Zelensky said Russia launched 36 drones and 172 ballistic missiles overnight.",
+        "true": false,
+        "why": "He said 172 drones and 36 ballistic missiles.",
+        "story": "world"
+      },
+      {
+        "claim": "The Election Commission says voters whose names were wrongly removed may register again.",
+        "true": true,
+        "why": "The paper reports the Commission denies favouring any party and says they may register again.",
+        "story": "india"
+      },
+      {
+        "claim": "A 2018 permafrost landslide in Canada’s Northwest Territories dammed the Dnipro River.",
+        "true": false,
+        "why": "It dammed the Redstone River; the Dnipro is the river in Kyiv.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "countries": [
+          "Israel"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Washington DC",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Northwest Territories",
+        "lat": 64.0,
+        "lon": -120.0,
+        "countries": [
+          "Canada"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many seats does a government need for a majority in Israel’s 120-seat Knesset?",
+        "answer": 61,
+        "prefix": "",
+        "unit": "seats",
+        "min": 30,
+        "max": 120,
+        "why": "A government needs 61 of the 120 seats."
+      },
+      {
+        "story": "india",
+        "q": "How many names did the voter-list revision remove, in millions?",
+        "answer": 130,
+        "prefix": "",
+        "unit": "million",
+        "min": 10,
+        "max": 400,
+        "why": "More than 130 million names were removed from voter lists."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Israel asks a new leader to try to form a government",
+        "body": [
+          "Israel held an election on 27 October. No group won enough seats to rule alone. Israel’s parliament, the Knesset, has 120 seats, and a government needs 61.",
+          "Prime Minister Netanyahu’s group won 53 seats. So the president, Isaac Herzog, asked Gadi Eisenkot to try. Eisenkot is 66 and used to be a military chief. He has 28 days to build a team of parties that has 61 seats. If he cannot, someone else can try. If nobody can, Israel votes again."
+        ]
+      },
+      "world": {
+        "headline": "Russia attacks Kyiv before peace talks",
+        "body": [
+          "Overnight into Saturday 7 November, Russia fired missiles and drones at Kyiv and nearby areas. They damaged energy sites and a big bridge over the Dnipro River. One person was killed and eight were hurt, including a child.",
+          "Kyiv is cold, near freezing. Residents have only two to three hours of electricity a day, no heating and water cuts. Talks between Ukraine and Russia are due in Abu Dhabi soon, but so far peace talks have not brought much."
+        ]
+      },
+      "india": {
+        "headline": "Thousands march in Delhi about voter lists",
+        "body": [
+          "On 1 November, thousands of people marched in New Delhi. They wanted the head of the Election Commission, Gyanesh Kumar, to resign. Rahul Gandhi, a Congress leader, led the march.",
+          "A check of the voter lists removed more than 130 million names. A voter list shows who can vote. Opposition parties say the change hit Muslims and other minorities the most. The Election Commission says it does not favour any party. It says people who were removed by mistake can sign up again."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Democrats win control of Congress",
+        "body": [
+          "Democrats won both parts of the US Congress in the midterm elections. They take over in early January. They plan to investigate the government and to vote on health costs and tariffs.",
+          "But they cannot do everything. Most bills need 60 votes in the Senate. The president can veto a bill, and it takes two-thirds of both chambers to overrule him. President Trump has named Stephen Miller, 41, as his new chief of staff."
+        ]
+      },
+      "economics": {
+        "headline": "More jobs in the US, but pay is not keeping up",
+        "body": [
+          "US employers added 165,000 jobs in October. Experts had expected only 65,000. The share of people without jobs fell to 4.1%.",
+          "Pay rose 3.1% over the year. But prices rose 3.7% in September, so most workers can buy a little less than before. The bank that sets US interest rates, the Federal Reserve, meets again on 8-9 December. It raised rates in September and has not decided what to do next."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A new kind of giant landslide in frozen ground",
+        "body": [
+          "In Canada’s north, the ground stays frozen all year. This frozen ground is called permafrost. Scientists found that it can break loose and slide as one huge block. In 2018, one slide moved 18 million cubic metres of earth and made a lake 3.5 kilometres long.",
+          "Here is how it happens. Fire or heat warms the ground, and cracks form. Water seeps down and thaws the permafrost from below. Then the frozen layer slides. Scientists found more than 150 other slides that may be the same kind."
+        ]
+      }
+    }
+  }
+}
