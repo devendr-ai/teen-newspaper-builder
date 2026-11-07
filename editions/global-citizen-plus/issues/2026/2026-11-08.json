@@ -1,0 +1,650 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-11-08",
+  "volume": 1,
+  "issue": 14,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  PHYSICS",
+      "headline": "Atoms Cooled to Record Low Temperature Aboard China's Space Station",
+      "deck": "Scientists on the Tiangong space station chilled about 20,000 rubidium atoms to roughly 10 picokelvins, just above absolute zero.",
+      "body": [
+        "Temperature is really a measure of motion: the slower atoms move, the colder they are. On China's Tiangong space station, scientists have slowed atoms almost to a standstill, reaching about 10 picokelvins, or 10 trillionths of a kelvin. Absolute zero is -273.15°C, and this result sits just above it.",
+        "The experiment used about 20,000 rubidium atoms and was reported in the journal Science on 5 November. The atoms formed a Bose-Einstein condensate, a quantum state of matter. Laser-based traps held the atoms and reduced their motion, which cooled them.",
+        "Why do it in orbit? On Earth, gravity makes a cloud of atoms sag, which weakens the cooling. Microgravity avoids that sag, so the atoms can be cooled further than at home.",
+        "Earlier records show the leap: about 52 picokelvins on the International Space Station, and about 38 picokelvins in an Earth drop-tower experiment, where the fall lasts only briefly. Orbit has no such time limit.",
+        "One caveat matters: 10 picokelvins is an effective temperature, worked out from how slowly the atoms spread out when allowed to expand, not read from a thermometer.",
+        "Ultracold atoms help researchers study exotic states of matter and test basic ideas such as the equivalence principle, which says objects of different masses fall at the same rate in a vacuum."
+      ],
+      "map": {
+        "title": "WHERE IT HAPPENED",
+        "label_top": "CHINA",
+        "label_bottom": "TIANGONG SPACE STATION IN ORBIT",
+        "footnote": "The experiment ran aboard China's Tiangong space station",
+        "caption": "China's Tiangong space station hosted the cold-atom experiment."
+      },
+      "why": "Science: temperature is atomic motion, and gravity gets in the way on Earth. Slowing atoms in orbit lets researchers test ideas such as the equivalence principle.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Record-low temperature created on China's space station",
+          "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Kyiv Under Fire: Why Power Lines and Bridges Are Targets",
+      "deck": "A night of missiles and drones left Kyiv's residents cold and short of electricity, with talks in Abu Dhabi due within days.",
+      "body": [
+        "Overnight on 6-7 November, missiles and drones came down on Kyiv, the capital of Ukraine, and the countryside around it. The targets that suffered most were the things a city needs to function in winter: power stations and a bridge across the Dnipro River.",
+        "Kyiv's mayor, Vitali Klitschko, reported several waves of ballistic missiles, with several landing on the Northern Bridge. Regional governor Tymur Tkachenko said energy sites were hit in at least three districts. One person died and eight were wounded, one of them a child.",
+        "Moscow tells it differently. Russia's defence ministry says its targets were military-industrial sites and energy and transport infrastructure. Ukraine's president, Volodymyr Zelensky, counted 172 drones and 36 ballistic missiles in the attack.",
+        "Cold weather raises the cost. With temperatures near freezing, a France 24 correspondent described Kyiv households living on two to three hours of electricity a day, with no heating and daily water outages. Ukraine's energy ministry said five regions lost power.",
+        "Zelensky argues the attack was meant to add pressure before diplomats meet. A three-way meeting in Abu Dhabi, the capital of the United Arab Emirates, is scheduled for Tuesday and Wednesday as part of a US-backed peace effort that has produced few results.",
+        "Reports add some context: Russia has stepped up air attacks as its ground offensive has largely stalled, and recent weeks have seen attacks on Kyiv's bridges."
+      ],
+      "illustration": {
+        "title": "POWER AND BRIDGES UNDER ATTACK",
+        "subtitle": "Kyiv region",
+        "motif": "grid",
+        "caption": "Energy sites and a Dnipro bridge were damaged in the strikes."
+      },
+      "connect": "Geography and economics: a city built on a river depends on bridges, power and water networks, so hitting a few key sites can disrupt millions of lives in winter.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DISASTER RELIEF",
+      "headline": "Two Cyclones, One Big Bill: Odisha Counts the Cost of Arnab",
+      "deck": "Odisha wants Rs 2,526 crore from the centre to repair storm and flood damage in three districts.",
+      "body": [
+        "The Bay of Bengal sits along India's east coast, and in one week it sent two cyclones ashore. Cyclone Arnab came first, followed by floods in Odisha, and then Cyclone Murasu struck Andhra Pradesh.",
+        "Now comes the bill. The Odisha government has sent a memorandum, a formal written request, to the central government. It asks for Rs 2,526 crore for relief and rebuilding in three districts: Ganjam, Gajapati and Kandhamal.",
+        "Ganjam shows the scale. All of its blocks were affected, according to a Press Trust of India report. Roads were cut off, houses were damaged and people's livelihoods were hit. The report gives no counts of homes or people, and it reports no deaths.",
+        "A word on the money. A crore is ten million, so Rs 2,526 crore is a very large sum, and it is a request, not a payment: the central government still has to decide how much to give. The state's own request and the Congress demand are two different numbers, which shows that how much help is enough is itself a political question.",
+        "Notice how the system works. A state asks, and an eight-member central team has already visited the affected areas. Odisha and Andhra Pradesh both lie on India's east coast, so the same Bay of Bengal weather that threatens one can threaten the other within days.",
+        "Politicians are already debating how much is needed. Odisha Congress chief Bhakta Charan Das demanded Rs 5,000 crore in central assistance and a national calamity declaration for the floods. BJD chief Naveen Patnaik planned to visit Ganjam on Saturday, 7 November.",
+        "Compare the two storms. Arnab and Murasu both came within days of each other, and reporters called Murasu the second cyclone to strike the region in a week.",
+        "The second storm landed further south. Cyclone Murasu crossed the coast near Ongole in Prakasam district at about 1 am on Tuesday, 3 November. Authorities planned to move about 30,000 people to safety, and none had been reported hurt at the time.",
+        "Trees and electricity poles were uprooted, fishing boats were wrecked and standing crops were hit in Prakasam and Bapatla districts."
+      ],
+      "illustration": {
+        "title": "AFTER THE STORMS",
+        "subtitle": "East coast",
+        "motif": "flood",
+        "caption": "Odisha seeks relief money for flood and cyclone damage."
+      },
+      "why": "Civics and geography: when a disaster is too big for one state to rebuild alone, the state files a memorandum and the central government decides on help.",
+      "sources": [
+        {
+          "outlet": "ThePrint (PTI)",
+          "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+          "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Cyclone Murasu makes landfall on India's eastern coast",
+          "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CIVICS",
+      "headline": "Trump Names Stephen Miller Chief of Staff as Democrats Prepare to Take Congress",
+      "deck": "The new chief of staff starts on Monday, 9 November, days after Republicans lost the House and the Senate.",
+      "body": [
+        "The White House chief of staff is the president's top aide, who in general manages the schedule and coordinates senior staff. On Friday, 6 November, President Trump named Stephen Miller to the job on Truth Social, saying he would take over starting Monday, 9 November.",
+        "Miller is 41. He is currently deputy chief of staff for policy and also homeland security advisor, and he has been one of Trump's closest aides for more than a decade. He replaces Susie Wiles, 69, the first woman to hold the job. Friday was her last day, and she is moving to the Trump Political Operation.",
+        "Miller's record is the reason for the debate. He drove the mass deportation programme, which often involved raids by masked agents. Senate Minority Leader Chuck Schumer vowed to oppose his appointment.",
+        "The timing follows a political shift. Republicans lost control of both the House and the Senate to Democrats in the 4 November midterms, so Trump now faces a divided government for his last two years.",
+        "Why they lost is itself disputed. Vice President Vance said the Iran war was the reason, and Trump said what Vance had said was largely true.",
+        "Democrats take control of Congress in early January. With the majority comes subpoena power, the legal power to demand documents and testimony, and Democrats plan a long list of investigations.",
+        "The Constitution still limits both sides. Most legislation needs 60 votes in the Senate to get past a filibuster, and a presidential veto can only be overridden with two-thirds of both chambers.",
+        "Democrats' early priorities include restoring enhanced health subsidies under the Affordable Care Act, reversing Medicaid cuts, reasserting Congress's authority over tariffs and forcing votes to end the Iran war."
+      ],
+      "chart": {
+        "title": "AGES AT THE WHITE HOUSE",
+        "subtitle": "Age in years",
+        "labels": [
+          "Miller",
+          "Wiles"
+        ],
+        "values": [
+          41,
+          69
+        ],
+        "max": 80,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Stephen Miller is 41 and Susie Wiles, whom he replaces, is 69."
+      },
+      "why": "Civics: the chief of staff shapes how a president works with Congress, and after the midterms a divided government will test checks and balances.",
+      "analyst": "Why might a president choose a chief of staff who is likely to be opposed by the opposing party's Senate leader? What do you think the split between the House, Senate and president means for which laws can pass?",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+          "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+        },
+        {
+          "outlet": "NPR",
+          "title": "What's next for Democrats after the midterms",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  BIOLOGY",
+      "headline": "How Octopuses Squeeze Through Holes Smaller Than Their Heads",
+      "deck": "Filmed experiments show octopuses fitting through tight holes in careful steps, which could help design soft robots.",
+      "body": [
+        "An octopus has no bones, yet it can slip through a gap that looks far too small. A study in the Journal of Experimental Biology filmed three common octopuses and four Mayan octopuses to see exactly how they do it.",
+        "The researchers needed a measuring stick. They used the distance between each octopus's eyes as a stand-in for the size of its most rigid cartilage, which surrounds the brain. Then they offered acrylic boxes with holes slightly smaller or slightly larger than that distance.",
+        "When the hole was wider, the octopuses took three steps over a few seconds. First one or two arms went through. Then a couple more were threaded in. Finally the arms already through pulled the head and remaining arms after them.",
+        "Notice what the two routes have in common. In both, the soft arms go first and the stiffest part of the body, the head around the brain, comes last. That is why the eye-to-eye distance was a useful measuring stick: the rigid cartilage is the part that has to fit.",
+        "When the hole was narrower, common octopuses used four steps. They pushed all their arms through first, and only then squeezed the head and the bulbous mantle, the body part behind the head, through the gap.",
+        "The two species behaved differently. Mayan octopuses were more cautious, and faced with the narrower hole they usually ignored it instead of trying to fit through.",
+        "A possible explanation comes from habitat. Mayan octopuses live in sandy, rocky areas and rarely need to squeeze through holes, which may explain their reluctance.",
+        "A good scientist also asks how far a result can be trusted. This test used only three common octopuses and four Mayan octopuses, so it shows how these animals behaved in these boxes. It does not prove that every octopus, or every kind of opening, works the same way.",
+        "The work could help engineers. The team hopes the findings will inspire soft robots that change shape to reach tight spaces, since current hole-fitting robots tend to be snake-shaped.",
+        "There is more to learn. Robyn Crook of San Francisco State University, who was not involved, suggests that slits or tubes may call for different strategies than round holes."
+      ],
+      "illustration": {
+        "title": "SQUEEZING THROUGH STEP BY STEP",
+        "subtitle": "Octopus study",
+        "motif": "robot",
+        "caption": "Octopuses push arms through first, then the head and body."
+      },
+      "why": "Science: studying how living bodies solve a problem, like fitting through a gap, can inspire engineers building soft robots.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "How octopuses squeeze through tiny openings, step by step",
+          "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL ROUTES",
+      "headline": "A Narrow Sea, a Few Exceptions: Oil Flows at the Strait of Hormuz",
+      "deck": "Iran says some countries' ships may cross, yet traffic in the waterway remains far below its pre-war level.",
+      "body": [
+        "Economists call a place that everything must pass through a bottleneck, and the Strait of Hormuz is one. In October, 10.23 million barrels a day of Gulf crude oil passed through it, according to the analysis firm Kpler. India took 13 percent of that oil and China about 42 percent.",
+        "Then came a statement from Tehran. Amir Hayat Moqaddam, who is deputy chairman of the Iranian parliament's National Security and Foreign Policy Committee, told the ISNA news agency on Tuesday that vessels from India, China, Iraq and Qatar are free to cross. In return, he said, Iran will charge fees to Indian and Chinese ships; Qatari ships go through free.",
+        "To understand why this matters, go back to the war. It began on 28 February as a US-Israel war on Iran. Iran effectively closed the strait early on, and in July the US reimposed a naval blockade on Iran's southern ports.",
+        "US Central Command says that blockade covers every vessel going in or out of Iranian ports, and it is unclear whether Washington accepts the new exemptions. The IG Group analyst quoted by Al Jazeera said they make only a limited difference to oil markets for now.",
+        "The numbers show how far traffic has fallen. In its weekly report, the UK Maritime Trade Operations centre counted 170 outbound and 155 inbound transits, about 65 percent below levels before the conflict. At least 11 ships were attacked near the strait during the week to 6 November, and three of them sank.",
+        "A permit does not equal safety. A Qatari LNG carrier, the Al Mayeda, was struck by unidentified objects on 30 October, and more than 120 commercial ships have been hit in the region since the war began, with October the worst month.",
+        "Talks continue in the background. Iran's foreign minister, Abbas Araghchi, says he spoke with 12 foreign ministers in 48 hours, including those of Oman, Qatar, Saudi Arabia and Pakistan, and he restated Iran's seven demands to reopen the strait.",
+        "Fires and mines are still part of the picture. Iran's navy said a tanker with its transponder off caught fire in the eastern strait after hitting a mine; Washington says the mines have been cleared."
+      ],
+      "illustration": {
+        "title": "A NARROW SEA ROUTE",
+        "subtitle": "Strait of Hormuz",
+        "motif": "strait",
+        "caption": "Iran says ships from four countries may pass; traffic is still far below normal."
+      },
+      "why": "Economics: the strait is a bottleneck, so who may pass changes oil supply and the cost of fuel and shipping for importers such as India.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Israel: President Isaac Herzog asked former army chief Gadi Eisenkot to try to form a government, which needs 61 of the 120 seats in the Knesset.",
+        "United States: employers added 165,000 jobs in October, far more than the 65,000 analysts expected, and unemployment eased to 4.1%.",
+        "France: Student unions said about 250,000 people joined Saturday's protests over living costs, while the Interior Ministry counted about 146,000.",
+        "Giant pandas: Ping Ping and Fu Shuang, on a 10-year loan from China, made their public debut at Zoo Atlanta on Friday."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Picokelvin",
+          "def": "One trillionth of a kelvin, a tiny unit used for extreme cold. Today: Atoms on Tiangong were cooled to about 10 picokelvins."
+        },
+        {
+          "word": "Microgravity",
+          "def": "A condition where gravity's pull is hardly felt, as in orbit. Today: Microgravity stopped atom clouds from sagging, so they could be cooled further."
+        },
+        {
+          "word": "Transit",
+          "def": "A passage through or across a place. Today: Ships made 170 outbound and 155 inbound transits of the Strait of Hormuz in a week."
+        },
+        {
+          "word": "Filibuster",
+          "def": "A tactic in the US Senate that can block a bill unless enough senators vote to end debate. Today: Most legislation needs 60 votes to avoid a filibuster."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "In 1972, China gifted a pair of giant pandas to Washington after President Nixon's visit, the start of a long tradition in which pandas are loaned or given to zoos abroad."
+    },
+    "explainer": {
+      "title": "Why does gravity matter to cold atoms?",
+      "body": [
+        "To cool atoms, scientists use lasers to hold them in a trap and reduce their motion. Slower atoms are colder. On Earth, however, gravity makes a cloud of atoms sag, which weakens the cooling.",
+        "In orbit, atoms experience microgravity, so the sag is avoided. Drop towers do the same trick for a few moments while an experiment falls, but they are limited by how long the fall lasts. A space station has no such time limit. That is why researchers can reach about 10 picokelvins there, compared with about 38 picokelvins in a drop tower."
+      ],
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Record-low temperature created on China's space station",
+          "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> About how cold were the atoms on Tiangong?",
+        "(a) 10 picokelvins  (b) 10 degrees Celsius  (c) 10 kelvins",
+        "<b>2.</b> Which river did the Russian strikes near Kyiv damage a bridge over?",
+        "(a) Dnipro  (b) Danube  (c) Thames",
+        "<b>3.</b> How much money has Odisha asked for in relief?",
+        "(a) Rs 252 crore  (b) Rs 2,526 crore  (c) Rs 25,260 crore",
+        "<b>4.</b> On which day does Stephen Miller start as chief of staff?",
+        "(a) Monday, 9 November  (b) Friday, 6 November  (c) 1 January",
+        "<b>5.</b> How many arms do common octopuses push through a narrow hole first?",
+        "(a) Just one  (b) All of them  (c) None",
+        "<b>Answers:</b> 1-a, 2-a, 3-b, 4-c, 5-a."
+      ],
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Record-low temperature created on China's space station",
+          "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+        },
+        {
+          "outlet": "ThePrint (PTI)",
+          "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+          "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Cyclone Murasu makes landfall on India's eastern coast",
+          "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        },
+        {
+          "outlet": "Science News",
+          "title": "How octopuses squeeze through tiny openings, step by step",
+          "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why can an experiment in orbit reach colder temperatures than one on Earth, and why do scientists call the result an effective temperature?",
+        "Why do many laws need 60 votes in the Senate, and how does a divided government change what a president can do?",
+        "Why might a country grant some ships passage through a strait while others are blocked, and how could that affect the countries that depend on the oil?"
+      ],
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Record-low temperature created on China's space station",
+          "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+          "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+        },
+        {
+          "outlet": "NPR",
+          "title": "What's next for Democrats after the midterms",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Cold is just motion slowed down, and the smallest numbers can hold the biggest ideas.",
+      "by": "The Global Citizen Plus"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "Science News",
+      "title": "Record-low temperature created on China's space station",
+      "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+      "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+    },
+    {
+      "outlet": "ThePrint (PTI)",
+      "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+      "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Cyclone Murasu makes landfall on India's eastern coast",
+      "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+      "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+      "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+    },
+    {
+      "outlet": "NPR",
+      "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+    },
+    {
+      "outlet": "NPR",
+      "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+      "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+    },
+    {
+      "outlet": "NPR",
+      "title": "What's next for Democrats after the midterms",
+      "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+    },
+    {
+      "outlet": "Science News",
+      "title": "How octopuses squeeze through tiny openings, step by step",
+      "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "About how cold were the atoms cooled on China's Tiangong space station?",
+        "options": [
+          "10 picokelvins",
+          "10 degrees Celsius",
+          "10 kelvins"
+        ],
+        "answer": 0,
+        "why": "Scientists cooled atoms to about 10 picokelvins, 10 trillionths of a kelvin.",
+        "story": "lead"
+      },
+      {
+        "q": "Which river did the strikes on Kyiv damage a major bridge over?",
+        "options": [
+          "Danube",
+          "Dnipro",
+          "Thames"
+        ],
+        "answer": 1,
+        "why": "The strikes damaged a major Dnipro River bridge, the Northern Bridge.",
+        "story": "world"
+      },
+      {
+        "q": "How much money did Odisha ask for in its memorandum?",
+        "options": [
+          "Rs 252 crore",
+          "Rs 25,260 crore",
+          "Rs 2,526 crore"
+        ],
+        "answer": 2,
+        "why": "Odisha sought Rs 2,526 crore for relief and restoration.",
+        "story": "india"
+      },
+      {
+        "q": "On which day does Stephen Miller start as chief of staff?",
+        "options": [
+          "Monday, 9 November",
+          "Friday, 6 November",
+          "1 January"
+        ],
+        "answer": 0,
+        "why": "Trump said Miller takes over starting Monday, 9 November.",
+        "story": "us"
+      },
+      {
+        "q": "For a narrower hole, what did common octopuses push through first?",
+        "options": [
+          "Their head",
+          "All their arms",
+          "Their mantle"
+        ],
+        "answer": 1,
+        "why": "Common octopuses first pushed all their arms through, then squeezed head and mantle.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The 10 picokelvin temperature was measured directly with a thermometer.",
+        "true": false,
+        "why": "It is an effective temperature worked out from how slowly the atoms spread when allowed to expand.",
+        "story": "lead"
+      },
+      {
+        "claim": "Cyclone Murasu was the second cyclone to strike the region in a week.",
+        "true": true,
+        "why": "It followed Cyclone Arnab, the earlier storm of that week.",
+        "story": "india"
+      },
+      {
+        "claim": "Ships from India, China, Iraq and Qatar all pay transit fees to Iran.",
+        "true": false,
+        "why": "Iran's lawmaker said Indian and Chinese ships pay fees while Qatari ships pass free.",
+        "story": "economics"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Beijing",
+        "lat": 39.9,
+        "lon": 116.4,
+        "countries": [
+          "China"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Ganjam",
+        "lat": 19.39,
+        "lon": 85.05,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "Earlier, about how cold (in picokelvins) was the ISS record?",
+        "answer": 52,
+        "prefix": "",
+        "unit": "picokelvins",
+        "min": 10,
+        "max": 100,
+        "why": "Earlier space records were about 52 picokelvins on the International Space Station."
+      },
+      {
+        "story": "economics",
+        "q": "By about what percent were Hormuz transits below pre-conflict levels?",
+        "answer": 65,
+        "prefix": "",
+        "unit": "%",
+        "min": 10,
+        "max": 100,
+        "why": "The UKMTO counted transits about 65 percent below pre-conflict levels."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Atoms Get Super Cold in Space",
+        "body": [
+          "Scientists on China's Tiangong space station made atoms very, very cold. They reached about 10 picokelvins. That is 10 trillionths of a kelvin, just above absolute zero.",
+          "They used about 20,000 rubidium atoms. Lasers held the atoms and slowed them down. Slower atoms are colder.",
+          "In space, gravity does not make the atom cloud sag. So the atoms can get colder than on Earth. The result was reported on 5 November."
+        ]
+      },
+      "world": {
+        "headline": "Strikes Hit Kyiv Before Peace Talks",
+        "body": [
+          "Russia sent missiles and drones at Kyiv overnight. They damaged energy sites and a big bridge over the Dnipro River. One person was killed and eight were hurt.",
+          "It was near freezing in Kyiv. People there had only two to three hours of electricity a day. Zelensky said Russia launched 172 drones and 36 missiles.",
+          "New talks between the sides are planned in Abu Dhabi on Tuesday and Wednesday."
+        ]
+      },
+      "india": {
+        "headline": "Odisha Asks for Help After Storms",
+        "body": [
+          "Two cyclones hit India's east coast in a week. Cyclone Arnab came first. Then Cyclone Murasu came ashore in Andhra Pradesh.",
+          "Odisha has asked the central government for Rs 2,526 crore to fix damage from the storm and floods. The money is for three districts: Ganjam, Gajapati and Kandhamal.",
+          "An eight-member central team has visited the area. In Ganjam, roads were cut off and houses were damaged."
+        ]
+      },
+      "us": {
+        "headline": "A New Chief of Staff for the White House",
+        "body": [
+          "President Trump named Stephen Miller as his new chief of staff. Miller is 41. He starts on Monday, 9 November. He replaces Susie Wiles, who is 69.",
+          "The chief of staff is the president's top aide. The choice comes after Republicans lost both the House and the Senate in the midterms. Democrats take control of Congress in early January.",
+          "Senate Minority Leader Chuck Schumer said he will oppose Miller's appointment."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "How Octopuses Fit Through Tiny Holes",
+        "body": [
+          "Octopuses can squeeze through very small gaps. Scientists filmed them going through holes in boxes.",
+          "For a wide hole, they pushed one or two arms through first. Then more arms went in. Last, the arms pulled the head and the rest of the body through.",
+          "For a narrower hole, common octopuses pushed all their arms through first. The study could help engineers design soft robots."
+        ]
+      },
+      "economics": {
+        "headline": "Which Ships Can Cross Hormuz?",
+        "body": [
+          "The Strait of Hormuz is a narrow sea route for oil. An Iranian lawmaker said ships from India, China, Iraq and Qatar can pass.",
+          "But the sea is still dangerous. At least 11 ships were attacked in one week, and three sank. Traffic is about 65 percent below normal.",
+          "Some countries are trying to help. Iran's foreign minister said he spoke with 12 foreign ministers in 48 hours."
+        ]
+      }
+    }
+  }
+}
