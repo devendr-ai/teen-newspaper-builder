@@ -1,0 +1,430 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-11-08",
+  "volume": 1,
+  "issue": 14,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  FRANCE",
+      "headline": "France Investigates False Bomb Threats Against Flights",
+      "deck": "Paris prosecutors are trying to find who sent the hoax emails that targeted dozens of flights across Europe, and whether a foreign power is involved.",
+      "body": [
+        "Paris prosecutors have opened an investigation into bogus bomb threats that targeted dozens of commercial flights across Europe over the past week. A hoax is a false alarm made on purpose. The investigators want to identify “the authors of the emails” and to check for possible links to foreign powers.",
+        "France is involved because several of the threats concerned flights passing over French territory. The French government says it is also looking into where the threats came from. Ireland has reached a similar view: its government said on Friday that hoax bomb claims sent to Irish media were “likely” part of a “co-ordinated campaign of disruption” linked to the airline threats.",
+        "The scale shows why governments are worried. Nearly 30 passenger flights were targeted on Thursday alone, including flights bound for London, Madrid and Copenhagen. On Friday, four flights bound for Madrid-Barajas were targeted, according to the Spanish airport operator AENA. Four aircraft flying over France were also targeted and landed without incident, the French prime minister’s office said.",
+        "Some planes were rerouted and others were escorted by fighter jets. So far, no explosives have been found in any incident.",
+        "Who is behind it is still unknown. Some emails were signed “fighters of the Male State”, a name that matches a Russian radical misogynist group. The news agency AFP has not confirmed any link, and the group’s founder denies involvement. The Paris investigation continues, and the article reports no timeline or suspects."
+      ],
+      "map": {
+        "title": "HOAX THREATS",
+        "label_top": "PARIS  •  France",
+        "label_bottom": "Flights to Madrid, London, Copenhagen",
+        "footnote": "Investigation opened 7 November",
+        "caption": "Paris prosecutors are investigating threats that touched flights over France and flights bound for Spain, the UK and Denmark.",
+        "countries": [
+          "France",
+          "Ireland",
+          "Spain",
+          "United Kingdom",
+          "Denmark"
+        ],
+        "place": "Paris"
+      },
+      "why": "A hoax costs almost nothing to send, but it can divert planes and strain airports, airlines and security services, and investigators now ask whether a foreign power is behind it.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
+          "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Ireland suspects co-ordinated campaign as Europe bomb hoaxes widen",
+          "url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN",
+      "headline": "Mediators Push for US-Iran Deal as Ships Are Hit Near Hormuz",
+      "deck": "Qatar and others keep working for peace while ships come under attack in the Strait of Hormuz.",
+      "body": [
+        "The war between Iran and the United States and Israel began on 28 February. Iran effectively shut the Strait of Hormuz early in the war, and in July the United States reimposed a naval blockade on Iran’s southern ports. A blockade is when ships are stopped from entering or leaving.",
+        "On Friday night two projectiles hit Iran’s Qeshm island, the latest of a series of air strikes aimed at Iranian air defences and launchers. President Trump called them “minor strikes”. Meanwhile, the UK Maritime Trade Operations centre said at least 11 ships were attacked in and around the strait in the week to 6 November, and three of them sank.",
+        "Traffic through the strait is far below normal: its weekly report counted 170 outbound and 155 inbound transits, about 65 percent below pre-conflict levels. Iran’s navy said a tanker caught fire in the eastern strait after hitting a mine, while Washington says the mines have been cleared.",
+        "Diplomats are still trying. Iran’s foreign minister, Abbas Araghchi, said he spoke with 12 foreign ministers in 48 hours, including those of Oman, Qatar, Saudi Arabia and Pakistan, and restated Tehran’s seven demands to reopen the strait. Qatar’s prime minister said the two sides should not wait for a “perfect moment” to reach a deal. Trump said “we’ve made a lot of progress” and that he was “in no rush” to decide on resuming strikes. Mediators have so far made limited gains.",
+        "Iran has also said some countries’ ships may pass. Amir Hayat Moqaddam, a senior member of Iran’s parliamentary national security committee, said ships from India, China, Iraq and Qatar can cross the strait, with Indian and Chinese ships paying transit fees and Qatari ships passing free. Exemptions do not guarantee safety: on 30 October the Qatari gas carrier Al Mayeda was struck by unidentified objects, and more than 120 commercial ships have been hit in the region since the war began."
+      ],
+      "illustration": {
+        "title": "THE NARROW STRAIT",
+        "subtitle": "Ships, mines and talks",
+        "motif": "strait",
+        "caption": "At least 11 ships were attacked in and around the Strait of Hormuz in the week to 6 November."
+      },
+      "connect": "Geography and economics meet in the strait: it is a narrow sea route for oil and gas, so attacks on ships there affect fuel prices far away.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  ENGLISH CHANNEL",
+      "headline": "UK Holds an Indian Captain Over a Sanctioned Tanker",
+      "deck": "Captain Ajay Pant faces charges of breaking UK sanctions on Russia after Royal Marines seized his ship.",
+      "body": [
+        "Captain Ajay Pant, an Indian merchant navy officer with 18 years at sea, was arrested in the UK after British forces seized the crude oil tanker MT Smyrtos in the English Channel. The ship is under Western sanctions for allegedly being part of Russia’s “shadow fleet”.",
+        "The Smyrtos left Paradip Port in India on 25 April carrying Russian oil. On 14 June Royal Marines Commandos intercepted it in international waters. Captain Pant faces charges of breaching UK sanctions on Russia. Bail was denied and a trial is upcoming. He has not been sentenced, but faces up to 10 years in prison if convicted.",
+        "The case raises a legal question. The UK says a stateless vessel can be subject to its domestic Policing and Crime Act. Whether states can enforce sanctions in international waters is contested.",
+        "Pant’s wife, Ritu, is campaigning for his release. Other European countries have seized sanctioned ships but released the sailors, often with fines."
+      ],
+      "why": "The case tests how far a country can go in enforcing sanctions at sea, and it affects the sailors who crew these ships.",
+      "also": [
+        "Flights: flights bound for London were among nearly 30 targeted by hoax bomb threats on Thursday.",
+        "Shipping: the UK Defence Ministry says Russia sells about 75% of its oil using shadow tankers."
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "UK jailing of Indian sailor over Russia sanctions sets off 'perfect storm'",
+          "url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Russia hit Kyiv and nearby areas overnight into Saturday, damaging energy sites and a major Dnipro River bridge.",
+        "Israel: President Isaac Herzog asked former army chief Gadi Eisenkot to try to form a government, with 28 days to do it."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Hoax",
+          "def": "A false alarm or trick made on purpose. Today: bomb threats against flights that turned out to be false."
+        },
+        {
+          "word": "Prosecutor",
+          "def": "A lawyer who brings a case against people accused of crimes. Today: Paris prosecutors are investigating who sent the emails."
+        },
+        {
+          "word": "Blockade",
+          "def": "Stopping ships from entering or leaving a place. Today: the US blockade of Iran’s southern ports."
+        },
+        {
+          "word": "Cost of living",
+          "def": "How much people must pay for everyday things like fuel, housing and food. Today: it is a main reason people marched in France."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Two giant pandas flew from Chengdu, China, to Atlanta in September on a FedEx plane nicknamed the “Panda Express”."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  FRANCE",
+      "headline": "Tens of Thousands March in France as Living Costs Bite",
+      "deck": "Student unions say 250,000 joined Saturday’s protests, but the Interior Ministry counted about 146,000.",
+      "body": [
+        "On Saturday 7 November, protesters marched across France for the fourth weekend in a row. Student unions said about 250,000 people took part, including roughly 75,000 in Paris. The Interior Ministry put the national figure at about 146,000. ",
+        "The marchers are angry about the cost of living, meaning the price of everyday needs. They point to rising fuel prices, worse conditions in schools, teacher shortages, unaffordable housing and strained public services.",
+        "Interior Minister Laurent Nuñez deployed 70,000 police and security forces, and by 6pm police had arrested 232 people.",
+        "The movement is building. Thursday’s strike drew 575,000 people according to the Interior Ministry, while unions claimed close to 1.6 million. Student and teacher groups have now called another strike for Tuesday 10 November."
+      ],
+      "chart": {
+        "title": "HOW MANY MARCHED?",
+        "subtitle": "People, by who counted",
+        "labels": [
+          "Sat govt",
+          "Sat union",
+          "Thu govt"
+        ],
+        "values": [
+          146000,
+          250000,
+          575000
+        ],
+        "max": 600000,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Saturday’s figures come from the Interior Ministry and student unions; Thursday’s is the Interior Ministry’s count of the strike."
+      },
+      "why": "Rising prices for fuel, housing and services are pushing people onto the streets in several European countries, and governments must decide how to answer.",
+      "analyst": "Why might unions and the government count the same crowd differently? What independent evidence could help decide which number is closer?",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "French student unions say 250,000 people took part in Saturday's protests",
+          "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORT  •  FOOTBALL AND RUGBY",
+      "body": "<b>Arsenal</b> edged past Hull to stretch their lead at the top of the Premier League, while <b>Wales</b> beat Japan in the Nations Championship.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Arsenal edge past Hull to stretch Premier League lead",
+          "url": "https://www.france24.com/en/live-news/20261107-arsenal-edge-past-hull-to-stretch-premier-league-lead"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Adams double guides Wales past Japan in Nations Championship",
+          "url": "https://www.france24.com/en/live-news/20261107-adams-double-guides-wales-past-japan-in-nations-championship"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Abu Dhabi: Ukrainian and Russian officials are due to hold new three-way talks there within days, with the US.",
+        "France: student and teacher groups have called a new strike for Tuesday 10 November."
+      ]
+    },
+    "quote": {
+      "text": "A false alarm still costs real time, and real attention.",
+      "by": "Europe Explained"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "France 24",
+      "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
+      "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Ireland suspects co-ordinated campaign as Europe bomb hoaxes widen",
+      "url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "UK jailing of Indian sailor over Russia sanctions sets off 'perfect storm'",
+      "url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+    },
+    {
+      "outlet": "France 24",
+      "title": "French student unions say 250,000 people took part in Saturday's protests",
+      "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+      "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Giant pandas loaned by China make their public debut at US zoo",
+      "url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Which city's prosecutors opened an investigation into the hoax bomb threats?",
+        "options": [
+          "Madrid",
+          "Paris",
+          "Dublin"
+        ],
+        "answer": 1,
+        "why": "Paris prosecutors opened the investigation.",
+        "story": "lead"
+      },
+      {
+        "q": "How many people did the Interior Ministry say took part in Saturday's protests in France?",
+        "options": [
+          "About 146,000",
+          "About 250,000",
+          "About 575,000"
+        ],
+        "answer": 0,
+        "why": "The ministry put the national figure at about 146,000.",
+        "story": "europe"
+      },
+      {
+        "q": "What was the name of the tanker seized in the English Channel?",
+        "options": [
+          "MT Smyrtos",
+          "Al Mayeda",
+          "Panda Express"
+        ],
+        "answer": 0,
+        "why": "Royal Marines intercepted the MT Smyrtos.",
+        "story": "uk"
+      },
+      {
+        "q": "How many ships were attacked in and around the Strait of Hormuz in the week to 6 November?",
+        "options": [
+          "At least 3",
+          "At least 11",
+          "At least 70"
+        ],
+        "answer": 1,
+        "why": "UKMTO said at least 11 ships were attacked and three sank.",
+        "story": "world"
+      },
+      {
+        "q": "Which date did student and teacher groups call a new strike for?",
+        "options": [
+          "Tuesday 10 November",
+          "Saturday 14 November",
+          "Monday 9 November"
+        ],
+        "answer": 0,
+        "why": "They called a strike for Tuesday 10 November.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Explosives were found on one of the flights targeted by the hoax threats.",
+        "true": false,
+        "why": "No explosives were found in any incident so far.",
+        "story": "lead"
+      },
+      {
+        "claim": "Captain Ajay Pant faces up to 10 years in prison if convicted.",
+        "true": true,
+        "why": "The article says he faces up to 10 years if convicted.",
+        "story": "uk"
+      },
+      {
+        "claim": "The US-Israel war on Iran began on 28 February.",
+        "true": true,
+        "why": "That is the start date given by the source.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France",
+          "Ireland",
+          "Spain",
+          "United Kingdom",
+          "Denmark"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "English Channel",
+        "lat": 50.2,
+        "lon": -1.0,
+        "countries": [
+          "United Kingdom",
+          "India"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "By about what percent were Hormuz transits below pre-conflict levels?",
+        "answer": 65,
+        "prefix": "",
+        "unit": "%",
+        "min": 10,
+        "max": 100,
+        "why": "UKMTO's weekly report counted transits about 65 percent below pre-conflict levels."
+      },
+      {
+        "story": "europe",
+        "q": "How many police and security forces did France deploy on Saturday?",
+        "answer": 70000,
+        "prefix": "",
+        "unit": "officers",
+        "min": 10000,
+        "max": 150000,
+        "why": "Interior Minister Laurent Nuñez deployed 70,000 police and security forces."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Fake bomb threats against flights",
+        "body": [
+          "In the past week, someone sent fake bomb threats about dozens of flights in Europe. A fake alarm like this is called a hoax. Nearly 30 flights were targeted on Thursday, including flights to London, Madrid and Copenhagen.",
+          "Some planes were sent a different way, and some had fighter jets flying beside them. No explosives were found.",
+          "Prosecutors in Paris have started an investigation. They want to find out who sent the emails and whether another country is behind them. Ireland says it thinks the threats were part of a planned campaign."
+        ]
+      },
+      "world": {
+        "headline": "Talks to stop the fighting, and ships hit at sea",
+        "body": [
+          "The war between Iran and the United States and Israel began on 28 February. The Strait of Hormuz is a narrow sea route for oil and gas. At least 11 ships were attacked there in one week, and three sank.",
+          "Countries such as Qatar are trying to help the two sides make a deal. Qatar's leader said they should not wait for a perfect moment. President Trump said he had made a lot of progress with Iran.",
+          "So far, the talks have not made much progress."
+        ]
+      },
+      "uk": {
+        "headline": "A ship captain is held in the UK",
+        "body": [
+          "Captain Ajay Pant works on ships and comes from India. He was arrested in the UK after Royal Marines stopped the tanker MT Smyrtos in the English Channel on 14 June.",
+          "The ship is accused of helping Russia sell oil around sanctions. Sanctions are punishments to put pressure on a country. Captain Pant faces charges, and he could get up to 10 years in prison if he is found guilty.",
+          "His wife, Ritu, is asking for his release."
+        ]
+      },
+      "europe": {
+        "headline": "Many people march in France about prices",
+        "body": [
+          "On Saturday 7 November, people marched across France. Student unions said about 250,000 people came. The Interior Ministry said about 146,000.",
+          "The marchers are upset about high prices for fuel and housing. They also worry about school conditions and a lack of teachers.",
+          "The government sent 70,000 police and security officers, and 232 people were arrested by 6pm. Student and teacher groups called a new strike for Tuesday 10 November."
+        ]
+      }
+    }
+  }
+}
