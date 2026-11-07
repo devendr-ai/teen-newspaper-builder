@@ -1,0 +1,428 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-11-08",
+  "volume": 1,
+  "issue": 181,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  OIL ROUTES",
+      "headline": "Iran Says Indian Ships Can Cross the Strait of Hormuz",
+      "deck": "The narrow sea lane carries oil that India relies on, but ships there are still being hit and the US blockade is still in place.",
+      "body": [
+        "Picture a narrow sea lane between Iran and Oman that carries oil India depends on. That is the Strait of Hormuz. This week an Iranian lawmaker, Amir Hayat Moqaddam, said vessels from India, China, Iraq and Qatar are allowed to cross it. Iran has effectively kept the strait shut since early in a war that began on 28 February.",
+        "Here is what India has at stake. The data firm Kpler counted 10.23 million barrels a day of Gulf crude moving through the strait in October. India received 13 percent of that oil, and China about 42 percent. Moqaddam said Indian and Chinese ships would pay Tehran a fee to cross, while Qatari ships would not.",
+        "Permission from Iran does not settle everything. The US says its naval blockade covers every vessel entering or leaving Iranian ports, and nobody has said whether Washington accepts the exemptions. More than 120 commercial ships have been hit in the region since the war began, and October was the worst month.",
+        "Talks are running alongside the danger. Qatar's prime minister urged the US and Iran not to wait for a 'perfect moment' to make a deal, and President Trump said 'we've made a lot of progress' without giving details. Iran's foreign minister, Abbas Araghchi, said he spoke with 12 foreign ministers in 48 hours. An analyst at IG Group said the exemptions change little for oil markets for now."
+      ],
+      "map": {
+        "title": "STRAIT OF HORMUZ",
+        "label_top": "IRAN",
+        "label_bottom": "INDIA",
+        "footnote": "Strait of Hormuz: between Iran and Oman",
+        "caption": "India got 13 percent of the Gulf crude that crossed the strait in October.",
+        "countries": [
+          "Iran",
+          "India"
+        ],
+        "place": "Strait of Hormuz"
+      },
+      "why": "Oil moves fuel and shipping prices, so a sea lane far away can reach family budgets in India and the United States. Iran's exemption helps only if ships are safe, and the strait is still dangerous.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SCIENCE",
+      "headline": "Octopuses Squeeze Through Tight Holes One Arm at a Time",
+      "deck": "A study filmed seven octopuses fitting through holes in boxes and found a step-by-step method.",
+      "body": [
+        "An octopus is soft, but it does have a rigid part: cartilage around its brain. Researchers wanted to see how that part affects the holes an octopus can fit through. They measured the distance between each octopus's eyes as a stand-in for the size of its most rigid cartilage.",
+        "The team tested three common octopuses and four Mayan octopuses. They gave each animal acrylic boxes with holes slightly smaller or larger than that eye-to-eye measurement. The study appeared in the Journal of Experimental Biology.",
+        "For the wider holes, the octopuses followed three steps in a few seconds. First they pushed one or two arms through. Then they threaded a couple more through. Last, they used the arms already outside to pull the head and the remaining arms after them.",
+        "The narrower holes needed four steps. Common octopuses first pushed all their arms through, then squeezed the head and the bulbous mantle through.",
+        "Mayan octopuses behaved differently. They were more cautious and usually ignored the narrower hole instead of trying to fit. One possible reason is that they live in sandy, rocky areas and rarely need to squeeze through holes.",
+        "The team hopes the findings will inspire soft robots that can change shape to reach tight spaces. Current hole-fitting robots tend to be snake-shaped. Robyn Crook of San Francisco State University, who was not involved, suggested that slits or tubes may call for different strategies than round holes."
+      ],
+      "illustration": {
+        "title": "SQUEEZING THROUGH",
+        "subtitle": "Wider hole: three steps",
+        "motif": "robot",
+        "caption": "Arms go first, then the head and body follow."
+      },
+      "connect": "Biology and engineering: a soft body that changes shape is a useful model for robots that must reach small, hard-to-reach places.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "How octopuses squeeze through tiny openings, step by step",
+          "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  VOTER LISTS",
+      "headline": "Thousands Rally in Delhi Over a Voter-List Revision",
+      "deck": "Opposition leaders want the chief election commissioner to resign; the Election Commission denies favouring any party.",
+      "body": [
+        "A voter list is the register of who may vote, and in India it is checked and revised by the Election Commission. On Sunday 1 November, thousands of people rallied in New Delhi demanding that Chief Election Commissioner Gyanesh Kumar resign. Congress leader Rahul Gandhi led the demonstration.",
+        "The argument is about numbers. The revision removed more than 130 million names from voter lists. Opposition parties say this hit Muslims and other minorities hardest.",
+        "The Election Commission answers that it does not favour any party, and says voters whose names were wrongly removed may register again. The BJP accuses opposition parties of undermining democracy, while Health Minister Jagat Prakash Nadda called the rally a 'carefully orchestrated drama'.",
+        "Al Jazeera described near-daily protests since late September. India's next general election is due in 2029."
+      ],
+      "why": "A name on the voter list is what lets a family member vote. Relatives abroad who have Indian roots often follow how fairly the list is kept.",
+      "also": [
+        "Delhi: Al Jazeera reported the capital's air turned hazardous days before Diwali, with residents reporting breathing difficulty and eye irritation.",
+        "Odisha: the state asked for Rs 2,526 crore in help after Cyclone Arnab and floods in Ganjam."
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Thousands rally in New Delhi to demand India's election chief resign",
+          "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Air turns hazardous in New Delhi days before Diwali",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali"
+        },
+        {
+          "outlet": "ThePrint (PTI)",
+          "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+          "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Israel: President Isaac Herzog asked former army chief Gadi Eisenkot to try to form a government, which needs 61 of the 120 seats in parliament.",
+        "France: student unions said about 250,000 people joined protests on Saturday over living costs, while the Interior Ministry counted about 146,000."
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Israeli president picks Netanyahu's rival Eisenkot to try to form government",
+          "url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+        },
+        {
+          "outlet": "France 24",
+          "title": "French student unions say 250,000 people took part in Saturday's protests",
+          "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Blockade",
+          "def": "Stopping ships from entering or leaving a place. Today: the US says its blockade applies to all vessels entering or leaving Iranian ports."
+        },
+        {
+          "word": "Transit fee",
+          "def": "A payment for passing through a place. Today: Iran's lawmaker said it will collect transit fees from Indian and Chinese ships."
+        },
+        {
+          "word": "Unemployment rate",
+          "def": "The share of people looking for work who cannot find it. Today: the US unemployment rate fell to 4.1% in October."
+        },
+        {
+          "word": "Revision",
+          "def": "A careful change made to a list or text. Today: a revision removed more than 130 million names from India's voter lists."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Israel's parliament has 120 seats, so a government needs 61 of them to have a majority."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  PAY AND PRICES",
+      "headline": "Pay Rises 3.1% a Year, but Prices Are Rising Faster",
+      "deck": "A strong jobs report did not end the squeeze on family budgets.",
+      "body": [
+        "A family's budget depends on two numbers: what workers are paid and what things cost. Average hourly earnings in the US rose 3.1% over the past year, slightly more than the month before. Inflation, the rise in prices, reached 3.7% in September, so most workers are seeing real wage losses.",
+        "Fuel is a big reason. Gasoline was up about 34% from a year earlier.  Fuel prices are one reason living costs bite in both countries.",
+        "The hiring news was good. Employers added 165,000 jobs in October, and the unemployment rate fell to 4.1%. Analysts had expected 65,000 new jobs.",
+        "The Federal Reserve is watching. It raised its benchmark rate by a quarter point in September, the first rise in over three years, to a range of 3.75 to 4%, and held it in late October.  The next decision is set for 8 and 9 December."
+      ],
+      "chart": {
+        "title": "PAY VS PRICES",
+        "subtitle": "Yearly rise, percent",
+        "labels": [
+          "Pay",
+          "Prices"
+        ],
+        "values": [
+          3.1,
+          3.7
+        ],
+        "max": 5,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Pay: October, annual. Prices: September inflation, annual."
+      },
+      "why": "When prices rise faster than pay, the same paycheck buys less, whether a family shops in the US or sends money to India.",
+      "analyst": "Pay is up 3.1% and prices are up 3.7%. Who is hurt most by that gap? What other numbers would you want before judging the economy?",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Hiring jumps: The economy added 165,000 jobs last month",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+        },
+        {
+          "outlet": "France 24",
+          "title": "US job growth tops expectations in October",
+          "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        }
+      ]
+    },
+    "sports": {
+      "title": "Arsenal extend Premier League lead",
+      "body": "<b>Arsenal</b> edged past <b>Hull</b> to stretch their lead at the top of the Premier League on Saturday 7 November, France 24 reported, while City slumped again.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Arsenal edge past Hull to stretch Premier League lead",
+          "url": "https://www.france24.com/en/live-news/20261107-arsenal-edge-past-hull-to-stretch-premier-league-lead"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Ukraine: new three-way talks are due in Abu Dhabi on Tuesday and Wednesday, after Russia's overnight strikes on Kyiv.",
+        "United States: Stephen Miller starts as White House chief of staff on Monday 9 November, and Senate Minority Leader Chuck Schumer vowed to oppose the appointment."
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        }
+      ]
+    },
+    "quote": {
+      "text": "A strait is narrow on the map and wide in its effects.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/",
+    "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+    "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
+    "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
+    "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+    "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali",
+    "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
+    "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+    "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+    "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october",
+    "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government",
+    "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+    "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation",
+    "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "What share of the Gulf crude passing through Hormuz in October went to India?",
+        "options": [
+          "13 percent",
+          "42 percent",
+          "30 percent"
+        ],
+        "answer": 0,
+        "why": "Kpler said India received 13 percent.",
+        "story": "lead"
+      },
+      {
+        "q": "Which ships did Iran's lawmaker say would pay no transit fee?",
+        "options": [
+          "Indian",
+          "Qatari",
+          "Chinese"
+        ],
+        "answer": 1,
+        "why": "He said Qatari ships pass free.",
+        "story": "lead"
+      },
+      {
+        "q": "What did researchers measure as a stand-in for the size of an octopus's rigid cartilage?",
+        "options": [
+          "The distance between its eyes",
+          "The length of its arms",
+          "Its weight"
+        ],
+        "answer": 0,
+        "why": "They measured the distance between each octopus's eyes.",
+        "story": "world"
+      },
+      {
+        "q": "How many names did the voter-list revision remove?",
+        "options": [
+          "More than 13 million",
+          "More than 130 million",
+          "More than 1,300 million"
+        ],
+        "answer": 1,
+        "why": "The revision removed more than 130 million names.",
+        "story": "india"
+      },
+      {
+        "q": "By how much did average US pay rise over the past year?",
+        "options": [
+          "3.1%",
+          "3.7%",
+          "34%"
+        ],
+        "answer": 0,
+        "why": "Average hourly earnings rose 3.1%.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Iran said ships from India can pass through the Strait of Hormuz.",
+        "true": true,
+        "why": "A lawmaker said ships from India, China, Iraq and Qatar can pass.",
+        "story": "lead"
+      },
+      {
+        "claim": "Mayan octopuses always tried to fit through the narrower hole.",
+        "true": false,
+        "why": "They usually ignored the narrower hole.",
+        "story": "world"
+      },
+      {
+        "claim": "US inflation was lower than pay growth.",
+        "true": false,
+        "why": "Inflation reached 3.7% in September while pay rose 3.1%.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Laboratory study",
+        "lat": 0.0,
+        "lon": 0.0,
+        "countries": []
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "What percent of Gulf crude through the strait went to India in October?",
+        "answer": 13,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 50,
+        "why": "Kpler said India received 13 percent, and China about 42 percent."
+      },
+      {
+        "story": "india",
+        "q": "More than how many millions of names did the revision remove from voter lists?",
+        "answer": 130,
+        "prefix": "",
+        "unit": "million",
+        "min": 10,
+        "max": 500,
+        "why": "The revision removed more than 130 million names."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Iran Says Indian Ships Can Use the Strait",
+        "body": [
+          "Much oil travels through a narrow sea lane called the Strait of Hormuz. An Iranian lawmaker said ships from India, China, Iraq and Qatar can pass.",
+          "India received 13 percent of the Gulf oil that crossed the strait in October. Iran says it will charge Indian and Chinese ships a fee. Qatari ships pass free.",
+          "But ships are still being hit, and more than 120 have been struck since the war began. The US also has a blockade, which stops ships from entering or leaving Iranian ports."
+        ]
+      },
+      "world": {
+        "headline": "How Octopuses Fit Through Small Holes",
+        "body": [
+          "Scientists tested three common octopuses and four Mayan octopuses. They gave each one a box with a hole.",
+          "For a wider hole, the octopus pushed one or two arms through first. Then it pushed a few more and pulled its head through. This took a few seconds.",
+          "For a narrower hole, common octopuses pushed all their arms through, then squeezed the head and body. Mayan octopuses usually ignored it.",
+          "Scientists hope this will help build soft robots that can reach tight spaces."
+        ]
+      },
+      "india": {
+        "headline": "Rally in Delhi Over Voter Lists",
+        "body": [
+          "A voter list shows who can vote. In India, the Election Commission checks and revises it.",
+          "The latest revision removed more than 130 million names. On 1 November, thousands rallied in New Delhi to ask the chief election commissioner to resign.",
+          "The Election Commission says it does not favour any party. It says people wrongly removed may register again. The next general election is due in 2029."
+        ]
+      },
+      "us": {
+        "headline": "Pay Is Rising Slower Than Prices",
+        "body": [
+          "Workers in the US now earn 3.1% more than a year ago. But prices rose 3.7% in September.",
+          "That means the same paycheck buys less. Gasoline is up about 34% over the year.",
+          "Still, employers added 165,000 jobs in October. The unemployment rate fell to 4.1%. That is the share of people looking for work who cannot find it, and it fell from 4.2% in September."
+        ]
+      }
+    }
+  }
+}

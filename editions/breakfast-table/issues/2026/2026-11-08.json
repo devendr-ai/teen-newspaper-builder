@@ -1,0 +1,628 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-08",
+  "volume": 1,
+  "issue": 22,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UNITED STATES",
+      "headline": "US Employers Add 165,000 Jobs, but Pay Still Trails Prices",
+      "deck": "October hiring was far stronger than experts expected, yet wages are not rising as fast as the cost of living.",
+      "body": [
+        "On Friday the Labor Department said US employers added 165,000 jobs in October. Unemployment, the share of people who want work but cannot find it, eased to 4.1 percent. AFP reported that experts had expected only 65,000 new jobs.",
+        "Hospitals, factories and transportation companies hired more people, while restaurants and construction companies let workers go. Average hourly earnings rose 3.1 percent over the past year.",
+        "Prices rose faster. Inflation, the rise in prices over time, reached 3.7 percent in September. So most workers can buy a little less than before.",
+        "The Federal Reserve, the US central bank, raised its main interest rate in September. Its next decision is on December 8-9."
+      ],
+      "map": {
+        "title": "United States",
+        "label_top": "165,000 jobs added in October",
+        "label_bottom": "Unemployment 4.1%",
+        "footnote": "Source: US Labor Department, via NPR and AFP",
+        "caption": "The jobs report covers workers across the whole United States."
+      },
+      "why": "Jobs, pay and prices decide how far a family's money goes each week, and they guide the Federal Reserve when it sets interest rates, which affect loans.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Hiring jumps: The economy added 165,000 jobs last month",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+        },
+        {
+          "outlet": "France 24",
+          "title": "US job growth tops expectations in October",
+          "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+          "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fed leaves interest rates unchanged despite inflation in the US",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN AND THE STRAIT OF HORMUZ",
+      "headline": "Mediators Work to Stop US-Iran Fighting as Ships Are Hit",
+      "deck": "Qatar and others urge a deal, while ships near a key oil route came under attack this week.",
+      "body": [
+        "The Strait of Hormuz is a narrow stretch of sea next to Iran. Oil and gas tankers sail through it, so trouble there can raise fuel prices far away. The United States and Israel began a war on Iran on February 28, and Iran effectively shut the strait early on.",
+        "This week the UK Maritime Trade Operations centre said at least 11 ships were attacked in and around the strait, and three sank. On Friday night two projectiles hit Iran's Qeshm island; President Trump called them 'minor strikes'.",
+        "Talking goes on. Iran's foreign minister, Abbas Araghchi, spoke with 12 foreign ministers in 48 hours. Qatar's prime minister said the two sides should not wait for a 'perfect moment' to make a deal."
+      ],
+      "chart": {
+        "title": "Ships attacked near Hormuz",
+        "subtitle": "Week ending November 6",
+        "labels": [
+          "Attacked",
+          "Sank"
+        ],
+        "values": [
+          11,
+          3
+        ],
+        "max": 12,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "At least 11 ships were attacked and three of them sank, according to the UK Maritime Trade Operations centre."
+      },
+      "connect": "Geography: the strait is a chokepoint, a narrow passage that many ships must use. Economics: when fewer tankers can pass, oil is harder to deliver, which can push fuel prices up around the world.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  THE WHITE HOUSE",
+      "headline": "Trump Picks Stephen Miller as His New Chief of Staff",
+      "deck": "The president named his closest aide to run the White House team days after Republicans lost Congress.",
+      "body": [
+        "A chief of staff manages a president's team of advisers. On Friday, November 6, President Trump announced that Stephen Miller will take the job 'starting Monday, November 9, 2026'.",
+        "Miller is 41. He is now the White House deputy chief of staff for policy and also the homeland security adviser, and he has been one of Trump's closest aides for more than a decade. He drove the government's mass deportation programme. He replaces Susie Wiles, the first woman in the job, whose last day was Friday.",
+        "The change follows the midterms, in which Republicans lost both the House and the Senate. Vice President Vance said the party lost because of the Iran war, and Trump said that was 'largely true'. Democrats take control of Congress in early January. Senate Democratic leader Chuck Schumer vowed to oppose Miller's appointment."
+      ],
+      "why": "The chief of staff shapes which plans move forward, so this choice hints at how Trump will work with Congress.",
+      "also": [
+        "Democrats take control of Congress in early January.",
+        "Mike Johnson plans to step down as top House Republican, a source says."
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+          "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+        },
+        {
+          "outlet": "NPR",
+          "title": "What's next for Democrats after the midterms",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "China: Two giant pandas on a 10-year loan met the public at Zoo Atlanta on Friday.",
+        "Ukraine: Russia hit Kyiv overnight, damaging energy sites and a bridge."
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Giant pandas loaned by China make their public debut at US zoo",
+          "url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+          "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Prices are rising faster than pay. How could a family make its money stretch?",
+        "Why can a narrow sea route matter to people far away?",
+        "Why might outside countries help two sides talk?"
+      ],
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Hiring jumps: The economy added 165,000 jobs last month",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+        },
+        {
+          "outlet": "France 24",
+          "title": "US job growth tops expectations in October",
+          "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+          "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Fed holds interest rates steady even as inflation remains stubborn",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+          "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fed leaves interest rates unchanged despite inflation in the US",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  ODISHA AND ANDHRA PRADESH",
+      "headline": "Odisha Asks for Rs 2,526 Crore After Cyclone and Floods",
+      "deck": "Two cyclones in a week left roads, homes and jobs damaged along India's east coast.",
+      "body": [
+        "A cyclone is a huge spinning storm. Two hit India's east coast in a week. Cyclone Murasu came ashore near Ongole, in Andhra Pradesh, at about 1:00 a.m. on Tuesday, November 3, after Cyclone Arnab brought floods to Odisha.",
+        "Before Murasu, officials planned to move about 30,000 people to safety. No deaths or injuries had been reported at that time. The storm still uprooted trees and power poles, wrecked fishing boats and hit crops in Prakasam and Bapatla districts.",
+        "In Odisha's Ganjam district, all the blocks, the small local areas, were affected, with roads cut off and houses damaged. The Odisha government sent the central government a memorandum, a formal written request, asking for Rs 2,526 crore for relief and rebuilding in Ganjam, Gajapati and Kandhamal. An eight-member central team has visited the damaged areas. The state's Congress chief, Bhakta Charan Das, wants Rs 5,000 crore and a national calamity declaration for the floods."
+      ],
+      "why": "After a storm, families need roads, homes and work restored, and states often ask the national government for money to pay for it.",
+      "sources": [
+        {
+          "outlet": "ThePrint (PTI)",
+          "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+          "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Cyclone Murasu makes landfall on India's eastern coast",
+          "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS",
+      "body": "<b>Tennis:</b> Retired star Gaël Monfils was named captain of France's Davis Cup team.",
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Retired tennis star Gaël Monfils named captain of France's Davis Cup team",
+          "url": "https://www.france24.com/en/france/20261107-retired-tennis-star-ga%C3%ABl-monfils-named-captain-of-france-s-davis-cup-team"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the US and Iran agree to a deal, or fighting grows, as mediators keep talking.",
+        "Talks between Ukrainian and Russian officials in Abu Dhabi, due within days."
+      ]
+    },
+    "quote": {
+      "text": "A good question at breakfast can be the start of the best story of the day.",
+      "by": "The Breakfast Table"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "NPR",
+      "title": "Hiring jumps: The economy added 165,000 jobs last month",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+    },
+    {
+      "outlet": "France 24",
+      "title": "US job growth tops expectations in October",
+      "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+    },
+    {
+      "outlet": "NPR",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+      "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Fed leaves interest rates unchanged despite inflation in the US",
+      "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+      "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+    },
+    {
+      "outlet": "ThePrint (PTI)",
+      "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+      "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Cyclone Murasu makes landfall on India's eastern coast",
+      "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+      "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+    },
+    {
+      "outlet": "France 24",
+      "title": "Giant pandas loaned by China make their public debut at US zoo",
+      "url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+    }
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many jobs did US employers add in October?",
+        "options": [
+          "29,000",
+          "165,000",
+          "65,000"
+        ],
+        "answer": 1,
+        "why": "The Labor Department said employers added 165,000 jobs in October.",
+        "story": "lead"
+      },
+      {
+        "q": "How much did average hourly pay rise over the past year?",
+        "options": [
+          "3.1 percent",
+          "4.1 percent",
+          "3.7 percent"
+        ],
+        "answer": 0,
+        "why": "Average hourly earnings rose 3.1 percent, which is less than prices rose.",
+        "story": "lead"
+      },
+      {
+        "q": "What is the Strait of Hormuz?",
+        "options": [
+          "A mountain pass in Pakistan",
+          "A narrow sea route next to Iran",
+          "A river in Qatar"
+        ],
+        "answer": 1,
+        "why": "It is a narrow stretch of sea next to Iran that oil and gas tankers sail through.",
+        "story": "world"
+      },
+      {
+        "q": "Who becomes the White House chief of staff on Monday, November 9?",
+        "options": [
+          "Susie Wiles",
+          "Chuck Schumer",
+          "Stephen Miller"
+        ],
+        "answer": 2,
+        "why": "Trump named Stephen Miller to take over from Susie Wiles.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Experts had expected fewer than 165,000 new US jobs in October.",
+        "true": true,
+        "why": "AFP said analysts expected 65,000 new jobs.",
+        "story": "lead"
+      },
+      {
+        "claim": "All 11 ships attacked near Hormuz this week sank.",
+        "true": false,
+        "why": "At least 11 ships were attacked and three of them sank.",
+        "story": "world"
+      },
+      {
+        "claim": "Susie Wiles was the first woman to be White House chief of staff.",
+        "true": true,
+        "why": "The report describes her as the first woman in the job.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Ganjam, Odisha",
+        "lat": 19.38,
+        "lon": 85.05,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many jobs did US employers add in October?",
+        "answer": 165000,
+        "prefix": "",
+        "unit": "jobs",
+        "min": 0,
+        "max": 400000,
+        "why": "Employers added 165,000 jobs, far above the 65,000 experts expected."
+      },
+      {
+        "story": "india",
+        "q": "How many crore rupees has Odisha asked for in relief and rebuilding?",
+        "answer": 2526,
+        "prefix": "Rs ",
+        "unit": "crore",
+        "min": 500,
+        "max": 6000,
+        "why": "Odisha asked for Rs 2,526 crore for Ganjam, Gajapati and Kandhamal."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for November 8. Today we look at jobs and prices, a busy sea route, and a new job at the White House.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Let's start with jobs. What happened?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Jobs and pay"
+        },
+        {
+          "who": "maya",
+          "text": "On Friday the Labor Department said US employers added 165,000 jobs in October. Experts had expected far fewer, about 65,000. Unemployment, the share of people looking for work who cannot find it, eased to 4.1 percent.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "So that sounds like good news for families.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Partly. Hospitals, factories and transportation companies hired more people. Restaurants and construction companies let workers go. And pay rose 3.1 percent over the past year, while prices rose faster. Inflation reached 3.7 percent in September. So most workers can buy a little less than before.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "And that matters for interest rates too?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. The Federal Reserve raised its main rate in September, and it decides again on December 8-9.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Next, the Strait of Hormuz. Where is it?",
+          "section": "story",
+          "story": "world",
+          "chapter": "Strait of Hormuz"
+        },
+        {
+          "who": "maya",
+          "text": "It is a narrow stretch of sea next to Iran. Oil and gas tankers sail through it, so trouble there can change fuel prices far away. The United States and Israel began a war on Iran on February 28, and Iran effectively shut the strait early on.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "What happened this week?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "The UK Maritime Trade Operations centre said at least 11 ships were attacked in and around the strait in the week ending November 6, and three sank.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Is anyone trying to calm things down?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. Qatar and other mediators keep talking to both sides. Qatar's prime minister said they should not wait for a perfect moment to make a deal.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Now to Washington. Who is Stephen Miller?",
+          "section": "story",
+          "story": "us",
+          "chapter": "New chief of staff"
+        },
+        {
+          "who": "maya",
+          "text": "A chief of staff manages the president's team and helps run the White House day to day. President Trump named Stephen Miller, who is 41, to take the job starting Monday, November 9.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Who had the job before?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Susie Wiles, the first woman to hold it. Friday was her last day. The change comes after Republicans lost both the House and the Senate in the midterms, and Democrats take over Congress in early January.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "And what do the Democrats say?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Vice President Vance said the party lost because of the Iran war, and Trump said that was 'largely true'. Democrats take control of Congress in early January. Senate Democratic leader Chuck Schumer vowed to oppose Miller's appointment.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "How many jobs did US employers add in October?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "165,000 The Labor Department said employers added 165,000 jobs in October.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "Who becomes the White House chief of staff on Monday, November 9?",
+          "section": "quiz_question",
+          "quiz": 3
+        },
+        {
+          "who": "maya",
+          "text": "Stephen Miller Trump named Stephen Miller to take over from Susie Wiles.",
+          "section": "quiz_answer",
+          "quiz": 3
+        },
+        {
+          "who": "maya",
+          "text": "Prices are rising faster than pay. How could a family make its money stretch?",
+          "section": "discussion"
+        },
+        {
+          "who": "sam",
+          "text": "Thanks for listening to The Breakfast Table. Have a great day!",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}
