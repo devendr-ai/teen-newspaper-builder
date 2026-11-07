@@ -1619,6 +1619,69 @@
       "primary": false
      }
     ]
+   },
+   {
+    "id": "sport-arsenal-wales",
+    "headline": "Arsenal edge past Hull; Wales beat Japan",
+    "what_happened": "Arsenal beat Hull to extend their Premier League lead on Saturday, and Wales beat Japan in the Nations Championship.",
+    "why_it_matters": "Sport results.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Arsenal edged past Hull to stretch their lead at the top of the Premier League on November 7.",
+      "source_url": "https://www.france24.com/en/live-news/20261107-arsenal-edge-past-hull-to-stretch-premier-league-lead"
+     },
+     {
+      "fact": "Wales beat Japan in the Nations Championship on November 7.",
+      "source_url": "https://www.france24.com/en/live-news/20261107-adams-double-guides-wales-past-japan-in-nations-championship"
+     }
+    ],
+    "numbers": [],
+    "geography": "England, Wales, Japan",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Arsenal edge past Hull to stretch Premier League lead",
+      "url": "https://www.france24.com/en/live-news/20261107-arsenal-edge-past-hull-to-stretch-premier-league-lead",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Adams double guides Wales past Japan in Nations Championship",
+      "url": "https://www.france24.com/en/live-news/20261107-adams-double-guides-wales-past-japan-in-nations-championship",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sport-monfils",
+    "headline": "Retired tennis star Gaël Monfils named captain of France's Davis Cup team",
+    "what_happened": "Retired tennis star Gaël Monfils was named captain of France's Davis Cup team.",
+    "why_it_matters": "Sport.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Retired tennis star Gaël Monfils was named captain of France's Davis Cup team on November 7.",
+      "source_url": "https://www.france24.com/en/france/20261107-retired-tennis-star-ga%C3%ABl-monfils-named-captain-of-france-s-davis-cup-team"
+     }
+    ],
+    "numbers": [],
+    "geography": "France",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Retired tennis star Gaël Monfils named captain of France's Davis Cup team",
+      "url": "https://www.france24.com/en/france/20261107-retired-tennis-star-ga%C3%ABl-monfils-named-captain-of-france-s-davis-cup-team",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
    }
   ]
  }
