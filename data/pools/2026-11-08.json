@@ -1,0 +1,1625 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "iran-hormuz",
+    "headline": "Mediators Work to Stop US-Iran Fighting as Ships Are Hit Near Hormuz",
+    "what_happened": "Two projectiles hit Iran's Qeshm island on Friday night, which Trump called minor strikes, while Qatar and other mediators keep pushing the US and Iran towards a deal. Ships were attacked in and around the Strait of Hormuz this week.",
+    "why_it_matters": "The Strait of Hormuz is a narrow sea route for oil and gas, so attacks on ships there affect fuel prices far away.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Two projectiles hit Qeshm island in Iran on Friday night, the latest in a series of air strikes over recent weeks targeting Iranian air defences and launchers; President Trump called them 'minor strikes'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "The UK Maritime Trade Operations centre (UKMTO) said at least 11 ships were attacked in and around the Strait of Hormuz in the week ending November 6, and three of them sank.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "UKMTO's weekly report counted 170 outbound and 155 inbound transits of the strait, about 65 percent below pre-conflict levels.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "Iran's navy said a tanker with its transponder off caught fire in the eastern Strait after hitting a mine; Washington says the mines have been cleared.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "Iran's foreign minister Abbas Araghchi said he spoke with 12 foreign ministers over 48 hours, including those of Oman, Qatar, Saudi Arabia and Pakistan, and restated Tehran's seven demands to reopen the Strait.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "Mediators are continuing diplomacy, though with limited gains so far.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "Qatar's prime minister said the US and Iran should not wait for a 'perfect moment' to reach a deal to end the war, and that the crisis 'cannot be left unresolved'.",
+      "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+     },
+     {
+      "fact": "Trump said 'We've made a lot of progress with Iran' without giving details, and said he was 'in no rush' to decide whether to resume strikes.",
+      "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287"
+     },
+     {
+      "fact": "The US-Israel war on Iran began on February 28, Iran effectively shut the strait early in the war, and the US reimposed a naval blockade on Iran's southern ports in July.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Ships attacked in and around the Strait of Hormuz, week to Nov 6",
+      "value": 11,
+      "unit": "ships",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "label": "Of which sank",
+      "value": 3,
+      "unit": "ships",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "label": "Transits below pre-conflict levels",
+      "value": 65,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     }
+    ],
+    "geography": "Iran, Qeshm island, Strait of Hormuz (between Iran and Oman), Qatar, Oman, Pakistan, Saudi Arabia",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?update=5130287",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "kyiv-strikes",
+    "headline": "Russia Hits Kyiv's Power and a Big Bridge Before New Peace Talks",
+    "what_happened": "Russia fired missiles and drones at Kyiv and nearby areas overnight into Saturday, damaging energy sites and a major bridge over the Dnipro River. New three-way talks are due in Abu Dhabi.",
+    "why_it_matters": "Damage to power and water in freezing weather affects millions of people, and the strikes come just before peace talks.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Russia fired missiles and drones at Kyiv and the surrounding region overnight Friday into Saturday (November 7), damaging energy infrastructure and a major Dnipro River bridge.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Kyiv mayor Vitali Klitschko said several waves of ballistic missiles hit, with several striking the Northern Bridge.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "One person was killed and eight were wounded, including a child.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Energy facilities were hit in at least three districts of the Kyiv region, according to Governor Tymur Tkachenko.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Temperatures in Kyiv were near freezing on Saturday morning, and a France 24 correspondent said residents had 'about two to three hours of electricity per day, no heating, and daily water outage'.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Russia's defence ministry said it targeted military-industrial sites and energy and transport infrastructure in and around Kyiv.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Russia has stepped up air attacks as its ground offensive has largely stalled; recent weeks have seen attacks on Kyiv's bridges.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "A new round of three-way talks between Ukrainian and Russian officials is due in Abu Dhabi within days, part of a US-backed peace push that has so far produced few results.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "President Zelensky said Russia launched 172 drones and 36 ballistic missiles overnight, and that power cuts hit five regions, according to Ukraine's energy ministry; he accused Moscow of escalating to pressure Kyiv before the meeting in Abu Dhabi on Tuesday and Wednesday.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Drones launched overnight",
+      "value": 172,
+      "unit": "drones",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+     },
+     {
+      "label": "Ballistic missiles launched overnight",
+      "value": 36,
+      "unit": "missiles",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+     }
+    ],
+    "geography": "Kyiv and the Dnipro River, Zhytomyr region, Abu Dhabi (United Arab Emirates), Ukraine, Russia",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+      "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-eisenkot",
+    "headline": "Israel's President Asks Gadi Eisenkot to Try to Form a Government",
+    "what_happened": "After an election on October 27 left no clear winner, President Isaac Herzog picked former army chief Gadi Eisenkot to try to build a majority in the Knesset.",
+    "why_it_matters": "A government in Israel needs 61 of the 120 seats in parliament, so parties must make deals; the way it plays out shows how coalitions work.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Saturday, November 7, President Isaac Herzog chose Gadi Eisenkot, leader of the Yashar party and a former military chief, to try to form a government; Herzog's role is largely ceremonial.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "The October 27 vote left Prime Minister Benjamin Netanyahu's religious-nationalist coalition without a majority: it won 53 of 120 Knesset seats, short of the 61 needed.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Likud won the most seats of any single party, 27; Yashar won 21, making it the second-largest party.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Eisenkot's bloc of four Jewish-led parties won 48 seats in total, and two Arab parties won 19 seats, an unprecedented number.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Eisenkot is 66, the son of Moroccan immigrants, and would be Israel's first prime minister from the Mizrahi community; he entered politics in 2022 and has sworn he will not serve in a government with Netanyahu.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Eisenkot has 28 days to try to form a government, with a possible 14-day extension; if he fails, another candidate can try, and if no one succeeds another election is held.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Analysts say the possible paths are a minority government backed from outside by Arab parties, a coalition with ultra-Orthodox parties, or a unity government with Netanyahu, and that all three are unlikely, so weeks of negotiations are expected.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Knesset seats in total",
+      "value": 120,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats won by Netanyahu's coalition",
+      "value": 53,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats won by Likud",
+      "value": 27,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats won by Yashar",
+      "value": 21,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     }
+    ],
+    "geography": "Israel (Knesset in Jerusalem)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Israeli president picks Netanyahu's rival Eisenkot to try to form government",
+      "url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "europe-bomb-hoaxes",
+    "headline": "France Investigates False Bomb Threats Against Flights Across Europe",
+    "what_happened": "Paris prosecutors have opened an investigation into fake bomb threats that targeted dozens of flights over the past week. No explosives have been found.",
+    "why_it_matters": "False alarms cost little to send but force diversions and strain airports, airlines and security services.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Paris prosecutors have opened an investigation into bogus bomb threats that targeted dozens of commercial flights across Europe over the past week, to identify 'the authors of the emails' and check for possible foreign-power links.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "Several threats concerned flights passing over French territory, and the French government says it is also investigating where the threats came from.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "The Irish government said on Friday that hoax bomb claims sent to Irish media were 'likely' part of a 'co-ordinated campaign of disruption' linked to the airline threats.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "No explosives were found in any incident so far.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "Some emails were signed 'fighters of the Male State', a name matching a Russian radical misogynist group; AFP has not confirmed any link, and the group's founder denies involvement.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "Nearly 30 passenger flights were targeted on Thursday, including flights bound for London, Madrid and Copenhagen.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+     },
+     {
+      "fact": "On Friday, four flights bound for Madrid-Barajas were targeted, according to Spanish airport operator AENA, and four aircraft flying over France were targeted and landed without incident, the French prime minister's office said.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+     },
+     {
+      "fact": "Some planes were rerouted and others were escorted by fighter jets.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+     }
+    ],
+    "numbers": [],
+    "geography": "Ireland, France, Spain (Madrid), Italy, UK (London), Denmark (Copenhagen)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
+      "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Ireland suspects co-ordinated campaign as Europe bomb hoaxes widen",
+      "url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "france-protests",
+    "headline": "Tens of Thousands March in France as Living Costs Bite",
+    "what_happened": "Student unions said about 250,000 people joined protests across France on Saturday over rising living costs and school conditions; the Interior Ministry counted about 146,000.",
+    "why_it_matters": "Rising prices for fuel, housing and food are pushing people onto the streets in several European countries.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Student unions said about 250,000 people joined demonstrations across France on Saturday, November 7, including roughly 75,000 in Paris, while the Interior Ministry put the national figure at about 146,000.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "Interior Minister Laurent Nuñez deployed 70,000 police and security forces, and by 6pm police had arrested 232 people.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "The protests were driven by rising cost of living and fuel prices, deteriorating school conditions, teacher shortages, unaffordable housing and strained public services.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "It was the fourth consecutive weekend of protests; Thursday's strike drew 575,000 people according to the Interior Ministry, while unions claimed close to 1.6 million.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "Student and teacher groups called a new strike for Tuesday, November 10.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Protesters, student unions' estimate",
+      "value": 250000,
+      "unit": "people",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "label": "Protesters, Interior Ministry estimate",
+      "value": 146000,
+      "unit": "people",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "label": "Police deployed",
+      "value": 70000,
+      "unit": "officers",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     }
+    ],
+    "geography": "France (Paris)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "French student unions say 250,000 people took part in Saturday's protests",
+      "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "atlanta-pandas",
+    "headline": "Two Giant Pandas From China Meet the Public at Zoo Atlanta",
+    "what_happened": "Ping Ping and Fu Shuang, two giant pandas on a 10-year loan from China, made their public debut at Zoo Atlanta on Friday.",
+    "why_it_matters": "Pandas are a vulnerable species, and loans link zoos, science and countries.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Ping Ping (male) and Fu Shuang (female), both born in 2020, made their public debut on Friday, November 6, at the Arthur M. Blank Panda Grove at Zoo Atlanta in Georgia.",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     },
+     {
+      "fact": "They came from Chengdu, China, in September on a FedEx flight nicknamed the 'Panda Express', and the loan lasts 10 years.",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     },
+     {
+      "fact": "The zoo renovated its panda facilities, hired a team of animal caretakers and set up a long-term local bamboo supply.",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     },
+     {
+      "fact": "Atlanta has hosted loaned pandas since 1999; seven cubs were born there, all have returned to Chengdu, and the zoo has had no pandas since 2024.",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     },
+     {
+      "fact": "Pandas were once listed as endangered and are now 'vulnerable'; an estimated 1,800 live in the wild, and China has set up more than 50 panda reserves.",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     },
+     {
+      "fact": "In 1972 China gifted a pair of pandas to Washington after Nixon's visit.",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Loan length",
+      "value": 10,
+      "unit": "years",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     },
+     {
+      "label": "Pandas estimated in the wild",
+      "value": 1800,
+      "unit": "pandas",
+      "source_url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo"
+     }
+    ],
+    "geography": "Chengdu (China) and Atlanta, Georgia (United States)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Giant pandas loaned by China make their public debut at US zoo",
+      "url": "https://www.france24.com/en/americas/20261107-giant-pandas-loaned-by-china-make-public-debut-at-us-zoo",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-chief-of-staff",
+    "headline": "Trump Names Stephen Miller as White House Chief of Staff",
+    "what_happened": "President Trump announced on Friday that Stephen Miller will replace Susie Wiles as chief of staff from Monday, November 9, days after Republicans lost both houses of Congress.",
+    "why_it_matters": "The chief of staff runs the president's team, so the choice shows how Trump plans to deal with a Congress controlled by Democrats.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Friday, November 6, Trump named Stephen Miller as his new chief of staff on Truth Social, saying he would take over 'starting Monday, November 9, 2026'.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Miller is 41, currently White House Deputy Chief of Staff for Policy and also homeland security advisor, and has been one of Trump's closest aides for more than a decade.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Susie Wiles, 69, the first female White House chief of staff, is moving to the Trump Political Operation; Friday was her last day in the job.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Miller drove the mass deportation programme, which often involved raids by masked agents.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Senate Minority Leader Chuck Schumer vowed to oppose Miller's appointment.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Republicans lost control of the House and Senate to Democrats in the midterms.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Trump said what Vice President Vance said about the Iran war costing Republicans the midterms was 'largely true'.",
+      "source_url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington DC, United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+      "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-jobs-report",
+    "headline": "US Employers Add 165,000 Jobs in October, Far More Than Expected",
+    "what_happened": "The Labor Department reported on Friday that US employers added 165,000 jobs in October and unemployment eased to 4.1%, though wages are still not keeping up with prices.",
+    "why_it_matters": "Jobs, wages and prices decide how far a family's pay goes, and they steer decisions on interest rates.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Employers added 165,000 jobs in October, and the unemployment rate fell to 4.1% from 4.2% the previous month.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "AFP reported analysts had expected 65,000 new jobs and unemployment to hold at 4.2 percent.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+     },
+     {
+      "fact": "Employment gains for August and September were revised up by a total of 84,000 jobs.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "Hospitals, factories and transportation companies added jobs, while restaurants and construction companies shed workers.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "Average hourly earnings rose 3.1% over the past year, but wages lag behind stubbornly high inflation, so most workers are seeing real wage losses.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "In September, employers had added only 29,000 jobs and unemployment rose to 4.2%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections"
+     },
+     {
+      "fact": "US annual inflation reached 3.7% in September, up from 3.4% in August, with gasoline up about 34% year over year.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "The Federal Reserve raised its benchmark rate by a quarter point in September, its first rise in over three years, to a range of 3.75 to 4%, and held steady at its late-October meeting.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "The Fed's next decision is set for December 8-9.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Jobs added in October",
+      "value": 165000,
+      "unit": "jobs",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "label": "Unemployment rate",
+      "value": 4.1,
+      "unit": "percent",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "label": "Annual wage growth",
+      "value": 3.1,
+      "unit": "percent",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "label": "Annual inflation, September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Hiring jumps: The economy added 165,000 jobs last month",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation",
+      "published": "2026-11-06",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "US job growth tops expectations in October",
+      "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october",
+      "published": "2026-11-06",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+      "published": "2026-10-14",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+      "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections",
+      "published": "2026-10-02",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Fed leaves interest rates unchanged despite inflation in the US",
+      "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "midterms-aftermath",
+    "headline": "After Midterm Wins, Democrats Plan Their Agenda for Congress",
+    "what_happened": "Democrats won both the House and Senate in the November 4 midterms; they plan investigations and votes on health costs, tariffs and the Iran war when the new Congress meets.",
+    "why_it_matters": "Control of Congress decides which laws can pass and who can investigate the government.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Democrats won control of both chambers of Congress in the November 4 midterms, so Trump faces a divided government for his last two years.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+     },
+     {
+      "fact": "Most legislation still needs 60 votes to avoid a filibuster in the Senate, and a presidential veto can only be overridden with two-thirds of both chambers.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress"
+     },
+     {
+      "fact": "Democrats' early priorities include restoring enhanced ACA health subsidies, reversing Medicaid cuts, reasserting Congress's authority over tariffs and forcing votes to end the Iran war through war powers resolutions.",
+      "source_url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year"
+     },
+     {
+      "fact": "With the majority comes subpoena power, and Democrats plan a long list of investigations.",
+      "source_url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+     },
+     {
+      "fact": "Mike Johnson plans to step down as top House Republican in the new Congress, according to a source familiar with his plans.",
+      "source_url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+     },
+     {
+      "fact": "Democrats take control of Congress in early January.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States (Washington DC)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Is Trump really a 'lame duck' after losing both houses of US Congress?",
+      "url": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "After sweeping midterm wins, here's what Democrats hope to get done",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+      "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "What's next for Democrats after the midterms",
+      "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-hormuz",
+    "headline": "Iran Says Ships From India and China Can Pass the Strait of Hormuz",
+    "what_happened": "An Iranian lawmaker said ships from India, China, Iraq and Qatar can cross the Strait of Hormuz, though the US blockade and attacks on ships still make passage risky.",
+    "why_it_matters": "India gets a large share of its crude oil through the strait, so who can pass matters for fuel prices at home.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Amir Hayat Moqaddam, deputy chairman of Iran's parliamentary National Security and Foreign Policy Committee, told ISNA on Tuesday that ships from India, China, Iraq and Qatar can pass the Strait of Hormuz.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "fact": "India received 13 percent of the 10.23 million barrels a day of Gulf crude that passed through the strait in October, according to Kpler; China received about 42 percent.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "fact": "Moqaddam said Tehran will collect transit fees from Indian and Chinese ships, while Qatari ships pass free.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "fact": "Exemptions do not guarantee safety: on October 30 the Qatari LNG carrier Al Mayeda was struck by unidentified objects.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "fact": "More than 120 commercial ships have been hit in the region since the war began, with October the worst month, according to IMO and UKMTO data.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "fact": "US Central Command says the blockade applies to all vessels entering or leaving Iranian ports, and it is unclear whether Washington accepts the exemptions.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "fact": "An analyst at IG Group said the exemptions make only a limited difference to oil markets for now.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Gulf crude through the strait in October",
+      "value": 10.23,
+      "unit": "million barrels a day",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "label": "Share going to India",
+      "value": 13,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     },
+     {
+      "label": "Share going to China",
+      "value": 42,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
+     }
+    ],
+    "geography": "India, China, Iran, Qatar, Iraq, Strait of Hormuz",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "india-ganjam-cyclone",
+    "headline": "Odisha Seeks Rs 2,526 Crore After Cyclone Arnab and Floods in Ganjam",
+    "what_happened": "Odisha has asked the central government for Rs 2,526 crore for relief and rebuilding after Cyclone Arnab and the floods that followed, while Cyclone Murasu hit Andhra Pradesh days later.",
+    "why_it_matters": "Two cyclones in a week show how storms damage roads, homes and livelihoods and how states ask for national help.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Odisha government has submitted a memorandum seeking Rs 2,526 crore for relief and restoration in Ganjam, Gajapati and Kandhamal districts.",
+      "source_url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+     },
+     {
+      "fact": "In Ganjam, all the blocks were affected, with road connectivity disrupted, houses damaged and livelihoods hit; the article reports no deaths.",
+      "source_url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+     },
+     {
+      "fact": "An eight-member central team has visited the affected areas.",
+      "source_url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+     },
+     {
+      "fact": "Odisha Congress chief Bhakta Charan Das demanded Rs 5,000 crore in central assistance and a national calamity declaration for the floods.",
+      "source_url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+     },
+     {
+      "fact": "Cyclone Murasu made landfall near Ongole in Prakasam district, Andhra Pradesh, at about 1:00 a.m. on Tuesday, November 3, the second cyclone to strike the region in a week after Cyclone Arnab.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+     },
+     {
+      "fact": "Authorities planned to move about 30,000 people to safety before Murasu, and no deaths or injuries were reported at that time.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+     },
+     {
+      "fact": "Trees and electricity poles were uprooted, fishing boats wrecked and standing crops hit in Prakasam and Bapatla districts.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Relief sought by Odisha",
+      "value": 2526,
+      "unit": "crore rupees",
+      "source_url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/"
+     },
+     {
+      "label": "People planned to be moved ahead of Murasu",
+      "value": 30000,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast"
+     }
+    ],
+    "geography": "Ganjam, Gajapati and Kandhamal (Odisha); Prakasam and Bapatla (Andhra Pradesh) on India's east coast",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ThePrint (PTI)",
+      "title": "BJD chief Naveen Patnaik to visit cyclone, flood-hit Ganjam on Saturday",
+      "url": "https://theprint.in/india/bjd-chief-naveen-patnaik-to-visit-cyclone-flood-hit-ganjam-on-saturday/3092254/",
+      "published": "2026-11-06",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Cyclone Murasu makes landfall on India's eastern coast",
+      "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast",
+      "published": "2026-11-03",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "india-voter-list",
+    "headline": "Thousands Rally in Delhi Over India's Voter-List Revision",
+    "what_happened": "Opposition leaders led a rally in New Delhi demanding the chief election commissioner resign after a voter-list revision removed more than 130 million names.",
+    "why_it_matters": "Voter lists decide who can vote, so how they are checked and corrected matters for every election.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Sunday, November 1, thousands rallied in New Delhi demanding Chief Election Commissioner Gyanesh Kumar resign; Congress leader Rahul Gandhi led the demonstration.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The revision removed more than 130 million names from voter lists, and opposition parties say it disproportionately affected Muslims and other minorities.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The Election Commission denies favouring any party and says voters whose names were wrongly removed may register again.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     },
+     {
+      "fact": "The BJP accuses opposition parties of undermining democracy; India's next general election is due in 2029.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Names removed from voter lists",
+      "value": 130,
+      "unit": "million",
+      "source_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
+     }
+    ],
+    "geography": "New Delhi, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Thousands rally in New Delhi to demand India's election chief resign",
+      "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
+      "published": "2026-11-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "delhi-air",
+    "headline": "Delhi's Air Turns Hazardous Days Before Diwali",
+    "what_happened": "New Delhi's air quality has reached hazardous levels days before Diwali, with residents reporting breathing difficulty and eye irritation.",
+    "why_it_matters": "Dirty air affects health, especially for children, and festival fireworks add to smog.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "New Delhi's air quality has deteriorated to hazardous levels days before Diwali, the Hindu festival of lights.",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali"
+     },
+     {
+      "fact": "Residents report breathing difficulties and eye irritation, and a toxic haze covers the capital.",
+      "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali"
+     }
+    ],
+    "numbers": [],
+    "geography": "New Delhi, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Air turns hazardous in New Delhi days before Diwali",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "israel-eisenkot",
+    "headline": "Israel's President Asks Gadi Eisenkot to Try to Form a Government",
+    "what_happened": "After an election on October 27 left no clear winner, President Isaac Herzog picked former army chief Gadi Eisenkot to try to build a majority in the Knesset.",
+    "why_it_matters": "A government in Israel needs 61 of the 120 seats in parliament, so parties must make deals; the way it plays out shows how coalitions work.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Saturday, November 7, President Isaac Herzog chose Gadi Eisenkot, leader of the Yashar party and a former military chief, to try to form a government; Herzog's role is largely ceremonial.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "The October 27 vote left Prime Minister Benjamin Netanyahu's religious-nationalist coalition without a majority: it won 53 of 120 Knesset seats, short of the 61 needed.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Likud won the most seats of any single party, 27; Yashar won 21, making it the second-largest party.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Eisenkot's bloc of four Jewish-led parties won 48 seats in total, and two Arab parties won 19 seats, an unprecedented number.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Eisenkot is 66, the son of Moroccan immigrants, and would be Israel's first prime minister from the Mizrahi community; he entered politics in 2022 and has sworn he will not serve in a government with Netanyahu.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Eisenkot has 28 days to try to form a government, with a possible 14-day extension; if he fails, another candidate can try, and if no one succeeds another election is held.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "fact": "Analysts say the possible paths are a minority government backed from outside by Arab parties, a coalition with ultra-Orthodox parties, or a unity government with Netanyahu, and that all three are unlikely, so weeks of negotiations are expected.",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Knesset seats in total",
+      "value": 120,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats needed for a majority",
+      "value": 61,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats won by Netanyahu's coalition",
+      "value": 53,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats won by Likud",
+      "value": 27,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "label": "Seats won by Yashar",
+      "value": 21,
+      "unit": "seats",
+      "source_url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     }
+    ],
+    "geography": "Israel (Knesset in Jerusalem)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Israeli president picks Netanyahu's rival Eisenkot to try to form government",
+      "url": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-chief-of-staff",
+    "headline": "Trump Names Stephen Miller as White House Chief of Staff",
+    "what_happened": "President Trump announced on Friday that Stephen Miller will replace Susie Wiles as chief of staff from Monday, November 9, days after Republicans lost both houses of Congress.",
+    "why_it_matters": "The chief of staff runs the president's team, so the choice shows how Trump plans to deal with a Congress controlled by Democrats.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Friday, November 6, Trump named Stephen Miller as his new chief of staff on Truth Social, saying he would take over 'starting Monday, November 9, 2026'.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Miller is 41, currently White House Deputy Chief of Staff for Policy and also homeland security advisor, and has been one of Trump's closest aides for more than a decade.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Susie Wiles, 69, the first female White House chief of staff, is moving to the Trump Political Operation; Friday was her last day in the job.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Miller drove the mass deportation programme, which often involved raids by masked agents.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Senate Minority Leader Chuck Schumer vowed to oppose Miller's appointment.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Republicans lost control of the House and Senate to Democrats in the midterms.",
+      "source_url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
+     },
+     {
+      "fact": "Trump said what Vice President Vance said about the Iran war costing Republicans the midterms was 'largely true'.",
+      "source_url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington DC, United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+      "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-jobs-report",
+    "headline": "US Employers Add 165,000 Jobs in October, Far More Than Expected",
+    "what_happened": "The Labor Department reported on Friday that US employers added 165,000 jobs in October and unemployment eased to 4.1%, though wages are still not keeping up with prices.",
+    "why_it_matters": "Jobs, wages and prices decide how far a family's pay goes, and they steer decisions on interest rates.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Employers added 165,000 jobs in October, and the unemployment rate fell to 4.1% from 4.2% the previous month.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "AFP reported analysts had expected 65,000 new jobs and unemployment to hold at 4.2 percent.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october"
+     },
+     {
+      "fact": "Employment gains for August and September were revised up by a total of 84,000 jobs.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "Hospitals, factories and transportation companies added jobs, while restaurants and construction companies shed workers.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "Average hourly earnings rose 3.1% over the past year, but wages lag behind stubbornly high inflation, so most workers are seeing real wage losses.",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "fact": "In September, employers had added only 29,000 jobs and unemployment rose to 4.2%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections"
+     },
+     {
+      "fact": "US annual inflation reached 3.7% in September, up from 3.4% in August, with gasoline up about 34% year over year.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     },
+     {
+      "fact": "The Federal Reserve raised its benchmark rate by a quarter point in September, its first rise in over three years, to a range of 3.75 to 4%, and held steady at its late-October meeting.",
+      "source_url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation"
+     },
+     {
+      "fact": "The Fed's next decision is set for December 8-9.",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Jobs added in October",
+      "value": 165000,
+      "unit": "jobs",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "label": "Unemployment rate",
+      "value": 4.1,
+      "unit": "percent",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "label": "Annual wage growth",
+      "value": 3.1,
+      "unit": "percent",
+      "source_url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation"
+     },
+     {
+      "label": "Annual inflation, September",
+      "value": 3.7,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Hiring jumps: The economy added 165,000 jobs last month",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation",
+      "published": "2026-11-06",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "US job growth tops expectations in October",
+      "url": "https://www.france24.com/en/live-news/20261106-us-job-growth-tops-expectations-in-october",
+      "published": "2026-11-06",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears",
+      "published": "2026-10-14",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "Fed holds interest rates steady even as inflation remains stubborn",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+      "published": "2026-10-28",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
+      "url": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections",
+      "published": "2026-10-02",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Fed leaves interest rates unchanged despite inflation in the US",
+      "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us",
+      "published": "2026-10-28",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "space-cold-atoms",
+    "headline": "Scientists Create a Record-Low Temperature Aboard China's Space Station",
+    "what_happened": "Researchers cooled about 20,000 rubidium atoms to roughly 10 picokelvins on the Tiangong space station, colder than earlier records in space.",
+    "why_it_matters": "Microgravity lets atoms be cooled further than on Earth, helping tests of basic physics.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Scientists cooled atoms to about 10 picokelvins (10 trillionths of a kelvin), just above absolute zero (-273.15°C), aboard China's Tiangong space station.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "The atoms formed a Bose-Einstein condensate, a quantum state of matter; the experiment used about 20,000 rubidium atoms and was reported in Science on November 5.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Earlier records were about 52 picokelvins on the International Space Station and 38 picokelvins in an Earth drop-tower experiment.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Laser-based traps hold the atoms and reduce their motion, which cools them.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "On Earth, gravity makes atom clouds sag, which weakens cooling; in orbit, microgravity avoids this.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "The temperature is an effective temperature worked out from how slowly the atoms spread when allowed to expand, not a direct measurement.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Ultracold atoms can test fundamental ideas such as the equivalence principle, which says objects of different masses fall at the same rate in a vacuum.",
+      "source_url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tiangong space station in orbit",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Record-low temperature created on China's space station",
+      "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "dino-blood",
+    "headline": "Tiny Structures in a 115-Million-Year-Old Dinosaur Bone May Be Blood Cells",
+    "what_happened": "Scientists report that microstructures in the bone of a feathered dinosaur from Brazil may be fossilised red blood cells, but another expert is not convinced.",
+    "why_it_matters": "It shows how scientists test bold claims and why outside experts are asked to check them.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Grice and colleagues report in PNAS (published November 2) that microstructures in a 115-million-year-old dinosaur limb bone may be fossilised red blood cells; they call them the oldest red blood cell structures identified.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     },
+     {
+      "fact": "The dinosaur is Aratasaurus museunacionali, a small feathered theropod from Mina Pedra Branca in northeastern Brazil.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     },
+     {
+      "fact": "The structures are ellipsoid and about 20 micrometres across, found within fossilised blood vessels.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     },
+     {
+      "fact": "Element mapping found iron, carbon and nitrogen, which are components of heme, the molecule that carries oxygen in blood.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     },
+     {
+      "fact": "The team proposes that a manganese oxide mineral called hausmannite protected the molecules.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     },
+     {
+      "fact": "Mary Schweitzer of North Carolina State University, who was not involved, says the findings don't fully meet proposed criteria, that the heme signals appear across the whole bone, and said: 'I am not convinced'.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     },
+     {
+      "fact": "A 1997 study found spheres once thought to be blood cells were actually pyrite.",
+      "source_url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize"
+     }
+    ],
+    "numbers": [],
+    "geography": "Northeastern Brazil",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "This may be the best evidence yet that dinosaur blood can fossilize",
+      "url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "octopus-squeeze",
+    "headline": "Octopuses Squeeze Through Tight Holes in Careful Steps",
+    "what_happened": "A study filmed octopuses fitting through holes in boxes and found they push arms through first, then pull the head and body after.",
+    "why_it_matters": "The findings could inspire soft robots that change shape to reach tight spaces.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A study in the Journal of Experimental Biology tested three common octopuses and four Mayan octopuses.",
+      "source_url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+     },
+     {
+      "fact": "Researchers measured the distance between each octopus's eyes as a stand-in for the size of its most rigid cartilage, which surrounds the brain, and tested boxes with holes slightly smaller or larger than that measurement.",
+      "source_url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+     },
+     {
+      "fact": "For wider holes the octopuses pushed one or two arms through, threaded a couple more, then used those arms to pull the head and remaining arms through, in a few seconds.",
+      "source_url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+     },
+     {
+      "fact": "For narrower holes, common octopuses first pushed all their arms through, then squeezed the head and mantle through in four steps.",
+      "source_url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+     },
+     {
+      "fact": "Mayan octopuses were more cautious and usually ignored the narrower hole; they live in sandy, rocky areas and rarely need to squeeze through holes.",
+      "source_url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+     },
+     {
+      "fact": "The team hopes the findings will inspire soft robots that can change shape; current hole-fitting robots tend to be snake-shaped.",
+      "source_url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video"
+     }
+    ],
+    "numbers": [],
+    "geography": "Laboratory study",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "How octopuses squeeze through tiny openings, step by step",
+      "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "permafrost-slide",
+    "headline": "Melting Permafrost Causes a New Kind of Giant Landslide",
+    "what_happened": "Researchers describe 'permafrost detachment slides' in Canada's Northwest Territories, where a frozen layer breaks loose and slides as one block.",
+    "why_it_matters": "As the climate warms, thawing frozen ground could threaten land and rivers in cold regions.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A 2018 landslide in Canada's Northwest Territories moved 18 million cubic metres of earth, dammed the Redstone River and created a lake 3.5 kilometres long.",
+      "source_url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+     },
+     {
+      "fact": "The sliding surfaces were roughly 20 metres underground, at the base of the permafrost layer.",
+      "source_url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+     },
+     {
+      "fact": "Per the study, wildfire and extreme heat warm the surface, cracks form, water seeps down and thaws the permafrost from below, and the frozen layer detaches and slides as a large block.",
+      "source_url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+     },
+     {
+      "fact": "More than 150 other slides identified by satellite in the region may also be permafrost detachment slides.",
+      "source_url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+     },
+     {
+      "fact": "The study was published in Geophysical Research Letters on Sept. 28.",
+      "source_url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide"
+     }
+    ],
+    "numbers": [],
+    "geography": "Northwest Territories, Canada",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Melting permafrost has birthed a new type of large landslide",
+      "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide",
+      "published": "2026-11-02",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-sailor",
+    "headline": "UK Holds an Indian Ship Captain Over a Tanker Accused of Dodging Russia Sanctions",
+    "what_happened": "Captain Ajay Pant faces charges of breaking UK sanctions on Russia after Royal Marines seized the tanker MT Smyrtos in the English Channel; his case is being watched by seafarers worldwide.",
+    "why_it_matters": "Countries are arguing over whether they can enforce sanctions on ships at sea.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Captain Ajay Pant, an Indian merchant navy officer with 18 years at sea, was arrested in the UK after British forces seized the crude oil tanker MT Smyrtos in the English Channel.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     },
+     {
+      "fact": "The Smyrtos is under Western sanctions for allegedly being part of Russia's 'shadow fleet', and left Paradip Port, India, on April 25 carrying Russian oil.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     },
+     {
+      "fact": "On June 14, Royal Marines Commandos intercepted the ship in international waters.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     },
+     {
+      "fact": "Pant faces charges of breaching UK sanctions against Russia, bail was denied after his first hearing and a trial is upcoming; he faces up to 10 years in prison if convicted.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     },
+     {
+      "fact": "The UK says a stateless vessel can be subject to its domestic Policing and Crime Act, while whether states can enforce domestic sanctions in international waters is described as contested.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     },
+     {
+      "fact": "Other European countries have seized sanctioned ships but released the sailors, often with fines.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     },
+     {
+      "fact": "The UK Defence Ministry says Russia sells about 75% of its oil using shadow tankers.",
+      "source_url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm"
+     }
+    ],
+    "numbers": [],
+    "geography": "English Channel, UK, India (Paradip), Russia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "UK jailing of Indian sailor over Russia sanctions sets off 'perfect storm'",
+      "url": "https://www.aljazeera.com/features/2026/11/6/uk-jailing-of-indian-sailor-over-russia-sanctions-sets-off-perfect-storm",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "europe-bomb-hoaxes",
+    "headline": "France Investigates False Bomb Threats Against Flights Across Europe",
+    "what_happened": "Paris prosecutors have opened an investigation into fake bomb threats that targeted dozens of flights over the past week. No explosives have been found.",
+    "why_it_matters": "False alarms cost little to send but force diversions and strain airports, airlines and security services.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Paris prosecutors have opened an investigation into bogus bomb threats that targeted dozens of commercial flights across Europe over the past week, to identify 'the authors of the emails' and check for possible foreign-power links.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "Several threats concerned flights passing over French territory, and the French government says it is also investigating where the threats came from.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "The Irish government said on Friday that hoax bomb claims sent to Irish media were 'likely' part of a 'co-ordinated campaign of disruption' linked to the airline threats.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "No explosives were found in any incident so far.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "Some emails were signed 'fighters of the Male State', a name matching a Russian radical misogynist group; AFP has not confirmed any link, and the group's founder denies involvement.",
+      "source_url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers"
+     },
+     {
+      "fact": "Nearly 30 passenger flights were targeted on Thursday, including flights bound for London, Madrid and Copenhagen.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+     },
+     {
+      "fact": "On Friday, four flights bound for Madrid-Barajas were targeted, according to Spanish airport operator AENA, and four aircraft flying over France were targeted and landed without incident, the French prime minister's office said.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+     },
+     {
+      "fact": "Some planes were rerouted and others were escorted by fighter jets.",
+      "source_url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen"
+     }
+    ],
+    "numbers": [],
+    "geography": "Ireland, France, Spain (Madrid), Italy, UK (London), Denmark (Copenhagen)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
+      "url": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Ireland suspects co-ordinated campaign as Europe bomb hoaxes widen",
+      "url": "https://www.france24.com/en/live-news/20261106-ireland-suspects-co-ordinated-campaign-as-europe-bomb-hoaxes-widen",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "france-protests",
+    "headline": "Tens of Thousands March in France as Living Costs Bite",
+    "what_happened": "Student unions said about 250,000 people joined protests across France on Saturday over rising living costs and school conditions; the Interior Ministry counted about 146,000.",
+    "why_it_matters": "Rising prices for fuel, housing and food are pushing people onto the streets in several European countries.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Student unions said about 250,000 people joined demonstrations across France on Saturday, November 7, including roughly 75,000 in Paris, while the Interior Ministry put the national figure at about 146,000.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "Interior Minister Laurent Nuñez deployed 70,000 police and security forces, and by 6pm police had arrested 232 people.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "The protests were driven by rising cost of living and fuel prices, deteriorating school conditions, teacher shortages, unaffordable housing and strained public services.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "It was the fourth consecutive weekend of protests; Thursday's strike drew 575,000 people according to the Interior Ministry, while unions claimed close to 1.6 million.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "fact": "Student and teacher groups called a new strike for Tuesday, November 10.",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Protesters, student unions' estimate",
+      "value": 250000,
+      "unit": "people",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "label": "Protesters, Interior Ministry estimate",
+      "value": 146000,
+      "unit": "people",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     },
+     {
+      "label": "Police deployed",
+      "value": 70000,
+      "unit": "officers",
+      "source_url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience"
+     }
+    ],
+    "geography": "France (Paris)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "French student unions say 250,000 people took part in Saturday's protests",
+      "url": "https://www.france24.com/en/france/20261107-live-france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "kyiv-strikes",
+    "headline": "Russia Hits Kyiv's Power and a Big Bridge Before New Peace Talks",
+    "what_happened": "Russia fired missiles and drones at Kyiv and nearby areas overnight into Saturday, damaging energy sites and a major bridge over the Dnipro River. New three-way talks are due in Abu Dhabi.",
+    "why_it_matters": "Damage to power and water in freezing weather affects millions of people, and the strikes come just before peace talks.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Russia fired missiles and drones at Kyiv and the surrounding region overnight Friday into Saturday (November 7), damaging energy infrastructure and a major Dnipro River bridge.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Kyiv mayor Vitali Klitschko said several waves of ballistic missiles hit, with several striking the Northern Bridge.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "One person was killed and eight were wounded, including a child.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Energy facilities were hit in at least three districts of the Kyiv region, according to Governor Tymur Tkachenko.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Temperatures in Kyiv were near freezing on Saturday morning, and a France 24 correspondent said residents had 'about two to three hours of electricity per day, no heating, and daily water outage'.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Russia's defence ministry said it targeted military-industrial sites and energy and transport infrastructure in and around Kyiv.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "Russia has stepped up air attacks as its ground offensive has largely stalled; recent weeks have seen attacks on Kyiv's bridges.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "A new round of three-way talks between Ukrainian and Russian officials is due in Abu Dhabi within days, part of a US-backed peace push that has so far produced few results.",
+      "source_url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us"
+     },
+     {
+      "fact": "President Zelensky said Russia launched 172 drones and 36 ballistic missiles overnight, and that power cuts hit five regions, according to Ukraine's energy ministry; he accused Moscow of escalating to pressure Kyiv before the meeting in Abu Dhabi on Tuesday and Wednesday.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Drones launched overnight",
+      "value": 172,
+      "unit": "drones",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+     },
+     {
+      "label": "Ballistic missiles launched overnight",
+      "value": 36,
+      "unit": "missiles",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+     }
+    ],
+    "geography": "Kyiv and the Dnipro River, Zhytomyr region, Abu Dhabi (United Arab Emirates), Ukraine, Russia",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Russia hits Kyiv and surrounding region in massive overnight strike",
+      "url": "https://www.france24.com/en/europe/20261107-moscow-strikes-kyiv-as-ukraine-prepares-for-talks-with-russia-and-the-us",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
