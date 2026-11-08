@@ -1,0 +1,578 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-11-09",
+  "volume": 1,
+  "issue": 23,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  MIDDLE EAST",
+      "headline": "Iran Says US-Iran Talks Wait on Washington as Hormuz Blockades Continue",
+      "deck": "Iran’s foreign minister says mediators have not travelled since the US midterms, while Iran and the US each restrict shipping around the Strait of Hormuz.",
+      "body": [
+        "On Sunday 8 November, Iran’s foreign minister, Abbas Araghchi, said mediators have not travelled since the US midterm elections, citing “the shock that the election results in the United States have caused to everyone”. He said it was “time for the White House to make its own” choice. President Donald Trump told CNN the same day that resuming attacks on Iran is “highly unlikely” if talks progress. According to CBS News, talks have stalled over reopening the Strait of Hormuz and over Iran’s nuclear capabilities.",
+        "The strait is a chokepoint, a narrow passage that ships must use. Iran has been blocking it, while the US blocks Iran’s ports. The UK Maritime Trade Operations centre (UKMTO) counted at least 11 ships attacked in and around the strait in the week ending 6 November, three of which sank. It recorded 170 outbound and 155 inbound transits, about 65 percent below pre-conflict levels. The US says its blockade had redirected 144 vessels through October.",
+        "Iran’s demands are the other half of the stalemate. CBS lists its core demands as ending the US naval blockade, halting fighting on all fronts and easing sanctions, and Araghchi has restated seven demands for reopening the strait. He spoke with 12 foreign ministers in 48 hours. Trump called Qatar’s emir, a key mediator, on 6 November and confirmed “minor strikes” on Iran after missiles were reported hitting Qeshm island.",
+        "The cost shows up in prices. Brent crude fell more than 8% on 4 November to about $94 a barrel, its first fall below $100 since September, after peaking at $116 on 23 October. CBS reports the war has kept oil prices 60% to 70% above pre-war levels."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN, OMAN AND QATAR",
+        "label_bottom": "WHERE SHIPS HAVE BEEN ATTACKED",
+        "footnote": "Qatar and Oman are among the mediators",
+        "caption": "The strait lies between Iran and Oman; Qatar’s emir is a key mediator.",
+        "countries": [
+          "Iran",
+          "Oman",
+          "Qatar"
+        ],
+        "place": "Strait of Hormuz"
+      },
+      "why": "The strait carries oil and gas, so a stalemate there feeds fuel prices worldwide, including in India. It also shows how a blockade works as pressure in negotiations: each side restricts the other’s trade while talks stall.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Live updates: Iran war, Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Europe Will Join US-Brokered Ukraine Talks as Missiles Hit Kyiv’s Grid",
+      "deck": "France says European officials will attend the Abu Dhabi round on 10 and 11 November, which the Kremlin had ruled out.",
+      "body": [
+        "Russia launched 36 ballistic missiles and 172 strike drones overnight into Saturday 7 November. President Volodymyr Zelensky said all 36 missiles were aimed at Kyiv city and region, and that only four were intercepted. Nine civilians were wounded, including one child. The North Bridge over the Dnipro River was hit, and a kindergarten in the Solomianskyi district was partly destroyed.",
+        "The energy system was the main target. High-voltage substations that carry power from the Rivne and Khmelnytskyi nuclear power plants to Kyiv and central Ukraine were attacked, and damage to transmission substations was confirmed in other regions. Kyiv faced disruptions to electricity, running water and central heating. Zelensky said the strikes were meant to cause blackouts before the talks.",
+        "Those talks open in Abu Dhabi on Tuesday and Wednesday. They are the fourth US-brokered round between Russia and Ukraine and the first since Geneva in February. US envoy Steve Witkoff says the agenda covers postwar security, de-escalation and humanitarian issues. Russia’s delegation is led by Vladimir Medinsky and now includes Deputy Foreign Ministers Sergei Ryabkov and Mikhail Galuzin and military intelligence chief Igor Kostyukov.",
+        "On Sunday, French foreign minister Jean-Noël Barrot said European officials will attend: “France will be there and will ensure that Europe’s voice is heard.” Kremlin spokesman Dmitry Peskov had ruled out a European role, saying the trilateral format was already agreed. Russia has demanded that Ukraine cede large parts of its territory and give up NATO membership. Zelensky said he has not received details of an agreement Trump mentioned, calling it “not simple” and “dangerous”, and wants security commitments to specify who would act if Russia attacked again."
+      ],
+      "illustration": {
+        "title": "POWER GRID UNDER STRAIN",
+        "subtitle": "Explainer diagram",
+        "motif": "grid",
+        "caption": "Substations carrying nuclear-plant power to Kyiv were attacked overnight."
+      },
+      "connect": "History and geography: the Abu Dhabi round follows Geneva in February, and Zelensky cited the 1945 Yalta conference, where Allied leaders divided Europe without several affected countries, to explain why he wants Ukraine’s own security terms defined.",
+      "sources": [
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia Fires 36 Ballistic Missiles at Kyiv and Region, Damaging Power Grid",
+          "url": "https://www.kyivpost.com/post/89424"
+        },
+        {
+          "outlet": "NPR (via KPBS)",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Delhi’s Air Is ‘Very Poor’ on Diwali, With ‘Severe’ Air Forecast From Monday",
+      "deck": "The average AQI was 376 on Sunday, Stage III restrictions are in force, and the Supreme Court hears the case next on 16 November.",
+      "body": [
+        "Delhi’s average Air Quality Index (AQI), a score of how polluted the air is, was 376 on Diwali, Sunday 8 November, in the “very poor” category, up from 369 on Saturday. On the Central Pollution Control Board (CPCB) scale, 301 to 400 is “very poor” and 401 to 500 is “severe”. At 7 pm, of 59 CPCB stations reporting, 19 were in the “severe” range, 33 “very poor” and 7 “poor”; the worst reading was 460 at Jahangirpuri.",
+        "PM2.5, particles small enough to enter the lungs, was the main pollutant, with firecrackers adding to it. Low wind speeds and poor ventilation trapped the smoke. The Decision Support System estimated transport at 19% of the pollution load and stubble burning at 3.5% on Sunday. The Early Warning System expects “severe” air from Monday 9 November for several days.",
+        "On Friday 6 November the Commission for Air Quality Management (CAQM) invoked Stage III of the Graded Response Action Plan (GRAP) across Delhi-NCR, on top of Stages I and II. Measures include barring BS-III petrol and BS-IV diesel four-wheelers, suspending non-essential dust-causing construction, hybrid classes up to Class 5, and possibly 50% office capacity.",
+        "The Supreme Court heard its own case on air pollution the same day. Chief Justice Surya Kant said the AQI was already close to 400 and called vehicle emissions a major contributor, and said controlling pollution needs a “people’s movement”. Amicus curiae Aparajita Singh said stubble burning accounts for about 14% of pollution. The court asked authorities for immediate, medium-term and long-term plans, including steps to ease traffic congestion linked to inadequate public transport, and listed the case for 16 November.",
+        "The hearing also touched on daily life. The bench noted “bumper-to-bumper” traffic on roads linking Delhi to Gurugram, Faridabad, Ghaziabad and Greater Noida, and said farmers should be educated about stubble burning because they would stop once they understood the economic costs. It said Diwali gives poorer people a chance to earn a living but that pollution concerns must also be addressed, and that on closing school classes it would follow expert opinion. Delhi Environment Minister Manjinder Singh Sirsa blamed the AAP-led Punjab government for rising stubble burning, while the CPCB readings that morning were 391 overall, with 30 of 59 stations in the “severe” band and Rohini worst at 475.",
+        "On Diwali morning, 24 of 54 stations were already “severe”, among them Punjabi Bagh at 449, RK Puram at 448, Bawana at 446, IIT Delhi at 445 and Rohini at 445. India Gate read 398, Akshardham Temple 336 and Anand Vihar 328, so even the “better” stations were in the very poor band."
+      ],
+      "illustration": {
+        "title": "DELHI’S AIR ON DIWALI",
+        "subtitle": "Explainer diagram",
+        "motif": "skyline",
+        "caption": "The average AQI was 376, in the very poor band; 401 and above is severe."
+      },
+      "why": "Air quality rules touch daily life, from school hours to the cars allowed on the road. The case also shows how courts, a statutory commission and state governments share the job of clearing the air.",
+      "sources": [
+        {
+          "outlet": "IBTimes India",
+          "title": "Delhi chokes on Diwali smoke as AQI hits 376; severe pollution looms",
+          "url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Delhi Air Quality Slips To 'Severe' On Diwali Morning",
+          "url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "SC terms vehicular emissions major contributor to air pollution in Delhi-NCR",
+          "url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  ISRAEL",
+      "headline": "Eisenkot Receives the Mandate to Form Israel’s Government, but Has No Majority Yet",
+      "deck": "He has 28 days, with a possible 14-day extension; the outgoing government stays on as a caretaker meanwhile.",
+      "body": [
+        "President Isaac Herzog formally gave Gadi Eisenkot, a former military chief and Prime Minister Benjamin Netanyahu’s main challenger, the task of forming a government on Sunday 8 November at the President’s Residence in Jerusalem. The decision followed the 27 October election and came after Herzog secured 67 MK recommendations. Eisenkot said: “This is the time to establish a national emergency government.”",
+        "The mandate does not mean he has a majority. Netanyahu and his allies lost their parliamentary majority, but Eisenkot’s bloc did not win one either. Arab-led parties, which made historic gains, could be kingmakers, though an Arab party has been in a governing coalition only once in Israel’s history. Likud is the largest single party.",
+        "The rules set a clock. Eisenkot has 28 days, and the president may grant an extension of up to 14 days. If he fails, the president has 3 days to assign another MK or tell the Knesset speaker no government can be formed; a second candidate then gets 28 days with no extension. If that also fails, 61 MKs can jointly ask the president to name a lawmaker, who gets 14 days, and otherwise the Knesset is dissolved and a new election is held. Until a new government wins the Knesset’s confidence and takes office, the outgoing government remains in place as a caretaker.",
+        "Each path has obstacles. Netanyahu called for a “national unity government” and warned against “hastily swearing in a government with terrorist supporters.” Eisenkot could try a minority government backed by Arab parties from outside the coalition, but other members of his bloc have said they would reject that. Netanyahu also relies on religious parties that want draft exemptions for ultra-Orthodox men, and he opposes a formal investigation into the 7 October 2023 security failures.",
+        "The numbers explain the difficulty. In recommendations to the president, Eisenkot received 67 and Netanyahu 46 in the 120-seat Knesset, with United Torah Judaism (7 seats) recommending no one. Eisenkot’s bloc has 48 seats; adding UTJ would give 55, and adding Shas’s 6, if it does not oppose, would give 61, a razor-thin majority. Netanyahu’s bloc won 53 seats and Ra’am and the Joint List won 19 combined, a record. Likud remains the largest faction with 27 seats.",
+        "Eisenkot has set conditions. Yashar’s four principles for partners are recognising Hamas as a terrorist organisation, recognising Israel as a Jewish and democratic state, accepting the values of the Declaration of Independence, and mandatory service for all. He has said he will not partner with Netanyahu."
+      ],
+      "illustration": {
+        "title": "FORMING A GOVERNMENT",
+        "subtitle": "Explainer diagram",
+        "motif": "ballot",
+        "caption": "Eisenkot has 28 days, plus a possible 14-day extension."
+      },
+      "why": "Israel’s election did not give any bloc a clear majority, so the outcome depends on coalition bargaining. It shows how a parliamentary system turns votes into a government, and what happens while that is unsettled.",
+      "sources": [
+        {
+          "outlet": "The Times of Israel",
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Israel's president taps opposition candidate Eisenkot to form a government, in setback for Netanyahu",
+          "url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+        },
+        {
+          "outlet": "The Jerusalem Post",
+          "title": "Gadi Eisenkot receives Knesset mandate from President Isaac Herzog",
+          "url": "https://www.jpost.com/israel-election-2026/article-914236"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  MARKETS",
+      "headline": "India’s Nifty Posts Its Biggest Weekly Gain Since 2021 as Oil Eases",
+      "deck": "The Nifty 50 rose 8.58% and the Sensex 8.82% in the week to 6 November as Brent crude fell and foreign investors returned.",
+      "body": [
+        "India’s share markets had a strong week. The Nifty 50 rose 8.58% from 2 to 6 November, its biggest weekly gain since the week ended 1 February 2021, and closed at about 25,000 on 6 November. The Sensex rose 8.82%. Bank Nifty gained 8.04%, the Nifty Midcap 100 rose 5.77% and the Nifty Smallcap 100 rose 2.77%.",
+        "Falling crude oil helped. Brent fell sharply during the week and dipped below $100 a barrel, though it later rebounded to $98.29. Foreign institutional investors put in Rs 45,960.02 crore over the five days, and the rupee recovered to Rs 94.48 per dollar on 5 November. US markets moved the other way that week: the Nasdaq Composite fell 3.37% and the S&P 500 fell 2.68%.",
+        "Breadth was wide. India’s markets rose in all five sessions, their strongest week in almost six years, and the leaders included capital markets (up 10.7%), financial services (10.4%), realty (10.1%) and oil and gas (9.5%). IT, media, defence, healthcare and pharma lagged. The 10-year benchmark bond yield fell 22 basis points to 7.19%, and foreign institutional investors’ net buying of Rs 45,960.02 crore followed net selling of Rs 45,161.71 crore in October.",
+        "Oil explains much of it. Brent (January contract) fell $15, or 13.3%, from $113 to $98 a barrel, and US WTI fell from $104 to $90, the sharpest weekly decline since 2020. Lower oil reduces India’s import bill, inflation pressure and demand for dollars.",
+        "What comes next is data. India’s October consumer price inflation is due on Thursday 12 November; market participants expect 5.9%, up from 5.5% in September and close to the RBI’s 6% upper tolerance limit, and a reading near or above 6% would strengthen expectations of a rate hike in December. Indian markets are closed on Tuesday 10 November for Diwali-Balipratipada.",
+        "The gain still leaves the year in the red. The Nifty and Sensex are down about 4.4% and 5% so far this year. The same source lists worries that could cut the rally short: crude volatility and Middle East tensions after tanker attacks, and concern about a rate hike by the Reserve Bank of India (RBI)."
+      ],
+      "chart": {
+        "title": "INDIA’S WEEK IN SHARES",
+        "subtitle": "Percent gain, 2 to 6 November",
+        "labels": [
+          "Sensex",
+          "Nifty 50",
+          "Bank",
+          "Midcap"
+        ],
+        "values": [
+          8.82,
+          8.58,
+          8.04,
+          5.77
+        ],
+        "max": 10,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Index gains for the week; the Nifty Smallcap 100 rose 2.77%."
+      },
+      "why": "Oil prices, foreign money and interest rates feed into the rupee, import costs and savings. A weekly jump does not erase the year’s fall, and the rate worries show how one price can change expectations for another.",
+      "analyst": "Why might lower crude prices lift Indian shares, and what could stop the rally? Who gains and who loses if the RBI raises interest rates?",
+      "sources": [
+        {
+          "outlet": "Upstox",
+          "title": "Week ahead: Muhurat trading, India-US inflation, crude oil prices, FIIs activity among key market triggers to watch",
+          "url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+        },
+        {
+          "outlet": "Weekly Market Rewind (Substack)",
+          "title": "Weekly Market Rewind: Nov 2 - Nov 8, 2026",
+          "url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  PHYSICS",
+      "headline": "China’s Space Station Reports the Coldest Quantum Gas Yet, at 9.7 Picokelvin",
+      "deck": "A rubidium Bose-Einstein condensate on Tiangong reached an equivalent temperature about four times below the previous record, Science reports.",
+      "body": [
+        "A team led by Wei Xiong reported in the journal Science on 5 November 2026 an equivalent temperature of 9.7 picokelvin for a quantum gas on China’s Tiangong space station, with an uncertainty range of 7.0 to 12.9 picokelvin. A picokelvin is a trillionth of a kelvin, and absolute zero is -273.15 degrees Celsius. The result is about four times lower than the previous record.",
+        "“Equivalent temperature” is a careful phrase. Ordinary thermodynamic temperature is not practical for such experiments, so researchers describe the cloud’s expansion energy and velocity instead. Slower atoms are colder atoms.",
+        "The method has stages. The team used laser cooling and evaporative cooling, which removes the higher-energy atoms, to turn about 20,000 rubidium atoms into a Bose-Einstein condensate, a quantum state of matter, held in an optical dipole trap, which uses focused laser beams to hold neutral atoms. They then moved the atoms into a wider optical trap, weakened its confinement to reduce expansion energy, and measured the cloud’s expansion in three dimensions.",
+        "The design is new. Unlike the atom-chip approach used in earlier space work, the rack holds atoms with two nested optical dipole traps, and a magnetic-field gradient improved the initial cooling, producing a condensate less sensitive to magnetic disturbances.",
+        "Microgravity is the key ingredient. On Earth, gravity makes atom clouds sag, which limits cooling. In orbit the team could track the free expansion for 7 seconds. The drop-tower record of 38 picokelvin allowed only 2 seconds of free expansion, because a drop lasts only as long as the fall, and the International Space Station’s Cold Atom Laboratory record of 52 picokelvin had 1 second.",
+        "Outside experts stress the long observation time. Holger Mueller of UC Berkeley said the roughly 7-second expansion time is arguably a more important figure than the temperature, since long expansion times suit interferometry tests of gravity.",
+        "The authors call condensates “versatile platforms for quantum simulation”. They plan quantum simulation of exotic low-temperature phases, adjustable-volume traps to hold more atoms, and a space-based atom interferometer for precision tests of fundamental principles, including the equivalence principle, which holds that objects of different masses fall at the same rate in a vacuum."
+      ],
+      "illustration": {
+        "title": "COOLING IN ORBIT",
+        "subtitle": "Explainer diagram",
+        "motif": "rocket",
+        "caption": "Tiangong: 9.7 picokelvin; drop tower: 38; ISS: 52."
+      },
+      "why": "Longer free-fall time and colder atoms make quantum experiments more sensitive. The result shows why weightlessness is a laboratory tool, and why testing basic physics may need space.",
+      "sources": [
+        {
+          "outlet": "Science (AAAS)",
+          "title": "China space experiment creates coldest temperature ever",
+          "url": "https://www.science.org/content/article/china-space-experiment-creates-coldest-temperature-ever"
+        },
+        {
+          "outlet": "Phys.org",
+          "title": "Scientists achieve record-breaking low temperature on China's space station",
+          "url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+        },
+        {
+          "outlet": "Science News",
+          "title": "Record-low temperature created on China's space station",
+          "url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: Democrats plan House votes in their first 100 hours on restoring ACA subsidies, reversing Medicaid cuts and undoing Trump’s tariffs.",
+        "Federal Reserve: San Francisco Fed president Mary Daly said further tightening is likely, with jobs up 165,000 in October and pay up 3.1%.",
+        "India: Telangana Today reports Ayodhya lit a record 36 lakh earthen lamps for Deepotsav, the eve of Diwali.",
+        "Football: Cincinnati beat Atlanta 34-17 in Madrid, with Joe Burrow throwing three touchdown passes."
+      ],
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Democrats map out an agenda to address affordability and corruption after midterm sweep",
+          "url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+          "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+        },
+        {
+          "outlet": "Telangana Today",
+          "title": "Deepotsav 2026: Ayodhya glows with record 36 lakh earthen lamps",
+          "url": "https://telanganatoday.com/deepotsav-2026-ayodhya-glows-with-record-36-lakh-earthen-lamps"
+        },
+        {
+          "outlet": "CBS Sports",
+          "title": "Bengals vs. Falcons takeaways: Joe Burrow, Cincinnati offense roll over Falcons in Spain",
+          "url": "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Blockade",
+          "def": "Using ships or force to stop trade or travel to or from a place. Today: the US blocks Iran’s ports, and Iran has restricted shipping through the Strait of Hormuz."
+        },
+        {
+          "word": "PM2.5",
+          "def": "Particles small enough to enter the lungs, a main measure of air pollution. Today: PM2.5 was the main pollutant in Delhi’s air on Diwali."
+        },
+        {
+          "word": "Caretaker government",
+          "def": "An outgoing government that keeps running the country until a new one takes office. Today: Israel’s outgoing government stays on while Eisenkot tries to build a coalition."
+        },
+        {
+          "word": "Bose-Einstein condensate",
+          "def": "A quantum state of matter formed by atoms cooled to extremely low temperatures. Today: atoms on China’s space station formed one at about 10 picokelvins."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Absolute zero, the lowest possible temperature, is -273.15 degrees Celsius; the atoms on China’s space station were cooled to within 10 trillionths of a kelvin above it."
+    },
+    "explainer": {
+      "title": "How a coalition government forms",
+      "body": [
+        "When no party wins a majority of a parliament’s seats, parties must agree to govern together, which is called a coalition. In Israel the president invites one candidate to try, and the candidate has 28 days, with a possible 14-day extension. Until a government wins the Knesset’s confidence, the outgoing government stays on as a caretaker.",
+        "A coalition can also be a minority government, which does not command a majority of seats itself and relies on parties outside it for support. Eisenkot could try this with Arab parties backing him from outside, but other members of his bloc have said they would reject that."
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> What did Iran’s foreign minister say about mediators?",
+        "(a) They have not travelled since the US midterms  (b) They have left Qatar for good  (c) They have won a deal",
+        "<b>2.</b> How many ballistic missiles did Russia fire at the Kyiv area overnight into 7 November?",
+        "(a) 16  (b) 36  (c) 172",
+        "<b>3.</b> Where are the Ukraine talks being held on 10 and 11 November?",
+        "(a) Geneva  (b) Abu Dhabi  (c) Doha",
+        "<b>4.</b> What was Delhi’s average AQI on Diwali?",
+        "(a) 276  (b) 376  (c) 476",
+        "<b>5.</b> How long does Eisenkot have to form a government?",
+        "(a) 14 days  (b) 28 days  (c) 61 days",
+        "<b>6.</b> By how much did the Nifty 50 rise in the week to 6 November?",
+        "(a) 8.58%  (b) 2.77%  (c) 4.4%",
+        "<b>7.</b> What did scientists cool to about 10 picokelvins on Tiangong?",
+        "(a) Water  (b) Rubidium atoms  (c) Helium gas",
+        "<b>8.</b> Why is cooling easier in orbit?",
+        "(a) Gravity makes atom clouds sag on Earth  (b) The station is warmer  (c) There are no lasers",
+        "<b>Answers:</b> 1 a, 2 b, 3 b, 4 b, 5 b, 6 a, 7 b, 8 a."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Ukraine: what comes out of the Abu Dhabi talks on 10 and 11 November, and whether Europe takes a seat.",
+        "Iran: whether mediators travel again and the US and Iran resume talks.",
+        "Delhi: whether air quality turns “severe” from 9 November, and the Supreme Court hearing on 16 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html",
+    "https://sciencenews.org/article/lowest-temperature-china-space-station",
+    "https://telanganatoday.com/deepotsav-2026-ayodhya-glows-with-record-36-lakh-earthen-lamps",
+    "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/",
+    "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026",
+    "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+    "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/",
+    "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html",
+    "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+    "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html",
+    "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658",
+    "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213",
+    "https://www.jpost.com/israel-election-2026/article-914236",
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+    "https://www.kyivpost.com/post/89424",
+    "https://www.science.org/content/article/china-space-experiment-creates-coldest-temperature-ever",
+    "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
+    "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "What did Iran’s foreign minister say about mediators?",
+        "options": [
+          "They have not travelled since the US midterms",
+          "They have left Qatar for good",
+          "They have won a deal"
+        ],
+        "answer": 0,
+        "why": "He said mediators have not travelled since the US midterms.",
+        "story": "lead"
+      },
+      {
+        "q": "How many ballistic missiles did Russia fire at the Kyiv area overnight into 7 November?",
+        "options": [
+          "16",
+          "36",
+          "172"
+        ],
+        "answer": 1,
+        "why": "Russia launched 36 ballistic missiles.",
+        "story": "world"
+      },
+      {
+        "q": "Where are the Ukraine talks being held on 10 and 11 November?",
+        "options": [
+          "Geneva",
+          "Abu Dhabi",
+          "Doha"
+        ],
+        "answer": 1,
+        "why": "The talks are in Abu Dhabi.",
+        "story": "world"
+      },
+      {
+        "q": "What was Delhi’s average AQI on Diwali?",
+        "options": [
+          "276",
+          "376",
+          "476"
+        ],
+        "answer": 1,
+        "why": "The average AQI was 376, in the very poor category.",
+        "story": "india"
+      },
+      {
+        "q": "How long does Eisenkot have to form a government?",
+        "options": [
+          "14 days",
+          "28 days",
+          "61 days"
+        ],
+        "answer": 1,
+        "why": "He has 28 days, with a possible 14-day extension.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "By how much did the Nifty 50 rise in the week to 6 November?",
+        "options": [
+          "8.58%",
+          "2.77%",
+          "4.4%"
+        ],
+        "answer": 0,
+        "why": "The Nifty 50 rose 8.58%.",
+        "story": "economics"
+      },
+      {
+        "q": "What did scientists cool to about 10 picokelvins on Tiangong?",
+        "options": [
+          "Water",
+          "Rubidium atoms",
+          "Helium gas"
+        ],
+        "answer": 1,
+        "why": "About 20,000 rubidium atoms were cooled.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "Why is cooling easier in orbit?",
+        "options": [
+          "Gravity makes atom clouds sag on Earth",
+          "The station is warmer",
+          "There are no lasers"
+        ],
+        "answer": 0,
+        "why": "On Earth, gravity makes atom clouds sag, which limits cooling.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Eisenkot has 28 days to try to form a government, with a possible 14-day extension.",
+        "true": true,
+        "why": "The paper says he has 28 days and may get 14 more.",
+        "story": "politics_and_civics"
+      },
+      {
+        "claim": "France said no European officials will attend the Abu Dhabi talks.",
+        "true": false,
+        "why": "France’s foreign minister said European officials will attend.",
+        "story": "world"
+      },
+      {
+        "claim": "The Nifty 50 rose 8.58% in the week to 6 November.",
+        "true": true,
+        "why": "The paper reports an 8.58% weekly gain.",
+        "story": "economics"
+      },
+      {
+        "claim": "Delhi’s air was in the “severe” category on average on Diwali.",
+        "true": false,
+        "why": "The average AQI of 376 was in the very poor category.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Jerusalem",
+        "lat": 31.77,
+        "lon": 35.21,
+        "countries": [
+          "Israel"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How many strike drones did Russia launch overnight into 7 November?",
+        "answer": 172,
+        "prefix": "",
+        "unit": "drones",
+        "min": 0,
+        "max": 400,
+        "why": "Russia launched 172 strike drones."
+      },
+      {
+        "story": "india",
+        "q": "What was Delhi’s average AQI on Diwali?",
+        "answer": 376,
+        "prefix": "",
+        "unit": "AQI",
+        "min": 100,
+        "max": 500,
+        "why": "The average AQI was 376."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Iran says peace talks wait for the White House",
+        "body": [
+          "Iran and the United States are in a war. Other countries, called mediators, try to help them talk. Iran’s foreign minister said on Sunday that the mediators have not travelled since the US elections.",
+          "The Strait of Hormuz is a narrow sea passage. At least 11 ships were attacked in and around it in the week to 6 November, and three sank. Many fewer ships use it now, about 65 percent fewer than before the war.",
+          "President Trump said restarting attacks is highly unlikely if talks make progress."
+        ]
+      },
+      "world": {
+        "headline": "Russia hits Kyiv before peace talks",
+        "body": [
+          "Overnight into Saturday 7 November, Russia fired 36 ballistic missiles at the Kyiv area. President Zelensky said only four were shot down. Nine people were wounded. A bridge and power stations were hit.",
+          "Talks between Ukraine, Russia and the United States start in Abu Dhabi on 10 November. France says European officials will attend too. Russia had said Europe had no role."
+        ]
+      },
+      "india": {
+        "headline": "Delhi’s air is very poor on Diwali",
+        "body": [
+          "The Air Quality Index tells us how dirty the air is. In Delhi it was 376 on Diwali, which is called very poor. Above 400 is called severe, and that is expected from Monday.",
+          "Firecrackers and smoke added to the problem. New rules are in force. Dusty building work has stopped, and schools up to Class 5 use hybrid classes. The Supreme Court will hear the case again on 16 November."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Israel asks Eisenkot to build a government",
+        "body": [
+          "No group won enough seats in Israel’s election to rule alone. President Herzog asked Gadi Eisenkot to try to build a government.",
+          "He has 28 days, and he may get 14 more. Until a new government is ready, the old one stays in charge. Lawmakers made 67 recommendations for Eisenkot, but that is not the same as a team that will govern with him. He needs help from other parties, and that is hard."
+        ]
+      },
+      "economics": {
+        "headline": "India’s share markets jump in a week",
+        "body": [
+          "The Nifty 50 and the Sensex are two lists of big company shares. In the week to 6 November the Nifty 50 rose 8.58 percent and the Sensex rose 8.82 percent.",
+          "Oil got cheaper that week, and foreign investors put in money. Even so, both are still down about 4 to 5 percent for the year. Next, India will report how fast prices are rising on 12 November."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Scientists make atoms super cold in space",
+        "body": [
+          "Scientists on China’s space station cooled about 20,000 atoms to about 10 picokelvins. That is 10 trillionths of a kelvin, very close to absolute zero.",
+          "Slow atoms are cold atoms. In space, gravity does not pull the cloud of atoms down, so they can get colder than on Earth. The scientists keep the cloud in a laser trap and watch how slowly it spreads out. The result was reported on 5 November."
+        ]
+      }
+    }
+  }
+}

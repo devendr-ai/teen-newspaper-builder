@@ -1,0 +1,1151 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ukraine-talks",
+    "headline": "Europe Joins US-Brokered Ukraine Talks in Abu Dhabi After a Missile Barrage on Kyiv",
+    "what_happened": "Russia fired 36 ballistic missiles and 172 drones overnight into 7 November, aimed at Kyiv and its region, days before US-brokered talks with Ukraine and Russia in Abu Dhabi on 10 and 11 November. France said on 8 November that European officials will attend too.",
+    "why_it_matters": "The talks are the first US-brokered round since February, and the two sides remain far apart on territory and security guarantees.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Russia launched 36 ballistic missiles and 172 strike drones overnight into Saturday, 7 November 2026; President Zelensky said all 36 missiles were aimed at Kyiv city and Kyiv region.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "Nine civilians were wounded, including one child, across the capital and nearby districts.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "In Kyiv, the North Bridge over the Dnipro River was hit, residential apartment buildings were damaged, and a municipal kindergarten in the Solomianskyi district was partially destroyed.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "High-voltage substations in the Kyiv region that carry power from the Rivne and Khmelnytskyi nuclear power plants to Kyiv and central Ukraine were attacked; Kyiv faced disruptions to electricity, running water and central heating.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "Zelensky said the energy sector was again the main target and that the strikes were meant to cause blackouts before the planned trilateral talks.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "Ukrainian, American and Russian delegations are preparing for working-level consultations in Abu Dhabi on 10 and 11 November to discuss de-escalation and humanitarian measures.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "Zelenskyy said Russia fired 36 ballistic missiles at the Kyiv area overnight Saturday and only four were intercepted.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "France's foreign minister, Jean-Noel Barrot, said on Sunday 8 November that European officials will attend the Abu Dhabi talks; he told French radio 'France will be there and will ensure that Europe's voice is heard.'",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Kremlin spokesman Dmitry Peskov had earlier ruled out a European role, saying the trilateral format was already agreed.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "This is the fourth US-brokered round between the two countries and the first since talks in Geneva in February.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Russia's delegation is led by Vladimir Medinsky; newly included are Deputy Foreign Ministers Sergei Ryabkov and Mikhail Galuzin, Yury Zhigarlovsky of the General Staff and military intelligence chief Igor Kostyukov.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "US envoy Steve Witkoff says the agenda covers postwar security, de-escalation and humanitarian issues.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Russia has demanded that Ukraine cede large parts of its territory and give up NATO membership.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Zelenskyy said he had not received details of the agreement Trump mentioned: 'For me, it's not simple, and it can be dangerous.' He wants security commitments clearly defined, including who would act, and how, if Russia attacked again.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "A guided-bomb strike on Monday 2 November hit an aid distribution site in Komyshuvakha, in southern Ukraine; the death toll rose to at least 55.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "ballistic missiles fired at Kyiv area overnight",
+      "value": 36,
+      "unit": "missiles",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "label": "strike drones",
+      "value": 172,
+      "unit": "drones",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "label": "missiles intercepted, per Zelenskyy",
+      "value": 4,
+      "unit": "missiles",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     }
+    ],
+    "geography": "Kyiv, on the Dnipro River in Ukraine; talks in Abu Dhabi, United Arab Emirates; Russia; France",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Kyiv Post",
+      "title": "Russia Fires 36 Ballistic Missiles at Kyiv and Region, Damaging Power Grid",
+      "url": "https://www.kyivpost.com/post/89424",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "NPR (via KPBS)",
+      "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+      "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+      "published": "2026-11-08",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iran-hormuz",
+    "headline": "Iran Says Talks Wait on the US After the Midterms as Hormuz Stays Dangerous",
+    "what_happened": "Iran's foreign minister said on 8 November that mediators have not travelled since the US midterm elections, while Trump said resuming attacks is highly unlikely if talks progress. Ships kept being hit near the Strait of Hormuz.",
+    "why_it_matters": "The strait carries oil and gas, so the standoff keeps fuel prices high far from the Gulf.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Iran's foreign minister Abbas Araghchi said mediators have not travelled since the US midterms, citing 'the shock that the election results in the United States have caused to everyone' (8 November).",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "Araghchi said it was the 'time for the White House to make its own' choice on how to proceed (8 November).",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "Trump told CNN that resuming attacks on Iran is 'highly unlikely' if talks progress (8 November).",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "Talks have stalled over reopening the Strait of Hormuz and Iran's nuclear capabilities; Trump called Qatar's emir, a key mediator, on 6 November.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "Trump confirmed 'minor strikes' on Iran on 6 November after reports of missiles hitting Qeshm island.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "On 7 November US forces disabled the St Kitts-flagged cargo ship M/V Huda in the Gulf of Oman for trying to breach the US blockade.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "The US says its blockade had redirected 144 vessels through October.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "The US national average gas price was $4.06 a gallon on 5 and 6 November (GasBuddy); an analyst expects it to fall below $4 the following week.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     },
+     {
+      "fact": "The UK Maritime Trade Operations centre said at least 11 ships were attacked in and around the Strait of Hormuz in the week ending 6 November, and three of them sank.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "UKMTO counted 170 outbound and 155 inbound transits of the strait, about 65 percent below pre-conflict levels; many ships use a southern route near Oman with tracking systems off.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "Araghchi said he spoke with 12 foreign ministers in 48 hours, including those of Oman, Qatar, Saudi Arabia and Pakistan, and restated Iran's seven demands to reopen the Strait.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "fact": "Brent crude fell more than 8% on 4 November to about $94 a barrel, its first drop below $100 since September; it had peaked at $116 on 23 October.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+     },
+     {
+      "fact": "CBS reports the war has kept oil prices 60% to 70% above pre-war levels.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+     },
+     {
+      "fact": "Iran's core demands are ending the US naval blockade, halting fighting on all fronts, and easing sanctions.",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "ships attacked near Hormuz in week to 6 Nov",
+      "value": 11,
+      "unit": "ships",
+      "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+     },
+     {
+      "label": "US gas price",
+      "value": 4.06,
+      "unit": "dollars per gallon",
+      "source_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+     }
+    ],
+    "geography": "Strait of Hormuz between Iran and Oman; Qeshm island, Iran; Gulf of Oman; Qatar (mediator)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Live updates: Iran war, Strait of Hormuz",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "CBS News",
+      "title": "More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "israel-eisenkot",
+    "headline": "Eisenkot Gets Israel's Mandate to Build a Government, but Has No Majority Yet",
+    "what_happened": "Israeli President Isaac Herzog formally gave former army chief Gadi Eisenkot the task of forming a government on 8 November; neither Netanyahu's bloc nor Eisenkot's has a majority.",
+    "why_it_matters": "It shows how coalitions are built in a parliament where no party wins a majority alone.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Israeli President Isaac Herzog gave opposition candidate Gadi Eisenkot the first opportunity to form a governing coalition after the 27 October elections.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Eisenkot, a former military chief, was the main challenger to Prime Minister Benjamin Netanyahu; he said 'This is the time to establish a national emergency government.'",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Netanyahu and his allies lost their parliamentary majority, but Eisenkot's bloc did not win one either; Arab-led parties, which made historic gains, could be kingmakers.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "An Arab party has been in a governing coalition only once in Israel's history.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Netanyahu called for a 'national unity government' and warned against 'hastily swearing in a government with terrorist supporters.' Likud is the largest single party.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Obstacles include Netanyahu's reliance on religious parties that want draft exemptions for ultra-Orthodox men, and his opposition to a formal investigation into the 7 October 2023 security failures.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Eisenkot could try a minority government backed by Arab parties from outside the coalition, but other members of his bloc have said they would reject that.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Eisenkot formally received the mandate on Sunday 8 November at the President's Residence in Jerusalem, after Herzog secured 67 MK recommendations; he has 28 days, and the president may grant an extension of up to 14 days.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "Until a new government wins the Knesset's confidence and takes office, the outgoing government stays in place as a caretaker.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "Herzog tasked Yashar chairman Gadi Eisenkot on Saturday evening 7 November; Eisenkot received the mandate at a ceremony at the President's Residence on Sunday.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "In recommendations to the president, Eisenkot received 67 and Netanyahu 46 in the 120-seat Knesset; United Torah Judaism (7 seats) recommended no one.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "The 'change bloc' led by Eisenkot has 48 seats; adding UTJ's 7 gives 55, and adding Shas's 6, if it does not oppose, gives 61, a razor-thin majority.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Yashar's four principles for partners are: recognising Hamas as a terrorist organisation, recognising Israel as a Jewish and democratic state, accepting the values of the Declaration of Independence, and mandatory service for all.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Eisenkot says he will not partner with Netanyahu and that anyone with a major post on 7 October 2023 must leave public life.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Netanyahu has called for a 'national unity government', but it would include Religious Zionism, Otzma Yehudit and the Haredi parties, which is seen as a likely nonstarter; he has warned that a government backed by Arab parties would destroy Israel.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Yisrael Beytenu leader Avigdor Liberman said he was open to 'painful compromises' on Haredi enlistment to form a government without Netanyahu or the Arab parties.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Netanyahu's bloc won 53 seats, the opposition bloc 48, and Ra'am and the Joint List 19 combined, a record; no bloc reached the 61-seat majority. Likud remains the largest faction with 27 seats.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "Eisenkot said 'unconventional steps' are needed and described the country as 'approaching a point of no return'; he invited all Knesset parties to accept four principles as conditions for joining his coalition.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "If the first candidate fails, the president has 3 days to assign another MK or tell the Knesset speaker no government can be formed; a second candidate gets 28 days with no extension.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "If that also fails, there are 21 days in which at least 61 MKs can jointly ask the president to assign a specific lawmaker, who gets 14 days; if all attempts fail, the Knesset is dissolved and a new election is held.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     }
+    ],
+    "numbers": [],
+    "geography": "Jerusalem, Israel",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Israel's president taps opposition candidate Eisenkot to form a government, in setback for Netanyahu",
+      "url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "The Jerusalem Post",
+      "title": "Gadi Eisenkot receives Knesset mandate from President Isaac Herzog",
+      "url": "https://www.jpost.com/israel-election-2026/article-914236",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "The Times of Israel",
+      "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+      "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
+      "published": "2026-11-08",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-democrats",
+    "headline": "Democrats Plan Their First 100 Hours After Winning Congress",
+    "what_happened": "After winning majorities in the House and Senate, Democrats plan early votes on health-insurance subsidies, Medicaid, tariffs and the Iran war when they take over in January.",
+    "why_it_matters": "It shows how a party that wins a chamber sets the agenda, and which bills could affect family costs.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Democrats won majorities in the Senate and House and plan to pass a flurry of bills when they take office next January.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "In the House's first 100 hours they plan votes on reinstating enhanced ACA health insurance subsidies, which expired under the Republican-held Congress, and on reversing the Medicaid cuts Trump signed last year.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "They also plan a bill to undo Trump's sweeping tariffs and restore Congress's role in setting import taxes, and another vote on ending the Iran war or requiring congressional authorization to continue it.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Democrats are focusing on high costs for gas and groceries.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Minority Leader Hakeem Jeffries is likely to become Speaker and would be the first Black Speaker in US history.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Jeffries said investigation targets haven't been chosen and will be discussed over the next couple of weeks; Sen. Ron Wyden pledged the Finance panel would focus on 'affordability for us, accountability for them.'",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Some Democrats want an ethics package that could ban stock trading by members of Congress and executive officials and limit super PAC spending.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C., United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Democrats map out an agenda to address affordability and corruption after midterm sweep",
+      "url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-fed",
+    "headline": "Fed Official Says More Interest-Rate Rises Likely as Prices Outrun Pay",
+    "what_happened": "San Francisco Fed president Mary Daly said she expects more tightening, after a jobs report showing 165,000 new jobs in October but pay growing slower than prices.",
+    "why_it_matters": "Interest rates set what loans, mortgages and savings cost, so Fed decisions reach family budgets.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "San Francisco Fed President Mary Daly told CNBC she expects further tightening, saying 'Exactly when and how much is still to be decided.'",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "The US economy added 165,000 jobs in October, nearly triple the Dow Jones consensus estimate, and unemployment edged down to 4.1%.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "Average hourly earnings rose 3.1% over the year in October, below September's 3.7% consumer price inflation.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "Daly described Americans as being on a 'treadmill of high inflation', noting inflation has been elevated for almost six years.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "The Fed raised its benchmark rate by a quarter point in September, to a target range of 3.75%-4%, and held steady at its late-October meeting.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "Richmond Fed President Thomas Barkin also expects higher rates but is unsure of the timing.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "October average hourly earnings growth",
+      "value": 3.1,
+      "unit": "%",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "label": "September consumer price inflation",
+      "value": 3.7,
+      "unit": "%",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "label": "Unemployment rate, October",
+      "value": 4.1,
+      "unit": "%",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "nfl-madrid",
+    "headline": "Bengals Beat Falcons 34-17 in Madrid",
+    "what_happened": "Cincinnati beat Atlanta 34-17 at the Bernabeu stadium in Madrid on Sunday 8 November.",
+    "why_it_matters": "The NFL is taking games abroad.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Bengals beat the Falcons 34-17 on Sunday 8 November 2026 at the Bernabeu stadium in Madrid, Spain.",
+      "source_url": "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/"
+     },
+     {
+      "fact": "Joe Burrow passed for 271 yards on 24 of 29 attempts, threw three touchdown passes and ran for another; the Bengals improved to 6-2 and the Falcons fell to 3-6.",
+      "source_url": "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/"
+     },
+     {
+      "fact": "The game came two weeks after the NFL played a game in Paris.",
+      "source_url": "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Madrid, Spain",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CBS Sports",
+      "title": "Bengals vs. Falcons takeaways: Joe Burrow, Cincinnati offense roll over Falcons in Spain",
+      "url": "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/",
+      "published": "2026-11-08",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "delhi-diwali-air",
+    "headline": "Delhi Breathes Very Poor Air on Diwali as Forecasters Warn of Worse",
+    "what_happened": "Delhi's average air quality index was 376 on Diwali, Sunday 8 November, in the very poor band, and forecasters expect severe air from Monday. Stage III of the Graded Response Action Plan is in force, and the Supreme Court has been hearing the pollution case.",
+    "why_it_matters": "Fine particles in smoggy air can harm lungs, and the rules in force change how people travel, build and go to school.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Delhi's average AQI was 376 on Diwali, Sunday 8 November, in the 'very poor' category, up from 369 on Saturday.",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     },
+     {
+      "fact": "At 7 pm, of 59 CPCB stations reporting, 19 were in the 'severe' range, 33 'very poor' and 7 'poor'; the worst reading was Jahangirpuri at 460.",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     },
+     {
+      "fact": "PM2.5 was the predominant pollutant, with firecracker emissions adding to particulate levels; low wind speeds and poor ventilation were trapping pollutants.",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     },
+     {
+      "fact": "The Early Warning System expects 'severe' air from Monday 9 November for several following days.",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     },
+     {
+      "fact": "The Decision Support System estimated transport at 19% of the pollution load; stubble burning was estimated at 3.5% on Sunday.",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     },
+     {
+      "fact": "On Diwali morning the citywide AQI was 383; 24 of 54 monitoring stations recorded 'severe' air and the rest 'very poor'.",
+      "source_url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+     },
+     {
+      "fact": "Stations above 400 that morning included Punjabi Bagh 449, RK Puram 448, Bawana 446, IIT Delhi 445 and Rohini 445; India Gate read 398, Akshardham Temple 336 and Anand Vihar 328.",
+      "source_url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+     },
+     {
+      "fact": "On Friday 6 November the Commission for Air Quality Management (CAQM) invoked Stage III of the Graded Response Action Plan across Delhi-NCR as a precaution, on top of Stages I and II.",
+      "source_url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+     },
+     {
+      "fact": "Stage III measures include barring BS-III petrol and BS-IV diesel four-wheelers, suspending non-essential dust-intensive construction, hybrid mode for schools up to Class 5, and possibly 50% office capacity.",
+      "source_url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+     },
+     {
+      "fact": "CPCB scale: 301-400 is 'very poor' and 401-500 is 'severe'.",
+      "source_url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+     },
+     {
+      "fact": "On Friday 6 November the Supreme Court, with CJI Surya Kant, heard its own case on Delhi-NCR air pollution; he said the AQI was already close to 400 and that vehicle emissions were a major contributor.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "Amicus curiae Aparajita Singh said stubble burning accounts for about 14% of pollution and compared the air to smoking 30 cigarettes a day.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "The court asked authorities for immediate, medium-term and long-term plans, including steps to reduce traffic congestion linked to inadequate public transport, and said controlling pollution needs a 'people's movement'.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "The court asked the Delhi government to involve local councillors to discourage polluting firecrackers during Diwali; the next hearing is on 16 November.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "At the 6 November hearing the bench, led by CJI Surya Kant with Justices Joymalya Bagchi and V Mohana, noted 'bumper-to-bumper' traffic on roads linking Delhi to Gurugram, Faridabad, Ghaziabad and Greater Noida.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "Overall AQI was 391 at 9 am on 6 November; of 59 monitoring stations, 30 recorded 'severe' air and the rest 'very poor', with Rohini worst at 475 and IIT Delhi at 472.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "The court said farmers should be educated about stubble burning, since they would stop once they understood the economic costs, and that excessive judicial orders can lead to more violations.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "The court acknowledged that Diwali gives poorer people a chance to earn a living but said pollution concerns must also be addressed; on a plea to close physical school classes during high AQI, it said it would follow expert opinion.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     },
+     {
+      "fact": "Delhi Environment Minister Manjinder Singh Sirsa blamed the AAP-led Punjab government for rising stubble burning and shared a satellite image of farm fires.",
+      "source_url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Delhi average AQI on Diwali",
+      "value": 376,
+      "unit": "AQI",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     },
+     {
+      "label": "Jahangirpuri reading",
+      "value": 460,
+      "unit": "AQI",
+      "source_url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+     }
+    ],
+    "geography": "Delhi and the National Capital Region, with Haryana, Uttar Pradesh and Rajasthan districts under GRAP",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "IBTimes India",
+      "title": "Delhi chokes on Diwali smoke as AQI hits 376; severe pollution looms",
+      "url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "ETV Bharat",
+      "title": "Delhi Air Quality Slips To 'Severe' On Diwali Morning",
+      "url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "SC terms vehicular emissions major contributor to air pollution in Delhi-NCR",
+      "url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ayodhya-deepotsav",
+    "headline": "Ayodhya Lights Over 36 Lakh Lamps for Deepotsav Before Diwali",
+    "what_happened": "Local officials said over 36 lakh earthen lamps were lit on 56 ghats along the Saryu in Ayodhya on the eve of Diwali.",
+    "why_it_matters": "A festival of light that is also a record attempt.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Telangana Today reports Ayodhya glowed with a record 36 lakh earthen lamps for Deepotsav 2026.",
+      "source_url": "https://telanganatoday.com/deepotsav-2026-ayodhya-glows-with-record-36-lakh-earthen-lamps"
+     }
+    ],
+    "numbers": [],
+    "geography": "Ayodhya, Uttar Pradesh, on the Saryu river",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Telangana Today",
+      "title": "Deepotsav 2026: Ayodhya glows with record 36 lakh earthen lamps",
+      "url": "https://telanganatoday.com/deepotsav-2026-ayodhya-glows-with-record-36-lakh-earthen-lamps",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "israel-eisenkot",
+    "headline": "Eisenkot Gets Israel's Mandate to Build a Government, but Has No Majority Yet",
+    "what_happened": "Israeli President Isaac Herzog formally gave former army chief Gadi Eisenkot the task of forming a government on 8 November; neither Netanyahu's bloc nor Eisenkot's has a majority.",
+    "why_it_matters": "It shows how coalitions are built in a parliament where no party wins a majority alone.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Israeli President Isaac Herzog gave opposition candidate Gadi Eisenkot the first opportunity to form a governing coalition after the 27 October elections.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Eisenkot, a former military chief, was the main challenger to Prime Minister Benjamin Netanyahu; he said 'This is the time to establish a national emergency government.'",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Netanyahu and his allies lost their parliamentary majority, but Eisenkot's bloc did not win one either; Arab-led parties, which made historic gains, could be kingmakers.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "An Arab party has been in a governing coalition only once in Israel's history.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Netanyahu called for a 'national unity government' and warned against 'hastily swearing in a government with terrorist supporters.' Likud is the largest single party.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Obstacles include Netanyahu's reliance on religious parties that want draft exemptions for ultra-Orthodox men, and his opposition to a formal investigation into the 7 October 2023 security failures.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Eisenkot could try a minority government backed by Arab parties from outside the coalition, but other members of his bloc have said they would reject that.",
+      "source_url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+     },
+     {
+      "fact": "Eisenkot formally received the mandate on Sunday 8 November at the President's Residence in Jerusalem, after Herzog secured 67 MK recommendations; he has 28 days, and the president may grant an extension of up to 14 days.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "Until a new government wins the Knesset's confidence and takes office, the outgoing government stays in place as a caretaker.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "Herzog tasked Yashar chairman Gadi Eisenkot on Saturday evening 7 November; Eisenkot received the mandate at a ceremony at the President's Residence on Sunday.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "In recommendations to the president, Eisenkot received 67 and Netanyahu 46 in the 120-seat Knesset; United Torah Judaism (7 seats) recommended no one.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "The 'change bloc' led by Eisenkot has 48 seats; adding UTJ's 7 gives 55, and adding Shas's 6, if it does not oppose, gives 61, a razor-thin majority.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Yashar's four principles for partners are: recognising Hamas as a terrorist organisation, recognising Israel as a Jewish and democratic state, accepting the values of the Declaration of Independence, and mandatory service for all.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Eisenkot says he will not partner with Netanyahu and that anyone with a major post on 7 October 2023 must leave public life.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Netanyahu has called for a 'national unity government', but it would include Religious Zionism, Otzma Yehudit and the Haredi parties, which is seen as a likely nonstarter; he has warned that a government backed by Arab parties would destroy Israel.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Yisrael Beytenu leader Avigdor Liberman said he was open to 'painful compromises' on Haredi enlistment to form a government without Netanyahu or the Arab parties.",
+      "source_url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+     },
+     {
+      "fact": "Netanyahu's bloc won 53 seats, the opposition bloc 48, and Ra'am and the Joint List 19 combined, a record; no bloc reached the 61-seat majority. Likud remains the largest faction with 27 seats.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "Eisenkot said 'unconventional steps' are needed and described the country as 'approaching a point of no return'; he invited all Knesset parties to accept four principles as conditions for joining his coalition.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "If the first candidate fails, the president has 3 days to assign another MK or tell the Knesset speaker no government can be formed; a second candidate gets 28 days with no extension.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     },
+     {
+      "fact": "If that also fails, there are 21 days in which at least 61 MKs can jointly ask the president to assign a specific lawmaker, who gets 14 days; if all attempts fail, the Knesset is dissolved and a new election is held.",
+      "source_url": "https://www.jpost.com/israel-election-2026/article-914236"
+     }
+    ],
+    "numbers": [],
+    "geography": "Jerusalem, Israel",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Israel's president taps opposition candidate Eisenkot to form a government, in setback for Netanyahu",
+      "url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "The Jerusalem Post",
+      "title": "Gadi Eisenkot receives Knesset mandate from President Isaac Herzog",
+      "url": "https://www.jpost.com/israel-election-2026/article-914236",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "The Times of Israel",
+      "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+      "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
+      "published": "2026-11-08",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-democrats",
+    "headline": "Democrats Plan Their First 100 Hours After Winning Congress",
+    "what_happened": "After winning majorities in the House and Senate, Democrats plan early votes on health-insurance subsidies, Medicaid, tariffs and the Iran war when they take over in January.",
+    "why_it_matters": "It shows how a party that wins a chamber sets the agenda, and which bills could affect family costs.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Democrats won majorities in the Senate and House and plan to pass a flurry of bills when they take office next January.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "In the House's first 100 hours they plan votes on reinstating enhanced ACA health insurance subsidies, which expired under the Republican-held Congress, and on reversing the Medicaid cuts Trump signed last year.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "They also plan a bill to undo Trump's sweeping tariffs and restore Congress's role in setting import taxes, and another vote on ending the Iran war or requiring congressional authorization to continue it.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Democrats are focusing on high costs for gas and groceries.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Minority Leader Hakeem Jeffries is likely to become Speaker and would be the first Black Speaker in US history.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Jeffries said investigation targets haven't been chosen and will be discussed over the next couple of weeks; Sen. Ron Wyden pledged the Finance panel would focus on 'affordability for us, accountability for them.'",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     },
+     {
+      "fact": "Some Democrats want an ethics package that could ban stock trading by members of Congress and executive officials and limit super PAC spending.",
+      "source_url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+     }
+    ],
+    "numbers": [],
+    "geography": "Washington, D.C., United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Democrats map out an agenda to address affordability and corruption after midterm sweep",
+      "url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html",
+      "published": "2026-11-04",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-markets",
+    "headline": "India's Share Markets Post Their Biggest Weekly Gain Since 2021 as Oil Falls",
+    "what_happened": "The Nifty 50 rose 8.58% and the Sensex 8.82% in the week of 2 to 6 November as crude oil fell and foreign investors returned.",
+    "why_it_matters": "Oil prices and foreign money flow into the rupee, import costs and household prices.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Nifty 50 rose 8.58% in the week of 2 to 6 November, its biggest weekly gain since the week ended 1 February 2021, and closed at about 25,000 on 6 November; the Sensex rose 8.82%.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "Bank Nifty gained 8.04%, Nifty Midcap 100 rose 5.77% and Nifty Smallcap 100 rose 2.77%.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "Year to date, the Nifty and Sensex are still down about 4.4% and 5%.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "Brent crude fell sharply during the week and dipped below $100 a barrel, later rebounding to $98.29.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "Foreign institutional investors put in Rs 45,960.02 crore from 2 to 6 November.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "The rupee recovered to Rs 94.48 per dollar on 5 November.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "Concerns listed include crude volatility and Middle East tensions after tanker attacks, and worries about an RBI rate hike.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "US markets fell that week: Nasdaq Composite -3.37%, S&P 500 -2.68% and Dow Jones -0.94%.",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "fact": "Indian markets rose in all five sessions of the week, their strongest week in almost six years; the Nifty 50 gained 1,977 points to close at 25,030 and the Sensex gained 6,568 points to 81,028.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "Sectors leading the week included capital markets (+10.7%), financial services (+10.4%), realty (+10.1%), consumer durables (+10.0%) and oil and gas (+9.5%); IT, media, defence, healthcare and pharma lagged.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "Brent crude (January contract) fell $15, or 13.3%, from $113 to $98 a barrel, and US WTI fell from $104 to $90; this was the sharpest weekly decline since 2020, with drivers including hopes of de-escalation with Iran and improved Gulf exports.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "Lower oil reduces India's import bill, inflation pressure and dollar demand.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "Foreign institutional investors bought a net Rs 45,960.02 crore of shares in the cash market, after net sales of Rs 45,161.71 crore in October; domestic institutions sold a net Rs 24,196.52 crore.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "The 10-year benchmark bond yield fell 22 basis points to 7.19%.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "India's October consumer price inflation is due on Thursday 12 November; market participants expect 5.9%, up from 5.5% in September and close to the RBI's 6% upper tolerance limit, and a print near or above 6% would strengthen expectations of an RBI rate hike in December.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     },
+     {
+      "fact": "Indian markets are closed on Tuesday 10 November for Diwali-Balipratipada; US October consumer prices are due the same day.",
+      "source_url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Nifty 50 weekly gain",
+      "value": 8.58,
+      "unit": "%",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "label": "Sensex weekly gain",
+      "value": 8.82,
+      "unit": "%",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "label": "Bank Nifty weekly gain",
+      "value": 8.04,
+      "unit": "%",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "label": "Nifty Midcap 100 weekly gain",
+      "value": 5.77,
+      "unit": "%",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     },
+     {
+      "label": "Nifty Smallcap 100 weekly gain",
+      "value": 2.77,
+      "unit": "%",
+      "source_url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Weekly Market Rewind (Substack)",
+      "title": "Weekly Market Rewind: Nov 2 - Nov 8, 2026",
+      "url": "https://weeklymarketrewind.substack.com/p/weekly-market-rewind-nov-2-nov-8-2026",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "Upstox",
+      "title": "Week ahead: Muhurat trading, India-US inflation, crude oil prices, FIIs activity among key market triggers to watch",
+      "url": "https://upstox.com/news/market-news/trading/week-ahead-muhurat-trading-india-us-inflation-crude-oil-prices-fi-is-activity-among-key-market-triggers-to-watch/article-203165/",
+      "published": "2026-11-08",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-fed",
+    "headline": "Fed Official Says More Interest-Rate Rises Likely as Prices Outrun Pay",
+    "what_happened": "San Francisco Fed president Mary Daly said she expects more tightening, after a jobs report showing 165,000 new jobs in October but pay growing slower than prices.",
+    "why_it_matters": "Interest rates set what loans, mortgages and savings cost, so Fed decisions reach family budgets.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "San Francisco Fed President Mary Daly told CNBC she expects further tightening, saying 'Exactly when and how much is still to be decided.'",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "The US economy added 165,000 jobs in October, nearly triple the Dow Jones consensus estimate, and unemployment edged down to 4.1%.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "Average hourly earnings rose 3.1% over the year in October, below September's 3.7% consumer price inflation.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "Daly described Americans as being on a 'treadmill of high inflation', noting inflation has been elevated for almost six years.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "The Fed raised its benchmark rate by a quarter point in September, to a target range of 3.75%-4%, and held steady at its late-October meeting.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "fact": "Richmond Fed President Thomas Barkin also expects higher rates but is unsure of the timing.",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "October average hourly earnings growth",
+      "value": 3.1,
+      "unit": "%",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "label": "September consumer price inflation",
+      "value": 3.7,
+      "unit": "%",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     },
+     {
+      "label": "Unemployment rate, October",
+      "value": 4.1,
+      "unit": "%",
+      "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "space-cold-atoms",
+    "headline": "Atoms on China's Space Station Chilled to a Record Low Temperature",
+    "what_happened": "Scientists cooled about 20,000 rubidium atoms on China's Tiangong space station to about 10 picokelvins, reported in Science on 5 November.",
+    "why_it_matters": "Ultracold atoms let researchers study exotic states of matter and test basic physics.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Scientists cooled atoms to about 10 picokelvins, or 10 trillionths of a kelvin; absolute zero is -273.15 C.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "The atoms formed a Bose-Einstein condensate, a quantum state of matter, described as colder than any before; the result was reported on 5 November 2026 in the journal Science.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "The experiment used about 20,000 rubidium atoms on China's Tiangong space station, held by laser-based traps that reduced their motion.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Temperature relates to how fast particles move; slower-moving atoms are colder. Scientists define an effective temperature for cold atom clouds by measuring how slowly the atoms spread out when released.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "On Earth, gravity makes atom clouds sag, which limits cooling; in orbit, microgravity allows colder temperatures.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Previous records: 52 picokelvins on the International Space Station and 38 picokelvins in an Earth drop tower, where weightlessness lasts only as long as the fall.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Ultracold atoms let researchers study exotic states of matter and test basic physics, including the equivalence principle, which holds that objects of different masses fall at the same rate in a vacuum.",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "fact": "Researchers led by Wei Xiong reported an equivalent temperature of 9.7 picokelvin, with an uncertainty range of 7.0 to 12.9 picokelvin, about four times lower than the previous record.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "The 'equivalent temperature' describes the cloud's expansion energy and velocity, because ordinary thermodynamic temperature isn't practical for these experiments.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "The team used an optical dipole trap, which uses focused laser beams to hold neutral atoms, laser cooling and evaporative cooling (which removes higher-energy atoms) to form the condensate from about 20,000 rubidium atoms.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "They then transferred the atoms into a wider optical trap, weakened its confinement to reduce expansion energy, and measured the cloud's expansion in three dimensions.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "The team could track the free expansion for 7 seconds; the drop-tower record of 38 picokelvin had a 2-second free expansion time and the ISS Cold Atom Laboratory record of 52 picokelvin a 1-second one.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "The authors describe Bose-Einstein condensates as 'versatile platforms for quantum simulation' and plan a space-based atom interferometer for precision tests of fundamental principles such as the equivalence principle.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "Unlike the atom-chip approach used in earlier space work, the Tiangong rack traps atoms with two nested optical dipole traps; Holger Mueller of UC Berkeley said the roughly 7-second expansion time is arguably a more important figure than the temperature, since long expansion times suit interferometry tests of gravity.",
+      "source_url": "https://www.science.org/content/article/china-space-experiment-creates-coldest-temperature-ever"
+     },
+     {
+      "fact": "The team used a magnetic-field gradient to improve the initial cooling, producing a condensate less sensitive to magnetic disturbances.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "The International Space Station's Cold Atom Laboratory record of 52 picokelvin used magnetic trapping and matter-wave lensing.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     },
+     {
+      "fact": "Planned uses include quantum simulation of low-temperature physics in space, including exotic quantum phases, and adjustable-volume traps that could increase the number of atoms available for experiments.",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "record temperature",
+      "value": 10,
+      "unit": "picokelvins",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "label": "previous space record (ISS)",
+      "value": 52,
+      "unit": "picokelvins",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     },
+     {
+      "label": "drop-tower record",
+      "value": 38,
+      "unit": "picokelvins",
+      "source_url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+     }
+    ],
+    "geography": "Earth orbit, aboard China's Tiangong space station",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Record-low temperature created on China's space station",
+      "url": "https://sciencenews.org/article/lowest-temperature-china-space-station",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "Phys.org",
+      "title": "Scientists achieve record-breaking low temperature on China's space station",
+      "url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html",
+      "published": "2026-11-05",
+      "primary": false
+     },
+     {
+      "outlet": "Science (AAAS)",
+      "title": "China space experiment creates coldest temperature ever",
+      "url": "https://www.science.org/content/article/china-space-experiment-creates-coldest-temperature-ever",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}

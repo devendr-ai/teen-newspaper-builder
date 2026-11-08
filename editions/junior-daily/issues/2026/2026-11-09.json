@@ -1,0 +1,200 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-09",
+  "volume": 1,
+  "issue": 27,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE",
+      "headline": "Europe Will Join Ukraine Talks in Abu Dhabi After Missiles Hit Kyiv",
+      "deck": "Officials from Ukraine, Russia and the United States meet in the United Arab Emirates on Tuesday and Wednesday.",
+      "body": [
+        "Kyiv is the capital of Ukraine. Overnight into Saturday, Russia fired 36 ballistic missiles and 172 drones, and President Volodymyr Zelensky said all 36 missiles were aimed at Kyiv and the area around it. Nine people were wounded, including one child. Only four missiles were shot down, he said.",
+        "Zelensky said the energy system was again the main target. Kyiv had trouble with electricity, water and heating.",
+        "The talks are in Abu Dhabi, in the United Arab Emirates. Ukraine, Russia and the United States meet there on Tuesday and Wednesday, the first US-led round since February. On Sunday, France’s foreign minister said European officials will go too. Russia had ruled out a European role."
+      ],
+      "map": {
+        "title": "WHERE THE TALKS ARE",
+        "label_top": "UKRAINE, RUSSIA AND THE UAE",
+        "label_bottom": "KYIV WAS HIT; TALKS ARE IN ABU DHABI",
+        "footnote": "France says Europe will join the Abu Dhabi talks",
+        "caption": "The map marks Ukraine, where Kyiv was hit, Russia, and the United Arab Emirates, where Abu Dhabi hosts the talks.",
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United Arab Emirates"
+        ],
+        "place": "Kyiv"
+      },
+      "why": "These talks could decide whether fighting in Ukraine slows, and countries far away want a say.",
+      "sources": [
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia Fires 36 Ballistic Missiles at Kyiv and Region, Damaging Power Grid",
+          "url": "https://www.kyivpost.com/post/89424"
+        },
+        {
+          "outlet": "NPR (via KPBS)",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SPACE",
+      "headline": "Atoms on China’s Space Station Get Colder Than Ever Before",
+      "deck": "Scientists chilled about 20,000 atoms to a record low.",
+      "body": [
+        "Slow atoms are cold atoms. Scientists on China’s Tiangong space station cooled about 20,000 rubidium atoms to about 10 picokelvins. That is 10 trillionths of a kelvin.",
+        "Lasers held the atoms in a trap and slowed them. On Earth gravity makes atom clouds sag, which limits cooling, so orbit helps.",
+        "The result was reported on 5 November in the journal Science. The old records were 52 picokelvins on the International Space Station and 38 in a drop tower."
+      ],
+      "chart": {
+        "title": "HOW COLD? (LOWER IS COLDER)",
+        "subtitle": "Temperature in picokelvins",
+        "labels": [
+          "Tiangong",
+          "Drop tower",
+          "ISS"
+        ],
+        "values": [
+          10,
+          38,
+          52
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Tiangong’s 10 picokelvins beat the drop tower’s 38 and the ISS record of 52."
+      },
+      "why": "Ultracold atoms help scientists study strange states of matter and test basic physics.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Record-low temperature created on China’s space station",
+          "url": "https://sciencenews.org/article/lowest-temperature-china-space-station"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Iran: Its foreign minister said it is time for the White House to make its choice.",
+        "United States: Democrats say they will vote early on health-insurance help when they take over Congress in January."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Europe is allowed a seat at the Abu Dhabi talks.",
+        "Whether the US and Iran restart talks."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.kyivpost.com/post/89424",
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+    "https://sciencenews.org/article/lowest-temperature-china-space-station",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many ballistic missiles did Russia fire at the Kyiv area overnight into Saturday?",
+        "options": [
+          "16",
+          "36",
+          "172"
+        ],
+        "answer": 1,
+        "why": "Zelensky said Russia fired 36 ballistic missiles.",
+        "story": "lead"
+      },
+      {
+        "q": "In which city will the talks be held?",
+        "options": [
+          "Abu Dhabi",
+          "Geneva",
+          "Madrid"
+        ],
+        "answer": 0,
+        "why": "Talks are in Abu Dhabi, in the United Arab Emirates.",
+        "story": "lead"
+      },
+      {
+        "q": "What did the scientists cool to about 10 picokelvins?",
+        "options": [
+          "Water",
+          "Rubidium atoms",
+          "Air"
+        ],
+        "answer": 1,
+        "why": "About 20,000 rubidium atoms were cooled.",
+        "story": "world"
+      },
+      {
+        "q": "Why is it easier to cool atoms in orbit?",
+        "options": [
+          "Gravity is weaker so clouds do not sag",
+          "It is brighter",
+          "There are more lasers"
+        ],
+        "answer": 0,
+        "why": "On Earth gravity makes atom clouds sag, which limits cooling.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Only four of the 36 ballistic missiles were shot down, Zelensky said.",
+        "true": true,
+        "why": "He said only four were intercepted.",
+        "story": "lead"
+      },
+      {
+        "claim": "France’s foreign minister said no European officials will go to Abu Dhabi.",
+        "true": false,
+        "why": "He said European officials will attend.",
+        "story": "lead"
+      },
+      {
+        "claim": "The old space record was 52 picokelvins, set on the International Space Station.",
+        "true": true,
+        "why": "The ISS record was 52 picokelvins.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many drones did Russia launch overnight into Saturday?",
+        "answer": 172,
+        "prefix": "",
+        "unit": "drones",
+        "min": 0,
+        "max": 400,
+        "why": "Russia launched 172 strike drones."
+      },
+      {
+        "story": "world",
+        "q": "About how many atoms did the scientists cool?",
+        "answer": 20000,
+        "prefix": "",
+        "unit": "atoms",
+        "min": 0,
+        "max": 50000,
+        "why": "About 20,000 rubidium atoms were cooled."
+      }
+    ]
+  }
+}
