@@ -1,0 +1,540 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-09",
+  "volume": 1,
+  "issue": 23,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  MIDDLE EAST",
+      "headline": "Iran Says Peace Talks Wait for Washington as Ships Are Still Hit",
+      "deck": "Iran’s foreign minister says mediators have not travelled since the US elections.",
+      "body": [
+        "Iran’s foreign minister, Abbas Araghchi, said on Sunday that the go-betweens trying to end the war between Iran and the United States have not travelled since America’s midterm elections. These go-betweens are called mediators. He said it is “time for the White House to make its own” choice.",
+        "President Trump gave a softer message. He told CNN that restarting attacks on Iran is “highly unlikely” if talks make progress. The talks are stuck on reopening the Strait of Hormuz and on Iran’s nuclear technology.",
+        "The Strait of Hormuz is a narrow sea passage that oil tankers use. The UK Maritime Trade Operations centre said at least 11 ships were attacked in and around it in the week ending November 6. Three sank.",
+        "The average price of gasoline in the US was $4.06 a gallon on November 5 and 6."
+      ],
+      "map": {
+        "title": "THE STRAIT OF HORMUZ",
+        "label_top": "IRAN, OMAN AND QATAR",
+        "label_bottom": "SHIPS ATTACKED IN AND AROUND THE STRAIT",
+        "footnote": "Qatar is one of the countries helping Iran and the US to talk",
+        "caption": "The map marks Iran and Oman, which border the Strait of Hormuz, and Qatar, whose leader is a key mediator.",
+        "countries": [
+          "Iran",
+          "Oman",
+          "Qatar"
+        ],
+        "place": "Strait of Hormuz"
+      },
+      "why": "Oil and gas pass through this narrow strait, so trouble there can change what a family pays for fuel.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Live updates: Iran war, Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Europe Will Join Ukraine Talks in Abu Dhabi After a Missile Barrage on Kyiv",
+      "deck": "Russia fired 36 ballistic missiles at the Kyiv area before talks.",
+      "body": [
+        "Overnight into Saturday, Russia fired 36 ballistic missiles and 172 drones. President Volodymyr Zelensky said all 36 missiles were aimed at Kyiv, Ukraine’s capital, and the area around it. Only four were shot down, he said. Nine people were wounded.",
+        "A bridge over the Dnipro River was hit, and Kyiv had trouble with electricity, running water and heating.",
+        "Delegations from Ukraine, Russia and the United States plan to meet in Abu Dhabi, in the United Arab Emirates, on November 10 and 11. It is the first round of talks led by the US since February.",
+        "On Sunday, France’s foreign minister, Jean-Noël Barrot, said European officials will attend too. The Kremlin’s spokesman had said there was no role for Europe.",
+        "Russia has demanded that Ukraine give up large parts of its land and give up joining NATO."
+      ],
+      "chart": {
+        "title": "MISSILES AIMED AT KYIV AREA",
+        "subtitle": "Overnight into November 7, ballistic missiles",
+        "labels": [
+          "Fired",
+          "Shot down"
+        ],
+        "values": [
+          36,
+          4
+        ],
+        "max": 40,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Russia fired 36 ballistic missiles; Zelensky said only four were intercepted."
+      },
+      "connect": "History: this is the fourth US-brokered round, after talks in Geneva in February.",
+      "sources": [
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia Fires 36 Ballistic Missiles at Kyiv and Region, Damaging Power Grid",
+          "url": "https://www.kyivpost.com/post/89424"
+        },
+        {
+          "outlet": "NPR (via KPBS)",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CONGRESS",
+      "headline": "Democrats Plan Their First 100 Hours After Winning Congress",
+      "deck": "Votes on health insurance, Medicaid, tariffs and the Iran war are planned for January.",
+      "body": [
+        "Democrats won majorities in both the House and the Senate in the midterm elections. They take office next January, and they are already planning what to do first. In the House, they talk about their “first 100 hours”.",
+        "One vote would bring back stronger help with health insurance costs. This help comes from the Affordable Care Act and ran out while Republicans held Congress. Another vote would undo cuts to Medicaid, the government health plan for people with low incomes.",
+        "Democrats also want a bill to undo Trump’s large tariffs, which are taxes on goods from other countries, and to give Congress back its role in setting them. They plan another vote on ending the Iran war, or on making Trump ask Congress before continuing it.",
+        "Hakeem Jeffries, now the Democrats’ leader in the House, is likely to become Speaker. He would be the first Black Speaker in US history. He said investigation targets have not been chosen yet."
+      ],
+      "why": "The party that controls Congress decides which bills get votes, so these plans could change health care and prices for families.",
+      "also": [
+        "The Fed’s Mary Daly says more interest-rate rises are likely.",
+        "Daly says Americans are on a “treadmill of high inflation”."
+      ],
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Democrats map out an agenda to address affordability and corruption after midterm sweep",
+          "url": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+          "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Live updates: Iran war, Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Israel: President Isaac Herzog asked Gadi Eisenkot, Netanyahu’s main challenger, to try to form a government.",
+        "India: Telangana Today reports Ayodhya lit 36 lakh earthen lamps for Deepotsav, before Diwali."
+      ],
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Israel's president taps opposition candidate Eisenkot to form a government, in setback for Netanyahu",
+          "url": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html"
+        },
+        {
+          "outlet": "Telangana Today",
+          "title": "Deepotsav 2026: Ayodhya glows with record 36 lakh earthen lamps",
+          "url": "https://telanganatoday.com/deepotsav-2026-ayodhya-glows-with-record-36-lakh-earthen-lamps"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why can a narrow sea route matter to families far away?",
+        "If you could make a new rule to clean the air in a big city, what would it be?"
+      ],
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Live updates: Iran war, Strait of Hormuz",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "More ships attacked in Persian Gulf, oil prices rebound slightly after post-midterm plunge",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia Fires 36 Ballistic Missiles at Kyiv and Region, Damaging Power Grid",
+          "url": "https://www.kyivpost.com/post/89424"
+        },
+        {
+          "outlet": "NPR (via KPBS)",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        },
+        {
+          "outlet": "IBTimes India",
+          "title": "Delhi chokes on Diwali smoke as AQI hits 376; severe pollution looms",
+          "url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Delhi Air Quality Slips To 'Severe' On Diwali Morning",
+          "url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "SC terms vehicular emissions major contributor to air pollution in Delhi-NCR",
+          "url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  DELHI",
+      "headline": "Delhi Breathes Very Poor Air on Diwali, and Worse Is Forecast",
+      "deck": "The city’s air quality index averaged 376 on Sunday, and forecasters expect “severe” air from Monday.",
+      "body": [
+        "Diwali, the festival of lights, was on Sunday. In Delhi the air was very poor. The Air Quality Index, a number that tells how dirty the air is, averaged 376. It was 369 on Saturday. On the official scale, 301 to 400 is “very poor” and 401 to 500 is “severe”.",
+        "At 7 pm, 19 of 59 monitoring stations showed “severe” air, and 33 showed “very poor”. Jahangirpuri was worst at 460. The main pollutant was PM2.5, tiny particles in smoke, and firecrackers added to it. Light winds trapped the dirty air. A warning system expects “severe” air from Monday for several days.",
+        "Rules are already in force. On Friday an air-quality commission started Stage III of its plan across Delhi and nearby districts. Some older cars may not drive, dusty building work stops, and schools up to Class 5 go to hybrid mode.",
+        "The Supreme Court also acted. Chief Justice Surya Kant said the AQI was close to 400 and that vehicle fumes were a big cause. He called for a “people’s movement”. The court wants short, medium and long plans, and the next hearing is on November 16."
+      ],
+      "why": "Dirty air can harm people’s lungs, and the rules for it change how families travel and how children go to school.",
+      "sources": [
+        {
+          "outlet": "IBTimes India",
+          "title": "Delhi chokes on Diwali smoke as AQI hits 376; severe pollution looms",
+          "url": "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213"
+        },
+        {
+          "outlet": "ETV Bharat",
+          "title": "Delhi Air Quality Slips To 'Severe' On Diwali Morning",
+          "url": "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658"
+        },
+        {
+          "outlet": "The Tribune",
+          "title": "SC terms vehicular emissions major contributor to air pollution in Delhi-NCR",
+          "url": "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS",
+      "body": "<b>Football:</b> The Cincinnati Bengals beat the Atlanta Falcons 34-17 in Madrid, Spain, on Sunday, with Joe Burrow throwing three touchdown passes.",
+      "sources": [
+        {
+          "outlet": "CBS Sports",
+          "title": "Bengals vs. Falcons takeaways: Joe Burrow, Cincinnati offense roll over Falcons in Spain",
+          "url": "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Europe gets a seat at the Abu Dhabi talks on November 10 and 11.",
+        "Whether mediators travel again to restart US-Iran talks."
+      ]
+    },
+    "quote": {
+      "text": "A good question at breakfast can be the start of the best story of the day.",
+      "by": "The Breakfast Table"
+    }
+  },
+  "sources": [
+    "https://telanganatoday.com/deepotsav-2026-ayodhya-glows-with-record-36-lakh-earthen-lamps",
+    "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+    "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+    "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+    "https://www.cbssports.com/nfl/news/bengals-vs-falcons-live-updates-score-highlights/live/",
+    "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html",
+    "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+    "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html",
+    "https://www.etvbharat.com/en/bharat/delhi-air-quality-remains-slips-to-severe-on-diwali-morning-several-areas-record-400-aqi-enn26110800658",
+    "https://www.ibtimes.co.in/delhi-chokes-diwali-smoke-aqi-hits-376-severe-pollution-looms-908213",
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+    "https://www.kyivpost.com/post/89424",
+    "https://www.tribuneindia.com/news/delhi/sc-terms-vehicular-emissions-major-contributor-to-air-pollution-in-delhi-ncr/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Who said it is time for the White House to make its own choice?",
+        "options": [
+          "Iran’s foreign minister",
+          "Qatar’s leader",
+          "A shipping group"
+        ],
+        "answer": 0,
+        "why": "Abbas Araghchi said it was time for the White House to make its own choice.",
+        "story": "lead"
+      },
+      {
+        "q": "Where will the talks between Ukraine, Russia and the US be held?",
+        "options": [
+          "Geneva",
+          "Abu Dhabi",
+          "Kyiv"
+        ],
+        "answer": 1,
+        "why": "The talks are planned in Abu Dhabi on November 10 and 11.",
+        "story": "world"
+      },
+      {
+        "q": "What is a Democrat plan for the House’s first 100 hours?",
+        "options": [
+          "Cancel Diwali",
+          "Vote on health insurance help",
+          "Close the Supreme Court"
+        ],
+        "answer": 1,
+        "why": "They plan a vote to bring back stronger health insurance help.",
+        "story": "us"
+      },
+      {
+        "q": "What was Delhi’s average air quality index on Diwali?",
+        "options": [
+          "176",
+          "276",
+          "376"
+        ],
+        "answer": 2,
+        "why": "Delhi’s AQI averaged 376, in the very poor band.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The mediators have travelled a lot since the US midterm elections.",
+        "true": false,
+        "why": "Iran’s foreign minister said they have not travelled since the elections.",
+        "story": "lead"
+      },
+      {
+        "claim": "France said European officials will attend the Abu Dhabi talks.",
+        "true": true,
+        "why": "France’s foreign minister said European officials will attend.",
+        "story": "world"
+      },
+      {
+        "claim": "Delhi’s air was in the “very poor” band on Diwali.",
+        "true": true,
+        "why": "The average AQI of 376 is in the very poor band.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.52,
+        "countries": [
+          "Ukraine"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How many strike drones did Russia launch overnight into Saturday?",
+        "answer": 172,
+        "prefix": "",
+        "unit": "drones",
+        "min": 0,
+        "max": 400,
+        "why": "Russia launched 172 strike drones."
+      },
+      {
+        "story": "india",
+        "q": "What was the average AQI in Delhi on Diwali?",
+        "answer": 376,
+        "prefix": "",
+        "unit": "AQI",
+        "min": 100,
+        "max": 500,
+        "why": "Delhi’s average AQI was 376, in the very poor band."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for November 9. Today we look at a busy sea route, talks about the war in Ukraine, and what Congress plans to do first.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Let’s start with the sea route. What is happening?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Strait of Hormuz"
+        },
+        {
+          "who": "maya",
+          "text": "The Strait of Hormuz is a narrow passage that oil tankers use, next to Iran. The UK Maritime Trade Operations centre said at least 11 ships were attacked in and around it in the week ending November 6, and three sank.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "And people are trying to end the fighting?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. Mediators, who are go-betweens, have been working with Iran and the United States. But Iran’s foreign minister said they have not travelled since the American elections, and that it is time for the White House to make its own choice.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "What did President Trump say?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "He told CNN that restarting attacks on Iran is highly unlikely if talks make progress. The talks are stuck on reopening the strait and on Iran’s nuclear technology.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Why does that matter at home?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Oil and gas travel through that strait. In the United States the average gasoline price was four dollars and six cents a gallon on November 5 and 6, and one analyst expects it to drop below four dollars next week.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now to Ukraine.",
+          "section": "story",
+          "story": "world",
+          "chapter": "Talks in Abu Dhabi"
+        },
+        {
+          "who": "maya",
+          "text": "Overnight into Saturday, Russia fired 36 ballistic missiles and 172 drones. President Zelensky said all the missiles were aimed at Kyiv and its region, and that only four were shot down. Nine people were wounded, including one child.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "That sounds frightening. What comes next?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Delegations from Ukraine, Russia and the United States plan to meet in Abu Dhabi, in the United Arab Emirates, on November 10 and 11. They will talk about lowering the fighting and humanitarian help.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Is anyone else joining?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "France’s foreign minister said European officials will attend too, and that France will make sure Europe’s voice is heard. The Kremlin’s spokesman had said there was no role for Europe.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Last, what is happening in Congress?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Congress plans"
+        },
+        {
+          "who": "maya",
+          "text": "Democrats won both the House and the Senate. They take office in January, and in the House they plan early votes. One would bring back stronger help with health insurance costs. Another would undo cuts to Medicaid, the government health plan for people with low incomes.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Anything about prices?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. Democrats say they will focus on high costs for gas and groceries. They also plan a bill to undo large taxes on imported goods, called tariffs.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Who said it is time for the White House to make its own choice?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "Iran’s foreign minister Abbas Araghchi said it was time for the White House to make its own choice.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "Where will the talks between Ukraine, Russia and the US be held?",
+          "section": "quiz_question",
+          "quiz": 1
+        },
+        {
+          "who": "maya",
+          "text": "Abu Dhabi The talks are planned in Abu Dhabi on November 10 and 11.",
+          "section": "quiz_answer",
+          "quiz": 1
+        },
+        {
+          "who": "maya",
+          "text": "Why can a narrow sea route matter to families far away?",
+          "section": "discussion"
+        },
+        {
+          "who": "sam",
+          "text": "Thanks for listening. Have a great day!",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}
