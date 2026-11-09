@@ -1,0 +1,400 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-11-10",
+  "volume": 1,
+  "issue": 182,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE TALKS",
+      "headline": "Ukraine, Russia and the US Meet in Abu Dhabi; Europe Seeks a Seat",
+      "deck": "Talks start on Tuesday after Russia fired 36 ballistic missiles at the Kyiv area.",
+      "body": [
+        "Abu Dhabi, in the United Arab Emirates, hosts talks on Tuesday and Wednesday between Ukraine, Russia and the United States. It is the fourth US-brokered round and the first since talks in Geneva in February. Moscow agreed to come back after US envoy Steve Witkoff met President Vladimir Putin in St. Petersburg in October.",
+        "The talks were meant to have three sides. On Sunday, French Foreign Minister Jean-Noel Barrot said European officials will attend as well, promising that “Europe’s voice” will be heard. He did not say who would go or whether they would negotiate. The Kremlin’s spokesman, Dmitry Peskov, had said the three-way format was already agreed.",
+        "The two sides are far apart. Russia wants Ukraine to give up large parts of its land and renounce NATO membership. President Volodymyr Zelenskyy wants security commitments spelled out, including who would act, and how, if Russia attacked again.",
+        "Fighting went on in the meantime. Russia fired 36 ballistic missiles and 172 strike drones overnight into Saturday. Zelensky said all 36 missiles were aimed at Kyiv and its region, and that only four were intercepted. Nine civilians were wounded, including one child, and substations that carry power to Kyiv were damaged."
+      ],
+      "map": {
+        "title": "WHERE THE TALKS ARE",
+        "label_top": "UKRAINE AND RUSSIA",
+        "label_bottom": "ABU DHABI HOSTS THE TALKS",
+        "footnote": "Kyiv was hit on 7 November",
+        "caption": "The map marks Ukraine, Russia and the United Arab Emirates, where Abu Dhabi hosts the talks.",
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United Arab Emirates"
+        ],
+        "place": "Abu Dhabi"
+      },
+      "why": "The United States is a mediator in these talks, so families there follow whether it pushes Kyiv or Moscow to give ground. For Indian families too, the outcome affects whether a long war that has hit Ukraine’s power supply continues.",
+      "sources": [
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia fires 36 ballistic missiles and 172 drones at Ukraine overnight",
+          "url": "https://www.kyivpost.com/post/89424"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SCIENCE",
+      "headline": "NASA: This Year’s Ozone Hole Was the Seventh Largest in 48 Years",
+      "deck": "It peaked on 18 September, and scientists say the ozone layer is on track to recover.",
+      "body": [
+        "High above Earth, a thin layer of ozone absorbs ultraviolet light from the Sun. That light can damage the DNA of plants and animals and cause sunburn and skin cancer. Over Antarctica, the ozone layer thins every spring, and scientists call the thin patch a “hole”. NASA reported on Monday that the 2026 hole reached its largest area on 18 September.",
+        "It ranked seventh largest by area in 48 years of monitoring, but was shallower than several other big holes. An unusually strong polar vortex, a ring of fast winds around Antarctica, created conditions that favour ozone loss over a large area. No area is completely empty of ozone. The hole is the region where ozone falls below 220 Dobson Units.",
+        "The hole was first reported in 1985, when British Antarctic Survey scientists using ground measurements at Halley Research Station reported spring ozone thinning over Antarctica. NASA satellites later showed its continental scale. Ozone over Antarctica was already as low as 124 Dobson Units in 1985. It first fell below 100 in 1991, and the deepest hole on record, 73 Dobson Units, came on 30 September 1994.",
+        "The cause is chemicals called CFCs, once used in refrigerators and aerosol sprays. Ultraviolet light breaks them apart high up, releasing chlorine that repeatedly destroys ozone. The 1987 Montreal Protocol phased out these chemicals. Scientists estimate the Antarctic ozone layer will return to 1980 levels in the 2070s.",
+        "There are signs of progress. In 2018, scientists reported the first direct satellite evidence of recovery, with ozone depletion during Antarctic winter months about 20 percent lower in 2016 than in 2005. Year-to-year changes depend on stratospheric temperature and circulation: colder conditions produce larger holes with lower ozone in their cores."
+      ],
+      "illustration": {
+        "title": "THE OZONE HOLE",
+        "subtitle": "Antarctica, Sept 2026",
+        "motif": "globe",
+        "caption": "The hole peaked on 18 September 2026."
+      },
+      "connect": "Science and geography: a 1987 international agreement shows countries can fix a problem together, and the hole forms over Antarctica because of its winds and cold.",
+      "sources": [
+        {
+          "outlet": "NASA Earth Observatory",
+          "title": "Ozone hole reaches its 2026 maximum",
+          "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  AIR",
+      "headline": "Delhi’s Air Was ‘Very Poor’ Before Diwali, and Experts Feared Worse After It",
+      "deck": "The Supreme Court allowed green crackers for two days, but forecasters warned of a severe reading from 9 November.",
+      "body": [
+        "Air quality is measured on a scale called the AQI, where higher numbers mean dirtier air. On the morning of Dhanteras, 6 November, Delhi’s overall AQI was 389, which is “very poor”. About 28 monitoring stations showed “severe” air, above 400. IIT Delhi read 473.",
+        "Experts named four causes: stubble burning, firecracker smoke during Diwali, vehicle pollution and weakening winds. The Supreme Court allowed approved green firecrackers in Delhi and nearby areas on 7 and 8 November, only from 6 am to 7 am and from 8 pm to 10 pm.",
+        "Forecasters said light winds from Diwali night might disperse some pollution on 8 November. They warned that conditions could worsen from 9 November as winds weaken. Manoj Kumar of the research group CREA said some hotspots could exceed 450 and urged stricter use of GRAP, the city’s graded plan of pollution curbs."
+      ],
+      "why": "Bad air affects every family in the city, and children’s lungs are still growing. For Indian families in the United States, it is a reminder of how far a festival’s cost can reach.",
+      "also": [
+        "Mining: India started its ninth critical minerals auction, offering 20 blocks, and cut the minimum qualified bidders from three to two.",
+        "Elections: the Election Commission will update voter lists in six states and territories, with draft lists due on 30 November."
+      ],
+      "sources": [
+        {
+          "outlet": "Business Today",
+          "title": "Delhi pollution: AQI hits 389 on Dhanteras morning",
+          "url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+        },
+        {
+          "outlet": "Bar and Bench",
+          "title": "Supreme Court allows bursting of green crackers in Delhi-NCR on November 7 and 8",
+          "url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+        },
+        {
+          "outlet": "Free Press Journal",
+          "title": "Govt launches 9th critical minerals auction with 20 blocks",
+          "url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+        },
+        {
+          "outlet": "PTI via Telangana Today",
+          "title": "EC announces Special Summary Revision of electoral rolls in six States, UTs",
+          "url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Gaza: the first winter storm of the season flooded about 70,000 tents within 12 hours, Gaza’s Government Media Office said.",
+        "Iran: Foreign Minister Abbas Araghchi said mediators have not travelled since the US midterms."
+      ],
+      "sources": [
+        {
+          "outlet": "Drop Site News",
+          "title": "Gaza floods destroy 70,000 tents",
+          "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+        },
+        {
+          "outlet": "AFP via Arab News",
+          "title": "Iran FM says no negotiations since shock of US midterms",
+          "url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Midterm elections",
+          "def": "Elections held halfway through a US president’s four-year term. Today: Democrats won both houses of Congress in the 3 November midterms."
+        },
+        {
+          "word": "Delegation",
+          "def": "A group sent to speak for a country or organisation. Today: Russia’s delegation to Abu Dhabi is led by Vladimir Medinsky."
+        },
+        {
+          "word": "Ozone",
+          "def": "A gas high in the air that absorbs ultraviolet light. Today: NASA says this year’s Antarctic ozone hole was the seventh largest on record."
+        },
+        {
+          "word": "Air quality index",
+          "def": "A number that tells how clean or dirty the air is. Today: Delhi’s AQI was 389 on 6 November, which is “very poor”."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The deepest ozone hole on record came in 1994, when ozone fell to 73 Dobson Units; scientists count a hole wherever it drops below 220."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CONGRESS",
+      "headline": "Democrats Win the House and Senate, Ending One-Party Control in Washington",
+      "deck": "With early counts at 228 House seats to 139, the party also has a Senate majority of 54 to 44.",
+      "body": [
+        "Midterm elections happen halfway through a president’s term, and this year’s were on 3 November. By early Wednesday, Democrats had regained the House of Representatives, with a 228-139 lead and several races still undecided, according to the New York Times and AP. AP reported they flipped seven Senate seats for a 54-44 majority, with two races undecided.",
+        "That ends Republican control of the White House, the Senate and the House at once. Representative Hakeem Jeffries, the Democratic leader, is in line to become Speaker. Senate Democratic leader Chuck Schumer called the result a “generational remake of the Senate map.” President Donald Trump said he has veto power and would stay open to working with Congress.",
+        "In a Sunday interview on 60 Minutes, Trump said voters “didn’t like the war” with Iran, and that his immigration enforcement was “too tough”. Meanwhile, in Alaska, Democrat Mary Peltola leads Republican Sen. Dan Sullivan by a couple of hundred votes, and counting continues."
+      ],
+      "chart": {
+        "title": "HOUSE SEATS, EARLY COUNT",
+        "subtitle": "Seats won or leading, early Wednesday",
+        "labels": [
+          "Democrats",
+          "Republicans"
+        ],
+        "values": [
+          228,
+          139
+        ],
+        "max": 250,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Early counts; several House races were still undecided."
+      },
+      "why": "Congress writes the laws on taxes, immigration and spending, so a split government changes what can pass. Indian-American families follow immigration rules closely.",
+      "analyst": "What could each party achieve with only one part of the government? Which numbers might still change before the final count?",
+      "sources": [
+        {
+          "outlet": "Cox Media Group",
+          "title": "Election 2026: Democrats capture both chambers of Congress",
+          "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+        },
+        {
+          "outlet": "Drop Site News",
+          "title": "Gaza floods; Trump open to immigration deal after midterms wipeout",
+          "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+        }
+      ]
+    },
+    "sports": {
+      "title": "TENNIS: FINALS FIELD SET",
+      "body": "The Nitto ATP Finals run from <b>15 to 22 November</b> in Turin, Italy, with eight players in two groups of four. Carlos Alcaraz, Alexander Zverev and Ben Shelton are among the qualifiers, and the draw is on 12 November.",
+      "sources": [
+        {
+          "outlet": "ATP Tour",
+          "title": "Nitto ATP Finals 2026: Draws, Dates, History",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What comes out of the Abu Dhabi talks on 10 and 11 November, and whether Europe gets a seat.",
+        "Whether Delhi’s air reaches “severe” levels after Diwali."
+      ]
+    },
+    "quote": {
+      "text": "The air, like peace, is shared by everyone.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+    "https://www.kyivpost.com/post/89424",
+    "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+    "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06",
+    "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8",
+    "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks",
+    "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts",
+    "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/",
+    "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+    "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule",
+    "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Where are the Ukraine talks being held?",
+        "options": [
+          "Abu Dhabi",
+          "Geneva",
+          "St. Petersburg"
+        ],
+        "answer": 0,
+        "why": "The talks are in Abu Dhabi, in the United Arab Emirates.",
+        "story": "lead"
+      },
+      {
+        "q": "How many ballistic missiles did Russia fire at the Kyiv area?",
+        "options": [
+          "36",
+          "16",
+          "172"
+        ],
+        "answer": 0,
+        "why": "Russia fired 36 ballistic missiles and 172 drones.",
+        "story": "lead"
+      },
+      {
+        "q": "What did NASA say about this year’s ozone hole?",
+        "options": [
+          "The largest ever",
+          "Seventh largest in 48 years",
+          "The smallest ever"
+        ],
+        "answer": 1,
+        "why": "It ranked seventh largest by area in 48 years.",
+        "story": "world"
+      },
+      {
+        "q": "What was Delhi’s AQI on the morning of 6 November?",
+        "options": [
+          "189",
+          "389",
+          "589"
+        ],
+        "answer": 1,
+        "why": "Delhi’s overall AQI was 389, which is very poor.",
+        "story": "india"
+      },
+      {
+        "q": "How many House seats did Democrats have in the early count?",
+        "options": [
+          "139",
+          "228",
+          "257"
+        ],
+        "answer": 1,
+        "why": "They led 228 to 139 in the early count.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The Supreme Court allowed green crackers in Delhi on 7 and 8 November.",
+        "true": true,
+        "why": "It allowed approved green firecrackers in set hours.",
+        "story": "india"
+      },
+      {
+        "claim": "The 1987 Montreal Protocol phased out ozone-damaging chemicals.",
+        "true": true,
+        "why": "It phased out production of ozone-depleting chemicals.",
+        "story": "world"
+      },
+      {
+        "claim": "Democrats won the House but not the Senate.",
+        "true": false,
+        "why": "They won a Senate majority too, 54 to 44 in the early count.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Abu Dhabi",
+        "lat": 24.45,
+        "lon": 54.38,
+        "countries": [
+          "United Arab Emirates",
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Antarctica",
+        "lat": -82.86,
+        "lon": 135.0,
+        "countries": []
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many strike drones did Russia launch overnight into Saturday?",
+        "answer": 172,
+        "prefix": "",
+        "unit": "drones",
+        "min": 0,
+        "max": 400,
+        "why": "Russia launched 172 strike drones."
+      },
+      {
+        "story": "india",
+        "q": "How many monitoring stations showed severe air on 6 November?",
+        "answer": 28,
+        "prefix": "",
+        "unit": "stations",
+        "min": 0,
+        "max": 80,
+        "why": "About 28 stations showed severe air, above 400."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Talks to End the War in Ukraine",
+        "body": [
+          "Ukraine, Russia and the United States meet in Abu Dhabi on Tuesday and Wednesday. It is the fourth round of talks led by the US. Russia’s president, Vladimir Putin, agreed to come back after meeting US envoy Steve Witkoff in October.",
+          "France says European officials will join. Russia had said the talks were only for three sides. The two sides disagree a lot. Russia wants Ukraine to give up land. Ukraine wants promises of protection.",
+          "Russia also fired 36 ballistic missiles at the Kyiv area overnight into Saturday. Ukraine’s president said only four were stopped."
+        ]
+      },
+      "world": {
+        "headline": "The Ozone Hole Is Smaller Than Some Past Years",
+        "body": [
+          "Ozone is a gas high in the air. It blocks harmful light from the Sun. Over Antarctica, the ozone layer gets thin each spring. Scientists call the thin patch a hole.",
+          "NASA says this year’s hole was the seventh largest in 48 years. It was biggest on 18 September. It was not as deep as some other big holes.",
+          "Chemicals called CFCs caused the damage. They were once used in refrigerators and sprays. A 1987 agreement stopped most of them. Scientists think the layer will recover in the 2070s."
+        ]
+      },
+      "india": {
+        "headline": "Delhi’s Air Is Very Dirty",
+        "body": [
+          "Delhi’s air was very poor on 6 November. The air quality number, called the AQI, was 389. Higher numbers mean dirtier air.",
+          "About 28 places in the city showed severe air. Smoke from burning crop stubble, firecrackers and traffic all add to it. The Supreme Court allowed green firecrackers on 7 and 8 November, only at set hours.",
+          "Experts said the air could get worse from 9 November because the winds are weak."
+        ]
+      },
+      "us": {
+        "headline": "Democrats Win Congress",
+        "body": [
+          "Americans voted in midterm elections on 3 November. Democrats won control of the House of Representatives. Early counts showed 228 seats for Democrats and 139 for Republicans.",
+          "They also won a majority in the Senate, 54 to 44 in an early count. Before, Republicans controlled the White House, the Senate and the House.",
+          "President Donald Trump says he can still use his veto. He also says he will work with Congress."
+        ]
+      }
+    }
+  }
+}

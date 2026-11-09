@@ -1,0 +1,198 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-10",
+  "volume": 1,
+  "issue": 28,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  IRAN",
+      "headline": "Iran Says Peace Mediators Have Stopped Travelling",
+      "deck": "Foreign Minister Abbas Araghchi says it will take time to resume.",
+      "body": [
+        "Iran’s foreign minister, Abbas Araghchi, said on Sunday that mediators have not travelled since the US midterm elections. Mediators are people from other countries who help two sides reach a deal. He asked for patience.",
+        "Qatar and Pakistan have tried for months to stop the war, which the US and Israel began in late February. Most fighting has stopped. But Iran is still working to block the Strait of Hormuz, a sea passage vital for the world’s energy. The US Navy blocks Iran’s ports.",
+        "President Donald Trump was due to meet Qatar’s prime minister on Monday. US and Gulf officials doubted a deal was close. Iran says it could reopen the strait in 2 days if its demands are met."
+      ],
+      "map": {
+        "title": "WHERE THE TALKS STALLED",
+        "label_top": "IRAN, QATAR AND THE UNITED STATES",
+        "label_bottom": "THE STRAIT IS STILL BLOCKED",
+        "footnote": "Qatar and Pakistan have tried to mediate",
+        "caption": "The map marks Iran, Qatar, a key mediator, and the United States, with the Strait of Hormuz.",
+        "countries": [
+          "Iran",
+          "Qatar",
+          "United States of America"
+        ],
+        "place": "Strait of Hormuz"
+      },
+      "why": "The Strait of Hormuz matters to energy supplies far away, so a deal could affect fuel prices.",
+      "sources": [
+        {
+          "outlet": "AFP via Arab News",
+          "title": "Iran FM says no negotiations since shock of US midterms",
+          "url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Trump to meet Qatar PM; no imminent deal to end Iran war",
+          "url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  SPACE",
+      "headline": "Two NASA Spacecraft Swing Past Earth on the Way to Mars",
+      "deck": "The twin ESCAPADE spacecraft got a boost from Earth’s gravity.",
+      "body": [
+        "ESCAPADE is a pair of NASA spacecraft heading for Mars. On 7 and 9 November, each flew past Earth. A flyby uses a planet’s gravity to change a spacecraft’s path, like a slingshot.",
+        "Each also fired its engine for roughly nine minutes. NASA says it is the first time it has used a powered Earth flyby to send a spacecraft toward Mars.",
+        "They launched on 13 November 2025. The second flyby passed about 650 miles above Earth. They should reach Mars in September 2027."
+      ],
+      "chart": {
+        "title": "HOW CLOSE TO EARTH?",
+        "subtitle": "Closest approach, in miles above Earth",
+        "labels": [
+          "First flyby",
+          "Second flyby"
+        ],
+        "values": [
+          1000,
+          650
+        ],
+        "max": 1200,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "NASA gave both distances as roughly 1,000 miles and 650 miles."
+      },
+      "why": "The orbiters will study how the solar wind affects Mars’s environment.",
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA’s ESCAPADE completes powered Earth flybys, now en route to Mars",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Gaza: The first winter storm flooded about 70,000 tents within 12 hours, officials said.",
+        "Alaska: Democrat Mary Peltola leads Sen. Dan Sullivan by a couple of hundred votes."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Trump’s Qatar meeting restarts Iran talks.",
+        "Whether the Abu Dhabi Ukraine talks open on 10 and 11 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592",
+    "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war",
+    "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars",
+    "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Who said mediators have not travelled since the US midterms?",
+        "options": [
+          "Iran’s foreign minister",
+          "Qatar’s prime minister",
+          "The US Navy"
+        ],
+        "answer": 0,
+        "why": "Abbas Araghchi, Iran’s foreign minister, said it.",
+        "story": "lead"
+      },
+      {
+        "q": "Which narrow sea passage is Iran still working to block?",
+        "options": [
+          "Strait of Hormuz",
+          "English Channel",
+          "Suez Canal"
+        ],
+        "answer": 0,
+        "why": "Iran is still working to blockade the Strait of Hormuz.",
+        "story": "lead"
+      },
+      {
+        "q": "When did the twin ESCAPADE spacecraft launch?",
+        "options": [
+          "13 November 2025",
+          "7 November 2026",
+          "September 2027"
+        ],
+        "answer": 0,
+        "why": "They launched on 13 November 2025.",
+        "story": "world"
+      },
+      {
+        "q": "When should the spacecraft reach Mars?",
+        "options": [
+          "December 2026",
+          "September 2027",
+          "June 2028"
+        ],
+        "answer": 1,
+        "why": "They are expected to arrive in September 2027.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Qatar and Pakistan are among the countries that have tried to mediate.",
+        "true": true,
+        "why": "Both have tried for months to halt the war.",
+        "story": "lead"
+      },
+      {
+        "claim": "NASA says this is the first powered Earth flyby it has used to send a spacecraft toward Mars.",
+        "true": true,
+        "why": "NASA says it is the first time.",
+        "story": "world"
+      },
+      {
+        "claim": "NASA’s ESCAPADE spacecraft launched on 13 November 2024.",
+        "true": false,
+        "why": "They launched on 13 November 2025.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "In how many days does Iran say it could reopen the strait?",
+        "answer": 2,
+        "prefix": "",
+        "unit": "days",
+        "min": 0,
+        "max": 14,
+        "why": "Iran offered to reopen the strait within two days."
+      },
+      {
+        "story": "world",
+        "q": "About how many miles above Earth did the second flyby pass?",
+        "answer": 650,
+        "prefix": "",
+        "unit": "miles",
+        "min": 0,
+        "max": 2000,
+        "why": "The second flyby passed about 650 miles above Earth."
+      }
+    ]
+  }
+}

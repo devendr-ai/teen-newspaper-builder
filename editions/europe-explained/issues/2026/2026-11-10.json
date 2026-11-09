@@ -1,0 +1,394 @@
+{
+  "edition": "europe-explained",
+  "date": "2026-11-10",
+  "volume": 1,
+  "issue": 15,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  G7 IN PARIS",
+      "headline": "G7 Foreign Ministers Meet in Paris With Ukraine, Energy and AI on the Agenda",
+      "deck": "France hosts the two-day meeting, its second formal one as president of the group.",
+      "body": [
+        "The G7 is a group of seven rich democracies: Canada, France, Germany, Italy, Japan, the United Kingdom and the United States. France holds its presidency this year. On 9 and 10 November its foreign ministers meet in Paris, the second formal two-day meeting under the French presidency. The first was at Vaux-de-Cernay in March.",
+        "The agenda is long. It covers support for Ukraine, stabilising the Middle East and energy supply. It also covers Sudan, the Horn of Africa, Venezuela, Cuba, Haiti and a free and open Indo-Pacific. For European readers, Ukraine and energy supply are the items closest to home.",
+        "The G7 meeting is not the only event in Paris on 9 November. France also hosts a donor conference with the European Bank for Reconstruction and Development and Ukrainian authorities, to raise money to restore the Chornobyl shelter (see Europe). France invited five guests to the G7 meeting: Brazil, Egypt, the Republic of Korea, Saudi Arabia and Ukraine. The World Food Programme’s executive director, Luke J. Lindberg, will join a discussion on humanitarian supply chains, with a focus on food security and nutrition.",
+        "Two newer topics are on the list. One is fighting drug trafficking through port security, and a G7+ Ports Network holds its first meeting in Marseille at the same time. The other is a G7 response to the risks of frontier AI models while still supporting innovation. The ports network will share best practices on securing ports in G7 and partner countries."
+      ],
+      "map": {
+        "title": "WHERE THE G7 MEETS",
+        "label_top": "FRANCE",
+        "label_bottom": "PARIS AND MARSEILLE",
+        "footnote": "Ports network meets in Marseille",
+        "caption": "The map marks France, where the ministers meet in Paris and the ports network meets in Marseille.",
+        "countries": [
+          "France"
+        ],
+        "place": "Paris"
+      },
+      "why": "European governments sit in the G7, so its choices on Ukraine, energy and AI can shape policy and prices in Europe.",
+      "sources": [
+        {
+          "outlet": "French Ministry for Europe and Foreign Affairs",
+          "title": "What priorities for the G7 foreign ministers’ meeting in Paris?",
+          "url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  IRAN",
+      "headline": "Iran Says Mediators Have Stopped Travelling, and France Looks at Sanctions",
+      "deck": "The Strait of Hormuz is still contested, and Paris blames Iran’s Revolutionary Guards for cyberattacks.",
+      "body": [
+        "Iran’s foreign minister, Abbas Araghchi, said on Sunday that mediators working on a US-Iran peace deal have not travelled since the US midterm elections. Qatar and Pakistan are among the powers that have tried for months to halt the war, which the United States and Israel launched in late February. Most fighting has stopped, but Iran is still working to blockade the Strait of Hormuz and the US Navy maintains a counter-blockade of Iranian ports.",
+        "The United States and Iran remain far apart. Iran’s demands include ending the war on all fronts, unfreezing its assets, lifting oil sanctions and ending the counter-blockade. A senior Iranian official said Iran will not negotiate unless Washington meets seven conditions from a June interim agreement. President Donald Trump was due to meet Qatar’s prime minister on Monday, but US and Gulf officials doubted a deal was near. In September Iran proposed a seven-day plan to reopen the strait, then offered to do it in two days, an offer Araghchi repeated on 8 November. He wrote that voters had made their choice and it was time for the White House to make its own.",
+        "In Saudi Arabia, the East-West oil pipeline, about 1,200 km long, was struck in the Medina region. A limited fire was put out, there were no casualties and operations were not affected.",
+        "The story reaches Europe in two ways. French Foreign Minister Jean-Noel Barrot said Iran’s Revolutionary Guards were behind cyberattacks on supermarket fridges on 11 and 12 October. He said France will seek European sanctions. The strait also matters for energy supplies, which is why the Bank of England links energy costs to prices (see UK)."
+      ],
+      "illustration": {
+        "title": "THE STRAIT OF HORMUZ",
+        "subtitle": "Still contested",
+        "motif": "strait",
+        "caption": "Iran works to block the strait; the US Navy blocks Iran’s ports."
+      },
+      "connect": "Geography and economics: a narrow strait that carries energy supplies can raise prices for countries far away.",
+      "sources": [
+        {
+          "outlet": "AFP via Arab News",
+          "title": "Iran FM says no negotiations since shock of US midterms",
+          "url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+        },
+        {
+          "outlet": "The New Arab",
+          "title": "Trump to meet Qatar PM; no imminent deal to end Iran war",
+          "url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war"
+        }
+      ]
+    },
+    "uk": {
+      "kicker": "UNITED KINGDOM  •  INTEREST RATES",
+      "headline": "Bank of England Raises Interest Rates to 4% as Energy Prices Bite",
+      "deck": "Eight of nine members voted for a quarter-point rise; one wanted a half-point rise.",
+      "body": [
+        "Bank Rate is the Bank of England’s main interest rate. It sets the cost of borrowing across the UK. On 4 November the Monetary Policy Committee raised it by 0.25 percentage points, from 3.75% to 4%, and published the decision on 5 November. The vote was 8-1. Catherine Mann wanted a bigger rise, to 4.25%.",
+        "The reason is energy. The Bank said the Middle East conflict, now in its ninth month, has kept energy prices high. Brent crude averaged $108 a barrel and UK natural gas averaged 216 pence per therm, 38% and 81% above the levels in July’s report. The Committee expects energy costs to feed into other prices.",
+        "UK inflation rose to 3.5% in September. Bank staff project about 4.5% in the first quarter of 2027 and about 5% in the second, with inflation falling after that. The next decision is due on 17 December."
+      ],
+      "why": "A higher Bank Rate raises the cost of borrowing but is meant to bring inflation down. It shows how a conflict far away can reach UK households through energy prices.",
+      "also": [
+        "Budget: its measures should trim inflation by about 0.25 points by mid-2027.",
+        "Markets: expected Bank Rate was 4% in November and 4.25% in February."
+      ],
+      "sources": [
+        {
+          "outlet": "Bank of England",
+          "title": "Monetary Policy Summary and minutes, November 2026",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "outlet": "Bank of England",
+          "title": "Monetary Policy Report, November 2026",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Gaza: the first winter storm of the season flooded about 70,000 tents within 12 hours, Gaza’s Government Media Office said.",
+        "Ukraine: delegations from Ukraine, Russia and the United States meet in Abu Dhabi on 10 and 11 November, and France says Europe will attend."
+      ],
+      "sources": [
+        {
+          "outlet": "Drop Site News",
+          "title": "Gaza floods destroy 70,000 tents",
+          "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+        },
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Bank Rate",
+          "def": "The Bank of England’s main interest rate. Today: it rose to 4%."
+        },
+        {
+          "word": "Inflation",
+          "def": "The rate at which prices rise over time. Today: UK inflation was 3.5% in September."
+        },
+        {
+          "word": "Mediator",
+          "def": "Someone who helps two sides reach a deal. Today: Qatar and Pakistan have tried to mediate."
+        },
+        {
+          "word": "Containment",
+          "def": "Keeping something dangerous sealed in. Today: the Chornobyl shelter is the New Safe Confinement."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "The European Bank for Reconstruction and Development has led international efforts at Chornobyl since 1995, bringing in over 2.5 billion euros."
+    },
+    "europe": {
+      "kicker": "EUROPE  •  CHORNOBYL",
+      "headline": "Paris Conference Seeks Money to Repair the Chornobyl Shelter",
+      "deck": "The EBRD wants at least 500 million euros; the G7 has pledged 260 million.",
+      "body": [
+        "The New Safe Confinement is a giant steel structure that covers the remains of Reactor Four at Chornobyl, Ukraine. It was built so that the original sarcophagus, put up after the 1986 accident, could be safely taken apart. On 14 February 2025 a Russian drone strike punctured its inner and outer layers and damaged systems that contain radioactive material.",
+        "France, Ukraine and the European Bank for Reconstruction and Development (EBRD) co-chair a donor conference in Paris on 9 November. The bank is seeking at least 500 million euros for repairs. The G7 pledged 260 million euros in October and asked other partners to cover the rest.",
+        "There is a deadline. Repairs must be completed by 2030 to prevent moisture from corroding the steel arch, which could make radioactive material harder and costlier to manage. The EBRD aims to secure funding to award contracts and start major restoration in 2028, and the work should take about two years.",
+        "Who pays is a question. The bank does not expect Russia to contribute, and the costs could instead be recovered through future war reparations."
+      ],
+      "chart": {
+        "title": "CHORNOBYL SHELTER FUNDING",
+        "subtitle": "Million euros",
+        "labels": [
+          "Sought",
+          "G7 pledge"
+        ],
+        "values": [
+          500,
+          260
+        ],
+        "max": 600,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "The EBRD seeks at least 500 million euros; the G7 pledged 260 million."
+      },
+      "why": "The EBRD’s president said: “It’s not a Ukrainian problem.”",
+      "analyst": "Who should pay when a war damages a safety structure, and why?",
+      "sources": [
+        {
+          "outlet": "Kyiv Post (TVP World)",
+          "title": "EBRD seeks at least 500 million euros to repair Chornobyl shelter",
+          "url": "https://www.kyivpost.com/post/89420"
+        },
+        {
+          "outlet": "EBRD",
+          "title": "EBRD welcomes G7 commitment to finance urgent repairs to Chornobyl",
+          "url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html"
+        }
+      ]
+    },
+    "sports": {
+      "title": "FOOTBALL: A 4-4 THRILLER",
+      "body": "Manchester United and Aston Villa drew <b>4-4</b> at Old Trafford on Sunday, the season’s highest-scoring match so far, according to Wikipedia’s season page. Sunderland beat Chelsea 1-0 and Brighton beat Brentford 2-0.",
+      "sources": [
+        {
+          "outlet": "Wikipedia",
+          "title": "2026-27 Premier League",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+        },
+        {
+          "outlet": "Football Web Pages",
+          "title": "Premier League fixtures and results",
+          "url": "https://www.footballwebpages.co.uk/premier-league/fixtures-results"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What the G7 ministers say after their Paris meeting on 10 November.",
+        "How much the Paris donor conference raises for the Chornobyl shelter."
+      ]
+    },
+    "quote": {
+      "text": "Big problems are solved by many hands.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris",
+    "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592",
+    "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war",
+    "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+    "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026",
+    "https://www.kyivpost.com/post/89420",
+    "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html",
+    "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+    "https://www.footballwebpages.co.uk/premier-league/fixtures-results",
+    "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Where do the G7 foreign ministers meet on 9 and 10 November?",
+        "options": [
+          "Paris",
+          "Marseille",
+          "Rome"
+        ],
+        "answer": 0,
+        "why": "The meeting is in Paris.",
+        "story": "lead"
+      },
+      {
+        "q": "Which of these is a guest France invited to the G7 meeting?",
+        "options": [
+          "Brazil",
+          "Spain",
+          "Poland"
+        ],
+        "answer": 0,
+        "why": "France invited Brazil, Egypt, the Republic of Korea, Saudi Arabia and Ukraine.",
+        "story": "lead"
+      },
+      {
+        "q": "What is the Bank of England’s Bank Rate after the rise?",
+        "options": [
+          "3.75%",
+          "4%",
+          "4.25%"
+        ],
+        "answer": 1,
+        "why": "Bank Rate rose by 0.25 points to 4%.",
+        "story": "uk"
+      },
+      {
+        "q": "What did the Bank of England say has kept energy prices high?",
+        "options": [
+          "The Middle East conflict",
+          "A cold summer",
+          "A new tax"
+        ],
+        "answer": 0,
+        "why": "The Middle East conflict, now in its ninth month, has kept energy prices high.",
+        "story": "uk"
+      },
+      {
+        "q": "By when must Chornobyl shelter repairs be completed?",
+        "options": [
+          "2028",
+          "2030",
+          "2035"
+        ],
+        "answer": 1,
+        "why": "Repairs must be completed by 2030 to prevent corrosion.",
+        "story": "europe"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Catherine Mann voted for a larger rise than the other members.",
+        "true": true,
+        "why": "She voted for a 0.5-point rise to 4.25%.",
+        "story": "uk"
+      },
+      {
+        "claim": "The G7 pledged 500 million euros in October for the Chornobyl shelter.",
+        "true": false,
+        "why": "The G7 pledged 260 million euros; 500 million is the minimum sought.",
+        "story": "europe"
+      },
+      {
+        "claim": "A G7+ Ports Network meets in Marseille at the same time as the Paris meeting.",
+        "true": true,
+        "why": "Its first meeting is in Marseille.",
+        "story": "lead"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "countries": [
+          "France"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "Oman"
+        ]
+      },
+      {
+        "story": "uk",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "story": "europe",
+        "place": "Chornobyl",
+        "lat": 51.39,
+        "lon": 30.1,
+        "countries": [
+          "Ukraine"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "uk",
+        "q": "What was UK inflation in September, in per cent?",
+        "answer": 3.5,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 10,
+        "why": "UK inflation rose to 3.5% in September."
+      },
+      {
+        "story": "europe",
+        "q": "How much has the G7 pledged for the shelter, in millions of euros?",
+        "answer": 260,
+        "prefix": "",
+        "unit": "million euros",
+        "min": 0,
+        "max": 800,
+        "why": "The G7 pledged 260 million euros."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "The G7 Meets in Paris",
+        "body": [
+          "The G7 is a group of seven rich countries. This year France leads it. Their foreign ministers meet in Paris on 9 and 10 November.",
+          "They will talk about helping Ukraine, the Middle East and energy supply. They will also talk about food, drug smuggling through ports and the risks of artificial intelligence.",
+          "France invited Brazil, Egypt, South Korea, Saudi Arabia and Ukraine too."
+        ]
+      },
+      "world": {
+        "headline": "Talks With Iran Are Stuck",
+        "body": [
+          "Iran’s foreign minister said mediators have not travelled since the US elections. Mediators help two sides make a deal. Qatar and Pakistan have tried for months.",
+          "The war began in late February. Most fighting has stopped. But Iran is still trying to block the Strait of Hormuz, and the US Navy blocks Iran’s ports.",
+          "France says Iran’s Revolutionary Guards were behind cyberattacks on supermarket fridges in October. France wants European sanctions."
+        ]
+      },
+      "uk": {
+        "headline": "UK Interest Rates Go Up",
+        "body": [
+          "The Bank of England raised its main interest rate to 4%. It was 3.75%. Eight members voted for the rise. One wanted a bigger rise.",
+          "The Bank says the Middle East war keeps energy prices high. UK inflation, the rise in prices, was 3.5% in September.",
+          "The Bank thinks inflation may reach about 5% in mid-2027 and then fall. The next decision is on 17 December."
+        ]
+      },
+      "europe": {
+        "headline": "Fixing the Chornobyl Shelter",
+        "body": [
+          "A giant steel shelter covers the damaged reactor at Chornobyl in Ukraine. A Russian drone damaged it in February 2025.",
+          "Repairs need at least 500 million euros. The G7 has promised 260 million. A meeting in Paris on 9 November asks for more.",
+          "The work must be finished by 2030. If not, damp could rust the steel arch. Russia is not expected to pay."
+        ]
+      }
+    }
+  }
+}

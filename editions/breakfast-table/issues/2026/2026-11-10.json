@@ -1,0 +1,457 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-10",
+  "volume": 1,
+  "issue": 24,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  US MIDTERMS",
+      "headline": "Democrats Win Both the House and the Senate in the US Midterms",
+      "deck": "A record number of ballots were cast, and Washington may now be split between two parties.",
+      "body": [
+        "Midterm elections are held halfway through a US president’s four-year term. On 3 November, Democrats won control of the House of Representatives and the Senate. By early Wednesday they led the House 228 to 139, with several races undecided. AP reported a 54-44 Senate majority, also with two races undecided.",
+        "More than 124 million ballots were cast, according to the University of Florida Election Lab. That passes the previous midterm record of nearly 119 million in 2018.",
+        "The result ends Republican control of both houses of Congress. Senate Democratic leader Chuck Schumer called it a “generational remake of the Senate map.” President Donald Trump said he has veto power, which lets him refuse to sign a bill, and that he would stay open to working with Congress."
+      ],
+      "map": {
+        "title": "WHERE THE VOTES WERE COUNTED",
+        "label_top": "UNITED STATES",
+        "label_bottom": "WASHINGTON, D.C.",
+        "footnote": "Some races were still being counted",
+        "caption": "The map marks the United States, where the midterm votes were cast.",
+        "countries": [
+          "United States of America"
+        ],
+        "place": "Washington"
+      },
+      "why": "Congress passes the laws on taxes and spending, so new laws may now need both parties to agree.",
+      "sources": [
+        {
+          "outlet": "Cox Media Group",
+          "title": "Election 2026: Democrats capture both chambers of Congress",
+          "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Ukraine, Russia and the US Sit Down in Abu Dhabi",
+      "deck": "France says Europe will be there too, as the Kremlin had ruled it out.",
+      "body": [
+        "Delegations from Ukraine, Russia and the United States meet in Abu Dhabi, in the United Arab Emirates, on Tuesday and Wednesday. It is the fourth round of talks led by the US and the first since February. Moscow agreed to return after US envoy Steve Witkoff met President Vladimir Putin in October.",
+        "France’s foreign minister, Jean-Noel Barrot, said Sunday that European officials will attend too and will make sure “Europe’s voice” is heard. The Kremlin’s spokesman, Dmitry Peskov, had said the three-way format was already agreed. Russia’s delegation, led by Vladimir Medinsky, now includes two deputy foreign ministers.",
+        "The two sides want different things. Russia wants Ukraine to give up large parts of its land and renounce NATO membership. President Volodymyr Zelenskyy wants security commitments, including who would act if Russia attacked again. Russia also fired 36 ballistic missiles at the Kyiv area on Saturday, and Zelenskyy said four were intercepted."
+      ],
+      "chart": {
+        "title": "MISSILES AT THE KYIV AREA",
+        "subtitle": "Ballistic missiles, overnight into Saturday",
+        "labels": [
+          "Fired",
+          "Shot down"
+        ],
+        "values": [
+          36,
+          4
+        ],
+        "max": 40,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Russia fired 36 ballistic missiles; Zelenskyy said four were intercepted."
+      },
+      "connect": "Geography: Abu Dhabi is in the United Arab Emirates, far from the war in Ukraine.",
+      "sources": [
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia fires 36 ballistic missiles and 172 drones at Ukraine overnight",
+          "url": "https://www.kyivpost.com/post/89424"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  IMMIGRATION",
+      "headline": "Trump Says His Immigration Crackdown Was “Too Tough”",
+      "deck": "In a Sunday interview, the president said he is open to a deal on immigration.",
+      "body": [
+        "In an interview on 60 Minutes on Sunday, President Donald Trump said his immigration enforcement was “too tough” and likely cost his party in the midterms. Immigration enforcement means checking who is allowed to live and work in the country.",
+        "He said he is open to a deal that would secure the border and let some immigrant workers stay if they have no criminal record and have lived in the United States for some time. He did not say when such a deal would happen. Any new law would need Congress to agree.",
+        "Trump also said voters “didn’t like the war” with Iran. On 6 November he said Stephen Miller will replace Susie Wiles as White House chief of staff."
+      ],
+      "why": "Immigration affects workers, employers and families, so changes to the rules can reach many homes. It is a good topic for the table: what would a fair rule look like?",
+      "also": [
+        "Alaska: Democrat Mary Peltola leads Republican Sen. Dan Sullivan by a couple of hundred votes in the Senate race.",
+        "Counting: more Alaska votes will be counted over the next two weeks."
+      ],
+      "sources": [
+        {
+          "outlet": "Drop Site News",
+          "title": "Gaza floods; Trump open to immigration deal after midterms wipeout",
+          "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Gaza: the first winter storm of the season flooded about 70,000 tents within 12 hours, Gaza’s Government Media Office said.",
+        "Iran: Foreign Minister Abbas Araghchi said mediators have not travelled since the US midterms."
+      ],
+      "sources": [
+        {
+          "outlet": "Drop Site News",
+          "title": "Gaza floods; Trump open to immigration deal after midterms wipeout",
+          "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+        },
+        {
+          "outlet": "AFP via Arab News",
+          "title": "Iran FM says no negotiations since shock of US midterms",
+          "url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might it be harder to pass new laws when two parties each control a part of Washington?",
+        "Why do you think countries want a seat at the table when a war’s talks begin?"
+      ],
+      "sources": [
+        {
+          "outlet": "Cox Media Group",
+          "title": "Election 2026: Democrats capture both chambers of Congress",
+          "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+        },
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  MINERALS",
+      "headline": "India Offers 20 Blocks of Critical Minerals at Auction",
+      "deck": "The ninth round also makes it easier to hold an auction.",
+      "body": [
+        "Critical minerals are materials used in electric vehicles, renewable energy technology, defence equipment, aerospace, electronics and advanced manufacturing. On 5 November, India’s Ministry of Mines launched the ninth auction round in Goa.",
+        "It offers 20 blocks in Chhattisgarh, Rajasthan, Telangana, West Bengal, Madhya Pradesh, Maharashtra, Andhra Pradesh and Bihar. The blocks hold minerals such as rare earth elements, vanadium, gallium, titanium, graphite, potash and glauconite.",
+        "In the first eight rounds, 64 of 100 blocks were successfully auctioned. Rules notified on 16 October cut the minimum number of qualified bidders in some rounds from three to two.",
+        "There are also 11 exploration blocks, aimed at copper, vanadium, rare earth elements and potash. An exploration licence lets private companies explore 29 critical and deep-seated minerals before mining begins. These blocks go to the bidder who quotes the lowest percentage of future mining revenue."
+      ],
+      "why": "The minerals in this auction are used in electronics and electric vehicles, things many families use or plan to buy. Where they come from affects what they cost later.",
+      "sources": [
+        {
+          "outlet": "Free Press Journal",
+          "title": "Govt launches 9th critical minerals auction with 20 blocks",
+          "url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+        }
+      ]
+    },
+    "sports": {
+      "title": "TENNIS: FINALS FIELD SET",
+      "body": "Eight players are set for the Nitto ATP Finals in Turin, Italy, from <b>15 to 22 November</b>. The field includes Alexander Zverev, Carlos Alcaraz, Ben Shelton and Daniil Medvedev. The draw is on 12 November.",
+      "sources": [
+        {
+          "outlet": "ATP Tour",
+          "title": "Nitto ATP Finals 2026: Draws, Dates, History",
+          "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the Abu Dhabi talks on 10 and 11 November lead to another round.",
+        "How the last Alaska Senate votes are counted over the next two weeks."
+      ]
+    },
+    "quote": {
+      "text": "Asking a good question is the first step to a good answer.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/",
+    "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+    "https://www.kyivpost.com/post/89424",
+    "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks",
+    "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule",
+    "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Which party won control of both the House and the Senate on 3 November?",
+        "options": [
+          "Democrats",
+          "Republicans",
+          "Neither party"
+        ],
+        "answer": 0,
+        "why": "Democrats won both houses of Congress.",
+        "story": "lead"
+      },
+      {
+        "q": "How many ballistic missiles did Russia fire at the Kyiv area overnight into Saturday?",
+        "options": [
+          "4",
+          "36",
+          "172"
+        ],
+        "answer": 1,
+        "why": "Russia fired 36 ballistic missiles.",
+        "story": "world"
+      },
+      {
+        "q": "Where do the Ukraine, Russia and US talks take place?",
+        "options": [
+          "Geneva",
+          "Abu Dhabi",
+          "Paris"
+        ],
+        "answer": 1,
+        "why": "The talks are in Abu Dhabi, in the United Arab Emirates.",
+        "story": "world"
+      },
+      {
+        "q": "What did Trump say about his immigration enforcement?",
+        "options": [
+          "It was too tough",
+          "It was not tough enough",
+          "It will end today"
+        ],
+        "answer": 0,
+        "why": "He said it was too tough.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "More than 124 million ballots were cast in the midterms.",
+        "true": true,
+        "why": "The Election Lab counted more than 124 million.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Abu Dhabi talks are only for Ukraine and Russia.",
+        "true": false,
+        "why": "The United States is mediating, and France says Europe will attend.",
+        "story": "world"
+      },
+      {
+        "claim": "India cut the minimum number of qualified bidders from three to two.",
+        "true": true,
+        "why": "Rules notified on 16 October did this for some rounds.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington, D.C.",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Abu Dhabi",
+        "lat": 24.45,
+        "lon": 54.38,
+        "countries": [
+          "United Arab Emirates",
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Alaska",
+        "lat": 64.2,
+        "lon": -149.5,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Goa",
+        "lat": 15.5,
+        "lon": 73.83,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many ballots were cast in the midterms, in millions?",
+        "answer": 124,
+        "prefix": "",
+        "unit": "million",
+        "min": 0,
+        "max": 300,
+        "why": "More than 124 million ballots were cast."
+      },
+      {
+        "story": "india",
+        "q": "How many blocks are offered in the ninth critical minerals auction?",
+        "answer": 20,
+        "prefix": "",
+        "unit": "blocks",
+        "min": 0,
+        "max": 60,
+        "why": "The ninth round offers 20 blocks."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for November 10. Today we look at an election result in America, talks about the war in Ukraine, and what the US president said about immigration.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Let’s start with the election. What happened?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "US midterms"
+        },
+        {
+          "who": "maya",
+          "text": "On November 3, Americans voted in midterm elections, which come halfway through a president’s four-year term. Democrats won control of the House and the Senate. In the early count they led the House 228 to 139, and AP reported a 54 to 44 Senate majority, with a few races still undecided.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Did a lot of people vote?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. More than 124 million ballots were cast, passing the old midterm record of nearly 119 million from 2018. Representative Hakeem Jeffries, the Democratic leader, is in line to become Speaker of the House.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "What does the president say?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "President Donald Trump said he has veto power and would stay open to working with Congress. A veto means he can refuse to sign a bill into law.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now to Ukraine.",
+          "section": "story",
+          "story": "world",
+          "chapter": "Talks in Abu Dhabi"
+        },
+        {
+          "who": "maya",
+          "text": "Delegations from Ukraine, Russia and the United States meet in Abu Dhabi, in the United Arab Emirates, on Tuesday and Wednesday. It is the fourth round of talks led by the US, and the first since February.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Is anyone else joining?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "France’s foreign minister said European officials will attend too, and that France will make sure Europe’s voice is heard. The Kremlin’s spokesman had said the three-way format was already agreed.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "What are the two sides arguing about?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Russia wants Ukraine to give up large parts of its land and renounce NATO membership. President Zelenskyy wants security commitments, including who would act if Russia attacked again. Meanwhile, Russia fired 36 ballistic missiles at the Kyiv area on Saturday, and only four were shot down.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "And the president’s interview?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Immigration"
+        },
+        {
+          "who": "maya",
+          "text": "In a Sunday interview on 60 Minutes, Trump said his immigration enforcement was too tough and likely cost his party in the midterms. He said he is open to a deal that would secure the border and let some immigrant workers stay if they have no criminal record.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Is that settled?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "No. It is an idea he said he is open to, and Congress would have to agree to any deal. Trump also named Stephen Miller as White House chief of staff on November 6.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Which party won control of both the House and the Senate on 3 November?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "Democrats Democrats won both houses of Congress.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "How many ballistic missiles did Russia fire at the Kyiv area overnight into Saturday?",
+          "section": "quiz_question",
+          "quiz": 1
+        },
+        {
+          "who": "sam",
+          "text": "36 Russia fired 36 ballistic missiles.",
+          "section": "quiz_answer",
+          "quiz": 1
+        },
+        {
+          "who": "maya",
+          "text": "Why do you think countries want a seat at the table when a war’s talks begin?",
+          "section": "discussion"
+        },
+        {
+          "who": "sam",
+          "text": "That is all for today. Have a great day, and we will see you again tomorrow.",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}

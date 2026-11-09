@@ -1,0 +1,564 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-11-10",
+  "volume": 1,
+  "issue": 15,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SPACE",
+      "headline": "Two NASA Spacecraft Use Earth’s Gravity as a Slingshot Toward Mars",
+      "deck": "The twin ESCAPADE probes finished powered Earth flybys on 7 and 9 November.",
+      "body": [
+        "Physics lesson first: a gravity assist uses a planet’s pull to change a spacecraft’s path. NASA’s twin ESCAPADE spacecraft, whose full name is Escape and Plasma Acceleration and Dynamics Explorers, each flew past Earth this week and added a sustained engine burn of roughly nine minutes. That burn is the firing that commits each one to the road to Mars.",
+        "NASA says this is the first time it has used a powered Earth flyby to send a spacecraft toward Mars. The first spacecraft made its closest approach at about 5 a.m. EST on 7 November, roughly 1,000 miles above Earth’s surface. The second followed at about 6 a.m. EST on 9 November, roughly 650 miles above it.",
+        "The route is unusual. The pair launched on 13 November 2025 from Cape Canaveral Space Force Station in Florida, when Earth and Mars were on opposite sides of the Sun. Instead of flying straight to Mars, they entered a loiter orbit around Lagrange point 2, about a million miles from Earth, on a kidney-bean-shaped path.",
+        "Waiting there let the mission launch at nearly any time, rather than waiting for the roughly two-year window when Earth and Mars align for a direct launch. The cruise to Mars now takes about 10 months. Orbit insertion is planned for 7 and 9 September 2027, and each spacecraft will fire its engine for about 11 minutes to be captured by Mars’s gravity.",
+        "The science comes later. The two orbiters will fly in formation to study how the solar wind affects Mars’s environment and drives atmospheric loss. Science operations are expected to begin in June 2028."
+      ],
+      "map": {
+        "title": "WHERE IT STARTED",
+        "label_top": "FLORIDA, UNITED STATES",
+        "label_bottom": "LAUNCH SITE",
+        "footnote": "Cape Canaveral Space Force Station",
+        "caption": "The pair launched from Cape Canaveral, Florida, on 13 November 2025.",
+        "countries": [
+          "United States of America"
+        ]
+      },
+      "why": "The mission links physics (gravity), astronomy (planetary alignment) and geography: the same Earth that launched the pair gave them a second push.",
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA’s ESCAPADE completes powered Earth flybys, now en route to Mars",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  UKRAINE",
+      "headline": "Three Delegations, One City: Talks on Ukraine Open in Abu Dhabi",
+      "deck": "France says Europe will join, while Zelenskyy cites the 1945 Yalta conference as a warning.",
+      "body": [
+        "History lesson: Ukrainian President Volodymyr Zelenskyy cited the 1945 Yalta conference when he told CNN he had not been given details of the agreement under discussion, saying: “For me, it’s not simple, and it can be dangerous.”",
+        "Geography lesson: the venue is Abu Dhabi, in the United Arab Emirates, and the dates are Tuesday and Wednesday. Ukraine, Russia and the United States send delegations. It is the fourth round brokered by the US between Ukraine and Russia, and the first since February’s Geneva talks. Russia’s team is led by Vladimir Medinsky and now includes Deputy Foreign Ministers Sergei Ryabkov and Mikhail Galuzin.",
+        "On Thursday, Donald Trump met Kremlin envoy Kirill Dmitriev and said a coming agreement was “going to involve more than Ukraine” and “might involve all of Europe.” France’s foreign minister, Jean-Noel Barrot, said on Sunday that European officials will attend, without saying who or in what role. Spokesman Dmitry Peskov of the Kremlin had called the three-way format already agreed.",
+        "The sides want different things. Moscow seeks large parts of Ukrainian land and a pledge that Ukraine will not join NATO. Kyiv wants written commitments on who would respond, and how, to another attack. Former US ambassador John Herbst argued that Putin has turned down every US proposal Kyiv accepted, so the talks may just lead to another round.",
+        "The talks follow an attack. Zelenskyy said all 36 ballistic missiles Russia fired overnight into 7 November were aimed at Kyiv and its region, and that only four were intercepted; 172 strike drones were launched as well. Nine civilians, including a child, were wounded. Moscow agreed to the new round after US envoy Steve Witkoff met Vladimir Putin in St. Petersburg in October."
+      ],
+      "illustration": {
+        "title": "THE TABLE IN ABU DHABI",
+        "subtitle": "Three delegations",
+        "motif": "talks",
+        "participants": [
+          "Ukraine",
+          "Russia",
+          "United States"
+        ],
+        "caption": "Delegations from three countries meet; France says Europe will attend too."
+      },
+      "connect": "History: Zelenskyy cited the 1945 Yalta conference as he warned that the agreement under discussion “can be dangerous”.",
+      "sources": [
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "Russia fires 36 ballistic missiles and 172 drones at Ukraine overnight",
+          "url": "https://www.kyivpost.com/post/89424"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  AIR AND SCIENCE",
+      "headline": "Why Delhi’s Winter Air Turns Toxic: Smoke, Wind and Diwali",
+      "deck": "AQI readings of 389 on 6 November came before Diwali; forecasters said conditions could worsen from 9 November.",
+      "body": [
+        "Science lesson: the Air Quality Index (AQI) turns pollution measurements into one number. Higher is worse. On 6 November at 8 am, central monitors put Delhi’s overall AQI at 389, “very poor”, up from 369 the day before. Weekly averages rose from 324 on Monday to 350 on Tuesday and 377 on Wednesday.",
+        "Individual stations tell a sharper story. About 28 stations recorded “severe” air, above 400: IIT Delhi read 473, Jahangirpuri 460, RK Puram 446, Sirifort 431 and ITO 424. Others, like Anand Vihar at 359 and Badarpur at 352, were “very poor”.",
+        "Geography and weather explain why. Stubble burning was at its peak season. Firecracker emissions came with Diwali, along with vehicle pollution and weakening winds. Skymet’s Mahesh Palawat said moderate northwesterly winds would last until 7 November and light easterly winds from Diwali night might disperse pollutants on 8 November, but conditions could worsen from 9 November.",
+        "The Supreme Court allowed approved green firecrackers on 7 and 8 November only, from 6 am to 7 am and 8 pm to 10 pm, with enforcement and monitoring safeguards. CREA’s Manoj Kumar said some hotspots could exceed 450 and urged stricter GRAP measures, the city’s graded response plan.",
+        "Looking one day earlier shows how quickly things change. On 30 October air was “satisfactory”, with an AQI of 60, after rain linked to Cyclone Montha. Then it worsened fast: the 24-hour average rose to 350 on 3 November and 377 on 4 November, and on 4 November 22 of 59 stations recorded severe air.",
+        "The Decision Support System assigned 20.2% of Delhi’s pollution on 4 November to stubble burning and 15.5% to transport. Satellites detected 467 farm fires across six states that day, 151 of them in Punjab, and north-westerly winds carry that smoke toward Delhi. Between 15 September and 4 November, ICAR-IARI’s CREAMS Laboratory recorded 4,800 residue-burning events across seven states and UTs.",
+        "Health advice from the report: children, older adults and people with respiratory or heart conditions should limit outdoor exertion, use N95 masks outdoors where possible, and keep windows closed during peak smog hours."
+      ],
+      "illustration": {
+        "title": "AIR QUALITY, DELHI",
+        "subtitle": "Dhanteras morning",
+        "motif": "skyline",
+        "caption": "Delhi’s AQI was 389 at 8 am on 6 November."
+      },
+      "why": "Pollution is a link between geography (the region’s winds), science (particles in the air) and health.",
+      "sources": [
+        {
+          "outlet": "Business Today",
+          "title": "Delhi pollution: AQI hits 389 on Dhanteras morning",
+          "url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+        },
+        {
+          "outlet": "Bar and Bench",
+          "title": "Supreme Court allows bursting of green crackers in Delhi-NCR on November 7 and 8",
+          "url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+        },
+        {
+          "outlet": "Business Today",
+          "title": "Delhi pollution: AQI nears 400 ahead of Diwali, stubble burning drives worsening air quality",
+          "url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-nears-400-ahead-of-diwali-stubble-burning-drives-worsening-air-quality-565800-2026-11-05"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CIVICS",
+      "headline": "How Democrats Took Congress: 54 Senate Seats, a House Majority, and Records",
+      "deck": "A record turnout and a flipped Senate leave Washington with divided government.",
+      "body": [
+        "Civics lesson: Congress has two chambers, the House and the Senate. Democrats now control both after the 3 November midterms, though neither count is final. By early Wednesday they led the House 228-139, and AP reported a 54-44 Senate majority with two races undecided, Alaska and Mississippi.",
+        "Turnout was historic. More than 124 million ballots were cast, according to the University of Florida Election Lab, passing the previous midterm record of nearly 119 million in 2018. Democrats were on pace for their largest House majority since 2008.",
+        "The Senate gains reached far beyond usual battlegrounds. AP and the New York Times reported Democrats flipped seven seats. Reported results included James Talarico beating Ken Paxton in Texas, the first statewide Democratic win there in more than 30 years, and Adam Hamilton winning in Kansas, the first Democratic senator there since 1932.",
+        "Alaska remains the open question. Governor Mike Dunleavy said Democrat Mary Peltola leads Republican Sen. Dan Sullivan by a couple of hundred votes, while Decision Desk HQ had her at 48.2% to 47.9%. More votes will be counted over two weeks, and Peltola’s campaign sued Alaska for records of rejected absentee ballots.",
+        "The president’s own tools remain. Donald Trump said he has veto power and would stay open to working with Congress. Hakeem Jeffries is in line to become Speaker, and Chuck Schumer called the result a “generational remake of the Senate map.”",
+        "The overall picture: Republican control of the White House, Senate and House has ended at once, creating the potential for divided government. Trump said on Sunday that voters “didn’t like the war” with Iran, and that his immigration enforcement was “too tough”. On 6 November he said Stephen Miller will replace Susie Wiles as chief of staff."
+      ],
+      "chart": {
+        "title": "SENATE SEATS, AP COUNT",
+        "subtitle": "Seats won or leading (two undecided)",
+        "labels": [
+          "Democrats",
+          "Republicans"
+        ],
+        "values": [
+          54,
+          44
+        ],
+        "max": 60,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "AP count early Wednesday; two races were undecided."
+      },
+      "why": "The balance of seats decides which party sets the agenda and which can block laws.",
+      "analyst": "With the president holding a veto, what might each party gain from compromise, and what might each risk?",
+      "sources": [
+        {
+          "outlet": "Cox Media Group",
+          "title": "Election 2026: Democrats capture both chambers of Congress",
+          "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+        },
+        {
+          "outlet": "Drop Site News",
+          "title": "Gaza floods; Trump open to immigration deal after midterms wipeout",
+          "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  EARTH",
+      "headline": "Tracking the Ozone Hole: 48 Years of Satellites, and a Seventh-Largest Year",
+      "deck": "NASA says the 2026 hole peaked on 18 September, shallower than several past holes.",
+      "body": [
+        "Chemistry lesson: ozone is a gas in the stratosphere that absorbs ultraviolet light, which damages DNA and causes sunburn and skin cancer. Scientists call the thin patch over Antarctica a “hole” only as a metaphor. It is defined as the region where ozone falls below 220 Dobson Units, a threshold that was never crossed in observations before 1979.",
+        "NASA’s record runs across several instruments. TOMS on Nimbus-7 and other satellites covered 1979 to 2004, OMI on Aura 2005 to 2011, OMPS on Suomi NPP 2012 to 2025 and OMPS on NOAA-20 in 2026. No data exist for 1995.",
+        "The 2026 hole reached its maximum area on 18 September and ranked seventh largest in 48 years. An unusually strong Antarctic polar vortex favoured depletion, though the hole was not as deep as other large ones.",
+        "Depth and area are different measures. The deepest hole came in 1994, reaching 73 Dobson Units on 30 September, while the record area came in 2006, and the two have never occurred in the same year.",
+        "The discovery came from the ground first. In 1985, British Antarctic Survey scientists reported spring ozone thinning over Antarctica using measurements at Halley Research Station, and NASA satellites later revealed its continental scale. The depth of the thinning grew quickly: the yearly minimum was 194 Dobson Units in 1979, 154 in 1983 and 124 in 1985. In 1991 it fell below 100 for the first time.",
+        "The cause is chemical. Chlorofluorocarbons (CFCs), used in refrigerators and aerosol sprays since the 1930s, last for decades. In the upper stratosphere ultraviolet light breaks them apart and releases chlorine, which destroys ozone molecules in a repeating cycle. About 80 percent of stratospheric chlorine today comes from human sources, scientists estimate.",
+        "The response worked. The 1987 Montreal Protocol phased out production and consumption of ozone-depleting chemicals. In 2018 scientists reported the first direct satellite evidence of recovery, with ozone depletion in Antarctic winter months about 20 percent lower in 2016 than in 2005. Scientists estimate the Antarctic ozone layer will return to 1980 levels in the 2070s."
+      ],
+      "illustration": {
+        "title": "THE OZONE HOLE",
+        "subtitle": "Antarctica, Sept 2026",
+        "motif": "globe",
+        "caption": "The hole peaked on 18 September."
+      },
+      "why": "Long measurement records let scientists tell a bad year from a trend, and the Montreal Protocol shows science can lead to action.",
+      "sources": [
+        {
+          "outlet": "NASA Earth Observatory",
+          "title": "Ozone hole reaches its 2026 maximum",
+          "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  INTEREST RATES",
+      "headline": "Why the Bank of England Raised Rates: Energy, Wages and Prices",
+      "deck": "Eight of nine members voted for the rise; the Bank expects inflation to peak around 5% in 2027.",
+      "body": [
+        "Economics lesson: a central bank sets the price of borrowing to keep prices steady. On 4 November the Bank of England’s rate-setting committee lifted Bank Rate by a quarter of a percentage point, from 3.75% to 4%, and published the move on 5 November. Eight members backed it; Catherine Mann wanted a half-point rise to 4.25%.",
+        "Start with the energy shock. Over the 15 working days to 27 October, Brent crude averaged $108 a barrel and UK natural gas 216 pence per therm, which was 38% and 81% higher than at the July report. The Bank said the Middle East conflict, now in its ninth month, keeps energy costs high. Direct energy effects accounted for about 1 point of the 3.5% September inflation rate, mostly through fuel.",
+        "Next, ask whether higher energy costs spread. So far, indirect effects on other prices have been limited. Many firms are absorbing costs by accepting lower profit margins, and some are protected by hedging or fixed-price contracts, but the Committee judged those buffers mostly temporary. Underlying wage growth is stuck around 3.5%, according to member Megan Greene, and private sector wage growth has stopped falling.",
+        "The outlook is for higher prices before lower. Bank staff expect inflation of about 4.5% in early 2027 and about 5% by mid-2027, then a fall. Activity has been stronger than expected, helped by global growth boosting UK exports and some use of artificial intelligence, but growth is likely to fall back in the coming quarters.",
+        "Two other pieces of context. The Budget’s new measures are expected to lower inflation by about a quarter of a percentage point by mid-2027. And evidence of second-round effects, where higher energy costs feed into wages and other prices, is limited so far, but the Committee said the risk of them has increased. Markets expected Bank Rate to be 4% in November and 4.25% in February.",
+        "What next? The Committee said policy is not on a pre-set path and it will adjust Bank Rate as needed to bring inflation back to 2% in the medium term. Lombardelli, Greene, Pill and Bailey saw arguments for another rise, while Taylor said the next move could be up, down or sideways. The next decision is on 17 December."
+      ],
+      "illustration": {
+        "title": "BANK RATE",
+        "subtitle": "3.75% to 4%",
+        "motif": "skyline",
+        "caption": "Bank Rate rose by 0.25 points."
+      },
+      "why": "The decision shows supply and demand at work: when a shock raises costs, a central bank weighs prices against growth.",
+      "sources": [
+        {
+          "outlet": "Bank of England",
+          "title": "Monetary Policy Summary and minutes, November 2026",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "outlet": "Bank of England",
+          "title": "Monetary Policy Report, November 2026",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Gaza: the first winter storm of the season flooded about 70,000 tents within 12 hours, Gaza’s Government Media Office said.",
+        "Iran: Foreign Minister Abbas Araghchi said mediators have not travelled since the US midterms.",
+        "India: the ninth critical minerals auction offers 20 blocks, and bidding rules now require two qualified bidders instead of three.",
+        "Alaska: Mary Peltola leads Sen. Dan Sullivan by a couple of hundred votes, with counting to continue for about two weeks."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Gravity assist",
+          "def": "Using a planet’s gravity to change a spacecraft’s path. Today: ESCAPADE swung past Earth on its way to Mars."
+        },
+        {
+          "word": "Dobson Unit",
+          "def": "A unit for measuring how much ozone is in a column of air. Today: a hole is where ozone falls below 220."
+        },
+        {
+          "word": "Bank Rate",
+          "def": "The Bank of England’s main interest rate. Today: it rose to 4%."
+        },
+        {
+          "word": "Delegation",
+          "def": "A group sent to speak for a country. Today: three delegations meet in Abu Dhabi."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A bean-shaped path around Lagrange point 2, about a million miles from Earth, let ESCAPADE wait there instead of flying straight to Mars."
+    },
+    "explainer": {
+      "title": "Why wait in a loiter orbit?",
+      "body": [
+        "Mars missions normally launch in the roughly two-year window when Earth and Mars align. ESCAPADE launched on 13 November 2025, when Earth and Mars were on opposite sides of the Sun, and instead of heading for Mars it entered an orbit around Lagrange point 2, about a million miles from Earth.",
+        "A year later, in November 2026, it returned for powered flybys: each spacecraft used Earth’s gravity together with an engine burn of roughly nine minutes. This lets the mission launch at nearly any time instead of waiting for the alignment."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA’s ESCAPADE completes powered Earth flybys, now en route to Mars",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> How many ESCAPADE flybys happened, and on which days?",
+        "(a) One, on 7 November  (b) Two, on 7 and 9 November  (c) Three, in November",
+        "<b>2.</b> Which city hosts the Ukraine, Russia and US talks?",
+        "(a) Geneva  (b) Abu Dhabi  (c) Doha",
+        "<b>3.</b> What was Delhi’s AQI on the morning of 6 November?",
+        "(a) 189  (b) 389  (c) 589",
+        "<b>4.</b> What is Bank Rate after the Bank of England’s decision?",
+        "(a) 3.75%  (b) 4%  (c) 4.25%",
+        "<b>5.</b> In what year was the deepest ozone hole on record?",
+        "(a) 1985  (b) 1994  (c) 2006",
+        "<b>Answers:</b> 1-b, 2-b, 3-b, 4-b, 5-b."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA’s ESCAPADE completes powered Earth flybys, now en route to Mars",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+        },
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        },
+        {
+          "outlet": "Business Today",
+          "title": "Delhi pollution: AQI hits 389 on Dhanteras morning",
+          "url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+        },
+        {
+          "outlet": "Bank of England",
+          "title": "Monetary Policy Summary and minutes, November 2026",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        },
+        {
+          "outlet": "NASA Earth Observatory",
+          "title": "Ozone hole reaches its 2026 maximum",
+          "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "Why might a spacecraft wait a year in orbit instead of flying straight to Mars?",
+        "Why do you think countries not at the table want a seat when talks begin, and what does history say about that?",
+        "How might the winds that clear Delhi’s air one day make it worse on another?"
+      ],
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA’s ESCAPADE completes powered Earth flybys, now en route to Mars",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+        },
+        {
+          "outlet": "NPR via KPBS",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+        },
+        {
+          "outlet": "Business Today",
+          "title": "Delhi pollution: AQI hits 389 on Dhanteras morning",
+          "url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Science, history and geography all meet in today’s news.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars",
+    "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+    "https://www.kyivpost.com/post/89424",
+    "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06",
+    "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8",
+    "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/",
+    "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+    "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+    "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+    "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026",
+    "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592",
+    "https://www.businesstoday.in/india/story/delhi-pollution-aqi-nears-400-ahead-of-diwali-stubble-burning-drives-worsening-air-quality-565800-2026-11-05"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "On which days did the ESCAPADE spacecraft fly past Earth?",
+        "options": [
+          "7 and 9 November",
+          "1 and 2 November",
+          "13 and 15 November"
+        ],
+        "answer": 0,
+        "why": "They flew past on 7 and 9 November.",
+        "story": "lead"
+      },
+      {
+        "q": "Which city hosts the Ukraine, Russia and US talks?",
+        "options": [
+          "Geneva",
+          "Abu Dhabi",
+          "Doha"
+        ],
+        "answer": 1,
+        "why": "The talks are in Abu Dhabi.",
+        "story": "world"
+      },
+      {
+        "q": "What was Delhi’s overall AQI at 8 am on 6 November?",
+        "options": [
+          "289",
+          "389",
+          "489"
+        ],
+        "answer": 1,
+        "why": "It was 389, classed very poor.",
+        "story": "india"
+      },
+      {
+        "q": "What did the Bank of England raise Bank Rate to?",
+        "options": [
+          "3.5%",
+          "4%",
+          "4.5%"
+        ],
+        "answer": 1,
+        "why": "It rose from 3.75% to 4%.",
+        "story": "economics"
+      },
+      {
+        "q": "In which year was the deepest ozone hole on record?",
+        "options": [
+          "1985",
+          "1994",
+          "2006"
+        ],
+        "answer": 1,
+        "why": "The deepest hole came in 1994, at 73 Dobson Units.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "NASA says this is its first powered Earth flyby to send a spacecraft toward Mars.",
+        "true": true,
+        "why": "NASA says it is the first time.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Bank of England’s vote on Bank Rate was unanimous.",
+        "true": false,
+        "why": "The vote was 8-1; Catherine Mann wanted a larger rise.",
+        "story": "economics"
+      },
+      {
+        "claim": "The 2026 ozone hole was the largest in 48 years.",
+        "true": false,
+        "why": "It ranked seventh largest by area.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Cape Canaveral",
+        "lat": 28.39,
+        "lon": -80.6,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Abu Dhabi",
+        "lat": 24.45,
+        "lon": 54.38,
+        "countries": [
+          "United Arab Emirates",
+          "Ukraine",
+          "Russia"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Alaska",
+        "lat": 64.2,
+        "lon": -149.5,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Antarctica",
+        "lat": -82.86,
+        "lon": 135.0,
+        "countries": []
+      },
+      {
+        "story": "economics",
+        "place": "London",
+        "lat": 51.51,
+        "lon": -0.13,
+        "countries": [
+          "United Kingdom"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "india",
+        "q": "How many monitoring stations showed severe air on 6 November?",
+        "answer": 28,
+        "prefix": "",
+        "unit": "stations",
+        "min": 0,
+        "max": 80,
+        "why": "About 28 stations showed severe air."
+      },
+      {
+        "story": "economics",
+        "q": "What was UK inflation in September, in per cent?",
+        "answer": 3.5,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 10,
+        "why": "UK inflation rose to 3.5% in September."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Two Spacecraft Head for Mars",
+        "body": [
+          "Two NASA spacecraft called ESCAPADE flew past Earth on 7 and 9 November. Each used Earth’s gravity and an engine burn to speed toward Mars.",
+          "NASA says this is the first time it has done this for a Mars trip. They launched on 13 November 2025 and waited far from Earth.",
+          "They should reach Mars in September 2027. Then they will study how the solar wind affects Mars."
+        ]
+      },
+      "world": {
+        "headline": "Talks About the War in Ukraine",
+        "body": [
+          "Ukraine, Russia and the United States meet in Abu Dhabi on Tuesday and Wednesday. It is the fourth round of talks led by the US.",
+          "France says European officials will join. Russia had said the talks were for three sides only.",
+          "Russia wants Ukraine to give up land. Ukraine wants promises of protection.",
+          "Russia fired 36 ballistic missiles at the Kyiv area overnight into Saturday. Ukraine’s president said four were stopped."
+        ]
+      },
+      "india": {
+        "headline": "Why Delhi’s Air Is So Dirty",
+        "body": [
+          "Delhi’s air quality number, the AQI, was 389 on 6 November. That is very poor.",
+          "About 28 places had severe air. Smoke from burning crop stubble, firecrackers and cars all add to it.",
+          "The Supreme Court allowed green firecrackers on 7 and 8 November at set hours.",
+          "Experts said the air could get worse from 9 November because the winds are weak."
+        ]
+      },
+      "us": {
+        "headline": "Democrats Win Congress",
+        "body": [
+          "Democrats won the House and the Senate on 3 November. In an early count they led the House 228 to 139.",
+          "They also had a Senate majority of 54 to 44, with two races undecided.",
+          "More than 124 million people voted, a record for a midterm.",
+          "The president, Donald Trump, says he can still use his veto.",
+          "Alaska’s Senate race was still too close to call."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "The Ozone Hole in 2026",
+        "body": [
+          "Ozone is a gas high in the air. It blocks harmful light from the Sun.",
+          "Over Antarctica the ozone layer gets thin each spring. This year’s thin patch was the seventh largest in 48 years.",
+          "It was biggest on 18 September. The deepest ever was in 1994.",
+          "A 1987 agreement stopped most of the chemicals that cause it. Scientists think the layer will recover in the 2070s."
+        ]
+      },
+      "economics": {
+        "headline": "UK Interest Rates Rise",
+        "body": [
+          "The Bank of England raised its main interest rate to 4%. Before, it was 3.75%.",
+          "Eight members voted for the rise. One wanted a bigger one.",
+          "The Bank says energy prices are high because of the Middle East war. Inflation was 3.5% in September.",
+          "The Bank thinks inflation may reach about 5% in mid-2027 and then fall.",
+          "The next decision on rates is on 17 December."
+        ]
+      }
+    }
+  }
+}
