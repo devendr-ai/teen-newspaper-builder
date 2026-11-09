@@ -1,0 +1,1200 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "abu-dhabi-talks",
+    "headline": "Ukraine, Russia and the US Prepare for Talks in Abu Dhabi as France Says Europe Will Attend",
+    "what_happened": "Delegations from Ukraine, Russia and the United States are due to meet in Abu Dhabi on 10 and 11 November. France said on 8 November that European officials will attend too, although the Kremlin had ruled out a European role.",
+    "why_it_matters": "It is the first US-brokered round since February, and the two sides remain far apart on land and on security guarantees.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "French Foreign Minister Jean-Noel Barrot said on Sunday, 8 November, that European officials will attend the US-mediated Russia-Ukraine talks in Abu Dhabi; he said: \"France will be there and will ensure that Europe's voice is heard.\"",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Barrot did not say who would represent France or whether European officials would negotiate or only observe.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "The talks in the United Arab Emirates are set for Tuesday and Wednesday (10 and 11 November).",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Kremlin spokesman Dmitry Peskov had ruled out a European role, saying the three-way format was already agreed.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "This is the fourth US-brokered round between the two countries and the first since talks in Geneva in February.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Moscow agreed to return to the table after US envoy Steve Witkoff met Russian President Vladimir Putin in St. Petersburg in October.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Russia's delegation is led by Vladimir Medinsky and, for the first time, includes Deputy Foreign Ministers Sergei Ryabkov and Mikhail Galuzin.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Russia wants Ukraine to give up large parts of its territory and renounce NATO membership; President Zelenskyy wants security commitments spelled out, including who would act and how if Russia attacked again.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Zelenskyy said Russia fired 36 ballistic missiles at the Kyiv area overnight Saturday and only four were intercepted.",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     },
+     {
+      "fact": "Russia fired 36 ballistic missiles and 172 strike drones overnight into Saturday, 7 November; Zelensky said all 36 missiles were aimed at Kyiv and the region and were meant to cause blackouts before the talks.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "Nine civilians were wounded, including one child, and the North Bridge over the Dnipro river and a kindergarten in Kyiv's Solomianskyi district were hit.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "fact": "High-voltage substations that connect the Rivne and Khmelnytskyi nuclear power plants to Kyiv and central Ukraine were damaged.",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Ballistic missiles fired at Kyiv area",
+      "value": 36,
+      "unit": "missiles",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "label": "Strike drones",
+      "value": 172,
+      "unit": "drones",
+      "source_url": "https://www.kyivpost.com/post/89424"
+     },
+     {
+      "label": "Missiles intercepted (Zelenskyy)",
+      "value": 4,
+      "unit": "missiles",
+      "source_url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections"
+     }
+    ],
+    "geography": "Abu Dhabi (United Arab Emirates); Kyiv and the Dnipro river (Ukraine); Russia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NPR via KPBS",
+      "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+      "url": "https://www.kpbs.org/news/international/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "Kyiv Post",
+      "title": "Russia fires 36 ballistic missiles and 172 drones at Ukraine overnight",
+      "url": "https://www.kyivpost.com/post/89424",
+      "published": "2026-11-07",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iran-mediation",
+    "headline": "Iran Says Peace Mediators Have Stopped Travelling Since the US Midterms",
+    "what_happened": "Iran's foreign minister said on 8 November that mediators have not travelled since the US midterm elections, while Trump was due to meet Qatar's prime minister on Monday. Fighting has largely eased but the Strait of Hormuz is still blockaded.",
+    "why_it_matters": "The Strait of Hormuz is vital for the world's energy supplies, so the stalled talks keep fuel prices high.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Iranian Foreign Minister Abbas Araghchi said on Sunday, 8 November, that mediators working on a US-Iran peace deal had not travelled since the \"shock\" of the US midterm elections.",
+      "source_url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+     },
+     {
+      "fact": "He said mediator travel had stopped \"for the past few days\" and it would take time before conditions favour resuming it; he called for patience.",
+      "source_url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+     },
+     {
+      "fact": "Qatar and Pakistan are among regional powers that have tried for months, without success, to halt the war the US and Israel launched in late February.",
+      "source_url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+     },
+     {
+      "fact": "Outright fighting has largely subsided, but Iran is still working to blockade the Strait of Hormuz and the US Navy maintains a counter-blockade of Iranian ports.",
+      "source_url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+     },
+     {
+      "fact": "In September Iran proposed a seven-day plan to reopen the strait, later offering to do it in two days, an offer Araghchi repeated on 8 November.",
+      "source_url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+     },
+     {
+      "fact": "Iran's demands include ending the war on all fronts, unfreezing Iranian assets, lifting oil sanctions and ending the counter-blockade of its ports.",
+      "source_url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592"
+     },
+     {
+      "fact": "US President Donald Trump will meet Qatar's prime minister on Monday; Qatar is a key mediator, and US and Gulf officials doubt an imminent deal to end the war.",
+      "source_url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war"
+     },
+     {
+      "fact": "A senior Iranian security official told state media Iran has no plans to negotiate unless Washington meets seven conditions from a June interim agreement.",
+      "source_url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war"
+     }
+    ],
+    "numbers": [],
+    "geography": "Iran; Strait of Hormuz; Qatar; United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "AFP via Arab News",
+      "title": "Iran FM says no negotiations since shock of US midterms",
+      "url": "https://arabnews.com/middle-east/iran-fm-says-no-negotiations-since-shock-of-us-midterms-3010592",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "The New Arab",
+      "title": "Trump to meet Qatar PM; no imminent deal to end Iran war",
+      "url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war",
+      "published": "2026-11-09",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "gaza-floods",
+    "headline": "First Winter Storm Floods About 70,000 Tents in Gaza",
+    "what_happened": "The first winter storm of the season hit Gaza over the weekend of 7 and 8 November. Gaza's Government Media Office said about 70,000 tents flooded within 12 hours.",
+    "why_it_matters": "Many displaced families live in tents, so heavy rain leaves them without dry shelter just as winter begins.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A winter storm, the first of the season, hit Gaza on the weekend of 7-8 November 2026.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "About 70,000 tents flooded within 12 hours, according to Gaza's Government Media Office.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "Civil Defense received over 2,100 distress calls and declared its highest emergency level.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "In some areas, water levels rose 1.5 metres.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     }
+    ],
+    "numbers": [],
+    "geography": "Gaza (Deir al-Balah, central Gaza)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Drop Site News",
+      "title": "Gaza floods destroy 70,000 tents",
+      "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+      "published": "2026-11-09",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "g7-paris",
+    "headline": "G7 Foreign Ministers Meet in Paris, With a Chornobyl Funding Conference the Same Day",
+    "what_happened": "The G7 foreign ministers meet in Paris on 9 and 10 November under France's presidency, and France also hosts a donor conference for repairs to the Chornobyl shelter on 9 November.",
+    "why_it_matters": "The meeting brings rich democracies together on Ukraine, the Middle East, energy supply and artificial intelligence safety.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The G7 foreign ministers meet in Paris on 9 and 10 November 2026, the second formal two-day meeting under France's G7 presidency.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "The agenda includes support for Ukraine, stabilising the Middle East, energy supply, Sudan, the Horn of Africa, Venezuela, Cuba, Haiti and a free and open Indo-Pacific.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "France invited Brazil, Egypt, the Republic of Korea, Saudi Arabia and Ukraine.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "Other items are fighting drug trafficking through port security, making humanitarian supply chains more effective, and a G7 response to risks from frontier AI models while supporting innovation.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "A G7+ Ports Network will hold its first meeting in Marseille at the same time.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "France hosts a donor conference in Paris on 9 November with the European Bank for Reconstruction and Development (EBRD) and Ukrainian authorities to raise funds to restore the Chornobyl Containment Arch.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     }
+    ],
+    "numbers": [],
+    "geography": "Paris (France); Marseille (France)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "French Ministry for Europe and Foreign Affairs",
+      "title": "What priorities for the G7 foreign ministers' meeting in Paris?",
+      "url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris",
+      "published": "2026-11-09",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-midterms",
+    "headline": "Democrats Win Both Houses of Congress in the US Midterms",
+    "what_happened": "Democrats won control of the US House and Senate in the 3 November midterm elections; Trump has since said voters \"didn't like the war\" with Iran.",
+    "why_it_matters": "It ends Republican control of Congress and the White House at once, so laws now need both parties' agreement or a presidential veto.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Democrats regained control of the House; by early Wednesday they had gained 19 seats for a 228-139 advantage with several races undecided, per the New York Times and AP.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Democrats flipped seven Senate seats for a 54-44 majority with two races undecided, AP reported.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "They were on pace for their largest House majority since 2008, when they won 257 seats.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Rep. Hakeem Jeffries, the Democratic leader, is in line to become Speaker.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Senate Democratic leader Chuck Schumer called the result a \"generational remake of the Senate map.\"",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Trump said he has veto power and would stay open to working with Congress.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "The University of Florida Election Lab counted more than 124 million ballots cast, passing the previous midterm record of nearly 119 million in 2018.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Trump discussed his party's \"historic midterm loss\" and said voters \"didn't like the war\" with Iran.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "In a Sunday interview on 60 Minutes, Trump said his immigration enforcement was \"too tough\" and open to a deal letting some immigrant workers stay if they have no criminal record.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "On 6 November Trump announced that Stephen Miller will replace Susie Wiles as White House chief of staff.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Democratic House lead (early count)",
+      "value": 228,
+      "unit": "seats vs 139",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "label": "Senate Democrats (early count)",
+      "value": 54,
+      "unit": "seats vs 44",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     }
+    ],
+    "geography": "United States (Washington, D.C.)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Cox Media Group",
+      "title": "Election 2026: Democrats capture both chambers of Congress",
+      "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "Drop Site News",
+      "title": "Gaza floods; Trump open to immigration deal after midterms wipeout",
+      "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+      "published": "2026-11-09",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "alaska-senate",
+    "headline": "Alaska Senate Race Is Too Close to Call",
+    "what_happened": "Democrat Mary Peltola leads Republican Sen. Dan Sullivan by a couple of hundred votes in Alaska; more votes will be counted over about two weeks.",
+    "why_it_matters": "A few hundred votes can decide a Senate seat, so every ballot is counted carefully.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Governor Mike Dunleavy said Democrat Mary Peltola leads Republican Sen. Dan Sullivan by \"a couple of hundred votes.\"",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "Decision Desk HQ reported Peltola at 48.2% and Sullivan at 47.9%.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "More votes will be counted over the next two weeks.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     }
+    ],
+    "numbers": [],
+    "geography": "Alaska (United States)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Drop Site News",
+      "title": "Gaza floods; Trump immigration; midterms",
+      "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+      "published": "2026-11-09",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "delhi-air",
+    "headline": "Delhi's Air Turns Very Poor Around Diwali",
+    "what_happened": "Delhi's air quality index was 389 ('very poor') on 6 November, with forecasters warning it could turn 'severe' around Diwali and be worst from 9 November. The Supreme Court had allowed green crackers on 7 and 8 November in set hours.",
+    "why_it_matters": "Polluted air affects everyone's breathing, and children are especially sensitive.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Delhi's overall AQI was 389 at 8 am on 6 November, classed 'very poor', up from 369 the previous day.",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     },
+     {
+      "fact": "About 28 CPCB monitoring stations recorded severe air quality (400+), such as IIT Delhi at 473 and Jahangirpuri at 460.",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     },
+     {
+      "fact": "Causes cited: stubble burning, firecracker emissions during Diwali, vehicle pollution, and weakening winds.",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     },
+     {
+      "fact": "Skymet's Mahesh Palawat said light easterly winds from Diwali night could disperse pollutants on 8 November, but conditions could worsen from 9 November as those winds weaken.",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     },
+     {
+      "fact": "CREA's Manoj Kumar said hotspots could exceed 450 and called 9 November particularly concerning; he urged stricter GRAP measures.",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     },
+     {
+      "fact": "The Supreme Court allowed approved green firecrackers in Delhi-NCR on 7 and 8 November 2026, only from 6 am to 7 am and 8 pm to 10 pm.",
+      "source_url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+     },
+     {
+      "fact": "The permission was subject to enforcement and monitoring safeguards.",
+      "source_url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Delhi AQI, 6 Nov 8 am",
+      "value": 389,
+      "unit": "AQI",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     },
+     {
+      "label": "IIT Delhi station",
+      "value": 473,
+      "unit": "AQI",
+      "source_url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06"
+     }
+    ],
+    "geography": "Delhi and the National Capital Region (India)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Business Today",
+      "title": "Delhi pollution: AQI hits 389 on Dhanteras morning",
+      "url": "https://www.businesstoday.in/india/story/delhi-pollution-aqi-hits-389-on-dhanteras-morning-experts-make-grim-prediction-for-diwali-566081-2026-11-06",
+      "published": "2026-11-06",
+      "primary": false
+     },
+     {
+      "outlet": "Bar and Bench",
+      "title": "Supreme Court allows bursting of green crackers in Delhi-NCR on November 7 and 8",
+      "url": "https://www.barandbench.com/news/litigation/diwali-2026-supreme-court-allows-bursting-of-green-crackers-in-delhi-ncr-on-november-7-and-8",
+      "published": "2026-11-02",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "critical-minerals",
+    "headline": "India Launches Its Ninth Critical Minerals Auction",
+    "what_happened": "India's Ministry of Mines launched the ninth round of critical mineral auctions on 5 November, offering 20 blocks, and cut the minimum number of qualified bidders from three to two.",
+    "why_it_matters": "Critical minerals are needed for electric vehicles, clean energy, defence and electronics.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Ministry of Mines launched the ninth critical minerals auction tranche on 5 November, with the third round of exploration licence blocks, in Goa.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "fact": "The round offers 20 critical and strategic mineral blocks in Chhattisgarh, Rajasthan, Telangana, West Bengal, Madhya Pradesh, Maharashtra, Andhra Pradesh and Bihar.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "fact": "It also offers 11 exploration blocks, targeting copper, vanadium, rare earth elements and potash.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "fact": "In the previous eight rounds, 64 of 100 unique critical and strategic mineral blocks were successfully auctioned.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "fact": "Rules notified on 16 October cut the minimum number of technically qualified bidders in the second auction round for Part D minerals from three to two.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "fact": "Critical minerals support electric vehicles, renewable energy technology, defence equipment, aerospace, electronics and advanced manufacturing.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "fact": "Blocks hold minerals such as rare earth elements, vanadium, gallium, titanium, graphite, potash and glauconite.",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Blocks offered",
+      "value": 20,
+      "unit": "blocks",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     },
+     {
+      "label": "Blocks auctioned in first 8 rounds",
+      "value": 64,
+      "unit": "of 100",
+      "source_url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks"
+     }
+    ],
+    "geography": "India (Chhattisgarh, Rajasthan, Telangana, West Bengal, Madhya Pradesh, Maharashtra, Andhra Pradesh, Bihar)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Free Press Journal",
+      "title": "Govt launches 9th critical minerals auction with 20 blocks",
+      "url": "https://www.freepressjournal.in/business/govt-launches-9th-critical-minerals-auction-with-20-blocks",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "voter-roll-revision",
+    "headline": "Election Commission Starts Voter List Update in Six States and Union Territories",
+    "what_happened": "India's Election Commission announced a Special Summary Revision of voter lists on 5 November in Arunachal Pradesh, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Mizoram, Odisha and Sikkim.",
+    "why_it_matters": "Voter lists decide who can vote, so keeping them accurate and adding young voters matters for fair elections.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Commission announced a Special Summary Revision (SSR) on Thursday, 5 November, in Arunachal Pradesh, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Mizoram, Odisha and Sikkim.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "It aims to enrol eligible voters, especially young and first-time electors.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "It also allows advance applications from people who will become eligible on 1 April, 1 July and 1 October 2027.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "Draft electoral rolls will be published on 30 November 2026 and final rolls on 21 January 2027.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "The Commission told chief secretaries to ensure enough staff and resources.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     }
+    ],
+    "numbers": [],
+    "geography": "India (Arunachal Pradesh, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Mizoram, Odisha, Sikkim)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "PTI via Telangana Today",
+      "title": "EC announces Special Summary Revision of electoral rolls in six States, UTs",
+      "url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voter-roll-revision",
+    "headline": "Election Commission Starts Voter List Update in Six States and Union Territories",
+    "what_happened": "India's Election Commission announced a Special Summary Revision of voter lists on 5 November in Arunachal Pradesh, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Mizoram, Odisha and Sikkim.",
+    "why_it_matters": "Voter lists decide who can vote, so keeping them accurate and adding young voters matters for fair elections.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Commission announced a Special Summary Revision (SSR) on Thursday, 5 November, in Arunachal Pradesh, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Mizoram, Odisha and Sikkim.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "It aims to enrol eligible voters, especially young and first-time electors.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "It also allows advance applications from people who will become eligible on 1 April, 1 July and 1 October 2027.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "Draft electoral rolls will be published on 30 November 2026 and final rolls on 21 January 2027.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     },
+     {
+      "fact": "The Commission told chief secretaries to ensure enough staff and resources.",
+      "source_url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts"
+     }
+    ],
+    "numbers": [],
+    "geography": "India (Arunachal Pradesh, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Mizoram, Odisha, Sikkim)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "PTI via Telangana Today",
+      "title": "EC announces Special Summary Revision of electoral rolls in six States, UTs",
+      "url": "https://telanganatoday.com/ec-announces-special-summary-revision-of-electoral-rolls-in-six-states-uts",
+      "published": "2026-11-05",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-midterms",
+    "headline": "Democrats Win Both Houses of Congress in the US Midterms",
+    "what_happened": "Democrats won control of the US House and Senate in the 3 November midterm elections; Trump has since said voters \"didn't like the war\" with Iran.",
+    "why_it_matters": "It ends Republican control of Congress and the White House at once, so laws now need both parties' agreement or a presidential veto.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Democrats regained control of the House; by early Wednesday they had gained 19 seats for a 228-139 advantage with several races undecided, per the New York Times and AP.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Democrats flipped seven Senate seats for a 54-44 majority with two races undecided, AP reported.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "They were on pace for their largest House majority since 2008, when they won 257 seats.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Rep. Hakeem Jeffries, the Democratic leader, is in line to become Speaker.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Senate Democratic leader Chuck Schumer called the result a \"generational remake of the Senate map.\"",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Trump said he has veto power and would stay open to working with Congress.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "The University of Florida Election Lab counted more than 124 million ballots cast, passing the previous midterm record of nearly 119 million in 2018.",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "fact": "Trump discussed his party's \"historic midterm loss\" and said voters \"didn't like the war\" with Iran.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "In a Sunday interview on 60 Minutes, Trump said his immigration enforcement was \"too tough\" and open to a deal letting some immigrant workers stay if they have no criminal record.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     },
+     {
+      "fact": "On 6 November Trump announced that Stephen Miller will replace Susie Wiles as White House chief of staff.",
+      "source_url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Democratic House lead (early count)",
+      "value": 228,
+      "unit": "seats vs 139",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     },
+     {
+      "label": "Senate Democrats (early count)",
+      "value": 54,
+      "unit": "seats vs 44",
+      "source_url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/"
+     }
+    ],
+    "geography": "United States (Washington, D.C.)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Cox Media Group",
+      "title": "Election 2026: Democrats capture both chambers of Congress",
+      "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/",
+      "published": "2026-11-04",
+      "primary": false
+     },
+     {
+      "outlet": "Drop Site News",
+      "title": "Gaza floods; Trump open to immigration deal after midterms wipeout",
+      "url": "https://dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+      "published": "2026-11-09",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "boe-rate-rise",
+    "headline": "Bank of England Raises Interest Rates to 4% as Energy Prices Bite",
+    "what_happened": "The Bank of England raised Bank Rate by 0.25 points to 4% on 5 November, voting 8-1, because energy prices linked to the Middle East war are pushing up inflation.",
+    "why_it_matters": "Interest rates change what people pay on loans and earn on savings, and the Bank uses them to keep prices steady.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 4 November 2026 the Monetary Policy Committee raised Bank Rate by 0.25 percentage points, from 3.75% to 4%; the decision was published on 5 November.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The vote was 8-1: eight members voted for the 0.25-point rise and Catherine Mann voted for a 0.5-point rise to 4.25%.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "UK CPI inflation rose to 3.5% in September; Bank staff project about 4.5% in the first quarter of 2027 and about 5% in the second quarter, with inflation expected to fall after that.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "Brent crude averaged $108 a barrel and UK natural gas averaged 216 pence per therm, 38% and 81% above the July report levels.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The Middle East conflict, now in its ninth month, has kept energy prices high.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The Committee judged the inflationary pressure in the pipeline sufficient to justify a rate rise; activity has been stronger than expected.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026"
+     },
+     {
+      "fact": "Evidence of second-round effects on wages and prices is limited but the risk has increased.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The Budget's new measures are expected to lower CPI by about a quarter of a percentage point by the second quarter of 2027.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The next decision is due on 17 December 2026.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Bank Rate",
+      "value": 4,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "label": "Previous Bank Rate",
+      "value": 3.75,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "label": "CPI inflation, September",
+      "value": 3.5,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "label": "Projected CPI, 2027 Q2",
+      "value": 5,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     }
+    ],
+    "geography": "United Kingdom; Middle East",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Bank of England",
+      "title": "Monetary Policy Summary and minutes, November 2026",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "published": "2026-11-05",
+      "primary": true
+     },
+     {
+      "outlet": "Bank of England",
+      "title": "Monetary Policy Report, November 2026",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026",
+      "published": "2026-11-05",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "escapade",
+    "headline": "NASA's Twin ESCAPADE Spacecraft Swing Past Earth on the Way to Mars",
+    "what_happened": "Both ESCAPADE spacecraft completed powered Earth flybys, on 7 and 9 November, using Earth's gravity and an engine burn to head for Mars, due September 2027.",
+    "why_it_matters": "It is a new way to reach Mars without waiting for the two-year window when Earth and Mars line up.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Both ESCAPADE spacecraft have completed a powered Earth flyby and are on course for Mars, expected to arrive in September 2027.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "They used Earth's gravity together with a sustained engine burn of roughly nine minutes to slingshot toward Mars.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "NASA says this is the first time it has used a powered Earth flyby to send a spacecraft toward Mars.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "The spacecraft launched on 13 November 2025 from Cape Canaveral, Florida, and then waited in a loiter orbit around Lagrange point 2, about a million miles from Earth.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "The first flyby came about 5 a.m. EST on 7 November, roughly 1,000 miles above Earth; the second about 6 a.m. EST on 9 November, roughly 650 miles above Earth.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "The cruise to Mars takes about 10 months; orbit insertion is planned for 7 and 9 September 2027, with each engine firing about 11 minutes.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "The two orbiters will fly in formation to study how the solar wind affects Mars's environment and drives atmospheric loss.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "Science operations are expected to begin in June 2028.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "The loiter orbit lets the mission launch at nearly any time rather than waiting for the roughly two-year window when Earth and Mars align.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     },
+     {
+      "fact": "The University of California, Berkeley's Space Sciences Laboratory leads the mission with partners including Rocket Lab and NASA Goddard.",
+      "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars"
+     }
+    ],
+    "numbers": [],
+    "geography": "Earth orbit; Mars; Cape Canaveral, Florida (United States)",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA Science",
+      "title": "NASA's ESCAPADE completes powered Earth flybys, now en route to Mars",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars",
+      "published": "2026-11-09",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "ozone-hole",
+    "headline": "The 2026 Ozone Hole Was the Seventh Largest in 48 Years",
+    "what_happened": "NASA reported the 2026 Antarctic ozone hole reached its maximum area on 18 September, ranking seventh largest by area in 48 years of records, though shallower than several other large holes.",
+    "why_it_matters": "Ozone high in the air blocks harmful ultraviolet light, and the Montreal Protocol is helping the layer recover.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The 2026 ozone hole ranked seventh-largest by area in 48 years of monitoring, but was shallower than several other large holes on record.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "Its annual maximum area occurred on 18 September 2026.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "An unusually strong Antarctic polar vortex created conditions favourable to ozone depletion over a large area.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "The 'hole' is defined as the region where ozone falls below 220 Dobson Units; no area is completely empty of ozone.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "Ozone in the stratosphere absorbs ultraviolet light, which damages DNA in plants and animals and causes sunburn and skin cancer.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "Chlorofluorocarbons (CFCs) from refrigerators and aerosol sprays release chlorine in the stratosphere when ultraviolet light breaks them apart, and chlorine repeatedly destroys ozone molecules.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "The 1987 Montreal Protocol phased out ozone-depleting chemicals; scientists estimate the Antarctic ozone layer will return to 1980 levels in the 2070s.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "fact": "The deepest hole on record was in 1994, reaching 73 Dobson Units on 30 September.",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Deepest ozone hole (1994)",
+      "value": 73,
+      "unit": "Dobson Units",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     },
+     {
+      "label": "Ozone-hole threshold",
+      "value": 220,
+      "unit": "Dobson Units",
+      "source_url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+     }
+    ],
+    "geography": "Antarctica",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA Earth Observatory",
+      "title": "Ozone hole reaches its 2026 maximum",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+      "published": "2026-11-09",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "boe-rate-rise",
+    "headline": "Bank of England Raises Interest Rates to 4% as Energy Prices Bite",
+    "what_happened": "The Bank of England raised Bank Rate by 0.25 points to 4% on 5 November, voting 8-1, because energy prices linked to the Middle East war are pushing up inflation.",
+    "why_it_matters": "Interest rates change what people pay on loans and earn on savings, and the Bank uses them to keep prices steady.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 4 November 2026 the Monetary Policy Committee raised Bank Rate by 0.25 percentage points, from 3.75% to 4%; the decision was published on 5 November.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The vote was 8-1: eight members voted for the 0.25-point rise and Catherine Mann voted for a 0.5-point rise to 4.25%.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "UK CPI inflation rose to 3.5% in September; Bank staff project about 4.5% in the first quarter of 2027 and about 5% in the second quarter, with inflation expected to fall after that.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "Brent crude averaged $108 a barrel and UK natural gas averaged 216 pence per therm, 38% and 81% above the July report levels.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The Middle East conflict, now in its ninth month, has kept energy prices high.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The Committee judged the inflationary pressure in the pipeline sufficient to justify a rate rise; activity has been stronger than expected.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026"
+     },
+     {
+      "fact": "Evidence of second-round effects on wages and prices is limited but the risk has increased.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The Budget's new measures are expected to lower CPI by about a quarter of a percentage point by the second quarter of 2027.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "fact": "The next decision is due on 17 December 2026.",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Bank Rate",
+      "value": 4,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "label": "Previous Bank Rate",
+      "value": 3.75,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "label": "CPI inflation, September",
+      "value": 3.5,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     },
+     {
+      "label": "Projected CPI, 2027 Q2",
+      "value": 5,
+      "unit": "%",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+     }
+    ],
+    "geography": "United Kingdom; Middle East",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Bank of England",
+      "title": "Monetary Policy Summary and minutes, November 2026",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "published": "2026-11-05",
+      "primary": true
+     },
+     {
+      "outlet": "Bank of England",
+      "title": "Monetary Policy Report, November 2026",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/November-2026",
+      "published": "2026-11-05",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "chornobyl-shelter",
+    "headline": "Paris Conference Seeks Money to Mend the Shelter Over the Chornobyl Reactor",
+    "what_happened": "France, Ukraine and the EBRD host a donor conference in Paris on 9 November to raise money for repairs to the New Safe Confinement over Chornobyl's Reactor Four, damaged by a Russian drone in February 2025.",
+    "why_it_matters": "The giant steel arch keeps radioactive remains sealed in; if damp corrodes it, the remains become harder and costlier to manage.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The EBRD is seeking at least 500 million euros ($545 million) to repair the New Safe Confinement at the Chornobyl nuclear plant.",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "fact": "A Russian drone strike on 14 February 2025 punctured the structure's inner and outer layers, compromising systems designed to contain radioactive material.",
+      "source_url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html"
+     },
+     {
+      "fact": "The structure covers the remains of Reactor Four and was built to allow the original sarcophagus, built after the 1986 accident, to be dismantled.",
+      "source_url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html"
+     },
+     {
+      "fact": "The G7 pledged 260 million euros in October for urgent repairs and asked other partners to cover the rest.",
+      "source_url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html"
+     },
+     {
+      "fact": "France, Ukraine and the EBRD co-chair the Paris donor conference on 9 November; the bank does not expect to raise the full amount immediately.",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "fact": "Repairs must be completed by 2030 to prevent moisture from corroding the steel arch, which could make radioactive material harder and costlier to manage.",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "fact": "The EBRD aims to secure funding to award contracts and begin major restoration in 2028; repairs are expected to take about two years.",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "fact": "The bank does not expect Russia to contribute; the costs could instead be recovered through future war reparations.",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "fact": "EBRD President Odile Renaud-Basso said: \"It's not a Ukrainian problem.\"",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "fact": "The EBRD has led international efforts at Chornobyl since 1995, mobilising over 2.5 billion euros in international contributions.",
+      "source_url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Funding sought",
+      "value": 500,
+      "unit": "million euros (at least)",
+      "source_url": "https://www.kyivpost.com/post/89420"
+     },
+     {
+      "label": "G7 pledge",
+      "value": 260,
+      "unit": "million euros",
+      "source_url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html"
+     }
+    ],
+    "geography": "Chornobyl nuclear plant (Ukraine); Paris (France)",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Kyiv Post (TVP World)",
+      "title": "EBRD seeks at least 500 million euros to repair Chornobyl shelter",
+      "url": "https://www.kyivpost.com/post/89420",
+      "published": "2026-11-07",
+      "primary": false
+     },
+     {
+      "outlet": "EBRD",
+      "title": "EBRD welcomes G7 commitment to finance urgent repairs to Chornobyl",
+      "url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-welcomes-g7-commitment-to-finance-urgent-repairs-to-chornob.html",
+      "published": "2026-10-15",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "g7-paris",
+    "headline": "G7 Foreign Ministers Meet in Paris, With a Chornobyl Funding Conference the Same Day",
+    "what_happened": "The G7 foreign ministers meet in Paris on 9 and 10 November under France's presidency, and France also hosts a donor conference for repairs to the Chornobyl shelter on 9 November.",
+    "why_it_matters": "The meeting brings rich democracies together on Ukraine, the Middle East, energy supply and artificial intelligence safety.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The G7 foreign ministers meet in Paris on 9 and 10 November 2026, the second formal two-day meeting under France's G7 presidency.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "The agenda includes support for Ukraine, stabilising the Middle East, energy supply, Sudan, the Horn of Africa, Venezuela, Cuba, Haiti and a free and open Indo-Pacific.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "France invited Brazil, Egypt, the Republic of Korea, Saudi Arabia and Ukraine.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "Other items are fighting drug trafficking through port security, making humanitarian supply chains more effective, and a G7 response to risks from frontier AI models while supporting innovation.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "A G7+ Ports Network will hold its first meeting in Marseille at the same time.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     },
+     {
+      "fact": "France hosts a donor conference in Paris on 9 November with the European Bank for Reconstruction and Development (EBRD) and Ukrainian authorities to raise funds to restore the Chornobyl Containment Arch.",
+      "source_url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris"
+     }
+    ],
+    "numbers": [],
+    "geography": "Paris (France); Marseille (France)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "French Ministry for Europe and Foreign Affairs",
+      "title": "What priorities for the G7 foreign ministers' meeting in Paris?",
+      "url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris",
+      "published": "2026-11-09",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "sport": {
+  "label": "SPORT",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "atp-finals",
+    "headline": "Eight Players Set for the ATP Finals in Turin",
+    "what_happened": "The season-ending Nitto ATP Finals run 15-22 November in Turin, Italy, with eight qualifiers; the draw is on 12 November.",
+    "why_it_matters": "Tennis's year-end showdown for the top eight players.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Nitto ATP Finals run from 15 to 22 November 2026 at the indoor hard-court Inalpi Arena in Turin, Italy.",
+      "source_url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+     },
+     {
+      "fact": "Eight players are split into two groups of four, and the top two from each group reach the semi-finals.",
+      "source_url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+     },
+     {
+      "fact": "Round-robin matches run from Sunday 15 to Friday 20 November, semi-finals are on Saturday 21 November and the final on Sunday 22 November.",
+      "source_url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+     },
+     {
+      "fact": "The qualifiers are Alexander Zverev, Carlos Alcaraz, Ben Shelton, Daniil Medvedev, Flavio Cobolli, Arthur Fils, Frances Tiafoe and Rafael Jodar.",
+      "source_url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+     },
+     {
+      "fact": "The draw is on Thursday, 12 November.",
+      "source_url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule"
+     }
+    ],
+    "numbers": [],
+    "geography": "Turin, Italy",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ATP Tour",
+      "title": "Nitto ATP Finals 2026: Draws, Dates, History",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule",
+      "published": "2026-11-09",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ }
+}

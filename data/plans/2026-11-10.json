@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-10",
+ "papers": {
+  "junior-daily": {
+   "lead": "iran-mediation",
+   "angle": "Where in the world and who is involved: Iran, Qatar, Pakistan, the United States and the Strait of Hormuz."
+  },
+  "breakfast-table": {
+   "lead": "us-midterms",
+   "angle": "What a divided Washington means for families, and a question to talk about at the table."
+  },
+  "young-global-citizen": {
+   "lead": "abu-dhabi-talks",
+   "angle": "What the Ukraine talks and Europe's seat mean for families in the United States and India."
+  },
+  "europe-explained": {
+   "lead": "chornobyl-shelter",
+   "angle": "A European-funded repair: the Paris conference to fix the steel shelter over Chornobyl."
+  },
+  "global-citizen-plus": {
+   "lead": "escapade",
+   "angle": "The physics and geography of a gravity slingshot: how Earth's gravity sends two spacecraft to Mars."
+  },
+  "current-affairs-digest": {
+   "lead": "iran-mediation",
+   "angle": "The full picture of the stalled Iran talks: names, positions, the Strait of Hormuz and the energy price link."
+  }
+ }
+}
