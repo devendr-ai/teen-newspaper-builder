@@ -139,6 +139,10 @@
      {
       "fact": "A senior Iranian security official told state media Iran has no plans to negotiate unless Washington meets seven conditions from a June interim agreement.",
       "source_url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war"
+     },
+     {
+      "fact": "French Foreign Minister Jean-Noel Barrot said Iran's Revolutionary Guards were behind cyberattacks on supermarket fridges on 11 and 12 October; speaking at the G7 foreign ministers' meeting in Paris, he said France will seek European sanctions.",
+      "source_url": "https://newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war"
      }
     ],
     "numbers": [],
@@ -1192,6 +1196,51 @@
       "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-history-draw-schedule",
       "published": "2026-11-09",
       "primary": true
+     }
+    ]
+   },
+   {
+    "id": "pl-matchday-10",
+    "headline": "Manchester United and Aston Villa Draw 4-4 in the Premier League",
+    "what_happened": "Manchester United and Aston Villa drew 4-4 at Old Trafford on Sunday 8 November, in Matchday 10 of the Premier League.",
+    "why_it_matters": "A high-scoring weekend in English football.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Manchester United and Aston Villa drew 4-4 at Old Trafford on Sunday 8 November 2026.",
+      "source_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+     },
+     {
+      "fact": "Wikipedia's season page lists the Manchester United-Aston Villa game as the season's highest-scoring match so far.",
+      "source_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+     },
+     {
+      "fact": "Also on Sunday 8 November, Sunderland beat Chelsea 1-0, Brighton beat Brentford 2-0 and Crystal Palace lost 1-3 to Liverpool.",
+      "source_url": "https://www.footballwebpages.co.uk/premier-league/fixtures-results"
+     },
+     {
+      "fact": "On Saturday 7 November, Nottingham Forest beat Manchester City 3-1 and Arsenal beat Hull City 1-0.",
+      "source_url": "https://www.footballwebpages.co.uk/premier-league/fixtures-results"
+     }
+    ],
+    "numbers": [],
+    "geography": "Old Trafford, Manchester (England)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Wikipedia",
+      "title": "2026-27 Premier League",
+      "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+      "published": "2026-11-08",
+      "primary": false
+     },
+     {
+      "outlet": "Football Web Pages",
+      "title": "Premier League fixtures and results",
+      "url": "https://www.footballwebpages.co.uk/premier-league/fixtures-results",
+      "published": "2026-11-08",
+      "primary": false
      }
     ]
    }
