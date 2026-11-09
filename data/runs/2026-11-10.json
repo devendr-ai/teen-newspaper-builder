@@ -1,0 +1,9 @@
+{"date":"2026-11-10","by":"claude-code",
+"enrichment":{"enabled":true,"selected":3,"note":"Selector ran; no extra WebFetch needed because the ESCAPADE, ozone and Chornobyl primary pages had already been read in full during research, so their details are in the pool. No separate enrichment blocks were added.","stories":{"escapade":{"status":"unavailable"},"ozone-hole":{"status":"unavailable"},"chornobyl-shelter":{"status":"unavailable"}}},
+"editions":{
+"junior-daily":{"status":"passed","reason":"","poster":null},
+"breakfast-table":{"status":"passed","reason":"","poster":null},
+"young-global-citizen":{"status":"passed","reason":"","poster":null},
+"europe-explained":{"status":"passed","reason":"","poster":null},
+"global-citizen-plus":{"status":"passed","reason":"","poster":null},
+"current-affairs-digest":{"status":"skipped","reason":"Research pool too thin to fill four pages of six sourced stories without padding, and the India, politics, economy and science stories repeated more than 35% of other papers' wording; a full paper would need more sourced research than this run found.","poster":null}}}
