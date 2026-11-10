@@ -1,0 +1,501 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-11",
+  "volume": 1,
+  "issue": 25,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE",
+      "headline": "Ukraine’s Families Wait as Talks to End the War Begin in Abu Dhabi",
+      "deck": "Leaders called the first day useful, but both sides still disagree about land.",
+      "body": [
+        "For Ukrainian families, the war Russia began in February 2022 is part of every day. Russian attacks damage the systems that bring power and heat into homes, raising the risk of a hard winter. On Tuesday, teams from Russia, Ukraine and the United States met in Abu Dhabi, in the United Arab Emirates, for two days of talks.",
+        "What would make families feel safe after a war? A US official said the talks would focus on security guarantees: promises from other countries to help if Russia attacked again. Ukraine’s lead negotiator, Rustem Umerov, said: “Our people are waiting to end this war.”",
+        "Land is the hardest part. Russia holds about 20 percent of Ukraine, and each side wants a different border. President Volodymyr Zelenskyy called the first day “constructive and quite substantive.”"
+      ],
+      "map": {
+        "title": "WHERE THE TALKS ARE HELD",
+        "label_top": "ABU DHABI, UNITED ARAB EMIRATES",
+        "label_bottom": "UKRAINE AND RUSSIA",
+        "footnote": "Europe met Ukraine’s team separately",
+        "caption": "The map marks Ukraine, Russia and the United Arab Emirates, where the talks are held in Abu Dhabi.",
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United Arab Emirates"
+        ],
+        "place": "Abu Dhabi"
+      },
+      "why": "Millions in Ukraine live with the war every day, and a safe end depends on promises other countries will keep.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "First day of Russia-Ukraine talks in Abu Dhabi 'constructive': Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+        },
+        {
+          "outlet": "Radio Free Europe/Radio Liberty",
+          "title": "Ukraine, Russia Negotiators Conclude First Day Of US-Led Peace Talks As Europe Seeks Role",
+          "url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon'",
+          "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ENERGY",
+      "headline": "Oil Prices Drop Below $90 After Trump Says the Iran War Is “Effectively Over”",
+      "deck": "Iran says no talks are planned, and diesel supplies are still tight.",
+      "body": [
+        "Oil prices reach every kitchen table, through the fuel in cars and buses and the cost of moving goods. On Tuesday, Brent crude, the world’s main oil price, fell to $89.70 a barrel. It was the first time it had been below $90 since August. In late October it was above $117.",
+        "The fall came after President Donald Trump said on Monday that Iran, “militarily, is effectively over.” He spoke after meeting the prime minister of Qatar, a key go-between in efforts to end the war. Trump said new strikes were “quite unlikely,” but that US forces were ready if needed.",
+        "Iran sees it differently. Its foreign minister, Abbas Araghchi, denied that any meeting was planned. One expert said oil is flowing almost as it did before the war, but diesel supplies are still limited, keeping its price high."
+      ],
+      "chart": {
+        "title": "THE PRICE OF OIL",
+        "subtitle": "Brent crude, US dollars a barrel",
+        "labels": [
+          "October peak",
+          "10 November"
+        ],
+        "values": [
+          117,
+          89.7
+        ],
+        "max": 130,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "The late-October peak was above $117; Brent fell to $89.70 in early trading on 10 November."
+      },
+      "connect": "Geography: the Strait of Hormuz is a narrow sea passage between Iran and the Arabian Peninsula, and attacks on oil tankers there continued this week.",
+      "sources": [
+        {
+          "outlet": "Oilprice.com",
+          "title": "Brent Crude Falls Below $90 for First Time Since August",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Trump says Iran war 'effectively over' as Tehran denies planned talks",
+          "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  CONGRESS",
+      "headline": "Republicans Pick Jim Jordan to Lead Them After Losing the House",
+      "deck": "He won a secret vote against Steve Scalise, 106 to 73.",
+      "body": [
+        "In the US House of Representatives, each party chooses a leader. A week after Republicans lost their majority in the midterm elections, they met on Tuesday and chose Jim Jordan of Ohio in a secret vote. He beat Steve Scalise of Louisiana, 106 to 73.",
+        "Jordan, 62, is a close ally of President Donald Trump. He will become the minority leader, the top member of the party with fewer seats. Speaker Mike Johnson said after the election that he would step down from leadership.",
+        "Democrats won roughly 260 seats, NBC News reported. Their leader, Hakeem Jeffries, is expected to become Speaker on 3 January."
+      ],
+      "why": "The party leaders decide which ideas get a vote, so they shape the laws that reach families. A question for the table: how should a team choose its captain?",
+      "also": [
+        "Senate: Republicans also voted on their leaders on Tuesday; Democrats will choose theirs in early December.",
+        "Whip: Tom Emmer will stay as the Republicans’ whip, who counts votes."
+      ],
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
+          "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Republicans elect Trump ally Jim Jordan as new US House minority leader",
+          "url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Climate: at the COP31 meeting in Turkey, Brazil presented a plan for moving away from coal, oil and gas, and India and Nigeria welcomed it.",
+        "Science: US researchers found a blood signal for a very early stage of ovarian cancer, but the test is not ready for doctors yet."
+      ],
+      "sources": [
+        {
+          "outlet": "Climate Home News",
+          "title": "Big fossil-fuel countries back Brazil-led transition roadmap",
+          "url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+        },
+        {
+          "outlet": "Hoag via GlobeNewswire",
+          "title": "Researchers Discover Blood-Based Warning Signal for Ovarian Cancer at its Earliest, Precancerous Stage",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "What kind of promise would help a family feel safe after a war ends?",
+        "When fuel prices go up or down, who in our family notices first?",
+        "Why might a country set a big goal even if it is hard to reach?"
+      ],
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "First day of Russia-Ukraine talks in Abu Dhabi 'constructive': Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Brent Crude Falls Below $90 for First Time Since August",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+        },
+        {
+          "outlet": "The Tribune (ANI)",
+          "title": "India on track to achieve USD 1 trillion export target this year: Piyush Goyal",
+          "url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  TRADE",
+      "headline": "India Aims to Sell $1 Trillion of Goods and Services Abroad This Year",
+      "deck": "Halfway through, exports have reached about $480 billion, says Piyush Goyal.",
+      "body": [
+        "Exports are the goods and services a country sells to other countries. On Tuesday, India’s Commerce Minister, Piyush Goyal, said India is on track to export $1 trillion of goods and services this financial year. He called the goal “sacrosanct,” meaning it must not be broken.",
+        "Halfway through the year, exports have reached about $480 billion, he said. Government figures for April to September show $476.20 billion, up 13.84% from the same months last year. Goyal said the second half of the year normally brings more than the first. Numbers for October come out on 15 November.",
+        "Trade deals help. Goyal said India’s goods could enter the 27-nation European Union without import taxes by March or April. India is also in talks with seven or eight more countries. He said European carmakers see India as a place to build cars for India and the world. He spoke at an event for the Bharat Mobility Global Expo 2027, which expects about one million visitors."
+      ],
+      "why": "When factories sell more abroad, they may need more workers, and that can reach families’ jobs and earnings.",
+      "sources": [
+        {
+          "outlet": "The Tribune (ANI)",
+          "title": "India on track to achieve USD 1 trillion export target this year: Piyush Goyal",
+          "url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+        }
+      ]
+    },
+    "sports": {
+      "title": "CHESS: INDIA’S 100TH GRANDMASTER",
+      "body": "Anuj Shrivatri, 22, became <b>India’s 100th Grandmaster</b>, chess’s highest title, by winning a tournament in Ozamiz City, Philippines. He lost his first game but scored seven points from nine rounds. He is the first Grandmaster from Madhya Pradesh.",
+      "sources": [
+        {
+          "outlet": "The Week",
+          "title": "Anuj Shrivatri becomes India's 100th chess Grandmaster",
+          "url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What the second day of talks in Abu Dhabi brings.",
+        "India’s October export figures, due on 15 November."
+      ]
+    },
+    "quote": {
+      "text": "Big goals are reached one step at a time.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+    "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html",
+    "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621",
+    "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+    "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
+    "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+    "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader",
+    "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal",
+    "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/",
+    "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html",
+    "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "Where did teams from Russia, Ukraine and the US meet on Tuesday?",
+        "options": [
+          "Paris",
+          "Abu Dhabi",
+          "Geneva"
+        ],
+        "answer": 1,
+        "why": "They met in Abu Dhabi, in the United Arab Emirates.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Brent crude fall to on Tuesday?",
+        "options": [
+          "$117 a barrel",
+          "$100 a barrel",
+          "$89.70 a barrel"
+        ],
+        "answer": 2,
+        "why": "Brent fell to $89.70, below $90 for the first time since August.",
+        "story": "world"
+      },
+      {
+        "q": "Who did House Republicans choose as their leader?",
+        "options": [
+          "Jim Jordan",
+          "Steve Scalise",
+          "Hakeem Jeffries"
+        ],
+        "answer": 0,
+        "why": "Jim Jordan beat Steve Scalise 106 to 73.",
+        "story": "us"
+      },
+      {
+        "q": "How much does India hope to export this financial year?",
+        "options": [
+          "$480 billion",
+          "$1 trillion",
+          "$27 billion"
+        ],
+        "answer": 1,
+        "why": "Piyush Goyal said India is on track for $1 trillion.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Russia holds about 20 percent of Ukraine.",
+        "true": true,
+        "why": "The paper says Russia holds about 20 percent.",
+        "story": "lead"
+      },
+      {
+        "claim": "Iran’s foreign minister said a meeting with the US was planned for next week.",
+        "true": false,
+        "why": "Abbas Araghchi denied that any meeting was planned.",
+        "story": "world"
+      },
+      {
+        "claim": "India’s October export figures come out on 15 November.",
+        "true": true,
+        "why": "Goyal said October’s numbers are due on 15 November.",
+        "story": "india"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Abu Dhabi",
+        "lat": 24.45,
+        "lon": 54.38,
+        "countries": [
+          "United Arab Emirates",
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "United States",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, D.C.",
+        "lat": 38.89,
+        "lon": -77.01,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "world",
+        "q": "How high was the price of a barrel of Brent oil at its late-October peak?",
+        "answer": 117,
+        "prefix": "$",
+        "unit": "",
+        "min": 50,
+        "max": 180,
+        "why": "Brent was above $117 a barrel in late October before falling below $90."
+      },
+      {
+        "story": "us",
+        "q": "How many votes did Jim Jordan win in the Republicans’ secret vote?",
+        "answer": 106,
+        "prefix": "",
+        "unit": "votes",
+        "min": 20,
+        "max": 200,
+        "why": "Jordan won 106 votes to Steve Scalise’s 73."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for Wednesday, November 11. Today: peace talks for Ukraine, a big drop in oil prices, and a new leader for one party in the US Congress. Let’s find out what they mean at home.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Let’s start with Ukraine. Where are the talks?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Talks in Abu Dhabi"
+        },
+        {
+          "who": "maya",
+          "text": "They are in Abu Dhabi, in the United Arab Emirates. On Tuesday, teams from Russia, Ukraine and the United States sat down there for two days of talks. For Ukrainian families, Russian attacks on power and heating make this winter a worry.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "What are they trying to agree on?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "A big part is security guarantees. Those are promises from other countries to help Ukraine if Russia attacked again. Ukraine’s lead negotiator, Rustem Umerov, said: our people are waiting to end this war.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "And what is still hard?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Land. Russia holds about 20 percent of Ukraine, and each side wants a different border. Still, President Zelenskyy called the first day constructive and quite substantive.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "So is a deal close?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "It is too early to say. These talks are a first step, and there is a second day still to come.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now, oil. Why did the price fall?",
+          "section": "story",
+          "story": "world",
+          "chapter": "Oil prices fall"
+        },
+        {
+          "who": "maya",
+          "text": "On Monday, President Trump said Iran, militarily, is effectively over, and that new strikes were quite unlikely. On Tuesday, Brent crude, the world’s main oil price, fell to 89 dollars and 70 cents a barrel. In late October it was above 117 dollars.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Does that mean the war with Iran has ended?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "Iran sees it differently. Its foreign minister denied that any meeting was planned. One expert said oil is flowing almost as before the war, but diesel supplies are still limited, so its price stays high.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Why does a place so far away change prices here?",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "maya",
+          "text": "The Strait of Hormuz, a narrow sea passage beside Iran, matters for oil, and attacks on tankers there continued this week. Oil prices reach us through the fuel in cars and buses and the cost of moving goods.",
+          "section": "story",
+          "story": "world"
+        },
+        {
+          "who": "sam",
+          "text": "Last story. What happened in Congress?",
+          "section": "story",
+          "story": "us",
+          "chapter": "A new House leader"
+        },
+        {
+          "who": "maya",
+          "text": "Each party in the House of Representatives picks a leader. A week after losing their majority, Republicans chose Jim Jordan of Ohio in a secret vote. He beat Steve Scalise, 106 to 73. Jordan is 62 and a close ally of President Trump.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "So what does his job become?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "He will be the minority leader, the top member of the party with fewer seats. Democrats won roughly 260 seats, and their leader, Hakeem Jeffries, is expected to become Speaker on January 3.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Where did teams from Russia, Ukraine and the US meet on Tuesday?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "Abu Dhabi They met in Abu Dhabi, in the United Arab Emirates.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "What did Brent crude fall to on Tuesday?",
+          "section": "quiz_question",
+          "quiz": 1
+        },
+        {
+          "who": "sam",
+          "text": "$89.70 a barrel Brent fell to $89.70, below $90 for the first time since August.",
+          "section": "quiz_answer",
+          "quiz": 1
+        },
+        {
+          "who": "maya",
+          "text": "What kind of promise would help a family feel safe after a war ends?",
+          "section": "discussion"
+        },
+        {
+          "who": "sam",
+          "text": "That is all for today. Thanks for listening, and have a lovely day.",
+          "section": "close"
+        }
+      ]
+    }
+  },
+  "threads": {
+    "lead": "russia-ukraine"
+  }
+}

@@ -1,0 +1,1310 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "abu-dhabi-talks",
+    "headline": "Russia, Ukraine and the US Hold First Day of Talks in Abu Dhabi",
+    "what_happened": "Negotiators from Russia and Ukraine met in Abu Dhabi, in the United Arab Emirates, on 10 November for the first of two days of talks brokered by the United States. It was the first face-to-face meeting between Russian and Ukrainian officials since February. European countries, NATO and the EU met Ukraine's team separately.",
+    "why_it_matters": "The war began with Russia's full-scale invasion in February 2022; the talks focus on security guarantees that could stop a new attack after any peace deal.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The talks in Abu Dhabi, in the United Arab Emirates, run over two days, 10 and 11 November 2026, and are mediated by the United States.",
+      "source_url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+     },
+     {
+      "fact": "They were the first face-to-face talks between Russian and Ukrainian officials since February 2026.",
+      "source_url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+     },
+     {
+      "fact": "The first US-brokered meeting of the three countries took place in Geneva in February 2026; since then, talks have produced some prisoner-of-war exchanges and short, local ceasefires.",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     },
+     {
+      "fact": "Ukraine's team was led by Rustem Umerov; Russia's team was led by Kremlin aide Vladimir Medinsky; the US envoys were Steve Witkoff and Jared Kushner, President Trump's son-in-law.",
+      "source_url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+     },
+     {
+      "fact": "Ukraine's President Volodymyr Zelenskyy called the first day 'constructive and quite substantive' and said humanitarian issues and security guarantees were covered in the first half.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "Umerov said: 'Our people are waiting to end this war.'",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "A US official said security guarantees would be central, including a possible defence promise modelled on Article 5 of NATO's founding treaty, under which an attack on one member is treated as an attack on all.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "Representatives of the UK, France, Germany, Italy, NATO and the European Commission met Ukraine's team separately; Kremlin spokesman Dmitry Peskov stressed that the Abu Dhabi talks are trilateral, meaning three-sided.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "France said there can be no lasting peace without addressing European security, which needs European involvement; Russia indicated it saw no place for Europeans in the talks.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "Ukraine wants Russia pushed back to the original border; Russia's President Vladimir Putin wants all of Ukraine's Donbas region. Russia occupies roughly 20 percent of Ukraine, including Crimea.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "A US official said any agreement on territory would most likely come at the end of the talks, after issues such as a post-war security framework are settled.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "Kushner said there were 'some good ideas how to bridge' the differences and that the goal is to 'create a new framework'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "President Trump said he saw a 'very strong inclination' toward ending the war and that both sides were 'tired of fighting'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "Analyst Ilya Timtchenko of the Center for European Policy Analysis said 'you're not really going to be seeing any deal' at this stage.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "fact": "Russia conducts near-daily air attacks on Ukrainian cities, damaging energy and heating systems, which raises the risk of a harsh winter for civilians.",
+      "source_url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+     },
+     {
+      "fact": "Overnight into Tuesday, Ukraine's air force said Russia launched 162 drones and one ballistic missile, and that 135 drones were downed or stopped.",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     },
+     {
+      "fact": "Ukrainian lawmaker Oleksandr Merezhko said he had 'absolutely no hopes' beyond possible new deals to exchange prisoners of war.",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     },
+     {
+      "fact": "The war has lasted 1,721 days.",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     },
+     {
+      "fact": "G7 foreign ministers met in Paris on the same day, focusing on Ukraine and Iran.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Share of Ukraine Russia occupies",
+      "value": 20,
+      "unit": "percent",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     },
+     {
+      "label": "Drones Russia launched overnight",
+      "value": 162,
+      "unit": "drones",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     },
+     {
+      "label": "Drones downed or stopped",
+      "value": 135,
+      "unit": "drones",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     },
+     {
+      "label": "Days of war",
+      "value": 1721,
+      "unit": "days",
+      "source_url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+     }
+    ],
+    "geography": "Abu Dhabi, capital of the United Arab Emirates, on the Persian Gulf; Ukraine and Russia in eastern Europe; Donbas region and Crimea in Ukraine",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "First day of Russia-Ukraine talks in Abu Dhabi 'constructive': Zelenskyy",
+      "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Radio Free Europe/Radio Liberty",
+      "title": "Ukraine, Russia Negotiators Conclude First Day Of US-Led Peace Talks As Europe Seeks Role",
+      "url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "ABC News",
+      "title": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon'",
+      "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Meduza",
+      "title": "Russia, Ukraine, and the U.S. to hold peace talks in Abu Dhabi on November 10",
+      "url": "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda",
+      "published": "2026-11-10",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Russia, Ukraine and the US Hold First Day of Talks in Abu Dhabi",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "cop31",
+    "headline": "At the COP31 Climate Summit, Brazil Presents a Plan to Move Away From Fossil Fuels",
+    "what_happened": "The UN climate conference COP31 opened on 9 November in Antalya, Turkey, with nearly 200 countries. On 10 November Brazil presented a voluntary roadmap for moving away from coal, oil and gas, and big fossil-fuel users including India and Nigeria welcomed it.",
+    "why_it_matters": "Burning coal, oil and gas warms the planet; the roadmap is the first plan on the table for how countries could move away from them, though it is voluntary.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "COP31, the UN climate conference, runs from 9 to 20 November 2026 in Antalya, Turkey, and nearly 200 countries are expected to attend.",
+      "source_url": "https://news.un.org/en/events/cop31"
+     },
+     {
+      "fact": "Turkey hosts the summit and Australia presides over the negotiations.",
+      "source_url": "https://www.nbcnews.com/world/asia/cop31-turkey-climate-change-un-summit-cfr-global-warming-rcna608276"
+     },
+     {
+      "fact": "COP31 President Murat Kurum, Turkey's environment minister, said at the opening: 'We know that delay carries one of the heaviest costs in climate action.'",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     },
+     {
+      "fact": "UN Secretary-General Antonio Guterres urged leaders to 'get serious by cutting emissions faster'.",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     },
+     {
+      "fact": "On day two, 10 November, the energy transition, meaning how countries move away from fossil fuels, was the central focus.",
+      "source_url": "https://news.un.org/en/events/cop31"
+     },
+     {
+      "fact": "COP30 President Andre Correa do Lago of Brazil presented a global roadmap on Transitioning Away from Fossil Fuels at COP31; it covers phasing out coal, oil and gas, and delegates applauded.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "The roadmap invites countries to draft national plans for clean energy systems by 2028, with the main push to cut coal, oil and gas envisaged after 2031.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "It proposes a system for countries to identify for themselves how much they depend on fossil fuels.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Big fossil-fuel users including India, Nigeria and Germany backed the roadmap; India said the transition 'must be co-created' and warned against swapping one dependency for another.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "India is the world's third-largest oil consumer and second-largest coal user.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Guterres said all countries should start cutting fossil fuels by 2028.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Some fossil-fuel-producing nations are expected to resist putting the roadmap into the summit's official decisions.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Turkey invited countries to a voluntary pledge to raise electricity's share of world energy demand from about 20% to 35% by 2035.",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     },
+     {
+      "fact": "India's Environment Minister Bhupender Yadav said India will not sign the electrification pledge: 'We are not going to sign any pledge.'",
+      "source_url": "https://climatefactchecks.org/global-fossil-fuel-transition-faces-new-divide-as-india-rejects-cop31-electrification-pledge/"
+     },
+     {
+      "fact": "The UN says developing countries need $305 billion a year by 2035 to adapt to climate change, nearly 10 times what they now receive.",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     },
+     {
+      "fact": "The US formally left the Paris Agreement at the start of 2026 and is not sending an official government delegation; members of Congress and US businesses will attend.",
+      "source_url": "https://www.nbcnews.com/world/asia/cop31-turkey-climate-change-un-summit-cfr-global-warming-rcna608276"
+     },
+     {
+      "fact": "The summit marks the 10th anniversary of the Paris Agreement entering into force; the agreement aims to limit warming to 1.5C, and projections show the world will overshoot that limit.",
+      "source_url": "https://www.nbcnews.com/world/asia/cop31-turkey-climate-change-un-summit-cfr-global-warming-rcna608276"
+     },
+     {
+      "fact": "A powerful El Nino was described at the opening as threatening to worsen extreme weather.",
+      "source_url": "https://news.un.org/en/events/cop31"
+     },
+     {
+      "fact": "Former US climate envoy John Kerry said current policies are leading to 2.8C of warming.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Turkey's President Erdogan praised new oilfield production in the Gabar mountains, saying output is expected to rise 30% to over 100,000 barrels a day in the second half of 2027.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Africa Group of Negotiators chair Antwi-Boasiako Amoah of Ghana said the transition must be just, with flexibility on timelines for fossil-dependent African nations, and called for finance and technology.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     },
+     {
+      "fact": "Germany, France and the Netherlands published their own national transition roadmaps earlier in 2026.",
+      "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Electricity share of energy demand now",
+      "value": 20,
+      "unit": "%",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     },
+     {
+      "label": "Electricity share goal for 2035",
+      "value": 35,
+      "unit": "%",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     },
+     {
+      "label": "Countries expected",
+      "value": 200,
+      "unit": "countries (nearly)",
+      "source_url": "https://news.un.org/en/events/cop31"
+     },
+     {
+      "label": "Adaptation money needed per year by 2035",
+      "value": 305,
+      "unit": "billion dollars",
+      "source_url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+     }
+    ],
+    "geography": "Antalya, a Mediterranean resort city on Turkey's southern coast",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Climate Home News",
+      "title": "Big fossil-fuel countries back Brazil-led transition roadmap",
+      "url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Turkish Minute",
+      "title": "COP31 opens in Antalya amid disputes over climate finance",
+      "url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/",
+      "published": "2026-11-09",
+      "primary": true
+     },
+     {
+      "outlet": "UN News",
+      "title": "UN Climate Conference COP31",
+      "url": "https://news.un.org/en/events/cop31",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "COP31 U.N. climate summit: What to expect in Turkey",
+      "url": "https://www.nbcnews.com/world/asia/cop31-turkey-climate-change-un-summit-cfr-global-warming-rcna608276",
+      "published": "2026-11-09",
+      "primary": false
+     },
+     {
+      "outlet": "Climate Fact Checks",
+      "title": "India rejects COP31 electrification pledge",
+      "url": "https://climatefactchecks.org/global-fossil-fuel-transition-faces-new-divide-as-india-rejects-cop31-electrification-pledge/",
+      "published": "2026-11-06",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "At the COP31 Climate Summit, Brazil Presents a Plan to Move Away From Fossil Fuels",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "oil-falls",
+    "headline": "Oil Falls Below $90 as Trump Says the Iran War Is 'Effectively Over'",
+    "what_happened": "Brent crude, the world's main oil price, fell below $90 a barrel on 10 November for the first time since August, after President Trump said the war with Iran was 'effectively over' militarily. Iran denied that any talks were planned.",
+    "why_it_matters": "Oil prices feed into the cost of petrol, diesel and goods, so a fall can ease prices for households, but diesel supplies remain tight.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Front-month Brent crude fell to $89.70 a barrel in early European trading on 10 November, below $90 for the first time since August.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "WTI, the US oil benchmark, traded below $85, down more than 2%.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Brent fell 17% the week before, its largest weekly drop since the COVID-era turmoil of 2020.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Brent is about 25% below its late-October peak above $117 a barrel.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Trump said on Monday, after meeting Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani at the White House, that Iran 'militarily, is effectively over'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Trump said the US is 'locked and loaded' if it has to return, but that further strikes were 'quite unlikely'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Iran's Foreign Minister Abbas Araghchi denied any meeting was planned, and Iranian security official Mohsen Rezaei told Washington to stop 'manufacturing fake news about imaginary talks'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Iran says it will not negotiate until Washington takes concrete steps under Iran's 'seven conditions'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Iranian authorities say US strikes are continuing; Qeshm Island in the Strait of Hormuz was reportedly targeted overnight.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Saxo Bank's Ole Hansen said crude oil flows have almost returned to pre-war levels, but gas and refined fuel supplies remain limited, keeping prices high, especially for diesel.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Hopes for an end to the eight-month-old Middle East conflict have grown since the US midterm elections.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Tanker attacks in the Strait of Hormuz continued during the week, but traders looked past them.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "A Reuters survey found OPEC oil output rose by 1.38 million barrels a day in October, to 22.87 million barrels a day, still below the February average of 25.48 million.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani is a key mediator; he said he discussed ways to advance US-Iran negotiations with Trump and Vice President JD Vance.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Reports said the US was open to letting Iran enrich uranium to almost 4% and that Iran would accept; neither side has officially confirmed this.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "Analyst Tim Waterer of KCM Trade told Reuters the tanker attacks 'have not escalated in a way that has forced a fresh risk premium into the market'.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "Houthis continued attacking Saudi energy infrastructure, most recently the East-West pipeline; Saudi Arabia's energy ministry said the attack caused a 'limited fire' that was put out.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent late-October peak",
+      "value": 117,
+      "unit": "$ a barrel (above)",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "label": "Brent on 10 November",
+      "value": 89.7,
+      "unit": "$ a barrel",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "label": "Weekly drop",
+      "value": 17,
+      "unit": "%",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     }
+    ],
+    "geography": "Iran, the Strait of Hormuz between Iran and the Arabian Peninsula, Qeshm Island, Qatar",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Oilprice.com",
+      "title": "Brent Crude Falls Below $90 for First Time Since August",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Oilprice.com",
+      "title": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Trump says Iran war 'effectively over' as Tehran denies planned talks",
+      "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
+      "published": "2026-11-10",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Oil Falls Below $90 as Trump Says the Iran War Is 'Effectively Over'",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     ],
+     "details": []
+    }
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "jordan-leader",
+    "headline": "House Republicans Choose Jim Jordan to Lead Them in the Minority",
+    "what_happened": "A week after losing their majority in the midterm elections, House Republicans elected Jim Jordan of Ohio as their leader for the next Congress, beating Steve Scalise 106-73 in a secret ballot on 10 November.",
+    "why_it_matters": "The minority leader speaks for the party that lost the House and leads its response to the new Democratic majority.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "House Republicans elected Rep. Jim Jordan of Ohio as minority leader, defeating Majority Leader Steve Scalise of Louisiana 106-73, in a secret ballot behind closed doors.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "The vote came on Tuesday, 10 November 2026, one week after Republicans lost their majority in the midterms.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader"
+     },
+     {
+      "fact": "Jordan is 62 and has spent two decades in Congress; he chairs the House Judiciary Committee and helped found the House Freedom Caucus.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Jordan is a top ally of President Trump.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader"
+     },
+     {
+      "fact": "Jordan said: 'I am battle-tested on the oversight front and I know the Democrats' playbook.'",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Speaker Mike Johnson announced he was stepping down from the leadership team a day after the midterms; he became speaker in October 2023.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Majority Whip Tom Emmer of Minnesota beat Rep. August Pfluger of Texas to stay as the party's whip.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Democrats won roughly 260 seats, the largest majority in 35 years; NBC News projects 259.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Hakeem Jeffries of New York is the favourite to become speaker; he needs 218 votes on the House floor on 3 January.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Senate Republicans also voted on Tuesday; Majority Leader John Thune ran for minority leader with no announced opposition. Senate Democrats will elect leaders in early December.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Republicans lost more than 40 House seats.",
+      "source_url": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/"
+     },
+     {
+      "fact": "In 2018 Jordan lost a challenge for minority leader to Kevin McCarthy, 159-43.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Scalise is a close Johnson ally who has held Republican leadership posts since John Boehner was speaker.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Jeffries can lose about 40 votes and still reach the 218 needed on the House floor; he said Democrats are 'confident that we will get to that number and beyond'.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "House Democrats will pick their leadership team next week; Jeffries, Katherine Clark, Pete Aguilar and Ted Lieu are running unopposed for the top four posts.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Senate Democrats will elect leaders in early December, with Chuck Schumer the favourite for majority leader.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Votes for Jordan",
+      "value": 106,
+      "unit": "votes",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "label": "Votes for Scalise",
+      "value": 73,
+      "unit": "votes",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "label": "Votes needed to become speaker",
+      "value": 218,
+      "unit": "votes",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     }
+    ],
+    "geography": "Washington, DC, United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NBC News",
+      "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
+      "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Republicans elect Trump ally Jim Jordan as new US House minority leader",
+      "url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Congress live updates as House GOP picks Jordan as leader",
+      "url": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/",
+      "published": "2026-11-10",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-exports",
+    "headline": "India Is on Track for $1 Trillion in Exports This Year, Says Piyush Goyal",
+    "what_happened": "Commerce Minister Piyush Goyal said on 10 November that India is on track to export $1 trillion of goods and services this financial year, with about $480 billion reached in the first six months.",
+    "why_it_matters": "Exports bring money and jobs into the country; Goyal linked the goal to new trade deals, including with the European Union.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Commerce and Industry Minister Piyush Goyal said on Tuesday, 10 November, in New Delhi, that India is on track to meet its $1 trillion export target in the current financial year.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Exports reached about $480 billion in the first six months.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said: 'Our USD 1 trillion export target this year is sacrosanct. We have to achieve it.'",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said: 'The first six months are normally less than the next six months.'",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Ministry of Commerce and Industry data show combined goods and services exports of $476.20 billion for April to September, up 13.84% from the same period last year.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "October export figures are due on 15 November; Goyal said: 'You are in for a surprise when you hear the number of October.'",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said the 27-nation European Union market could become open to Indian goods at zero duty by March or April.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Negotiations with another seven or eight countries are under way, and Goyal said India will have preferential access to almost 75% of global GDP.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said European carmakers see India as a possible manufacturing base, for India and the world, and Japanese companies are exploring billion-dollar partnerships.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal spoke at the curtain-raiser for the Bharat Mobility Global Expo 2027, which expects about one million visitors.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said India has already achieved 48% of the target.",
+      "source_url": "https://indianopinion.org/india-on-track-for-1-trillion-exports-this-fiscal-goyal/"
+     },
+     {
+      "fact": "Ministry of Commerce figures (PIB release, 15 October 2026): total exports of $476.20 billion in April-September 2026-27 compared with $418.31 billion a year earlier, up 13.84%.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Merchandise (goods) exports were $259.89 billion, up 18.51% from $219.30 billion; services exports were $216.31 billion, up 8.69% from $199.02 billion.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Total imports of goods and services were $551.13 billion, up 15.68%, leaving an overall trade deficit of $74.93 billion, compared with $58.10 billion a year earlier.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "India ran a services trade surplus of $102.71 billion in April-September.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "In September 2026, electronic goods exports rose 70.44% to $5.31 billion from $3.11 billion a year earlier; engineering goods rose 20.91% to $12.17 billion.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Non-petroleum exports were $218.70 billion in April-September, up 15.56% from $189.26 billion.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "In September 2026, India's overall trade deficit narrowed to $13.30 billion from $14.17 billion a year earlier, and gold imports fell 81.27%.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Goyal said the Bharat Mobility Global Expo 'will become the world's largest in size'; he suggested targeting at least 25,000 international visitors.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Export target this year",
+      "value": 1000,
+      "unit": "billion dollars",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "label": "Exports April-September",
+      "value": 476.2,
+      "unit": "billion dollars",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "label": "Growth on a year earlier",
+      "value": 13.84,
+      "unit": "%",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     }
+    ],
+    "geography": "New Delhi, India; the European Union",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The Tribune (ANI)",
+      "title": "India on track to achieve USD 1 trillion export target this year, USD 480 billion already achieved: Piyush Goyal",
+      "url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Indian Opinion",
+      "title": "India on track to hit $1 trillion export target, says Goyal",
+      "url": "https://indianopinion.org/india-on-track-for-1-trillion-exports-this-fiscal-goyal/",
+      "published": "2026-11-10",
+      "primary": false
+     },
+     {
+      "outlet": "A2Z Taxcorp (republishing Ministry of Commerce PIB data)",
+      "title": "India's Exports Surge 13.84% to US$ 476.20 Billion in April–September 2026",
+      "url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/",
+      "published": "2026-10-15",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "chess-100th-gm",
+    "headline": "Anuj Shrivatri Becomes India's 100th Chess Grandmaster",
+    "what_happened": "Anuj Shrivatri, 22, from Madhya Pradesh, became India's 100th Grandmaster by winning the 7th ASEAN Plus Individual Open Chess Championship in Ozamiz City, Philippines.",
+    "why_it_matters": "Grandmaster is chess's highest title.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Anuj Shrivatri, a 22-year-old International Master from Madhya Pradesh, became India's 100th Grandmaster by winning the 7th ASEAN Plus Individual Open Chess Championship in Ozamiz City, Philippines.",
+      "source_url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+     },
+     {
+      "fact": "He is the first player from Madhya Pradesh to earn the Grandmaster title.",
+      "source_url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+     },
+     {
+      "fact": "After losing his first game, he scored seven points from nine rounds.",
+      "source_url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+     },
+     {
+      "fact": "He began playing chess at age seven.",
+      "source_url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Points scored",
+      "value": 7,
+      "unit": "of 9",
+      "source_url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+     }
+    ],
+    "geography": "Ozamiz City, Philippines; Madhya Pradesh, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The Week",
+      "title": "Anuj Shrivatri becomes India's 100th chess Grandmaster",
+      "url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html",
+      "published": "2026-11-08",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "jordan-leader",
+    "headline": "House Republicans Choose Jim Jordan to Lead Them in the Minority",
+    "what_happened": "A week after losing their majority in the midterm elections, House Republicans elected Jim Jordan of Ohio as their leader for the next Congress, beating Steve Scalise 106-73 in a secret ballot on 10 November.",
+    "why_it_matters": "The minority leader speaks for the party that lost the House and leads its response to the new Democratic majority.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "House Republicans elected Rep. Jim Jordan of Ohio as minority leader, defeating Majority Leader Steve Scalise of Louisiana 106-73, in a secret ballot behind closed doors.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "The vote came on Tuesday, 10 November 2026, one week after Republicans lost their majority in the midterms.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader"
+     },
+     {
+      "fact": "Jordan is 62 and has spent two decades in Congress; he chairs the House Judiciary Committee and helped found the House Freedom Caucus.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Jordan is a top ally of President Trump.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader"
+     },
+     {
+      "fact": "Jordan said: 'I am battle-tested on the oversight front and I know the Democrats' playbook.'",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Speaker Mike Johnson announced he was stepping down from the leadership team a day after the midterms; he became speaker in October 2023.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Majority Whip Tom Emmer of Minnesota beat Rep. August Pfluger of Texas to stay as the party's whip.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Democrats won roughly 260 seats, the largest majority in 35 years; NBC News projects 259.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Hakeem Jeffries of New York is the favourite to become speaker; he needs 218 votes on the House floor on 3 January.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Senate Republicans also voted on Tuesday; Majority Leader John Thune ran for minority leader with no announced opposition. Senate Democrats will elect leaders in early December.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Republicans lost more than 40 House seats.",
+      "source_url": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/"
+     },
+     {
+      "fact": "In 2018 Jordan lost a challenge for minority leader to Kevin McCarthy, 159-43.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Scalise is a close Johnson ally who has held Republican leadership posts since John Boehner was speaker.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Jeffries can lose about 40 votes and still reach the 218 needed on the House floor; he said Democrats are 'confident that we will get to that number and beyond'.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "House Democrats will pick their leadership team next week; Jeffries, Katherine Clark, Pete Aguilar and Ted Lieu are running unopposed for the top four posts.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "fact": "Senate Democrats will elect leaders in early December, with Chuck Schumer the favourite for majority leader.",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Votes for Jordan",
+      "value": 106,
+      "unit": "votes",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "label": "Votes for Scalise",
+      "value": 73,
+      "unit": "votes",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     },
+     {
+      "label": "Votes needed to become speaker",
+      "value": 218,
+      "unit": "votes",
+      "source_url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     }
+    ],
+    "geography": "Washington, DC, United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NBC News",
+      "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
+      "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Republicans elect Trump ally Jim Jordan as new US House minority leader",
+      "url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Congress live updates as House GOP picks Jordan as leader",
+      "url": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/",
+      "published": "2026-11-10",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "oil-falls",
+    "headline": "Oil Falls Below $90 as Trump Says the Iran War Is 'Effectively Over'",
+    "what_happened": "Brent crude, the world's main oil price, fell below $90 a barrel on 10 November for the first time since August, after President Trump said the war with Iran was 'effectively over' militarily. Iran denied that any talks were planned.",
+    "why_it_matters": "Oil prices feed into the cost of petrol, diesel and goods, so a fall can ease prices for households, but diesel supplies remain tight.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Front-month Brent crude fell to $89.70 a barrel in early European trading on 10 November, below $90 for the first time since August.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "WTI, the US oil benchmark, traded below $85, down more than 2%.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Brent fell 17% the week before, its largest weekly drop since the COVID-era turmoil of 2020.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Brent is about 25% below its late-October peak above $117 a barrel.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Trump said on Monday, after meeting Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani at the White House, that Iran 'militarily, is effectively over'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Trump said the US is 'locked and loaded' if it has to return, but that further strikes were 'quite unlikely'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Iran's Foreign Minister Abbas Araghchi denied any meeting was planned, and Iranian security official Mohsen Rezaei told Washington to stop 'manufacturing fake news about imaginary talks'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Iran says it will not negotiate until Washington takes concrete steps under Iran's 'seven conditions'.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Iranian authorities say US strikes are continuing; Qeshm Island in the Strait of Hormuz was reportedly targeted overnight.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Saxo Bank's Ole Hansen said crude oil flows have almost returned to pre-war levels, but gas and refined fuel supplies remain limited, keeping prices high, especially for diesel.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Hopes for an end to the eight-month-old Middle East conflict have grown since the US midterm elections.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "fact": "Tanker attacks in the Strait of Hormuz continued during the week, but traders looked past them.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "A Reuters survey found OPEC oil output rose by 1.38 million barrels a day in October, to 22.87 million barrels a day, still below the February average of 25.48 million.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani is a key mediator; he said he discussed ways to advance US-Iran negotiations with Trump and Vice President JD Vance.",
+      "source_url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+     },
+     {
+      "fact": "Reports said the US was open to letting Iran enrich uranium to almost 4% and that Iran would accept; neither side has officially confirmed this.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "Analyst Tim Waterer of KCM Trade told Reuters the tanker attacks 'have not escalated in a way that has forced a fresh risk premium into the market'.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "fact": "Houthis continued attacking Saudi energy infrastructure, most recently the East-West pipeline; Saudi Arabia's energy ministry said the attack caused a 'limited fire' that was put out.",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Brent late-October peak",
+      "value": 117,
+      "unit": "$ a barrel (above)",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "label": "Brent on 10 November",
+      "value": 89.7,
+      "unit": "$ a barrel",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     },
+     {
+      "label": "Weekly drop",
+      "value": 17,
+      "unit": "%",
+      "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     }
+    ],
+    "geography": "Iran, the Strait of Hormuz between Iran and the Arabian Peninsula, Qeshm Island, Qatar",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Oilprice.com",
+      "title": "Brent Crude Falls Below $90 for First Time Since August",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Oilprice.com",
+      "title": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Trump says Iran war 'effectively over' as Tehran denies planned talks",
+      "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
+      "published": "2026-11-10",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Oil Falls Below $90 as Trump Says the Iran War Is 'Effectively Over'",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "india-exports",
+    "headline": "India Is on Track for $1 Trillion in Exports This Year, Says Piyush Goyal",
+    "what_happened": "Commerce Minister Piyush Goyal said on 10 November that India is on track to export $1 trillion of goods and services this financial year, with about $480 billion reached in the first six months.",
+    "why_it_matters": "Exports bring money and jobs into the country; Goyal linked the goal to new trade deals, including with the European Union.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Commerce and Industry Minister Piyush Goyal said on Tuesday, 10 November, in New Delhi, that India is on track to meet its $1 trillion export target in the current financial year.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Exports reached about $480 billion in the first six months.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said: 'Our USD 1 trillion export target this year is sacrosanct. We have to achieve it.'",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said: 'The first six months are normally less than the next six months.'",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Ministry of Commerce and Industry data show combined goods and services exports of $476.20 billion for April to September, up 13.84% from the same period last year.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "October export figures are due on 15 November; Goyal said: 'You are in for a surprise when you hear the number of October.'",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said the 27-nation European Union market could become open to Indian goods at zero duty by March or April.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Negotiations with another seven or eight countries are under way, and Goyal said India will have preferential access to almost 75% of global GDP.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said European carmakers see India as a possible manufacturing base, for India and the world, and Japanese companies are exploring billion-dollar partnerships.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal spoke at the curtain-raiser for the Bharat Mobility Global Expo 2027, which expects about one million visitors.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "fact": "Goyal said India has already achieved 48% of the target.",
+      "source_url": "https://indianopinion.org/india-on-track-for-1-trillion-exports-this-fiscal-goyal/"
+     },
+     {
+      "fact": "Ministry of Commerce figures (PIB release, 15 October 2026): total exports of $476.20 billion in April-September 2026-27 compared with $418.31 billion a year earlier, up 13.84%.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Merchandise (goods) exports were $259.89 billion, up 18.51% from $219.30 billion; services exports were $216.31 billion, up 8.69% from $199.02 billion.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Total imports of goods and services were $551.13 billion, up 15.68%, leaving an overall trade deficit of $74.93 billion, compared with $58.10 billion a year earlier.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "India ran a services trade surplus of $102.71 billion in April-September.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "In September 2026, electronic goods exports rose 70.44% to $5.31 billion from $3.11 billion a year earlier; engineering goods rose 20.91% to $12.17 billion.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Non-petroleum exports were $218.70 billion in April-September, up 15.56% from $189.26 billion.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "In September 2026, India's overall trade deficit narrowed to $13.30 billion from $14.17 billion a year earlier, and gold imports fell 81.27%.",
+      "source_url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+     },
+     {
+      "fact": "Goyal said the Bharat Mobility Global Expo 'will become the world's largest in size'; he suggested targeting at least 25,000 international visitors.",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Export target this year",
+      "value": 1000,
+      "unit": "billion dollars",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "label": "Exports April-September",
+      "value": 476.2,
+      "unit": "billion dollars",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     },
+     {
+      "label": "Growth on a year earlier",
+      "value": 13.84,
+      "unit": "%",
+      "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+     }
+    ],
+    "geography": "New Delhi, India; the European Union",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The Tribune (ANI)",
+      "title": "India on track to achieve USD 1 trillion export target this year, USD 480 billion already achieved: Piyush Goyal",
+      "url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Indian Opinion",
+      "title": "India on track to hit $1 trillion export target, says Goyal",
+      "url": "https://indianopinion.org/india-on-track-for-1-trillion-exports-this-fiscal-goyal/",
+      "published": "2026-11-10",
+      "primary": false
+     },
+     {
+      "outlet": "A2Z Taxcorp (republishing Ministry of Commerce PIB data)",
+      "title": "India's Exports Surge 13.84% to US$ 476.20 Billion in April–September 2026",
+      "url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/",
+      "published": "2026-10-15",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ovarian-blood-test",
+    "headline": "A Blood Signal May Warn of Ovarian Cancer at Its Earliest Stage",
+    "what_happened": "Researchers at Hoag, a hospital system in California, reported in Nature Medicine on 10 November a molecule in the blood that signals STIC, a microscopic precancerous stage of the most common serious ovarian cancer. In a test group it caught 92.3% of cases.",
+    "why_it_matters": "STIC cannot be seen on scans or found by today's blood tests, so a reliable blood signal could one day help doctors act before cancer forms; it is not yet ready for clinics.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Hoag researchers Dr Rajan Gogna and Dr Esha Madan published the study in Nature Medicine on 10 November 2026, after an eight-year international effort.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "The signal points to serous tubal intraepithelial carcinoma (STIC), an early precancerous stage of high-grade serous ovarian cancer that forms in the fallopian tube.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "STIC is microscopic, does not invade nearby tissue, cannot be seen on imaging and is not found by ordinary cancer blood tests; it is usually found by chance during surgery.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "The marker, called Tu-Stroma, is an RNA molecule that was raised in the blood of women with STIC and early-stage ovarian cancer.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "Tu-Stroma is linked to 'cell competition', in which cancer weakens neighbouring healthy cells to make room for its own growth.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "In a separate test group, the test detected STIC in 92.3% of women who had it and correctly identified 98.2% of healthy women.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "Modelled for a high-risk group, about 72% of positive results would be correct, and a negative result would be correct nearly 100% of the time.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "The study used blood samples collected earlier from women with known diagnoses, and the test is not yet clinically validated; further studies are needed before it is used in clinics.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "Next, researchers plan studies that collect blood from women and follow them over time to see whether the test works for early detection.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "Women with BRCA1 or BRCA2 gene changes have a higher risk and often face decisions about surgery to remove the fallopian tubes and ovaries.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "Dr Gogna said: 'Ovarian cancer does not begin the day we discover a tumor.'",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "The study involved 506 people: 43 with isolated STIC, 232 with high-grade serous ovarian cancer, 143 healthy controls and 88 with benign (non-cancerous) growths.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "Tu-Stroma separated STIC from healthy controls with an accuracy score (AUC) of 0.99, compared with 0.59 for CA125, the standard ovarian cancer blood marker.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "Earlier research by the same group found ovarian cancer cells release tiny bubbles called extracellular vesicles that carry Tu-Stroma RNA to neighbouring healthy cells; the study measured Tu-Stroma in vesicles in blood serum.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "More than 320,000 women are diagnosed with ovarian cancer worldwide each year, and more than 207,000 die from it; it is usually diagnosed only after it has spread.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "STIC lesions may come 6 to 7 years before invasive cancer.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "Large trials of CA125 testing, with or without ultrasound, did not reduce deaths from ovarian cancer.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "The estimated share of positive results that would be correct ranged from about 16% in a lower-risk setting to about 72% in a higher-risk group.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "Gogna said a negative result 'cannot currently exclude STIC or justify delaying recommended preventive surgery'.",
+      "source_url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+     },
+     {
+      "fact": "Preventive removal of the fallopian tubes and ovaries can bring early menopause.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "fact": "Dr Madan said: 'For women at high risk, this could transform how we approach prevention.'",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Women with STIC detected",
+      "value": 92.3,
+      "unit": "%",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "label": "Healthy women correctly identified",
+      "value": 98.2,
+      "unit": "%",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     },
+     {
+      "label": "Years of research",
+      "value": 8,
+      "unit": "years",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+     }
+    ],
+    "geography": "Orange County, California, United States",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Hoag via GlobeNewswire",
+      "title": "Researchers Discover Blood-Based Warning Signal for Ovarian Cancer at its Earliest, Precancerous Stage",
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "Inside Precision Medicine",
+      "title": "Blood-Based RNA Test Detects Precancerous Ovarian Lesions Missed by Conventional Screening",
+      "url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/",
+      "published": "2026-11-10",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}

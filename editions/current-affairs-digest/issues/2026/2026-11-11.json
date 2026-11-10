@@ -1,0 +1,655 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-11-11",
+  "volume": 1,
+  "issue": 24,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE",
+      "headline": "In Abu Dhabi Ukraine Talks, Security Guarantees Come First and Territory Last",
+      "deck": "Russia and Ukraine met face to face for the first time since February; European governments held a separate track with Kyiv.",
+      "body": [
+        "Delegations from Russia, Ukraine and the United States opened two days of talks in Abu Dhabi, the capital of the United Arab Emirates, on Tuesday 10 November. It was the first face-to-face meeting of Russian and Ukrainian officials since February, when the first US-brokered trilateral round was held in Geneva. That process has produced some prisoner-of-war exchanges and short, local ceasefires, but no settlement.",
+        "Each side sent senior figures. Ukraine’s team is led by Rustem Umerov and Russia’s by Kremlin aide Vladimir Medinsky, while US envoys Steve Witkoff and Jared Kushner act as mediators. Representatives of the UK, France, Germany, Italy, NATO and the European Commission met Ukraine’s team separately. Kremlin spokesman Dmitry Peskov stressed that the Abu Dhabi talks are trilateral, and France said that there can be no lasting peace without addressing European security.",
+        "The agenda runs in a deliberate order. A US official said security guarantees would be central, possibly including a defence commitment modelled on Article 5 of NATO’s founding treaty, under which an attack on one member is treated as an attack on all. Any agreement on territory would most likely come last, after a post-war security framework is settled.",
+        "Territory is where the gap is widest. Russia occupies roughly 20 percent of Ukraine, including Crimea. Ukraine wants Russia pushed back to the original border; President Vladimir Putin wants all of Ukraine’s Donbas region. President Volodymyr Zelenskyy called the first day “constructive and quite substantive”, but analyst Ilya Timtchenko of the Center for European Policy Analysis said: “you’re not really going to be seeing any deal.”"
+      ],
+      "map": {
+        "title": "WHERE THE TALKS ARE HELD",
+        "label_top": "ABU DHABI, UNITED ARAB EMIRATES",
+        "label_bottom": "UKRAINE AND RUSSIA",
+        "footnote": "Russia occupies roughly 20% of Ukraine",
+        "caption": "Talks between Russia and Ukraine, mediated by the US, are held in Abu Dhabi, far from the front line.",
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United Arab Emirates"
+        ],
+        "place": "Abu Dhabi"
+      },
+      "why": "The order of the agenda matters: settling security guarantees before borders tests whether outside powers will commit to defending Ukraine, which shapes what each side can accept on territory.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "First day of Russia-Ukraine talks in Abu Dhabi 'constructive': Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+        },
+        {
+          "outlet": "Radio Free Europe/Radio Liberty",
+          "title": "Ukraine, Russia Negotiators Conclude First Day Of US-Led Peace Talks As Europe Seeks Role",
+          "url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+        },
+        {
+          "outlet": "ABC News",
+          "title": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon'",
+          "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  CLIMATE",
+      "headline": "Brazil Takes Its Fossil-Fuel Roadmap to COP31, and India and Nigeria Back It",
+      "deck": "The plan is voluntary, sitting outside the formal negotiations in Antalya.",
+      "body": [
+        "COP31, the United Nations climate conference, opened on 9 November in Antalya, Turkey, and runs until 20 November with nearly 200 countries expected. Turkey hosts the summit while Australia presides over the negotiations. On the second day the energy transition, the shift away from fossil fuels, was the central focus.",
+        "That day, COP30 President André Corrêa do Lago of Brazil presented a global roadmap on Transitioning Away from Fossil Fuels, covering the phase-out of coal, oil and gas. It invites countries to draft national plans for clean energy systems by 2028, with the main push to cut coal, oil and gas envisaged after 2031. Countries would identify for themselves how much they depend on fossil fuels.",
+        "Big fossil-fuel users including India, Nigeria and Germany backed it. India, the world’s third-largest oil consumer and second-largest coal user, said the transition “must be co-created” and warned against swapping one dependency for another. UN Secretary-General António Guterres said all countries should start cutting fossil fuels by 2028. Some producer nations, however, are expected to resist writing the roadmap into the summit’s formal decisions. The chair of the Africa Group of Negotiators, Antwi-Boasiako Amoah of Ghana, said the transition must be just, with flexible timelines for fossil-dependent African nations and support with finance and technology.",
+        "Turkey is promoting its own voluntary target: raising electricity’s share of world energy demand from about 20% to 35% by 2035. India’s Environment Minister Bhupender Yadav said India will not sign that pledge. Money is the other fault line: the UN says developing countries need $305 billion a year by 2035 to adapt to climate change, nearly 10 times what they now receive. Former US climate envoy John Kerry said current policies are leading to 2.8C of warming. The United States, which formally left the Paris Agreement at the start of 2026, sent no official government delegation."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "BRAZIL’S ROADMAP: THE TIMELINE",
+        "caption": "The roadmap is voluntary; its timeline as presented at COP31 on 10 November.",
+        "source_url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/",
+        "items": [
+          {
+            "label": "Countries draft national plans for clean energy systems by 2028",
+            "evidence": "draft national plans for clean energy systems by 2028"
+          },
+          {
+            "label": "Main push to cut coal, oil and gas supply and demand after 2031",
+            "evidence": "the main push to cut coal, oil and gas envisaged after 2031"
+          }
+        ]
+      },
+      "connect": "History: COP31 coincides with the 10th anniversary of the Paris Agreement entering into force; the agreement set the goal of limiting warming to 1.5C, which projections now show the world will overshoot.",
+      "sources": [
+        {
+          "outlet": "Climate Home News",
+          "title": "Big fossil-fuel countries back Brazil-led transition roadmap",
+          "url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+        },
+        {
+          "outlet": "Turkish Minute",
+          "title": "COP31 opens in Antalya amid disputes over climate finance",
+          "url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+        },
+        {
+          "outlet": "UN News",
+          "title": "UN Climate Conference COP31",
+          "url": "https://news.un.org/en/events/cop31"
+        },
+        {
+          "outlet": "NBC News",
+          "title": "COP31 U.N. climate summit: What to expect in Turkey",
+          "url": "https://www.nbcnews.com/world/asia/cop31-turkey-climate-change-un-summit-cfr-global-warming-rcna608276"
+        },
+        {
+          "outlet": "Climate Fact Checks",
+          "title": "India rejects COP31 electrification pledge",
+          "url": "https://climatefactchecks.org/global-fossil-fuel-transition-faces-new-divide-as-india-rejects-cop31-electrification-pledge/"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  TRADE",
+      "headline": "Goyal Says India Is on Track for $1 Trillion in Exports, With $476 Billion in the First Half",
+      "deck": "The commerce minister calls the target “sacrosanct” and points to an EU deal by March or April.",
+      "body": [
+        "India’s Commerce and Industry Minister Piyush Goyal said in New Delhi on Tuesday 10 November that the country is on track to meet its target of $1 trillion, or $1,000 billion, in exports in the current financial year, 2026-27. Exports here means goods and services together. “Our USD 1 trillion export target this year is sacrosanct,” he said. “We have to achieve it.”",
+        "The official numbers support the first half of that claim. Ministry of Commerce and Industry data show combined merchandise and services exports of $476.20 billion for April to September, up 13.84% from $418.31 billion a year earlier; Goyal rounded this to about $480 billion and said 48% of the target had been reached. Goods did most of the work: merchandise exports rose 18.51% to $259.89 billion, while services exports grew 8.69% to $216.31 billion. Excluding petroleum products, exports rose 15.56% to $218.70 billion, a sign that the growth is not just a story of fuel prices.",
+        "Reaching the goal depends on a stronger second half, and Goyal argued that “the first six months are normally less than the next six months.” Imports are rising too: they reached $551.13 billion, so the overall trade deficit, the gap between what India buys and sells abroad, widened to $74.93 billion from $58.10 billion. Services ran a surplus of $102.71 billion. September showed the same pattern: electronic goods exports jumped 70.44% to $5.31 billion, engineering goods rose 20.91% to $12.17 billion, and the month’s trade deficit narrowed to $13.30 billion from $14.17 billion as gold imports fell 81.27%. October’s figures are due on 15 November, and Goyal promised “a surprise”.",
+        "Trade agreements are central to the plan. Goyal said the 27-nation European Union market could become accessible to Indian goods at zero duty by March or April, and that negotiations with another seven or eight countries are under way. Once these deals are in place, he said, India will have preferential access to almost 75% of global GDP.",
+        "He also pointed to investment. European car manufacturers, he said, see India as a potential base for building cars for both the domestic and international markets, and Japanese companies are exploring billion-dollar partnerships with Indian manufacturers. Goyal spoke at the curtain-raiser for the Bharat Mobility Global Expo 2027, which expects about one million visitors. Goyal said the expo “will become the world’s largest in size” and suggested aiming for at least 25,000 international visitors."
+      ],
+      "visual": {
+        "type": "bars",
+        "title": "HALFWAY TO THE EXPORT TARGET",
+        "caption": "Official April-September figure for goods and services exports, against the full-year target the minister set.",
+        "source_url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal",
+        "unit": "billion US dollars",
+        "items": [
+          {
+            "label": "April-September",
+            "value": 476.2,
+            "evidence": "exports of $476.20 billion for April to September"
+          },
+          {
+            "label": "Full-year target",
+            "value": 1000,
+            "evidence": "$1 trillion, or $1,000 billion"
+          }
+        ]
+      },
+      "why": "Exports bring money and jobs into the country and help pay for imports, which reached $551.13 billion in six months; trade deals decide which markets Indian firms can reach at lower cost.",
+      "sources": [
+        {
+          "outlet": "The Tribune (ANI)",
+          "title": "India on track to achieve USD 1 trillion export target this year, USD 480 billion already achieved: Piyush Goyal",
+          "url": "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal"
+        },
+        {
+          "outlet": "Indian Opinion",
+          "title": "India on track to hit $1 trillion export target, says Goyal",
+          "url": "https://indianopinion.org/india-on-track-for-1-trillion-exports-this-fiscal-goyal/"
+        },
+        {
+          "outlet": "A2Z Taxcorp (Ministry of Commerce data)",
+          "title": "India's Exports Surge 13.84% to US$ 476.20 Billion in April–September 2026",
+          "url": "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  UNITED STATES",
+      "headline": "After Losing the House, Republicans Elect Jim Jordan as Their Leader by Secret Ballot",
+      "deck": "He beat Steve Scalise 106-73; Democrats’ Hakeem Jeffries is the favourite for speaker.",
+      "body": [
+        "In the US House of Representatives, each party chooses its own leaders, and the result of an election changes their titles. On Tuesday 10 November, one week after losing their majority in the midterm elections, House Republicans met behind closed doors and elected Rep. Jim Jordan of Ohio as their leader for the next Congress. In a secret ballot he defeated the current Majority Leader, Steve Scalise of Louisiana, by 106 votes to 73.",
+        "Jordan, 62, has spent two decades in Congress. He chairs the House Judiciary Committee, helped found the House Freedom Caucus and is a top ally of President Donald Trump. “I am battle-tested on the oversight front and I know the Democrats’ playbook,” he said. His win marks a change of course: in 2018 he lost a challenge for minority leader to Kevin McCarthy, 159-43, and Scalise is a close ally of Speaker Mike Johnson who has held leadership posts since John Boehner was speaker. Republicans also kept Tom Emmer of Minnesota as whip, the official who counts and gathers votes, after he beat August Pfluger of Texas.",
+        "The change at the top follows the scale of the defeat. Republicans lost more than 40 House seats, and Speaker Mike Johnson, who took the post in October 2023, announced the day after the midterms that he would step down from the leadership team. Democrats won roughly 260 seats, which NBC News described as the largest majority in 35 years.",
+        "In the new House, the majority party’s leader is expected to become speaker, who runs the chamber, while the minority leader speaks for the other side. Democratic leader Hakeem Jeffries of New York is the favourite for speaker. He needs 218 votes on the House floor on 3 January and can lose about 40 Democrats and still get there; he said Democrats are “confident that we will get to that number and beyond.” House Democrats choose their team next week, with Jeffries, Katherine Clark, Pete Aguilar and Ted Lieu unopposed for the top four posts.",
+        "The Senate follows the same pattern. Republicans voted on their leaders on Tuesday, with Majority Leader John Thune running unopposed to become minority leader. Senate Democrats will elect their leaders in early December, and Chuck Schumer is the favourite for majority leader."
+      ],
+      "illustration": {
+        "title": "HOW THE HOUSE PICKS LEADERS",
+        "subtitle": "Explainer",
+        "motif": "capitol",
+        "caption": "Each party chooses its leaders; the whole House elects the speaker on 3 January."
+      },
+      "why": "Party leaders control which bills reach a vote and how a party responds to the other side, so a change at the top shapes how the next Congress works with President Trump.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
+          "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Republicans elect Trump ally Jim Jordan as new US House minority leader",
+          "url": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Congress live updates as House GOP picks Jordan as leader",
+          "url": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  OIL",
+      "headline": "Brent Crude Slips Below $90 as Trump Calls the Iran War “Effectively Over”",
+      "deck": "The benchmark is about 25% below its late-October peak, but diesel stays tight.",
+      "body": [
+        "Brent crude, the global oil benchmark, fell to $89.70 a barrel in early European trading on Tuesday 10 November, its first time below $90 since August. WTI, the US benchmark, traded below $85, down more than 2%. Brent had already fallen 17% in the previous week, its largest weekly drop since the COVID-era turmoil of 2020, and it now stands about 25% below a late-October peak above $117.",
+        "Politics drove the move. On Monday, after meeting Qatar’s Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani, a key mediator, President Donald Trump said Iran “militarily, is effectively over” and that further strikes were “quite unlikely”, though US forces were “locked and loaded”. Hopes for an end to the eight-month-old conflict have grown since the US midterm elections.",
+        "Tehran disputes the story. Foreign Minister Abbas Araghchi denied any meeting was planned, and Iran says it will not negotiate until Washington meets its “seven conditions”. Iranian officials said US strikes were continuing, with Qeshm Island in the Strait of Hormuz reportedly hit overnight, and tanker attacks in the strait continued during the week, though traders looked past them. Analyst Tim Waterer of KCM Trade told Reuters the attacks “have not escalated in a way that has forced a fresh risk premium into the market”. Reports also said the US was open to letting Iran enrich uranium to almost 4%, but neither side has confirmed this.",
+        "Supply is recovering unevenly. A Reuters survey found OPEC output rose by 1.38 million barrels a day in October to 22.87 million, still below February’s 25.48 million. Saxo Bank’s Ole Hansen said crude flows have almost returned to pre-war levels, but gas and refined fuel supplies remain limited, which keeps prices high, particularly for diesel. Risks remain elsewhere in the region: Houthi fighters attacked Saudi Arabia’s East-West pipeline, causing what the Saudi energy ministry called a “limited fire” that was put out."
+      ],
+      "chart": {
+        "title": "THE BRENT PRICE FALLS BACK",
+        "subtitle": "US dollars a barrel",
+        "labels": [
+          "Late-Oct peak",
+          "10 November"
+        ],
+        "values": [
+          117,
+          89.7
+        ],
+        "max": 130,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "The late-October peak was above $117; Brent traded at $89.70 early on 10 November."
+      },
+      "why": "Oil feeds into the price of petrol, diesel, transport and goods, so a lasting fall could ease costs for households; tight diesel supply means the relief may be uneven.",
+      "analyst": "Why might crude oil prices fall faster than diesel prices? What evidence would show whether markets are right to expect the war to end?",
+      "sources": [
+        {
+          "outlet": "Oilprice.com",
+          "title": "Brent Crude Falls Below $90 for First Time Since August",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"
+        },
+        {
+          "outlet": "Oilprice.com",
+          "title": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Trump says Iran war 'effectively over' as Tehran denies planned talks",
+          "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  MEDICINE",
+      "headline": "A Blood Signal Points to Ovarian Cancer’s Earliest, Precancerous Stage",
+      "deck": "In a test group it caught 92.3% of cases, but it is not yet ready for clinics.",
+      "body": [
+        "Researchers at Hoag, a nonprofit health system in California, reported in the journal Nature Medicine on 10 November a blood-based warning signal for an early, precancerous stage of high-grade serous ovarian cancer. The study, led by Dr Rajan Gogna and Dr Esha Madan, was the result of an eight-year international effort. “Ovarian cancer does not begin the day we discover a tumor,” Gogna said.",
+        "The stage they targeted is called serous tubal intraepithelial carcinoma, or STIC, which forms in the fallopian tube and may come 6 to 7 years before invasive cancer. It is precancerous: microscopic and not yet invading nearby tissue. That makes it hard to find. STIC cannot be seen on imaging, is missed by conventional cancer blood tests and is usually discovered by chance during surgery. Ovarian cancer is usually diagnosed only after it has spread; more than 320,000 women are diagnosed worldwide each year and more than 207,000 die from it.",
+        "The signal is an RNA molecule the team calls Tu-Stroma. Earlier work by the group found that cancer cells release tiny bubbles called extracellular vesicles, which carry Tu-Stroma to neighbouring healthy cells and weaken them, a process known as “cell competition”. The new study measured Tu-Stroma in vesicles in the blood of 506 people, including 43 with isolated STIC, 232 with high-grade serous cancer and 143 healthy controls, and found it raised in women with STIC and early-stage cancer. It separated STIC from healthy women with an accuracy score of 0.99, against 0.59 for CA125, today’s standard blood marker. In a separate validation group, the test detected STIC in 92.3% of women who had it and correctly identified 98.2% of healthy women.",
+        "The authors stress the limits. The study used blood samples collected earlier from women whose diagnoses were already known, and the test has not been clinically validated. The share of positive results that would be correct ranges from about 16% in a lower-risk setting to about 72% in a high-risk group, and Gogna warned that a negative result “cannot currently exclude STIC”. That caution has history: large trials of CA125 testing, with or without ultrasound, did not reduce deaths from ovarian cancer. Next come studies that collect blood from women and follow them over time, including women with BRCA1 or BRCA2 gene changes, who face a higher risk and often weigh surgery to remove the fallopian tubes and ovaries. Such surgery can bring early menopause, which is why Madan said that for women at high risk, the work “could transform how we approach prevention.”"
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW THE SIGNAL WAS TESTED",
+        "caption": "The study’s steps as reported; the test is not yet clinically validated.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html",
+        "items": [
+          {
+            "label": "Tu-Stroma RNA found raised in blood of women with STIC",
+            "evidence": "found it raised in women with STIC and early-stage cancer"
+          },
+          {
+            "label": "Separate group: STIC detected in 92.3% of women who had it",
+            "evidence": "the test detected STIC in 92.3% of women who had it"
+          },
+          {
+            "label": "Next: collect blood and follow women over time",
+            "evidence": "Next come studies that collect blood from women and follow them over time"
+          }
+        ]
+      },
+      "why": "Finding disease before it becomes cancer is the goal of screening; a reliable blood test could one day spare some high-risk women surgery, but only if larger forward-looking studies confirm it.",
+      "sources": [
+        {
+          "outlet": "Hoag via GlobeNewswire",
+          "title": "Researchers Discover Blood-Based Warning Signal for Ovarian Cancer at its Earliest, Precancerous Stage",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html"
+        },
+        {
+          "outlet": "Inside Precision Medicine",
+          "title": "Blood-Based RNA Test Detects Precancerous Ovarian Lesions Missed by Conventional Screening",
+          "url": "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Ukraine’s air force said Russia launched 162 drones and one ballistic missile overnight into Tuesday, and 135 drones were downed or suppressed.",
+        "Iran: Iran says it will not negotiate with the US until Washington takes concrete steps under its “seven conditions”.",
+        "Chess: Anuj Shrivatri, 22, became India’s 100th Grandmaster and the first from Madhya Pradesh, by winning in Ozamiz City, Philippines.",
+        "Climate: a powerful El Niño was described at COP31’s opening as threatening to worsen extreme weather."
+      ],
+      "sources": [
+        {
+          "outlet": "ABC News",
+          "title": "Russia, Ukraine and US meet for Abu Dhabi talks",
+          "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Trump says Iran war 'effectively over' as Tehran denies planned talks",
+          "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks"
+        },
+        {
+          "outlet": "The Week",
+          "title": "Anuj Shrivatri becomes India's 100th chess Grandmaster",
+          "url": "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html"
+        },
+        {
+          "outlet": "UN News",
+          "title": "UN Climate Conference COP31",
+          "url": "https://news.un.org/en/events/cop31"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Security guarantee",
+          "def": "A promise by other countries to help defend a state if it is attacked. Today: guarantees for Ukraine are central to the Abu Dhabi talks."
+        },
+        {
+          "word": "Benchmark",
+          "def": "A standard price that others are measured against. Today: Brent, the global oil benchmark, fell below $90."
+        },
+        {
+          "word": "Minority leader",
+          "def": "The top leader of the party with fewer seats in a legislature. Today: House Republicans elected Jim Jordan to the role."
+        },
+        {
+          "word": "Precancerous",
+          "def": "Describing abnormal cells that are not yet cancer but could become it. Today: a blood signal points to STIC, a precancerous stage."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "COP stands for “Conference of the Parties”: the countries that signed the UN’s 1992 climate treaty meet each year, and Antalya hosts the 31st meeting."
+    },
+    "explainer": {
+      "title": "What is a security guarantee?",
+      "body": [
+        "A security guarantee is a promise by one or more countries to help defend another if it is attacked. The best-known example is Article 5 of NATO’s founding treaty, under which an attack on one member is treated as an attack on all members.",
+        "Ukraine is not a member of NATO, which is why the form and strength of any promise matter so much in the talks. A guarantee can range from a binding commitment to defend, as in Article 5, to looser pledges of weapons, money or consultation.",
+        "Guarantees differ in who promises and what they promise. In Abu Dhabi, the US has raised a commitment modelled on Article 5, while European governments are meeting Ukraine separately and say no lasting peace is possible without addressing Europe’s own security."
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> Where are the Russia-Ukraine talks being held?",
+        "(a) Geneva  (b) Abu Dhabi  (c) Paris",
+        "<b>2.</b> Which issue does a US official say will most likely be settled last?",
+        "(a) Territory  (b) Prisoner exchanges  (c) Security guarantees",
+        "<b>3.</b> By when does Brazil’s roadmap invite national clean energy plans?",
+        "(a) 2026  (b) 2028  (c) 2035",
+        "<b>4.</b> What share of world energy demand does Turkey want electricity to reach by 2035?",
+        "(a) 20%  (b) 35%  (c) 50%",
+        "<b>5.</b> What were India’s goods and services exports for April to September?",
+        "(a) $1 trillion  (b) $476.20 billion  (c) $305 billion",
+        "<b>6.</b> By what score did Jim Jordan beat Steve Scalise?",
+        "(a) 106-73  (b) 218-214  (c) 159-43",
+        "<b>7.</b> Below what price did Brent crude fall for the first time since August?",
+        "(a) $80  (b) $90  (c) $117",
+        "<b>8.</b> What is Tu-Stroma?",
+        "(a) An RNA molecule in the blood  (b) A type of scan  (c) A cancer drug",
+        "<b>Answers:</b> 1 b, 2 a, 3 b, 4 b, 5 b, 6 a, 7 b, 8 a."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Ukraine: what the second day of the Abu Dhabi talks produces, and whether the European track joins the main table.",
+        "Trade: India’s October export figures, due on 15 November.",
+        "Climate: whether COP31 writes Brazil’s roadmap into its formal decisions before it ends on 20 November."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+    "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html",
+    "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621",
+    "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/",
+    "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/",
+    "https://news.un.org/en/events/cop31",
+    "https://www.nbcnews.com/world/asia/cop31-turkey-climate-change-un-summit-cfr-global-warming-rcna608276",
+    "https://climatefactchecks.org/global-fossil-fuel-transition-faces-new-divide-as-india-rejects-cop31-electrification-pledge/",
+    "https://www.tribuneindia.com/news/business/india-on-track-to-achieve-usd-1-trillion-export-target-this-year-usd-480-billion-already-achieved-piyush-goyal",
+    "https://indianopinion.org/india-on-track-for-1-trillion-exports-this-fiscal-goyal/",
+    "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+    "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader",
+    "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/",
+    "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+    "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
+    "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
+    "https://www.globenewswire.com/news-release/2026/11/10/3399264/0/en/researchers-discover-blood-based-warning-signal-for-ovarian-cancer-at-its-earliest-precancerous-stage.html",
+    "https://www.theweek.in/news/sports/2026/11/08/anuj-shrivatri-india-100th-chess-grandmaster.html",
+    "https://a2ztaxcorp.net/indias-exports-surge-13-84-to-us-476-20-billion-in-april-september-2026-merchandise-exports-jump-18-51-as-electronics-sector-records-remarkable-70-44-growth/",
+    "https://www.insideprecisionmedicine.com/topics/oncology/blood-based-rna-test-detects-precancerous-ovarian-lesions-missed-by-conventional-screening/"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Where are the Russia-Ukraine talks being held?",
+        "options": [
+          "Geneva",
+          "Abu Dhabi",
+          "Paris"
+        ],
+        "answer": 1,
+        "why": "The talks opened in Abu Dhabi, the capital of the United Arab Emirates.",
+        "story": "lead"
+      },
+      {
+        "q": "Which issue does a US official say will most likely be settled last?",
+        "options": [
+          "Territory",
+          "Prisoner exchanges",
+          "Security guarantees"
+        ],
+        "answer": 0,
+        "why": "A US official said territory would most likely come last.",
+        "story": "lead"
+      },
+      {
+        "q": "By when does Brazil’s roadmap invite national clean energy plans?",
+        "options": [
+          "2026",
+          "2028",
+          "2035"
+        ],
+        "answer": 1,
+        "why": "The roadmap invites national plans by 2028.",
+        "story": "world"
+      },
+      {
+        "q": "What share of world energy demand does Turkey want electricity to reach by 2035?",
+        "options": [
+          "20%",
+          "35%",
+          "50%"
+        ],
+        "answer": 1,
+        "why": "Turkey’s voluntary target is 35% by 2035.",
+        "story": "world"
+      },
+      {
+        "q": "What were India’s goods and services exports for April to September?",
+        "options": [
+          "$1 trillion",
+          "$476.20 billion",
+          "$305 billion"
+        ],
+        "answer": 1,
+        "why": "Ministry data show $476.20 billion for April to September.",
+        "story": "india"
+      },
+      {
+        "q": "By what score did Jim Jordan beat Steve Scalise?",
+        "options": [
+          "106-73",
+          "218-214",
+          "159-43"
+        ],
+        "answer": 0,
+        "why": "Jordan won the secret ballot 106-73.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "Below what price did Brent crude fall for the first time since August?",
+        "options": [
+          "$80",
+          "$90",
+          "$117"
+        ],
+        "answer": 1,
+        "why": "Brent fell to $89.70, its first time below $90 since August.",
+        "story": "economics"
+      },
+      {
+        "q": "What is Tu-Stroma?",
+        "options": [
+          "An RNA molecule in the blood",
+          "A type of scan",
+          "A cancer drug"
+        ],
+        "answer": 0,
+        "why": "Tu-Stroma is an RNA molecule raised in the blood of women with STIC.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Russia occupies roughly 20 percent of Ukraine, including Crimea.",
+        "true": true,
+        "why": "The paper gives that figure.",
+        "story": "lead"
+      },
+      {
+        "claim": "India said it will sign Turkey’s electrification pledge.",
+        "true": false,
+        "why": "Bhupender Yadav said India will not sign it.",
+        "story": "world"
+      },
+      {
+        "claim": "Democrats won roughly 260 House seats.",
+        "true": true,
+        "why": "NBC News reported roughly 260 seats.",
+        "story": "politics_and_civics"
+      },
+      {
+        "claim": "The blood test has already been approved for use in clinics.",
+        "true": false,
+        "why": "It has not been clinically validated.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Abu Dhabi",
+        "lat": 24.45,
+        "lon": 54.38,
+        "countries": [
+          "United Arab Emirates",
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Antalya",
+        "lat": 36.9,
+        "lon": 30.7,
+        "countries": [
+          "Turkey",
+          "Brazil",
+          "India"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington, D.C.",
+        "lat": 38.89,
+        "lon": -77.01,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Strait of Hormuz",
+        "lat": 26.57,
+        "lon": 56.25,
+        "countries": [
+          "Iran",
+          "United States",
+          "Qatar"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Orange County, California",
+        "lat": 33.7,
+        "lon": -117.8,
+        "countries": [
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "economics",
+        "q": "How much did Brent crude fall in the week before 10 November?",
+        "answer": 17,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 50,
+        "why": "Brent fell 17%, its largest weekly drop since 2020."
+      },
+      {
+        "story": "world",
+        "q": "How much does the UN say developing countries need each year by 2035 to adapt to climate change?",
+        "answer": 305,
+        "prefix": "$",
+        "unit": "billion",
+        "min": 50,
+        "max": 600,
+        "why": "The UN says $305 billion a year, nearly 10 times what they now receive."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Russia and Ukraine talk in Abu Dhabi",
+        "body": [
+          "Teams from Russia, Ukraine and the United States met in Abu Dhabi on Tuesday. It is a city in the United Arab Emirates. The US is helping the two sides talk.",
+          "First they will discuss security guarantees. These are promises to help Ukraine if it is attacked again. Land will most likely come last.",
+          "Russia holds about 20 percent of Ukraine. Ukraine wants the old border back. President Zelenskyy called the first day useful."
+        ]
+      },
+      "world": {
+        "headline": "A plan to use less coal, oil and gas",
+        "body": [
+          "Nearly 200 countries are meeting in Antalya, Turkey, for COP31. It is a UN meeting about climate.",
+          "Brazil shared a plan to move away from coal, oil and gas. Countries are asked to make clean energy plans by 2028. India and Nigeria welcomed it. The plan is a choice, not a rule.",
+          "Poorer countries also want more money to cope with climate change. The UN says they need $305 billion a year by 2035."
+        ]
+      },
+      "india": {
+        "headline": "India wants to sell $1 trillion abroad",
+        "body": [
+          "Exports are goods and services a country sells to others. India hopes to export $1 trillion this year.",
+          "From April to September, it exported $476.20 billion. That is 13.84% more than a year before. Minister Piyush Goyal said the second half is usually bigger.",
+          "He said trade deals will help, including one with the European Union.",
+          "Goyal said numbers for October come out on 15 November. He expects a surprise."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "Republicans choose a new House leader",
+        "body": [
+          "Republicans lost control of the House in the midterm elections. On Tuesday they chose Jim Jordan of Ohio to lead them.",
+          "He won a secret vote against Steve Scalise, 106 to 73. He will be the minority leader, the leader of the smaller party.",
+          "Democrats won roughly 260 seats. Their leader, Hakeem Jeffries, hopes to become speaker on 3 January."
+        ]
+      },
+      "economics": {
+        "headline": "Oil prices fall below $90",
+        "body": [
+          "Brent is the world’s main oil price. On Tuesday it fell to $89.70 a barrel. In late October it was above $117.",
+          "Prices fell after President Trump said the war with Iran was almost over. Iran said no talks were planned.",
+          "Oil is flowing again, but diesel is still hard to get. So diesel stays expensive.",
+          "Iran says it will not hold talks until the US meets its conditions."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "A blood test may spot very early ovarian cancer",
+        "body": [
+          "Scientists in California found a signal in the blood. It points to STIC, a tiny early stage before ovarian cancer.",
+          "STIC is very hard to find. Scans cannot see it.",
+          "In one test group, the blood test found it in 92.3% of women who had it. But it is not ready for doctors yet. More studies must come first. Scientists will now follow women over time."
+        ]
+      }
+    }
+  },
+  "threads": {
+    "lead": "russia-ukraine",
+    "politics_and_civics": "us-midterms-2026"
+  }
+}

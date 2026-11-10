@@ -1,0 +1,226 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-11",
+  "volume": 1,
+  "issue": 29,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UKRAINE",
+      "headline": "Three Teams Meet in Abu Dhabi to Talk About Ending a War",
+      "deck": "Russia and Ukraine sat down face to face for the first time since February.",
+      "body": [
+        "Abu Dhabi is a city in the United Arab Emirates, a country on the Persian Gulf. On Tuesday, teams from Russia, Ukraine and the United States met there. Their talks last two days and aim to end the war Russia started in February 2022.",
+        "Each team has a leader. Rustem Umerov leads Ukraine’s team. Vladimir Medinsky, an aide to Russia’s president, leads Russia’s. The US sent Steve Witkoff and Jared Kushner to help the two sides talk. Britain, France, Germany, Italy, NATO and the European Union met Ukraine’s team separately.",
+        "The two sides still disagree about land. Russia holds about 20 percent of Ukraine. Ukraine’s president, Volodymyr Zelenskyy, called the first day “constructive.” That means it was useful."
+      ],
+      "map": {
+        "title": "WHERE THE TEAMS MET",
+        "label_top": "ABU DHABI, UNITED ARAB EMIRATES",
+        "label_bottom": "FAR FROM UKRAINE AND RUSSIA",
+        "footnote": "The US is helping the two sides talk",
+        "caption": "The map marks Ukraine, Russia and the United Arab Emirates, with the city of Abu Dhabi.",
+        "countries": [
+          "Ukraine",
+          "Russia",
+          "United Arab Emirates"
+        ],
+        "place": "Abu Dhabi"
+      },
+      "why": "Ukraine wants promises that it will be safe from a new attack if the war ends.",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "First day of Russia-Ukraine talks in Abu Dhabi 'constructive': Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+        },
+        {
+          "outlet": "Radio Free Europe/Radio Liberty",
+          "title": "Ukraine, Russia Negotiators Conclude First Day Of US-Led Peace Talks As Europe Seeks Role",
+          "url": "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  CLIMATE",
+      "headline": "At a Climate Meeting in Turkey, Brazil Shares a Plan to Use Less Oil and Coal",
+      "deck": "Nearly 200 countries are gathering in Antalya for COP31.",
+      "body": [
+        "Antalya is a city on Turkey’s Mediterranean coast. Nearly 200 countries are meeting there until 20 November for COP31, the United Nations climate meeting. Burning coal, oil and gas warms our planet.",
+        "On Tuesday, Brazil presented a plan, or roadmap, for moving away from these fuels. Countries are invited to plan cleaner energy by 2028. India and Nigeria welcomed it. Joining in is a choice, not a rule.",
+        "Turkey has its own idea. Today about 20% of the world’s energy is used as electricity. Turkey wants that to reach 35% by 2035."
+      ],
+      "chart": {
+        "title": "MORE ELECTRIC ENERGY",
+        "subtitle": "Electricity’s share of world energy use, in %",
+        "labels": [
+          "Today (about)",
+          "Goal for 2035"
+        ],
+        "values": [
+          20,
+          35
+        ],
+        "max": 40,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "Turkey’s goal is voluntary: countries can choose to sign up."
+      },
+      "why": "Fuels that warm the planet are used everywhere, so each country’s choices matter.",
+      "sources": [
+        {
+          "outlet": "Climate Home News",
+          "title": "Big fossil-fuel countries back Brazil-led transition roadmap",
+          "url": "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"
+        },
+        {
+          "outlet": "Turkish Minute",
+          "title": "COP31 opens in Antalya amid disputes over climate finance",
+          "url": "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/"
+        },
+        {
+          "outlet": "UN News",
+          "title": "UN Climate Conference COP31",
+          "url": "https://news.un.org/en/events/cop31"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Oil: The world’s main oil price fell below $90 a barrel for the first time since August.",
+        "United States: Republicans picked Jim Jordan to lead them in the House of Representatives."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "What the second day of the Abu Dhabi talks brings.",
+        "Whether more countries back Brazil’s plan at COP31."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+    "https://www.rferl.org/a/russia-ukraine-abu-dhabi-war-peace-talks/33894644.html",
+    "https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/",
+    "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-amid-disputes-over-climate-finance/",
+    "https://news.un.org/en/events/cop31",
+    "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
+    "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "In which country is the city of Abu Dhabi?",
+        "options": [
+          "Turkey",
+          "United Arab Emirates",
+          "Ukraine"
+        ],
+        "answer": 1,
+        "why": "Abu Dhabi is a city in the United Arab Emirates.",
+        "story": "lead"
+      },
+      {
+        "q": "Who leads Ukraine’s team at the talks?",
+        "options": [
+          "Rustem Umerov",
+          "Vladimir Medinsky",
+          "Steve Witkoff"
+        ],
+        "answer": 0,
+        "why": "Rustem Umerov leads Ukraine’s team.",
+        "story": "lead"
+      },
+      {
+        "q": "Where is the COP31 climate meeting?",
+        "options": [
+          "Abu Dhabi",
+          "Paris",
+          "Antalya"
+        ],
+        "answer": 2,
+        "why": "Nearly 200 countries are meeting in Antalya, Turkey.",
+        "story": "world"
+      },
+      {
+        "q": "By when does Turkey want electricity to reach 35% of world energy use?",
+        "options": [
+          "2028",
+          "2035",
+          "2050"
+        ],
+        "answer": 1,
+        "why": "Turkey’s goal is 35% by 2035.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Teams from Russia, Ukraine and the United States met in Abu Dhabi.",
+        "true": true,
+        "why": "The three teams met there on Tuesday.",
+        "story": "lead"
+      },
+      {
+        "claim": "Russia holds about half of Ukraine.",
+        "true": false,
+        "why": "Russia holds about 20 percent of Ukraine.",
+        "story": "lead"
+      },
+      {
+        "claim": "India and Nigeria welcomed Brazil’s plan.",
+        "true": true,
+        "why": "Both welcomed the roadmap.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Abu Dhabi",
+        "lat": 24.45,
+        "lon": 54.38,
+        "countries": [
+          "United Arab Emirates",
+          "Ukraine",
+          "Russia",
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Antalya",
+        "lat": 36.9,
+        "lon": 30.7,
+        "countries": [
+          "Turkey",
+          "Brazil"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About what percent of Ukraine does Russia hold?",
+        "answer": 20,
+        "prefix": "",
+        "unit": "%",
+        "min": 0,
+        "max": 60,
+        "why": "Russia holds about 20 percent of Ukraine, including Crimea."
+      },
+      {
+        "story": "world",
+        "q": "About how many countries are gathering for COP31?",
+        "answer": 200,
+        "prefix": "",
+        "unit": "countries",
+        "min": 50,
+        "max": 300,
+        "why": "Nearly 200 countries are meeting in Antalya."
+      }
+    ]
+  },
+  "threads": {
+    "lead": "russia-ukraine"
+  }
+}
