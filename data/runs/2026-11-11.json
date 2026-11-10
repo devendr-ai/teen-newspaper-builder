@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+    "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+    "junior-daily": {"status": "passed", "reason": "", "poster": null}
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {"headline": "Russia, Ukraine and the US Hold First Day of Talks in Abu Dhabi", "status": "no_new_details", "source_urls": ["https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"]},
+      {"headline": "At the COP31 Climate Summit, Brazil Presents a Plan to Move Away From Fossil Fuels", "status": "no_new_details", "source_urls": ["https://www.climatechangenews.com/2026/11/10/big-fossil-fuel-countries-back-brazil-led-transition-roadmap/"]},
+      {"headline": "Oil Falls Below $90 as Trump Says the Iran War Is 'Effectively Over'", "status": "no_new_details", "source_urls": ["https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html"]}
+    ]
+  }
+}
