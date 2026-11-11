@@ -1,0 +1,709 @@
+{
+ "edition": "global-citizen-plus",
+ "date": "2026-11-12",
+ "volume": 1,
+ "issue": 16,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UKRAINE",
+   "headline": "A Prisoner Swap Without a Ceasefire: Abu Dhabi Repeats a Pattern From History",
+   "deck": "As in Istanbul in 2025, negotiators agreed on captives but not on the fighting or the map.",
+   "body": [
+    "Wars rarely end in one meeting. More often, the two sides first settle what is easiest, such as the return of prisoners of war. That is what happened in Abu Dhabi, capital of the United Arab Emirates, where two days of US-mediated talks between Russia and Ukraine ended on Wednesday 11 November.",
+    "The outcome was an agreement in principle on a major exchange of prisoners. Both chief negotiators, Rustem Umerov for Ukraine and Vladimir Medinsky for Russia, confirmed it. Volodymyr Zelenskyy, Ukraine’s president, had said on Tuesday that 1,000 prisoners from each side were being discussed, possibly rising to 1,500 each.",
+    "History students may recognise the pattern. In May 2025, talks in Istanbul also produced an agreement to exchange 1,000 prisoners each, and also without a ceasefire. A round in Geneva in February 2026 produced no breakthrough at all.",
+    "Geography explains why the harder questions remain. Russia demands that Ukraine withdraw from the part of the Donbas, a region in eastern Ukraine, that Kyiv still controls. Ukraine refuses, and proposes an unconditional ceasefire as a first step; Moscow rejects an immediate ceasefire and wants broader security arrangements first.",
+    "The talks also dealt with returning Ukrainian civilians held in captivity and children taken from Ukraine. US envoys Steve Witkoff and Jared Kushner next travel to Moscow to meet President Vladimir Putin, then to Dublin to meet Zelenskyy."
+   ],
+   "map": {
+    "title": "THE DISPUTE AND THE MEETING PLACE",
+    "label_top": "TALKS: ABU DHABI, UNITED ARAB EMIRATES",
+    "label_bottom": "DISPUTED: DONBAS, EASTERN UKRAINE",
+    "footnote": "Russia wants Ukraine to leave the part of Donbas it still holds",
+    "caption": "Ukraine and Russia met in a third country, the United Arab Emirates, with the US mediating.",
+    "countries": [
+     "Ukraine",
+     "Russia",
+     "United Arab Emirates"
+    ],
+    "place": "Abu Dhabi"
+   },
+   "why": "Prisoner exchanges show that enemies can still make and keep limited agreements, which is the groundwork any larger peace has to be built on.",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+     "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+    },
+    {
+     "outlet": "The Moscow Times",
+     "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+     "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+    },
+    {
+     "outlet": "The Kyiv Independent",
+     "title": "Zelensky arrives in Dublin for European Political Community summit, expects a debrief from Witkoff, Kushner",
+     "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  CLIMATE",
+   "headline": "“Flick the Switch”: COP31’s Host Wants Electricity to Do More of the World’s Work",
+   "deck": "Thirteen countries back Turkey’s 35% target; island nations ask where the power will come from.",
+   "body": [
+    "Energy reaches people in different forms. Some arrives as fuel that is burned on the spot, such as petrol in an engine or gas in a boiler, and some arrives as electricity through a wire. At present electricity makes up 23% of the world’s final energy consumption.",
+    "Turkey, which is hosting the COP31 climate summit in Antalya, wants that share to reach 35% by 2035. Its voluntary “35 by 35” pledge would do this by electrifying transport, buildings and industry. COP31 President Murat Kurum has said that “the age of electricity is taking shape.”",
+    "As about 40 leaders addressed the summit on Wednesday, the list of public backers stood at thirteen countries, among them Australia, Germany, Norway, Ethiopia and Pakistan. The International Energy Agency says the target is within reach given strong political backing. An analysis by Climate Action Tracker is less encouraging: on current policies, electricity would reach only 28% by the deadline.",
+    "The sharpest criticism concerns the pledge’s silence about how the electricity is generated. A power station can burn coal, after all. Australia’s climate minister, Chris Bowen, gave the science in two numbers: an electric vehicle cuts emissions by 60% on a coal-powered grid and by 90% on solar. The Marshall Islands called the target “insufficient” without a link to renewables, and Palau said electrification “must not become a substitute or a distraction.” The European Union and the United Kingdom welcomed the idea but have not signed.",
+    "Many powerful countries were not represented by their leaders. British Prime Minister Andy Burnham was the only G7 leader scheduled to speak, and China was represented by Vice President Han Zheng. The talks run until 20 November."
+   ],
+   "illustration": {
+    "title": "THE “35 BY 35” PLEDGE",
+    "subtitle": "Electricity: 23% to 35%",
+    "motif": "grid",
+    "caption": "The pledge would raise electricity’s share of final energy consumption by 2035."
+   },
+   "connect": "Geography: Ethiopia, host of next year’s COP32, gets more than 90% of its electricity from hydropower, the energy of falling river water, and has banned imports of petrol and diesel vehicles.",
+   "sources": [
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+     "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+    },
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 2: Momentum builds on electrification and fossil fuel transition",
+     "url": "https://www.climatechangenews.com/2026/11/10/cop31-bulletin-day-2-energy-day-off-to-slow-start-amid-transport-chaos/"
+    },
+    {
+     "outlet": "Dawn (AFP)",
+     "title": "World urged to tackle fossil fuels but big names skip COP31",
+     "url": "https://www.dawn.com/news/2043837/world-urged-to-tackle-fossil-fuels-but-big-names-skip-cop31"
+    },
+    {
+     "outlet": "RTE News",
+     "title": "COP31 host Turkey to push global electrification goal",
+     "url": "https://www.rte.ie/news/environment/2026/1110/1598617-cop31-turkey/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  AGRICULTURE",
+   "headline": "N, P, K and S: The Chemistry Behind India’s Rs 62,370 Crore Fertiliser Bill",
+   "deck": "The Cabinet raised the winter-season subsidy by about 64% because imported nutrients cost more.",
+   "body": [
+    "Look at a bag of fertiliser and you will find letters from the periodic table. Plants need nitrogen (N), phosphate (P) and potash (K), along with sulphur (S), and fertilisers are graded by how much of each they contain. India’s main subsidy scheme for these products is built on that chemistry.",
+    "It is called the Nutrient Based Subsidy, and it has been in place since 1 April 2010. Instead of paying a flat amount per product, the government pays according to each fertiliser’s nutrient content. The scheme covers 28 grades of phosphatic and potassic fertilisers, including di-ammonium phosphate, known as DAP. Urea is outside this framework.",
+    "On Wednesday 11 November the Union Cabinet, chaired by Prime Minister Narendra Modi, approved the rates for the Rabi 2026-27 season, which runs from 1 October 2026 to 31 March 2027. Rabi is the six-month winter season, when crops such as wheat, mustard and pulses need adequate nutrients.",
+    "The estimated cost is Rs 62,370.02 crore. That is roughly Rs 24,417.73 crore more than the Rs 37,952.29 crore required in the last Rabi season, an increase of about 64%.",
+    "The reason lies in geography and trade. India depends heavily on imports for phosphatic and potassic fertilisers and their raw materials. Global price swings in DAP, muriate of potash, phosphoric acid, ammonia and sulphur therefore feed straight into the subsidy bill. The Cabinet cited recent trends in international prices.",
+    "The money goes to fertiliser companies at approved rates, so that they can sell to farmers at subsidised prices. Union Minister Ashwini Vaishnaw said that domestic manufacturing will increase and that farmers will not face any additional burden. S Sankarasubramanian, chairman of the Fertiliser Association of India, called the decision timely and positive.",
+    "The subsidy was one of five proposals approved that day, with a combined outlay of Rs 77,101 crore. The others include an 8.45 km extension of the Noida Metro’s Aqua Line and a national museum in New Delhi’s North Block and South Block buildings."
+   ],
+   "illustration": {
+    "title": "FEEDING THE WINTER CROP",
+    "subtitle": "Rabi season 2026-27",
+    "motif": "farm",
+    "caption": "Wheat, mustard and pulses are among the crops grown in the Rabi season."
+   },
+   "why": "The scheme links chemistry, trade and public money: the nutrients come from abroad, the price is set by world markets, and the national budget absorbs the difference.",
+   "sources": [
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Cabinet approves Rs 62,370 crore P&K fertiliser subsidy for Rabi 2026-27, up 64% from last year",
+     "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-62370-crore-pk-fertiliser-subsidy-for-rabi-2026-27-up-64-from-last-year"
+    },
+    {
+     "outlet": "Rural Voice",
+     "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+     "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+    },
+    {
+     "outlet": "IASPoint",
+     "title": "Key Cabinet Approvals in Infrastructure and Subsidies",
+     "url": "https://iaspoint.com/key-cabinet-approvals-in-infrastructure-and-subsidies/"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  CIVICS",
+   "headline": "How a 211-204 Vote Stopped an Impeachment Without Voting on It",
+   "deck": "The House sent eight articles against the defense secretary to a committee.",
+   "body": [
+    "Impeachment is the process by which the US Congress can charge a senior official with serious wrongdoing. On Tuesday 10 November the House of Representatives faced an attempt to impeach Defense Secretary Pete Hegseth, and it ended the attempt without ever voting on the charges themselves.",
+    "The charges, called articles of impeachment, were introduced by Thomas Massie, a Republican representative from Kentucky. There were eight of them. They allege, among other things, that Hegseth violated Congress’s war powers by conducting military operations against Iran without authorization, and that he disregarded protections for civilians.",
+    "Other articles allege that he authorized unlawful strikes on suspected drug-trafficking vessels and retaliated against Senator Mark Kelly, an Arizona Democrat, over his public statements about military orders.",
+    "Rather than debate these, the House voted on a motion to refer, meaning to send the articles to the House Judiciary Committee. It passed 211-204. Eleven Democrats were recorded as not voting, and eight more votes against the motion would have defeated it.",
+    "A committee may study such allegations and recommend action, but it is not required to do anything. Because the current Republican-controlled Congress is near its end, the referral makes further steps unlikely for now. Democrats are set to take control of the House in January, which could reopen the question.",
+    "President Donald Trump gave his view on Wednesday at the Veterans Day ceremony at Arlington National Cemetery, saying of Hegseth: “He’s done a fantastic job.” Vice President JD Vance and Hegseth himself attended the wreath-laying ceremony."
+   ],
+   "chart": {
+    "title": "THE MOTION TO REFER",
+    "subtitle": "House votes on sending the articles to committee",
+    "labels": [
+     "For referral",
+     "Against"
+    ],
+    "values": [
+     211,
+     204
+    ],
+    "max": 250,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "The vote was on a motion to refer, not on impeachment itself. Eleven Democrats did not vote."
+   },
+   "why": "Procedure is power. The rules of a legislature let a majority decide not only how a question is answered, but whether it is asked at all.",
+   "analyst": "Why might members prefer a procedural vote to a direct one? What could change when a new Congress begins in January?",
+   "sources": [
+    {
+     "outlet": "Newsweek",
+     "title": "Trump Praises Hegseth at Arlington Veterans Day Ceremony After House Blocks Impeachment",
+     "url": "https://www.newsweek.com/trump-hegseth-veterans-day-arlington-impeachment-vote-12701423"
+    },
+    {
+     "outlet": "NBC5 (Hearst)",
+     "title": "Trump honors US veterans during observance events at Arlington National Cemetery",
+     "url": "https://www.mynbc5.com/article/trump-veterans-day-2026/74399558"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+   "headline": "Astronomers Build a Digital Twin of the Webb Telescope and Find a Hidden Planet",
+   "deck": "By modelling the camera’s flaws, the team subtracted a star’s glare from existing images.",
+   "body": [
+    "Photographing a planet around another star is a problem of contrast. An Earth-like planet orbiting a Sun-like star can be about 10 billion times fainter than the star, so the planet’s light is drowned in glare. Even the tiniest imperfections in a telescope can make the two hard to separate, says Katie Bouman of Caltech.",
+    "That includes the James Webb Space Telescope, or JWST. It is optically stable to the nanometer level, yet the researchers say this still limits what it can detect. Their answer was not a better telescope but a better understanding of the one already in space.",
+    "The team built what engineers call a digital twin: a physical model, inside a computer, of JWST’s Near Infrared Camera. They used computation to examine millions of possible imperfections and unknown factors that affect an observation. Machine learning optimization tools then adjusted millions of variables until the simulation matched the real data.",
+    "The result is a highly precise model of how the star itself appears in the image. Subtract that modeled starlight from the original observation, and dimmer objects nearby are revealed.",
+    "The technique is called FLIP, for Physics-based Learning for Imaging Planets. In tests with known planets it gave 2 to 15 times greater detection sensitivity than conventional methods. Applied to existing JWST data, it found a previously hidden exoplanet, a planet beyond our solar system.",
+    "The route there included a failure. The team first tried training machine learning models to predict starlight patterns; that did not work, so they switched to physics-based modeling. The lead author, Rodrigo Ferrer-Chavez, is a graduate student at Northwestern University who began the project as an undergraduate at the Autonomous University of Yucatán in Mexico.",
+    "The paper appeared online in Nature on 4 November. The team plans to test FLIP with NASA’s Nancy Grace Roman Space Telescope and with telescopes on the ground. NASA’s proposed Habitable Worlds Observatory aims to image Earth-like planets directly."
+   ],
+   "why": "The discovery came from old data and new mathematics. Understanding an instrument’s errors can be as powerful as building a bigger instrument.",
+   "sources": [
+    {
+     "outlet": "ScienceDaily (Caltech)",
+     "title": "Astronomers discover hidden alien planet in James Webb images",
+     "url": "https://sciencedaily.com/releases/2026/11/261108233028.htm"
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "title": "HOW FLIP FINDS A HIDDEN PLANET",
+    "caption": "The method, as described by the researchers, removes a star’s glare by modelling the telescope’s camera.",
+    "source_url": "https://sciencedaily.com/releases/2026/11/261108233028.htm",
+    "items": [
+     {
+      "label": "Build a digital twin of the telescope’s camera",
+      "evidence": "a physical model, inside a computer, of JWST’s Near Infrared Camera"
+     },
+     {
+      "label": "Adjust millions of variables until the model matches real data",
+      "evidence": "adjusted millions of variables until the simulation matched the real data"
+     },
+     {
+      "label": "Subtract the modeled starlight to reveal dimmer objects",
+      "evidence": "Subtract that modeled starlight from the original observation, and dimmer objects nearby are revealed"
+     }
+    ]
+   }
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  PRICES",
+   "headline": "One Tenth of a Percentage Point: Why a Small Inflation Surprise Moved Markets",
+   "deck": "US prices rose 0.4% in October against a forecast of 0.3%, and traders now expect higher interest rates.",
+   "body": [
+    "In economics, what people expected can matter as much as what happened. On Tuesday 10 November the US government reported that consumer prices rose 0.4% in October compared with September. That was slower than September’s 0.6%. But economists had forecast 0.3%, and the gap between forecast and result was enough to shake financial markets.",
+    "Start with what was measured. The Consumer Price Index follows the cost of goods and services that households buy. In October food rose 0.5% and housing 0.3%. Energy rose 0.7%, far less than its 5.2% jump in September. A second measure, called core CPI, leaves out food and energy because their prices swing the most; it rose 0.3%, when 0.2% had been expected.",
+    "One usual number was missing. The report gave no year-over-year figure, because the Bureau of Labor Statistics could not release full data for October 2025 on account of last year’s government shutdown.",
+    "The reason markets care is the Federal Reserve, the central bank of the United States. Its main tool against inflation is the interest rate. When the Fed raises rates, loans become more expensive, people and companies borrow and spend less, and prices come under less pressure.",
+    "Before the report, Fed Governor Chris Waller had drawn a line. If October inflation came in hot, he said, a half-point rise should be considered in December, twice the usual quarter-point step. Raising rates by only a quarter point, he warned, “would put our credibility at risk.”",
+    "Traders adjusted their bets at once. They put an 84% chance on a quarter-point rise in December, and the odds of a half-point rise went from 0% to 15%. The S and P 500, a share index of large US companies, fell 0.4%, and the homebuilder Lennar lost 5.4%, because higher rates make mortgages dearer.",
+    "Other markets moved too. The yield on the 10-year Treasury, the interest the US government pays to borrow for ten years, rose to 4.93%, and gold fell more than 2%. Oil offered some relief for future price reports: Brent crude, the international benchmark, fell 1.2% to $91.49 a barrel, having been above $112 at the start of the month. Waller’s own summary before the report was three words long: “Inflation is too high.”"
+   ],
+   "why": "Interest rates set in Washington influence borrowing costs far beyond it, so one tenth of a percentage point can reach a family’s mortgage.",
+   "sources": [
+    {
+     "outlet": "Associated Press via Anchorage Daily News",
+     "title": "Stocks slip following a discouraging update on inflation",
+     "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+     "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "title": "US PRICES: MONTHLY RISE",
+    "caption": "The middle bar is the economists’ forecast for October, not a measured result.",
+    "source_url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html",
+    "unit": "% rise in one month",
+    "items": [
+     {
+      "label": "September",
+      "value": 0.6,
+      "evidence": "That was slower than September’s 0.6%"
+     },
+     {
+      "label": "October forecast",
+      "value": 0.3,
+      "evidence": "But economists had forecast 0.3%"
+     },
+     {
+      "label": "October result",
+      "value": 0.4,
+      "evidence": "consumer prices rose 0.4% in October compared with September"
+     }
+    ]
+   }
+  },
+  "briefs": {
+   "items": [
+    "Climate: Fossil fuel CO2 emissions are projected to fall 0.4% in 2026 to 38.2 billion tonnes, the Global Carbon Budget says, though India’s are set to rise 4.4%.",
+    "Iran: Security chief Mohsen Rezaei denied that talks with the US were under way and said the Strait of Hormuz stays closed until seven conditions are met.",
+    "European Union: Slovakia, the Czech Republic, Hungary and Bulgaria objected after Germany’s Friedrich Merz tied the next EU budget to fresh aid for Ukraine.",
+    "United Kingdom: The country fell silent for two minutes at 11:00 on 11 November to mark Armistice Day."
+   ],
+   "sources": [
+    {
+     "outlet": "Tyndall Centre for Climate Change Research",
+     "title": "Fossil CO2 emissions decrease in 2026",
+     "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+    },
+    {
+     "outlet": "Al Jazeera and Reuters via Yahoo News",
+     "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+     "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "EU budget battle erupts as four countries defy Merz over Ukraine aid",
+     "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+    },
+    {
+     "outlet": "BBC via Yahoo News",
+     "title": "UK falls silent to mark Armistice Day",
+     "url": "https://nz.news.yahoo.com/services-being-held-across-uk-105229412.html"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Impeachment",
+     "def": "A formal charge of serious wrongdoing brought by a legislature against an official. Today: the House referred eight articles of impeachment against Pete Hegseth to a committee."
+    },
+    {
+     "word": "Exoplanet",
+     "def": "A planet beyond our solar system. Today: a hidden exoplanet was found in existing James Webb images."
+    },
+    {
+     "word": "Core CPI",
+     "def": "A measure of price changes that leaves out food and energy. Today: US core CPI rose 0.3% in October."
+    },
+    {
+     "word": "Electrification",
+     "def": "Switching machines from burning fuel to using electricity. Today: Turkey wants electricity to reach 35% of final energy use by 2035."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The James Webb Space Telescope is optically stable to the nanometer level, and astronomers say even that still limits what it can detect."
+  },
+  "explainer": {
+   "title": "Impeach, then try: the two steps",
+   "body": [
+    "Under the US Constitution, impeachment has two stages. The House of Representatives decides whether to impeach, which means to bring formal charges; a simple majority is enough. The Senate then holds a trial, and removing the official requires a two-thirds vote.",
+    "Tuesday’s House vote came before the first stage. By referring the articles to the Judiciary Committee, the House chose not to decide on the charges at all. A committee can hold hearings and send articles back to the full House with a recommendation, but nothing obliges it to act, and unfinished business lapses when a Congress ends."
+   ],
+   "sources": [
+    {
+     "outlet": "Newsweek",
+     "title": "Trump Praises Hegseth at Arlington Veterans Day Ceremony After House Blocks Impeachment",
+     "url": "https://www.newsweek.com/trump-hegseth-veterans-day-arlington-impeachment-vote-12701423"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Five questions on this issue",
+   "body": [
+    "<b>1.</b> After two days of talks in Abu Dhabi, what did the negotiators for Russia and Ukraine agree to in principle?",
+    "(a) An unconditional ceasefire  (b) A major exchange of prisoners  (c) A new border in the Donbas",
+    "<b>2.</b> Turkey’s “35 by 35” pledge is about electricity’s share of the world’s final energy consumption. What share does it aim for by 2035?",
+    "(a) 23%  (b) 28%  (c) 35%",
+    "<b>3.</b> On a fertiliser bag, which nutrients do the letters P and K stand for?",
+    "(a) Phosphate and potash  (b) Protein and calcium  (c) Peat and potassium",
+    "<b>4.</b> By what vote did the House of Representatives refer the articles of impeachment against Pete Hegseth to a committee?",
+    "(a) 204-211  (b) 211-204  (c) 218-204",
+    "<b>5.</b> Core CPI is a second way of measuring price changes. What does it leave out, and why?",
+    "(a) Housing, because it is costly  (b) Food and energy, because their prices swing the most  (c) Wages, because they are private",
+    "<b>Answers:</b> 1-b, 2-c, 3-a, 4-b, 5-b."
+   ],
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    },
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+     "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+    },
+    {
+     "outlet": "Rural Voice",
+     "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+     "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Trump Praises Hegseth at Arlington Veterans Day Ceremony After House Blocks Impeachment",
+     "url": "https://www.newsweek.com/trump-hegseth-veterans-day-arlington-impeachment-vote-12701423"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+     "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    }
+   ]
+  },
+  "discussion": {
+   "title": "DISCUSS",
+   "body": [
+    "Russia and Ukraine have twice agreed to exchange prisoners without agreeing to stop fighting. Why might a prisoner exchange be easier to agree on than a ceasefire?",
+    "An electric vehicle cuts emissions by 60% on a coal-powered grid and by 90% on solar. Should a pledge to electrify also say how the electricity must be made? Who might object, and why?",
+    "The House settled the Hegseth question with a motion to refer rather than a direct vote. Is it fair for a legislature to avoid a direct vote this way? What are the arguments on each side?"
+   ],
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    }
+   ]
+  },
+  "quote": {
+   "text": "We’ve now gone beyond the telescope stability limit for the first time with this new technique.",
+   "by": "Jason Wang, astronomer, Northwestern University"
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Euronews",
+   "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+   "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+  },
+  {
+   "outlet": "ABC News (Australia)",
+   "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+   "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+  },
+  {
+   "outlet": "The Moscow Times",
+   "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+   "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+  },
+  {
+   "outlet": "The Kyiv Independent",
+   "title": "Zelensky arrives in Dublin for European Political Community summit, expects a debrief from Witkoff, Kushner",
+   "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+   "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 2: Momentum builds on electrification and fossil fuel transition",
+   "url": "https://www.climatechangenews.com/2026/11/10/cop31-bulletin-day-2-energy-day-off-to-slow-start-amid-transport-chaos/"
+  },
+  {
+   "outlet": "Dawn (AFP)",
+   "title": "World urged to tackle fossil fuels but big names skip COP31",
+   "url": "https://www.dawn.com/news/2043837/world-urged-to-tackle-fossil-fuels-but-big-names-skip-cop31"
+  },
+  {
+   "outlet": "RTE News",
+   "title": "COP31 host Turkey to push global electrification goal",
+   "url": "https://www.rte.ie/news/environment/2026/1110/1598617-cop31-turkey/"
+  },
+  {
+   "outlet": "The Tribune (ANI)",
+   "title": "Cabinet approves Rs 62,370 crore P&K fertiliser subsidy for Rabi 2026-27, up 64% from last year",
+   "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-62370-crore-pk-fertiliser-subsidy-for-rabi-2026-27-up-64-from-last-year"
+  },
+  {
+   "outlet": "Rural Voice",
+   "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+   "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+  },
+  {
+   "outlet": "IASPoint",
+   "title": "Key Cabinet Approvals in Infrastructure and Subsidies",
+   "url": "https://iaspoint.com/key-cabinet-approvals-in-infrastructure-and-subsidies/"
+  },
+  {
+   "outlet": "Newsweek",
+   "title": "Trump Praises Hegseth at Arlington Veterans Day Ceremony After House Blocks Impeachment",
+   "url": "https://www.newsweek.com/trump-hegseth-veterans-day-arlington-impeachment-vote-12701423"
+  },
+  {
+   "outlet": "NBC5 (Hearst)",
+   "title": "Trump honors US veterans during observance events at Arlington National Cemetery",
+   "url": "https://www.mynbc5.com/article/trump-veterans-day-2026/74399558"
+  },
+  {
+   "outlet": "ScienceDaily (Caltech)",
+   "title": "Astronomers discover hidden alien planet in James Webb images",
+   "url": "https://sciencedaily.com/releases/2026/11/261108233028.htm"
+  },
+  {
+   "outlet": "Associated Press via Anchorage Daily News",
+   "title": "Stocks slip following a discouraging update on inflation",
+   "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+  },
+  {
+   "outlet": "Yahoo Finance",
+   "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+   "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+  },
+  {
+   "outlet": "Tyndall Centre for Climate Change Research",
+   "title": "Fossil CO2 emissions decrease in 2026",
+   "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+  },
+  {
+   "outlet": "Al Jazeera and Reuters via Yahoo News",
+   "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+   "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "EU budget battle erupts as four countries defy Merz over Ukraine aid",
+   "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+  },
+  {
+   "outlet": "BBC via Yahoo News",
+   "title": "UK falls silent to mark Armistice Day",
+   "url": "https://nz.news.yahoo.com/services-being-held-across-uk-105229412.html"
+  }
+ ],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "Where did talks in May 2025 also produce a prisoner exchange without a ceasefire?",
+    "options": [
+     "Geneva",
+     "Istanbul",
+     "Dublin"
+    ],
+    "answer": 1,
+    "why": "The paper says talks in Istanbul in May 2025 produced an agreement to exchange 1,000 prisoners each.",
+    "story": "lead"
+   },
+   {
+    "q": "What share of the world’s final energy consumption is electricity at present?",
+    "options": [
+     "23%",
+     "35%",
+     "90%"
+    ],
+    "answer": 0,
+    "why": "The paper says electricity makes up 23% of the world’s final energy consumption.",
+    "story": "world"
+   },
+   {
+    "q": "What is the Rabi season?",
+    "options": [
+     "The monsoon season",
+     "The summer season",
+     "The six-month winter season"
+    ],
+    "answer": 2,
+    "why": "The paper says Rabi is the six-month winter season.",
+    "story": "india"
+   },
+   {
+    "q": "What did the House vote on in the Hegseth case?",
+    "options": [
+     "A motion to refer the articles to a committee",
+     "Whether to remove him",
+     "Whether to hold a trial"
+    ],
+    "answer": 0,
+    "why": "The paper says the House voted on a motion to refer the articles to the Judiciary Committee.",
+    "story": "us"
+   },
+   {
+    "q": "What is a digital twin, in the telescope story?",
+    "options": [
+     "A second telescope in space",
+     "A physical model of the camera inside a computer",
+     "A copy of the planet"
+    ],
+    "answer": 1,
+    "why": "The paper says the team built a physical model, inside a computer, of JWST’s Near Infrared Camera.",
+    "story": "science_and_technology"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The motion to refer the impeachment articles passed 211-204.",
+    "true": true,
+    "why": "The paper says the motion passed 211-204.",
+    "story": "us"
+   },
+   {
+    "claim": "US prices rose less in October than economists had forecast.",
+    "true": false,
+    "why": "The paper says prices rose 0.4% against a forecast of 0.3%.",
+    "story": "economics"
+   },
+   {
+    "claim": "Urea is covered by the Nutrient Based Subsidy.",
+    "true": false,
+    "why": "The paper says urea is outside this framework.",
+    "story": "india"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Abu Dhabi",
+    "lat": 24.45,
+    "lon": 54.38,
+    "countries": [
+     "Ukraine",
+     "Russia",
+     "United Arab Emirates"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Antalya",
+    "lat": 36.9,
+    "lon": 30.7,
+    "countries": [
+     "Turkey"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "New Delhi",
+    "lat": 28.61,
+    "lon": 77.21,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "Washington, DC",
+    "lat": 38.9,
+    "lon": -77.04,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "Washington, DC",
+    "lat": 38.9,
+    "lon": -77.04,
+    "countries": [
+     "United States"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "science_and_technology",
+    "q": "About how many billion times fainter than its star can an Earth-like planet be?",
+    "answer": 10,
+    "prefix": "",
+    "unit": "billion times",
+    "min": 1,
+    "max": 30,
+    "why": "An Earth-like planet orbiting a Sun-like star can be about 10 billion times fainter than the star."
+   },
+   {
+    "story": "india",
+    "q": "How many grades of phosphatic and potassic fertiliser does the subsidy scheme cover?",
+    "answer": 28,
+    "prefix": "",
+    "unit": "grades",
+    "min": 0,
+    "max": 60,
+    "why": "The scheme covers 28 grades of phosphatic and potassic fertilisers."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Prisoners Will Go Home, but the War Goes On",
+    "body": [
+     "Russia and Ukraine held two days of talks in Abu Dhabi. The United States helped them talk. The talks ended on Wednesday 11 November.",
+     "The two sides agreed to exchange prisoners. Ukraine’s president said 1,000 prisoners from each side were being discussed. This has happened before. In May 2025, talks in Istanbul also led to an exchange of 1,000 prisoners each.",
+     "The fighting has not stopped. The sides disagree about a region in eastern Ukraine called the Donbas. Russia wants Ukraine to leave the part it still controls. Ukraine refuses."
+    ]
+   },
+   "world": {
+    "headline": "A Plan to Use More Electricity",
+    "body": [
+     "A big climate meeting called COP31 is happening in Antalya, Turkey. Turkey has a plan called “35 by 35”.",
+     "Today electricity makes up 23% of the world’s final energy consumption. Turkey wants that to be 35% by 2035. Cars, buildings and factories would switch to electricity. Thirteen countries have backed the plan.",
+     "Some countries worry. The plan does not say how the electricity is made. A power station can burn coal. An electric vehicle cuts emissions by 60% on a coal-powered grid and by 90% on solar."
+    ]
+   },
+   "india": {
+    "headline": "Why India Is Paying More for Fertiliser",
+    "body": [
+     "Plants need nutrients called nitrogen, phosphate and potash. Fertilisers supply them. India buys much of its fertiliser from other countries.",
+     "World prices have changed, so the cost has gone up. On 11 November India’s Cabinet approved a subsidy for the winter season, called Rabi. A subsidy is money the government pays to keep a price low.",
+     "The cost is about Rs 62,370 crore. That is about 64% more than last Rabi season. A minister said farmers will not face any additional burden."
+    ]
+   },
+   "us": {
+    "headline": "A Vote That Stopped an Impeachment",
+    "body": [
+     "Impeachment is how the US Congress can charge a senior official with serious wrongdoing. A Republican named Thomas Massie tried to impeach Defense Secretary Pete Hegseth. He brought eight charges.",
+     "The House did not vote on the charges. Instead it voted to send them to a committee. That vote passed 211-204.",
+     "The committee is not required to do anything. So the attempt has stopped for now. Democrats are set to take control of the House in January."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "A Hidden Planet Found in Old Pictures",
+    "body": [
+     "Planets around other stars are hard to see. An Earth-like planet can be about 10 billion times fainter than its star. The star’s glare hides it.",
+     "Scientists built a digital twin of a camera on the James Webb Space Telescope. A digital twin is a model inside a computer. It showed exactly how the star appears in an image.",
+     "Then they subtracted the star’s light. Dimmer objects nearby were revealed. In existing data they found a previously hidden exoplanet, a planet beyond our solar system."
+    ]
+   },
+   "economics": {
+    "headline": "Prices Rose a Bit More Than Expected",
+    "body": [
+     "US consumer prices rose 0.4% in October. Economists had forecast 0.3%. Food rose 0.5%.",
+     "The Federal Reserve is the central bank of the United States. It fights rising prices by raising interest rates. Then loans become more expensive, and people spend less.",
+     "Traders now put an 84% chance on a rate rise in December. The main US share index fell 0.4%."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "lead": "russia-ukraine"
+ }
+}

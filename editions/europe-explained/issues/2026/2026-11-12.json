@@ -1,0 +1,495 @@
+{
+ "edition": "europe-explained",
+ "date": "2026-11-12",
+ "volume": 1,
+ "issue": 16,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UKRAINE",
+   "headline": "Europe Waits Outside the Room as Abu Dhabi Talks End With a Prisoner Deal",
+   "deck": "Russia’s negotiator asked why Europeans were there at all; the story now moves to Dublin.",
+   "body": [
+    "When Russian, Ukrainian and American negotiators sat down in Abu Dhabi this week, officials from European governments, the EU and NATO were in the same city but not at the same table. They consulted the Ukrainian and American teams separately. The three-way talks ended on Wednesday with an agreement in principle on a major exchange of prisoners of war, and no progress on a ceasefire or territory.",
+    "Russia made clear it wants to keep things that way. Its chief negotiator, Vladimir Medinsky, said Moscow had received no concrete European peace proposals. “We don’t really understand in what capacity they are here,” he said.",
+    "Kyiv and Washington see it differently. Ukraine’s president, Volodymyr Zelenskyy, said European security cannot be considered “without Europe.” American officials have indicated that European countries should eventually join the negotiations, particularly on future security arrangements.",
+    "The next scene is on European soil. Zelenskyy landed in Ireland on Wednesday and met the Taoiseach, Ireland’s prime minister, Micheál Martin, who said Ukraine’s future “is in the European Union.” On Thursday the European Political Community summit meets at the Convention Centre Dublin, and US envoys Jared Kushner and Steve Witkoff are due there to brief Zelenskyy after first seeing President Vladimir Putin in Moscow."
+   ],
+   "map": {
+    "title": "FROM THE GULF TO DUBLIN",
+    "label_top": "TALKS: ABU DHABI, UNITED ARAB EMIRATES",
+    "label_bottom": "NEXT: DUBLIN, IRELAND",
+    "footnote": "European officials consulted separately in Abu Dhabi",
+    "caption": "After Abu Dhabi, the diplomacy moves to Ireland, where European leaders gather on Thursday.",
+    "countries": [
+     "Ukraine",
+     "Russia",
+     "United Arab Emirates",
+     "Ireland"
+    ],
+    "place": "Abu Dhabi"
+   },
+   "why": "US officials say they want to settle the war and Europe’s security arrangements together. Whether Europeans help write them is now an open question.",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+     "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+    },
+    {
+     "outlet": "The Moscow Times",
+     "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+     "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+    },
+    {
+     "outlet": "The Journal",
+     "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+     "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  CLIMATE",
+   "headline": "Most of Europe’s Big Leaders Skip COP31; Finland Arrives With a Plan",
+   "deck": "The EU says the summit’s electricity pledge must be “clean” before it will sign.",
+   "body": [
+    "The leaders’ days at a UN climate summit are a kind of roll call, and at COP31 in Antalya, Turkey, several European names were missing. French President Emmanuel Macron, German Chancellor Friedrich Merz and Italian Prime Minister Giorgia Meloni did not attend. Britain’s Andy Burnham was the only leader of a G7 country scheduled to address the summit. Campaigners handed their mock “Fossil of the Day” award to several European countries, Japan and Canada for staying away.",
+    "Those who did speak heard a blunt farewell from António Guterres, who steps down as UN Secretary-General in December. Fossil fuels, he said, “must go the way of the dinosaurs, but that won’t happen on its own.” He added that three-quarters of people live in countries that import fossil fuels. European Commission President Ursula von der Leyen also spoke, though activists criticised her for not naming fossil fuels.",
+    "One European government came with specifics. Finland published a plan to move its electricity and district heating fully to low-carbon sources “by the 2030s”; nuclear power already provides almost 40% of its generation. France, Germany and the Netherlands have published plans of their own.",
+    "The summit’s host has a different headline idea: a voluntary pledge to lift electricity from 23% of the world’s final energy consumption to 35% by 2035. Germany, Norway and Finland are among its backers. The EU and the UK welcomed the focus but have not signed, with the EU stressing that electrification must be “clean”, because the pledge does not specify how the power is generated. Among the absent was US President Donald Trump, who pulled his country out of the Paris Agreement. The talks run until 20 November."
+   ],
+   "illustration": {
+    "title": "COP31 IN ANTALYA",
+    "subtitle": "Leaders’ summit, 11 Nov",
+    "motif": "grid",
+    "caption": "Turkey’s pledge would raise electricity’s share of final energy from 23% to 35% by 2035."
+   },
+   "connect": "Economics: Guterres’s point about importers applies to Europe. Countries that buy their oil and gas abroad are exposed to price shocks, which is one argument made for electrification.",
+   "sources": [
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+     "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+    },
+    {
+     "outlet": "Dawn (AFP)",
+     "title": "World urged to tackle fossil fuels but big names skip COP31",
+     "url": "https://www.dawn.com/news/2043837/world-urged-to-tackle-fossil-fuels-but-big-names-skip-cop31"
+    }
+   ]
+  },
+  "uk": {
+   "kicker": "UNITED KINGDOM  •  TRANSPORT",
+   "headline": "Will Britain Slow Its Switch to Electric Cars? “No Decision,” Says Burnham",
+   "deck": "Reports say the 2030 sales target could fall from 80% to about 60%.",
+   "body": [
+    "Since January 2024 a law called the Zero Emission Vehicle mandate has told carmakers what share of the new cars they sell in Britain must be electric. The share rises each year, from 22% in 2024 to 80% by 2030, and firms that miss their target without using the scheme’s flexibilities face significant financial penalties.",
+    "Sales have not kept pace. Battery electric cars made up 26.6% of new registrations from January to October, against a headline target of 33% this year. The industry body, the SMMT, says the mandate runs ahead of natural demand. The Guardian reported that the 2030 target would be cut by about a quarter, to roughly 60%.",
+    "Prime Minister Andy Burnham called the reports “speculation” and said no decision had been made. Campaigners object in advance: Ben Plowden of the Campaign for Better Transport said weakening the mandate would be a “major setback” for cutting transport emissions."
+   ],
+   "why": "The mandate decides what is on sale in British showrooms for the rest of the decade, and it is a test of how firmly a government holds to a climate rule when an industry pushes back.",
+   "also": [
+    "Armistice Day: The UK fell silent for two minutes at 11:00 on 11 November; Defence Secretary Wes Streeting laid a wreath at the Cenotaph.",
+    "Climate: Burnham was due to attend the COP31 summit in Antalya, his first as Prime Minister."
+   ],
+   "sources": [
+    {
+     "outlet": "Motor Trader",
+     "title": "Andy Burnham denies decision has been made on ZEV overhaul",
+     "url": "https://www.motortrader.com/motor-trader-news/automotive-news/andy-burnham-denies-decision-has-been-made-on-zev-overhaul-11-11-2026"
+    },
+    {
+     "outlet": "EV Fleet World",
+     "title": "UK poised to slash 2030 EV quotas in looming ZEV mandate U-turn",
+     "url": "https://evfleetworld.co.uk/uk-poised-to-slash-2030-ev-quotas-in-looming-zev-mandate-u-turn/"
+    },
+    {
+     "outlet": "BBC via Yahoo News",
+     "title": "UK falls silent to mark Armistice Day",
+     "url": "https://nz.news.yahoo.com/services-being-held-across-uk-105229412.html"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "United States: Consumer prices rose 0.4% in October, above the 0.3% economists expected, and traders now see an 84% chance of an interest rate rise in December.",
+    "Climate science: The Global Carbon Budget projects fossil fuel CO2 emissions will fall 0.4% worldwide in 2026, and 1.5% in the EU."
+   ],
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+     "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "outlet": "Tyndall Centre for Climate Change Research",
+     "title": "Fossil CO2 emissions decrease in 2026",
+     "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Unanimity",
+     "def": "Agreement by every member, with nobody against. Today: the EU budget and Ukraine aid both require unanimity."
+    },
+    {
+     "word": "Veto",
+     "def": "The power of one member to block a decision. Today: Slovakia’s Robert Fico threatened to use his veto."
+    },
+    {
+     "word": "Mandate",
+     "def": "An official order or requirement. Today: the ZEV mandate sets electric car sales targets for manufacturers."
+    },
+    {
+     "word": "Envoy",
+     "def": "A person sent to represent a government. Today: US envoys Kushner and Witkoff are due in Dublin."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The Armistice that ended the fighting in World War One began at 11:00 on 11 November 1918, which is why the UK’s two-minute silence is held at that hour."
+  },
+  "europe": {
+   "kicker": "EUROPE  •  EU BUDGET",
+   "headline": "Four Countries Defy Merz as He Ties the EU Budget to Money for Ukraine",
+   "deck": "Slovakia’s leader calls the German chancellor’s letter “a textbook case of blackmail”.",
+   "body": [
+    "Two of the EU’s biggest decisions share one rule: both its long-term budget and its aid to Ukraine need unanimity. German Chancellor Friedrich Merz has now joined the two. In a letter to European Council President António Costa, he called fresh Ukraine aid an “essential prerequisite” for approving the next budget, which covers 2028 to 2034.",
+    "The sums are large. Kyiv faces a shortfall of 70 billion euros next year, and Brussels has promised to cover roughly 45 billion of it, most likely through new joint debt. An existing loan is worth 90 billion euros.",
+    "Slovakia, the Czech Republic, Hungary and Bulgaria objected. Slovak Prime Minister Robert Fico threatened a veto. Hungary’s Péter Magyar said its deficit rules out fresh EU-level debt. Czech leader Andrej Babiš noted the next budget already earmarks 100 billion euros for Ukraine, available from 2028.",
+    "Costa has promised a wide discussion at an informal leaders’ meeting in Dublin on 13 November, before a special summit in Brussels on 26-27 November."
+   ],
+   "chart": {
+    "title": "THE SUMS IN THE DISPUTE",
+    "subtitle": "Money for Ukraine, billion euros",
+    "labels": [
+     "2027 gap",
+     "EU share",
+     "Loan",
+     "Budget"
+    ],
+    "values": [
+     70,
+     45,
+     90,
+     100
+    ],
+    "max": 120,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "Next year’s gap, Brussels’s promised share, the existing loan, and the next budget’s earmark."
+   },
+   "why": "Unanimity gives the smallest member the same blocking power as the largest, so one dispute can hold up both decisions.",
+   "analyst": "Is linking two decisions a fair way to win agreement? Who has more leverage: the biggest payer, or a country that can say no?",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "EU budget battle erupts as four countries defy Merz over Ukraine aid",
+     "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+    },
+    {
+     "outlet": "European Pravda",
+     "title": "European Council president responds to Merz's ultimatum on funding for Ukraine in 2027",
+     "url": "https://www.eurointegration.com.ua/eng/news/2026/11/11/7249753/"
+    }
+   ]
+  },
+  "sports": {
+   "title": "CRICKET: 249 AND STILL TOGETHER",
+   "body": "Sri Lanka’s <b>Dhananjaya de Silva (167 not out)</b> and <b>Kusal Mendis (117)</b> put on 249 runs without being separated in the first Test in Rawalpindi. Sri Lanka closed day three on 404 for 4, 30 behind Pakistan.",
+   "sources": [
+    {
+     "outlet": "CREX",
+     "title": "Pakistan vs Sri Lanka 1st Test live score",
+     "url": "https://crex.com/cricket-live-score/pak-vs-sl-1st-test-sri-lanka-tour-of-pakistan-2026-match-updates-13LT"
+    },
+    {
+     "outlet": "Gulf News",
+     "title": "Rawalpindi Test between Pakistan and Sri Lanka heading for a draw",
+     "url": "https://gulfnews.com/sport/cricket/rawalpindi-test-between-pakistan-and-sri-lanka-heading-for-a-draw-1.68465568"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Dublin: what European leaders say about Ukraine at Thursday’s summit.",
+    "London: any decision on the 2030 electric car target."
+   ]
+  },
+  "quote": {
+   "text": "Being in the same city is not the same as being at the same table.",
+   "by": ""
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Euronews",
+   "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+   "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+  },
+  {
+   "outlet": "ABC News (Australia)",
+   "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+   "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+  },
+  {
+   "outlet": "The Moscow Times",
+   "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+   "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+  },
+  {
+   "outlet": "The Journal",
+   "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+   "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+   "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+  },
+  {
+   "outlet": "Dawn (AFP)",
+   "title": "World urged to tackle fossil fuels but big names skip COP31",
+   "url": "https://www.dawn.com/news/2043837/world-urged-to-tackle-fossil-fuels-but-big-names-skip-cop31"
+  },
+  {
+   "outlet": "Motor Trader",
+   "title": "Andy Burnham denies decision has been made on ZEV overhaul",
+   "url": "https://www.motortrader.com/motor-trader-news/automotive-news/andy-burnham-denies-decision-has-been-made-on-zev-overhaul-11-11-2026"
+  },
+  {
+   "outlet": "EV Fleet World",
+   "title": "UK poised to slash 2030 EV quotas in looming ZEV mandate U-turn",
+   "url": "https://evfleetworld.co.uk/uk-poised-to-slash-2030-ev-quotas-in-looming-zev-mandate-u-turn/"
+  },
+  {
+   "outlet": "BBC via Yahoo News",
+   "title": "UK falls silent to mark Armistice Day",
+   "url": "https://nz.news.yahoo.com/services-being-held-across-uk-105229412.html"
+  },
+  {
+   "outlet": "Yahoo Finance",
+   "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+   "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+  },
+  {
+   "outlet": "Tyndall Centre for Climate Change Research",
+   "title": "Fossil CO2 emissions decrease in 2026",
+   "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "EU budget battle erupts as four countries defy Merz over Ukraine aid",
+   "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+  },
+  {
+   "outlet": "European Pravda",
+   "title": "European Council president responds to Merz's ultimatum on funding for Ukraine in 2027",
+   "url": "https://www.eurointegration.com.ua/eng/news/2026/11/11/7249753/"
+  },
+  {
+   "outlet": "CREX",
+   "title": "Pakistan vs Sri Lanka 1st Test live score",
+   "url": "https://crex.com/cricket-live-score/pak-vs-sl-1st-test-sri-lanka-tour-of-pakistan-2026-match-updates-13LT"
+  },
+  {
+   "outlet": "Gulf News",
+   "title": "Rawalpindi Test between Pakistan and Sri Lanka heading for a draw",
+   "url": "https://gulfnews.com/sport/cricket/rawalpindi-test-between-pakistan-and-sri-lanka-heading-for-a-draw-1.68465568"
+  }
+ ],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "Where were European officials during the three-way talks in Abu Dhabi?",
+    "options": [
+     "At the main table",
+     "In the same city, holding separate consultations",
+     "In Moscow"
+    ],
+    "answer": 1,
+    "why": "The paper says they were in the same city but held separate consultations.",
+    "story": "lead"
+   },
+   {
+    "q": "Which leader was the only one from a G7 country scheduled to address COP31?",
+    "options": [
+     "Andy Burnham",
+     "Emmanuel Macron",
+     "Friedrich Merz"
+    ],
+    "answer": 0,
+    "why": "The paper says Britain’s Andy Burnham was the only G7 leader scheduled to address the summit.",
+    "story": "world"
+   },
+   {
+    "q": "What share of new cars must be electric by 2030 under the current mandate?",
+    "options": [
+     "33%",
+     "60%",
+     "80%"
+    ],
+    "answer": 2,
+    "why": "The paper says the share rises from 22% in 2024 to 80% by 2030.",
+    "story": "uk"
+   },
+   {
+    "q": "What do both the EU budget and Ukraine aid need?",
+    "options": [
+     "Unanimity",
+     "A simple majority",
+     "Only Germany’s approval"
+    ],
+    "answer": 0,
+    "why": "The paper says both need unanimity.",
+    "story": "europe"
+   },
+   {
+    "q": "How large is Ukraine’s funding shortfall next year?",
+    "options": [
+     "45 billion euros",
+     "70 billion euros",
+     "100 billion euros"
+    ],
+    "answer": 1,
+    "why": "The paper says Kyiv faces a shortfall of 70 billion euros next year.",
+    "story": "europe"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Finland published a plan to move its electricity and district heating to low-carbon sources.",
+    "true": true,
+    "why": "The paper says Finland published such a plan, aiming for “by the 2030s”.",
+    "story": "world"
+   },
+   {
+    "claim": "Andy Burnham confirmed that the electric car target will be cut.",
+    "true": false,
+    "why": "The paper says Burnham called the reports speculation and said no decision had been made.",
+    "story": "uk"
+   },
+   {
+    "claim": "Russia’s negotiator welcomed the Europeans to the talks.",
+    "true": false,
+    "why": "The paper says Medinsky said Russia did not understand in what capacity they were there.",
+    "story": "lead"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Abu Dhabi",
+    "lat": 24.45,
+    "lon": 54.38,
+    "countries": [
+     "Ukraine",
+     "Russia",
+     "United Arab Emirates",
+     "Ireland"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Antalya",
+    "lat": 36.9,
+    "lon": 30.7,
+    "countries": [
+     "Turkey",
+     "Finland"
+    ]
+   },
+   {
+    "story": "uk",
+    "place": "London",
+    "lat": 51.5,
+    "lon": -0.13,
+    "countries": [
+     "United Kingdom"
+    ]
+   },
+   {
+    "story": "europe",
+    "place": "Brussels",
+    "lat": 50.85,
+    "lon": 4.35,
+    "countries": [
+     "Germany",
+     "Slovakia",
+     "Czech Republic",
+     "Hungary",
+     "Bulgaria"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "uk",
+    "q": "What percentage of new UK car registrations were battery electric from January to October?",
+    "answer": 26.6,
+    "prefix": "",
+    "unit": "%",
+    "min": 0,
+    "max": 60,
+    "why": "Battery electric cars made up 26.6% of new registrations, against a 33% target."
+   },
+   {
+    "story": "europe",
+    "q": "How many billion euros is the existing EU loan for Ukraine?",
+    "answer": 90,
+    "prefix": "",
+    "unit": "billion euros",
+    "min": 10,
+    "max": 200,
+    "why": "The paper says an existing loan is worth 90 billion euros."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Europe Is Near the Talks, but Not in Them",
+    "body": [
+     "Russia, Ukraine and the United States held talks in Abu Dhabi. They ended on Wednesday. The sides agreed to exchange prisoners of war. They did not agree to a ceasefire, which is a stop to the fighting.",
+     "Officials from European governments were in the same city. But they were not at the same table. Russia’s chief negotiator said Russia did not understand why they were there.",
+     "Ukraine’s president, Volodymyr Zelenskyy, disagrees. He says European security cannot be considered without Europe. He is now in Ireland. European leaders meet in Dublin on Thursday."
+    ]
+   },
+   "world": {
+    "headline": "Some Leaders Stayed Away From the Climate Summit",
+    "body": [
+     "A big climate meeting called COP31 is taking place in Antalya, Turkey. The leaders of France, Germany and Italy did not attend. Britain’s Andy Burnham was the only G7 leader scheduled to speak.",
+     "The head of the United Nations said fossil fuels “must go the way of the dinosaurs”. Fossil fuels are oil, gas and coal.",
+     "Finland published a plan to make its electricity and heating low-carbon. Turkey wants electricity to rise from 23% of the world’s final energy consumption to 35% by 2035. The EU and the UK have not signed that pledge."
+    ]
+   },
+   "uk": {
+    "headline": "Britain May Change Its Electric Car Rule",
+    "body": [
+     "A British law tells carmakers how many of their new cars must be electric. The share rises to 80% by 2030.",
+     "Sales are behind. Electric cars made up 26.6% of new registrations from January to October. The target this year is 33%.",
+     "A newspaper reported that the 2030 target would be cut to roughly 60%. The Prime Minister, Andy Burnham, said no decision had been made. Campaigners say a cut would be a “major setback”."
+    ]
+   },
+   "europe": {
+    "headline": "An Argument About Money for Ukraine",
+    "body": [
+     "The EU needs every member country to agree on its long-term budget. It is the same for aid to Ukraine. Agreement by everyone is called unanimity.",
+     "Germany’s leader, Friedrich Merz, says new aid for Ukraine must come before the next budget is approved. Ukraine faces a shortfall of 70 billion euros next year.",
+     "Slovakia, the Czech Republic, Hungary and Bulgaria objected. Slovakia’s leader threatened a veto, which means blocking the decision. EU leaders will discuss it in Dublin on 13 November."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "lead": "russia-ukraine"
+ }
+}

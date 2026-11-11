@@ -1,0 +1,729 @@
+{
+ "edition": "current-affairs-digest",
+ "date": "2026-11-12",
+ "volume": 1,
+ "issue": 25,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UKRAINE",
+   "headline": "Abu Dhabi Round Ends: Prisoner Exchange Agreed, Ceasefire and Territory Unresolved",
+   "deck": "US envoys go to Moscow on Thursday, then to Dublin; the numbers to be exchanged are not yet fixed.",
+   "body": [
+    "The US-mediated negotiations between Russia and Ukraine in Abu Dhabi ended on Wednesday 11 November after two days. Their single tangible product was an agreement in principle on a major exchange of prisoners of war. US envoy Jared Kushner, who announced it, said the final numbers would be set on Thursday; President Volodymyr Zelenskyy, speaking later in Dublin, put the likely figure at between 1,000 and 1,200.",
+    "Both chief negotiators confirmed the exchange: Rustem Umerov for Ukraine and Vladimir Medinsky, an adviser to President Vladimir Putin, for Russia. Medinsky said security arrangements for Ukraine and Europe had been a central focus. “In some places we reached an understanding, in other places we did not,” he said. Ukrainian negotiator Davyd Arakhamia called the talks among the most difficult and urged another round as soon as possible.",
+    "On the core disputes the positions did not move. Russia demands that Ukraine withdraw from the part of the Donbas still under Kyiv’s control, wants a ban on Ukrainian NATO membership and limits on Ukraine’s military, and rejects an immediate ceasefire. Ukraine rejects giving up territory it holds and proposes an unconditional ceasefire as the first step. Zelenskyy says territorial decisions can be made only at the leaders’ level; Kushner said Russia wants more progress before any such meeting.",
+    "The sequence now is fixed. Kushner and Steve Witkoff meet Putin in Moscow on Thursday, then fly to Dublin to brief Zelenskyy, who is attending the European Political Community summit on 12 November and an informal meeting of EU leaders on 13 November. US Secretary of State Marco Rubio called the round “very productive” but said a breakthrough will take time."
+   ],
+   "map": {
+    "title": "VENUE AND NEXT STOPS",
+    "label_top": "ABU DHABI: TALKS, 10-11 NOVEMBER",
+    "label_bottom": "MOSCOW, THEN DUBLIN: 12 NOVEMBER",
+    "footnote": "Russia demands the part of the Donbas that Kyiv still controls",
+    "caption": "The round was held in the United Arab Emirates; the US envoys report next to Putin in Russia and Zelenskyy in Ireland.",
+    "countries": [
+     "Ukraine",
+     "Russia",
+     "United Arab Emirates",
+     "Ireland"
+    ],
+    "place": "Abu Dhabi"
+   },
+   "why": "The round separated what is negotiable now (humanitarian exchanges) from what is not (territory, ceasefire, NATO). Europe’s role also remains unsettled.",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+     "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+    },
+    {
+     "outlet": "The Moscow Times",
+     "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+     "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+    },
+    {
+     "outlet": "The Journal",
+     "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+     "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+    },
+    {
+     "outlet": "The Kyiv Independent",
+     "title": "Zelensky arrives in Dublin for European Political Community summit, expects a debrief from Witkoff, Kushner",
+     "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  WEST ASIA",
+   "headline": "Iran Denies Talks With Washington, Says Hormuz Stays Shut Until Seven Conditions Are Met",
+   "deck": "Tehran calls reports of a Qatar meeting “a pure lie”; Trump sees “positive momentum”.",
+   "body": [
+    "Two incompatible accounts of the US-Iran conflict were on offer this week. President Donald Trump said he saw “positive momentum” toward ending it and that new attacks on Iran were unnecessary; on Monday he received Qatar’s Prime Minister, Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, at the White House. Qatar is described as a key mediator.",
+    "Tehran’s version, given on Tuesday 10 November, was flat denial. Mohsen Rezaei, Iran’s security chief, said the country was still awaiting a US response to its seven conditions for peace talks, dismissed reports of negotiations, and called claims of a meeting in Qatar “a pure lie”. He described the initial US reply as “insufficient and deceptive” and accused Washington of talking up negotiations in order to ease economic pressure and bring down oil prices.",
+    "The seven conditions have not been published in full. According to Rezaei and Foreign Minister Abbas Araghchi, they include lifting sanctions, ending the US naval blockade, and stopping the fighting on all fronts, especially Israel’s attacks on Lebanon. Araghchi said the Strait of Hormuz could reopen within two days if the demands were met, and that the conflict would not be resolved by military means or tighter sanctions. Until then, Rezaei said, the strait stays closed.",
+    "Conditions at sea remain dangerous. Iran’s Revolutionary Guard said three oil tankers caught fire on Tuesday after hitting naval mines in what it called an “unauthorised route” in the eastern strait. Maritime monitoring firms counted at least 37 attacks on ships in and near the strait in October, the highest monthly total since the war began. US Secretary of State Marco Rubio, speaking in Paris, said Washington was “open to diplomacy” and that further strikes were not needed if the same objectives could be met through economic means. The war is in its ninth month."
+   ],
+   "illustration": {
+    "title": "THE STRAIT OF HORMUZ",
+    "subtitle": "Closed, says Tehran",
+    "motif": "strait",
+    "caption": "At least 37 attacks on ships were reported in and near the strait in October."
+   },
+   "connect": "Economics: markets are trading the gap between the two accounts. Brent crude fell to $91.49 a barrel on Tuesday, from above $112 at the start of the month, after Trump said the war was “militarily” effectively over.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera and Reuters via Yahoo News",
+     "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+     "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+    },
+    {
+     "outlet": "Associated Press via Anchorage Daily News",
+     "title": "Stocks slip following a discouraging update on inflation",
+     "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  UNION CABINET",
+   "headline": "Cabinet Clears Rs 62,370 Crore Rabi Fertiliser Subsidy, Up 64%, Among Five Decisions Worth Rs 77,101 Crore",
+   "deck": "Nutrient Based Subsidy rates for phosphatic and potassic fertilisers apply from 1 October 2026 to 31 March 2027.",
+   "body": [
+    "The Union Cabinet, chaired by Prime Minister Narendra Modi, on Wednesday 11 November approved Nutrient Based Subsidy (NBS) rates on phosphatic and potassic (P and K) fertilisers for the Rabi 2026-27 season. The tentative budgetary requirement is Rs 62,370.02 crore, against Rs 37,952.29 crore for Rabi 2025-26: an increase of Rs 24,417.73 crore, or about 64%. The rates apply from 1 October 2026 to 31 March 2027.",
+    "The NBS scheme, in force since 1 April 2010, fixes the subsidy by nutrient content rather than by product. It covers four nutrients, nitrogen (N), phosphate (P), potash (K) and sulphur (S), and 28 grades of fertiliser, of which di-ammonium phosphate (DAP) and the NPKS grades are the major ones. The payment goes to manufacturers and importers at notified rates so that farmers buy at subsidised prices. Urea lies outside the NBS framework.",
+    "The Cabinet attributed the higher outlay to “rationalisation” in view of recent trends in international prices of fertilisers and inputs, naming urea, DAP, muriate of potash (MOP) and sulphur. The underlying exposure is structural: India relies heavily on imports for phosphatic and potassic fertilisers and their raw materials, so movements in world prices of DAP, MOP, phosphoric acid, ammonia and sulphur pass directly into the subsidy requirement. Union Minister Ashwini Vaishnaw told the Cabinet briefing that domestic manufacturing would increase and that farmers would face no additional burden.",
+    "Four other proposals were cleared the same day. An 8.45 km extension of the Noida Metro’s Aqua Line, from Noida Sector 51 to Greater Noida Sector 4 with five elevated stations, will cost Rs 2,390 crore. The Yuge Yugeen Bharat National Museum, to be created in New Delhi by reusing the historic North Block and South Block buildings, was sanctioned Rs 3,230 crore.",
+    "Two credit schemes were extended to 31 March 2031. Stand-Up India receives a credit guarantee corpus of Rs 4,111 crore and is expected to support 2.5 lakh more women, Scheduled Caste and Scheduled Tribe entrepreneurs. The Credit Guarantee Fund for Micro Units, which covers lenders against default on loans under the Pradhan Mantri Mudra Yojana, gets a corpus of Rs 5,000 crore."
+   ],
+   "illustration": {
+    "title": "RABI 2026-27",
+    "subtitle": "1 Oct 2026 - 31 Mar 2027",
+    "motif": "farm",
+    "caption": "Rabi is the six-month winter season for crops such as wheat, mustard and pulses."
+   },
+   "why": "The decision shows how import dependence turns global commodity prices into a fiscal cost: the farm-gate price is held steady, and the Union budget absorbs the swing.",
+   "sources": [
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Cabinet approves Rs 62,370 crore P&K fertiliser subsidy for Rabi 2026-27, up 64% from last year",
+     "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-62370-crore-pk-fertiliser-subsidy-for-rabi-2026-27-up-64-from-last-year"
+    },
+    {
+     "outlet": "Rural Voice",
+     "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+     "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+    },
+    {
+     "outlet": "IASPoint",
+     "title": "Key Cabinet Approvals in Infrastructure and Subsidies",
+     "url": "https://iaspoint.com/key-cabinet-approvals-in-infrastructure-and-subsidies/"
+    }
+   ]
+  },
+  "politics_and_civics": {
+   "kicker": "POLITICS & CIVICS  •  US CONGRESS",
+   "headline": "Referred, Not Rejected: How the House Disposed of Eight Impeachment Articles Against Hegseth",
+   "deck": "A 211-204 procedural vote sent the articles to the Judiciary Committee, which is under no obligation to act.",
+   "body": [
+    "The US House of Representatives on Tuesday 10 November dealt with an attempt to impeach Defense Secretary Pete Hegseth by means of a procedural device. By 211 votes to 204 it adopted a motion to refer eight articles of impeachment to the House Judiciary Committee. The vote was therefore not on impeachment itself, but its practical effect was to halt the effort.",
+    "The articles were introduced by Representative Thomas Massie of Kentucky, a member of President Donald Trump’s own Republican Party. They allege that Hegseth violated congressional war powers by conducting military operations against Iran without authorization and continued the conflict despite congressional opposition; that he disregarded protections for civilians; that he authorized unlawful strikes against suspected drug-trafficking vessels; that he participated in the capture of Venezuelan leader Nicolás Maduro; and that he retaliated against Senator Mark Kelly, an Arizona Democrat, over his public statements about military orders.",
+    "The arithmetic was close. Eleven Democrats were recorded as not voting, and eight more votes against the motion would have defeated it, forcing the House to confront the articles directly.",
+    "What follows is largely a matter of the calendar. The Judiciary Committee may consider the allegations and recommend further action, but it is not required to. With the present Republican-controlled Congress close to its end, further proceedings are unlikely before it expires. Democrats, however, are set to take control of the House in January, which could open the way to a renewed push. Their leader, Hakeem Jeffries, would not say whether Democrats will try to impeach Hegseth once they hold the majority.",
+    "The constitutional background explains why the committee stage matters. Impeachment is a two-step process: the House decides by simple majority whether to bring charges, and the Senate then conducts a trial, in which conviction and removal require a two-thirds vote. An article that never leaves a House committee therefore never reaches the first of those steps. Referral lets members avoid a recorded position on the substance of the charges while still disposing of them.",
+    "Trump made his position plain on Wednesday. At the National Veterans Day ceremony at Arlington National Cemetery, attended by Vice President JD Vance and Hegseth, he said of the House vote that he “had a feeling that was going to happen”, and of his defense secretary: “He’s done a fantastic job, and he loves you and he protects you.”"
+   ],
+   "illustration": {
+    "title": "THE US HOUSE VOTES",
+    "subtitle": "211-204 to refer",
+    "motif": "capitol",
+    "caption": "The motion sent eight articles of impeachment to the House Judiciary Committee."
+   },
+   "why": "War powers are the substance of the dispute: the leading articles accuse a Cabinet officer of waging war without Congress’s authorization. The referral shows how a legislative majority can decline to adjudicate such a charge.",
+   "sources": [
+    {
+     "outlet": "Newsweek",
+     "title": "Trump Praises Hegseth at Arlington Veterans Day Ceremony After House Blocks Impeachment",
+     "url": "https://www.newsweek.com/trump-hegseth-veterans-day-arlington-impeachment-vote-12701423"
+    },
+    {
+     "outlet": "NBC5 (Hearst)",
+     "title": "Trump honors US veterans during observance events at Arlington National Cemetery",
+     "url": "https://www.mynbc5.com/article/trump-veterans-day-2026/74399558"
+    },
+    {
+     "outlet": "CNN",
+     "title": "White House warns Democrats, Congress latest: Live updates",
+     "url": "https://edition.cnn.com/2026/11/11/politics/live-news/hegseth-impeachment-congress"
+    }
+   ]
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  US INFLATION",
+   "headline": "US October CPI at 0.4% Beats Forecasts; Markets Price In a December Fed Hike",
+   "deck": "Core CPI rose 0.3%, the level at which Fed Governor Waller had said a half-point move should be considered.",
+   "body": [
+    "The US Consumer Price Index (CPI) rose 0.4% in October over September, according to data released on Tuesday 10 November. Economists had expected 0.3%; the September figure was 0.6%. Core CPI, which strips out food and energy, rose 0.3% against an expected 0.2%, matching September’s pace. No year-over-year rates were published, because the Bureau of Labor Statistics could not release full October 2025 data owing to last year’s government shutdown.",
+    "The components show where the pressure lies. Energy prices rose 0.7%, a sharp slowdown from 5.2% in September. Food rose 0.5%, and housing, a major contributor, 0.3%. The Associated Press noted higher prices for groceries and electricity.",
+    "The policy implications were spelled out in advance by Federal Reserve Governor Chris Waller. Speaking in London before the release, he said he was leaning toward a 25 basis point increase in December, a basis point being one hundredth of a percentage point, but that a 50 basis point rise should be considered if October inflation came in hot. His test was a 0.3% rise in the underlying measure, which is exactly what was reported. “Hiking only 25 basis points would put our credibility at risk,” he said.",
+    "Markets repriced accordingly. Traders put an 84% probability on a 25 basis point rise in December, and the implied odds of a 50 basis point move went from 0% to 15%. The 10-year Treasury yield rose to 4.93%; it had topped 5.30% in early October. The S and P 500 index fell 0.4% to 7,520.93, the Dow 0.3% and the Nasdaq 0.7%, and gold lost more than 2%. Rate-sensitive homebuilders fell hardest: Lennar 5.4% and D.R. Horton 3.8%.",
+    "Oil is the variable to watch in the next report. Brent crude fell 1.2% on Tuesday to $91.49 a barrel, having stood above $112 at the start of the month, after President Donald Trump said the war in Iran “militarily is effectively over”. Cheaper crude would ease the energy component, but it does little for the core measure on which Waller rested his argument. His own summary was brief: “Inflation is too high.”"
+   ],
+   "chart": {
+    "title": "US CPI: MONTH-ON-MONTH",
+    "subtitle": "% change from previous month",
+    "labels": [
+     "September",
+     "Expected",
+     "October"
+    ],
+    "values": [
+     0.6,
+     0.3,
+     0.4
+    ],
+    "max": 0.8,
+    "value_prefix": "",
+    "highlight_after": 2,
+    "caption": "October’s 0.4% was below September’s 0.6% but above the 0.3% economists expected for October."
+   },
+   "why": "The Fed’s decisions shape borrowing costs for American households directly, through mortgages and other loans, and are watched by markets everywhere.",
+   "analyst": "Why would a central banker argue that too small a rate rise risks credibility? What does the fall in energy inflation from 5.2% to 0.7% suggest about core pressures?",
+   "sources": [
+    {
+     "outlet": "Associated Press via Anchorage Daily News",
+     "title": "Stocks slip following a discouraging update on inflation",
+     "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+     "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  CLIMATE SCIENCE",
+   "headline": "Global Carbon Budget 2026: Fossil CO2 to Fall 0.4%, Total CO2 to Hit 43.3 Billion Tonnes",
+   "deck": "Oil emissions drop 1.9% after the Iran energy shock; India’s emissions are projected to rise 4.4%.",
+   "body": [
+    "The Global Carbon Budget, an annual accounting of the world’s carbon dioxide emissions and sinks, was released on 10 November at COP31 in Antalya. Now in its 21st edition, it was produced by more than 140 scientists from the University of Exeter, the University of East Anglia, CICERO and more than 90 other institutions, and published as a pre-print in the journal Earth System Science Data.",
+    "Its headline projection is that fossil CO2 emissions will fall 0.4% in 2026, to 38.2 billion tonnes. By fuel, oil emissions fall 1.9% and natural gas 0.3%, while coal rises 0.6%. International aviation and shipping each fall 1%. According to RTE, this would follow a record high in 2025 and be the first annual decline since 2020.",
+    "The national figures diverge. China, which produces 32% of global fossil emissions, is projected to fall 0.9%; the United States 1.3%, mainly from lower coal use after a spike in 2025; the European Union 1.5%; and Japan 1%. India is projected to rise 4.4%, above its average annual growth of 3.5% over the past decade.",
+    "Two qualifications limit the good news. First, the cause: the report calls the decline in oil a likely short-term response to the energy shock from the Iran conflict, although it also finds that solar, wind and electric vehicles now meet about two-thirds of rising energy demand. Second, the total: land-use change emissions are projected to rise to 5.1 billion tonnes, driven by peat fires and forest degradation in Southeast Asia during the onset of El Niño, taking total CO2 to 43.3 billion tonnes from 42.8 billion in 2025. Atmospheric CO2 reaches 427.7 parts per million, 54% above pre-industrial levels.",
+    "The remaining carbon budget, the amount that can still be emitted while limiting warming to 1.5C, stands at 150 billion tonnes, less than four years of emissions at the current rate. The longer trend is more encouraging: total CO2 grew 0.3% a year over the past decade, against 1.7% a year in the decade before, and 59 countries emitted less in 2025 than in 2019 while growing their economies. Lead author Pierre Friedlingstein nonetheless cautioned that “a reduction driven partly by geopolitical shocks is not a sustainable climate solution”.",
+    "His co-authors pointed in the same direction. Glen Peters of CICERO said a one-year drop “is not a peak unless it is driven by structural change”, while Corinne Le Quéré of the University of East Anglia said a further acceleration “could turn the tide on global emissions within a few years”. The structural evidence is the growth of clean power: emissions avoided by solar and wind rose from 0.28 billion tonnes in 2010 to 4.1 billion tonnes in 2025."
+   ],
+   "illustration": {
+    "title": "GLOBAL CARBON BUDGET 2026",
+    "subtitle": "Fossil CO2: 38.2bn tonnes",
+    "motif": "globe",
+    "caption": "Fossil CO2 is projected to fall 0.4%; total CO2, with land use, rises to 43.3 billion tonnes."
+   },
+   "why": "For India the report cuts two ways: the world’s emissions may be near a turning point, but India’s own are rising faster than its ten-year average.",
+   "sources": [
+    {
+     "outlet": "Tyndall Centre for Climate Change Research",
+     "title": "Fossil CO2 emissions decrease in 2026",
+     "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+    },
+    {
+     "outlet": "RTE News",
+     "title": "COP31 host Turkey to push global electrification goal",
+     "url": "https://www.rte.ie/news/environment/2026/1110/1598617-cop31-turkey/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "COP31: About 40 leaders addressed the Antalya summit on 11 November; thirteen countries have publicly backed Turkey’s voluntary pledge to raise electricity to 35% of final energy consumption by 2035, from 23%.",
+    "European Union: Slovakia, the Czech Republic, Hungary and Bulgaria objected after Chancellor Friedrich Merz made fresh Ukraine aid an “essential prerequisite” for the EU’s 2028-2034 budget; a special summit is set for 26-27 November.",
+    "Astronomy: A technique called FLIP, which models the James Webb Space Telescope’s camera to subtract starlight, revealed a previously hidden exoplanet, according to a paper published in Nature on 4 November.",
+    "United Kingdom: Prime Minister Andy Burnham said no decision had been made on reports that the 2030 electric car sales target would be cut from 80% to roughly 60%."
+   ],
+   "sources": [
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+     "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "EU budget battle erupts as four countries defy Merz over Ukraine aid",
+     "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+    },
+    {
+     "outlet": "European Pravda",
+     "title": "European Council president responds to Merz's ultimatum on funding for Ukraine in 2027",
+     "url": "https://www.eurointegration.com.ua/eng/news/2026/11/11/7249753/"
+    },
+    {
+     "outlet": "ScienceDaily (Caltech)",
+     "title": "Astronomers discover hidden alien planet in James Webb images",
+     "url": "https://sciencedaily.com/releases/2026/11/261108233028.htm"
+    },
+    {
+     "outlet": "Motor Trader",
+     "title": "Andy Burnham denies decision has been made on ZEV overhaul",
+     "url": "https://www.motortrader.com/motor-trader-news/automotive-news/andy-burnham-denies-decision-has-been-made-on-zev-overhaul-11-11-2026"
+    },
+    {
+     "outlet": "EV Fleet World",
+     "title": "UK poised to slash 2030 EV quotas in looming ZEV mandate U-turn",
+     "url": "https://evfleetworld.co.uk/uk-poised-to-slash-2030-ev-quotas-in-looming-zev-mandate-u-turn/"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Motion to refer",
+     "def": "A procedural vote sending a matter to a committee instead of deciding it. Today: the House referred the Hegseth articles 211-204."
+    },
+    {
+     "word": "Nutrient Based Subsidy",
+     "def": "An Indian scheme that fixes fertiliser subsidy by nutrient content. Today: the Cabinet approved Rabi 2026-27 rates costing Rs 62,370 crore."
+    },
+    {
+     "word": "Core CPI",
+     "def": "Consumer price inflation excluding food and energy. Today: US core CPI rose 0.3% in October."
+    },
+    {
+     "word": "Carbon budget",
+     "def": "The CO2 that can still be emitted within a warming limit. Today: 150 billion tonnes remain for 1.5C."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "All novel carbon dioxide removal together offsets less than 30 minutes of the world’s annual fossil fuel emissions, according to the Global Carbon Budget. Reforestation and afforestation offset about half of the emissions from permanent deforestation."
+  },
+  "explainer": {
+   "title": "Basis points and rate decisions",
+   "body": [
+    "Central banks and bond markets quote interest rate changes in basis points. One basis point is one hundredth of a percentage point, so 25 basis points is 0.25 percentage points and 50 basis points is half a point.",
+    "The unit exists to avoid ambiguity. Saying a rate rose “1%” could mean one percentage point or one per cent of its previous level; “100 basis points” can only mean the first.",
+    "In this issue, Fed Governor Chris Waller weighed a 25 against a 50 basis point increase, and traders assigned probabilities of 84% and 15% to the two outcomes. A larger step signals urgency; a smaller one signals that the bank thinks inflation is coming under control."
+   ],
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+     "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Eight questions on this issue",
+   "body": [
+    "<b>1.</b> What was the one tangible result of the two-day US-mediated talks between Russia and Ukraine in Abu Dhabi?",
+    "(a) A ceasefire  (b) A prisoner exchange agreed in principle  (c) A territorial settlement",
+    "<b>2.</b> Who is Iran’s security chief, who called reports of a meeting with the US in Qatar “a pure lie”?",
+    "(a) Abbas Araghchi  (b) Mohsen Rezaei  (c) Vladimir Medinsky",
+    "<b>3.</b> What is the tentative budgetary requirement for the Rabi 2026-27 subsidy on phosphatic and potassic fertilisers?",
+    "(a) Rs 37,952 crore  (b) Rs 62,370 crore  (c) Rs 77,101 crore",
+    "<b>4.</b> The Nutrient Based Subsidy scheme fixes subsidy by nutrient content. Since when has it been in force?",
+    "(a) 1 April 2010  (b) 1 October 2016  (c) 1 April 2020",
+    "<b>5.</b> By what margin did the US House refer eight articles of impeachment against Pete Hegseth to its Judiciary Committee?",
+    "(a) 204-211  (b) 211-204  (c) 218-211",
+    "<b>6.</b> How much did the US Consumer Price Index rise in October over September, against the 0.3% economists expected?",
+    "(a) 0.3%  (b) 0.4%  (c) 0.6%",
+    "<b>7.</b> According to the Global Carbon Budget, by how much are India’s emissions projected to change in 2026?",
+    "(a) Fall 0.9%  (b) Rise 3.5%  (c) Rise 4.4%",
+    "<b>8.</b> What is the remaining carbon budget for limiting warming to 1.5C, which the report says is less than four years of emissions?",
+    "(a) 38.2 billion tonnes  (b) 43.3 billion tonnes  (c) 150 billion tonnes",
+    "<b>Answers:</b> 1-b, 2-b, 3-b, 4-a, 5-b, 6-b, 7-c, 8-c."
+   ],
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Moscow and Dublin, 12 November: US envoys Kushner and Witkoff meet Putin and then brief Zelenskyy; the final prisoner numbers are also due. Watch whether a date for another round of talks is announced.",
+    "Antalya, 12 November: the second day of leaders’ speeches at COP31, and whether more countries sign the “35 by 35” electrification pledge before the full list expected next week.",
+    "Dublin, 13 November: EU leaders’ informal meeting, with Ukraine’s 2027 funding needs on the agenda, ahead of the special summit in Brussels on 26-27 November."
+   ]
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Euronews",
+   "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+   "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+  },
+  {
+   "outlet": "ABC News (Australia)",
+   "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+   "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+  },
+  {
+   "outlet": "The Moscow Times",
+   "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+   "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227"
+  },
+  {
+   "outlet": "The Journal",
+   "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+   "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+  },
+  {
+   "outlet": "The Kyiv Independent",
+   "title": "Zelensky arrives in Dublin for European Political Community summit, expects a debrief from Witkoff, Kushner",
+   "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/"
+  },
+  {
+   "outlet": "Al Jazeera and Reuters via Yahoo News",
+   "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+   "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+  },
+  {
+   "outlet": "Associated Press via Anchorage Daily News",
+   "title": "Stocks slip following a discouraging update on inflation",
+   "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+  },
+  {
+   "outlet": "The Tribune (ANI)",
+   "title": "Cabinet approves Rs 62,370 crore P&K fertiliser subsidy for Rabi 2026-27, up 64% from last year",
+   "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-62370-crore-pk-fertiliser-subsidy-for-rabi-2026-27-up-64-from-last-year"
+  },
+  {
+   "outlet": "Rural Voice",
+   "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+   "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+  },
+  {
+   "outlet": "IASPoint",
+   "title": "Key Cabinet Approvals in Infrastructure and Subsidies",
+   "url": "https://iaspoint.com/key-cabinet-approvals-in-infrastructure-and-subsidies/"
+  },
+  {
+   "outlet": "Newsweek",
+   "title": "Trump Praises Hegseth at Arlington Veterans Day Ceremony After House Blocks Impeachment",
+   "url": "https://www.newsweek.com/trump-hegseth-veterans-day-arlington-impeachment-vote-12701423"
+  },
+  {
+   "outlet": "NBC5 (Hearst)",
+   "title": "Trump honors US veterans during observance events at Arlington National Cemetery",
+   "url": "https://www.mynbc5.com/article/trump-veterans-day-2026/74399558"
+  },
+  {
+   "outlet": "CNN",
+   "title": "White House warns Democrats, Congress latest: Live updates",
+   "url": "https://edition.cnn.com/2026/11/11/politics/live-news/hegseth-impeachment-congress"
+  },
+  {
+   "outlet": "Yahoo Finance",
+   "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+   "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+  },
+  {
+   "outlet": "Tyndall Centre for Climate Change Research",
+   "title": "Fossil CO2 emissions decrease in 2026",
+   "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+  },
+  {
+   "outlet": "RTE News",
+   "title": "COP31 host Turkey to push global electrification goal",
+   "url": "https://www.rte.ie/news/environment/2026/1110/1598617-cop31-turkey/"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+   "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "EU budget battle erupts as four countries defy Merz over Ukraine aid",
+   "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+  },
+  {
+   "outlet": "European Pravda",
+   "title": "European Council president responds to Merz's ultimatum on funding for Ukraine in 2027",
+   "url": "https://www.eurointegration.com.ua/eng/news/2026/11/11/7249753/"
+  },
+  {
+   "outlet": "ScienceDaily (Caltech)",
+   "title": "Astronomers discover hidden alien planet in James Webb images",
+   "url": "https://sciencedaily.com/releases/2026/11/261108233028.htm"
+  },
+  {
+   "outlet": "Motor Trader",
+   "title": "Andy Burnham denies decision has been made on ZEV overhaul",
+   "url": "https://www.motortrader.com/motor-trader-news/automotive-news/andy-burnham-denies-decision-has-been-made-on-zev-overhaul-11-11-2026"
+  },
+  {
+   "outlet": "EV Fleet World",
+   "title": "UK poised to slash 2030 EV quotas in looming ZEV mandate U-turn",
+   "url": "https://evfleetworld.co.uk/uk-poised-to-slash-2030-ev-quotas-in-looming-zev-mandate-u-turn/"
+  }
+ ],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "Who announced the prisoner exchange agreement in Abu Dhabi?",
+    "options": [
+     "Jared Kushner",
+     "Marco Rubio",
+     "Davyd Arakhamia"
+    ],
+    "answer": 0,
+    "why": "The paper says US envoy Jared Kushner announced it.",
+    "story": "lead"
+   },
+   {
+    "q": "What does Ukraine propose as the first step?",
+    "options": [
+     "A leaders’ summit",
+     "An unconditional ceasefire",
+     "Withdrawal from the Donbas"
+    ],
+    "answer": 1,
+    "why": "The paper says Ukraine proposes an unconditional ceasefire as the first step.",
+    "story": "lead"
+   },
+   {
+    "q": "How many conditions has Iran set for peace talks?",
+    "options": [
+     "Three",
+     "Five",
+     "Seven"
+    ],
+    "answer": 2,
+    "why": "The paper says Iran is awaiting a US response to its seven conditions.",
+    "story": "world"
+   },
+   {
+    "q": "Which fertiliser lies outside the Nutrient Based Subsidy framework?",
+    "options": [
+     "Urea",
+     "DAP",
+     "NPKS grades"
+    ],
+    "answer": 0,
+    "why": "The paper says urea lies outside the NBS framework.",
+    "story": "india"
+   },
+   {
+    "q": "Who introduced the articles of impeachment against Pete Hegseth?",
+    "options": [
+     "Mark Kelly",
+     "Thomas Massie",
+     "JD Vance"
+    ],
+    "answer": 1,
+    "why": "The paper says Representative Thomas Massie of Kentucky introduced them.",
+    "story": "politics_and_civics"
+   },
+   {
+    "q": "What does core CPI exclude?",
+    "options": [
+     "Housing",
+     "Wages",
+     "Food and energy"
+    ],
+    "answer": 2,
+    "why": "The paper says core CPI strips out food and energy.",
+    "story": "economics"
+   },
+   {
+    "q": "What probability did traders put on a 25 basis point rise in December?",
+    "options": [
+     "84%",
+     "15%",
+     "50%"
+    ],
+    "answer": 0,
+    "why": "The paper says traders put an 84% probability on a 25 basis point rise.",
+    "story": "economics"
+   },
+   {
+    "q": "Which fuel’s emissions are projected to rise in 2026?",
+    "options": [
+     "Oil",
+     "Coal",
+     "Natural gas"
+    ],
+    "answer": 1,
+    "why": "The paper says oil and gas emissions fall while coal rises 0.6%.",
+    "story": "science_and_technology"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The House voted directly on whether to impeach Pete Hegseth.",
+    "true": false,
+    "why": "The paper says the vote was on a motion to refer, not on impeachment itself.",
+    "story": "politics_and_civics"
+   },
+   {
+    "claim": "The Rabi fertiliser subsidy rose by about 64% over the previous Rabi season.",
+    "true": true,
+    "why": "The paper says the increase is Rs 24,417.73 crore, or about 64%.",
+    "story": "india"
+   },
+   {
+    "claim": "Total CO2 emissions, including land use, are projected to fall in 2026.",
+    "true": false,
+    "why": "The paper says total CO2 rises to 43.3 billion tonnes from 42.8 billion.",
+    "story": "science_and_technology"
+   },
+   {
+    "claim": "Iran’s foreign minister said Hormuz could reopen within two days if its demands were met.",
+    "true": true,
+    "why": "The paper says Araghchi said the strait could reopen within two days if the demands were met.",
+    "story": "world"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Abu Dhabi",
+    "lat": 24.45,
+    "lon": 54.38,
+    "countries": [
+     "Ukraine",
+     "Russia",
+     "United Arab Emirates",
+     "Ireland"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Strait of Hormuz",
+    "lat": 26.57,
+    "lon": 56.25,
+    "countries": [
+     "Iran",
+     "Oman",
+     "Qatar",
+     "United States"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "New Delhi",
+    "lat": 28.61,
+    "lon": 77.21,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "politics_and_civics",
+    "place": "Washington, DC",
+    "lat": 38.9,
+    "lon": -77.04,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "Washington, DC",
+    "lat": 38.9,
+    "lon": -77.04,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "science_and_technology",
+    "place": "Antalya",
+    "lat": 36.9,
+    "lon": 30.7,
+    "countries": [
+     "Turkey",
+     "India",
+     "China",
+     "United States"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How many attacks on ships were counted in and near the Strait of Hormuz in October? (At least...)",
+    "answer": 37,
+    "prefix": "",
+    "unit": "attacks",
+    "min": 0,
+    "max": 100,
+    "why": "Maritime monitoring firms counted at least 37 attacks in October."
+   },
+   {
+    "story": "science_and_technology",
+    "q": "What share of global fossil emissions does China produce?",
+    "answer": 32,
+    "prefix": "",
+    "unit": "%",
+    "min": 0,
+    "max": 70,
+    "why": "China produces 32% of global fossil emissions."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Talks End With a Prisoner Deal Only",
+    "body": [
+     "Russia and Ukraine held two days of talks in Abu Dhabi. The United States acted as go-between. The talks ended on Wednesday 11 November.",
+     "The only result was an agreement to exchange prisoners of war. Ukraine’s president said between 1,000 and 1,200 may be exchanged. The final numbers were due on Thursday.",
+     "The big disputes did not move. Russia wants Ukraine to leave the part of the Donbas that Kyiv still controls. Ukraine refuses. It wants an unconditional ceasefire first. Russia rejects an immediate ceasefire.",
+     "Next, the two US envoys go to Moscow to meet President Putin. Then they fly to Dublin to brief Ukraine’s president."
+    ]
+   },
+   "world": {
+    "headline": "Iran Says There Are No Talks",
+    "body": [
+     "The US president said he saw “positive momentum” toward ending the conflict with Iran. Iran gave a different account.",
+     "Iran’s security chief, Mohsen Rezaei, said Iran is still waiting for a US answer to its seven conditions. He called claims of a meeting in Qatar “a pure lie”.",
+     "The conditions include lifting sanctions and ending the US naval blockade. Until they are met, he said, the Strait of Hormuz stays closed. Ships there face danger. At least 37 attacks on ships were counted in October."
+    ]
+   },
+   "india": {
+    "headline": "A Bigger Fertiliser Subsidy for Winter Crops",
+    "body": [
+     "India’s Cabinet approved a subsidy for fertilisers on Wednesday 11 November. It is for the Rabi season, the winter crop season.",
+     "The cost is about Rs 62,370 crore. That is about 64% more than last Rabi season. World prices for fertilisers and their raw materials have changed, and India relies heavily on imports.",
+     "The subsidy is paid by nutrient content. It covers 28 grades of fertiliser. The Cabinet cleared four other proposals too, including a metro extension in Noida and a national museum in New Delhi."
+    ]
+   },
+   "politics_and_civics": {
+    "headline": "The House Sends Impeachment Charges to a Committee",
+    "body": [
+     "A Republican, Thomas Massie, introduced eight articles of impeachment against Defense Secretary Pete Hegseth. Impeachment articles are formal charges.",
+     "The House did not vote on the charges. It voted 211 to 204 to refer them to the Judiciary Committee. The committee is not required to act.",
+     "That halts the effort for now. Democrats are set to take control of the House in January, which could bring a renewed push."
+    ]
+   },
+   "economics": {
+    "headline": "US Prices Rose More Than Expected",
+    "body": [
+     "US consumer prices rose 0.4% in October. Economists had expected 0.3%. Food rose 0.5% and energy 0.7%.",
+     "The Federal Reserve may now raise interest rates. Rate changes are counted in basis points. A basis point is one hundredth of a percentage point.",
+     "Traders put an 84% probability on a 25 basis point rise in December. Share prices fell, and homebuilders fell hardest."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "A Small Fall in Fossil Fuel Emissions",
+    "body": [
+     "More than 140 scientists produce the Global Carbon Budget each year. It counts the world’s carbon dioxide emissions.",
+     "This year’s report projects fossil CO2 emissions will fall 0.4% in 2026, to 38.2 billion tonnes. Oil emissions fall 1.9%. The report calls this a likely short-term response to the energy shock from the Iran conflict.",
+     "India’s emissions are projected to rise 4.4%. And with land-use change included, total CO2 rises to 43.3 billion tonnes. The remaining carbon budget for 1.5C is 150 billion tonnes."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "lead": "russia-ukraine"
+ }
+}
