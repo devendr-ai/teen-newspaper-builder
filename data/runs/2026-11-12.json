@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-12",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "current-affairs-digest": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "europe-explained": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "global-citizen-plus": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "junior-daily": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "young-global-citizen": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    }
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {
+        "headline": "Abu Dhabi Talks End With a Large Prisoner Exchange Agreed but No Ceasefire",
+        "status": "no_new_details",
+        "source_urls": [
+          "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+        ]
+      },
+      {
+        "headline": "Fossil Fuel CO2 Emissions Are Set to Fall 0.4% in 2026, but Total CO2 Still Rises",
+        "status": "no_new_details",
+        "source_urls": [
+          "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+        ]
+      },
+      {
+        "headline": "Four EU Countries Defy Germany's Merz Over Tying the Next EU Budget to Ukraine Aid",
+        "status": "no_new_details",
+        "source_urls": [
+          "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid"
+        ]
+      }
+    ]
+  }
+}
