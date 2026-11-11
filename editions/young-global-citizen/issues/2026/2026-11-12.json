@@ -1,0 +1,481 @@
+{
+ "edition": "young-global-citizen",
+ "date": "2026-11-12",
+ "volume": 1,
+ "issue": 183,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UKRAINE",
+   "headline": "US Envoys Leave Abu Dhabi With a Prisoner Deal and Head for Moscow",
+   "deck": "Russia and Ukraine agreed to a large exchange of prisoners but not to a ceasefire.",
+   "body": [
+    "The two Americans at the centre of the Ukraine peace talks have left Abu Dhabi with one result and a long list of unsolved problems. After two days of meetings that ended on Wednesday, Russia and Ukraine agreed in principle to a large exchange of prisoners of war. Envoy Jared Kushner called it “the biggest humanitarian release of prisoners.”",
+    "That was the only firm outcome. The two countries did not agree to a ceasefire, and they remain far apart on territory. Russia demands that Ukraine pull out of the part of the eastern Donbas region it still holds. Ukraine’s president, Volodymyr Zelenskyy, says Ukraine cannot discuss abandoning it.",
+    "Because the two sides trust each other so little, the United States acts as the go-between. Kushner said Washington speaks daily with both leaders’ teams. On Thursday he and fellow envoy Steve Witkoff were due in Moscow to meet President Vladimir Putin, then in Dublin, Ireland, to brief Zelenskyy. “We are pushing a boulder uphill,” Kushner said.",
+    "The prisoner numbers were to be settled on Thursday; Zelenskyy said between 1,000 and 1,200 may be exchanged. Secretary of State Marco Rubio called the meeting “very productive” but said a breakthrough to end the war will take time. Russia’s chief negotiator, Vladimir Medinsky, said more talks will be held."
+   ],
+   "map": {
+    "title": "THE ENVOYS’ ROUTE",
+    "label_top": "TALKS: ABU DHABI, UNITED ARAB EMIRATES",
+    "label_bottom": "NEXT: MOSCOW, THEN DUBLIN",
+    "footnote": "The US mediates between Russia and Ukraine",
+    "caption": "After Abu Dhabi, the US envoys were due to meet Putin in Russia and Zelenskyy in Ireland.",
+    "countries": [
+     "United Arab Emirates",
+     "Russia",
+     "Ukraine",
+     "Ireland"
+    ],
+    "place": "Abu Dhabi"
+   },
+   "why": "American negotiators carry the messages between the two sides, so what Washington decides to push for will shape any peace in a war that has lasted nearly five years.",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+     "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+     "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+    },
+    {
+     "outlet": "The Journal",
+     "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+     "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  CLIMATE",
+   "headline": "Fossil Fuel Emissions Set to Dip in 2026: Down in the US, Up in India",
+   "deck": "Scientists say an oil shock explains part of the fall, so it may not last.",
+   "body": [
+    "Every year a team of more than 140 scientists adds up the carbon dioxide, or CO2, that the world releases. Their latest tally, the Global Carbon Budget, was published on Tuesday at the COP31 climate summit in Antalya, Turkey, and it contains a small surprise.",
+    "The surprise is a fall. CO2 from burning oil, gas and coal is projected to drop 0.4% in 2026, to 38.2 billion tonnes. Oil emissions fall most, by 1.9%, which the scientists call a likely short-term response to the energy shock from the Iran conflict. Solar, wind and electric vehicles helped too: they now meet about two-thirds of rising energy demand.",
+    "The picture changes from country to country. Emissions are projected to fall 1.3% in the United States, mainly from lower coal use, and 0.9% in China. In India they are projected to rise 4.4%, faster than the country’s average of 3.5% a year over the past decade. China matters most to the total: it produces 32% of the world’s fossil emissions, and it accounts for half of the emissions avoided worldwide through renewables and electric vehicles.",
+    "Nor is the global dip the whole account. Add emissions from land, such as peat fires and damaged forests, and total CO2 rises to 43.3 billion tonnes, from 42.8 billion in 2025. Lead author Pierre Friedlingstein of the University of Exeter said a reduction driven partly by geopolitical shocks “is not a sustainable climate solution.”",
+    "What would make it last? Glen Peters, of the research centre CICERO, said a one-year drop “is not a peak unless it is driven by structural change.” Another author, Corinne Le Quéré of the University of East Anglia was more hopeful, saying a further acceleration of clean energy “could turn the tide on global emissions within a few years.” Time is short, though. The report puts the remaining budget for holding warming to 1.5C at 150 billion tonnes, which would be used up in less than four years at the current rate. The air already holds 54% more CO2 than before the industrial age."
+   ],
+   "illustration": {
+    "title": "THE WORLD’S CARBON TALLY",
+    "subtitle": "Global Carbon Budget 2026",
+    "motif": "globe",
+    "caption": "More than 140 scientists count the CO2 the world releases each year."
+   },
+   "connect": "Economics: when the price of something rises, people use less of it. Costlier oil cut oil use this year, which is why scientists call the fall a likely short-term response rather than a lasting change.",
+   "sources": [
+    {
+     "outlet": "Tyndall Centre for Climate Change Research",
+     "title": "Fossil CO2 emissions decrease in 2026",
+     "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+    },
+    {
+     "outlet": "The Wire",
+     "title": "Carbon Emissions Worldwide are Dipping In 2026, But India's are Set To Rise By 4.4%: Study",
+     "url": "https://m.thewire.in/article/environment/carbon-emissions-worldwide-are-dipping-in-2026-but-indias-are-set-to-rise-by-4-4-study"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  FARMING",
+   "headline": "Cabinet Raises Winter Fertiliser Subsidy 64% as World Prices Climb",
+   "deck": "The government will pay about Rs 62,370 crore so farmers’ prices stay steady.",
+   "body": [
+    "India’s winter crops, including wheat, mustard and pulses, are sown in the Rabi season, and they depend on fertilisers that supply phosphate and potash. India relies heavily on imports for these fertilisers and their raw materials, so when world prices swing, the cost lands in India.",
+    "On Wednesday the Union Cabinet, chaired by Prime Minister Narendra Modi, decided the government would absorb that cost. It approved subsidy rates for the season from 1 October to 31 March, at an estimated Rs 62,370 crore. That is about 64% more than the Rs 37,952 crore needed last Rabi season.",
+    "The money is paid to fertiliser companies so they can sell 28 grades of fertiliser, including the widely used DAP, at lower prices. Minister Ashwini Vaishnaw said farmers will not face any additional burden."
+   ],
+   "why": "A subsidy moves a cost from farmers to the national budget. It keeps food cheaper to grow, but the money comes from taxpayers and cannot be spent elsewhere.",
+   "also": [
+    "Metro: The Cabinet approved an 8.45 km extension of the Noida Metro’s Aqua Line, costing Rs 2,390 crore.",
+    "Museum: It approved Rs 3,230 crore for a national museum in New Delhi’s historic North Block and South Block."
+   ],
+   "sources": [
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Cabinet approves Rs 62,370 crore P&K fertiliser subsidy for Rabi 2026-27, up 64% from last year",
+     "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-62370-crore-pk-fertiliser-subsidy-for-rabi-2026-27-up-64-from-last-year"
+    },
+    {
+     "outlet": "Rural Voice",
+     "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+     "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+    },
+    {
+     "outlet": "IASPoint",
+     "title": "Key Cabinet Approvals in Infrastructure and Subsidies",
+     "url": "https://iaspoint.com/key-cabinet-approvals-in-infrastructure-and-subsidies/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "COP31: About 40 leaders addressed the climate summit in Antalya on Wednesday; host Turkey wants electricity to supply 35% of the world’s energy by 2035, up from 23%.",
+    "Iran: Security chief Mohsen Rezaei said the Strait of Hormuz will stay closed until the US meets Tehran’s seven conditions, and denied that talks were under way."
+   ],
+   "sources": [
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+     "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+    },
+    {
+     "outlet": "Al Jazeera and Reuters via Yahoo News",
+     "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+     "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Envoy",
+     "def": "A person sent to represent a government in talks. Today: US envoys Jared Kushner and Steve Witkoff mediated in Abu Dhabi."
+    },
+    {
+     "word": "Ceasefire",
+     "def": "An agreement to stop fighting. Today: Russia and Ukraine agreed to exchange prisoners but not to a ceasefire."
+    },
+    {
+     "word": "Subsidy",
+     "def": "Money a government pays to make something cheaper. Today: India approved a Rs 62,370 crore fertiliser subsidy."
+    },
+    {
+     "word": "Inflation",
+     "def": "A general rise in prices over time. Today: US prices rose 0.4% in October, more than expected."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "All the new machines built to pull carbon dioxide out of the air offset less than 30 minutes of the world’s yearly fossil fuel emissions, the Global Carbon Budget says."
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  ECONOMY",
+   "headline": "Prices Rise 0.4% in October, and a Fed Rate Increase Looks Likely",
+   "deck": "Food, housing and energy all cost more; stocks fell after the report.",
+   "body": [
+    "The Consumer Price Index, or CPI, tracks the prices of things households buy. Tuesday’s report showed it rose 0.4% in October from September. Economists had expected 0.3%. Food rose 0.5%, housing 0.3% and energy 0.7%, though energy had jumped 5.2% the month before.",
+    "A hotter-than-expected number matters because of what the Federal Reserve, the US central bank, may do next. The Fed fights inflation by raising interest rates, which makes borrowing dearer and cools spending. After the report, traders put an 84% chance on a quarter-point increase in December.",
+    "One Fed governor, Chris Waller, had said beforehand that an even larger half-point rise should be considered if October came in hot. “Inflation is too high,” he said. Stocks slipped on the news: the S&P 500 fell 0.4%. Shares of homebuilders fell further, since higher rates make mortgages cost more."
+   ],
+   "chart": {
+    "title": "MONTHLY PRICE RISES",
+    "subtitle": "US consumer prices, % change in a month",
+    "labels": [
+     "September",
+     "Expected",
+     "October"
+    ],
+    "values": [
+     0.6,
+     0.3,
+     0.4
+    ],
+    "max": 0.8,
+    "value_prefix": "",
+    "highlight_after": 2,
+    "caption": "October’s rise was smaller than September’s but above the 0.3% economists expected for October."
+   },
+   "why": "Interest rates touch mortgages, car loans and credit cards, so the Fed’s December decision reaches most American households.",
+   "analyst": "Why might the Fed worry about raising rates too little? Who gains and who loses when borrowing costs more?",
+   "sources": [
+    {
+     "outlet": "Associated Press via Anchorage Daily News",
+     "title": "Stocks slip following a discouraging update on inflation",
+     "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+     "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    }
+   ]
+  },
+  "sports": {
+   "title": "CRICKET: SRI LANKA FIGHT BACK IN RAWALPINDI",
+   "body": "<b>Dhananjaya de Silva (167 not out)</b> and <b>Kusal Mendis (117)</b> added 249 runs without being separated as Sri Lanka reached 404 for 4 on day three of the first Test, 30 behind Pakistan’s 434 for 9 declared.",
+   "sources": [
+    {
+     "outlet": "CREX",
+     "title": "Pakistan vs Sri Lanka 1st Test live score",
+     "url": "https://crex.com/cricket-live-score/pak-vs-sl-1st-test-sri-lanka-tour-of-pakistan-2026-match-updates-13LT"
+    },
+    {
+     "outlet": "Gulf News",
+     "title": "Rawalpindi Test between Pakistan and Sri Lanka heading for a draw",
+     "url": "https://gulfnews.com/sport/cricket/rawalpindi-test-between-pakistan-and-sri-lanka-heading-for-a-draw-1.68465568"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Moscow and Dublin: what the US envoys hear from Putin and then tell Zelenskyy.",
+    "Prisoner exchange: the final numbers, which Kushner said would be set on Thursday."
+   ]
+  },
+  "quote": {
+   "text": "A drop in emissions in one year is not a peak unless it is driven by structural change.",
+   "by": "Glen Peters, climate researcher"
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Euronews",
+   "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+   "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+  },
+  {
+   "outlet": "ABC News (Australia)",
+   "title": "Ukraine and Russia agree to large prisoner swap after two days of talks in Abu Dhabi",
+   "url": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-agree-prisoner-swap-abu-dhabi-talks/107375462"
+  },
+  {
+   "outlet": "The Journal",
+   "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+   "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+  },
+  {
+   "outlet": "Tyndall Centre for Climate Change Research",
+   "title": "Fossil CO2 emissions decrease in 2026",
+   "url": "https://tyndall.ac.uk/news/fossil-co2-emissions-decrease-in-2026/"
+  },
+  {
+   "outlet": "The Wire",
+   "title": "Carbon Emissions Worldwide are Dipping In 2026, But India's are Set To Rise By 4.4%: Study",
+   "url": "https://m.thewire.in/article/environment/carbon-emissions-worldwide-are-dipping-in-2026-but-indias-are-set-to-rise-by-4-4-study"
+  },
+  {
+   "outlet": "The Tribune (ANI)",
+   "title": "Cabinet approves Rs 62,370 crore P&K fertiliser subsidy for Rabi 2026-27, up 64% from last year",
+   "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-62370-crore-pk-fertiliser-subsidy-for-rabi-2026-27-up-64-from-last-year"
+  },
+  {
+   "outlet": "Rural Voice",
+   "title": "Cabinet Approves Rs 62,370 Crore Fertiliser Subsidy for Rabi 2026-27, Up 64%",
+   "url": "https://eng.ruralvoice.in/latest-news/cabinet-approves-rs-62370-crore-fertiliser-subsidy-for-rabi-2026-27-up-64-percent.html"
+  },
+  {
+   "outlet": "IASPoint",
+   "title": "Key Cabinet Approvals in Infrastructure and Subsidies",
+   "url": "https://iaspoint.com/key-cabinet-approvals-in-infrastructure-and-subsidies/"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 3: With the people stuck outside, world leaders jet in",
+   "url": "https://www.climatechangenews.com/2026/11/11/cop31-bulletin-day-3-with-the-people-stuck-outside-world-leaders-jet-in/"
+  },
+  {
+   "outlet": "Al Jazeera and Reuters via Yahoo News",
+   "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+   "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+  },
+  {
+   "outlet": "Associated Press via Anchorage Daily News",
+   "title": "Stocks slip following a discouraging update on inflation",
+   "url": "https://www.adn.com/business-economy/2026/11/10/stocks-fall-after-a-discouraging-update-on-inflation/"
+  },
+  {
+   "outlet": "Yahoo Finance",
+   "title": "Stock market today: Dow, S&P 500, Nasdaq slip as hot CPI fuels rate hike odds",
+   "url": "https://finance.yahoo.com/markets/article/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+  },
+  {
+   "outlet": "CREX",
+   "title": "Pakistan vs Sri Lanka 1st Test live score",
+   "url": "https://crex.com/cricket-live-score/pak-vs-sl-1st-test-sri-lanka-tour-of-pakistan-2026-match-updates-13LT"
+  },
+  {
+   "outlet": "Gulf News",
+   "title": "Rawalpindi Test between Pakistan and Sri Lanka heading for a draw",
+   "url": "https://gulfnews.com/sport/cricket/rawalpindi-test-between-pakistan-and-sri-lanka-heading-for-a-draw-1.68465568"
+  }
+ ],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "What was the one firm result of the Abu Dhabi talks?",
+    "options": [
+     "A ceasefire",
+     "A prisoner exchange",
+     "A new border"
+    ],
+    "answer": 1,
+    "why": "The paper says a large exchange of prisoners of war was the only firm outcome.",
+    "story": "lead"
+   },
+   {
+    "q": "Where were the US envoys due to meet Vladimir Putin?",
+    "options": [
+     "Moscow",
+     "Dublin",
+     "Abu Dhabi"
+    ],
+    "answer": 0,
+    "why": "The paper says they were due in Moscow to meet Putin, then in Dublin.",
+    "story": "lead"
+   },
+   {
+    "q": "By how much are CO2 emissions from fossil fuels projected to change in 2026?",
+    "options": [
+     "Rise 4.4%",
+     "Fall 1.9%",
+     "Fall 0.4%"
+    ],
+    "answer": 2,
+    "why": "The paper says fossil fuel CO2 is projected to drop 0.4%.",
+    "story": "world"
+   },
+   {
+    "q": "What is India’s winter crop season called?",
+    "options": [
+     "Rabi",
+     "Kharif",
+     "Zaid"
+    ],
+    "answer": 0,
+    "why": "The paper says winter crops are sown in the Rabi season.",
+    "story": "india"
+   },
+   {
+    "q": "What does the Federal Reserve do to fight inflation?",
+    "options": [
+     "Prints more money",
+     "Raises interest rates",
+     "Lowers food prices"
+    ],
+    "answer": 1,
+    "why": "The paper says the Fed fights inflation by raising interest rates.",
+    "story": "us"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "India’s emissions are projected to rise 4.4% in 2026.",
+    "true": true,
+    "why": "The paper says India’s emissions are projected to rise 4.4%.",
+    "story": "world"
+   },
+   {
+    "claim": "US prices rose less in October than economists expected.",
+    "true": false,
+    "why": "The paper says prices rose 0.4%, above the 0.3% expected.",
+    "story": "us"
+   },
+   {
+    "claim": "India’s fertiliser subsidy is paid to fertiliser companies.",
+    "true": true,
+    "why": "The paper says the money is paid to fertiliser companies so they can sell at lower prices.",
+    "story": "india"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Abu Dhabi",
+    "lat": 24.45,
+    "lon": 54.38,
+    "countries": [
+     "United Arab Emirates",
+     "Russia",
+     "Ukraine",
+     "Ireland"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Antalya",
+    "lat": 36.9,
+    "lon": 30.7,
+    "countries": [
+     "Turkey",
+     "India",
+     "United States",
+     "China"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "New Delhi",
+    "lat": 28.61,
+    "lon": 77.21,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "Washington, DC",
+    "lat": 38.9,
+    "lon": -77.04,
+    "countries": [
+     "United States"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How many billion tonnes of CO2 from fossil fuels is the world projected to release in 2026?",
+    "answer": 38.2,
+    "prefix": "",
+    "unit": "billion tonnes",
+    "min": 5,
+    "max": 80,
+    "why": "Fossil fuel CO2 is projected to fall 0.4% to 38.2 billion tonnes."
+   },
+   {
+    "story": "india",
+    "q": "How many grades of fertiliser does the subsidy help companies sell at lower prices?",
+    "answer": 28,
+    "prefix": "",
+    "unit": "grades",
+    "min": 0,
+    "max": 60,
+    "why": "The subsidy covers 28 grades of fertiliser, including DAP."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "A Prisoner Deal, but No End to the War",
+    "body": [
+     "Russia and Ukraine held two days of talks in Abu Dhabi. The talks ended on Wednesday. The two countries agreed to a large exchange of prisoners of war. These are soldiers captured by the other side.",
+     "They did not agree to a ceasefire, which is a stop to the fighting. They also disagree about land. Russia wants Ukraine to leave part of a region called Donbas. Ukraine says no.",
+     "Two Americans, Jared Kushner and Steve Witkoff, carry messages between the sides. Next they go to Moscow to meet Russia’s president. Then they go to Dublin to meet Ukraine’s president. He said between 1,000 and 1,200 prisoners may be exchanged."
+    ]
+   },
+   "world": {
+    "headline": "A Small Drop in the Gas That Warms the Planet",
+    "body": [
+     "Burning oil, gas and coal makes a gas called carbon dioxide, or CO2. It warms the planet. More than 140 scientists count it every year.",
+     "They expect CO2 from these fuels to fall 0.4% in 2026. One reason is that oil use fell after an energy shock from the Iran conflict. Solar power, wind power and electric cars also helped.",
+     "It differs by country. It falls 1.3% in the United States. It rises 4.4% in India. And when fires and damaged forests are counted, the world’s total still goes up, to 43.3 billion tonnes."
+    ]
+   },
+   "india": {
+    "headline": "India Pays More So Farmers Don’t Have To",
+    "body": [
+     "Winter crops like wheat need fertiliser to grow well. India buys much of its fertiliser from other countries. World prices have gone up.",
+     "On Wednesday the government decided to pay the extra cost. This kind of payment is called a subsidy. It will cost about Rs 62,370 crore this winter season. That is about 64% more than last time.",
+     "The money goes to fertiliser companies. Then they can sell to farmers at lower prices. A minister said farmers will not face any additional burden."
+    ]
+   },
+   "us": {
+    "headline": "Prices in America Rose Again",
+    "body": [
+     "A report on Tuesday said US prices rose 0.4% in October. Experts had expected 0.3%. Food rose 0.5%.",
+     "Rising prices are called inflation. The Federal Reserve is the US central bank. It fights inflation by raising interest rates. That makes borrowing money cost more.",
+     "Traders see an 84% chance of a rate rise in December. Stocks fell after the report. The S&P 500 lost 0.4%."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "lead": "russia-ukraine"
+ }
+}
