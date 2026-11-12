@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+    "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+    "junior-daily": {"status": "passed", "reason": "", "poster": null}
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {"headline": "US Envoys Meet Putin in Moscow, Then Fly to Dublin to Brief Zelenskyy as Europe Seeks a Seat at the Talks", "status": "no_new_details", "source_urls": ["https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"]},
+      {"headline": "Thirty Years of Oxygen Measurements Show the Ocean Absorbing More Carbon While the Land's Uptake Has Stalled", "status": "no_new_details", "source_urls": ["https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"]},
+      {"headline": "Democrat Scott Colom Wins Mississippi's US Senate Seat After a Count That Lasted Days", "status": "no_new_details", "source_urls": ["https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"]}
+    ],
+    "note": "Each selected primary page was already opened in full during research and its facts are in the pool, so the enrichment pass added nothing new."
+  }
+}

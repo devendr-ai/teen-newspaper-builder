@@ -1,0 +1,636 @@
+{
+ "edition": "breakfast-table",
+ "date": "2026-11-13",
+ "volume": 1,
+ "issue": 27,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UKRAINE",
+   "headline": "Why Two Messengers Flew From Moscow to Dublin in One Day",
+   "deck": "The talks about Ukraine’s war go on, and Europe wants a chair at the table.",
+   "body": [
+    "When two people are too upset to talk, a friend sometimes carries messages between them. Countries do this too. On Thursday two Americans, Steve Witkoff and Jared Kushner, carried messages about the war in Ukraine. They met Russia’s president, Vladimir Putin, in Moscow. Then they flew to Dublin, in Ireland, to report to Ukraine’s president, Volodymyr Zelenskyy.",
+    "The talking is not finished. A Russian official called the Moscow meeting useful and said the three-way talks will continue. Witkoff said, “I think progress was made.”",
+    "The hardest question has not moved. Putin said he would not soften his demands for land in Ukraine. Meanwhile, leaders were meeting in Dublin. About 40 countries there said choices about Europe’s safety should be made with Europe’s governments. Witkoff said Europeans will take part in the next stage."
+   ],
+   "map": {
+    "title": "FROM ONE LEADER TO THE OTHER",
+    "label_top": "MOSCOW: MEETING WITH PUTIN",
+    "label_bottom": "DUBLIN: REPORT TO ZELENSKYY",
+    "footnote": "Both meetings were planned for Thursday",
+    "caption": "The map marks Russia, Ukraine and Ireland.",
+    "countries": [
+     "Russia",
+     "Ukraine",
+     "Ireland"
+    ],
+    "place": "Dublin"
+   },
+   "why": "Wars usually end after many meetings, not one.",
+   "sources": [
+    {
+     "outlet": "Meduza",
+     "title": "Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks",
+     "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+    },
+    {
+     "outlet": "TASS",
+     "title": "Putin aide comments on Europe's security, humanitarian task, Kiev's peace allergy",
+     "url": "https://tass.com/politics/2217455"
+    },
+    {
+     "outlet": "TIME",
+     "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+     "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+    },
+    {
+     "outlet": "The Journal",
+     "title": "Kushner and Zelenskyy to meet in Baldonnel this evening",
+     "url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Zelenskyy to meet US envoys in Dublin after Russia peace talks",
+     "url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+    },
+    {
+     "outlet": "RTE News",
+     "title": "Zelensky warns EU to be alert to Russian threats",
+     "url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  INDONESIA",
+   "headline": "Indonesia’s Vice President Steps Down Over His School Papers",
+   "deck": "Courts said his documents did not meet the rules for the job.",
+   "body": [
+    "To run for Indonesia’s top jobs, a person must have finished high school, or schooling that counts the same. That rule is at the centre of a big change in Indonesia, a country in Southeast Asia.",
+    "On Thursday the vice president, Gibran Rakabuming Raka, resigned, which means he gave up his job. He is 39, the eldest son of former president Joko Widodo, and had served two years of a five-year term. He finished school in another country. Last month two top courts ruled that the papers he gave about that schooling did not meet the election rules.",
+    "On Wednesday, 120 lawmakers began steps that could have removed him. President Prabowo Subianto said he accepted the resignation with a “heavy heart.” There will be no new election. Instead, the president names two candidates. Then a large assembly of lawmakers elects one of them within 60 days."
+   ],
+   "visual": {
+    "type": "steps",
+    "title": "HOW A NEW VICE PRESIDENT IS CHOSEN",
+    "caption": "Indonesia fills the empty post without a national election.",
+    "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility",
+    "items": [
+     {
+      "label": "The president names two candidates",
+      "evidence": "the president names two candidates"
+     },
+     {
+      "label": "An assembly of lawmakers elects one of them",
+      "evidence": "a large assembly of lawmakers elects one of them"
+     },
+     {
+      "label": "The choice must be made within 60 days",
+      "evidence": "within 60 days"
+     }
+    ]
+   },
+   "connect": "Civics: Many countries write down who may hold a top job, and courts check the rules are followed. In Indonesia the vice president’s main task is to stand in for the president.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Indonesia vice president resigns amid dispute over eligibility",
+     "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+    },
+    {
+     "outlet": "Associated Press via KSAT",
+     "title": "Indonesia's vice president resigns as his eligibility and academic credentials are questioned",
+     "url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  ELECTIONS",
+   "headline": "A Senate Race So Close It Took Days to Count",
+   "deck": "Democrat Scott Colom won Mississippi with 49.2% of the vote.",
+   "body": [
+    "Most elections are decided on the night of the vote. In the state of Mississippi, the race for a seat in the United States Senate was far too close for that. At the end of election night, just 65 votes separated the two candidates.",
+    "So officials spent days counting the ballots that were left. On Wednesday the result was clear. Scott Colom, a Democrat, had 49.2% of the vote. Senator Cindy Hyde-Smith, a Republican, had 48.7%.",
+    "Hyde-Smith phoned Colom to concede, which means to accept that she had lost. She said she respects “the decision of Mississippi voters.” Colom, 43, is a prosecutor, a lawyer who brings cases to court. He will be Mississippi’s first Black senator since Reconstruction, the years after the American Civil War. He promised to represent all Mississippians, including those who did not vote for him."
+   ],
+   "why": "A tiny gap decided who speaks for a whole state.",
+   "also": [
+    "Senate: Democrats will hold at least 55 seats from January; only Alaska’s race is still undecided.",
+    "Climate: California’s governor, Gavin Newsom, met Turkish firefighters at the climate summit in Antalya."
+   ],
+   "sources": [
+    {
+     "outlet": "PBS NewsHour (Associated Press)",
+     "title": "Scott Colom wins Senate election in Mississippi",
+     "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Mississippi Senate results: Scott Colom narrowly defeats Cindy Hyde-Smith, flipping another seat for Democrats in midterm elections",
+     "url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
+     "url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Democrat Scott Colom wins Mississippi Senate race, breaking the GOP's grip on the state",
+     "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+    },
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 4: Emerging economies question need for COP31 cover decision",
+     "url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Climate: Solomon Islands, a Pacific island country, promised $400,000 to a world climate fund.",
+    "Science: Thirty years of air measurements show the ocean is soaking up more carbon, while the land is not."
+   ]
+  },
+  "discussion": {
+   "title": "TALK ABOUT IT",
+   "body": [
+    "When two people will not talk to each other, how can a go-between help, and what can go wrong?",
+    "Should a leader have to prove they finished school? Why might a country make that rule?",
+    "Which foods in our kitchen would we notice first if their price doubled?"
+   ],
+   "sources": [
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 4: Emerging economies question need for COP31 cover decision",
+     "url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+    },
+    {
+     "outlet": "PINA (Solomon Star)",
+     "title": "Solomon Islands pledges USD$400k to GCF",
+     "url": "https://pina.com.fj/2026/11/12/solomon-islands-pledges-usd400k-to-gcf/"
+    },
+    {
+     "outlet": "University of Exeter News",
+     "title": "Ocean carbon sink strengthens while land carbon sink stalls, new study finds",
+     "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  PRICES",
+   "headline": "Onions Cost Twice as Much, and India’s Prices Cross a Limit",
+   "deck": "Inflation reached 6.09% in October, above the central bank’s top limit of 6%.",
+   "body": [
+    "Onions go into so many meals that their price is felt in kitchens across India. This October, onions cost more than twice as much as a year earlier. Garlic, ginger and lemons were much dearer too, though potatoes and cauliflower got cheaper.",
+    "Numbers like these come from a government check of prices in more than 1,400 city markets and more than 1,400 villages. On Thursday it reported October’s inflation, the yearly rise in prices: 6.09%, up from 5.54% the month before. For food alone it was 8.94%.",
+    "The Reserve Bank of India, the country’s central bank, tries to hold inflation between 2% and 6%. October broke through the top of that range, which had not happened for two years. To slow prices, the bank can raise its main interest rate, now 5.5%, which makes borrowing cost more. Its committee meets from 2 to 4 December. Economist Aditi Nayar said a rise is “almost certain.” She also warned that weak monsoon rains could keep food prices high."
+   ],
+   "why": "Villages felt it most: prices there rose 6.63%, against 5.41% in cities.",
+   "sources": [
+    {
+     "outlet": "ThePrint",
+     "title": "India's October retail inflation breaches RBI's 6% ceiling, odds of December repo rate hike rise",
+     "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+    },
+    {
+     "outlet": "The Hans India",
+     "title": "India's retail inflation crosses RBI's upper limit of 6 per cent in October",
+     "url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+    },
+    {
+     "outlet": "Xinhua",
+     "title": "India's retail inflation rises to 6.09 pct in October",
+     "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+    }
+   ]
+  },
+  "sports": {
+   "title": "CRICKET: SEVEN WICKETS IN A FIRST TEST",
+   "body": "Playing his first Test match, Pakistan’s <b>Saqib Khan</b> took <b>7 wickets for 130 runs</b> as Sri Lanka were bowled out for 446 in Rawalpindi. Pakistan were 57 for 1 when rain ended day four, a lead of 45 runs.",
+   "sources": [
+    {
+     "outlet": "Cricket World",
+     "title": "Pakistan vs Sri Lanka 1st Test: Saqib Khan's 7/130 keeps hosts in contention on Day 4",
+     "url": "https://www.cricketworld.com/khans-7-wickets-revive-pakistan-before-bad-light-and-rain-disrupts-day-4-against-sri-lanka/114300.htm"
+    },
+    {
+     "outlet": "Ada Derana",
+     "title": "Sri Lanka restrict Pakistan to 57/1 as rain ends fourth day early in Rawalpindi Test",
+     "url": "https://adaderana.lk/news/251571"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "What Zelenskyy says after hearing the messengers’ report in Dublin.",
+    "Who European leaders choose to speak for them in the talks."
+   ]
+  },
+  "quote": {
+   "text": "Keeping a conversation going is slow work, and it is still work worth doing.",
+   "by": ""
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Meduza",
+   "title": "Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks",
+   "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+  },
+  {
+   "outlet": "TASS",
+   "title": "Putin aide comments on Europe's security, humanitarian task, Kiev's peace allergy",
+   "url": "https://tass.com/politics/2217455"
+  },
+  {
+   "outlet": "TIME",
+   "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+   "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+  },
+  {
+   "outlet": "The Journal",
+   "title": "Kushner and Zelenskyy to meet in Baldonnel this evening",
+   "url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "Zelenskyy to meet US envoys in Dublin after Russia peace talks",
+   "url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+  },
+  {
+   "outlet": "RTE News",
+   "title": "Zelensky warns EU to be alert to Russian threats",
+   "url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+  },
+  {
+   "outlet": "Al Jazeera",
+   "title": "Indonesia vice president resigns amid dispute over eligibility",
+   "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+  },
+  {
+   "outlet": "Associated Press via KSAT",
+   "title": "Indonesia's vice president resigns as his eligibility and academic credentials are questioned",
+   "url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+  },
+  {
+   "outlet": "PBS NewsHour (Associated Press)",
+   "title": "Scott Colom wins Senate election in Mississippi",
+   "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+  },
+  {
+   "outlet": "Yahoo News",
+   "title": "Mississippi Senate results: Scott Colom narrowly defeats Cindy Hyde-Smith, flipping another seat for Democrats in midterm elections",
+   "url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+  },
+  {
+   "outlet": "CBS News",
+   "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
+   "url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+  },
+  {
+   "outlet": "NBC News",
+   "title": "Democrat Scott Colom wins Mississippi Senate race, breaking the GOP's grip on the state",
+   "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 4: Emerging economies question need for COP31 cover decision",
+   "url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+  },
+  {
+   "outlet": "ThePrint",
+   "title": "India's October retail inflation breaches RBI's 6% ceiling, odds of December repo rate hike rise",
+   "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+  },
+  {
+   "outlet": "The Hans India",
+   "title": "India's retail inflation crosses RBI's upper limit of 6 per cent in October",
+   "url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+  },
+  {
+   "outlet": "Xinhua",
+   "title": "India's retail inflation rises to 6.09 pct in October",
+   "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+  },
+  {
+   "outlet": "PINA (Solomon Star)",
+   "title": "Solomon Islands pledges USD$400k to GCF",
+   "url": "https://pina.com.fj/2026/11/12/solomon-islands-pledges-usd400k-to-gcf/"
+  },
+  {
+   "outlet": "University of Exeter News",
+   "title": "Ocean carbon sink strengthens while land carbon sink stalls, new study finds",
+   "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+  },
+  {
+   "outlet": "Cricket World",
+   "title": "Pakistan vs Sri Lanka 1st Test: Saqib Khan's 7/130 keeps hosts in contention on Day 4",
+   "url": "https://www.cricketworld.com/khans-7-wickets-revive-pakistan-before-bad-light-and-rain-disrupts-day-4-against-sri-lanka/114300.htm"
+  },
+  {
+   "outlet": "Ada Derana",
+   "title": "Sri Lanka restrict Pakistan to 57/1 as rain ends fourth day early in Rawalpindi Test",
+   "url": "https://adaderana.lk/news/251571"
+  }
+ ],
+ "play": {
+  "quiz": [
+   {
+    "q": "Which two cities did the American messengers visit on Thursday?",
+    "options": [
+     "Moscow and Dublin",
+     "Jakarta and Rawalpindi",
+     "Abu Dhabi and Antalya"
+    ],
+    "answer": 0,
+    "why": "The paper says they met Putin in Moscow, then flew to Dublin.",
+    "story": "lead"
+   },
+   {
+    "q": "Why did Indonesia’s vice president resign?",
+    "options": [
+     "He wanted to become president",
+     "Courts ruled his school papers did not meet the election rules",
+     "He lost an election"
+    ],
+    "answer": 1,
+    "why": "The paper says two top courts ruled that his school papers did not meet the election rules.",
+    "story": "world"
+   },
+   {
+    "q": "How many votes separated the two candidates at the end of election night in Mississippi?",
+    "options": [
+     "6,500",
+     "650",
+     "65"
+    ],
+    "answer": 2,
+    "why": "The paper says just 65 votes separated the two candidates.",
+    "story": "us"
+   },
+   {
+    "q": "What does inflation measure?",
+    "options": [
+     "The yearly rise in prices",
+     "The number of markets",
+     "How much rain fell"
+    ],
+    "answer": 0,
+    "why": "The paper calls inflation the yearly rise in prices.",
+    "story": "india"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The messengers met Russia’s president before they flew to Dublin.",
+    "true": true,
+    "why": "The paper says they met Putin in Moscow, then flew to Dublin.",
+    "story": "lead"
+   },
+   {
+    "claim": "Indonesia will hold a new national election to choose its next vice president.",
+    "true": false,
+    "why": "The paper says there will be no new election; an assembly of lawmakers elects one of two candidates.",
+    "story": "world"
+   },
+   {
+    "claim": "India’s prices rose more in cities than in villages.",
+    "true": false,
+    "why": "The paper says prices rose 6.63% in villages, against 5.41% in cities.",
+    "story": "india"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Dublin",
+    "lat": 53.35,
+    "lon": -6.26,
+    "countries": [
+     "Russia",
+     "Ukraine",
+     "Ireland"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Jakarta",
+    "lat": -6.2,
+    "lon": 106.82,
+    "countries": [
+     "Indonesia"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "Mississippi",
+    "lat": 32.3,
+    "lon": -90.18,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "India",
+    "lat": 22.0,
+    "lon": 79.0,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How many lawmakers began steps that could have removed Indonesia’s vice president?",
+    "answer": 120,
+    "prefix": "",
+    "unit": "lawmakers",
+    "min": 10,
+    "max": 300,
+    "why": "The paper says 120 lawmakers began steps that could have removed him."
+   },
+   {
+    "story": "india",
+    "q": "What was India’s inflation, the yearly rise in prices, in October?",
+    "answer": 6.09,
+    "prefix": "",
+    "unit": "%",
+    "min": 0,
+    "max": 15,
+    "why": "The paper says October’s inflation was 6.09%."
+   }
+  ],
+  "brief": {
+   "format": 2,
+   "lines": [
+    {
+     "who": "maya",
+     "text": "Good morning, and welcome to The Breakfast Table for Friday, November 13. Today: two messengers and two presidents, a vice president who gave up his job, and a vote count that came down to almost nothing.",
+     "section": "welcome"
+    },
+    {
+     "who": "sam",
+     "text": "Let’s start with the messengers. Who are they, and why were they flying around?",
+     "section": "story",
+     "story": "lead",
+     "chapter": "Two messengers"
+    },
+    {
+     "who": "maya",
+     "text": "They are two Americans, Steve Witkoff and Jared Kushner. When two people are too upset to talk, a friend sometimes carries messages between them. Countries do this too. These two carried messages about the war in Ukraine.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Where did they go?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "First to Moscow, to meet Russia’s president, Vladimir Putin. Then to Dublin, in Ireland, to report to Ukraine’s president, Volodymyr Zelenskyy.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "And did anything change?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "The talking goes on. A Russian official called the Moscow meeting useful, and Witkoff said, I think progress was made. But the hardest question has not moved. Putin said he would not soften his demands for land in Ukraine.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Why were Europe’s leaders in the story?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "They were meeting in Dublin. About 40 countries there said choices about Europe’s safety should be made with Europe’s governments. Witkoff said Europeans will take part in the next stage.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Now to Indonesia. The vice president has resigned. What happened?",
+     "section": "story",
+     "story": "world",
+     "chapter": "School papers"
+    },
+    {
+     "who": "maya",
+     "text": "To run for Indonesia’s top jobs, a person must have finished high school, or schooling that counts the same. The vice president, Gibran Rakabuming Raka, finished school in another country. Last month two top courts ruled that his papers about that schooling did not meet the election rules.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "So he stepped down?",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "maya",
+     "text": "Yes, on Thursday. He is 39 and had served two years of a five-year term. A day earlier, 120 lawmakers had begun steps that could have removed him.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Does Indonesia vote again now?",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "maya",
+     "text": "No. There will be no new election. The president names two candidates. Then a large assembly of lawmakers elects one of them within 60 days.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Last story. An election in America took days to count?",
+     "section": "story",
+     "story": "us",
+     "chapter": "A very close count"
+    },
+    {
+     "who": "maya",
+     "text": "It did. It was the race for a Senate seat in the state of Mississippi. At the end of election night, just 65 votes separated the two candidates.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "That is hardly anything. What did officials do?",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "maya",
+     "text": "They spent days counting the ballots that were left. On Wednesday the result was clear. Scott Colom, a Democrat, had 49.2 percent. Senator Cindy Hyde-Smith, a Republican, had 48.7 percent.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "How did she take it?",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "maya",
+     "text": "She phoned Colom to concede, which means to accept that she had lost. She said she respects the decision of Mississippi voters. And Colom promised to represent all Mississippians, including those who did not vote for him.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "Why did Indonesia’s vice president resign?",
+     "section": "quiz_question",
+     "quiz": 1
+    },
+    {
+     "who": "maya",
+     "text": "Courts ruled his school papers did not meet the election rules The paper says two top courts ruled that his school papers did not meet the election rules.",
+     "section": "quiz_answer",
+     "quiz": 1
+    },
+    {
+     "who": "sam",
+     "text": "How many votes separated the two candidates at the end of election night in Mississippi?",
+     "section": "quiz_question",
+     "quiz": 2
+    },
+    {
+     "who": "maya",
+     "text": "65 The paper says just 65 votes separated the two candidates.",
+     "section": "quiz_answer",
+     "quiz": 2
+    },
+    {
+     "who": "maya",
+     "text": "When two people will not talk to each other, how can a go-between help, and what can go wrong?",
+     "section": "discussion"
+    },
+    {
+     "who": "maya",
+     "text": "That is The Breakfast Table for today. Thank you for listening, and enjoy your day.",
+     "section": "close"
+    }
+   ]
+  }
+ },
+ "threads": {
+  "lead": "russia-ukraine"
+ }
+}

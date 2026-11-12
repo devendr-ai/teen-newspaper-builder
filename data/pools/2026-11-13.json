@@ -1,0 +1,1849 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "ukraine-moscow-dublin",
+    "headline": "US Envoys Meet Putin in Moscow, Then Fly to Dublin to Brief Zelenskyy as Europe Seeks a Seat at the Talks",
+    "what_happened": "On Thursday 12 November, a day after the Abu Dhabi talks ended, US envoys Steve Witkoff and Jared Kushner met Vladimir Putin at the Kremlin. The Kremlin called the talks useful and said three-way negotiations will continue; Witkoff said progress was made and a new meeting is set, with Europeans to take part in the next stage. The envoys then flew to Dublin, where Volodymyr Zelenskyy was at a summit of European leaders, to brief him that evening. The outcome of the Dublin meeting had not been reported when sources were published.",
+    "why_it_matters": "The talks continue and may widen to include Europe, but Russia has not softened its demands on territory, so the questions that would end the war remain open.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "US presidential envoys Jared Kushner and Steve Witkoff flew to Moscow on the morning of Thursday 12 November 2026; their meeting with Vladimir Putin began at the Kremlin shortly after noon.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Before the meeting, Russia's foreign minister Sergey Lavrov said Putin 'will determine our future positions based on what he hears from the Americans'.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Kushner and Witkoff proposed expanding the talks so that European representatives could join the three-way (US-Russia-Ukraine) format.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Finnish President Alexander Stubb announced that a technical meeting including Ukraine, Russia, the US and Europe would take place in the coming weeks.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "According to a Politico source, EU heads of state would discuss who might represent Europe at an informal summit in Dublin on 13 November; no official decision was expected.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Kushner and Witkoff were expected to arrive in Dublin on the evening of 12 November and meet Zelensky by the end of the day.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Zelensky said there was 'no negativity' in the Abu Dhabi talks. He said that although 'the Americans flew to Putin with something concrete', he doubted they would come back to Dublin with something concrete.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "On territory, Zelensky said US representatives are trying to 'find some options' for Donbas, but only leaders should make the final decision.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Kyiv has unofficially complained that the talks have shifted from ending the war toward Europe's security architecture; Kyiv and Europe worried that broadening the talks could let Moscow prolong the fighting.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "RBC-Ukraine sources said that on the second day in Abu Dhabi the Russian delegation refused to discuss a ceasefire, territorial issues, energy or Black Sea security.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "On the morning of 12 November a Russian drone hit a nine-storey apartment building in Kyiv's Solomianskyi district.",
+      "source_url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     },
+     {
+      "fact": "Kremlin aide Yuri Ushakov, who briefed reporters, called the conversation 'substantive, constructive, frank, and useful'.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov said the envoys reported on the three-way contacts in Abu Dhabi on 10-11 November, which both sides judged 'constructive and productive', and that negotiations involving Moscow, Washington and Kyiv 'will continue'.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov said Putin and Donald Trump are expected to discuss Ukraine at a meeting on the sidelines of the APEC summit in Shenzhen, China.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "According to Ushakov, Witkoff and Kushner backed Putin's proposal for a humanitarian operation in the town of Kostiantynivka (Konstantinovka in Russian usage), modelled on one in Oleshky; Russia said it was ready to begin demining and would invite journalists from Ukraine, Europe and the US to observe.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Putin said Europeans 'must decide whether they want peace or the continuation of the war'.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov said Russia is ready to work on a new European security architecture with US representatives and wants European participation. Russia's stated core demands, from its 2021 draft agreements, include no NATO expansion.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov called a proposed European military contingent in Ukraine 'a recipe for an endless war'.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov said the parameters of the prisoner exchange discussed in Abu Dhabi are being coordinated, and that 35 exchanges since 2025 have involved about 5,000 people from each side (Russian figures).",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov claimed Kyiv does not want peace because it would then have to hold elections; this is the Russian side's claim.",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "fact": "Ushakov said contacts would begin on organising the humanitarian mission in Kostiantynivka, and that Russia and the US agreed to continue three-way talks.",
+      "source_url": "https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner"
+     },
+     {
+      "fact": "Moscow said it hoped Witkoff and Kushner would convey its signals to Europeans and Ukrainians in Dublin.",
+      "source_url": "https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner"
+     },
+     {
+      "fact": "After Abu Dhabi, Ukrainian delegate Davyd Arakhamia cited 'good momentum' toward an agreement by the New Year, and Russian delegation head Vladimir Medinsky said the sides had 'moved closer to peace'.",
+      "source_url": "https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner"
+     },
+     {
+      "fact": "The meeting took place at the Senate Palace of the Kremlin.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "Witkoff said 'I think progress was made' and that three-way talks had been restarted with a new meeting set; he said European partners would take part in the next stage because 'they're our partners'.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "A European representative is to attend the next round to discuss the continent's security arrangements.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "Zelensky described a 'window of opportunity' to reach a deal, aiming for a result 'by the beginning of 2027'.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "Kyiv strongly rejects Putin's demand that Ukraine surrender all of the eastern Donbas region.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "Ushakov said Putin will continue Ukraine talks with Trump at the APEC summit in China later in November.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "The European Union is preparing a 22nd package of sanctions on Russia and a proposal on Ukraine's 2027 financial needs; the European Council meets in Brussels on 26-27 November.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "French President Emmanuel Macron said 'without Europeans, there is no support for Ukraine'.",
+      "source_url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+     },
+     {
+      "fact": "Zelenskyy was set to meet Kushner and Witkoff at Baldonnel, in west Dublin, on the evening of 12 November; the envoys' plane was to land there and the meeting would take place either on the aircraft or inside the aerodrome.",
+      "source_url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+     },
+     {
+      "fact": "Putin said he would not soften his demands to control the parts of Ukraine that Russia claims to have annexed, and ruled out foreign peacekeeping troops in Ukraine.",
+      "source_url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+     },
+     {
+      "fact": "Kushner and Witkoff urged Putin to agree to European representatives taking part in talks to end the war.",
+      "source_url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+     },
+     {
+      "fact": "The European Political Community summit took place on 12 November at the Convention Centre Dublin. More than a dozen leaders attended a meeting on Ukraine co-chaired by UK Prime Minister Andy Burnham and Zelenskyy; France's Emmanuel Macron and Taoiseach (Irish prime minister) Micheal Martin attended.",
+      "source_url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+     },
+     {
+      "fact": "Burnham said allies gave Zelenskyy their 'complete support' in the negotiation process.",
+      "source_url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+     },
+     {
+      "fact": "European Council President Antonio Costa said of the territorial disputes, 'Nobody else has any legitimacy to discuss this', and that Europe will ensure the 'right person' is in place as its representative.",
+      "source_url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+     },
+     {
+      "fact": "The Dublin gathering is the ninth summit of the European Political Community (EPC), hosted by Ireland during its rotating EU Council presidency; it brings together leaders from more than 45 countries.",
+      "source_url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "fact": "The EPC was launched in 2022 after Russia's full-scale invasion of Ukraine. Canadian Prime Minister Mark Carney attended for the first time. The tenth summit is set for Zurich, Switzerland, in April 2027.",
+      "source_url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "fact": "Zelenskyy said ending the war 'without Europe's participation would be unjust' and urged leaders to pick a single representative for Europe in future talks, in November.",
+      "source_url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "fact": "Kushner said on Wednesday in Abu Dhabi that he would seek Putin's 'blessing' for a direct European role in the talks.",
+      "source_url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "fact": "An informal gathering of EU leaders follows in Dublin on Friday 13 November.",
+      "source_url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "fact": "Around 40 countries at the summit issued a declaration that matters affecting European security should be decided with European governments.",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "fact": "Zelensky told the summit 'it is very good that Europeans are now part of these talks, not directly yet', and warned leaders to be alert to Russian efforts to rewrite Europe's security arrangements before any ceasefire.",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "fact": "Zelensky said his delegation found the Abu Dhabi talks 'serious, not empty'.",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "fact": "No European representative has been named. Taoiseach Micheal Martin said there were several 'obvious candidates' and that the EU needs a 'coherent voice agreed by the EU27'. German Chancellor Friedrich Merz said: 'It's not about individuals; what matters is that Putin is prepared to hold talks.'",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "fact": "Zelensky asked EU leaders to open the remaining two clusters (groups of chapters) of Ukraine's EU membership negotiations before the year ends; four are open.",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "fact": "RTE reported that Putin suggested no compromise on Ukraine in the Moscow talks.",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "fact": "Background: two days of US-mediated Ukraine-Russia talks in Abu Dhabi, United Arab Emirates, ended on Wednesday 11 November 2026 with agreement in principle on a major prisoner exchange, and no breakthrough on a ceasefire or territory.",
+      "source_url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+     },
+     {
+      "fact": "Background: these were the first direct Kyiv-Moscow negotiations in nine months.",
+      "source_url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+     },
+     {
+      "fact": "Background: Russia demands that Ukraine withdraw from the part of the Donbas region still under Kyiv's control; Moscow rejects an immediate ceasefire and wants broader security arrangements first.",
+      "source_url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+     },
+     {
+      "fact": "Background: in Dublin on Wednesday, Zelenskyy said between 1,000 and 1,200 prisoners of war may be exchanged.",
+      "source_url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Countries whose leaders gather at the EPC summit (more than)",
+      "value": 45,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "label": "Countries issuing the European security declaration (around)",
+      "value": 40,
+      "unit": "countries",
+      "source_url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/"
+     },
+     {
+      "label": "Prisoner exchanges since 2025 (Russian figure)",
+      "value": 35,
+      "unit": "exchanges",
+      "source_url": "https://tass.com/politics/2217455"
+     },
+     {
+      "label": "Prisoners who may be exchanged, upper figure (Zelenskyy)",
+      "value": 1200,
+      "unit": "prisoners",
+      "source_url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/"
+     }
+    ],
+    "geography": "Moscow, Russia (the Kremlin); Dublin, Ireland (Convention Centre Dublin; Baldonnel aerodrome in west Dublin); Abu Dhabi, United Arab Emirates; Ukraine and its eastern Donbas region; Kostiantynivka; Shenzhen, China; Brussels",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Meduza",
+      "title": "Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks",
+      "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "TASS",
+      "title": "Putin aide comments on Europe's security, humanitarian task, Kiev's peace allergy",
+      "url": "https://tass.com/politics/2217455",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "UNN",
+      "title": "Putin was alarmed by Zelenskyy and his \"greetings\" to Trump: what the Russian dictator discussed with Witkoff and Kushner",
+      "url": "https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "TIME",
+      "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+      "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "The Journal",
+      "title": "Kushner and Zelenskyy to meet in Baldonnel this evening",
+      "url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Zelenskyy to meet US envoys in Dublin after Russia peace talks",
+      "url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "RTE News",
+      "title": "Zelensky warns EU to be alert to Russian threats",
+      "url": "https://www.rte.ie/news/ireland/2026/1112/1598960-epc-meetings-dublin/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+      "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+      "published": "2026-11-11",
+      "primary": false
+     },
+     {
+      "outlet": "The Journal",
+      "title": "Volodymyr Zelenskyy lands in Dublin ahead of high-profile summit and meeting with US envoys",
+      "url": "https://www.thejournal.ie/kushner-witkoff-zelensky-dublin-7222270-Nov2026/",
+      "published": "2026-11-11",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "US Envoys Meet Putin in Moscow, Then Fly to Dublin to Brief Zelenskyy as Europe Seeks a Seat at the Talks",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "indonesia-vp",
+    "headline": "Indonesia's Vice President Gibran Resigns After Courts Question His School Qualifications",
+    "what_happened": "Indonesia's Vice President Gibran Rakabuming Raka, 39, resigned on Thursday 12 November 2026, two years into a five-year term. Last month two top courts ruled that the documents he submitted about his overseas schooling did not meet election requirements, and on Wednesday 120 lawmakers began a process that could have led to his impeachment. President Prabowo Subianto accepted the resignation; the People's Consultative Assembly must elect a replacement from two candidates the president nominates, within 60 days.",
+    "why_it_matters": "It shows how a constitution handles a disputed office-holder: courts rule on eligibility, parliament can begin removal, and a vacancy is filled by an assembly vote rather than a new national election.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Vice President Gibran Rakabuming Raka, 39, submitted his resignation on Thursday 12 November 2026 to President Prabowo Subianto and to parliament; he leaves office two years into a five-year term.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Critics accuse Gibran of never having received a high school diploma.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Last month the Constitutional Court and the Supreme Court ruled that the documents he submitted about his overseas education did not meet election requirements.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "On Wednesday 11 November, 120 lawmakers from eight political parties petitioned the leaders of the House of Representatives, starting a parliamentary process that could lead to impeachment.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Under that process, House leaders must set up a special committee to examine whether he violated the constitution; if lawmakers find sufficient basis, the House must ask the Constitutional Court to rule on whether a violation occurred.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "A vice-presidential vacancy does not trigger a new election. The office stays vacant until the People's Consultative Assembly elects a replacement from two candidates nominated by the president, within 60 days.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "The vice president has few constitutional powers: the main roles are representing the president at official events and taking over if the president cannot serve.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Gibran is the eldest son of former President Joko Widodo, Prabowo's immediate predecessor. Widodo, speaking from his hometown of Solo, said political posts are temporary and that the family would keep supporting Prabowo's government.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "At a press conference with Gibran at the Presidential Palace, Prabowo said he accepted the resignation with a 'heavy heart'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Gibran had offered to resign on Tuesday in a meeting with the president, saying he wanted to avoid a prolonged controversy.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Thousands of protesters have marched in recent weeks over economic hardship, corruption and the government's handling of months of wildfires.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "He submitted his resignation to the leadership of the People's Consultative Assembly, the country's highest legislative body, at the parliament building in Jakarta.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "The Associated Press reported he is the first vice president to resign before the end of a term since the fall of Suharto and the start of Indonesia's democratic reforms in 1998.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "Election law requires presidential and vice-presidential candidates to have completed senior high school or an equivalent. Because he finished secondary school overseas, he had to show his qualifications were equivalent to an Indonesian high school diploma.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "Background: he was below the minimum age of 40 for vice-presidential candidates; an October 2023 Constitutional Court ruling allowed an exception for people who had served or been elected as regional leaders. Critics saw that ruling as a conflict of interest.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "Prabowo praised him for showing 'courage, responsibility and statesmanship' and said he resigned 'for the greater interest of the nation'.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "House Speaker Ahmad Muzani said parliamentary leaders would convene immediately to begin selecting a replacement.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "He was sworn in on 20 October 2024; Prabowo had chosen him as running mate for the 2024 election.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Lawmakers who petitioned House leaders",
+      "value": 120,
+      "unit": "lawmakers",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "label": "Days allowed to elect a replacement",
+      "value": 60,
+      "unit": "days",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "label": "Political parties behind the petition",
+      "value": 8,
+      "unit": "parties",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "label": "Age of Gibran Rakabuming Raka",
+      "value": 39,
+      "unit": "years",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     }
+    ],
+    "geography": "Jakarta, capital of Indonesia, in Southeast Asia; Solo, the former president's hometown",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Indonesia vice president resigns amid dispute over eligibility",
+      "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Associated Press via KSAT",
+      "title": "Indonesia's vice president resigns as his eligibility and academic credentials are questioned",
+      "url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "cop31-day4",
+    "headline": "At COP31, Big Emerging Economies Question the Summit's Main Decision as Solomon Islands Makes a First Pledge",
+    "what_happened": "On day four of the UN climate summit in Antalya, Turkey, Russia, Saudi Arabia and the Like-Minded Developing Countries, a group that includes India and China, questioned Australia's process for the summit's 'cover decision', and some doubted one is needed. France and Barbados pushed for stronger action on methane. Solomon Islands pledged $400,000 to the Green Climate Fund, the first pledge to the fund's next round and the first from a small island or least developed country.",
+    "why_it_matters": "A cover decision is the summit's headline political text; if large countries reject the process, COP31 may end without one. The Solomon Islands pledge puts pressure on far richer countries to give.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "About 25 leaders spoke on Thursday 12 November, down from around 40 on Wednesday; speakers included the UK's Andy Burnham and Bangladesh's Tarique Rahman.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Russia, Saudi Arabia and the Like-Minded Developing Countries (LMDCs, a group including India and China) have repeatedly questioned the legitimacy of Australia's proposed process for a cover decision, and some doubt a cover decision is needed at all, according to sources familiar with the talks.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Cover decisions normally emerge late in the talks; this presidency led the process from the outset. Analyst Cosima Cassel of E3G said: 'They wanted to have full transparency and give countries a chance to prepare.'",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Many small island and European states want the decision to respond strongly to the overshoot of 1.5C; a September UNEP report said that limit will inevitably be breached, at least temporarily.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Australia, which chairs the negotiations, is expected to publish a summary of initial discussions on Friday and accept written submissions until Saturday; a first draft of the cover decision is likely then.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Solomon Islands became the first small island nation, and the first least developed country, to pledge to the Green Climate Fund (GCF); its pledge is $400,000 and is the first to the fund's third replenishment, which will fund 2028-2031.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "The GCF has backed 379 projects worth $22.3 billion. Solomon Islands Prime Minister Matthew Wale said: 'we have stepped forward, and now we call on the world's largest economies to do the same.'",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "The UK halved its current GCF contribution, which had been promised at 1.6 billion pounds in 2023.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "France's environment minister Monique Barbut said the cover decision 'must incorporate a strong and substantive mention to methane'; she wants oil and gas companies to cut methane intensity to 'almost zero' by 2030.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Methane is almost 90 times more potent than carbon dioxide; about 40% of emissions come from agriculture, over 20% from landfill waste and a third from oil and gas. The 2021 Global Methane Pledge aims to cut emissions 30% by 2030.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Barbados Prime Minister Mia Mottley called for a legally binding global methane treaty. Australia's climate minister Chris Bowen said Australia will sign a voluntary pledge for near-zero methane from fossil fuels.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "UK Prime Minister Andy Burnham named Madeleine Allesandri as a special representative for climate security, which the UK calls a world first, and pledged to make climate resilience a G20 priority during the UK's 2027 presidency.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "The International Energy Agency says $4 billion a year is needed for the rest of this decade to give all Africans access to clean cooking; Kenya will host the second global clean cooking summit in Nairobi in January.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "fact": "Prime Minister Matthew Wale announced the US$400,000 pledge at a Green Climate Fund side event at COP31 in Antalya; the replenishment cycle culminates in October 2027.",
+      "source_url": "https://pina.com.fj/2026/11/12/solomon-islands-pledges-usd400k-to-gcf/"
+     },
+     {
+      "fact": "Wale said the fund's work includes renewable energy, resilient infrastructure and community-level adaptation, and that climate finance should be grant-based.",
+      "source_url": "https://pina.com.fj/2026/11/12/solomon-islands-pledges-usd400k-to-gcf/"
+     },
+     {
+      "fact": "The report describes Solomon Islands as one of the world's most climate-vulnerable nations.",
+      "source_url": "https://pina.com.fj/2026/11/12/solomon-islands-pledges-usd400k-to-gcf/"
+     },
+     {
+      "fact": "California Governor Gavin Newsom was in Antalya on Thursday; he met Turkish firefighters and spoke at the 'America is All In' pavilion.",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Solomon Islands pledge to the Green Climate Fund",
+      "value": 400000,
+      "unit": "US dollars",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "label": "Value of projects the GCF has backed",
+      "value": 22.3,
+      "unit": "billion US dollars",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "label": "Leaders speaking on Thursday (about)",
+      "value": 25,
+      "unit": "leaders",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     },
+     {
+      "label": "Leaders speaking on Wednesday (around)",
+      "value": 40,
+      "unit": "leaders",
+      "source_url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/"
+     }
+    ],
+    "geography": "Antalya, on Turkey's southern coast; Solomon Islands, a Pacific island country",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Climate Home News",
+      "title": "COP31 Bulletin Day 4: Emerging economies question need for COP31 cover decision",
+      "url": "https://www.climatechangenews.com/2026/11/12/cop31-bulletin-day-4-burnham-speaks-with-uk-climate-policy-under-fire/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "PINA (Solomon Star)",
+      "title": "Solomon Islands pledges USD$400k to GCF",
+      "url": "https://pina.com.fj/2026/11/12/solomon-islands-pledges-usd400k-to-gcf/",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "pak-sl-test",
+    "headline": "Debutant Saqib Khan Takes 7 for 130 as Pakistan Lead Sri Lanka by 45 After Day Four in Rawalpindi",
+    "what_happened": "On day four of the first Test in Rawalpindi, Pakistan debutant Saqib Khan took seven wickets for 130 runs and Sri Lanka were bowled out for 446, a first-innings lead of 12. Pakistan were 57 for 1 in their second innings, 45 ahead, when bad light and rain ended play early.",
+    "why_it_matters": "A sports item for the day.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Debutant Saqib Khan took 7 for 130, restricting Sri Lanka to 446 before bad light and rain halted play on day four; Sri Lanka lost their remaining six wickets for 42 runs.",
+      "source_url": "https://www.cricketworld.com/khans-7-wickets-revive-pakistan-before-bad-light-and-rain-disrupts-day-4-against-sri-lanka/114300.htm"
+     },
+     {
+      "fact": "Sri Lanka's 446 gave them a 12-run lead over Pakistan's first-innings 434 for 9 declared.",
+      "source_url": "https://www.cricketworld.com/khans-7-wickets-revive-pakistan-before-bad-light-and-rain-disrupts-day-4-against-sri-lanka/114300.htm"
+     },
+     {
+      "fact": "Pakistan were 57 for 1 in their second innings when rain ended the fourth day early; Azan Awais was unbeaten on 22 and Mohammad Taha on 24.",
+      "source_url": "https://adaderana.lk/news/251571"
+     },
+     {
+      "fact": "Pakistan hold a 45-run lead with nine wickets in hand going into day five.",
+      "source_url": "https://adaderana.lk/news/251571"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sri Lanka first innings",
+      "value": 446,
+      "unit": "runs",
+      "source_url": "https://www.cricketworld.com/khans-7-wickets-revive-pakistan-before-bad-light-and-rain-disrupts-day-4-against-sri-lanka/114300.htm"
+     },
+     {
+      "label": "Pakistan lead after day four",
+      "value": 45,
+      "unit": "runs",
+      "source_url": "https://adaderana.lk/news/251571"
+     }
+    ],
+    "geography": "Rawalpindi, Pakistan",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Cricket World",
+      "title": "Pakistan vs Sri Lanka 1st Test: Saqib Khan's 7/130 keeps hosts in contention on Day 4",
+      "url": "https://www.cricketworld.com/khans-7-wickets-revive-pakistan-before-bad-light-and-rain-disrupts-day-4-against-sri-lanka/114300.htm",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Ada Derana",
+      "title": "Sri Lanka restrict Pakistan to 57/1 as rain ends fourth day early in Rawalpindi Test",
+      "url": "https://adaderana.lk/news/251571",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "mississippi-senate",
+    "headline": "Democrat Scott Colom Wins Mississippi's US Senate Seat After a Count That Lasted Days",
+    "what_happened": "Democrat Scott Colom, a 43-year-old district attorney, defeated Republican Senator Cindy Hyde-Smith in Mississippi. The Associated Press called the race on Wednesday 11 November, eight days after the 3 November election, once officials finished processing absentee and provisional ballots; Colom had 49.2% to Hyde-Smith's 48.7%. Hyde-Smith conceded in a video that evening. Democrats will hold at least 55 Senate seats.",
+    "why_it_matters": "Mississippi has voted strongly Republican, so the result shows how far the midterm elections shifted; it also shows why close elections take days to settle, as every valid ballot is counted.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Associated Press called the race for Colom on Wednesday 11 November 2026, after local election officials spent several days processing absentee and provisional (affidavit) ballots.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom will be Mississippi's first Black US senator since Reconstruction, the period after the American Civil War.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom is 43, a local prosecutor, and the son of a onetime Republican who worked for President Ronald Reagan.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "In 2022 President Biden nominated Colom to be a federal judge in Mississippi; Hyde-Smith blocked the nomination under Senate custom.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Hyde-Smith, 67, was appointed to the Senate in 2018 and was seeking a second full term.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Mississippi has the largest share of Black voters of any state. Turnout was strong in the Mississippi Delta and majority-Black counties, and nearly the whole state shifted toward Democrats compared with 2024.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom campaigned on the economy and said the Iran war and tariffs had hurt Mississippi farmers; he avoided personal attacks on President Trump or his voters.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom said his job is to be a senator who makes it possible for young Mississippians to pursue the same office without facing barriers.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "According to AP figures, Colom won 49.2% of the vote and Hyde-Smith 48.7%.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "By the end of Election Night the two candidates were separated by just 65 votes; Colom's lead grew in the days that followed.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Election Day was 3 November 2026. Hyde-Smith conceded in a video posted on X on Wednesday evening.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Colom's win gives Democrats 55 Senate seats. Alaska is the only undecided Senate race: Democrat Mary Peltola led Republican Senator Dan Sullivan 48.9% to 47.3% with 84% of votes counted.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Donald Trump won Mississippi by 23 points in the 2024 presidential election.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Colom's mother was the first Black Chancery Court judge in their district; in 2015 he became a district attorney by defeating an incumbent of nearly 30 years.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "The win is the Democrats' eighth flipped Senate seat of these elections, after North Carolina, South Carolina, Texas, Ohio, Iowa, Kansas and Maine. In January Democrats will hold at least 55 seats to Republicans' 44.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Hyde-Smith said in her concession video that she respects 'the decision of Mississippi voters'. She was the first woman elected to represent Mississippi in Congress.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Colom gave his victory speech at Tougaloo College in Jackson, Mississippi, late on Wednesday; he said 'I kept the faith'.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Colom campaigned on the cost of living and healthcare.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Colom's campaign confirmed that Hyde-Smith called him to concede.",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     },
+     {
+      "fact": "Colom pledged to represent all Mississippians, including those who did not vote for him.",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     },
+     {
+      "fact": "NBC exit polling found a majority of Mississippi voters disapproved of President Trump's job performance.",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Colom's share of the vote",
+      "value": 49.2,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "label": "Hyde-Smith's share of the vote",
+      "value": 48.7,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "label": "Votes separating the candidates at the end of Election Night",
+      "value": 65,
+      "unit": "votes",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "label": "Senate seats Democrats will hold (at least)",
+      "value": 55,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "label": "Senate seats Republicans will hold",
+      "value": 44,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     }
+    ],
+    "geography": "Mississippi, a state in the southern United States; Jackson, its capital; Washington, DC, where the Senate sits",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour (Associated Press)",
+      "title": "Scott Colom wins Senate election in Mississippi",
+      "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi",
+      "published": "2026-11-11",
+      "primary": true
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "Mississippi Senate results: Scott Colom narrowly defeats Cindy Hyde-Smith, flipping another seat for Democrats in midterm elections",
+      "url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
+      "url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Democrat Scott Colom wins Mississippi Senate race, breaking the GOP's grip on the state",
+      "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729",
+      "published": "2026-11-11",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Democrat Scott Colom Wins Mississippi's US Senate Seat After a Count That Lasted Days",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "nvidia-huang",
+    "headline": "Nvidia Co-founder Jensen Huang Resigns as Chief Executive; Finance Chief Colette Kress Takes Over for Now",
+    "what_happened": "Jensen Huang, 63, co-founder of the chipmaker Nvidia, resigned as chief executive on Thursday 12 November 2026 amid a scandal over his personal relationships, including one with a woman alleged to be a Chinese intelligence asset. Chief financial officer Colette Kress became interim chief executive. The FBI, Congress and the company opened investigations; the shares fell about 10% in early trading.",
+    "why_it_matters": "Nvidia makes the chips most used for artificial intelligence, so its leadership and the security of its technology matter to markets and governments.",
+    "importance": 6,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Jensen Huang, 63, a co-founder of Nvidia, resigned as chief executive; Colette Kress, the chief financial officer, was appointed interim chief executive on Thursday 12 November 2026.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "Harvey C Jones became the company's first-ever board chair.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "The FBI, the US Congress and Nvidia itself opened investigations; the company also faces a shareholder lawsuit.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "Nvidia's shares fell roughly 10% in early trading on Thursday, and its market value fell below $4 trillion.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "Nvidia is scheduled to report quarterly earnings on Tuesday.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Fall in Nvidia shares in early trading (roughly)",
+      "value": 10,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     }
+    ],
+    "geography": "United States (California)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
+      "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-inflation",
+    "headline": "India's Retail Inflation Rises to 6.09% in October, Above the Reserve Bank's 6% Upper Limit",
+    "what_happened": "India's consumer price inflation was 6.09% in October 2026, up from 5.54% in September, the statistics ministry said on Thursday 12 November. It is the first time in two years the figure has crossed the Reserve Bank of India's 6% upper limit. Food inflation rose to 8.94%; onion prices more than doubled from a year earlier. Economists expect the RBI to raise its repo rate again at its 2-4 December meeting.",
+    "why_it_matters": "Inflation above 6% raises what households pay for food, and a higher repo rate makes loans dearer; rural families, where inflation is 6.63%, are hit hardest.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consumer Price Index (CPI) inflation was 6.09% year-on-year in October 2026, the highest of 2026 so far and above the Reserve Bank of India's 6% upper limit; it was 5.54% in September and 2.74% in January.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "The Ministry of Statistics and Programme Implementation (MoSPI) released the data on Thursday 12 November.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Inflation in the food and beverages category rose to 8.51% in October from 7.36% in September; the category makes up 36.75% of the CPI basket. Inflation rose in 11 of the 12 CPI divisions.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Rural inflation was 6.63% in October and urban inflation 5.41%; rural inflation has exceeded urban since February.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "The RBI's target is 4%, with a tolerance band of 2% to 6%. A formal failure occurs only if average inflation stays outside the band for three consecutive quarters; one monthly breach does not meet that test.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "The next Monetary Policy Committee (MPC) meeting is on 2-4 December.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Aditi Nayar, chief economist of the ratings agency ICRA, expects CPI inflation to stay above 6% for the next couple of months and said a further 25-basis-point repo rate rise is 'almost certain' in December.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Nayar cited milk, sugar and onion prices, and warned that a deficient monsoon and low reservoir levels threaten the rabi (winter) crop and could keep food prices under pressure.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Prices rose 0.51% from September to October, a slower monthly rise than September's 0.69%; because prices were flat in October 2025, the year-on-year comparison (the base effect) pushed annual inflation higher.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "It is the first time in two years that retail inflation has crossed the RBI's upper limit.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "Food inflation was 8.94% in October. Onion prices were up 116.22% from a year earlier, garlic 60.74%, ginger 48.32% and lemon 47.30%; potato prices fell 14.24% and cauliflower 10.57%.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "The repo rate is 5.5%, after the MPC voted unanimously on 7 October 2026 for a 25-basis-point rise; Sanjay Malhotra is the RBI Governor.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "The RBI's October statement said the near-term outlook pointed to 'continued pressures from the supply side', citing the deficient monsoon, El Nino and energy and commodity prices.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "The RBI projected CPI inflation of 5.2% for the financial year 2026-27.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "Food inflation rose to 8.94% in October from 7.74% in September.",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     },
+     {
+      "fact": "Prices were collected from 1,407 urban markets, including online markets, and 1,465 villages across all states, by field staff of the statistics ministry on a weekly roster.",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     },
+     {
+      "fact": "Reports described October's figure as the highest inflation reading in about two years.",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "CPI inflation, October 2026",
+      "value": 6.09,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "CPI inflation, September 2026",
+      "value": 5.54,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "CPI inflation, January 2026",
+      "value": 2.74,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "Food inflation, October 2026",
+      "value": 8.94,
+      "unit": "%",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     },
+     {
+      "label": "Rural inflation, October",
+      "value": 6.63,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "Urban inflation, October",
+      "value": 5.41,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "Repo rate",
+      "value": 5.5,
+      "unit": "%",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "label": "Rise in onion prices from a year earlier",
+      "value": 116.22,
+      "unit": "%",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     }
+    ],
+    "geography": "India; New Delhi (statistics ministry); Mumbai (Reserve Bank of India is the central bank)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ThePrint",
+      "title": "India's October retail inflation breaches RBI's 6% ceiling, odds of December repo rate hike rise",
+      "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "The Hans India",
+      "title": "India's retail inflation crosses RBI's upper limit of 6 per cent in October",
+      "url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Xinhua",
+      "title": "India's retail inflation rises to 6.09 pct in October",
+      "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "india-ccpi",
+    "headline": "India Slips Five Places to 28th in the Climate Change Performance Index; Top Three Ranks Left Empty",
+    "what_happened": "India ranked 28th in the 2027 Climate Change Performance Index, five places lower than last year, keeping a 'medium' rating. The index, compiled by Germanwatch and the NewClimate Institute and released on Wednesday at COP31, left its first three places empty because, it says, no country is doing enough. Denmark was the highest-ranked, in fourth place; the United States and Iran were lowest.",
+    "why_it_matters": "The index points to a specific weakness for India: building renewable power plants faster than the grid can carry their electricity.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "India ranked 28th in the 2027 Climate Change Performance Index (CCPI), down five places from last year, with a 'medium' rating.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "The index is compiled annually by Germanwatch and the NewClimate Institute, both non-governmental organisations, and tracks countries' greenhouse gas emissions and climate policies; it was released on Wednesday.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "The report attributes India's rating to a mismatch between renewable energy deployment and transmission and distribution.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "Non-fossil fuel sources reached 50% of India's installed electricity capacity in 2025, but the report says installed capacity is not the same as energy actually used.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "The report says better grid security, fewer transmission failures and lower distribution losses would let India use more renewable power and reduce fossil fuel use.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "No country was ranked first, second or third. The index says: 'No country is doing enough to prevent dangerous climate change.'",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "Denmark ranked fourth, the highest; it cut greenhouse gas emissions 25% over the last five years and is on track for a 70% cut from 1990 levels by 2030.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "Other countries in the 'very high' group include Lithuania, Luxembourg, the United Kingdom, Morocco, Chile and the Netherlands.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "COP31 host Turkey was rated 'very low'; Australia ranked 54th, also 'very low'.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "The United States and Iran were the lowest-ranked; both have very high emissions and are among the world's largest fossil fuel producers.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "India's score was 60.85; it was 23rd in the previous edition. The index was released at COP31 in Antalya, Turkey; Climate Action Network International is also a publisher.",
+      "source_url": "https://insightsonindia.com/2026/11/12/upsc-current-affairs-12-november-2026"
+     },
+     {
+      "fact": "Greenhouse gas emissions carry 40% of the weight in the index; renewable energy, energy use and climate policy carry 20% each.",
+      "source_url": "https://insightsonindia.com/2026/11/12/upsc-current-affairs-12-november-2026"
+     },
+     {
+      "fact": "Denmark's score was 84.05.",
+      "source_url": "https://insightsonindia.com/2026/11/12/upsc-current-affairs-12-november-2026"
+     },
+     {
+      "fact": "The report credits the United Kingdom's rating to its Climate Change Act, which sets a net-zero target for 2050, its support for clean energy and its plans to phase out fossil fuel-based electricity generation; the UK is one of the only G20 countries in the 'very high' group.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "The report says Turkey is still exploring new oil and gas fields and lacks a legally binding decarbonisation pathway; it cites Australia's Future Gas Strategy, which supports gas supply beyond 2050, and slow renewables development.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "The report says the United States ranked low because of President Donald Trump's climate change denial and withdrawal from the Paris Agreement; Iran has not ratified the Agreement.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "fact": "Denmark has a 'medium' emissions score but a very high share of renewables in its energy use.",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "India's rank in CCPI 2027",
+      "value": 28,
+      "unit": "rank",
+      "source_url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/"
+     },
+     {
+      "label": "India's score",
+      "value": 60.85,
+      "unit": "points",
+      "source_url": "https://insightsonindia.com/2026/11/12/upsc-current-affairs-12-november-2026"
+     },
+     {
+      "label": "Denmark's score",
+      "value": 84.05,
+      "unit": "points",
+      "source_url": "https://insightsonindia.com/2026/11/12/upsc-current-affairs-12-november-2026"
+     }
+    ],
+    "geography": "India; Antalya, Turkey, where the index was released at COP31",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ThePrint",
+      "title": "India ranks 28th on Climate Change Performance Index. No country makes it to top 3",
+      "url": "https://theprint.in/environment/india-rank-28-climate-change-performance-index/3096863/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Insights IAS",
+      "title": "UPSC Daily Current Affairs 12 November 2026",
+      "url": "https://insightsonindia.com/2026/11/12/upsc-current-affairs-12-november-2026",
+      "published": "2026-11-12",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sairang-derailment",
+    "headline": "Kolkata-Sairang Express Derails at Digaru in Assam; No Deaths Reported",
+    "what_happened": "The locomotive and five coaches of the Kolkata-Sairang Express derailed at Digaru station in Assam at about 6:54 am on Wednesday 11 November while the train was entering a loop line. Several passengers had minor injuries; no deaths were reported, and passengers went on by special train.",
+    "why_it_matters": "A brief on rail safety.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Northeast Frontier Railway said the derailment occurred around 6:54 am on Wednesday 11 November while the train entered a loop line at Digaru station to give precedence to another train; five coaches and the locomotive derailed.",
+      "source_url": "https://www.sentinelassam.com/topheadlines/kolkata-sairang-express-derails-near-digaru-passengers-safely-transported"
+     },
+     {
+      "fact": "Several passengers sustained minor injuries, with no deaths; all passengers were later taken onward by a special train toward Sairang.",
+      "source_url": "https://www.sentinelassam.com/topheadlines/kolkata-sairang-express-derails-near-digaru-passengers-safely-transported"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Coaches derailed",
+      "value": 5,
+      "unit": "coaches",
+      "source_url": "https://www.sentinelassam.com/topheadlines/kolkata-sairang-express-derails-near-digaru-passengers-safely-transported"
+     }
+    ],
+    "geography": "Digaru, Kamrup district, Assam, north-east India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The Sentinel (Assam)",
+      "title": "Kolkata-Sairang Express Derails Near Digaru, Passengers Safely Transported",
+      "url": "https://www.sentinelassam.com/topheadlines/kolkata-sairang-express-derails-near-digaru-passengers-safely-transported",
+      "published": "2026-11-11",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "mississippi-senate",
+    "headline": "Democrat Scott Colom Wins Mississippi's US Senate Seat After a Count That Lasted Days",
+    "what_happened": "Democrat Scott Colom, a 43-year-old district attorney, defeated Republican Senator Cindy Hyde-Smith in Mississippi. The Associated Press called the race on Wednesday 11 November, eight days after the 3 November election, once officials finished processing absentee and provisional ballots; Colom had 49.2% to Hyde-Smith's 48.7%. Hyde-Smith conceded in a video that evening. Democrats will hold at least 55 Senate seats.",
+    "why_it_matters": "Mississippi has voted strongly Republican, so the result shows how far the midterm elections shifted; it also shows why close elections take days to settle, as every valid ballot is counted.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Associated Press called the race for Colom on Wednesday 11 November 2026, after local election officials spent several days processing absentee and provisional (affidavit) ballots.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom will be Mississippi's first Black US senator since Reconstruction, the period after the American Civil War.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom is 43, a local prosecutor, and the son of a onetime Republican who worked for President Ronald Reagan.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "In 2022 President Biden nominated Colom to be a federal judge in Mississippi; Hyde-Smith blocked the nomination under Senate custom.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Hyde-Smith, 67, was appointed to the Senate in 2018 and was seeking a second full term.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Mississippi has the largest share of Black voters of any state. Turnout was strong in the Mississippi Delta and majority-Black counties, and nearly the whole state shifted toward Democrats compared with 2024.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom campaigned on the economy and said the Iran war and tariffs had hurt Mississippi farmers; he avoided personal attacks on President Trump or his voters.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "Colom said his job is to be a senator who makes it possible for young Mississippians to pursue the same office without facing barriers.",
+      "source_url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+     },
+     {
+      "fact": "According to AP figures, Colom won 49.2% of the vote and Hyde-Smith 48.7%.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "By the end of Election Night the two candidates were separated by just 65 votes; Colom's lead grew in the days that followed.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Election Day was 3 November 2026. Hyde-Smith conceded in a video posted on X on Wednesday evening.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Colom's win gives Democrats 55 Senate seats. Alaska is the only undecided Senate race: Democrat Mary Peltola led Republican Senator Dan Sullivan 48.9% to 47.3% with 84% of votes counted.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Donald Trump won Mississippi by 23 points in the 2024 presidential election.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "Colom's mother was the first Black Chancery Court judge in their district; in 2015 he became a district attorney by defeating an incumbent of nearly 30 years.",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "fact": "The win is the Democrats' eighth flipped Senate seat of these elections, after North Carolina, South Carolina, Texas, Ohio, Iowa, Kansas and Maine. In January Democrats will hold at least 55 seats to Republicans' 44.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Hyde-Smith said in her concession video that she respects 'the decision of Mississippi voters'. She was the first woman elected to represent Mississippi in Congress.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Colom gave his victory speech at Tougaloo College in Jackson, Mississippi, late on Wednesday; he said 'I kept the faith'.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Colom campaigned on the cost of living and healthcare.",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "fact": "Colom's campaign confirmed that Hyde-Smith called him to concede.",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     },
+     {
+      "fact": "Colom pledged to represent all Mississippians, including those who did not vote for him.",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     },
+     {
+      "fact": "NBC exit polling found a majority of Mississippi voters disapproved of President Trump's job performance.",
+      "source_url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Colom's share of the vote",
+      "value": 49.2,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "label": "Hyde-Smith's share of the vote",
+      "value": 48.7,
+      "unit": "%",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "label": "Votes separating the candidates at the end of Election Night",
+      "value": 65,
+      "unit": "votes",
+      "source_url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     },
+     {
+      "label": "Senate seats Democrats will hold (at least)",
+      "value": 55,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     },
+     {
+      "label": "Senate seats Republicans will hold",
+      "value": 44,
+      "unit": "seats",
+      "source_url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
+     }
+    ],
+    "geography": "Mississippi, a state in the southern United States; Jackson, its capital; Washington, DC, where the Senate sits",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour (Associated Press)",
+      "title": "Scott Colom wins Senate election in Mississippi",
+      "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi",
+      "published": "2026-11-11",
+      "primary": true
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "Mississippi Senate results: Scott Colom narrowly defeats Cindy Hyde-Smith, flipping another seat for Democrats in midterm elections",
+      "url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "CBS News",
+      "title": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
+      "url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Democrat Scott Colom wins Mississippi Senate race, breaking the GOP's grip on the state",
+      "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729",
+      "published": "2026-11-11",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Democrat Scott Colom Wins Mississippi's US Senate Seat After a Count That Lasted Days",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "indonesia-vp",
+    "headline": "Indonesia's Vice President Gibran Resigns After Courts Question His School Qualifications",
+    "what_happened": "Indonesia's Vice President Gibran Rakabuming Raka, 39, resigned on Thursday 12 November 2026, two years into a five-year term. Last month two top courts ruled that the documents he submitted about his overseas schooling did not meet election requirements, and on Wednesday 120 lawmakers began a process that could have led to his impeachment. President Prabowo Subianto accepted the resignation; the People's Consultative Assembly must elect a replacement from two candidates the president nominates, within 60 days.",
+    "why_it_matters": "It shows how a constitution handles a disputed office-holder: courts rule on eligibility, parliament can begin removal, and a vacancy is filled by an assembly vote rather than a new national election.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Vice President Gibran Rakabuming Raka, 39, submitted his resignation on Thursday 12 November 2026 to President Prabowo Subianto and to parliament; he leaves office two years into a five-year term.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Critics accuse Gibran of never having received a high school diploma.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Last month the Constitutional Court and the Supreme Court ruled that the documents he submitted about his overseas education did not meet election requirements.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "On Wednesday 11 November, 120 lawmakers from eight political parties petitioned the leaders of the House of Representatives, starting a parliamentary process that could lead to impeachment.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Under that process, House leaders must set up a special committee to examine whether he violated the constitution; if lawmakers find sufficient basis, the House must ask the Constitutional Court to rule on whether a violation occurred.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "A vice-presidential vacancy does not trigger a new election. The office stays vacant until the People's Consultative Assembly elects a replacement from two candidates nominated by the president, within 60 days.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "The vice president has few constitutional powers: the main roles are representing the president at official events and taking over if the president cannot serve.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Gibran is the eldest son of former President Joko Widodo, Prabowo's immediate predecessor. Widodo, speaking from his hometown of Solo, said political posts are temporary and that the family would keep supporting Prabowo's government.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "At a press conference with Gibran at the Presidential Palace, Prabowo said he accepted the resignation with a 'heavy heart'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Gibran had offered to resign on Tuesday in a meeting with the president, saying he wanted to avoid a prolonged controversy.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "Thousands of protesters have marched in recent weeks over economic hardship, corruption and the government's handling of months of wildfires.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "fact": "He submitted his resignation to the leadership of the People's Consultative Assembly, the country's highest legislative body, at the parliament building in Jakarta.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "The Associated Press reported he is the first vice president to resign before the end of a term since the fall of Suharto and the start of Indonesia's democratic reforms in 1998.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "Election law requires presidential and vice-presidential candidates to have completed senior high school or an equivalent. Because he finished secondary school overseas, he had to show his qualifications were equivalent to an Indonesian high school diploma.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "Background: he was below the minimum age of 40 for vice-presidential candidates; an October 2023 Constitutional Court ruling allowed an exception for people who had served or been elected as regional leaders. Critics saw that ruling as a conflict of interest.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "Prabowo praised him for showing 'courage, responsibility and statesmanship' and said he resigned 'for the greater interest of the nation'.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "House Speaker Ahmad Muzani said parliamentary leaders would convene immediately to begin selecting a replacement.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     },
+     {
+      "fact": "He was sworn in on 20 October 2024; Prabowo had chosen him as running mate for the 2024 election.",
+      "source_url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Lawmakers who petitioned House leaders",
+      "value": 120,
+      "unit": "lawmakers",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "label": "Days allowed to elect a replacement",
+      "value": 60,
+      "unit": "days",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "label": "Political parties behind the petition",
+      "value": 8,
+      "unit": "parties",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     },
+     {
+      "label": "Age of Gibran Rakabuming Raka",
+      "value": 39,
+      "unit": "years",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+     }
+    ],
+    "geography": "Jakarta, capital of Indonesia, in Southeast Asia; Solo, the former president's hometown",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Indonesia vice president resigns amid dispute over eligibility",
+      "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Associated Press via KSAT",
+      "title": "Indonesia's vice president resigns as his eligibility and academic credentials are questioned",
+      "url": "https://www.ksat.com/news/world/2026/11/12/indonesias-vice-president-resigns-as-his-eligibility-and-academic-credentials-are-questioned/",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-inflation",
+    "headline": "India's Retail Inflation Rises to 6.09% in October, Above the Reserve Bank's 6% Upper Limit",
+    "what_happened": "India's consumer price inflation was 6.09% in October 2026, up from 5.54% in September, the statistics ministry said on Thursday 12 November. It is the first time in two years the figure has crossed the Reserve Bank of India's 6% upper limit. Food inflation rose to 8.94%; onion prices more than doubled from a year earlier. Economists expect the RBI to raise its repo rate again at its 2-4 December meeting.",
+    "why_it_matters": "Inflation above 6% raises what households pay for food, and a higher repo rate makes loans dearer; rural families, where inflation is 6.63%, are hit hardest.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consumer Price Index (CPI) inflation was 6.09% year-on-year in October 2026, the highest of 2026 so far and above the Reserve Bank of India's 6% upper limit; it was 5.54% in September and 2.74% in January.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "The Ministry of Statistics and Programme Implementation (MoSPI) released the data on Thursday 12 November.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Inflation in the food and beverages category rose to 8.51% in October from 7.36% in September; the category makes up 36.75% of the CPI basket. Inflation rose in 11 of the 12 CPI divisions.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Rural inflation was 6.63% in October and urban inflation 5.41%; rural inflation has exceeded urban since February.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "The RBI's target is 4%, with a tolerance band of 2% to 6%. A formal failure occurs only if average inflation stays outside the band for three consecutive quarters; one monthly breach does not meet that test.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "The next Monetary Policy Committee (MPC) meeting is on 2-4 December.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Aditi Nayar, chief economist of the ratings agency ICRA, expects CPI inflation to stay above 6% for the next couple of months and said a further 25-basis-point repo rate rise is 'almost certain' in December.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Nayar cited milk, sugar and onion prices, and warned that a deficient monsoon and low reservoir levels threaten the rabi (winter) crop and could keep food prices under pressure.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "Prices rose 0.51% from September to October, a slower monthly rise than September's 0.69%; because prices were flat in October 2025, the year-on-year comparison (the base effect) pushed annual inflation higher.",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "fact": "It is the first time in two years that retail inflation has crossed the RBI's upper limit.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "Food inflation was 8.94% in October. Onion prices were up 116.22% from a year earlier, garlic 60.74%, ginger 48.32% and lemon 47.30%; potato prices fell 14.24% and cauliflower 10.57%.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "The repo rate is 5.5%, after the MPC voted unanimously on 7 October 2026 for a 25-basis-point rise; Sanjay Malhotra is the RBI Governor.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "The RBI's October statement said the near-term outlook pointed to 'continued pressures from the supply side', citing the deficient monsoon, El Nino and energy and commodity prices.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "The RBI projected CPI inflation of 5.2% for the financial year 2026-27.",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "fact": "Food inflation rose to 8.94% in October from 7.74% in September.",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     },
+     {
+      "fact": "Prices were collected from 1,407 urban markets, including online markets, and 1,465 villages across all states, by field staff of the statistics ministry on a weekly roster.",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     },
+     {
+      "fact": "Reports described October's figure as the highest inflation reading in about two years.",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "CPI inflation, October 2026",
+      "value": 6.09,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "CPI inflation, September 2026",
+      "value": 5.54,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "CPI inflation, January 2026",
+      "value": 2.74,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "Food inflation, October 2026",
+      "value": 8.94,
+      "unit": "%",
+      "source_url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+     },
+     {
+      "label": "Rural inflation, October",
+      "value": 6.63,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "Urban inflation, October",
+      "value": 5.41,
+      "unit": "%",
+      "source_url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+     },
+     {
+      "label": "Repo rate",
+      "value": 5.5,
+      "unit": "%",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     },
+     {
+      "label": "Rise in onion prices from a year earlier",
+      "value": 116.22,
+      "unit": "%",
+      "source_url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+     }
+    ],
+    "geography": "India; New Delhi (statistics ministry); Mumbai (Reserve Bank of India is the central bank)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ThePrint",
+      "title": "India's October retail inflation breaches RBI's 6% ceiling, odds of December repo rate hike rise",
+      "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "The Hans India",
+      "title": "India's retail inflation crosses RBI's upper limit of 6 per cent in October",
+      "url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Xinhua",
+      "title": "India's retail inflation rises to 6.09 pct in October",
+      "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "nvidia-huang",
+    "headline": "Nvidia Co-founder Jensen Huang Resigns as Chief Executive; Finance Chief Colette Kress Takes Over for Now",
+    "what_happened": "Jensen Huang, 63, co-founder of the chipmaker Nvidia, resigned as chief executive on Thursday 12 November 2026 amid a scandal over his personal relationships, including one with a woman alleged to be a Chinese intelligence asset. Chief financial officer Colette Kress became interim chief executive. The FBI, Congress and the company opened investigations; the shares fell about 10% in early trading.",
+    "why_it_matters": "Nvidia makes the chips most used for artificial intelligence, so its leadership and the security of its technology matter to markets and governments.",
+    "importance": 6,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "Jensen Huang, 63, a co-founder of Nvidia, resigned as chief executive; Colette Kress, the chief financial officer, was appointed interim chief executive on Thursday 12 November 2026.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "Harvey C Jones became the company's first-ever board chair.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "The FBI, the US Congress and Nvidia itself opened investigations; the company also faces a shareholder lawsuit.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "Nvidia's shares fell roughly 10% in early trading on Thursday, and its market value fell below $4 trillion.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     },
+     {
+      "fact": "Nvidia is scheduled to report quarterly earnings on Tuesday.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Fall in Nvidia shares in early trading (roughly)",
+      "value": 10,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+     }
+    ],
+    "geography": "United States (California)",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Al Jazeera",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
+      "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "carbon-sinks",
+    "headline": "Thirty Years of Oxygen Measurements Show the Ocean Absorbing More Carbon While the Land's Uptake Has Stalled",
+    "what_happened": "A study published in the journal Science on 12 November 2026, led by the Scripps Institution of Oceanography with University of Exeter co-authors, used more than 30 years of measurements of oxygen and carbon dioxide in the air to work out how much carbon the ocean and the land each absorb. It found the ocean sink has strengthened by about 0.63 billion tonnes of carbon per decade since 1990, more than models simulate, while the net land sink has shown no notable long-term increase and peaked around 2009.",
+    "why_it_matters": "Climate projections assume land and ocean keep absorbing a share of emissions; if the land's uptake has stalled, more carbon dioxide stays in the air than models expect.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The paper, 'Atmospheric O2 reveals a strengthening ocean carbon sink and a stagnant net land sink since 1990', was published in the journal Science; the international study was led by the Scripps Institution of Oceanography at the University of California San Diego, with co-authors from the University of Exeter.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "The study uses more than 30 years of measurements of atmospheric oxygen and carbon dioxide to distinguish how much carbon the land and the ocean each absorb.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "The ocean absorbed about 2.8 billion tonnes of carbon per year on average over 1990-2019, roughly 35% of fossil fuel emissions over that period.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "The ocean sink strengthened by about 0.63 billion tonnes of carbon per decade, substantially more than current model simulations represent.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "The land absorbed about 1 billion tonnes of carbon per year, roughly 13% of fossil fuel emissions; net land uptake has shown no notable long-term increase for more than 30 years, peaking around 2009 and generally declining since.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "Many land models predict rising land uptake because higher carbon dioxide and nitrogen stimulate plant growth; the observed stagnation challenges those predictions.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "Land-use emissions, such as from deforestation, have reportedly been declining, which makes the stagnant land sink particularly notable.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "Professor Andrew Watson of Exeter said: 'Atmospheric oxygen measurements at the parts per million precision needed for this work are incredibly difficult to do.'",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "Climate change may reduce future ocean uptake: warmer water holds less carbon dioxide, and warmer surface water mixes less efficiently into the deep ocean.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "Ocean uptake also causes ocean acidification, because absorbed carbon dioxide lowers the pH of seawater.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "The study was funded by the US National Science Foundation, the National Oceanic and Atmospheric Administration and Schmidt Sciences, among others; the authors say long-term measurements need stable funding.",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "fact": "Science published an accompanying Perspective article, 'Oxygen tells the tale of Earth's carbon sinks', on 12 November 2026.",
+      "source_url": "https://www.science.org/doi/10.1126/science.aem7174"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Ocean carbon uptake per year, 1990-2019 average",
+      "value": 2.8,
+      "unit": "billion tonnes of carbon",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "label": "Land carbon uptake per year",
+      "value": 1,
+      "unit": "billion tonnes of carbon",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "label": "Ocean share of fossil fuel emissions (roughly)",
+      "value": 35,
+      "unit": "%",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "label": "Land share of fossil fuel emissions (roughly)",
+      "value": 13,
+      "unit": "%",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     },
+     {
+      "label": "Ocean sink strengthening per decade",
+      "value": 0.63,
+      "unit": "billion tonnes of carbon",
+      "source_url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     }
+    ],
+    "geography": "Global; Scripps Institution of Oceanography, California; University of Exeter, UK",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "University of Exeter News",
+      "title": "Ocean carbon sink strengthens while land carbon sink stalls, new study finds",
+      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "Science",
+      "title": "Oxygen tells the tale of Earth's carbon sinks",
+      "url": "https://www.science.org/doi/10.1126/science.aem7174",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Thirty Years of Oxygen Measurements Show the Ocean Absorbing More Carbon While the Land's Uptake Has Stalled",
+     "kind": "mechanism",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/ocean-carbon-sink-strengthens-while-land-carbon-sink-stalls-new-study-finds/"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "earth-water",
+    "headline": "Laboratory Experiments Suggest the Young Earth Could Have Made Its Own Water",
+    "what_happened": "Researchers at the University of New Mexico heated rock samples in hydrogen gas and found that the hydrogen turned iron oxide in the rock into metallic iron and released water vapour. Writing in Nature Geoscience, they suggest pebbles falling through the early Earth's hydrogen-rich atmosphere could have made hundreds of oceans' worth of water.",
+    "why_it_matters": "It offers an alternative to the idea that Earth's water was delivered by icy bodies from farther out in the solar system.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, by Susmita Garai, Zachary Sharp and Peter Olson of the University of New Mexico, was published in Nature Geoscience.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
+     },
+     {
+      "fact": "Silicate rock samples were heated to 1,200-1,400 degrees Celsius in flowing hydrogen gas; almost 80% of the iron oxide was converted to metallic iron and water vapour was produced. No comparable reaction occurred with helium.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
+     },
+     {
+      "fact": "Extrapolated to early-Earth conditions, the process could have produced hundreds of oceans' worth of water; the experiments do not establish how much of Earth's present water came from it.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
+     },
+     {
+      "fact": "The prevailing theory holds that icy material from colder, distant regions of the early solar system delivered much of Earth's water.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Iron oxide converted to metallic iron (almost)",
+      "value": 80,
+      "unit": "%",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm"
+     }
+    ],
+    "geography": "University of New Mexico, United States",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily (University of New Mexico)",
+      "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+      "published": "2026-11-12",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ }
+}
