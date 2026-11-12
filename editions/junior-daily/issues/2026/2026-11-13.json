@@ -1,0 +1,296 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-11-13",
+ "volume": 1,
+ "issue": 31,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  UKRAINE",
+   "headline": "Two Envoys, Two Cities: From Moscow’s Kremlin to a Dublin Airfield",
+   "deck": "American messengers met Russia’s president, then flew to meet Ukraine’s.",
+   "body": [
+    "On Thursday, two American envoys began their day in Moscow, Russia’s capital. An envoy is a person sent to speak for a leader. Steve Witkoff and Jared Kushner met Russia’s president, Vladimir Putin, at the Kremlin.",
+    "A Russian official, Yuri Ushakov, called the meeting useful. He said talks between Russia, Ukraine and the United States will continue. Witkoff said, “I think progress was made.” But Putin said he would not soften his demands for land in Ukraine.",
+    "Then the envoys flew west to Dublin, in Ireland. Leaders from more than 45 countries were gathered there. Ukraine’s president, Volodymyr Zelenskyy, was due to hear the envoys’ report that evening at an airfield called Baldonnel."
+   ],
+   "map": {
+    "title": "ONE DAY, TWO CITIES",
+    "label_top": "MORNING: MOSCOW, RUSSIA",
+    "label_bottom": "EVENING: DUBLIN, IRELAND",
+    "footnote": "The envoys flew west across Europe",
+    "caption": "The map marks Russia, Ukraine and Ireland.",
+    "countries": [
+     "Russia",
+     "Ukraine",
+     "Ireland"
+    ],
+    "place": "Moscow"
+   },
+   "why": "Europe’s leaders want a seat at the next talks. Witkoff said they will take part.",
+   "sources": [
+    {
+     "outlet": "Meduza",
+     "title": "Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks",
+     "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+    },
+    {
+     "outlet": "TASS",
+     "title": "Putin aide comments on Europe's security, humanitarian task, Kiev's peace allergy",
+     "url": "https://tass.com/politics/2217455"
+    },
+    {
+     "outlet": "TIME",
+     "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+     "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+    },
+    {
+     "outlet": "The Journal",
+     "title": "Kushner and Zelenskyy to meet in Baldonnel this evening",
+     "url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Zelenskyy to meet US envoys in Dublin after Russia peace talks",
+     "url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  INDIA",
+   "headline": "Prices in India Climb Past the Bank’s Top Limit",
+   "deck": "Onions cost more than twice as much as they did last year.",
+   "body": [
+    "On Thursday India’s government shared new price numbers. Prices in October were 6.09% higher than a year before. In September the figure was 5.54%. Rising prices are called inflation.",
+    "India’s central bank, the Reserve Bank of India, wants inflation to stay between 2% and 6%. This is the first time in two years it has gone above that limit.",
+    "Prices rose faster in villages than in cities. The bank’s leaders meet in early December. One expert expects them to raise interest rates."
+   ],
+   "chart": {
+    "title": "INDIA’S INFLATION IN 2026",
+    "subtitle": "Percent rise in prices from a year before",
+    "labels": [
+     "January",
+     "September",
+     "October"
+    ],
+    "values": [
+     2.74,
+     5.54,
+     6.09
+    ],
+    "max": 8,
+    "value_prefix": "",
+    "highlight_after": 2,
+    "caption": "The bank’s top limit is 6%. October went just above it."
+   },
+   "why": "Food is the main reason. When it costs more, families have less left for other things.",
+   "sources": [
+    {
+     "outlet": "ThePrint",
+     "title": "India's October retail inflation breaches RBI's 6% ceiling, odds of December repo rate hike rise",
+     "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+    },
+    {
+     "outlet": "The Hans India",
+     "title": "India's retail inflation crosses RBI's upper limit of 6 per cent in October",
+     "url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+    },
+    {
+     "outlet": "Xinhua",
+     "title": "India's retail inflation rises to 6.09 pct in October",
+     "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "United States: Democrat Scott Colom won a Senate seat in Mississippi after a count that took days.",
+    "Indonesia: Vice President Gibran Rakabuming Raka resigned after courts questioned his school documents."
+   ],
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "title": "Mississippi Senate results: Scott Colom narrowly defeats Cindy Hyde-Smith, flipping another seat for Democrats in midterm elections",
+     "url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Indonesia vice president resigns amid dispute over eligibility",
+     "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "What Zelenskyy says after hearing the envoys’ report in Dublin.",
+    "Friday’s meeting of European Union leaders in Dublin."
+   ]
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Meduza",
+   "title": "Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks",
+   "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks"
+  },
+  {
+   "outlet": "TASS",
+   "title": "Putin aide comments on Europe's security, humanitarian task, Kiev's peace allergy",
+   "url": "https://tass.com/politics/2217455"
+  },
+  {
+   "outlet": "TIME",
+   "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+   "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+  },
+  {
+   "outlet": "The Journal",
+   "title": "Kushner and Zelenskyy to meet in Baldonnel this evening",
+   "url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "Zelenskyy to meet US envoys in Dublin after Russia peace talks",
+   "url": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+  },
+  {
+   "outlet": "ThePrint",
+   "title": "India's October retail inflation breaches RBI's 6% ceiling, odds of December repo rate hike rise",
+   "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+  },
+  {
+   "outlet": "The Hans India",
+   "title": "India's retail inflation crosses RBI's upper limit of 6 per cent in October",
+   "url": "https://www.thehansindia.com/news/cities/new-delhi/indias-retail-inflation-crosses-rbis-upper-limit-of-6-per-cent-in-october-1141433"
+  },
+  {
+   "outlet": "Xinhua",
+   "title": "India's retail inflation rises to 6.09 pct in October",
+   "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+  },
+  {
+   "outlet": "Yahoo News",
+   "title": "Mississippi Senate results: Scott Colom narrowly defeats Cindy Hyde-Smith, flipping another seat for Democrats in midterm elections",
+   "url": "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html"
+  },
+  {
+   "outlet": "Al Jazeera",
+   "title": "Indonesia vice president resigns amid dispute over eligibility",
+   "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+  }
+ ],
+ "play": {
+  "quiz": [
+   {
+    "q": "In which city did the envoys meet Russia’s president?",
+    "options": [
+     "Dublin",
+     "Moscow",
+     "Abu Dhabi"
+    ],
+    "answer": 1,
+    "why": "The paper says they met Vladimir Putin at the Kremlin in Moscow.",
+    "story": "lead"
+   },
+   {
+    "q": "What is an envoy?",
+    "options": [
+     "A person sent to speak for a leader",
+     "A kind of aeroplane",
+     "A city in Ireland"
+    ],
+    "answer": 0,
+    "why": "The paper says an envoy is a person sent to speak for a leader.",
+    "story": "lead"
+   },
+   {
+    "q": "Where was Zelenskyy due to hear the envoys’ report?",
+    "options": [
+     "At the Kremlin",
+     "In a village in India",
+     "At an airfield called Baldonnel"
+    ],
+    "answer": 2,
+    "why": "The paper says he was due to hear the report at an airfield called Baldonnel, in Dublin.",
+    "story": "lead"
+   },
+   {
+    "q": "What are rising prices called?",
+    "options": [
+     "Inflation",
+     "Interest",
+     "Envoys"
+    ],
+    "answer": 0,
+    "why": "The paper says rising prices are called inflation.",
+    "story": "world"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The envoys flew from Moscow to Dublin.",
+    "true": true,
+    "why": "The paper says they met Putin in Moscow, then flew west to Dublin.",
+    "story": "lead"
+   },
+   {
+    "claim": "Putin said he would soften his demands for land in Ukraine.",
+    "true": false,
+    "why": "The paper says Putin said he would not soften his demands.",
+    "story": "lead"
+   },
+   {
+    "claim": "India’s prices rose faster in cities than in villages.",
+    "true": false,
+    "why": "The paper says prices rose faster in villages than in cities.",
+    "story": "world"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Moscow",
+    "lat": 55.75,
+    "lon": 37.62,
+    "countries": [
+     "Russia",
+     "Ukraine",
+     "Ireland"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "India",
+    "lat": 22.0,
+    "lon": 79.0,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "lead",
+    "q": "Leaders from more than how many countries were gathered in Dublin?",
+    "answer": 45,
+    "prefix": "",
+    "unit": "countries",
+    "min": 5,
+    "max": 100,
+    "why": "The paper says leaders from more than 45 countries were gathered in Dublin."
+   },
+   {
+    "story": "world",
+    "q": "How much higher were India’s prices in October than a year before?",
+    "answer": 6.09,
+    "prefix": "",
+    "unit": "%",
+    "min": 0,
+    "max": 15,
+    "why": "Prices in October were 6.09% higher than a year before."
+   }
+  ]
+ },
+ "threads": {
+  "lead": "russia-ukraine"
+ }
+}
