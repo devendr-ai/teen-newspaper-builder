@@ -145,6 +145,12 @@
       "reported": "2026-11-11",
       "younger": "After losing the House, Republicans chose Jim Jordan of Ohio to lead them.",
       "older": "A week after losing their House majority, Republicans elect Jim Jordan as their leader, beating Steve Scalise 106-73 in a secret ballot; Democrats won roughly 260 seats, and Hakeem Jeffries is the favourite for speaker on 3 January."
+    },
+    {
+      "date": "2026-11-11",
+      "reported": "2026-11-13",
+      "younger": "After days of counting, Democrat Scott Colom won a very close Senate race in Mississippi. On election night only 65 votes separated the two candidates.",
+      "older": "The Associated Press calls Mississippi's Senate race for Democrat Scott Colom over Senator Cindy Hyde-Smith, 49.2% to 48.7%, after days of processing absentee and provisional ballots; Democrats will hold at least 55 Senate seats, with Alaska undecided."
     }
   ],
   "stories": [
@@ -333,6 +339,9 @@
     "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
     "https://www.aljazeera.com/news/2026/10/30/trump-reverses-course-reinstates-cancelled-campaign-rallies",
     "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
-    "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+    "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+    "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi",
+    "https://www.yahoo.com/news/politics/article/mississippi-senate-results-scott-colom-narrowly-defeats-cindy-hyde-smith-flipping-another-seat-for-democrats-in-midterm-elections-232119638.html",
+    "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
   ]
 }
