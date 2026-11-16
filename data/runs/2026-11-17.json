@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-17",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+    "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+    "europe-explained": {"status": "passed", "reason": "", "poster": null},
+    "global-citizen-plus": {"status": "passed", "reason": "", "poster": null},
+    "junior-daily": {"status": "passed", "reason": "", "poster": null},
+    "young-global-citizen": {"status": "passed", "reason": "", "poster": null}
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {"headline": "Trump Flies to Asia: ASEAN and Quad Meetings in Manila, Then a First Three-Way Talk With Xi and Putin in Shenzhen", "status": "no_new_details", "source_urls": ["https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"]},
+      {"headline": "Burnham Says 'The Brexit We Were Given Has Not Worked' Ahead of Friday's UK-EU Summit", "status": "no_new_details", "source_urls": ["https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"]},
+      {"headline": "EU Sanctions Nearly 50 Russian Banks, Approves Its Largest Payment to Ukraine and Says a Ceasefire Must Come First", "status": "no_new_details", "source_urls": ["https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"]}
+    ],
+    "note": "Each selected primary page was already opened in full during research and its facts are in the pool, so the enrichment pass added nothing new."
+  }
+}

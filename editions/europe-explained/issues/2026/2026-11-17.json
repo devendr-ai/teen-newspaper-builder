@@ -1,0 +1,598 @@
+{
+ "edition": "europe-explained",
+ "date": "2026-11-17",
+ "volume": 1,
+ "issue": 17,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  NUCLEAR TALKS",
+   "headline": "Three Leaders, One Room in Shenzhen, and No Seat for Europe",
+   "deck": "Trump says he will raise Ukraine with Xi and Putin. Kyiv warns against a new Yalta, and the EU says a ceasefire must come first.",
+   "body": [
+    "On Thursday, in the Chinese city of Shenzhen, the leaders of the United States, China and Russia are due to meet together for the first time ever. Their subject is nuclear stockpiles: the last nuclear arms treaty between the US and Russia expired in February 2026. A White House official said no disarmament deal is expected; the meeting is a starting point. China, which calls the meeting “ground-breaking,” has long insisted that the US and Russia cut their own large arsenals first. No European government will be in the room.",
+    "Ukraine may come up anyway. US officials had said Donald Trump would avoid the war, but Trump says he will raise it with Xi Jinping and Vladimir Putin, along with the war in Iran. Ukraine’s President Volodymyr Zelenskyy has warned against a repeat of the 1945 Yalta Conference, where the US, Britain and the Soviet Union divided Germany into occupation zones. The Kremlin replies that any Shenzhen agreements cannot be enforced on others.",
+    "Europe is preparing its own voice. After a meeting in Dublin, leaders agreed that the UK, France, Germany, Italy and Poland, with European Council and NATO officials, will speak for Europe in future peace talks. The EU’s foreign policy chief, Kaja Kallas, has set out its condition: “A ceasefire must come first.”"
+   ],
+   "map": {
+    "title": "A SUMMIT FAR FROM EUROPE",
+    "label_top": "MEETING: SHENZHEN, CHINA",
+    "label_bottom": "AT STAKE FOR EUROPE: UKRAINE",
+    "footnote": "First-ever meeting of US, Chinese and Russian leaders",
+    "caption": "Trump, Xi and Putin meet in southern China; Ukraine, whose war Trump says he will raise, is thousands of kilometres away.",
+    "countries": [
+     "China",
+     "United States",
+     "Russia",
+     "Ukraine"
+    ]
+   },
+   "why": "Ukraine’s future decides how safe the rest of Europe feels. When the biggest nuclear powers talk without Europe, its governments have to be heard in other ways: by choosing who speaks for them, and by setting conditions of their own.",
+   "sources": [
+    {
+     "outlet": "Korea Times (AP)",
+     "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+     "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+    },
+    {
+     "outlet": "PBS NewsHour (AP)",
+     "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+     "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+    },
+    {
+     "outlet": "HERE Columbia",
+     "title": "Trump Heads to Asia for Xi and Putin Summit",
+     "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+     "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "EU ministers demand united response as Russian attacks spill beyond Ukraine",
+     "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine"
+    },
+    {
+     "outlet": "EU Perspectives",
+     "title": "113 more targets: How is the EU tightening the screws on Russia?",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  UNITED STATES",
+   "headline": "A Router Swap in Arkansas Grounded Every Departure in the US",
+   "deck": "Flights are close to normal again, and Washington is arguing over who pays to replace an ageing network.",
+   "body": [
+    "Friday 13 November showed how much air travel depends on a network most passengers never see. At 3:36 p.m. Eastern Time, America’s Federal Aviation Administration (FAA) halted departures across the country, ordering a nationwide ground stop after its communications network became unstable. Roughly 3,500 aircraft were already airborne; every one of them came down safely. The FAA’s chief, Bryan Bedford, said the stop was ordered “out of an abundance of caution.”",
+    "Officials said there was no sign of a cyberattack. Instead, the trouble began with an upgrade. Transportation Secretary Sean Duffy said a worker for L3Harris, the defence firm that owns and operates the network tying US air traffic control together, was swapping old copper wire for fiber and replacing a router at a remote site: a radio facility in El Dorado, Arkansas. Once switched on, the new router bombarded its neighbours with about 1,000 log-on attempts every four to five seconds, and the system overloaded, disrupting communications at 17 of the FAA’s 22 Air Route Traffic Control Centers. A similar upgrade at a radar facility in Amarillo, Texas, weeks earlier had added to the strain.",
+    "Departures resumed at about 8:20 p.m., after more than four hours. The last nationwide stop came in January 2023, when an FAA computer system failed, and the one before that after the 11 September 2001 attacks. The flight-tracking service FlightAware counted about 9,159 cancellations on Friday alone. By Monday most major airlines were running normally or close to it.",
+    "The argument that follows is about money. Duffy called the $12.5 billion down payment for modernising the system not enough, and the administration now wants $30 billion. Two members of Congress, Rick Larsen and Andre Carson, countered that only $1 billion of the $12.5 billion has been used. Bedford says about 70% of the network has already moved from copper to fiber."
+   ],
+   "visual": {
+    "type": "steps",
+    "title": "HOW ONE ROUTER STOPPED US FLIGHTS",
+    "caption": "The chain of events officials described, from a routine upgrade to a nationwide halt.",
+    "source_url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
+    "items": [
+     {
+      "label": "A contractor replaces a router at a remote FAA site",
+      "evidence": "was swapping old copper wire for fiber and replacing a router at a remote site"
+     },
+     {
+      "label": "The new router floods the others and the system overloads",
+      "evidence": "the new router bombarded its neighbours with about 1,000 log-on attempts every four to five seconds, and the system overloaded"
+     },
+     {
+      "label": "Communications are disrupted at 17 of 22 control centres",
+      "evidence": "disrupting communications at 17 of the FAA’s 22 Air Route Traffic Control Centers"
+     },
+     {
+      "label": "The FAA orders a nationwide ground stop",
+      "evidence": "ordering a nationwide ground stop after its communications network became unstable"
+     }
+    ]
+   },
+   "connect": "Economics: Approving money and spending it are different steps. Congress approved $12.5 billion, but two lawmakers say only $1 billion has been used, while part of the old copper network still waits to be replaced.",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    },
+    {
+     "outlet": "Jalopnik",
+     "title": "Router In Arkansas Sparked FAA's Nationwide Ground Stop",
+     "url": "https://www.jalopnik.com/2318146/router-in-arkansas-sparked-faa-nationwide-ground-stop/"
+    }
+   ]
+  },
+  "uk": {
+   "kicker": "UNITED KINGDOM  •  BREXIT",
+   "headline": "Burnham Readies a Brexit Verdict Before Facing EU Leaders",
+   "deck": "Four days before his first UK-EU summit, the Prime Minister was due to argue Britain has “lost more than we have gained”.",
+   "body": [
+    "In 2016, 52% of British voters chose to leave the EU. On Monday, Prime Minister Andy Burnham was due to tell the Lord Mayor’s Banquet in the City of London that the move has not paid off: “We have lost more than we have gained.” His complaint is that a “needlessly hard” exit raised barriers for firms that sell to EU countries.",
+    "The real test comes on Friday 20 November in Brussels, at Burnham’s first formal summit with EU leaders. There he is expected to sign agreements covering food, energy and a youth scheme under which young Britons could study and work in EU countries, and young Europeans in Britain. He puts the gain for the British economy at about $22.5 billion, roughly 0.4% of GDP.",
+    "Brussels has demands of its own. The EU dislikes Britain’s call for a yearly limit on the youth scheme, and wants its students at British universities charged the lower “home” fees. At home, the Conservatives say Labour is “dragging us into the European Union via the back door,” leaving Britain to follow EU rules it cannot shape."
+   ],
+   "why": "The deals decide how easily British firms trade with Europe, and whether young Britons could study and work in the EU.",
+   "also": [
+    "Europe: Burnham spoke to European leaders in Dublin last Thursday, alongside Zelenskyy.",
+    "Climate: UK minister Miatta Fahnbulleh is expected at COP31 in Türkiye."
+   ],
+   "sources": [
+    {
+     "outlet": "UPI",
+     "title": "British PM Andy Burnham pushes back on Brexit, argues for closer EU ties",
+     "url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+    },
+    {
+     "outlet": "Institute for Government",
+     "title": "The UK-EU summit will be a test of the political salience of Brexit",
+     "url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+    },
+    {
+     "outlet": "Rejoin rejoin (David Henig)",
+     "title": "Previewing UK-EU Pageant Week 2026",
+     "url": "https://rejoinrejoin.substack.com/p/previewing-uk-eu-pageant-week-2026"
+    },
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 7: Incoming ministers set to battle over cover text",
+     "url": "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Estonia: It will close all three border crossings with Russia from 1 December, after foiling an arson attempt on a drone factory that it says Russian military intelligence ordered.",
+    "Space: Europe’s Euclid telescope has found its first comet, about 1.3 billion km away, between the orbits of Jupiter and Saturn."
+   ],
+   "sources": [
+    {
+     "outlet": "Euronews (AFP)",
+     "title": "Estonia to close Russia border after 'sabotage' bid on drone maker, foreign minister says",
+     "url": "https://euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
+     "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Arsenal",
+     "def": "A country’s stock of weapons. Today: China wants the US and Russia to cut their large nuclear arsenals first."
+    },
+    {
+     "word": "Leverage",
+     "def": "Power to influence what someone else decides. Today: Kaja Kallas says the EU’s leverage is its sanctions and frozen assets."
+    },
+    {
+     "word": "Sanctions",
+     "def": "Penalties meant to change a country’s or person’s behaviour. Today: the EU added 113 names to its sanctions on Russia."
+    },
+    {
+     "word": "Referendum",
+     "def": "A vote by a whole country on one question. Today: 52% of British voters chose to leave the EU in the 2016 referendum."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The Yalta Conference of February 1945 was held at the Livadia Palace in Crimea, on the Black Sea coast."
+  },
+  "europe": {
+   "kicker": "EUROPE  •  SANCTIONS",
+   "headline": "EU Hits Nearly 50 Russian Banks and Sends Kyiv Its Biggest Payment Yet",
+   "deck": "“We have leverage,” says Kaja Kallas, as the EU uses money to earn a say in how the war ends.",
+   "body": [
+    "Sanctions let a government punish people and companies without fighting: their assets in the EU are frozen, and EU businesses may not give them money. On Monday, EU foreign ministers in Brussels added 113 names to their sanctions on Russia, including nearly 50 Russian banks and financial institutions, to cut off “the financial channels” that fund the war.",
+    "Money flowed the other way too. Ministers approved nearly 8 billion euros for Ukraine, the largest single payment so far from the Ukraine Facility, a fund offering more than 50 billion euros through 2027. About 5 billion euros of it comes from the Ukraine Support Loan, and Kyiv completed more than 20 reform steps to unlock it. Once it arrives, payments since mid-2024 will pass 40 billion euros.",
+    "The EU’s foreign policy chief, Kaja Kallas, who chaired the meeting, said Russia’s demands are “a clear pretext for keeping the war going.” Europe’s tools, she said, are “our sanctions” and “frozen assets.”"
+   ],
+   "chart": {
+    "title": "THE UKRAINE FACILITY IN BILLIONS",
+    "subtitle": "Billion euros",
+    "labels": [
+     "Total",
+     "Paid",
+     "Monday",
+     "Loan"
+    ],
+    "values": [
+     50,
+     40,
+     8,
+     5
+    ],
+    "max": 60,
+    "value_prefix": "",
+    "highlight_after": 1,
+    "caption": "The fund offers more than 50; payments will pass 40 once Monday’s nearly 8 arrives, about 5 of it from the Ukraine Support Loan."
+   },
+   "why": "Sanctions and money are Europe’s main tools in the war. With the US leading the peace talks, the EU is using both as leverage to win a say.",
+   "analyst": "Do sanctions on banks hurt a government’s war effort more than ordinary people? What evidence would show whether the EU’s leverage is working?",
+   "sources": [
+    {
+     "outlet": "EU Perspectives",
+     "title": "113 more targets: How is the EU tightening the screws on Russia?",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+    },
+    {
+     "outlet": "Council of the EU",
+     "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+     "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+    }
+   ]
+  },
+  "sports": {
+   "title": "FOOTBALL: TEN MEN END SPAIN’S RUN",
+   "body": "England beat world champions <b>Spain 3-2</b> in Madrid in the Nations League on Sunday, ending a <b>43-match unbeaten run</b>. Harry Kane, Ezri Konsa and Ben White scored, and after England went down to ten men, goalkeeper <b>James Trafford</b> made late saves. England now top their group on goal difference.",
+   "sources": [
+    {
+     "outlet": "TNT Sports",
+     "title": "Spain 2-3 England - UEFA Nations League result as Thomas Tuchel's side hold on to end world champions' unbeaten run",
+     "url": "https://www.tntsports.co.uk/football/uefa-nations-league/2026-2027/live-spain-england_mtc20005878/live-commentary.shtml"
+    },
+    {
+     "outlet": "The Analyst",
+     "title": "England End Spain's 43-Match Unbeaten Run: Five Things We Learnt From the Masterclass in Madrid",
+     "url": "https://theanalyst.com/articles/spain-2-3-england-stats-unbeaten-run-ended-reaction"
+    },
+    {
+     "outlet": "IBTimes UK",
+     "title": "Spain 2-3 England: James Trafford's Double Save Helps Ten-Man Three Lions End 43-Game Unbeaten Run",
+     "url": "https://www.ibtimes.co.uk/england-end-spain-unbeaten-run-nations-league-win-1832560"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Shenzhen, Thursday: whether Ukraine comes up when Trump, Xi and Putin meet.",
+    "Brussels, Friday: whether Burnham signs the food, energy and youth deals."
+   ]
+  },
+  "quote": {
+   "text": "Who sits at the table shapes what is decided on it.",
+   "by": ""
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Korea Times (AP)",
+   "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+   "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+  },
+  {
+   "outlet": "PBS NewsHour (AP)",
+   "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+   "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+  },
+  {
+   "outlet": "HERE Columbia",
+   "title": "Trump Heads to Asia for Xi and Putin Summit",
+   "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+  },
+  {
+   "outlet": "France 24",
+   "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+   "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+  },
+  {
+   "outlet": "Yahoo News",
+   "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+   "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "EU ministers demand united response as Russian attacks spill beyond Ukraine",
+   "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine"
+  },
+  {
+   "outlet": "EU Perspectives",
+   "title": "113 more targets: How is the EU tightening the screws on Russia?",
+   "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+  },
+  {
+   "outlet": "CBS News",
+   "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+   "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+  },
+  {
+   "outlet": "Jalopnik",
+   "title": "Router In Arkansas Sparked FAA's Nationwide Ground Stop",
+   "url": "https://www.jalopnik.com/2318146/router-in-arkansas-sparked-faa-nationwide-ground-stop/"
+  },
+  {
+   "outlet": "UPI",
+   "title": "British PM Andy Burnham pushes back on Brexit, argues for closer EU ties",
+   "url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+  },
+  {
+   "outlet": "Institute for Government",
+   "title": "The UK-EU summit will be a test of the political salience of Brexit",
+   "url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+  },
+  {
+   "outlet": "Rejoin rejoin (David Henig)",
+   "title": "Previewing UK-EU Pageant Week 2026",
+   "url": "https://rejoinrejoin.substack.com/p/previewing-uk-eu-pageant-week-2026"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 7: Incoming ministers set to battle over cover text",
+   "url": "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
+  },
+  {
+   "outlet": "Euronews (AFP)",
+   "title": "Estonia to close Russia border after 'sabotage' bid on drone maker, foreign minister says",
+   "url": "https://euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says"
+  },
+  {
+   "outlet": "Space.com",
+   "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
+   "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+  },
+  {
+   "outlet": "Council of the EU",
+   "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+  },
+  {
+   "outlet": "Al Jazeera",
+   "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+   "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+  },
+  {
+   "outlet": "TNT Sports",
+   "title": "Spain 2-3 England - UEFA Nations League result as Thomas Tuchel's side hold on to end world champions' unbeaten run",
+   "url": "https://www.tntsports.co.uk/football/uefa-nations-league/2026-2027/live-spain-england_mtc20005878/live-commentary.shtml"
+  },
+  {
+   "outlet": "The Analyst",
+   "title": "England End Spain's 43-Match Unbeaten Run: Five Things We Learnt From the Masterclass in Madrid",
+   "url": "https://theanalyst.com/articles/spain-2-3-england-stats-unbeaten-run-ended-reaction"
+  },
+  {
+   "outlet": "IBTimes UK",
+   "title": "Spain 2-3 England: James Trafford's Double Save Helps Ten-Man Three Lions End 43-Game Unbeaten Run",
+   "url": "https://www.ibtimes.co.uk/england-end-spain-unbeaten-run-nations-league-win-1832560"
+  }
+ ],
+ "play": {
+  "analyst": {
+   "domino": {
+    "story": "world",
+    "question": "How did one piece of equipment in Arkansas stop flights across the United States?",
+    "qualification": "This is the chain officials described. They said there was no sign of a cyberattack, and an earlier upgrade in Amarillo, Texas, also made the problem worse, so the router was not the only factor.",
+    "steps": [
+     {
+      "text": "A contractor replaces a router at a remote FAA site.",
+      "evidence": "was swapping old copper wire for fiber and replacing a router at a remote site"
+     },
+     {
+      "text": "The new router floods other routers and the system overloads.",
+      "evidence": "the new router bombarded its neighbours with about 1,000 log-on attempts every four to five seconds, and the system overloaded"
+     },
+     {
+      "text": "Communications are disrupted at 17 of 22 control centres.",
+      "evidence": "disrupting communications at 17 of the FAA’s 22 Air Route Traffic Control Centers"
+     },
+     {
+      "text": "The FAA orders a nationwide ground stop.",
+      "evidence": "ordering a nationwide ground stop after its communications network became unstable"
+     }
+    ],
+    "links": [
+     {
+      "why": "Officials say the replacement router is what began flooding the network.",
+      "evidence": "Once switched on, the new router bombarded its neighbours with about 1,000 log-on attempts"
+     },
+     {
+      "why": "The story says the overload itself is what disrupted communications at the control centres.",
+      "evidence": "the system overloaded, disrupting communications at 17 of the FAA’s 22 Air Route Traffic Control Centers"
+     },
+     {
+      "why": "The FAA ordered the stop after its network became unstable; its chief called it a cautious step.",
+      "evidence": "Bedford, said the stop was ordered “out of an abundance of caution.”"
+     }
+    ]
+   },
+   "call": null
+  },
+  "quiz": [
+   {
+    "q": "Where are Trump, Xi and Putin due to meet on 19 November?",
+    "options": [
+     "Manila",
+     "Shenzhen",
+     "Dublin"
+    ],
+    "answer": 1,
+    "why": "The paper says they are due to meet at Kylin Villa in Shenzhen, China.",
+    "story": "lead"
+   },
+   {
+    "q": "What did Kaja Kallas say must come first?",
+    "options": [
+     "A trade deal",
+     "New elections",
+     "A ceasefire"
+    ],
+    "answer": 2,
+    "why": "Kallas wrote that “a ceasefire must come first.”",
+    "story": "lead"
+   },
+   {
+    "q": "What caused the nationwide US ground stop, according to officials?",
+    "options": [
+     "A router being replaced",
+     "A cyberattack",
+     "A storm"
+    ],
+    "answer": 0,
+    "why": "Officials traced it to a router upgrade in El Dorado, Arkansas, and saw no sign of a cyberattack.",
+    "story": "world"
+   },
+   {
+    "q": "What share of British voters chose to leave the EU in 2016?",
+    "options": [
+     "48%",
+     "52%",
+     "62%"
+    ],
+    "answer": 1,
+    "why": "The paper says 52% of British voters chose to leave the EU.",
+    "story": "uk"
+   },
+   {
+    "q": "How much did the EU approve for Ukraine on Monday?",
+    "options": [
+     "Nearly 8 billion euros",
+     "Nearly 80 billion euros",
+     "Nearly 800 million euros"
+    ],
+    "answer": 0,
+    "why": "The paper says nearly 8 billion euros, the largest single payment under the Ukraine Facility.",
+    "story": "europe"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "At Yalta in 1945, the US, Britain and the Soviet Union divided Germany into occupation zones.",
+    "true": true,
+    "why": "The paper says the three powers divided Germany into occupation zones at Yalta.",
+    "story": "lead"
+   },
+   {
+    "claim": "Burnham’s UK-EU summit in Brussels is on Monday.",
+    "true": false,
+    "why": "The speech was due on Monday; the summit is on Friday 20 November.",
+    "story": "uk"
+   },
+   {
+    "claim": "The EU’s new sanctions include nearly 50 Russian banks and financial institutions.",
+    "true": true,
+    "why": "The paper says the 113 new listings include nearly 50 of them.",
+    "story": "europe"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "China",
+     "United States",
+     "Russia",
+     "Ukraine"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "El Dorado, Arkansas",
+    "lat": 33.21,
+    "lon": -92.67,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "uk",
+    "place": "London",
+    "lat": 51.51,
+    "lon": -0.09,
+    "countries": [
+     "United Kingdom"
+    ]
+   },
+   {
+    "story": "europe",
+    "place": "Brussels",
+    "lat": 50.85,
+    "lon": 4.35,
+    "countries": [
+     "Belgium",
+     "Russia",
+     "Ukraine"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "europe",
+    "q": "How many new names did the EU add to its sanctions on Russia?",
+    "answer": 113,
+    "prefix": "",
+    "unit": "names",
+    "min": 10,
+    "max": 300,
+    "why": "The new names include nearly 50 Russian banks and financial institutions."
+   },
+   {
+    "story": "world",
+    "q": "About how many flights were in the air when the US ground stop began?",
+    "answer": 3500,
+    "prefix": "",
+    "unit": "flights",
+    "min": 500,
+    "max": 10000,
+    "why": "About 3,500 flights were in the air, and all of them landed safely."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Three Big Leaders Meet, Without Europe",
+    "body": [
+     "The leaders of the United States, China and Russia are due to meet on Thursday. It will be the first time ever. They meet in Shenzhen, a city in southern China. They will talk about nuclear weapons.",
+     "President Trump says he will also talk about the war in Ukraine. Ukraine’s president, Volodymyr Zelenskyy, is worried. He has warned against a repeat of Yalta in 1945, when big powers divided up Germany.",
+     "No European country will be at the meeting. Europe has picked five countries to speak for it in future peace talks. The EU says a ceasefire, which means a stop to the fighting, must come first."
+    ]
+   },
+   "world": {
+    "headline": "A Broken Router Stopped US Flights",
+    "body": [
+     "On 13 November, no planes could take off anywhere in the United States. About 3,500 planes were already flying. They all landed safely.",
+     "A worker was replacing a router, a machine that passes messages between computers. The new router sent out far too many messages. The network that air traffic control uses got overloaded.",
+     "Planes could fly again after more than four hours. By Monday most airlines were back to normal. The government now says it needs more money to replace old equipment."
+    ]
+   },
+   "uk": {
+    "headline": "Britain’s Leader Says Brexit Has Not Worked",
+    "body": [
+     "In 2016, 52% of voters chose to leave the European Union. This is called Brexit.",
+     "Prime Minister Andy Burnham was due to give a speech on Monday. He planned to say Britain has lost more than it gained by leaving.",
+     "On Friday he goes to Brussels. He is expected to sign deals on food and energy. Another deal would let young people study and work in each other’s countries. Some details are still being argued about. The Conservatives say Labour is taking Britain back towards the EU."
+    ]
+   },
+   "europe": {
+    "headline": "The EU Punishes Russian Banks and Helps Ukraine",
+    "body": [
+     "Sanctions are punishments that do not use weapons. The money of people on the list is frozen in the EU.",
+     "On Monday the EU added 113 names to its list against Russia. Nearly 50 are banks and money companies. The EU wants to cut off the money that pays for Russia’s war.",
+     "The EU also approved nearly 8 billion euros for Ukraine. It is the biggest single payment from this fund. The EU’s top diplomat, Kaja Kallas, says sanctions give Europe power in the war."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "europe": "russia-ukraine"
+ }
+}

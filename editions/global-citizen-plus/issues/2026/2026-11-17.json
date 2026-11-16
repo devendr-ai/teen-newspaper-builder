@@ -1,0 +1,807 @@
+{
+ "edition": "global-citizen-plus",
+ "date": "2026-11-17",
+ "volume": 1,
+ "issue": 17,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  NUCLEAR DIPLOMACY",
+   "headline": "Three Nuclear Powers, One Table: Why Shenzhen Is Being Compared With Yalta",
+   "deck": "After Manila, Trump is due to meet Xi and Putin together for the first time.",
+   "body": [
+    "History lessons about the end of the Second World War often feature three leaders deciding the shape of the world. At the 1945 Yalta Conference, the leaders of the United States, Britain and the Soviet Union agreed to divide Germany and Berlin into four occupation zones and finalised plans for the United Nations.",
+    "This week a new trio is due to meet. On Thursday 19 November, at the APEC summit in Shenzhen, in southern China, President Donald Trump is due to meet Xi Jinping, with Vladimir Putin joining them: the first meeting ever of these three countries’ leaders, focused on nuclear stockpiles.",
+    "Why now? The last US-Russia nuclear arms treaty expired in February 2026, and China has long insisted that the US and Russia shrink their own large arsenals before it will agree to talks about its stockpile. A White House official said no denuclearization agreement is expected.",
+    "Ukraine’s President Volodymyr Zelenskyy has warned against a repeat of Yalta. The Kremlin dismissed the comparison, saying deals made in Shenzhen cannot be enforced on others.",
+    "Geography shapes the route. Trump’s first stop is Manila, for the summit of the 11-member Association of Southeast Asian Nations. Between Manila and Shenzhen lies the South China Sea, most of which China claims, overlapping the sea zones of five Southeast Asian countries."
+   ],
+   "map": {
+    "title": "FROM MANILA TO SHENZHEN",
+    "label_top": "THREE-WAY SUMMIT: SHENZHEN, CHINA",
+    "label_bottom": "ASEAN AND QUAD: MANILA, PHILIPPINES",
+    "footnote": "China claims most of the South China Sea between the two cities",
+    "caption": "Trump’s route runs from Manila across the South China Sea to Shenzhen in southern China.",
+    "countries": [
+     "Philippines",
+     "China",
+     "Vietnam"
+    ],
+    "place": "South China Sea"
+   },
+   "why": "Officials expect a starting point, not a deal, but how these powers handle nuclear weapons affects everyone’s safety.",
+   "sources": [
+    {
+     "outlet": "Korea Times (AP)",
+     "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+     "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+    },
+    {
+     "outlet": "PBS NewsHour (AP)",
+     "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+     "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+    },
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Trump heads to Asia for ASEAN, Putin-Xi summit; PM Modi in Manila for ASEAN, Quad engagements",
+     "url": "https://www.tribuneindia.com/news/asean/trump-heads-to-asia-for-asean-putin-xi-summit-pm-modi-in-manila-for-asean-quad-engagements"
+    },
+    {
+     "outlet": "HERE Columbia",
+     "title": "Trump Heads to Asia for Xi and Putin Summit",
+     "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+     "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+    },
+    {
+     "outlet": "IANS",
+     "title": "PM Modi arrives in Manila to attend ASEAN-India Summit and East Asia Summit",
+     "url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217"
+    },
+    {
+     "outlet": "NewsBytes",
+     "title": "Modi and Trump head to Manila for Quad leaders summit",
+     "url": "https://www.newsbytesapp.com/news/world/modi-and-trump-head-to-manila-for-quad-leaders-summit/tldr"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "ASEAN, China fall short of agreeing on South China Sea code",
+     "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code"
+    },
+    {
+     "outlet": "US News (Reuters)",
+     "title": "ASEAN, China Fail to Conclude South China Sea Code of Conduct",
+     "url": "https://www.usnews.com/news/world/articles/2026-11-15/asean-china-fail-to-conclude-south-china-sea-code-of-conduct"
+    },
+    {
+     "outlet": "Philstar",
+     "title": "Marcos opens ASEAN plenary as South China Sea code likely to miss target",
+     "url": "https://www.philstar.com/headlines/2026/11/15/2570290/marcos-opens-asean-plenary-south-china-sea-code-likely-miss-target"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  EUROPE",
+   "headline": "Europe’s Two Levers on Russia: 113 New Sanctions and Its Biggest Payment to Ukraine",
+   "deck": "The EU froze the assets of nearly 50 Russian banks and approved nearly 8 billion euros for Kyiv on the same day.",
+   "body": [
+    "A government that does not want to send soldiers into a war still has two economic tools: it can starve an opponent of cash, and it can pay the bills of the side it backs. The European Union reached for both on Monday 16 November, in the fifth year of Russia’s war in Ukraine.",
+    "Tool one was the sanctions list. Meeting in Brussels, the bloc’s foreign ministers put 113 more names on it, 12 people and 101 organisations, and nearly 50 of the organisations are Russian banks and other financial firms. Anything they own in the EU is now frozen; nobody in the EU may pass them money or economic resources; and the 12 people cannot travel there. Oil was a target too: the list names companies that run Russian refineries and the oil terminal at St Petersburg, plus buyers of Russian oil products based in the UAE, China, Seychelles and Oman. So were dozens of people the EU accuses of spreading pro-Russian propaganda and disinformation.",
+    "Tool two was funding for Kyiv. Ministers signed off nearly 8 billion euros, the biggest single transfer yet from the Ukraine Facility. Set up in March 2024, that fund holds more than 50 billion euros of grants and loans to be paid out by 2027, and Ukraine had to finish more than 20 reforms to earn this instalment. Once it lands, the Council says, the amount paid since mid-2024 will pass 40 billion euros.",
+    "Kaja Kallas, who runs EU foreign policy, accused Moscow of recycling the demands it made before its full-scale invasion and piling on new conditions, “a clear pretext for keeping the war going.” Her answer was leverage: “That is our sanctions. That is frozen assets.” She also wrote that “a ceasefire must come first.” Europe wants a voice in any peace deal, so five countries, the UK, France, Germany, Italy and Poland, will represent it alongside officials from the European Council and NATO."
+   ],
+   "connect": "Economics: a sanction is a rule, not a weapon. By freezing assets and banning payments, the EU aims to choke off the money that, in its own words, funds Russia’s war effort, while its payments to Kyiv are tied to reforms.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+     "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+    },
+    {
+     "outlet": "EU Perspectives",
+     "title": "113 more targets: How is the EU tightening the screws on Russia?",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+    },
+    {
+     "outlet": "Council of the EU",
+     "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+    },
+    {
+     "outlet": "Hromadske",
+     "title": "EU approves record €8 billion Ukraine Facility payment after Kyiv meets reform targets",
+     "url": "https://hromadske.ua/en/europa/274463-eu-approves-record-eur8-billion-ukraine-facility-payment-after-kyiv-meets-reform-targets"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "EU ministers demand united response as Russian attacks spill beyond Ukraine",
+     "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Europe Tonight: Five EU states announce Rwanda deportation hubs as EU warns Russia is 'weaponising winter'",
+     "url": "https://www.euronews.com/2026/11/16/europe-tonight-five-eu-states-announce-rwanda-deportation-hubs-as-eu-warns-russia-is-weapo"
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "title": "THE UKRAINE FACILITY IN BILLIONS OF EUROS",
+    "caption": "All three figures are approximate. The total paid since mid-2024 includes Monday’s payment once it arrives.",
+    "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/",
+    "unit": "billion euros",
+    "items": [
+     {
+      "label": "Fund through 2027",
+      "value": 50,
+      "evidence": "holds more than 50 billion euros of grants and loans to be paid out by 2027"
+     },
+     {
+      "label": "Paid since mid-2024",
+      "value": 40,
+      "evidence": "the amount paid since mid-2024 will pass 40 billion euros"
+     },
+     {
+      "label": "Monday’s payment",
+      "value": 8,
+      "evidence": "Ministers signed off nearly 8 billion euros"
+     }
+    ]
+   }
+  },
+  "india": {
+   "kicker": "INDIA  •  ACT EAST",
+   "headline": "From the Ramayana to Sea Lanes: The Long History Behind Modi’s Trip to Manila",
+   "deck": "At the ASEAN-India and East Asia summits, India builds on ties it says go back centuries.",
+   "body": [
+    "India’s links with Southeast Asia are far older than any summit. Prime Minister Narendra Modi made that point after arriving in Manila, the capital of the Philippines, on Monday 16 November: he said the ties are rooted in centuries of civilisational exchanges and now span trade, connectivity, maritime security, technology and people-to-people relations.",
+    "His two-day visit centres on two meetings on Tuesday 17 November, held at the invitation of Philippine President Ferdinand R. Marcos Jr., whose country is the ASEAN Chair for 2026. The first is the 23rd ASEAN-India Summit. The second is the 21st East Asia Summit, whose members include the ASEAN states, India, China, Japan, South Korea, Australia, New Zealand, the US and Russia.",
+    "For India the meetings are part of a long-running strategy. The Ministry of External Affairs calls relations with ASEAN “a central pillar” of India’s Act East Policy and its vision for the Indo-Pacific. The summit will review progress on the two sides’ Comprehensive Strategic Partnership, including the ASEAN-India Plan of Action 2026-2030, and India is focused on the ongoing review of the ASEAN-India Trade in Goods Agreement. India and ASEAN are marking 2026 as their Year of Maritime Cooperation, and 2027 will mark 35 years of Dialogue Relations.",
+    "The visit’s cultural moments showed how deep the older connection runs. At a community reception Modi watched “Sita: The Ramayana Revisited”, staged by a performing arts group from Iligan City, and a Filipino adaptation of the Ramayana, “Maharadia Lawana”, was also performed.",
+    "Migration is part of the story too. On Tuesday Modi is due to take part in a ceremony marking the start of redevelopment at Gurudwara Khalsa Diwan in Manila. It was established in 1929 by Punjabi migrants and is the oldest Sikh place of worship in the Philippines.",
+    "The same visit has a security side. Modi is expected at a Quad meeting with US President Donald Trump, Japanese Prime Minister Sanae Takaichi and Australian Prime Minister Anthony Albanese, the group’s first leaders-level meeting since September 2024. The Philippines’ year as chair has also focused attention on maritime security and on ASEAN-China talks over a South China Sea Code of Conduct."
+   ],
+   "illustration": {
+    "title": "A YEAR OF MARITIME COOPERATION",
+    "subtitle": "ASEAN and India, 2026",
+    "motif": "ship",
+    "caption": "India and ASEAN are marking 2026 as their Year of Maritime Cooperation."
+   },
+   "why": "India calls ASEAN central to its Act East Policy, so what is agreed in Manila on trade and sea security shapes India’s place in the Indo-Pacific.",
+   "sources": [
+    {
+     "outlet": "IANS",
+     "title": "PM Modi arrives in Manila to attend ASEAN-India Summit and East Asia Summit",
+     "url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217"
+    },
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Trump heads to Asia for ASEAN, Putin-Xi summit; PM Modi in Manila for ASEAN, Quad engagements",
+     "url": "https://www.tribuneindia.com/news/asean/trump-heads-to-asia-for-asean-putin-xi-summit-pm-modi-in-manila-for-asean-quad-engagements"
+    },
+    {
+     "outlet": "NewsBytes",
+     "title": "Modi and Trump head to Manila for Quad leaders summit",
+     "url": "https://www.newsbytesapp.com/news/world/modi-and-trump-head-to-manila-for-quad-leaders-summit/tldr"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  TECHNOLOGY",
+   "headline": "One Router, 17 Control Centers: How an Upgrade Grounded America’s Flights",
+   "deck": "A replacement part in Arkansas flooded an aging network, and the government now wants $30 billion to fix the system.",
+   "body": [
+    "A network is only as strong as its weakest connection, a lesson from computer science that America’s airlines learned on Friday 13 November. That afternoon the Federal Aviation Administration (FAA) saw the communications network linking its air traffic control system become unstable, and halted every departure in the country. Roughly 3,500 planes already airborne were guided down without harm.",
+    "Engineers found the weak link in southern Arkansas. At an FAA radio site in El Dorado, a contractor from L3Harris, which owns and runs the air traffic telecommunications network, was replacing a router while moving lines from copper to fiber. Instead of joining the network quietly, the new device bombarded its neighbours with around 1,000 log-on attempts every four to five seconds. An earlier upgrade at a radar site in Amarillo, Texas, had added to the strain, and 17 of 22 regional control centres were affected.",
+    "Departures resumed around 8:20 p.m. Eastern Time, after more than four hours. It was the first nationwide ground stop since January 2023, when an FAA computer system malfunctioned; the one before that followed the 11 September 2001 attacks. FlightAware counted about 9,159 cancellations that day. Officials found no sign of hacking, and by Monday most airlines were operating normally or nearly so. FAA chief Bryan Bedford said roughly 70% of the system has now been switched to fiber.",
+    "The civics question is funding. Transportation Secretary Sean Duffy called Congress’s $12.5 billion down payment for modernisation too small, and the administration now wants $30 billion. Two members of Congress, Rick Larsen and Andre Carson, countered that only $1 billion of the approved money has been spent."
+   ],
+   "chart": {
+    "title": "PAYING FOR AIR TRAFFIC CONTROL",
+    "subtitle": "Billions of dollars",
+    "labels": [
+     "Approved",
+     "Spent",
+     "Requested"
+    ],
+    "values": [
+     12.5,
+     1,
+     30
+    ],
+    "max": 35,
+    "value_prefix": "$",
+    "highlight_after": 0,
+    "caption": "Congress approved $12.5 billion; two lawmakers say $1 billion has been spent. The administration now asks for $30 billion."
+   },
+   "why": "Systems that everyone depends on, from air traffic control to power grids, can fail in surprising ways during upgrades, and deciding how to pay for them is a job for Congress.",
+   "analyst": "If $1 billion of $12.5 billion has been spent, what questions would you ask before approving $30 billion? Which facts would help you decide whether the problem is money or speed?",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    },
+    {
+     "outlet": "Jalopnik",
+     "title": "Router In Arkansas Sparked FAA's Nationwide Ground Stop",
+     "url": "https://www.jalopnik.com/2318146/router-in-arkansas-sparked-faa-nationwide-ground-stop/"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+   "headline": "A Supernova on Repeat: The Same Explosion Should Reappear in About 73 and 76 Years",
+   "deck": "A galaxy cluster bends the light of SN Ares along different paths, so copies of it arrive decades apart.",
+   "body": [
+    "In physics class, light is said to travel in straight lines. Across the universe that is not quite true, because gravity bends it. Pile enough mass into one place, as in a cluster of galaxies, and the cluster behaves like a giant glass lens, curving and brightening the light of whatever lies far behind it. Astronomers call the effect gravitational lensing.",
+    "One such cluster, catalogued as MACS J0308.9+2645, sits in front of a galaxy where a star blew up about 8.8 billion years ago. Webb’s near-infrared camera caught the blast, named SN Ares, in August 2025. It was picked up by VENUS, a Webb survey of galaxy clusters, as that program’s first lensed supernova. Conor Larison of the Space Telescope Science Institute led the study.",
+    "Because light can take several routes past a cluster, one event can be seen more than once. Each copy travels its own route, so the copies reach Earth at different moments, hours apart in some systems and decades apart in others. Route length is not the only factor: light that skims nearer the cluster’s centre is held back more by gravitational time dilation, gravity slowing time itself.",
+    "For now astronomers have seen SN Ares only once. Three separate lens models forecast that the explosion will show up again in about 73 years and then in about 76. The researchers say that gives the system “by far the highest predicted delays” of any lensed supernova found so far.",
+    "Splitting the light into a spectrum revealed helium and hydrogen, which puts SN Ares in the Type IIb class: a star that had shed most of its outer hydrogen layer before it exploded.",
+    "Why wait 70-odd years? Timing the gap between copies could fix the Hubble constant, the speed at which the universe is expanding, possibly as one of the most precise single estimates of it. That would help with a puzzle: the cosmic microwave background, the afterglow of the Big Bang, points to about 67 kilometres per second per megaparsec, while the “distance ladder” of nearby stars and supernovae gives about 73. This mismatch is called the Hubble tension. The team will take more measurements in early 2027; its paper was posted to arXiv on 23 October."
+   ],
+   "why": "Gravity bending light, an idea from physics, could let astronomers measure how fast the whole universe is expanding.",
+   "sources": [
+    {
+     "outlet": "Phys.org",
+     "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+     "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html"
+    },
+    {
+     "outlet": "VENUS (JWST survey)",
+     "title": "News Release",
+     "url": "https://jwst-venus.github.io/news/news_20260107.html"
+    },
+    {
+     "outlet": "Universe Today",
+     "title": "These Gravitationally Lensed Supernovae Could Resolve The Hubble Tension",
+     "url": "https://www.universetoday.com/articles/these-gravitationally-lensed-supernovae-could-resolve-the-hubble-tension"
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "title": "HOW ONE EXPLOSION CAN ARRIVE THREE TIMES",
+    "caption": "The two later images are predictions from three lens models, not observations. More measurements are planned in early 2027.",
+    "source_url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
+    "items": [
+     {
+      "label": "A massive galaxy cluster bends and magnifies light from behind it",
+      "evidence": "curving and brightening the light of whatever lies far behind it"
+     },
+     {
+      "label": "Light on different paths around the cluster arrives at different times",
+      "evidence": "Each copy travels its own route, so the copies reach Earth at different moments"
+     },
+     {
+      "label": "Two more images of SN Ares are predicted in about 73 and 76 years",
+      "evidence": "forecast that the explosion will show up again in about 73 years and then in about 76"
+     },
+     {
+      "label": "Timing the gaps could pin down how fast the universe expands",
+      "evidence": "Timing the gap between copies could fix the Hubble constant"
+     }
+    ]
+   }
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  PRICES",
+   "headline": "Fuel and Power Push India’s Wholesale Inflation to 12.29%, a Series High",
+   "deck": "Businesses are paying more for energy, and economists warn shoppers may feel it next.",
+   "body": [
+    "Before a product reaches a shop shelf, the business that made it has already paid other businesses for materials, fuel and electricity. India’s Wholesale Price Index, or WPI, tracks those earlier prices. Government data released on Monday 16 November showed that wholesale inflation, the rise in those prices compared with a year earlier, climbed to 12.29% in October from 11.39% in September.",
+    "Forbes India calls that a series high: the highest under the new WPI series, which uses 2022-23 as its base year, the starting point against which later prices are measured. The index for all commodities stood at 113.3 in October, compared with 112.5 in September. These are preliminary figures from the Ministry of Commerce and Industry.",
+    "Energy did most of the pushing. Fuel and power inflation rose to 32.84% from 25.85%, mineral oils were up 45.57%, and electricity inflation moved to 8.06% after a 0.43% fall in September. Rahul Agrawal of ICRA said the figure beat ICRA’s own 11.8% estimate, and that fuel and power accounted for 83 of the 90 basis points of the rise. A basis point is one hundredth of a percentage point.",
+    "Other groups moved less. Primary articles inflation rose to 9.24% from 8.67%, while manufactured goods inflation eased to 9.54% from 9.76%; among manufactured products, chemicals rose 17.53%, basic metals 17.21% and textiles 13.67%, but pharmaceuticals only 3%. Wholesale food inflation eased slightly, to 8.58% from 8.66%. The food index covers primary food articles and processed food and makes up about 25% of the WPI.",
+    "Why the jump? Madan Sabnavis, chief economist at Bank of Baroda, pointed to a low base, meaning prices a year earlier were weak, higher crude oil prices, and strong demand for power during heat waves in several states. He said firms have so far passed on only a limited part of their higher costs, and warned that the increases will “pressurise companies into increasing their product prices.”",
+    "What comes next is uncertain. ICRA expects inflation peaked in October and sees about 11.6% in November, depending on global oil and commodity prices. Average wholesale inflation for April to October was 10.14%. The November figures are due on 14 December."
+   ],
+   "why": "Wholesale prices are what businesses pay each other. If companies pass the higher costs on, families will see them in shop prices in the coming months.",
+   "sources": [
+    {
+     "outlet": "The Tribune",
+     "title": "Wholesale inflation rises to 12.29% in October on higher fuel, power prices",
+     "url": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+    },
+    {
+     "outlet": "Forbes India",
+     "title": "WPI inflation hits series-high 12.29 percent in October as fuel prices surge",
+     "url": "https://www.forbesindia.com/business/economy/wpi-inflation-hits-series-high-12-29-percent-in-october-as-fuel-prices-surge-article/3000572"
+    }
+   ],
+   "visual": {
+    "type": "bars",
+    "title": "WHOLESALE INFLATION, INDIA",
+    "caption": "Each bar is the rise in wholesale prices compared with a year earlier. October figures are preliminary.",
+    "source_url": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/",
+    "unit": "% rise on a year earlier",
+    "items": [
+     {
+      "label": "All goods, Sept",
+      "value": 11.39,
+      "evidence": "climbed to 12.29% in October from 11.39% in September"
+     },
+     {
+      "label": "All goods, Oct",
+      "value": 12.29,
+      "evidence": "climbed to 12.29% in October from 11.39% in September"
+     },
+     {
+      "label": "Fuel and power, Sept",
+      "value": 25.85,
+      "evidence": "Fuel and power inflation rose to 32.84% from 25.85%"
+     },
+     {
+      "label": "Fuel and power, Oct",
+      "value": 32.84,
+      "evidence": "Fuel and power inflation rose to 32.84% from 25.85%"
+     }
+    ]
+   }
+  },
+  "briefs": {
+   "items": [
+    "Estonia: The government says it will close all three of its border crossings with Russia from 1 December after foiling what it calls a plot by Russia’s GRU military intelligence to set fire to a drone factory near Tallinn; Moscow said such a move would be more aggressive Russophobia.",
+    "Climate: The COP31 summit in Antalya, Türkiye, began its second week with an 18-page first draft deal that includes $120 billion a year in adaptation money by 2035, but oil producers and large developing countries pushed back.",
+    "US Congress: Senator Chris Van Hollen says he is the underdog but can beat Chuck Schumer in the secret ballot Senate Democrats will hold to choose their leader, who is set to become majority leader.",
+    "Wildlife: More than 1,760 elephants died in India from electrocution, train collisions, poaching and poisoning between 2009-10 and 2025-26, a government reply to a Right to Information request shows; electrocution caused two in every three of those deaths."
+   ],
+   "sources": [
+    {
+     "outlet": "Euronews (AFP)",
+     "title": "Estonia to close Russia border after 'sabotage' bid on drone maker, foreign minister says",
+     "url": "https://euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says"
+    },
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 7: Incoming ministers set to battle over cover text",
+     "url": "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Chris Van Hollen says he can beat Chuck Schumer for Senate leader",
+     "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+    },
+    {
+     "outlet": "ThePrint (PTI)",
+     "title": "Electrocution, train hits, poaching and poisoning behind 1,760 elephant deaths since 2009: RTI reply",
+     "url": "https://theprint.in/india/electrocution-train-hits-poaching-and-poisoning-behind-1760-elephant-deaths-since-2009-rti-reply/3100172/"
+    },
+    {
+     "outlet": "The Tribune",
+     "title": "India's wild elephant numbers drop by 18%, first DNA-based count shows",
+     "url": "https://www.tribuneindia.com/news/india/indias-wild-elephant-numbers-drop-by-18-first-dna-based-count-shows/"
+    },
+    {
+     "outlet": "National Herald",
+     "title": "150 elephant corridors identified in India; West Bengal leads: Report",
+     "url": "https://www.nationalheraldindia.com/national/150-elephant-corridors-identified-in-india-west-bengal-leads-report"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Arsenal",
+     "def": "A country’s stock of weapons. Today: China wants the US and Russia to shrink their large nuclear arsenals before it discusses its own."
+    },
+    {
+     "word": "Basis point",
+     "def": "One hundredth of a percentage point. Today: fuel and power accounted for 83 of the 90 basis points by which India’s wholesale inflation rose."
+    },
+    {
+     "word": "Sanctions",
+     "def": "Penalties one government places on another country, its companies or its people. Today: the EU added 113 names to its sanctions on Russia."
+    },
+    {
+     "word": "Gravitational lensing",
+     "def": "The bending of light by the gravity of a massive object. Today: a galaxy cluster’s lensing should show SN Ares again in about 73 and 76 years."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The Yalta Conference of 1945 took place in Crimea, on the Black Sea coast, at the Livadia Palace, which had once been a summer home of Russia’s tsars."
+  },
+  "explainer": {
+   "title": "Arms control: how treaties limit nuclear weapons",
+   "body": [
+    "During the Cold War, the United States and the Soviet Union built up tens of thousands of nuclear weapons. From the 1970s onward they signed treaties to limit them: agreements that capped how many weapons each side could have ready to use, and let each side check on the other through inspections and exchanges of data.",
+    "The treaties also built trust in a practical way: each side could see what the other had, instead of guessing and building more just in case. The most recent was New START, signed in 2010, which limited each side to 1,550 deployed strategic warheads. When it expired in February 2026, no treaty between the US and Russia was left limiting their nuclear weapons. China was never part of these two-country agreements, which is why a meeting of all three leaders draws so much attention."
+   ],
+   "sources": [
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Five questions on this issue",
+   "body": [
+    "<b>1.</b> At the 1945 Yalta Conference, which three countries’ leaders met?",
+    "(a) The US, China and Russia  (b) The US, Britain and the Soviet Union  (c) Britain, France and Germany",
+    "<b>2.</b> How many names did the EU add to its sanctions on Russia on 16 November?",
+    "(a) 50  (b) 101  (c) 113",
+    "<b>3.</b> When was Gurudwara Khalsa Diwan in Manila established, and by whom?",
+    "(a) 1929, by Punjabi migrants  (b) 1945, by Indian soldiers  (c) 2026, by the Indian government",
+    "<b>4.</b> What did the faulty new router in El Dorado, Arkansas, do?",
+    "(a) It shut down radar screens  (b) It bombarded other routers with log-on attempts  (c) It was hit by a cyberattack",
+    "<b>5.</b> Why might SN Ares appear again in about 73 and 76 years?",
+    "(a) Its light takes different paths around a galaxy cluster  (b) The star will explode again  (c) Webb will be moved closer",
+    "<b>Answers:</b> 1-b, 2-c, 3-a, 4-b, 5-a."
+   ],
+   "sources": [
+    {
+     "outlet": "France 24",
+     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+     "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+    },
+    {
+     "outlet": "EU Perspectives",
+     "title": "113 more targets: How is the EU tightening the screws on Russia?",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    },
+    {
+     "outlet": "Phys.org",
+     "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+     "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html"
+    },
+    {
+     "outlet": "VENUS (JWST survey)",
+     "title": "News Release",
+     "url": "https://jwst-venus.github.io/news/news_20260107.html"
+    },
+    {
+     "outlet": "Universe Today",
+     "title": "These Gravitationally Lensed Supernovae Could Resolve The Hubble Tension",
+     "url": "https://www.universetoday.com/articles/these-gravitationally-lensed-supernovae-could-resolve-the-hubble-tension"
+    }
+   ]
+  },
+  "discussion": {
+   "title": "DISCUSS",
+   "body": [
+    "China says the US and Russia should cut their own large arsenals before it talks about its stockpile. Is that a fair condition? How might leaders in Washington and Moscow answer it, and what would each side risk by going first?",
+    "Zelenskyy fears a new Yalta, while the Kremlin says deals made in Shenzhen cannot be enforced on others. Can a meeting of three powerful leaders affect countries that are not in the room? Think of examples from history class.",
+    "The US government wants more money for air traffic control, while two members of Congress say most of the money already approved has not been used. How should Congress decide who is right, and what evidence would you want to see first?"
+   ],
+   "sources": [
+    {
+     "outlet": "France 24",
+     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+     "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    }
+   ]
+  },
+  "quote": {
+   "text": "A ceasefire must come first.",
+   "by": "Kaja Kallas, EU foreign policy chief"
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Korea Times (AP)",
+   "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+   "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+  },
+  {
+   "outlet": "Al Jazeera",
+   "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+   "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+  },
+  {
+   "outlet": "IANS",
+   "title": "PM Modi arrives in Manila to attend ASEAN-India Summit and East Asia Summit",
+   "url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217"
+  },
+  {
+   "outlet": "CBS News",
+   "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+   "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+  },
+  {
+   "outlet": "Phys.org",
+   "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+   "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html"
+  },
+  {
+   "outlet": "The Tribune",
+   "title": "Wholesale inflation rises to 12.29% in October on higher fuel, power prices",
+   "url": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+  }
+ ],
+ "play": {
+  "analyst": {
+   "domino": {
+    "story": "economics",
+    "question": "How could higher energy costs end up in shop prices?",
+    "qualification": "The last step is an economist’s warning, not a confirmed outcome. A low base also played a part, and ICRA expects inflation to ease in November depending on oil prices.",
+    "steps": [
+     {
+      "text": "Crude oil prices rise and heat waves raise demand for power",
+      "evidence": "higher crude oil prices, and strong demand for power during heat waves in several states"
+     },
+     {
+      "text": "Fuel and power wholesale inflation jumps",
+      "evidence": "Fuel and power inflation rose to 32.84% from 25.85%"
+     },
+     {
+      "text": "Overall wholesale inflation climbs to 12.29%",
+      "evidence": "wholesale inflation, the rise in those prices compared with a year earlier, climbed to 12.29% in October"
+     },
+     {
+      "text": "Companies may raise the prices of their products",
+      "evidence": "the increases will “pressurise companies into increasing their product prices.”"
+     }
+    ],
+    "links": [
+     {
+      "why": "Sabnavis names costlier crude oil and heat-wave power demand as reasons for the fuel and power surge.",
+      "evidence": "Madan Sabnavis, chief economist at Bank of Baroda, pointed to a low base, meaning prices a year earlier were weak, higher crude oil prices"
+     },
+     {
+      "why": "ICRA says fuel and power made up most of the overall rise.",
+      "evidence": "fuel and power accounted for 83 of the 90 basis points of the rise"
+     },
+     {
+      "why": "Businesses pay wholesale prices; so far they have passed on only part of their higher costs, so more may reach shoppers.",
+      "evidence": "He said firms have so far passed on only a limited part of their higher costs"
+     }
+    ]
+   },
+   "call": {
+    "story": "lead",
+    "question": "Should the US and Russia cut their own nuclear arsenals first, or press for talks that include China from the start?",
+    "premise": "China says it will discuss its own nuclear stockpile only after the US and Russia shrink their large arsenals, and the last US-Russia arms treaty expired in February 2026.",
+    "evidence": "China has long insisted that the US and Russia shrink their own large arsenals before it will agree to talks about its stockpile",
+    "framing": "Hypothetical decision based on this story. Neither option is reported as an official proposal.",
+    "options": [
+     {
+      "label": "US and Russia cut first",
+      "benefit": "Meets China’s stated condition, which might bring it into talks later, and could restore limits between the US and Russia.",
+      "cost": "China’s stockpile stays outside any agreement for now, with no promise that it will ever join."
+     },
+     {
+      "label": "All three talk together",
+      "benefit": "Puts every country at the table into one discussion from the start, so no stockpile is left out.",
+      "cost": "China has said it will not discuss its stockpile first, so talks could stall and leave no limits at all."
+     }
+    ],
+    "reflection": "What would China, the US or Russia need to say or do to change your choice?"
+   }
+  },
+  "quiz": [
+   {
+    "q": "Where is Trump due to meet Xi Jinping and Vladimir Putin together?",
+    "options": [
+     "Manila",
+     "Shenzhen",
+     "Yalta"
+    ],
+    "answer": 1,
+    "why": "The paper says Trump is due to meet Xi and Putin at the APEC summit in Shenzhen, China.",
+    "story": "lead"
+   },
+   {
+    "q": "What does the EU say must come first in Ukraine?",
+    "options": [
+     "A new security framework",
+     "Elections",
+     "A ceasefire"
+    ],
+    "answer": 2,
+    "why": "Kaja Kallas wrote that a ceasefire must come first.",
+    "story": "world"
+   },
+   {
+    "q": "Which ancient epic was performed for Modi in Manila?",
+    "options": [
+     "The Ramayana",
+     "The Odyssey",
+     "The Mahabharata"
+    ],
+    "answer": 0,
+    "why": "Modi watched “Sita: The Ramayana Revisited” and a Filipino Ramayana adaptation.",
+    "story": "india"
+   },
+   {
+    "q": "How many of the FAA’s 22 regional control centres were affected?",
+    "options": [
+     "5",
+     "17",
+     "22"
+    ],
+    "answer": 1,
+    "why": "The paper says 17 of 22 regional control centres were affected.",
+    "story": "us"
+   },
+   {
+    "q": "Which part of India’s wholesale prices rose fastest in October?",
+    "options": [
+     "Food",
+     "Fuel and power",
+     "Pharmaceuticals"
+    ],
+    "answer": 1,
+    "why": "Fuel and power inflation rose to 32.84%.",
+    "story": "economics"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The last US-Russia nuclear arms treaty expired in February 2026.",
+    "true": true,
+    "why": "The paper says it expired in February 2026.",
+    "story": "lead"
+   },
+   {
+    "claim": "SN Ares has already been seen three times.",
+    "true": false,
+    "why": "Only one image has been seen; two more are predicted in about 73 and 76 years.",
+    "story": "science_and_technology"
+   },
+   {
+    "claim": "Officials said a cyberattack caused the US ground stop.",
+    "true": false,
+    "why": "Officials said there was no sign of a cyberattack; a router upgrade caused it.",
+    "story": "us"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "China",
+     "United States",
+     "Russia",
+     "Philippines"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Brussels",
+    "lat": 50.85,
+    "lon": 4.35,
+    "countries": [
+     "Belgium",
+     "Russia",
+     "Ukraine"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Manila",
+    "lat": 14.6,
+    "lon": 120.98,
+    "countries": [
+     "Philippines",
+     "India"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "El Dorado, Arkansas",
+    "lat": 33.21,
+    "lon": -92.67,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "New Delhi",
+    "lat": 28.61,
+    "lon": 77.21,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "us",
+    "q": "About how many flights were in the air when the FAA ordered the ground stop?",
+    "answer": 3500,
+    "prefix": "",
+    "unit": "flights",
+    "min": 500,
+    "max": 8000,
+    "why": "About 3,500 flights were in the air, and all of them landed safely."
+   },
+   {
+    "story": "science_and_technology",
+    "q": "In about how many years is the first repeat image of SN Ares predicted to arrive?",
+    "answer": 73,
+    "prefix": "",
+    "unit": "years",
+    "min": 5,
+    "max": 200,
+    "why": "Three lens models predict two more images in about 73 and 76 years."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Three Leaders Plan a First Meeting About Nuclear Weapons",
+    "body": [
+     "President Trump of the United States is travelling to Asia. First he goes to Manila, in the Philippines. Then he flies to Shenzhen, a city in China.",
+     "On 19 November he is due to meet China’s leader, Xi Jinping, and Russia’s leader, Vladimir Putin. The three have never met together before. They plan to talk about nuclear weapons.",
+     "The last nuclear treaty between the US and Russia ended in February 2026. A treaty is a written agreement between countries. Officials say no big deal is expected. It is only a start.",
+     "Some people remember a meeting in 1945 called Yalta. Three leaders made big decisions about other countries there. Ukraine’s president worries this could happen again."
+    ]
+   },
+   "world": {
+    "headline": "Europe Punishes Russian Banks and Sends Money to Ukraine",
+    "body": [
+     "The European Union, or EU, wants Russia’s war in Ukraine to end. On 16 November it did two things.",
+     "First, it added 113 names to its sanctions. Sanctions are penalties. Nearly 50 Russian banks are on the list. Their money in Europe is frozen, so they cannot use it.",
+     "Second, it agreed to give Ukraine nearly 8 billion euros. That is its biggest single payment from this fund. Ukraine made more than 20 reforms to get it.",
+     "The EU’s foreign policy chief, Kaja Kallas, said a ceasefire must come first."
+    ]
+   },
+   "india": {
+    "headline": "Modi Visits Manila, Where Old Ties Meet New Plans",
+    "body": [
+     "India’s Prime Minister Narendra Modi arrived in Manila, in the Philippines, on 16 November. He is there for two days.",
+     "He is meeting leaders from Southeast Asia. Their group is called ASEAN. India says ASEAN is very important to its plans.",
+     "Modi says the friendship is centuries old. He watched a play based on the Ramayana, an ancient Indian story. Filipinos have their own version of it.",
+     "He will also visit a Sikh temple in Manila. Punjabi migrants started it in 1929. It is the oldest Sikh place of worship in the Philippines."
+    ]
+   },
+   "us": {
+    "headline": "One Broken Part Stopped Flights Across America",
+    "body": [
+     "On 13 November, flights across the United States stopped taking off for more than four hours. About 3,500 planes were already flying. All of them landed safely.",
+     "The problem started in El Dorado, Arkansas. Workers were putting in a new router. A router is a machine that sends data around a network. The new one sent out too many messages and jammed the system.",
+     "There was no sign of a cyberattack. By 16 November most flights were back to normal.",
+     "The government now wants $30 billion to update the system. Two lawmakers say only $1 billion of earlier money has been used."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "The Same Star Explosion Will Show Up Again",
+    "body": [
+     "A supernova is a star that explodes. Scientists found one with the James Webb Space Telescope. It is called SN Ares.",
+     "Its light passed a huge group of galaxies. Their gravity bends light, like a magnifying glass. The light can take different paths, and some paths are longer.",
+     "So the same explosion should appear again in about 73 years, and again in about 76 years.",
+     "Timing these copies could help scientists measure how fast the universe is growing."
+    ]
+   },
+   "economics": {
+    "headline": "Energy Costs Push Up Prices for Indian Businesses",
+    "body": [
+     "Businesses buy things from other businesses before you see them in shops. These are called wholesale prices.",
+     "In October, India’s wholesale prices were 12.29% higher than a year before. That is the highest in this way of measuring.",
+     "Fuel and power cost the most extra. Their prices were 32.84% higher. Food prices rose less, by 8.58%.",
+     "One economist warns that companies may raise the prices of their products. That could make shopping cost more for families."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "world": "russia-ukraine"
+ }
+}
