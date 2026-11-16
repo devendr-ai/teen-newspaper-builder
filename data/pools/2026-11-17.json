@@ -1441,6 +1441,21 @@
      {
       "fact": "Gupta blamed illegal electric fences, sagging wires and uninsulated power lines in elephant corridors, and said train deaths come from failures to slow trains, build underpasses and protect corridors.",
       "source_url": "https://theprint.in/india/electrocution-train-hits-poaching-and-poisoning-behind-1760-elephant-deaths-since-2009-rti-reply/3100172/"
+     },
+     {
+      "fact": "Background (October 2025): India's first DNA-based count of wild elephants (SAIEE 2021-25), by the Environment Ministry, Project Elephant and the Wildlife Institute of India, estimated 22,446 wild elephants (range 18,255 to 26,645), compared with 27,312 in the 2017 count.",
+      "source_url": "https://www.tribuneindia.com/news/india/indias-wild-elephant-numbers-drop-by-18-first-dna-based-count-shows/",
+      "background": true
+     },
+     {
+      "fact": "Background (October 2025): scientists collected 21,056 dung samples and used DNA fingerprinting to identify individual elephants; Karnataka has the most elephants (6,013), ahead of Assam (4,159).",
+      "source_url": "https://www.tribuneindia.com/news/india/indias-wild-elephant-numbers-drop-by-18-first-dna-based-count-shows/",
+      "background": true
+     },
+     {
+      "fact": "Background (2023): a report by the environment ministry's Project Elephant, with state forest departments and the Wildlife Institute of India, identified 150 elephant corridors across 15 states; West Bengal has the most.",
+      "source_url": "https://www.nationalheraldindia.com/national/150-elephant-corridors-identified-in-india-west-bengal-leads-report",
+      "background": true
      }
     ],
     "numbers": [
@@ -1484,6 +1499,20 @@
       "url": "https://theprint.in/india/electrocution-train-hits-poaching-and-poisoning-behind-1760-elephant-deaths-since-2009-rti-reply/3100172/",
       "published": "2026-11-16",
       "primary": true
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "India's wild elephant numbers drop by 18%, first DNA-based count shows",
+      "url": "https://www.tribuneindia.com/news/india/indias-wild-elephant-numbers-drop-by-18-first-dna-based-count-shows/",
+      "published": "2025-10-14",
+      "primary": false
+     },
+     {
+      "outlet": "National Herald",
+      "title": "150 elephant corridors identified in India; West Bengal leads: Report",
+      "url": "https://www.nationalheraldindia.com/national/150-elephant-corridors-identified-in-india-west-bengal-leads-report",
+      "published": "2023",
+      "primary": false
      }
     ]
    },
@@ -2104,6 +2133,16 @@
      {
       "fact": "Future scientists might aim Euclid at comets in the outer solar system on purpose, and such finds help researchers spot 'noise' like comet trails in Euclid's images.",
       "source_url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+     },
+     {
+      "fact": "Background: Euclid lifted off on a SpaceX Falcon 9 rocket from Cape Canaveral, Florida, on 1 July 2023, to survey one third of the sky over six years.",
+      "source_url": "https://www.esa.int/Newsroom/Press_Releases/ESA_s_Euclid_lifts_off_on_quest_to_unravel_the_cosmic_mystery_of_dark_matter_and_dark_energy",
+      "background": true
+     },
+     {
+      "fact": "Background: Euclid observes from the Sun-Earth Lagrange point 2 (L2), on average 1.5 million km from Earth; its nominal survey started on 14 February 2024.",
+      "source_url": "https://www.cosmos.esa.int/web/euclid/mission-status",
+      "background": true
      }
     ],
     "numbers": [
@@ -2134,6 +2173,20 @@
       "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
       "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026",
       "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "ESA",
+      "title": "ESA's Euclid lifts off on quest to unravel the cosmic mystery of dark matter and dark energy",
+      "url": "https://www.esa.int/Newsroom/Press_Releases/ESA_s_Euclid_lifts_off_on_quest_to_unravel_the_cosmic_mystery_of_dark_matter_and_dark_energy",
+      "published": "2023-07-01",
+      "primary": true
+     },
+     {
+      "outlet": "ESA Cosmos",
+      "title": "Euclid mission status",
+      "url": "https://www.cosmos.esa.int/web/euclid/mission-status",
+      "published": "",
       "primary": true
      }
     ]
@@ -2189,6 +2242,18 @@
      {
       "fact": "Phys.org published the report on 14 November 2026; the discovery paper was posted to arXiv on 23 October.",
       "source_url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html"
+     },
+     {
+      "fact": "SN Ares was found by VENUS, a James Webb Space Telescope survey of galaxy clusters; it is the first lensed supernova found by the VENUS program.",
+      "source_url": "https://jwst-venus.github.io/news/news_20260107.html"
+     },
+     {
+      "fact": "The closer the light passes to the centre of the galaxy cluster, the larger the delay caused by gravitational time dilation, so images nearest the cluster centre arrive last.",
+      "source_url": "https://jwst-venus.github.io/news/news_20260107.html"
+     },
+     {
+      "fact": "Background: measurements of the universe's expansion rate disagree, about 67 km/s/Mpc from the cosmic microwave background versus about 73 km/s/Mpc from the distance ladder, a puzzle known as the Hubble tension; lensed-supernova time delays offer an independent way to measure it.",
+      "source_url": "https://www.universetoday.com/articles/these-gravitationally-lensed-supernovae-could-resolve-the-hubble-tension"
      }
     ],
     "numbers": [
@@ -2220,6 +2285,20 @@
       "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
       "published": "2026-11-14",
       "primary": true
+     },
+     {
+      "outlet": "VENUS (JWST survey)",
+      "title": "News Release",
+      "url": "https://jwst-venus.github.io/news/news_20260107.html",
+      "published": "2026-01-07",
+      "primary": true
+     },
+     {
+      "outlet": "Universe Today",
+      "title": "These Gravitationally Lensed Supernovae Could Resolve The Hubble Tension",
+      "url": "https://www.universetoday.com/articles/these-gravitationally-lensed-supernovae-could-resolve-the-hubble-tension",
+      "published": "2026-01",
+      "primary": false
      }
     ]
    }
