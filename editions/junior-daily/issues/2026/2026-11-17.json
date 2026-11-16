@@ -1,0 +1,332 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-11-17",
+ "volume": 1,
+ "issue": 32,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  ASIA",
+   "headline": "Maryland to Manila to Shenzhen: Trump’s Three-Stop Trip",
+   "deck": "America’s president flies to Asia to meet old partners, then China’s and Russia’s leaders.",
+   "body": [
+    "On Monday, US President Donald Trump left an air base in Maryland for Asia. His first stop is Manila, in the Philippines, where ASEAN, a club of 11 Southeast Asian countries, is meeting. He is also due to meet the Quad leaders: Narendra Modi of India, Sanae Takaichi of Japan and Anthony Albanese of Australia. The White House said he will sign a trade deal with Thailand, too.",
+    "On Wednesday, after lunch with the Philippines’ president, Ferdinand Marcos Jr., he flies on to Shenzhen, a city in southern China. On Thursday, he is due to meet China’s Xi Jinping and Russia’s Vladimir Putin there.",
+    "It will be the first meeting ever between the leaders of these three countries. They plan to talk about their nuclear weapons. A White House official called it a starting point, not a deal."
+   ],
+   "map": {
+    "title": "TRUMP’S STOPS IN ASIA",
+    "label_top": "TUE-WED: MANILA, PHILIPPINES",
+    "label_bottom": "THU: SHENZHEN, CHINA",
+    "footnote": "The trip began in Maryland, USA",
+    "caption": "The map marks the Philippines and China, the two countries on Trump’s route.",
+    "countries": [
+     "Philippines",
+     "China"
+    ],
+    "place": "Manila"
+   },
+   "why": "The US, China and Russia have never met as three leaders before. Officials say Thursday is a start, not a deal.",
+   "sources": [
+    {
+     "outlet": "Korea Times (AP)",
+     "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+     "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+    },
+    {
+     "outlet": "PBS NewsHour (AP)",
+     "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+     "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+    },
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Trump heads to Asia for ASEAN, Putin-Xi summit; PM Modi in Manila for ASEAN, Quad engagements",
+     "url": "https://www.tribuneindia.com/news/asean/trump-heads-to-asia-for-asean-putin-xi-summit-pm-modi-in-manila-for-asean-quad-engagements"
+    },
+    {
+     "outlet": "HERE Columbia",
+     "title": "Trump Heads to Asia for Xi and Putin Summit",
+     "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+     "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+    },
+    {
+     "outlet": "NewsBytes",
+     "title": "Modi and Trump head to Manila for Quad leaders summit",
+     "url": "https://www.newsbytesapp.com/news/world/modi-and-trump-head-to-manila-for-quad-leaders-summit/tldr"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  EUROPE",
+   "headline": "In Brussels, Europe Squeezes Russia and Helps Ukraine",
+   "deck": "EU ministers punished nearly 50 Russian banks and sent Ukraine a big payment.",
+   "body": [
+    "On Monday, European Union ministers met in Brussels, in Belgium. They put sanctions, or punishments, on 113 more Russian people and companies. Nearly 50 are banks.",
+    "The same day, the EU approved nearly 8 billion euros for Ukraine. It is the biggest payment yet from a plan offering more than 50 billion euros.",
+    "EU official Kaja Kallas said Russia adds demands to keep the war going. “A ceasefire must come first,” she wrote."
+   ],
+   "chart": {
+    "title": "THE EU’S UKRAINE FACILITY",
+    "subtitle": "Billions of euros, rounded",
+    "labels": [
+     "Whole plan",
+     "New payment"
+    ],
+    "values": [
+     50,
+     8
+    ],
+    "max": 60,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "The whole plan offers more than 50 billion euros. The new payment is nearly 8 billion."
+   },
+   "why": "Kallas says sanctions and frozen money give Europe power as it pushes for a ceasefire and then peace.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+     "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+    },
+    {
+     "outlet": "EU Perspectives",
+     "title": "113 more targets: How is the EU tightening the screws on Russia?",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+    },
+    {
+     "outlet": "Council of the EU",
+     "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+    },
+    {
+     "outlet": "Hromadske",
+     "title": "EU approves record €8 billion Ukraine Facility payment after Kyiv meets reform targets",
+     "url": "https://hromadske.ua/en/europa/274463-eu-approves-record-eur8-billion-ukraine-facility-payment-after-kyiv-meets-reform-targets"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "EU ministers demand united response as Russian attacks spill beyond Ukraine",
+     "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "United States: Flights are nearly normal after a faulty router halted all US departures for over four hours.",
+    "Space: Europe’s Euclid telescope found its first comet, between Jupiter and Saturn."
+   ],
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
+     "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Thursday: Trump, Xi and Putin are due to meet in Shenzhen.",
+    "Türkiye: the UN climate summit COP31 enters its final week."
+   ]
+  }
+ },
+ "play": {
+  "quiz": [
+   {
+    "q": "Where is the first stop on Trump’s trip to Asia?",
+    "options": [
+     "Shenzhen",
+     "Manila",
+     "Brussels"
+    ],
+    "answer": 1,
+    "why": "The paper says his first stop is Manila, the capital of the Philippines.",
+    "story": "lead"
+   },
+   {
+    "q": "Which four countries make up the Quad?",
+    "options": [
+     "The US, India, Japan and Australia",
+     "China, Russia, Thailand and Belgium",
+     "The Philippines, China, Russia and India"
+    ],
+    "answer": 0,
+    "why": "The paper says the Quad is the United States, India, Japan and Australia.",
+    "story": "lead"
+   },
+   {
+    "q": "Who is due to join Trump and Xi Jinping in Shenzhen?",
+    "options": [
+     "Anthony Albanese",
+     "Kaja Kallas",
+     "Vladimir Putin"
+    ],
+    "answer": 2,
+    "why": "The paper says Russia’s President Vladimir Putin is due to join them on Thursday.",
+    "story": "lead"
+   },
+   {
+    "q": "What are sanctions?",
+    "options": [
+     "Punishments",
+     "Payments to help a country",
+     "Meetings between leaders"
+    ],
+    "answer": 0,
+    "why": "The paper says the EU put sanctions, or punishments, on 113 more Russian people and companies.",
+    "story": "world"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Trump’s trip to Asia began at an air base in Maryland.",
+    "true": true,
+    "why": "The paper says he took off from Joint Base Andrews, in the state of Maryland.",
+    "story": "lead"
+   },
+   {
+    "claim": "A White House official said the leaders are expected to sign a deal to get rid of nuclear weapons.",
+    "true": false,
+    "why": "The paper says no such deal is expected; the meeting is a starting point for talks.",
+    "story": "lead"
+   },
+   {
+    "claim": "The EU’s new payment to Ukraine is nearly 8 billion euros.",
+    "true": true,
+    "why": "The paper says the EU approved nearly 8 billion euros for Ukraine.",
+    "story": "world"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Manila",
+    "lat": 14.6,
+    "lon": 120.98,
+    "countries": [
+     "Philippines",
+     "China",
+     "United States"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Brussels",
+    "lat": 50.85,
+    "lon": 4.35,
+    "countries": [
+     "Belgium",
+     "Russia",
+     "Ukraine"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "lead",
+    "q": "How many countries are in ASEAN?",
+    "answer": 11,
+    "prefix": "",
+    "unit": "countries",
+    "min": 2,
+    "max": 30,
+    "why": "ASEAN is a club of 11 countries in Southeast Asia."
+   },
+   {
+    "story": "world",
+    "q": "How many more Russian people and companies did the EU put sanctions on?",
+    "answer": 113,
+    "prefix": "",
+    "unit": "names",
+    "min": 10,
+    "max": 300,
+    "why": "EU ministers put sanctions on 113 more Russian people and companies."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "outlet": "Korea Times (AP)",
+   "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+   "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+  },
+  {
+   "outlet": "PBS NewsHour (AP)",
+   "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+   "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+  },
+  {
+   "outlet": "The Tribune (ANI)",
+   "title": "Trump heads to Asia for ASEAN, Putin-Xi summit; PM Modi in Manila for ASEAN, Quad engagements",
+   "url": "https://www.tribuneindia.com/news/asean/trump-heads-to-asia-for-asean-putin-xi-summit-pm-modi-in-manila-for-asean-quad-engagements"
+  },
+  {
+   "outlet": "HERE Columbia",
+   "title": "Trump Heads to Asia for Xi and Putin Summit",
+   "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+  },
+  {
+   "outlet": "France 24",
+   "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+   "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+  },
+  {
+   "outlet": "Yahoo News",
+   "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+   "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+  },
+  {
+   "outlet": "NewsBytes",
+   "title": "Modi and Trump head to Manila for Quad leaders summit",
+   "url": "https://www.newsbytesapp.com/news/world/modi-and-trump-head-to-manila-for-quad-leaders-summit/tldr"
+  },
+  {
+   "outlet": "Al Jazeera",
+   "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+   "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+  },
+  {
+   "outlet": "EU Perspectives",
+   "title": "113 more targets: How is the EU tightening the screws on Russia?",
+   "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+  },
+  {
+   "outlet": "Council of the EU",
+   "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+  },
+  {
+   "outlet": "Hromadske",
+   "title": "EU approves record €8 billion Ukraine Facility payment after Kyiv meets reform targets",
+   "url": "https://hromadske.ua/en/europa/274463-eu-approves-record-eur8-billion-ukraine-facility-payment-after-kyiv-meets-reform-targets"
+  },
+  {
+   "outlet": "Euronews",
+   "title": "EU ministers demand united response as Russian attacks spill beyond Ukraine",
+   "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine"
+  },
+  {
+   "outlet": "CBS News",
+   "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+   "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+  },
+  {
+   "outlet": "Space.com",
+   "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
+   "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+  }
+ ]
+}
