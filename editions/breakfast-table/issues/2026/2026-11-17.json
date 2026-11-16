@@ -1,0 +1,616 @@
+{
+ "edition": "breakfast-table",
+ "date": "2026-11-17",
+ "volume": 1,
+ "issue": 28,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  NUCLEAR TALKS",
+   "headline": "Why One Meeting Far Away Matters to Every Family",
+   "deck": "Three nuclear powers plan their first meeting together.",
+   "body": [
+    "Some decisions made far away matter at every kitchen table. This week the leaders of the United States, China and Russia, the world’s biggest nuclear powers, plan to meet together for the first time ever.",
+    "US President Donald Trump stops first in Manila, in the Philippines. On Thursday, in Shenzhen, China, he is due to meet China’s Xi Jinping, and Russia’s Vladimir Putin is due to join them. They are to talk about nuclear stockpiles, the weapons each country keeps.",
+    "A White House official said no deal to get rid of the weapons is expected, and called the meeting a starting point for talks on shrinking stockpiles. China has long said America and Russia must first cut their own large arsenals before it talks about its own.",
+    "Trade touches homes too. Last year Trump and Xi agreed a truce that cut some US tariffs, taxes on goods brought in, on things from China. It runs out in January."
+   ],
+   "map": {
+    "title": "ONE TRIP, TWO STOPS",
+    "label_top": "FIRST STOP: MANILA",
+    "label_bottom": "THEN: SHENZHEN, CHINA",
+    "footnote": "Plans for 17-19 November can still change",
+    "caption": "The map marks the Philippines, China and Russia.",
+    "countries": [
+     "Philippines",
+     "China",
+     "Russia"
+    ],
+    "place": "Manila"
+   },
+   "why": "How many nuclear weapons the biggest powers keep affects everyone, and officials say this is only a start.",
+   "sources": [
+    {
+     "outlet": "Korea Times (AP)",
+     "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+     "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+    },
+    {
+     "outlet": "PBS NewsHour (AP)",
+     "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+     "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+    },
+    {
+     "outlet": "The Tribune (ANI)",
+     "title": "Trump heads to Asia for ASEAN, Putin-Xi summit; PM Modi in Manila for ASEAN, Quad engagements",
+     "url": "https://www.tribuneindia.com/news/asean/trump-heads-to-asia-for-asean-putin-xi-summit-pm-modi-in-manila-for-asean-quad-engagements"
+    },
+    {
+     "outlet": "HERE Columbia",
+     "title": "Trump Heads to Asia for Xi and Putin Summit",
+     "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+    },
+    {
+     "outlet": "France 24",
+     "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+     "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+    },
+    {
+     "outlet": "NewsBytes",
+     "title": "Modi and Trump head to Manila for Quad leaders summit",
+     "url": "https://www.newsbytesapp.com/news/world/modi-and-trump-head-to-manila-for-quad-leaders-summit/tldr"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  EUROPE",
+   "headline": "Europe Sends Ukraine Its Biggest Payment and Squeezes Russia’s Banks",
+   "deck": "EU ministers say a ceasefire, a stop to the fighting, must come first.",
+   "body": [
+    "Sanctions are rules that cut off money and trade, to put pressure on a country without fighting. On Monday the European Union, a group of European countries, added 113 new names to its sanctions on Russia over its war in Ukraine, including nearly 50 banks and other money firms. Their assets, such as money and property, are frozen, and 12 people on the list may not travel to EU countries.",
+    "EU ministers also approved nearly 8 billion euros for Ukraine, the largest single payment from a fund called the Ukraine Facility. The fund offers more than 50 billion euros until 2027. Once this payment arrives, Ukraine will have received more than 40 billion euros from it.",
+    "The EU’s foreign policy chief, Kaja Kallas, said Russia keeps adding demands as an excuse to keep the war going. “A ceasefire must come first,” she wrote."
+   ],
+   "chart": {
+    "title": "EU FUND FOR UKRAINE, BILLION EUROS",
+    "subtitle": "Payments from the Ukraine Facility",
+    "labels": [
+     "This step",
+     "Paid total",
+     "Whole fund"
+    ],
+    "values": [
+     8,
+     40,
+     50
+    ],
+    "max": 55,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "Nearly 8 now; more than 40 paid once it arrives; more than 50 offered until 2027."
+   },
+   "connect": "Economics: Kallas said Europe’s sanctions and the Russian money it has frozen give it leverage, the power to push for a result.",
+   "sources": [
+    {
+     "outlet": "Al Jazeera",
+     "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+     "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+    },
+    {
+     "outlet": "EU Perspectives",
+     "title": "113 more targets: How is the EU tightening the screws on Russia?",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+    },
+    {
+     "outlet": "Council of the EU",
+     "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  AIR TRAVEL",
+   "headline": "One Faulty Box Kept America’s Planes on the Ground",
+   "deck": "Flights are close to normal again after Friday’s stop.",
+   "body": [
+    "On Friday, travellers across America waited at once. The FAA, which guides planes through the sky, stopped every flight from taking off for more than four hours. About 3,500 planes were already flying, and all of them landed safely. About 9,159 flights were cancelled that day.",
+    "The cause was a router, a box that passes messages between computers. A worker replacing one in El Dorado, Arkansas, set off a flood of about 1,000 log-on attempts every four to five seconds. Officials found no sign of a cyberattack.",
+    "By Monday most airlines were back to normal or close to it. The government has asked for more money to upgrade the old network. Officials say it is safe to fly, and advise checking with your airline before you go."
+   ],
+   "why": "When one part of a shared system fails, thousands of family trips can be held up at once.",
+   "also": [
+    "Senate: Democrats will pick their Senate leader in a secret vote; Chris Van Hollen is challenging Chuck Schumer.",
+    "Climate: 18 Democrats from the US House went to the climate summit in Türkiye to push for climate action."
+   ],
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+     "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+    },
+    {
+     "outlet": "Jalopnik",
+     "title": "Router In Arkansas Sparked FAA's Nationwide Ground Stop",
+     "url": "https://www.jalopnik.com/2318146/router-in-arkansas-sparked-faa-nationwide-ground-stop/"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Chris Van Hollen says he can beat Chuck Schumer for Senate leader",
+     "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "Van Hollen to challenge Schumer for Senate Democratic leader",
+     "url": "https://www.pbs.org/newshour/politics/van-hollen-to-challenge-schumer-for-senate-democratic-leader"
+    },
+    {
+     "outlet": "Climate Home News",
+     "title": "COP31 Bulletin Day 7: Incoming ministers set to battle over cover text",
+     "url": "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Space: Europe’s Euclid telescope found its first comet, far out between Jupiter and Saturn.",
+    "Wildlife: Electric shocks, trains, poaching and poison killed over 1,760 elephants in India since 2009."
+   ]
+  },
+  "discussion": {
+   "title": "TALK ABOUT IT",
+   "body": [
+    "If you could ask the three leaders meeting in Shenzhen one question, what would it be?",
+    "When a flight is cancelled, how can a family make a new plan?",
+    "When a business pays more for fuel and power, should it raise its own prices? Why or why not?"
+   ],
+   "sources": [
+    {
+     "outlet": "Space.com",
+     "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
+     "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+    },
+    {
+     "outlet": "ThePrint (PTI)",
+     "title": "Electrocution, train hits, poaching and poisoning behind 1,760 elephant deaths since 2009: RTI reply",
+     "url": "https://theprint.in/india/electrocution-train-hits-poaching-and-poisoning-behind-1760-elephant-deaths-since-2009-rti-reply/3100172/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  PRICES",
+   "headline": "Businesses in India Pay Much More for Fuel and Power",
+   "deck": "Economists warn shoppers could feel it next.",
+   "body": [
+    "Before goods reach a shop, the businesses that make and sell them buy fuel, power and materials. The prices they pay when they buy in bulk are called wholesale prices. On Monday India’s government said these were 12.29% higher in October than a year earlier.",
+    "The biggest push came from fuel and power, which cost 32.84% more. Electricity alone rose 8.06%, after falling a little in September. Economist Madan Sabnavis of Bank of Baroda pointed to higher crude oil prices and strong demand for power during heat waves. Food rose 8.58%, a little slower than the month before.",
+    "So far, companies have passed on only some of these costs. Sabnavis said the rises will push companies to raise their prices. Economists at a firm called ICRA expect October to be the peak, with about 11.6% in November. The next figures are due on 14 December."
+   ],
+   "why": "Economists warn that what businesses pay now could show up in family shopping in the coming months.",
+   "sources": [
+    {
+     "outlet": "The Tribune",
+     "title": "Wholesale inflation rises to 12.29% in October on higher fuel, power prices",
+     "url": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+    },
+    {
+     "outlet": "Forbes India",
+     "title": "WPI inflation hits series-high 12.29 percent in October as fuel prices surge",
+     "url": "https://www.forbesindia.com/business/economy/wpi-inflation-hits-series-high-12-29-percent-in-october-as-fuel-prices-surge-article/3000572"
+    }
+   ]
+  },
+  "sports": {
+   "title": "CRICKET: INDIA WIN OFF THE LAST BALL",
+   "body": "In the Under-19 Asia Cup final in Oman, India needed 3 runs from the last ball against Pakistan. <b>Mohit Ulva</b> hit it for four, and India passed Pakistan’s <b>337</b> to win by one wicket and take their ninth title.",
+   "sources": [
+    {
+     "outlet": "The Tribune (PTI)",
+     "title": "U-19 Asia Cup: India beat Pakistan by one wicket in last-ball thriller to clinch title",
+     "url": "https://www.tribuneindia.com/news/cricket/u-19-asia-cup-india-beat-pakistan-by-one-wicket-in-last-ball-thriller-to-regain-title/"
+    },
+    {
+     "outlet": "Yahoo Sports",
+     "title": "WATCH: Mohit Ulva's last-ball boundary seals India's thrilling U-19 Asia Cup triumph over Pakistan",
+     "url": "https://sports.yahoo.com/articles/watch-mohit-ulvas-last-ball-200400766.html"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "What the leaders of the United States, India, Japan and Australia say after meeting in Manila on Tuesday.",
+    "Trump’s visit with the Philippines’ president, Ferdinand Marcos Jr., on Wednesday, before he flies to Shenzhen."
+   ]
+  },
+  "quote": {
+   "text": "Big talks often start small, with people agreeing to sit at the same table.",
+   "by": ""
+  }
+ },
+ "sources": [
+  {
+   "outlet": "Korea Times (AP)",
+   "title": "Trump's Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+   "url": "https://www.koreatimes.co.kr/world/20261117/trumps-asia-trip-deals-in-manila-and-shenzhen-nuclear-summit-with-xi-and-putin-maybe-kim-meeting"
+  },
+  {
+   "outlet": "PBS NewsHour (AP)",
+   "title": "Trump's Asia reset: Deals in Manila and Shenzhen, then a rare nuclear summit with Xi and Putin",
+   "url": "https://www.pbs.org/newshour/politics/trumps-asia-reset-deals-in-manila-and-shenzhen-then-a-rare-nuclear-summit-with-xi-and-putin"
+  },
+  {
+   "outlet": "The Tribune (ANI)",
+   "title": "Trump heads to Asia for ASEAN, Putin-Xi summit; PM Modi in Manila for ASEAN, Quad engagements",
+   "url": "https://www.tribuneindia.com/news/asean/trump-heads-to-asia-for-asean-putin-xi-summit-pm-modi-in-manila-for-asean-quad-engagements"
+  },
+  {
+   "outlet": "HERE Columbia",
+   "title": "Trump Heads to Asia for Xi and Putin Summit",
+   "url": "https://www.herecolumbia.com/2026/11/16/trump-asia-trip-manila-shenzhen-xi-putin-summit/"
+  },
+  {
+   "outlet": "France 24",
+   "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
+   "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says"
+  },
+  {
+   "outlet": "Yahoo News",
+   "title": "Trump, Xi and Putin plan unprecedented three-way summit in Shenzhen",
+   "url": "https://www.yahoo.com/news/politics/articles/trump-xi-putin-plan-unprecedented-164830841.html"
+  },
+  {
+   "outlet": "NewsBytes",
+   "title": "Modi and Trump head to Manila for Quad leaders summit",
+   "url": "https://www.newsbytesapp.com/news/world/modi-and-trump-head-to-manila-for-quad-leaders-summit/tldr"
+  },
+  {
+   "outlet": "Al Jazeera",
+   "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+   "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war"
+  },
+  {
+   "outlet": "EU Perspectives",
+   "title": "113 more targets: How is the EU tightening the screws on Russia?",
+   "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-113-listings-kallas/"
+  },
+  {
+   "outlet": "Council of the EU",
+   "title": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-facility-council-approves-largest-ever-payment-of-8-billion-to-kyiv/"
+  },
+  {
+   "outlet": "CBS News",
+   "title": "Airline schedules returning to normal after nationwide ground stop, FAA says. Here's what to know.",
+   "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+  },
+  {
+   "outlet": "Jalopnik",
+   "title": "Router In Arkansas Sparked FAA's Nationwide Ground Stop",
+   "url": "https://www.jalopnik.com/2318146/router-in-arkansas-sparked-faa-nationwide-ground-stop/"
+  },
+  {
+   "outlet": "NPR",
+   "title": "Chris Van Hollen says he can beat Chuck Schumer for Senate leader",
+   "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+  },
+  {
+   "outlet": "PBS NewsHour",
+   "title": "Van Hollen to challenge Schumer for Senate Democratic leader",
+   "url": "https://www.pbs.org/newshour/politics/van-hollen-to-challenge-schumer-for-senate-democratic-leader"
+  },
+  {
+   "outlet": "Climate Home News",
+   "title": "COP31 Bulletin Day 7: Incoming ministers set to battle over cover text",
+   "url": "https://www.climatechangenews.com/2026/11/16/cop31-bulletin-day-7-sharp-divisions-lower-expectations-for-cop-outcome/"
+  },
+  {
+   "outlet": "Space.com",
+   "title": "Euclid space telescope discovers its 1st comet | Space photo of the day for Nov. 16, 2026",
+   "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+  },
+  {
+   "outlet": "ThePrint (PTI)",
+   "title": "Electrocution, train hits, poaching and poisoning behind 1,760 elephant deaths since 2009: RTI reply",
+   "url": "https://theprint.in/india/electrocution-train-hits-poaching-and-poisoning-behind-1760-elephant-deaths-since-2009-rti-reply/3100172/"
+  },
+  {
+   "outlet": "The Tribune",
+   "title": "Wholesale inflation rises to 12.29% in October on higher fuel, power prices",
+   "url": "https://www.tribuneindia.com/news/business/wholesale-inflation-rises-to-12-29-in-october-on-higher-fuel-power-prices/"
+  },
+  {
+   "outlet": "Forbes India",
+   "title": "WPI inflation hits series-high 12.29 percent in October as fuel prices surge",
+   "url": "https://www.forbesindia.com/business/economy/wpi-inflation-hits-series-high-12-29-percent-in-october-as-fuel-prices-surge-article/3000572"
+  },
+  {
+   "outlet": "The Tribune (PTI)",
+   "title": "U-19 Asia Cup: India beat Pakistan by one wicket in last-ball thriller to clinch title",
+   "url": "https://www.tribuneindia.com/news/cricket/u-19-asia-cup-india-beat-pakistan-by-one-wicket-in-last-ball-thriller-to-regain-title/"
+  },
+  {
+   "outlet": "Yahoo Sports",
+   "title": "WATCH: Mohit Ulva's last-ball boundary seals India's thrilling U-19 Asia Cup triumph over Pakistan",
+   "url": "https://sports.yahoo.com/articles/watch-mohit-ulvas-last-ball-200400766.html"
+  }
+ ],
+ "play": {
+  "quiz": [
+   {
+    "q": "Which three leaders are due to meet in Shenzhen?",
+    "options": [
+     "Trump, Xi and Putin",
+     "Trump, Modi and Albanese",
+     "Marcos, Xi and Takaichi"
+    ],
+    "answer": 0,
+    "why": "The paper says Trump is due to meet Xi, and Putin is due to join them.",
+    "story": "lead"
+   },
+   {
+    "q": "How much money did the EU approve for Ukraine in its largest single payment?",
+    "options": [
+     "Nearly 8 million euros",
+     "Nearly 8 billion euros",
+     "Nearly 80 billion euros"
+    ],
+    "answer": 1,
+    "why": "The paper says EU ministers approved nearly 8 billion euros for Ukraine.",
+    "story": "world"
+   },
+   {
+    "q": "What started Friday’s nationwide ground stop?",
+    "options": [
+     "A storm",
+     "A cyberattack",
+     "A new router"
+    ],
+    "answer": 2,
+    "why": "The paper says a worker replacing a router set off a flood of log-on attempts.",
+    "story": "us"
+   },
+   {
+    "q": "Which costs pushed India’s wholesale prices up the most?",
+    "options": [
+     "Fuel and power",
+     "Toys",
+     "Books"
+    ],
+    "answer": 0,
+    "why": "The paper says fuel and power cost 32.84% more than a year before.",
+    "story": "india"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Officials expect the Shenzhen meeting to end with a deal to get rid of nuclear weapons.",
+    "true": false,
+    "why": "The paper says a White House official said no deal to get rid of the weapons is expected.",
+    "story": "lead"
+   },
+   {
+    "claim": "All the planes in the air when the ground stop began landed safely.",
+    "true": true,
+    "why": "The paper says about 3,500 planes were flying and all of them landed safely.",
+    "story": "us"
+   },
+   {
+    "claim": "India’s wholesale food prices rose faster in October than in September.",
+    "true": false,
+    "why": "The paper says food prices rose 8.58%, a little slower than the month before.",
+    "story": "india"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "United States",
+     "China",
+     "Russia",
+     "Philippines"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Brussels",
+    "lat": 50.85,
+    "lon": 4.35,
+    "countries": [
+     "Belgium",
+     "Ukraine",
+     "Russia"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "El Dorado, Arkansas",
+    "lat": 33.21,
+    "lon": -92.67,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "India",
+    "lat": 22.0,
+    "lon": 79.0,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "us",
+    "q": "About how many planes were already flying when the ground stop began?",
+    "answer": 3500,
+    "prefix": "",
+    "unit": "planes",
+    "min": 500,
+    "max": 10000,
+    "why": "The paper says about 3,500 planes were flying, and all of them landed safely."
+   },
+   {
+    "story": "india",
+    "q": "How much more did fuel and power cost businesses in India than a year before?",
+    "answer": 32.84,
+    "prefix": "",
+    "unit": "%",
+    "min": 0,
+    "max": 60,
+    "why": "The paper says fuel and power cost 32.84% more than a year earlier."
+   }
+  ],
+  "brief": {
+   "format": 2,
+   "lines": [
+    {
+     "who": "maya",
+     "text": "Good morning, and welcome to The Breakfast Table for Tuesday, November 17. Today: a meeting of three powerful leaders, a day when America’s planes stood still, and why businesses in India are paying more.",
+     "section": "welcome"
+    },
+    {
+     "who": "sam",
+     "text": "Let’s start with that meeting. Who is meeting, and why does it matter to us at home?",
+     "section": "story",
+     "story": "lead",
+     "chapter": "Three leaders meet"
+    },
+    {
+     "who": "maya",
+     "text": "The leaders of the United States, China and Russia plan to meet together for the first time ever. These are the world’s biggest nuclear powers, and the weapons they keep matter to every family on Earth.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Where is it happening?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "In Shenzhen, in China, on Thursday. President Trump stops first in Manila, in the Philippines. Then China’s president, Xi Jinping, is due to meet him, and Russia’s president, Vladimir Putin, is due to join them.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "So will they agree to get rid of nuclear weapons?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "No. A White House official said no deal to get rid of the weapons is expected, and called the meeting a starting point for talks on shrinking stockpiles, the weapons each country keeps. China has long said America and Russia must first cut their own large arsenals.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Now, planes. What happened on Friday?",
+     "section": "story",
+     "story": "us",
+     "chapter": "Planes stood still"
+    },
+    {
+     "who": "maya",
+     "text": "The FAA, which guides planes through the sky, stopped every flight in the United States from taking off for more than four hours. About 3,500 planes were already flying, and all of them landed safely.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "What went wrong?",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "maya",
+     "text": "A router, a box that passes messages between computers. A worker was replacing one in El Dorado, Arkansas. That set off a flood of log-on attempts, about 1,000 every four to five seconds. Officials found no sign of a cyberattack.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "Is it fixed now?",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "maya",
+     "text": "By Monday most airlines were back to normal or close to it. The government has asked for more money to upgrade the old network. Officials say it is safe to fly, and advise checking with your airline before you go.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "Last story. Why are businesses in India paying more?",
+     "section": "story",
+     "story": "india",
+     "chapter": "Costs for businesses"
+    },
+    {
+     "who": "maya",
+     "text": "Before goods reach a shop, businesses buy fuel, power and materials. The prices they pay when they buy in bulk are called wholesale prices. In October they were 12.29 percent higher than a year earlier. The biggest push came from fuel and power, which cost 32.84 percent more.",
+     "section": "story",
+     "story": "india"
+    },
+    {
+     "who": "sam",
+     "text": "Does that mean shop prices go up too?",
+     "section": "story",
+     "story": "india"
+    },
+    {
+     "who": "maya",
+     "text": "Maybe later. So far, companies have passed on only some of these costs. But economist Madan Sabnavis said the rises will push companies to raise their prices. Economists at a firm called ICRA expect October to be the peak.",
+     "section": "story",
+     "story": "india"
+    },
+    {
+     "who": "sam",
+     "text": "What started Friday’s nationwide ground stop?",
+     "section": "quiz_question",
+     "quiz": 2
+    },
+    {
+     "who": "maya",
+     "text": "A new router The paper says a worker replacing a router set off a flood of log-on attempts.",
+     "section": "quiz_answer",
+     "quiz": 2
+    },
+    {
+     "who": "sam",
+     "text": "Which costs pushed India’s wholesale prices up the most?",
+     "section": "quiz_question",
+     "quiz": 3
+    },
+    {
+     "who": "maya",
+     "text": "Fuel and power The paper says fuel and power cost 32.84% more than a year before.",
+     "section": "quiz_answer",
+     "quiz": 3
+    },
+    {
+     "who": "maya",
+     "text": "If you could ask the three leaders meeting in Shenzhen one question, what would it be?",
+     "section": "discussion"
+    },
+    {
+     "who": "maya",
+     "text": "That is The Breakfast Table for today. Thank you for listening, and have a lovely day.",
+     "section": "close"
+    }
+   ]
+  }
+ }
+}
