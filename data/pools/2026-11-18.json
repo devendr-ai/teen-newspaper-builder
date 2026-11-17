@@ -1,0 +1,2729 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "quad-manila",
+    "headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027",
+    "what_happened": "On Tuesday 17 November 2026 the leaders of the US, India, Japan and Australia held a Quad Leaders' Summit in Manila, on the sidelines of the ASEAN summit. Trump announced critical minerals agreements, an AI accelerator and a first Quad business leaders forum, and the leaders agreed their patrol aircraft will join a maritime exercise in 2027.",
+    "why_it_matters": "The four countries are trying to secure supplies of critical minerals and protect sea lanes in the Indo-Pacific; their joint statement opposed changing the region's status quo by force or coercion.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "A White House joint press release says President Donald J. Trump of the United States, Prime Minister Anthony Albanese of Australia, Prime Minister Narendra Modi of India and Prime Minister Takaichi Sanae of Japan met for a Quad Leaders' Summit in Manila.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     },
+     {
+      "fact": "The Quad leaders met on Tuesday, 17 November 2026, towards the end of the ASEAN Summit in Manila.",
+      "source_url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+     },
+     {
+      "fact": "CNN called it the first leader-level meeting of the Quad since Trump took office; it came just before Trump travels to China to meet Xi Jinping.",
+      "source_url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "Trump joined the ASEAN summit in Manila on the first day of a three-day trip to Asia.",
+      "source_url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+     },
+     {
+      "fact": "Trump announced new critical minerals agreements, saying they would prevent 'coercion by any single foreign supplier'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "Trump did not name the partners or the minerals involved in the deals and did not single out China, which dominates global rare earth supplies.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The leaders' joint statement opposed actions that seek to change the status quo through force or coercion, and voiced 'grave concerns' about 'economic coercion', including through arbitrary export restrictions.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The joint statement did not name any country.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The leaders' P-8 and P-3C patrol aircraft are slated to join a maritime exercise in 2027, the first of its kind in a Quad setting.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The leaders also launched an Indo-Pacific Maritime Surveillance Collaboration to improve information sharing and maritime domain awareness.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The Quad is launching an AI accelerator and spending more than $85 million to expand access to trusted AI ecosystems across the Indo-Pacific.",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "fact": "Trump described AI as 'bigger than the industrial revolution' and 'bigger than the Internet'.",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "fact": "Trump announced the first Quad Business Leaders Forum, set for 2027.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "Other outcomes reported include cybersecurity cooperation alongside the AI accelerator.",
+      "source_url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/"
+     },
+     {
+      "fact": "Trump called the four countries 'the four corners of a free, open, stable, and prosperous Indo-Pacific', and said the patrol-aircraft exercise came as the group continues to protect peace through strength.",
+      "source_url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907"
+     },
+     {
+      "fact": "Modi recognised Manila as the city where the Quad was founded nearly 20 years ago, and said he was confident the meeting would help set concrete goals for the next phase of cooperation.",
+      "source_url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+     },
+     {
+      "fact": "It was Takaichi's first Quad leaders' meeting; she said the Quad has always contributed to the peace and stability of the region.",
+      "source_url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+     },
+     {
+      "fact": "Albanese identified critical minerals, rare earths, artificial intelligence and maritime security as priorities; Takaichi said the group would strengthen the resilience of countries in the region across maritime, economic and technology areas.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The leaders also announced initiatives on undersea cable connectivity and cybersecurity.",
+      "source_url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/"
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "The joint press release says the first Quad Business Leaders' Forum is scheduled for early 2027 and will bring together business leaders, government officials and policy experts from the four countries.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "bringing together business leaders, government officials, and policy experts from Quad countries",
+      "background": false
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "Under the Quad Partnership for Cable Connectivity and Resilience, the leaders welcomed an expansion of Australia's contribution to focus on electricity cables, and upcoming undersea cable projects in the Indian Ocean.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "We also welcome upcoming undersea cables projects in the Indian Ocean",
+      "background": false
+     },
+     {
+      "kind": "limitation",
+      "fact": "The joint press release itself speaks of 'securing critical supply chains' rather than naming critical minerals deals.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "securing critical supply chains",
+      "background": false
+     },
+     {
+      "fact": "Background: critical minerals are raw materials that are essential to modern devices but have supply risks; phone batteries use lithium and cobalt, and electric cars rely on lithium, cobalt and nickel, mostly in their batteries.",
+      "source_url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+     },
+     {
+      "fact": "Background: China has introduced export controls on graphite, gallium, tungsten, bismuth, germanium and rare earths.",
+      "source_url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Quad AI spending",
+      "value": 85,
+      "unit": "million US dollars (more than)",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "label": "Quad countries",
+      "value": 4,
+      "unit": "countries",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     }
+    ],
+    "geography": "Manila, capital of the Philippines; the four Quad countries are the United States, India, Japan and Australia; the Indo-Pacific region.",
+    "sources": [
+     {
+      "outlet": "The White House",
+      "title": "Quad Leaders' Summit Joint Press Release",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump announces critical minerals agreements at Quad meeting in Manila",
+      "url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "GMA News",
+      "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "CNN",
+      "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+      "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Korea Herald",
+      "title": "Quad leaders announce plans for 1st maritime patrol aircraft exercise in 2027",
+      "url": "https://www.koreaherald.com/article/10940465",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "Quad sharpens maritime security cooperation, flags economic coercion",
+      "url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "WION",
+      "title": "Trump pitches Quad as security and AI alliance, announces critical minerals deals",
+      "url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Epoch Times",
+      "title": "Trump Arrives in Philippines, Meets Quad Leaders",
+      "url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "South Asian Herald",
+      "title": "Quad Leaders Advance Indo-Pacific Security, Technology and Economic Cooperation in Manila",
+      "url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Australia Today",
+      "title": "Australia joins Quad's strong warning against force or coercion",
+      "url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Belfer Center",
+      "title": "Explainer: What are critical minerals?",
+      "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     ],
+     "details": [
+      {
+       "kind": "concrete_detail",
+       "fact": "The joint press release says the first Quad Business Leaders' Forum is scheduled for early 2027 and will bring together business leaders, government officials and policy experts from the four countries.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "bringing together business leaders, government officials, and policy experts from Quad countries",
+       "background": false
+      },
+      {
+       "kind": "concrete_detail",
+       "fact": "Under the Quad Partnership for Cable Connectivity and Resilience, the leaders welcomed an expansion of Australia's contribution to focus on electricity cables, and upcoming undersea cable projects in the Indian Ocean.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "We also welcome upcoming undersea cables projects in the Indian Ocean",
+       "background": false
+      },
+      {
+       "kind": "limitation",
+       "fact": "The joint press release itself speaks of 'securing critical supply chains' rather than naming critical minerals deals.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "securing critical supply chains",
+       "background": false
+      }
+     ]
+    }
+   },
+   {
+    "id": "kerch-bridge",
+    "headline": "Ukraine Brings Down a Road Span of the Kerch Bridge Linking Russia to Crimea, Two Days Before Shenzhen",
+    "what_happened": "Ukrainian drones and missiles struck the Kerch Bridge, which links Russia to Russian-occupied Crimea, for a second night running; Ukraine said one steel arch and the road span beneath it were destroyed. The Kremlin called the damage minor.",
+    "why_it_matters": "The bridge is a key supply route for Russia into Crimea, and the strike came two days before Putin was due to meet Trump and Xi in Shenzhen.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "A Ukrainian drone and missile strike on Tuesday 17 November brought down the main road arch of the Kerch Bridge linking Russia to occupied Crimea.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     },
+     {
+      "fact": "Ukraine's SBU security service said one metal arch and the road span beneath it were destroyed.",
+      "source_url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+     },
+     {
+      "fact": "Ukraine attacked the Kerch Bridge for a second day in a row, forcing traffic across the crossing to be suspended.",
+      "source_url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html"
+     },
+     {
+      "fact": "Russia's Transport Ministry said rail traffic had resumed on one track.",
+      "source_url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+     },
+     {
+      "fact": "Zelenskyy said domestically developed long-range drones struck the road section during the night, while Neptune missiles and other drones aimed at the rail section; Flamingo missiles delivered the final blow.",
+      "source_url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+     },
+     {
+      "fact": "Zelenskyy described the attack as the seventh stage of an operation that lasted several weeks.",
+      "source_url": "https://www.nbcnews.com/world/russia/kerch-bridge-strikes-putin-crimea-ukraine-russia-war-kyiv-rcna609756"
+     },
+     {
+      "fact": "The Kremlin called the damage minor; spokesperson Dmitry Peskov said traffic continued and the bridge would be even better than before.",
+      "source_url": "https://www.ksl.com/article/51646380/ukraine-strikes-russias-kerch-bridge-with-drones-and-missiles-as-aerial-attacks-escalate"
+     },
+     {
+      "fact": "Russia said it shot down 1,441 Ukrainian drones overnight, and Zelenskyy said seven Russian ballistic missiles hit two of Kyiv's main bridges.",
+      "source_url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+     },
+     {
+      "fact": "The strike came two days before Putin was scheduled to meet Trump and Xi Jinping in Shenzhen, China.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     },
+     {
+      "fact": "The Institute for the Study of War said the attacks were likely part of Kyiv's campaign to deny Russian forces use of major supply routes via Crimea.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     },
+     {
+      "fact": "The road bridge was opened by Vladimir Putin in May 2018; it is about 16.9 km long, and the railway bridge, which opened to freight trains in 2020, is about 18.1 km long.",
+      "source_url": "https://en.wikipedia.org/wiki/Crimean_Bridge"
+     },
+     {
+      "fact": "The bridge links Crimea with Russia's mainland across the Kerch Strait.",
+      "source_url": "https://en.wikipedia.org/wiki/Crimean_Bridge"
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "The bridge cost $3.7 billion and was built to handle 40,000 cars a day; Putin opened it in 2018, four years after Russia seized Crimea from Ukraine.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+      "evidence": "It cost $3.7 billion and was built to handle 40,000 cars a day",
+      "background": true
+     },
+     {
+      "kind": "limitation",
+      "fact": "The bridge was once a key supply route for Russian forces, but Russia's military now relies more on a land corridor and depends on the bridge less than it once did.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+      "evidence": "Russia's military depends on the bridge less than it once did.",
+      "background": false
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "The bridge spans a channel used by ships entering and leaving the Sea of Azov, and the collapse could substantially delay any eventual return of shipping from that sea.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+      "evidence": "a channel used by commercial vessels entering and leaving the Sea of Azov",
+      "background": false
+     },
+     {
+      "fact": "Russian Deputy Prime Minister Marat Khusnullin said a government commission met to assess the damage and discussed delivering cargo to Crimea by alternative routes.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     },
+     {
+      "fact": "Russia's Investigative Committee called the strike a 'terrorist act by Ukrainian armed groups'; Russia's Transport Ministry said no casualties resulted from the incident.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     },
+     {
+      "fact": "Ukraine's General Staff said the road section is out of service and no vehicle can cross it; the parallel rail bridge is still standing but its arch has been damaged.",
+      "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Road bridge length",
+      "value": 16.9,
+      "unit": "km",
+      "source_url": "https://en.wikipedia.org/wiki/Crimean_Bridge"
+     },
+     {
+      "label": "Drones Russia said it shot down overnight",
+      "value": 1441,
+      "unit": "drones",
+      "source_url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+     }
+    ],
+    "geography": "The Kerch Strait between Crimea (Ukraine, occupied by Russia) and Russia's mainland; joins the Black Sea and the Sea of Azov. Kyiv, Ukraine.",
+    "sources": [
+     {
+      "outlet": "Military.com",
+      "title": "Ukraine Drones and Missiles Collapse Russia's Kerch Bridge Road Span Days Before Putin, Trump and Xi Meet",
+      "url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Kerch Bridge: Ukraine damages Putin's prized Crimea crossing",
+      "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "PBS NewsHour",
+      "title": "'The symbol of the occupation': Ukraine destroys span of Kerch Bridge linking Russia with Crimea",
+      "url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+      "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Putin's Kerch Bridge to Crimea partially destroyed by Ukraine strike",
+      "url": "https://www.nbcnews.com/world/russia/kerch-bridge-strikes-putin-crimea-ukraine-russia-war-kyiv-rcna609756",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "KSL",
+      "title": "Ukraine strikes Russia's Kerch Bridge with drones and missiles as aerial attacks escalate",
+      "url": "https://www.ksl.com/article/51646380/ukraine-strikes-russias-kerch-bridge-with-drones-and-missiles-as-aerial-attacks-escalate",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Wikipedia",
+      "title": "Crimean Bridge",
+      "url": "https://en.wikipedia.org/wiki/Crimean_Bridge",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Ukraine Brings Down a Road Span of the Kerch Bridge Linking Russia to Crimea, Two Days Before Shenzhen",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+     ],
+     "details": [
+      {
+       "kind": "concrete_detail",
+       "fact": "The bridge cost $3.7 billion and was built to handle 40,000 cars a day; Putin opened it in 2018, four years after Russia seized Crimea from Ukraine.",
+       "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+       "evidence": "It cost $3.7 billion and was built to handle 40,000 cars a day",
+       "background": true
+      },
+      {
+       "kind": "limitation",
+       "fact": "The bridge was once a key supply route for Russian forces, but Russia's military now relies more on a land corridor and depends on the bridge less than it once did.",
+       "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+       "evidence": "Russia's military depends on the bridge less than it once did.",
+       "background": false
+      },
+      {
+       "kind": "concrete_detail",
+       "fact": "The bridge spans a channel used by ships entering and leaving the Sea of Azov, and the collapse could substantially delay any eventual return of shipping from that sea.",
+       "source_url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi",
+       "evidence": "a channel used by commercial vessels entering and leaving the Sea of Azov",
+       "background": false
+      }
+     ]
+    }
+   },
+   {
+    "id": "us-thailand-trade",
+    "headline": "US and Thailand Sign a Trade Statement in Manila; a Final Deal Is Due in the Coming Weeks",
+    "what_happened": "On 17 November 2026 Trump and Thai Prime Minister Anutin Charnvirakul signed a joint trade statement on the sidelines of the ASEAN summit in Manila. Trump said Thailand will eliminate all tariffs on US exports and buy about $2.6 billion more in US farm goods; the US 19% tariff on Thai goods stays.",
+    "why_it_matters": "Tariffs are taxes on imported goods that change prices for shoppers and businesses; the deal is not final until it passes legal and domestic approval.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "Trump and Thai Prime Minister Anutin Charnvirakul signed a joint trade statement on the sidelines of the 49th ASEAN Summit in Manila on Tuesday, 17 November 2026.",
+      "source_url": "https://www.thaipbsworld.com/economy/572885"
+     },
+     {
+      "fact": "Trump said 'Thailand will eliminate all tariffs on US exports'.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/17/trump-meets-regional-allies-in-manila-ahead-of-china-visit-thailand-will-eliminate-tariffs-on-us-exports-under-deal-to-be-signed-soon"
+     },
+     {
+      "fact": "Trump said Thailand would remove non-tariff barriers on American vehicles, medical devices, pharmaceuticals, ethanol and poultry.",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     },
+     {
+      "fact": "Trump said Thailand would buy an estimated $2.6 billion in additional US agricultural products.",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     },
+     {
+      "fact": "Bloomberg reported the statement declared the two countries had substantially concluded negotiations; the final agreement still needs legal and domestic approval before it can be signed and take effect.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal"
+     },
+     {
+      "fact": "Trump said the formal agreement would be finalised 'in the coming weeks'.",
+      "source_url": "https://www.thaipbsworld.com/economy/572885"
+     },
+     {
+      "fact": "Neither leader announced an implementation date or the concessions Washington would offer Bangkok in return.",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     },
+     {
+      "fact": "A US 19% tariff rate on Thailand will remain in place under the newly announced framework.",
+      "source_url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327"
+     },
+     {
+      "fact": "In 2025 the US lowered a threatened 36% tariff on Thailand to 19%.",
+      "source_url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+     },
+     {
+      "fact": "A framework was first unveiled in October 2025 at the Kuala Lumpur ASEAN summit; it covered about 99% of US goods.",
+      "source_url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+     },
+     {
+      "fact": "Anutin said he was pleased the two sides had reached a substantial conclusion of negotiations on the agreement on reciprocal trade, and was confident it would be ready to sign 'real soon'.",
+      "source_url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850"
+     },
+     {
+      "fact": "The White House joint statement says the two countries 'have reached substantial conclusion' in negotiations on an Agreement on Reciprocal Trade (ART), and will now begin internal processes to prepare it for signature and entry into force.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/"
+     },
+     {
+      "fact": "Insider Paper reports that the US Supreme Court struck down country-specific tariffs in February, but Washington has since alleged insufficient action against forced labour to impose new tariffs on 60 economies, including Thailand.",
+      "source_url": "https://insiderpaper.com/us-thailand-sign-joint-trade-statement/"
+     },
+     {
+      "fact": "Anutin acknowledged there is still a little more to do before a binding text.",
+      "source_url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US tariff on Thai goods",
+      "value": 19,
+      "unit": "%",
+      "source_url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327"
+     },
+     {
+      "label": "Threatened US tariff in 2025",
+      "value": 36,
+      "unit": "%",
+      "source_url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+     },
+     {
+      "label": "Extra US farm goods Thailand would buy",
+      "value": 2.6,
+      "unit": "billion US dollars",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     }
+    ],
+    "geography": "Manila, Philippines (where it was signed); Thailand and the United States.",
+    "sources": [
+     {
+      "outlet": "Thai PBS World",
+      "title": "Trump signs trade statement with Thailand on ASEAN sidelines in Philippines",
+      "url": "https://www.thaipbsworld.com/economy/572885",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "Thailand Opening Markets Wider to US to Secure Trade Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Star",
+      "title": "Trump meets regional allies in Manila ahead of China visit; Thailand will eliminate tariffs on US exports",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/17/trump-meets-regional-allies-in-manila-ahead-of-china-visit-thailand-will-eliminate-tariffs-on-us-exports-under-deal-to-be-signed-soon",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Clash Report",
+      "title": "Thailand Will Eliminate All Tariffs on U.S. Exports, Trump Says",
+      "url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Anadolu Agency",
+      "title": "US, Thailand sign joint trade statement, defer formal deal",
+      "url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "IBTimes Singapore",
+      "title": "Trump Keeps 19% Tariff on Thailand Despite Deal to Remove Duties on US Goods",
+      "url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "UPI",
+      "title": "U.S., Thailand near trade deal on tariffs, agricultural exports",
+      "url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The White House",
+      "title": "Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trade",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Insider Paper",
+      "title": "US, Thailand sign joint trade statement",
+      "url": "https://insiderpaper.com/us-thailand-sign-joint-trade-statement/",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "apec-shenzhen",
+    "headline": "APEC Opens in Shenzhen as Putin Arrives Ahead of the First Trump-Xi-Putin Meeting",
+    "what_happened": "China hosts the 33rd APEC Economic Leaders' Meeting in Shenzhen on 18-19 November. Putin has arrived; the White House says the first three-way meeting of Trump, Xi and Putin is set for 19 November.",
+    "why_it_matters": "It would be the first time the leaders of the three countries gather in one place.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "key_facts": [
+     {
+      "fact": "China will host the 33rd APEC Economic Leaders' Meeting in Shenzhen on 18-19 November.",
+      "source_url": "https://www.outlookindia.com/international/xi-trump-putin-november-19-shenzhen-apec-yalta-summit-global-order"
+     },
+     {
+      "fact": "The trilateral meeting of Trump, Xi and Putin is set for 19 November, according to the White House.",
+      "source_url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "CNN reported that Putin has arrived in Shenzhen, citing Xinhua; Putin and Xi are to hold a working breakfast when the leaders' meeting opens on Wednesday.",
+      "source_url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "Trump has said Ukraine will come up; he had previously indicated he wants to discuss nuclear weapons and disarmament.",
+      "source_url": "https://www.hngn.com/articles/273717/20261116/china-confirms-talks-first-xi-putin-trump-summit-apec.htm"
+     },
+     {
+      "fact": "China's Foreign Ministry formally announced on 16 November that Xi will meet Trump and Putin in Shenzhen, the first time the leaders of the three countries gather in one place.",
+      "source_url": "https://www.outlookindia.com/international/xi-trump-putin-november-19-shenzhen-apec-yalta-summit-global-order"
+     }
+    ],
+    "numbers": [],
+    "geography": "Shenzhen, southern China, next to Hong Kong.",
+    "sources": [
+     {
+      "outlet": "Outlook India",
+      "title": "A New Yalta In Shenzhen? The Power Politics Behind Xi, Trump And Putin's Summit",
+      "url": "https://www.outlookindia.com/international/xi-trump-putin-november-19-shenzhen-apec-yalta-summit-global-order",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "CNN",
+      "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+      "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "HNGN",
+      "title": "Trump Says Ukraine Will Come Up at Shenzhen Summit; Aides Said It Would Not",
+      "url": "https://www.hngn.com/articles/273717/20261116/china-confirms-talks-first-xi-putin-trump-summit-apec.htm",
+      "published": "2026-11-16",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "voyager-light-day",
+    "headline": "Voyager 1 Becomes the First Spacecraft to Reach One Light-Day From Earth",
+    "what_happened": "NASA's Voyager 1, launched in 1977, reaches one light-day from Earth on 18 November 2026 at 10:16 UTC, about 25.9 billion km away: a radio signal now takes 24 hours to travel each way.",
+    "why_it_matters": "It is the first spacecraft to reach this distance; it is still sending data from interstellar space with two of its ten instruments.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "key_facts": [
+     {
+      "fact": "Voyager 1 is scheduled to reach one light-day from Earth on 18 November 2026 at 10:16 UTC.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 1 will become the first spacecraft to reach a distance of 1 light-day from Earth.",
+      "source_url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space"
+     },
+     {
+      "fact": "A light-day is a unit of distance: the distance light travels in 24 hours, about 25.89 billion kilometres.",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "fact": "At the milestone Voyager 1 will be 25.902 billion kilometres (16.094 billion miles) from Earth.",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "fact": "A radio signal from the probe will take a full 24 hours to reach mission controllers on Earth, and a command sent from Earth will take another 24 hours to reach the spacecraft.",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "fact": "Voyager 1 was launched in 1977 to fly by Jupiter and Saturn, and crossed into interstellar space in August 2012; it continues to collect data.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "Voyager 1 travels at about 38,000 mph, or about 17 kilometres per second relative to the Sun.",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "fact": "Its power comes from radioisotope thermoelectric generators whose output fades by about 4 watts every year, so engineers have spent years switching off parts and instruments.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "Voyager 1 launched with 10 science instruments and today runs only two: the magnetometer and the plasma wave subsystem.",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "fact": "NASA invited the public to take part in a 'Shine Bright for Voyager's Light-Day' event after sunset on Tuesday 17 November, flashing lights in Morse code.",
+      "source_url": "https://www.space.com/space-exploration/voyager/nasa-wants-you-to-shine-bright-today-for-voyager-1s-light-day-milestone-heres-how"
+     },
+     {
+      "kind": "mechanism",
+      "fact": "Voyager 1 is tracked by NASA's Deep Space Network of telescopes in Canberra, California and Madrid.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "evidence": "of telescopes in Canberra, California and Madrid.",
+      "background": true
+     },
+     {
+      "kind": "mechanism",
+      "fact": "Its two working instruments measure the Sun's magnetic field and plasma.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "evidence": "Only two instruments, which measure the Sun's magnetic field and plasma, still work.",
+      "background": false
+     },
+     {
+      "kind": "limitation",
+      "fact": "The spacecraft is getting colder as its nuclear power supply dwindles; the team thinks it has enough power to keep going to about the early 2030s.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "evidence": "We've got enough power and thermal to make it, we think, to about the early 2030s.",
+      "background": false
+     },
+     {
+      "fact": "Voyager scientist Linda Spilker called the light-day 'not a time so much as a distance' and an 'incredible milestone to celebrate'.",
+      "source_url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+     },
+     {
+      "fact": "Spilker said that as Voyager 1 loses four watts of power per year, the team had to turn off systems over time; its thrusters are also clogging.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Last month NASA lost communication with Voyager 1 for about 48 hours; the spacecraft came back online before engineers could send commands to troubleshoot.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 2 is not expected to reach the light-day milestone until 2035; it still has enough power to operate three science instruments.",
+      "source_url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+     },
+     {
+      "fact": "Late next year, both Voyager 1 and Voyager 2 will mark 50 years in space.",
+      "source_url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+     },
+     {
+      "fact": "Background: each Voyager probe relies on an eight-track tape player to record data.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 2 can now communicate only with the Canberra station.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 1 has travelled through space at about 38,000 mph since 1977.",
+      "source_url": "https://www.sciencealert.com/voyager-1-has-traveled-through-space-at-38000-mph-since-1977-and-this-wednesday-will-finally-reach-1-light-day"
+     },
+     {
+      "fact": "Voyager 1 has travelled one light-day, about 173 astronomical units, from Earth.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "NASA Voyager project scientist Linda Spilker said of the day the signal eventually stops: 'We'll be waiting to hear from Voyager ... and there won't be anything.'",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Planetary Society chief scientist Bruce Betts sees the milestone as a testament to the engineers and others who worked on the project.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Instruments at launch",
+      "value": 10,
+      "unit": "instruments",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "label": "Instruments still working",
+      "value": 2,
+      "unit": "instruments",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "label": "Distance at milestone",
+      "value": 25.9,
+      "unit": "billion km",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "label": "One-way signal time",
+      "value": 24,
+      "unit": "hours",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     }
+    ],
+    "geography": "Interstellar space, beyond the planets; Earth.",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "NASA's Voyager 1 spacecraft to reach historic light-day milestone today",
+      "url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Space.com",
+      "title": "NASA's interstellar Voyager 1 probe is about to reach 1 light-day from Earth after nearly 50 years in space",
+      "url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Space.com",
+      "title": "What exactly is a light-day? Here's what Voyager 1's latest milestone means for the interstellar probe",
+      "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Space.com",
+      "title": "NASA wants you to 'shine bright' today for Voyager 1's light-day milestone. Here's how",
+      "url": "https://www.space.com/space-exploration/voyager/nasa-wants-you-to-shine-bright-today-for-voyager-1s-light-day-milestone-heres-how",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Voyager 1: The Farthest Spacecraft",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Where Are Voyager 1 and Voyager 2 Now?",
+      "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Astronomy",
+      "title": "Voyager 1 reaches 1 light-day from Earth",
+      "url": "https://www.astronomy.com/space-exploration/voyager-1-reaches-1-light-day-from-earth/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Sky & Telescope",
+      "title": "Voyager 1's Linda Spilker on the Mission's Light-Day Milestone",
+      "url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "ScienceAlert",
+      "title": "Voyager 1 Has Sped Through Space at 38,000 Mph Since 1977",
+      "url": "https://www.sciencealert.com/voyager-1-has-traveled-through-space-at-38000-mph-since-1977-and-this-wednesday-will-finally-reach-1-light-day",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Voyager 1 Becomes the First Spacecraft to Reach One Light-Day From Earth",
+     "kind": "mechanism",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     ],
+     "details": [
+      {
+       "kind": "mechanism",
+       "fact": "Voyager 1 is tracked by NASA's Deep Space Network of telescopes in Canberra, California and Madrid.",
+       "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+       "evidence": "of telescopes in Canberra, California and Madrid.",
+       "background": true
+      },
+      {
+       "kind": "mechanism",
+       "fact": "Its two working instruments measure the Sun's magnetic field and plasma.",
+       "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+       "evidence": "Only two instruments, which measure the Sun's magnetic field and plasma, still work.",
+       "background": false
+      },
+      {
+       "kind": "limitation",
+       "fact": "The spacecraft is getting colder as its nuclear power supply dwindles; the team thinks it has enough power to keep going to about the early 2030s.",
+       "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+       "evidence": "We've got enough power and thermal to make it, we think, to about the early 2030s.",
+       "background": false
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "faa-router-pause",
+    "headline": "FAA Pauses New Router Installations After Friday's Nationwide Ground Stop",
+    "what_happened": "On Tuesday 17 November the US Federal Aviation Administration said it is pausing installation of new routers after Friday's nearly five-hour nationwide ground stop, which followed a router installation during daytime maintenance. Transportation Secretary Sean Duffy said the agency must rethink when it does such upgrades.",
+    "why_it_matters": "Air traffic control relies on computer networks to link radar and radio; one faulty piece of equipment stopped flights across the country.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "key_facts": [
+     {
+      "fact": "The FAA said on Tuesday 17 November 2026 that it is pausing installation of new routers after Friday's nearly five-hour nationwide ground stop.",
+      "source_url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+     },
+     {
+      "fact": "The FAA is still investigating the root cause of the ground stop.",
+      "source_url": "https://axios.com/2026/11/17/faa-air-traffic-control-router-upgrade-ground-stop"
+     },
+     {
+      "fact": "Transportation Secretary Sean Duffy said the FAA may need to reevaluate when it conducts infrastructure upgrades, after routine daytime maintenance at a remote facility triggered the shutdown.",
+      "source_url": "https://www.newsweek.com/faa-must-rethink-when-upgrades-are-made-after-nationwide-ground-stop-duffy-12717953"
+     },
+     {
+      "fact": "The FAA says its system became overwhelmed by roughly 1,000 connection attempts every four to five seconds after a router was installed, disabling communication and radar in 17 of the nation's 22 regional air traffic control centres.",
+      "source_url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+     },
+     {
+      "fact": "The router was installed in El Dorado, Arkansas, during work by the contractor L3Harris; the router was sent to an L3Harris lab in Florida.",
+      "source_url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+     },
+     {
+      "fact": "Preliminary FAA findings also point to a radar site in Amarillo, Texas, as a likely contributor.",
+      "source_url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+     },
+     {
+      "fact": "Duffy has called on Congress to approve $50 billion to upgrade the ageing air traffic control system.",
+      "source_url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html"
+     },
+     {
+      "fact": "A group of Democratic senators demanded on Tuesday that the agency halt the router installation; it is unclear whether their letter prompted the pause.",
+      "source_url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+     },
+     {
+      "fact": "Homeland Security Secretary Markwayne Mullin defended his use of a government plane to attend a college football game after the ground stop.",
+      "source_url": "https://abcnews.com/US/wireStory/mullin-defends-government-plane-college-football-game-after-138217961"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Regional air traffic control centres affected",
+      "value": 17,
+      "unit": "of 22",
+      "source_url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+     },
+     {
+      "label": "Upgrade funding Duffy wants",
+      "value": 50,
+      "unit": "billion US dollars",
+      "source_url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html"
+     }
+    ],
+    "geography": "United States; El Dorado, Arkansas; Amarillo, Texas.",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "FAA says it will rethink how it does upgrades after nationwide ground stop",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6042897/faa-says-it-will-rethink-how-it-does-upgrades-after-nationwide-ground-stop",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "FAA pauses installation of new routers after ground stop",
+      "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Axios",
+      "title": "FAA pauses tech upgrade linked to nationwide ground stop",
+      "url": "https://axios.com/2026/11/17/faa-air-traffic-control-router-upgrade-ground-stop",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Hill",
+      "title": "FAA halts router upgrades after ground stop fuels infrastructure concerns",
+      "url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Newsweek",
+      "title": "Sean Duffy Says FAA Must Rethink When Upgrades Are Made After Nationwide Ground Stop",
+      "url": "https://www.newsweek.com/faa-must-rethink-when-upgrades-are-made-after-nationwide-ground-stop-duffy-12717953",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Yahoo News",
+      "title": "FAA ground stop latest updates",
+      "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "ABC News",
+      "title": "Mullin defends use of government plane to go to college football game after ground stop",
+      "url": "https://abcnews.com/US/wireStory/mullin-defends-government-plane-college-football-game-after-138217961",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "senate-leader-race",
+    "headline": "Schumer Says He Has the Votes to Stay Senate Democratic Leader Before a 1 December Secret Ballot",
+    "what_happened": "On Tuesday 17 November Chuck Schumer said he has the votes to be elected Senate Democratic leader, and called the race effectively over. His challenger Chris Van Hollen says he has 15 votes. Senate Democrats choose their leader in a closed-door secret ballot on 1 December.",
+    "why_it_matters": "The party's senators, not voters, choose the leader who will run the Senate's agenda; a secret ballot means public endorsements show only part of the picture.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "Schumer said on Tuesday that he has the votes to be elected majority leader, called the race effectively over, and urged Senate Democrats to focus on lowering costs and ending corruption.",
+      "source_url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+     },
+     {
+      "fact": "Schumer posted: 'I have the votes to continue serving as Democratic Leader'.",
+      "source_url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+     },
+     {
+      "fact": "The Senate Democratic leadership election is set for 1 December 2026.",
+      "source_url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+     },
+     {
+      "fact": "The leadership vote will be a closed-door secret ballot; because it is secret, public endorsements offer only a partial picture of the race.",
+      "source_url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+     },
+     {
+      "fact": "The Hill says a candidate needs 28 votes to win; MS NOW says the victor will need at least 29 votes.",
+      "source_url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race"
+     },
+     {
+      "fact": "Van Hollen says he has 15 votes; a Punchbowl News tracker reported 14 senators publicly backing Schumer and five backing Van Hollen, with 36 uncommitted, as of Sunday.",
+      "source_url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+     },
+     {
+      "fact": "Van Hollen has warned against a 'coronation' and argued the 1 December vote may be rushed to hurt his chances.",
+      "source_url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+     },
+     {
+      "fact": "A Data for Progress poll found 56% of Democratic-leaning voters said Senate Democrats should choose a new leader; a plurality favoured Van Hollen over Schumer.",
+      "source_url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader"
+     },
+     {
+      "fact": "Schumer's allies predict he will get more than 40 votes; that claim comes from allies rather than his office.",
+      "source_url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/"
+     },
+     {
+      "fact": "Van Hollen, a Maryland Democrat, said the country's election called for change, but acknowledged he is the underdog.",
+      "source_url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+     },
+     {
+      "fact": "Schumer has continued to support US aid to Israel; Van Hollen said he opposes 'an American taxpayer blank check to the government of Israel, regardless of its actions'.",
+      "source_url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+     },
+     {
+      "fact": "Van Hollen has criticised Schumer for limiting votes on legislation popular with Democrats, including a bill to boost unions, and backs abolishing the filibuster.",
+      "source_url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected"
+     },
+     {
+      "fact": "Democrats recaptured the Senate in the midterm elections, so the leader chosen would be majority leader in the next Congress.",
+      "source_url": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/"
+     },
+     {
+      "fact": "Both sides claim a path to the 28 votes needed to win.",
+      "source_url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected"
+     },
+     {
+      "fact": "Van Hollen, 67, accused Schumer, 75, who has led Senate Democrats since 2016, of trying to move up the date of the vote; Van Hollen said 'If they really believed that they were ahead, they wouldn't be trying to move up the elections'.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     },
+     {
+      "fact": "The Boston Globe reports it is not clear the idea of moving up the date has gained traction or is being driven by Schumer himself.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     },
+     {
+      "fact": "Winning requires a simple majority of the caucus; Democrats will make up at least 55 seats in the Senate next year.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     },
+     {
+      "fact": "Schumer says he has locked up enough commitments to return to leadership.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Democratic-leaning voters wanting a new leader",
+      "value": 56,
+      "unit": "%",
+      "source_url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader"
+     }
+    ],
+    "geography": "Washington, DC, United States.",
+    "sources": [
+     {
+      "outlet": "The Hill",
+      "title": "Schumer declares he has votes to beat Van Hollen and become majority leader",
+      "url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Whip List: Schumer faces challenge from Van Hollen for Senate Democratic leader",
+      "url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "MS NOW",
+      "title": "The race for Senate majority leader is only getting messier",
+      "url": "https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Data for Progress",
+      "title": "Democratic-Leaning Voters Favor Van Hollen Over Schumer for Majority Leader",
+      "url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "NewsLooks",
+      "title": "Schumer Claims Votes to Lead Senate Democrats as Van Hollen Warns Against 'Coronation'",
+      "url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Democratic allies predict Schumer will secure 40+ votes in leadership race",
+      "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "Chris Van Hollen says he can beat Chuck Schumer for Senate leader",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Sen Chris Van Hollen challenges Schumer and backs ending filibuster",
+      "url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Van Hollen announces challenge to Schumer to lead the Senate",
+      "url": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "The Boston Globe",
+      "title": "Van Hollen challenges Schumer for Senate leader",
+      "url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/",
+      "published": "2026-11-15",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "quad-manila",
+    "headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027",
+    "what_happened": "On Tuesday 17 November 2026 the leaders of the US, India, Japan and Australia held a Quad Leaders' Summit in Manila, on the sidelines of the ASEAN summit. Trump announced critical minerals agreements, an AI accelerator and a first Quad business leaders forum, and the leaders agreed their patrol aircraft will join a maritime exercise in 2027.",
+    "why_it_matters": "The four countries are trying to secure supplies of critical minerals and protect sea lanes in the Indo-Pacific; their joint statement opposed changing the region's status quo by force or coercion.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "A White House joint press release says President Donald J. Trump of the United States, Prime Minister Anthony Albanese of Australia, Prime Minister Narendra Modi of India and Prime Minister Takaichi Sanae of Japan met for a Quad Leaders' Summit in Manila.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     },
+     {
+      "fact": "The Quad leaders met on Tuesday, 17 November 2026, towards the end of the ASEAN Summit in Manila.",
+      "source_url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+     },
+     {
+      "fact": "CNN called it the first leader-level meeting of the Quad since Trump took office; it came just before Trump travels to China to meet Xi Jinping.",
+      "source_url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "Trump joined the ASEAN summit in Manila on the first day of a three-day trip to Asia.",
+      "source_url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+     },
+     {
+      "fact": "Trump announced new critical minerals agreements, saying they would prevent 'coercion by any single foreign supplier'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "Trump did not name the partners or the minerals involved in the deals and did not single out China, which dominates global rare earth supplies.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The leaders' joint statement opposed actions that seek to change the status quo through force or coercion, and voiced 'grave concerns' about 'economic coercion', including through arbitrary export restrictions.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The joint statement did not name any country.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The leaders' P-8 and P-3C patrol aircraft are slated to join a maritime exercise in 2027, the first of its kind in a Quad setting.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The leaders also launched an Indo-Pacific Maritime Surveillance Collaboration to improve information sharing and maritime domain awareness.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The Quad is launching an AI accelerator and spending more than $85 million to expand access to trusted AI ecosystems across the Indo-Pacific.",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "fact": "Trump described AI as 'bigger than the industrial revolution' and 'bigger than the Internet'.",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "fact": "Trump announced the first Quad Business Leaders Forum, set for 2027.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "Other outcomes reported include cybersecurity cooperation alongside the AI accelerator.",
+      "source_url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/"
+     },
+     {
+      "fact": "Trump called the four countries 'the four corners of a free, open, stable, and prosperous Indo-Pacific', and said the patrol-aircraft exercise came as the group continues to protect peace through strength.",
+      "source_url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907"
+     },
+     {
+      "fact": "Modi recognised Manila as the city where the Quad was founded nearly 20 years ago, and said he was confident the meeting would help set concrete goals for the next phase of cooperation.",
+      "source_url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+     },
+     {
+      "fact": "It was Takaichi's first Quad leaders' meeting; she said the Quad has always contributed to the peace and stability of the region.",
+      "source_url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+     },
+     {
+      "fact": "Albanese identified critical minerals, rare earths, artificial intelligence and maritime security as priorities; Takaichi said the group would strengthen the resilience of countries in the region across maritime, economic and technology areas.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The leaders also announced initiatives on undersea cable connectivity and cybersecurity.",
+      "source_url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/"
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "The joint press release says the first Quad Business Leaders' Forum is scheduled for early 2027 and will bring together business leaders, government officials and policy experts from the four countries.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "bringing together business leaders, government officials, and policy experts from Quad countries",
+      "background": false
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "Under the Quad Partnership for Cable Connectivity and Resilience, the leaders welcomed an expansion of Australia's contribution to focus on electricity cables, and upcoming undersea cable projects in the Indian Ocean.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "We also welcome upcoming undersea cables projects in the Indian Ocean",
+      "background": false
+     },
+     {
+      "kind": "limitation",
+      "fact": "The joint press release itself speaks of 'securing critical supply chains' rather than naming critical minerals deals.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "securing critical supply chains",
+      "background": false
+     },
+     {
+      "fact": "Background: critical minerals are raw materials that are essential to modern devices but have supply risks; phone batteries use lithium and cobalt, and electric cars rely on lithium, cobalt and nickel, mostly in their batteries.",
+      "source_url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+     },
+     {
+      "fact": "Background: China has introduced export controls on graphite, gallium, tungsten, bismuth, germanium and rare earths.",
+      "source_url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Quad AI spending",
+      "value": 85,
+      "unit": "million US dollars (more than)",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "label": "Quad countries",
+      "value": 4,
+      "unit": "countries",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     }
+    ],
+    "geography": "Manila, capital of the Philippines; the four Quad countries are the United States, India, Japan and Australia; the Indo-Pacific region.",
+    "sources": [
+     {
+      "outlet": "The White House",
+      "title": "Quad Leaders' Summit Joint Press Release",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump announces critical minerals agreements at Quad meeting in Manila",
+      "url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "GMA News",
+      "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "CNN",
+      "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+      "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Korea Herald",
+      "title": "Quad leaders announce plans for 1st maritime patrol aircraft exercise in 2027",
+      "url": "https://www.koreaherald.com/article/10940465",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "Quad sharpens maritime security cooperation, flags economic coercion",
+      "url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "WION",
+      "title": "Trump pitches Quad as security and AI alliance, announces critical minerals deals",
+      "url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Epoch Times",
+      "title": "Trump Arrives in Philippines, Meets Quad Leaders",
+      "url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "South Asian Herald",
+      "title": "Quad Leaders Advance Indo-Pacific Security, Technology and Economic Cooperation in Manila",
+      "url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Australia Today",
+      "title": "Australia joins Quad's strong warning against force or coercion",
+      "url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Belfer Center",
+      "title": "Explainer: What are critical minerals?",
+      "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     ],
+     "details": [
+      {
+       "kind": "concrete_detail",
+       "fact": "The joint press release says the first Quad Business Leaders' Forum is scheduled for early 2027 and will bring together business leaders, government officials and policy experts from the four countries.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "bringing together business leaders, government officials, and policy experts from Quad countries",
+       "background": false
+      },
+      {
+       "kind": "concrete_detail",
+       "fact": "Under the Quad Partnership for Cable Connectivity and Resilience, the leaders welcomed an expansion of Australia's contribution to focus on electricity cables, and upcoming undersea cable projects in the Indian Ocean.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "We also welcome upcoming undersea cables projects in the Indian Ocean",
+       "background": false
+      },
+      {
+       "kind": "limitation",
+       "fact": "The joint press release itself speaks of 'securing critical supply chains' rather than naming critical minerals deals.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "securing critical supply chains",
+       "background": false
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-akvan",
+    "headline": "Cyclone Akvan Strengthens in the Bay of Bengal; Landfall Expected on the Andhra Coast Around Noon on 20 November",
+    "what_happened": "Cyclone Akvan is over the Bay of Bengal. The IMD expects it to become a severe cyclonic storm and then, by the morning of 19 November, a very severe cyclonic storm, crossing the Andhra Pradesh and Yanam coasts between Nellore and Tuni around noon on 20 November with winds of 120-130 km/h gusting to 145 km/h. Odisha has begun moving people from vulnerable areas, and fishermen are told to stay off the sea until 20 November.",
+    "why_it_matters": "Early warnings, evacuations and fishing bans are how India reduces harm from cyclones; the IMD has warned of extensive damage in coastal districts of Andhra Pradesh.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "key_facts": [
+     {
+      "fact": "The IMD expects Cyclone Akvan to intensify into a Severe Cyclonic Storm around the evening of 17 November, and into a Very Severe Cyclonic Storm around the morning of 19 November.",
+      "source_url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+     },
+     {
+      "fact": "It is likely to cross the Andhra Pradesh and Yanam coasts between Nellore and Tuni around noon on 20 November as a very severe cyclonic storm, with winds of 120-130 km/h gusting to 145 km/h.",
+      "source_url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+     },
+     {
+      "fact": "The IMD has warned of extensive damage in coastal districts of Andhra Pradesh.",
+      "source_url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+     },
+     {
+      "fact": "The IMD advised fishermen not to venture into the northwest, southwest and west-central Bay of Bengal till 20 November; fishing is to be suspended completely in the warning zones.",
+      "source_url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+     },
+     {
+      "fact": "Rainfall warnings cover parts of Andhra Pradesh, Odisha and Tamil Nadu; heavy rainfall has also been forecast in a few districts of south Bengal.",
+      "source_url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+     },
+     {
+      "fact": "Odisha has started moving people out of vulnerable areas ahead of the storm's impact.",
+      "source_url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates"
+     },
+     {
+      "fact": "Odisha ordered evacuations in six districts, according to a Daily Jagran live tracker.",
+      "source_url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+     },
+     {
+      "fact": "In an update late on 16 November, the storm was nearly stationary in the central Bay of Bengal, about 670 km south-southeast of Visakhapatnam.",
+      "source_url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+     },
+     {
+      "fact": "A deep depression over the Bay of Bengal intensified into the cyclonic storm Akvan, the IMD said.",
+      "source_url": "https://newsonair.gov.in/deep-depression-formed-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm-today/"
+     },
+     {
+      "fact": "The name Akvan was contributed by Iran to the regional cyclone-naming list.",
+      "source_url": "https://outlookindia.com/national/cyclone-akvan-explained-bay-of-bengal-storm-tracker-andhra-pradesh-odisha-rainfall-forecast-cyclone-naming-process"
+     },
+     {
+      "fact": "The naming list is shared by 13 countries under the WMO-ESCAP Panel on Tropical Cyclones, and RSMC New Delhi, run by the IMD, assigns the names.",
+      "source_url": "https://www.insightsonindia.com/2026/11/17/cyclone-akvan/"
+     },
+     {
+      "fact": "Akvan is the third storm in quick succession, after Arnab and Murasu; Kaani is the next name on the list.",
+      "source_url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-threatens-andhra-coast-after-arnab-and-murasu-know-the-meaning-and-origin-of-its-name-10336436"
+     },
+     {
+      "fact": "Andhra Pradesh Chief Minister Naidu and Deputy Chief Minister Pawan Kalyan reviewed preparedness for Cyclone Akvan; Pawan Kalyan told officials to set up relief camps stocked with food and drinking water, and to clear fallen trees and repair roads.",
+      "source_url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pawan-review-akvan-cyclone-preparedness-2005364"
+     },
+     {
+      "fact": "Naidu asked for rescue and rehabilitation to proceed based on real-time assessments.",
+      "source_url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pawan-review-akvan-cyclone-preparedness-2005364"
+     },
+     {
+      "fact": "Andhra Pradesh was recently hit by two cyclones, Arnab and Murasu; Akvan is the third.",
+      "source_url": "https://www.business-standard.com/amp/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html"
+     },
+     {
+      "fact": "According to the IMD's 17 November bulletin, Akvan was centred near latitude 12.2N, longitude 85.7E, about 610 km east of Chennai and 660 km southeast of Machilipatnam.",
+      "source_url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know"
+     },
+     {
+      "fact": "The IMD has warned of a possible storm surge of 1-2 metres above the astronomical tide in low-lying areas of Prakasam, Bapatla, Krishna, West Godavari, Konaseema and Kakinada districts.",
+      "source_url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know"
+     },
+     {
+      "fact": "An Orange Message has been issued for the Andhra Pradesh and adjoining south Odisha coasts.",
+      "source_url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know"
+     },
+     {
+      "fact": "Coastal Andhra Pradesh could see isolated extremely heavy rainfall exceeding 21 cm on 19 and 20 November; north Tamil Nadu, Puducherry and Karaikal may get heavy to very heavy rain on 18 and 19 November, and Odisha at isolated places between 19 and 21 November.",
+      "source_url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know"
+     },
+     {
+      "fact": "The forecast may change.",
+      "source_url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sustained winds at landfall (low)",
+      "value": 120,
+      "unit": "km/h",
+      "source_url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+     },
+     {
+      "label": "Sustained winds at landfall (high)",
+      "value": 130,
+      "unit": "km/h",
+      "source_url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+     },
+     {
+      "label": "Gusts",
+      "value": 145,
+      "unit": "km/h",
+      "source_url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+     },
+     {
+      "label": "Countries sharing naming list",
+      "value": 13,
+      "unit": "countries",
+      "source_url": "https://www.insightsonindia.com/2026/11/17/cyclone-akvan/"
+     },
+     {
+      "label": "Distance from Visakhapatnam (16 Nov)",
+      "value": 670,
+      "unit": "km",
+      "source_url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+     }
+    ],
+    "geography": "Bay of Bengal; Andhra Pradesh coast between Nellore and Tuni, and Yanam (Puducherry); Odisha; Tamil Nadu; south West Bengal; Visakhapatnam.",
+    "sources": [
+     {
+      "outlet": "All India Radio News",
+      "title": "IMD warns fishermen against venturing into Bay of Bengal till November 20 as Cyclone Akvan intensifies",
+      "url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "All India Radio News",
+      "title": "Deep Depression over Bay of Bengal intensifies into cyclonic storm Akvan, says IMD",
+      "url": "https://newsonair.gov.in/deep-depression-formed-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm-today/",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "India.com",
+      "title": "Cyclone 'Akvan' intensifies over Bay of Bengal, likely to make landfall on November 20 with 145 kmph winds",
+      "url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "Cyclone Akvan Explained: Bay of Bengal Storm, Andhra Pradesh Alert, Odisha Rain Forecast and Naming Process",
+      "url": "https://outlookindia.com/national/cyclone-akvan-explained-bay-of-bengal-storm-tracker-andhra-pradesh-odisha-rainfall-forecast-cyclone-naming-process",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "India news live updates, 17 November 2026",
+      "url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Daily Jagran",
+      "title": "Cyclone Akvan Tracker: Odisha Braces For Severe Storm; Orders Evacuation In Six Districts",
+      "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536",
+      "published": "2026-11-16",
+      "primary": false
+     },
+     {
+      "outlet": "Daily Jagran",
+      "title": "Cyclone Akvan Threatens Andhra Coast After Arnab And Murasu",
+      "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-threatens-andhra-coast-after-arnab-and-murasu-know-the-meaning-and-origin-of-its-name-10336436",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Insights on India",
+      "title": "Cyclone Akvan: Formation, Track, Landfall and Key Facts",
+      "url": "https://www.insightsonindia.com/2026/11/17/cyclone-akvan/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Deccan Chronicle",
+      "title": "CM Naidu, Pawan Review Akvan Cyclone Preparedness",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pawan-review-akvan-cyclone-preparedness-2005364",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "After Arnab and Murasu, third cyclone 'Akvan' to hit Andhra: What we know",
+      "url": "https://www.business-standard.com/amp/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Open",
+      "title": "Quick take: What is Cyclone Akvan and which areas could it affect",
+      "url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "modi-eas",
+    "headline": "At the East Asia Summit, Modi Proposes a Seafarers' Safety Initiative; at the ASEAN-India Summit, Free e-Visas and a Maritime Plan",
+    "what_happened": "In Manila on 17 November, Modi attended the 23rd ASEAN-India Summit and the 21st East Asia Summit. He announced a Seafarers' Safety Initiative for joint training and emergency response, proposed an EAS cybercrime conference, and at the ASEAN-India summit proposed a long-term maritime cooperation plan and free e-visas for ASEAN tourists.",
+    "why_it_matters": "India calls ASEAN central to its Act East policy; 2026 is the ASEAN-India Year of Maritime Cooperation.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "key_facts": [
+     {
+      "fact": "Modi arrived in Manila on 16 November 2026 for the 23rd ASEAN-India Summit and the 21st East Asia Summit, both on 17 November; the Philippines hosts as 2026 ASEAN chair.",
+      "source_url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217"
+     },
+     {
+      "fact": "At the 21st East Asia Summit, Modi announced a Seafarers' Safety Initiative to boost joint training and emergency response among East Asia Summit nations.",
+      "source_url": "https://www.business-standard.com/india-news/pm-modi-unveils-seafarers-safety-initiative-at-east-asia-summit-in-manila-126111701410_1.html"
+     },
+     {
+      "fact": "Modi cited threats to the safety and security of commercial ships and seafarers, who continue to be targeted in international waterways.",
+      "source_url": "https://www.tribuneindia.com/news/india/modi-proposes-seafarer-safety-initiative-cybercrime-conference-at-east-asia-summit/"
+     },
+     {
+      "fact": "Modi also proposed an EAS Cyber Crime Conference, at the National Forensic Sciences University.",
+      "source_url": "https://www.tribuneindia.com/news/india/modi-proposes-seafarer-safety-initiative-cybercrime-conference-at-east-asia-summit/"
+     },
+     {
+      "fact": "At the ASEAN-India summit, Modi proposed a long-term maritime cooperation plan covering connectivity, scientific research, disaster management, Coast Guard cooperation and maritime domain awareness.",
+      "source_url": "https://aninews.in/news/world/asia/pm-modi-champions-cooperation-not-competition-in-manila-unveils-free-e-visas-maritime-and-tech-initiatives-at-asean-india-and-east-asia-summits20261117193347/"
+     },
+     {
+      "fact": "Modi's announcements included free e-visas for ASEAN tourists.",
+      "source_url": "https://aninews.in/news/world/asia/pm-modi-champions-cooperation-not-competition-in-manila-unveils-free-e-visas-maritime-and-tech-initiatives-at-asean-india-and-east-asia-summits20261117193347/"
+     },
+     {
+      "fact": "Modi championed 'cooperation, not competition' in Manila.",
+      "source_url": "https://aninews.in/news/world/asia/pm-modi-champions-cooperation-not-competition-in-manila-unveils-free-e-visas-maritime-and-tech-initiatives-at-asean-india-and-east-asia-summits20261117193347/"
+     },
+     {
+      "fact": "India and ASEAN are marking 2026 as the ASEAN-India Year of Maritime Cooperation.",
+      "source_url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217"
+     },
+     {
+      "fact": "East Asia Summit members and partners include India, China, Japan, the US, Russia and Australia.",
+      "source_url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217"
+     },
+     {
+      "fact": "Modi said Act East had given India-ASEAN ties 'fresh momentum and depth'.",
+      "source_url": "https://www.outlookindia.com/international/pm-modi-asean-summit-india-growth-prosperity-act-east-policy-manila-2026"
+     }
+    ],
+    "numbers": [],
+    "geography": "Manila, Philippines; ASEAN countries; India.",
+    "sources": [
+     {
+      "outlet": "ANI",
+      "title": "PM Modi champions 'cooperation, not competition' in Manila",
+      "url": "https://aninews.in/news/world/asia/pm-modi-champions-cooperation-not-competition-in-manila-unveils-free-e-visas-maritime-and-tech-initiatives-at-asean-india-and-east-asia-summits20261117193347/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "Modi proposes seafarer safety initiative, cybercrime conference at East Asia Summit",
+      "url": "https://www.tribuneindia.com/news/india/modi-proposes-seafarer-safety-initiative-cybercrime-conference-at-east-asia-summit/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Business Standard",
+      "title": "PM Modi unveils seafarers' safety initiative at East Asia Summit in Manila",
+      "url": "https://www.business-standard.com/india-news/pm-modi-unveils-seafarers-safety-initiative-at-east-asia-summit-in-manila-126111701410_1.html",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "IANS",
+      "title": "PM Modi arrives in Manila to attend ASEAN-India Summit and East Asia Summit",
+      "url": "https://ianslive.in/pm-modi-arrives-in-manila-to-attend-asean-india-summit-and-east-asia-summit--20261116150217",
+      "published": "2026-11-16",
+      "primary": false
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "PM Modi at ASEAN Summit: India's Growth and ASEAN's Prosperity Go Hand in Hand",
+      "url": "https://www.outlookindia.com/international/pm-modi-asean-summit-india-growth-prosperity-act-east-policy-manila-2026",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "dhoni-retires",
+    "headline": "MS Dhoni Retires as an IPL Player and Becomes Chennai Super Kings' Mentor",
+    "what_happened": "On 17 November 2026, Chennai Super Kings said MS Dhoni, 45, has retired from playing in the IPL; he will be the team's mentor from the 2027 season.",
+    "why_it_matters": "Dhoni led CSK to five IPL titles, the joint-most by any captain.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "key_facts": [
+     {
+      "fact": "MS Dhoni has retired from playing in the IPL and will take up the Team Mentor role at Chennai Super Kings from the 2027 season.",
+      "source_url": "https://www.thenewsminute.com/tamil-nadu/ms-dhoni-retires-from-ipl-will-mentor-chennai-super-kings-ahead-of-2027-season"
+     },
+     {
+      "fact": "Dhoni retired from a playing role aged 45.",
+      "source_url": "https://www.skysports.com/cricket/news/13613181/ms-dhoni-former-india-captain-retires-from-playing-role-with-ipls-chennai-super-kings-aged-45"
+     },
+     {
+      "fact": "He retires as CSK's most capped player with 272 appearances, scoring 5,314 runs, the second-highest in franchise history.",
+      "source_url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+     },
+     {
+      "fact": "Under his captaincy, CSK won five IPL titles, the joint-most by any captain, and two Champions League T20 titles.",
+      "source_url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+     },
+     {
+      "fact": "Dhoni retired from international cricket in 2020.",
+      "source_url": "https://www.skysports.com/cricket/news/13613181/ms-dhoni-former-india-captain-retires-from-playing-role-with-ipls-chennai-super-kings-aged-45"
+     },
+     {
+      "fact": "CSK co-owner Rupa Gurunath said his guidance will help shape the next generation of CSK.",
+      "source_url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "CSK appearances",
+      "value": 272,
+      "unit": "matches",
+      "source_url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+     },
+     {
+      "label": "IPL titles as captain",
+      "value": 5,
+      "unit": "titles",
+      "source_url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+     }
+    ],
+    "geography": "Chennai, India.",
+    "sources": [
+     {
+      "outlet": "The National",
+      "title": "IPL: MS Dhoni retires but 'will always be a part of Chennai Super Kings identity'",
+      "url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The News Minute",
+      "title": "MS Dhoni retires from IPL, will mentor Chennai Super Kings ahead of 2027 season",
+      "url": "https://www.thenewsminute.com/tamil-nadu/ms-dhoni-retires-from-ipl-will-mentor-chennai-super-kings-ahead-of-2027-season",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Sky Sports",
+      "title": "MS Dhoni: Former India captain retires from playing role with IPL's Chennai Super Kings aged 45",
+      "url": "https://www.skysports.com/cricket/news/13613181/ms-dhoni-former-india-captain-retires-from-playing-role-with-ipls-chennai-super-kings-aged-45",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "delhi-air",
+    "headline": "Delhi Lifts Stage 3 Pollution Curbs as Air Quality Improves to 204",
+    "what_happened": "The Commission for Air Quality Management revoked GRAP Stage 3 curbs in Delhi-NCR on 17 November, with the city's AQI at 204; Stage 1 and 2 rules stay.",
+    "why_it_matters": "Stage 3 had let younger pupils study online; schools will issue instructions on returning to physical classes.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "key_facts": [
+     {
+      "fact": "The Commission for Air Quality Management revoked GRAP Stage 3 on Tuesday 17 November, with Delhi's AQI at 204.",
+      "source_url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+     },
+     {
+      "fact": "Stage 1 and Stage 2 curbs remain in place.",
+      "source_url": "https://openthemagazine.com/india/delhi-air-pollution-grap-stage-3-curbs-lifted-as-aqi-improves-to-204"
+     },
+     {
+      "fact": "Stage 3 had been imposed on 6 November, when the AQI reached 382.",
+      "source_url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+     },
+     {
+      "fact": "Under Stage 3, schools had let students up to Class 5 attend either in person or online; schools and local authorities will issue instructions on resuming physical classes.",
+      "source_url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "AQI when curbs lifted",
+      "value": 204,
+      "unit": "",
+      "source_url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+     },
+     {
+      "label": "AQI on 6 November",
+      "value": 382,
+      "unit": "",
+      "source_url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+     }
+    ],
+    "geography": "Delhi and the National Capital Region, India.",
+    "sources": [
+     {
+      "outlet": "Newstrack",
+      "title": "GRAP Stage 3 Restrictions Lifted in Delhi-NCR as AQI Improves to 204",
+      "url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Open",
+      "title": "Delhi air pollution: GRAP Stage 3 curbs lifted as AQI improves to 204",
+      "url": "https://openthemagazine.com/india/delhi-air-pollution-grap-stage-3-curbs-lifted-as-aqi-improves-to-204",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "india-markets",
+    "headline": "Sensex and Nifty Rise for a Second Day on Foreign Buying and Moderate Oil Prices",
+    "what_happened": "On 17 November the Sensex rose 427.40 points to 82,532.19 and the Nifty closed at 25,387.40, helped by foreign fund inflows and moderate crude oil prices.",
+    "why_it_matters": "India imports much of its oil, so oil prices affect markets and prices.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "key_facts": [
+     {
+      "fact": "The Sensex gained 427.40 points to close at 82,532.19 on 17 November, and the Nifty finished at 25,387.40, up 0.38%.",
+      "source_url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices"
+     },
+     {
+      "fact": "Steady foreign fund inflows, moderate crude oil prices and buying in Reliance Industries and bank stocks were the reasons given.",
+      "source_url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices"
+     },
+     {
+      "fact": "Brent crude, the global oil benchmark, was at about USD 92.68 per barrel in early trading.",
+      "source_url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices"
+     }
+    ],
+    "numbers": [],
+    "geography": "Mumbai, India.",
+    "sources": [
+     {
+      "outlet": "DT Next",
+      "title": "Stock markets rally for 2nd day on foreign fund inflows, moderate crude oil prices",
+      "url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "senate-leader-race",
+    "headline": "Schumer Says He Has the Votes to Stay Senate Democratic Leader Before a 1 December Secret Ballot",
+    "what_happened": "On Tuesday 17 November Chuck Schumer said he has the votes to be elected Senate Democratic leader, and called the race effectively over. His challenger Chris Van Hollen says he has 15 votes. Senate Democrats choose their leader in a closed-door secret ballot on 1 December.",
+    "why_it_matters": "The party's senators, not voters, choose the leader who will run the Senate's agenda; a secret ballot means public endorsements show only part of the picture.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "Schumer said on Tuesday that he has the votes to be elected majority leader, called the race effectively over, and urged Senate Democrats to focus on lowering costs and ending corruption.",
+      "source_url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+     },
+     {
+      "fact": "Schumer posted: 'I have the votes to continue serving as Democratic Leader'.",
+      "source_url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+     },
+     {
+      "fact": "The Senate Democratic leadership election is set for 1 December 2026.",
+      "source_url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+     },
+     {
+      "fact": "The leadership vote will be a closed-door secret ballot; because it is secret, public endorsements offer only a partial picture of the race.",
+      "source_url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+     },
+     {
+      "fact": "The Hill says a candidate needs 28 votes to win; MS NOW says the victor will need at least 29 votes.",
+      "source_url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race"
+     },
+     {
+      "fact": "Van Hollen says he has 15 votes; a Punchbowl News tracker reported 14 senators publicly backing Schumer and five backing Van Hollen, with 36 uncommitted, as of Sunday.",
+      "source_url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+     },
+     {
+      "fact": "Van Hollen has warned against a 'coronation' and argued the 1 December vote may be rushed to hurt his chances.",
+      "source_url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+     },
+     {
+      "fact": "A Data for Progress poll found 56% of Democratic-leaning voters said Senate Democrats should choose a new leader; a plurality favoured Van Hollen over Schumer.",
+      "source_url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader"
+     },
+     {
+      "fact": "Schumer's allies predict he will get more than 40 votes; that claim comes from allies rather than his office.",
+      "source_url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/"
+     },
+     {
+      "fact": "Van Hollen, a Maryland Democrat, said the country's election called for change, but acknowledged he is the underdog.",
+      "source_url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+     },
+     {
+      "fact": "Schumer has continued to support US aid to Israel; Van Hollen said he opposes 'an American taxpayer blank check to the government of Israel, regardless of its actions'.",
+      "source_url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+     },
+     {
+      "fact": "Van Hollen has criticised Schumer for limiting votes on legislation popular with Democrats, including a bill to boost unions, and backs abolishing the filibuster.",
+      "source_url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected"
+     },
+     {
+      "fact": "Democrats recaptured the Senate in the midterm elections, so the leader chosen would be majority leader in the next Congress.",
+      "source_url": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/"
+     },
+     {
+      "fact": "Both sides claim a path to the 28 votes needed to win.",
+      "source_url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected"
+     },
+     {
+      "fact": "Van Hollen, 67, accused Schumer, 75, who has led Senate Democrats since 2016, of trying to move up the date of the vote; Van Hollen said 'If they really believed that they were ahead, they wouldn't be trying to move up the elections'.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     },
+     {
+      "fact": "The Boston Globe reports it is not clear the idea of moving up the date has gained traction or is being driven by Schumer himself.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     },
+     {
+      "fact": "Winning requires a simple majority of the caucus; Democrats will make up at least 55 seats in the Senate next year.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     },
+     {
+      "fact": "Schumer says he has locked up enough commitments to return to leadership.",
+      "source_url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Democratic-leaning voters wanting a new leader",
+      "value": 56,
+      "unit": "%",
+      "source_url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader"
+     }
+    ],
+    "geography": "Washington, DC, United States.",
+    "sources": [
+     {
+      "outlet": "The Hill",
+      "title": "Schumer declares he has votes to beat Van Hollen and become majority leader",
+      "url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Whip List: Schumer faces challenge from Van Hollen for Senate Democratic leader",
+      "url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "MS NOW",
+      "title": "The race for Senate majority leader is only getting messier",
+      "url": "https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Data for Progress",
+      "title": "Democratic-Leaning Voters Favor Van Hollen Over Schumer for Majority Leader",
+      "url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "NewsLooks",
+      "title": "Schumer Claims Votes to Lead Senate Democrats as Van Hollen Warns Against 'Coronation'",
+      "url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Hill",
+      "title": "Democratic allies predict Schumer will secure 40+ votes in leadership race",
+      "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "NPR",
+      "title": "Chris Van Hollen says he can beat Chuck Schumer for Senate leader",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "Fox News",
+      "title": "Sen Chris Van Hollen challenges Schumer and backs ending filibuster",
+      "url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Washington Post",
+      "title": "Van Hollen announces challenge to Schumer to lead the Senate",
+      "url": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/",
+      "published": "2026-11-12",
+      "primary": true
+     },
+     {
+      "outlet": "The Boston Globe",
+      "title": "Van Hollen challenges Schumer for Senate leader",
+      "url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/",
+      "published": "2026-11-15",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "quad-manila",
+    "headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027",
+    "what_happened": "On Tuesday 17 November 2026 the leaders of the US, India, Japan and Australia held a Quad Leaders' Summit in Manila, on the sidelines of the ASEAN summit. Trump announced critical minerals agreements, an AI accelerator and a first Quad business leaders forum, and the leaders agreed their patrol aircraft will join a maritime exercise in 2027.",
+    "why_it_matters": "The four countries are trying to secure supplies of critical minerals and protect sea lanes in the Indo-Pacific; their joint statement opposed changing the region's status quo by force or coercion.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "A White House joint press release says President Donald J. Trump of the United States, Prime Minister Anthony Albanese of Australia, Prime Minister Narendra Modi of India and Prime Minister Takaichi Sanae of Japan met for a Quad Leaders' Summit in Manila.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     },
+     {
+      "fact": "The Quad leaders met on Tuesday, 17 November 2026, towards the end of the ASEAN Summit in Manila.",
+      "source_url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+     },
+     {
+      "fact": "CNN called it the first leader-level meeting of the Quad since Trump took office; it came just before Trump travels to China to meet Xi Jinping.",
+      "source_url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "Trump joined the ASEAN summit in Manila on the first day of a three-day trip to Asia.",
+      "source_url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+     },
+     {
+      "fact": "Trump announced new critical minerals agreements, saying they would prevent 'coercion by any single foreign supplier'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "Trump did not name the partners or the minerals involved in the deals and did not single out China, which dominates global rare earth supplies.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The leaders' joint statement opposed actions that seek to change the status quo through force or coercion, and voiced 'grave concerns' about 'economic coercion', including through arbitrary export restrictions.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The joint statement did not name any country.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The leaders' P-8 and P-3C patrol aircraft are slated to join a maritime exercise in 2027, the first of its kind in a Quad setting.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The leaders also launched an Indo-Pacific Maritime Surveillance Collaboration to improve information sharing and maritime domain awareness.",
+      "source_url": "https://www.koreaherald.com/article/10940465"
+     },
+     {
+      "fact": "The Quad is launching an AI accelerator and spending more than $85 million to expand access to trusted AI ecosystems across the Indo-Pacific.",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "fact": "Trump described AI as 'bigger than the industrial revolution' and 'bigger than the Internet'.",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "fact": "Trump announced the first Quad Business Leaders Forum, set for 2027.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "Other outcomes reported include cybersecurity cooperation alongside the AI accelerator.",
+      "source_url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/"
+     },
+     {
+      "fact": "Trump called the four countries 'the four corners of a free, open, stable, and prosperous Indo-Pacific', and said the patrol-aircraft exercise came as the group continues to protect peace through strength.",
+      "source_url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907"
+     },
+     {
+      "fact": "Modi recognised Manila as the city where the Quad was founded nearly 20 years ago, and said he was confident the meeting would help set concrete goals for the next phase of cooperation.",
+      "source_url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+     },
+     {
+      "fact": "It was Takaichi's first Quad leaders' meeting; she said the Quad has always contributed to the peace and stability of the region.",
+      "source_url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+     },
+     {
+      "fact": "Albanese identified critical minerals, rare earths, artificial intelligence and maritime security as priorities; Takaichi said the group would strengthen the resilience of countries in the region across maritime, economic and technology areas.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+     },
+     {
+      "fact": "The leaders also announced initiatives on undersea cable connectivity and cybersecurity.",
+      "source_url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/"
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "The joint press release says the first Quad Business Leaders' Forum is scheduled for early 2027 and will bring together business leaders, government officials and policy experts from the four countries.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "bringing together business leaders, government officials, and policy experts from Quad countries",
+      "background": false
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "Under the Quad Partnership for Cable Connectivity and Resilience, the leaders welcomed an expansion of Australia's contribution to focus on electricity cables, and upcoming undersea cable projects in the Indian Ocean.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "We also welcome upcoming undersea cables projects in the Indian Ocean",
+      "background": false
+     },
+     {
+      "kind": "limitation",
+      "fact": "The joint press release itself speaks of 'securing critical supply chains' rather than naming critical minerals deals.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "evidence": "securing critical supply chains",
+      "background": false
+     },
+     {
+      "fact": "Background: critical minerals are raw materials that are essential to modern devices but have supply risks; phone batteries use lithium and cobalt, and electric cars rely on lithium, cobalt and nickel, mostly in their batteries.",
+      "source_url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+     },
+     {
+      "fact": "Background: China has introduced export controls on graphite, gallium, tungsten, bismuth, germanium and rare earths.",
+      "source_url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Quad AI spending",
+      "value": 85,
+      "unit": "million US dollars (more than)",
+      "source_url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+     },
+     {
+      "label": "Quad countries",
+      "value": 4,
+      "unit": "countries",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     }
+    ],
+    "geography": "Manila, capital of the Philippines; the four Quad countries are the United States, India, Japan and Australia; the Indo-Pacific region.",
+    "sources": [
+     {
+      "outlet": "The White House",
+      "title": "Quad Leaders' Summit Joint Press Release",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Trump announces critical minerals agreements at Quad meeting in Manila",
+      "url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "GMA News",
+      "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "CNN",
+      "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+      "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Korea Herald",
+      "title": "Quad leaders announce plans for 1st maritime patrol aircraft exercise in 2027",
+      "url": "https://www.koreaherald.com/article/10940465",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Tribune",
+      "title": "Quad sharpens maritime security cooperation, flags economic coercion",
+      "url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "WION",
+      "title": "Trump pitches Quad as security and AI alliance, announces critical minerals deals",
+      "url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Epoch Times",
+      "title": "Trump Arrives in Philippines, Meets Quad Leaders",
+      "url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "South Asian Herald",
+      "title": "Quad Leaders Advance Indo-Pacific Security, Technology and Economic Cooperation in Manila",
+      "url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "The Australia Today",
+      "title": "Australia joins Quad's strong warning against force or coercion",
+      "url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Belfer Center",
+      "title": "Explainer: What are critical minerals?",
+      "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+     ],
+     "details": [
+      {
+       "kind": "concrete_detail",
+       "fact": "The joint press release says the first Quad Business Leaders' Forum is scheduled for early 2027 and will bring together business leaders, government officials and policy experts from the four countries.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "bringing together business leaders, government officials, and policy experts from Quad countries",
+       "background": false
+      },
+      {
+       "kind": "concrete_detail",
+       "fact": "Under the Quad Partnership for Cable Connectivity and Resilience, the leaders welcomed an expansion of Australia's contribution to focus on electricity cables, and upcoming undersea cable projects in the Indian Ocean.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "We also welcome upcoming undersea cables projects in the Indian Ocean",
+       "background": false
+      },
+      {
+       "kind": "limitation",
+       "fact": "The joint press release itself speaks of 'securing critical supply chains' rather than naming critical minerals deals.",
+       "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+       "evidence": "securing critical supply chains",
+       "background": false
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-thailand-trade",
+    "headline": "US and Thailand Sign a Trade Statement in Manila; a Final Deal Is Due in the Coming Weeks",
+    "what_happened": "On 17 November 2026 Trump and Thai Prime Minister Anutin Charnvirakul signed a joint trade statement on the sidelines of the ASEAN summit in Manila. Trump said Thailand will eliminate all tariffs on US exports and buy about $2.6 billion more in US farm goods; the US 19% tariff on Thai goods stays.",
+    "why_it_matters": "Tariffs are taxes on imported goods that change prices for shoppers and businesses; the deal is not final until it passes legal and domestic approval.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "context",
+    "key_facts": [
+     {
+      "fact": "Trump and Thai Prime Minister Anutin Charnvirakul signed a joint trade statement on the sidelines of the 49th ASEAN Summit in Manila on Tuesday, 17 November 2026.",
+      "source_url": "https://www.thaipbsworld.com/economy/572885"
+     },
+     {
+      "fact": "Trump said 'Thailand will eliminate all tariffs on US exports'.",
+      "source_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/17/trump-meets-regional-allies-in-manila-ahead-of-china-visit-thailand-will-eliminate-tariffs-on-us-exports-under-deal-to-be-signed-soon"
+     },
+     {
+      "fact": "Trump said Thailand would remove non-tariff barriers on American vehicles, medical devices, pharmaceuticals, ethanol and poultry.",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     },
+     {
+      "fact": "Trump said Thailand would buy an estimated $2.6 billion in additional US agricultural products.",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     },
+     {
+      "fact": "Bloomberg reported the statement declared the two countries had substantially concluded negotiations; the final agreement still needs legal and domestic approval before it can be signed and take effect.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal"
+     },
+     {
+      "fact": "Trump said the formal agreement would be finalised 'in the coming weeks'.",
+      "source_url": "https://www.thaipbsworld.com/economy/572885"
+     },
+     {
+      "fact": "Neither leader announced an implementation date or the concessions Washington would offer Bangkok in return.",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     },
+     {
+      "fact": "A US 19% tariff rate on Thailand will remain in place under the newly announced framework.",
+      "source_url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327"
+     },
+     {
+      "fact": "In 2025 the US lowered a threatened 36% tariff on Thailand to 19%.",
+      "source_url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+     },
+     {
+      "fact": "A framework was first unveiled in October 2025 at the Kuala Lumpur ASEAN summit; it covered about 99% of US goods.",
+      "source_url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+     },
+     {
+      "fact": "Anutin said he was pleased the two sides had reached a substantial conclusion of negotiations on the agreement on reciprocal trade, and was confident it would be ready to sign 'real soon'.",
+      "source_url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850"
+     },
+     {
+      "fact": "The White House joint statement says the two countries 'have reached substantial conclusion' in negotiations on an Agreement on Reciprocal Trade (ART), and will now begin internal processes to prepare it for signature and entry into force.",
+      "source_url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/"
+     },
+     {
+      "fact": "Insider Paper reports that the US Supreme Court struck down country-specific tariffs in February, but Washington has since alleged insufficient action against forced labour to impose new tariffs on 60 economies, including Thailand.",
+      "source_url": "https://insiderpaper.com/us-thailand-sign-joint-trade-statement/"
+     },
+     {
+      "fact": "Anutin acknowledged there is still a little more to do before a binding text.",
+      "source_url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US tariff on Thai goods",
+      "value": 19,
+      "unit": "%",
+      "source_url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327"
+     },
+     {
+      "label": "Threatened US tariff in 2025",
+      "value": 36,
+      "unit": "%",
+      "source_url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+     },
+     {
+      "label": "Extra US farm goods Thailand would buy",
+      "value": 2.6,
+      "unit": "billion US dollars",
+      "source_url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+     }
+    ],
+    "geography": "Manila, Philippines (where it was signed); Thailand and the United States.",
+    "sources": [
+     {
+      "outlet": "Thai PBS World",
+      "title": "Trump signs trade statement with Thailand on ASEAN sidelines in Philippines",
+      "url": "https://www.thaipbsworld.com/economy/572885",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Bloomberg",
+      "title": "Thailand Opening Markets Wider to US to Secure Trade Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The Star",
+      "title": "Trump meets regional allies in Manila ahead of China visit; Thailand will eliminate tariffs on US exports",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/17/trump-meets-regional-allies-in-manila-ahead-of-china-visit-thailand-will-eliminate-tariffs-on-us-exports-under-deal-to-be-signed-soon",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Clash Report",
+      "title": "Thailand Will Eliminate All Tariffs on U.S. Exports, Trump Says",
+      "url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Anadolu Agency",
+      "title": "US, Thailand sign joint trade statement, defer formal deal",
+      "url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "IBTimes Singapore",
+      "title": "Trump Keeps 19% Tariff on Thailand Despite Deal to Remove Duties on US Goods",
+      "url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "UPI",
+      "title": "U.S., Thailand near trade deal on tariffs, agricultural exports",
+      "url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "The White House",
+      "title": "Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trade",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Insider Paper",
+      "title": "US, Thailand sign joint trade statement",
+      "url": "https://insiderpaper.com/us-thailand-sign-joint-trade-statement/",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "india-markets",
+    "headline": "Sensex and Nifty Rise for a Second Day on Foreign Buying and Moderate Oil Prices",
+    "what_happened": "On 17 November the Sensex rose 427.40 points to 82,532.19 and the Nifty closed at 25,387.40, helped by foreign fund inflows and moderate crude oil prices.",
+    "why_it_matters": "India imports much of its oil, so oil prices affect markets and prices.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "enrichment_kind": "none",
+    "key_facts": [
+     {
+      "fact": "The Sensex gained 427.40 points to close at 82,532.19 on 17 November, and the Nifty finished at 25,387.40, up 0.38%.",
+      "source_url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices"
+     },
+     {
+      "fact": "Steady foreign fund inflows, moderate crude oil prices and buying in Reliance Industries and bank stocks were the reasons given.",
+      "source_url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices"
+     },
+     {
+      "fact": "Brent crude, the global oil benchmark, was at about USD 92.68 per barrel in early trading.",
+      "source_url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices"
+     }
+    ],
+    "numbers": [],
+    "geography": "Mumbai, India.",
+    "sources": [
+     {
+      "outlet": "DT Next",
+      "title": "Stock markets rally for 2nd day on foreign fund inflows, moderate crude oil prices",
+      "url": "https://www.dtnext.in/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-moderate-crude-oil-prices",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voyager-light-day",
+    "headline": "Voyager 1 Becomes the First Spacecraft to Reach One Light-Day From Earth",
+    "what_happened": "NASA's Voyager 1, launched in 1977, reaches one light-day from Earth on 18 November 2026 at 10:16 UTC, about 25.9 billion km away: a radio signal now takes 24 hours to travel each way.",
+    "why_it_matters": "It is the first spacecraft to reach this distance; it is still sending data from interstellar space with two of its ten instruments.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "enrichment_kind": "mechanism",
+    "key_facts": [
+     {
+      "fact": "Voyager 1 is scheduled to reach one light-day from Earth on 18 November 2026 at 10:16 UTC.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 1 will become the first spacecraft to reach a distance of 1 light-day from Earth.",
+      "source_url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space"
+     },
+     {
+      "fact": "A light-day is a unit of distance: the distance light travels in 24 hours, about 25.89 billion kilometres.",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "fact": "At the milestone Voyager 1 will be 25.902 billion kilometres (16.094 billion miles) from Earth.",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "fact": "A radio signal from the probe will take a full 24 hours to reach mission controllers on Earth, and a command sent from Earth will take another 24 hours to reach the spacecraft.",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "fact": "Voyager 1 was launched in 1977 to fly by Jupiter and Saturn, and crossed into interstellar space in August 2012; it continues to collect data.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "Voyager 1 travels at about 38,000 mph, or about 17 kilometres per second relative to the Sun.",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "fact": "Its power comes from radioisotope thermoelectric generators whose output fades by about 4 watts every year, so engineers have spent years switching off parts and instruments.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "Voyager 1 launched with 10 science instruments and today runs only two: the magnetometer and the plasma wave subsystem.",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "fact": "NASA invited the public to take part in a 'Shine Bright for Voyager's Light-Day' event after sunset on Tuesday 17 November, flashing lights in Morse code.",
+      "source_url": "https://www.space.com/space-exploration/voyager/nasa-wants-you-to-shine-bright-today-for-voyager-1s-light-day-milestone-heres-how"
+     },
+     {
+      "kind": "mechanism",
+      "fact": "Voyager 1 is tracked by NASA's Deep Space Network of telescopes in Canberra, California and Madrid.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "evidence": "of telescopes in Canberra, California and Madrid.",
+      "background": true
+     },
+     {
+      "kind": "mechanism",
+      "fact": "Its two working instruments measure the Sun's magnetic field and plasma.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "evidence": "Only two instruments, which measure the Sun's magnetic field and plasma, still work.",
+      "background": false
+     },
+     {
+      "kind": "limitation",
+      "fact": "The spacecraft is getting colder as its nuclear power supply dwindles; the team thinks it has enough power to keep going to about the early 2030s.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "evidence": "We've got enough power and thermal to make it, we think, to about the early 2030s.",
+      "background": false
+     },
+     {
+      "fact": "Voyager scientist Linda Spilker called the light-day 'not a time so much as a distance' and an 'incredible milestone to celebrate'.",
+      "source_url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+     },
+     {
+      "fact": "Spilker said that as Voyager 1 loses four watts of power per year, the team had to turn off systems over time; its thrusters are also clogging.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Last month NASA lost communication with Voyager 1 for about 48 hours; the spacecraft came back online before engineers could send commands to troubleshoot.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 2 is not expected to reach the light-day milestone until 2035; it still has enough power to operate three science instruments.",
+      "source_url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+     },
+     {
+      "fact": "Late next year, both Voyager 1 and Voyager 2 will mark 50 years in space.",
+      "source_url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+     },
+     {
+      "fact": "Background: each Voyager probe relies on an eight-track tape player to record data.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 2 can now communicate only with the Canberra station.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Voyager 1 has travelled through space at about 38,000 mph since 1977.",
+      "source_url": "https://www.sciencealert.com/voyager-1-has-traveled-through-space-at-38000-mph-since-1977-and-this-wednesday-will-finally-reach-1-light-day"
+     },
+     {
+      "fact": "Voyager 1 has travelled one light-day, about 173 astronomical units, from Earth.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "NASA Voyager project scientist Linda Spilker said of the day the signal eventually stops: 'We'll be waiting to hear from Voyager ... and there won't be anything.'",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     },
+     {
+      "fact": "Planetary Society chief scientist Bruce Betts sees the milestone as a testament to the engineers and others who worked on the project.",
+      "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Instruments at launch",
+      "value": 10,
+      "unit": "instruments",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "label": "Instruments still working",
+      "value": 2,
+      "unit": "instruments",
+      "source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+     },
+     {
+      "label": "Distance at milestone",
+      "value": 25.9,
+      "unit": "billion km",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     },
+     {
+      "label": "One-way signal time",
+      "value": 24,
+      "unit": "hours",
+      "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+     }
+    ],
+    "geography": "Interstellar space, beyond the planets; Earth.",
+    "sources": [
+     {
+      "outlet": "ABC News (Australia)",
+      "title": "NASA's Voyager 1 spacecraft to reach historic light-day milestone today",
+      "url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Space.com",
+      "title": "NASA's interstellar Voyager 1 probe is about to reach 1 light-day from Earth after nearly 50 years in space",
+      "url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Space.com",
+      "title": "What exactly is a light-day? Here's what Voyager 1's latest milestone means for the interstellar probe",
+      "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Space.com",
+      "title": "NASA wants you to 'shine bright' today for Voyager 1's light-day milestone. Here's how",
+      "url": "https://www.space.com/space-exploration/voyager/nasa-wants-you-to-shine-bright-today-for-voyager-1s-light-day-milestone-heres-how",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Voyager 1: The Farthest Spacecraft",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Where Are Voyager 1 and Voyager 2 Now?",
+      "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Astronomy",
+      "title": "Voyager 1 reaches 1 light-day from Earth",
+      "url": "https://www.astronomy.com/space-exploration/voyager-1-reaches-1-light-day-from-earth/",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "Sky & Telescope",
+      "title": "Voyager 1's Linda Spilker on the Mission's Light-Day Milestone",
+      "url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "ScienceAlert",
+      "title": "Voyager 1 Has Sped Through Space at 38,000 Mph Since 1977",
+      "url": "https://www.sciencealert.com/voyager-1-has-traveled-through-space-at-38000-mph-since-1977-and-this-wednesday-will-finally-reach-1-light-day",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Voyager 1 Becomes the First Spacecraft to Reach One Light-Day From Earth",
+     "kind": "mechanism",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+     ],
+     "details": [
+      {
+       "kind": "mechanism",
+       "fact": "Voyager 1 is tracked by NASA's Deep Space Network of telescopes in Canberra, California and Madrid.",
+       "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+       "evidence": "of telescopes in Canberra, California and Madrid.",
+       "background": true
+      },
+      {
+       "kind": "mechanism",
+       "fact": "Its two working instruments measure the Sun's magnetic field and plasma.",
+       "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+       "evidence": "Only two instruments, which measure the Sun's magnetic field and plasma, still work.",
+       "background": false
+      },
+      {
+       "kind": "limitation",
+       "fact": "The spacecraft is getting colder as its nuclear power supply dwindles; the team thinks it has enough power to keep going to about the early 2030s.",
+       "source_url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162",
+       "evidence": "We've got enough power and thermal to make it, we think, to about the early 2030s.",
+       "background": false
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

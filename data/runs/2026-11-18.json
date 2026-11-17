@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-18",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+    "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+    "junior-daily": {"status": "passed", "reason": "", "poster": null}
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {"headline": "Quad Leaders Meet in Manila: Critical Minerals Deals, an AI Accelerator and a First Joint Patrol-Aircraft Exercise in 2027", "status": "enriched", "source_urls": ["https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"]},
+      {"headline": "Ukraine Brings Down a Road Span of the Kerch Bridge Linking Russia to Crimea, Two Days Before Shenzhen", "status": "enriched", "source_urls": ["https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"]},
+      {"headline": "Voyager 1 Becomes the First Spacecraft to Reach One Light-Day From Earth", "status": "enriched", "source_urls": ["https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"]}
+    ]
+  }
+}

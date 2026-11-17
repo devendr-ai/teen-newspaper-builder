@@ -1,0 +1,282 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-11-18",
+ "volume": 1,
+ "issue": 33,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  ASIA",
+   "headline": "Four Far-Apart Friends Meet in Manila",
+   "deck": "Leaders from America, India, Japan and Australia met in the city where their group began.",
+   "body": [
+    "On Tuesday, four leaders met in Manila, the capital of the Philippines. They came from the United States, India, Japan and Australia. Together, these four countries are called the Quad. India’s Narendra Modi said the Quad was founded in Manila nearly 20 years ago.",
+    "Those four countries sit far apart around the Indian and Pacific Oceans, a region called the Indo-Pacific. Donald Trump flew in from America. Sanae Takaichi came from Japan, for her first Quad leaders’ meeting. Anthony Albanese came from Australia. Trump called the four countries “the four corners” of the Indo-Pacific.",
+    "The leaders made plans to work together. In 2027, their patrol planes, which watch over the sea, will fly in a joint exercise. It will be the first one of its kind for the Quad. Trump also announced deals on critical minerals, materials needed for things like phone and car batteries. He said they would stop any one supplier from bullying others."
+   ],
+   "map": {
+    "title": "WHERE THE QUAD MET",
+    "label_top": "MANILA, PHILIPPINES",
+    "label_bottom": "QUAD: US, INDIA, JAPAN, AUSTRALIA",
+    "footnote": "Leaders flew in from four countries",
+    "caption": "The map marks the Philippines, where the leaders met on Tuesday.",
+    "countries": [
+     "Philippines"
+    ],
+    "place": "Manila"
+   },
+   "why": "Four countries far apart are agreeing to guard the seas and share supplies together, just before Trump travels on to China.",
+   "sources": [
+    {
+     "outlet": "The White House",
+     "title": "Quad Leaders' Summit Joint Press Release",
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Trump announces critical minerals agreements at Quad meeting in Manila",
+     "url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+    },
+    {
+     "outlet": "GMA News",
+     "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Quad leaders announce plans for 1st maritime patrol aircraft exercise in 2027",
+     "url": "https://www.koreaherald.com/article/10940465"
+    },
+    {
+     "outlet": "The Epoch Times",
+     "title": "Trump Arrives in Philippines, Meets Quad Leaders",
+     "url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907"
+    },
+    {
+     "outlet": "South Asian Herald",
+     "title": "Quad Leaders Advance Indo-Pacific Security, Technology and Economic Cooperation in Manila",
+     "url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+    },
+    {
+     "outlet": "CNN",
+     "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+     "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+    },
+    {
+     "outlet": "Belfer Center",
+     "title": "Explainer: What are critical minerals?",
+     "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  INDIA",
+   "headline": "A Cyclone Spins Toward India’s East Coast",
+   "deck": "Cyclone Akvan is over the Bay of Bengal and should reach land on Friday.",
+   "body": [
+    "A cyclone is a huge, spinning storm that forms over warm sea. One called Akvan is now over the Bay of Bengal, the sea east of India.",
+    "India’s weather office, the IMD, expects it to grow stronger and cross the coast of Andhra Pradesh around noon on Friday. Its steady winds could reach 120 to 130 km an hour, with gusts up to 145.",
+    "Odisha state has started moving people away from risky areas, and fishing boats must stay off the sea until Friday. The name Akvan came from Iran."
+   ],
+   "chart": {
+    "title": "AKVAN’S EXPECTED WINDS",
+    "subtitle": "Kilometres per hour, at landfall",
+    "labels": [
+     "Low wind",
+     "High wind",
+     "Gusts"
+    ],
+    "values": [
+     120,
+     130,
+     145
+    ],
+    "max": 160,
+    "value_prefix": "",
+    "highlight_after": 1,
+    "caption": "Forecasts from India’s weather office, not measured winds."
+   },
+   "why": "Warnings give families time to move to safety before the storm arrives.",
+   "sources": [
+    {
+     "outlet": "All India Radio News",
+     "title": "IMD warns fishermen against venturing into Bay of Bengal till November 20 as Cyclone Akvan intensifies",
+     "url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+    },
+    {
+     "outlet": "India.com",
+     "title": "Cyclone 'Akvan' intensifies over Bay of Bengal, likely to make landfall on November 20 with 145 kmph winds",
+     "url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+    },
+    {
+     "outlet": "Outlook India",
+     "title": "India news live updates, 17 November 2026",
+     "url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates"
+    },
+    {
+     "outlet": "Daily Jagran",
+     "title": "Cyclone Akvan Tracker: Odisha Braces For Severe Storm",
+     "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+    },
+    {
+     "outlet": "Outlook India",
+     "title": "Cyclone Akvan Explained",
+     "url": "https://outlookindia.com/national/cyclone-akvan-explained-bay-of-bengal-storm-tracker-andhra-pradesh-odisha-rainfall-forecast-cyclone-naming-process"
+    },
+    {
+     "outlet": "Insights on India",
+     "title": "Cyclone Akvan: Formation, Track, Landfall and Key Facts",
+     "url": "https://www.insightsonindia.com/2026/11/17/cyclone-akvan/"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Space: NASA’s Voyager 1 reaches one light-day from Earth today, so a radio message takes a whole day to reach it.",
+    "Thailand: Its leader and Trump signed a trade statement in Manila."
+   ],
+   "sources": [
+    {
+     "outlet": "Space.com",
+     "title": "What exactly is a light-day?",
+     "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+    },
+    {
+     "outlet": "NASA Science",
+     "title": "Voyager 1: The Farthest Spacecraft",
+     "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    },
+    {
+     "outlet": "The Star",
+     "title": "Trump meets regional allies in Manila ahead of China visit; Thailand will eliminate tariffs on US exports",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/17/trump-meets-regional-allies-in-manila-ahead-of-china-visit-thailand-will-eliminate-tariffs-on-us-exports-under-deal-to-be-signed-soon"
+    },
+    {
+     "outlet": "Thai PBS World",
+     "title": "Trump signs trade statement with Thailand on ASEAN sidelines in Philippines",
+     "url": "https://www.thaipbsworld.com/economy/572885"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Thursday: Trump is due to meet China’s and Russia’s leaders in Shenzhen, China.",
+    "Friday: Cyclone Akvan should reach land around noon."
+   ]
+  }
+ },
+ "sources": [],
+ "play": {
+  "quiz": [
+   {
+    "q": "In which city did the Quad leaders meet?",
+    "options": [
+     "Tokyo",
+     "Manila",
+     "Sydney"
+    ],
+    "answer": 1,
+    "why": "They met in Manila, the capital of the Philippines.",
+    "story": "lead"
+   },
+   {
+    "q": "Which country is NOT in the Quad?",
+    "options": [
+     "Japan",
+     "India",
+     "China"
+    ],
+    "answer": 2,
+    "why": "The Quad is the US, India, Japan and Australia.",
+    "story": "lead"
+   },
+   {
+    "q": "Which sea is Cyclone Akvan over?",
+    "options": [
+     "Bay of Bengal",
+     "Red Sea",
+     "North Sea"
+    ],
+    "answer": 0,
+    "why": "Akvan is spinning over the Bay of Bengal, east of India.",
+    "story": "world"
+   },
+   {
+    "q": "Which country gave Cyclone Akvan its name?",
+    "options": [
+     "Japan",
+     "Brazil",
+     "Iran"
+    ],
+    "answer": 2,
+    "why": "The name Akvan came from Iran.",
+    "story": "world"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The Quad’s patrol planes will fly in a joint exercise in 2027.",
+    "true": true,
+    "why": "The leaders said their patrol planes will fly together in 2027.",
+    "story": "lead"
+   },
+   {
+    "claim": "The Quad was founded in Tokyo.",
+    "true": false,
+    "why": "Modi said the Quad was founded in Manila nearly 20 years ago.",
+    "story": "lead"
+   },
+   {
+    "claim": "Fishing boats must stay off the sea until Friday.",
+    "true": true,
+    "why": "Fishing boats were told to stay off the sea until Friday.",
+    "story": "world"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Manila",
+    "lat": 14.6,
+    "lon": 120.98,
+    "countries": [
+     "Philippines",
+     "United States",
+     "India",
+     "Japan",
+     "Australia"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Bay of Bengal",
+    "lat": 15.0,
+    "lon": 86.0,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How fast could Cyclone Akvan’s strongest gusts be, in km an hour?",
+    "answer": 145,
+    "prefix": "",
+    "unit": "km/h",
+    "min": 40,
+    "max": 260,
+    "why": "The weather office expects gusts up to 145 km an hour when the storm reaches land."
+   },
+   {
+    "story": "lead",
+    "q": "About how many years ago was the Quad founded in Manila?",
+    "answer": 20,
+    "prefix": "",
+    "unit": "years",
+    "min": 2,
+    "max": 60,
+    "why": "Modi said the Quad was founded in Manila nearly 20 years ago."
+   }
+  ]
+ }
+}
