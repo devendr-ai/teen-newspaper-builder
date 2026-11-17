@@ -1,0 +1,891 @@
+{
+ "edition": "current-affairs-digest",
+ "date": "2026-11-18",
+ "volume": 1,
+ "issue": 28,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  QUAD SUMMIT, MANILA",
+   "headline": "In Manila, the Quad Backs Minerals Deals and a 2027 Patrol Exercise",
+   "deck": "Trump, Modi, Takaichi and Albanese met on 17 November and opposed changing the regional status quo by force or coercion.",
+   "body": [
+    "The leaders of the Quad, a grouping of the United States, India, Japan and Australia, met in Manila on Tuesday 17 November, towards the end of the ASEAN summit. Donald Trump, Narendra Modi, Sanae Takaichi and Anthony Albanese attended; CNN called it the Quad’s first leader-level meeting since Trump took office, and it was Takaichi’s first. Modi noted that the Quad was founded in Manila nearly 20 years ago.",
+    "The headline outcome was on critical minerals, raw materials such as lithium, cobalt and nickel that batteries depend on but whose supply carries risks. Trump announced agreements he said would prevent “coercion by any single foreign supplier”, without naming the partners, the minerals or China, which dominates global rare earth supplies.",
+    "On security, the four countries’ P-8 and P-3C patrol aircraft will fly in a maritime exercise in 2027, the first in a Quad setting, and a new Indo-Pacific Maritime Surveillance Collaboration will share information. The joint statement opposed changing the status quo by force or coercion and voiced “grave concerns” about economic coercion, without naming any country.",
+    "On technology, the Quad is launching an AI accelerator and spending more than $85 million to widen access to trusted AI across the Indo-Pacific. The leaders also announced cybersecurity cooperation, welcomed an expansion of Australia’s role in the Quad’s cable partnership to cover electricity cables, and set the first Quad Business Leaders’ Forum for early 2027.",
+    "At the East Asia Summit the same day, Modi announced a Seafarers’ Safety Initiative for joint training and emergency response. Trump now moves on to Shenzhen for APEC."
+   ],
+   "map": {
+    "title": "QUAD SUMMIT, MANILA, 17 NOVEMBER",
+    "label_top": "MANILA: QUAD, ASEAN, EAST ASIA SUMMIT",
+    "label_bottom": "QUAD: US, INDIA, JAPAN, AUSTRALIA",
+    "footnote": "Trump flies on to Shenzhen for APEC",
+    "caption": "The Quad met in the Philippine capital, ASEAN’s 2026 host.",
+    "countries": [
+     "Philippines"
+    ],
+    "place": "Manila"
+   },
+   "why": "The four partners want secure mineral supplies and closer coordination at sea, a day before Trump meets Xi and Putin in Shenzhen.",
+   "sources": [
+    {
+     "outlet": "The White House",
+     "title": "Quad Leaders' Summit Joint Press Release",
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Trump announces critical minerals agreements at Quad meeting in Manila",
+     "url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+    },
+    {
+     "outlet": "GMA News",
+     "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+    },
+    {
+     "outlet": "CNN",
+     "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+     "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Quad leaders announce plans for 1st maritime patrol aircraft exercise in 2027",
+     "url": "https://www.koreaherald.com/article/10940465"
+    },
+    {
+     "outlet": "The Tribune",
+     "title": "Quad sharpens maritime security cooperation, flags economic coercion",
+     "url": "https://www.tribuneindia.com/news/india/quad-sharpens-maritime-security-cooperation-flags-economic-coercion/"
+    },
+    {
+     "outlet": "WION",
+     "title": "Trump pitches Quad as security and AI alliance, announces critical minerals deals",
+     "url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+    },
+    {
+     "outlet": "The Epoch Times",
+     "title": "Trump Arrives in Philippines, Meets Quad Leaders",
+     "url": "https://www.theepochtimes.com/us/trump-arrives-in-philippines-meets-quad-leaders-6125907"
+    },
+    {
+     "outlet": "South Asian Herald",
+     "title": "Quad Leaders Advance Indo-Pacific Security, Technology and Economic Cooperation in Manila",
+     "url": "https://southasianherald.com/quad-leaders-advance-indo-pacific-security-technology-and-economic-cooperation-in-manila/"
+    },
+    {
+     "outlet": "The Australia Today",
+     "title": "Australia joins Quad's strong warning against force or coercion",
+     "url": "https://www.theaustraliatoday.com.au/australia-joins-quads-strong-warning-against-force-or-coercion-as-regional-tensions-threaten-indo-pacific-stability/"
+    },
+    {
+     "outlet": "Belfer Center",
+     "title": "Explainer: What are critical minerals?",
+     "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+    },
+    {
+     "outlet": "ANI",
+     "title": "PM Modi champions 'cooperation, not competition' in Manila",
+     "url": "https://aninews.in/news/world/asia/pm-modi-champions-cooperation-not-competition-in-manila-unveils-free-e-visas-maritime-and-tech-initiatives-at-asean-india-and-east-asia-summits20261117193347/"
+    },
+    {
+     "outlet": "The Tribune",
+     "title": "Modi proposes seafarer safety initiative, cybercrime conference at East Asia Summit",
+     "url": "https://www.tribuneindia.com/news/india/modi-proposes-seafarer-safety-initiative-cybercrime-conference-at-east-asia-summit/"
+    },
+    {
+     "outlet": "Business Standard",
+     "title": "PM Modi unveils seafarers' safety initiative at East Asia Summit in Manila",
+     "url": "https://www.business-standard.com/india-news/pm-modi-unveils-seafarers-safety-initiative-at-east-asia-summit-in-manila-126111701410_1.html"
+    },
+    {
+     "outlet": "Outlook India",
+     "title": "A New Yalta In Shenzhen? The Power Politics Behind Xi, Trump And Putin's Summit",
+     "url": "https://www.outlookindia.com/international/xi-trump-putin-november-19-shenzhen-apec-yalta-summit-global-order"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA-UKRAINE WAR",
+   "headline": "Ukraine Brings Down a Road Span of the Kerch Bridge, Two Days Before the Shenzhen Summit",
+   "deck": "Kyiv says one steel arch and the road beneath it were destroyed; the Kremlin calls the damage minor and promises repairs.",
+   "body": [
+    "Ukrainian drones and missiles struck the Kerch Bridge for a second night running, and on Tuesday 17 November brought down its main road arch. The bridge crosses the Kerch Strait to link Russia’s mainland with Crimea, which Russia seized from Ukraine in 2014. Putin opened it in 2018; it cost $3.7 billion and was built to carry 40,000 cars a day. The road bridge is about 16.9 km long, and a parallel railway bridge, opened to freight in 2020, about 18.1 km.",
+    "Ukraine’s SBU security service said one of the metal arches and the road span beneath it were destroyed. President Volodymyr Zelenskyy said Ukrainian long-range drones struck the road section, while Neptune missiles and other drones aimed at the railway, and Flamingo missiles delivered the final blow. He described the strike as the seventh stage of an operation lasting several weeks. Russia’s Transport Ministry said rail traffic had resumed on one track.",
+    "Moscow played the damage down. Kremlin spokesperson Dmitry Peskov said traffic continued and the bridge would be “even better than before”, and Deputy Prime Minister Marat Khusnullin said a government commission had discussed delivering cargo to Crimea by alternative routes. Russia’s Investigative Committee called the strike a “terrorist act”; the Transport Ministry said there were no casualties. The air war also widened overnight: Russia said it shot down 1,441 Ukrainian drones, and Zelenskyy said seven Russian ballistic missiles hit two of Kyiv’s main bridges.",
+    "How much the strike matters militarily is debated. The Institute for the Study of War said it was likely part of Kyiv’s campaign to deny Russian forces major supply routes via Crimea, but the bridge was once a key supply route and Russia’s military now relies more on a land corridor. The span also crosses a channel used by ships entering and leaving the Sea of Azov, so the collapse could substantially delay any return of shipping from that sea. The strike came two days before Putin was due to meet Trump and Xi Jinping in Shenzhen."
+   ],
+   "illustration": {
+    "title": "THE KERCH STRAIT",
+    "subtitle": "Russia to Crimea",
+    "motif": "strait",
+    "caption": "The bridge crosses the strait between the Black Sea and the Sea of Azov."
+   },
+   "connect": "Geography: the Kerch Strait separates Crimea from Russia’s mainland and carries ships between the Black Sea and the Sea of Azov. History: Russia seized Crimea from Ukraine in 2014, and Putin opened the bridge four years later, in 2018.",
+   "sources": [
+    {
+     "outlet": "Military.com",
+     "title": "Ukraine Drones and Missiles Collapse Russia's Kerch Bridge Road Span Days Before Putin, Trump and Xi Meet",
+     "url": "https://www.military.com/ukraine-strikes-section-of-russias-crimean-bridge-two-days-before-putin-meets-trump-xi"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Kerch Bridge: Ukraine damages Putin's prized Crimea crossing",
+     "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html"
+    },
+    {
+     "outlet": "PBS NewsHour",
+     "title": "'The symbol of the occupation': Ukraine destroys span of Kerch Bridge linking Russia with Crimea",
+     "url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+     "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Putin's Kerch Bridge to Crimea partially destroyed by Ukraine strike",
+     "url": "https://www.nbcnews.com/world/russia/kerch-bridge-strikes-putin-crimea-ukraine-russia-war-kyiv-rcna609756"
+    },
+    {
+     "outlet": "KSL",
+     "title": "Ukraine strikes Russia's Kerch Bridge with drones and missiles as aerial attacks escalate",
+     "url": "https://www.ksl.com/article/51646380/ukraine-strikes-russias-kerch-bridge-with-drones-and-missiles-as-aerial-attacks-escalate"
+    },
+    {
+     "outlet": "Wikipedia",
+     "title": "Crimean Bridge",
+     "url": "https://en.wikipedia.org/wiki/Crimean_Bridge"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  CYCLONE AKVAN",
+   "headline": "Cyclone Akvan Is Forecast to Hit the Andhra Coast as a Very Severe Storm Around Noon on 20 November",
+   "deck": "The IMD expects winds of 120-130 km/h gusting to 145 km/h; Odisha has begun evacuations and fishing is suspended in the Bay of Bengal.",
+   "body": [
+    "Cyclone Akvan, which formed when a deep depression over the Bay of Bengal intensified into a cyclonic storm, is expected to keep strengthening as it approaches India’s east coast. The India Meteorological Department (IMD) expects it to become a Severe Cyclonic Storm around the evening of 17 November and a Very Severe Cyclonic Storm around the morning of 19 November. The IMD’s 17 November bulletin placed it about 610 km east of Chennai and 660 km southeast of Machilipatnam.",
+    "Landfall, the moment a storm’s centre crosses the coast, is forecast around noon on 20 November, on the Andhra Pradesh and Yanam coasts between Nellore and Tuni, though the forecast may change. The IMD expects sustained winds of 120-130 km/h gusting to 145 km/h at that point, and has warned of extensive damage in coastal districts of Andhra Pradesh and of a possible storm surge, a rise in sea level pushed ashore by the storm, of 1-2 metres in low-lying parts of Prakasam, Bapatla, Krishna, West Godavari, Konaseema and Kakinada districts. Coastal Andhra Pradesh could see isolated extremely heavy rainfall of more than 21 cm on 19 and 20 November, and Odisha heavy rain at isolated places between 19 and 21 November.",
+    "Preparations are under way. An Orange Message has been issued for the Andhra Pradesh and adjoining south Odisha coasts. Odisha has started moving people out of vulnerable areas, ordering evacuations in six districts according to a Daily Jagran live tracker. The IMD has advised fishermen not to venture into the northwest, southwest and west-central Bay of Bengal until 20 November, and fishing is to be suspended completely in the warning zones.",
+    "State governments are preparing for impact. In Andhra Pradesh, which was recently hit by Cyclones Arnab and Murasu, Chief Minister Naidu and Deputy Chief Minister Pawan Kalyan reviewed preparedness. Pawan Kalyan told officials to set up relief camps stocked with food and drinking water, and to clear fallen trees and repair roads, while Naidu asked for rescue and rehabilitation to proceed based on real-time assessments.",
+    "The storm’s name was contributed by Iran. Names for North Indian Ocean cyclones come from a list shared by 13 countries under the WMO-ESCAP Panel on Tropical Cyclones, and the IMD’s Regional Specialised Meteorological Centre in New Delhi assigns them. Akvan is the third storm in quick succession, after Arnab and Murasu; the next name on the list is Kaani."
+   ],
+   "visual": {
+    "type": "steps",
+    "title": "AKVAN’S FORECAST PATH",
+    "caption": "IMD forecast stages as reported on 17 November; timings may shift in later bulletins.",
+    "source_url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/",
+    "items": [
+     {
+      "label": "Severe Cyclonic Storm around the evening of 17 November",
+      "evidence": "Severe Cyclonic Storm around the evening of 17 November"
+     },
+     {
+      "label": "Very Severe Cyclonic Storm around the morning of 19 November",
+      "evidence": "Very Severe Cyclonic Storm around the morning of 19 November"
+     },
+     {
+      "label": "Landfall between Nellore and Tuni around noon on 20 November",
+      "evidence": "forecast around noon on 20 November, on the Andhra Pradesh and Yanam coasts between Nellore and Tuni"
+     }
+    ]
+   },
+   "why": "Forecasts issued days before landfall give states time to move people and keep boats ashore before the strongest winds and rain arrive.",
+   "sources": [
+    {
+     "outlet": "All India Radio News",
+     "title": "IMD warns fishermen against venturing into Bay of Bengal till November 20 as Cyclone Akvan intensifies",
+     "url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+    },
+    {
+     "outlet": "All India Radio News",
+     "title": "Deep Depression over Bay of Bengal intensifies into cyclonic storm Akvan, says IMD",
+     "url": "https://newsonair.gov.in/deep-depression-formed-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm-today/"
+    },
+    {
+     "outlet": "India.com",
+     "title": "Cyclone 'Akvan' intensifies over Bay of Bengal, likely to make landfall on November 20 with 145 kmph winds",
+     "url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+    },
+    {
+     "outlet": "Outlook India",
+     "title": "Cyclone Akvan Explained: Bay of Bengal Storm, Andhra Pradesh Alert, Odisha Rain Forecast and Naming Process",
+     "url": "https://outlookindia.com/national/cyclone-akvan-explained-bay-of-bengal-storm-tracker-andhra-pradesh-odisha-rainfall-forecast-cyclone-naming-process"
+    },
+    {
+     "outlet": "Outlook India",
+     "title": "India news live updates, 17 November 2026",
+     "url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates"
+    },
+    {
+     "outlet": "Daily Jagran",
+     "title": "Cyclone Akvan Tracker: Odisha Braces For Severe Storm; Orders Evacuation In Six Districts",
+     "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+    },
+    {
+     "outlet": "Daily Jagran",
+     "title": "Cyclone Akvan Threatens Andhra Coast After Arnab And Murasu",
+     "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-threatens-andhra-coast-after-arnab-and-murasu-know-the-meaning-and-origin-of-its-name-10336436"
+    },
+    {
+     "outlet": "Insights on India",
+     "title": "Cyclone Akvan: Formation, Track, Landfall and Key Facts",
+     "url": "https://www.insightsonindia.com/2026/11/17/cyclone-akvan/"
+    },
+    {
+     "outlet": "Deccan Chronicle",
+     "title": "CM Naidu, Pawan Review Akvan Cyclone Preparedness",
+     "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pawan-review-akvan-cyclone-preparedness-2005364"
+    },
+    {
+     "outlet": "Business Standard",
+     "title": "After Arnab and Murasu, third cyclone 'Akvan' to hit Andhra: What we know",
+     "url": "https://www.business-standard.com/amp/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html"
+    },
+    {
+     "outlet": "Open",
+     "title": "Quick take: What is Cyclone Akvan and which areas could it affect",
+     "url": "https://openthemagazine.com/india/quick-take-what-is-cyclone-akvan-and-which-areas-could-it-affect-seven-things-to-know"
+    }
+   ]
+  },
+  "politics_and_civics": {
+   "kicker": "POLITICS & CIVICS  •  UNITED STATES SENATE",
+   "headline": "Schumer Says He Has the Votes to Stay Senate Democratic Leader Ahead of a 1 December Secret Ballot",
+   "deck": "Challenger Chris Van Hollen claims 15 votes; because the ballot is secret, public endorsements show only part of the race.",
+   "body": [
+    "In the US Senate, each party’s senators choose their own leader; voters do not. Democrats recaptured the Senate in the midterm elections, so whoever wins this contest would be majority leader in the next Congress. On Tuesday 17 November, Chuck Schumer said he has the votes to be elected majority leader and called the race effectively over. He posted that “I have the votes to continue serving as Democratic Leader”, and urged colleagues to focus on lowering costs and ending corruption.",
+    "His challenger is Chris Van Hollen, a Democratic senator from Maryland, who says the country’s election called for change but acknowledges he is the underdog. Van Hollen has criticised Schumer for limiting votes on legislation popular with Democrats, including a bill to boost unions, and backs abolishing the filibuster, a Senate rule that lets opponents hold up votes on most bills. The two also differ on Israel: Schumer has continued to support US aid to Israel, while Van Hollen opposes what he calls “an American taxpayer blank check” to its government.",
+    "Counting support is hard. Van Hollen says he has 15 votes. A Punchbowl News tracker reported 14 senators publicly backing Schumer and five backing Van Hollen, with 36 uncommitted, as of Sunday. Schumer’s allies predict he will win more than 40 votes, a claim from his allies rather than his office.",
+    "The vote is set for 1 December and will be a closed-door secret ballot, so senators can vote differently from what they say in public; public endorsements therefore offer only a partial picture. Even the winning number is reported differently: both camps speak of a path to 28 votes, while MS NOW says the victor will need at least 29.",
+    "The date itself is disputed. Van Hollen, 67, has accused Schumer, 75, who has led Senate Democrats since 2016, of trying to move the vote earlier: “If they really believed that they were ahead, they wouldn’t be trying to move up the elections.” The Boston Globe reports it is not clear the idea has gained traction or is being driven by Schumer himself. Van Hollen has also warned against a “coronation”.",
+    "Winning requires a simple majority of the caucus, and Democrats will hold at least 55 Senate seats next year. Outside the Senate, a Data for Progress poll found that 56% of Democratic-leaning voters said Senate Democrats should choose a new leader, and a plurality favoured Van Hollen. Those voters, however, have no vote in the contest."
+   ],
+   "illustration": {
+    "title": "SECRET BALLOT, 1 DECEMBER",
+    "subtitle": "Senate Democrats vote",
+    "motif": "ballot",
+    "caption": "Senators vote privately, so public endorsements show only part of the race."
+   },
+   "why": "The contest shows how a party’s leader is chosen by its own senators, and why a secret ballot can make public vote counts unreliable.",
+   "sources": [
+    {
+     "outlet": "The Hill",
+     "title": "Schumer declares he has votes to beat Van Hollen and become majority leader",
+     "url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Whip List: Schumer faces challenge from Van Hollen for Senate Democratic leader",
+     "url": "https://thehill.com/homenews/senate/6223162-whip-schumer-van-hollen-leadership-race"
+    },
+    {
+     "outlet": "MS NOW",
+     "title": "The race for Senate majority leader is only getting messier",
+     "url": "https://www.ms.now/news/race-for-senate-majority-leader-is-only-getting-messier"
+    },
+    {
+     "outlet": "Data for Progress",
+     "title": "Democratic-Leaning Voters Favor Van Hollen Over Schumer for Majority Leader",
+     "url": "https://www.dataforprogress.org/blog/2026/11/16/democratic-leaning-voters-favor-van-hollen-over-schumer-for-majority-leader"
+    },
+    {
+     "outlet": "NewsLooks",
+     "title": "Schumer Claims Votes to Lead Senate Democrats as Van Hollen Warns Against 'Coronation'",
+     "url": "https://www.newslooks.com/schumer-claims-votes-to-lead-senate-democrats-as-van-hollen-warns-against-coronation/"
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Democratic allies predict Schumer will secure 40+ votes in leadership race",
+     "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Chris Van Hollen says he can beat Chuck Schumer for Senate leader",
+     "url": "https://www.npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader"
+    },
+    {
+     "outlet": "Fox News",
+     "title": "Sen Chris Van Hollen challenges Schumer and backs ending filibuster",
+     "url": "https://www.foxnews.com/politics/schumers-leadership-rival-reveals-major-senate-rule-change-hed-pursue-if-elected"
+    },
+    {
+     "outlet": "The Washington Post",
+     "title": "Van Hollen announces challenge to Schumer to lead the Senate",
+     "url": "https://www.washingtonpost.com/politics/2026/11/12/van-hollen-announces-challenge-schumer-lead-senate/"
+    },
+    {
+     "outlet": "The Boston Globe",
+     "title": "Van Hollen challenges Schumer for Senate leader",
+     "url": "https://www.bostonglobe.com/2026/11/15/nation/van-hollen-senate-leader-schumer/"
+    }
+   ]
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  TRADE",
+   "headline": "US and Thailand Sign a Trade Statement in Manila; Thailand Is to Drop Tariffs While the US Keeps 19%",
+   "deck": "Trump says Thailand will remove all tariffs on US exports and buy $2.6 billion more in farm goods; the final agreement still needs approval.",
+   "body": [
+    "A tariff is a tax charged on goods imported from abroad. On Tuesday 17 November, on the sidelines of the 49th ASEAN Summit in Manila, President Trump and Thai Prime Minister Anutin Charnvirakul signed a joint trade statement. Trump said “Thailand will eliminate all tariffs on US exports”.",
+    "Trump said Thailand would also remove non-tariff barriers, rules other than taxes that keep goods out, on American vehicles, medical devices, pharmaceuticals, ethanol and poultry, and would buy an estimated $2.6 billion in additional US agricultural products. A US 19% tariff on Thai goods will remain in place. In 2025, the US had lowered a threatened 36% tariff on Thailand to that 19% level.",
+    "The document is not yet a final deal. The White House statement says the two countries “have reached substantial conclusion” in negotiations on an Agreement on Reciprocal Trade, and will now begin internal processes to prepare it for signature and entry into force. Bloomberg reported that the text still needs legal and domestic approval. Trump said it would be finalised “in the coming weeks”; Anutin said he was confident it would be ready to sign “real soon”, while acknowledging there is still a little more to do before a binding text. Neither leader announced an implementation date, or what concessions Washington would offer Bangkok in return.",
+    "The statement builds on a framework first unveiled in October 2025 at the ASEAN summit in Kuala Lumpur, which covered about 99% of US goods. US trade policy has also shifted since then: Insider Paper reports that the US Supreme Court struck down country-specific tariffs in February, but Washington has since cited insufficient action against forced labour to impose new tariffs on 60 economies, including Thailand. If the terms Trump described hold, American goods would enter Thailand tariff-free, while Thai goods entering the United States would still face the 19% rate."
+   ],
+   "chart": {
+    "title": "US TARIFF ON THAI GOODS",
+    "subtitle": "% charged on imports from Thailand",
+    "labels": [
+     "Threatened",
+     "Kept now"
+    ],
+    "values": [
+     36,
+     19
+    ],
+    "max": 40,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "In 2025 the US lowered a threatened 36% tariff to 19%; under the new statement the 19% rate stays."
+   },
+   "why": "Tariffs change what families and firms pay for imported goods. Thailand is opening its market to win a deal, while the US keeps its own tariff in place.",
+   "analyst": "Who gains most when one side removes all tariffs and the other keeps 19%? What would you need to know about the final text, and about the concessions the US offers, before judging the deal?",
+   "sources": [
+    {
+     "outlet": "Thai PBS World",
+     "title": "Trump signs trade statement with Thailand on ASEAN sidelines in Philippines",
+     "url": "https://www.thaipbsworld.com/economy/572885"
+    },
+    {
+     "outlet": "Bloomberg",
+     "title": "Thailand Opening Markets Wider to US to Secure Trade Deal",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal"
+    },
+    {
+     "outlet": "The Star",
+     "title": "Trump meets regional allies in Manila ahead of China visit; Thailand will eliminate tariffs on US exports",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/17/trump-meets-regional-allies-in-manila-ahead-of-china-visit-thailand-will-eliminate-tariffs-on-us-exports-under-deal-to-be-signed-soon"
+    },
+    {
+     "outlet": "Clash Report",
+     "title": "Thailand Will Eliminate All Tariffs on U.S. Exports, Trump Says",
+     "url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+    },
+    {
+     "outlet": "Anadolu Agency",
+     "title": "US, Thailand sign joint trade statement, defer formal deal",
+     "url": "https://www.aa.com.tr/en/politics/us-thailand-sign-joint-trade-statement-defer-formal-deal/4127850"
+    },
+    {
+     "outlet": "IBTimes Singapore",
+     "title": "Trump Keeps 19% Tariff on Thailand Despite Deal to Remove Duties on US Goods",
+     "url": "https://www.ibtimes.sg/trump-keeps-19-tariff-thailand-despite-deal-remove-duties-us-goods-96327"
+    },
+    {
+     "outlet": "UPI",
+     "title": "U.S., Thailand near trade deal on tariffs, agricultural exports",
+     "url": "https://www.upi.com/Top_News/US/2026/11/17/thailand-trade-agreement/7891794937120/"
+    },
+    {
+     "outlet": "The White House",
+     "title": "Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trade",
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/"
+    },
+    {
+     "outlet": "Insider Paper",
+     "title": "US, Thailand sign joint trade statement",
+     "url": "https://insiderpaper.com/us-thailand-sign-joint-trade-statement/"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  SPACE",
+   "headline": "Voyager 1, Launched in 1977, Becomes the First Spacecraft to Reach One Light-Day From Earth",
+   "deck": "A radio signal now takes 24 hours each way; the probe still runs two of its original ten instruments.",
+   "body": [
+    "NASA’s Voyager 1 reaches one light-day from Earth on 18 November 2026 at 10:16 UTC, becoming the first spacecraft to do so. A light-day is a unit of distance, not time: the distance light travels in 24 hours, about 25.89 billion kilometres. At the milestone, Voyager 1 is 25.902 billion kilometres, or 16.094 billion miles, from Earth: about 173 astronomical units, where one unit is the average distance between Earth and the Sun. NASA Voyager project scientist Linda Spilker called it “not a time so much as a distance” and an “incredible milestone to celebrate”.",
+    "The distance has a practical meaning for the mission team. A command sent from Earth now takes a full 24 hours to reach the probe, and its reply takes another 24 hours to come back, so every exchange is slow. Voyager 1 is tracked by NASA’s Deep Space Network of large antennas in Canberra, California and Madrid, and has travelled at about 38,000 mph, or 17 kilometres per second relative to the Sun, since 1977. The link is fragile: last month NASA lost contact for about 48 hours, and the spacecraft came back online before engineers could send commands to troubleshoot.",
+    "Voyager 1 was launched in 1977 to fly past Jupiter and Saturn, and crossed into interstellar space, the space between the stars, in August 2012. Its power comes from radioisotope thermoelectric generators, a kind of nuclear battery whose output falls by about 4 watts a year, and the spacecraft grows colder as the power drops. Engineers have therefore switched off heaters and instruments, and its thrusters are clogging. Of the 10 science instruments it launched with, it runs only two, the magnetometer and the plasma wave subsystem, which measure the Sun’s magnetic field and plasma. The team thinks it has enough power to continue to about the early 2030s.",
+    "The mission will not last for ever. Spilker has described what the day the signal stops will be like for the people listening on the ground: “We’ll be waiting to hear from Voyager,” she said, “and there won’t be anything.” For Bruce Betts, chief scientist of the Planetary Society, this week’s milestone is above all a testament to the engineers and others who worked on the project.",
+    "Its twin, Voyager 2, still runs three science instruments but can now talk only to the Canberra station, and is not expected to reach a light-day from Earth until 2035. Both probes still record data on eight-track tape players, and late next year both will mark 50 years in space. NASA celebrated this week’s milestone by inviting the public to “Shine Bright for Voyager’s Light-Day”, flashing lights in Morse code after sunset on 17 November."
+   ],
+   "visual": {
+    "type": "steps",
+    "title": "ONE EXCHANGE WITH VOYAGER 1",
+    "caption": "How a command and its reply now travel between Earth and Voyager 1 at one light-day.",
+    "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe",
+    "items": [
+     {
+      "label": "A command from Earth takes a full 24 hours to reach the probe",
+      "evidence": "A command sent from Earth now takes a full 24 hours to reach the probe"
+     },
+     {
+      "label": "Its reply takes another 24 hours to come back",
+      "evidence": "its reply takes another 24 hours to come back"
+     }
+    ]
+   },
+   "why": "Voyager 1 is still returning data from interstellar space, but with fading power and a day-long delay each way, it shows both how far engineering can reach and its limits.",
+   "sources": [
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "NASA's Voyager 1 spacecraft to reach historic light-day milestone today",
+     "url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "NASA's interstellar Voyager 1 probe is about to reach 1 light-day from Earth after nearly 50 years in space",
+     "url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "What exactly is a light-day? Here's what Voyager 1's latest milestone means for the interstellar probe",
+     "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "NASA wants you to 'shine bright' today for Voyager 1's light-day milestone. Here's how",
+     "url": "https://www.space.com/space-exploration/voyager/nasa-wants-you-to-shine-bright-today-for-voyager-1s-light-day-milestone-heres-how"
+    },
+    {
+     "outlet": "NASA Science",
+     "title": "Voyager 1: The Farthest Spacecraft",
+     "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    },
+    {
+     "outlet": "NASA Science",
+     "title": "Where Are Voyager 1 and Voyager 2 Now?",
+     "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+    },
+    {
+     "outlet": "Astronomy",
+     "title": "Voyager 1 reaches 1 light-day from Earth",
+     "url": "https://www.astronomy.com/space-exploration/voyager-1-reaches-1-light-day-from-earth/"
+    },
+    {
+     "outlet": "Sky & Telescope",
+     "title": "Voyager 1's Linda Spilker on the Mission's Light-Day Milestone",
+     "url": "https://skyandtelescope.org/astronomy-news/voyager-1s-linda-spilker-on-the-light-day-milestone/"
+    },
+    {
+     "outlet": "ScienceAlert",
+     "title": "Voyager 1 Has Sped Through Space at 38,000 Mph Since 1977",
+     "url": "https://www.sciencealert.com/voyager-1-has-traveled-through-space-at-38000-mph-since-1977-and-this-wednesday-will-finally-reach-1-light-day"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "China: The 33rd APEC Economic Leaders’ Meeting opens in Shenzhen on 18 November; CNN, citing Xinhua, reported that Vladimir Putin has arrived, and the White House says the first three-way meeting of Trump, Xi Jinping and Putin is set for 19 November.",
+    "United States: The FAA said on 17 November it is pausing installation of new routers after last Friday’s nearly five-hour nationwide ground stop, which disabled communication and radar in 17 of the country’s 22 regional air traffic control centres; the root cause is still under investigation.",
+    "Sport: MS Dhoni, 45, has retired as an IPL player and will be Chennai Super Kings’ team mentor from the 2027 season; he played 272 matches for CSK and captained them to five IPL titles, the joint-most by any captain.",
+    "Delhi: The Commission for Air Quality Management revoked GRAP Stage 3 pollution curbs in Delhi-NCR on 17 November with the AQI at 204, down from 382 when they were imposed on 6 November; Stage 1 and 2 rules remain."
+   ],
+   "sources": [
+    {
+     "outlet": "Outlook India",
+     "title": "A New Yalta In Shenzhen? The Power Politics Behind Xi, Trump And Putin's Summit",
+     "url": "https://www.outlookindia.com/international/xi-trump-putin-november-19-shenzhen-apec-yalta-summit-global-order"
+    },
+    {
+     "outlet": "CNN",
+     "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+     "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+    },
+    {
+     "outlet": "HNGN",
+     "title": "Trump Says Ukraine Will Come Up at Shenzhen Summit; Aides Said It Would Not",
+     "url": "https://www.hngn.com/articles/273717/20261116/china-confirms-talks-first-xi-putin-trump-summit-apec.htm"
+    },
+    {
+     "outlet": "NPR",
+     "title": "FAA says it will rethink how it does upgrades after nationwide ground stop",
+     "url": "https://www.npr.org/2026/11/17/nx-s1-6042897/faa-says-it-will-rethink-how-it-does-upgrades-after-nationwide-ground-stop"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "FAA pauses installation of new routers after ground stop",
+     "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+    },
+    {
+     "outlet": "Axios",
+     "title": "FAA pauses tech upgrade linked to nationwide ground stop",
+     "url": "https://axios.com/2026/11/17/faa-air-traffic-control-router-upgrade-ground-stop"
+    },
+    {
+     "outlet": "The Hill",
+     "title": "FAA halts router upgrades after ground stop fuels infrastructure concerns",
+     "url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+    },
+    {
+     "outlet": "The National",
+     "title": "IPL: MS Dhoni retires but 'will always be a part of Chennai Super Kings identity'",
+     "url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+    },
+    {
+     "outlet": "The News Minute",
+     "title": "MS Dhoni retires from IPL, will mentor Chennai Super Kings ahead of 2027 season",
+     "url": "https://www.thenewsminute.com/tamil-nadu/ms-dhoni-retires-from-ipl-will-mentor-chennai-super-kings-ahead-of-2027-season"
+    },
+    {
+     "outlet": "Sky Sports",
+     "title": "MS Dhoni: Former India captain retires from playing role with IPL's Chennai Super Kings aged 45",
+     "url": "https://www.skysports.com/cricket/news/13613181/ms-dhoni-former-india-captain-retires-from-playing-role-with-ipls-chennai-super-kings-aged-45"
+    },
+    {
+     "outlet": "Newstrack",
+     "title": "GRAP Stage 3 Restrictions Lifted in Delhi-NCR as AQI Improves to 204",
+     "url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+    },
+    {
+     "outlet": "Open",
+     "title": "Delhi air pollution: GRAP Stage 3 curbs lifted as AQI improves to 204",
+     "url": "https://openthemagazine.com/india/delhi-air-pollution-grap-stage-3-curbs-lifted-as-aqi-improves-to-204"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Economic coercion",
+     "def": "Using trade, such as export bans or sudden restrictions, to pressure another country into a political choice. Today: the Quad voiced “grave concerns” about economic coercion, including arbitrary export restrictions."
+    },
+    {
+     "word": "Landfall",
+     "def": "The moment the centre of a storm crosses from sea onto a coast. Today: Cyclone Akvan’s landfall is forecast around noon on 20 November between Nellore and Tuni."
+    },
+    {
+     "word": "Secret ballot",
+     "def": "A vote in which each voter’s choice is kept private. Today: Senate Democrats will choose their leader by secret ballot on 1 December."
+    },
+    {
+     "word": "Non-tariff barrier",
+     "def": "A rule other than a tax, such as a standard, licence or quota, that limits imports. Today: Trump said Thailand would remove non-tariff barriers on US vehicles and poultry."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "The Sea of Azov, which ships reach through the Kerch Strait, is the shallowest sea in the world: at its deepest point it is only about 14 metres deep."
+  },
+  "explainer": {
+   "title": "How India grades and names cyclones",
+   "body": [
+    "The India Meteorological Department classifies storms over the North Indian Ocean by their sustained wind speed. A low-pressure system becomes a depression at 31-49 km/h and a deep depression at 50-61 km/h. At 62 km/h it becomes a cyclonic storm and is given a name.",
+    "Above that, the scale continues: a severe cyclonic storm has winds of 89-117 km/h, a very severe cyclonic storm 118-166 km/h, an extremely severe cyclonic storm 167-221 km/h, and a super cyclonic storm 222 km/h or more. Cyclone Akvan’s forecast landfall winds of 120-130 km/h fall in the very severe band.",
+    "Names come from a list drawn up by the 13 member countries of the WMO-ESCAP Panel on Tropical Cyclones, which include India, Bangladesh, Iran, Pakistan and Sri Lanka. Each country contributed 13 names, and they are used in turn. Names are used only once, so a storm’s name is never given to a later cyclone."
+   ],
+   "sources": [
+    {
+     "outlet": "Outlook India",
+     "title": "Cyclone Akvan Explained: Bay of Bengal Storm, Andhra Pradesh Alert, Odisha Rain Forecast and Naming Process",
+     "url": "https://outlookindia.com/national/cyclone-akvan-explained-bay-of-bengal-storm-tracker-andhra-pradesh-odisha-rainfall-forecast-cyclone-naming-process"
+    },
+    {
+     "outlet": "Insights on India",
+     "title": "Cyclone Akvan: Formation, Track, Landfall and Key Facts",
+     "url": "https://www.insightsonindia.com/2026/11/17/cyclone-akvan/"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Eight questions on this issue",
+   "body": [
+    "<b>1.</b> The Quad’s leaders agreed that their maritime patrol aircraft will join an exercise for the first time in a Quad setting. In which year?",
+    "(a) 2026  (b) 2027  (c) 2030",
+    "<b>2.</b> How much is the Quad spending to widen access to trusted AI across the Indo-Pacific?",
+    "(a) More than $85 million  (b) $50 billion  (c) $2.6 billion",
+    "<b>3.</b> According to Ukraine’s SBU, what did the strike on the Kerch Bridge destroy?",
+    "(a) The whole railway bridge  (b) One metal arch and the road span beneath it  (c) Both arches",
+    "<b>4.</b> Between which two places is Cyclone Akvan expected to cross the Andhra Pradesh coast?",
+    "(a) Nellore and Tuni  (b) Puri and Paradip  (c) Chennai and Nellore",
+    "<b>5.</b> Which country contributed the name Akvan?",
+    "(a) Bangladesh  (b) Sri Lanka  (c) Iran",
+    "<b>6.</b> How will Senate Democrats choose their leader on 1 December?",
+    "(a) A national primary  (b) A closed-door secret ballot  (c) A public roll call",
+    "<b>7.</b> Which US tariff rate on Thai goods stays in place under the new trade statement?",
+    "(a) 19%  (b) 36%  (c) 0%",
+    "<b>8.</b> Which two of Voyager 1’s original ten instruments still work?",
+    "(a) The cameras and the infrared spectrometer  (b) The cosmic ray and radio astronomy instruments  (c) The magnetometer and the plasma wave subsystem",
+    "<b>Answers:</b> 1-b, 2-a, 3-b, 4-a, 5-c, 6-b, 7-a, 8-c"
+   ],
+   "sources": []
+  },
+  "watchlist": {
+   "items": [
+    "Shenzhen, 18-19 November: APEC leaders meet; Putin and Xi are to hold a working breakfast as the leaders’ meeting opens, and on 19 November Trump is due to meet both of them, the first time the three countries’ leaders gather in one place. Trump has said Ukraine will come up, two days after the Kerch Bridge strike.",
+    "Andhra Pradesh and Odisha, 19-20 November: the IMD expects Akvan to become a very severe cyclonic storm by the morning of 19 November and to make landfall between Nellore and Tuni around noon on 20 November, with a possible storm surge of 1-2 metres in low-lying districts; fishing stays suspended until then.",
+    "Washington, 1 December: Senate Democrats choose their leader by secret ballot, Schumer against Van Hollen; watch whether the date moves earlier, as Van Hollen says Schumer’s camp wants. On trade, watch for the final US-Thailand agreement, which Trump says will be finalised in the coming weeks."
+   ]
+  }
+ },
+ "sources": [],
+ "threads": {
+  "world": "russia-ukraine"
+ },
+ "play": {
+  "quiz": [
+   {
+    "q": "Where did the Quad leaders meet on 17 November?",
+    "options": [
+     "Shenzhen",
+     "Manila",
+     "Tokyo"
+    ],
+    "answer": 1,
+    "why": "The Quad met in Manila, towards the end of the ASEAN summit.",
+    "story": "lead"
+   },
+   {
+    "q": "What did Trump say the critical minerals deals would prevent?",
+    "options": [
+     "Coercion by any single foreign supplier",
+     "Higher interest rates",
+     "Cyber attacks"
+    ],
+    "answer": 0,
+    "why": "He said they would prevent “coercion by any single foreign supplier”.",
+    "story": "lead"
+   },
+   {
+    "q": "Which missiles did Zelenskyy say delivered the final blow to the Kerch Bridge?",
+    "options": [
+     "Neptune",
+     "Flamingo",
+     "Palianytsia"
+    ],
+    "answer": 1,
+    "why": "Zelenskyy said Flamingo missiles delivered the final blow.",
+    "story": "world"
+   },
+   {
+    "q": "What does the Kremlin say about the damage?",
+    "options": [
+     "It is minor",
+     "The bridge is closed for good",
+     "It was an accident"
+    ],
+    "answer": 0,
+    "why": "The Kremlin called the damage minor and said the bridge would be even better than before.",
+    "story": "world"
+   },
+   {
+    "q": "What is Akvan forecast to be when it makes landfall?",
+    "options": [
+     "A depression",
+     "A very severe cyclonic storm",
+     "A super cyclonic storm"
+    ],
+    "answer": 1,
+    "why": "The IMD expects a very severe cyclonic storm with winds of 120-130 km/h.",
+    "story": "india"
+   },
+   {
+    "q": "How many votes does Van Hollen say he has?",
+    "options": [
+     "15",
+     "28",
+     "40"
+    ],
+    "answer": 0,
+    "why": "Van Hollen says he has 15 votes.",
+    "story": "politics_and_civics"
+   },
+   {
+    "q": "How much more in US farm goods did Trump say Thailand would buy?",
+    "options": [
+     "$85 million",
+     "$19 billion",
+     "$2.6 billion"
+    ],
+    "answer": 2,
+    "why": "Trump said Thailand would buy an estimated $2.6 billion in additional US agricultural products.",
+    "story": "economics"
+   },
+   {
+    "q": "How long does a command from Earth take to reach Voyager 1 now?",
+    "options": [
+     "24 hours",
+     "10 minutes",
+     "One week"
+    ],
+    "answer": 0,
+    "why": "At one light-day, a command takes a full 24 hours to reach the probe.",
+    "story": "science_and_technology"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The Quad joint statement named China.",
+    "true": false,
+    "why": "The statement did not name any country.",
+    "story": "lead"
+   },
+   {
+    "claim": "Russia’s Transport Ministry said rail traffic resumed on one track.",
+    "true": true,
+    "why": "It said rail traffic had resumed on one track.",
+    "story": "world"
+   },
+   {
+    "claim": "The US-Thailand trade agreement has already taken effect.",
+    "true": false,
+    "why": "It still needs legal and domestic approval before it can be signed and take effect.",
+    "story": "economics"
+   },
+   {
+    "claim": "Voyager 1 crossed into interstellar space in August 2012.",
+    "true": true,
+    "why": "It crossed into interstellar space in August 2012.",
+    "story": "science_and_technology"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Manila",
+    "lat": 14.6,
+    "lon": 120.98,
+    "countries": [
+     "Philippines",
+     "United States",
+     "India",
+     "Japan",
+     "Australia"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Kerch Strait",
+    "lat": 45.3,
+    "lon": 36.5,
+    "countries": [
+     "Ukraine",
+     "Russia"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Andhra Pradesh coast",
+    "lat": 16.0,
+    "lon": 81.5,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "politics_and_civics",
+    "place": "Washington, DC",
+    "lat": 38.89,
+    "lon": -77.01,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "Manila",
+    "lat": 14.6,
+    "lon": 120.98,
+    "countries": [
+     "Thailand",
+     "United States"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How many cars a day was the Kerch Bridge built to carry?",
+    "answer": 40000,
+    "prefix": "",
+    "unit": "cars",
+    "min": 5000,
+    "max": 100000,
+    "why": "The $3.7 billion bridge was built to carry 40,000 cars a day."
+   },
+   {
+    "story": "india",
+    "q": "How far east of Chennai was Cyclone Akvan in the IMD’s 17 November bulletin, in km?",
+    "answer": 610,
+    "prefix": "",
+    "unit": "km",
+    "min": 100,
+    "max": 1500,
+    "why": "The bulletin placed it about 610 km east of Chennai and 660 km southeast of Machilipatnam."
+   }
+  ],
+  "analyst": {
+   "domino": null,
+   "call": {
+    "story": "lead",
+    "question": "Should the Quad name the countries it accuses of coercion, or keep its statements general?",
+    "premise": "The Quad’s joint statement voiced grave concerns about economic coercion but named no country, and Trump did not name China when announcing the minerals deals.",
+    "evidence": "voiced “grave concerns” about economic coercion, without naming any country",
+    "framing": "Hypothetical decision based on this story: neither option is a reported proposal; both are framed for learning.",
+    "options": [
+     {
+      "label": "Name names",
+      "benefit": "A clear statement tells partners and the public exactly which behaviour the four countries object to.",
+      "cost": "Naming a country could provoke retaliation, such as new export curbs, and make cooperation with it harder."
+     },
+     {
+      "label": "Stay general",
+      "benefit": "Keeps doors open for diplomacy, including Trump’s meetings in Shenzhen the next day.",
+      "cost": "Vague wording may carry less weight and leave readers unsure what the group will actually resist."
+     }
+    ],
+    "reflection": "What evidence would change your choice: a new export restriction aimed at a Quad member, progress in Shenzhen, or the text of the minerals deals?"
+   }
+  },
+  "easy": {
+   "lead": {
+    "headline": "Four Leaders Meet in Manila",
+    "body": [
+     "On 17 November, leaders of four countries met in Manila. They were from the United States, India, Japan and Australia. Their group is called the Quad.",
+     "They talked about critical minerals. These are materials such as lithium, cobalt and nickel. Batteries need them. Trump announced deals so that no single supplier could pressure them.",
+     "Their patrol planes will fly together in an exercise in 2027. They will also spend more than $85 million to help the region use trusted AI."
+    ]
+   },
+   "world": {
+    "headline": "Ukraine Damages a Big Bridge to Crimea",
+    "body": [
+     "The Kerch Bridge joins Russia to Crimea. Russia took Crimea from Ukraine in 2014. Putin opened the bridge in 2018.",
+     "On 17 November, Ukrainian drones and missiles brought down part of it. Ukraine said one steel arch and the road under it were destroyed.",
+     "Russia said the damage was minor. It said trains were running again on one track. The attack came two days before Putin meets Trump and Xi Jinping in China."
+    ]
+   },
+   "india": {
+    "headline": "A Strong Cyclone Heads for Andhra Pradesh",
+    "body": [
+     "Cyclone Akvan is a big storm over the Bay of Bengal. It is getting stronger.",
+     "India’s weather office expects it to reach the coast of Andhra Pradesh around noon on 20 November. Winds may reach 120 to 130 km an hour, with gusts up to 145.",
+     "Odisha has started moving people to safety. Fishermen must stay off the sea until 20 November. The name Akvan came from Iran."
+    ]
+   },
+   "politics_and_civics": {
+    "headline": "Who Will Lead Senate Democrats?",
+    "body": [
+     "Democrats in the US Senate pick their own leader. Chuck Schumer wants to keep the job. Chris Van Hollen wants to replace him.",
+     "Schumer says he has enough votes to win. Van Hollen says he has 15 votes.",
+     "The senators will vote on 1 December. The vote is secret. So nobody can be sure who will win until the votes are counted."
+    ]
+   },
+   "economics": {
+    "headline": "The US and Thailand Agree on Trade Steps",
+    "body": [
+     "A tariff is a tax on goods from another country. On 17 November, Trump and Thailand’s leader signed a trade statement in Manila.",
+     "Trump said Thailand will drop all tariffs on American goods. It will also buy about $2.6 billion more in American farm goods.",
+     "The US will keep its 19% tariff on Thai goods. The deal is not final yet. Trump says it will be finished in the coming weeks."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "Voyager 1 Is Now a Whole Light-Day Away",
+    "body": [
+     "Voyager 1 is a NASA spacecraft. It was launched in 1977.",
+     "On 18 November it became the first spacecraft to reach one light-day from Earth. That is the distance light travels in 24 hours.",
+     "Now a message from Earth takes 24 hours to reach it. Its reply takes another 24 hours. Only two of its 10 instruments still work, and its power is slowly fading."
+    ]
+   }
+  }
+ }
+}
