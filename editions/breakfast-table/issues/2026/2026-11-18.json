@@ -1,0 +1,548 @@
+{
+ "edition": "breakfast-table",
+ "date": "2026-11-18",
+ "volume": 1,
+ "issue": 29,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  ASIA",
+   "headline": "Four Countries Team Up to Keep Supplies Flowing",
+   "deck": "The Quad met in Manila and made deals on the materials inside batteries.",
+   "body": [
+    "Inside every phone battery are small amounts of materials such as lithium and cobalt. Electric cars need them too. These are called critical minerals: modern devices can’t do without them, but they can be hard to get.",
+    "That is why four leaders met in Manila, in the Philippines, on Tuesday: Donald Trump of the United States, Narendra Modi of India, Sanae Takaichi of Japan and Anthony Albanese of Australia. Their group is called the Quad.",
+    "Trump announced new deals on critical minerals. He said they would stop “coercion by any single foreign supplier.” Coercion means forcing someone to do something. He did not name the minerals, who signed, or China, which dominates the world’s supply of rare earths.",
+    "The leaders also agreed that their patrol planes will fly together over the sea in 2027, and they will spend more than $85 million to help the region use trusted AI."
+   ],
+   "map": {
+    "title": "WHERE THE QUAD MET",
+    "label_top": "MANILA, PHILIPPINES",
+    "label_bottom": "QUAD: US, INDIA, JAPAN, AUSTRALIA",
+    "footnote": "Trump flies on to China next",
+    "caption": "The leaders met in Manila on Tuesday.",
+    "countries": [
+     "Philippines"
+    ],
+    "place": "Manila"
+   },
+   "why": "Batteries in our phones and cars depend on these materials, so the four leaders want supplies that no single supplier can squeeze.",
+   "sources": [
+    {
+     "outlet": "The White House",
+     "title": "Quad Leaders' Summit Joint Press Release",
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "title": "Trump announces critical minerals agreements at Quad meeting in Manila",
+     "url": "https://www.aljazeera.com/news/2026/11/17/trump-announces-critical-minerals-agreements-at-quad-meeting-in-manila"
+    },
+    {
+     "outlet": "Belfer Center",
+     "title": "Explainer: What are critical minerals?",
+     "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+    },
+    {
+     "outlet": "WION",
+     "title": "Trump pitches Quad as security and AI alliance, announces critical minerals deals",
+     "url": "https://www.wionews.com/world/trump-pitches-quad-as-security-and-ai-alliance-announces-critical-minerals-deals-1794919296202"
+    },
+    {
+     "outlet": "The Korea Herald",
+     "title": "Quad leaders announce plans for 1st maritime patrol aircraft exercise in 2027",
+     "url": "https://www.koreaherald.com/article/10940465"
+    },
+    {
+     "outlet": "GMA News",
+     "title": "Trump, other Quad leaders hold meeting amid ASEAN in PH",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/1009846/trump-other-quad-leaders-hold-meeting-amid-asean-in-ph/story/"
+    },
+    {
+     "outlet": "CNN",
+     "title": "Trump visit to Philippines, China for ASEAN, APEC summits: Live updates",
+     "url": "https://edition.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  SPACE",
+   "headline": "A Message to Voyager 1 Now Takes a Whole Day",
+   "deck": "The spacecraft launched in 1977 reaches one light-day from Earth today.",
+   "body": [
+    "In one day, light travels about 25.89 billion kilometres, a distance called a light-day. Today, NASA’s Voyager 1 becomes the first spacecraft to get that far from Earth.",
+    "That means a radio message sent from Earth needs a full 24 hours to reach it, and its reply needs another 24 hours to come back. Voyager 1 was launched in 1977 to fly past Jupiter and Saturn, and it is still sending data from beyond the planets. It speeds along at about 17 kilometres every second.",
+    "Its power is slowly fading, so engineers have switched off parts to save energy. Of the 10 science instruments it launched with, only 2 still work, and the team thinks it has enough power to keep going until about the early 2030s. NASA’s telescopes in Canberra, California and Madrid keep track of it. On Tuesday evening, NASA invited people to flash lights in Morse code after sunset to celebrate."
+   ],
+   "chart": {
+    "title": "VOYAGER 1’S SCIENCE TOOLS",
+    "subtitle": "Number of instruments",
+    "labels": [
+     "At launch",
+     "Working today"
+    ],
+    "values": [
+     10,
+     2
+    ],
+    "max": 12,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "It launched with 10 instruments in 1977; 2 still work today."
+   },
+   "connect": "History: Voyager 1 was launched in 1977 and crossed into interstellar space, the region beyond the planets, in August 2012. It has kept collecting data ever since.",
+   "sources": [
+    {
+     "outlet": "Space.com",
+     "title": "What exactly is a light-day? Here's what Voyager 1's latest milestone means",
+     "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "NASA's interstellar Voyager 1 probe is about to reach 1 light-day from Earth",
+     "url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "NASA wants you to 'shine bright' today for Voyager 1's light-day milestone",
+     "url": "https://www.space.com/space-exploration/voyager/nasa-wants-you-to-shine-bright-today-for-voyager-1s-light-day-milestone-heres-how"
+    },
+    {
+     "outlet": "NASA Science",
+     "title": "Voyager 1: The Farthest Spacecraft",
+     "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    },
+    {
+     "outlet": "NASA Science",
+     "title": "Where Are Voyager 1 and Voyager 2 Now?",
+     "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "title": "NASA's Voyager 1 spacecraft to reach historic light-day milestone today",
+     "url": "https://www.abc.net.au/news/science/2026-11-18/nasa-voyager-one-light-day-from-earth-milestone/107154162"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  TRAVEL",
+   "headline": "After Planes Stopped, America Pauses a Computer Upgrade",
+   "deck": "Air traffic control is changing how it fixes its equipment.",
+   "body": [
+    "Last Friday, flights across America were stopped for nearly five hours. The trouble began when a new router, a box that links computers together, was installed at a site in El Dorado, Arkansas.",
+    "After that router went in, the system was flooded with about 1,000 attempts to connect every four to five seconds. That knocked out radio and radar in 17 of the country’s 22 regional air traffic control centres. The full cause is still being studied.",
+    "On Tuesday, the Federal Aviation Administration said it is pausing new router installs. Transportation Secretary Sean Duffy said the agency may need to rethink when it does upgrades, because this work was done in the daytime."
+   ],
+   "why": "When one box can stop flights everywhere, it shows why careful testing matters before families pack for a trip.",
+   "also": [
+    "Duffy has asked Congress for $50 billion to upgrade the ageing air traffic system.",
+    "Chuck Schumer says he has the votes to stay leader of Senate Democrats before a vote on 1 December."
+   ],
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "FAA pauses installation of new routers after ground stop",
+     "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+    },
+    {
+     "outlet": "NPR",
+     "title": "FAA says it will rethink how it does upgrades after nationwide ground stop",
+     "url": "https://www.npr.org/2026/11/17/nx-s1-6042897/faa-says-it-will-rethink-how-it-does-upgrades-after-nationwide-ground-stop"
+    },
+    {
+     "outlet": "The Hill",
+     "title": "FAA halts router upgrades after ground stop fuels infrastructure concerns",
+     "url": "https://thehill.com/policy/transportation/6225978-faa-halts-router-upgrades/"
+    },
+    {
+     "outlet": "Newsweek",
+     "title": "Sean Duffy Says FAA Must Rethink When Upgrades Are Made After Nationwide Ground Stop",
+     "url": "https://www.newsweek.com/faa-must-rethink-when-upgrades-are-made-after-nationwide-ground-stop-duffy-12717953"
+    },
+    {
+     "outlet": "Yahoo News",
+     "title": "FAA ground stop latest updates",
+     "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html"
+    },
+    {
+     "outlet": "Axios",
+     "title": "FAA pauses tech upgrade linked to nationwide ground stop",
+     "url": "https://axios.com/2026/11/17/faa-air-traffic-control-router-upgrade-ground-stop"
+    },
+    {
+     "outlet": "The Hill",
+     "title": "Schumer declares he has votes to beat Van Hollen and become majority leader",
+     "url": "https://thehill.com/homenews/senate/6226192-schumer-vs-van-hollen-leadership-race/"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  WEATHER",
+   "headline": "Families on India’s East Coast Get Ready for Cyclone Akvan",
+   "deck": "A strong storm should reach Andhra Pradesh around noon on Friday.",
+   "body": [
+    "A cyclone is a giant spinning storm that grows over warm sea. Cyclone Akvan is over the Bay of Bengal, and India’s weather office, the IMD, expects it to keep growing stronger before it reaches land. Late on Monday, it was about 670 km from the port city of Visakhapatnam.",
+    "The IMD says it should cross the coast of Andhra Pradesh, between Nellore and Tuni, around noon on Friday. Winds could blow at 120 to 130 km an hour, with gusts up to 145, and heavy rain is expected in parts of Andhra Pradesh, Odisha and Tamil Nadu.",
+    "Families are already acting on the warnings. Odisha has started moving people out of risky areas, and fishermen have been told to stay off the sea until Friday. The IMD has warned of extensive damage in coastal parts of Andhra Pradesh. The storm’s name, Akvan, was suggested by Iran, one of 13 countries that share a list of storm names."
+   ],
+   "why": "Warnings days ahead give families time to pack, move and stay safe, which is how storms do less harm.",
+   "sources": [
+    {
+     "outlet": "All India Radio News",
+     "title": "IMD warns fishermen against venturing into Bay of Bengal till November 20 as Cyclone Akvan intensifies",
+     "url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+    },
+    {
+     "outlet": "India.com",
+     "title": "Cyclone 'Akvan' intensifies over Bay of Bengal, likely to make landfall on November 20",
+     "url": "https://www.india.com/news/india/cyclone-akvan-intensifies-over-bay-of-bengal-likely-to-make-landfall-on-november-20-with-145-kmph-winds-heavy-rain-alert-in-south-bengal-odisha-8545424/"
+    },
+    {
+     "outlet": "Outlook India",
+     "title": "India news live updates, 17 November 2026",
+     "url": "https://www.outlookindia.com/international/india-news-live-updates-17-november-2026-cyclone-akvan-storm-intensifies-landfall-expected-on-andhra-coast-odisha-begins-evacuation-news-latest-updates"
+    },
+    {
+     "outlet": "Daily Jagran",
+     "title": "Cyclone Akvan Tracker: Odisha Braces For Severe Storm",
+     "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Thailand: Its prime minister and Trump signed a trade statement; Trump says Thailand will buy about $2.6 billion more in American farm goods.",
+    "Delhi: The air improved enough on Tuesday for the city to lift its toughest pollution rules."
+   ],
+   "sources": [
+    {
+     "outlet": "Thai PBS World",
+     "title": "Trump signs trade statement with Thailand on ASEAN sidelines in Philippines",
+     "url": "https://www.thaipbsworld.com/economy/572885"
+    },
+    {
+     "outlet": "Clash Report",
+     "title": "Thailand Will Eliminate All Tariffs on U.S. Exports, Trump Says",
+     "url": "https://clashreport.com/world/articles/trump-says-thailand-will-eliminate-all-tariffs-on-u-s-exports-8fqawjfj6lc"
+    },
+    {
+     "outlet": "Newstrack",
+     "title": "GRAP Stage 3 Restrictions Lifted in Delhi-NCR as AQI Improves to 204",
+     "url": "https://english.newstrack.com/india-news/grap-stage-3-restrictions-lifted-in-delhi-ncr-as-aqi-improves-to-204-stage-1-and-2-rules-continue-648733"
+    }
+   ]
+  },
+  "discussion": {
+   "title": "TALK ABOUT IT",
+   "body": [
+    "What things in our home need a battery, and what would change if those batteries were hard to get?",
+    "If you could send Voyager 1 a message that took a whole day to arrive, what would you say?",
+    "What would our family pack if we had to leave home for a few days before a storm?"
+   ],
+   "sources": [
+    {
+     "outlet": "Belfer Center",
+     "title": "Explainer: What are critical minerals?",
+     "url": "https://www.belfercenter.org/explainer-what-are-critical-minerals"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "What exactly is a light-day? Here's what Voyager 1's latest milestone means",
+     "url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe"
+    }
+   ]
+  },
+  "sports": {
+   "title": "CRICKET: DHONI HANGS UP HIS IPL BAT",
+   "body": "<b>MS Dhoni</b>, 45, has retired as a player in the IPL. He played <b>272</b> matches for Chennai Super Kings and led them to five titles, the joint-most by any IPL captain. From 2027 he will be the team’s mentor, helping the next generation of players.",
+   "sources": [
+    {
+     "outlet": "The National",
+     "title": "IPL: MS Dhoni retires but 'will always be a part of Chennai Super Kings identity'",
+     "url": "https://www.thenationalnews.com/sport/cricket/2026/11/17/ipl-ms-dhoni-retires-but-will-always-be-a-part-of-chennai-super-kings-identity/"
+    },
+    {
+     "outlet": "The News Minute",
+     "title": "MS Dhoni retires from IPL, will mentor Chennai Super Kings ahead of 2027 season",
+     "url": "https://www.thenewsminute.com/tamil-nadu/ms-dhoni-retires-from-ipl-will-mentor-chennai-super-kings-ahead-of-2027-season"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Thursday: Trump is due to meet China’s Xi Jinping and Russia’s Vladimir Putin in Shenzhen, China.",
+    "Friday: Cyclone Akvan is expected to reach the Andhra Pradesh coast around noon."
+   ]
+  },
+  "quote": {
+   "text": "Some messages take a whole day to arrive. Some friendships take years to build.",
+   "by": ""
+  }
+ },
+ "sources": [],
+ "play": {
+  "quiz": [
+   {
+    "q": "In which city did the Quad leaders meet?",
+    "options": [
+     "Manila",
+     "Delhi",
+     "Tokyo"
+    ],
+    "answer": 0,
+    "why": "The paper says the four leaders met in Manila, in the Philippines.",
+    "story": "lead"
+   },
+   {
+    "q": "How long does a radio message from Earth take to reach Voyager 1 now?",
+    "options": [
+     "One hour",
+     "One week",
+     "24 hours"
+    ],
+    "answer": 2,
+    "why": "Voyager 1 is one light-day away, so a message needs a full 24 hours.",
+    "story": "world"
+   },
+   {
+    "q": "How many of Voyager 1’s 10 instruments still work?",
+    "options": [
+     "2",
+     "5",
+     "8"
+    ],
+    "answer": 0,
+    "why": "Only 2 of its 10 science instruments still work.",
+    "story": "world"
+   },
+   {
+    "q": "When should Cyclone Akvan reach the coast?",
+    "options": [
+     "Wednesday evening",
+     "Friday around noon",
+     "Next month"
+    ],
+    "answer": 1,
+    "why": "The IMD says it should cross the coast around noon on Friday.",
+    "story": "india"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Trump named China when he announced the minerals deals.",
+    "true": false,
+    "why": "He did not name China, or the minerals, or who signed.",
+    "story": "lead"
+   },
+   {
+    "claim": "Voyager 1 was launched in 1977.",
+    "true": true,
+    "why": "It was launched in 1977 to fly past Jupiter and Saturn.",
+    "story": "world"
+   },
+   {
+    "claim": "The flight stop began when a new router was put in at a site in Texas.",
+    "true": false,
+    "why": "The router was put in at a site in El Dorado, Arkansas.",
+    "story": "us"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Manila",
+    "lat": 14.6,
+    "lon": 120.98,
+    "countries": [
+     "Philippines",
+     "United States",
+     "India",
+     "Japan",
+     "Australia"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "El Dorado, Arkansas",
+    "lat": 33.21,
+    "lon": -92.67,
+    "countries": [
+     "United States"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Andhra Pradesh coast",
+    "lat": 16.0,
+    "lon": 81.5,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "us",
+    "q": "How many of America’s 22 regional air traffic control centres lost radio and radar?",
+    "answer": 17,
+    "prefix": "",
+    "unit": "centres",
+    "min": 1,
+    "max": 22,
+    "why": "The flood of connection attempts knocked out radio and radar in 17 of the 22 centres."
+   },
+   {
+    "story": "lead",
+    "q": "How much will the Quad’s AI accelerator spend, in millions of dollars?",
+    "answer": 85,
+    "prefix": "$",
+    "unit": "million",
+    "min": 10,
+    "max": 300,
+    "why": "The Quad will spend more than $85 million to help the region use trusted AI."
+   }
+  ],
+  "brief": {
+   "format": 2,
+   "lines": [
+    {
+     "who": "maya",
+     "text": "Good morning, and welcome to The Breakfast Table for Wednesday, November 18. Today: what’s inside your batteries, a spacecraft a whole day away, and a storm families are getting ready for.",
+     "section": "welcome"
+    },
+    {
+     "who": "sam",
+     "text": "Let’s start with batteries. Why were world leaders talking about them?",
+     "section": "story",
+     "story": "lead",
+     "chapter": "What’s in a battery"
+    },
+    {
+     "who": "maya",
+     "text": "Phone batteries hold small amounts of materials such as lithium and cobalt, and electric cars need them too. They’re called critical minerals, because modern devices can’t do without them, but they can be hard to get.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "And who met to talk about them?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "Four leaders, from the United States, India, Japan and Australia, met in Manila on Tuesday. Together they’re called the Quad. President Trump announced new deals on critical minerals. He said they would stop coercion by any single foreign supplier. Coercion means forcing someone to do something.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Did they agree on anything else?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "Yes. Their patrol planes will fly together over the sea in 2027. And they will spend more than 85 million dollars to help the region use trusted AI.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Now, a spacecraft that’s a whole day away. What does that mean?",
+     "section": "story",
+     "story": "world",
+     "chapter": "A day away"
+    },
+    {
+     "who": "maya",
+     "text": "In one day, light travels about 25.89 billion kilometres. That distance is called a light-day. Today, NASA’s Voyager 1 becomes the first spacecraft to get that far from Earth.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "So if I sent it a message?",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "maya",
+     "text": "Your radio message would need a full 24 hours to reach it, and the reply would need another 24 hours to come back. Voyager 1 was launched in 1977 to fly past Jupiter and Saturn, and it’s still sending data from beyond the planets.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Is it still working well after all that time?",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "maya",
+     "text": "Its power is slowly fading, so engineers have switched off parts to save energy. Of the 10 science instruments it launched with, 2 still work.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Finally, a storm in India. What’s happening?",
+     "section": "story",
+     "story": "india",
+     "chapter": "Getting ready"
+    },
+    {
+     "who": "maya",
+     "text": "A cyclone is a giant spinning storm that grows over warm sea. Cyclone Akvan is over the Bay of Bengal, and India’s weather office expects it to cross the coast of Andhra Pradesh around noon on Friday.",
+     "section": "story",
+     "story": "india"
+    },
+    {
+     "who": "sam",
+     "text": "How strong could it be?",
+     "section": "story",
+     "story": "india"
+    },
+    {
+     "who": "maya",
+     "text": "Winds could blow at 120 to 130 kilometres an hour, with gusts up to 145. The good news is that warnings came days ahead. Odisha has started moving people out of risky areas, and fishermen have been told to stay off the sea until Friday.",
+     "section": "story",
+     "story": "india"
+    },
+    {
+     "who": "sam",
+     "text": "How long does a radio message from Earth take to reach Voyager 1 now?",
+     "section": "quiz_question",
+     "quiz": 1
+    },
+    {
+     "who": "maya",
+     "text": "24 hours Voyager 1 is one light-day away, so a message needs a full 24 hours.",
+     "section": "quiz_answer",
+     "quiz": 1
+    },
+    {
+     "who": "sam",
+     "text": "When should Cyclone Akvan reach the coast?",
+     "section": "quiz_question",
+     "quiz": 3
+    },
+    {
+     "who": "maya",
+     "text": "Friday around noon The IMD says it should cross the coast around noon on Friday.",
+     "section": "quiz_answer",
+     "quiz": 3
+    },
+    {
+     "who": "maya",
+     "text": "What would our family pack if we had to leave home for a few days before a storm?",
+     "section": "discussion"
+    },
+    {
+     "who": "sam",
+     "text": "That’s all for today. Have a great breakfast, and see you tomorrow at the table!",
+     "section": "close"
+    }
+   ]
+  }
+ }
+}
