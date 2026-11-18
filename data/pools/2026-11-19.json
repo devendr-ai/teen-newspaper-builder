@@ -630,6 +630,59 @@
      ],
      "details": []
     }
+   },
+   {
+    "id": "sa-ban-test",
+    "headline": "Cricket: South Africa Lead Bangladesh by 157 and Leave Them 100 for 5 Before the Final Day in Johannesburg",
+    "what_happened": "On day four of the first Test in Johannesburg, South Africa were all out for 557, a first-innings lead of 157, and Bangladesh were 100 for 5 when bad light ended play, still 57 runs behind.",
+    "why_it_matters": "The match counts towards the ICC World Test Championship 2025-27.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "South Africa resumed day four of the first Test against Bangladesh in Johannesburg on 386 for 7, after rain on day three washed out the final two sessions.",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     },
+     {
+      "fact": "South Africa were all out for 557, a first-innings lead of 157.",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     },
+     {
+      "fact": "Ryan Rickelton scored his fourth Test century; Kagiso Rabada scored a career-best Test 72; Temba Bavuma finished unbeaten on 69.",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     },
+     {
+      "fact": "Bangladesh wicketkeeper Litton Das set a record for the most dismissals by a wicketkeeper in a single Test innings.",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     },
+     {
+      "fact": "Bangladesh were 100 for 5 in their second innings when bad light ended play, trailing by 57 runs, heading into the final day.",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     },
+     {
+      "fact": "The match is part of the ICC World Test Championship 2025-27.",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "South Africa first-innings total",
+      "value": 557,
+      "unit": "runs",
+      "source_url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day"
+     }
+    ],
+    "geography": "Johannesburg, South Africa.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ICC",
+      "title": "South Africa leave Bangladesh reeling heading into final day",
+      "url": "https://icc-cricket.com/tournaments/world-test-championship/news/south-africa-leave-bangladesh-reeling-heading-into-final-day",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
    }
   ]
  },
@@ -980,6 +1033,65 @@
       "url": "https://www.democracydocket.com/news-alerts/live-updates-alaska-senate-race-called-for-democrat-peltola-but-fight-may-continue/",
       "published": "2026-11-17",
       "primary": false
+     }
+    ]
+   },
+   {
+    "id": "usmnt-haiti",
+    "headline": "US Beats Haiti 2-0 to Reach the Concacaf Nations League Finals, 8-0 on Aggregate",
+    "what_happened": "The US men's soccer team beat Haiti 2-0 in Cincinnati on Tuesday 17 November in the second leg of their Concacaf Nations League quarterfinal, after a 6-0 win in Miami on 14 November, going through 8-0 on aggregate.",
+    "why_it_matters": "The winner advances to the Nations League Finals in March at SoFi Stadium in Inglewood, California.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The United States beat Haiti 2-0 on 17 November 2026 in the Concacaf Nations League.",
+      "source_url": "https://www.espn.com/soccer/match?gameId=401929766"
+     },
+     {
+      "fact": "The second leg was played on Tuesday 17 November at TQL Stadium in Cincinnati, Ohio.",
+      "source_url": "https://ussoccer.com/stories/2026/11/usmnt/vs-haiti-nations-league-quarterfinals-cincinnati-ohio-leg-2"
+     },
+     {
+      "fact": "The US won the first leg 6-0 over Haiti at Nu Stadium in Miami, Florida, on 14 November.",
+      "source_url": "https://ussoccer.com/stories/2026/11/usmnt-vs-haiti-match-recap-highlights-concacaf-nations-league-miami-florida"
+     },
+     {
+      "fact": "The winner of the two-legged series, decided on aggregate score, advances to the four-match Concacaf Nations League Finals in March at SoFi Stadium in Inglewood, California.",
+      "source_url": "https://ussoccer.com/stories/2026/11/usmnt/vs-haiti-nations-league-quarterfinals-cincinnati-ohio-leg-2"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Aggregate score",
+      "value": 8,
+      "unit": "goals to 0",
+      "source_url": "https://www.espn.com/soccer/match?gameId=401929766"
+     }
+    ],
+    "geography": "Cincinnati, Ohio and Miami, Florida, United States; Haiti.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ESPN",
+      "title": "USA 2-0 Haiti (Nov 17, 2026) Final Score",
+      "url": "https://www.espn.com/soccer/match?gameId=401929766",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "U.S. Soccer",
+      "title": "USMNT Hosts Second Leg Of Concacaf Nations League Quarterfinals In Cincinnati",
+      "url": "https://ussoccer.com/stories/2026/11/usmnt/vs-haiti-nations-league-quarterfinals-cincinnati-ohio-leg-2",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "U.S. Soccer",
+      "title": "U.S. Men's National Team Opens Concacaf Nations League Quarterfinals With Emphatic 6-0 Win Over Haiti",
+      "url": "https://ussoccer.com/stories/2026/11/usmnt-vs-haiti-match-recap-highlights-concacaf-nations-league-miami-florida",
+      "published": "2026-11-14",
+      "primary": true
      }
     ]
    }
@@ -1861,6 +1973,50 @@
      {
       "fact": "It was discovered while still getting brighter, giving researchers a chance to watch the event as it takes place and study the galaxy before, during and after the explosion.",
       "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "SN 2026ahvu was discovered on 2 November by ATLAS, a system designed to detect incoming near-Earth objects that can also detect other short-lived events in the sky.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "The 'ahvu' in its name is a chronological code: it marks the 41,855th transient (a short-lived object in the sky) discovered in 2026.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "When it was first discovered its apparent magnitude was 17; a few days later it was 13.5. A lower apparent magnitude means the object is brighter.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "In a Type Ia supernova a white dwarf (the accretor) draws material from a donor star until it passes the Chandrasekhar limit, about 1.44 times the mass of the Sun, and explodes; alternatively two white dwarfs merge and explode.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "Type Ia supernovae are important because they serve as 'standard candles' in the cosmic distance ladder, helping measure distances to objects too far away for direct methods such as parallax.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "The 'before' images of NGC 1433 came from the Dark Energy Survey, taken with DECam on the Victor M. Blanco 4-meter Telescope; the Gemini South Telescope in Chile also imaged the galaxy.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "ATLAS has telescopes in Hawaii, Chile, South Africa and Tenerife in the Canary Islands.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "Type Ia supernovae are typically brightest for about six months.",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "fact": "The supernova is expected to reach peak brightness sometime between 18 and 23 November, and is already bright enough to see with a small telescope.",
+      "source_url": "https://www.iflscience.com/a-nearby-exploding-supernova-will-peak-within-days-and-you-can-help-scientists-with-their-observations-85188"
+     },
+     {
+      "fact": "NGC 1433 is in the constellation Horologium, which is clearly visible from the southern hemisphere; for many in the northern hemisphere it rises only a few degrees above the horizon.",
+      "source_url": "https://www.iflscience.com/a-nearby-exploding-supernova-will-peak-within-days-and-you-can-help-scientists-with-their-observations-85188"
+     },
+     {
+      "fact": "NOIRLab is urging observatories on Earth and in space to observe the event; detailed observations over time and beyond visible light could help refine models.",
+      "source_url": "https://www.iflscience.com/a-nearby-exploding-supernova-will-peak-within-days-and-you-can-help-scientists-with-their-observations-85188"
      }
     ],
     "numbers": [
@@ -1869,6 +2025,18 @@
       "value": 50,
       "unit": "million light-years",
       "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "label": "Apparent magnitude at discovery",
+      "value": 17,
+      "unit": "",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
+     },
+     {
+      "label": "Transient number in 2026",
+      "value": 41855,
+      "unit": "th",
+      "source_url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers"
      }
     ],
     "geography": "Galaxy NGC 1433, far beyond our Milky Way.",
@@ -1880,6 +2048,20 @@
       "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
       "published": "2026-11-18",
       "primary": true
+     },
+     {
+      "outlet": "Universe Today",
+      "title": "This supernova is 50 million light-years away, but that's close enough for astronomers",
+      "url": "https://www.universetoday.com/articles/this-supernova-is-50-million-light-years-away-but-thats-close-enough-for-astronomers",
+      "published": "2026-11-16",
+      "primary": false
+     },
+     {
+      "outlet": "IFLScience",
+      "title": "A nearby exploding supernova will peak within days and you can help scientists with their observations",
+      "url": "https://www.iflscience.com/a-nearby-exploding-supernova-will-peak-within-days-and-you-can-help-scientists-with-their-observations-85188",
+      "published": "2026-11-15",
+      "primary": false
      }
     ]
    }
@@ -2289,6 +2471,44 @@
       "title": "Andy Burnham: We will prioritise British jobs for British young people",
       "url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people",
       "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "nations-league-md6",
+    "headline": "Haaland's Late Penalty Sends Norway Into the Nations League Quarter-Finals",
+    "what_happened": "On Tuesday 17 November, the last night of the Nations League group stage, Norway came from 2-0 down to beat Denmark 3-2 in Denmark, with Erling Haaland scoring a penalty in added time.",
+    "why_it_matters": "Norway reach the last eight at Denmark's expense.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Tuesday 17 November Norway beat Denmark 2-3 away in League A group 4 of the UEFA Nations League.",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-germany-netherlands/"
+     },
+     {
+      "fact": "Rasmus Højlund and Pierre-Emile Højbjerg gave Denmark a 2-0 lead; Erling Haaland scored before half-time, Martin Ødegaard equalised on 83 minutes and Haaland scored a penalty in added time.",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-germany-netherlands/"
+     },
+     {
+      "fact": "UEFA: 'Erling Haaland's last-gasp penalty took Norway through at the expense of hosts Denmark.'",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-germany-netherlands/"
+     },
+     {
+      "fact": "In the same group Portugal beat Wales 3-2; Germany and the Netherlands also advanced to the quarter-finals, and Belgium joined France in the last eight.",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-germany-netherlands/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Denmark; Norway.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "UEFA",
+      "title": "UEFA Nations League Matchday 6 round-up: Germany, Netherlands into quarter-finals",
+      "url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-germany-netherlands/",
+      "published": "2026-11-17",
       "primary": true
      }
     ]
