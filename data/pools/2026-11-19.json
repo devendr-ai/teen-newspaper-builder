@@ -1,0 +1,2298 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "shenzhen-summit",
+    "headline": "Trump Lands in Shenzhen, Where Xi Greets Him at the Airport Before the First Meeting of the US, Chinese and Russian Leaders",
+    "what_happened": "US President Donald Trump arrived in Shenzhen, China, on Wednesday 18 November 2026 for the APEC summit, and Chinese President Xi Jinping greeted him on the airport tarmac. That evening Trump, Xi and Russian President Vladimir Putin attended a welcome banquet. A first-ever three-way meeting of the three leaders, plus separate talks, is set for Thursday 19 November.",
+    "why_it_matters": "The US, China and Russia are three of the world's most powerful countries, and their leaders are expected to discuss the Iran war, Russia's war in Ukraine and trade, though expectations of a concrete outcome are low.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump arrived in Shenzhen on Wednesday, 18 November 2026, for the APEC summit, a forum of 21 member economies.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Xi Jinping welcomed Trump on the tarmac, which Xi said was 'a sign of reciprocity': Trump had greeted Xi at the airport during Xi's visit to the US in September.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Xi greeted Trump at Shenzhen Bao'an International Airport, which Al Jazeera describes as unusual for Chinese presidents.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "CNN reports it was the first time Xi, as China's leader, has gone to the airport to greet a visiting US president.",
+      "source_url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "When Putin arrived in Shenzhen earlier, he was met by Cai Qi, Xi's chief of staff and a member of the Politburo Standing Committee.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "Trump, Xi and Putin attended a welcome banquet on Wednesday evening; Putin sat a few spots to Trump's left and raised a glass of red wine for a toast led by Xi. Trump did not give a toast after Xi.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+     },
+     {
+      "fact": "At the banquet Xi said: 'At tomorrow's Leaders' Meeting, we will discuss measures to expand mutual opening up.'",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+     },
+     {
+      "fact": "On Thursday, Trump is to hold talks with Xi and a three-way meeting with Xi and Putin. China calls the three-way meeting a 'China-Russia-U.S. Summit'.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "It would be the first-ever gathering of the three leaders, and expectations are low that there will be enough time for thorough dialogue.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "The talks are expected to focus on the Iran war, Russia's war in Ukraine and strategic stability; trade and AI are also expected to be discussed.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Trump plans to meet separately with Putin on Thursday, in addition to the three-way meeting with Xi.",
+      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+     },
+     {
+      "fact": "Ukraine (Kyiv) asked that no decisions be made about Ukraine without its participation.",
+      "source_url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690"
+     },
+     {
+      "fact": "Xi called for a 'constructive, strategic and stable relationship' between China and the US.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "At the APEC opening, Xi said: 'We should remove trade and investment barriers.'",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+     },
+     {
+      "fact": "The 33rd APEC Economic Leaders' Meeting runs from 18 to 19 November in Shenzhen. This is Trump's third meeting with Xi in 2026, after Beijing in May and Washington in September.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "Trump and Xi agreed a trade truce in Busan, South Korea, on 30 October 2025. It is now set to expire on 10 January 2027.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "During the trade fight, US tariffs on Chinese goods reached 145% and Chinese tariffs on US goods reached 125%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "China's rare earth exports to the US remain about 75% below normal levels, according to the Center for Strategic and International Studies.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "Trump attended the banquet with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent and Commerce Secretary Howard Lutnick.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Trump flew to Shenzhen from Manila in the Philippines, where he met the leaders of Japan, India and Australia.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Shenzhen is described as one of China's 'Silicon Valleys'; it is home to Huawei and BYD.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "Shenzhen is part of China's 'Greater Bay Area', which includes Hong Kong and Macau.",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+     },
+     {
+      "fact": "Vietnam hosts next year's APEC meetings.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "APEC member economies",
+      "value": 21,
+      "unit": "economies",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "label": "APEC leaders' meeting number",
+      "value": 33,
+      "unit": "th",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "label": "Peak US tariff on Chinese goods during the trade fight",
+      "value": 145,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "label": "China's rare earth exports to the US below normal",
+      "value": 75,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     }
+    ],
+    "geography": "Shenzhen, in Guangdong province in southern China, part of the Greater Bay Area with Hong Kong and Macau; Trump flew in from Manila, Philippines. Countries: United States, China, Russia.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Trump arrives in China for historic meeting with Xi, Putin",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Trump, Xi and Putin gather in China: What happened at APEC",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "China's Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "As Trump arrives in China, low expectations for breakthroughs in rivalry",
+      "url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNN",
+      "title": "APEC summit latest: Trump receives warm reception from Xi and Putin in China",
+      "url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Trump attends ASEAN summit ahead of Xi, Putin meeting",
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Trump Lands in Shenzhen, Where Xi Greets Him at the Airport Before the First Meeting of the US, Chinese and Russian Leaders",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "cyclone-akvan",
+    "headline": "Cyclone Akvan Turns Severe Over the Bay of Bengal; Landfall Expected on the Andhra Coast Around Noon on 20 November",
+    "what_happened": "Cyclone Akvan strengthened into a severe cyclonic storm over the Bay of Bengal early on 18 November. The India Meteorological Department expects it to cross the Andhra Pradesh and Yanam coast between Nellore and Visakhapatnam around noon on 20 November, with winds of 100-110 km/h gusting to 120 km/h. Its latest update dropped an earlier forecast that it would become a very severe cyclonic storm.",
+    "why_it_matters": "Millions of people live along the coasts of Andhra Pradesh and Odisha; states are issuing alerts, stopping fishing and preparing shelters and evacuations.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Cyclone Akvan intensified into a severe cyclonic storm at 05:30 IST on 18 November over the Bay of Bengal.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "fact": "At 5:30 am on 18 November the storm was about 580 km east of Chennai, 610 km south-east of Machilipatnam, 610 km south-south-east of Visakhapatnam and 730 km south of Gopalpur.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "It was moving north-north-west at about 3 km/h.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The IMD expects it to cross the Andhra Pradesh and Yanam coast between Nellore and Visakhapatnam around noon on 20 November as a severe cyclonic storm, with sustained winds of 100-110 km/h gusting up to 120 km/h.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The latest IMD update dropped an earlier forecast that Akvan would become a very severe cyclonic storm before landfall.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The IMD issued an orange alert for the Andhra Pradesh coast and adjoining south Odisha and advised a complete suspension of fishing.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The Met Centre at Amaravati issued a red alert for coastal Andhra Pradesh for 19 to 20 November, and heavy to very heavy rain is likely across the whole state on Thursday and Friday.",
+      "source_url": "https://www.theweek.in/news/india/2026/11/18/cyclone-akvan-imd-issues-red-alert-for-andhra-coasts-as-storm-approaches-nellore-and-visakhapatnam.html"
+     },
+     {
+      "fact": "Andhra Pradesh Chief Minister N Chandrababu Naidu told officials to keep spreading weather alerts in vulnerable areas and to clear uprooted trees and damaged electric poles quickly.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "Odisha says up to 204,070 people may be evacuated if conditions require, including 121,597 in Ganjam district.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "fact": "Odisha has deployed 74 rescue teams, including National Disaster Response Force (NDRF) and Odisha Disaster Rapid Action Force (ODRAF) personnel.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "fact": "Odisha has mapped 1,902 vulnerable locations across 87 blocks and earmarked 3,329 cyclone shelters.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The IMD expects Odisha to get more rain than damaging winds, with rain growing heavier on 19-20 November.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "Akvan is the region's third major cyclone threat in recent weeks, after Arnab and Murasu; Odisha's disaster management minister Suresh Pujari said landslides had become a major concern after Cyclone Arnab.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "Strong winds could damage trees, power lines and weak buildings, and residents of low-lying coastal areas are told to follow official warnings and avoid unnecessary travel.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sustained wind speed at landfall (upper end)",
+      "value": 110,
+      "unit": "km/h",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "label": "Gusts up to",
+      "value": 120,
+      "unit": "km/h",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "label": "People Odisha may evacuate",
+      "value": 204070,
+      "unit": "people",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "label": "Cyclone shelters earmarked in Odisha",
+      "value": 3329,
+      "unit": "shelters",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "label": "Distance from Machilipatnam on 18 November",
+      "value": 610,
+      "unit": "km",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     }
+    ],
+    "geography": "Bay of Bengal; Andhra Pradesh coast between Nellore and Visakhapatnam, including Yanam; south Odisha (Ganjam, Gajapati). Country: India. Cities: Chennai, Machilipatnam, Visakhapatnam.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The Federal",
+      "title": "Andhra, Odisha brace as Akvan turns 'severe', may not become 'very severe'",
+      "url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Down To Earth",
+      "title": "Daily weather tracker: Severe cyclonic storm Akvan approaches Andhra Pradesh coast",
+      "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Akvan: IMD issues red alert for Andhra coasts",
+      "url": "https://www.theweek.in/news/india/2026/11/18/cyclone-akvan-imd-issues-red-alert-for-andhra-coasts-as-storm-approaches-nellore-and-visakhapatnam.html",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "eu-ukraine-loan",
+    "headline": "EU Proposes a New €45 Billion Loan for Ukraine in 2027, Raised by Borrowing Together",
+    "what_happened": "On 18 November European Commission President Ursula von der Leyen proposed an extra €45 billion loan for Ukraine, paid out through 2027 and raised by EU joint borrowing. €20 billion would be financial aid and €25 billion would buy weapons. Leaders will first debate it in Brussels next week, but Slovakia, the Czech Republic, Hungary and Bulgaria say they will not take part.",
+    "why_it_matters": "Ukraine faces a €70 billion gap in its 2027 budget because Russia's attacks have hurt its economy; the loan is meant to cover two-thirds of it.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The European Commission proposed an additional €45 billion support loan for Ukraine, backed by joint debt; von der Leyen unveiled it on Wednesday 18 November 2026.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "€20 billion would go to financial aid and €25 billion to weapons purchases, paid out gradually through 2027.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The new loan adds to a €90 billion loan that EU leaders agreed last December, which is still being paid out.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "AAA-rated allies may add €5 billion to the loan.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The EU will borrow the money on the markets; Ukraine is not expected to repay out of its own pocket. Repayment depends on Kyiv receiving war reparations from Moscow; if Moscow refuses, Brussels keeps the right to use Russia's immobilised assets, worth €210 billion.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Ukraine faces a €70 billion shortfall in its 2027 budget. The loan is meant to cover two-thirds of it; the rest is expected from allies including the UK, Norway, Canada and Japan.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Russia's attacks have disrupted business, hurt trade and caused widespread blackouts, reducing Kyiv's income and making it more dependent on foreign aid.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Slovakia, the Czech Republic, Hungary and Bulgaria have said they will not take part.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "German Chancellor Friedrich Merz threatened to block the next EU budget if the 27 members do not agree fresh Ukraine aid; Slovak Prime Minister Robert Fico called this 'blackmail'.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Von der Leyen said she was 'very confident' all 27 member states would back the proposal, and said: 'We are sending a clear message to Russia: We want peace.'",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Because interest rates have risen this year, the EU will have to pay billions in interest each year to keep up the support.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Leaders will hold their first debate on the proposal next week in Brussels.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The Commission estimates that disruption linked to the Strait of Hormuz has added €127 billion to the EU's energy import bill since the start of the US-Israeli war against Iran.",
+      "source_url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "New EU loan for Ukraine",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Of which for weapons",
+      "value": 25,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Of which financial aid",
+      "value": 20,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Ukraine's 2027 budget gap",
+      "value": 70,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Earlier EU loan agreed last December",
+      "value": 90,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     }
+    ],
+    "geography": "Brussels, Belgium (EU); Ukraine; Russia. Holdouts: Slovakia, Czech Republic, Hungary, Bulgaria.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Von der Leyen proposes €45bn loan to Ukraine backed by joint debt",
+      "url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Europe Tonight: EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+      "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "EU Proposes a New €45 Billion Loan for Ukraine in 2027, Raised by Borrowing Together",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "uk-eu-summit",
+    "headline": "Burnham Heads to Brussels on Friday for His First UK-EU Summit, Seeking Deals on Food, Emissions and Young People",
+    "what_happened": "UK Prime Minister Andy Burnham goes to Brussels on Friday 20 November for his first formal summit with the European Union. He wants deals that would cut checks on food trade, link the UK to the EU's emissions trading scheme and set up a youth scheme letting young people live and work abroad. On Monday he said Britain had 'lost more than we have gained' from Brexit; on Wednesday he said Britain would prioritise British jobs for British young people.",
+    "why_it_matters": "It is the biggest attempt yet to ease the barriers Brexit created for trade and travel between the UK and its nearest neighbours, while keeping the UK outside the EU's single market and customs union.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 20 November 2026 Andy Burnham travels to Brussels for his first formal summit with the EU.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "Background (Monday 16 November): in a speech at the Lord Mayor's Banquet in the City of London, Burnham said: 'The Brexit we were given has not worked. We have lost more than we have gained.'",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Background: Burnham compared the situation to 'the emperor's new clothes - where no-one is prepared to say the obvious truth', and said a 'needlessly hard' Brexit had created barriers for businesses trading with the EU.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Burnham wants agreements in areas such as food and youth mobility, and intends to keep Labour's commitment not to rejoin the EU customs union or single market and not to restore freedom of movement.",
+      "source_url": "https://live.euronext.com/en/financial-news/uk-pm-burnham-ready-confront-obvious-truth-brexits-costs"
+     },
+     {
+      "fact": "The deals expected include food and energy, and a scheme letting young EU citizens study and work in the UK and young Britons do the same in the EU.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "The UK claims the agreements could bring an economic gain of about $22.5 billion, or about 0.4% of GDP.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Under the plans, the UK has committed to realign with EU rules on agrifood exports, and is to join the EU's emissions trading scheme.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "Open questions on the youth experience scheme include the UK's proposed annual cap, which the EU objected to, and an EU demand that EU students in the UK pay home (not international) fees.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "The UK agreed to rejoin the Erasmus student exchange programme in 2027.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "The Conservative Party accuses Labour of 'dragging us into the European Union via the back door' and says Britain would have to follow EU rules without a say in making them.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "On Wednesday 18 November Burnham said: 'We will prioritise British jobs for British young people.'",
+      "source_url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people"
+     },
+     {
+      "fact": "Burnham will only sign a deal that is better than the existing Brexit deal and brings visible benefits to ordinary people, he says.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Claimed economic gain from the deals",
+      "value": 0.4,
+      "unit": "% of GDP",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     }
+    ],
+    "geography": "London, United Kingdom; Brussels, Belgium (EU summit). Countries: United Kingdom, Belgium.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Institute for Government",
+      "title": "The UK-EU summit will be a test of the political salience of Brexit",
+      "url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham",
+      "published": "2026-11-12",
+      "primary": false
+     },
+     {
+      "outlet": "UPI",
+      "title": "British PM Andy Burnham pushes back on Brexit, argues for closer EU ties",
+      "url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "Reuters via Euronext",
+      "title": "UK PM Burnham ready to confront 'obvious truth' of Brexit's costs",
+      "url": "https://live.euronext.com/en/financial-news/uk-pm-burnham-ready-confront-obvious-truth-brexits-costs",
+      "published": "2026-11-15",
+      "primary": true
+     },
+     {
+      "outlet": "ITV News",
+      "title": "Andy Burnham: We will prioritise British jobs for British young people",
+      "url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "mit-sleep-brain",
+    "headline": "MIT Study: The Brain's Night-Time Cleaning Waves Grow Weaker With Age",
+    "what_happened": "MIT researchers scanned the brains of younger (18-39) and older (60-84) adults as they fell asleep. In deep, non-REM sleep, younger people's slow brain waves drove strong waves of cerebrospinal fluid that help wash away waste; in older people the fluid waves were substantially smaller. The study is published in Nature Aging.",
+    "why_it_matters": "Sleep helps clean waste from the brain; understanding why this weakens with age may one day help explain or prevent diseases like dementia, though the study does not show that weaker flow causes them.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, published in Nature Aging, was led by MIT's Laura Lewis (senior author) with lead authors Sydney Bailes and Stephanie Williams.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "Sleep is 'an essential maintenance process that helps wash away accumulated waste'; cerebrospinal fluid (CSF) moves through spaces around the brain and carries waste away.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "In 2019 Lewis's team found that slow brain waves during non-REM sleep also create rhythmic movements of CSF.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "The study compared a younger group aged 18 to 39 with an older group aged 60 to 84.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "Each volunteer had a session of about two hours starting late at night; researchers used fMRI to measure blood flow, a special MRI method to measure CSF movement, and EEG to record electrical activity. Many fell asleep in the scanner.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "In younger adults, slow waves and CSF waves grew stronger as they entered non-REM sleep; in older adults the average fluid waves were 'substantially smaller'.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "The decline could not be explained by older people sleeping less.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "In awake tests with a flickering checkerboard and breath-holding, older adults' blood flow rose much less than younger adults'; weaker blood-vessel responses explained much, but not all, of the decline.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "Some older adults had CSF movement in the same range as healthy young adults.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "No volunteer had a diagnosed brain disease, and the study does not show that reduced fluid flow causes tissue loss or dementia.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "The team hopes to follow people over time and to test whether CSF waves can be strengthened; a separate study found short bursts of pink noise increased CSF movement in younger adults, which has not been tested in older adults.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Youngest age in older group",
+      "value": 60,
+      "unit": "years",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "label": "Session length",
+      "value": 2,
+      "unit": "hours",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     }
+    ],
+    "geography": "Massachusetts Institute of Technology, Cambridge, Massachusetts, United States.",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily (MIT)",
+      "title": "MIT discovers that aging weakens the brain's nighttime cleaning system",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "MIT Study: The Brain's Night-Time Cleaning Waves Grow Weaker With Age",
+     "kind": "mechanism",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     ],
+     "details": []
+    }
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "jeffries-speaker",
+    "headline": "House Democrats Pick Hakeem Jeffries for Speaker, 251-11; He Could Become the First Black Speaker in January",
+    "what_happened": "On Wednesday 18 November House Democrats voted 251-11 in a closed-door meeting to nominate Hakeem Jeffries of New York, their current leader, to be Speaker of the House. Democrats won the House in the midterm elections and are poised to hold at least 257 seats. The full House votes on 3 January; Jeffries needs 218 votes.",
+    "why_it_matters": "The Speaker leads the House of Representatives, one half of Congress, which writes the country's laws. If elected, Jeffries would be the first Black Speaker.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "House Democrats voted 251-11 to nominate Hakeem Jeffries for Speaker, according to a person familiar with the closed-door meeting.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "Jeffries ran uncontested and won the closed-door vote 251 to 11 for the Democratic nomination for Speaker; the full House vote is set for 3 January.",
+      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes"
+     },
+     {
+      "fact": "Jeffries, a Democrat from New York, is currently the House Minority Leader.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "Democrats 'trounced Republicans' in the midterm elections and are poised to hold at least 257 House seats.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "If elected, Jeffries would be the first Black Speaker of the House.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "Jeffries needs 218 votes on the House floor to be elected Speaker.",
+      "source_url": "https://www.nbcwashington.com/news/politics/democrats-nominate-rep-hakeem-jeffries-paving-way-first-black-speaker/4184947/"
+     },
+     {
+      "fact": "Jeffries must still be formally elected when the new Congress meets in January.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "In the Senate, the Associated Press called Alaska's race for Democrat Mary Peltola; the win gives Democrats 56 seats in the next Congress.",
+      "source_url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Votes for Jeffries in the Democratic caucus",
+      "value": 251,
+      "unit": "votes",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "label": "Votes against",
+      "value": 11,
+      "unit": "votes",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "label": "House seats Democrats are poised to hold",
+      "value": 257,
+      "unit": "seats",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "label": "Votes needed to be elected Speaker",
+      "value": 218,
+      "unit": "votes",
+      "source_url": "https://www.nbcwashington.com/news/politics/democrats-nominate-rep-hakeem-jeffries-paving-way-first-black-speaker/4184947/"
+     }
+    ],
+    "geography": "Washington, DC, United States (the US Capitol). Jeffries represents New York.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Jeffries wins Democratic House speaker race, on track to make history in January",
+      "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NBC Washington",
+      "title": "Democrats formally nominate Rep. Hakeem Jeffries as House speaker",
+      "url": "https://www.nbcwashington.com/news/politics/democrats-nominate-rep-hakeem-jeffries-paving-way-first-black-speaker/4184947/",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "shenzhen-summit",
+    "headline": "Trump Lands in Shenzhen, Where Xi Greets Him at the Airport Before the First Meeting of the US, Chinese and Russian Leaders",
+    "what_happened": "US President Donald Trump arrived in Shenzhen, China, on Wednesday 18 November 2026 for the APEC summit, and Chinese President Xi Jinping greeted him on the airport tarmac. That evening Trump, Xi and Russian President Vladimir Putin attended a welcome banquet. A first-ever three-way meeting of the three leaders, plus separate talks, is set for Thursday 19 November.",
+    "why_it_matters": "The US, China and Russia are three of the world's most powerful countries, and their leaders are expected to discuss the Iran war, Russia's war in Ukraine and trade, though expectations of a concrete outcome are low.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump arrived in Shenzhen on Wednesday, 18 November 2026, for the APEC summit, a forum of 21 member economies.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Xi Jinping welcomed Trump on the tarmac, which Xi said was 'a sign of reciprocity': Trump had greeted Xi at the airport during Xi's visit to the US in September.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Xi greeted Trump at Shenzhen Bao'an International Airport, which Al Jazeera describes as unusual for Chinese presidents.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "CNN reports it was the first time Xi, as China's leader, has gone to the airport to greet a visiting US president.",
+      "source_url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "When Putin arrived in Shenzhen earlier, he was met by Cai Qi, Xi's chief of staff and a member of the Politburo Standing Committee.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "Trump, Xi and Putin attended a welcome banquet on Wednesday evening; Putin sat a few spots to Trump's left and raised a glass of red wine for a toast led by Xi. Trump did not give a toast after Xi.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+     },
+     {
+      "fact": "At the banquet Xi said: 'At tomorrow's Leaders' Meeting, we will discuss measures to expand mutual opening up.'",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+     },
+     {
+      "fact": "On Thursday, Trump is to hold talks with Xi and a three-way meeting with Xi and Putin. China calls the three-way meeting a 'China-Russia-U.S. Summit'.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "It would be the first-ever gathering of the three leaders, and expectations are low that there will be enough time for thorough dialogue.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "The talks are expected to focus on the Iran war, Russia's war in Ukraine and strategic stability; trade and AI are also expected to be discussed.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Trump plans to meet separately with Putin on Thursday, in addition to the three-way meeting with Xi.",
+      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+     },
+     {
+      "fact": "Ukraine (Kyiv) asked that no decisions be made about Ukraine without its participation.",
+      "source_url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690"
+     },
+     {
+      "fact": "Xi called for a 'constructive, strategic and stable relationship' between China and the US.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "At the APEC opening, Xi said: 'We should remove trade and investment barriers.'",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+     },
+     {
+      "fact": "The 33rd APEC Economic Leaders' Meeting runs from 18 to 19 November in Shenzhen. This is Trump's third meeting with Xi in 2026, after Beijing in May and Washington in September.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "Trump and Xi agreed a trade truce in Busan, South Korea, on 30 October 2025. It is now set to expire on 10 January 2027.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "During the trade fight, US tariffs on Chinese goods reached 145% and Chinese tariffs on US goods reached 125%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "China's rare earth exports to the US remain about 75% below normal levels, according to the Center for Strategic and International Studies.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "Trump attended the banquet with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent and Commerce Secretary Howard Lutnick.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Trump flew to Shenzhen from Manila in the Philippines, where he met the leaders of Japan, India and Australia.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Shenzhen is described as one of China's 'Silicon Valleys'; it is home to Huawei and BYD.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "Shenzhen is part of China's 'Greater Bay Area', which includes Hong Kong and Macau.",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+     },
+     {
+      "fact": "Vietnam hosts next year's APEC meetings.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "APEC member economies",
+      "value": 21,
+      "unit": "economies",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "label": "APEC leaders' meeting number",
+      "value": 33,
+      "unit": "th",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "label": "Peak US tariff on Chinese goods during the trade fight",
+      "value": 145,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "label": "China's rare earth exports to the US below normal",
+      "value": 75,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     }
+    ],
+    "geography": "Shenzhen, in Guangdong province in southern China, part of the Greater Bay Area with Hong Kong and Macau; Trump flew in from Manila, Philippines. Countries: United States, China, Russia.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Trump arrives in China for historic meeting with Xi, Putin",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Trump, Xi and Putin gather in China: What happened at APEC",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "China's Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "As Trump arrives in China, low expectations for breakthroughs in rivalry",
+      "url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNN",
+      "title": "APEC summit latest: Trump receives warm reception from Xi and Putin in China",
+      "url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Trump attends ASEAN summit ahead of Xi, Putin meeting",
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Trump Lands in Shenzhen, Where Xi Greets Him at the Airport Before the First Meeting of the US, Chinese and Russian Leaders",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "peltola-alaska",
+    "headline": "Mary Peltola Wins Alaska's Senate Seat, Giving Democrats 56 Senators",
+    "what_happened": "The Associated Press called Alaska's US Senate race for Democrat Mary Peltola, who defeated Republican Senator Dan Sullivan. It was the last Senate race to be called after the midterm elections.",
+    "why_it_matters": "The result gives Democrats 56 seats in the Senate in the next Congress.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Associated Press called Alaska's Senate race for Democrat Mary Peltola, a former congresswoman, who defeated Republican Senator Dan Sullivan.",
+      "source_url": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan"
+     },
+     {
+      "fact": "The Alaska win gives Democrats 56 seats in the next Congress.",
+      "source_url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai"
+     },
+     {
+      "fact": "Alaska's Senate race was the last to be called.",
+      "source_url": "https://www.democracydocket.com/news-alerts/live-updates-alaska-senate-race-called-for-democrat-peltola-but-fight-may-continue/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Democratic Senate seats in the next Congress",
+      "value": 56,
+      "unit": "seats",
+      "source_url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai"
+     }
+    ],
+    "geography": "Alaska, United States.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Alaska Senate: Democrat Mary Peltola tops GOP's Dan Sullivan",
+      "url": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+      "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Democracy Docket",
+      "title": "Live updates: Alaska Senate race called for Democrat Peltola but fight may continue",
+      "url": "https://www.democracydocket.com/news-alerts/live-updates-alaska-senate-race-called-for-democrat-peltola-but-fight-may-continue/",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "cyclone-akvan",
+    "headline": "Cyclone Akvan Turns Severe Over the Bay of Bengal; Landfall Expected on the Andhra Coast Around Noon on 20 November",
+    "what_happened": "Cyclone Akvan strengthened into a severe cyclonic storm over the Bay of Bengal early on 18 November. The India Meteorological Department expects it to cross the Andhra Pradesh and Yanam coast between Nellore and Visakhapatnam around noon on 20 November, with winds of 100-110 km/h gusting to 120 km/h. Its latest update dropped an earlier forecast that it would become a very severe cyclonic storm.",
+    "why_it_matters": "Millions of people live along the coasts of Andhra Pradesh and Odisha; states are issuing alerts, stopping fishing and preparing shelters and evacuations.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Cyclone Akvan intensified into a severe cyclonic storm at 05:30 IST on 18 November over the Bay of Bengal.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "fact": "At 5:30 am on 18 November the storm was about 580 km east of Chennai, 610 km south-east of Machilipatnam, 610 km south-south-east of Visakhapatnam and 730 km south of Gopalpur.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "It was moving north-north-west at about 3 km/h.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The IMD expects it to cross the Andhra Pradesh and Yanam coast between Nellore and Visakhapatnam around noon on 20 November as a severe cyclonic storm, with sustained winds of 100-110 km/h gusting up to 120 km/h.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The latest IMD update dropped an earlier forecast that Akvan would become a very severe cyclonic storm before landfall.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The IMD issued an orange alert for the Andhra Pradesh coast and adjoining south Odisha and advised a complete suspension of fishing.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The Met Centre at Amaravati issued a red alert for coastal Andhra Pradesh for 19 to 20 November, and heavy to very heavy rain is likely across the whole state on Thursday and Friday.",
+      "source_url": "https://www.theweek.in/news/india/2026/11/18/cyclone-akvan-imd-issues-red-alert-for-andhra-coasts-as-storm-approaches-nellore-and-visakhapatnam.html"
+     },
+     {
+      "fact": "Andhra Pradesh Chief Minister N Chandrababu Naidu told officials to keep spreading weather alerts in vulnerable areas and to clear uprooted trees and damaged electric poles quickly.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "Odisha says up to 204,070 people may be evacuated if conditions require, including 121,597 in Ganjam district.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "fact": "Odisha has deployed 74 rescue teams, including National Disaster Response Force (NDRF) and Odisha Disaster Rapid Action Force (ODRAF) personnel.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "fact": "Odisha has mapped 1,902 vulnerable locations across 87 blocks and earmarked 3,329 cyclone shelters.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "The IMD expects Odisha to get more rain than damaging winds, with rain growing heavier on 19-20 November.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "Akvan is the region's third major cyclone threat in recent weeks, after Arnab and Murasu; Odisha's disaster management minister Suresh Pujari said landslides had become a major concern after Cyclone Arnab.",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "fact": "Strong winds could damage trees, power lines and weak buildings, and residents of low-lying coastal areas are told to follow official warnings and avoid unnecessary travel.",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Sustained wind speed at landfall (upper end)",
+      "value": 110,
+      "unit": "km/h",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "label": "Gusts up to",
+      "value": 120,
+      "unit": "km/h",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "label": "People Odisha may evacuate",
+      "value": 204070,
+      "unit": "people",
+      "source_url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast"
+     },
+     {
+      "label": "Cyclone shelters earmarked in Odisha",
+      "value": 3329,
+      "unit": "shelters",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     },
+     {
+      "label": "Distance from Machilipatnam on 18 November",
+      "value": 610,
+      "unit": "km",
+      "source_url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+     }
+    ],
+    "geography": "Bay of Bengal; Andhra Pradesh coast between Nellore and Visakhapatnam, including Yanam; south Odisha (Ganjam, Gajapati). Country: India. Cities: Chennai, Machilipatnam, Visakhapatnam.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "The Federal",
+      "title": "Andhra, Odisha brace as Akvan turns 'severe', may not become 'very severe'",
+      "url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Down To Earth",
+      "title": "Daily weather tracker: Severe cyclonic storm Akvan approaches Andhra Pradesh coast",
+      "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-severe-cyclonic-storm-akvan-approaches-andhra-pradesh-coast",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "The Week",
+      "title": "Cyclone Akvan: IMD issues red alert for Andhra coasts",
+      "url": "https://www.theweek.in/news/india/2026/11/18/cyclone-akvan-imd-issues-red-alert-for-andhra-coasts-as-storm-approaches-nellore-and-visakhapatnam.html",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "rupee-high",
+    "headline": "Rupee Climbs to a Seven-Month High of 93.51 to the Dollar as Oil Eases",
+    "what_happened": "On Tuesday 17 November the Indian rupee rose 43 paise to close at 93.51 against the US dollar, its strongest level in seven months, helped by softer crude oil prices, rising share markets and money coming in from foreign investors.",
+    "why_it_matters": "India buys most of its oil from abroad and pays in dollars, so a stronger rupee and cheaper oil can make imports less costly.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Tuesday 17 November the rupee rose 43 paise to close at 93.51 against the US dollar, a seven-month high.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "The rupee had risen 25 paise to 93.94 on Monday.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Traders credited softer crude oil prices, upbeat domestic markets and foreign fund inflows; a strong dollar and high US bond yields limited the gains.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Brent crude oil fell 0.38% to $92.79 a barrel.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "The Sensex rose 427.40 points to 82,532.19 and the Nifty rose 96.30 points to 25,387.40.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Foreign institutional investors bought Indian shares worth Rs 4,195.38 crore on Tuesday.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Analyst Anuj Choudhary of Mirae Asset Sharekhan said: 'We expect the rupee to trade with a positive bias on a decline in crude oil prices and positive domestic markets.'",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Rupee close against the dollar",
+      "value": 93.51,
+      "unit": "rupees per dollar",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "label": "Brent crude price",
+      "value": 92.79,
+      "unit": "dollars a barrel",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     }
+    ],
+    "geography": "Mumbai, India.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ThePrint (PTI)",
+      "title": "Rupee rises 43 paise to settle at its seven-month high level of 93.51 against US dollar",
+      "url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "jeffries-speaker",
+    "headline": "House Democrats Pick Hakeem Jeffries for Speaker, 251-11; He Could Become the First Black Speaker in January",
+    "what_happened": "On Wednesday 18 November House Democrats voted 251-11 in a closed-door meeting to nominate Hakeem Jeffries of New York, their current leader, to be Speaker of the House. Democrats won the House in the midterm elections and are poised to hold at least 257 seats. The full House votes on 3 January; Jeffries needs 218 votes.",
+    "why_it_matters": "The Speaker leads the House of Representatives, one half of Congress, which writes the country's laws. If elected, Jeffries would be the first Black Speaker.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "House Democrats voted 251-11 to nominate Hakeem Jeffries for Speaker, according to a person familiar with the closed-door meeting.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "Jeffries ran uncontested and won the closed-door vote 251 to 11 for the Democratic nomination for Speaker; the full House vote is set for 3 January.",
+      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes"
+     },
+     {
+      "fact": "Jeffries, a Democrat from New York, is currently the House Minority Leader.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "Democrats 'trounced Republicans' in the midterm elections and are poised to hold at least 257 House seats.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "If elected, Jeffries would be the first Black Speaker of the House.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "Jeffries needs 218 votes on the House floor to be elected Speaker.",
+      "source_url": "https://www.nbcwashington.com/news/politics/democrats-nominate-rep-hakeem-jeffries-paving-way-first-black-speaker/4184947/"
+     },
+     {
+      "fact": "Jeffries must still be formally elected when the new Congress meets in January.",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "fact": "In the Senate, the Associated Press called Alaska's race for Democrat Mary Peltola; the win gives Democrats 56 seats in the next Congress.",
+      "source_url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Votes for Jeffries in the Democratic caucus",
+      "value": 251,
+      "unit": "votes",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "label": "Votes against",
+      "value": 11,
+      "unit": "votes",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "label": "House seats Democrats are poised to hold",
+      "value": 257,
+      "unit": "seats",
+      "source_url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+     },
+     {
+      "label": "Votes needed to be elected Speaker",
+      "value": 218,
+      "unit": "votes",
+      "source_url": "https://www.nbcwashington.com/news/politics/democrats-nominate-rep-hakeem-jeffries-paving-way-first-black-speaker/4184947/"
+     }
+    ],
+    "geography": "Washington, DC, United States (the US Capitol). Jeffries represents New York.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Jeffries wins Democratic House speaker race, on track to make history in January",
+      "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NBC Washington",
+      "title": "Democrats formally nominate Rep. Hakeem Jeffries as House speaker",
+      "url": "https://www.nbcwashington.com/news/politics/democrats-nominate-rep-hakeem-jeffries-paving-way-first-black-speaker/4184947/",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "shenzhen-summit",
+    "headline": "Trump Lands in Shenzhen, Where Xi Greets Him at the Airport Before the First Meeting of the US, Chinese and Russian Leaders",
+    "what_happened": "US President Donald Trump arrived in Shenzhen, China, on Wednesday 18 November 2026 for the APEC summit, and Chinese President Xi Jinping greeted him on the airport tarmac. That evening Trump, Xi and Russian President Vladimir Putin attended a welcome banquet. A first-ever three-way meeting of the three leaders, plus separate talks, is set for Thursday 19 November.",
+    "why_it_matters": "The US, China and Russia are three of the world's most powerful countries, and their leaders are expected to discuss the Iran war, Russia's war in Ukraine and trade, though expectations of a concrete outcome are low.",
+    "importance": 10,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump arrived in Shenzhen on Wednesday, 18 November 2026, for the APEC summit, a forum of 21 member economies.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Xi Jinping welcomed Trump on the tarmac, which Xi said was 'a sign of reciprocity': Trump had greeted Xi at the airport during Xi's visit to the US in September.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Xi greeted Trump at Shenzhen Bao'an International Airport, which Al Jazeera describes as unusual for Chinese presidents.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "CNN reports it was the first time Xi, as China's leader, has gone to the airport to greet a visiting US president.",
+      "source_url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+     },
+     {
+      "fact": "When Putin arrived in Shenzhen earlier, he was met by Cai Qi, Xi's chief of staff and a member of the Politburo Standing Committee.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "Trump, Xi and Putin attended a welcome banquet on Wednesday evening; Putin sat a few spots to Trump's left and raised a glass of red wine for a toast led by Xi. Trump did not give a toast after Xi.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+     },
+     {
+      "fact": "At the banquet Xi said: 'At tomorrow's Leaders' Meeting, we will discuss measures to expand mutual opening up.'",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+     },
+     {
+      "fact": "On Thursday, Trump is to hold talks with Xi and a three-way meeting with Xi and Putin. China calls the three-way meeting a 'China-Russia-U.S. Summit'.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "It would be the first-ever gathering of the three leaders, and expectations are low that there will be enough time for thorough dialogue.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "The talks are expected to focus on the Iran war, Russia's war in Ukraine and strategic stability; trade and AI are also expected to be discussed.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Trump plans to meet separately with Putin on Thursday, in addition to the three-way meeting with Xi.",
+      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+     },
+     {
+      "fact": "Ukraine (Kyiv) asked that no decisions be made about Ukraine without its participation.",
+      "source_url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690"
+     },
+     {
+      "fact": "Xi called for a 'constructive, strategic and stable relationship' between China and the US.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "At the APEC opening, Xi said: 'We should remove trade and investment barriers.'",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+     },
+     {
+      "fact": "The 33rd APEC Economic Leaders' Meeting runs from 18 to 19 November in Shenzhen. This is Trump's third meeting with Xi in 2026, after Beijing in May and Washington in September.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "Trump and Xi agreed a trade truce in Busan, South Korea, on 30 October 2025. It is now set to expire on 10 January 2027.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "During the trade fight, US tariffs on Chinese goods reached 145% and Chinese tariffs on US goods reached 125%.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "China's rare earth exports to the US remain about 75% below normal levels, according to the Center for Strategic and International Studies.",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "fact": "Trump attended the banquet with Secretary of State Marco Rubio, Treasury Secretary Scott Bessent and Commerce Secretary Howard Lutnick.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Trump flew to Shenzhen from Manila in the Philippines, where he met the leaders of Japan, India and Australia.",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "fact": "Shenzhen is described as one of China's 'Silicon Valleys'; it is home to Huawei and BYD.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     },
+     {
+      "fact": "Shenzhen is part of China's 'Greater Bay Area', which includes Hong Kong and Macau.",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+     },
+     {
+      "fact": "Vietnam hosts next year's APEC meetings.",
+      "source_url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "APEC member economies",
+      "value": 21,
+      "unit": "economies",
+      "source_url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     },
+     {
+      "label": "APEC leaders' meeting number",
+      "value": 33,
+      "unit": "th",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "label": "Peak US tariff on Chinese goods during the trade fight",
+      "value": 145,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     },
+     {
+      "label": "China's rare earth exports to the US below normal",
+      "value": 75,
+      "unit": "%",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry"
+     }
+    ],
+    "geography": "Shenzhen, in Guangdong province in southern China, part of the Greater Bay Area with Hong Kong and Macau; Trump flew in from Manila, Philippines. Countries: United States, China, Russia.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CNBC",
+      "title": "Trump arrives in China for historic meeting with Xi, Putin",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Trump, Xi and Putin gather in China: What happened at APEC",
+      "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "China's Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "As Trump arrives in China, low expectations for breakthroughs in rivalry",
+      "url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "CNN",
+      "title": "APEC summit latest: Trump receives warm reception from Xi and Putin in China",
+      "url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Trump attends ASEAN summit ahead of Xi, Putin meeting",
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "Trump Lands in Shenzhen, Where Xi Greets Him at the Airport Before the First Meeting of the US, Chinese and Russian Leaders",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+     ],
+     "details": []
+    }
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-autumn-forecast",
+    "headline": "EU Forecast: The Economy Keeps Growing, but Prices Rise Faster, With Euro Area Inflation Expected to Peak Above 4%",
+    "what_happened": "On 17 November the European Commission published its autumn forecast. It expects the euro area economy to grow 1.2% in 2026 and 2027, better than it thought in May, but inflation to average 3.2% this year and 3.1% next year, peaking above 4% around the turn of the year before easing.",
+    "why_it_matters": "Higher inflation means families' money buys less; food prices are set to rise faster because of energy, fertiliser costs and extreme summer weather.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Commission's autumn forecast puts euro area growth at 1.2% in 2026 and 2027 and 1.3% in 2028; for the whole EU, 1.4% in 2026 and 2027 and 1.5% in 2028.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Euro area inflation is forecast at 3.2% in 2026 and 3.1% in 2027, easing to 2.1% in 2028; EU inflation at 3.3%, 3.2% and 2.3%.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Euro area inflation reached 4% in October and is expected to peak above 4% between late 2026 and early 2027, then ease gradually.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "The EU economy held up better than expected in the first three quarters of 2026, thanks to steady consumer spending and a sharp rebound in goods exports.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Energy inflation is projected to ease next year, but food inflation is set to speed up because of higher energy and fertiliser costs and crop damage from extreme summer weather.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Employment is projected to grow by 800,000 jobs in 2026, and unemployment to stay close to 6%, its record low.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Wages are projected to rise slightly faster than prices.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "The Commission warns of 'stronger and more persistent inflationary pressures' and 'tighter financing conditions'.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Euro area growth forecast 2026",
+      "value": 1.2,
+      "unit": "%",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "label": "Euro area inflation forecast 2026",
+      "value": 3.2,
+      "unit": "%",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "label": "Euro area inflation in October",
+      "value": 4,
+      "unit": "%",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "label": "New jobs in the EU in 2026",
+      "value": 800000,
+      "unit": "jobs",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     }
+    ],
+    "geography": "European Union and the euro area; Brussels, Belgium.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "European Commission",
+      "title": "Autumn Economic Forecast: continued growth amid higher inflation",
+      "url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "rupee-high",
+    "headline": "Rupee Climbs to a Seven-Month High of 93.51 to the Dollar as Oil Eases",
+    "what_happened": "On Tuesday 17 November the Indian rupee rose 43 paise to close at 93.51 against the US dollar, its strongest level in seven months, helped by softer crude oil prices, rising share markets and money coming in from foreign investors.",
+    "why_it_matters": "India buys most of its oil from abroad and pays in dollars, so a stronger rupee and cheaper oil can make imports less costly.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On Tuesday 17 November the rupee rose 43 paise to close at 93.51 against the US dollar, a seven-month high.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "The rupee had risen 25 paise to 93.94 on Monday.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Traders credited softer crude oil prices, upbeat domestic markets and foreign fund inflows; a strong dollar and high US bond yields limited the gains.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Brent crude oil fell 0.38% to $92.79 a barrel.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "The Sensex rose 427.40 points to 82,532.19 and the Nifty rose 96.30 points to 25,387.40.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Foreign institutional investors bought Indian shares worth Rs 4,195.38 crore on Tuesday.",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "fact": "Analyst Anuj Choudhary of Mirae Asset Sharekhan said: 'We expect the rupee to trade with a positive bias on a decline in crude oil prices and positive domestic markets.'",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Rupee close against the dollar",
+      "value": 93.51,
+      "unit": "rupees per dollar",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     },
+     {
+      "label": "Brent crude price",
+      "value": 92.79,
+      "unit": "dollars a barrel",
+      "source_url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/"
+     }
+    ],
+    "geography": "Mumbai, India.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "ThePrint (PTI)",
+      "title": "Rupee rises 43 paise to settle at its seven-month high level of 93.51 against US dollar",
+      "url": "https://theprint.in/economy/rupee-rises-43-paise-to-settle-at-its-seven-month-high-level-of-93-51-against-us-dollar/3101439/",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "eu-ukraine-loan",
+    "headline": "EU Proposes a New €45 Billion Loan for Ukraine in 2027, Raised by Borrowing Together",
+    "what_happened": "On 18 November European Commission President Ursula von der Leyen proposed an extra €45 billion loan for Ukraine, paid out through 2027 and raised by EU joint borrowing. €20 billion would be financial aid and €25 billion would buy weapons. Leaders will first debate it in Brussels next week, but Slovakia, the Czech Republic, Hungary and Bulgaria say they will not take part.",
+    "why_it_matters": "Ukraine faces a €70 billion gap in its 2027 budget because Russia's attacks have hurt its economy; the loan is meant to cover two-thirds of it.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The European Commission proposed an additional €45 billion support loan for Ukraine, backed by joint debt; von der Leyen unveiled it on Wednesday 18 November 2026.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "€20 billion would go to financial aid and €25 billion to weapons purchases, paid out gradually through 2027.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The new loan adds to a €90 billion loan that EU leaders agreed last December, which is still being paid out.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "AAA-rated allies may add €5 billion to the loan.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The EU will borrow the money on the markets; Ukraine is not expected to repay out of its own pocket. Repayment depends on Kyiv receiving war reparations from Moscow; if Moscow refuses, Brussels keeps the right to use Russia's immobilised assets, worth €210 billion.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Ukraine faces a €70 billion shortfall in its 2027 budget. The loan is meant to cover two-thirds of it; the rest is expected from allies including the UK, Norway, Canada and Japan.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Russia's attacks have disrupted business, hurt trade and caused widespread blackouts, reducing Kyiv's income and making it more dependent on foreign aid.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Slovakia, the Czech Republic, Hungary and Bulgaria have said they will not take part.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "German Chancellor Friedrich Merz threatened to block the next EU budget if the 27 members do not agree fresh Ukraine aid; Slovak Prime Minister Robert Fico called this 'blackmail'.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Von der Leyen said she was 'very confident' all 27 member states would back the proposal, and said: 'We are sending a clear message to Russia: We want peace.'",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Because interest rates have risen this year, the EU will have to pay billions in interest each year to keep up the support.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Leaders will hold their first debate on the proposal next week in Brussels.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The Commission estimates that disruption linked to the Strait of Hormuz has added €127 billion to the EU's energy import bill since the start of the US-Israeli war against Iran.",
+      "source_url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "New EU loan for Ukraine",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Of which for weapons",
+      "value": 25,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Of which financial aid",
+      "value": 20,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Ukraine's 2027 budget gap",
+      "value": 70,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Earlier EU loan agreed last December",
+      "value": 90,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     }
+    ],
+    "geography": "Brussels, Belgium (EU); Ukraine; Russia. Holdouts: Slovakia, Czech Republic, Hungary, Bulgaria.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Von der Leyen proposes €45bn loan to Ukraine backed by joint debt",
+      "url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Europe Tonight: EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+      "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "EU Proposes a New €45 Billion Loan for Ukraine in 2027, Raised by Borrowing Together",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     ],
+     "details": []
+    }
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "mit-sleep-brain",
+    "headline": "MIT Study: The Brain's Night-Time Cleaning Waves Grow Weaker With Age",
+    "what_happened": "MIT researchers scanned the brains of younger (18-39) and older (60-84) adults as they fell asleep. In deep, non-REM sleep, younger people's slow brain waves drove strong waves of cerebrospinal fluid that help wash away waste; in older people the fluid waves were substantially smaller. The study is published in Nature Aging.",
+    "why_it_matters": "Sleep helps clean waste from the brain; understanding why this weakens with age may one day help explain or prevent diseases like dementia, though the study does not show that weaker flow causes them.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study, published in Nature Aging, was led by MIT's Laura Lewis (senior author) with lead authors Sydney Bailes and Stephanie Williams.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "Sleep is 'an essential maintenance process that helps wash away accumulated waste'; cerebrospinal fluid (CSF) moves through spaces around the brain and carries waste away.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "In 2019 Lewis's team found that slow brain waves during non-REM sleep also create rhythmic movements of CSF.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "The study compared a younger group aged 18 to 39 with an older group aged 60 to 84.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "Each volunteer had a session of about two hours starting late at night; researchers used fMRI to measure blood flow, a special MRI method to measure CSF movement, and EEG to record electrical activity. Many fell asleep in the scanner.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "In younger adults, slow waves and CSF waves grew stronger as they entered non-REM sleep; in older adults the average fluid waves were 'substantially smaller'.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "The decline could not be explained by older people sleeping less.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "In awake tests with a flickering checkerboard and breath-holding, older adults' blood flow rose much less than younger adults'; weaker blood-vessel responses explained much, but not all, of the decline.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "Some older adults had CSF movement in the same range as healthy young adults.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "No volunteer had a diagnosed brain disease, and the study does not show that reduced fluid flow causes tissue loss or dementia.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "fact": "The team hopes to follow people over time and to test whether CSF waves can be strengthened; a separate study found short bursts of pink noise increased CSF movement in younger adults, which has not been tested in older adults.",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Youngest age in older group",
+      "value": 60,
+      "unit": "years",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     },
+     {
+      "label": "Session length",
+      "value": 2,
+      "unit": "hours",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     }
+    ],
+    "geography": "Massachusetts Institute of Technology, Cambridge, Massachusetts, United States.",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "ScienceDaily (MIT)",
+      "title": "MIT discovers that aging weakens the brain's nighttime cleaning system",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "MIT Study: The Brain's Night-Time Cleaning Waves Grow Weaker With Age",
+     "kind": "mechanism",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.sciencedaily.com/releases/2026/11/261114202137.htm"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "supernova-ngc1433",
+    "headline": "Astronomers Catch a Star Exploding 50 Million Light-Years Away While It Is Still Getting Brighter",
+    "what_happened": "Researchers using the ATLAS telescope survey discovered a new supernova, SN 2026ahvu, in the spiral galaxy NGC 1433, about 50 million light-years from Earth. It was caught while still brightening, letting scientists watch the explosion as it happens.",
+    "why_it_matters": "Catching a supernova early lets astronomers study the galaxy before, during and after the explosion.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Researchers discovered a new supernova called SN 2026ahvu in the spiral galaxy NGC 1433, about 50 million light-years from Earth.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "It is a Type Ia supernova in a binary system of two stars orbiting each other, where one star is typically an exploding white dwarf that pulls material from its companion until enough builds up on its surface to explode.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "It was found using ATLAS, the Asteroid Terrestrial-impact Last Alert System, a survey of telescopes in both hemispheres; follow-up used NOIRLab's Dark Energy Camera and the Gemini South telescope.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "It was discovered while still getting brighter, giving researchers a chance to watch the event as it takes place and study the galaxy before, during and after the explosion.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance from Earth",
+      "value": 50,
+      "unit": "million light-years",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     }
+    ],
+    "geography": "Galaxy NGC 1433, far beyond our Milky Way.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Space.com",
+      "title": "A newfound supernova explodes 50 million light-years away",
+      "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-eu-summit",
+    "headline": "Burnham Heads to Brussels on Friday for His First UK-EU Summit, Seeking Deals on Food, Emissions and Young People",
+    "what_happened": "UK Prime Minister Andy Burnham goes to Brussels on Friday 20 November for his first formal summit with the European Union. He wants deals that would cut checks on food trade, link the UK to the EU's emissions trading scheme and set up a youth scheme letting young people live and work abroad. On Monday he said Britain had 'lost more than we have gained' from Brexit; on Wednesday he said Britain would prioritise British jobs for British young people.",
+    "why_it_matters": "It is the biggest attempt yet to ease the barriers Brexit created for trade and travel between the UK and its nearest neighbours, while keeping the UK outside the EU's single market and customs union.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 20 November 2026 Andy Burnham travels to Brussels for his first formal summit with the EU.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "Background (Monday 16 November): in a speech at the Lord Mayor's Banquet in the City of London, Burnham said: 'The Brexit we were given has not worked. We have lost more than we have gained.'",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Background: Burnham compared the situation to 'the emperor's new clothes - where no-one is prepared to say the obvious truth', and said a 'needlessly hard' Brexit had created barriers for businesses trading with the EU.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Burnham wants agreements in areas such as food and youth mobility, and intends to keep Labour's commitment not to rejoin the EU customs union or single market and not to restore freedom of movement.",
+      "source_url": "https://live.euronext.com/en/financial-news/uk-pm-burnham-ready-confront-obvious-truth-brexits-costs"
+     },
+     {
+      "fact": "The deals expected include food and energy, and a scheme letting young EU citizens study and work in the UK and young Britons do the same in the EU.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "The UK claims the agreements could bring an economic gain of about $22.5 billion, or about 0.4% of GDP.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Under the plans, the UK has committed to realign with EU rules on agrifood exports, and is to join the EU's emissions trading scheme.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "Open questions on the youth experience scheme include the UK's proposed annual cap, which the EU objected to, and an EU demand that EU students in the UK pay home (not international) fees.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "The UK agreed to rejoin the Erasmus student exchange programme in 2027.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "The Conservative Party accuses Labour of 'dragging us into the European Union via the back door' and says Britain would have to follow EU rules without a say in making them.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "On Wednesday 18 November Burnham said: 'We will prioritise British jobs for British young people.'",
+      "source_url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people"
+     },
+     {
+      "fact": "Burnham will only sign a deal that is better than the existing Brexit deal and brings visible benefits to ordinary people, he says.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Claimed economic gain from the deals",
+      "value": 0.4,
+      "unit": "% of GDP",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     }
+    ],
+    "geography": "London, United Kingdom; Brussels, Belgium (EU summit). Countries: United Kingdom, Belgium.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Institute for Government",
+      "title": "The UK-EU summit will be a test of the political salience of Brexit",
+      "url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham",
+      "published": "2026-11-12",
+      "primary": false
+     },
+     {
+      "outlet": "UPI",
+      "title": "British PM Andy Burnham pushes back on Brexit, argues for closer EU ties",
+      "url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "Reuters via Euronext",
+      "title": "UK PM Burnham ready to confront 'obvious truth' of Brexit's costs",
+      "url": "https://live.euronext.com/en/financial-news/uk-pm-burnham-ready-confront-obvious-truth-brexits-costs",
+      "published": "2026-11-15",
+      "primary": true
+     },
+     {
+      "outlet": "ITV News",
+      "title": "Andy Burnham: We will prioritise British jobs for British young people",
+      "url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-ukraine-loan",
+    "headline": "EU Proposes a New €45 Billion Loan for Ukraine in 2027, Raised by Borrowing Together",
+    "what_happened": "On 18 November European Commission President Ursula von der Leyen proposed an extra €45 billion loan for Ukraine, paid out through 2027 and raised by EU joint borrowing. €20 billion would be financial aid and €25 billion would buy weapons. Leaders will first debate it in Brussels next week, but Slovakia, the Czech Republic, Hungary and Bulgaria say they will not take part.",
+    "why_it_matters": "Ukraine faces a €70 billion gap in its 2027 budget because Russia's attacks have hurt its economy; the loan is meant to cover two-thirds of it.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The European Commission proposed an additional €45 billion support loan for Ukraine, backed by joint debt; von der Leyen unveiled it on Wednesday 18 November 2026.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "€20 billion would go to financial aid and €25 billion to weapons purchases, paid out gradually through 2027.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The new loan adds to a €90 billion loan that EU leaders agreed last December, which is still being paid out.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "AAA-rated allies may add €5 billion to the loan.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The EU will borrow the money on the markets; Ukraine is not expected to repay out of its own pocket. Repayment depends on Kyiv receiving war reparations from Moscow; if Moscow refuses, Brussels keeps the right to use Russia's immobilised assets, worth €210 billion.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Ukraine faces a €70 billion shortfall in its 2027 budget. The loan is meant to cover two-thirds of it; the rest is expected from allies including the UK, Norway, Canada and Japan.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Russia's attacks have disrupted business, hurt trade and caused widespread blackouts, reducing Kyiv's income and making it more dependent on foreign aid.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Slovakia, the Czech Republic, Hungary and Bulgaria have said they will not take part.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "German Chancellor Friedrich Merz threatened to block the next EU budget if the 27 members do not agree fresh Ukraine aid; Slovak Prime Minister Robert Fico called this 'blackmail'.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Von der Leyen said she was 'very confident' all 27 member states would back the proposal, and said: 'We are sending a clear message to Russia: We want peace.'",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Because interest rates have risen this year, the EU will have to pay billions in interest each year to keep up the support.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "Leaders will hold their first debate on the proposal next week in Brussels.",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "fact": "The Commission estimates that disruption linked to the Strait of Hormuz has added €127 billion to the EU's energy import bill since the start of the US-Israeli war against Iran.",
+      "source_url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "New EU loan for Ukraine",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Of which for weapons",
+      "value": 25,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Of which financial aid",
+      "value": 20,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Ukraine's 2027 budget gap",
+      "value": 70,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     },
+     {
+      "label": "Earlier EU loan agreed last December",
+      "value": 90,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     }
+    ],
+    "geography": "Brussels, Belgium (EU); Ukraine; Russia. Holdouts: Slovakia, Czech Republic, Hungary, Bulgaria.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Von der Leyen proposes €45bn loan to Ukraine backed by joint debt",
+      "url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "Euronews",
+      "title": "Europe Tonight: EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+      "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ],
+    "enrichment": {
+     "headline": "EU Proposes a New €45 Billion Loan for Ukraine in 2027, Raised by Borrowing Together",
+     "kind": "context",
+     "status": "no_new_details",
+     "fetched_urls": [
+      "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+     ],
+     "details": []
+    }
+   },
+   {
+    "id": "eu-autumn-forecast",
+    "headline": "EU Forecast: The Economy Keeps Growing, but Prices Rise Faster, With Euro Area Inflation Expected to Peak Above 4%",
+    "what_happened": "On 17 November the European Commission published its autumn forecast. It expects the euro area economy to grow 1.2% in 2026 and 2027, better than it thought in May, but inflation to average 3.2% this year and 3.1% next year, peaking above 4% around the turn of the year before easing.",
+    "why_it_matters": "Higher inflation means families' money buys less; food prices are set to rise faster because of energy, fertiliser costs and extreme summer weather.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The Commission's autumn forecast puts euro area growth at 1.2% in 2026 and 2027 and 1.3% in 2028; for the whole EU, 1.4% in 2026 and 2027 and 1.5% in 2028.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Euro area inflation is forecast at 3.2% in 2026 and 3.1% in 2027, easing to 2.1% in 2028; EU inflation at 3.3%, 3.2% and 2.3%.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Euro area inflation reached 4% in October and is expected to peak above 4% between late 2026 and early 2027, then ease gradually.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "The EU economy held up better than expected in the first three quarters of 2026, thanks to steady consumer spending and a sharp rebound in goods exports.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Energy inflation is projected to ease next year, but food inflation is set to speed up because of higher energy and fertiliser costs and crop damage from extreme summer weather.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Employment is projected to grow by 800,000 jobs in 2026, and unemployment to stay close to 6%, its record low.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "Wages are projected to rise slightly faster than prices.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "fact": "The Commission warns of 'stronger and more persistent inflationary pressures' and 'tighter financing conditions'.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Euro area growth forecast 2026",
+      "value": 1.2,
+      "unit": "%",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "label": "Euro area inflation forecast 2026",
+      "value": 3.2,
+      "unit": "%",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "label": "Euro area inflation in October",
+      "value": 4,
+      "unit": "%",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     },
+     {
+      "label": "New jobs in the EU in 2026",
+      "value": 800000,
+      "unit": "jobs",
+      "source_url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en"
+     }
+    ],
+    "geography": "European Union and the euro area; Brussels, Belgium.",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "European Commission",
+      "title": "Autumn Economic Forecast: continued growth amid higher inflation",
+      "url": "https://commission.europa.eu/news-and-media/news/autumn-economic-forecast-continued-growth-amid-higher-inflation-2026-11-17_en",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "uk-eu-summit",
+    "headline": "Burnham Heads to Brussels on Friday for His First UK-EU Summit, Seeking Deals on Food, Emissions and Young People",
+    "what_happened": "UK Prime Minister Andy Burnham goes to Brussels on Friday 20 November for his first formal summit with the European Union. He wants deals that would cut checks on food trade, link the UK to the EU's emissions trading scheme and set up a youth scheme letting young people live and work abroad. On Monday he said Britain had 'lost more than we have gained' from Brexit; on Wednesday he said Britain would prioritise British jobs for British young people.",
+    "why_it_matters": "It is the biggest attempt yet to ease the barriers Brexit created for trade and travel between the UK and its nearest neighbours, while keeping the UK outside the EU's single market and customs union.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "On 20 November 2026 Andy Burnham travels to Brussels for his first formal summit with the EU.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "Background (Monday 16 November): in a speech at the Lord Mayor's Banquet in the City of London, Burnham said: 'The Brexit we were given has not worked. We have lost more than we have gained.'",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Background: Burnham compared the situation to 'the emperor's new clothes - where no-one is prepared to say the obvious truth', and said a 'needlessly hard' Brexit had created barriers for businesses trading with the EU.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Burnham wants agreements in areas such as food and youth mobility, and intends to keep Labour's commitment not to rejoin the EU customs union or single market and not to restore freedom of movement.",
+      "source_url": "https://live.euronext.com/en/financial-news/uk-pm-burnham-ready-confront-obvious-truth-brexits-costs"
+     },
+     {
+      "fact": "The deals expected include food and energy, and a scheme letting young EU citizens study and work in the UK and young Britons do the same in the EU.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "The UK claims the agreements could bring an economic gain of about $22.5 billion, or about 0.4% of GDP.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "Under the plans, the UK has committed to realign with EU rules on agrifood exports, and is to join the EU's emissions trading scheme.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "Open questions on the youth experience scheme include the UK's proposed annual cap, which the EU objected to, and an EU demand that EU students in the UK pay home (not international) fees.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "The UK agreed to rejoin the Erasmus student exchange programme in 2027.",
+      "source_url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham"
+     },
+     {
+      "fact": "The Conservative Party accuses Labour of 'dragging us into the European Union via the back door' and says Britain would have to follow EU rules without a say in making them.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     },
+     {
+      "fact": "On Wednesday 18 November Burnham said: 'We will prioritise British jobs for British young people.'",
+      "source_url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people"
+     },
+     {
+      "fact": "Burnham will only sign a deal that is better than the existing Brexit deal and brings visible benefits to ordinary people, he says.",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Claimed economic gain from the deals",
+      "value": 0.4,
+      "unit": "% of GDP",
+      "source_url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/"
+     }
+    ],
+    "geography": "London, United Kingdom; Brussels, Belgium (EU summit). Countries: United Kingdom, Belgium.",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Institute for Government",
+      "title": "The UK-EU summit will be a test of the political salience of Brexit",
+      "url": "https://www.instituteforgovernment.org.uk/comment/uk-eu-summit-brexit-burnham",
+      "published": "2026-11-12",
+      "primary": false
+     },
+     {
+      "outlet": "UPI",
+      "title": "British PM Andy Burnham pushes back on Brexit, argues for closer EU ties",
+      "url": "https://www.upi.com/Top_News/World-News/2026/11/16/Burnham-says-Brexit-price-was-too-high/6121794828987/",
+      "published": "2026-11-16",
+      "primary": true
+     },
+     {
+      "outlet": "Reuters via Euronext",
+      "title": "UK PM Burnham ready to confront 'obvious truth' of Brexit's costs",
+      "url": "https://live.euronext.com/en/financial-news/uk-pm-burnham-ready-confront-obvious-truth-brexits-costs",
+      "published": "2026-11-15",
+      "primary": true
+     },
+     {
+      "outlet": "ITV News",
+      "title": "Andy Burnham: We will prioritise British jobs for British young people",
+      "url": "https://www.itv.com/news/2026-11-18/burnham-we-will-prioritise-british-jobs-for-british-young-people",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ }
+}
