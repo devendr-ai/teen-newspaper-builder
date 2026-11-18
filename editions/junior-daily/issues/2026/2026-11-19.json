@@ -1,0 +1,245 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-11-19",
+ "volume": 1,
+ "issue": 34,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  CHINA",
+   "headline": "Three Big Leaders Gather in a Chinese Tech City",
+   "deck": "China’s Xi Jinping met Donald Trump at the airport in Shenzhen, and Russia’s Vladimir Putin is there too.",
+   "body": [
+    "On Wednesday, US President Donald Trump landed in Shenzhen, a tech city in southern China, right next to Hong Kong. He came for APEC, a meeting where 21 economies around the Pacific talk about trade.",
+    "China’s leader, Xi Jinping, greeted Trump right on the airport tarmac. Xi said he was returning a favour: Trump met Xi at the airport when Xi visited America in September.",
+    "Russia’s leader, Vladimir Putin, had arrived earlier. That evening all three went to a welcome dinner, and on Thursday they plan to meet together for the first time ever. They are expected to talk about the wars in Ukraine and Iran, and trade."
+   ],
+   "map": {
+    "title": "WHERE THE LEADERS MET",
+    "label_top": "SHENZHEN, CHINA",
+    "label_bottom": "LEADERS FROM US, CHINA, RUSSIA",
+    "footnote": "Trump flew in from Manila",
+    "caption": "The map marks China, where the APEC meeting is being held in Shenzhen.",
+    "countries": [
+     "China"
+    ]
+   },
+   "why": "The US, China and Russia are three of the most powerful countries in the world, so what their leaders agree, or don’t, can matter everywhere.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Trump arrives in China for historic meeting with Xi, Putin",
+     "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Trump, Xi and Putin gather in China: What happened at APEC",
+     "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Three things to watch as Trump, Xi and Putin meet in China",
+     "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "China's Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+     "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+    },
+    {
+     "outlet": "NPR",
+     "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+    },
+    {
+     "outlet": "NBC News",
+     "title": "Trump attends ASEAN summit ahead of Xi, Putin meeting",
+     "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-summit-asia-trip-asean-live-updates-rcna609690"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  EUROPE",
+   "headline": "Europe Plans a Big New Loan for Ukraine",
+   "deck": "The European Union wants to lend Ukraine €45 billion next year.",
+   "body": [
+    "The European Union, or EU, is a group of 27 countries. On Wednesday its leader, Ursula von der Leyen, proposed lending Ukraine €45 billion in 2027, money the EU would borrow together.",
+    "Russia’s attacks have hurt Ukraine’s businesses and caused blackouts, so its 2027 budget is short by €70 billion. The loan would cover two-thirds of that gap.",
+    "Not everyone agrees: Slovakia, the Czech Republic, Hungary and Bulgaria say they will not take part."
+   ],
+   "chart": {
+    "title": "HOW THE €45 BILLION SPLITS",
+    "subtitle": "Billions of euros, proposed for 2027",
+    "labels": [
+     "Running costs",
+     "Weapons"
+    ],
+    "values": [
+     20,
+     25
+    ],
+    "max": 30,
+    "value_prefix": "€",
+    "highlight_after": 1,
+    "caption": "A plan from the EU’s leaders, not yet agreed by the member countries."
+   },
+   "why": "Help from neighbours keeps Ukraine’s lights and services running.",
+   "sources": [
+    {
+     "outlet": "Euronews",
+     "title": "Von der Leyen proposes €45bn loan to Ukraine backed by joint debt",
+     "url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "India: Cyclone Akvan grew stronger over the Bay of Bengal and should reach the Andhra Pradesh coast around noon on Friday.",
+    "Space: Astronomers spotted a star exploding in a galaxy 50 million light-years away, while it was still getting brighter."
+   ],
+   "sources": [
+    {
+     "outlet": "The Federal",
+     "title": "Andhra, Odisha brace as Akvan turns 'severe', may not become 'very severe'",
+     "url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "A newfound supernova explodes 50 million light-years away",
+     "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Thursday: Trump, Xi and Putin meet together in Shenzhen for the first time.",
+    "Friday: Cyclone Akvan is expected to cross India’s east coast around noon."
+   ],
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Three things to watch as Trump, Xi and Putin meet in China",
+     "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+    },
+    {
+     "outlet": "The Federal",
+     "title": "Andhra, Odisha brace as Akvan turns 'severe', may not become 'very severe'",
+     "url": "https://thefederal.com/category/states/south/andhra-pradesh/andhra-odisha-brace-as-akvan-turns-severe-may-not-become-very-severe-263268"
+    }
+   ]
+  }
+ },
+ "sources": [],
+ "play": {
+  "quiz": [
+   {
+    "q": "Who greeted Donald Trump at the airport in Shenzhen?",
+    "options": [
+     "Vladimir Putin",
+     "Xi Jinping",
+     "Cai Qi"
+    ],
+    "answer": 1,
+    "why": "China’s leader Xi Jinping met Trump on the airport tarmac.",
+    "story": "lead"
+   },
+   {
+    "q": "Which city is Shenzhen right next to?",
+    "options": [
+     "Hong Kong",
+     "Manila",
+     "Brussels"
+    ],
+    "answer": 0,
+    "why": "The paper says Shenzhen sits right next to Hong Kong.",
+    "story": "lead"
+   },
+   {
+    "q": "How much does the EU want to lend Ukraine for 2027?",
+    "options": [
+     "€20 billion",
+     "€70 billion",
+     "€45 billion"
+    ],
+    "answer": 2,
+    "why": "The plan is a €45 billion loan for 2027.",
+    "story": "world"
+   },
+   {
+    "q": "Where did Trump fly in from?",
+    "options": [
+     "Manila",
+     "Moscow",
+     "Beijing"
+    ],
+    "answer": 0,
+    "why": "Trump flew to Shenzhen from Manila, in the Philippines.",
+    "story": "lead"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Putin raised a glass of red wine when Xi gave a toast.",
+    "true": true,
+    "why": "At the welcome dinner Putin raised a glass of red wine for Xi’s toast.",
+    "story": "lead"
+   },
+   {
+    "claim": "All 27 EU countries say they will take part in the loan.",
+    "true": false,
+    "why": "Four countries, including Hungary, say they will not take part.",
+    "story": "world"
+   },
+   {
+    "claim": "APEC brings together 12 economies.",
+    "true": false,
+    "why": "APEC has 21 member economies.",
+    "story": "lead"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "China",
+     "United States",
+     "Russia"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Brussels",
+    "lat": 50.85,
+    "lon": 4.35,
+    "countries": [
+     "Ukraine",
+     "Belgium"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "lead",
+    "q": "How many member economies does APEC have?",
+    "answer": 21,
+    "prefix": "",
+    "unit": "economies",
+    "min": 5,
+    "max": 50,
+    "why": "APEC is a forum of 21 economies around the Pacific."
+   },
+   {
+    "story": "world",
+    "q": "How many billions of euros is Ukraine’s 2027 budget short?",
+    "answer": 70,
+    "prefix": "€",
+    "unit": "billion",
+    "min": 10,
+    "max": 150,
+    "why": "Ukraine’s 2027 budget has a €70 billion gap."
+   }
+  ]
+ }
+}
