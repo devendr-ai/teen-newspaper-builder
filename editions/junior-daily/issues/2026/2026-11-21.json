@@ -1,0 +1,225 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-21",
+  "volume": 1,
+  "issue": 35,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  THE NETHERLANDS",
+      "headline": "A Small African Country Wins a Big Case for the Rohingya",
+      "deck": "Judges in The Hague said Myanmar committed genocide, in a case brought by The Gambia.",
+      "body": [
+        "Three places far apart on the map met in one courtroom this week. The court sits in The Hague, in the Netherlands. The case was about Myanmar, in Asia. It was brought by The Gambia, a small country in West Africa.",
+        "On 19 November, judges at the International Court of Justice, the UN’s top court, ruled that Myanmar committed genocide against the Rohingya. Genocide is the crime of trying to destroy a whole group of people. The Rohingya are a Muslim minority from Myanmar’s Rakhine state. In 2017, after an army crackdown there, about 700,000 fled to Bangladesh.",
+        "Myanmar has said its army was answering attacks by armed fighters. But nine of the 15 judges agreed it was genocide. Myanmar must let the Rohingya return home safely and report back within two years. About 1.2 million Rohingya still live in camps in Cox’s Bazar, Bangladesh."
+      ],
+      "map": {
+        "title": "FAR APART, ONE CASE",
+        "label_top": "THE GAMBIA BROUGHT THE CASE",
+        "label_bottom": "ROHINGYA FROM MYANMAR",
+        "footnote": "The court sits in The Hague",
+        "caption": "The Gambia in West Africa, the court in the Netherlands, and Myanmar and Bangladesh in Asia.",
+        "countries": [
+          "Gambia",
+          "Netherlands",
+          "Myanmar",
+          "Bangladesh"
+        ]
+      },
+      "why": "The ruling shows that even a small country can ask the world’s top court to stand up for people living far away.",
+      "sources": [
+        {
+          "outlet": "UN News",
+          "title": "World's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://news.un.org/en/story/2026/11/1168836"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  TURKEY",
+      "headline": "Climate Talks in Antalya Run Past Their Last Day",
+      "deck": "Nearly 200 countries are stuck on a short draft deal that never names coal, oil or gas.",
+      "body": [
+        "Antalya is a city on Turkey’s Mediterranean coast. Since 9 November, nearly 200 countries have met there for COP31, the UN’s yearly climate summit. It was due to end Friday, but talks went on.",
+        "The argument is over a draft, or early version, of the deal. It shrank from 18 pages to 9, and never mentions fossil fuels: coal, oil and gas. Burning them is the main cause of global warming. Panama said it would formally object, and every country must agree to a UN climate deal."
+      ],
+      "chart": {
+        "title": "THE DRAFT DEAL SHRANK",
+        "subtitle": "Pages in the COP31 draft deal, by day",
+        "labels": [
+          "Monday",
+          "Thursday"
+        ],
+        "values": [
+          18,
+          9
+        ],
+        "max": 20,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "The newer draft is half as long, and it no longer names fossil fuels."
+      },
+      "why": "Whether the deal names coal, oil and gas shows how hard countries will try to slow global warming.",
+      "sources": [
+        {
+          "outlet": "UN News",
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "url": "https://news.un.org/en/story/2026/11/1168845"
+        },
+        {
+          "outlet": "RTE",
+          "title": "COP31 draft climate deal removes mention of fossil fuels",
+          "url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+        },
+        {
+          "outlet": "ThePrint (Reuters)",
+          "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
+          "url": "https://theprint.in/world/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/3104222/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "United States: House Democrats picked Hakeem Jeffries of New York to be speaker, the House’s leader.",
+        "Space: NASA’s Voyager 1 is now one light-day from Earth, so a radio message takes a whole day to reach it."
+      ],
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Jeffries wins Democratic nomination for House speaker, paving way for historic election",
+          "url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+        },
+        {
+          "outlet": "NASA",
+          "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Turkey: will the COP31 countries agree on a final climate deal?",
+        "Space: will Voyager 1 start sending science data again?"
+      ]
+    }
+  },
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "In which country is the city of The Hague, home of the World Court?",
+        "options": [
+          "The Netherlands",
+          "The Gambia",
+          "Bangladesh"
+        ],
+        "answer": 0,
+        "why": "The court that ruled on Myanmar is in The Hague, a city in the Netherlands.",
+        "story": "lead"
+      },
+      {
+        "q": "Which country brought the case against Myanmar?",
+        "options": [
+          "Turkey",
+          "The Gambia",
+          "Panama"
+        ],
+        "answer": 1,
+        "why": "The Gambia, a small country in West Africa, started the case in November 2019.",
+        "story": "lead"
+      },
+      {
+        "q": "Where do about 1.2 million Rohingya live today?",
+        "options": [
+          "In Antalya, Turkey",
+          "In The Hague",
+          "In camps in Cox’s Bazar, Bangladesh"
+        ],
+        "answer": 2,
+        "why": "About 1.2 million Rohingya live in refugee camps in Cox’s Bazar, Bangladesh.",
+        "story": "lead"
+      },
+      {
+        "q": "What does the newest COP31 draft deal leave out?",
+        "options": [
+          "Any mention of fossil fuels",
+          "The name of the summit",
+          "Any mention of global warming"
+        ],
+        "answer": 0,
+        "why": "The 9-page draft never mentions coal, oil or gas.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Nine of the 15 judges agreed that Myanmar committed genocide.",
+        "true": true,
+        "why": "The judges decided 9 votes to 6.",
+        "story": "lead"
+      },
+      {
+        "claim": "Myanmar must report back to the court within ten years.",
+        "true": false,
+        "why": "Myanmar must report back within two years, not ten.",
+        "story": "lead"
+      },
+      {
+        "claim": "The COP31 climate talks are being held in Antalya, Turkey.",
+        "true": true,
+        "why": "Antalya is a city on Turkey’s Mediterranean coast, where COP31 is taking place.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "The Hague",
+        "lat": 52.08,
+        "lon": 4.31,
+        "countries": [
+          "Netherlands",
+          "Myanmar",
+          "Gambia",
+          "Bangladesh"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Antalya",
+        "lat": 36.9,
+        "lon": 30.7,
+        "countries": [
+          "Turkey"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many Rohingya fled from Myanmar to Bangladesh in 2017?",
+        "answer": 700000,
+        "prefix": "",
+        "unit": "people",
+        "min": 50000,
+        "max": 2000000,
+        "why": "About 700,000 Rohingya fled across the border to Bangladesh."
+      },
+      {
+        "story": "world",
+        "q": "How many pages long was Thursday’s COP31 draft deal?",
+        "answer": 9,
+        "prefix": "",
+        "unit": "pages",
+        "min": 1,
+        "max": 40,
+        "why": "The draft was cut from 18 pages to just 9 pages."
+      }
+    ]
+  }
+}
