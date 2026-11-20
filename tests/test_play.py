@@ -372,7 +372,7 @@ def test_new_games_get_their_data_and_numbers_are_checked(built):
     checks.check_numbers(issue, issue["play"]["numbers"], stories, r)
     assert not r.errors
     bad = json.loads(json.dumps(issue["play"]["numbers"]))
-    bad[0]["answer"] = 9999                                   # not in the story, and outside the slider
+    bad[0]["answer"] = 123456.7                               # in no story (9999 matched a "10,000"), outside the slider
     bad[1]["min"], bad[1]["max"] = bad[1]["answer"] - 0.01, bad[1]["answer"] * 100
     r = checks.Report()
     checks.check_numbers(issue, bad, stories, r)
