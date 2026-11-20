@@ -27,8 +27,8 @@ voice: "Clear, engaging and intelligent. Use analogies a middle-schooler knows. 
 lens: "How it reaches the UK and Europe: European governments, prices and people."
 
 cadence:
-  every_days: 2
-  window_hours: 48
+  every_days: 7
+  window_hours: 168
   timezone: Europe/London
 
 style:
@@ -67,7 +67,7 @@ blocks:
   sports: {type: sports}
   watchlist: {type: watchlist, count: 2, title: "WHAT TO WATCH NEXT"}
   quote: {type: quote}
-  sign_off: {type: sign_off, text: "You are not just reading the news — you are learning to think about it. See you in two days."}
+  sign_off: {type: sign_off, text: "You are not just reading the news — you are learning to think about it. See you next week."}
 
 pages:
   - masthead: true
@@ -89,6 +89,7 @@ rules:
 # Website and automatic publishing
 automation:
   enabled: true
+  weekday: friday
 site:
   focus: "World affairs"
-  blurb: "The UK, Europe and the world for ages 12–14, every two days."
+  blurb: "The UK, Europe and the world for ages 12–14, every week."

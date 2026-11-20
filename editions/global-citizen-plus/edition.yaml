@@ -26,8 +26,8 @@ voice: "Clear, engaging and intelligent. Use analogies a middle-schooler knows. 
 lens: "Links to school subjects: the history, geography and science behind the story."
 
 cadence:
-  every_days: 2
-  window_hours: 48
+  every_days: 7
+  window_hours: 168
   timezone: America/Los_Angeles
 
 style:
@@ -77,7 +77,7 @@ blocks:
   quiz: {type: feature, label: "QUIZ", brief: "5 multiple-choice questions on this issue, with the answers at the end.", sources: false}
   discussion: {type: feature, label: "DISCUSS", brief: "Three open questions about this issue for discussion at home or in class. Questions only, never answers.", sources: false}
   quote: {type: quote}
-  sign_off: {type: sign_off, text: "You are not just reading the news — you are learning to think about it. See you in two days."}
+  sign_off: {type: sign_off, text: "You are not just reading the news — you are learning to think about it. See you next week."}
 
 pages:
   - masthead: true
@@ -107,6 +107,7 @@ rules:
 # Website and automatic publishing
 automation:
   enabled: true
+  weekday: wednesday
 site:
   focus: "World affairs"
   blurb: "Four pages on the world, India and the US, with science, economics, a quiz and an explainer."
