@@ -1,3 +1,11 @@
+## Lighter nightly runs
+
+- The publish-today skill has a token budget: about 4–6 searches per desk plus 1–2 follow-ups per
+  big story (one shared pool, never per paper), short briefs for helper agents instead of the whole
+  skill, one `ygc check` fix pass at a time, and one rewrite before swapping a story or skipping.
+- Current Affairs Digest (Sundays), Global Citizen Plus (Wednesdays) and Europe Explained (Fridays)
+  are now weekly; their sign-offs, watchlist and blurbs say so.
+
 ## Public website app showcase
 
 - `app.html` introduces screen-locked listening, seven days of offline papers and

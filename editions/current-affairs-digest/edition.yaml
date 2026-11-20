@@ -7,7 +7,7 @@ name: "The Current Affairs Digest"
 
 masthead:
   title: "THE CURRENT AFFAIRS DIGEST"
-  subtitle: DAILY
+  subtitle: WEEKLY
   tagline: "The news you need to know, and remember."
   location: "New Delhi, India"
 
@@ -27,8 +27,8 @@ voice: "Direct and analytical. Show the evidence, name the trade-offs and presen
 lens: "The full picture, kept broad: what happened, the key names, numbers and dates, and how the systems behind it work."
 
 cadence:
-  every_days: 1
-  window_hours: 24
+  every_days: 7
+  window_hours: 168
   timezone: Asia/Kolkata
 
 style:
@@ -76,8 +76,8 @@ blocks:
   did_you_know: {type: did_you_know}
   explainer: {type: feature, label: "EXPLAINER", brief: "Background behind one of this issue's stories, from well-established facts.", sources: false}
   quiz: {type: feature, label: "QUIZ", brief: "8 multiple-choice questions on this issue, with the answers at the end.", sources: false}
-  watchlist: {type: watchlist, count: 3, title: "TOMORROW'S WATCHLIST"}
-  sign_off: {type: sign_off, text: "You are not just reading the news — you are learning to think about it. See you tomorrow."}
+  watchlist: {type: watchlist, count: 3, title: "NEXT WEEK'S WATCHLIST"}
+  sign_off: {type: sign_off, text: "You are not just reading the news — you are learning to think about it. See you next week."}
 
 pages:
   - masthead: true
@@ -107,6 +107,7 @@ rules:
 # Website and automatic publishing
 automation:
   enabled: true
+  weekday: sunday
 site:
   focus: "Exam preparation"
-  blurb: "Daily current affairs for Indian exam preparation: precise facts, key terms and an 8-question quiz."
+  blurb: "Weekly current affairs for Indian exam preparation: precise facts, key terms and an 8-question quiz."

@@ -15,6 +15,22 @@ The date is the **India date** (the Routine runs at about 02:00 IST). Every
 command below runs with `YGC_TZ=Asia/Kolkata`, which overrides the timezone
 in each paper's prompt ("take today's date from the device clock in ...").
 
+## Work within a token budget
+
+The run pays for every token it reads and writes, every night. Keep it lean:
+- **Searches:** about 4–6 per desk, plus at most 1–2 follow-ups for each story that will lead or
+  fill a column. Never search per paper: every paper writes from the one shared pool. Stop when a
+  desk has enough stories for today's slots.
+- **Helpers:** if you hand papers to helper agents, give each a short brief (the paper id and
+  issue file, the pool path, its plan entry, the do-not-repeat lists from `ygc due --json`, and
+  the commands to run) plus `editions/<id>/PROMPT.md`. Don't paste this whole skill or the whole
+  pool into each brief. Use at most one helper per paper and none for the poster.
+- **Reruns:** run `ygc check` once per draft, fix everything it reports in one pass, then check
+  again. Don't re-read files you have already read in this run.
+- **Rewrites:** if a column is still short, or a story still overlaps another paper, after **one**
+  rewrite, swap in a different, better-covered pool story for that slot instead of rewriting a
+  third time. If the paper still fails after that, skip it and report why.
+
 ## 0. Set up
 
 ```bash
@@ -35,7 +51,7 @@ say so and publish nothing.**
 ## 1. Research, once per desk
 
 For each desk in `research_desks` (`ygc due --json`), search the web
-(WebSearch, several queries per desk) for the most important stories in its
+(WebSearch, about 4–6 queries per desk: see the budget above) for the most important stories in its
 window (`hours` up to today), covering its `scopes`. Then save everything to
 `data/pools/$D.json` in this shape (the same file the API pipeline writes):
 
@@ -71,8 +87,8 @@ Rules for the pool (these are what make the papers trustworthy):
   npr.org, france24.com, theguardian.com; India: thehindu.com, indianexpress.com,
   hindustantimes.com, ndtv.com, livemint.com; science: sciencenews.org, nasa.gov, space.com,
   newscientist.com; sport: espn.com, espncricinfo.com, bbc.com/sport. Then search again for each
-  story you pick (official statements, numbers, what happens next). A full day takes dozens of
-  searches and that's expected. **Thin first results are never a reason to publish nothing.**
+  story you pick (official statements, numbers, what happens next), within the budget above.
+  **Thin first results are never a reason to publish nothing.**
 - **Gather enough for the space, as a target, not a gate.** In the 4-page papers a story fills a
   whole column (about 350–450 words), so aim for 8–10 `key_facts` for the stories that will lead or
   fill a column: what happened, who said what, numbers, how it works, what comes next. Briefs and
