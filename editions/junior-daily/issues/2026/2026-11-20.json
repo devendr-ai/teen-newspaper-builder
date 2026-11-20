@@ -1,0 +1,261 @@
+{
+ "edition": "junior-daily",
+ "date": "2026-11-20",
+ "volume": 1,
+ "issue": 34,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  CHINA",
+   "headline": "Three Big Leaders Share One Table in Shenzhen",
+   "deck": "The presidents of the US, China and Russia met together for the first time. Ukraine was not in the room.",
+   "body": [
+    "On Thursday, three of the world’s most powerful leaders sat at one table in Shenzhen, a city in southern China next to Hong Kong. They were Donald Trump of the United States, Xi Jinping of China and Vladimir Putin of Russia. It was the first time the three had ever met together.",
+    "Their talk lasted about an hour and a half. Afterwards, they shared a joint statement, a short message all three agreed on. They promised to pump more oil and gas, and said nobody can win a nuclear war.",
+    "The statement did not mention Ukraine, where Russia’s invasion began a war more than four years ago. Ukraine’s leaders were not in the room. Its president, Volodymyr Zelensky, had called it a “huge mistake” for big countries to decide things without smaller ones. Putin said he would not talk with Ukraine for now."
+   ],
+   "map": {
+    "title": "WHERE THEY MET",
+    "label_top": "SHENZHEN, CHINA",
+    "label_bottom": "LEADERS OF US, CHINA, RUSSIA",
+    "footnote": "Ukraine was not in the room",
+    "caption": "The map shows China. Shenzhen is on its southern coast, next to Hong Kong.",
+    "countries": [
+     "China"
+    ]
+   },
+   "why": "When the leaders of three giant countries agree on something, it can change the whole world, but this meeting brought no breakthrough on the war in Ukraine.",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Putin scores 'massive win' at first trilateral meeting, rebuilding standing as Ukraine war grinds on",
+     "url": "https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html"
+    },
+    {
+     "outlet": "Fox News",
+     "title": "Trump gives Putin-Xi summit '12 out of 10,' touts AI talks, says Putin wants Ukraine deal",
+     "url": "https://www.foxnews.com/live-news/trump-to-meet-xi-in-shenzhen-ahead-of-high-stakes-trilateral-talks-with-putin"
+    },
+    {
+     "outlet": "ANI",
+     "title": "Zelenskyy sidesteps questions on warm Trump-Putin Shenzhen meet amid \"Coalition of the Willing\" talks",
+     "url": "https://aninews.in/news/world/europe/zelenskyy-sidesteps-questions-on-warm-trump-putin-shenzhen-meet-amid-coalition-of-the-willing-talks20261120075539/"
+    },
+    {
+     "outlet": "Arab News Pakistan",
+     "title": "Putin and Trump shake hands in Shenzhen in their first meeting since 2025",
+     "url": "https://www.arabnews.pk/world/putin-and-trump-meet-in-shenzhen-their-first-talks-since-alaska-summit-3007361"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  INDIA",
+   "headline": "Akvan Reaches Land Near Gopalpur, Weaker Than Feared",
+   "deck": "The cyclone came ashore in Odisha on Friday, after families had moved to shelters.",
+   "body": [
+    "On Friday morning, Cyclone Akvan crossed the coast of Odisha near Gopalpur. It came ashore farther north than forecast, and weaker. Over land, a cyclone loses the warm, wet sea air that feeds it, so it fades.",
+    "Odisha had moved about 3.72 lakh people, or 372,000, to nearly 10,000 shelters. Officials reported no deaths or major damage so far. In one day, Gopalpur got 180.4 mm of rain, and Ganjam district averaged 114.06 mm."
+   ],
+   "chart": {
+    "title": "RAIN IN ONE DAY",
+    "subtitle": "Millimetres, 24 hours to Friday 8.30 am",
+    "labels": [
+     "Gopalpur",
+     "Ganjam average"
+    ],
+    "values": [
+     180.4,
+     114.06
+    ],
+    "max": 200,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "Rain at Gopalpur’s weather station and the average across Ganjam district."
+   },
+   "why": "Early warnings gave families time to reach shelters before the storm arrived.",
+   "sources": [
+    {
+     "outlet": "ETV Bharat",
+     "title": "Cyclone Akvan Makes Landfall Near Gopalpur, 3.72 Lakh People Evacuated In Odisha",
+     "url": "https://www.etvbharat.com/en/bharat/cyclone-akvan-makes-landfall-near-gopalpur-over-3-lakh-people-evacuated-in-odisha-enn26112002910"
+    },
+    {
+     "outlet": "The Week",
+     "title": "Cyclone Akvan landfall begins along Andhra-Odisha coast: IMD issues red alert",
+     "url": "https://www.theweek.in/news/india/2026/11/20/cyclone-akvan-landfall-begins-along-andhra-odisha-coast-imd-issues-red-alert.html"
+    },
+    {
+     "outlet": "The Watchers",
+     "title": "Cyclone Akvan weakens after landfall near Gopalpur; more than 300 000 evacuated in Odisha, India",
+     "url": "https://watchers.news/2026/11/20/cyclone-akvan-landfall-gopalpur-november-20-2026-deep-depression/"
+    },
+    {
+     "outlet": "The Statesman",
+     "title": "Cyclone Akvan hits Odisha coast with 90 kmph gusts; 3.72 lakh evacuated as heavy rain and flood threat persist",
+     "url": "https://www.thestatesman.com/india/cyclone-akvan-hits-odisha-coast-with-90-kmph-gusts-3-72-lakh-evacuated-as-heavy-rain-and-flood-threat-persist-1503664745.html"
+    },
+    {
+     "outlet": "Oneindia",
+     "title": "Cyclone Akvan Weakens After Odisha Landfall, 45 Trains Cancelled; Heavy Rain Alert Remains",
+     "url": "https://www.oneindia.com/india/cyclone-akvan-weakens-after-odisha-landfall-45-trains-cancelled-heavy-rain-alert-remains-8265193.html"
+    },
+    {
+     "outlet": "Environment and Climate Change Canada",
+     "title": "When tropical cyclones die",
+     "url": "https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/learn/when-tropical-cyclones-die.html"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "United States: A storm called an atmospheric river, a long stream of wet air in the sky, flooded streets in California.",
+    "Space: Astronomers watched a giant star in the Andromeda galaxy swallow a smaller star that circled it."
+   ],
+   "sources": [
+    {
+     "outlet": "CNN via KRDO",
+     "title": "California braces for its most widespread storm of the season",
+     "url": "https://krdo.com/cnn-weather-environment/2026/11/18/an-atmospheric-river-fueled-storm-will-douse-california-with-flooding-rain-heavy-snow/"
+    },
+    {
+     "outlet": "NBC News (AP)",
+     "title": "Soaking storms shift north to Florida's Space Coast and prompt water rescues",
+     "url": "https://www.nbcnews.com/weather/floods/soaking-storms-shift-north-florida-space-coast-california-rcna610368"
+    },
+    {
+     "outlet": "Space.com",
+     "title": "Astronomers witness a star eating its companion in 1st-of-its-kind observation",
+     "url": "https://www.space.com/astronomy/stars/astronomers-witness-a-star-eating-its-companion-in-1st-of-its-kind-observation"
+    },
+    {
+     "outlet": "Science News",
+     "title": "Two stars in the Andromeda galaxy merged before astronomers' eyes",
+     "url": "https://www.sciencenews.org/article/stars-andromeda-galaxy-merge-little-bao?st=pages+login"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Odisha: heavy rain is expected for another day.",
+    "December: Putin may go to the G20 meeting in Miami, USA."
+   ]
+  }
+ },
+ "sources": [],
+ "play": {
+  "quiz": [
+   {
+    "q": "In which country is the city of Shenzhen?",
+    "options": [
+     "Russia",
+     "China",
+     "Japan"
+    ],
+    "answer": 1,
+    "why": "Shenzhen is a city in southern China, next to Hong Kong.",
+    "story": "lead"
+   },
+   {
+    "q": "Which country was NOT in the room at the Shenzhen meeting?",
+    "options": [
+     "Ukraine",
+     "Russia",
+     "United States"
+    ],
+    "answer": 0,
+    "why": "Ukraine’s leaders were not in the room, and the statement did not mention Ukraine.",
+    "story": "lead"
+   },
+   {
+    "q": "Near which town did Cyclone Akvan cross the coast?",
+    "options": [
+     "Puri",
+     "Nellore",
+     "Gopalpur"
+    ],
+    "answer": 2,
+    "why": "Akvan crossed the south Odisha coast near Gopalpur.",
+    "story": "world"
+   },
+   {
+    "q": "Why does a cyclone get weaker over land?",
+    "options": [
+     "It loses the warm, wet sea air that feeds it",
+     "It runs into mountains and stops",
+     "Land is colder than space"
+    ],
+    "answer": 0,
+    "why": "Over land, a cyclone loses the warm, wet sea air that feeds it, so it fades.",
+    "story": "world"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Trump, Xi and Putin talked together for about an hour and a half.",
+    "true": true,
+    "why": "The three-way talk lasted about an hour and a half.",
+    "story": "lead"
+   },
+   {
+    "claim": "The leaders promised to pump less oil and gas.",
+    "true": false,
+    "why": "They promised to pump more oil and gas, not less.",
+    "story": "lead"
+   },
+   {
+    "claim": "Cyclone Akvan arrived farther north than first expected.",
+    "true": true,
+    "why": "It changed course and crossed the coast in Odisha, farther north than forecast.",
+    "story": "world"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "China",
+     "United States",
+     "Russia"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Gopalpur",
+    "lat": 19.26,
+    "lon": 84.91,
+    "countries": [
+     "India"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How many shelters did Odisha use for people escaping the cyclone?",
+    "answer": 10000,
+    "prefix": "",
+    "unit": "shelters",
+    "min": 500,
+    "max": 30000,
+    "why": "Odisha moved about 3.72 lakh people to nearly 10,000 shelters."
+   },
+   {
+    "story": "world",
+    "q": "How many millimetres of rain fell at Gopalpur in one day?",
+    "answer": 180.4,
+    "prefix": "",
+    "unit": "mm",
+    "min": 20,
+    "max": 400,
+    "why": "Gopalpur got 180.4 mm of rain in one day as the cyclone arrived."
+   }
+  ]
+ }
+}
