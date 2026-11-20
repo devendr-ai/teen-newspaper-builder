@@ -1,0 +1,543 @@
+{
+ "edition": "breakfast-table",
+ "date": "2026-11-20",
+ "volume": 1,
+ "issue": 30,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  INDIA",
+   "headline": "Odisha Families Shelter From Cyclone Akvan",
+   "deck": "The storm reached land on Friday morning, weaker than feared.",
+   "body": [
+    "This week, about 3.72 lakh people in Odisha left home for a while because a big storm was coming. A lakh is 100,000. Officials moved them to nearly 10,000 shelters, safe places to stay until the danger passed.",
+    "The storm, Cyclone Akvan, crossed the coast near Gopalpur on Friday morning, with gusts up to 90 km an hour. It was weaker than first forecast. A cyclone is a giant spinning storm that feeds on warm, wet air from the sea; over land, that fuel is cut off.",
+    "Among those moved to safety were 4,470 women expecting babies. Since then, 1,450 have given birth, and the mothers and newborns are safe. Odisha’s top official said there were no reports of people hurt or of major damage so far. Still, dozens of trains were cancelled, and more heavy rain is expected."
+   ],
+   "map": {
+    "title": "WHERE AKVAN CAME ASHORE",
+    "label_top": "BAY OF BENGAL",
+    "label_bottom": "LANDFALL NEAR GOPALPUR, ODISHA",
+    "footnote": "Rain alerts also cover north Andhra Pradesh",
+    "caption": "Akvan crossed the Odisha coast near Gopalpur on Friday morning.",
+    "countries": [
+     "India"
+    ],
+    "place": "Bay of Bengal"
+   },
+   "why": "Warnings that come early give families time to move, and Odisha moved people before the storm arrived; officials have had no reports of anyone hurt so far.",
+   "sources": [
+    {
+     "outlet": "ETV Bharat",
+     "title": "Cyclone Akvan Makes Landfall Near Gopalpur, 3.72 Lakh People Evacuated In Odisha",
+     "url": "https://www.etvbharat.com/en/bharat/cyclone-akvan-makes-landfall-near-gopalpur-over-3-lakh-people-evacuated-in-odisha-enn26112002910"
+    },
+    {
+     "outlet": "The Week",
+     "title": "Cyclone Akvan landfall begins along Andhra-Odisha coast: IMD issues red alert",
+     "url": "https://www.theweek.in/news/india/2026/11/20/cyclone-akvan-landfall-begins-along-andhra-odisha-coast-imd-issues-red-alert.html"
+    },
+    {
+     "outlet": "The Watchers",
+     "title": "Cyclone Akvan weakens after landfall near Gopalpur; more than 300 000 evacuated in Odisha, India",
+     "url": "https://watchers.news/2026/11/20/cyclone-akvan-landfall-gopalpur-november-20-2026-deep-depression/"
+    },
+    {
+     "outlet": "The Statesman",
+     "title": "Cyclone Akvan hits Odisha coast with 90 kmph gusts; 3.72 lakh evacuated as heavy rain and flood threat persist",
+     "url": "https://www.thestatesman.com/india/cyclone-akvan-hits-odisha-coast-with-90-kmph-gusts-3-72-lakh-evacuated-as-heavy-rain-and-flood-threat-persist-1503664745.html"
+    },
+    {
+     "outlet": "Oneindia",
+     "title": "Cyclone Akvan Weakens After Odisha Landfall, 45 Trains Cancelled; Heavy Rain Alert Remains",
+     "url": "https://www.oneindia.com/india/cyclone-akvan-weakens-after-odisha-landfall-45-trains-cancelled-heavy-rain-alert-remains-8265193.html"
+    },
+    {
+     "outlet": "Environment and Climate Change Canada",
+     "title": "When tropical cyclones die",
+     "url": "https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/learn/when-tropical-cyclones-die.html"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  CHINA",
+   "headline": "Three Big Leaders Meet, but Ukraine Has No Seat",
+   "deck": "Trump, Xi and Putin talked together in China for the first time.",
+   "body": [
+    "The United States, China and Russia are three of the world’s most powerful countries. On Thursday their leaders, Donald Trump, Xi Jinping and Vladimir Putin, met as a group of three for the first time, in Shenzhen, a city in southern China.",
+    "They talked for about an hour and a half. Afterwards they shared a joint statement, a message all three agreed on. It promised to pump more oil and gas. It also said there can be no winners in a nuclear war, so one must never start.",
+    "Yet the statement did not mention the war in Ukraine, now in its fifth year. Nobody from Ukraine was in the room, and Ukraine’s foreign minister said no decisions can be made without Ukraine.",
+    "Putin said Russia will not hold talks with Ukraine for now, after a Ukrainian attack on a bridge to Crimea. Trump gave the meeting 12 out of 10."
+   ],
+   "visual": {
+    "type": "positions",
+    "title": "WHO SAID WHAT AFTER SHENZHEN",
+    "caption": "What each side said after the meeting, as reported by news outlets. The rows are not ranked.",
+    "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+    "items": [
+     {
+      "label": "Joint statement: more oil and gas, never a nuclear war",
+      "evidence": "It promised to pump more oil and gas"
+     },
+     {
+      "label": "Putin: no talks with Ukraine for now",
+      "evidence": "Putin said Russia will not hold talks with Ukraine"
+     },
+     {
+      "label": "Ukraine: no decisions without Ukraine",
+      "evidence": "no decisions can be made without Ukraine"
+     },
+     {
+      "label": "Trump: the meeting scored 12 out of 10",
+      "evidence": "Trump gave the meeting 12 out of 10"
+     }
+    ]
+   },
+   "connect": "History: Trump and Putin last met at a summit in Alaska in August 2025.",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Putin scores 'massive win' at first trilateral meeting, rebuilding standing as Ukraine war grinds on",
+     "url": "https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html"
+    },
+    {
+     "outlet": "Fox News",
+     "title": "Trump gives Putin-Xi summit '12 out of 10,' touts AI talks, says Putin wants Ukraine deal",
+     "url": "https://www.foxnews.com/live-news/trump-to-meet-xi-in-shenzhen-ahead-of-high-stakes-trilateral-talks-with-putin"
+    },
+    {
+     "outlet": "Arab News Pakistan",
+     "title": "Putin and Trump shake hands in Shenzhen in their first meeting since 2025",
+     "url": "https://www.arabnews.pk/world/putin-and-trump-meet-in-shenzhen-their-first-talks-since-alaska-summit-3007361"
+    }
+   ]
+  },
+  "us": {
+   "kicker": "UNITED STATES  •  GOVERNMENT",
+   "headline": "Who Decides on War? A Close Vote in the Senate",
+   "deck": "Senators turned down a plan about the war with Iran.",
+   "body": [
+    "In America, the Constitution, the country’s founding rules, splits the power over war between Congress and the president.",
+    "On Thursday the Senate, one part of Congress, voted on a plan telling the president to take US armed forces out of the fighting with Iran. It lost, by 48 votes to 51. The House of Representatives, the other part of Congress, had already approved the plan in September.",
+    "Three Republicans voted for it and one Democrat against. Even if it had passed, it would not have gone to the president to sign, so it would mostly have been a message. Democrat Tim Kaine said the 3 November election showed the war is unpopular; Republican Thom Tillis called the plan “just a statement from Congress.” By 13 November, the war had cost at least $48.3 billion."
+   ],
+   "why": "In a vote this close, a few senators changing sides can decide the result.",
+   "also": [
+    "California: San Francisco broke a rain record set in 1918.",
+    "Florida: Floods led to nearly 100 rescues in Brevard County."
+   ],
+   "sources": [
+    {
+     "outlet": "Roll Call",
+     "title": "Iran resolution blocked in first war powers vote since midterms",
+     "url": "http://www.rollcall.com/2026/11/19/iran-resolution-blocked-in-first-war-powers-vote-since-midterms"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Iran war powers measure again falls short in Senate",
+     "url": "https://www.cbsnews.com/news/iran-war-powers-vote-senate-republicans/"
+    },
+    {
+     "outlet": "Congressional Research Service (via EveryCRSReport)",
+     "title": "Understanding the War Powers Resolution (IF13134)",
+     "url": "https://www.everycrsreport.com/reports/IF13134.html"
+    },
+    {
+     "outlet": "FOX Weather",
+     "title": "Atmospheric river pounds West Coast as floods threaten 30M and feet of snow loom (updated 19 Nov)",
+     "url": "https://www.foxweather.com/weather-news/30-million-along-california-coast-under-flash-flood-threat-from-latest-atmospheric-river-storm"
+    },
+    {
+     "outlet": "NBC News (AP)",
+     "title": "Soaking storms shift north to Florida's Space Coast and prompt water rescues",
+     "url": "https://www.nbcnews.com/weather/floods/soaking-storms-shift-north-florida-space-coast-california-rcna610368"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Climate: A new draft deal at the COP31 talks in Turkey no longer mentions fossil fuels.",
+    "Science: A brain area known for listening also plans our words just before we say them."
+   ],
+   "sources": [
+    {
+     "outlet": "Associated Press (via KSAT)",
+     "title": "Nations demand fossil fuel cuts as UN climate talks COP31 are wrapping up in Turkey",
+     "url": "https://www.ksat.com/news/world/2026/11/19/nations-demand-fossil-fuel-cuts-as-un-climate-talks-cop31-are-wrapping-up-in-turkey/"
+    },
+    {
+     "outlet": "RTÉ",
+     "title": "COP31 draft climate deal removes mention of fossil fuels",
+     "url": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/"
+    },
+    {
+     "outlet": "Science News",
+     "title": "A brain region known for listening helps us speak",
+     "url": "https://www.sciencenews.org/article/brain-region-listening-speak-wernickie"
+    }
+   ]
+  },
+  "discussion": {
+   "title": "TALK ABOUT IT",
+   "body": [
+    "What could our family do together when we hear a storm warning?",
+    "Why might Ukraine want to be in the room when other countries talk about its war?",
+    "Should a big decision like going to war be made by one person or by many people? Why?"
+   ],
+   "sources": [
+    {
+     "outlet": "ETV Bharat",
+     "title": "Cyclone Akvan Makes Landfall Near Gopalpur, 3.72 Lakh People Evacuated In Odisha",
+     "url": "https://www.etvbharat.com/en/bharat/cyclone-akvan-makes-landfall-near-gopalpur-over-3-lakh-people-evacuated-in-odisha-enn26112002910"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+    },
+    {
+     "outlet": "Congressional Research Service (via EveryCRSReport)",
+     "title": "Understanding the War Powers Resolution (IF13134)",
+     "url": "https://www.everycrsreport.com/reports/IF13134.html"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  JAPAN",
+   "headline": "India and Japan Team Up on Supplies",
+   "deck": "Ministers met in Tokyo to plan safer supplies.",
+   "body": [
+    "India and Japan want to make sure no single country can cut off the supplies their economies depend on, such as computer chips and medicines.",
+    "On Thursday, two ministers from each country met in Tokyo, Japan’s capital, for 90 minutes. A meeting like this is called a “2+2.” They agreed to build stronger supply chains, the paths goods travel from makers to users, for computer chips, critical minerals, clean energy and medicines. Their joint statement warned about countries using trade to pressure others, without naming any country.",
+    "They also agreed to work together on defence: Japan’s forces will be allowed to train with missiles on Indian firing ranges. Each country also supports the other’s wish for a permanent seat on the UN Security Council. Japan has promised to invest about $62.5 billion in India over ten years, and the next 2+2 meeting will be held in India."
+   ],
+   "why": "Shared supplies make it harder for one country to cut off things people need.",
+   "sources": [
+    {
+     "outlet": "ThePrint (PTI)",
+     "title": "India, Japan flag 'economic coercion'; agree to deepen strategic, defence cooperation at Tokyo meet",
+     "url": "https://theprint.in/world/india-japan-flag-economic-coercion-agree-to-deepen-strategic-defence-cooperation-at-tokyo-meet/3103503/"
+    },
+    {
+     "outlet": "IntelliNews via Yahoo News",
+     "title": "India opens firing ranges to Japanese missile drills after Tokyo 2+2 talks",
+     "url": "https://www.yahoo.com/news/world/articles/india-opens-firing-ranges-japanese-040631203.html"
+    }
+   ]
+  },
+  "sports": {
+   "title": "HOCKEY: INDIA’S WOMEN START WITH A WIN",
+   "body": "Defending champions <b>India</b> beat <b>Malaysia 4-1</b> in their first match of the Women’s Asian Champions Trophy on Thursday. Malaysia scored first, but India fought back. <b>Puja Sahoo</b>, playing her first match, was Player of the Match. It is the first international hockey tournament ever held in Bhopal.",
+   "sources": [
+    {
+     "outlet": "The Tribune",
+     "title": "India rally past Malaysia 4-1 to begin title defence at Women's Asian Champions Trophy 2026",
+     "url": "https://www.tribuneindia.com/news/asian-champions-trophy/india-rally-past-malaysia-4-1-to-begin-title-defence-at-womens-asian-champions-trophy-2026"
+    }
+   ]
+  },
+  "watchlist": {
+   "items": [
+    "Saturday: India’s women play South Korea at 7 pm in the Asian Champions Trophy.",
+    "Saturday: The COP31 climate talks in Turkey are expected to run into overtime."
+   ]
+  },
+  "quote": {
+   "text": "A warning heard early keeps a family safe together.",
+   "by": ""
+  }
+ },
+ "sources": [],
+ "play": {
+  "quiz": [
+   {
+    "q": "About how many people in Odisha moved to shelters before Cyclone Akvan?",
+    "options": [
+     "10,000",
+     "3.72 lakh",
+     "4,470"
+    ],
+    "answer": 1,
+    "why": "The paper says about 3.72 lakh people moved to nearly 10,000 shelters.",
+    "story": "lead"
+   },
+   {
+    "q": "What did the three leaders’ joint statement leave out?",
+    "options": [
+     "Oil and gas",
+     "Nuclear war",
+     "The war in Ukraine"
+    ],
+    "answer": 2,
+    "why": "The statement did not mention the war in Ukraine.",
+    "story": "world"
+   },
+   {
+    "q": "How did the Senate vote on the plan about the Iran war?",
+    "options": [
+     "51 for, 48 against",
+     "50 for, 50 against",
+     "48 for, 51 against"
+    ],
+    "answer": 2,
+    "why": "The plan lost, with 48 votes for it and 51 against.",
+    "story": "us"
+   },
+   {
+    "q": "In which city did India’s and Japan’s ministers meet?",
+    "options": [
+     "Tokyo",
+     "Delhi",
+     "Bhopal"
+    ],
+    "answer": 0,
+    "why": "The four ministers met in Tokyo, Japan’s capital.",
+    "story": "india"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "Cyclone Akvan was stronger than forecast when it reached land.",
+    "true": false,
+    "why": "The paper says it was weaker than first forecast.",
+    "story": "lead"
+   },
+   {
+    "claim": "1,450 women who were moved to safety have given birth, and the mothers and babies are safe.",
+    "true": true,
+    "why": "Officials say the mothers and newborns are safe.",
+    "story": "lead"
+   },
+   {
+    "claim": "India’s and Japan’s ministers met in Tokyo for 90 minutes.",
+    "true": true,
+    "why": "The four ministers met in Tokyo, and the meeting lasted 90 minutes.",
+    "story": "india"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Gopalpur, Odisha",
+    "lat": 19.26,
+    "lon": 84.91,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "China",
+     "United States",
+     "Russia",
+     "Ukraine"
+    ]
+   },
+   {
+    "story": "us",
+    "place": "Washington, DC",
+    "lat": 38.89,
+    "lon": -77.01,
+    "countries": [
+     "United States",
+     "Iran"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Tokyo",
+    "lat": 35.68,
+    "lon": 139.69,
+    "countries": [
+     "India",
+     "Japan"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "lead",
+    "q": "How many women who were expecting babies did Odisha move to safety?",
+    "answer": 4470,
+    "prefix": "",
+    "unit": "women",
+    "min": 500,
+    "max": 10000,
+    "why": "Officials moved 4,470 women who were expecting babies to safety."
+   },
+   {
+    "story": "india",
+    "q": "How much has Japan promised to invest in India over ten years, in billions of dollars?",
+    "answer": 62.5,
+    "prefix": "$",
+    "unit": "billion",
+    "min": 5,
+    "max": 150,
+    "why": "Japan has promised to invest about $62.5 billion in India over ten years."
+   }
+  ],
+  "brief": {
+   "format": 2,
+   "lines": [
+    {
+     "who": "maya",
+     "text": "Good morning, and welcome to The Breakfast Table for Friday, November 20. Today: how families in India stayed safe from a cyclone, three world leaders at one table, and a close vote in America.",
+     "section": "welcome"
+    },
+    {
+     "who": "sam",
+     "text": "Let’s start in India. What happened with Cyclone Akvan?",
+     "section": "story",
+     "story": "lead",
+     "chapter": "Safe in shelters"
+    },
+    {
+     "who": "maya",
+     "text": "A cyclone is a giant spinning storm. Akvan crossed the coast near the town of Gopalpur, in Odisha, on Friday morning. Before it arrived, about 3.72 lakh people moved to nearly 10,000 shelters. A lakh is 100,000.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Was the storm as strong as people feared?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "No. It was weaker than first forecast, with gusts up to 90 kilometres an hour. A cyclone feeds on warm, wet air from the sea. Over land, that fuel is cut off.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "And what about the families in the shelters?",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "maya",
+     "text": "Among those moved to safety were 4,470 women expecting babies. Since then, 1,450 have given birth, and the mothers and newborns are safe. Odisha’s top official said there were no reports of people hurt or of major damage so far. Still, dozens of trains were cancelled, and more heavy rain is expected.",
+     "section": "story",
+     "story": "lead"
+    },
+    {
+     "who": "sam",
+     "text": "Next, a meeting in China. Who was there?",
+     "section": "story",
+     "story": "world",
+     "chapter": "Three at one table"
+    },
+    {
+     "who": "maya",
+     "text": "The leaders of the United States, China and Russia: Donald Trump, Xi Jinping and Vladimir Putin. On Thursday they met as a group of three for the first time, in Shenzhen, a city in southern China. They talked for about an hour and a half.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Did they agree on anything?",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "maya",
+     "text": "They shared a joint statement, which is a message all three agreed on. It promised to pump more oil and gas. It also said there can be no winners in a nuclear war, so one must never start.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Did they talk about the war in Ukraine?",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "maya",
+     "text": "The statement did not mention it, and nobody from Ukraine was in the room. Ukraine’s foreign minister said no decisions can be made without Ukraine. Putin said Russia will not hold talks with Ukraine for now.",
+     "section": "story",
+     "story": "world"
+    },
+    {
+     "who": "sam",
+     "text": "Finally, America. What did the Senate vote on?",
+     "section": "story",
+     "story": "us",
+     "chapter": "Who decides on war"
+    },
+    {
+     "who": "maya",
+     "text": "In America, the Constitution splits the power over war between Congress and the president. On Thursday the Senate, one part of Congress, voted on a plan that would have told the president to take US armed forces out of the fighting with Iran.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "Did it pass?",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "maya",
+     "text": "No. It lost, by 48 votes to 51. Three Republicans voted for it, and one Democrat voted against it. Even if it had passed, it would not have gone to the president to sign, so it would mostly have been a message.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "So a few senators changing sides could have made the difference.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "maya",
+     "text": "That’s right. In a vote this close, a few senators changing sides can decide the result.",
+     "section": "story",
+     "story": "us"
+    },
+    {
+     "who": "sam",
+     "text": "About how many people in Odisha moved to shelters before Cyclone Akvan?",
+     "section": "quiz_question",
+     "quiz": 0
+    },
+    {
+     "who": "maya",
+     "text": "3.72 lakh The paper says about 3.72 lakh people moved to nearly 10,000 shelters.",
+     "section": "quiz_answer",
+     "quiz": 0
+    },
+    {
+     "who": "sam",
+     "text": "What did the three leaders’ joint statement leave out?",
+     "section": "quiz_question",
+     "quiz": 1
+    },
+    {
+     "who": "maya",
+     "text": "The war in Ukraine The statement did not mention the war in Ukraine.",
+     "section": "quiz_answer",
+     "quiz": 1
+    },
+    {
+     "who": "maya",
+     "text": "What could our family do together when we hear a storm warning?",
+     "section": "discussion"
+    },
+    {
+     "who": "sam",
+     "text": "That’s all for today. Thanks for listening, and enjoy your breakfast together!",
+     "section": "close"
+    }
+   ]
+  }
+ }
+}
