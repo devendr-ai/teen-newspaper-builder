@@ -296,6 +296,15 @@
         ]
       },
       {
+        "story": "us",
+        "place": "United States",
+        "lat": 39.8,
+        "lon": -98.6,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
         "story": "india",
         "place": "Bengaluru",
         "lat": 12.97,

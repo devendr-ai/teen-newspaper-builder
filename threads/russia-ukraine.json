@@ -192,6 +192,12 @@
       "reported": "2026-11-20",
       "younger": "Russia fired many missiles and drones at Ukraine overnight, and two missiles came down in Poland without hurting anyone.",
       "older": "Overnight into 20 November Russia launches one of the war's biggest attacks on Ukraine, damaging three Kyiv bridges; two missiles and a drone land in Poland, which calls it a provocation."
+    },
+    {
+      "date": "2026-11-20",
+      "reported": "2026-11-21",
+      "younger": "In Berlin, European leaders said Europe must not be divided up by big powers, and promised more help for Ukraine.",
+      "older": "In Berlin, Merz rejects a 'new Yalta' after the Shenzhen summit, and the 36-country Coalition of the Willing pledges more support for Ukraine, including GBP 10 billion from the UK; Putin invites European leaders to Moscow for talks."
     }
   ],
   "stories": [
@@ -350,6 +356,8 @@
     "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
     "https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html",
     "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
-    "https://euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine"
+    "https://euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
+    "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/",
+    "https://www.kyivpost.com/post/90652"
   ]
 }
