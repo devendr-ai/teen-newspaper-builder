@@ -1,0 +1,487 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-21",
+  "volume": 1,
+  "issue": 31,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  INDIA",
+      "headline": "A Home-Made Shield for India’s Chickens",
+      "deck": "India’s first bird flu vaccine for chickens could cost 1 to 2 rupees a dose.",
+      "body": [
+        "Eggs and chicken are part of many family meals in India. On Friday, India launched its first home-made vaccine to protect chickens from bird flu.",
+        "Agriculture Minister Shivraj Singh Chouhan unveiled it in Bhopal, where scientists at a government lab spent three years making it. A vaccine trains a body to fight a germ. This one holds bird flu viruses made harmless with chemicals. They cannot multiply, but they teach a chicken’s body to fight the real virus.",
+        "That matters, because this bird flu can kill almost every bird it infects. India has had more than 500 bird flu outbreaks since 2006, and farms have often had to cull, or kill, whole flocks to stop the spread.",
+        "Each dose may cost just 1 to 2 rupees, and officials expect the vaccine to help more than 90 lakh poultry farmers. A lakh is 100,000. Bird flu infects people only rarely, says the World Health Organization."
+      ],
+      "map": {
+        "title": "WHERE THE VACCINE WAS LAUNCHED",
+        "label_top": "MADHYA PRADESH",
+        "label_bottom": "BHOPAL, HOME OF THE LAB",
+        "footnote": "Made by a government lab in Bhopal",
+        "caption": "The vaccine was made and launched in Bhopal, Madhya Pradesh.",
+        "countries": [
+          "India"
+        ],
+        "place": "Bhopal"
+      },
+      "why": "A cheap vaccine could protect farm birds and the families who earn their living raising them, instead of losing whole flocks to the virus.",
+      "sources": [
+        {
+          "outlet": "The Federal (PTI)",
+          "title": "India unveils first indigenous H5N1 bird flu vaccine for chickens",
+          "url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+        },
+        {
+          "outlet": "ETV Bharat (PTI)",
+          "title": "Union Minister Shivraj Singh Chouhan Unveils Country's First Indigenous H5N1 Vaccine To Protect Chickens From Bird Flu",
+          "url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+        },
+        {
+          "outlet": "Insights IAS",
+          "title": "India's First Indigenous Inactivated H5N1 (Clade 2.3.2.1a) Vaccine",
+          "url": "https://www.insightsonindia.com/2026/11/19/indias-first-indigenous-inactivated-h5n1-clade-2-3-2-1a-vaccine/"
+        },
+        {
+          "outlet": "World Health Organization",
+          "title": "Influenza: A(H5N1) Q&A",
+          "url": "https://www.who.int/news-room/q-a-detail/h5n1-influenza"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  MYANMAR",
+      "headline": "A Small Country Speaks Up for Families Far Away",
+      "deck": "The world’s top court has ruled on what Myanmar did to the Rohingya.",
+      "body": [
+        "Can a small country stand up for people far away? In 2019, The Gambia, a small country in West Africa, took Myanmar, in Asia, to the International Court of Justice, the United Nations’ top court in The Hague, the Netherlands.",
+        "The case was about the Rohingya, a Muslim minority group in Myanmar. In 2017, Myanmar’s army carried out a crackdown, a harsh use of force, and about 700,000 Rohingya fled to Bangladesh. About 1.2 million now live in camps there.",
+        "On Thursday, the judges decided by 9 votes to 6 that Myanmar committed genocide, the crime of trying to destroy a whole group of people. The UN says it is the first ruling like this against a country under the Genocide Convention. Myanmar has said it was answering attacks on police posts.",
+        "The court ordered Myanmar to pay compensation, let the Rohingya return home safely if they choose, and reunite families."
+      ],
+      "chart": {
+        "title": "HOW THE JUDGES VOTED",
+        "subtitle": "Number of judges",
+        "labels": [
+          "Said genocide",
+          "Disagreed"
+        ],
+        "values": [
+          9,
+          6
+        ],
+        "max": 10,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "9 judges found that Myanmar committed genocide; 6 did not agree."
+      },
+      "connect": "Geography: Myanmar and Bangladesh are neighbours, and the Rohingya fled from Myanmar’s Rakhine state on the Bay of Bengal.",
+      "sources": [
+        {
+          "outlet": "UN News",
+          "title": "World's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://news.un.org/en/story/2026/11/1168836"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  HEALTH",
+      "headline": "Measles Is Spreading Again in America",
+      "deck": "The country has lost the status it held for 26 years.",
+      "body": [
+        "Measles is one of the most catching illnesses known. Where people are not protected, one sick person can pass it to 12 to 18 others.",
+        "For 26 years, the United States counted measles as eliminated, which means it was not spreading inside the country. On Tuesday, a health group for the Americas said that is no longer true, because the virus has spread without a break for at least 12 months. America has had more than 5,400 cases this year.",
+        "The answer, health officials say, is the MMR vaccine. Two doses give about 97% protection. Last school year, 92% of kindergartners were vaccinated, below the 95% needed for herd immunity, when so many people are protected that a germ struggles to spread."
+      ],
+      "why": "When enough people in a town are vaccinated, measles struggles to spread, and that helps protect everyone around us.",
+      "also": [
+        "Travel: Petrol fell 18 cents in a week to $3.72 a gallon before Thanksgiving trips.",
+        "Ohio: Fiona, the Cincinnati Zoo hippo born tiny in 2017, has died after swallowing a hat."
+      ],
+      "sources": [
+        {
+          "outlet": "PBS NewsHour (AP)",
+          "title": "U.S. and Mexico officially lose measles-elimination status",
+          "url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+        },
+        {
+          "outlet": "CBS Texas",
+          "title": "U.S. loses its 26-year measles elimination status as cases more than double in a year",
+          "url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+        },
+        {
+          "outlet": "AAA Newsroom",
+          "title": "Gas Prices Keep Dropping as Thanksgiving Approaches",
+          "url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Fiona the hippo dies days after swallowing hat, Cincinnati Zoo says",
+          "url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Science: Meerkats taken 1.5 km from their group found their way home in a nearly straight line in 18 of 20 tests.",
+        "Climate: The COP31 climate talks in Turkey ran past their Friday deadline as countries argued over a draft deal."
+      ],
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Solo meerkats can find their way back home",
+          "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+        },
+        {
+          "outlet": "UN News",
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "url": "https://news.un.org/en/story/2026/11/1168845"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Why might a cheap vaccine matter so much to a family that raises chickens?",
+        "Why do you think a small country chose to stand up for people who live far away?",
+        "How can getting a vaccine help the people around you, and not just you?"
+      ],
+      "sources": []
+    },
+    "india": {
+      "kicker": "INDIA  •  KARNATAKA",
+      "headline": "Bike Taxis Can Keep Rolling in Karnataka",
+      "deck": "The Supreme Court turned down the state’s request to ban them.",
+      "body": [
+        "How do people in your family get around town? In Bengaluru and the rest of Karnataka, many ride bike taxis. They book a ride on an app such as Ola, Uber or Rapido, then hop on the back of a motorcycle.",
+        "Karnataka’s government wanted to stop these rides. It raised worries about passenger safety, insurance and traffic jams. But in January, the Karnataka High Court, the state’s top court, ruled that motorcycles can be registered to carry paying passengers. The state may set conditions, it said, but cannot refuse permits just because a vehicle is a motorcycle.",
+        "The state then appealed, or asked the Supreme Court, India’s highest court, to change that ruling. On Friday, two Supreme Court judges turned the appeal down. They noted that motorcycles take up less road space than cars and are affordable.",
+        "The app companies say about 4.5 lakh passengers in Karnataka use bike taxis."
+      ],
+      "why": "Courts check state governments: Karnataka can make bike taxis safer with rules, but it cannot ban them just for being motorcycles.",
+      "sources": [
+        {
+          "outlet": "Bar & Bench",
+          "title": "Supreme Court allows bike taxis in Karnataka, rejects State's appeal to restore ban",
+          "url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+        },
+        {
+          "outlet": "Free Press Journal",
+          "title": "Major Relief For Ola, Uber And Rapido: Supreme Court Dismisses Karnataka's Appeal Against Bike Taxi Services",
+          "url": "https://www.freepressjournal.in/business/major-relief-for-ola-uber-and-rapido-supreme-court-dismisses-karnatakas-appeal-against-bike-taxi-services"
+        }
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER: A QUIET DAY",
+      "body": "No verified sports results today. Back next time.",
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Sunday and Monday: Nepal’s Prime Minister Balendra Shah visits India to meet Prime Minister Modi.",
+        "Weekend: Will the COP31 climate talks in Turkey agree a final deal?"
+      ],
+      "sources": [
+        {
+          "outlet": "ANI",
+          "title": "Nepal PM to be offered all state honours; talks focus on development, energy ties, connectivity with PM Modi during visit: MEA",
+          "url": "https://aninews.in/news/world/asia/nepal-pm-to-be-offered-all-state-honours-talks-focus-on-development-energy-ties-connectivity-with-pm-modi-during-visit-mea20261120190515/"
+        },
+        {
+          "outlet": "UN News",
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "url": "https://news.un.org/en/story/2026/11/1168845"
+        }
+      ]
+    },
+    "quote": {
+      "text": "Looking after others, from farm birds to neighbours, keeps us all safer.",
+      "by": ""
+    }
+  },
+  "sources": [],
+  "play": {
+    "quiz": [
+      {
+        "q": "How much may each dose of India’s new chicken vaccine cost?",
+        "options": [
+          "1 to 2 rupees",
+          "100 rupees",
+          "300 rupees"
+        ],
+        "answer": 0,
+        "why": "The paper says each dose may cost just 1 to 2 rupees.",
+        "story": "lead"
+      },
+      {
+        "q": "How did the World Court judges vote on the Myanmar case?",
+        "options": [
+          "15 votes to 0",
+          "9 votes to 6",
+          "8 votes to 7"
+        ],
+        "answer": 1,
+        "why": "The judges decided by 9 votes to 6 that Myanmar committed genocide.",
+        "story": "world"
+      },
+      {
+        "q": "For how many years had the United States counted measles as eliminated?",
+        "options": [
+          "6 years",
+          "62 years",
+          "26 years"
+        ],
+        "answer": 2,
+        "why": "The US had held the status for 26 years.",
+        "story": "us"
+      },
+      {
+        "q": "Which court turned down Karnataka’s appeal about bike taxis?",
+        "options": [
+          "The Supreme Court",
+          "A city council",
+          "The World Court"
+        ],
+        "answer": 0,
+        "why": "Two Supreme Court judges turned the appeal down on Friday.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Scientists spent three years making India’s new chicken vaccine.",
+        "true": true,
+        "why": "The paper says the research took three years.",
+        "story": "lead"
+      },
+      {
+        "claim": "The Gambia, which brought the case against Myanmar, is a small country in South America.",
+        "true": false,
+        "why": "The Gambia is a small country in West Africa.",
+        "story": "world"
+      },
+      {
+        "claim": "Two doses of the MMR vaccine give about 97% protection against measles.",
+        "true": true,
+        "why": "The paper says two doses give about 97% protection.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Bhopal",
+        "lat": 23.26,
+        "lon": 77.41,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "The Hague",
+        "lat": 52.08,
+        "lon": 4.3,
+        "countries": [
+          "Myanmar",
+          "Gambia",
+          "Bangladesh",
+          "Netherlands"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Bengaluru",
+        "lat": 12.97,
+        "lon": 77.59,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many poultry farmers could the new vaccine help, in lakh?",
+        "answer": 90,
+        "prefix": "",
+        "unit": "lakh",
+        "min": 10,
+        "max": 200,
+        "why": "Officials expect the vaccine to help more than 90 lakh poultry farmers."
+      },
+      {
+        "story": "us",
+        "q": "How many measles cases has America had this year?",
+        "answer": 5400,
+        "prefix": "",
+        "unit": "cases",
+        "min": 500,
+        "max": 15000,
+        "why": "America has had more than 5,400 measles cases this year."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning, and welcome to The Breakfast Table for Saturday, November 21. Today: a tiny shield for India’s chickens, an illness spreading again in America, and a court case about bike taxis.",
+          "section": "welcome"
+        },
+        {
+          "who": "sam",
+          "text": "Let’s start with chickens. What happened in India?",
+          "section": "story",
+          "story": "lead",
+          "chapter": "A shield for chickens"
+        },
+        {
+          "who": "maya",
+          "text": "On Friday, India launched its first home-made vaccine to protect chickens from bird flu. Scientists at a government lab in Bhopal spent three years making it.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "How does a vaccine actually help a chicken?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "A vaccine trains a body to fight a germ. This one holds bird flu viruses made harmless with chemicals. They cannot multiply, but they still teach a chicken’s body how to fight the real virus.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Why does that matter so much to farmers?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "This kind of bird flu can kill almost every bird it infects, and farms have often had to cull, or kill, whole flocks to stop it spreading. Each dose may cost just 1 to 2 rupees, and officials expect it to help more than 90 lakh poultry farmers. A lakh is 100,000.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Next, America. What is going on with measles?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Measles is back"
+        },
+        {
+          "who": "maya",
+          "text": "For 26 years, the United States counted measles as eliminated, which means it was not spreading inside the country. Now a health group for the Americas says that is no longer true, because the virus has kept spreading without a break for at least 12 months.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Why does measles spread so easily?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "It is one of the most catching illnesses known. Where people are not protected, one sick person can pass it to 12 to 18 others. This year, America has had more than 5,400 cases.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "So what keeps people safe?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Health officials say it is the MMR vaccine. Two doses give about 97% protection. When enough people are protected, a germ struggles to spread. That is called herd immunity, and it needs 95% vaccinated. Last school year, 92% of kindergartners were.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "And finally, back to India. What is a bike taxi?",
+          "section": "story",
+          "story": "india",
+          "chapter": "Bike taxis win"
+        },
+        {
+          "who": "maya",
+          "text": "In Karnataka, many people book a ride on an app, then hop on the back of a motorcycle. The app companies say about 4.5 lakh passengers there use bike taxis.",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "sam",
+          "text": "Why did that end up in court?",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "maya",
+          "text": "Karnataka’s government wanted to stop the rides, because of worries about safety, insurance and traffic jams. But a state court ruled that the state may set conditions, and cannot refuse permits just because a vehicle is a motorcycle.",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "sam",
+          "text": "So the state asked a higher court?",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "maya",
+          "text": "Yes, the Supreme Court, India’s highest court. On Friday, two judges turned the appeal down. They noted that motorcycles take up less road space than cars and are affordable. So bike taxis can keep rolling.",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "sam",
+          "text": "How much may each dose of India’s new chicken vaccine cost?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "1 to 2 rupees The paper says each dose may cost just 1 to 2 rupees.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "sam",
+          "text": "For how many years had the United States counted measles as eliminated?",
+          "section": "quiz_question",
+          "quiz": 2
+        },
+        {
+          "who": "maya",
+          "text": "26 years The US had held the status for 26 years.",
+          "section": "quiz_answer",
+          "quiz": 2
+        },
+        {
+          "who": "maya",
+          "text": "How can getting a vaccine help the people around you, and not just you?",
+          "section": "discussion"
+        },
+        {
+          "who": "sam",
+          "text": "That’s all for today. Thanks for riding along with us, and enjoy your weekend!",
+          "section": "close"
+        }
+      ]
+    }
+  },
+  "threads": {}
+}
