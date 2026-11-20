@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {"status": "passed", "reason": "", "poster": null},
+    "current-affairs-digest": {"status": "passed", "reason": "", "poster": null},
+    "europe-explained": {"status": "passed", "reason": "", "poster": null},
+    "global-citizen-plus": {"status": "passed", "reason": "", "poster": null},
+    "junior-daily": {"status": "passed", "reason": "", "poster": null},
+    "young-global-citizen": {"status": "passed", "reason": "", "poster": null}
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {"headline": "Russian missiles land in Poland during one of the war's biggest attacks on Ukraine", "status": "enriched", "source_urls": ["https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/"]},
+      {"headline": "Senate narrowly rejects resolution to pull US forces out of the Iran war", "status": "enriched", "source_urls": ["https://www.cbsnews.com/news/iran-war-powers-vote-senate-republicans/"]},
+      {"headline": "Trump, Xi and Putin Hold Their First Three-Way Meeting in Shenzhen; Joint Statement Leaves Out Ukraine", "status": "no_new_details", "source_urls": ["https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"]}
+    ]
+  }
+}
