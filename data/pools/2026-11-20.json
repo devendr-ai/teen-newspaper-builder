@@ -123,6 +123,18 @@
      {
       "fact": "Putin walked over to Trump at the group photo and shook his hand while Xi looked on; it was their first meeting since their Alaska summit in August 2025.",
       "source_url": "https://www.arabnews.pk/world/putin-and-trump-meet-in-shenzhen-their-first-talks-since-alaska-summit-3007361"
+     },
+     {
+      "fact": "The UN Security Council has 15 members; five permanent members, China, France, Russia, the United Kingdom and the United States, hold veto power, and the General Assembly elects 10 non-permanent members for two-year terms. The elected members have no veto.",
+      "source_url": "https://www.cfr.org/backgrounder/un-security-council"
+     },
+     {
+      "fact": "Under Article 108 of the UN Charter, an amendment takes effect once two-thirds of the General Assembly adopts it and two-thirds of UN members ratify it, including all five permanent members of the Security Council.",
+      "source_url": "https://en.wikipedia.org/wiki/Amendments_to_the_United_Nations_Charter"
+     },
+     {
+      "fact": "In May 1980, Shenzhen, then a fishing village next to Hong Kong, was declared a special economic zone.",
+      "source_url": "https://www.scmp.com/article/660568/shenzhen-story-fishing-village-thriving-metropolis"
      }
     ],
     "numbers": [
@@ -181,6 +193,27 @@
       "title": "Putin and Trump shake hands in Shenzhen in their first meeting since 2025",
       "url": "https://www.arabnews.pk/world/putin-and-trump-meet-in-shenzhen-their-first-talks-since-alaska-summit-3007361",
       "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "Council on Foreign Relations",
+      "title": "The UN Security Council (backgrounder)",
+      "url": "https://www.cfr.org/backgrounder/un-security-council",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "Wikipedia",
+      "title": "Amendments to the United Nations Charter",
+      "url": "https://en.wikipedia.org/wiki/Amendments_to_the_United_Nations_Charter",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "South China Morning Post",
+      "title": "The Shenzhen story, from fishing village to thriving metropolis",
+      "url": "https://www.scmp.com/article/660568/shenzhen-story-fishing-village-thriving-metropolis",
+      "published": "",
       "primary": false
      }
     ],
@@ -285,6 +318,18 @@
      {
       "fact": "The IMD warned of heavy rain for the next 24 hours after landfall.",
       "source_url": "https://www.oneindia.com/india/cyclone-akvan-weakens-after-odisha-landfall-45-trains-cancelled-heavy-rain-alert-remains-8265193.html"
+     },
+     {
+      "fact": "On the IMD's scale for the north Indian Ocean, a depression has maximum sustained winds of 31-49 km/h, a deep depression 50-61 km/h, and a cyclonic storm 62-88 km/h; a super cyclonic storm has 222 km/h and above.",
+      "source_url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/faq.pdf"
+     },
+     {
+      "fact": "IMD's damage-potential sheet puts a very severe cyclonic storm at 118-166 km/h.",
+      "source_url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/damage.pdf"
+     },
+     {
+      "fact": "In the Northern Hemisphere, surface winds flowing in toward a low-pressure centre are deflected to the right by the Coriolis effect of Earth's rotation, starting a counter-clockwise rotation; the opposite, a clockwise rotation, happens south of the equator.",
+      "source_url": "https://www.aoml.noaa.gov/hrd/tcfaq/D3.html"
      }
     ],
     "numbers": [
@@ -355,6 +400,27 @@
       "outlet": "Environment and Climate Change Canada",
       "title": "When tropical cyclones die",
       "url": "https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/learn/when-tropical-cyclones-die.html",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "India Meteorological Department (RSMC New Delhi)",
+      "title": "Frequently asked questions on tropical cyclones",
+      "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/faq.pdf",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "India Meteorological Department (RSMC New Delhi)",
+      "title": "Damage potential of cyclonic disturbances",
+      "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/damage.pdf",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "title": "Tropical cyclone FAQ: why do tropical cyclones rotate",
+      "url": "https://www.aoml.noaa.gov/hrd/tcfaq/D3.html",
       "published": "",
       "primary": false
      }
@@ -653,6 +719,22 @@
       "source_url": "https://www.cbsnews.com/news/iran-war-powers-vote-senate-republicans/",
       "evidence": "Democrats have forced more than a dozen war powers votes",
       "background": false
+     },
+     {
+      "fact": "Congress's authority to legislate on war powers comes from the Constitution's Necessary and Proper Clause.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
+     },
+     {
+      "fact": "Under the War Powers Resolution the President can extend the 60-day deployment period by an additional 30 days if the President certifies it is needed.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
+     },
+     {
+      "fact": "Section 5(c) of the War Powers Resolution lets Congress require removal of forces by concurrent resolution; after a Supreme Court decision called into question whether this was an unconstitutional legislative veto, Congress provided expedited consideration of a joint resolution or bill instead.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
+     },
+     {
+      "fact": "In the absence of a declaration of war, Section 4(a)(1) of the War Powers Resolution requires the President to notify the Speaker of the House and the Senate's President Pro Tempore within 48 hours after US forces are introduced into hostilities.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
      }
     ],
     "numbers": [
@@ -1144,6 +1226,18 @@
      {
       "fact": "The IMD warned of heavy rain for the next 24 hours after landfall.",
       "source_url": "https://www.oneindia.com/india/cyclone-akvan-weakens-after-odisha-landfall-45-trains-cancelled-heavy-rain-alert-remains-8265193.html"
+     },
+     {
+      "fact": "On the IMD's scale for the north Indian Ocean, a depression has maximum sustained winds of 31-49 km/h, a deep depression 50-61 km/h, and a cyclonic storm 62-88 km/h; a super cyclonic storm has 222 km/h and above.",
+      "source_url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/faq.pdf"
+     },
+     {
+      "fact": "IMD's damage-potential sheet puts a very severe cyclonic storm at 118-166 km/h.",
+      "source_url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/damage.pdf"
+     },
+     {
+      "fact": "In the Northern Hemisphere, surface winds flowing in toward a low-pressure centre are deflected to the right by the Coriolis effect of Earth's rotation, starting a counter-clockwise rotation; the opposite, a clockwise rotation, happens south of the equator.",
+      "source_url": "https://www.aoml.noaa.gov/hrd/tcfaq/D3.html"
      }
     ],
     "numbers": [
@@ -1214,6 +1308,27 @@
       "outlet": "Environment and Climate Change Canada",
       "title": "When tropical cyclones die",
       "url": "https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/learn/when-tropical-cyclones-die.html",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "India Meteorological Department (RSMC New Delhi)",
+      "title": "Frequently asked questions on tropical cyclones",
+      "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/faq.pdf",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "India Meteorological Department (RSMC New Delhi)",
+      "title": "Damage potential of cyclonic disturbances",
+      "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/damage.pdf",
+      "published": "",
+      "primary": false
+     },
+     {
+      "outlet": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "title": "Tropical cyclone FAQ: why do tropical cyclones rotate",
+      "url": "https://www.aoml.noaa.gov/hrd/tcfaq/D3.html",
       "published": "",
       "primary": false
      }
@@ -1692,6 +1807,22 @@
       "source_url": "https://www.cbsnews.com/news/iran-war-powers-vote-senate-republicans/",
       "evidence": "Democrats have forced more than a dozen war powers votes",
       "background": false
+     },
+     {
+      "fact": "Congress's authority to legislate on war powers comes from the Constitution's Necessary and Proper Clause.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
+     },
+     {
+      "fact": "Under the War Powers Resolution the President can extend the 60-day deployment period by an additional 30 days if the President certifies it is needed.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
+     },
+     {
+      "fact": "Section 5(c) of the War Powers Resolution lets Congress require removal of forces by concurrent resolution; after a Supreme Court decision called into question whether this was an unconstitutional legislative veto, Congress provided expedited consideration of a joint resolution or bill instead.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
+     },
+     {
+      "fact": "In the absence of a declaration of war, Section 4(a)(1) of the War Powers Resolution requires the President to notify the Speaker of the House and the Senate's President Pro Tempore within 48 hours after US forces are introduced into hostilities.",
+      "source_url": "https://www.everycrsreport.com/reports/IF13134.html"
      }
     ],
     "numbers": [
@@ -2506,6 +2637,34 @@
      {
       "fact": "The authors suggest Wernicke's area could become a target for future speech neuroprostheses (brain implants that restore speech); the area's exact boundaries remain uncertain.",
       "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "The paper is by Silva et al., titled 'A neural code for generative speech production in human Wernicke's area'; Edward F. Chang is at the University of California, San Francisco and UC Berkeley.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "The researchers used high-resolution electrocorticography and recorded individual neurons during speaking and listening tasks, and also probed the same zone in tissue from people whose Wernicke's area was removed during surgery.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "A discrete subgroup of neurons in Wernicke's area fired before participants spoke.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "The authors say the findings 'reconcile a long-standing division between the perceptual and productive accounts of Wernicke's area'.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "In a related Perspective, Adeen Flinker of NYU Grossman School of Medicine wrote that the area 'contains neural populations critically engaged in the planning of speech itself', adding that its precise anatomical boundaries 'may remain ever elusive'.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "The two people in the decoding experiment had vocal-tract paralysis.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
+     },
+     {
+      "fact": "The authors say the findings 'offer a mechanistic foundation for understanding how the human brain builds language'.",
+      "source_url": "https://www.eurekalert.org/news-releases/1151923"
      }
     ],
     "numbers": [
@@ -2932,6 +3091,10 @@
      {
       "fact": "Separately, the EU and UK had already agreed in April 2026 that the UK will rejoin the Erasmus+ student exchange programme in 2027.",
       "source_url": "https://erasmus-plus.ec.europa.eu/whats-new/news/european-union-and-united-kingdom-take-decisive-step-towards-erasmus-association-in-2027"
+     },
+     {
+      "fact": "The Erasmus programme is named after Erasmus of Rotterdam, a leading Renaissance scholar who travelled extensively in Europe to teach and study at a number of universities.",
+      "source_url": "https://erasmus-plus.ec.europa.eu/about-erasmus/history-funding-and-future"
      }
     ],
     "numbers": [
@@ -2983,6 +3146,13 @@
       "url": "https://erasmus-plus.ec.europa.eu/whats-new/news/european-union-and-united-kingdom-take-decisive-step-towards-erasmus-association-in-2027",
       "published": "2026-04-15",
       "primary": true
+     },
+     {
+      "outlet": "European Commission",
+      "title": "Erasmus to Erasmus+: history, funding and future",
+      "url": "https://erasmus-plus.ec.europa.eu/about-erasmus/history-funding-and-future",
+      "published": "",
+      "primary": false
      }
     ]
    },

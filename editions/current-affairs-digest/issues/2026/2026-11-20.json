@@ -1,0 +1,667 @@
+{
+ "edition": "current-affairs-digest",
+ "date": "2026-11-20",
+ "volume": 1,
+ "issue": 29,
+ "blocks": {
+  "lead": {
+   "kicker": "TOP STORY  •  SHENZHEN SUMMIT",
+   "headline": "Trump, Xi and Putin Meet as Three; Their Statement Skips Ukraine",
+   "deck": "The 90-minute meeting produced pledges on UN reform, oil and gas, the ICC and nuclear war; Putin ruled out negotiating with Kyiv for now.",
+   "body": [
+    "Three presidents whose countries hold permanent seats on the UN Security Council met as a group on Thursday 19 November, a first for Washington, Beijing and Moscow. Donald Trump, Xi Jinping and Vladimir Putin talked for about 90 minutes at Kylin Villa in Shenzhen, on the sidelines of the APEC summit; earlier, Trump had seen Putin and then Xi one-on-one.",
+    "Their joint text, issued by the Kremlin and then provided by the White House in identical wording, contains four commitments. First, reform of the United Nations. Second, more oil and gas output, said to benefit “all countries”. Third, a warning that the International Criminal Court and bodies like it must not misuse their powers. Fourth, a line on nuclear weapons: such a war has “no winners” and “should never be unleashed”.",
+    "Ukraine, at war with Russia for more than four years, appears nowhere in it, and no new peace plan was offered. Kyiv and European governments had no one at the table. Putin’s explanation pointed to Ukraine’s attack on the Kerch Bridge to Crimea: “We will not negotiate after the attacks on the Crimean bridge,” he said, adding that Kyiv and Europe were “not yet ready” for compromise. Zelensky, speaking before the summit, called great powers deciding for smaller nations in their absence a “huge mistake”.",
+    "Verdicts split. Trump scored the talks 12 out of 10; Teneo analyst Andrius Tursa judged them “arguably a diplomatic victory for Moscow”. Looking ahead, Putin said all three found the format “useful” and could repeat it, and that he would consider going to the G20 summit in Miami in December. The Kremlin promised continued talks with both partners on cutting nuclear risks."
+   ],
+   "map": {
+    "title": "THE SHENZHEN MEETING, 19 NOVEMBER",
+    "label_top": "SHENZHEN: APEC SUMMIT HOST",
+    "label_bottom": "US, CHINA, RUSSIA AT ONE TABLE",
+    "footnote": "Ukraine and Europe were not in the room",
+    "caption": "The three leaders met at Kylin Villa in Shenzhen, in southern China.",
+    "countries": [
+     "China"
+    ]
+   },
+   "why": "The three leaders hold three of the five permanent seats on the UN Security Council, so their words on oil, courts and nuclear war carry weight; but the talks brought no breakthrough on Ukraine, and Ukraine and Europe were not in the room.",
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Putin scores 'massive win' at first trilateral meeting, rebuilding standing as Ukraine war grinds on",
+     "url": "https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html"
+    },
+    {
+     "outlet": "Fox News",
+     "title": "Trump gives Putin-Xi summit '12 out of 10,' touts AI talks, says Putin wants Ukraine deal",
+     "url": "https://www.foxnews.com/live-news/trump-to-meet-xi-in-shenzhen-ahead-of-high-stakes-trilateral-talks-with-putin"
+    },
+    {
+     "outlet": "ANI",
+     "title": "Zelenskyy sidesteps questions on warm Trump-Putin Shenzhen meet amid \"Coalition of the Willing\" talks",
+     "url": "https://aninews.in/news/world/europe/zelenskyy-sidesteps-questions-on-warm-trump-putin-shenzhen-meet-amid-coalition-of-the-willing-talks20261120075539/"
+    },
+    {
+     "outlet": "Arab News Pakistan",
+     "title": "Putin and Trump shake hands in Shenzhen in their first meeting since 2025",
+     "url": "https://www.arabnews.pk/world/putin-and-trump-meet-in-shenzhen-their-first-talks-since-alaska-summit-3007361"
+    }
+   ]
+  },
+  "world": {
+   "kicker": "WORLD  •  RUSSIA-UKRAINE WAR",
+   "headline": "After a Vast Overnight Raid on Ukraine, Russian Missiles Are Found on Polish Soil",
+   "deck": "No one was hurt in Poland, a NATO member; in Ukraine at least nine people died and three Kyiv bridges were damaged.",
+   "body": [
+    "Days after Putin promised a “far more painful” reply to Ukraine’s 17 November strike on the Crimean, or Kerch, Bridge, Russia staged a huge overnight air raid. Ukraine’s Air Force counted 404 attack drones and 84 cruise missiles fired into the early hours of 20 November; Zelensky put the number of ballistic missiles at 27. Ukraine’s defenders shot down or suppressed 380 drones, 79 cruise missiles and 3 ballistic missiles.",
+    "What got through did real harm. Ukraine’s prime minister reported at least nine deaths. The Southern, Darnytskyi and Podilsko-Voskresenskyi bridges in Kyiv were hit, and power, heat and water failed in places. Russia aimed at what an energy official described as Europe’s biggest electrical substation, and Zelensky said waves of missiles were spaced 20 to 30 minutes apart, in his view to slow firefighters and repair crews.",
+    "Some weapons came down well beyond Ukraine. In Poland’s Lublin province, a Kh-101 cruise missile hit the ground by Nowy Lipowiec, a village some 60 km from the Ukrainian frontier; a second missile and a jet-powered drone dropped at two further locations. Nobody was hurt, and no critical infrastructure was damaged.",
+    "Warsaw reacted sharply. Donald Tusk, Poland’s prime minister, labelled the incident a Russian “provocation” and gathered his ministers with military and intelligence heads. Mark Rutte, who leads NATO, condemned “grave violations” of Polish airspace and was due in Warsaw on Saturday. Poland has seen this before: on 30 July a Kh-101 crashed at Tarnawa-Kolonia, in the east of the country. The raid also came a day after European leaders, meeting Ukraine’s backers in Berlin, insisted they must have a say in any peace deal; there Tusk had said, “Mr Putin is not our friend and will never be.”"
+   ],
+   "illustration": {
+    "title": "AIR DEFENCE OVER UKRAINE",
+    "subtitle": "Raid of 20 November",
+    "motif": "airdefense",
+    "caption": "Ukraine says it stopped 380 of 404 attack drones; some Russian weapons came down in Poland."
+   },
+   "connect": "Geography: Lublin province lies in eastern Poland, along its border with Ukraine. Civics: Poland belongs to both the EU and NATO, the alliance whose members pledge to defend one another, which is why Russian weapons landing on Polish soil raise fears the war could spread.",
+   "sources": [
+    {
+     "outlet": "Kyiv Independent",
+     "title": "3 Kyiv bridges struck in massive Russian aerial assault on Ukraine",
+     "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Two missiles crash in Poland amid major Russian attack on Ukraine",
+     "url": "https://euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine"
+    },
+    {
+     "outlet": "TVP World",
+     "title": "Russian objects crash in Poland after attacks on Ukraine",
+     "url": "https://tvpworld.com/96585621/three-russian-objects-crash-in-poland-including-cruise-missile"
+    },
+    {
+     "outlet": "Cyprus Mail (Reuters)",
+     "title": "Europe warns against Ukraine peace deal made over its head",
+     "url": "https://cyprus-mail.com/2026/11/20/europe-warns-against-ukraine-peace-deal-made-over-its-head"
+    }
+   ]
+  },
+  "india": {
+   "kicker": "INDIA  •  CYCLONE AKVAN",
+   "headline": "Akvan Crosses the Odisha Coast Near Gopalpur, Earlier and Weaker Than Forecast",
+   "deck": "About 3.72 lakh people had been moved to shelters; officials reported no casualties or major damage so far, but red alerts for extremely heavy rain remain.",
+   "body": [
+    "Forecasts had pointed south, but Cyclone Akvan turned north. Earlier guidance from the India Meteorological Department (IMD) placed landfall between Nellore and Visakhapatnam in Andhra Pradesh around midday, as a very severe cyclonic storm. Instead the storm changed course towards north Andhra Pradesh and Odisha, and crossed the south Odisha coast near Gopalpur, in Ganjam district, between 7.30 and 8.30 am on Friday 20 November, with winds of 70-80 km/h gusting up to 90 km/h.",
+    "Akvan had also lost strength on the way. It was a severe cyclonic storm until Thursday night and had weakened into a cyclonic storm by Friday morning. IMD Director General Mrutyunjay Mohapatra had said the storm’s centre, which meteorologists call the eye, would cross near Gopalpur, and it did, but several hours earlier than the old midday guidance and with less force. Once ashore it weakened further, because over land a cyclone is cut off from its fuel, warm moist air from the ocean. Moving north-northeast through Odisha, it became a deep depression, and by 2.30 pm it was about 80 km north of Gopalpur.",
+    "Odisha had prepared for worse. About 3.72 lakh people were moved from vulnerable areas to nearly 10,000 shelters, among them 4,470 pregnant women; 1,450 of them have since given birth, and mothers and newborns are safe. Authorities deployed 423 rescue teams. Gopalpur port hoisted Great Danger Signal 10 and Paradip port Signal 9, and the IMD warned that a storm surge of 0.5 to 1 metre could flood low-lying coastal areas of Ganjam and Puri. Chief Secretary Anu Garg said there were “no reports of casualties or major damage received so far.”",
+    "Rain is now the main danger. In the 24 hours to 8.30 am on Friday, the IMD station at Gopalpur recorded 180.4 mm, and Ganjam averaged 114.06 mm, the highest of any district. Red alerts for extremely heavy rain cover Balasore and Mayurbhanj in Odisha and Srikakulam and Vizianagaram in Andhra Pradesh, and the IMD warned of heavy rain for 24 hours after landfall. Roads were waterlogged in Berhampur and Digapahandi, where teams were sent to clear the water. Travel was hit too: East Coast Railway cancelled around 45 trains and rescheduled around 28 over three days, and South Eastern Railway cancelled at least 28 express trains on Friday, most of them going to or through Puri, including the Howrah-Puri Vande Bharat Express."
+   ],
+   "illustration": {
+    "title": "CYCLONE AKVAN",
+    "subtitle": "Gopalpur, Odisha",
+    "motif": "flood",
+    "caption": "After landfall the storm weakened into a deep depression, but heavy rain alerts remain."
+   },
+   "why": "Early warnings, port danger signals and mass evacuation are how India keeps people safe from cyclones; Akvan’s change of track tested that system, and flooding remains a risk after the wind drops.",
+   "sources": [
+    {
+     "outlet": "ETV Bharat",
+     "title": "Cyclone Akvan Makes Landfall Near Gopalpur, 3.72 Lakh People Evacuated In Odisha",
+     "url": "https://www.etvbharat.com/en/bharat/cyclone-akvan-makes-landfall-near-gopalpur-over-3-lakh-people-evacuated-in-odisha-enn26112002910"
+    },
+    {
+     "outlet": "The Week",
+     "title": "Cyclone Akvan landfall begins along Andhra-Odisha coast: IMD issues red alert",
+     "url": "https://www.theweek.in/news/india/2026/11/20/cyclone-akvan-landfall-begins-along-andhra-odisha-coast-imd-issues-red-alert.html"
+    },
+    {
+     "outlet": "The Watchers",
+     "title": "Cyclone Akvan weakens after landfall near Gopalpur; more than 300 000 evacuated in Odisha, India",
+     "url": "https://watchers.news/2026/11/20/cyclone-akvan-landfall-gopalpur-november-20-2026-deep-depression/"
+    },
+    {
+     "outlet": "The Statesman",
+     "title": "Cyclone Akvan hits Odisha coast with 90 kmph gusts; 3.72 lakh evacuated as heavy rain and flood threat persist",
+     "url": "https://www.thestatesman.com/india/cyclone-akvan-hits-odisha-coast-with-90-kmph-gusts-3-72-lakh-evacuated-as-heavy-rain-and-flood-threat-persist-1503664745.html"
+    },
+    {
+     "outlet": "Oneindia",
+     "title": "Cyclone Akvan Weakens After Odisha Landfall, 45 Trains Cancelled; Heavy Rain Alert Remains",
+     "url": "https://www.oneindia.com/india/cyclone-akvan-weakens-after-odisha-landfall-45-trains-cancelled-heavy-rain-alert-remains-8265193.html"
+    },
+    {
+     "outlet": "Environment and Climate Change Canada",
+     "title": "When tropical cyclones die",
+     "url": "https://www.canada.ca/en/environment-climate-change/services/hurricane-forecasts-facts/learn/when-tropical-cyclones-die.html"
+    }
+   ]
+  },
+  "politics_and_civics": {
+   "kicker": "POLITICS & CIVICS  •  US WAR POWERS",
+   "headline": "By 48 to 51, Senators Refuse to Order an End to US Fighting With Iran",
+   "deck": "It was Congress’s first war vote since the 3 November midterms, and even a win would have been largely symbolic.",
+   "body": [
+    "The Constitution splits authority over the military between Congress and the president, and Congress’s power to legislate on war rests on its Necessary and Proper Clause. On Thursday 19 November the Senate declined to use that power against the Iran war: a resolution telling the president “to remove United States Armed Forces from hostilities with Iran” failed, with 48 in favour and 51 against. The House had approved it in mid-September, and this was Congress’s first war vote since the 3 November midterms.",
+    "Party lines bent on both sides. Three Republicans, Susan Collins, Lisa Murkowski and Rand Paul, backed the measure; Democrat John Fetterman opposed it. Republican Thom Tillis, a supporter of an earlier attempt, voted no this time because, he said, “this one doesn’t go to the president, so it’s just a statement from Congress.” Even with those three Republican votes, the measure fell short.",
+    "Tillis was describing the form of the measure. It was a concurrent resolution, which never reaches the president’s desk, so even a win would have been largely symbolic. The rules behind it come from the War Powers Resolution, which Congress enacted over Richard Nixon’s veto on 7 November 1973. Without a declaration of war, a president must notify the Speaker of the House and the Senate’s President Pro Tempore within 48 hours of sending troops into hostilities and must stop after 60 days without congressional approval, a limit the president can stretch by 30 days by certifying it is needed. Section 5(c) of that law lets Congress order a withdrawal by concurrent resolution; but after a Supreme Court decision raised doubts about whether that was an unconstitutional “legislative veto”, Congress created a fast track for joint resolutions or bills instead.",
+    "Supporters say voters have spoken. Tim Kaine, a Democrat, argued the 3 November results made the war’s unpopularity “absolutely manifestly clear.” Democrats have now forced more than a dozen war powers votes since fighting began in late February, most of them unsuccessful, and by 13 November the war had cost at least $48.3 billion, excluding damage to US bases. Money may be the next lever. A funding bill must pass to keep the government open after 11 December, and some Democrats are weighing whether to cut war funding in it or wait until they control Congress in January. In the House, Rep. Thomas Massie intends to force another vote before the lame-duck session ends."
+   ],
+   "illustration": {
+    "title": "THE SENATE VOTE",
+    "subtitle": "48 for, 51 against",
+    "motif": "capitol",
+    "caption": "The resolution would have directed the president to remove US forces from hostilities with Iran."
+   },
+   "why": "The vote shows the constitutional tug-of-war over who decides on war, and how a handful of senators changing sides can decide a close result.",
+   "sources": [
+    {
+     "outlet": "Roll Call",
+     "title": "Iran resolution blocked in first war powers vote since midterms",
+     "url": "http://www.rollcall.com/2026/11/19/iran-resolution-blocked-in-first-war-powers-vote-since-midterms"
+    },
+    {
+     "outlet": "CBS News",
+     "title": "Iran war powers measure again falls short in Senate",
+     "url": "https://www.cbsnews.com/news/iran-war-powers-vote-senate-republicans/"
+    },
+    {
+     "outlet": "Congressional Research Service (via EveryCRSReport)",
+     "title": "Understanding the War Powers Resolution (IF13134)",
+     "url": "https://www.everycrsreport.com/reports/IF13134.html"
+    }
+   ]
+  },
+  "economics": {
+   "kicker": "ECONOMY  •  ENERGY",
+   "headline": "IEA Calls the Hormuz Disruption the Largest Energy Supply Shock in History",
+   "deck": "Its World Energy Outlook puts this year’s oil and gas import bill at $1.6 trillion and sees no way back to the old energy world.",
+   "body": [
+    "Oil prices are sliding, yet the world’s energy watchdog says the shock is far from over. On 20 November Brent crude dropped $1.65 to $90.33 a barrel, set for its third weekly decline in a row, as shipments through Hormuz run at close to pre-war levels. A day earlier the International Energy Agency (IEA) used its annual World Energy Outlook to describe the Hormuz crisis as the biggest energy supply shock in history.",
+    "The scale is measured in lost fuel and money. By November, the IEA reckons, Gulf supply had lost 2.8 billion barrels of oil and 60 billion cubic metres of gas. The world’s bill for imported oil and gas is on course for $1.6 trillion this year, up 25% on 2025, and over 4 billion people live in nations that get more than 30% of their oil via the Strait.",
+    "Developing economies face particular risks. The agency warns that pricier, scarcer fuel threatens to slow the spread of electricity and clean cooking in developing economies. It also sees the route itself shrinking: roughly 20 million barrels a day passed through before the crisis, but with continued shipping risk that could drop to 8.5 million by 2030 and below 2 million by 2035. Fatih Birol, who heads the IEA, said he could see no “credible pathway” back to the pre-crisis energy world.",
+    "The response, the outlook says, is energy made closer to home. Electricity is forecast to supply nearly 30% of final energy use by 2035, against 23% in 2025; solar-led renewables might generate 45-50% of power by then, compared with about a third today; and about 90 GW of nuclear plants were being built in mid-2026, the most in over 35 years. Yet the IEA also flags a risk for sellers: a clear end to the conflict could unleash supply, tipping the market in buyers’ favour and lowering prices. Supply is also shifting elsewhere: Ukrainian drone attacks have cut Russian refineries’ combined crude processing by 45% since late October, and OPEC+ ministers meet from 29 November to set their output policy for 2027."
+   ],
+   "chart": {
+    "title": "OIL THROUGH HORMUZ",
+    "subtitle": "Million barrels a day",
+    "labels": [
+     "Pre-crisis",
+     "2030 forecast"
+    ],
+    "values": [
+     20,
+     8.5
+    ],
+    "max": 25,
+    "value_prefix": "",
+    "highlight_after": 0,
+    "caption": "The 2030 figure is an IEA projection if shipping risks persist; it projects under 2 million by 2035."
+   },
+   "why": "Billions of people depend on oil that passes one narrow strait, so a shock there raises import bills and fuel prices far away and is pushing governments to change how they make energy.",
+   "analyst": "If shipments through Hormuz are already back near pre-war levels, why might the IEA still expect lasting change? For a country that relies on the Strait for over 30% of its oil, what are the costs and benefits of making more of its own electricity, and how quickly could either pay off?",
+   "sources": [
+    {
+     "outlet": "MLQ.ai",
+     "title": "IEA calls the Hormuz crisis the largest energy supply shock in history in its World Energy Outlook",
+     "url": "https://mlq.ai/news/iea-calls-the-hormuz-crisis-the-largest-energy-supply-shock-in-history-in-its-world-energy-outlook/"
+    },
+    {
+     "outlet": "World Oil",
+     "title": "IEA: No 'credible pathway' back to pre-Hormuz energy world, latest outlook finds",
+     "url": "https://www.worldoil.com/news/2026/11/19/iea-no-credible-pathway-back-to-pre-hormuz-energy-world-latest-outlook-finds/"
+    },
+    {
+     "outlet": "Rinnovabili",
+     "title": "World Energy Outlook 2026: Hormuz crisis drives change",
+     "url": "https://www.rinnovabili.net/business/energy/world-energy-outlook-2026-hormuz-crisis/"
+    },
+    {
+     "outlet": "The Edge Malaysia (Reuters)",
+     "title": "Oil set for third weekly drop as ample supply outweighs war risk",
+     "url": "https://theedgemalaysia.com/node/826584"
+    }
+   ]
+  },
+  "science_and_technology": {
+   "kicker": "SCIENCE & TECH  •  NEUROSCIENCE",
+   "headline": "The Brain’s ‘Listening’ Region Also Plans Each Word a Quarter-Second Before We Speak",
+   "deck": "A study in Science, based on recordings from 28 surgery patients, revises a view of Wernicke’s area that dates back to 1874.",
+   "body": [
+    "Scientists have long split language between listening and speaking regions, and since 1874, when the German doctor Carl Wernicke described it, the area named after him has sat on the listening side. A paper in Science on 19 November 2026, by Silva and colleagues working with Edward Chang of the University of California, San Francisco, says that split is too neat: part of Wernicke’s area also builds the words we are about to say.",
+    "The evidence comes from 28 patients awaiting operations for epilepsy or tumours. Using high-resolution electrocorticography and recordings of single neurons, the team followed a patch called the left posterior superior temporal gyrus (lpSTG) during speaking and listening tasks. It responded to heard words, but a distinct subgroup of its neurons also fired shortly before people spoke. In Chang’s words, a word “began in that small part above your left ear” about a quarter of a second before it was spoken.",
+    "Those neurons carry a whole word, not a string of basic sounds. Their activity reflects a word’s length, its syllable count and how common it is; neurons controlling the mouth then convert that plan into movement. Matthew Leonard illustrated the length effect: activity is higher before “caterpillar” than before “cat”.",
+    "Other evidence points the same way. Electrical stimulation of the lpSTG just before speech disrupted it, and lesions, or damage, in the area disrupted people’s ability to produce speech; the team also probed tissue from people whose Wernicke’s area had been surgically removed. In a proof-of-concept test, deep-learning models decoded words that two people with vocal-tract paralysis silently tried to say.",
+    "The authors say the results “reconcile a long-standing division” between two views of the area and “offer a mechanistic foundation for understanding how the human brain builds language”. They suggest it could become a target for speech neuroprostheses, implants that restore speech. Caveats remain. Adeen Flinker of NYU Grossman School of Medicine, in a related commentary, wrote that the area “contains neural populations critically engaged in the planning of speech itself”, though its exact boundaries “may remain ever elusive”, while outside expert Jeffrey Binder hopes the work brings “a more accurate interpretation” of it."
+   ],
+   "illustration": {
+    "title": "WERNICKE’S AREA",
+    "subtitle": "28 patients recorded",
+    "motif": "hospital",
+    "caption": "Brain activity was recorded from people before surgery for epilepsy or tumours."
+   },
+   "why": "Knowing where and when words are planned could guide brain implants that give a voice back to people with paralysis, and it shows how a textbook idea can change when new evidence arrives.",
+   "sources": [
+    {
+     "outlet": "EurekAlert! (AAAS, publisher of Science)",
+     "title": "The brain's hub for speech perception also produces spoken words, human brain recordings show",
+     "url": "https://www.eurekalert.org/news-releases/1151923"
+    },
+    {
+     "outlet": "Science News",
+     "title": "A brain region known for listening helps us speak",
+     "url": "https://www.sciencenews.org/article/brain-region-listening-speak-wernickie"
+    },
+    {
+     "outlet": "Interesting Engineering",
+     "title": "Scientists find brain's hidden speech code that prepares words",
+     "url": "https://interestingengineering.com/science/brain-region-generates-words-before-speech"
+    }
+   ]
+  },
+  "briefs": {
+   "items": [
+    "Climate: At COP31 in Antalya, Turkey, a revised nine-page draft published on 19 November contains no explicit reference to fossil fuels and drops a proposed $120 billion-a-year adaptation target; Panama threatened to formally object, and negotiators expected the talks, due to end on 20 November, to run into Saturday.",
+    "India-Japan: At their fourth “2+2” dialogue in Tokyo on 19 November, the two countries’ foreign and defence ministers agreed to open Indian firing ranges to live-fire training by Japan’s Self-Defense Forces and to build supply chains in semiconductors and critical minerals.",
+    "Britain: Prime Minister Andy Burnham agreed a deal with EU leaders in Brussels on 20 November that lets about 100,000 young people from each side live, work or study in the other’s countries for up to three years, ten years after the 2016 Brexit referendum.",
+    "Germany: Hosting Ukraine’s backers in Berlin on 19 November, Chancellor Friedrich Merz called the Shenzhen meeting a “photo op” and said Europe would not again be carved up as it was at Yalta in February 1945."
+   ],
+   "sources": [
+    {
+     "outlet": "RTÉ",
+     "title": "COP31 draft climate deal removes mention of fossil fuels",
+     "url": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/"
+    },
+    {
+     "outlet": "Associated Press (via KSAT)",
+     "title": "Nations demand fossil fuel cuts as UN climate talks COP31 are wrapping up in Turkey",
+     "url": "https://www.ksat.com/news/world/2026/11/19/nations-demand-fossil-fuel-cuts-as-un-climate-talks-cop31-are-wrapping-up-in-turkey/"
+    },
+    {
+     "outlet": "ThePrint (PTI)",
+     "title": "India, Japan flag 'economic coercion'; agree to deepen strategic, defence cooperation at Tokyo meet",
+     "url": "https://theprint.in/world/india-japan-flag-economic-coercion-agree-to-deepen-strategic-defence-cooperation-at-tokyo-meet/3103503/"
+    },
+    {
+     "outlet": "IntelliNews via Yahoo News",
+     "title": "India opens firing ranges to Japanese missile drills after Tokyo 2+2 talks",
+     "url": "https://www.yahoo.com/news/world/articles/india-opens-firing-ranges-japanese-040631203.html"
+    },
+    {
+     "outlet": "City AM",
+     "title": "Burnham agrees youth migration for 100,000 in EU summit",
+     "url": "https://www.cityam.com/burnham-agrees-youth-migration-for-100000-in-eu-summit/"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "UK leader Andy Burnham says Brexit hasn't worked ahead of reset summit with EU",
+     "url": "https://www.euronews.com/2026/11/17/uk-leader-andy-burnham-says-brexit-hasnt-worked-ahead-of-reset-summit-with-eu"
+    },
+    {
+     "outlet": "Kyiv Post",
+     "title": "'We Won't Allow It Again': Merz Rejects New Yalta After China Summit",
+     "url": "https://www.kyivpost.com/post/90652"
+    }
+   ]
+  },
+  "vocab": {
+   "items": [
+    {
+     "word": "Concurrent resolution",
+     "def": "A measure passed by both houses of the US Congress that does not go to the president for signature. Today: the Iran war powers measure was a concurrent resolution, so even if passed it would have been largely symbolic."
+    },
+    {
+     "word": "Supply shock",
+     "def": "A sudden, large fall in the supply of a good, which tends to push its price up. Today: the IEA called the Hormuz disruption the largest energy supply shock in history."
+    },
+    {
+     "word": "Neuroprosthesis",
+     "def": "A device connected to the nervous system to replace a lost function. Today: researchers suggest Wernicke’s area could become a target for future speech neuroprostheses."
+    },
+    {
+     "word": "Storm surge",
+     "def": "A rise in sea level, above the normal tide, pushed ashore by a storm. Today: the IMD warned a surge of 0.5 to 1 metre could flood low-lying parts of Ganjam and Puri."
+    }
+   ]
+  },
+  "did_you_know": {
+   "text": "Carl Wernicke, the German doctor after whom Wernicke’s area is named, was only 26 years old when he described it in 1874."
+  },
+  "explainer": {
+   "title": "The UN Security Council’s permanent five",
+   "body": [
+    "The UN Security Council has 15 members. Five are permanent: China, France, Russia, the United Kingdom and the United States. The other ten are elected by the General Assembly for two-year terms, and they have no veto.",
+    "Only the five permanent members hold a veto, the power to block the Council’s decisions. That is why the Shenzhen statement’s call for UN reform matters, and why reform is hard. Under Article 108 of the UN Charter, an amendment needs a two-thirds vote of the General Assembly and ratification by two-thirds of UN members, including all five permanent members. India and Japan each support the other’s bid for a permanent seat on a reformed Council."
+   ],
+   "sources": [
+    {
+     "outlet": "CBS News",
+     "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+    },
+    {
+     "outlet": "ThePrint (PTI)",
+     "title": "India, Japan flag 'economic coercion'; agree to deepen strategic, defence cooperation at Tokyo meet",
+     "url": "https://theprint.in/world/india-japan-flag-economic-coercion-agree-to-deepen-strategic-defence-cooperation-at-tokyo-meet/3103503/"
+    },
+    {
+     "outlet": "Council on Foreign Relations",
+     "title": "The UN Security Council (backgrounder)",
+     "url": "https://www.cfr.org/backgrounder/un-security-council"
+    },
+    {
+     "outlet": "Wikipedia",
+     "title": "Amendments to the United Nations Charter",
+     "url": "https://en.wikipedia.org/wiki/Amendments_to_the_United_Nations_Charter"
+    }
+   ]
+  },
+  "quiz": {
+   "title": "Eight questions on this issue",
+   "body": [
+    "<b>1.</b> Where did Trump, Xi and Putin hold their first three-way meeting?",
+    "(a) Miami  (b) Kylin Villa, Shenzhen  (c) Berlin",
+    "<b>2.</b> Which of these was NOT among the joint statement’s points?",
+    "(a) UN reform  (b) A ceasefire in Ukraine  (c) Avoiding nuclear war",
+    "<b>3.</b> How far from the Ukrainian border did the Kh-101 missile land in Poland?",
+    "(a) About 6 km  (b) About 60 km  (c) About 600 km",
+    "<b>4.</b> Near which town did Cyclone Akvan cross the coast?",
+    "(a) Gopalpur  (b) Nellore  (c) Visakhapatnam",
+    "<b>5.</b> About how many people did Odisha move to shelters?",
+    "(a) 37,200  (b) 3.72 lakh  (c) 37 lakh",
+    "<b>6.</b> What was the Senate vote on the Iran war powers resolution?",
+    "(a) 48-51  (b) 51-48  (c) 50-50",
+    "<b>7.</b> What does the IEA project for spending on imported oil and gas in 2026?",
+    "(a) $16 billion  (b) $160 billion  (c) $1.6 trillion",
+    "<b>8.</b> About how long before speaking does the word plan begin in Wernicke’s area?",
+    "(a) A quarter of a second  (b) Two seconds  (c) One minute",
+    "<b>Answers:</b> 1-b, 2-b, 3-b, 4-a, 5-b, 6-a, 7-c, 8-a"
+   ],
+   "sources": []
+  },
+  "watchlist": {
+   "items": [
+    "Antalya, Saturday 21 November: whether COP31 adopts a final text, and whether Panama formally objects unless it adds climate finance, caps oil production and acknowledges failing goals. The draft still aims to raise electricity’s share of global energy use from roughly 21% to 35% by 2035; the next summit is set for Addis Ababa, Ethiopia, in November 2027.",
+    "Warsaw and beyond: NATO Secretary General Mark Rutte is expected in Poland on Saturday after Russian missiles and a drone fell on Polish soil. On peace talks, Germany’s Merz says new talks among Europe, Ukraine, Russia and the US could happen soon, naming the UAE as a possible venue, and US envoy Jared Kushner says Russia has agreed to multilateral talks with Europe.",
+    "Washington, by 11 December: Congress must pass a funding bill to avoid a shutdown, and some Democrats want to use it to cut off money for the Iran war; Rep. Thomas Massie plans another House war powers vote before the lame-duck session ends. Putin is also weighing whether to attend the G20 summit in Miami in December."
+   ]
+  }
+ },
+ "sources": [],
+ "play": {
+  "analyst": {
+   "domino": null,
+   "call": {
+    "story": "lead",
+    "question": "Should Ukraine’s backers welcome three-power meetings like Shenzhen as a channel to Moscow, or refuse any format that leaves Ukraine out?",
+    "premise": "The Shenzhen statement did not mention Ukraine and no Ukrainian or European official attended, yet Putin said all three leaders found it a useful format that could meet again.",
+    "evidence": "Kyiv and European governments had no one at the table.",
+    "framing": "Hypothetical decision based on this story: neither option is a reported proposal; both are framed for learning.",
+    "options": [
+     {
+      "label": "Welcome the channel",
+      "benefit": "Talks among the three biggest powers keep a line open to Putin and may produce steps on nuclear risk or energy that help everyone.",
+      "cost": "Decisions about Ukraine could be shaped without Ukraine, the outcome Zelensky called a huge mistake."
+     },
+     {
+      "label": "Refuse such formats",
+      "benefit": "Insisting that Ukraine and Europe sit at the table protects their say over their own security.",
+      "cost": "Refusing could leave them without influence if the three powers keep meeting anyway, and may slow any opening for talks."
+     }
+    ],
+    "reflection": "What evidence would change your choice: a new peace initiative from a future three-way meeting, Putin agreeing to talks that include Ukraine, or further attacks after the summit?"
+   }
+  },
+  "quiz": [
+   {
+    "q": "Where did Trump, Xi and Putin meet on 19 November?",
+    "options": [
+     "Berlin",
+     "Shenzhen",
+     "Miami"
+    ],
+    "answer": 1,
+    "why": "They met at Kylin Villa in Shenzhen, on the sidelines of the APEC summit.",
+    "story": "lead"
+   },
+   {
+    "q": "What did the joint statement leave out?",
+    "options": [
+     "The war in Ukraine",
+     "Nuclear war",
+     "Oil and gas production"
+    ],
+    "answer": 0,
+    "why": "The statement made no mention of the war in Ukraine or any new peace initiative.",
+    "story": "lead"
+   },
+   {
+    "q": "Which Polish leader called the missile landings a provocation?",
+    "options": [
+     "Mark Rutte",
+     "Friedrich Merz",
+     "Donald Tusk"
+    ],
+    "answer": 2,
+    "why": "Prime Minister Donald Tusk called it a Russian provocation.",
+    "story": "world"
+   },
+   {
+    "q": "How strong was Akvan when it crossed the coast?",
+    "options": [
+     "A cyclonic storm",
+     "A very severe cyclonic storm",
+     "A super cyclonic storm"
+    ],
+    "answer": 0,
+    "why": "It had weakened from a severe cyclonic storm into a cyclonic storm by Friday morning.",
+    "story": "india"
+   },
+   {
+    "q": "Why would the Iran war powers measure have been largely symbolic?",
+    "options": [
+     "It only applied to the Navy",
+     "As a concurrent resolution it would not go to the president",
+     "It expired after 48 hours"
+    ],
+    "answer": 1,
+    "why": "A concurrent resolution would not have gone to the president for signature.",
+    "story": "politics_and_civics"
+   },
+   {
+    "q": "Under the War Powers Resolution, within how many hours must a president notify Congress?",
+    "options": [
+     "24",
+     "60",
+     "48"
+    ],
+    "answer": 2,
+    "why": "The 1973 law requires notice within 48 hours of sending forces into hostilities.",
+    "story": "politics_and_civics"
+   },
+   {
+    "q": "How much oil a day flowed through Hormuz before the crisis?",
+    "options": [
+     "About 20 million barrels",
+     "About 2 million barrels",
+     "About 200 million barrels"
+    ],
+    "answer": 0,
+    "why": "The IEA says about 20 million barrels a day flowed through the Strait before the crisis.",
+    "story": "economics"
+   },
+   {
+    "q": "In the study, what happened when the lpSTG was stimulated just before speaking?",
+    "options": [
+     "Speech got faster",
+     "Speech was disrupted",
+     "Nothing changed"
+    ],
+    "answer": 1,
+    "why": "Electrical stimulation of the area just before speaking disrupted speech.",
+    "story": "science_and_technology"
+   }
+  ],
+  "fact_or_fiction": [
+   {
+    "claim": "The Shenzhen meeting lasted roughly an hour and a half.",
+    "true": true,
+    "why": "The three-way meeting lasted roughly an hour and a half.",
+    "story": "lead"
+   },
+   {
+    "claim": "People were injured when Russian missiles came down in Poland.",
+    "true": false,
+    "why": "No injuries or damage to critical infrastructure were reported in Poland.",
+    "story": "world"
+   },
+   {
+    "claim": "Cyclone Akvan crossed the coast in Andhra Pradesh, as first forecast.",
+    "true": false,
+    "why": "It changed course and crossed the south Odisha coast near Gopalpur.",
+    "story": "india"
+   },
+   {
+    "claim": "The brain study recorded activity from 28 people before surgery.",
+    "true": true,
+    "why": "Researchers recorded brain activity from 28 people having surgery for epilepsy or tumours.",
+    "story": "science_and_technology"
+   }
+  ],
+  "where": [
+   {
+    "story": "lead",
+    "place": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06,
+    "countries": [
+     "China",
+     "United States",
+     "Russia"
+    ]
+   },
+   {
+    "story": "world",
+    "place": "Lublin province, Poland",
+    "lat": 51.25,
+    "lon": 22.57,
+    "countries": [
+     "Poland",
+     "Ukraine",
+     "Russia"
+    ]
+   },
+   {
+    "story": "india",
+    "place": "Gopalpur, Odisha",
+    "lat": 19.26,
+    "lon": 84.91,
+    "countries": [
+     "India"
+    ]
+   },
+   {
+    "story": "politics_and_civics",
+    "place": "Washington, DC",
+    "lat": 38.89,
+    "lon": -77.01,
+    "countries": [
+     "United States",
+     "Iran"
+    ]
+   },
+   {
+    "story": "economics",
+    "place": "Strait of Hormuz",
+    "lat": 26.57,
+    "lon": 56.25,
+    "countries": [
+     "Iran",
+     "Oman"
+    ]
+   }
+  ],
+  "numbers": [
+   {
+    "story": "world",
+    "q": "How many attack drones did Ukraine’s Air Force say Russia launched overnight?",
+    "answer": 404,
+    "prefix": "",
+    "unit": "drones",
+    "min": 50,
+    "max": 1000,
+    "why": "Ukraine’s Air Force said Russia launched 404 attack drones, along with 84 cruise missiles."
+   },
+   {
+    "story": "politics_and_civics",
+    "q": "As of 13 November, how much had the Iran war cost the US at least?",
+    "answer": 48.3,
+    "prefix": "$",
+    "unit": "billion",
+    "min": 5,
+    "max": 150,
+    "why": "The war had cost at least $48.3 billion, not counting damage to US bases."
+   }
+  ],
+  "easy": {
+   "lead": {
+    "headline": "Three World Leaders Meet in China",
+    "body": [
+     "On 19 November, three powerful leaders met together for the first time. They were Donald Trump of the United States, Xi Jinping of China and Vladimir Putin of Russia. They met in Shenzhen, a city in southern China, for about an hour and a half.",
+     "Afterwards they shared a short statement. They promised to help reform the United Nations and to produce more oil and gas. They also said nobody can win a nuclear war.",
+     "The statement did not mention the war in Ukraine. Nobody from Ukraine or Europe was in the room. Putin said Russia would not negotiate with Ukraine after Ukraine attacked a bridge to Crimea."
+    ]
+   },
+   "world": {
+    "headline": "Russian Missiles Land in Poland",
+    "body": [
+     "During the night, Russia fired a huge number of missiles and drones at Ukraine. Ukraine said there were 84 cruise missiles and 404 drones. Most were shot down.",
+     "At least nine people died. Three bridges in Kyiv, Ukraine’s capital, were damaged. Some homes lost power, heating and water.",
+     "Two Russian missiles and a drone fell inside Poland, which is next to Ukraine. Nobody was hurt there. Poland’s leader called it a provocation, which means an act meant to stir up trouble."
+    ]
+   },
+   "india": {
+    "headline": "Cyclone Akvan Reaches Odisha",
+    "body": [
+     "Cyclone Akvan is a big storm from the Bay of Bengal. On the morning of 20 November it reached land near Gopalpur in Odisha. It was weaker than expected, and it came ashore farther north than first forecast.",
+     "Before it arrived, Odisha moved about 3.72 lakh people to nearly 10,000 safe shelters. Officials said nobody had been reported killed so far.",
+     "Over land, a storm loses the warm, wet ocean air that feeds it, so Akvan grew weaker. But heavy rain could still cause floods, and many trains were cancelled."
+    ]
+   },
+   "politics_and_civics": {
+    "headline": "US Senate Votes on the Iran War",
+    "body": [
+     "In the United States, Congress and the president share power over the army. On 19 November, the Senate voted on a plan to bring US forces out of the war with Iran.",
+     "The plan lost by 48 votes to 51. Even if it had passed, it would mostly have been a message, because it would not go to the president to sign.",
+     "Some lawmakers want to keep trying. The war has cost at least $48.3 billion so far."
+    ]
+   },
+   "economics": {
+    "headline": "A Big Shock for the World’s Energy",
+    "body": [
+     "The Strait of Hormuz is a narrow sea route. Before the crisis there, about 20 million barrels of oil passed through it every day.",
+     "The International Energy Agency watches the world’s energy. It says the Hormuz crisis is the biggest energy supply shock in history. Countries will spend about $1.6 trillion this year buying oil and gas from abroad.",
+     "Because of this, many countries are making more of their own energy, such as solar and nuclear power. Oil prices have been falling lately, because ships are passing through again."
+    ]
+   },
+   "science_and_technology": {
+    "headline": "How Your Brain Gets Words Ready",
+    "body": [
+     "Scientists used to think one part of the brain was mainly for listening. It is called Wernicke’s area.",
+     "A new study recorded the brains of 28 people before operations. A small part of this area also gets whole words ready. It does this about a quarter of a second before we speak.",
+     "It works harder before long words like “caterpillar” than short ones like “cat”. One day, this could help build brain devices. They could give a voice back to people who cannot speak."
+    ]
+   }
+  }
+ },
+ "threads": {
+  "lead": "russia-ukraine",
+  "world": "russia-ukraine"
+ }
+}

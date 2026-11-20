@@ -12,7 +12,7 @@
     "For the first time ever, the leaders of the United States, China and Russia met as a trio. Donald Trump, Xi Jinping and Vladimir Putin met for about an hour and a half on Thursday in Shenzhen, a Chinese city hosting the APEC summit.",
     "Their short joint statement warned that “there can be no winners in a nuclear war,” and pledged more oil and gas. That pledge touches family budgets, because crude oil prices feed into what families pay for petrol, diesel, cooking gas and bus fares. Yet it gave no amounts and no timetable, and Hamad Hussain of Capital Economics called it “political noise.”",
     "Brent crude, a world price for oil, fell to $90.33 a barrel on Friday, heading for a third straight weekly drop. Prices fell mainly because shipments through the Strait of Hormuz have returned to about pre-war levels, raising expectations of a supply surplus.",
-    "Trade, the other cost families watch, stayed frozen. Tariffs are taxes on imported goods, and in the 2025 US-China trade war they climbed above 100%. No new tariff rates were announced. The truce agreed in Busan still ends on 10 January 2027, and Trump said he would ask China to “do some more” for American farmers.",
+    "Trade, the other cost families watch, stayed frozen. In the 2025 US-China trade war, tariffs climbed above 100%. The truce agreed in Busan still ends on 10 January 2027, and Trump said he would ask China to “do some more” for American farmers.",
     "One subject never made it into the statement: the war in Ukraine. Neither Ukraine nor any European government was in the room. Putin ruled out direct talks with Ukraine after a Ukrainian strike on the Kerch Bridge to Crimea. Ukraine’s President Volodymyr Zelensky had called it a “huge mistake” for big powers to decide about smaller nations without them."
    ],
    "map": {
@@ -224,7 +224,7 @@
    ]
   },
   "did_you_know": {
-   "text": "Shenzhen was a small town next to Hong Kong until China made it one of its first Special Economic Zones in 1980."
+   "text": "In May 1980, China declared Shenzhen, then a fishing village next to Hong Kong, a special economic zone."
   },
   "us": {
    "kicker": "UNITED STATES  •  CONGRESS",
@@ -529,5 +529,9 @@
     ]
    }
   }
+ },
+ "threads": {
+  "lead": "russia-ukraine",
+  "world": "russia-ukraine"
  }
 }
