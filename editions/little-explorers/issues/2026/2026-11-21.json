@@ -1,0 +1,278 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-11-21",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  CHINA",
+      "headline": "Three Big Countries Sit at One Table",
+      "deck": "Leaders of the US, China and Russia agreed a nuclear war must never happen.",
+      "body": [
+        "Three leaders of very big countries met at one table this week. They were Donald Trump of the United States, Xi Jinping of China and Vladimir Putin of Russia. They met on November 19 in Shenzhen, a city in China.",
+        "At the end of their meeting, the three leaders signed what they called a declaration toward peace. In it, they said a nuclear war can never be won and must never be fought. Nuclear weapons are very powerful weapons.",
+        "But one big problem was left out. Russia has been fighting a war in Ukraine. The leaders did not agree how to end it, and their statement did not even mention it. No one from Ukraine was at the table."
+      ],
+      "map": {
+        "title": "THREE BIG COUNTRIES",
+        "label_top": "RUSSIA",
+        "label_bottom": "CHINA",
+        "footnote": "The leaders met in Shenzhen, China",
+        "caption": "The leaders of the United States, China and Russia met in Shenzhen.",
+        "countries": [
+          "United States",
+          "China",
+          "Russia"
+        ]
+      },
+      "why": "When these three countries get along, the whole world can feel a little safer.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+          "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Trump, Xi and Putin agree a nuclear war 'must never be fought' at landmark meeting",
+          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks",
+          "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ERITREA",
+      "headline": "A Country Beats an Eye Sickness",
+      "deck": "Eritrea, in East Africa, has stopped trachoma from being a big health problem.",
+      "body": [
+        "Trachoma is a sickness of the eyes. It is caused by tiny germs called bacteria. It spreads when germs from one person's eyes or nose reach another person.",
+        "If a person catches it again and again, the eyelid can get scars. Then the eyelashes can turn inward, toward the eye. Over time, this can make a person blind, which means they cannot see.",
+        "That is why a big health group is cheering for Eritrea, a country in East Africa. On November 16, the World Health Organization, called WHO, said Eritrea has beaten trachoma as a public health problem. It is the 34th country in the world to do this.",
+        "How did Eritrea do it? It used a plan called SAFE. S is for surgery. A is for antibiotics, medicines that fight bacteria. F is for clean faces. E is for a better environment, like clean water and toilets.",
+        "Around the world, far fewer people need help with trachoma now. In 2002, about 1.5 billion people did. By November 2025, fewer than 100 million did."
+      ],
+      "illustration": {
+        "title": "HEALTHY EYES",
+        "subtitle": "Eritrea, East Africa",
+        "motif": "hospital",
+        "caption": "Simple steps like clean faces and clean water help stop trachoma."
+      },
+      "why": "Eritrea shows that simple things, like clean water and medicine, can protect people's eyes.",
+      "sources": [
+        {
+          "outlet": "AllAfrica (WHO press release)",
+          "title": "Eritrea Eliminates Trachoma - a Major Public Health Milestone",
+          "url": "https://allafrica.com/stories/202611160817.html"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  NATURE",
+      "headline": "Hundreds of Glaciers Have Melted Away",
+      "deck": "Scientists checked the ice on mountains in six western states.",
+      "body": [
+        "A glacier is a giant sheet of ice that stays on a mountain all year. Scientists studied more than 1,300 glaciers in six states in the western United States.",
+        "They compared old records from the 1950s to the 1980s with pictures taken from planes and satellites around 2015. Nearly 400 glaciers have disappeared. The ones that are left have lost about one third of their ice.",
+        "Some mountains lost even more. In California's Sierra Nevada, the land covered by glaciers shrank by about 64 percent. In Wyoming's Wind River Range, it shrank by about 48 percent. Other glaciers last longer because steep rock walls shade them from the sun."
+      ],
+      "chart": {
+        "title": "GLACIER LAND LOST",
+        "subtitle": "Percent of glacier area gone",
+        "labels": [
+          "Sierra Nevada",
+          "Wind River"
+        ],
+        "values": [
+          64,
+          48
+        ],
+        "max": 100,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Both mountain areas lost about half or more of their glacier land."
+      },
+      "why": "Glaciers are like water towers. In hot, dry months, their melting ice keeps streams cold and flowing.",
+      "sources": [
+        {
+          "outlet": "KUNC (Mountain West News Bureau)",
+          "title": "Nearly 400 glaciers have vanished across the West as climate warms, study finds",
+          "url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Space: NASA's Voyager 1 is now so far away that a radio message from Earth takes a whole day to reach it.",
+        "Turkey: At big climate talks in Antalya, nearly 200 countries were still arguing over a final deal after the meeting was meant to end."
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ANIMALS",
+      "headline": "Lost Meerkats Find Their Way Home",
+      "deck": "Alone and far from their group, most meerkats walked straight back.",
+      "body": [
+        "Meerkats are small animals that live in groups in the Kalahari Desert, in southern Africa. Scientists from the University of Zurich wondered something. Can one meerkat find its way home all alone?",
+        "To find out, they put GPS collars on meerkats. GPS tracks where something is. The scientists took one meerkat at a time 1.5 kilometres away and let it go. Then they followed it on foot.",
+        "They tried this 20 times. 18 of the 20 meerkats went straight back to their group or to the spot where they were caught. The other two may have been too stressed to move.",
+        "How did they do it? Each meerkat stood up on its back legs to look around. Then it walked in a straight line, stopping now and then to look again or to sniff for smells it knew."
+      ],
+      "why": "Meerkats live in groups, so scientists were surprised that each one seems to know the way by itself.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Solo meerkats can find their way back home",
+          "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+        },
+        {
+          "outlet": "Phys.org",
+          "title": "Individual meerkats are ace solo navigators",
+          "url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Declaration",
+          "def": "A set of words that a group writes down and agrees to. Today: Three leaders signed a declaration in China."
+        },
+        {
+          "word": "Bacteria",
+          "def": "Tiny living things, too small to see, that can make people sick. Today: Bacteria cause trachoma."
+        },
+        {
+          "word": "Glacier",
+          "def": "A giant sheet of ice that stays on a mountain all year. Today: Nearly 400 glaciers have disappeared."
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+    "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
+    "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
+    "https://allafrica.com/stories/202611160817.html",
+    "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study",
+    "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+    "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html",
+    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "https://news.un.org/en/story/2026/11/1168845"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "In which country did the three leaders meet?",
+        "options": [
+          "China",
+          "Germany",
+          "Ukraine"
+        ],
+        "answer": 0,
+        "why": "They met in Shenzhen, a city in China.",
+        "story": "lead"
+      },
+      {
+        "q": "What does the A in SAFE stand for?",
+        "options": [
+          "Apples",
+          "Animals",
+          "Antibiotics"
+        ],
+        "answer": 2,
+        "why": "A is for antibiotics, medicines that fight bacteria.",
+        "story": "world"
+      },
+      {
+        "q": "What did a meerkat do first to find its way?",
+        "options": [
+          "It dug a hole",
+          "It stood up to look around",
+          "It called its group"
+        ],
+        "answer": 1,
+        "why": "Each meerkat stood up on its back legs to look around.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Nearly 400 glaciers have disappeared in the western United States.",
+        "true": true,
+        "why": "The scientists found that nearly 400 glaciers have disappeared.",
+        "story": "us"
+      },
+      {
+        "claim": "All 20 meerkats found their way home.",
+        "true": false,
+        "why": "18 of the 20 meerkats went straight back. Two may have been too stressed to move.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Shenzhen, China",
+        "lat": 22.54,
+        "lon": 114.06,
+        "countries": [
+          "China",
+          "United States",
+          "Russia"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Eritrea",
+        "lat": 15.3,
+        "lon": 39.0,
+        "countries": [
+          "Eritrea"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Sierra Nevada, California",
+        "lat": 37.5,
+        "lon": -119.0,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Kalahari Desert",
+        "lat": -26.5,
+        "lon": 21.0,
+        "countries": [
+          "South Africa"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "us",
+        "q": "About how many glaciers have disappeared in the western United States?",
+        "answer": 400,
+        "prefix": "",
+        "unit": "glaciers",
+        "min": 50,
+        "max": 1300,
+        "why": "Nearly 400 glaciers have disappeared, more than a quarter of them."
+      },
+      {
+        "story": "science_and_technology",
+        "q": "How many of the 20 meerkats went straight back home?",
+        "answer": 18,
+        "prefix": "",
+        "unit": "meerkats",
+        "min": 0,
+        "max": 20,
+        "why": "18 of the 20 meerkats went straight back to their group or where they were caught."
+      }
+    ]
+  }
+}

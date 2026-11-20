@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "edition": "little-explorers",
+  "date": "2026-11-21",
+  "question": "Healthy eyes in Eritrea and meerkats that find their way home",
+  "stories": [
+    {
+      "block": "world",
+      "kicker": "HEALTH • ERITREA",
+      "headline": "Eritrea beats an eye sickness",
+      "deck": "A simple plan helped stop trachoma from being a big health problem.",
+      "body": [
+        "Trachoma is an eye sickness caused by tiny germs called bacteria. If people catch it again and again, it can make them blind.",
+        "On November 16, the World Health Organization said Eritrea, in East Africa, has beaten trachoma as a public health problem. It is the 34th country to do this.",
+        "Eritrea used a plan called SAFE: surgery, antibiotic medicines, clean faces, and a better environment, like clean water and toilets."
+      ],
+      "evidence": [
+        "Trachoma is a sickness of the eyes. It is caused by tiny germs called bacteria.",
+        "On November 16, the World Health Organization, called WHO, said Eritrea has beaten trachoma as a public health problem. It is the 34th country in the world to do this.",
+        "It used a plan called SAFE. S is for surgery. A is for antibiotics, medicines that fight bacteria. F is for clean faces. E is for a better environment, like clean water and toilets."
+      ],
+      "why": "Simple things, like clean water and medicine, can protect people's eyes.",
+      "sources": [
+        "https://allafrica.com/stories/202611160817.html"
+      ]
+    },
+    {
+      "block": "science_and_technology",
+      "kicker": "ANIMALS • KALAHARI DESERT",
+      "headline": "Meerkats find the way home",
+      "deck": "Alone and far from their group, most meerkats walked straight back.",
+      "body": [
+        "Scientists in the Kalahari Desert, in southern Africa, put GPS collars on meerkats. Then they took one meerkat at a time 1.5 kilometres away and let it go.",
+        "Each meerkat stood up on its back legs to look around. Then it walked in a straight line. It stopped now and then to look again or to sniff for smells it knew.",
+        "In 20 tries, 18 meerkats went straight back. The other two may have been too stressed to move."
+      ],
+      "evidence": [
+        "Meerkats are small animals that live in groups in the Kalahari Desert, in southern Africa.",
+        "Each meerkat stood up on its back legs to look around. Then it walked in a straight line, stopping now and then to look again or to sniff for smells it knew.",
+        "18 of the 20 meerkats went straight back to their group or to the spot where they were caught. The other two may have been too stressed to move."
+      ],
+      "why": "Meerkats live in groups, but each one seems to know the way by itself.",
+      "sources": [
+        "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+        "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW A MEERKAT GETS HOME",
+        "caption": "What scientists saw meerkats do after being let go 1.5 kilometres away.",
+        "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+        "items": [
+          {
+            "label": "Stand up on back legs to look around",
+            "evidence": "Each meerkat stood up on its back legs to look around."
+          },
+          {
+            "label": "Walk in a straight line",
+            "evidence": "Then it walked in a straight line."
+          },
+          {
+            "label": "Stop to look again or sniff for smells it knew",
+            "evidence": "It stopped now and then to look again or to sniff for smells it knew."
+          }
+        ]
+      }
+    }
+  ],
+  "find_it": {
+    "story_block": "world",
+    "map": {
+      "title": "WHERE IN THE WORLD?",
+      "countries": [
+        "Eritrea"
+      ],
+      "footnote": "Natural Earth locator map"
+    },
+    "text": "Find Eritrea, a country in East Africa.",
+    "evidence": "That is why a big health group is cheering for Eritrea, a country in East Africa."
+  },
+  "comic": {
+    "story_block": "science_and_technology",
+    "panels": [
+      {
+        "speaker": "Leo",
+        "text": "How can a meerkat find home all by itself?",
+        "evidence": "Scientists from the University of Zurich wondered something. Can one meerkat find its way home all alone?"
+      },
+      {
+        "speaker": "Tara",
+        "text": "It stands up to look around, then walks in a straight line.",
+        "evidence": "Each meerkat stood up on its back legs to look around. Then it walked in a straight line, stopping now and then to look again or to sniff for smells it knew."
+      },
+      {
+        "speaker": "Leo",
+        "text": "And it sniffs for smells it knows. Clever!",
+        "evidence": "Each meerkat stood up on its back legs to look around. Then it walked in a straight line, stopping now and then to look again or to sniff for smells it knew."
+      }
+    ]
+  },
+  "sources": [
+    "https://allafrica.com/stories/202611160817.html",
+    "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+    "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+  ]
+}
