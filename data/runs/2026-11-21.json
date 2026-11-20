@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-21",
+  "by": "claude-code",
+  "editions": {
+    "breakfast-table": {
+      "status": "passed",
+      "reason": "Sports corner left as a quiet day: hockey facts could not be verified by search.",
+      "poster": null
+    },
+    "current-affairs-digest": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "junior-daily": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "junior-explorer": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "lab-notebook": {
+      "status": "passed",
+      "reason": "",
+      "poster": null
+    },
+    "little-explorers": {
+      "status": "passed",
+      "reason": "",
+      "poster": "passed"
+    }
+  },
+  "enrichment": {
+    "enabled": true,
+    "selected": 3,
+    "stories": [
+      {
+        "headline": "Trump, Xi and Putin meet together in China and agree a nuclear war 'must never be fought', but make no big breakthroughs",
+        "status": "enriched",
+        "source_urls": [
+          "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+        ]
+      },
+      {
+        "headline": "COP31 climate talks in Antalya run past their deadline as countries fight over a draft that leaves out fossil fuels",
+        "status": "enriched",
+        "source_urls": [
+          "https://news.un.org/en/story/2026/11/1168845"
+        ]
+      },
+      {
+        "headline": "Democrats weigh using Congress's 'power of the purse' to cut off Iran war money, raising risk of a shutdown",
+        "status": "enriched",
+        "source_urls": [
+          "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+        ]
+      }
+    ]
+  }
+}

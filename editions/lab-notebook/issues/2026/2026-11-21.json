@@ -1,0 +1,698 @@
+{
+  "edition": "lab-notebook",
+  "date": "2026-11-21",
+  "volume": 1,
+  "issue": 5,
+  "threads": {
+    "history_and_geography": "russia-ukraine"
+  },
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  PUBLIC HEALTH SCIENCE",
+      "headline": "Why the US Lost Its Measles-Free Label",
+      "deck": "One chain of infection ran for a whole year. The numbers show why a very contagious virus needs very high vaccination.",
+      "body": [
+        "To health officials, eliminated does not mean zero cases. Measles counts as eliminated when the virus is not spreading locally. A country loses that status when a single chain of infection continues without interruption for at least 12 months. On 17 November, the Pan American Health Organization (PAHO) said the United States and Mexico had lost their measles-elimination status, because the virus had been spreading without a break for at least 12 months. Bolivia lost its status too.",
+        "For the United States, that ends 26 years with the status. CDC data show more than 5,400 confirmed cases in 2026, almost 600 hospitalisations and 10 deaths so far. The 2026 count is already double the total for 2025.",
+        "Why can measles come back so fast? It is one of the most contagious diseases known. Where people are not protected, one infected person can spread it to 12 to 18 others, through coughs and droplets that can stay in the air for a couple of hours.",
+        "That speed is why measles returns when too few people are vaccinated. One dose of the MMR vaccine gives about 93% protection, and a second dose about 97%. Experts say about 95% vaccination is needed for herd immunity, and Centers for Disease Control and Prevention (CDC) data show 92% of kindergartners were vaccinated last school year, below that 95% line.",
+        "To win the status back, PAHO expects the US, Mexico and Bolivia to send plans in the coming weeks showing how they will stop transmission for at least a year."
+      ],
+      "map": {
+        "title": "THREE COUNTRIES LOSE THEIR STATUS",
+        "label_top": "UNITED STATES AND MEXICO",
+        "label_bottom": "BOLIVIA, SOUTH AMERICA",
+        "footnote": "PAHO announced the change on 17 November",
+        "caption": "The map marks the United States, Mexico and Bolivia, which lost measles-elimination status.",
+        "countries": [
+          "United States of America",
+          "Mexico",
+          "Bolivia"
+        ],
+        "place": "Mexico City"
+      },
+      "why": "Measles shows how one number, the share of people vaccinated, decides whether a disease fades or keeps spreading.",
+      "sources": [
+        {
+          "outlet": "PBS NewsHour (AP)",
+          "title": "U.S. and Mexico officially lose measles-elimination status",
+          "url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+        },
+        {
+          "outlet": "CBS Texas",
+          "title": "U.S. loses its 26-year measles elimination status as cases more than double in a year",
+          "url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  LAW AND EVIDENCE",
+      "headline": "Judges Weigh the Evidence and Find Myanmar Responsible for Genocide",
+      "deck": "The UN's top court ruled 9 votes to 6 in a case brought by The Gambia, and ordered Myanmar to make amends to the Rohingya.",
+      "body": [
+        "A court case is decided on evidence: what happened, to whom, and on what scale. On Thursday 19 November, the International Court of Justice (ICJ), the UN's top court in The Hague, ruled in the case The Gambia v. Myanmar. It found Myanmar responsible for genocide against the Rohingya, a Muslim minority, and said Myanmar also failed to prevent and punish genocide. UN News reports it is the first such ruling against a State under the Genocide Convention.",
+        "The case concerns the 2017 'clearance operations', a military crackdown in northern Rakhine state on Myanmar's coast. The court said about 10,000 Rohingya were killed and about 700,000 fled northern Rakhine to Bangladesh. It also measured the damage to places: nearly 400 villages, about 40% of the nearly 1,000 villages in three northern Rakhine townships, were partly or wholly destroyed.",
+        "Even with that evidence, the judges did not all agree. They decided by 9 votes to 6 that Myanmar committed genocide in northern Rakhine. Myanmar has given its own explanation: it has said its crackdown was a response to attacks on police posts by fighters from the Arakan Rohingya Salvation Army.",
+        "The country that brought the case is far from Myanmar. The Gambia, a small nation in West Africa, started it in November 2019 and called the ruling 'a historic day for international justice'. UN Secretary-General Antonio Guterres called the judgment a 'powerful recognition of the Rohingya victims of genocide'.",
+        "The ruling also lists what Myanmar must now do. The court ordered it to pay compensation, allow the safe, voluntary and dignified return of displaced Rohingya, reunite families, and report back within two years. The need is large: more than 1.3 million Rohingya remain displaced, about 1.2 million of them in refugee camps in Cox's Bazar, Bangladesh."
+      ],
+      "illustration": {
+        "title": "THE GAMBIA V. MYANMAR",
+        "subtitle": "The UN's top court",
+        "motif": "court",
+        "caption": "The judges ruled 9 votes to 6 that Myanmar committed genocide in northern Rakhine."
+      },
+      "connect": "Civics: a court ruling against a whole country is different from a trial of one person, and it can order a state to repair harm. Geography: Rakhine borders Bangladesh, which is why so many Rohingya fled there.",
+      "sources": [
+        {
+          "outlet": "UN News",
+          "title": "World's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://news.un.org/en/story/2026/11/1168836"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  FOSSIL EVIDENCE",
+      "headline": "North Sea Bones Show Killer Whales Hunted Big Prey 2 Million Years Ago",
+      "deck": "A few fossil pieces from fishing nets, dated by tiny algae and sized with 3D models, rewrite the orca's story.",
+      "body": [
+        "How do you study an animal that lived more than 2 million years ago when all you have are a few broken bones? A team led by Hidde Bakker tackled that question for killer whales, also called orcas, in a study in the journal PeerJ. Their evidence is two skull fragments, part of a lower jaw and two sets of fused neck vertebrae from ancient orcas of the genus Orcinus.",
+        "The bones came from an unusual place. Commercial fishing trawlers pulled them from the seabed of the southern North Sea, and they are now kept at the Natural History Museum Rotterdam in the Netherlands. To date them, the team turned to the sediment stuck to one skull fragment: microscopic fossils of marine algae in that sediment dated it to 2.6 to 2.1 million years ago. Different kinds of algae lived during different, known stretches of time, so the mix of tiny fossils in the mud works like a date stamp.",
+        "Size came next. The researchers measured the bones and compared them with modern and extinct killer whales and dolphins. They also laid 3D models of the skull pieces over the skeleton of a modern killer whale 5.96 metres long. The larger ancient animals were estimated at 7.2 to 7.7 metres (23.6 to 25.3 feet), which the authors say is comparable to the largest living male orcas.",
+        "The jaw gives clues about what they ate. It has large, deep, widely spaced tooth sockets, pointing to big teeth with long, strong roots able to tackle large prey. That matters because genetic studies had placed the rise of specialised killer whale groups at around 770,000 to 120,000 years ago. This find pushes the ability to hunt big prey back to more than 2 million years ago.",
+        "Fossils and genes are two different kinds of evidence, and here they tell different stories about timing. Some questions remain open, too. Scientists still do not know whether the fossils belong to an early population of today's killer whale or to a separate, unnamed large species."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW A FEW BONES WERE READ",
+        "caption": "The study's methods as reported: where the fossils came from, how they were dated and how size was estimated.",
+        "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html",
+        "items": [
+          {
+            "label": "Trawlers pull the fossils from the southern North Sea seabed",
+            "evidence": "Commercial fishing trawlers pulled them from the seabed of the southern North Sea"
+          },
+          {
+            "label": "Algae fossils in stuck-on sediment date them to 2.6-2.1 million years",
+            "evidence": "microscopic fossils of marine algae in that sediment dated it to 2.6 to 2.1 million years ago"
+          },
+          {
+            "label": "3D skull models over a modern skeleton give lengths up to 7.7 m",
+            "evidence": "The larger ancient animals were estimated at 7.2 to 7.7 metres"
+          }
+        ]
+      },
+      "why": "When fossils and genetic studies disagree about timing, scientists have to weigh both kinds of evidence. A handful of bones has changed the date for when orcas became big-prey hunters.",
+      "sources": [
+        {
+          "outlet": "Phys.org",
+          "title": "Killer whales became fearsome predators long before scientists thought",
+          "url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+        }
+      ]
+    },
+    "climate_and_environment": {
+      "kicker": "CLIMATE & ENVIRONMENT  •  CLIMATE TALKS",
+      "headline": "COP31 Runs Late Over a Draft That Never Says 'Fossil Fuels'",
+      "deck": "The text in Antalya admits warming will pass 1.5C, but countries object that it leaves out the main cause.",
+      "body": [
+        "A climate agreement is a piece of text, and every word in it is negotiated. At COP31, the UN climate summit in Antalya, Turkey, nearly 200 countries were due to finish that text by Friday 20 November. By Friday afternoon, the presidency had not published a new version, so delegations were still working from Thursday's draft and the talks ran past their deadline.",
+        "What that draft leaves out is the heart of the fight. It shrank to nine pages, down from 18 in Monday's draft, and contained no explicit reference to fossil fuels. Yet burning coal, oil and gas is the main cause of global warming. Instead, several of its paragraphs promote carbon capture technologies, which aim to trap carbon dioxide before it reaches the air.",
+        "Some targets stayed in the text and some were cut. The draft keeps a goal of electricity reaching 35% of global energy use by 2035, and it recognises that global warming is projected to exceed 1.5C, the Paris Agreement's ambition. Australia's Chris Bowen, who is leading the negotiations, said COP31 would be the first summit to acknowledge the world will miss that goal. But the draft removed a proposal to raise yearly adaptation funding for developing countries to at least $120 billion by 2035, while keeping COP30's commitment to triple adaptation finance.",
+        "The objections came quickly. Panama's Environment Minister Juan Carlos Navarro said Panama would formally object to any agreement that leaves out fossil fuels. Because UN climate decisions are adopted by consensus, a single formal objection could delay or derail the deal. France's minister Monique Barbut said leaving out fossil fuels while promoting carbon capture means 'we don't recognize what is the problem'. Belgium, Cote d'Ivoire, Finland, Greece, Guatemala, Spain, Sweden and Vanuatu joined France and Panama.",
+        "The hosts point to other results. COP31 President Murat Kurum named the text the 'Antalya Declaration', and Turkey says it has agreed deals and plans worth more than $26 billion since the summit began on 9 November, including a preliminary $15 billion renewable-energy deal with China. Critics were not persuaded: Mohamed Adow of Power Shift Africa called the meeting 'the worst COP ever'."
+      ],
+      "visual": {
+        "type": "positions",
+        "title": "WHERE THE FOSSIL-FUEL FIGHT STANDS",
+        "caption": "Positions reported on 19 and 20 November; no final deal had been adopted.",
+        "source_url": "https://news.un.org/en/story/2026/11/1168845",
+        "items": [
+          {
+            "label": "Draft: no explicit mention of fossil fuels",
+            "evidence": "contained no explicit reference to fossil fuels"
+          },
+          {
+            "label": "Panama: will object to a deal without them",
+            "evidence": "Panama would formally object to any agreement that leaves out fossil fuels"
+          },
+          {
+            "label": "France: the draft misses the problem",
+            "evidence": "leaving out fossil fuels while promoting carbon capture means 'we don't recognize what is the problem'"
+          }
+        ]
+      },
+      "why": "Scientists can measure warming, but cutting it depends on what countries agree to write down. A text that never names the main cause shows how hard that step is.",
+      "sources": [
+        {
+          "outlet": "UN News",
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+          "url": "https://news.un.org/en/story/2026/11/1168845"
+        },
+        {
+          "outlet": "RTE",
+          "title": "COP31 draft climate deal removes mention of fossil fuels",
+          "url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+        },
+        {
+          "outlet": "ThePrint (Reuters)",
+          "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
+          "url": "https://theprint.in/world/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/3104222/"
+        }
+      ]
+    },
+    "health": {
+      "kicker": "HEALTH  •  OUTBREAK SCIENCE",
+      "headline": "Congo's Ebola Count Passes 11,000 as Tailor-Made Vaccines Join a Trial",
+      "deck": "This outbreak is caused by Bundibugyo virus, which the approved Ebola vaccine was not made for.",
+      "body": [
+        "Health experts follow an outbreak by counting: new cases, deaths, recoveries, and how fast the numbers grow. On 17 November, WHO chief Tedros Adhanom Ghebreyesus opened the third meeting of an emergency committee of experts on the Ebola outbreak in the Democratic Republic of the Congo (DRC), and gave its members the latest count. Six months after the outbreak was declared, more than 11,000 cases and 5,400 deaths have been reported in 67 health zones across eight provinces.",
+        "The trend is the worrying part. Cases have more than doubled since the committee last met three months ago, and 400 to 500 new cases are still reported every week. The European Centre for Disease Prevention and Control (ECDC), using data up to 14 November, counts 11,376 confirmed cases in the DRC. The eight provinces are Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uele, Bas-Uele, Sud Ubangi and Nord Ubangi. Outside the DRC, Kenya has had nine cases and Nigeria one, and Uganda's outbreak has ended.",
+        "Which virus is behind it matters for the science. This outbreak is caused by Bundibugyo virus, and there is no approved vaccine for it. A vaccine trial began last month using Ervebo, which is approved for Ebola virus but not for Bundibugyo virus. In the coming weeks, two candidate vaccines designed for Bundibugyo virus will be added to the trial, so scientists can test vaccines made for the right target.",
+        "Other numbers show how the response has grown. At the start, only two laboratories could test for the virus; now there are more than two dozen. There are close to 2,000 treatment beds, and about 3,000 people have recovered. Each of those figures is a measure of capacity: more laboratories mean more samples can be tested, and more beds mean more patients can be cared for.",
+        "Tedros also warned that blanket travel bans hinder the response, saying: 'Targeted, evidence-based measures work better.' The ECDC, which tracks the outbreak for Europe, judges the chance of infection for people living in Europe as very low."
+      ],
+      "illustration": {
+        "title": "BUNDIBUGYO VIRUS OUTBREAK",
+        "subtitle": "Eight DRC provinces",
+        "motif": "hospital",
+        "caption": "There are now close to 2,000 treatment beds and more than two dozen testing laboratories."
+      },
+      "why": "A vaccine works best when it is made for the right virus, so testing vaccines designed for Bundibugyo virus could give doctors a better tool against this outbreak.",
+      "sources": [
+        {
+          "outlet": "World Health Organization",
+          "title": "WHO Director-General's opening remarks at the third IHR Emergency Committee meeting on Bundibugyo virus disease epidemic in the DRC - 17 November 2026",
+          "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+        },
+        {
+          "outlet": "ECDC",
+          "title": "Ebola disease: Multi-country outbreak 2026",
+          "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026"
+        }
+      ]
+    },
+    "history_and_geography": {
+      "kicker": "HISTORY & GEOGRAPHY  •  1945 AND NOW",
+      "headline": "Why European Leaders Answered Shenzhen With One Word: Yalta",
+      "deck": "A 1945 conference is back in the news, and the historical record explains why Europe and Russia remember it so differently.",
+      "body": [
+        "Three leaders, one table, and no mention of Ukraine. On 19 November in Shenzhen, China, Donald Trump of the US, Vladimir Putin of Russia and Xi Jinping of China met together for the first time. Their four-point 'Declaration toward Peace' covered UN reform, oil supplies, the International Criminal Court and nuclear risks, but left out Russia's war in Ukraine.",
+        "A historical label was attached to the meeting before it began. Pyotr Tolstoy, head of the foreign affairs committee in Russia's parliament, said it might be a 'new Yalta'. That word points to 4 to 11 February 1945, when three wartime leaders met at a resort town in Crimea: Franklin D. Roosevelt of the US, Winston Churchill of Britain and Joseph Stalin of the Soviet Union.",
+        "What does the record say happened there? The US State Department's historians list the main agreements. Stalin's government promised free elections in every territory freed from Nazi Germany. A separate declaration on Poland made room for Communists in its government after the war, and Washington and London accepted that the Soviet Union's Eastern European neighbours should have governments 'friendly' to it. The conference also created the UN Security Council, with five permanent members. Critics later accused Roosevelt of handing Eastern Europe to the Soviet Union.",
+        "European leaders meeting in Berlin drew on that record the same day and said no to any new Yalta. 'A Yalta format will not bring peace,' warned Germany's Chancellor Friedrich Merz. 'At Yalta, Europe was divided up.' To make the point, he handed out pieces of the Berlin Wall.",
+        "Putin offers a different reading of the same history. He said the 1945 meeting was not necessarily bad, since it was where victory over Nazism was formally set down, and argued that Yalta 'just codified the realities'."
+      ],
+      "visual": {
+        "type": "positions",
+        "title": "TWO READINGS OF YALTA",
+        "caption": "How leaders described the 1945 conference this week; historians' record of Yalta is set out in the story.",
+        "source_url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/",
+        "items": [
+          {
+            "label": "Merz: 'At Yalta, Europe was divided up'",
+            "evidence": "'At Yalta, Europe was divided up.'"
+          },
+          {
+            "label": "Putin: Yalta 'just codified the realities'",
+            "evidence": "Yalta 'just codified the realities'"
+          }
+        ]
+      },
+      "why": "History is evidence that leaders use in arguments today. Knowing what Yalta actually decided helps you judge each side's claim about it.",
+      "analyst": "Merz and Putin point to the same conference. Which facts from 1945 does each one stress, and which does each leave out? What would you need to read to decide for yourself?",
+      "sources": [
+        {
+          "outlet": "The Irish Times",
+          "title": "Putin invites European leaders to Moscow for peace talks as Russia pounds Kyiv",
+          "url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "title": "'We Won't Allow It Again': Merz Rejects New Yalta After China Summit",
+          "url": "https://www.kyivpost.com/post/90652"
+        },
+        {
+          "outlet": "European Business Magazine",
+          "title": "Trump, Xi and Putin Hold First Three-Way Summit on 19 Nov",
+          "url": "https://europeanbusinessmagazine.com/trump-xi-putin-shenzhen"
+        },
+        {
+          "outlet": "US State Department, Office of the Historian",
+          "title": "The Yalta Conference, 1945 (Milestones)",
+          "url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Ukraine: Russia fired more than 400 drones and 110 missiles overnight into 20 November, damaging three Kyiv bridges and killing at least eight people; Poland called objects that crossed its border 'an intentional provocation'.",
+        "Space: NASA's Voyager 1 reached one light-day from Earth on 18 November, so a radio message now takes 24 hours to reach it and another 24 hours to come back.",
+        "Spaceflight: On 14 November SpaceX caught its Starship upper stage, Ship 42, with its launch tower's arms, the first time it has caught a Ship returning from orbit.",
+        "Eritrea: The World Health Organization confirmed on 16 November that Eritrea has eliminated trachoma, the world's leading infectious cause of blindness, as a public health problem."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Herd immunity",
+          "def": "Protection for a whole community that comes when so many people are immune that a disease struggles to spread. Today: about 95% vaccination is needed for measles herd immunity."
+        },
+        {
+          "word": "Consensus",
+          "def": "A decision that every member accepts, with no one formally objecting. Today: UN climate decisions are adopted by consensus, so one objection at COP31 could derail the deal."
+        },
+        {
+          "word": "Sediment",
+          "def": "Sand, mud or other material that settles at the bottom of water. Today: tiny algae fossils in sediment stuck to an orca skull helped date it to 2.6 to 2.1 million years ago."
+        },
+        {
+          "word": "Compensation",
+          "def": "Money or other help given to make up for harm or loss. Today: the ICJ ordered Myanmar to pay compensation to the Rohingya."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "An orca is not a whale in the everyday sense: killer whales are the largest members of the dolphin family."
+    },
+    "explainer": {
+      "title": "How herd immunity stops a virus",
+      "body": [
+        "A virus survives by moving from person to person. Measles is very good at this: where people are not protected, one infected person can pass it to 12 to 18 others. Each of those people can then pass it on, so a single case can start a long chain of infection.",
+        "Vaccination breaks the chain. Two doses of the MMR vaccine give about 97% protection, so most vaccinated people cannot carry the chain forward. When enough of a community is vaccinated, about 95% for measles, the virus keeps running into protected people and the chain dies out. That also shields people who cannot be vaccinated, such as very young babies."
+      ],
+      "sources": [
+        {
+          "outlet": "CBS Texas",
+          "title": "U.S. loses its 26-year measles elimination status as cases more than double in a year",
+          "url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> How long must one chain of measles infection continue for a country to lose its elimination status?",
+        "(a) 3 months  (b) 12 months  (c) 26 years",
+        "<b>2.</b> How much protection do two doses of the MMR vaccine give?",
+        "(a) About 63%  (b) About 83%  (c) About 97%",
+        "<b>3.</b> How did scientists date the ancient orca fossils from the North Sea?",
+        "(a) Tiny algae fossils in sediment stuck to the bone  (b) The age of the fishing trawler  (c) Counting tree rings",
+        "<b>4.</b> Which country brought the genocide case against Myanmar?",
+        "(a) Bangladesh  (b) The Gambia  (c) The Netherlands",
+        "<b>5.</b> What did the COP31 draft leave out?",
+        "(a) Any mention of 1.5C  (b) Any explicit reference to fossil fuels  (c) The electricity target",
+        "<b>Answers.</b> 1 (b): 12 months. 2 (c): About 97%. 3 (a): Tiny algae fossils in sediment stuck to the bone. 4 (b): The Gambia. 5 (b): Any explicit reference to fossil fuels."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "92% of US kindergartners were vaccinated last school year, and about 95% is needed for herd immunity. Why can a gap of a few percentage points matter so much for measles?",
+        "The ICJ judges split 9 votes to 6. What does a divided vote tell you about how hard it is to judge evidence in a court?",
+        "Merz and Putin describe Yalta in very different ways. How can the same historical event support two opposite arguments?"
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "A label records what the evidence showed; only the evidence keeps it true.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "PBS NewsHour (AP)",
+      "title": "U.S. and Mexico officially lose measles-elimination status",
+      "url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+    },
+    {
+      "outlet": "CBS Texas",
+      "title": "U.S. loses its 26-year measles elimination status as cases more than double in a year",
+      "url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+    },
+    {
+      "outlet": "UN News",
+      "title": "World's top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://news.un.org/en/story/2026/11/1168836"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+    },
+    {
+      "outlet": "Phys.org",
+      "title": "Killer whales became fearsome predators long before scientists thought",
+      "url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+    },
+    {
+      "outlet": "UN News",
+      "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+      "url": "https://news.un.org/en/story/2026/11/1168845"
+    },
+    {
+      "outlet": "RTE",
+      "title": "COP31 draft climate deal removes mention of fossil fuels",
+      "url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+    },
+    {
+      "outlet": "ThePrint (Reuters)",
+      "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
+      "url": "https://theprint.in/world/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/3104222/"
+    },
+    {
+      "outlet": "World Health Organization",
+      "title": "WHO Director-General's opening remarks at the third IHR Emergency Committee meeting on Bundibugyo virus disease epidemic in the DRC - 17 November 2026",
+      "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+    },
+    {
+      "outlet": "ECDC",
+      "title": "Ebola disease: Multi-country outbreak 2026",
+      "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026"
+    },
+    {
+      "outlet": "The Irish Times",
+      "title": "Putin invites European leaders to Moscow for peace talks as Russia pounds Kyiv",
+      "url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+    },
+    {
+      "outlet": "Kyiv Post",
+      "title": "'We Won't Allow It Again': Merz Rejects New Yalta After China Summit",
+      "url": "https://www.kyivpost.com/post/90652"
+    },
+    {
+      "outlet": "European Business Magazine",
+      "title": "Trump, Xi and Putin Hold First Three-Way Summit on 19 Nov",
+      "url": "https://europeanbusinessmagazine.com/trump-xi-putin-shenzhen"
+    },
+    {
+      "outlet": "US State Department, Office of the Historian",
+      "title": "The Yalta Conference, 1945 (Milestones)",
+      "url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+    },
+    {
+      "outlet": "CBS News",
+      "title": "Poland accuses Russia of \"intentional provocation\" as missiles hit NATO soil, kill at least 8 in Ukraine",
+      "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+      "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+    },
+    {
+      "outlet": "Space.com",
+      "title": "'Now everything changes': SpaceX catches Starship upper stage for 1st time ever",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+    },
+    {
+      "outlet": "AllAfrica (WHO press release)",
+      "title": "Eritrea Eliminates Trachoma - a Major Public Health Milestone",
+      "url": "https://allafrica.com/stories/202611160817.html"
+    },
+    {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": {
+        "story": "lead",
+        "question": "How can falling vaccination lead a country to lose its measles-elimination status?",
+        "qualification": "The story links low vaccination to measles returning, but the 92% figure covers kindergartners only, and the story does not trace which unvaccinated groups fed this chain. Steps three and four are PAHO's confirmed findings; step one is CDC data; the link from step one to step two is the general pattern experts describe.",
+        "steps": [
+          {
+            "text": "Kindergarten vaccination sits at 92%, below the 95% needed for herd immunity.",
+            "evidence": "data show 92% of kindergartners were vaccinated last school year, below that 95% line"
+          },
+          {
+            "text": "Measles spreads from each case to many unprotected people.",
+            "evidence": "Where people are not protected, one infected person can spread it to 12 to 18 others"
+          },
+          {
+            "text": "The virus spreads without a break for at least 12 months.",
+            "evidence": "because the virus had been spreading without a break for at least 12 months"
+          },
+          {
+            "text": "PAHO says the US has lost its measles-elimination status.",
+            "evidence": "the Pan American Health Organization (PAHO) said the United States and Mexico had lost their measles-elimination status"
+          }
+        ],
+        "links": [
+          {
+            "why": "With too few people vaccinated, there are more unprotected people for the virus to reach.",
+            "evidence": "That speed is why measles returns when too few people are vaccinated."
+          },
+          {
+            "why": "When each case can infect many others, a chain of infection keeps finding new people instead of dying out.",
+            "evidence": "It is one of the most contagious diseases known. Where people are not protected, one infected person can spread it to 12 to 18 others"
+          },
+          {
+            "why": "Under PAHO's rule, a chain that lasts a full year ends the elimination status.",
+            "evidence": "A country loses that status when a single chain of infection continues without interruption for at least 12 months."
+          }
+        ]
+      },
+      "call": {
+        "story": "lead",
+        "question": "If you were writing a plan to stop measles spreading, would you start with today's outbreaks or with routine vaccination of young children?",
+        "premise": "PAHO expects the US, Mexico and Bolivia to send plans showing how they will stop measles transmission for at least a year.",
+        "evidence": "PAHO expects the US, Mexico and Bolivia to send plans in the coming weeks showing how they will stop transmission for at least a year.",
+        "framing": "Hypothetical decision based on this story: neither option is a reported proposal; both are framed for learning.",
+        "options": [
+          {
+            "label": "Outbreaks first",
+            "benefit": "Aims straight at the chains of infection running now, which must be stopped for a full year to win the status back.",
+            "cost": "If routine vaccination stays below 95%, new chains could start again once attention moves elsewhere."
+          },
+          {
+            "label": "Routine vaccination first",
+            "benefit": "Lifting kindergarten coverage from 92% toward 95% builds herd immunity that blocks future chains too.",
+            "cost": "Gains build slowly, one school year at a time, while the current spread continues."
+          }
+        ],
+        "reflection": "What evidence would change your choice: where the current cases are concentrated, how many older children and adults are unvaccinated, or how quickly vaccination rates are changing?"
+      }
+    },
+    "quiz": [
+      {
+        "q": "What does it mean for measles to be 'eliminated' in a country?",
+        "options": [
+          "Nobody ever catches it there",
+          "The virus is not spreading locally",
+          "Every child has had two doses"
+        ],
+        "answer": 1,
+        "why": "Measles counts as eliminated when the virus is not spreading locally.",
+        "story": "lead"
+      },
+      {
+        "q": "How many people can one person with measles infect where people are not protected?",
+        "options": [
+          "2 to 3",
+          "5 to 6",
+          "12 to 18"
+        ],
+        "answer": 2,
+        "why": "The paper says one infected person can spread it to 12 to 18 others.",
+        "story": "lead"
+      },
+      {
+        "q": "About how long were the larger ancient orcas found in the North Sea fossils?",
+        "options": [
+          "2 to 3 metres",
+          "7.2 to 7.7 metres",
+          "15 to 20 metres"
+        ],
+        "answer": 1,
+        "why": "The larger animals were estimated at 7.2 to 7.7 metres, like the largest male orcas today.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "How did the ICJ judges vote on whether Myanmar committed genocide?",
+        "options": [
+          "15 votes to 0",
+          "9 votes to 6",
+          "8 votes to 7"
+        ],
+        "answer": 1,
+        "why": "The judges decided by 9 votes to 6.",
+        "story": "world"
+      },
+      {
+        "q": "Why can one country's objection hold up a UN climate deal?",
+        "options": [
+          "Decisions are adopted by consensus",
+          "The host country has a veto",
+          "Votes need a two-thirds majority"
+        ],
+        "answer": 0,
+        "why": "UN climate decisions are adopted by consensus, so one formal objection could delay the deal.",
+        "story": "climate_and_environment"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The ancient orca fossils were dug out of a cliff in the Netherlands.",
+        "true": false,
+        "why": "Fishing trawlers pulled them from the seabed of the southern North Sea.",
+        "story": "science_and_technology"
+      },
+      {
+        "claim": "The vaccine already being tested in the DRC, Ervebo, is approved for Bundibugyo virus.",
+        "true": false,
+        "why": "Ervebo is approved for Ebola virus but not for Bundibugyo virus.",
+        "story": "health"
+      },
+      {
+        "claim": "The Yalta Conference took place in February 1945.",
+        "true": true,
+        "why": "It ran from 4 to 11 February 1945 in a resort town in Crimea.",
+        "story": "history_and_geography"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "United States",
+        "lat": 39.8,
+        "lon": -98.6,
+        "countries": [
+          "United States",
+          "Mexico",
+          "Bolivia"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Southern North Sea",
+        "lat": 53.0,
+        "lon": 3.0,
+        "countries": [
+          "Netherlands"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Rakhine state, Myanmar",
+        "lat": 20.5,
+        "lon": 93.0,
+        "countries": [
+          "Myanmar",
+          "Bangladesh",
+          "Gambia"
+        ]
+      },
+      {
+        "story": "climate_and_environment",
+        "place": "Antalya",
+        "lat": 36.9,
+        "lon": 30.7,
+        "countries": [
+          "Turkey"
+        ]
+      },
+      {
+        "story": "health",
+        "place": "Ituri, eastern Congo",
+        "lat": 1.6,
+        "lon": 29.4,
+        "countries": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "story": "history_and_geography",
+        "place": "Shenzhen",
+        "lat": 22.54,
+        "lon": 114.06,
+        "countries": [
+          "China",
+          "United States",
+          "Russia",
+          "Germany"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many confirmed measles cases has the US had in 2026 so far?",
+        "answer": 5400,
+        "prefix": "",
+        "unit": "cases",
+        "min": 500,
+        "max": 15000,
+        "why": "CDC data show more than 5,400 confirmed cases, already double the 2025 total."
+      },
+      {
+        "story": "science_and_technology",
+        "q": "Up to how long were the larger ancient orcas, in metres?",
+        "answer": 7.7,
+        "prefix": "",
+        "unit": "metres",
+        "min": 1,
+        "max": 20,
+        "why": "The larger North Sea orcas were estimated at 7.2 to 7.7 metres long."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Measles Is Back in the US",
+        "body": [
+          "Measles is an illness caused by a virus. A country counts as measles-free when the virus is not spreading there. On 17 November, health officials said the US and Mexico had lost that status. Bolivia lost it too. The virus had kept spreading for at least 12 months.",
+          "Measles spreads very easily. One sick person can pass it to 12 to 18 people who are not protected. The US has had more than 5,400 cases in 2026.",
+          "A vaccine called MMR protects against measles. Two doses give about 97% protection. About 95% of people need the vaccine to stop it spreading. Last school year, 92% of young US schoolchildren had it."
+        ]
+      },
+      "world": {
+        "headline": "A World Court Rules on Myanmar",
+        "body": [
+          "The International Court of Justice is the UN's top court. On 19 November, it said Myanmar committed genocide against the Rohingya people. Genocide means trying to destroy a whole group of people. The Rohingya are a Muslim minority.",
+          "The court said about 700,000 Rohingya fled to Bangladesh after 2017. The judges voted 9 to 6. Myanmar has said it was responding to attacks on police posts.",
+          "A small African country, The Gambia, brought the case. The court told Myanmar to pay compensation, which means money to make up for harm. It must also let people return home safely."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Ancient Killer Whales Were Big Hunters",
+        "body": [
+          "Killer whales are also called orcas. Fishing boats pulled some very old orca bones from the floor of the North Sea. Scientists studied them.",
+          "Tiny fossils of sea algae were stuck to one bone. They showed it was 2.1 to 2.6 million years old. The scientists also used 3D models to work out size. The biggest orcas were about 7.2 to 7.7 metres long.",
+          "The jaw had room for big, strong teeth. That means these orcas could hunt large prey. Scientists had thought this skill came much later."
+        ]
+      },
+      "climate_and_environment": {
+        "headline": "Climate Talks Run Late",
+        "body": [
+          "Nearly 200 countries are meeting in Antalya, Turkey, to agree a climate deal. The meeting is called COP31. It was meant to end on 20 November, but talks ran late.",
+          "The latest draft does not mention fossil fuels. Those are coal, oil and gas. Burning them is the main cause of global warming.",
+          "Panama said it would object to any deal that leaves them out. France and other countries agreed. All countries must agree for a deal to pass, so one objection can hold it up."
+        ]
+      },
+      "health": {
+        "headline": "Ebola Keeps Spreading in Congo",
+        "body": [
+          "Ebola is a serious illness. An outbreak in the Democratic Republic of the Congo has passed 11,000 cases. About 400 to 500 new cases are found every week.",
+          "This outbreak is caused by a type called Bundibugyo virus. There is no approved vaccine for it yet. Scientists are now adding two vaccines made for this virus to a test.",
+          "There is some good news. At first only two labs could test for the virus. Now there are more than two dozen. About 3,000 people have recovered."
+        ]
+      },
+      "history_and_geography": {
+        "headline": "Why Leaders Are Talking About Yalta",
+        "body": [
+          "On 19 November, the leaders of the US, Russia and China met in Shenzhen, China. Their statement did not mention the war in Ukraine.",
+          "A Russian lawmaker called the meeting a possible 'new Yalta'. Yalta was a meeting in 1945, near the end of World War II. Leaders of the US, Britain and the Soviet Union met there.",
+          "Many Europeans remember Yalta as the time Europe was divided up. Germany's leader said that must not happen again. Russia's Putin said Yalta was not necessarily bad."
+        ]
+      }
+    }
+  }
+}

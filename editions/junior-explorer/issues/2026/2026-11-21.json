@@ -1,0 +1,344 @@
+{
+  "edition": "junior-explorer",
+  "date": "2026-11-21",
+  "volume": 1,
+  "issue": 5,
+  "blocks": {
+    "lead": {
+      "kicker": "BIG STORY  •  SPACE",
+      "headline": "Voyager 1's Messages Now Take a Whole Day",
+      "deck": "The old space probe is one light-day from Earth. Here is how a radio call works that far away.",
+      "body": [
+        "Imagine waiting a whole day for your words to reach a friend. That is what talking to Voyager 1 is like now. Voyager 1 is a probe, a robot spacecraft. On 18 November it reached one light-day from Earth.",
+        "A light-day is a distance. It is how far light travels in 24 hours, about 16.1 billion miles. No human-made object has gone farther.",
+        "Engineers talk to the probe with radio waves, which move at the speed of light. So a message from Earth now takes 24 hours to reach the probe. Its answer takes another 24 hours to come back. So engineers wait two whole days for each answer.",
+        "Since 14 November, no science data has come back. But Voyager 1, launched in 1977, still sends a steady radio tone. Engineers used that tone to confirm the light-day mark."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "A RADIO CALL ONE LIGHT-DAY AWAY",
+        "caption": "How a radio call to Voyager 1 works now.",
+        "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+        "items": [
+          {
+            "label": "A message from Earth takes 24 hours to arrive",
+            "evidence": "a message from Earth now takes 24 hours to reach the probe"
+          },
+          {
+            "label": "Voyager 1's answer travels another 24 hours back",
+            "evidence": "Its answer takes another 24 hours to come back"
+          },
+          {
+            "label": "Engineers wait two whole days for each answer",
+            "evidence": "engineers wait two whole days for each answer"
+          }
+        ]
+      },
+      "why": "Its day-long messages help us picture how enormous space is.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        },
+        {
+          "outlet": "France 24",
+          "title": "NASA's Voyager 1 phones home from record one light-day away, 49 years after launch",
+          "url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+        }
+      ]
+    },
+    "science": {
+      "kicker": "SCIENCE  •  ANIMALS",
+      "headline": "Lost Meerkats Make a Beeline for Home",
+      "deck": "A new study shows that a meerkat on its own can find its way back to its group.",
+      "body": [
+        "Meerkats are small, furry animals that live in groups of up to 50. Scientists at the University of Zurich, in Switzerland, wondered: can one meerkat find its way home alone?",
+        "To find out, they worked in the Kalahari Desert in southern Africa. They fitted meerkats with GPS collars, which track where an animal goes. Then they moved each meerkat 1.5 kilometres from its group, longer than 15 football fields, and let it go.",
+        "They did this 20 times. In 18 of the 20 tries, the meerkat made a beeline, a straight path, back to its group or the spot where it was caught.",
+        "How? Each meerkat stood up on its back legs to scan the land. Then it set off in a straight line. Now and then it paused to look around or sniff for smells it knew.",
+        "Even young meerkats got home. The scientists think meerkats may form a mental map, a picture of home kept in the brain, early in life."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "HOW A MEERKAT HEADS HOME",
+        "caption": "What the meerkats did after scientists let them go, as reported by Science News.",
+        "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+        "items": [
+          {
+            "label": "Stands on its back legs to scan the land",
+            "evidence": "Each meerkat stood up on its back legs to scan the land"
+          },
+          {
+            "label": "Sets off in a straight line",
+            "evidence": "Then it set off in a straight line"
+          },
+          {
+            "label": "Pauses to look around or sniff for smells it knows",
+            "evidence": "paused to look around or sniff for smells it knew"
+          }
+        ]
+      },
+      "why": "Meerkats live in groups, so scientists were surprised to learn that each one seems to carry its own map of home.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Solo meerkats can find their way back home",
+          "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+        },
+        {
+          "outlet": "Phys.org",
+          "title": "Individual meerkats are ace solo navigators",
+          "url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "AROUND THE WORLD  •  ERITREA",
+      "headline": "Eritrea Gets Rid of an Eye Disease Called Trachoma",
+      "deck": "World health experts say the East African country has stopped trachoma being a public health problem.",
+      "body": [
+        "Eritrea is a country in East Africa. On 16 November the World Health Organization, or WHO, said Eritrea has eliminated trachoma as a public health problem. To eliminate means to get rid of.",
+        "Trachoma is an eye disease caused by a germ, a bacterium. It spreads when people touch eye or nose goo from someone who has it. Getting it again and again scars the eyelid. Then the eyelashes turn inward, toward the eye. That can cause blindness.",
+        "WHO says trachoma is the world's leading infectious cause of blindness. Infectious means it spreads from person to person. It is linked to being poor and to not having clean water.",
+        "So how did Eritrea beat it? It followed a WHO plan called SAFE. S is for Surgery. A is for Antibiotics, medicines that kill bacteria. F is for Facial cleanliness, or clean faces. E is for Environmental improvement, such as clean water and toilets.",
+        "WHO's leader, Tedros, said the work took two decades, or 20 years. Eritrea is the 34th country in the world to beat trachoma. Worldwide, the number of people needing help with it fell by about 94 percent between 2002 and November 2025."
+      ],
+      "illustration": {
+        "title": "BEATING TRACHOMA",
+        "subtitle": "Eritrea, East Africa",
+        "motif": "hospital",
+        "caption": "Eritrea used WHO's SAFE plan: Surgery, Antibiotics, Facial cleanliness and a cleaner Environment."
+      },
+      "connect": "Geography: Eritrea sits in the Horn of Africa, along the Red Sea. Clean water does two jobs here: it keeps faces clean and helps stop germs from spreading.",
+      "sources": [
+        {
+          "outlet": "AllAfrica (WHO press release)",
+          "title": "Eritrea Eliminates Trachoma - a Major Public Health Milestone",
+          "url": "https://allafrica.com/stories/202611160817.html"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Space: SpaceX caught its Starship upper stage with the giant arms of its launch tower in Texas on 14 November, for the first time.",
+        "United States: Of more than 1,300 glaciers in six western states, nearly 400 have disappeared, a new study found.",
+        "Indonesia: Scientists described a new bright-green flying frog that lays its eggs in jelly instead of foam.",
+        "Netherlands: Fossils pulled from the North Sea show some killer whales grew huge more than 2 million years ago.",
+        "Turkey: The COP31 climate talks in Antalya ran past their Friday deadline as countries argued over the final deal."
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER",
+      "body": "Meerkats scan first, then move in a straight line. Try a <b>meerkat beeline race</b> in the yard: stand tall on tiptoe, pick your goal, then walk straight to it without turning. Add one more rule: every five steps, <b>freeze</b> and look around, just as the meerkats in the study paused to check their way.",
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "Solo meerkats can find their way back home",
+          "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Probe",
+          "def": "A robot spacecraft sent to explore, with no people on board. Today: The probe Voyager 1 is now one light-day from Earth."
+        },
+        {
+          "word": "Interstellar",
+          "def": "Between the stars. Today: Voyager 1 crossed into interstellar space in 2012 and is still travelling there."
+        },
+        {
+          "word": "Beeline",
+          "def": "A straight, direct path to somewhere. Today: In 18 of 20 tries, a meerkat made a beeline back to its group or the spot where it was caught."
+        },
+        {
+          "word": "Infectious",
+          "def": "Able to spread from one person to another. Today: Trachoma is the world's leading infectious cause of blindness."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "BE VOYAGER'S RADIO TEAM",
+      "body": [
+        "Pretend one room is Earth and another room is Voyager 1. Earth writes a short question on paper. A messenger may only carry it after a kitchen timer counts one minute. Each minute stands for the 24 hours a real radio message now takes to reach the probe.",
+        "Now Voyager writes an answer, and the messenger waits another minute to carry it back. How long did Earth wait for its answer? Write the time down. Then swap jobs, so everyone gets a turn to be Earth, Voyager and the messenger.",
+        "Next, try a question that needs two answers in a row, such as a riddle with a clue. Count the minutes again. Each extra question adds two more minutes of waiting.",
+        "Talk about what you learned. When a reply takes two whole days, every question has to count. How would you write your question so Voyager only needs to answer once?",
+        "Bonus, be a meerkat: with a grown-up, walk a short way from your front door, in your yard or a park. Stand tall, look for landmarks you know, then point straight toward home. Were you right? The meerkats in the Kalahari got home in 18 of 20 tries.",
+        "Bonus, make a SAFE poster: fold a sheet of paper into four boxes. Write S, A, F and E, one in each box, and draw a picture for each part of WHO's plan. For F, draw someone washing their face with clean water."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        },
+        {
+          "outlet": "Science News",
+          "title": "Solo meerkats can find their way back home",
+          "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+        },
+        {
+          "outlet": "AllAfrica (WHO press release)",
+          "title": "Eritrea Eliminates Trachoma - a Major Public Health Milestone",
+          "url": "https://allafrica.com/stories/202611160817.html"
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Light from the Sun takes about 8 minutes to reach Earth. In 1990, Voyager 1 turned its camera back toward home and took a famous photo called the Pale Blue Dot. In it, Earth looks like a tiny speck in a sunbeam. Voyager 1 also carries a Golden Record of sounds from Earth. NASA expects it to last more than a billion years."
+    },
+    "explainer": {
+      "title": "HOW RADIO WAVES CROSS SPACE",
+      "body": [
+        "Radio waves are a kind of light that our eyes cannot see. Like all light, they travel about 186,000 miles every second. They do not need air, so they can cross empty space.",
+        "Far away, a radio signal gets very weak. So NASA's Deep Space Network uses giant dish-shaped antennas. A dish gathers faint waves and bounces them to one spot, a bit like cupping a hand behind your ear. That is how engineers can still hear Voyager 1's carrier signal, a plain radio tone with no data in it.",
+        "Voyager 1 also needs power to send its signal. Its power comes from plutonium, a material that slowly gives off heat, which is turned into electricity. Each year the probe has about 4 watts less power, about what a small night-light uses. NASA expects its science instruments to keep working until at least its 50th launch birthday next summer.",
+        "A plain tone sounds useless, but it still helps. Engineers know Voyager 1's path through space very well. By putting the tone together with careful maths about that path, they confirmed it had reached one light-day.",
+        "Voyager 1 still zooms along at about 38,000 miles an hour. A car on a highway goes about 60."
+      ],
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether Voyager 1 sends science data again. None has arrived since 14 November.",
+        "Voyager 1 and its twin, Voyager 2, turn 50 next summer.",
+        "The final deal at the COP31 climate talks in Antalya, Turkey."
+      ]
+    },
+    "quote": {
+      "text": "Even a faint whisper can be heard if you build a big enough ear.",
+      "by": "The Junior Explorer"
+    }
+  },
+  "sources": [
+    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch",
+    "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+    "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html",
+    "https://allafrica.com/stories/202611160817.html",
+    "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+    "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study",
+    "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
+    "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html",
+    "https://news.un.org/en/story/2026/11/1168845"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What is a light-day?",
+        "options": [
+          "A day with lots of sunshine",
+          "How far light travels in 24 hours",
+          "A day without clouds"
+        ],
+        "answer": 1,
+        "why": "A light-day is a distance: how far light travels in 24 hours.",
+        "story": "lead"
+      },
+      {
+        "q": "How did most meerkats get home?",
+        "options": [
+          "In a straight line",
+          "By following a river",
+          "By riding on another meerkat"
+        ],
+        "answer": 0,
+        "why": "18 of 20 made a beeline, a straight path, home.",
+        "story": "science"
+      },
+      {
+        "q": "What does the A in WHO's SAFE plan stand for?",
+        "options": [
+          "Apples",
+          "Airplanes",
+          "Antibiotics"
+        ],
+        "answer": 2,
+        "why": "A is for Antibiotics, medicines that kill bacteria.",
+        "story": "world"
+      },
+      {
+        "q": "What did meerkats do before setting off?",
+        "options": [
+          "Dug a hole",
+          "Stood on their back legs to scan",
+          "Called loudly"
+        ],
+        "answer": 1,
+        "why": "Each meerkat stood up to scan the land first.",
+        "story": "science"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "A message from Earth now takes 24 hours to reach Voyager 1.",
+        "true": true,
+        "why": "Radio waves travel at the speed of light, and Voyager 1 is one light-day away.",
+        "story": "lead"
+      },
+      {
+        "claim": "Voyager 1 launched in 1997.",
+        "true": false,
+        "why": "It launched in 1977.",
+        "story": "lead"
+      },
+      {
+        "claim": "Eritrea is the 34th country in the world to beat trachoma.",
+        "true": true,
+        "why": "WHO says Eritrea is the 34th in the world.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "science",
+        "place": "Kalahari Desert",
+        "lat": -26.97,
+        "lon": 21.83,
+        "countries": [
+          "South Africa"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Eritrea",
+        "lat": 15.33,
+        "lon": 38.93,
+        "countries": [
+          "Eritrea"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many billion miles is one light-day?",
+        "answer": 16.1,
+        "prefix": "",
+        "unit": "billion miles",
+        "min": 1,
+        "max": 60,
+        "why": "One light-day, how far light travels in 24 hours, is about 16.1 billion miles."
+      },
+      {
+        "story": "science",
+        "q": "How many kilometres from its group was each meerkat let go?",
+        "answer": 1.5,
+        "prefix": "",
+        "unit": "km",
+        "min": 0.1,
+        "max": 10,
+        "why": "Each meerkat was let go 1.5 kilometres away, longer than 15 football fields."
+      }
+    ]
+  }
+}

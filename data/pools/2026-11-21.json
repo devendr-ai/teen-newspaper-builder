@@ -1,0 +1,3368 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 168,
+  "dropped_unverified": 1,
+  "stories": [
+   {
+    "id": "shenzhen-trilateral",
+    "headline": "Trump, Xi and Putin meet together in China and agree a nuclear war 'must never be fought', but make no big breakthroughs",
+    "what_happened": "The leaders of the United States, China and Russia held a three-way meeting in Shenzhen, China, on 19 November, alongside the APEC summit. They issued a joint statement saying there can be no winners in a nuclear war, and pledged to reform the UN and raise oil and gas production. The statement did not mention the war in Ukraine, and experts said the meeting achieved little.",
+    "why_it_matters": "These three countries have the world's biggest militaries and nuclear arsenals, so how well they get along affects wars, trade and safety everywhere. But promises without concrete plans may change little on the ground.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Donald Trump, Xi Jinping and Vladimir Putin met on Thursday 19 November 2026 in Shenzhen, China, on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit; the meeting lasted about an hour and a half.",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "fact": "The leaders agreed that a 'nuclear war cannot be won and must never be fought' and signed a 'declaration toward peace'; France 24 called the agreements 'modest'.",
+      "source_url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+     },
+     {
+      "fact": "In their joint statement, the three countries, all permanent members of the UN Security Council, pledged to reform the UN and committed to increasing gas and oil production.",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "fact": "The joint statement made no mention of Russia's war in Ukraine; Ukraine was on the agenda but was not represented.",
+      "source_url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+     },
+     {
+      "fact": "The US and Russia each hold well over 5,000 nuclear warheads, and China is believed to have about 600, a distant third.",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "fact": "Before the meeting Xi called nuclear weapons a 'sword of Damocles hanging over humanity'.",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "fact": "Trump said 'We are really making history.'",
+      "source_url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+     },
+     {
+      "fact": "Putin said 'We will not negotiate after the attacks on the Crimean bridge,' ruling out direct talks with Ukraine after a Ukrainian strike on the Kerch Bridge.",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "fact": "German Chancellor Friedrich Merz called the summit a 'photo op' and said any peace talks must include Ukraine and Europe.",
+      "source_url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+     },
+     {
+      "fact": "Back at the White House on 20 November, Trump said Putin 'clearly expressed his desire to see the war between Russia and Ukraine end by diplomatic means' and said he has 'fantastic relationships' with Putin.",
+      "source_url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin"
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "A tariff truce between the United States and China is set to expire in January.",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+      "evidence": "A tariff truce between the two countries is set to expire",
+      "background": false
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Length of the three-way meeting",
+      "value": 1.5,
+      "unit": "hours",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "label": "China's estimated nuclear warheads",
+      "value": 600,
+      "unit": "warheads",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     },
+     {
+      "label": "US and Russian nuclear warheads (each, at least)",
+      "value": 5000,
+      "unit": "warheads",
+      "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     }
+    ],
+    "geography": "Shenzhen, southern China (a tech hub next to Hong Kong); United States; Russia; Ukraine; Kerch Bridge linking Russia to Crimea",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Trump, Xi and Putin sit down for a rare 3-way meeting in China, but appear to achieve little",
+      "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "Trump, Xi and Putin agree a nuclear war 'must never be fought' at landmark meeting",
+      "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks",
+      "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Trump, Xi and Putin meet together in China and agree a nuclear war 'must never be fought', but make no big breakthroughs",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     ],
+     "details": [
+      {
+       "kind": "concrete_detail",
+       "fact": "A tariff truce between the United States and China is set to expire in January.",
+       "source_url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+       "evidence": "A tariff truce between the two countries is set to expire",
+       "background": false
+      }
+     ]
+    }
+   },
+   {
+    "id": "icj-myanmar-rohingya-genocide",
+    "headline": "World's top court rules Myanmar committed genocide against the Rohingya, in a case brought by tiny Gambia",
+    "what_happened": "On 19 November the International Court of Justice in The Hague ruled that Myanmar committed genocide against the Rohingya, a Muslim minority, during a 2017 military crackdown. It is the first time a country has been found responsible for genocide under the Genocide Convention. The case was brought by The Gambia, a small country in West Africa.",
+    "why_it_matters": "The ruling says a whole country broke the most serious law there is, and orders it to make amends, including letting refugees return home safely. It also shows that a small nation can bring a powerful one to court on behalf of people far away.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The International Court of Justice (ICJ) found Myanmar responsible for genocide against the Rohingya in the case The Gambia v. Myanmar, and said Myanmar also failed to prevent and punish genocide.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "It is the first such ruling against a State under the Genocide Convention.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "The judges decided 9 votes to 6 that Myanmar committed genocide in northern Rakhine state.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "The court said about 10,000 Rohingya were killed during the 2017 'clearance operations' and about 700,000 fled northern Rakhine to Bangladesh.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "Nearly 400 villages, about 40% of the nearly 1,000 villages in three northern Rakhine townships, were partly or wholly destroyed.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "The court ordered Myanmar to pay compensation, allow the safe, voluntary and dignified return of displaced Rohingya, reunite families, and report back within two years.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "The Gambia, which started the case in November 2019, called the ruling 'a historic day for international justice'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "More than 1.3 million Rohingya remain displaced, about 1.2 million of them in refugee camps in Cox's Bazar, Bangladesh.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "Myanmar has said its crackdown was a response to attacks on police posts by fighters from the Arakan Rohingya Salvation Army.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "UN Secretary-General Antonio Guterres called the judgment a 'powerful recognition of the Rohingya victims of genocide'.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Judges' vote on genocide finding (for)",
+      "value": 9,
+      "unit": "of 15 judges",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "label": "Rohingya killed in 2017, per the court",
+      "value": 10000,
+      "unit": "people",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "label": "Rohingya who fled to Bangladesh after 2017",
+      "value": 700000,
+      "unit": "people",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "label": "Rohingya in camps in Cox's Bazar",
+      "value": 1200000,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "label": "Deadline for Myanmar's report to the court",
+      "value": 2,
+      "unit": "years",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     }
+    ],
+    "geography": "Myanmar (Rakhine state, on the Bay of Bengal coast); Bangladesh (Cox's Bazar refugee camps); The Gambia, a small West African country along the Gambia River; The Hague, Netherlands",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "UN News",
+      "title": "World's top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://news.un.org/en/story/2026/11/1168836",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+      "published": "2026-11-19",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "russia-strikes-kyiv-bridges-poland",
+    "headline": "Russia hits Kyiv's bridges in huge overnight attack; Poland says missiles crossing its border were a 'provocation'",
+    "what_happened": "Overnight into 20 November, Russia fired more than 400 drones and 110 missiles at Ukraine, damaging three bridges over the Dnipro River in Kyiv and killing at least eight people. Poland said three Russian objects, probably two missiles and a drone, entered its airspace, and its prime minister called it an intentional provocation. Russia called the attack a response to Ukraine's strike on the Kerch Bridge to Crimea.",
+    "why_it_matters": "Poland is a NATO member, and NATO treats an attack on one member as an attack on all, so weapons crossing its border raise fears of a wider war. The attack came just a day after Putin talked about peace at the Shenzhen summit.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Russia launched more than 400 drones and 110 missiles overnight; Ukraine intercepted 79 of the 110 missiles but none of the 27 ballistic missiles.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "fact": "Eight people were killed, six of them in Kyiv, and 28 were wounded, according to Prime Minister Sergii Koretskyi.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+     },
+     {
+      "fact": "Kyiv mayor Vitali Klitschko said ballistic missiles damaged the Podilskyi, Darnitskyi and Southern bridges over the Dnipro River, forcing traffic restrictions.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+     },
+     {
+      "fact": "Nuclear power plants cut output, causing power outages in Kyiv and 10 regions, according to First Deputy Energy Minister Artem Nekrasov.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+     },
+     {
+      "fact": "Poland's defence minister said three Russian objects, believed to be two missiles and a drone, entered southeast Poland's airspace; they fell near the Ukrainian border and no injuries were reported.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "fact": "Polish Prime Minister Donald Tusk said 'it does not look like an accident' and called it 'an intentional provocation'.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "fact": "NATO Secretary General Mark Rutte spoke with Tusk about 'grave violations of Polish airspace' and said the alliance stands with Poland.",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "fact": "Russian weapons hit the Austrian embassy in Kyiv and landed near the Dutch embassy; France called a UN Security Council meeting, with Foreign Minister Jean-Noel Barrot saying 'Russia will have to answer for this.'",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "fact": "Earlier in the week Ukraine partially destroyed the Kerch Bridge, severing a key road link to Crimea, which Russia annexed in 2014; Putin had promised a response.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Drones launched by Russia",
+      "value": 400,
+      "unit": "more than",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "label": "Missiles launched by Russia",
+      "value": 110,
+      "unit": "missiles",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     },
+     {
+      "label": "People killed",
+      "value": 8,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+     },
+     {
+      "label": "Objects that entered Polish airspace",
+      "value": 3,
+      "unit": "objects",
+      "source_url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+     }
+    ],
+    "geography": "Ukraine (Kyiv and the Dnipro River); southeast Poland near the Ukrainian border; Russia; Crimea and the Kerch Strait/Kerch Bridge",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Poland accuses Russia of \"intentional provocation\" as missiles hit NATO soil, kill at least 8 in Ukraine",
+      "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+      "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+      "published": "2026-11-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "voyager-1-light-day",
+    "headline": "NASA's Voyager 1 becomes the first spacecraft to travel one 'light-day' from Earth",
+    "what_happened": "On 18 November, NASA's Voyager 1 probe reached one light-day from Earth, about 16.1 billion miles away, the farthest any human-made object has gone. A light-day is how far light travels in 24 hours, so a radio message now takes a full day to reach the spacecraft and another day to come back. Engineers confirmed the milestone even though the probe has not sent science data since 14 November.",
+    "why_it_matters": "A spacecraft launched in 1977 is still exploring the space between the stars, showing how far careful engineering can go. It also helps people picture just how enormous space is.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth at 2:16 a.m. PST (5:16 a.m. EST) on 18 November 2026.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "One light-day is roughly 16.1 billion miles (25.9 billion km); it is a measure of distance, how far light travels in 24 hours.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Signals now take 24 hours to reach the spacecraft and 24 hours to come back, using NASA's Deep Space Network.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 is the farthest any human-made object has travelled.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The team has received no science or engineering data from Voyager 1 since 14 November, but it is still sending a 'carrier signal', which engineers used with trajectory calculations to confirm the milestone.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 launched in 1977, flew past Jupiter in 1979 and Saturn in 1980, took the 'Pale Blue Dot' photo of Earth in 1990 and crossed into interstellar space in 2012.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The spacecraft travels at about 38,000 mph (61,155 kph).",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Both Voyagers lose about 4 watts of power a year as their plutonium power source declines; NASA expects them to keep their current science instruments running until at least their 50th launch anniversaries next summer.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Its twin, Voyager 2, is expected to reach the one-light-day mark in 2035.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Each probe carries a Golden Record of Earth's sounds, which NASA expects to last more than a billion years.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Light takes about 1.3 seconds to reach the Moon and about four hours to reach Neptune; it travels about 186,000 miles (299,000 km) a second.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA's Deep Space Network uses large antennas at three facilities around the world; the team heard from the probe 24 hours after sending a signal.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Suzanne Dodd: 'We listen to Voyager 1 every day and send commands to the spacecraft weekly.'",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 has faced ageing hardware including clogged thrusters and a malfunctioning computer; this year engineers turned off three devices and substituted three lower-power alternatives.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "The Voyagers were launched to take advantage of a rare planetary alignment; in 2012 Voyager 1 became the first human-made spacecraft to enter interstellar space; it is powered by a plutonium supply.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance of one light-day",
+      "value": 16.1,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Speed of Voyager 1",
+      "value": 38000,
+      "unit": "mph",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Launch year",
+      "value": 1977,
+      "unit": "year",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space beyond the solar system; NASA's Jet Propulsion Laboratory in California",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "NASA's Voyager 1 phones home from record one light-day away, 49 years after launch",
+      "url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "cop31-overtime",
+    "headline": "COP31 climate talks in Turkey run into overtime as countries fight over leaving fossil fuels out of the deal",
+    "what_happened": "The UN climate summit in Antalya, Turkey, missed its 20 November deadline without a deal. A draft released on 19 November removed every mention of coal, oil and gas, angering a group of countries including France, Panama and the Solomon Islands. A new draft was expected and talks were set to continue into the weekend.",
+    "why_it_matters": "Burning coal, oil and gas is the main cause of global warming, so whether the world agrees to move away from them affects everyone's future, especially low-lying island nations.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The COP31 talks in Antalya ran into overtime on Friday 20 November, the last official day of the two-week summit, with negotiators from nearly 200 countries still divided.",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "fact": "An early draft called for speeding up the phase-out of coal, oil and gas, but a shorter version released Thursday by co-host Australia left out any mention of fossil fuels.",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "fact": "A dozen European and developing countries, including France, Panama and the Solomon Islands, demanded 'a clear transition away from fossil fuels'.",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "fact": "Panama's environment minister Juan Carlos Navarro has threatened to block any deal without a cap on oil production; he said 'the COP can still be saved'.",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "fact": "The latest draft backs Turkey's goal of meeting 35% of final energy demand with electricity by 2035.",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "fact": "Brazil's climate secretary said: 'At this point, no one is happy.'",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "fact": "Australia's Climate Minister Chris Bowen, who chairs the talks, said he would keep working 'for as long as it takes'; a third draft was expected and talks were expected to go into the weekend.",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Countries negotiating",
+      "value": 200,
+      "unit": "nearly",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     },
+     {
+      "label": "Electricity share target for 2035",
+      "value": 35,
+      "unit": "percent of final energy demand",
+      "source_url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission"
+     }
+    ],
+    "geography": "Antalya, on Turkey's Mediterranean coast; co-host Australia; Panama; Solomon Islands (Pacific)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "COP31 climate talks go into overtime as nations wrangle over fossil fuels omission",
+      "url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "UN News",
+      "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+      "url": "https://news.un.org/en/story/2026/11/1168845",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "iran-war-funding-shutdown-fight",
+    "headline": "Democrats weigh using Congress's 'power of the purse' to cut off Iran war money, raising risk of a shutdown",
+    "what_happened": "Democrats, who won control of Congress in the midterm elections, want to limit money for the Iran war before government funding runs out on 11 December. Some say any short-term funding bill must restrict war spending, but House Democratic leaders worry that could cause a government shutdown. Republicans say cutting war funds would put US troops at risk.",
+    "why_it_matters": "The Constitution gives Congress control over federal spending, and this is a real test of whether it can use that power to limit a war the president is running.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The next deadline to extend government funding is 11 December; some Democrats want to block any stopgap bill that doesn't restrict Iran war funding, but top House Democrats worry that could trigger a shutdown.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "fact": "Rep. Rosa DeLauro, expected to chair House Appropriations, backs cutting off war funds: 'If they want money, they have to get congressional approval.'",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "fact": "Senators Chris Van Hollen, Tammy Duckworth, Bernie Sanders and Michael Bennet want any funding deal to limit the administration's use of money for the war.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "fact": "Under the War Powers Resolution, the president must notify Congress within 48 hours, and fighting is limited to 60 days plus 30 days to withdraw unless Congress authorises it.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "fact": "A war powers resolution passed both chambers in June, but the administration dismissed it, calling the law unconstitutional; the Senate blocked another House-passed resolution this week.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "fact": "Trump has vowed to use his veto liberally; overriding a veto would need several Senate Republicans and dozens of House Republicans.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "fact": "Democrats take control of Congress in January.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     },
+     {
+      "kind": "mechanism",
+      "fact": "Senator Chuck Schumer pointed to Congress's control over government spending, saying 'the Founding Fathers had the power of the purse as one of the ways' for Congress to act.",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/",
+      "evidence": "the Founding Fathers had the power of the purse as one of the ways",
+      "background": false
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Days of hostilities allowed without Congress under War Powers Resolution",
+      "value": 60,
+      "unit": "days",
+      "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     }
+    ],
+    "geography": "Washington, D.C.; Iran",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Democrats want to force Trump to end the Iran war when they take Congress. Can they?",
+      "url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Fight over funding for Iran war could put the government at risk of a shutdown",
+      "url": "https://www.npr.org/2026/11/20/nx-s1-6043190/fight-over-funding-for-iran-war-could-put-the-government-at-risk-of-a-shutdown",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "Democrats weigh using Congress's 'power of the purse' to cut off Iran war money, raising risk of a shutdown",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/"
+     ],
+     "details": [
+      {
+       "kind": "mechanism",
+       "fact": "Senator Chuck Schumer pointed to Congress's control over government spending, saying 'the Founding Fathers had the power of the purse as one of the ways' for Congress to act.",
+       "source_url": "https://www.cbsnews.com/news/iran-war-democrats-congress-trump/",
+       "evidence": "the Founding Fathers had the power of the purse as one of the ways",
+       "background": false
+      }
+     ]
+    }
+   },
+   {
+    "id": "jeffries-speaker-nomination",
+    "headline": "House Democrats pick Hakeem Jeffries to be speaker, putting him on track to be the first Black speaker",
+    "what_happened": "On 18 November House Democrats voted 251 to 11 to nominate Hakeem Jeffries of New York for speaker of the House. The full House will vote when the new Congress starts in January, and Democrats will hold a majority after the midterm elections. They also chose Katherine Clark to be majority leader, the first woman in that job.",
+    "why_it_matters": "The speaker leads the House and decides which bills come up for a vote, and is second in line to the presidency after the vice president. Jeffries would make history as the first Black speaker.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "House Democrats voted 251 to 11 in a closed-door meeting to nominate Rep. Hakeem Jeffries for speaker.",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "fact": "The full House elects the speaker at the start of the new Congress in January, and Jeffries needs 218 votes; Democrats are on track to control more than 250 seats.",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "fact": "Jeffries would be the first Black House speaker in US history.",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "fact": "Katherine Clark of Massachusetts was chosen as majority leader, the first woman in that role, and Pete Aguilar of California as whip.",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "fact": "Several incoming progressive members voted against Jeffries, saying they wanted commitments on issues such as Medicare for All and Gaza.",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "fact": "After the vote Jeffries said 'The results of today's election speak for themselves.'",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "fact": "In the Senate, Chuck Schumer faces a challenge from Chris Van Hollen for majority leader, with leadership elections set for early December.",
+      "source_url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Democrats voting for Jeffries",
+      "value": 251,
+      "unit": "votes",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "label": "Democrats voting against",
+      "value": 11,
+      "unit": "votes",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     },
+     {
+      "label": "Votes needed to be elected speaker",
+      "value": 218,
+      "unit": "votes",
+      "source_url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/"
+     }
+    ],
+    "geography": "Washington, D.C. (US Capitol); New York",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Jeffries wins Democratic nomination for House speaker, paving way for historic election",
+      "url": "https://www.cbsnews.com/news/house-democrats-hakeem-jeffries-speaker-nomination-progressives/",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NPR",
+      "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "us-tech-outages-hearing",
+    "headline": "After flights, banks and Microsoft go down, officials tell Congress the outages were not cyberattacks",
+    "what_happened": "A string of computer failures hit the US in mid-November, including a nationwide halt to flights on 13 November and outages at Microsoft, big banks and Apple services. At a House hearing this week, Homeland Security Secretary Markwayne Mullin said the outages were not connected and were not attacks. Some experts warn that more failures could come as old systems are updated.",
+    "why_it_matters": "Planes, banks and many everyday services depend on computer networks, and old equipment can fail in ways that affect millions of people at once.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The FAA ordered a nationwide ground stop of departing US flights on Friday 13 November due to 'extraordinary circumstances'; it lasted about five hours.",
+      "source_url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+     },
+     {
+      "fact": "FlightAware reported 9,159 cancellations and 7,190 delays that Friday.",
+      "source_url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+     },
+     {
+      "fact": "Transportation Secretary Sean Duffy said routers were overloaded with data and called the air traffic control system 'incredibly old'; preliminary findings point to routers made between 2001 and 2006.",
+      "source_url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+     },
+     {
+      "fact": "The recent tech outages dominated Homeland Security Secretary Markwayne Mullin's appearance at the House Homeland Security Committee's annual threat hearing, where he pushed back on the idea that they were related or were cyberattacks.",
+      "source_url": "https://www.npr.org/2026/11/19/nx-s1-6045903/markwayne-mullin-testifies-before-congress-after-series-of-nationwide-tech-outages"
+     },
+     {
+      "fact": "Director of National Intelligence Jay Clayton said the outages likely came from organisations using AI to fix security flaws and carry out maintenance updates.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/outages-in-us-cause-worry-despite-official-attempts-to-downplay-concerns"
+     },
+     {
+      "fact": "Trump said: 'Tell them to relax, everything is good, these are individual events.'",
+      "source_url": "https://www.aljazeera.com/news/2026/11/20/outages-in-us-cause-worry-despite-official-attempts-to-downplay-concerns"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Flight cancellations on 13 November",
+      "value": 9159,
+      "unit": "flights",
+      "source_url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+     },
+     {
+      "label": "Length of ground stop",
+      "value": 5,
+      "unit": "hours (about)",
+      "source_url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+     }
+    ],
+    "geography": "United States (airports nationwide); Washington, D.C.",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "Markwayne Mullin testifies before Congress after series of nationwide tech outages",
+      "url": "https://www.npr.org/2026/11/19/nx-s1-6045903/markwayne-mullin-testifies-before-congress-after-series-of-nationwide-tech-outages",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "CBS News",
+      "title": "FAA lifts nationwide ground stop that disrupted thousands of flights",
+      "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+      "published": "2026-11-14",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "Outages in US cause worry, despite official attempts to downplay concerns",
+      "url": "https://www.aljazeera.com/news/2026/11/20/outages-in-us-cause-worry-despite-official-attempts-to-downplay-concerns",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "fiona-hippo-dies",
+    "headline": "Fiona, the Cincinnati Zoo hippo who became famous as a tiny baby, dies after swallowing a hat",
+    "what_happened": "The Cincinnati Zoo announced on 19 November that Fiona, its much-loved Nile hippo, had died. Nearly two weeks earlier she swallowed a knit hat that a ceiling fan blew into her enclosure after a visitor tossed it in the air. Vets tried to help it pass through her body but could not reach it.",
+    "why_it_matters": "Fiona was born too early and tiny in 2017, and millions of people followed online as zookeepers helped her grow up. Her death is a reminder that items dropped near animal enclosures can hurt the animals.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A visitor tossed a knit hat into the air and a ceiling fan blew it into Fiona's enclosure; she swallowed it almost two weeks before she died.",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     },
+     {
+      "fact": "Endoscopies could not reach the hat and surgery was not an option; vets borrowed a vibration plate from a horse farm and had Fiona stand on it several times a day to try to move it.",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     },
+     {
+      "fact": "Fiona was born early in 2017 weighing 29 pounds; newborn Nile hippos usually weigh 55 to 120 pounds.",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     },
+     {
+      "fact": "She was the first Nile hippo born at the zoo in 75 years; staff bottle-fed her and helped her learn to swim.",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     },
+     {
+      "fact": "Ohio Governor Mike DeWine called her 'a true icon'; the area around Hippo Cove will close through the weekend so staff can grieve.",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Fiona's birth weight",
+      "value": 29,
+      "unit": "pounds",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     },
+     {
+      "label": "Years since previous Nile hippo born at zoo",
+      "value": 75,
+      "unit": "years",
+      "source_url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/"
+     }
+    ],
+    "geography": "Cincinnati, Ohio",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "CBS News",
+      "title": "Fiona the hippo dies days after swallowing hat, Cincinnati Zoo says",
+      "url": "https://www.cbsnews.com/news/fiona-the-hippo-dies-cincinnati-zoo/",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "voyager-1-light-day",
+    "headline": "NASA's Voyager 1 becomes the first spacecraft to travel one 'light-day' from Earth",
+    "what_happened": "On 18 November, NASA's Voyager 1 probe reached one light-day from Earth, about 16.1 billion miles away, the farthest any human-made object has gone. A light-day is how far light travels in 24 hours, so a radio message now takes a full day to reach the spacecraft and another day to come back. Engineers confirmed the milestone even though the probe has not sent science data since 14 November.",
+    "why_it_matters": "A spacecraft launched in 1977 is still exploring the space between the stars, showing how far careful engineering can go. It also helps people picture just how enormous space is.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth at 2:16 a.m. PST (5:16 a.m. EST) on 18 November 2026.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "One light-day is roughly 16.1 billion miles (25.9 billion km); it is a measure of distance, how far light travels in 24 hours.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Signals now take 24 hours to reach the spacecraft and 24 hours to come back, using NASA's Deep Space Network.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 is the farthest any human-made object has travelled.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The team has received no science or engineering data from Voyager 1 since 14 November, but it is still sending a 'carrier signal', which engineers used with trajectory calculations to confirm the milestone.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 launched in 1977, flew past Jupiter in 1979 and Saturn in 1980, took the 'Pale Blue Dot' photo of Earth in 1990 and crossed into interstellar space in 2012.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The spacecraft travels at about 38,000 mph (61,155 kph).",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Both Voyagers lose about 4 watts of power a year as their plutonium power source declines; NASA expects them to keep their current science instruments running until at least their 50th launch anniversaries next summer.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Its twin, Voyager 2, is expected to reach the one-light-day mark in 2035.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Each probe carries a Golden Record of Earth's sounds, which NASA expects to last more than a billion years.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Light takes about 1.3 seconds to reach the Moon and about four hours to reach Neptune; it travels about 186,000 miles (299,000 km) a second.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA's Deep Space Network uses large antennas at three facilities around the world; the team heard from the probe 24 hours after sending a signal.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Suzanne Dodd: 'We listen to Voyager 1 every day and send commands to the spacecraft weekly.'",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 has faced ageing hardware including clogged thrusters and a malfunctioning computer; this year engineers turned off three devices and substituted three lower-power alternatives.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "The Voyagers were launched to take advantage of a rare planetary alignment; in 2012 Voyager 1 became the first human-made spacecraft to enter interstellar space; it is powered by a plutonium supply.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance of one light-day",
+      "value": 16.1,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Speed of Voyager 1",
+      "value": 38000,
+      "unit": "mph",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Launch year",
+      "value": 1977,
+      "unit": "year",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space beyond the solar system; NASA's Jet Propulsion Laboratory in California",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "NASA's Voyager 1 phones home from record one light-day away, 49 years after launch",
+      "url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 24,
+  "dropped_unverified": 1,
+  "stories": [
+   {
+    "id": "india-h5n1-chicken-vaccine",
+    "headline": "India launches its first home-made vaccine to protect chickens from bird flu",
+    "what_happened": "Union Agriculture Minister Shivraj Singh Chouhan unveiled India's first indigenous vaccine against the H5N1 bird flu virus for chickens in Bhopal on 20 November. It was developed by scientists at ICAR's National Institute of High Security Animal Diseases (NIHSAD) in Bhopal and is expected to cost only Rs 1-2 a dose.",
+    "why_it_matters": "Bird flu can kill almost every bird in an infected flock, and until now farms have had to cull whole flocks to stop it spreading. A cheap vaccine could protect the birds and the incomes of small poultry farmers.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Agriculture Minister Shivraj Singh Chouhan launched the vaccine in Bhopal, Madhya Pradesh, on Friday 20 November.",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "fact": "It was developed by the ICAR-National Institute of High Security Animal Diseases (NIHSAD) in Bhopal and targets the H5N1 virus of clade 2.3.2.1a, a type of highly pathogenic avian influenza.",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "fact": "Clade 2.3.2.1a is the main strain found on Indian poultry farms; no specific vaccine for it existed before.",
+      "source_url": "https://www.insightsonindia.com/2026/11/19/indias-first-indigenous-inactivated-h5n1-clade-2-3-2-1a-vaccine/"
+     },
+     {
+      "fact": "It is an inactivated ('killed-virus') vaccine: it contains virus particles that have been chemically made harmless and cannot multiply, but still train the chicken's immune system to fight the real virus.",
+      "source_url": "https://www.insightsonindia.com/2026/11/19/indias-first-indigenous-inactivated-h5n1-clade-2-3-2-1a-vaccine/"
+     },
+     {
+      "fact": "Research took three years, and ICAR Director General Dr ML Jat estimated the cost at Rs 1 to Rs 2 per dose.",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "fact": "Chouhan said India has recorded more than 500 outbreaks of H5N1 and H5N8 bird flu since 2006, and that no specific H5N1 vaccine was available until now.",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "fact": "India's first outbreak, in 2006 at Navapur in Maharashtra, killed about 10 lakh chickens; highly pathogenic bird flu can kill almost 100% of infected birds.",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "fact": "Farms have often had to cull entire flocks to contain infection; the vaccine is meant to prevent this, and is expected to help more than 90 lakh poultry farmers.",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "fact": "Chouhan also announced a Rs 300 crore modern laboratory in Bhopal and said, 'This vaccine is an example of India's self-reliance.' Talks on commercial production are under way.",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "fact": "WHO describes H5N1 as a flu virus that infects birds and mammals, and humans only in rare instances.",
+      "source_url": "https://www.who.int/news-room/q-a-detail/h5n1-influenza"
+     },
+     {
+      "fact": "The launch was moved from Delhi to Bhopal; about 9 lakh chickens died of bird flu in 2021 and about 2 lakh this year.",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "fact": "The research took three years under strict biosafety rules: team members followed sanitisation routines before going home and were not allowed to keep other animals as pets.",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "fact": "ICAR Director General Dr ML Jat said talks with potential manufacturers are under way and hopes India can one day export the vaccine.",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "fact": "Agriculture Minister Shivraj Singh Chouhan put yearly losses from livestock and poultry diseases at about Rs 56,000 crore, announced a Rs 300 crore modern laboratory in Bhopal, and called the vaccine 'an example of India's self-reliance'.",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "fact": "No commercial vaccine for clade 2.3.2.1a existed in India or abroad; the inactivated vaccine carries no risk of causing infection, was built from Indian virus samples collected since 2006, is meant for commercial and backyard flocks, and aims to curb spread to mammals and humans.",
+      "source_url": "https://www.insightsonindia.com/2026/11/19/indias-first-indigenous-inactivated-h5n1-clade-2-3-2-1a-vaccine/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Cost per dose (upper estimate)",
+      "value": 2,
+      "unit": "rupees",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "label": "Bird flu outbreaks in India since 2006",
+      "value": 500,
+      "unit": "outbreaks (more than)",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     },
+     {
+      "label": "Poultry farmers expected to benefit",
+      "value": 9000000,
+      "unit": "farmers (more than 90 lakh)",
+      "source_url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226"
+     },
+     {
+      "label": "New Bhopal laboratory cost",
+      "value": 300,
+      "unit": "crore rupees",
+      "source_url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590"
+     }
+    ],
+    "geography": "Bhopal, Madhya Pradesh; Navapur, Maharashtra (first outbreak in 2006); India",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "The Federal (PTI)",
+      "title": "India unveils first indigenous H5N1 bird flu vaccine for chickens",
+      "url": "https://thefederal.com/category/news/india-unveils-first-indigenous-h5n1-bird-flu-vaccine-for-chickens-263590",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "ETV Bharat (PTI)",
+      "title": "Union Minister Shivraj Singh Chouhan Unveils Country's First Indigenous H5N1 Vaccine To Protect Chickens From Bird Flu",
+      "url": "https://www.etvbharat.com/en/bharat/union-minister-shivraj-singh-chouhan-unveils-country-first-indigenous-h5n1-vaccine-to-protect-chickens-from-bird-flu-enn26112004226",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Insights IAS",
+      "title": "India's First Indigenous Inactivated H5N1 (Clade 2.3.2.1a) Vaccine",
+      "url": "https://www.insightsonindia.com/2026/11/19/indias-first-indigenous-inactivated-h5n1-clade-2-3-2-1a-vaccine/",
+      "published": "2026-11-19",
+      "primary": false
+     },
+     {
+      "outlet": "World Health Organization",
+      "title": "Influenza: A(H5N1) Q&A",
+      "url": "https://www.who.int/news-room/q-a-detail/h5n1-influenza",
+      "published": "2024-01-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "rajasthan-panchayat-results",
+    "headline": "Congress wins most seats in Rajasthan's village and district council elections",
+    "what_happened": "Votes were counted on 20 November for Rajasthan's Panchayat Samiti (block) and Zila Parishad (district) councils. By Friday evening Congress had won 3,701 Panchayat Samiti seats to the BJP's 2,181, and 599 Zila Parishad seats to the BJP's 301, according to State Election Commission figures, even though the BJP runs the state government.",
+    "why_it_matters": "These councils run local services in villages and districts, so the results show how rural voters feel about the state government. The BJP said it would review what went wrong.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Counting for Panchayat Samiti and Zila Parishad seats took place on Friday 20 November in 37 of Rajasthan's 41 districts.",
+      "source_url": "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-20-november-2026-cyclone-akvan-rajasthan-bhilwara-zp-panchayat-election-results"
+     },
+     {
+      "fact": "By Friday evening Congress had won 3,701 Panchayat Samiti seats and the BJP 2,181, per State Election Commission figures.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "In Zila Parishad (district council) seats, Congress had 599 and the BJP 301.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "Results had been declared for 7,393 of 7,543 Panchayat Samiti seats and 981 of 1,275 Zila Parishad seats.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "Congress led the Panchayat Samiti count in 33 of the 37 districts; the BJP led in Ajmer, Balotra, Salumber and Udaipur.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "Counting in Kota, Baran, Karauli and Sri Ganganagar was postponed to 17 December.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "Former chief minister Ashok Gehlot said the result was rural voters' message against 'government neglect and unfulfilled promises'; BJP spokesperson Ramlal Sharma said the result was below expectations and the party would review its shortcomings.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "The results are the second major test for Chief Minister Bhajan Lal Sharma's BJP government.",
+      "source_url": "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-20-november-2026-cyclone-akvan-rajasthan-bhilwara-zp-panchayat-election-results"
+     },
+     {
+      "fact": "India's 73rd Constitutional Amendment (1992) set up a three-tier Panchayati Raj system: the Gram Panchayat in the village, the Panchayat Samiti at block level and the Zila Parishad at district level.",
+      "source_url": "https://ies.gov.in/arthapedia/concept/local-governance-system-rural-india-panchayati-raj-and-73rd-amendment"
+     },
+     {
+      "fact": "The BSP and CPI(M) also won a few seats.",
+      "source_url": "https://www.indiatvnews.com/rajasthan/rajasthan-panchayat-elections-congress-deals-major-blow-to-bjp-wins-3-701-panchayat-samiti-seats-2026-11-20-1059984"
+     },
+     {
+      "fact": "In the Zila Parishad polls, Congress led in 24 districts and the BJP in six.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "In Jaipur, Congress won 216 Panchayat Samiti seats to the BJP's 87; in Udaipur the BJP won 146 to Congress's 137; in Chief Minister Bhajanlal Sharma's home district of Bharatpur, independents won 76, Congress 46 and the BJP 32.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "Counting in some districts was postponed to 17 December because the terms of the current Zila Parishads and Panchayat Samitis end next month.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "Ashok Gehlot said the results are a message from rural voters, farmers, workers and women against government neglect and unfulfilled promises.",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "fact": "The 73rd Amendment was passed in 1992 and took effect on 24 April 1993, making panchayats 'institutions of self government'; states with more than 25 lakh people have three tiers; a State Election Commission holds the polls every five years; seats are reserved in proportion for Scheduled Castes, Scheduled Tribes and women.",
+      "source_url": "https://ies.gov.in/arthapedia/concept/local-governance-system-rural-india-panchayati-raj-and-73rd-amendment"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Congress Panchayat Samiti seats",
+      "value": 3701,
+      "unit": "seats",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "label": "BJP Panchayat Samiti seats",
+      "value": 2181,
+      "unit": "seats",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "label": "Congress Zila Parishad seats",
+      "value": 599,
+      "unit": "seats",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "label": "BJP Zila Parishad seats",
+      "value": 301,
+      "unit": "seats",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     },
+     {
+      "label": "Panchayat Samiti seats up for election",
+      "value": 7543,
+      "unit": "seats",
+      "source_url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059"
+     }
+    ],
+    "geography": "Rajasthan, India (Jaipur, Jodhpur, Sikar, Udaipur, Ajmer; counting deferred in Kota, Baran, Karauli, Sri Ganganagar)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Daily Jagran",
+      "title": "Rajasthan Panchayat Election Results: Congress Wins 3,701 Panchayat Samiti, 599 Zila Parishad Seats; BJP Trails",
+      "url": "https://www.thedailyjagran.com/india/news/rajasthan-panchayat-election-results-congress-wins-big-over-bjp-in-panchayat-samitis-zila-parishads-10337059",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "India TV News",
+      "title": "Rajasthan panchayat elections: Congress deals major blow to BJP, wins 3,701 panchayat samiti seats",
+      "url": "https://www.indiatvnews.com/rajasthan/rajasthan-panchayat-elections-congress-deals-major-blow-to-bjp-wins-3-701-panchayat-samiti-seats-2026-11-20-1059984",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Outlook India",
+      "title": "Live updates, 20 November 2026",
+      "url": "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-20-november-2026-cyclone-akvan-rajasthan-bhilwara-zp-panchayat-election-results",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Indian Economic Service (Arthapedia)",
+      "title": "Local Governance system in rural India (Panchayati Raj) and the 73rd amendment",
+      "url": "https://ies.gov.in/arthapedia/concept/local-governance-system-rural-india-panchayati-raj-and-73rd-amendment",
+      "published": "2020-01-01",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sc-karnataka-bike-taxis",
+    "headline": "Supreme Court lets bike taxis keep running in Karnataka",
+    "what_happened": "The Supreme Court on 20 November dismissed the Karnataka government's appeal against a High Court ruling that allowed bike taxis. This means services such as Ola, Uber and Rapido can keep offering motorcycle rides in the state, including Bengaluru.",
+    "why_it_matters": "It shows how courts check state governments: the state can set safety rules for bike taxis, but cannot ban them just because the vehicle is a motorcycle.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "A bench of Justices Satish Chandra Sharma and N Kotiswar Singh dismissed Karnataka's appeal against the Karnataka High Court's 23 January judgment.",
+      "source_url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+     },
+     {
+      "fact": "The High Court had ruled that motorcycles can be registered as transport vehicles; the state may impose conditions but cannot refuse permits only because a vehicle is a motorcycle.",
+      "source_url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+     },
+     {
+      "fact": "Karnataka had raised passenger safety, insurance and traffic congestion; the judges noted motorcycles take up less road space than cars and are affordable.",
+      "source_url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+     },
+     {
+      "fact": "Justice Sharma said young women in his office used bike taxis because cabs were unaffordable.",
+      "source_url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+     },
+     {
+      "fact": "The aggregators said about 4.5 lakh passengers in Karnataka used bike taxis, and the Centre confirmed its notifications allow motorcycles to be used as taxis.",
+      "source_url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+     },
+     {
+      "fact": "Ola, Uber and Rapido were among the companies that had won in the High Court.",
+      "source_url": "https://www.freepressjournal.in/business/major-relief-for-ola-uber-and-rapido-supreme-court-dismisses-karnatakas-appeal-against-bike-taxi-services"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Bike-taxi passengers in Karnataka (aggregators' estimate)",
+      "value": 450000,
+      "unit": "passengers",
+      "source_url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban"
+     }
+    ],
+    "geography": "Karnataka (Bengaluru); Supreme Court in New Delhi, India",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Bar & Bench",
+      "title": "Supreme Court allows bike taxis in Karnataka, rejects State's appeal to restore ban",
+      "url": "https://www.barandbench.com/news/supreme-court-allows-bike-taxis-in-karnataka-rejects-states-appeal-to-restore-ban",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Free Press Journal",
+      "title": "Major Relief For Ola, Uber And Rapido: Supreme Court Dismisses Karnataka's Appeal Against Bike Taxi Services",
+      "url": "https://www.freepressjournal.in/business/major-relief-for-ola-uber-and-rapido-supreme-court-dismisses-karnatakas-appeal-against-bike-taxi-services",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "nepal-pm-shah-india-visit",
+    "headline": "Nepal's Prime Minister Balendra Shah to make first state visit to India",
+    "what_happened": "India's Ministry of External Affairs said on 20 November that Nepal's Prime Minister Balendra Shah will make a state visit to India on 22-23 November at Prime Minister Narendra Modi's invitation. The two leaders will discuss development cooperation, energy and connectivity.",
+    "why_it_matters": "Nepal is India's close neighbour, and ties had been strained this year over a border dispute; the visit is a chance to repair them.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Shah will be on a state visit to India on 22-23 November at the invitation of PM Modi, and will be accorded all state honours.",
+      "source_url": "https://aninews.in/news/world/asia/nepal-pm-to-be-offered-all-state-honours-talks-focus-on-development-energy-ties-connectivity-with-pm-modi-during-visit-mea20261120190515/"
+     },
+     {
+      "fact": "Talks with Modi will cover development cooperation, energy ties, connectivity and new areas of collaboration; Shah will also call on President Droupadi Murmu.",
+      "source_url": "https://aninews.in/news/world/asia/nepal-pm-to-be-offered-all-state-honours-talks-focus-on-development-energy-ties-connectivity-with-pm-modi-during-visit-mea20261120190515/"
+     },
+     {
+      "fact": "Shah leads a 34-member delegation including Finance Minister Swarnim Wagle and Foreign Minister Shisir Khanal.",
+      "source_url": "https://aninews.in/news/world/asia/nepal-pm-to-be-offered-all-state-honours-talks-focus-on-development-energy-ties-connectivity-with-pm-modi-during-visit-mea20261120190515/"
+     },
+     {
+      "fact": "It is his first bilateral trip abroad since taking office on 27 March 2026, and comes months after a border row with India.",
+      "source_url": "https://swarajyamag.com/news-brief/months-after-border-row-nepal-pm-balen-shah-to-make-first-state-visit-to-india-hold-talks-with-modi"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Delegation size",
+      "value": 34,
+      "unit": "members",
+      "source_url": "https://aninews.in/news/world/asia/nepal-pm-to-be-offered-all-state-honours-talks-focus-on-development-energy-ties-connectivity-with-pm-modi-during-visit-mea20261120190515/"
+     }
+    ],
+    "geography": "India (New Delhi) and Nepal",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "ANI",
+      "title": "Nepal PM to be offered all state honours; talks focus on development, energy ties, connectivity with PM Modi during visit: MEA",
+      "url": "https://aninews.in/news/world/asia/nepal-pm-to-be-offered-all-state-honours-talks-focus-on-development-energy-ties-connectivity-with-pm-modi-during-visit-mea20261120190515/",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Swarajya",
+      "title": "Months After Border Row, Nepal PM Balen Shah To Make First State Visit To India",
+      "url": "https://swarajyamag.com/news-brief/months-after-border-row-nepal-pm-balen-shah-to-make-first-state-visit-to-india-hold-talks-with-modi",
+      "published": "2026-11-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "iffi-2026-opens-goa",
+    "headline": "57th International Film Festival of India opens in Goa",
+    "what_happened": "The 57th International Film Festival of India (IFFI) opened in Goa on 20 November and runs until 28 November. Its theme is 'Stories Without Borders' and it features more than 150 films from 86 countries.",
+    "why_it_matters": "IFFI is India's biggest government-run film festival, bringing world cinema to Indian audiences.",
+    "importance": 4,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The festival opened on 20 November in Goa and runs until 28 November, with the theme 'Stories Without Borders'.",
+      "source_url": "https://newsonair.gov.in/57th-international-film-festival-of-india-to-begin-today-in-goa-with-grand-opening-ceremony/"
+     },
+     {
+      "fact": "More than 150 films from 86 countries are being shown; Pawel Pawlikowski's 'Fatherland' opened the festival.",
+      "source_url": "https://newsonair.gov.in/57th-international-film-festival-of-india-to-begin-today-in-goa-with-grand-opening-ceremony/"
+     },
+     {
+      "fact": "The opening ceremony began with a lamp-lighting led by Goa Chief Minister Pramod Sawant and festival director Ashutosh Gowariker, with music by Ricky Kej and performances by Sai Pallavi and Ravi Kishan.",
+      "source_url": "https://variety.com/2026/film/festivals/sai-pallavi-ravi-kishan-ricky-kej-iffi-opening-goa-1236954225/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Countries represented",
+      "value": 86,
+      "unit": "countries",
+      "source_url": "https://newsonair.gov.in/57th-international-film-festival-of-india-to-begin-today-in-goa-with-grand-opening-ceremony/"
+     },
+     {
+      "label": "Films",
+      "value": 150,
+      "unit": "films (more than)",
+      "source_url": "https://newsonair.gov.in/57th-international-film-festival-of-india-to-begin-today-in-goa-with-grand-opening-ceremony/"
+     }
+    ],
+    "geography": "Panaji, Goa, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "All India Radio (News On Air)",
+      "title": "57th International Film Festival of India to begin today in Goa with grand opening ceremony",
+      "url": "https://newsonair.gov.in/57th-international-film-festival-of-india-to-begin-today-in-goa-with-grand-opening-ceremony/",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Variety",
+      "title": "Sai Pallavi, Ravi Kishan, Ricky Kej Light Up IFFI Opening in Goa",
+      "url": "https://variety.com/2026/film/festivals/sai-pallavi-ravi-kishan-ricky-kej-iffi-opening-goa-1236954225/",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "icj-myanmar-rohingya-genocide",
+    "headline": "World's top court rules Myanmar committed genocide against the Rohingya, in a case brought by tiny Gambia",
+    "what_happened": "On 19 November the International Court of Justice in The Hague ruled that Myanmar committed genocide against the Rohingya, a Muslim minority, during a 2017 military crackdown. It is the first time a country has been found responsible for genocide under the Genocide Convention. The case was brought by The Gambia, a small country in West Africa.",
+    "why_it_matters": "The ruling says a whole country broke the most serious law there is, and orders it to make amends, including letting refugees return home safely. It also shows that a small nation can bring a powerful one to court on behalf of people far away.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The International Court of Justice (ICJ) found Myanmar responsible for genocide against the Rohingya in the case The Gambia v. Myanmar, and said Myanmar also failed to prevent and punish genocide.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "It is the first such ruling against a State under the Genocide Convention.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "The judges decided 9 votes to 6 that Myanmar committed genocide in northern Rakhine state.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "The court said about 10,000 Rohingya were killed during the 2017 'clearance operations' and about 700,000 fled northern Rakhine to Bangladesh.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "Nearly 400 villages, about 40% of the nearly 1,000 villages in three northern Rakhine townships, were partly or wholly destroyed.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "The court ordered Myanmar to pay compensation, allow the safe, voluntary and dignified return of displaced Rohingya, reunite families, and report back within two years.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "fact": "The Gambia, which started the case in November 2019, called the ruling 'a historic day for international justice'.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "More than 1.3 million Rohingya remain displaced, about 1.2 million of them in refugee camps in Cox's Bazar, Bangladesh.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "Myanmar has said its crackdown was a response to attacks on police posts by fighters from the Arakan Rohingya Salvation Army.",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "fact": "UN Secretary-General Antonio Guterres called the judgment a 'powerful recognition of the Rohingya victims of genocide'.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Judges' vote on genocide finding (for)",
+      "value": 9,
+      "unit": "of 15 judges",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "label": "Rohingya killed in 2017, per the court",
+      "value": 10000,
+      "unit": "people",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "label": "Rohingya who fled to Bangladesh after 2017",
+      "value": 700000,
+      "unit": "people",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     },
+     {
+      "label": "Rohingya in camps in Cox's Bazar",
+      "value": 1200000,
+      "unit": "people",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+     },
+     {
+      "label": "Deadline for Myanmar's report to the court",
+      "value": 2,
+      "unit": "years",
+      "source_url": "https://news.un.org/en/story/2026/11/1168836"
+     }
+    ],
+    "geography": "Myanmar (Rakhine state, on the Bay of Bengal coast); Bangladesh (Cox's Bazar refugee camps); The Gambia, a small West African country along the Gambia River; The Hague, Netherlands",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "UN News",
+      "title": "World's top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://news.un.org/en/story/2026/11/1168836",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "Al Jazeera",
+      "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+      "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+      "published": "2026-11-19",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "tillis-blocks-gao-nominee",
+    "headline": "Republican senator moves to block Trump's pick to run Congress's spending watchdog",
+    "what_happened": "Senator Thom Tillis, a Republican, said he will stop White House aide Eric Ueland from being approved as head of the Government Accountability Office (GAO) as part of a bundle of nominations next month. Tillis doubts Ueland could stand up to White House pressure.",
+    "why_it_matters": "The GAO checks how the government spends taxpayers' money for Congress, so its boss is meant to be independent. The fight shows how the Senate's power to confirm nominees acts as a check on the President.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Tillis plans to block Ueland's quick confirmation by opposing his inclusion in a bundled nomination package Senate Republicans plan to approve next month.",
+      "source_url": "https://politicalwire.com/2026/11/20/tillis-to-block-trumps-comptroller-general-pick/"
+     },
+     {
+      "fact": "Tillis said, 'I won't allow him to go through en bloc,' and that he had 'already issued a presumptive hold if it comes out of committee.'",
+      "source_url": "https://talkingpointsmemo.com/unsanctioned/tillis-knifes-controversial-trump-nominee-for-gao"
+     },
+     {
+      "fact": "Ueland is deputy director of the White House budget office under Russ Vought, which has clashed with the GAO over money Congress approved but the White House held back.",
+      "source_url": "https://talkingpointsmemo.com/unsanctioned/tillis-knifes-controversial-trump-nominee-for-gao"
+     },
+     {
+      "fact": "The head of the GAO, called the Comptroller General, serves one 15-year term that cannot be renewed, and must be confirmed by the Senate.",
+      "source_url": "https://gao.gov/about/comptroller-general"
+     },
+     {
+      "fact": "Normally a commission of lawmakers from both parties recommends candidates; the White House picked Ueland without that commission vetting him.",
+      "source_url": "https://talkingpointsmemo.com/unsanctioned/tillis-knifes-controversial-trump-nominee-for-gao"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Comptroller General term",
+      "value": 15,
+      "unit": "years",
+      "source_url": "https://gao.gov/about/comptroller-general"
+     }
+    ],
+    "geography": "Washington, DC, United States",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Political Wire (citing Politico)",
+      "title": "Tillis to Block Trump's Comptroller General Pick",
+      "url": "https://politicalwire.com/2026/11/20/tillis-to-block-trumps-comptroller-general-pick/",
+      "published": "2026-11-20",
+      "primary": false
+     },
+     {
+      "outlet": "Talking Points Memo",
+      "title": "Tillis Knifes Controversial Trump Nominee for GAO",
+      "url": "https://talkingpointsmemo.com/unsanctioned/tillis-knifes-controversial-trump-nominee-for-gao",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "U.S. Government Accountability Office",
+      "title": "Comptroller General",
+      "url": "https://gao.gov/about/comptroller-general",
+      "published": "2026-01-01",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "us-shutdown-threat-iran-funding",
+    "headline": "US government shutdown threat grows as Congress argues over Iran war money",
+    "what_happened": "Congress must pass a new funding law by 11 December or parts of the US government will shut down. Democrats, who made big gains in the midterm elections, are split over whether to use the deadline to cut off money for the war with Iran.",
+    "why_it_matters": "Congress controls the government's money, which is one of its most powerful checks on the President; a shutdown would stop pay and services for many federal workers.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Congress must fund the government by 11 December to avoid a shutdown.",
+      "source_url": "https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown"
+     },
+     {
+      "fact": "Democrats flipped nine Senate seats in the midterms but disagree on how hard to push the deadline to end the Iran war.",
+      "source_url": "https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown"
+     },
+     {
+      "fact": "Top House Appropriations Democrat Rosa DeLauro said Americans 'would like to see us end the war' but may not believe a shutdown would achieve that; Senator Chris Van Hollen wants Democrats to oppose war funding in any stopgap bill.",
+      "source_url": "https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown"
+     },
+     {
+      "fact": "Republicans warn a shutdown could leave the government unfunded until Democrats take control of Congress in January.",
+      "source_url": "https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Senate seats flipped by Democrats in midterms",
+      "value": 9,
+      "unit": "seats",
+      "source_url": "https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown"
+     }
+    ],
+    "geography": "Washington, DC, United States; Iran",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Scripps News",
+      "title": "Iran war funding fight raises threat of December government shutdown",
+      "url": "https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 24,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "red-friday-ai-stock-selloff",
+    "headline": "US stock markets fall into a 'correction' as AI shares tumble after Anthropic's record share sale",
+    "what_happened": "US share prices fell sharply on Friday 20 November, pushing the S&P 500 and Dow Jones indexes into a 'correction', meaning about 10% below their record highs. Shares in artificial-intelligence companies led the fall, including Anthropic, which had made the biggest stock market debut ever a day earlier, and chipmaker Nvidia; markets in Asia and Europe also fell.",
+    "why_it_matters": "Millions of families save for retirement through pension and 401(k) funds that own shares, so a big fall makes those savings worth less, at a time when prices are still rising fast.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The S&P 500 fell about 2% by midday Friday, leaving it about 10% below its 6 October record; a close more than 10% below a record is called a 'correction'.",
+      "source_url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html"
+     },
+     {
+      "fact": "The S&P 500 was heading for a seventh straight daily loss, the longest streak since the COVID-19 pandemic began in 2020.",
+      "source_url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html"
+     },
+     {
+      "fact": "The S&P 500 and the Dow Jones Industrial Average entered correction territory, and the tech-heavy Nasdaq wiped out all its gains for 2026.",
+      "source_url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+     },
+     {
+      "fact": "Anthropic's share sale was the largest ever; its shares rose about 17% on their first day, Thursday, then fell 12.4% to $85.16 on Friday, still above the $83 IPO price.",
+      "source_url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html"
+     },
+     {
+      "fact": "Nvidia shares dropped more than 12% after a Reuters report that the US Securities and Exchange Commission is examining possible accounting issues at the chipmaker.",
+      "source_url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+     },
+     {
+      "fact": "For the week, the Dow fell about 7%, the S&P 500 almost 8% and the Nasdaq about 9%, according to CNBC's tally on Friday afternoon.",
+      "source_url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+     },
+     {
+      "fact": "Analysts blamed doubts about AI spending, expectations of more US interest-rate rises to fight inflation, and Nvidia's leadership turmoil after Jensen Huang's departure as chief executive.",
+      "source_url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+     },
+     {
+      "fact": "Charles Schwab's Kevin Gordon described 'dual forces' hitting the market: a hawkish Federal Reserve and the AI/tech slump.",
+      "source_url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+     },
+     {
+      "fact": "Japan's Nikkei 225 fell 5.06% and South Korea's KOSPI 5.21% on Friday, while India's Nifty 50 rose 1.06%.",
+      "source_url": "https://fortune.com/2026/11/20/anthropic-stock-decline-overnight-correction-global-selloff/"
+     },
+     {
+      "fact": "NBC News noted the downturn is especially hard on households relying on 401(k) retirement accounts and pensions.",
+      "source_url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "S&P 500 distance below record high",
+      "value": 10,
+      "unit": "percent (about)",
+      "source_url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html"
+     },
+     {
+      "label": "Anthropic share price Friday",
+      "value": 85.16,
+      "unit": "US dollars",
+      "source_url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html"
+     },
+     {
+      "label": "Anthropic IPO price",
+      "value": 83,
+      "unit": "US dollars",
+      "source_url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html"
+     },
+     {
+      "label": "Nasdaq weekly fall",
+      "value": 9,
+      "unit": "percent (about)",
+      "source_url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+     },
+     {
+      "label": "Nikkei 225 fall on Friday",
+      "value": 5.06,
+      "unit": "percent",
+      "source_url": "https://fortune.com/2026/11/20/anthropic-stock-decline-overnight-correction-global-selloff/"
+     }
+    ],
+    "geography": "United States (New York stock exchanges); Japan; South Korea; Europe; India",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Associated Press (via Dayton Daily News)",
+      "title": "US stocks waver as tech sell-off continues and Anthropic falls",
+      "url": "https://www.daytondailynews.com/nation-world/us-stocks-waver-as-tech-sell-off-continues-and-anthropic-falls/article_c6fc6835-79e7-56ff-a6c3-d971174a4b2f.html",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "S&P 500 and Dow enter correction, Nasdaq wipes out 2026 gain as Anthropic leads AI sell-off: Live updates",
+      "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "NBC News",
+      "title": "Markets plunge: Nasdaq erases 2026 gains, S&P and Dow enter corrections",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Fortune",
+      "title": "Anthropic suffers steep decline overnight as Wall Street worries about depth of 'correction' amid global selloff",
+      "url": "https://fortune.com/2026/11/20/anthropic-stock-decline-overnight-correction-global-selloff/",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "us-gas-prices-fall-thanksgiving",
+    "headline": "US petrol prices drop 18 cents in a week as oil falls for a third week",
+    "what_happened": "The average price of a gallon of regular petrol in the US fell 18 cents in a week to $3.72, motoring group AAA said, as crude oil slid. Oil prices were heading for a third straight weekly fall on 20 November because tanker traffic through the Strait of Hormuz has returned to roughly pre-war levels.",
+    "why_it_matters": "Fuel is one of the biggest costs for families, especially before the Thanksgiving holiday, when tens of millions of Americans drive to see relatives.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "AAA said the national average for regular petrol was $3.72 a gallon, down 18 cents from a week earlier but still more than 60 cents higher than a year ago.",
+      "source_url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+     },
+     {
+      "fact": "AAA said prices could fall another 15 cents by Thanksgiving and avoid beating the Thanksgiving Day record of $3.58, set in 2022.",
+      "source_url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+     },
+     {
+      "fact": "Nearly 73 million people are expected to take Thanksgiving road trips next week.",
+      "source_url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+     },
+     {
+      "fact": "Brent and US crude were on track for a third straight weekly decline, with Brent near $92 a barrel and headed for a nearly 4% weekly fall.",
+      "source_url": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html"
+     },
+     {
+      "fact": "Crude shipments through the Strait of Hormuz have returned to roughly pre-war levels, raising expectations of a supply surplus, though attacks on tankers still add risk.",
+      "source_url": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "US average regular petrol price",
+      "value": 3.72,
+      "unit": "US dollars per gallon",
+      "source_url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+     },
+     {
+      "label": "Weekly drop",
+      "value": 18,
+      "unit": "US cents",
+      "source_url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+     },
+     {
+      "label": "Thanksgiving road travellers",
+      "value": 73000000,
+      "unit": "people (nearly)",
+      "source_url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/"
+     }
+    ],
+    "geography": "United States; Strait of Hormuz; Middle East",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "AAA Newsroom",
+      "title": "Gas Prices Keep Dropping as Thanksgiving Approaches",
+      "url": "https://newsroom.aaa.com/2026/11/gas-prices-keep-dropping-as-thanksgiving-approaches/",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "CNBC",
+      "title": "Oil prices set for third straight weekly decline on Middle East export flows",
+      "url": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "japan-inflation-october",
+    "headline": "Prices rise faster in Japan as energy help is cut back",
+    "what_happened": "Japan's core inflation rate, which leaves out fresh food, rose to 2.2% in October from 2.1% in September, data released on 20 November showed. Electricity and gas got dearer as the government reduced subsidies, and a weak yen made imported food more expensive.",
+    "why_it_matters": "Rising prices make it more likely that the Bank of Japan raises interest rates in December, which affects borrowing costs for Japanese families and businesses.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Core inflation (excluding fresh food) was 2.2% in October, up from 2.1% in September; economists surveyed by Bloomberg had expected 2.3%.",
+      "source_url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/"
+     },
+     {
+      "fact": "Electricity prices rose 1.6% from a year earlier after falling 2.4% in September, as the government scaled back subsidies; gas prices rose 5.3%.",
+      "source_url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/"
+     },
+     {
+      "fact": "Higher energy costs from the Middle East conflict and a weak yen, which makes imports pricier, also pushed prices up.",
+      "source_url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/"
+     },
+     {
+      "fact": "The Bank of Japan has said inflation reached its 2% target and is expected to run clearly above it; officials are expected to raise interest rates in December.",
+      "source_url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Japan core inflation, October",
+      "value": 2.2,
+      "unit": "percent",
+      "source_url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/"
+     },
+     {
+      "label": "Electricity price change",
+      "value": 1.6,
+      "unit": "percent",
+      "source_url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/"
+     }
+    ],
+    "geography": "Japan",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "RTE",
+      "title": "Japan inflation picks up, fanning rate hike speculation",
+      "url": "https://www.rte.ie/news/business/2026/1120/1599957-japan-inflation-rises/",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Free Malaysia Today",
+      "title": "Japan's core October inflation accelerates to 2.2%",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/11/20/japan-s-core-october-inflation-accelerates-to-2-2",
+      "published": "2026-11-20",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voyager-1-light-day",
+    "headline": "NASA's Voyager 1 becomes the first spacecraft to travel one 'light-day' from Earth",
+    "what_happened": "On 18 November, NASA's Voyager 1 probe reached one light-day from Earth, about 16.1 billion miles away, the farthest any human-made object has gone. A light-day is how far light travels in 24 hours, so a radio message now takes a full day to reach the spacecraft and another day to come back. Engineers confirmed the milestone even though the probe has not sent science data since 14 November.",
+    "why_it_matters": "A spacecraft launched in 1977 is still exploring the space between the stars, showing how far careful engineering can go. It also helps people picture just how enormous space is.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth at 2:16 a.m. PST (5:16 a.m. EST) on 18 November 2026.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "One light-day is roughly 16.1 billion miles (25.9 billion km); it is a measure of distance, how far light travels in 24 hours.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Signals now take 24 hours to reach the spacecraft and 24 hours to come back, using NASA's Deep Space Network.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 is the farthest any human-made object has travelled.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The team has received no science or engineering data from Voyager 1 since 14 November, but it is still sending a 'carrier signal', which engineers used with trajectory calculations to confirm the milestone.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 launched in 1977, flew past Jupiter in 1979 and Saturn in 1980, took the 'Pale Blue Dot' photo of Earth in 1990 and crossed into interstellar space in 2012.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The spacecraft travels at about 38,000 mph (61,155 kph).",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Both Voyagers lose about 4 watts of power a year as their plutonium power source declines; NASA expects them to keep their current science instruments running until at least their 50th launch anniversaries next summer.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Its twin, Voyager 2, is expected to reach the one-light-day mark in 2035.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Each probe carries a Golden Record of Earth's sounds, which NASA expects to last more than a billion years.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Light takes about 1.3 seconds to reach the Moon and about four hours to reach Neptune; it travels about 186,000 miles (299,000 km) a second.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA's Deep Space Network uses large antennas at three facilities around the world; the team heard from the probe 24 hours after sending a signal.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Suzanne Dodd: 'We listen to Voyager 1 every day and send commands to the spacecraft weekly.'",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 has faced ageing hardware including clogged thrusters and a malfunctioning computer; this year engineers turned off three devices and substituted three lower-power alternatives.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "The Voyagers were launched to take advantage of a rare planetary alignment; in 2012 Voyager 1 became the first human-made spacecraft to enter interstellar space; it is powered by a plutonium supply.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance of one light-day",
+      "value": 16.1,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Speed of Voyager 1",
+      "value": 38000,
+      "unit": "mph",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Launch year",
+      "value": 1977,
+      "unit": "year",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space beyond the solar system; NASA's Jet Propulsion Laboratory in California",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "NASA's Voyager 1 phones home from record one light-day away, 49 years after launch",
+      "url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "starship-ship-catch",
+    "headline": "SpaceX catches a Starship upper stage with its launch tower's arms for the first time",
+    "what_happened": "On November 14, 2026, SpaceX caught its Starship upper stage, Ship 42, with the 'chopstick' arms of its launch tower at Starbase, Texas, about 22.5 hours after Flight 15 lifted off on November 13. It was the first time SpaceX had caught a Ship returning from orbit. The planned 'double catch' failed, because the Super Heavy booster got a low-fuel warning and splashed down in the Gulf of Mexico instead.",
+    "why_it_matters": "Catching rockets so they can be inspected and flown again is meant to make spaceflight cheaper and much more frequent, and SpaceX called it the first recovery of an orbital Starship upper stage.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "SpaceX caught Ship 42 at about 4:20 p.m. EST (2120 GMT) on Nov. 14, 2026, roughly 22.5 hours after Flight 15 launched.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "Flight 15, the 15th Starship test flight, lifted off on the evening of Nov. 13 from Starbase in South Texas.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "It was the first time SpaceX caught a Ship upper stage; it had caught Super Heavy boosters on three earlier test flights.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "The upper stage is harder to catch because it flies higher, farther and faster than the booster; on Flight 15 Ship 42 came back from orbit.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "How it works: after reentering the atmosphere, the Ship makes a belly-first descent toward the launch pad, flips upright, and is caught by the launch tower's mechanical arms.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/double-catch-drama-why-starships-flight-15-is-so-important-to-spacex"
+     },
+     {
+      "fact": "Before landing, images from Starlink satellites and ground cameras showed the heat shield was in good shape.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "The Super Heavy booster had a low-fuel alarm about 6.5 minutes after launch and diverted to splash down in the Gulf of Mexico, so the planned double catch failed.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "The Ship deployed 26 Starlink V3 internet satellites into low Earth orbit during the flight.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "SpaceX's Dan Huot called the catch \"the holy grail of spaceflight\"; SpaceX says catching the Ship allows faster inspection, refurbishment and reflight, and it is expected to try the double catch again on a coming flight.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Hours from liftoff to catch",
+      "value": 22.5,
+      "unit": "hours",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "label": "Starlink V3 satellites deployed",
+      "value": 26,
+      "unit": "satellites",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "label": "Earlier booster catches",
+      "value": 3,
+      "unit": "flights",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     }
+    ],
+    "geography": "Starbase, South Texas, USA; Gulf of Mexico (booster splashdown); reentry over northern Mexico and southern Texas",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Space.com",
+      "title": "'Now everything changes': SpaceX catches Starship upper stage for 1st time ever",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+      "published": "2026-11-14",
+      "primary": false
+     },
+     {
+      "outlet": "Space.com",
+      "title": "Double-catch drama: Why Starship's Flight 15 is so important to SpaceX",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/double-catch-drama-why-starships-flight-15-is-so-important-to-spacex",
+      "published": "2026-11-13",
+      "primary": false
+     },
+     {
+      "outlet": "Space.com",
+      "title": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
+      "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt",
+      "published": "2026-11-14",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ancient-orca-north-sea",
+    "headline": "Fossils from the North Sea show killer whales grew huge and hunted big prey over 2 million years ago",
+    "what_happened": "Scientists studied ancient killer whale fossils that fishing trawlers pulled from the seabed of the southern North Sea, dating them to 2.6 to 2.1 million years ago. The bones suggest some of these orcas were 7.2 to 7.7 metres long, as big as the largest male orcas today, with big, strongly rooted teeth. The study was published in the journal PeerJ.",
+    "why_it_matters": "It pushes back the start of orcas' big-prey hunting ability by more than 2 million years, much earlier than genetic studies had suggested.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The fossils are two skull fragments, part of a lower jaw and two sets of fused neck vertebrae from ancient orcas (genus Orcinus).",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "They were pulled from the seabed of the southern North Sea by commercial fishing trawlers and are kept at the Natural History Museum Rotterdam in the Netherlands.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "How they were dated: the team used microscopic fossils of marine algae in sediment stuck to one skull fragment, dating it to 2.6 to 2.1 million years ago.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "How size was estimated: researchers measured the bones, compared them with modern and extinct killer whales and dolphins, and laid 3D models of the skull pieces over a modern 5.96-metre killer whale skeleton.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "Larger individuals were estimated at 7.2 to 7.7 metres (23.6 to 25.3 feet) long, which the authors say is comparable to the largest living male orcas.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "The jaw has large, deep, widely spaced tooth sockets, pointing to big teeth with long, strong roots able to tackle large prey.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "Genetic studies had placed the rise of specialised killer whale groups at around 770,000 to 120,000 years ago; this find pushes the hunting ability back more than 2 million years.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "Scientists still do not know whether the fossils belong to an early population of today's killer whale or to a separate, unnamed large species. The study by Hidde Bakker and colleagues is in PeerJ.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Largest estimated length",
+      "value": 7.7,
+      "unit": "metres",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "label": "Oldest age of fossils",
+      "value": 2.6,
+      "unit": "million years",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "label": "Modern orca skeleton used for comparison",
+      "value": 5.96,
+      "unit": "metres",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     }
+    ],
+    "geography": "Southern North Sea seabed; Rotterdam, Netherlands",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Phys.org",
+      "title": "Killer whales became fearsome predators long before scientists thought",
+      "url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html",
+      "published": "2026-11-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "meerkats-find-way-home",
+    "headline": "Meerkats left on their own can find their way home, study finds",
+    "what_happened": "Researchers from the University of Zurich took meerkats one at a time away from their group in the Kalahari Desert, released them 1.5 kilometres away and tracked them with GPS collars. In 20 trials, 18 meerkats headed back in a nearly straight line to their group or capture spot. The study was reported November 19 in the Journal of Experimental Biology.",
+    "why_it_matters": "Meerkats live in groups, so scientists were surprised that each one seems to carry its own 'mental map' of its home territory.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study took place in the Kalahari Desert in southern Africa; meerkat groups can include up to 50 members.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Researchers fitted meerkats with GPS, audio and VHF collars, released each one 1.5 km (0.9 miles) away within its territory, and followed it on foot while filming its route.",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     },
+     {
+      "fact": "The test was repeated 20 times over three months with meerkats from five groups.",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     },
+     {
+      "fact": "18 of the 20 meerkats made a direct 'beeline' back to their group or capture site; the other two may have been too stressed to move.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Some set off within minutes, while others circled the release spot for up to 90 minutes before heading out.",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     },
+     {
+      "fact": "How they did it: the meerkats stood on their hind legs to scan the landscape, then moved in a straight line, pausing to look around or sniff for scent landmarks.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Age and experience did not seem to matter; even young meerkats with no experience got home, and researchers think the animals may use mental maps formed early in life.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Lead researcher Mathilde Martin of the University of Zurich said of the meerkats: \"They all seem to be very, very good.\"",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Release distance",
+      "value": 1.5,
+      "unit": "km",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "label": "Meerkats that got home",
+      "value": 18,
+      "unit": "out of 20",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "label": "Longest circling before leaving",
+      "value": 90,
+      "unit": "minutes",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     }
+    ],
+    "geography": "Kalahari Desert, South Africa (Kalahari Research Centre); University of Zurich, Switzerland",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Solo meerkats can find their way back home",
+      "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+      "published": "2026-11-19",
+      "primary": false
+     },
+     {
+      "outlet": "Phys.org",
+      "title": "Individual meerkats are ace solo navigators",
+      "url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sulawesi-flying-frog",
+    "headline": "New bright-green flying frog found in Indonesia's mountains lays its eggs in jelly",
+    "what_happened": "Scientists described a new flying frog species, Rhacophorus kurniatiae, from the Mekongga Mountains of Sulawesi, Indonesia, where thousands were found above 1,860 metres near a small lake. Unlike its relatives, which make foam nests, it lays its eggs in a jelly-like mass on plants above or near water.",
+    "why_it_matters": "It is the first time scientists have seen this frog group use jelly for its eggs, and researchers hope new finds will help the area become a national park.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The frog was found in the Mekongga Mountains of Sulawesi, Indonesia, at over 1,860 metres, with thousands near a small seasonal lake.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "It is named after the late herpetologist Hellen Kurniati of Museum Zoologicum Bogoriense.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "How it works: flying frogs use large, webbed feet to glide between trees; this new species lays eggs in a jelly mass on plants above or near water, and the eggs and tadpoles develop inside the gel, instead of in foam nests like its relatives.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "The bright-green frog can fit on a person's cheek; scientists told it apart from look-alike frogs by comparing 28 body features, its genes and its calls.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "Researcher Alamsyah Elang Nusa Herlambang said: \"It's the first time we have seen Rhacophorus with a gelatinous matrix for its reproduction strategy.\"",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Altitude where found",
+      "value": 1860,
+      "unit": "metres (over)",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "label": "Body features compared",
+      "value": 28,
+      "unit": "features",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     }
+    ],
+    "geography": "Mekongga Mountains, Sulawesi island, Indonesia",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Phys.org",
+      "title": "New Asian flying frog species identified in Indonesia",
+      "url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science": {
+  "label": "SCIENCE",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voyager-1-light-day",
+    "headline": "NASA's Voyager 1 becomes the first spacecraft to travel one 'light-day' from Earth",
+    "what_happened": "On 18 November, NASA's Voyager 1 probe reached one light-day from Earth, about 16.1 billion miles away, the farthest any human-made object has gone. A light-day is how far light travels in 24 hours, so a radio message now takes a full day to reach the spacecraft and another day to come back. Engineers confirmed the milestone even though the probe has not sent science data since 14 November.",
+    "why_it_matters": "A spacecraft launched in 1977 is still exploring the space between the stars, showing how far careful engineering can go. It also helps people picture just how enormous space is.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth at 2:16 a.m. PST (5:16 a.m. EST) on 18 November 2026.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "One light-day is roughly 16.1 billion miles (25.9 billion km); it is a measure of distance, how far light travels in 24 hours.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Signals now take 24 hours to reach the spacecraft and 24 hours to come back, using NASA's Deep Space Network.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 is the farthest any human-made object has travelled.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The team has received no science or engineering data from Voyager 1 since 14 November, but it is still sending a 'carrier signal', which engineers used with trajectory calculations to confirm the milestone.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 launched in 1977, flew past Jupiter in 1979 and Saturn in 1980, took the 'Pale Blue Dot' photo of Earth in 1990 and crossed into interstellar space in 2012.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "The spacecraft travels at about 38,000 mph (61,155 kph).",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Both Voyagers lose about 4 watts of power a year as their plutonium power source declines; NASA expects them to keep their current science instruments running until at least their 50th launch anniversaries next summer.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Its twin, Voyager 2, is expected to reach the one-light-day mark in 2035.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Each probe carries a Golden Record of Earth's sounds, which NASA expects to last more than a billion years.",
+      "source_url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch"
+     },
+     {
+      "fact": "Light takes about 1.3 seconds to reach the Moon and about four hours to reach Neptune; it travels about 186,000 miles (299,000 km) a second.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA's Deep Space Network uses large antennas at three facilities around the world; the team heard from the probe 24 hours after sending a signal.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Suzanne Dodd: 'We listen to Voyager 1 every day and send commands to the spacecraft weekly.'",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1 has faced ageing hardware including clogged thrusters and a malfunctioning computer; this year engineers turned off three devices and substituted three lower-power alternatives.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "The Voyagers were launched to take advantage of a rare planetary alignment; in 2012 Voyager 1 became the first human-made spacecraft to enter interstellar space; it is powered by a plutonium supply.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance of one light-day",
+      "value": 16.1,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Speed of Voyager 1",
+      "value": 38000,
+      "unit": "mph",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Launch year",
+      "value": 1977,
+      "unit": "year",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space beyond the solar system; NASA's Jet Propulsion Laboratory in California",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "NASA's Voyager 1 phones home from record one light-day away, 49 years after launch",
+      "url": "https://www.france24.com/en/nasa-voyager-1-phones-home-from-record-one-light-day-away-49-years-after-launch",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ancient-orca-north-sea",
+    "headline": "Fossils from the North Sea show killer whales grew huge and hunted big prey over 2 million years ago",
+    "what_happened": "Scientists studied ancient killer whale fossils that fishing trawlers pulled from the seabed of the southern North Sea, dating them to 2.6 to 2.1 million years ago. The bones suggest some of these orcas were 7.2 to 7.7 metres long, as big as the largest male orcas today, with big, strongly rooted teeth. The study was published in the journal PeerJ.",
+    "why_it_matters": "It pushes back the start of orcas' big-prey hunting ability by more than 2 million years, much earlier than genetic studies had suggested.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The fossils are two skull fragments, part of a lower jaw and two sets of fused neck vertebrae from ancient orcas (genus Orcinus).",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "They were pulled from the seabed of the southern North Sea by commercial fishing trawlers and are kept at the Natural History Museum Rotterdam in the Netherlands.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "How they were dated: the team used microscopic fossils of marine algae in sediment stuck to one skull fragment, dating it to 2.6 to 2.1 million years ago.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "How size was estimated: researchers measured the bones, compared them with modern and extinct killer whales and dolphins, and laid 3D models of the skull pieces over a modern 5.96-metre killer whale skeleton.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "Larger individuals were estimated at 7.2 to 7.7 metres (23.6 to 25.3 feet) long, which the authors say is comparable to the largest living male orcas.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "The jaw has large, deep, widely spaced tooth sockets, pointing to big teeth with long, strong roots able to tackle large prey.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "Genetic studies had placed the rise of specialised killer whale groups at around 770,000 to 120,000 years ago; this find pushes the hunting ability back more than 2 million years.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "fact": "Scientists still do not know whether the fossils belong to an early population of today's killer whale or to a separate, unnamed large species. The study by Hidde Bakker and colleagues is in PeerJ.",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Largest estimated length",
+      "value": 7.7,
+      "unit": "metres",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "label": "Oldest age of fossils",
+      "value": 2.6,
+      "unit": "million years",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     },
+     {
+      "label": "Modern orca skeleton used for comparison",
+      "value": 5.96,
+      "unit": "metres",
+      "source_url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html"
+     }
+    ],
+    "geography": "Southern North Sea seabed; Rotterdam, Netherlands",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Phys.org",
+      "title": "Killer whales became fearsome predators long before scientists thought",
+      "url": "https://phys.org/news/2026-11-killer-whales-fearsome-predators-scientists.html",
+      "published": "2026-11-20",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "meerkats-find-way-home",
+    "headline": "Meerkats left on their own can find their way home, study finds",
+    "what_happened": "Researchers from the University of Zurich took meerkats one at a time away from their group in the Kalahari Desert, released them 1.5 kilometres away and tracked them with GPS collars. In 20 trials, 18 meerkats headed back in a nearly straight line to their group or capture spot. The study was reported November 19 in the Journal of Experimental Biology.",
+    "why_it_matters": "Meerkats live in groups, so scientists were surprised that each one seems to carry its own 'mental map' of its home territory.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The study took place in the Kalahari Desert in southern Africa; meerkat groups can include up to 50 members.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Researchers fitted meerkats with GPS, audio and VHF collars, released each one 1.5 km (0.9 miles) away within its territory, and followed it on foot while filming its route.",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     },
+     {
+      "fact": "The test was repeated 20 times over three months with meerkats from five groups.",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     },
+     {
+      "fact": "18 of the 20 meerkats made a direct 'beeline' back to their group or capture site; the other two may have been too stressed to move.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Some set off within minutes, while others circled the release spot for up to 90 minutes before heading out.",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     },
+     {
+      "fact": "How they did it: the meerkats stood on their hind legs to scan the landscape, then moved in a straight line, pausing to look around or sniff for scent landmarks.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Age and experience did not seem to matter; even young meerkats with no experience got home, and researchers think the animals may use mental maps formed early in life.",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "fact": "Lead researcher Mathilde Martin of the University of Zurich said of the meerkats: \"They all seem to be very, very good.\"",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Release distance",
+      "value": 1.5,
+      "unit": "km",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "label": "Meerkats that got home",
+      "value": 18,
+      "unit": "out of 20",
+      "source_url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home"
+     },
+     {
+      "label": "Longest circling before leaving",
+      "value": 90,
+      "unit": "minutes",
+      "source_url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html"
+     }
+    ],
+    "geography": "Kalahari Desert, South Africa (Kalahari Research Centre); University of Zurich, Switzerland",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Science News",
+      "title": "Solo meerkats can find their way back home",
+      "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+      "published": "2026-11-19",
+      "primary": false
+     },
+     {
+      "outlet": "Phys.org",
+      "title": "Individual meerkats are ace solo navigators",
+      "url": "https://phys.org/news/2026-11-individual-meerkats-ace-solo.html",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "sulawesi-flying-frog",
+    "headline": "New bright-green flying frog found in Indonesia's mountains lays its eggs in jelly",
+    "what_happened": "Scientists described a new flying frog species, Rhacophorus kurniatiae, from the Mekongga Mountains of Sulawesi, Indonesia, where thousands were found above 1,860 metres near a small lake. Unlike its relatives, which make foam nests, it lays its eggs in a jelly-like mass on plants above or near water.",
+    "why_it_matters": "It is the first time scientists have seen this frog group use jelly for its eggs, and researchers hope new finds will help the area become a national park.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The frog was found in the Mekongga Mountains of Sulawesi, Indonesia, at over 1,860 metres, with thousands near a small seasonal lake.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "It is named after the late herpetologist Hellen Kurniati of Museum Zoologicum Bogoriense.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "How it works: flying frogs use large, webbed feet to glide between trees; this new species lays eggs in a jelly mass on plants above or near water, and the eggs and tadpoles develop inside the gel, instead of in foam nests like its relatives.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "The bright-green frog can fit on a person's cheek; scientists told it apart from look-alike frogs by comparing 28 body features, its genes and its calls.",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "fact": "Researcher Alamsyah Elang Nusa Herlambang said: \"It's the first time we have seen Rhacophorus with a gelatinous matrix for its reproduction strategy.\"",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Altitude where found",
+      "value": 1860,
+      "unit": "metres (over)",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     },
+     {
+      "label": "Body features compared",
+      "value": 28,
+      "unit": "features",
+      "source_url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html"
+     }
+    ],
+    "geography": "Mekongga Mountains, Sulawesi island, Indonesia",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Phys.org",
+      "title": "New Asian flying frog species identified in Indonesia",
+      "url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
+      "published": "2026-11-17",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "starship-ship-catch",
+    "headline": "SpaceX catches a Starship upper stage with its launch tower's arms for the first time",
+    "what_happened": "On November 14, 2026, SpaceX caught its Starship upper stage, Ship 42, with the 'chopstick' arms of its launch tower at Starbase, Texas, about 22.5 hours after Flight 15 lifted off on November 13. It was the first time SpaceX had caught a Ship returning from orbit. The planned 'double catch' failed, because the Super Heavy booster got a low-fuel warning and splashed down in the Gulf of Mexico instead.",
+    "why_it_matters": "Catching rockets so they can be inspected and flown again is meant to make spaceflight cheaper and much more frequent, and SpaceX called it the first recovery of an orbital Starship upper stage.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "SpaceX caught Ship 42 at about 4:20 p.m. EST (2120 GMT) on Nov. 14, 2026, roughly 22.5 hours after Flight 15 launched.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "Flight 15, the 15th Starship test flight, lifted off on the evening of Nov. 13 from Starbase in South Texas.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "It was the first time SpaceX caught a Ship upper stage; it had caught Super Heavy boosters on three earlier test flights.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "The upper stage is harder to catch because it flies higher, farther and faster than the booster; on Flight 15 Ship 42 came back from orbit.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "How it works: after reentering the atmosphere, the Ship makes a belly-first descent toward the launch pad, flips upright, and is caught by the launch tower's mechanical arms.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/double-catch-drama-why-starships-flight-15-is-so-important-to-spacex"
+     },
+     {
+      "fact": "Before landing, images from Starlink satellites and ground cameras showed the heat shield was in good shape.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "The Super Heavy booster had a low-fuel alarm about 6.5 minutes after launch and diverted to splash down in the Gulf of Mexico, so the planned double catch failed.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "The Ship deployed 26 Starlink V3 internet satellites into low Earth orbit during the flight.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "fact": "SpaceX's Dan Huot called the catch \"the holy grail of spaceflight\"; SpaceX says catching the Ship allows faster inspection, refurbishment and reflight, and it is expected to try the double catch again on a coming flight.",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Hours from liftoff to catch",
+      "value": 22.5,
+      "unit": "hours",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "label": "Starlink V3 satellites deployed",
+      "value": 26,
+      "unit": "satellites",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     },
+     {
+      "label": "Earlier booster catches",
+      "value": 3,
+      "unit": "flights",
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+     }
+    ],
+    "geography": "Starbase, South Texas, USA; Gulf of Mexico (booster splashdown); reentry over northern Mexico and southern Texas",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Space.com",
+      "title": "'Now everything changes': SpaceX catches Starship upper stage for 1st time ever",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+      "published": "2026-11-14",
+      "primary": false
+     },
+     {
+      "outlet": "Space.com",
+      "title": "Double-catch drama: Why Starship's Flight 15 is so important to SpaceX",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/double-catch-drama-why-starships-flight-15-is-so-important-to-spacex",
+      "published": "2026-11-13",
+      "primary": false
+     },
+     {
+      "outlet": "Space.com",
+      "title": "SpaceX Starship Flight 15 live updates: Starship lands from orbit for 1st time",
+      "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt",
+      "published": "2026-11-14",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "climate & environment": {
+  "label": "CLIMATE & ENVIRONMENT",
+  "hours": 168,
+  "dropped_unverified": 1,
+  "stories": [
+   {
+    "id": "cop31-overtime-antalya",
+    "headline": "COP31 climate talks in Antalya run past their deadline as countries fight over a draft that leaves out fossil fuels",
+    "what_happened": "The UN climate summit COP31 in Antalya, Turkey, was due to end on Friday 20 November, but nearly 200 countries were still arguing over the final deal. A shorter new draft, called the 'Antalya Declaration', removed every mention of fossil fuels and dropped a $120 billion target for helping poorer countries adapt. Panama said it would formally object to any deal without fossil-fuel language, and a group including France said the draft was not good enough.",
+    "why_it_matters": "Burning coal, oil and gas is the main cause of global warming, so whether the world's climate agreement even names fossil fuels is a test of how seriously countries will cut emissions. Because UN climate deals need every country to agree, one objection can hold up the whole summit.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The COP31 summit was scheduled to close on Friday 20 November; by Friday afternoon the presidency had not published a new version of the proposed text, so delegations were still working from Thursday's draft.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168845"
+     },
+     {
+      "fact": "The revised draft was nine pages long, down from 18 pages in Monday's draft, and contained no explicit reference to fossil fuels.",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "fact": "The draft removed a proposal to raise yearly adaptation funding for developing countries to at least $120 billion by 2035, while keeping COP30's commitment to triple adaptation finance.",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "fact": "The draft keeps a target of electricity reaching 35% of global energy use by 2035, and recognises that global warming is projected to exceed 1.5C.",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "fact": "Australia's Chris Bowen, who is leading the negotiations, said COP31 would be the first summit to acknowledge the world will miss the 1.5C Paris ambition; COP31 President Murat Kurum named the text the 'Antalya Declaration'.",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "fact": "Panama's Environment Minister Juan Carlos Navarro said Panama would formally object to any agreement that leaves out fossil fuels. Because UN climate decisions are adopted by consensus, a single formal objection could delay or derail adoption.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168845"
+     },
+     {
+      "fact": "France's minister Monique Barbut criticised the draft for promoting carbon capture while leaving out fossil fuels, saying this means 'we don't recognize what is the problem'. Belgium, Cote d'Ivoire, Finland, Greece, Guatemala, Spain, Sweden and Vanuatu joined France and Panama.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168845"
+     },
+     {
+      "fact": "UN Secretary-General Antonio Guterres had told leaders in Antalya that adaptation funding should triple by 2035 and that 'Polluters must pay'.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168845"
+     },
+     {
+      "fact": "Host Turkey says it has agreed deals and plans worth more than $26 billion since the summit began on 9 November, including a preliminary $15 billion renewable-energy deal with China.",
+      "source_url": "https://theprint.in/world/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/3104222/"
+     },
+     {
+      "fact": "Mohamed Adow of Power Shift Africa called the meeting 'the worst COP ever'.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168845"
+     },
+     {
+      "kind": "concrete_detail",
+      "fact": "Fossil fuels are absent from the draft, while several of its paragraphs promote carbon capture technologies.",
+      "source_url": "https://news.un.org/en/story/2026/11/1168845",
+      "evidence": "while fossil fuels are absent from the draft, several paragraphs promote carbon capture technologies",
+      "background": false
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Pages in revised draft (down from 18)",
+      "value": 9,
+      "unit": "pages",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "label": "Adaptation finance target dropped from draft",
+      "value": 120,
+      "unit": "billion US dollars a year by 2035",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "label": "Electricity share of global energy targeted by 2035",
+      "value": 35,
+      "unit": "percent",
+      "source_url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday"
+     },
+     {
+      "label": "Deals Turkey says it agreed during the summit",
+      "value": 26,
+      "unit": "billion US dollars (more than)",
+      "source_url": "https://theprint.in/world/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/3104222/"
+     }
+    ],
+    "geography": "Antalya, a city on Turkey's Mediterranean coast; nearly 200 countries taking part; Panama, France, Australia (co-leading talks)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "UN News",
+      "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
+      "url": "https://news.un.org/en/story/2026/11/1168845",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "RTE",
+      "title": "COP31 draft climate deal removes mention of fossil fuels",
+      "url": "https://rte.ie/news/world/2026/1119/1599773-cop31-thursday",
+      "published": "2026-11-19",
+      "primary": true
+     },
+     {
+      "outlet": "ThePrint (Reuters)",
+      "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
+      "url": "https://theprint.in/world/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls/3104222/",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ],
+    "enrichment": {
+     "headline": "COP31 climate talks in Antalya run past their deadline as countries fight over a draft that leaves out fossil fuels",
+     "kind": "context",
+     "status": "enriched",
+     "fetched_urls": [
+      "https://news.un.org/en/story/2026/11/1168845"
+     ],
+     "details": [
+      {
+       "kind": "concrete_detail",
+       "fact": "Fossil fuels are absent from the draft, while several of its paragraphs promote carbon capture technologies.",
+       "source_url": "https://news.un.org/en/story/2026/11/1168845",
+       "evidence": "while fossil fuels are absent from the draft, several paragraphs promote carbon capture technologies",
+       "background": false
+      }
+     ]
+    }
+   },
+   {
+    "id": "cyclone-akvan-landfall",
+    "headline": "Cyclone Akvan crosses the Odisha coast near Gopalpur; 3.7 lakh people moved to safety",
+    "what_happened": "Cyclone Akvan made landfall near Gopalpur on India's Odisha coast on the morning of Friday 20 November, with winds of 70-80 km/h, then weakened into a deep depression. Heavy rain fell in Ganjam district, but officials said no major damage or loss of life had been reported so far.",
+    "why_it_matters": "Early warnings and mass evacuations helped keep people safe; it was the third cyclone to threaten Odisha in 24 days.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "According to the IMD, landfall near Gopalpur began around 8 am and was completed by 11:20 am on Friday.",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     },
+     {
+      "fact": "Winds were 70-80 km/h, gusting to 90 km/h, as the storm crossed the coast; it was expected to weaken into a deep depression and then a depression.",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     },
+     {
+      "fact": "Patrapur in Ganjam district recorded the most rain, 209 mm.",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     },
+     {
+      "fact": "Chief Secretary Anu Garg said 3.7 lakh people had been evacuated; the state deployed 423 rescue teams and set up 9,341 cyclone shelters.",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     },
+     {
+      "fact": "It was the third cyclone to threaten Odisha in 24 days. The name 'Akvan' was suggested by Iran under the North Indian Ocean naming system.",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "People evacuated",
+      "value": 370000,
+      "unit": "people",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     },
+     {
+      "label": "Highest rainfall (Patrapur)",
+      "value": 209,
+      "unit": "mm",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     },
+     {
+      "label": "Cyclone shelters set up",
+      "value": 9341,
+      "unit": "shelters",
+      "source_url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/"
+     }
+    ],
+    "geography": "Gopalpur, Ganjam and Puri districts, Odisha, India; Bay of Bengal coast; north Andhra Pradesh",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "Cyclone Akvan makes landfall along Odisha coast, brings in heavy rain",
+      "url": "https://ddnews.gov.in/en/cyclone-akvan-makes-landfall-along-odisha-coast-brings-in-heavy-rain/",
+      "published": "2026-11-20",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "western-us-glaciers-vanish",
+    "headline": "Nearly 400 glaciers have disappeared across the western US, study finds",
+    "what_happened": "Scientists led by glaciologist Andrew Fountain of Portland State University compared glacier surveys from the 1950s-1980s with aerial and satellite images from around 2015. Of more than 1,300 glaciers in six western states, nearly 400 have vanished, and the rest have lost about a third of their area and ice. The study appeared in the journal PNAS.",
+    "why_it_matters": "Glaciers act like water towers, releasing cold meltwater into streams in the hottest, driest months; as they shrink, rivers and wildlife become more exposed to drought.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Nearly 400 glaciers have disappeared, more than a quarter of those in the historical surveys, out of more than 1,300 glaciers across California, Colorado, Montana, Oregon, Washington and Wyoming.",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     },
+     {
+      "fact": "Western glaciers have lost roughly one-third of their surface area and ice volume since the historical surveys.",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     },
+     {
+      "fact": "Glacier-covered area fell by about 64% in California's Sierra Nevada and about 48% in Wyoming's Wind River Range.",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     },
+     {
+      "fact": "Mount Rainier in Washington has more glacier area and ice than all the glaciers in the other five states combined.",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     },
+     {
+      "fact": "Some glaciers survive because steep rock walls shade them from the sun, and avalanches and wind pile extra snow into sheltered spots.",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Glaciers that have disappeared",
+      "value": 400,
+      "unit": "glaciers (nearly)",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     },
+     {
+      "label": "Glacier area lost in the Sierra Nevada",
+      "value": 64,
+      "unit": "percent",
+      "source_url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study"
+     }
+    ],
+    "geography": "Western United States: California (Sierra Nevada), Colorado, Montana (Beartooth Mountains), Oregon, Washington (Mount Rainier), Wyoming (Wind River Range)",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "KUNC (Mountain West News Bureau)",
+      "title": "Nearly 400 glaciers have vanished across the West as climate warms, study finds",
+      "url": "https://www.kunc.org/2026-11-18/400-glaciers-vanished-west-climate-warms-study",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "el-nino-very-strong",
+    "headline": "This year's El Nino reaches 'very strong' level and may become one of the strongest on record",
+    "what_happened": "The El Nino warming of the tropical Pacific Ocean has reached 'very strong' status. Its latest ONI reading of 2.5 is just below the record of 2.6 set in 2015-16, and it is not expected to peak until December.",
+    "why_it_matters": "El Nino shifts weather around the world and moves heat from the ocean into the air, pushing global temperatures higher.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The latest ONI reading is 2.5, just below the record of 2.6 set during the 2015-16 El Nino.",
+      "source_url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/"
+     },
+     {
+      "fact": "NOAA's official measure of El Nino strength is RONI, which, unlike the traditional ONI, accounts for warming across all the tropical oceans, so the two can give different answers.",
+      "source_url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/"
+     },
+     {
+      "fact": "The event is not expected to reach maximum strength until December and is forecast to be among the strongest on record, possibly the strongest.",
+      "source_url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/"
+     },
+     {
+      "fact": "El Nino moves large amounts of heat from the ocean into the atmosphere, contributing to higher global temperatures.",
+      "source_url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Latest ONI reading",
+      "value": 2.5,
+      "unit": "degrees C",
+      "source_url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/"
+     },
+     {
+      "label": "Record ONI (2015-16)",
+      "value": 2.6,
+      "unit": "degrees C",
+      "source_url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/"
+     }
+    ],
+    "geography": "Tropical Pacific Ocean (Nino 3.4 region); worldwide weather effects",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Capital Weather",
+      "title": "El Nino tracker: See how the powerful 2026 event compares to history",
+      "url": "https://www.capitalweather.com/el-nino-tracker-see-how-the-powerful-2026-event-compares-to-history/",
+      "published": "2026-11-19",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "health": {
+  "label": "HEALTH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-loses-measles-elimination",
+    "headline": "US and Mexico lose 'measles eliminated' status after a year of nonstop spread",
+    "what_happened": "On 17 November the Pan American Health Organization (PAHO) said the United States, Mexico and Bolivia have lost their measles-elimination status, because the virus has been spreading without a break for at least 12 months. The US had held the status for 26 years and has had more than 5,400 confirmed cases in 2026.",
+    "why_it_matters": "Measles is one of the most contagious diseases known, and it returns when too few people are vaccinated. Two doses of the MMR vaccine give about 97% protection.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "PAHO announced on Tuesday 17 November 2026 that the US and Mexico had lost measles-elimination status; Bolivia also lost its status.",
+      "source_url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+     },
+     {
+      "fact": "Measles counts as eliminated when the virus is not spreading locally; status is lost when a single chain of infection continues without interruption for at least 12 months.",
+      "source_url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+     },
+     {
+      "fact": "The US had held measles-elimination status for 26 years.",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "fact": "CDC data show more than 5,400 confirmed US measles cases in 2026, almost 600 hospitalisations and 10 deaths so far.",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "fact": "The 2026 US case count is already double the 2025 total; the 10 deaths are the highest yearly count in more than three decades.",
+      "source_url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+     },
+     {
+      "fact": "One infected person can spread measles to 12 to 18 others where people are not protected; it spreads through coughs and droplets that can stay in the air for a couple of hours.",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "fact": "One MMR dose gives about 93% protection and a second dose about 97%; CDC data show 92% of kindergartners were vaccinated last school year, below the 95% needed for herd immunity.",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "fact": "PAHO director Jarbas Barbosa said: 'Measles elimination is not a trophy that is won once and placed on a shelf.' CDC Director Erica Schwartz said: 'The measles elimination designation is not what protects Americans. Vaccination does.'",
+      "source_url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+     },
+     {
+      "fact": "PAHO expects the US, Mexico and Bolivia to submit plans in the coming weeks showing how they will stop transmission for at least a year to win back the status.",
+      "source_url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+     },
+     {
+      "fact": "The Americas had been declared measles-free in 2016; the measles vaccine is estimated to have prevented 6.2 million deaths in the Americas from 2000 to 2023. Canada lost its status last year.",
+      "source_url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Confirmed US measles cases in 2026",
+      "value": 5400,
+      "unit": "cases (more than)",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "label": "Years the US held elimination status",
+      "value": 26,
+      "unit": "years",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "label": "Protection from two MMR doses",
+      "value": 97,
+      "unit": "percent (about)",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     },
+     {
+      "label": "Vaccination level needed for herd immunity",
+      "value": 95,
+      "unit": "percent",
+      "source_url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/"
+     }
+    ],
+    "geography": "United States (Pennsylvania outbreak, Texas), Mexico (Chihuahua state), Bolivia, Canada; the Americas",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "PBS NewsHour (AP)",
+      "title": "U.S. and Mexico officially lose measles-elimination status",
+      "url": "https://www.pbs.org/newshour/health/u-s-and-mexico-officially-lose-measles-elimination-status",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "CBS Texas",
+      "title": "U.S. loses its 26-year measles elimination status as cases more than double in a year",
+      "url": "https://www.cbsnews.com/texas/news/us-loses-measles-elimination-status-after-26-years-november-2026/",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "ebola-bundibugyo-drc-update",
+    "headline": "Ebola outbreak in Congo passes 11,000 cases as WHO experts meet; new vaccines to be tested",
+    "what_happened": "WHO chief Tedros Adhanom Ghebreyesus told an emergency committee on 17 November that the Ebola outbreak in the Democratic Republic of the Congo, caused by the Bundibugyo virus, has passed 11,000 cases and 5,400 deaths. Cases have more than doubled in three months, with 400-500 new cases every week.",
+    "why_it_matters": "There is no approved vaccine for this type of Ebola, so scientists are now adding two vaccines designed for Bundibugyo virus to a trial.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Six months after the outbreak was declared, more than 11,000 cases and 5,400 deaths have been reported in 67 health zones across eight provinces.",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     },
+     {
+      "fact": "Cases have more than doubled since the committee last met three months ago, and 400-500 new cases are still reported every week.",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     },
+     {
+      "fact": "A vaccine trial began last month using Ervebo, which is approved for Ebola virus but not Bundibugyo virus; two candidate vaccines made for Bundibugyo virus will be added in the coming weeks.",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     },
+     {
+      "fact": "At the start only two laboratories could test for the virus; now there are more than two dozen, close to 2,000 treatment beds, and about 3,000 people have recovered.",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     },
+     {
+      "fact": "The eight affected DRC provinces are Ituri, Nord-Kivu, Sud-Kivu, Tshopo, Haut-Uele, Bas-Uele, Sud Ubangi and Nord Ubangi; Kenya had nine cases and Nigeria one, and Uganda's outbreak has ended.",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026"
+     },
+     {
+      "fact": "Tedros warned that blanket travel bans hinder the response, saying 'Targeted, evidence-based measures work better.'",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     },
+     {
+      "fact": "ECDC judges the chance of infection for people living in Europe as very low.",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Confirmed cases in DRC (data to 14 Nov)",
+      "value": 11376,
+      "unit": "cases",
+      "source_url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026"
+     },
+     {
+      "label": "New cases per week",
+      "value": 450,
+      "unit": "cases (400-500)",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     },
+     {
+      "label": "People recovered",
+      "value": 3000,
+      "unit": "people (about)",
+      "source_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026"
+     }
+    ],
+    "geography": "Democratic Republic of the Congo (eight provinces incl. Ituri, Nord-Kivu, Tshopo); Kenya; Nigeria; Uganda",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "World Health Organization",
+      "title": "WHO Director-General's opening remarks at the third IHR Emergency Committee meeting on Bundibugyo virus disease epidemic in the DRC - 17 November 2026",
+      "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-third-ihr-emergency-committee-meeting-on-bundibugyo-virus-disease-epidemic-in-the-democratic-republic-of-the-congo---17-november-2026",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "ECDC",
+      "title": "Ebola disease: Multi-country outbreak 2026",
+      "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026",
+      "published": "2026-11-15",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "eritrea-eliminates-trachoma",
+    "headline": "WHO confirms Eritrea has beaten trachoma, a leading cause of blindness",
+    "what_happened": "On 16 November the World Health Organization validated that Eritrea has eliminated trachoma as a public health problem, making it the 11th country in WHO's African Region and the 34th in the world to do so.",
+    "why_it_matters": "Trachoma is the world's leading infectious cause of blindness, and it is linked to poverty and lack of clean water; Eritrea shows it can be beaten with simple measures.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trachoma is caused by the bacterium Chlamydia trachomatis and spreads through contact with eye and nose discharge; repeated infections scar the eyelid and turn eyelashes inward, which can cause blindness.",
+      "source_url": "https://allafrica.com/stories/202611160817.html"
+     },
+     {
+      "fact": "Eritrea used WHO's SAFE strategy: Surgery, Antibiotics, Facial cleanliness and Environmental improvement such as water and sanitation.",
+      "source_url": "https://allafrica.com/stories/202611160817.html"
+     },
+     {
+      "fact": "The number of people needing trachoma help worldwide fell from about 1.5 billion in 2002 to below 100 million by November 2025, a drop of about 94%.",
+      "source_url": "https://allafrica.com/stories/202611160817.html"
+     },
+     {
+      "fact": "WHO chief Tedros said: 'After two decades of determined effort, Eritrea has consigned trachoma as a public health problem to history.'",
+      "source_url": "https://allafrica.com/stories/202611160817.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Countries worldwide to eliminate trachoma",
+      "value": 34,
+      "unit": "countries",
+      "source_url": "https://allafrica.com/stories/202611160817.html"
+     },
+     {
+      "label": "People living in trachoma-endemic areas (March 2026)",
+      "value": 92,
+      "unit": "million",
+      "source_url": "https://allafrica.com/stories/202611160817.html"
+     }
+    ],
+    "geography": "Eritrea, East Africa",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "AllAfrica (WHO press release)",
+      "title": "Eritrea Eliminates Trachoma - a Major Public Health Milestone",
+      "url": "https://allafrica.com/stories/202611160817.html",
+      "published": "2026-11-16",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ },
+ "history & geography": {
+  "label": "HISTORY & GEOGRAPHY",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "europe-rejects-new-yalta",
+    "headline": "Europe says 'no new Yalta' after Trump, Xi and Putin meet in Shenzhen",
+    "what_happened": "On 19 November US President Donald Trump, Russia's Vladimir Putin and China's Xi Jinping held a three-way summit in Shenzhen, China, and issued a declaration that did not mention the war in Ukraine. The same day, European leaders meeting in Berlin rejected any 'new Yalta', a reference to the 1945 conference where wartime leaders shaped post-war Europe. Germany's Friedrich Merz said: 'At Yalta, Europe was divided up... And we won't allow anything like that to happen again.'",
+    "why_it_matters": "Yalta is remembered in Europe as the moment big powers decided the fate of smaller countries without them, so leaders use the word to insist that Ukraine and Europe must have a seat at any peace talks.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Trump, Putin and Xi held a trilateral summit in southern China on Thursday 19 November and agreed a declaration committing to peace; Putin rejected Kyiv's calls for a ceasefire before winter.",
+      "source_url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+     },
+     {
+      "fact": "The joint four-point 'Declaration toward Peace' covered UN reform, oil supplies, the International Criminal Court and reducing nuclear risks, but did not mention Russia's war in Ukraine.",
+      "source_url": "https://www.kyivpost.com/post/90652"
+     },
+     {
+      "fact": "Before the summit, Pyotr Tolstoy, who chairs the Russian parliament's foreign affairs committee, called it a possible 'new Yalta'; it was the first time the three leaders met together.",
+      "source_url": "https://europeanbusinessmagazine.com/trump-xi-putin-shenzhen"
+     },
+     {
+      "fact": "Merz said: 'A Yalta format will not bring peace... At Yalta, Europe was divided up. It was parcelled up. And we won't allow anything like that to happen again.' He gave leaders pieces of the Berlin Wall.",
+      "source_url": "https://www.kyivpost.com/post/90652"
+     },
+     {
+      "fact": "Asked about a 'new Yalta', Putin said the 1945 conference was not necessarily bad, noting the victory over Nazism was formally established there, and that Yalta 'just codified the realities'.",
+      "source_url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+     },
+     {
+      "fact": "In Berlin, the 36-country Coalition of the Willing, led by the UK, France and Germany, pledged more financial and military support for Ukraine; the UK pledged GBP 10 billion.",
+      "source_url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+     },
+     {
+      "fact": "Background: The Yalta Conference took place in a Russian resort town in the Crimea from 4-11 February 1945, between US President Franklin D. Roosevelt, British Prime Minister Winston Churchill and Soviet leader Joseph Stalin.",
+      "source_url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+     },
+     {
+      "fact": "Background: At Yalta the Soviets pledged free elections in all territories liberated from Nazi Germany, and a declaration on Poland provided for Communists in its post-war government; the US and Britain accepted that neighbouring Eastern European governments should be 'friendly' to the Soviet regime.",
+      "source_url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+     },
+     {
+      "fact": "Background: Yalta also set up the UN Security Council with five permanent members, each holding a veto, and later critics accused Roosevelt of 'handing over' Eastern Europe to the Soviet Union.",
+      "source_url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+     },
+     {
+      "fact": "Putin has invited European leaders to Moscow for talks; Merz suggested a neutral place such as the Emirates instead.",
+      "source_url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Countries in the Coalition of the Willing",
+      "value": 36,
+      "unit": "countries",
+      "source_url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/"
+     },
+     {
+      "label": "Year of the Yalta Conference",
+      "value": 1945,
+      "unit": "year",
+      "source_url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+     },
+     {
+      "label": "Permanent members of the UN Security Council agreed at Yalta",
+      "value": 5,
+      "unit": "members",
+      "source_url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+     }
+    ],
+    "geography": "Shenzhen, southern China; Berlin, Germany; Yalta, a resort town in Crimea; Ukraine; Eastern Europe (Poland)",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "The Irish Times",
+      "title": "Putin invites European leaders to Moscow for peace talks as Russia pounds Kyiv",
+      "url": "https://www.irishtimes.com/world/europe/2026/11/20/putin-invites-european-leaders-to-moscow-for-peace-talks-as-russia-pounds-kyiv/",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Kyiv Post",
+      "title": "'We Won't Allow It Again': Merz Rejects New Yalta After China Summit",
+      "url": "https://www.kyivpost.com/post/90652",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "European Business Magazine",
+      "title": "Trump, Xi and Putin Hold First Three-Way Summit on 19 Nov",
+      "url": "https://europeanbusinessmagazine.com/trump-xi-putin-shenzhen",
+      "published": "2026-11-16",
+      "primary": false
+     },
+     {
+      "outlet": "US State Department, Office of the Historian",
+      "title": "The Yalta Conference, 1945 (Milestones)",
+      "url": "https://history.state.gov/milestones/1937-1945/yalta-conf",
+      "published": "",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "sco-forum-purana-qila",
+    "headline": "Modi opens first SCO culture forum at Delhi's Purana Qila, a fort built on one of Delhi's oldest sites",
+    "what_happened": "Prime Minister Narendra Modi opened the first Shanghai Cooperation Organisation (SCO) Civilisational Dialogue Forum at Purana Qila in New Delhi on 20 November. The three-day forum, running to 22 November, brings together SCO member states, observers and partners to talk about culture, art, languages and traditions.",
+    "why_it_matters": "The venue itself is a history lesson: the 'Old Fort' stands on what tradition calls Indraprastha, and its walls were built by the Mughal emperor Humayun and the Afghan ruler Sher Shah Suri.",
+    "importance": 5,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Modi inaugurated the forum at Purana Qila on Friday 20 November; it runs until 22 November, with four themed sessions on 21 and 22 November.",
+      "source_url": "https://www.tribuneindia.com/news/world/pm-modi-inaugurates-first-sco-civilisational-dialogue-forum-at-purana-qila"
+     },
+     {
+      "fact": "Modi first proposed the forum at the 2025 SCO Summit in Tianjin, China; India invited all SCO members, including Pakistan.",
+      "source_url": "https://www.tribuneindia.com/news/world/pm-modi-inaugurates-first-sco-civilisational-dialogue-forum-at-purana-qila"
+     },
+     {
+      "fact": "Modi said: 'According to scholars, the history of this fort dates back thousands of years, to the era of the Mahabharata.'",
+      "source_url": "https://www.freepressjournal.in/india/from-ancient-traditions-to-cultural-diplomacy-pm-modi-inaugurates-sco-civilisational-dialogue-forum-at-purana-qila"
+     },
+     {
+      "fact": "An exhibition, 'ASTITVA', shows Delhi's history through archaeological finds from 1200 BCE to 1200 CE, and a pavilion displays a rare 18th-century illustrated Mahabharata scroll.",
+      "source_url": "https://www.tribuneindia.com/news/world/pm-modi-inaugurates-first-sco-civilisational-dialogue-forum-at-purana-qila"
+     },
+     {
+      "fact": "Background: Purana Qila is built on the site of Indraprastha, the most ancient of Delhi's many cities; its gateway and walls were built by Humayun as part of his new capital Dinpanah, and the work was carried on by Sher Shah Suri, who displaced him.",
+      "source_url": "https://delhitourism.gov.in/tourist_place/purana_quila.html"
+     },
+     {
+      "fact": "Background: Sher Shah Suri defeated Humayun and took Delhi in 1540, building Shergarh on the ruins of Dinpanah; Humayun won Delhi back in 1555. The remains of Shergarh are what visitors see at Purana Qila today.",
+      "source_url": "https://delhitourism.gov.in/aboutus/shergarh.html"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Forum length",
+      "value": 3,
+      "unit": "days",
+      "source_url": "https://www.tribuneindia.com/news/world/pm-modi-inaugurates-first-sco-civilisational-dialogue-forum-at-purana-qila"
+     },
+     {
+      "label": "Year Sher Shah Suri took Delhi from Humayun",
+      "value": 1540,
+      "unit": "year",
+      "source_url": "https://delhitourism.gov.in/aboutus/shergarh.html"
+     }
+    ],
+    "geography": "Purana Qila, New Delhi, India; SCO countries across Asia; Tianjin, China",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "The Tribune",
+      "title": "PM Modi inaugurates first SCO Civilisational Dialogue Forum at Purana Qila",
+      "url": "https://www.tribuneindia.com/news/world/pm-modi-inaugurates-first-sco-civilisational-dialogue-forum-at-purana-qila",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Free Press Journal",
+      "title": "From Ancient Traditions To Cultural Diplomacy: PM Modi Inaugurates SCO Civilisational Dialogue Forum At Purana Qila",
+      "url": "https://www.freepressjournal.in/india/from-ancient-traditions-to-cultural-diplomacy-pm-modi-inaugurates-sco-civilisational-dialogue-forum-at-purana-qila",
+      "published": "2026-11-20",
+      "primary": true
+     },
+     {
+      "outlet": "Delhi Tourism (Government of NCT of Delhi)",
+      "title": "Purana Quila",
+      "url": "https://delhitourism.gov.in/tourist_place/purana_quila.html",
+      "published": "",
+      "primary": true
+     },
+     {
+      "outlet": "Delhi Tourism (Government of NCT of Delhi)",
+      "title": "Eight Cities of Delhi: Shergarh",
+      "url": "https://delhitourism.gov.in/aboutus/shergarh.html",
+      "published": "",
+      "primary": true
+     }
+    ]
+   }
+  ]
+ }
+}
