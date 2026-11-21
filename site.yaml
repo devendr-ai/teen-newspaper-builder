@@ -50,5 +50,5 @@ weekend_puzzles:
 # Public website showcase only. Leave blank until each store approves its listing.
 # These URLs never appear in the --kids / installed-app build.
 mobile_app:
-  app_store_url: ""
+  app_store_url: "https://apps.apple.com/us/app/news-pebbles-news-for-kids/id6829092059"
   google_play_url: ""
