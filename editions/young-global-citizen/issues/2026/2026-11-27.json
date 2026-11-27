@@ -1,0 +1,355 @@
+{
+  "edition": "young-global-citizen",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 186,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  UNITED STATES",
+      "headline": "Thanksgiving Storms Flood the East Coast and Cut Power to 600,000",
+      "deck": "A holiday of travel and family tables ran into wind, flood and snow, and a famous parade had to wait.",
+      "body": [
+        "Storms flooded parts of the East Coast on Thursday 26 November, and according to the tracking site poweroutage.us, more than 600,000 homes and businesses had no electricity that afternoon, mostly in East Coast states.",
+        "In New Jersey, streets flooded in Sea Isle City and Ocean City, and water spread across parts of Avalon. Avalon's business administrator, Scott J. Wahl, said the town was seeing some of the worst flooding in its history. New Jersey is under a statewide state of emergency declared by Governor Mikie Sherrill, and parts of New York are under one declared by Governor Kathy Hochul.",
+        "The famous Macy's parade in Manhattan, which was due to be its 100th, was postponed until Saturday. Macy's said it acted \"in an abundance of caution\", with concerns about how the giant balloons would handle the wind.",
+        "Travellers felt it too. Aircraft were stranded on the tarmac at Philadelphia International Airport, and the National Weather Service warned of disruptions at eastern airports through Friday morning, citing poor visibility, turbulence, strong winds and ice forming on aircraft.",
+        "Elsewhere, up to 33 cm of snow was expected around St. Louis, Missouri. On the West Coast, coastal flood warnings stretched from Southern California to Oregon and Washington because of king tides, which happen when the pull of the sun and moon lines up to raise water levels. A wave tore down part of a pier in Pacifica, California, on Wednesday."
+      ],
+      "map": {
+        "title": "Storm trouble across the US",
+        "label_top": "EAST COAST",
+        "label_bottom": "WEST COAST",
+        "footnote": "Floods, snow and high tides on both coasts.",
+        "caption": "Power cuts and flooding hit mostly East Coast states."
+      },
+      "why": "Millions of families plan holidays around travel. When weather closes roads and airports, plans change quickly.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  CONGO",
+      "headline": "Ebola Passes 12,000 Confirmed Cases in Congo",
+      "deck": "There is no approved vaccine for this rare strain, and fighting is slowing the response.",
+      "body": [
+        "Congo's health ministry reports 12,021 confirmed Ebola cases in the east of the country, in an outbreak declared in May. Euronews calls it the fastest-growing Ebola outbreak in history and the deadliest of Congo's 17. It is on track to pass the West African outbreak of 2014 to 2016, which killed about 11,000 people.",
+        "This outbreak is caused by a rare strain, the Bundibugyo virus, and there is no approved vaccine or treatment for it. Ebola spreads through direct contact with the blood or body fluids of people who are sick or have died. That is why containment relies on three steps: quickly identifying and isolating patients, monitoring people who may have been exposed, and safely burying the dead.",
+        "Those steps are hard to carry out in a conflict zone. On Thursday, fighting resumed between the Congolese army and rebels of the CRP in Iga-Barriere, a mining town about 25 km north of Bunia, the capital of Ituri province and a major hub for the Ebola response. The fighting is pushing displaced people toward Bunia. Response teams also face poor roads and local violence driven by mistrust and misinformation.",
+        "Dr. Catherine Smallwood, the World Health Organization's Ebola incident manager, said on Wednesday that fighting had kept teams from reaching some communities, disrupted the monitoring of people who were exposed, and left some treatment centres short-staffed. On Tuesday, about a dozen people, including two WHO staff and Congolese health officials, were evacuated to Bunia after being trapped for three days in a hospital in Akwe amid heavy crossfire."
+      ],
+      "illustration": {
+        "title": "Care on the front line",
+        "subtitle": "Isolating patients",
+        "motif": "hospital",
+        "caption": "Teams must find and isolate patients quickly."
+      },
+      "connect": "The CRP is one of more than 100 armed groups in eastern Congo. It was founded last year by former warlord Thomas Lubanga, whom the International Criminal Court convicted in 2012 of recruiting children under 15.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Ebola cases in Congo surpass 12,000 in fastest-growing outbreak",
+          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  FARMS",
+      "headline": "India's Farms Set a Record: 378.5 Million Tonnes of Foodgrain",
+      "deck": "New figures show more grain than ever, even though this year's monsoon was a struggle.",
+      "body": [
+        "Agriculture Minister Shivraj Singh Chouhan released India's final crop estimates for 2025-26 at a press conference in New Delhi on Thursday. Total foodgrain, a group that includes rice, wheat and maize, reached 378.538 million tonnes. That is up from 357.732 million tonnes the year before, described as all-time highs.",
+        "Rice rose to 155.154 million tonnes from 150.184 million. Wheat reached 122.064 million tonnes, up 4.119 million, and maize jumped from 43.409 million tonnes to 55.025 million. Pulses, made 27.240 million tonnes, including a record 4.396 million tonnes of moong.",
+        "India holds the top global position in rice, pulses, jute, millets and spices, and is second in wheat and cotton. Rice exports rose five per cent, and basmati rice gained markets in the United States, Canada and the Middle East.",
+        "The new season is harder. El Nino conditions, a delayed monsoon and rainfall deficits of 35 to 40 per cent in several regions affected sowing of kharif crops, which are planted with the monsoon. Even so, the first advance estimate for kharif 2026-27 is 167.143 million tonnes of foodgrain, 9.767 million above the five-year average."
+      ],
+      "why": "The government says its focus is now on self-reliance in pulses and edible oils.",
+      "also": [
+        "India Post will get 2,632 crore rupees for modernisation over five years.",
+        "Sabita Toppo won the women's 100m hurdles gold at the BIMSTEC U-23 meet in Bhubaneswar."
+      ],
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "India records all-time high foodgrain production",
+          "url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+        },
+        {
+          "outlet": "DD News",
+          "title": "India Post set for major modernisation drive",
+          "url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+        },
+        {
+          "outlet": "DD News",
+          "title": "Sabita Toppo wins women's 100m hurdles gold",
+          "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Poland: NATO has sent an AWACS radar aircraft after three Russian cruise missiles crashed on Polish territory.",
+        "Argentina: The economy shrank 1.8 per cent in the third quarter, its second straight fall, which meets the definition of a technical recession."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "King tide",
+          "def": "An unusually high tide that happens when the sun and moon's pulls line up. Today: King tides triggered flood warnings along the West Coast."
+        },
+        {
+          "word": "Outbreak",
+          "def": "A sudden rise in cases of a disease in one place. Today: Congo's Ebola outbreak has passed 12,000 confirmed cases."
+        },
+        {
+          "word": "Kharif",
+          "def": "Crops planted at the start of the monsoon. Today: Poor rain slowed the sowing of kharif crops."
+        },
+        {
+          "word": "Share",
+          "def": "A small slice of ownership in a company. Today: Musk is giving every child with a Trump Account two SpaceX shares."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "SpaceX went public in June 2026, raising about $85.7 billion."
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  MONEY",
+      "headline": "Musk Doubles His SpaceX Share Gift to US Children",
+      "deck": "Every child with an active Trump Account is due two shares, but the value moves with the stock price.",
+      "body": [
+        "Elon Musk announced that every child in America will get two SpaceX shares, doubling his October offer of one share, which he called \"the first of many\". A share is a small slice of ownership in a company. The gift goes to children with a Trump Account.",
+        "Here is how it works. SpaceX issues one new Class A share to each currently active Trump Account, and Musk matches it with one of his own. SpaceX will transfer its shares in December, and Musk will transfer his in June 2027, when restrictions expire. Parents or guardians must claim and activate their child's account, and the US government gives a one-off $1,000 contribution for eligible citizens born from 2025 through 2028.",
+        "Funds in the accounts are generally invested in low-cost US stock market trackers, and withdrawals are usually restricted until age 18.",
+        "What is the gift worth? Two shares were worth $254.88 at the close of $127.44 per share. If 70 million accounts received both shares, the pledge would be worth about $17.8 billion, but the real value depends on the share price and on how many accounts are eligible. Musk said: \"I recommend holding on to your shares.\""
+      ],
+      "chart": {
+        "title": "What the gift is worth now",
+        "subtitle": "US dollars",
+        "labels": [
+          "One share",
+          "Two shares",
+          "Gov. gift"
+        ],
+        "values": [
+          127.44,
+          254.88,
+          1000
+        ],
+        "max": 1200,
+        "value_prefix": "$",
+        "highlight_after": 0,
+        "caption": "Share values change; the government gift is a one-off amount."
+      },
+      "why": "A share can rise or fall, so a gift that looks big today may be worth more or less by the time a child can spend it at 18.",
+      "analyst": "Why might a share be worth a different amount next year? What would you ask before deciding whether to hold or sell?",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Musk says will give two SpaceX shares to every child in America",
+          "url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+        }
+      ]
+    },
+    "sports": {
+      "title": "ATHLETICS",
+      "body": "Sabita Toppo won the women's 100m hurdles gold at the BIMSTEC U-23 athletics meet in Bhubaneswar, helping India extend its medal lead.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "Sabita Toppo wins women's 100m hurdles gold",
+          "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether the storms ease at eastern US airports after Friday morning.",
+        "Whether teams reach more Ebola patients near Bunia."
+      ]
+    },
+    "quote": {
+      "text": "Weather and viruses ignore borders, so people have to plan together.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+    "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+    "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/",
+    "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america",
+    "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/",
+    "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "How many homes and businesses lost power during the Thanksgiving storms?",
+        "options": [
+          "More than 60,000",
+          "More than 600,000",
+          "More than 6 million"
+        ],
+        "answer": 1,
+        "why": "More than 600,000 had no electricity on Thursday afternoon.",
+        "story": "lead"
+      },
+      {
+        "q": "When was Macy's 100th Thanksgiving parade postponed to?",
+        "options": [
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "answer": 1,
+        "why": "Macy's postponed it until Saturday.",
+        "story": "lead"
+      },
+      {
+        "q": "What is the name of the virus behind the Congo outbreak?",
+        "options": [
+          "Zaire",
+          "Marburg",
+          "Bundibugyo"
+        ],
+        "answer": 2,
+        "why": "The outbreak is caused by the rare Bundibugyo virus.",
+        "story": "world"
+      },
+      {
+        "q": "How much foodgrain did India produce in 2025-26?",
+        "options": [
+          "378.538 million tonnes",
+          "357.732 million tonnes",
+          "167.143 million tonnes"
+        ],
+        "answer": 0,
+        "why": "The final estimate is 378.538 million tonnes.",
+        "story": "india"
+      },
+      {
+        "q": "How many SpaceX shares will each child with an active Trump Account get?",
+        "options": [
+          "One",
+          "Two",
+          "Ten"
+        ],
+        "answer": 1,
+        "why": "One from SpaceX and one from Musk.",
+        "story": "us"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Congo's Ebola outbreak is caused by a virus with an approved vaccine.",
+        "true": false,
+        "why": "There is no approved vaccine or treatment for the Bundibugyo virus.",
+        "story": "world"
+      },
+      {
+        "claim": "India's rice exports rose five per cent in the report.",
+        "true": true,
+        "why": "Rice exports rose five per cent, says the report.",
+        "story": "india"
+      },
+      {
+        "claim": "Children can withdraw the Trump Account funds at any age.",
+        "true": false,
+        "why": "Withdrawals are usually restricted until age 18.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "New Jersey",
+        "lat": 39.5,
+        "lon": -74.4,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Bunia",
+        "lat": 1.57,
+        "lon": 30.25,
+        "countries": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.6,
+        "lon": 77.2,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many homes and businesses lost power (to the nearest thousand)?",
+        "answer": 600000,
+        "prefix": "",
+        "unit": "homes/firms",
+        "min": 100000,
+        "max": 2000000,
+        "why": "More than 600,000 homes and businesses lost power."
+      },
+      {
+        "story": "world",
+        "q": "How many confirmed Ebola cases does Congo's health ministry report?",
+        "answer": 12021,
+        "prefix": "",
+        "unit": "cases",
+        "min": 1000,
+        "max": 50000,
+        "why": "The ministry reports 12,021 confirmed cases."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "Storms hit the US on Thanksgiving",
+        "body": [
+          "A big storm hit the United States on Thanksgiving. It flooded parts of the East Coast. More than 600,000 homes and businesses lost power.",
+          "New Jersey and parts of New York declared a state of emergency. Macy's moved its 100th Thanksgiving parade to Saturday because of the wind and the giant balloons.",
+          "Planes were stuck at the airport in Philadelphia. There was also heavy snow in Missouri."
+        ]
+      },
+      "world": {
+        "headline": "Ebola cases in Congo pass 12,000",
+        "body": [
+          "Ebola is a serious illness caused by a virus. In eastern Congo, 12,021 people have had it confirmed. The outbreak began in May.",
+          "There is no approved vaccine for this virus. Doctors must find patients quickly and keep them apart from others. Fighting near the town of Bunia is making that work harder. Some treatment centres do not have enough staff, and some teams cannot reach villages."
+        ]
+      },
+      "india": {
+        "headline": "India grew more grain than ever",
+        "body": [
+          "India's farms grew 378.538 million tonnes of foodgrain in 2025-26. That is up from 357.732 million tonnes the year before.",
+          "Rice, wheat and maize were the biggest crops. India sold five per cent more rice to other countries.",
+          "This year has been harder for farmers. The monsoon started late, and some places got far less rain than usual. Even so, the government expects a good kharif harvest."
+        ]
+      },
+      "us": {
+        "headline": "Elon Musk will give children two shares",
+        "body": [
+          "A share is a small piece of a company. Elon Musk said every child in America with a Trump Account will get two SpaceX shares.",
+          "Parents must activate the account first. Two shares were worth $254.88 at the last close. The money is usually locked until the child is 18, and the value of shares can go up or down."
+        ]
+      }
+    }
+  }
+}
