@@ -1,0 +1,645 @@
+{
+  "edition": "current-affairs-digest",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 31,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  EU BUDGET",
+      "headline": "EU Leaders Leave Brussels With No Deal on the Next Seven-Year Budget",
+      "deck": "A 1.78 trillion euro compromise drew fire from every side, and the clock is set by 1 January 2028.",
+      "body": [
+        "Money is the hardest subject at any EU summit. On Thursday 26 November the bloc’s leaders gathered in Brussels to end a deadlock over the next seven-year budget, the spending plan that is meant to run from 1 January 2028. They went home empty-handed: leaders would not move off their red lines, and some doubted that a deal was possible by December.",
+        "The draft they fought over was a compromise by Council President Costa, who chairs these summits. It totals 1.78 trillion euros in current prices over the seven years, which is 10% below the original draft, yet it drew pushback from all sides. Costa’s own message was that Europe cannot afford failure and needs a budget in place from the first day of 2028.",
+        "The sides want opposite things. Seven states called the Frugals demand deep cuts, while 17 Friends of Cohesion refuse further ones. Germany’s Friedrich Merz sided with the Frugals and said cuts would go beyond the 204 billion euros in Costa’s paper. The Frugals boycotted Costa’s small-group format, feeling singled out. Italy’s Giorgia Meloni judged a deal “light years away”; the Netherlands’ Rob Jetten saw “no need to hurry”.",
+        "One leader did set a deadline. France’s Emmanuel Macron demanded a deal by 31 December or he would walk away, and called the proposed cuts a “strategic mistake”; other states read this as a bargaining tactic. Meanwhile, leaders had settled Christine Lagarde’s succession at the European Central Bank before the talks, but a 45 billion euro loan for wartime Ukraine slipped down the agenda. Costa ended talks early, so Friday’s session was cancelled, and no date exists for the next round."
+      ],
+      "map": {
+        "title": "THE BRUSSELS SUMMIT, 26 NOVEMBER",
+        "label_top": "BRUSSELS: LEADERS MEET",
+        "label_bottom": "NO DEAL ON THE 2028 BUDGET",
+        "footnote": "Budget is due to start on 1 January 2028",
+        "caption": "EU leaders met in Brussels, Belgium, to try to settle the bloc’s next seven-year budget.",
+        "countries": [
+          "Belgium"
+        ]
+      },
+      "why": "The budget decides what the EU can spend from 2028 and how much each country pays in. With seven states demanding cuts and 17 opposing them, and a decision that needs every member on board, one holdout can stall the money for projects, regions and Ukraine.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "EU summit ends in disarray as leaders cling to red lines",
+          "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  CLIMATE",
+      "headline": "El Nino Is Heading for Record Strength, the World Weather Body Warns",
+      "deck": "The WMO expects the Pacific warm spell to peak around December and to last into 2027.",
+      "body": [
+        "Some of the year’s wildest weather starts as a patch of unusually warm water thousands of kilometres from most of the people it affects. That is El Nino, a warming of the tropical Pacific Ocean that shifts rain, heat and drought around the world. The World Meteorological Organization (WMO), the UN’s weather agency, says El Nino has strengthened since August and is expected to reach record strength by December 2026, raising the risk of extreme weather into 2027.",
+        "Forecasters measure its strength with a number. The Nino 3.4 anomaly is how far the water temperature in a central strip of the tropical Pacific sits above its normal level. The WMO forecasts that the October to December average will be about 3.7 degrees Celsius above normal, peaking around December, and it sees a near-100 per cent likelihood that El Nino will persist through February 2027.",
+        "It arrives on a planet that is already running hot. For January to September 2026 the global mean near-surface temperature was 1.47 degrees Celsius (give or take 0.13) above the 1850-1900 average, and the four years from 2023 to 2026 are the four warmest on record. Global mean sea level reached its highest point in the satellite record, which began in 1993, and preliminary data through July point to a tenth consecutive year of record ocean heat content. The WMO update covers data to September, so it does not yet reflect El Nino’s most recent impacts.",
+        "Those impacts are already being reported. A France 24 roundup of 25 November described droughts in the Pacific and flooding in San Francisco, and noted that Oxford Economics estimates an intense El Nino could cut 0.6% of world GDP in 2027 and 0.8% in 2028. For India, the link is the monsoon: the government said El Nino conditions and a delayed monsoon, with rainfall deficits of 35 to 40 per cent in several regions, affected this year’s kharif sowing."
+      ],
+      "illustration": {
+        "title": "WARM WATER, WILD WEATHER",
+        "subtitle": "Outlook to Feb 2027",
+        "motif": "globe",
+        "caption": "The WMO expects El Nino to peak around December, with a near-100 per cent chance it lasts through February 2027."
+      },
+      "connect": "Geography and economics: El Nino ties the Pacific to the Indian monsoon, so a warm ocean far away can shrink rainfall on Indian farms, the same shortfall that hit this year’s kharif sowing. Oxford Economics estimates the damage could reach 0.6% of world GDP in 2027.",
+      "sources": [
+        {
+          "outlet": "WMO",
+          "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+          "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+        },
+        {
+          "outlet": "WMO",
+          "title": "State of the Climate Update for COP31",
+          "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+        },
+        {
+          "outlet": "WMO",
+          "title": "State of the climate in 2026 gives new meaning to phrase ’off the charts’",
+          "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+        },
+        {
+          "outlet": "France 24",
+          "title": "El impacto de El Niño esta semana en el mundo",
+          "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  UNION BUDGET",
+      "headline": "Finance Minister Wraps Up Pre-Budget Talks, Adding Young People for the First Time",
+      "deck": "Thirteen meetings with more than 200 stakeholders feed into the Union Budget for 2027-28.",
+      "body": [
+        "Before a government decides how to raise and spend money, it listens. Finance Minister Nirmala Sitharaman has now finished that listening for the Union Budget 2027-28, with pre-budget consultations that ran from 16 to 26 November 2026. The Union Budget is the government’s yearly statement of how it will raise money and where it will spend it.",
+        "The scale was wide. She chaired 13 meetings with more than 200 stakeholders drawn from 13 sectors and groups, so that the people who will feel the budget get to tell the government what they need from it. One thing was new this year: a consultation with young people, so that young voices were heard in the room for the first time.",
+        "The proposals that reached the table show how varied the asks are. Samples included domestic manufacturing of biofertilisers, sector-specific AI models, cyber-hygiene awareness for micro, small and medium enterprises (MSMEs), and a reading movement so that every child can read a newspaper by the end of Grade 5. Some of these would cost public money and some mostly need policy changes, which is the trade-off the finance ministry must weigh.",
+        "A consultation is not a promise. The suggestions are inputs, and the final package is decided by the government and presented to Parliament. The article does not say when the Union Budget 2027-28 will be presented, so the date is still to be announced.",
+        "The process follows a set pattern. The government places an annual financial statement, the Union Budget, before Parliament, and the Finance Minister presents it. The 2027-28 financial year starts on 1 April 2027, so the government needs its spending plan ready by then. In recent years it has been presented on 1 February. Stakeholders, in this context, means groups with a stake in the outcome: industry bodies, farmers, economists and, this year, young people. Hearing them first does not bind the government, but it shows it which problems are loudest.",
+        "Each sample proposal shows a different kind of ask. Biofertilisers are fertilisers made from living microorganisms, so making them at home would be a farm and industry policy. Cyber-hygiene awareness means teaching small firms basic habits such as strong passwords and safe online payments. A budget has two halves, the money the government expects to receive, mainly from taxes, and the money it plans to spend, and every new scheme has to fit within them."
+      ],
+      "illustration": {
+        "title": "LISTENING BEFORE THE BUDGET",
+        "subtitle": "16 to 26 November 2026",
+        "motif": "skyline",
+        "caption": "Thirteen meetings with more than 200 stakeholders from 13 sectors and groups, plus a first consultation with young people."
+      },
+      "why": "The budget sets how the government raises and spends money, so the pre-budget talks are where farmers, industry and now young people can shape what gets funded. Proposals are only suggestions until the government decides.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "Finance Minister concludes pre-budget consultations",
+          "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+        }
+      ]
+    },
+    "politics_and_civics": {
+      "kicker": "POLITICS & CIVICS  •  PUBLIC HEALTH",
+      "headline": "A Regional Health Body Rules the US Has Lost Its Measles Elimination Status",
+      "deck": "The Pan American Health Organization says the virus is again spreading for good in the US, Mexico and Bolivia, and the US must file a plan to win the status back.",
+      "body": [
+        "A country can lose a health title the way a team loses a league place, and on 17 November 2026 the United States did. The Pan American Health Organization (PAHO), the World Health Organization’s regional office for the Americas, announced that endemic measles transmission has been re-established in Bolivia, Mexico and the United States, so all three lost their measles elimination status. A disease is called endemic when it keeps circulating in a place on its own.",
+        "The test is strict and technical. Endemic transmission is considered re-established when the same measles virus genotype and lineage circulates uninterrupted for 12 months or more in a country. In the US that has been met: the country is reporting more than 5,400 cases and 10 associated deaths. Even the death toll is disputed between layers of government, because states report 13 deaths while the Centers for Disease Control and Prevention (CDC) recognizes nine.",
+        "The US government’s answer is to separate the label from the protection. The CDC says losing the status does not mean measles is widespread in every community; risk is concentrated where vaccination is lower. CDC Director Erica Schwartz said: “The measles elimination designation is not what protects Americans. Vaccination does.” The numbers behind that point are close to the problem: about 92 percent of US kindergarteners got the measles vaccine in 2025, down from 95 percent in 2019, and about 95% is needed to block spread.",
+        "The path back is set out too. The US can regain elimination status if measles spread is stopped for at least 12 consecutive months, and it must submit a plan for how to do it. That puts the next move with Washington and the states, since vaccination levels are decided through public policy and individual choices rather than by the international body that announced the ruling.",
+        "The stakes are practical. Measles spreads through the air, and one infected person can pass it to as many as 12 to 18 unvaccinated people, which is why the vaccination level matters more than the label. In the US, states set the school vaccination rules, so the recovery plan will depend on 50 state governments as much as on Washington. The health body’s ruling therefore works as a public report card: it does not punish anyone, but it records that a goal once met has slipped."
+      ],
+      "illustration": {
+        "title": "WHO DECIDES, WHO ACTS",
+        "subtitle": "17 November 2026",
+        "motif": "hospital",
+        "caption": "PAHO announced the loss of status for three countries; vaccination policy stays with national and state governments."
+      },
+      "why": "An international body can name a problem, but only national and state governments can fix it, through vaccination policy and public persuasion. The ruling shows how health rules, official counts and public trust meet in civic life.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "PAHO",
+          "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+        },
+        {
+          "outlet": "Science News",
+          "title": "The U.S. just lost its measles elimination status. What now?",
+          "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  BANKING",
+      "headline": "Public Sector Banks Lend 127 Lakh Crore Rupees as Bad Loans Fall to a Record Low",
+      "deck": "Net bad loans stand at 0.33% of lending, while credit to farmers and small firms is growing faster than retail loans.",
+      "body": [
+        "When banks are healthy, households and firms can borrow more cheaply, so the state of the banks matters well beyond finance. Government data show that as of 30 September 2026, public sector banks’ gross advances, meaning the total loans they have given out, were 127 lakh crore rupees, up 18.8% year on year. Total deposits, the savings customers keep with the banks, were 165.2 lakh crore rupees, up 12.9%.",
+        "The loans are also getting safer. A net non-performing asset (NPA) is a loan whose repayments have stalled, after the bank has set aside money to cover the loss. Net NPAs were 44,100 crore rupees, or 0.33% of total advances, described as a historic low. New trouble is shrinking as well: slippages, the loans that newly turn bad, fell from 1.44 lakh crore rupees in the 2021-22 financial year to 38,780 crore in the first half of 2026-27.",
+        "Who is getting the credit? Year-on-year growth in lending was 17% for retail borrowers, 19.5% for agriculture and 20.4% for micro, small and medium enterprises (MSMEs), the small firms that employ many people. Among individual banks, Bank of Maharashtra recorded the highest credit growth. The chart sets these growth rates side by side, with the overall figure for comparison.",
+        "Two caveats keep the picture honest. These are figures released by the government, and growth in lending is not the same as growth in the real economy: a loan only helps if it is repaid. A low bad-loan ratio shows banks are collecting repayments today, not that every future loan will be safe.",
+        "A note on the numbers helps. One lakh crore rupees is a trillion rupees, so the 127 lakh crore of advances is a very large sum. Lending grew faster than deposits, 18.8% against 12.9%, which means banks are lending out savings quickly. That is good for borrowers while it lasts, but banks need steady deposits to keep funding new loans, so the gap is worth watching in future releases."
+      ],
+      "chart": {
+        "title": "LOAN GROWTH BY BORROWER",
+        "subtitle": "Year-on-year growth, per cent, to 30 Sept 2026",
+        "labels": [
+          "Retail",
+          "Overall",
+          "Farm",
+          "MSME"
+        ],
+        "values": [
+          17,
+          18.8,
+          19.5,
+          20.4
+        ],
+        "max": 25,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Growth in lending by public sector banks, year on year; “Overall” is the 18.8% rise in gross advances."
+      },
+      "why": "Banks turn savings into loans for farms, shops and homes. With fewer bad loans, they can lend more, but only if borrowers keep repaying.",
+      "analyst": "Credit to agriculture and MSMEs is growing faster than retail lending. What could explain that gap, and what would you need to know about repayment to judge whether faster growth is healthy? If net bad loans are at a historic low, does that make lending riskier or safer from here?",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "PSBs’ gross advances reach 127 lakh crore; net NPAs decline to 0.33%",
+          "url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "Voyager 1 Reaches One Light-Day From Earth, and Engineers Keep Switching Things Off to Save It",
+      "deck": "The probe is about 25.9 billion kilometres away, and its power supply is slowly fading.",
+      "body": [
+        "A signal sent to Voyager 1 now takes a full day to arrive. On 18 November 2026, at 2:16:07 a.m. PST, NASA’s probe passed one light-day from Earth, the distance light travels in a day. It was 16.094 billion miles (25.902 billion kilometres) away. It is the first spacecraft to get so far, though NASA says the probe will not detect any change in its environment as it passes the mark, and nothing changes aboard.",
+        "The milestone sits beside a quieter problem. Voyager 1 runs on a radioisotope power generator, which turns heat from decaying plutonium into electricity. With the plutonium supply depleting, both Voyager probes lose about 4 watts of power each year. To keep the spacecraft operating, engineers have had to give up instruments one by one.",
+        "The latest sacrifice came in April 2026, when engineers sent commands to shut down the Low-energy Charged Particles experiment (LECP). NASA’s status table lists the Cosmic Ray Subsystem as off to save power since 25 February 2025, and the cameras were turned off in 1990. As of the April 2026 report, two science instruments were still working on Voyager 1: one that listens to plasma waves and one that measures magnetic fields.",
+        "Each shutdown is a trade between science and survival. Keeping every instrument on would end the mission sooner; turning them off gives the remaining ones more time to report from interstellar space, the region beyond the Sun’s planets. NASA’s own mission page and blog describe the choices, which is why the probe’s length of service depends less on distance than on how many watts remain.",
+        "The scale is hard to picture, so compare it with light from the Sun, which takes about eight minutes to reach Earth. Voyager 1 is still sending data across that gap. Its cameras went dark in 1990, after taking pictures of the Solar System. Today its voice is faint: commands take a day to reach it, and its answers take a day to return, so every instruction must be planned carefully.",
+        "What the two working instruments do is also worth knowing. A plasma wave instrument picks up the vibrations of electrically charged gas around the probe, and a magnetometer measures the strength and direction of magnetic fields. Together they let scientists read conditions in a region no other spacecraft has reached. Voyager 1 also flew past Jupiter in 1979 and Saturn in 1980, which is why it is remembered as one of the great planetary explorers."
+      ],
+      "illustration": {
+        "title": "ONE LIGHT-DAY FROM EARTH",
+        "subtitle": "18 November 2026",
+        "motif": "rocket",
+        "caption": "At 25.902 billion kilometres, a radio signal needs a day to reach the probe; two science instruments are still on."
+      },
+      "why": "Voyager 1 is the first spacecraft to get so far, and the shutdowns show how engineers stretch an old probe’s life when its power runs down.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+          "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "Voyager 1: The Farthest Spacecraft",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Norway: Long-haul budget airline Norse Atlantic cancelled all flights on Thursday 26 November after jet fuel prices surged because of the war in the Middle East, and its board said it intends to file for bankruptcy unless short-term financing is secured urgently.",
+        "India: Sabita Toppo won the women’s 100m hurdles gold at the BIMSTEC Under-23 athletics meet in Bhubaneswar, helping India extend its medal lead.",
+        "Britain: An inquiry into UK nuclear test veterans was granted after a 40 year campaign, with the veterans claiming they were used as test subjects.",
+        "Spain: FC Barcelona revealed plans to let Camp Nou be fans’ final resting place, with a planned memorial inside the stadium."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Unanimity",
+          "def": "Agreement by every single member, so that any one can block a decision. Today: EU budgets need unanimity, so any one leader’s red line can block a deal."
+        },
+        {
+          "word": "Endemic",
+          "def": "Constantly present and spreading in a particular place, not just arriving from outside. Today: PAHO says measles is endemic again in the US, Mexico and Bolivia."
+        },
+        {
+          "word": "Anomaly",
+          "def": "The amount by which a measurement differs from its normal or average level. Today: the WMO forecasts a Nino 3.4 anomaly of about 3.7 degrees Celsius for October to December."
+        },
+        {
+          "word": "Non-performing asset",
+          "def": "A loan whose repayments have stopped, so the bank is no longer earning from it. Today: net NPAs of public sector banks fell to 0.33% of total advances."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Each Voyager spacecraft carries a gold-plated copper disc, the Golden Record, holding sounds and images of Earth, meant to be found by anyone who might meet the probe in the far future."
+    },
+    "explainer": {
+      "title": "How the EU agrees a seven-year budget",
+      "body": [
+        "The European Union does not pass its spending plans year by year. Every few years it sets a long-term budget, which this time covers seven years starting on 1 January 2028. The European Commission, the EU’s executive arm, proposes the first draft. The leaders of the member states, meeting as the European Council, then bargain over the size of the budget, who pays in and what it is spent on.",
+        "The key rule is unanimity: the member states in the Council of the EU must all agree to adopt the long-term budget, and the European Parliament must also give its consent. That means one country can block a deal, which is why leaders hold “red lines” and why camps form. In this round the Frugals want deep cuts and the Friends of Cohesion oppose them; cohesion money is spent to help less wealthy regions catch up with richer ones. For an exam answer, remember the pattern: proposal, bargaining among governments, unanimous agreement, then parliamentary consent."
+      ],
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "EU summit ends in disarray as leaders cling to red lines",
+          "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Eight questions on this issue",
+      "body": [
+        "<b>1.</b> By how much was Costa’s compromise a cut from the original EU budget draft?",
+        "(a) 1%  (b) 10%  (c) 50%",
+        "<b>2.</b> How many states make up the “Frugals” who want deep cuts?",
+        "(a) Three  (b) Seven  (c) 17",
+        "<b>3.</b> What ultimatum did France’s Macron set on the budget?",
+        "(a) A deal by 31 December  (b) A vote in Parliament  (c) A referendum",
+        "<b>4.</b> What does the Nino 3.4 anomaly measure?",
+        "(a) Rainfall on land  (b) Pacific water temperature above normal  (c) Wind speed at sea",
+        "<b>5.</b> Which body announced the US had lost measles elimination status?",
+        "(a) PAHO  (b) The IMF  (c) NATO",
+        "<b>6.</b> What were net NPAs of public sector banks as a share of total advances?",
+        "(a) 0.33%  (b) 3.3%  (c) 33%",
+        "<b>7.</b> Which group grew fastest in bank lending, year on year?",
+        "(a) Retail  (b) Agriculture  (c) MSMEs",
+        "<b>8.</b> How far from Earth was Voyager 1 when it reached one light-day?",
+        "(a) About 2.59 billion km  (b) About 25.9 billion km  (c) About 259 billion km",
+        "<b>Answers:</b> 1-b, 2-b, 3-a, 4-b, 5-a, 6-a, 7-c, 8-b"
+      ],
+      "sources": []
+    },
+    "watchlist": {
+      "items": [
+        "Brussels, by 31 December: whether EU leaders agree a budget before Macron’s ultimatum runs out; no date has been given for the next round of talks.",
+        "The Pacific, December: whether El Nino peaks at record strength as the WMO expects, and how the monsoon and farm output are affected.",
+        "London, 7 December: MPs are due to debate the legislation for the UK-EU food and farming deal, whose legal text carries a price for leaving in the first 10 years."
+      ]
+    }
+  },
+  "sources": [
+    {
+      "outlet": "Euronews",
+      "title": "EU summit ends in disarray as leaders cling to red lines",
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+    },
+    {
+      "outlet": "WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+      "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+    },
+    {
+      "outlet": "WMO",
+      "title": "State of the Climate Update for COP31",
+      "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+    },
+    {
+      "outlet": "WMO",
+      "title": "State of the climate in 2026 gives new meaning to phrase ’off the charts’",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+    },
+    {
+      "outlet": "France 24",
+      "title": "El impacto de El Niño esta semana en el mundo",
+      "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+    },
+    {
+      "outlet": "DD News",
+      "title": "Finance Minister concludes pre-budget consultations",
+      "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+    },
+    {
+      "outlet": "NPR",
+      "title": "U.S. officially loses its measles elimination status",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+    },
+    {
+      "outlet": "PAHO",
+      "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+    },
+    {
+      "outlet": "Science News",
+      "title": "The U.S. just lost its measles elimination status. What now?",
+      "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine"
+    },
+    {
+      "outlet": "DD News",
+      "title": "PSBs’ gross advances reach 127 lakh crore; net NPAs decline to 0.33%",
+      "url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+    },
+    {
+      "outlet": "NASA",
+      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+    },
+    {
+      "outlet": "NASA Science",
+      "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+      "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+    },
+    {
+      "outlet": "NASA Science",
+      "title": "Voyager 1: The Farthest Spacecraft",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Norse Atlantic suspends flights as bankruptcy looms",
+      "url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+    },
+    {
+      "outlet": "DD News",
+      "title": "Sabita Toppo wins women’s 100m hurdles gold",
+      "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Euronews 26 November 2026 listing",
+      "url": "https://www.euronews.com/2026/11/26"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Ashes to ashes: FC Barcelona reveals plans to let Camp Nou be fans final resting place",
+      "url": "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "UK-EU food deal carries exit penalty, legal text shows",
+      "url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": {
+        "story": "lead",
+        "question": "Should EU leaders accept deeper cuts to finish a budget on time, or hold out for a bigger one?",
+        "premise": "Leaders left Brussels without a deal, while the seven-year budget is due to start on 1 January 2028.",
+        "evidence": "Seven states called the Frugals demand deep cuts, while 17 Friends of Cohesion refuse further ones.",
+        "framing": "Hypothetical decision based on this story: neither option is a reported proposal; both are framed for learning.",
+        "options": [
+          {
+            "label": "Accept deeper cuts",
+            "benefit": "A smaller budget could win over the Frugals and let leaders agree before the 2028 start date.",
+            "cost": "Regions and programmes that rely on cohesion money could get less, and the 17 states opposing cuts may refuse."
+          },
+          {
+            "label": "Hold out for more",
+            "benefit": "Protecting the budget keeps support for poorer regions and for projects the Friends of Cohesion value.",
+            "cost": "Without a deal, time runs short and the whole budget could stall."
+          }
+        ],
+        "reflection": "What evidence could change your decision: a new compromise figure, a firm date for the next round, or signs that one camp is ready to move?"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How big was Costa’s compromise EU budget proposal?",
+        "options": [
+          "45 billion euros",
+          "1.78 trillion euros",
+          "204 billion euros"
+        ],
+        "answer": 1,
+        "why": "The paper says Costa’s compromise was worth 1.78 trillion euros over seven years.",
+        "story": "lead"
+      },
+      {
+        "q": "What did Macron say would happen if there was no deal by 31 December?",
+        "options": [
+          "He would resign",
+          "He would walk away",
+          "He would call a referendum"
+        ],
+        "answer": 1,
+        "why": "Macron set an ultimatum of a deal by 31 December or walking away.",
+        "story": "lead"
+      },
+      {
+        "q": "What is expected to reach record strength by December 2026?",
+        "options": [
+          "A volcano",
+          "A solar storm",
+          "El Nino"
+        ],
+        "answer": 2,
+        "why": "The WMO expects El Nino to reach record strength by December.",
+        "story": "world"
+      },
+      {
+        "q": "Who chaired 13 pre-budget meetings with more than 200 stakeholders?",
+        "options": [
+          "Jyotiraditya Scindia",
+          "Nirmala Sitharaman",
+          "Shivraj Singh Chouhan"
+        ],
+        "answer": 1,
+        "why": "Finance Minister Sitharaman chaired 13 meetings.",
+        "story": "india"
+      },
+      {
+        "q": "About how many US kindergarteners got the measles vaccine in 2025?",
+        "options": [
+          "50 percent",
+          "92 percent",
+          "99 percent"
+        ],
+        "answer": 1,
+        "why": "About 92 percent did, below the roughly 95% needed to block spread.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "How long must measles spread be stopped for the US to regain its status?",
+        "options": [
+          "At least one week",
+          "At least 10 years",
+          "At least 12 consecutive months"
+        ],
+        "answer": 2,
+        "why": "The US must stop measles spread for at least 12 consecutive months.",
+        "story": "politics_and_civics"
+      },
+      {
+        "q": "What were public sector banks’ net bad loans as a share of total advances?",
+        "options": [
+          "0.33%",
+          "33%",
+          "3.3%"
+        ],
+        "answer": 0,
+        "why": "Net NPAs were 44,100 crore rupees, or 0.33% of total advances.",
+        "story": "economics"
+      },
+      {
+        "q": "How much power does each Voyager probe lose every year?",
+        "options": [
+          "About 400 watts",
+          "About 4 kilowatts",
+          "About 4 watts"
+        ],
+        "answer": 2,
+        "why": "Both Voyager probes lose about 4 watts of power each year.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "EU leaders agreed the next seven-year budget in Brussels on 26 November.",
+        "true": false,
+        "why": "They left without a deal, and no date has been given for the next round.",
+        "story": "lead"
+      },
+      {
+        "claim": "The WMO expects El Nino to persist through February 2027, with a near-100 per cent likelihood.",
+        "true": true,
+        "why": "WMO forecasts indicate a near-100 per cent likelihood that El Nino will persist through February 2027.",
+        "story": "world"
+      },
+      {
+        "claim": "The US lost its measles elimination status after PAHO’s announcement on 17 November.",
+        "true": true,
+        "why": "PAHO said endemic transmission was re-established in Bolivia, Mexico and the United States.",
+        "story": "politics_and_civics"
+      },
+      {
+        "claim": "Voyager 1 passed one light-day from Earth in 2025.",
+        "true": false,
+        "why": "It passed one light-day on 18 November 2026.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Pacific Ocean",
+        "lat": 0.0,
+        "lon": -140.0,
+        "countries": []
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "politics_and_civics",
+        "place": "Washington",
+        "lat": 38.9,
+        "lon": -77.04,
+        "countries": [
+          "United States",
+          "Mexico",
+          "Bolivia"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How much was Costa’s compromise EU budget worth, in trillions of euros?",
+        "answer": 1.78,
+        "prefix": "",
+        "unit": "trillion euros",
+        "min": 0.5,
+        "max": 4,
+        "why": "Costa’s compromise was worth 1.78 trillion euros over seven years, a 10% cut from the first draft."
+      },
+      {
+        "story": "science_and_technology",
+        "q": "How far from Earth was Voyager 1 on 18 November, in billions of kilometres?",
+        "answer": 25.902,
+        "prefix": "",
+        "unit": "billion km",
+        "min": 5,
+        "max": 60,
+        "why": "Voyager 1 was 25.902 billion kilometres away when it passed one light-day."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "EU Leaders Cannot Agree on Their Money Plan",
+        "body": [
+          "The European Union is a group of countries that work together. Its leaders met in Brussels on Thursday 26 November. They wanted to agree how much money the group will have for seven years.",
+          "They did not agree. A leader named Costa offered a plan worth 1.78 trillion euros. That was 10% less than the first plan. Even so, every side said no.",
+          "Seven countries want deep cuts. Seventeen countries want no more cuts. The new budget should start on 1 January 2028. France’s Macron said there must be a deal by 31 December. Nobody knows when they will meet again."
+        ]
+      },
+      "world": {
+        "headline": "A Warm Patch of Ocean May Cause Wild Weather",
+        "body": [
+          "El Nino is a warming of the water in the tropical Pacific Ocean. It can change rain and heat all over the world.",
+          "The World Meteorological Organization says El Nino is getting stronger. It expects a record by December. It says El Nino will almost surely last until February 2027.",
+          "Scientists track it with a number. This time the water is forecast to be about 3.7 degrees Celsius warmer than normal. The weather group also says sea levels have reached their highest point in satellite records."
+        ]
+      },
+      "india": {
+        "headline": "India’s Finance Minister Asks Many People for Ideas",
+        "body": [
+          "Every year India’s government makes a money plan called the Union Budget. Before that, Finance Minister Nirmala Sitharaman listens to people.",
+          "From 16 to 26 November she held 13 meetings. More than 200 people from 13 sectors and groups took part. For the first time, young people were asked too.",
+          "Some ideas were new. One was a reading movement so every child can read a newspaper by the end of Grade 5. The government will decide what to use."
+        ]
+      },
+      "politics_and_civics": {
+        "headline": "The US Loses Its Measles-Free Title",
+        "body": [
+          "Measles is an illness that spreads very easily. A health group for the Americas said on 17 November that the United States has lost its measles-free status. Mexico and Bolivia lost it too.",
+          "The reason is that the same measles virus kept spreading for 12 months or more. The US has more than 5,400 cases.",
+          "Doctors say about 95% of people need the vaccine to stop spread. In 2025 about 92 percent of US kindergarteners got it. The US can win the title back if spread stops for 12 months in a row."
+        ]
+      },
+      "economics": {
+        "headline": "Indian Banks Lend More and Have Fewer Bad Loans",
+        "body": [
+          "Banks lend out the money that people save. A bad loan is one that the borrower has stopped paying back.",
+          "The government says public sector banks had given out 127 lakh crore rupees in loans by 30 September 2026. That is 18.8% more than a year earlier.",
+          "Bad loans have fallen to just 0.33% of all loans. Loans to farmers grew 19.5%, and loans to small firms grew 20.4%."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Voyager 1 Is One Light-Day Away",
+        "body": [
+          "A light-day is how far light travels in one whole day. On 18 November 2026 NASA’s Voyager 1 reached that distance from Earth. It is 25.902 billion kilometres away.",
+          "The probe gets power from a plutonium generator. Each year it loses about 4 watts of power. To save power, engineers turn off instruments.",
+          "In April 2026 they shut off one more. Only two science instruments are still working. They listen to waves and measure magnetic fields."
+        ]
+      }
+    }
+  }
+}
