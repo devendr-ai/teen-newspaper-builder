@@ -1,5 +1,41 @@
-{"date":"2026-11-27","papers":{
-"junior-daily":{"lead":"nato-awacs-poland","angle":"Where and who: a NATO radar plane based in Gelsenkirchen, Germany, now flies over Poland after three Russian missiles crashed there, and how its high-up radar sees far."},
-"breakfast-table":{"lead":"ebola-congo","angle":"What it means at home: how Ebola spreads and why isolating patients and checking contacts matters, and why fighting near Bunia makes the work harder for health teams."},
-"europe-explained":{"lead":"uk-eu-food-deal","angle":"How it reaches the UK: a food deal signed in Brussels with a price for leaving, what it could save exporters, and where Reform UK and the Conservatives stand."},
-"young-global-citizen":{"lead":"us-thanksgiving-storms","angle":"What it means for US families: Thanksgiving travel, power cuts and the postponed parade, with how king tides and flooding work."}}}
+{
+ "date": "2026-11-27",
+ "papers": {
+  "junior-daily": {
+   "lead": "nato-awacs-poland",
+   "angle": "Where and who: a NATO radar plane based in Gelsenkirchen, Germany, now flies over Poland after three Russian missiles crashed there, and how its high-up radar sees far."
+  },
+  "breakfast-table": {
+   "lead": "ebola-congo",
+   "angle": "What it means at home: how Ebola spreads and why isolating patients and checking contacts matters, and why fighting near Bunia makes the work harder for health teams."
+  },
+  "europe-explained": {
+   "lead": "uk-eu-food-deal",
+   "angle": "How it reaches the UK: a food deal signed in Brussels with a price for leaving, what it could save exporters, and where Reform UK and the Conservatives stand."
+  },
+  "young-global-citizen": {
+   "lead": "us-thanksgiving-storms",
+   "angle": "What it means for US families: Thanksgiving travel, power cuts and the postponed parade, with how king tides and flooding work."
+  },
+  "junior-explorer": {
+   "lead": "voyager-1-light-day",
+   "angle": "How far is a light-day: the Voyager 1 probe, nearly 50 years in space, has reached the distance light travels in one day, and engineers keep switching off instruments to save its power."
+  },
+  "little-explorers": {
+   "lead": "supernova-ngc1433",
+   "angle": "A star far away explodes: astronomers with big telescopes spotted a new supernova in a distant galaxy before it reached its brightest, told simply for the youngest readers."
+  },
+  "lab-notebook": {
+   "lead": "el-nino-record",
+   "angle": "The science of El Niño: how warm water in the tropical Pacific is measured (the Niño 3.4 anomaly), why the WMO expects a record, and what the evidence says about weather and sea level."
+  },
+  "current-affairs-digest": {
+   "lead": "eu-budget-summit",
+   "angle": "How a union decides its money: why EU leaders could not agree the seven-year budget, what unanimity means for the exam-minded reader, and what happens next."
+  },
+  "global-citizen-plus": {
+   "lead": "us-measles-elimination",
+   "angle": "Public health and civics: what losing measles elimination status means, how herd immunity and the 95% vaccination level work, and how the US can win the status back."
+  }
+ }
+}

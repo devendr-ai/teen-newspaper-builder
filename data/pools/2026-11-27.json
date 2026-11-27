@@ -390,6 +390,274 @@
       "primary": false
      }
     ]
+   },
+   {
+    "id": "voyager-1-light-day",
+    "headline": "Voyager 1 reaches one light-day from Earth",
+    "what_happened": "NASA's Voyager 1 passed one light-day from Earth on 18 November 2026, about 16.094 billion miles (25.902 billion km) away. Its power is slowly fading and engineers have switched off several instruments to keep it going.",
+    "why_it_matters": "It is the first spacecraft to get so far, and the shutdowns show how engineers stretch an old probe's life.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth on 18 November 2026, at 2:16:07 a.m. PST, when it was 16.094 billion miles (25.902 billion kilometers) away.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA says the spacecraft will not detect any change in its environment when it passes one light-day, and nothing changes aboard the spacecraft.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1's radioisotope power generator is losing output over time; with the plutonium supply depleting, both Voyager probes lose about 4 watts of power each year.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "In April 2026, engineers sent commands to shut down the Low-energy Charged Particles experiment (LECP) aboard Voyager 1 to keep the spacecraft operating.",
+      "source_url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+     },
+     {
+      "fact": "NASA's status table lists the Cosmic Ray Subsystem as off to save power since 25 February 2025, and the cameras were turned off in 1990.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "As of the April 2026 report two science instruments were still working on Voyager 1: one that listens to plasma waves and one that measures magnetic fields.",
+      "source_url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance from Earth",
+      "value": 16.094,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year by each Voyager probe",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space, far beyond the Sun's planets",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+      "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/",
+      "published": "2026-04-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Voyager 1: The Farthest Spacecraft",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "supernova-ngc1433",
+    "headline": "A new supernova explodes in the galaxy NGC 1433",
+    "what_happened": "Astronomers spotted a new exploding star, SN 2026ahvu, in the spiral galaxy NGC 1433 on 2 November 2026 and caught it before it reached peak brightness.",
+    "why_it_matters": "Catching a supernova early lets scientists study how these explosions begin.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The supernova, named SN 2026ahvu, was first reported on 2 November 2026 by the ATLAS survey, a set of robotic telescopes in both hemispheres.",
+      "source_url": "https://arxiv.org/pdf/2611.09875"
+     },
+     {
+      "fact": "Space.com describes it as a new supernova found in the spiral galaxy NGC 1433, about 50 million light-years from Earth.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "It was classified as a Type Ia supernova using follow-up spectroscopy with the Keck telescope's DEIMOS instrument.",
+      "source_url": "https://arxiv.org/pdf/2611.09875"
+     },
+     {
+      "fact": "Science News reports that soon after scientists spotted the explosion, they determined it had not yet peaked in brightness.",
+      "source_url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+     },
+     {
+      "fact": "Gemini South, a telescope in Chile operated by the US National Science Foundation, imaged the galaxy and the new supernova on 9 November 2026.",
+      "source_url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+     }
+    ],
+    "numbers": [],
+    "geography": "Galaxy NGC 1433, in the southern sky",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Space.com",
+      "title": "Supernova explodes before astronomers' eyes",
+      "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+      "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "Science News",
+      "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+      "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+      "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "arXiv",
+      "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+      "url": "https://arxiv.org/pdf/2611.09875",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "el-nino-record",
+    "headline": "El Niño is heading for record strength, the WMO says",
+    "what_happened": "The World Meteorological Organization says El Niño has strengthened since August and is expected to reach record strength by December, raising the risk of extreme weather into 2027.",
+    "why_it_matters": "El Niño changes rain and heat patterns around the world, affecting farms, floods and droughts.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The WMO says El Niño has intensified since August and is expected to reach record strength by December 2026.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "The seasonal average Niño 3.4 anomaly for October to December is forecast at about +3.7 °C, peaking around December.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "WMO forecasts indicate a near-100 per cent likelihood that El Niño will persist through February 2027.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "For January to September 2026 the global mean near-surface temperature was 1.47 °C (give or take 0.13 °C) above the 1850-1900 average, and the past four years, 2023 to 2026, are the four warmest on record.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Global mean sea level reached its highest point in the satellite record, which began in 1993.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Preliminary data through July point to a tenth consecutive year of record ocean heat content.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "A France 24 roundup of 25 November reported droughts in the Pacific, flooding in San Francisco, and that Oxford Economics estimates an intense El Niño could cut 0.6% of world GDP in 2027 and 0.8% in 2028.",
+      "source_url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+     },
+     {
+      "fact": "The WMO update covers data to September 2026, so it does not yet reflect El Niño's most recent impacts.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tropical Pacific Ocean; effects on the Americas, the Pacific islands and beyond",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "WMO",
+      "title": "State of the Climate Update for COP31",
+      "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+      "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+      "published": "2026-10-30",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "El impacto de El Niño esta semana en el mundo",
+      "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo",
+      "published": "2026-11-25",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-measles-elimination",
+    "headline": "The US officially loses its measles elimination status",
+    "what_happened": "On 17 November 2026 the Pan American Health Organization announced that endemic measles spread has been re-established in Bolivia, Mexico and the United States, so all three lost their elimination status.",
+    "why_it_matters": "Measles spreads easily, and high vaccination rates are what hold it back.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "PAHO announced on 17 November 2026 that endemic measles transmission was re-established in Bolivia, Mexico and the United States, so all three lost measles elimination status.",
+      "source_url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+     },
+     {
+      "fact": "Endemic transmission is considered re-established when the same measles virus genotype and lineage circulates uninterrupted for 12 months or more in a country.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The US is reporting more than 5,400 measles cases and 10 associated deaths; states report 13 deaths, although the CDC recognizes nine.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The CDC says losing elimination status does not mean measles is widespread in every US community; risk is concentrated where vaccination is lower.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "About 92 percent of US kindergarteners got the measles vaccine in 2025, down from 95 percent in 2019, below the roughly 95% needed to block spread.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The US can regain elimination status if measles spread is stopped for at least 12 consecutive months, and it must submit a plan for how to do it.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "CDC Director Erica Schwartz said: 'The measles elimination designation is not what protects Americans. Vaccination does.'",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States, Mexico and Bolivia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "U.S. officially loses its measles elimination status",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "PAHO",
+      "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Science News",
+      "title": "The U.S. just lost its measles elimination status. What now?",
+      "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ]
    }
   ]
  },
@@ -619,6 +887,70 @@
       "title": "Musk says will give two SpaceX shares to every child in America",
       "url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america",
       "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-measles-elimination",
+    "headline": "The US officially loses its measles elimination status",
+    "what_happened": "On 17 November 2026 the Pan American Health Organization announced that endemic measles spread has been re-established in Bolivia, Mexico and the United States, so all three lost their elimination status.",
+    "why_it_matters": "Measles spreads easily, and high vaccination rates are what hold it back.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "PAHO announced on 17 November 2026 that endemic measles transmission was re-established in Bolivia, Mexico and the United States, so all three lost measles elimination status.",
+      "source_url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+     },
+     {
+      "fact": "Endemic transmission is considered re-established when the same measles virus genotype and lineage circulates uninterrupted for 12 months or more in a country.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The US is reporting more than 5,400 measles cases and 10 associated deaths; states report 13 deaths, although the CDC recognizes nine.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The CDC says losing elimination status does not mean measles is widespread in every US community; risk is concentrated where vaccination is lower.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "About 92 percent of US kindergarteners got the measles vaccine in 2025, down from 95 percent in 2019, below the roughly 95% needed to block spread.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The US can regain elimination status if measles spread is stopped for at least 12 consecutive months, and it must submit a plan for how to do it.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "CDC Director Erica Schwartz said: 'The measles elimination designation is not what protects Americans. Vaccination does.'",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States, Mexico and Bolivia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "U.S. officially loses its measles elimination status",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "PAHO",
+      "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Science News",
+      "title": "The U.S. just lost its measles elimination status. What now?",
+      "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+      "published": "2026-11-18",
       "primary": false
      }
     ]
@@ -1367,6 +1699,1282 @@
       "outlet": "Euronews",
       "title": "Ashes to ashes: FC Barcelona reveals plans to let Camp Nou be fans' final resting place",
       "url": "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science & tech": {
+  "label": "SCIENCE & TECH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voyager-1-light-day",
+    "headline": "Voyager 1 reaches one light-day from Earth",
+    "what_happened": "NASA's Voyager 1 passed one light-day from Earth on 18 November 2026, about 16.094 billion miles (25.902 billion km) away. Its power is slowly fading and engineers have switched off several instruments to keep it going.",
+    "why_it_matters": "It is the first spacecraft to get so far, and the shutdowns show how engineers stretch an old probe's life.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth on 18 November 2026, at 2:16:07 a.m. PST, when it was 16.094 billion miles (25.902 billion kilometers) away.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA says the spacecraft will not detect any change in its environment when it passes one light-day, and nothing changes aboard the spacecraft.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1's radioisotope power generator is losing output over time; with the plutonium supply depleting, both Voyager probes lose about 4 watts of power each year.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "In April 2026, engineers sent commands to shut down the Low-energy Charged Particles experiment (LECP) aboard Voyager 1 to keep the spacecraft operating.",
+      "source_url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+     },
+     {
+      "fact": "NASA's status table lists the Cosmic Ray Subsystem as off to save power since 25 February 2025, and the cameras were turned off in 1990.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "As of the April 2026 report two science instruments were still working on Voyager 1: one that listens to plasma waves and one that measures magnetic fields.",
+      "source_url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance from Earth",
+      "value": 16.094,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year by each Voyager probe",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space, far beyond the Sun's planets",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+      "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/",
+      "published": "2026-04-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Voyager 1: The Farthest Spacecraft",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "supernova-ngc1433",
+    "headline": "A new supernova explodes in the galaxy NGC 1433",
+    "what_happened": "Astronomers spotted a new exploding star, SN 2026ahvu, in the spiral galaxy NGC 1433 on 2 November 2026 and caught it before it reached peak brightness.",
+    "why_it_matters": "Catching a supernova early lets scientists study how these explosions begin.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The supernova, named SN 2026ahvu, was first reported on 2 November 2026 by the ATLAS survey, a set of robotic telescopes in both hemispheres.",
+      "source_url": "https://arxiv.org/pdf/2611.09875"
+     },
+     {
+      "fact": "Space.com describes it as a new supernova found in the spiral galaxy NGC 1433, about 50 million light-years from Earth.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "It was classified as a Type Ia supernova using follow-up spectroscopy with the Keck telescope's DEIMOS instrument.",
+      "source_url": "https://arxiv.org/pdf/2611.09875"
+     },
+     {
+      "fact": "Science News reports that soon after scientists spotted the explosion, they determined it had not yet peaked in brightness.",
+      "source_url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+     },
+     {
+      "fact": "Gemini South, a telescope in Chile operated by the US National Science Foundation, imaged the galaxy and the new supernova on 9 November 2026.",
+      "source_url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+     }
+    ],
+    "numbers": [],
+    "geography": "Galaxy NGC 1433, in the southern sky",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Space.com",
+      "title": "Supernova explodes before astronomers' eyes",
+      "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+      "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "Science News",
+      "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+      "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+      "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "arXiv",
+      "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+      "url": "https://arxiv.org/pdf/2611.09875",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "el-nino-record",
+    "headline": "El Niño is heading for record strength, the WMO says",
+    "what_happened": "The World Meteorological Organization says El Niño has strengthened since August and is expected to reach record strength by December, raising the risk of extreme weather into 2027.",
+    "why_it_matters": "El Niño changes rain and heat patterns around the world, affecting farms, floods and droughts.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The WMO says El Niño has intensified since August and is expected to reach record strength by December 2026.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "The seasonal average Niño 3.4 anomaly for October to December is forecast at about +3.7 °C, peaking around December.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "WMO forecasts indicate a near-100 per cent likelihood that El Niño will persist through February 2027.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "For January to September 2026 the global mean near-surface temperature was 1.47 °C (give or take 0.13 °C) above the 1850-1900 average, and the past four years, 2023 to 2026, are the four warmest on record.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Global mean sea level reached its highest point in the satellite record, which began in 1993.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Preliminary data through July point to a tenth consecutive year of record ocean heat content.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "A France 24 roundup of 25 November reported droughts in the Pacific, flooding in San Francisco, and that Oxford Economics estimates an intense El Niño could cut 0.6% of world GDP in 2027 and 0.8% in 2028.",
+      "source_url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+     },
+     {
+      "fact": "The WMO update covers data to September 2026, so it does not yet reflect El Niño's most recent impacts.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tropical Pacific Ocean; effects on the Americas, the Pacific islands and beyond",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "WMO",
+      "title": "State of the Climate Update for COP31",
+      "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+      "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+      "published": "2026-10-30",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "El impacto de El Niño esta semana en el mundo",
+      "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo",
+      "published": "2026-11-25",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "science": {
+  "label": "SCIENCE",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "voyager-1-light-day",
+    "headline": "Voyager 1 reaches one light-day from Earth",
+    "what_happened": "NASA's Voyager 1 passed one light-day from Earth on 18 November 2026, about 16.094 billion miles (25.902 billion km) away. Its power is slowly fading and engineers have switched off several instruments to keep it going.",
+    "why_it_matters": "It is the first spacecraft to get so far, and the shutdowns show how engineers stretch an old probe's life.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Voyager 1 reached one light-day from Earth on 18 November 2026, at 2:16:07 a.m. PST, when it was 16.094 billion miles (25.902 billion kilometers) away.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "NASA says the spacecraft will not detect any change in its environment when it passes one light-day, and nothing changes aboard the spacecraft.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "Voyager 1's radioisotope power generator is losing output over time; with the plutonium supply depleting, both Voyager probes lose about 4 watts of power each year.",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "fact": "In April 2026, engineers sent commands to shut down the Low-energy Charged Particles experiment (LECP) aboard Voyager 1 to keep the spacecraft operating.",
+      "source_url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+     },
+     {
+      "fact": "NASA's status table lists the Cosmic Ray Subsystem as off to save power since 25 February 2025, and the cameras were turned off in 1990.",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+     },
+     {
+      "fact": "As of the April 2026 report two science instruments were still working on Voyager 1: one that listens to plasma waves and one that measures magnetic fields.",
+      "source_url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Distance from Earth",
+      "value": 16.094,
+      "unit": "billion miles",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     },
+     {
+      "label": "Power lost each year by each Voyager probe",
+      "value": 4,
+      "unit": "watts",
+      "source_url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+     }
+    ],
+    "geography": "Interstellar space, far beyond the Sun's planets",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-18",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+      "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/",
+      "published": "2026-04-17",
+      "primary": true
+     },
+     {
+      "outlet": "NASA Science",
+      "title": "Voyager 1: The Farthest Spacecraft",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "published": "2026-11-18",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "supernova-ngc1433",
+    "headline": "A new supernova explodes in the galaxy NGC 1433",
+    "what_happened": "Astronomers spotted a new exploding star, SN 2026ahvu, in the spiral galaxy NGC 1433 on 2 November 2026 and caught it before it reached peak brightness.",
+    "why_it_matters": "Catching a supernova early lets scientists study how these explosions begin.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The supernova, named SN 2026ahvu, was first reported on 2 November 2026 by the ATLAS survey, a set of robotic telescopes in both hemispheres.",
+      "source_url": "https://arxiv.org/pdf/2611.09875"
+     },
+     {
+      "fact": "Space.com describes it as a new supernova found in the spiral galaxy NGC 1433, about 50 million light-years from Earth.",
+      "source_url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+     },
+     {
+      "fact": "It was classified as a Type Ia supernova using follow-up spectroscopy with the Keck telescope's DEIMOS instrument.",
+      "source_url": "https://arxiv.org/pdf/2611.09875"
+     },
+     {
+      "fact": "Science News reports that soon after scientists spotted the explosion, they determined it had not yet peaked in brightness.",
+      "source_url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+     },
+     {
+      "fact": "Gemini South, a telescope in Chile operated by the US National Science Foundation, imaged the galaxy and the new supernova on 9 November 2026.",
+      "source_url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+     }
+    ],
+    "numbers": [],
+    "geography": "Galaxy NGC 1433, in the southern sky",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Space.com",
+      "title": "Supernova explodes before astronomers' eyes",
+      "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+      "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "Science News",
+      "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+      "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+      "published": "2026-11-18",
+      "primary": false
+     },
+     {
+      "outlet": "arXiv",
+      "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+      "url": "https://arxiv.org/pdf/2611.09875",
+      "published": "2026-11-17",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "el-nino-record",
+    "headline": "El Niño is heading for record strength, the WMO says",
+    "what_happened": "The World Meteorological Organization says El Niño has strengthened since August and is expected to reach record strength by December, raising the risk of extreme weather into 2027.",
+    "why_it_matters": "El Niño changes rain and heat patterns around the world, affecting farms, floods and droughts.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The WMO says El Niño has intensified since August and is expected to reach record strength by December 2026.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "The seasonal average Niño 3.4 anomaly for October to December is forecast at about +3.7 °C, peaking around December.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "WMO forecasts indicate a near-100 per cent likelihood that El Niño will persist through February 2027.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "For January to September 2026 the global mean near-surface temperature was 1.47 °C (give or take 0.13 °C) above the 1850-1900 average, and the past four years, 2023 to 2026, are the four warmest on record.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Global mean sea level reached its highest point in the satellite record, which began in 1993.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Preliminary data through July point to a tenth consecutive year of record ocean heat content.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "A France 24 roundup of 25 November reported droughts in the Pacific, flooding in San Francisco, and that Oxford Economics estimates an intense El Niño could cut 0.6% of world GDP in 2027 and 0.8% in 2028.",
+      "source_url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+     },
+     {
+      "fact": "The WMO update covers data to September 2026, so it does not yet reflect El Niño's most recent impacts.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tropical Pacific Ocean; effects on the Americas, the Pacific islands and beyond",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "WMO",
+      "title": "State of the Climate Update for COP31",
+      "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+      "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+      "published": "2026-10-30",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "El impacto de El Niño esta semana en el mundo",
+      "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo",
+      "published": "2026-11-25",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "climate & environment": {
+  "label": "CLIMATE & ENVIRONMENT",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "el-nino-record",
+    "headline": "El Niño is heading for record strength, the WMO says",
+    "what_happened": "The World Meteorological Organization says El Niño has strengthened since August and is expected to reach record strength by December, raising the risk of extreme weather into 2027.",
+    "why_it_matters": "El Niño changes rain and heat patterns around the world, affecting farms, floods and droughts.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The WMO says El Niño has intensified since August and is expected to reach record strength by December 2026.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "The seasonal average Niño 3.4 anomaly for October to December is forecast at about +3.7 °C, peaking around December.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "WMO forecasts indicate a near-100 per cent likelihood that El Niño will persist through February 2027.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "For January to September 2026 the global mean near-surface temperature was 1.47 °C (give or take 0.13 °C) above the 1850-1900 average, and the past four years, 2023 to 2026, are the four warmest on record.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Global mean sea level reached its highest point in the satellite record, which began in 1993.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "Preliminary data through July point to a tenth consecutive year of record ocean heat content.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     },
+     {
+      "fact": "A France 24 roundup of 25 November reported droughts in the Pacific, flooding in San Francisco, and that Oxford Economics estimates an intense El Niño could cut 0.6% of world GDP in 2027 and 0.8% in 2028.",
+      "source_url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+     },
+     {
+      "fact": "The WMO update covers data to September 2026, so it does not yet reflect El Niño's most recent impacts.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+     }
+    ],
+    "numbers": [],
+    "geography": "Tropical Pacific Ocean; effects on the Americas, the Pacific islands and beyond",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "WMO",
+      "title": "State of the Climate Update for COP31",
+      "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "published": "2026-11-10",
+      "primary": true
+     },
+     {
+      "outlet": "WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+      "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+      "published": "2026-10-30",
+      "primary": true
+     },
+     {
+      "outlet": "France 24",
+      "title": "El impacto de El Niño esta semana en el mundo",
+      "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo",
+      "published": "2026-11-25",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "health": {
+  "label": "HEALTH",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-measles-elimination",
+    "headline": "The US officially loses its measles elimination status",
+    "what_happened": "On 17 November 2026 the Pan American Health Organization announced that endemic measles spread has been re-established in Bolivia, Mexico and the United States, so all three lost their elimination status.",
+    "why_it_matters": "Measles spreads easily, and high vaccination rates are what hold it back.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "PAHO announced on 17 November 2026 that endemic measles transmission was re-established in Bolivia, Mexico and the United States, so all three lost measles elimination status.",
+      "source_url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+     },
+     {
+      "fact": "Endemic transmission is considered re-established when the same measles virus genotype and lineage circulates uninterrupted for 12 months or more in a country.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The US is reporting more than 5,400 measles cases and 10 associated deaths; states report 13 deaths, although the CDC recognizes nine.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The CDC says losing elimination status does not mean measles is widespread in every US community; risk is concentrated where vaccination is lower.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "About 92 percent of US kindergarteners got the measles vaccine in 2025, down from 95 percent in 2019, below the roughly 95% needed to block spread.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "The US can regain elimination status if measles spread is stopped for at least 12 consecutive months, and it must submit a plan for how to do it.",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     },
+     {
+      "fact": "CDC Director Erica Schwartz said: 'The measles elimination designation is not what protects Americans. Vaccination does.'",
+      "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+     }
+    ],
+    "numbers": [],
+    "geography": "United States, Mexico and Bolivia",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "NPR",
+      "title": "U.S. officially loses its measles elimination status",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+      "published": "2026-11-17",
+      "primary": false
+     },
+     {
+      "outlet": "PAHO",
+      "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+      "published": "2026-11-17",
+      "primary": true
+     },
+     {
+      "outlet": "Science News",
+      "title": "The U.S. just lost its measles elimination status. What now?",
+      "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+      "published": "2026-11-18",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ebola-congo",
+    "headline": "Ebola outbreak in Congo passes 12,000 confirmed cases",
+    "what_happened": "Congo's health ministry reports 12,021 confirmed Ebola cases in the east of the country, in an outbreak declared in May and caused by the rare Bundibugyo virus.",
+    "why_it_matters": "There is no approved vaccine or treatment for this virus, and fighting is hampering the response.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Eastern Congo's Ebola outbreak has topped 12,000 confirmed cases, according to government data released Thursday 26 November 2026; the health ministry reports 12,021.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The article calls it the fastest-growing Ebola outbreak in history and the deadliest of Congo's 17 outbreaks.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "It is on track to pass the West African outbreak of 2014-2016, which killed about 11,000 people.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The outbreak was declared in May and is caused by the rare Bundibugyo virus. There is no approved vaccine or treatment for it.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Ebola spreads through direct contact with the blood or bodily fluids of sick or dead people.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Containment needs rapid isolation of patients, monitoring of people who may have been exposed, and safe burial of the dead.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Fighting resumed Thursday between the Congolese army and CRP rebels in Iga-Barriere, a mining town about 25 km north of Bunia in Ituri province; Bunia is a major Ebola response hub.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "WHO Ebola incident manager Dr. Catherine Smallwood said on Wednesday that fighting had kept teams from reaching some communities and left some treatment centres short-staffed.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Fighting has also disrupted the monitoring of people who were exposed to the virus, and response teams face poor roads and local violence driven by mistrust and misinformation.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The CRP is one of more than 100 armed groups in eastern Congo. It was founded last year by former warlord Thomas Lubanga, whom the International Criminal Court convicted in 2012 of recruiting children under 15.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "On Tuesday, about a dozen people, including two WHO staff and Congolese health officials, were evacuated to Bunia after being trapped for three days in a hospital in Akwe amid heavy crossfire.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Confirmed Ebola cases",
+      "value": 12021,
+      "unit": "cases",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "label": "West Africa outbreak 2014-2016 deaths",
+      "value": 11000,
+      "unit": "people",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     }
+    ],
+    "geography": "Ituri province, eastern Democratic Republic of the Congo; Bunia",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Ebola cases in Congo surpass 12,000 in fastest-growing outbreak",
+      "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "economy": {
+  "label": "ECONOMY",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "argentina-recession-econ",
+    "headline": "Argentina's economy shrank for a second quarter, economists estimate",
+    "what_happened": "Economists estimate Argentina's economy contracted 1.8% in July to September, a second straight quarterly fall, which counts as a technical recession. Official GDP figures are due on 16 December.",
+    "why_it_matters": "Two shrinking quarters in a row is the usual rule of thumb for a technical recession, and it affects jobs and prices.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Economists estimate Argentina's economy shrank 1.8% in the third quarter of 2026, the second straight quarterly fall, which is a technical recession.",
+      "source_url": "https://www.france24.com/es/minuto-a-minuto/20261125-argentina-entra-en-recesi%C3%B3n-en-el-tercer-trimestre-estiman-economistas"
+     },
+     {
+      "fact": "The official GDP figure for the quarter is due on 16 December.",
+      "source_url": "https://www.france24.com/es/programas/econom%C3%ADa/20261125-consultoras-apuntan-a-una-recesi%C3%B3n-t%C3%A9cnica-en-argentina-tras-dos-trimestres-seguidos-de-contracci%C3%B3n"
+     },
+     {
+      "fact": "Activity rose 1.1% in September compared with August but was 1.2% below September 2025.",
+      "source_url": "https://www.france24.com/es/minuto-a-minuto/20261125-argentina-entra-en-recesi%C3%B3n-en-el-tercer-trimestre-estiman-economistas"
+     },
+     {
+      "fact": "Government spokesman Adrian Ravier said the government cannot confirm a technical recession and that the GDP figure may not end up negative; Economy Minister Luis Caputo called the definition arbitrary.",
+      "source_url": "https://www.france24.com/es/minuto-a-minuto/20261126-el-gobierno-argentino-descarta-cambios-en-su-pol%C3%ADtica-econ%C3%B3mica-a-pesar-de-la-recesi%C3%B3n"
+     },
+     {
+      "fact": "Unemployment was 7.9% in the second quarter of 2026, the highest of President Milei's term.",
+      "source_url": "https://www.france24.com/es/programas/econom%C3%ADa/20261125-consultoras-apuntan-a-una-recesi%C3%B3n-t%C3%A9cnica-en-argentina-tras-dos-trimestres-seguidos-de-contracci%C3%B3n"
+     },
+     {
+      "fact": "The IMF cut its 2027 growth forecast for Argentina from 4% to 3.5%, citing weaker third-quarter activity.",
+      "source_url": "https://www.france24.com/es/programas/econom%C3%ADa/20261125-consultoras-apuntan-a-una-recesi%C3%B3n-t%C3%A9cnica-en-argentina-tras-dos-trimestres-seguidos-de-contracci%C3%B3n"
+     }
+    ],
+    "numbers": [],
+    "geography": "Argentina, South America",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "France 24",
+      "title": "Consultoras apuntan a una recesión técnica en Argentina",
+      "url": "https://www.france24.com/es/programas/econom%C3%ADa/20261125-consultoras-apuntan-a-una-recesi%C3%B3n-t%C3%A9cnica-en-argentina-tras-dos-trimestres-seguidos-de-contracci%C3%B3n",
+      "published": "2026-11-25",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "Argentina entra en recesión en el tercer trimestre",
+      "url": "https://www.france24.com/es/minuto-a-minuto/20261125-argentina-entra-en-recesi%C3%B3n-en-el-tercer-trimestre-estiman-economistas",
+      "published": "2026-11-25",
+      "primary": false
+     },
+     {
+      "outlet": "France 24",
+      "title": "El gobierno argentino descarta cambios en su política económica",
+      "url": "https://www.france24.com/es/minuto-a-minuto/20261126-el-gobierno-argentino-descarta-cambios-en-su-pol%C3%ADtica-econ%C3%B3mica-a-pesar-de-la-recesi%C3%B3n",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "india-foodgrain",
+    "headline": "India's farms produce a record 378.5 million tonnes of foodgrain",
+    "what_happened": "Agriculture Minister Shivraj Singh Chouhan released final 2025-26 figures on 26 November showing foodgrain output of 378.538 million tonnes, up from 357.732 million tonnes the year before.",
+    "why_it_matters": "Food output decides how much India can eat, store and export.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Chouhan released the final 2025-26 crop estimates at a press conference in New Delhi on Thursday 26 November 2026, plus first advance estimates for the 2026-27 kharif season.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Total foodgrains: 378.538 million tonnes, up from 357.732 million tonnes in 2024-25, an increase of 20.806 million tonnes. The article presents these as all-time highs.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Rice: 155.154 million tonnes, up from 150.184 million. Wheat: 122.064 million tonnes, up 4.119 million. Maize: 55.025 million, up from 43.409 million.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Pulses: 27.240 million tonnes, with moong at a record 4.396 million tonnes. Oilseeds: 43.255 million tonnes.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "India holds the top global position in rice, pulses, jute, millets and spices, and ranks second in wheat and cotton.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Kharif 2026-27 first advance estimate: 167.143 million tonnes of foodgrains, 9.767 million above the average of the previous five years.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "El Nino conditions, a delayed monsoon and rainfall deficits of 35 to 40 per cent in several regions affected kharif sowing; drought-like conditions hurt crops in Maharashtra, Karnataka, Telangana and Andhra Pradesh.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Rice exports rose five per cent, and basmati rice gained markets in the United States, Canada and the Middle East.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "The government's focus is shifting to self-reliance in pulses and edible oils, supported by the National Pulses Mission and the National Oilseeds Mission.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Foodgrain output 2025-26",
+      "value": 378.538,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Foodgrain output 2024-25",
+      "value": 357.732,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Rice 2025-26",
+      "value": 155.154,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Wheat 2025-26",
+      "value": 122.064,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Maize 2025-26",
+      "value": 55.025,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     }
+    ],
+    "geography": "India; Maharashtra, Karnataka, Telangana, Andhra Pradesh",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "India records all-time high foodgrain production",
+      "url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/",
+      "published": "2026-11-26",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "india-bank-loans",
+    "headline": "Public sector banks lend more and have fewer bad loans",
+    "what_happened": "Government data show public sector banks' gross advances reached about 127 lakh crore rupees and net bad loans fell to 0.33%, described as a historic low.",
+    "why_it_matters": "Healthy banks can lend more to farmers, small firms and families.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "As of 30 September 2026, public sector banks' gross advances were 127 lakh crore rupees, up 18.8% year on year.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Net NPAs (the net bad loans) were 44,100 crore rupees, or 0.33% of total advances, described as a historic low.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Total deposits were 165.2 lakh crore rupees, up 12.9% year on year.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Credit growth year on year: retail 17%, agriculture 19.5%, MSME 20.4%.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Slippages fell from 1.44 lakh crore rupees in FY 2021-22 to 38,780 crore in the first half of FY 2026-27.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Bank of Maharashtra recorded the highest credit growth among individual banks.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Gross advances",
+      "value": 127,
+      "unit": "lakh crore rupees",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "label": "Net NPA ratio",
+      "value": 0.33,
+      "unit": "%",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "PSBs' gross advances reach 127 lakh crore; net NPAs decline to 0.33%",
+      "url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/",
+      "published": "2026-11-26",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "poundland-administration",
+    "headline": "Poundland enters administration with 11,000 jobs at risk",
+    "what_happened": "UK discount chain Poundland entered administration, announced by its owner Gordon Brothers, putting about 11,000 jobs and 600 stores at risk.",
+    "why_it_matters": "It shows the pressure on British shops weeks before Christmas.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Poundland entered administration, as announced by its American owner Gordon Brothers; about 11,000 jobs and 600 stores are at risk.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "Gordon Brothers appointed AlixPartners as administrators to try to save parts of the business. The shops keep trading as normal for now.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "Gordon Brothers took control in June 2025 after buying Poundland from Pepco Group for 1 pound and provided 85 million pounds of financing.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "UK Prime Minister Andy Burnham said the news, weeks before Christmas, was deeply concerning for workers and their families.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "The union Usdaw called the news devastating for members and accused Gordon Brothers of failing to engage with it.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "Discounters like Poundland grew after the 2008 financial crisis but have struggled with high inflation and competition from supermarkets.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Jobs at risk",
+      "value": 11000,
+      "unit": "jobs",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "label": "Stores at risk",
+      "value": 600,
+      "unit": "stores",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     }
+    ],
+    "geography": "United Kingdom",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "UK discounter Poundland enters administration with 11,000 jobs at risk",
+      "url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "politics & civics": {
+  "label": "POLITICS & CIVICS",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-budget-summit",
+    "headline": "EU leaders fail to agree on the next seven-year budget",
+    "what_happened": "EU leaders met in Brussels on Thursday 26 November to find a breakthrough on the bloc's next seven-year budget and left without a deal. Council President Costa's compromise was worth 1.78 trillion euros over seven years, a 10% cut from the first draft.",
+    "why_it_matters": "The budget decides what the EU can spend from 2028 and how much each country pays in.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The summit was held in Brussels on Thursday 26 November 2026 to try to break a deadlock on the EU's next seven-year budget.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders refused to give up their red lines and questioned whether a deal was possible by December.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa's compromise proposal was worth 1.78 trillion euros in current prices across seven years, a 10% cut from the original draft, and drew pushback from all sides.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa said: \"Everybody knows that we cannot fail Europe, and we need to have a new budget from the 1st of January 2028.\"",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The camps were the seven \"Frugals\", who want deep cuts, and the 17 \"Friends of Cohesion\", who oppose further cuts.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The Frugals boycotted the small-group format Costa used, feeling unfairly targeted.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Italy's Giorgia Meloni said a deal was \"light years away\"; the Netherlands' Rob Jetten said there was \"no need to hurry\".",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "France's Emmanuel Macron set an ultimatum of a deal by 31 December or walking away, and called the proposed cuts a \"strategic mistake\". Other states see the ultimatum as a bargaining tactic.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Germany's Friedrich Merz took a hardline Frugal stance and said cuts will go beyond the 204 billion euros in Costa's proposal.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders settled Christine Lagarde's succession as European Central Bank president before the budget talks began.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The summit was supposed to discuss a 45 billion euro support loan for Ukraine, which faces a growing wartime deficit; the budget fight pushed Ukraine into the background.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa announced early that talks would not continue on Friday as planned. The article gives no date for the next round.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Compromise budget proposal",
+      "value": 1.78,
+      "unit": "trillion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Frugal states",
+      "value": 7,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Friends of Cohesion states",
+      "value": 17,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Ukraine support loan discussed",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "geography": "Brussels, Belgium; EU members including Germany, France, Italy, Netherlands, Spain",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU summit ends in disarray as leaders cling to red lines",
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+      "published": "2026-11-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "uk-eu-food-deal",
+    "headline": "UK-EU food deal carries a price for leaving",
+    "what_happened": "Legal text published on Thursday 26 November shows that a side leaving the UK-EU food and drink deal in its first 10 years must pay to rebuild the border checks it removes.",
+    "why_it_matters": "The deal could cut paperwork on food exports, but opponents say it ties Britain to EU rules.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The food and farming (SPS) agreement is one of three deals Prime Minister Andy Burnham signed with EU leaders in Brussels on 20 November. The others link carbon markets and let young people study and work across borders.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "The food deal is due to take effect in 2028; the government estimates it could add 5.1 billion pounds to the UK economy by cutting red tape on food and drink exports.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "If either side leaves within the first 10 years it must cover \"reasonable and proportionate costs\" of restoring border checks. UK officials said any dispute over the bill would go to an international tribunal.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Burnham's deputy spokesperson said the clause is standard in international treaties and applies equally to the EU.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Reform UK leader Nigel Farage had vowed to \"repeal\" the reset; Conservative leader Kemi Badenoch said she \"does not support\" the deal.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Critics say British experts would be consulted on new EU-aligned laws without a vote, making Britain a \"rule taker\".",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Legislation was introduced on Thursday 26 November and MPs are due to debate it on 7 December.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Reform UK and the Conservatives have both said they would consider unpicking the reset if they win the next general election in 2029.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Estimated boost to UK economy",
+      "value": 5.1,
+      "unit": "billion pounds",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "label": "Years the exit penalty applies",
+      "value": 10,
+      "unit": "years",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     }
+    ],
+    "geography": "United Kingdom, Brussels, EU",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "UK-EU food deal carries exit penalty, legal text shows",
+      "url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "history & geography": {
+  "label": "HISTORY & GEOGRAPHY",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-budget-summit",
+    "headline": "EU leaders fail to agree on the next seven-year budget",
+    "what_happened": "EU leaders met in Brussels on Thursday 26 November to find a breakthrough on the bloc's next seven-year budget and left without a deal. Council President Costa's compromise was worth 1.78 trillion euros over seven years, a 10% cut from the first draft.",
+    "why_it_matters": "The budget decides what the EU can spend from 2028 and how much each country pays in.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The summit was held in Brussels on Thursday 26 November 2026 to try to break a deadlock on the EU's next seven-year budget.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders refused to give up their red lines and questioned whether a deal was possible by December.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa's compromise proposal was worth 1.78 trillion euros in current prices across seven years, a 10% cut from the original draft, and drew pushback from all sides.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa said: \"Everybody knows that we cannot fail Europe, and we need to have a new budget from the 1st of January 2028.\"",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The camps were the seven \"Frugals\", who want deep cuts, and the 17 \"Friends of Cohesion\", who oppose further cuts.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The Frugals boycotted the small-group format Costa used, feeling unfairly targeted.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Italy's Giorgia Meloni said a deal was \"light years away\"; the Netherlands' Rob Jetten said there was \"no need to hurry\".",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "France's Emmanuel Macron set an ultimatum of a deal by 31 December or walking away, and called the proposed cuts a \"strategic mistake\". Other states see the ultimatum as a bargaining tactic.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Germany's Friedrich Merz took a hardline Frugal stance and said cuts will go beyond the 204 billion euros in Costa's proposal.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders settled Christine Lagarde's succession as European Central Bank president before the budget talks began.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The summit was supposed to discuss a 45 billion euro support loan for Ukraine, which faces a growing wartime deficit; the budget fight pushed Ukraine into the background.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa announced early that talks would not continue on Friday as planned. The article gives no date for the next round.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Compromise budget proposal",
+      "value": 1.78,
+      "unit": "trillion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Frugal states",
+      "value": 7,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Friends of Cohesion states",
+      "value": 17,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Ukraine support loan discussed",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "geography": "Brussels, Belgium; EU members including Germany, France, Italy, Netherlands, Spain",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU summit ends in disarray as leaders cling to red lines",
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+      "published": "2026-11-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "nato-awacs-poland",
+    "headline": "NATO sends an airborne radar plane to watch over Poland",
+    "what_happened": "NATO has sent an AWACS radar aircraft to Poland after prosecutors said three Russian cruise missiles crashed on Polish territory on 20 November.",
+    "why_it_matters": "It shows how NATO watches its eastern edge and reassures a member country near the war.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "According to the Polish prosecutor's office, three Russian H-101 cruise missiles crashed in Poland on 20 November 2026.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "Three days later NATO confirmed that General Alexus Grynkewich, commander of the alliance's European forces, had approved sending an AWACS aircraft to Poland.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "AWACS stands for airborne early warning and control system. NATO's aircraft are Boeing E-3 Sentry planes with a rotating radar dome about nine metres across.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "Flying high lets the radar see farther than ground-based radar, which can be blocked by the Earth's curvature and terrain.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The crew checks radar detections against other data sources and shares the resulting air picture with fighter jets, ships and ground control centres.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "NATO's AWACS fleet is based in Gelsenkirchen, Germany, and has monitored NATO's eastern flank since 2022.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The first E-3s entered service in 1982.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "At NATO's Ankara summit in July, eleven allies agreed to jointly buy Saab GlobalEye aircraft to replace part of the ageing E-3 fleet.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The article gives no timeline for how long the Polish deployment will last.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Russian cruise missiles that crashed in Poland",
+      "value": 3,
+      "unit": "missiles",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "label": "Radar dome width",
+      "value": 9,
+      "unit": "metres",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "label": "Allies buying GlobalEye aircraft",
+      "value": 11,
+      "unit": "allies",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     }
+    ],
+    "geography": "Poland (eastern NATO flank); fleet based at Gelsenkirchen, Germany",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+      "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace",
       "published": "2026-11-26",
       "primary": false
      }
