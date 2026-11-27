@@ -1,0 +1,293 @@
+{
+  "edition": "little-explorers",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  SPACE",
+      "headline": "A Faraway Star Explodes",
+      "deck": "Telescopes spotted a new supernova in a galaxy 50 million light-years away.",
+      "body": [
+        "Stars are giant balls of glowing gas. Some end their lives in a huge explosion called a supernova. On November 2, astronomers spotted a brand new one.",
+        "So where did this explosion happen? It is in a galaxy called NGC 1433. A galaxy is a giant family of stars. It is a spiral, about 50 million light-years from Earth. A light-year is how far light travels in one year, so that is very far.",
+        "How did people find it? A set of robotic telescopes called ATLAS first reported it. Then astronomers used the Keck telescope to work out what kind of supernova it was. It is called a Type Ia supernova.",
+        "Scientists learned the star had not yet reached its brightest point. On November 9, Gemini South, a telescope in Chile, took a picture of the galaxy and the supernova."
+      ],
+      "map": {
+        "title": "WATCHING THE SKY",
+        "label_top": "SOUTHERN SKY",
+        "label_bottom": "CHILE",
+        "footnote": "Gemini South, a telescope in Chile, took the picture",
+        "caption": "A telescope in Chile imaged the galaxy and its new supernova.",
+        "countries": [
+          "Chile"
+        ]
+      },
+      "why": "Catching a supernova early lets scientists study how these big explosions begin.",
+      "sources": [
+        {
+          "outlet": "Space.com",
+          "title": "Supernova explodes before astronomers' eyes",
+          "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+        },
+        {
+          "outlet": "Science News",
+          "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+        },
+        {
+          "outlet": "arXiv",
+          "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+          "url": "https://arxiv.org/pdf/2611.09875"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  PACIFIC OCEAN",
+      "headline": "A Warm Ocean Patch Grows Strong",
+      "deck": "The WMO says El Niño is heading for record strength.",
+      "body": [
+        "El Niño is a pattern of warm water in the tropical Pacific Ocean. It changes rain and heat in many places.",
+        "Now a weather group is giving a warning. The World Meteorological Organization, called the WMO, studies weather and climate. It says El Niño has grown stronger since August and expects record strength by December.",
+        "The WMO says extreme weather is more likely into 2027. It says El Niño is almost certain to last until February 2027.",
+        "El Niño can bring floods to some places and dry spells to others. A France 24 news report from November 25 told of droughts in the Pacific and flooding in San Francisco.",
+        "The WMO also shows how warm our world already is. The past four years, 2023 to 2026, are the four warmest on record. Sea levels are the highest since satellites began measuring in 1993."
+      ],
+      "illustration": {
+        "title": "WARM PACIFIC WATER",
+        "subtitle": "Tropical Pacific Ocean",
+        "motif": "globe",
+        "caption": "El Niño starts with warm water in the Pacific Ocean."
+      },
+      "why": "El Niño changes rain and heat around the world, which affects farms, floods and droughts.",
+      "sources": [
+        {
+          "outlet": "WMO",
+          "title": "State of the Climate Update for COP31",
+          "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+        },
+        {
+          "outlet": "WMO",
+          "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+          "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+        },
+        {
+          "outlet": "France 24",
+          "title": "El impacto de El Niño esta semana en el mundo",
+          "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  HEALTH",
+      "headline": "The US Loses a Measles Title",
+      "deck": "Measles now spreads steadily in the United States, a health group says.",
+      "body": [
+        "Measles is a sickness that spreads very easily from person to person. A vaccine protects against it. On November 17, the Pan American Health Organization said measles now spreads steadily in the United States, Mexico and Bolivia.",
+        "So all three lost their \"elimination status,\" a title for countries that have stopped measles spreading steadily. A country loses it when the same virus passes between people for 12 months or more.",
+        "The United States has reported more than 5,400 measles cases, and 10 people have died. About 92 in every 100 US kindergartners had the vaccine in 2025. In 2019, it was 95.",
+        "About 95 in 100 are needed to block the spread. The CDC says the risk is highest where fewer people have the shot. The US can win its title back by stopping the spread for 12 months."
+      ],
+      "chart": {
+        "title": "KINDERGARTNERS WITH THE SHOT",
+        "subtitle": "Percent with the measles vaccine",
+        "labels": [
+          "2019",
+          "2025",
+          "Needed"
+        ],
+        "values": [
+          95,
+          92,
+          95
+        ],
+        "max": 100,
+        "value_prefix": "",
+        "highlight_after": 1,
+        "caption": "In 2025, 92 percent had the shot. About 95 percent are needed to block the spread."
+      },
+      "why": "Measles spreads easily, and enough people having the shot is what holds it back.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "PAHO",
+          "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: Sabita Toppo won the women's 100m hurdles gold at a BIMSTEC under-23 athletics meet in Bhubaneswar.",
+        "Britain: London's Gingerbread City is back with 50 edible buildings, including skyscrapers and landmarks."
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  SPACE",
+      "headline": "An Old Probe Is One Light-Day Away",
+      "deck": "Voyager 1 is so far from Earth that light takes a whole day to reach it.",
+      "body": [
+        "Voyager 1 is a NASA space probe, a machine sent to explore space. On November 18, it reached one light-day from Earth. That is the distance light travels in one day.",
+        "How far is that? Voyager 1 was about 16.094 billion miles (25.902 billion kilometres) from Earth. That is so far that a message from Earth takes a whole day to reach it.",
+        "But the old probe has a problem. It makes its power with a special generator, and the power is slowly fading. Each Voyager probe loses about 4 watts of power every year.",
+        "So engineers keep switching off parts to save power. In April 2026, they shut down an instrument called LECP. The cameras were turned off back in 1990. Two science instruments still worked in April."
+      ],
+      "why": "By switching off parts, engineers help an old probe keep sending news from very far away.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+          "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "Voyager 1: The Farthest Spacecraft",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Supernova",
+          "def": "A huge explosion of a star. Today: Astronomers spotted a new supernova in the galaxy NGC 1433."
+        },
+        {
+          "word": "Vaccine",
+          "def": "A shot that helps the body fight a germ. Today: About 92 out of 100 US kindergartners had the measles vaccine in 2025."
+        },
+        {
+          "word": "Light-year",
+          "def": "How far light travels in one year. Today: The galaxy NGC 1433 is about 50 million light-years away."
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+    "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+    "https://arxiv.org/pdf/2611.09875",
+    "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+    "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+    "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo",
+    "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+    "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/",
+    "https://science.nasa.gov/mission/voyager/voyager-1/",
+    "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/",
+    "https://www.euronews.com/2026/11/26"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What is a supernova?",
+        "options": [
+          "A huge explosion of a star",
+          "A new kind of planet",
+          "A very fast comet"
+        ],
+        "answer": 0,
+        "why": "A supernova is a huge explosion at the end of a star's life.",
+        "story": "lead"
+      },
+      {
+        "q": "What does El Niño start with?",
+        "options": [
+          "Cold winds over a desert",
+          "Warm water in the Pacific Ocean",
+          "Melting ice on a mountain"
+        ],
+        "answer": 1,
+        "why": "El Niño is a pattern of warm water in the tropical Pacific Ocean.",
+        "story": "world"
+      },
+      {
+        "q": "How far did Voyager 1 get on November 18?",
+        "options": [
+          "One light-hour",
+          "One light-week",
+          "One light-day"
+        ],
+        "answer": 2,
+        "why": "Voyager 1 reached one light-day from Earth, the distance light travels in one day.",
+        "story": "science_and_technology"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The new supernova is in a galaxy about 50 million light-years from Earth.",
+        "true": true,
+        "why": "The galaxy NGC 1433 is about 50 million light-years away.",
+        "story": "lead"
+      },
+      {
+        "claim": "In 2025, more US kindergartners had the measles shot than in 2019.",
+        "true": false,
+        "why": "About 92 out of 100 had it in 2025, down from 95 out of 100 in 2019.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Chile",
+        "lat": -30.2,
+        "lon": -70.7,
+        "countries": [
+          "Chile"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Pacific Ocean",
+        "lat": 0.0,
+        "lon": -150.0,
+        "countries": []
+      },
+      {
+        "story": "us",
+        "place": "United States",
+        "lat": 39.8,
+        "lon": -98.6,
+        "countries": [
+          "United States",
+          "Mexico",
+          "Bolivia"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how many light-years away is the galaxy NGC 1433?",
+        "answer": 50,
+        "prefix": "",
+        "unit": "M light-years",
+        "min": 1,
+        "max": 200,
+        "why": "The galaxy is about 50 million light-years from Earth."
+      },
+      {
+        "story": "science_and_technology",
+        "q": "About how many billion miles from Earth is Voyager 1?",
+        "answer": 16.094,
+        "prefix": "",
+        "unit": "billion miles",
+        "min": 1,
+        "max": 40,
+        "why": "Voyager 1 was about 16.094 billion miles away when it reached one light-day."
+      }
+    ]
+  }
+}
