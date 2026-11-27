@@ -1,0 +1,402 @@
+{
+  "edition": "breakfast-table",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 32,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  CONGO",
+      "headline": "Ebola Cases in Congo Pass 12,000 as Fighting Slows Health Teams",
+      "deck": "Doctors are racing to find sick people and check on those near them, but gunfire is getting in the way.",
+      "body": [
+        "In eastern Congo, in central Africa, the government says 12,021 people have had Ebola confirmed. The outbreak began in May and is caused by a rare virus called Bundibugyo. There is no approved vaccine or treatment for it.",
+        "So health teams use careful methods. They find patients quickly, keep them apart from others, watch people who may have been near them, and bury the dead safely. The virus spreads through contact with the blood or body fluids of people who are sick or have died.",
+        "This week fighting made that harder. On Thursday, soldiers and a rebel group clashed in a mining town about 25 kilometres north of Bunia, a main base for the response. The World Health Organization said fighting kept teams from reaching some communities."
+      ],
+      "map": {
+        "title": "Where the outbreak is: eastern Congo",
+        "label_top": "DR CONGO",
+        "label_bottom": "ITURI PROVINCE",
+        "footnote": "Bunia is the capital of Ituri and a hub for the Ebola response.",
+        "caption": "Fighting near Bunia is slowing the work."
+      },
+      "why": "Without a vaccine, quick checking and care are the main tools, so anything that blocks health teams helps the virus spread.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Ebola cases in Congo surpass 12,000 in fastest-growing outbreak",
+          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ARGENTINA",
+      "headline": "Argentina's Economy Shrinks for a Second Quarter in a Row",
+      "deck": "When an economy gets smaller two times running, experts call it a technical recession.",
+      "body": [
+        "An economy is all the buying, selling and making of things in a country. Argentina, in South America, has just had some bad news about its own. Between July and September, it shrank by 1.8 per cent. In the three months before that, it had already shrunk by 1 per cent.",
+        "Two shrinking quarters in a row is what economists call a technical recession. President Javier Milei's government has asked people to be careful before using that word. Economists who study the numbers say they clearly point to a recession.",
+        "Prices matter for families too. Prices rose 2.2 per cent in October, after 1.9 per cent in September. Borrowing is also costly: interest on personal loans is around 64 per cent a year, and roughly six million people are behind on payments.",
+        "Work is another worry. Unemployment reached 7.9 per cent in the second quarter, the highest since Milei took office. Final figures for the economy are due on 16 December."
+      ],
+      "chart": {
+        "title": "Argentina: monthly price rises",
+        "subtitle": "Per cent",
+        "labels": [
+          "September",
+          "October"
+        ],
+        "values": [
+          1.9,
+          2.2
+        ],
+        "max": 3,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Prices rose a little faster in October."
+      },
+      "connect": "Argentina once had prices rising 211 per cent in a single year, in 2023. Today's figures are far smaller, but families still feel every rise.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Argentina enters technical recession",
+          "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  SPACE",
+      "headline": "US Says Yes to a Million Satellites That Would Act as Computers in Space",
+      "deck": "SpaceX's plan, called Starmind, would put data centres in orbit.",
+      "body": [
+        "A data centre is a big building full of computers that power the internet and artificial intelligence. They use a lot of electricity, and a lot of water to keep cool. SpaceX has a plan to put them in space instead.",
+        "This week, the US Federal Communications Commission, which oversees satellites, approved SpaceX's plan to launch one million satellites it calls Starmind. SpaceX must put up at least one authorised space station by 2033, then add more through 2040.",
+        "Supporters say sunshine captured in orbit could ease the strain on power grids and cut water use. Scientists see big technical and money problems, and worry about rocket pollution."
+      ],
+      "why": "AI needs huge amounts of power. Space is one idea, but nobody knows if it will work.",
+      "also": [
+        "Thanksgiving storms left over 600,000 homes and businesses without power.",
+        "Macy's postponed its 100th Thanksgiving parade in New York until Saturday."
+      ],
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "US says SpaceX can deploy 1 million satellites",
+          "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Thanksgiving storms flood US coasts",
+          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Poland: NATO has sent a radar plane to watch the sky over Poland after three Russian missiles crashed there.",
+        "Britain: The shop chain Poundland has entered administration, with about 11,000 jobs at risk."
+      ]
+    },
+    "discussion": {
+      "title": "TALK ABOUT IT",
+      "body": [
+        "Health teams in Congo cannot always reach people because of fighting. What other jobs get harder when it is unsafe to travel?",
+        "Would you want computers placed in space instead of on Earth? What would you want to know first?",
+        "India Post is fixing up thousands of post offices. What do you think a post office is for today?"
+      ],
+      "sources": []
+    },
+    "india": {
+      "kicker": "INDIA  •  POST OFFICES",
+      "headline": "India Will Spend 2,632 Crore Rupees on Post Offices",
+      "deck": "Thousands of post offices will be fixed up or rebuilt over the next five years.",
+      "body": [
+        "The post office is one of the oldest services in India, and it is getting a big update. Communications Minister Jyotiraditya Scindia announced 2,632 crore rupees for India Post for the years 2026-27 to 2030-31. A crore is ten million.",
+        "The money is split between two plans. The Postal Operations Scheme gets 1,141 crore rupees. The Estates Management Scheme, which looks after post office buildings, gets 1,491 crore rupees and has been approved by the Union Cabinet.",
+        "For buildings, the plan includes 190 new post office buildings and 50 rebuilt ones. Some 2,550 sub-post offices will be renovated and given a new look, and 2,500 rented post offices will be upgraded. Twenty heritage postal buildings will be preserved.",
+        "India Post is also working on technology. A new system means a Postal Life Insurance policy can now be bought from start to finish in about 20 minutes. India Post's revenue target for this year is about 19,803 crore rupees."
+      ],
+      "why": "A post office is often the closest government service to a family, so a better one can save a long trip.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "India Post set for major modernisation drive",
+          "url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+        }
+      ]
+    },
+    "sports": {
+      "title": "ATHLETICS",
+      "body": "Sabita Toppo won the women's 100m hurdles gold at the BIMSTEC U-23 athletics meet in Bhubaneswar, helping India extend its medal lead.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "Sabita Toppo wins women's 100m hurdles gold",
+          "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether health teams reach more communities near Bunia in Congo.",
+        "Whether Argentina's final economy figures on 16 December confirm a recession."
+      ]
+    },
+    "quote": {
+      "text": "Slow and careful work is often how big problems get solved.",
+      "by": ""
+    }
+  },
+  "sources": [
+    "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+    "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains",
+    "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space",
+    "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/",
+    "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+    "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "How many confirmed Ebola cases does Congo's health ministry report?",
+        "options": [
+          "1,202",
+          "12,021",
+          "120,210"
+        ],
+        "answer": 1,
+        "why": "The ministry reports 12,021 confirmed cases.",
+        "story": "lead"
+      },
+      {
+        "q": "What is the name of SpaceX's plan for a million satellites?",
+        "options": [
+          "Skynet",
+          "Starlight",
+          "Starmind"
+        ],
+        "answer": 2,
+        "why": "The constellation is called Starmind.",
+        "story": "us"
+      },
+      {
+        "q": "What do economists call two shrinking quarters in a row?",
+        "options": [
+          "A technical recession",
+          "A price freeze",
+          "A trade war"
+        ],
+        "answer": 0,
+        "why": "Two straight quarterly falls meet the definition of a technical recession.",
+        "story": "world"
+      },
+      {
+        "q": "How much is India spending on its post offices over five years?",
+        "options": [
+          "1,141 crore rupees",
+          "2,632 crore rupees",
+          "19,803 crore rupees"
+        ],
+        "answer": 1,
+        "why": "The total is 2,632 crore rupees for 2026-27 to 2030-31.",
+        "story": "india"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "There is an approved vaccine for the Bundibugyo virus.",
+        "true": false,
+        "why": "There is no approved vaccine or treatment for it.",
+        "story": "lead"
+      },
+      {
+        "claim": "Argentina's economy shrank 1.8 per cent from July to September.",
+        "true": true,
+        "why": "The third-quarter fall was 1.8 per cent.",
+        "story": "world"
+      },
+      {
+        "claim": "Macy's postponed its 100th Thanksgiving parade until Saturday.",
+        "true": true,
+        "why": "Macy's cited the wind and the giant balloons.",
+        "story": "us"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Bunia",
+        "lat": 1.57,
+        "lon": 30.25,
+        "countries": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Argentina",
+        "lat": -34.6,
+        "lon": -58.4,
+        "countries": [
+          "Argentina"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "Bengaluru",
+        "lat": 12.97,
+        "lon": 77.59,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many confirmed Ebola cases does Congo's health ministry report?",
+        "answer": 12021,
+        "prefix": "",
+        "unit": "cases",
+        "min": 1000,
+        "max": 50000,
+        "why": "The health ministry reports 12,021 cases."
+      },
+      {
+        "story": "india",
+        "q": "How many sub-post offices will be renovated?",
+        "answer": 2550,
+        "prefix": "",
+        "unit": "offices",
+        "min": 500,
+        "max": 6000,
+        "why": "The plan renovates 2,550 sub-post offices."
+      }
+    ],
+    "brief": {
+      "format": 2,
+      "lines": [
+        {
+          "who": "maya",
+          "text": "Good morning! This is The Breakfast Table for Friday, 27 November 2026. Today: a health emergency in Congo, a very big plan for computers in space, and a big update for India's post offices.",
+          "section": "welcome"
+        },
+        {
+          "who": "maya",
+          "text": "Let's start in Congo, in central Africa. More than 12,000 people there have had Ebola confirmed. That is a serious illness caused by a virus, and this outbreak began in May.",
+          "section": "story",
+          "story": "lead",
+          "chapter": "Ebola in Congo"
+        },
+        {
+          "who": "sam",
+          "text": "Is there a medicine for it?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Not for this virus. It is a rare kind called Bundibugyo, and there is no approved vaccine or treatment. So health teams rely on careful steps: find patients quickly, keep them apart from others, watch people who were near them, and bury the dead safely.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Does anything make that work harder?",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. On Thursday, soldiers and a rebel group clashed in a mining town about 25 kilometres north of Bunia, which is a main base for the Ebola response. The World Health Organization says fighting kept teams from reaching some communities, interrupted the checking of people who might have caught the virus, and left some treatment centres short of staff. We will keep watching how that work goes.",
+          "section": "story",
+          "story": "lead"
+        },
+        {
+          "who": "sam",
+          "text": "Now to space. What is Starmind?",
+          "section": "story",
+          "story": "us",
+          "chapter": "Computers in space"
+        },
+        {
+          "who": "maya",
+          "text": "It is a SpaceX plan for one million satellites that would act as data centres. A data centre is a building full of computers that uses lots of electricity and water. This week, the US Federal Communications Commission approved the plan.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Why would anyone put computers in space?",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "maya",
+          "text": "Supporters say solar power gathered in orbit could ease the strain on power grids and cut the water used to cool computers on Earth. Scientists and industry experts see big technical and money problems, and they worry about pollution from rocket launches and from satellites coming back down.",
+          "section": "story",
+          "story": "us"
+        },
+        {
+          "who": "sam",
+          "text": "Next, India.",
+          "section": "story",
+          "story": "india",
+          "chapter": "India's post offices"
+        },
+        {
+          "who": "maya",
+          "text": "India will spend 2,632 crore rupees on its post offices over five years. That includes 190 new post office buildings, 50 rebuilt ones, and 2,550 sub-post offices renovated and given a new look.",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "sam",
+          "text": "Is anything about the post office changing besides the buildings?",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "maya",
+          "text": "Yes. India Post has a new system, and it means a Postal Life Insurance policy can be bought from start to finish in about 20 minutes. India Post's revenue target this year is about 19,803 crore rupees.",
+          "section": "story",
+          "story": "india"
+        },
+        {
+          "who": "maya",
+          "text": "How many confirmed Ebola cases does Congo's health ministry report?",
+          "section": "quiz_question",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "12,021 The ministry reports 12,021 confirmed cases.",
+          "section": "quiz_answer",
+          "quiz": 0
+        },
+        {
+          "who": "maya",
+          "text": "What is the name of SpaceX's plan for a million satellites?",
+          "section": "quiz_question",
+          "quiz": 1
+        },
+        {
+          "who": "maya",
+          "text": "Starmind The constellation is called Starmind.",
+          "section": "quiz_answer",
+          "quiz": 1
+        },
+        {
+          "who": "sam",
+          "text": "Health teams in Congo cannot always reach people because of fighting. What other jobs get harder when it is unsafe to travel?",
+          "section": "discussion"
+        },
+        {
+          "who": "maya",
+          "text": "That is all for today. The paper also has briefs on a NATO radar plane in Poland and on the shop chain Poundland in Britain. Thanks for listening, and have a lovely day!",
+          "section": "close"
+        }
+      ]
+    }
+  }
+}

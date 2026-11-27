@@ -1,0 +1,1377 @@
+{
+ "world": {
+  "label": "WORLD",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-budget-summit",
+    "headline": "EU leaders fail to agree on the next seven-year budget",
+    "what_happened": "EU leaders met in Brussels on Thursday 26 November to find a breakthrough on the bloc's next seven-year budget and left without a deal. Council President Costa's compromise was worth 1.78 trillion euros over seven years, a 10% cut from the first draft.",
+    "why_it_matters": "The budget decides what the EU can spend from 2028 and how much each country pays in.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The summit was held in Brussels on Thursday 26 November 2026 to try to break a deadlock on the EU's next seven-year budget.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders refused to give up their red lines and questioned whether a deal was possible by December.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa's compromise proposal was worth 1.78 trillion euros in current prices across seven years, a 10% cut from the original draft, and drew pushback from all sides.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa said: \"Everybody knows that we cannot fail Europe, and we need to have a new budget from the 1st of January 2028.\"",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The camps were the seven \"Frugals\", who want deep cuts, and the 17 \"Friends of Cohesion\", who oppose further cuts.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The Frugals boycotted the small-group format Costa used, feeling unfairly targeted.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Italy's Giorgia Meloni said a deal was \"light years away\"; the Netherlands' Rob Jetten said there was \"no need to hurry\".",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "France's Emmanuel Macron set an ultimatum of a deal by 31 December or walking away, and called the proposed cuts a \"strategic mistake\". Other states see the ultimatum as a bargaining tactic.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Germany's Friedrich Merz took a hardline Frugal stance and said cuts will go beyond the 204 billion euros in Costa's proposal.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders settled Christine Lagarde's succession as European Central Bank president before the budget talks began.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The summit was supposed to discuss a 45 billion euro support loan for Ukraine, which faces a growing wartime deficit; the budget fight pushed Ukraine into the background.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa announced early that talks would not continue on Friday as planned. The article gives no date for the next round.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Compromise budget proposal",
+      "value": 1.78,
+      "unit": "trillion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Frugal states",
+      "value": 7,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Friends of Cohesion states",
+      "value": 17,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Ukraine support loan discussed",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "geography": "Brussels, Belgium; EU members including Germany, France, Italy, Netherlands, Spain",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU summit ends in disarray as leaders cling to red lines",
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+      "published": "2026-11-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "nato-awacs-poland",
+    "headline": "NATO sends an airborne radar plane to watch over Poland",
+    "what_happened": "NATO has sent an AWACS radar aircraft to Poland after prosecutors said three Russian cruise missiles crashed on Polish territory on 20 November.",
+    "why_it_matters": "It shows how NATO watches its eastern edge and reassures a member country near the war.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "According to the Polish prosecutor's office, three Russian H-101 cruise missiles crashed in Poland on 20 November 2026.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "Three days later NATO confirmed that General Alexus Grynkewich, commander of the alliance's European forces, had approved sending an AWACS aircraft to Poland.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "AWACS stands for airborne early warning and control system. NATO's aircraft are Boeing E-3 Sentry planes with a rotating radar dome about nine metres across.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "Flying high lets the radar see farther than ground-based radar, which can be blocked by the Earth's curvature and terrain.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The crew checks radar detections against other data sources and shares the resulting air picture with fighter jets, ships and ground control centres.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "NATO's AWACS fleet is based in Gelsenkirchen, Germany, and has monitored NATO's eastern flank since 2022.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The first E-3s entered service in 1982.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "At NATO's Ankara summit in July, eleven allies agreed to jointly buy Saab GlobalEye aircraft to replace part of the ageing E-3 fleet.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The article gives no timeline for how long the Polish deployment will last.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Russian cruise missiles that crashed in Poland",
+      "value": 3,
+      "unit": "missiles",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "label": "Radar dome width",
+      "value": 9,
+      "unit": "metres",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "label": "Allies buying GlobalEye aircraft",
+      "value": 11,
+      "unit": "allies",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     }
+    ],
+    "geography": "Poland (eastern NATO flank); fleet based at Gelsenkirchen, Germany",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+      "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ebola-congo",
+    "headline": "Ebola outbreak in Congo passes 12,000 confirmed cases",
+    "what_happened": "Congo's health ministry reports 12,021 confirmed Ebola cases in the east of the country, in an outbreak declared in May and caused by the rare Bundibugyo virus.",
+    "why_it_matters": "There is no approved vaccine or treatment for this virus, and fighting is hampering the response.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Eastern Congo's Ebola outbreak has topped 12,000 confirmed cases, according to government data released Thursday 26 November 2026; the health ministry reports 12,021.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The article calls it the fastest-growing Ebola outbreak in history and the deadliest of Congo's 17 outbreaks.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "It is on track to pass the West African outbreak of 2014-2016, which killed about 11,000 people.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The outbreak was declared in May and is caused by the rare Bundibugyo virus. There is no approved vaccine or treatment for it.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Ebola spreads through direct contact with the blood or bodily fluids of sick or dead people.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Containment needs rapid isolation of patients, monitoring of people who may have been exposed, and safe burial of the dead.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Fighting resumed Thursday between the Congolese army and CRP rebels in Iga-Barriere, a mining town about 25 km north of Bunia in Ituri province; Bunia is a major Ebola response hub.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "WHO Ebola incident manager Dr. Catherine Smallwood said on Wednesday that fighting had kept teams from reaching some communities and left some treatment centres short-staffed.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "Fighting has also disrupted the monitoring of people who were exposed to the virus, and response teams face poor roads and local violence driven by mistrust and misinformation.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "The CRP is one of more than 100 armed groups in eastern Congo. It was founded last year by former warlord Thomas Lubanga, whom the International Criminal Court convicted in 2012 of recruiting children under 15.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "fact": "On Tuesday, about a dozen people, including two WHO staff and Congolese health officials, were evacuated to Bunia after being trapped for three days in a hospital in Akwe amid heavy crossfire.",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Confirmed Ebola cases",
+      "value": 12021,
+      "unit": "cases",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     },
+     {
+      "label": "West Africa outbreak 2014-2016 deaths",
+      "value": 11000,
+      "unit": "people",
+      "source_url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+     }
+    ],
+    "geography": "Ituri province, eastern Democratic Republic of the Congo; Bunia",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Ebola cases in Congo surpass 12,000 in fastest-growing outbreak",
+      "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "ukraine-barrage",
+    "headline": "Russian missile and drone barrage hits Ukraine; Kharkiv struck",
+    "what_happened": "Russia attacked Ukraine overnight into 26 November with ballistic missiles and drones; Ukraine said its air defences stopped 87 aerial targets, and at least three people died in Kharkiv.",
+    "why_it_matters": "The war is now reaching countries beside Ukraine, including Poland.",
+    "importance": 7,
+    "suitable_for_children": false,
+    "key_facts": [
+     {
+      "fact": "The attack used Iskander-M, Zircon and S-400 ballistic missiles plus 113 Shahed, Gerbera and Parodiya drones, 76 of them jet-powered.",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     },
+     {
+      "fact": "Ukraine's air defences shot down or neutralised 87 aerial targets.",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     },
+     {
+      "fact": "In Kharkiv, strikes on residential buildings and an educational institution killed at least three people.",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     },
+     {
+      "fact": "Seven people were injured in a Russian missile strike on Kyiv.",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     },
+     {
+      "fact": "Russia and Ukraine also exchanged bodies of servicemen: 250 returned to Ukraine and 22 to Russia, per a Duma deputy cited by RBC, with the Red Cross mediating.",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Aerial targets shot down or neutralised",
+      "value": 87,
+      "unit": "targets",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     },
+     {
+      "label": "Drones used",
+      "value": 113,
+      "unit": "drones",
+      "source_url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three"
+     }
+    ],
+    "geography": "Kharkiv, Kyiv, Ukraine; Russia",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Russia launches ballistic missile and drone barrage on Ukraine",
+      "url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "us-thanksgiving-storms",
+    "headline": "Thanksgiving storms flood US coasts and disrupt travel",
+    "what_happened": "A storm system hit the US on Thanksgiving, 26 November, flooding parts of the East Coast, cutting power to more than 600,000 homes and businesses and forcing Macy's to postpone its 100th parade until Saturday.",
+    "why_it_matters": "Millions of families travel at Thanksgiving, so weather matters at home.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "More than 600,000 homes and businesses had no electricity on Thursday afternoon, mostly in East Coast states, according to poweroutage.us.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "New Jersey is under a statewide state of emergency declared by Governor Mikie Sherrill; parts of New York are under one declared by Governor Kathy Hochul.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Streets flooded in Sea Isle City and Ocean City, New Jersey, and water spread across parts of Avalon. Avalon's business administrator, Scott J. Wahl, said the town was seeing some of the worst flooding in its history.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "A few drivers were rescued after driving around barricades into floodwaters, with no injuries reported.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Macy's postponed its 100th Thanksgiving Day Parade in Manhattan until Saturday, \"in an abundance of caution\", with concerns about how the giant balloons would handle the wind.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Gusts of 80 km/h or higher were expected along the Interstate 95 corridor.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Aircraft were stranded on the tarmac at Philadelphia International Airport. The National Weather Service warned of disruptions at eastern US airports through Friday morning, citing poor visibility, turbulence, strong winds and ice forming on aircraft.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Rain and snow hit the St. Louis area, where up to 33 cm of snow was expected, and heavy snow partly collapsed the roof of the Wentzville Ice Arena.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Coastal flood warnings were issued from Southern California to the Oregon and Washington coasts because of king tides, which occur when the sun and moon's gravitational pulls align to raise water levels.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "A wave tore down part of a pier in Pacifica, California, on Wednesday.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Homes and businesses without power",
+      "value": 600000,
+      "unit": "homes and businesses",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "label": "Snow expected near St. Louis",
+      "value": 33,
+      "unit": "cm",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "label": "Parade edition postponed",
+      "value": 100,
+      "unit": "th parade",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     }
+    ],
+    "geography": "US East Coast (New Jersey, New York, Virginia), Missouri, US West Coast",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united states": {
+  "label": "UNITED STATES",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "us-thanksgiving-storms",
+    "headline": "Thanksgiving storms flood US coasts and disrupt travel",
+    "what_happened": "A storm system hit the US on Thanksgiving, 26 November, flooding parts of the East Coast, cutting power to more than 600,000 homes and businesses and forcing Macy's to postpone its 100th parade until Saturday.",
+    "why_it_matters": "Millions of families travel at Thanksgiving, so weather matters at home.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "More than 600,000 homes and businesses had no electricity on Thursday afternoon, mostly in East Coast states, according to poweroutage.us.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "New Jersey is under a statewide state of emergency declared by Governor Mikie Sherrill; parts of New York are under one declared by Governor Kathy Hochul.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Streets flooded in Sea Isle City and Ocean City, New Jersey, and water spread across parts of Avalon. Avalon's business administrator, Scott J. Wahl, said the town was seeing some of the worst flooding in its history.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "A few drivers were rescued after driving around barricades into floodwaters, with no injuries reported.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Macy's postponed its 100th Thanksgiving Day Parade in Manhattan until Saturday, \"in an abundance of caution\", with concerns about how the giant balloons would handle the wind.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Gusts of 80 km/h or higher were expected along the Interstate 95 corridor.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Aircraft were stranded on the tarmac at Philadelphia International Airport. The National Weather Service warned of disruptions at eastern US airports through Friday morning, citing poor visibility, turbulence, strong winds and ice forming on aircraft.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Rain and snow hit the St. Louis area, where up to 33 cm of snow was expected, and heavy snow partly collapsed the roof of the Wentzville Ice Arena.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "Coastal flood warnings were issued from Southern California to the Oregon and Washington coasts because of king tides, which occur when the sun and moon's gravitational pulls align to raise water levels.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "fact": "A wave tore down part of a pier in Pacifica, California, on Wednesday.",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Homes and businesses without power",
+      "value": 600000,
+      "unit": "homes and businesses",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "label": "Snow expected near St. Louis",
+      "value": 33,
+      "unit": "cm",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     },
+     {
+      "label": "Parade edition postponed",
+      "value": 100,
+      "unit": "th parade",
+      "source_url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+     }
+    ],
+    "geography": "US East Coast (New Jersey, New York, Virginia), Missouri, US West Coast",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "spacex-starmind",
+    "headline": "US approves a plan for a million SpaceX satellites to work as data centres in space",
+    "what_happened": "The US Federal Communications Commission authorised SpaceX to deploy one million satellites, called Starmind, that would work as data centres in orbit.",
+    "why_it_matters": "It is a new idea for powering AI computing, and scientists have doubts.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The US Federal Communications Commission (FCC) authorised SpaceX to deploy one million satellites, which it said would form data centres in space. The article dates this to Wednesday of this week.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "The constellation is called Starmind, and its satellites are described as \"orbital compute modules\".",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "FCC Chairman Brendan Carr called the decision a historic first amid the AI race.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "SpaceX must deploy at least one authorised space station by 2033, then gradually add more through 2040.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "The FCC said the plan complies with its orbital debris rules and serves the public interest, and acknowledged receiving a substantial number of public comments, including petitions to deny the request.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "Supporters argue that solar power captured in orbit would reduce strain on power grids and lower demand for large Earth-based data centres, along with the water used to cool them.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "Scientists and industry experts point to major technical and financial obstacles, and environmental concerns including atmospheric pollution from rocket launches and reentries.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "A European Commission study found space-based solar data centres technically and economically viable, proposing 10 MW by 2036 and 1 GW by 2050. A European Parliament review concluded the main barrier is economic, with launch costs a key factor.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "fact": "China launched an initial cluster of 12 AI computing satellites in May 2025, the first phase of a planned 2,800-satellite constellation.",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Satellites authorised",
+      "value": 1000000,
+      "unit": "satellites",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     },
+     {
+      "label": "Deadline for first station",
+      "value": 2033,
+      "unit": "year",
+      "source_url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+     }
+    ],
+    "geography": "Earth orbit; United States",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "US says SpaceX can deploy 1 million satellites to build data centres in space",
+      "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "musk-spacex-shares",
+    "headline": "Musk doubles his SpaceX share gift to US children",
+    "what_happened": "Elon Musk said every child in America with an active Trump Account will get two SpaceX shares, doubling his October offer of one.",
+    "why_it_matters": "It shows how families may start to invest for their children, and how shares can rise and fall in value.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Musk announced that every US child gets two SpaceX shares, doubling his October offer of one share, which he called \"the first of many\".",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "SpaceX issues one new Class A share to each currently active Trump Account, and Musk matches it with one of his own.",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "SpaceX will transfer its shares in December. Musk will transfer his in June 2027, when restrictions expire.",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "Parents or guardians must claim and activate their child's Trump Account. The US government gives a one-off $1,000 contribution for eligible citizens born 2025 through 2028.",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "Funds are generally invested in low-cost US stock market trackers, and withdrawals are usually restricted until age 18.",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "The White House said nearly 70 million accounts had been created by October. The number activated is unclear.",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "Two shares were worth $254.88 at the close of $127.44 per share. The actual value depends on the share price and how many accounts are eligible.",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "fact": "SpaceX went public in June 2026, raising about $85.7 billion. Musk said: \"I recommend holding on to your shares.\"",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Value of two shares",
+      "value": 254.88,
+      "unit": "dollars",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "label": "Government one-off contribution",
+      "value": 1000,
+      "unit": "dollars",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     },
+     {
+      "label": "Share price at close",
+      "value": 127.44,
+      "unit": "dollars",
+      "source_url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+     }
+    ],
+    "geography": "United States",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Musk says will give two SpaceX shares to every child in America",
+      "url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "india": {
+  "label": "INDIA",
+  "hours": 48,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "india-foodgrain",
+    "headline": "India's farms produce a record 378.5 million tonnes of foodgrain",
+    "what_happened": "Agriculture Minister Shivraj Singh Chouhan released final 2025-26 figures on 26 November showing foodgrain output of 378.538 million tonnes, up from 357.732 million tonnes the year before.",
+    "why_it_matters": "Food output decides how much India can eat, store and export.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Chouhan released the final 2025-26 crop estimates at a press conference in New Delhi on Thursday 26 November 2026, plus first advance estimates for the 2026-27 kharif season.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Total foodgrains: 378.538 million tonnes, up from 357.732 million tonnes in 2024-25, an increase of 20.806 million tonnes. The article presents these as all-time highs.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Rice: 155.154 million tonnes, up from 150.184 million. Wheat: 122.064 million tonnes, up 4.119 million. Maize: 55.025 million, up from 43.409 million.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Pulses: 27.240 million tonnes, with moong at a record 4.396 million tonnes. Oilseeds: 43.255 million tonnes.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "India holds the top global position in rice, pulses, jute, millets and spices, and ranks second in wheat and cotton.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Kharif 2026-27 first advance estimate: 167.143 million tonnes of foodgrains, 9.767 million above the average of the previous five years.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "El Nino conditions, a delayed monsoon and rainfall deficits of 35 to 40 per cent in several regions affected kharif sowing; drought-like conditions hurt crops in Maharashtra, Karnataka, Telangana and Andhra Pradesh.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "Rice exports rose five per cent, and basmati rice gained markets in the United States, Canada and the Middle East.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "fact": "The government's focus is shifting to self-reliance in pulses and edible oils, supported by the National Pulses Mission and the National Oilseeds Mission.",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Foodgrain output 2025-26",
+      "value": 378.538,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Foodgrain output 2024-25",
+      "value": 357.732,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Rice 2025-26",
+      "value": 155.154,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Wheat 2025-26",
+      "value": 122.064,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     },
+     {
+      "label": "Maize 2025-26",
+      "value": 55.025,
+      "unit": "million tonnes",
+      "source_url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+     }
+    ],
+    "geography": "India; Maharashtra, Karnataka, Telangana, Andhra Pradesh",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "India records all-time high foodgrain production",
+      "url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/",
+      "published": "2026-11-26",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "india-bank-loans",
+    "headline": "Public sector banks lend more and have fewer bad loans",
+    "what_happened": "Government data show public sector banks' gross advances reached about 127 lakh crore rupees and net bad loans fell to 0.33%, described as a historic low.",
+    "why_it_matters": "Healthy banks can lend more to farmers, small firms and families.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "As of 30 September 2026, public sector banks' gross advances were 127 lakh crore rupees, up 18.8% year on year.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Net NPAs (the net bad loans) were 44,100 crore rupees, or 0.33% of total advances, described as a historic low.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Total deposits were 165.2 lakh crore rupees, up 12.9% year on year.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Credit growth year on year: retail 17%, agriculture 19.5%, MSME 20.4%.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Slippages fell from 1.44 lakh crore rupees in FY 2021-22 to 38,780 crore in the first half of FY 2026-27.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "fact": "Bank of Maharashtra recorded the highest credit growth among individual banks.",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Gross advances",
+      "value": 127,
+      "unit": "lakh crore rupees",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     },
+     {
+      "label": "Net NPA ratio",
+      "value": 0.33,
+      "unit": "%",
+      "source_url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+     }
+    ],
+    "geography": "India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "PSBs' gross advances reach 127 lakh crore; net NPAs decline to 0.33%",
+      "url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/",
+      "published": "2026-11-26",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "india-post-modernisation",
+    "headline": "India Post gets 2,632 crore rupees to modernise",
+    "what_happened": "Communications Minister Jyotiraditya Scindia announced 2,632 crore rupees for India Post's operations and estates schemes from 2026-27 to 2030-31.",
+    "why_it_matters": "Post offices reach villages and towns across India.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The total outlay is 2,632 crore rupees for 2026-27 to 2030-31: 1,141 crore for the Postal Operations Scheme and 1,491 crore for the Estates Management Scheme, which the Union Cabinet approved for continuation.",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     },
+     {
+      "fact": "Scindia announced it at a press briefing in New Delhi with Minister of State Chandra Sekhar Pemmasani and Secretary (Posts) Subrat Das.",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     },
+     {
+      "fact": "The estates scheme covers 190 new post office buildings, 50 rebuilt, 2,550 sub-post offices renovated and branded, 2,500 rented post offices upgraded and 20 heritage postal buildings preserved.",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     },
+     {
+      "fact": "India Post's revenue target is about 19,803 crore rupees for FY 2026-27.",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     },
+     {
+      "fact": "Postal Life Insurance policy can now be bought end-to-end in about 20 minutes through a new system.",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Total outlay",
+      "value": 2632,
+      "unit": "crore rupees",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     },
+     {
+      "label": "Sub-post offices renovated",
+      "value": 2550,
+      "unit": "offices",
+      "source_url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+     }
+    ],
+    "geography": "India; Bengaluru",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "India Post set for major modernisation drive",
+      "url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/",
+      "published": "2026-11-26",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "india-pre-budget",
+    "headline": "Finance Minister finishes pre-budget talks for 2027-28",
+    "what_happened": "Nirmala Sitharaman concluded pre-budget consultations for the Union Budget 2027-28 that ran from 16 to 26 November with more than 200 stakeholders.",
+    "why_it_matters": "The budget sets how the government raises and spends money.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Consultations ran from 16 to 26 November 2026; she chaired 13 meetings with more than 200 stakeholders from 13 sectors and groups.",
+      "source_url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+     },
+     {
+      "fact": "New this year: a consultation with young people.",
+      "source_url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+     },
+     {
+      "fact": "Sample proposals included domestic manufacturing of biofertilisers, sector-specific AI models, cyber-hygiene awareness for MSMEs, and a reading movement so every child can read a newspaper by the end of Grade 5.",
+      "source_url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+     },
+     {
+      "fact": "The article does not say when the budget will be presented.",
+      "source_url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Stakeholders consulted",
+      "value": 200,
+      "unit": "people",
+      "source_url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+     },
+     {
+      "label": "Meetings chaired",
+      "value": 13,
+      "unit": "meetings",
+      "source_url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+     }
+    ],
+    "geography": "New Delhi, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "Finance Minister concludes pre-budget consultations",
+      "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/",
+      "published": "2026-11-27",
+      "primary": true
+     }
+    ]
+   },
+   {
+    "id": "bimstec-athletics",
+    "headline": "Sabita Toppo wins 100m hurdles gold at BIMSTEC U-23 meet",
+    "what_happened": "Sabita Toppo won the women's 100m hurdles title in Bhubaneswar, helping India extend its medal lead.",
+    "why_it_matters": "Young athletes from the region are competing.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Sabita Toppo won the women's 100m hurdles gold at the BIMSTEC U-23 athletics meet in Bhubaneswar, helping India extend its medal lead.",
+      "source_url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+     }
+    ],
+    "numbers": [],
+    "geography": "Bhubaneswar, India",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "DD News",
+      "title": "Sabita Toppo wins women's 100m hurdles gold",
+      "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "united kingdom": {
+  "label": "UNITED KINGDOM",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "uk-eu-food-deal",
+    "headline": "UK-EU food deal carries a price for leaving",
+    "what_happened": "Legal text published on Thursday 26 November shows that a side leaving the UK-EU food and drink deal in its first 10 years must pay to rebuild the border checks it removes.",
+    "why_it_matters": "The deal could cut paperwork on food exports, but opponents say it ties Britain to EU rules.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The food and farming (SPS) agreement is one of three deals Prime Minister Andy Burnham signed with EU leaders in Brussels on 20 November. The others link carbon markets and let young people study and work across borders.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "The food deal is due to take effect in 2028; the government estimates it could add 5.1 billion pounds to the UK economy by cutting red tape on food and drink exports.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "If either side leaves within the first 10 years it must cover \"reasonable and proportionate costs\" of restoring border checks. UK officials said any dispute over the bill would go to an international tribunal.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Burnham's deputy spokesperson said the clause is standard in international treaties and applies equally to the EU.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Reform UK leader Nigel Farage had vowed to \"repeal\" the reset; Conservative leader Kemi Badenoch said she \"does not support\" the deal.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Critics say British experts would be consulted on new EU-aligned laws without a vote, making Britain a \"rule taker\".",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Legislation was introduced on Thursday 26 November and MPs are due to debate it on 7 December.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "fact": "Reform UK and the Conservatives have both said they would consider unpicking the reset if they win the next general election in 2029.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Estimated boost to UK economy",
+      "value": 5.1,
+      "unit": "billion pounds",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     },
+     {
+      "label": "Years the exit penalty applies",
+      "value": 10,
+      "unit": "years",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows"
+     }
+    ],
+    "geography": "United Kingdom, Brussels, EU",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "UK-EU food deal carries exit penalty, legal text shows",
+      "url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "poundland-administration",
+    "headline": "Poundland enters administration with 11,000 jobs at risk",
+    "what_happened": "UK discount chain Poundland entered administration, announced by its owner Gordon Brothers, putting about 11,000 jobs and 600 stores at risk.",
+    "why_it_matters": "It shows the pressure on British shops weeks before Christmas.",
+    "importance": 7,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Poundland entered administration, as announced by its American owner Gordon Brothers; about 11,000 jobs and 600 stores are at risk.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "Gordon Brothers appointed AlixPartners as administrators to try to save parts of the business. The shops keep trading as normal for now.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "Gordon Brothers took control in June 2025 after buying Poundland from Pepco Group for 1 pound and provided 85 million pounds of financing.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "UK Prime Minister Andy Burnham said the news, weeks before Christmas, was deeply concerning for workers and their families.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "The union Usdaw called the news devastating for members and accused Gordon Brothers of failing to engage with it.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "fact": "Discounters like Poundland grew after the 2008 financial crisis but have struggled with high inflation and competition from supermarkets.",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Jobs at risk",
+      "value": 11000,
+      "unit": "jobs",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     },
+     {
+      "label": "Stores at risk",
+      "value": 600,
+      "unit": "stores",
+      "source_url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+     }
+    ],
+    "geography": "United Kingdom",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "UK discounter Poundland enters administration with 11,000 jobs at risk",
+      "url": "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "uk-also",
+    "headline": "Also in Britain: gingerbread city and nuclear test veterans",
+    "what_happened": "Euronews listed two further UK items on 26 November.",
+    "why_it_matters": "Small stories from the UK.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "London's Gingerbread City returns with 50 edible architectural creations, a gingerbread model city with skyscrapers and landmarks.",
+      "source_url": "https://www.euronews.com/2026/11/26"
+     },
+     {
+      "fact": "An inquiry into UK nuclear test veterans was granted after a 40 year campaign; the veterans claim they were used as test subjects.",
+      "source_url": "https://www.euronews.com/2026/11/26"
+     }
+    ],
+    "numbers": [],
+    "geography": "London, United Kingdom",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Euronews 26 November 2026 listing",
+      "url": "https://www.euronews.com/2026/11/26",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ },
+ "europe": {
+  "label": "EUROPE",
+  "hours": 168,
+  "dropped_unverified": 0,
+  "stories": [
+   {
+    "id": "eu-budget-summit",
+    "headline": "EU leaders fail to agree on the next seven-year budget",
+    "what_happened": "EU leaders met in Brussels on Thursday 26 November to find a breakthrough on the bloc's next seven-year budget and left without a deal. Council President Costa's compromise was worth 1.78 trillion euros over seven years, a 10% cut from the first draft.",
+    "why_it_matters": "The budget decides what the EU can spend from 2028 and how much each country pays in.",
+    "importance": 9,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "The summit was held in Brussels on Thursday 26 November 2026 to try to break a deadlock on the EU's next seven-year budget.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders refused to give up their red lines and questioned whether a deal was possible by December.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa's compromise proposal was worth 1.78 trillion euros in current prices across seven years, a 10% cut from the original draft, and drew pushback from all sides.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa said: \"Everybody knows that we cannot fail Europe, and we need to have a new budget from the 1st of January 2028.\"",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The camps were the seven \"Frugals\", who want deep cuts, and the 17 \"Friends of Cohesion\", who oppose further cuts.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The Frugals boycotted the small-group format Costa used, feeling unfairly targeted.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Italy's Giorgia Meloni said a deal was \"light years away\"; the Netherlands' Rob Jetten said there was \"no need to hurry\".",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "France's Emmanuel Macron set an ultimatum of a deal by 31 December or walking away, and called the proposed cuts a \"strategic mistake\". Other states see the ultimatum as a bargaining tactic.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Germany's Friedrich Merz took a hardline Frugal stance and said cuts will go beyond the 204 billion euros in Costa's proposal.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Leaders settled Christine Lagarde's succession as European Central Bank president before the budget talks began.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "The summit was supposed to discuss a 45 billion euro support loan for Ukraine, which faces a growing wartime deficit; the budget fight pushed Ukraine into the background.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "fact": "Costa announced early that talks would not continue on Friday as planned. The article gives no date for the next round.",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Compromise budget proposal",
+      "value": 1.78,
+      "unit": "trillion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Frugal states",
+      "value": 7,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Friends of Cohesion states",
+      "value": 17,
+      "unit": "countries",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     },
+     {
+      "label": "Ukraine support loan discussed",
+      "value": 45,
+      "unit": "billion euros",
+      "source_url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+     }
+    ],
+    "geography": "Brussels, Belgium; EU members including Germany, France, Italy, Netherlands, Spain",
+    "enrichment_kind": "context",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "EU summit ends in disarray as leaders cling to red lines",
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+      "published": "2026-11-27",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "nato-awacs-poland",
+    "headline": "NATO sends an airborne radar plane to watch over Poland",
+    "what_happened": "NATO has sent an AWACS radar aircraft to Poland after prosecutors said three Russian cruise missiles crashed on Polish territory on 20 November.",
+    "why_it_matters": "It shows how NATO watches its eastern edge and reassures a member country near the war.",
+    "importance": 8,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "According to the Polish prosecutor's office, three Russian H-101 cruise missiles crashed in Poland on 20 November 2026.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "Three days later NATO confirmed that General Alexus Grynkewich, commander of the alliance's European forces, had approved sending an AWACS aircraft to Poland.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "AWACS stands for airborne early warning and control system. NATO's aircraft are Boeing E-3 Sentry planes with a rotating radar dome about nine metres across.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "Flying high lets the radar see farther than ground-based radar, which can be blocked by the Earth's curvature and terrain.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The crew checks radar detections against other data sources and shares the resulting air picture with fighter jets, ships and ground control centres.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "NATO's AWACS fleet is based in Gelsenkirchen, Germany, and has monitored NATO's eastern flank since 2022.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The first E-3s entered service in 1982.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "At NATO's Ankara summit in July, eleven allies agreed to jointly buy Saab GlobalEye aircraft to replace part of the ageing E-3 fleet.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "fact": "The article gives no timeline for how long the Polish deployment will last.",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Russian cruise missiles that crashed in Poland",
+      "value": 3,
+      "unit": "missiles",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "label": "Radar dome width",
+      "value": 9,
+      "unit": "metres",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     },
+     {
+      "label": "Allies buying GlobalEye aircraft",
+      "value": 11,
+      "unit": "allies",
+      "source_url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+     }
+    ],
+    "geography": "Poland (eastern NATO flank); fleet based at Gelsenkirchen, Germany",
+    "enrichment_kind": "mechanism",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+      "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "norse-atlantic",
+    "headline": "Airline Norse Atlantic cancels all flights as bankruptcy looms",
+    "what_happened": "Norwegian long-haul budget airline Norse Atlantic cancelled all flights on 26 November after jet fuel prices surged because of the war in the Middle East.",
+    "why_it_matters": "High fuel prices are hitting airlines in Europe.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "Norse Atlantic, a Norwegian low-cost long-haul carrier founded in 2021, cancelled all of Thursday 26 November's flights.",
+      "source_url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+     },
+     {
+      "fact": "Its board said it intends to file for bankruptcy unless short-term financing is secured urgently, and said there is \"no assurance\" a solution will be found.",
+      "source_url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+     },
+     {
+      "fact": "Its shares fell 85% on Wednesday after it warned its finances were critical.",
+      "source_url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+     },
+     {
+      "fact": "Spanish airline Plus Ultra announced on Tuesday that it was ceasing operations.",
+      "source_url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Share fall on Wednesday",
+      "value": 85,
+      "unit": "%",
+      "source_url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+     }
+    ],
+    "geography": "Norway, Europe",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Norse Atlantic suspends flights as bankruptcy looms",
+      "url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "argentina-recession",
+    "headline": "Argentina enters a technical recession",
+    "what_happened": "Argentina's economy shrank 1.8% in July-September after a 1% fall in the previous quarter, meeting the definition of a technical recession.",
+    "why_it_matters": "It tests President Milei's economic plan.",
+    "importance": 6,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "GDP fell 1.8% in the third quarter after a 1% drop in the second, meeting the definition of a technical recession (two straight quarterly falls).",
+      "source_url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+     },
+     {
+      "fact": "Monthly inflation was 2.2% in October, up from 1.9% in September.",
+      "source_url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+     },
+     {
+      "fact": "Unemployment reached 7.9% in the second quarter, the highest since Milei took office.",
+      "source_url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+     },
+     {
+      "fact": "Milei's government has called for caution before declaring a recession; economists say the data clearly point to one.",
+      "source_url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+     },
+     {
+      "fact": "Final GDP figures are due 16 December.",
+      "source_url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+     }
+    ],
+    "numbers": [
+     {
+      "label": "Q3 GDP change",
+      "value": -1.8,
+      "unit": "%",
+      "source_url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+     }
+    ],
+    "geography": "Argentina",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Argentina enters technical recession",
+      "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   },
+   {
+    "id": "barca-camp-nou",
+    "headline": "FC Barcelona plans a memorial for fans' ashes at Camp Nou",
+    "what_happened": "FC Barcelona revealed plans to let Camp Nou be fans' final resting place, with a planned memorial inside the stadium.",
+    "why_it_matters": "Clubs and their fans.",
+    "importance": 3,
+    "suitable_for_children": true,
+    "key_facts": [
+     {
+      "fact": "FC Barcelona revealed plans to let Camp Nou be fans' final resting place, with a planned memorial inside the stadium.",
+      "source_url": "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place"
+     }
+    ],
+    "numbers": [],
+    "geography": "Barcelona, Spain",
+    "enrichment_kind": "none",
+    "sources": [
+     {
+      "outlet": "Euronews",
+      "title": "Ashes to ashes: FC Barcelona reveals plans to let Camp Nou be fans' final resting place",
+      "url": "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place",
+      "published": "2026-11-26",
+      "primary": false
+     }
+    ]
+   }
+  ]
+ }
+}
