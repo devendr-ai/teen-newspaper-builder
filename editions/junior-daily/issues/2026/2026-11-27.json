@@ -1,0 +1,200 @@
+{
+  "edition": "junior-daily",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 36,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  POLAND",
+      "headline": "A Radar Plane Takes Up Watch Over Poland",
+      "deck": "NATO has sent a plane with a giant spinning radar to Poland, after three Russian missiles crashed on Polish ground.",
+      "body": [
+        "Poland is in central Europe, next to Ukraine. On 20 November, Poland's prosecutors say, three Russian cruise missiles crashed on Polish land. Poland belongs to NATO, a group of countries that protect one another.",
+        "Three days later, NATO answered. NATO's European commander, General Alexus Grynkewich, approved sending a special plane. It is called an AWACS, short for airborne early warning and control system, and it carries a spinning radar dome about 9 metres across.",
+        "Why put a radar on a plane? Radar on the ground can be blocked by the curve of the Earth and by hills. A radar flying high can see much farther.",
+        "NATO's fleet of these planes is based in Gelsenkirchen, a city in Germany."
+      ],
+      "map": {
+        "title": "Poland, on NATO's eastern side",
+        "label_top": "POLAND",
+        "label_bottom": "GERMANY",
+        "footnote": "Where the AWACS planes are based and where one now flies.",
+        "caption": "A plane based in Germany now watches the sky over Poland."
+      },
+      "why": "Radar planes help NATO countries see what is flying near their borders, and give them time to react.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+          "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  INDIA",
+      "headline": "India's Farms Grow a Record Pile of Grain",
+      "deck": "New government figures say India grew more grain in the year 2025-26 than ever before.",
+      "body": [
+        "India's farmers grew 378.538 million tonnes of foodgrain in the year 2025-26. Foodgrain means crops like rice, wheat and maize that people and animals eat. The year before, it was 357.732 million tonnes.",
+        "Agriculture Minister Shivraj Singh Chouhan shared the figures in New Delhi on Thursday.",
+        "Rice led the way with 155.154 million tonnes, up from 150.184 million. Wheat came to 122.064 million tonnes. Maize jumped from 43.409 million tonnes to 55.025 million tonnes.",
+        "Rice sales abroad also grew by five per cent."
+      ],
+      "chart": {
+        "title": "India's biggest grain crops, 2025-26",
+        "subtitle": "Million tonnes",
+        "labels": [
+          "Rice",
+          "Wheat",
+          "Maize"
+        ],
+        "values": [
+          155.154,
+          122.064,
+          55.025
+        ],
+        "max": 170,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "Rice was the biggest of the three crops."
+      },
+      "why": "Grain feeds people at home, and what is left over can be sold to other countries.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "India records all-time high foodgrain production",
+          "url": "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Congo: An Ebola outbreak in the east has passed 12,000 confirmed cases.",
+        "Britain: Shop chain Poundland has entered administration, putting about 11,000 jobs at risk."
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether NATO says how long the radar plane will stay in Poland.",
+        "Updates to India's early estimate for the 2026-27 kharif crop."
+      ]
+    }
+  },
+  "sources": [
+    "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace",
+    "https://ddnews.gov.in/en/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/",
+    "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak",
+    "https://www.euronews.com/2026/11/26/uk-discounter-poundland-enters-administration-with-11000-jobs-at-risk"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What does AWACS stand for?",
+        "options": [
+          "Airborne early warning and control system",
+          "Allied weather and communications system",
+          "Air wing for aid and civil safety"
+        ],
+        "answer": 0,
+        "why": "The paper says AWACS is short for airborne early warning and control system.",
+        "story": "lead"
+      },
+      {
+        "q": "Where is NATO's AWACS fleet based?",
+        "options": [
+          "Warsaw, Poland",
+          "Gelsenkirchen, Germany",
+          "Ankara, Turkey"
+        ],
+        "answer": 1,
+        "why": "The fleet is based in Gelsenkirchen, Germany.",
+        "story": "lead"
+      },
+      {
+        "q": "How much foodgrain did India grow in 2025-26?",
+        "options": [
+          "357.732 million tonnes",
+          "155.154 million tonnes",
+          "378.538 million tonnes"
+        ],
+        "answer": 2,
+        "why": "The figure for 2025-26 was 378.538 million tonnes.",
+        "story": "world"
+      },
+      {
+        "q": "Which crop was the biggest of rice, wheat and maize?",
+        "options": [
+          "Rice",
+          "Wheat",
+          "Maize"
+        ],
+        "answer": 0,
+        "why": "Rice made 155.154 million tonnes, the most of the three.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "Three Russian cruise missiles crashed in Poland on 20 November, say Polish prosecutors.",
+        "true": true,
+        "why": "The Polish prosecutor's office said this.",
+        "story": "lead"
+      },
+      {
+        "claim": "A radar flying high can see less far than a radar on the ground.",
+        "true": false,
+        "why": "Flying high lets the radar see farther, because the Earth's curve and hills can block ground radar.",
+        "story": "lead"
+      },
+      {
+        "claim": "India's rice sales abroad grew by five per cent.",
+        "true": true,
+        "why": "Rice exports rose five per cent, says the report.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Poland",
+        "lat": 52.0,
+        "lon": 19.4,
+        "countries": [
+          "Poland",
+          "Germany"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "New Delhi",
+        "lat": 28.6,
+        "lon": 77.2,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "About how wide is the spinning radar dome on NATO's AWACS planes?",
+        "answer": 9,
+        "prefix": "",
+        "unit": "metres",
+        "min": 1,
+        "max": 30,
+        "why": "The dome is about 9 metres across."
+      },
+      {
+        "story": "world",
+        "q": "How many million tonnes of rice did India grow in 2025-26 (to the nearest whole number)?",
+        "answer": 155,
+        "prefix": "",
+        "unit": "million tonnes",
+        "min": 50,
+        "max": 300,
+        "why": "The report gives 155.154 million tonnes of rice."
+      }
+    ]
+  }
+}
