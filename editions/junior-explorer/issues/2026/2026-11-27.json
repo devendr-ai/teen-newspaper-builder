@@ -1,0 +1,348 @@
+{
+  "edition": "junior-explorer",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "BIG STORY  •  SPACE",
+      "headline": "Voyager 1 Switches Off Gadgets to Keep Going",
+      "deck": "The old space probe is now one light-day from Earth. Engineers save its power by turning things off.",
+      "body": [
+        "Imagine a flashlight with a fading battery. You would switch off what you did not need. Engineers do that for Voyager 1.",
+        "On 18 November, Voyager 1 reached one light-day from Earth, NASA says. A light-day is how far light travels in one day. That is 16.094 billion miles, NASA says.",
+        "So why turn things off? Voyager 1 makes electricity from plutonium, which slowly gives off heat. NASA says each Voyager probe loses about 4 watts of power a year.",
+        "Less power means hard choices. In April 2026, engineers shut down an instrument called LECP. The Cosmic Ray Subsystem has been off since 25 February 2025. The cameras went off in 1990.",
+        "Two science instruments still worked in April."
+      ],
+      "visual": {
+        "type": "steps",
+        "title": "VOYAGER 1 SWITCHES THINGS OFF",
+        "caption": "Instruments turned off to save power, in order.",
+        "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+        "items": [
+          {
+            "label": "1990: the cameras are turned off",
+            "evidence": "The cameras went off in 1990"
+          },
+          {
+            "label": "25 February 2025: Cosmic Ray Subsystem goes off",
+            "evidence": "The Cosmic Ray Subsystem has been off since 25 February 2025"
+          },
+          {
+            "label": "April 2026: LECP is shut down",
+            "evidence": "In April 2026, engineers shut down an instrument called LECP"
+          }
+        ]
+      },
+      "why": "Voyager 1 shows how engineers keep a very old machine useful: switch off one thing so another can keep working.",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+          "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "Voyager 1: The Farthest Spacecraft",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ]
+    },
+    "science": {
+      "kicker": "SCIENCE  •  SPACE",
+      "headline": "Telescopes Catch a Star in the Middle of Blowing Up",
+      "deck": "Astronomers spotted a new supernova in a faraway galaxy before it had grown its brightest.",
+      "body": [
+        "Stars do not shine forever. Some end with a giant blast called a supernova. On 2 November 2026, astronomers reported a new one, SN 2026ahvu.",
+        "So who spotted it first? A system called ATLAS did. ATLAS is a set of robotic telescopes, run by computers, in both halves of Earth. It reported the blast first.",
+        "The star is in NGC 1433, a spiral galaxy. A galaxy is a huge island of stars. Space.com says NGC 1433 is about 50 million light-years away. A light-year is how far light travels in one year. So that light left the star long ago.",
+        "Next, scientists asked what kind of blast it was. They used a tool on the Keck telescope called DEIMOS. It spreads light into colours. They showed a Type Ia supernova.",
+        "The timing was lucky. Science News reports the blast had not yet reached its peak brightness. On 9 November, the Gemini South telescope in Chile took a picture of the galaxy and the new supernova."
+      ],
+      "illustration": {
+        "title": "A STAR BLOWS UP",
+        "subtitle": "Galaxy NGC 1433",
+        "motif": "globe",
+        "caption": "ATLAS telescopes reported the supernova on 2 November. Gemini South in Chile imaged it on 9 November."
+      },
+      "why": "Catching a supernova early lets scientists study how these explosions begin.",
+      "sources": [
+        {
+          "outlet": "Space.com",
+          "title": "Supernova explodes before astronomers' eyes",
+          "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+        },
+        {
+          "outlet": "Science News",
+          "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+        },
+        {
+          "outlet": "arXiv",
+          "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+          "url": "https://arxiv.org/pdf/2611.09875"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "AROUND THE WORLD  •  BOLIVIA AND MEXICO",
+      "headline": "Three Countries Lose Their Measles-Free Status",
+      "deck": "Health officials say measles now keeps spreading in Bolivia, Mexico and the United States. Vaccines hold it back.",
+      "body": [
+        "Measles is an illness that spreads very easily. On 17 November, PAHO, a health group for the Americas, said three countries lost their measles-free status. They are Bolivia, Mexico and the United States.",
+        "That status is called measles elimination. A country loses it when the same measles virus spreads without a break for 12 months or more. Experts call this endemic spread.",
+        "How does a vaccine stop this? A vaccinated person is protected, so the virus has fewer people to jump to. NPR reports that about 95 percent of children need the vaccine to block its spread.",
+        "That number is where the trouble starts. NPR reports that about 92 percent of US kindergartners had the vaccine in 2025. In 2019, it was 95 percent. NPR also reports more than 5,400 US cases and 10 linked deaths.",
+        "Is measles now everywhere in the US? No, says the CDC. It says risk is highest where fewer people are vaccinated. The US can win the status back if it stops measles spreading for at least 12 months."
+      ],
+      "illustration": {
+        "title": "A SHIELD CALLED VACCINATION",
+        "subtitle": "Bolivia, Mexico, US",
+        "motif": "hospital",
+        "caption": "About 95 percent of children need the measles vaccine to block spread. About 92 percent of US kindergartners had it in 2025."
+      },
+      "connect": "Geography: Bolivia is in the middle of South America, while Mexico and the United States are in North America. Measles viruses do not stop at borders, which is why a group covering the whole region, PAHO, tracks them.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "PAHO",
+          "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+        },
+        {
+          "outlet": "Science News",
+          "title": "The U.S. just lost its measles elimination status. What now?",
+          "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Climate: The World Meteorological Organization says El Niño, a warm patch of Pacific Ocean water, is expected to reach record strength by December.",
+        "Britain: London's Gingerbread City is back, with 50 edible buildings, including skyscrapers and landmarks.",
+        "Norway: The airline Norse Atlantic cancelled all its flights on 26 November after jet fuel prices surged.",
+        "Spain: FC Barcelona plans a memorial inside Camp Nou where fans' ashes could rest.",
+        "Space: Voyager 1 is now one light-day away, and a new supernova was spotted in a galaxy 50 million light-years away."
+      ]
+    },
+    "sports": {
+      "title": "SPORTS CORNER",
+      "body": "Sabita Toppo won the women's 100m hurdles gold at the BIMSTEC U-23 athletics meet in Bhubaneswar, India, a meet for athletes under 23. Her win helped India extend its medal lead. Hurdlers sprint and leap over barriers without slowing down. Try a <b>cushion hurdle race</b> at home: line up three soft cushions, then <b>run and jump</b> each one, keeping your rhythm steady.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "Sabita Toppo wins women's 100m hurdles gold",
+          "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Instrument",
+          "def": "A tool that measures or detects something. Today: Engineers switched off the LECP instrument on Voyager 1 to save power."
+        },
+        {
+          "word": "Supernova",
+          "def": "The giant explosion of a star. Today: Astronomers found a new supernova, SN 2026ahvu, in the galaxy NGC 1433."
+        },
+        {
+          "word": "Light-year",
+          "def": "The distance light travels in one year. Today: The galaxy NGC 1433 is about 50 million light-years from Earth."
+        },
+        {
+          "word": "Vaccine",
+          "def": "A medicine that teaches the body to fight a germ before it can make you ill. Today: About 95 percent of children need the measles vaccine to block its spread."
+        }
+      ]
+    },
+    "challenge": {
+      "title": "BE VOYAGER'S ENGINEER",
+      "body": [
+        "Give each player 5 coins for one day of power. List 8 gadgets in your home, such as a lamp, a radio, a fan and a toy. Each gadget costs 1 to 3 coins to run. You may spend only 5 coins, so you must switch some gadgets off.",
+        "Choose carefully. Which gadgets are the most useful? Voyager 1's engineers made the same kind of choice. They kept the plasma wave and magnetic field instruments and switched off others. Talk about why you chose what you did.",
+        "Bonus, be a supernova spotter: draw a night sky of 10 dots. Ask a friend to change one dot while you look away. Then compare the two pictures. Can you find the new star?"
+      ],
+      "sources": [
+        {
+          "outlet": "NASA Science",
+          "title": "NASA Shuts Off Instrument on Voyager 1 to Keep Spacecraft Operating",
+          "url": "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/"
+        },
+        {
+          "outlet": "NASA Science",
+          "title": "Voyager 1: The Farthest Spacecraft",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        },
+        {
+          "outlet": "Science News",
+          "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Light from the Moon takes only about 1.3 seconds to reach Earth. A light-year, the distance light travels in a year, is nearly 6 trillion miles. That is why even light from the nearest big galaxies takes millions of years to reach us."
+    },
+    "explainer": {
+      "title": "HOW A STAR EXPLODES",
+      "body": [
+        "A Type Ia supernova starts with a white dwarf. A white dwarf is the small, dense core left behind by a star like our Sun. It is no longer burning, but it is still hot. Scientists think some white dwarfs blow up after they gain extra matter, the stuff that things are made of.",
+        "From far away, scientists cannot see this happen. Instead, they use spectroscopy, which spreads starlight into a rainbow. Each material in an exploding star leaves its own marks in the rainbow. Reading them tells scientists what kind of explosion it was.",
+        "That is why catching a supernova early matters. Early light shows the first moments of a blast, which are over in just a short time."
+      ],
+      "sources": [
+        {
+          "outlet": "Science News",
+          "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+        },
+        {
+          "outlet": "arXiv",
+          "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+          "url": "https://arxiv.org/pdf/2611.09875"
+        }
+      ]
+    },
+    "watchlist": {
+      "items": [
+        "Whether NASA switches off more Voyager 1 instruments. Two science instruments were still working in April.",
+        "What scientists learn about SN 2026ahvu now that they caught it before its peak brightness.",
+        "Whether El Niño reaches record strength by December, as the WMO expects."
+      ]
+    },
+    "quote": {
+      "text": "Even the oldest explorer can keep going, one careful choice at a time.",
+      "by": "The Junior Explorer"
+    }
+  },
+  "sources": [
+    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/",
+    "https://science.nasa.gov/mission/voyager/voyager-1/",
+    "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026",
+    "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+    "https://arxiv.org/pdf/2611.09875",
+    "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+    "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+    "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+    "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+    "https://www.euronews.com/2026/11/26",
+    "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms",
+    "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place",
+    "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+  ],
+  "play": {
+    "quiz": [
+      {
+        "q": "What is a light-day?",
+        "options": [
+          "How far light travels in one day",
+          "A day with lots of sunshine",
+          "The length of a school day"
+        ],
+        "answer": 0,
+        "why": "A light-day is how far light travels in one day.",
+        "story": "lead"
+      },
+      {
+        "q": "Why do engineers switch off Voyager 1's instruments?",
+        "options": [
+          "To make it go faster",
+          "To save its fading power",
+          "To take a nap"
+        ],
+        "answer": 1,
+        "why": "Its plutonium is running down, so it loses about 4 watts a year.",
+        "story": "lead"
+      },
+      {
+        "q": "What is ATLAS?",
+        "options": [
+          "A book of maps",
+          "A giant mountain",
+          "A set of robotic telescopes"
+        ],
+        "answer": 2,
+        "why": "ATLAS is a set of robotic telescopes in both halves of Earth.",
+        "story": "science"
+      },
+      {
+        "q": "About how many children need the measles vaccine to block its spread?",
+        "options": [
+          "About 50 percent",
+          "About 95 percent",
+          "About 10 percent"
+        ],
+        "answer": 1,
+        "why": "NPR reports about 95 percent need the vaccine to block spread.",
+        "story": "world"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The new supernova is in the galaxy NGC 1433.",
+        "true": true,
+        "why": "SN 2026ahvu is in the spiral galaxy NGC 1433.",
+        "story": "science"
+      },
+      {
+        "claim": "Voyager 1's cameras were turned off in 2026.",
+        "true": false,
+        "why": "The cameras were turned off in 1990.",
+        "story": "lead"
+      },
+      {
+        "claim": "Bolivia, Mexico and the United States lost measles elimination status.",
+        "true": true,
+        "why": "PAHO announced it on 17 November.",
+        "story": "world"
+      }
+    ],
+    "where": [
+      {
+        "story": "world",
+        "place": "Bolivia",
+        "lat": -16.5,
+        "lon": -64.7,
+        "countries": [
+          "Bolivia",
+          "Mexico",
+          "United States"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "How many watts of power does each Voyager probe lose every year?",
+        "answer": 4,
+        "prefix": "",
+        "unit": "watts",
+        "min": 0,
+        "max": 20,
+        "why": "The plutonium is running down, so each probe loses about 4 watts a year."
+      },
+      {
+        "story": "world",
+        "q": "What percent of US kindergartners had the measles vaccine in 2025?",
+        "answer": 92,
+        "prefix": "",
+        "unit": "%",
+        "min": 50,
+        "max": 100,
+        "why": "About 92 percent had it in 2025, down from 95 percent in 2019."
+      }
+    ]
+  }
+}
