@@ -1,0 +1,608 @@
+{
+  "edition": "global-citizen-plus",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 19,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  PUBLIC HEALTH AND CIVICS",
+      "headline": "Fire Without Fuel: How a 92 Percent Vaccination Rate Cost America a Health Title",
+      "deck": "Health officials in the Americas say one measles virus has kept spreading in the US, Mexico and Bolivia for a year or more, ending their elimination status.",
+      "body": [
+        "Biology class has a name for the shield that protects a crowd: herd immunity. When enough people are immune, a virus hits dead ends, like a fire running out of dry wood. Measles is so easily passed on that roughly 95 percent of people need protection to block it. About 92 percent of US kindergarteners got the measles vaccine in 2025, down from 95 percent in 2019, and the gap now has an official consequence.",
+        "On 17 November 2026 the Pan American Health Organization (PAHO) announced that measles spread has taken root again in Bolivia, Mexico and the United States, so all three lost their elimination status. Scientists call this endemic, and they decide it by tracing the virus like a family tree. If the same genotype and lineage keeps circulating without a break for 12 months or more, the chain of infection was never cut.",
+        "The human cost is counted, and even the count is disputed. The US is reporting more than 5,400 cases, with 10 associated deaths in total. States report 13 deaths, while the CDC, the national public-health agency, recognizes nine. The CDC adds that the new status does not mean measles is widespread in every community, because risk is concentrated where vaccination is lower.",
+        "Health officials stress that the label is a signal, not the protection. CDC Director Erica Schwartz put it this way: “The measles elimination designation is not what protects Americans. Vaccination does.” To regain the title, the US must stop measles spread for at least 12 consecutive months and submit a plan for how to do it."
+      ],
+      "map": {
+        "title": "THREE COUNTRIES LOST THE STATUS",
+        "label_top": "UNITED STATES AND MEXICO",
+        "label_bottom": "BOLIVIA",
+        "footnote": "PAHO announcement, 17 November 2026",
+        "caption": "PAHO says endemic measles spread is back in the United States, Mexico and Bolivia, so all three lost elimination status.",
+        "countries": [
+          "United States",
+          "Mexico",
+          "Bolivia"
+        ],
+        "place": "Washington"
+      },
+      "why": "Elimination is a promise kept by vaccination, so the slide from 95 to 92 percent of kindergarteners matters more to families than the label itself.",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "PAHO",
+          "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+        },
+        {
+          "outlet": "Science News",
+          "title": "The U.S. just lost its measles elimination status. What now?",
+          "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  ECONOMICS AND GEOGRAPHY",
+      "headline": "Norse Atlantic Grounds Every Flight as Fuel Costs Bite",
+      "deck": "The Norwegian long-haul airline cancelled all of Thursday's flights and says it will file for bankruptcy unless it finds short-term money fast.",
+      "body": [
+        "Imagine a business that must pay for its biggest ingredient before it sells a single ticket. That is an airline, and on Thursday 26 November it cost one of Europe's youngest long-haul carriers its flying schedule. Norse Atlantic, a Norwegian low-cost airline founded in 2021, cancelled all of that day's flights.",
+        "The cause was fuel. The airline said jet fuel prices surged because of the war in the Middle East, squeezing a company that sells cheap seats on long routes. Its board then went further, saying it intends to file for bankruptcy, the legal process for a company that cannot pay its debts, unless short-term financing is secured urgently.",
+        "Why does fuel hurt so much? A plane burns it on every kilometre, and a long-haul flight burns a great deal. A low-cost airline keeps tickets cheap, so it has little cushion when a main cost rises: it must either charge more, and risk losing passengers, or absorb the loss. For a young airline already short of cash, that choice can come quickly.",
+        "Investors had seen the danger first. Norse Atlantic's shares fell 85% on Wednesday after the company warned that its finances were critical. The board admitted there is “no assurance” that a solution will be found, so passengers and staff are left waiting for news.",
+        "It was not the only airline in trouble that week. Spanish airline Plus Ultra announced on Tuesday that it was ceasing operations. Two carriers in one week, in two different European countries, shows how a war far from Norway and Spain can reach airline balance sheets through the price of a single fuel."
+      ],
+      "illustration": {
+        "title": "WHEN FUEL PRICES JUMP",
+        "subtitle": "Airlines, 26 Nov",
+        "motif": "globe",
+        "caption": "Norse Atlantic cancelled all flights on 26 November after jet fuel prices rose, and Plus Ultra said on Tuesday it was ceasing operations."
+      },
+      "connect": "Geography links a Middle East war to a Norwegian airline: oil and jet fuel are traded across the world, so conflict in one region can raise costs in another. In economics, this is a cost shock, and companies with thin profits and big debts are hit first.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Norse Atlantic suspends flights as bankruptcy looms",
+          "url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+        }
+      ]
+    },
+    "india": {
+      "kicker": "INDIA  •  CIVICS AND ECONOMICS",
+      "headline": "Before the Budget, the Finance Minister Listens, and Young People Get a Seat",
+      "deck": "Nirmala Sitharaman wrapped up pre-budget talks for 2027-28 held from 16 to 26 November, adding a first-time session with young people.",
+      "body": [
+        "Before a family plans a year of spending, it helps to ask what everyone needs. India's government does something similar every year. Finance Minister Nirmala Sitharaman has concluded the pre-budget consultations for the Union Budget 2027-28, which ran from 16 to 26 November.",
+        "She chaired 13 meetings with more than 200 stakeholders from 13 sectors and groups. A stakeholder is anyone who is affected by a decision and so has a stake in it. What was new this year was a consultation with young people, who will live with the budget's choices for longer than anyone.",
+        "Think of the talks as a map of who depends on the budget. The 13 meetings covered 13 sectors and groups, so each meeting brought together people with a shared interest. Farmers, factory owners, workers and students all want different things from the same pool of money, and a consultation lets those wants be placed side by side before any decision is made.",
+        "The ideas she heard ranged widely. Sample proposals included domestic manufacturing of biofertilisers, sector-specific AI models, and cyber-hygiene awareness for MSMEs, the micro, small and medium enterprises that employ many Indians. Another proposed a reading movement so that every child can read a newspaper by the end of Grade 5.",
+        "Why does this step matter? A Union Budget is the government's plan for a financial year: how much it expects to raise, mostly through taxes, and how much it will spend on things such as roads, schools, hospitals and defence. Every group has a different list of needs, and money is limited, so choosing means saying yes to some ideas and no to others. Asking before deciding lets groups explain their case, and it lets officials hear problems that numbers alone may hide. Young people, for instance, can speak about jobs, learning and the world they will inherit.",
+        "Listening is only the first step, and these are proposals, not promises. The report on the talks does not say when the budget will be presented, so what ends up in it remains to be seen. The budget is how the government decides how to raise money and how to spend it."
+      ],
+      "illustration": {
+        "title": "LISTENING BEFORE SPENDING",
+        "subtitle": "Talks, 16-26 Nov",
+        "motif": "capitol",
+        "caption": "The Finance Minister held 13 meetings with more than 200 stakeholders, including a first consultation with young people."
+      },
+      "why": "The budget shapes schools, farms, jobs and prices, so who is invited to talk before it is written is a lesson in how a democracy sets its priorities.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "Finance Minister concludes pre-budget consultations",
+          "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+        }
+      ]
+    },
+    "us": {
+      "kicker": "UNITED STATES  •  ECONOMICS AND CIVICS",
+      "headline": "What Is a Share? A Billionaire's Gift to Children Makes It a Class Question",
+      "deck": "Elon Musk says each child with a Trump Account will receive two SpaceX shares, but what they are worth will keep changing.",
+      "body": [
+        "A share is a small slice of ownership in a company, and its price moves with what buyers will pay. That idea sits behind Elon Musk's latest promise. He said every child in America with an active Trump Account will receive two SpaceX shares, twice the single share he offered in October. He called that offer “the first of many”.",
+        "The shares come from two places. SpaceX will issue one new Class A share to each currently active account, and Musk will add one of his own. The company's shares are due to be transferred in December. Musk's follow in June 2027, when restrictions on them expire.",
+        "The price tag shows why the value can change. When trading closed, a single share stood at $127.44, which made two worth $254.88. The real value depends on the share price and on how many accounts qualify. SpaceX only began selling shares to the public in June 2026, raising about $85.7 billion, and Musk's own advice was: “I recommend holding on to your shares.”",
+        "A Trump Account is a government-backed savings account for a child, and it does not open itself. Parents or guardians must claim and activate it. For eligible citizens born from 2025 through 2028, the government adds a one-off $1,000. Money is generally put into low-cost funds that track the US stock market, and it is usually locked until the child turns 18.",
+        "How many children will really benefit is unclear. The White House said nearly 70 million accounts had been created by October, but it is not clear how many have been activated. That gap matters, because a gift only reaches the children whose families have claimed it."
+      ],
+      "chart": {
+        "title": "WHAT THE GIFT IS WORTH",
+        "subtitle": "US dollars per child's account",
+        "labels": [
+          "1 share",
+          "2 shares",
+          "Govt gift"
+        ],
+        "values": [
+          127.44,
+          254.88,
+          1000
+        ],
+        "max": 1200,
+        "value_prefix": "$",
+        "highlight_after": 1,
+        "caption": "Share values are from the close on 26 November and can change; the one-off government payment is for eligible citizens born 2025 through 2028."
+      },
+      "why": "A gift of stock teaches how shares gain and lose value, and shows why a government-backed account still depends on parents signing up.",
+      "analyst": "Why might the value of two shares differ between December and June 2027? Which figures in this story are fixed, and which can change? What would you want to know before deciding whether to hold shares or sell them?",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Musk says will give two SpaceX shares to every child in America",
+          "url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ENGINEERING AND ENVIRONMENT",
+      "headline": "A Million Satellites as Data Centres: Can Computing Move to Space?",
+      "deck": "The US FCC authorised SpaceX's Starmind plan, but scientists point to technical, financial and environmental obstacles.",
+      "body": [
+        "Computers that answer our questions need huge buildings full of chips, power and cooling water. This week the US Federal Communications Commission (FCC) authorised SpaceX to deploy one million satellites that it said would form data centres in space. The article dates the decision to Wednesday.",
+        "The constellation is called Starmind, and its satellites are described as “orbital compute modules”. The FCC's chairman, Brendan Carr, called the decision a historic first amid the AI race. SpaceX must deploy at least one authorised space station by 2033, then gradually add more through 2040.",
+        "Why go to orbit at all? Supporters argue that solar power captured in orbit would reduce strain on power grids and lower demand for large Earth-based data centres, along with the water used to cool them. That is the case for the plan, and it is an argument rather than a proven result.",
+        "Scientists and industry experts see major technical and financial obstacles, plus environmental concerns, including atmospheric pollution from rocket launches and reentries. The FCC said the plan complies with its orbital debris rules and serves the public interest, and it acknowledged a substantial number of public comments, including petitions to deny the request.",
+        "Two ideas help make sense of the plan. A watt measures power, and the European study's units scale up: a megawatt (MW) is a million watts, and a gigawatt (GW) is a thousand megawatts. A data centre also makes heat, and on Earth air and water carry it away. In space there is no air, so heat must be shed another way, one reason experts call the technical challenges major.",
+        "Others have studied the idea. A European Commission study found space-based solar data centres technically and economically viable, proposing 10 MW by 2036 and 1 GW by 2050. A European Parliament review concluded the main barrier is economic, with launch costs a key factor. China launched an initial cluster of 12 AI computing satellites in May 2025, the first phase of a planned 2,800-satellite constellation."
+      ],
+      "illustration": {
+        "title": "COMPUTERS IN ORBIT",
+        "subtitle": "The Starmind plan",
+        "motif": "rocket",
+        "caption": "The FCC authorised up to one million Starmind satellites; SpaceX must deploy at least one station by 2033 and add more through 2040."
+      },
+      "why": "AI needs large amounts of power and water, so where its computers live is now a question of science, cost and the environment.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "US says SpaceX can deploy 1 million satellites to build data centres in space",
+          "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+        }
+      ]
+    },
+    "economics": {
+      "kicker": "ECONOMY  •  BANKING AND MONEY",
+      "headline": "Banks Lend More and Lose Less: India's Bad Loans Hit a Historic Low",
+      "deck": "Government data show public sector banks' loans grew 18.8% in a year while net bad loans fell to 0.33% of the total.",
+      "body": [
+        "A bank earns its living by lending out other people's savings, so it must be sure it gets the money back. New government data suggest India's public sector banks are doing both: lending more and losing less. As of 30 September 2026 their gross advances, meaning total loans given, were about 127 lakh crore rupees, up 18.8% from a year earlier.",
+        "The second number matters as much. Net NPAs, short for net non-performing assets, are loans that borrowers have stopped repaying, after money set aside for them is counted. These were 44,100 crore rupees, or 0.33% of total advances, which the data describe as a historic low.",
+        "Think of each loan as a promise. When a borrower keeps it, the bank earns interest and can lend again. When a borrower breaks it, the bank loses, which is why a falling share of bad loans is a sign of health.",
+        "Savers were part of the story too. Total deposits were 165.2 lakh crore rupees, up 12.9% year on year. Deposits are the raw material banks lend from, so lending that grows faster than deposits is worth watching.",
+        "The loans reached households and workers. Credit growth year on year was 17% in retail, 19.5% in agriculture and 20.4% in MSME lending, the micro, small and medium enterprises. Bank of Maharashtra recorded the highest credit growth among individual banks.",
+        "What happens next depends on keeping this discipline while lending grows. Analysts watch net NPAs and slippages alongside credit growth to judge whether growth is being bought at the cost of risk.",
+        "Two terms help with the numbers. Public sector banks are banks in which the government holds the main ownership stake. A lakh is 100,000 and a crore is 10 million, so a lakh crore is one trillion, which is why the totals look so large. The data also show loans growing faster than deposits, 18.8% against 12.9%, so banks are lending out more than their savers are adding.",
+        "The trend over time is the clearest sign of repair. New bad loans, called slippages, fell from 1.44 lakh crore rupees in FY 2021-22 to 38,780 crore in the first half of FY 2026-27."
+      ],
+      "illustration": {
+        "title": "LENDING UP, BAD LOANS DOWN",
+        "subtitle": "Banks, 30 Sep 2026",
+        "motif": "skyline",
+        "caption": "Gross advances were about 127 lakh crore rupees, and net bad loans were 0.33% of total advances."
+      },
+      "why": "Healthy banks can lend more to farmers, small firms and families, which is how savings turn into jobs and growth.",
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "PSBs' gross advances reach 127 lakh crore; net NPAs decline to 0.33%",
+          "url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "India: Sabita Toppo won the women's 100m hurdles gold at the BIMSTEC U-23 athletics meet in Bhubaneswar, helping India extend its medal lead.",
+        "Britain: An inquiry into UK nuclear test veterans was granted after a 40-year campaign; the veterans claim they were used as test subjects.",
+        "Spain: FC Barcelona revealed plans to let Camp Nou be fans' final resting place, with a memorial inside the stadium.",
+        "London: The Gingerbread City returns with 50 edible architectural creations, a model city with skyscrapers and landmarks."
+      ],
+      "sources": [
+        {
+          "outlet": "DD News",
+          "title": "Sabita Toppo wins women's 100m hurdles gold",
+          "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Euronews 26 November 2026 listing",
+          "url": "https://www.euronews.com/2026/11/26"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Ashes to ashes: FC Barcelona reveals plans to let Camp Nou be fans' final resting place",
+          "url": "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place"
+        }
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Endemic",
+          "def": "Present in a place all the time, spreading steadily rather than arriving in occasional outbreaks. Today: PAHO says endemic measles spread has been re-established in the US, Mexico and Bolivia."
+        },
+        {
+          "word": "Herd immunity",
+          "def": "Protection of a whole community when enough people are immune that a disease cannot keep spreading. Today: roughly 95 percent vaccination is needed to block measles, and US kindergarten coverage was 92 percent."
+        },
+        {
+          "word": "Non-performing asset",
+          "def": "A loan that the borrower has stopped repaying. Today: India's public sector banks' net NPAs fell to 0.33% of total advances."
+        },
+        {
+          "word": "Bankruptcy",
+          "def": "A legal process for a person or company that cannot pay its debts. Today: Norse Atlantic's board says it intends to file for bankruptcy unless it secures short-term financing."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "Measles is one of the most contagious diseases known: a single infected person can pass it on to roughly 12 to 18 unvaccinated people, which is why vaccination rates near 95 percent are needed to stop it."
+    },
+    "explainer": {
+      "title": "How herd immunity works",
+      "body": [
+        "Think of a disease as a spark and a community as a forest. If most trees are fireproof, the spark lands on one, goes out and cannot jump to the next. That is herd immunity: when enough people are immune, an infected person meets too few people who can catch the illness, and the chain of infection breaks.",
+        "The share needed depends on how contagious the disease is. Measles spreads so easily that roughly 95 percent of people must be protected, which is why even a drop from 95 to 92 percent of kindergarteners can matter. Herd immunity also protects people who cannot be vaccinated, such as babies, but it is a community effect: it fades when vaccination falls in particular schools or towns, which is where the CDC says the US risk is concentrated."
+      ],
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "Science News",
+          "title": "The U.S. just lost its measles elimination status. What now?",
+          "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> Which body announced that the US lost its measles elimination status?",
+        "(a) PAHO  (b) The FCC  (c) The Senate",
+        "<b>2.</b> About what share of US kindergarteners got the measles vaccine in 2025?",
+        "(a) 85 percent  (b) 92 percent  (c) 99 percent",
+        "<b>3.</b> What did Norse Atlantic do on 26 November?",
+        "(a) Cancelled all flights  (b) Launched new routes  (c) Merged with Plus Ultra",
+        "<b>4.</b> How many stakeholders did the Finance Minister's pre-budget talks involve?",
+        "(a) Under 20  (b) About 50  (c) More than 200",
+        "<b>5.</b> By which year must SpaceX deploy at least one authorised space station?",
+        "(a) 2027  (b) 2033  (c) 2040",
+        "<b>Answers:</b> 1-a, 2-b, 3-a, 4-c, 5-b."
+      ],
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Norse Atlantic suspends flights as bankruptcy looms",
+          "url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+        },
+        {
+          "outlet": "DD News",
+          "title": "Finance Minister concludes pre-budget consultations",
+          "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "US says SpaceX can deploy 1 million satellites to build data centres in space",
+          "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+        }
+      ]
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "The US lost measles elimination status because one virus lineage spread for 12 months or more. The CDC director said vaccination, not the label, protects people. Is a label like “elimination” useful if it can be lost? What should a community do when vaccination falls from 95 to 92 percent?",
+        "Supporters of putting data centres in orbit say it could ease strain on power grids and water, while experts point to technical, financial and environmental obstacles. Who should decide whether an idea like Starmind goes ahead, and what evidence would you want first?",
+        "Musk's gift of SpaceX shares depends on parents claiming each child's account, and the shares' value can rise and fall. Is a gift of stock fair to every child? How would you explain the difference between a share's price and its value to a friend?"
+      ],
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. officially loses its measles elimination status",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "US says SpaceX can deploy 1 million satellites to build data centres in space",
+          "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+        },
+        {
+          "outlet": "Euronews",
+          "title": "Musk says will give two SpaceX shares to every child in America",
+          "url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+        }
+      ]
+    },
+    "quote": {
+      "text": "A fire needs fuel; a virus needs people who can catch it.",
+      "by": "The Global Citizen Plus"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "NPR",
+      "title": "U.S. officially loses its measles elimination status",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+    },
+    {
+      "outlet": "PAHO",
+      "title": "PAHO urges countries to step up efforts to stop measles outbreaks",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+    },
+    {
+      "outlet": "Science News",
+      "title": "The U.S. just lost its measles elimination status. What now?",
+      "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Norse Atlantic suspends flights as bankruptcy looms",
+      "url": "https://www.euronews.com/2026/11/26/norwegian-low-cost-carrier-norse-atlantic-suspends-flights-as-bankruptcy-looms"
+    },
+    {
+      "outlet": "DD News",
+      "title": "Finance Minister concludes pre-budget consultations",
+      "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Musk says will give two SpaceX shares to every child in America",
+      "url": "https://www.euronews.com/2026/11/26/musk-says-will-give-two-spacex-shares-to-every-child-in-america"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "US says SpaceX can deploy 1 million satellites to build data centres in space",
+      "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+    },
+    {
+      "outlet": "DD News",
+      "title": "PSBs' gross advances reach 127 lakh crore; net NPAs decline to 0.33%",
+      "url": "https://ddnews.gov.in/en/psbs-gross-advances-reach-%e2%82%b9127-lakh-crore-net-npas-decline-to-0-33/"
+    },
+    {
+      "outlet": "DD News",
+      "title": "Sabita Toppo wins women's 100m hurdles gold",
+      "url": "https://ddnews.gov.in/en/sabita-toppo-wins-womens-100m-hurdles-gold-as-india-strengthen-lead-at-bimstec-u-23-athletics-meet/"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Euronews 26 November 2026 listing",
+      "url": "https://www.euronews.com/2026/11/26"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Ashes to ashes: FC Barcelona reveals plans to let Camp Nou be fans' final resting place",
+      "url": "https://www.euronews.com/2026/11/26/ashes-to-ashes-fc-barcelona-reveals-plans-to-let-camp-nou-be-fans-final-resting-place"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "Which body announced that the US lost measles elimination status?",
+        "options": [
+          "The CDC",
+          "PAHO",
+          "The FCC"
+        ],
+        "answer": 1,
+        "why": "PAHO announced on 17 November 2026 that the US, Mexico and Bolivia lost the status.",
+        "story": "lead"
+      },
+      {
+        "q": "Why did Norse Atlantic cancel its flights?",
+        "options": [
+          "Jet fuel prices surged",
+          "A pilots' strike",
+          "A runway closure"
+        ],
+        "answer": 0,
+        "why": "The airline said jet fuel prices surged because of the war in the Middle East.",
+        "story": "world"
+      },
+      {
+        "q": "What was new in India's pre-budget talks this year?",
+        "options": [
+          "A consultation with young people",
+          "A meeting abroad",
+          "A public vote"
+        ],
+        "answer": 0,
+        "why": "The talks included a consultation with young people for the first time this year.",
+        "story": "india"
+      },
+      {
+        "q": "When will SpaceX transfer its shares to children's accounts?",
+        "options": [
+          "In June 2027",
+          "In December",
+          "In October"
+        ],
+        "answer": 1,
+        "why": "SpaceX will transfer its shares in December; Musk transfers his in June 2027.",
+        "story": "us"
+      },
+      {
+        "q": "What are net NPAs?",
+        "options": [
+          "New savings accounts",
+          "Loans borrowers have stopped repaying",
+          "Interest paid to savers"
+        ],
+        "answer": 1,
+        "why": "Net NPAs are bad loans, and they fell to 0.33% of total advances.",
+        "story": "economics"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The US kindergarten measles vaccination rate rose between 2019 and 2025.",
+        "true": false,
+        "why": "It fell from 95 percent in 2019 to about 92 percent in 2025.",
+        "story": "lead"
+      },
+      {
+        "claim": "The CDC says losing elimination status means measles is widespread in every US community.",
+        "true": false,
+        "why": "The CDC says risk is concentrated where vaccination is lower.",
+        "story": "lead"
+      },
+      {
+        "claim": "The FCC authorised SpaceX to deploy one million satellites to work as data centres in space.",
+        "true": true,
+        "why": "The plan is called Starmind.",
+        "story": "science_and_technology"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Washington, DC",
+        "lat": 38.89,
+        "lon": -77.01,
+        "countries": [
+          "United States",
+          "Mexico",
+          "Bolivia"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Oslo",
+        "lat": 59.91,
+        "lon": 10.75,
+        "countries": [
+          "Norway",
+          "Spain"
+        ]
+      },
+      {
+        "story": "india",
+        "place": "New Delhi",
+        "lat": 28.61,
+        "lon": 77.21,
+        "countries": [
+          "India"
+        ]
+      },
+      {
+        "story": "us",
+        "place": "Washington, DC",
+        "lat": 38.89,
+        "lon": -77.01,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Washington, DC",
+        "lat": 38.89,
+        "lon": -77.01,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "economics",
+        "place": "Mumbai",
+        "lat": 19.08,
+        "lon": 72.88,
+        "countries": [
+          "India"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "What share of US kindergarteners got the measles vaccine in 2025?",
+        "answer": 92,
+        "prefix": "",
+        "unit": "%",
+        "min": 50,
+        "max": 100,
+        "why": "About 92 percent did, down from 95 percent in 2019."
+      },
+      {
+        "story": "economics",
+        "q": "How big were public sector banks' gross advances in lakh crore rupees?",
+        "answer": 127,
+        "prefix": "Rs ",
+        "unit": "lakh crore",
+        "min": 0,
+        "max": 300,
+        "why": "Gross advances were about 127 lakh crore rupees on 30 September 2026."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "The US Loses Its Measles-Free Title",
+        "body": [
+          "Measles is a disease that spreads very easily. For years, the United States was officially free of it. This month that changed.",
+          "On 17 November a health group called PAHO made an announcement. It said measles has been spreading again in the United States, Mexico and Bolivia. All three lost their measles-free status.",
+          "Why? The same measles virus kept spreading for 12 months or more. The US has more than 5,400 cases. About 92 percent of kindergarteners got the vaccine in 2025. Doctors say about 95 percent are needed to stop the spread.",
+          "The US can win the title back. It must stop the spread for 12 months in a row and send in a plan. The head of the CDC says vaccines are what keep people safe."
+        ]
+      },
+      "world": {
+        "headline": "An Airline Stops Flying",
+        "body": [
+          "Norse Atlantic is an airline from Norway. It was started in 2021. On Thursday 26 November it cancelled all of its flights.",
+          "The airline said the price of jet fuel jumped because of the war in the Middle East. Fuel is a big cost for planes.",
+          "Its bosses say they may have to declare bankruptcy. That is what happens when a company cannot pay its debts. They need money quickly to stop that.",
+          "Another airline, Plus Ultra from Spain, said it was closing too."
+        ]
+      },
+      "india": {
+        "headline": "India's Budget Talks Include Young People",
+        "body": [
+          "Every year, India's government plans a budget. A budget says how the country will raise money and how it will spend it.",
+          "Before writing it, the Finance Minister, Nirmala Sitharaman, held talks. They ran from 16 to 26 November. She held 13 meetings with more than 200 people.",
+          "This year there was something new. She also talked with young people.",
+          "People suggested many ideas. One was a reading movement so that every child can read a newspaper by the end of Grade 5."
+        ]
+      },
+      "us": {
+        "headline": "Free Shares for Children",
+        "body": [
+          "Elon Musk runs a company called SpaceX. He said every child in America with an active Trump Account will get two SpaceX shares.",
+          "A share is a tiny piece of a company. Its price goes up and down. When the market closed, one share cost $127.44. So two shares were worth $254.88.",
+          "Parents must claim the child's account first. The government also gives eligible children $1,000 once. The money is usually locked until the child turns 18."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Computers in Space?",
+        "body": [
+          "Big computers need big buildings. They use lots of power and water to stay cool.",
+          "The US government has said SpaceX can launch one million satellites. They would work like computers in space. The plan is called Starmind.",
+          "Supporters say the Sun's power in space could help. Then there would be less need for power and water on Earth.",
+          "Scientists are not sure. They say it would be hard and costly. Rockets could also pollute the air. SpaceX must launch at least one station by 2033."
+        ]
+      },
+      "economics": {
+        "headline": "Indian Banks Are Lending More",
+        "body": [
+          "A bank lends out the money people save. It needs borrowers to pay it back.",
+          "New data show India's government-owned banks have lent about 127 lakh crore rupees. That is 18.8% more than a year before.",
+          "Fewer loans are going bad. Loans that people stop repaying are 0.33% of all loans. That is a historic low.",
+          "This helps farmers, small firms and families. They can borrow more money."
+        ]
+      }
+    }
+  }
+}
