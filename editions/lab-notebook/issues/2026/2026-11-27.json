@@ -1,0 +1,569 @@
+{
+  "edition": "lab-notebook",
+  "date": "2026-11-27",
+  "volume": 1,
+  "issue": 6,
+  "blocks": {
+    "lead": {
+      "kicker": "TOP STORY  •  CLIMATE SCIENCE",
+      "headline": "El Nino Is Heading for Record Strength, the WMO Says",
+      "deck": "A patch of warm Pacific water is growing, and scientists measure it with one number: how far above normal it sits.",
+      "body": [
+        "Every few years, a stretch of the tropical Pacific Ocean turns unusually warm, and weather worldwide shifts with it. This is El Nino, and the World Meteorological Organization (WMO), the UN's weather and climate agency, says it is growing. The WMO says El Nino has strengthened since August and is expected to reach record strength by December 2026.",
+        "How do scientists put a number on a warm ocean? They use an anomaly: how far a reading sits above the long-run average for that place. The standard gauge is the Nino 3.4 anomaly, which compares the tropical Pacific with normal. The WMO forecasts that the seasonal average for October to December will be about +3.7C, peaking around December.",
+        "WMO forecasts give a near-100 per cent likelihood that El Nino lasts through February 2027. Its update covers data to September 2026, so it misses El Nino's latest impacts.",
+        "El Nino arrives on an already warm planet. For January to September 2026, the WMO puts the global average near-surface temperature at 1.47C above the 1850-1900 average, give or take 0.13C, and says 2023 to 2026 are the four warmest years on record. Global mean sea level reached its highest point in the satellite record, which began in 1993.",
+        "What has the warm water done so far? A France 24 roundup of 25 November reported droughts in the Pacific and flooding in San Francisco, and cited Oxford Economics, which estimates that an intense El Nino could cut 0.6% of world GDP in 2027 and 0.8% in 2028. That is an economists' estimate, not a measurement."
+      ],
+      "map": {
+        "title": "WHERE THE WARM WATER SITS",
+        "label_top": "TROPICAL PACIFIC OCEAN",
+        "label_bottom": "EFFECTS FELT ACROSS THE AMERICAS",
+        "footnote": "WMO update covers data to September 2026",
+        "caption": "The map marks the Pacific Ocean, where El Nino forms, and the United States, where flooding was reported in San Francisco.",
+        "countries": [
+          "United States of America"
+        ],
+        "place": "Pacific Ocean"
+      },
+      "why": "El Nino changes rain and heat patterns around the world, affecting farms, floods and droughts. One measured number lets scientists track it.",
+      "sources": [
+        {
+          "outlet": "WMO",
+          "title": "State of the Climate Update for COP31",
+          "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+        },
+        {
+          "outlet": "WMO",
+          "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+          "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+        },
+        {
+          "outlet": "WMO",
+          "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+          "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+        },
+        {
+          "outlet": "France 24",
+          "title": "El impacto de El Niño esta semana en el mundo",
+          "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+        }
+      ]
+    },
+    "world": {
+      "kicker": "WORLD  •  HOW RADAR WATCHES THE SKY",
+      "headline": "Why NATO Sent a Radar Plane With a Nine-Metre Dome to Poland",
+      "deck": "An AWACS aircraft flies high so its radar can see farther than any ground station.",
+      "body": [
+        "On 20 November, according to the Polish prosecutor's office, three Russian H-101 cruise missiles crashed on Polish territory. Three days later, NATO confirmed that General Alexus Grynkewich, commander of the alliance's European forces, had approved sending an AWACS aircraft to Poland. The article gives no timeline for how long the deployment will last.",
+        "What is an AWACS? The letters stand for airborne early warning and control system. NATO's aircraft are Boeing E-3 Sentry planes, each carrying a rotating radar dome about nine metres across. The idea is simple: put the radar in the sky instead of on the ground.",
+        "Height is the key. Flying high lets the radar see farther than ground-based radar, which can be blocked by the curve of the Earth and by terrain. A radar station on the ground cannot look around a hill or over the bend of the planet, but a radar several kilometres up has a much wider view.",
+        "Seeing is only half of the job. The crew checks the radar detections against other data sources, then shares the resulting air picture with fighter jets, ships and ground control centres. That shared picture is what makes the plane useful to an alliance rather than to a single aircraft.",
+        "The fleet itself is old. NATO's AWACS aircraft are based in Gelsenkirchen, Germany, and have monitored NATO's eastern flank since 2022, but the first E-3s entered service in 1982. At NATO's Ankara summit in July, eleven allies agreed to jointly buy Saab GlobalEye aircraft to replace part of the ageing E-3 fleet."
+      ],
+      "illustration": {
+        "title": "AN EYE IN THE SKY",
+        "subtitle": "Radar over Poland",
+        "motif": "airdefense",
+        "caption": "A radar plane flies high so it can see farther than a ground station and shares what it sees with jets, ships and ground centres."
+      },
+      "connect": "Geography: the Earth is round, so a radar on the ground loses sight of low objects over the horizon, while one in the air sees farther. History: the first E-3s entered service in 1982, and eleven allies have now agreed to buy GlobalEye aircraft to replace part of that fleet.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+          "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+        }
+      ]
+    },
+    "science_and_technology": {
+      "kicker": "SCIENCE & TECH  •  ASTRONOMY",
+      "headline": "Astronomers Catch a Star Explosion Before It Reaches Full Brightness",
+      "deck": "A robotic sky survey spotted SN 2026ahvu in a galaxy about 50 million light-years away, early enough to watch it climb.",
+      "body": [
+        "A supernova is the explosion of a star, bright enough to be seen across a galaxy. Most are noticed only after they are already fading, which makes the beginning hard to study. On 2 November 2026, astronomers got a rare chance to catch one early: a new supernova named SN 2026ahvu in the spiral galaxy NGC 1433.",
+        "The discovery came from a machine, not a person at an eyepiece. The ATLAS survey, a set of robotic telescopes in both hemispheres, first reported the explosion on 2 November. Space.com describes the galaxy as about 50 million light-years from Earth, which means the light the telescopes collected left it about 50 million years ago.",
+        "Next came the detective work. Astronomers used follow-up spectroscopy with the DEIMOS instrument on the Keck telescope to classify it as a Type Ia supernova. Spectroscopy spreads an object's light into a rainbow, and dark and bright lines in that rainbow act as a fingerprint of what the object is made of and how it is behaving.",
+        "Timing is what makes this one valuable. Science News reports that soon after scientists spotted the explosion, they determined it had not yet peaked in brightness. Because the supernova was still brightening, telescopes could follow its rise. On 9 November 2026, Gemini South, a telescope in Chile operated by the US National Science Foundation, imaged the galaxy and the new supernova.",
+        "A preprint posted to the arXiv server, titled with the words 'may be a prompt Type Ia supernova', is an early report on the same object. A preprint has not yet been through peer review, so its ideas are suggestions that other astronomers still need to test.",
+        "Why use a survey of robotic telescopes at all? A survey photographs the sky again and again, and software compares each new image with older ones, so a point of light that was not there before stands out. NGC 1433 lies in the southern sky, which is why a telescope in Chile, Gemini South, could image it. Science News calls it a cosmically close supernova, yet 50 million light-years is still far, so everything astronomers learn comes from its light."
+      ],
+      "illustration": {
+        "title": "CAUGHT EARLY",
+        "subtitle": "SN 2026ahvu in NGC 1433",
+        "motif": "globe",
+        "caption": "Robotic telescopes spotted the explosion on 2 November, and larger telescopes then classified it and imaged it on 9 November."
+      },
+      "why": "Catching a supernova early lets scientists study how these explosions begin, not only how they fade. Each early observation is a clue that other telescopes can test.",
+      "sources": [
+        {
+          "outlet": "Space.com",
+          "title": "Supernova explodes before astronomers' eyes",
+          "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+        },
+        {
+          "outlet": "Science News",
+          "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+        },
+        {
+          "outlet": "arXiv",
+          "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+          "url": "https://arxiv.org/pdf/2611.09875"
+        }
+      ]
+    },
+    "climate_and_environment": {
+      "kicker": "CLIMATE & ENVIRONMENT  •  EXTREME WEATHER",
+      "headline": "Wind, Snow and King Tides: The Science Behind a Stormy Thanksgiving",
+      "deck": "A single storm system brought flooding, gusts and snow, while a separate effect of the sun and moon raised West Coast waters.",
+      "body": [
+        "Big storms are a lesson in how many things the atmosphere can do at once. Across the United States on Thursday 26 November, Thanksgiving Day, a single storm system flooded coasts, shook the wind gauges and dropped snow inland. By afternoon, poweroutage.us counted more than 600,000 homes and businesses with no electricity, mostly in East Coast states.",
+        "Start with the water. Along the New Jersey shore, seawater spilled into streets in Sea Isle City and Ocean City and spread across parts of Avalon, where business administrator Scott J. Wahl described some of the worst flooding in the town's history. A few drivers who went around barricades had to be rescued from floodwater; no injuries were reported. New Jersey is under a statewide state of emergency declared by Governor Mikie Sherrill, and parts of New York are under one declared by Governor Kathy Hochul.",
+        "Then comes the wind. Forecasters expected gusts of 80 km/h or higher along the Interstate 95 corridor, strong enough that Macy's moved its 100th Thanksgiving Day Parade in Manhattan to Saturday, saying it acted in an abundance of caution because of worries about the giant balloons. Wind also matters in the air: the National Weather Service warned that eastern airports could see disruption through Friday morning from poor visibility, turbulence, strong winds and ice forming on aircraft, and planes sat stranded on the tarmac in Philadelphia.",
+        "Further inland the same weather fell as snow. Up to 33 cm was expected around St. Louis, and heavy snow partly collapsed the roof of the Wentzville Ice Arena.",
+        "On the opposite coast, the cause of the flooding was not a storm alone. Coastal flood warnings stretched from Southern California to the Oregon and Washington coasts because of king tides. A king tide is a very high tide, and it happens when the sun and moon's gravitational pulls align to raise water levels. A wave tore down part of a pier in Pacifica, California, on Wednesday."
+      ],
+      "illustration": {
+        "title": "ONE STORM, THREE HAZARDS",
+        "subtitle": "Flooding, wind and snow",
+        "motif": "flood",
+        "caption": "Coastal flooding hit New Jersey, high winds disrupted travel along the East Coast, and snow fell near St. Louis."
+      },
+      "why": "Floods, wind and snow can each cut power and stop travel, and king tides show how the pull of the sun and moon can raise sea levels on their own. Reading a forecast well means knowing which hazard is coming.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+        }
+      ]
+    },
+    "health": {
+      "kicker": "HEALTH  •  OUTBREAK SCIENCE",
+      "headline": "Ebola Passes 12,000 Cases: How Responders Break the Chain of Spread",
+      "deck": "This virus has no approved vaccine or treatment, so old-fashioned public health must do the work, and fighting is getting in the way.",
+      "body": [
+        "Epidemiologists count cases to see how fast a disease moves. In eastern Congo, the count is now 12,021 confirmed Ebola cases, according to the health ministry's data released on Thursday 26 November 2026. The outbreak was declared in May and is caused by the rare Bundibugyo virus, for which there is no approved vaccine or treatment.",
+        "Euronews describes it as the fastest-growing Ebola outbreak in history and the deadliest of Congo's 17 outbreaks. It says the outbreak is on track to pass the West African outbreak of 2014-2016, which killed about 11,000 people.",
+        "With no vaccine to protect people and no treatment to cure them, the main tool is to break the chain of infection. Ebola spreads through direct contact with the blood or bodily fluids of sick or dead people, so stopping it means keeping those fluids from reaching anyone else. Containment needs rapid isolation of patients, monitoring of people who may have been exposed, and safe burial of the dead.",
+        "Every step depends on teams being able to reach people, and that is what the fighting is undermining. On Thursday, Congolese army troops and rebels from the CRP clashed again in Iga-Barriere, a mining town about 25 km north of Bunia in Ituri province, and Bunia is a major Ebola response hub. The CRP is one of more than 100 armed groups in eastern Congo. It was founded last year by former warlord Thomas Lubanga, whom the International Criminal Court convicted in 2012 of recruiting children under 15.",
+        "The World Health Organization's Ebola incident manager, Dr. Catherine Smallwood, said on Wednesday that the violence had kept teams from some communities and left some treatment centres short-staffed. It has also disrupted the monitoring of people who were exposed to the virus. Teams also face poor roads and local violence fuelled by mistrust and misinformation. On Tuesday, about a dozen people, among them two WHO staff and Congolese health officials, were evacuated to Bunia after three days trapped in a hospital in Akwe in heavy crossfire."
+      ],
+      "illustration": {
+        "title": "BREAKING THE CHAIN",
+        "subtitle": "Stopping Ebola spread",
+        "motif": "hospital",
+        "caption": "With no approved vaccine, responders isolate patients, monitor people who may have been exposed and bury the dead safely."
+      },
+      "why": "When no vaccine or treatment exists, the tools left are old and practical: find cases, isolate them and track contacts. Those tools only work when teams can safely reach people.",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "Ebola cases in Congo surpass 12,000 in fastest-growing outbreak",
+          "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+        }
+      ]
+    },
+    "history_and_geography": {
+      "kicker": "HISTORY & GEOGRAPHY  •  EUROPE'S MONEY",
+      "headline": "A Budget Standoff in Brussels: Seven Frugals, Seventeen Friends",
+      "deck": "Two camps of countries pull in opposite directions over money for 2028 and beyond.",
+      "body": [
+        "Every group that shares money has to decide who pays and who gets. For the European Union, that decision is made in seven-year budgets, and on Thursday 26 November 2026 national leaders gathered in Brussels, Belgium, hoping to unlock the next one. They went home empty-handed. The budget sets what the EU can spend from 2028 and how much each member pays in.",
+        "The paper on the table was Council President Costa's compromise: 1.78 trillion euros in current prices over seven years, which is 10% below the original draft. It still drew pushback from all sides. Costa said the union needs a new budget from 1 January 2028.",
+        "The members sort into two camps. The seven 'Frugals' want deep cuts. The 17 'Friends of Cohesion' oppose any further cuts. The Frugals boycotted the small-group format Costa used because they felt unfairly targeted. Germany's Friedrich Merz took a hardline Frugal stance, saying cuts will go beyond the 204 billion euros in Costa's proposal.",
+        "Language at the summit showed the gap. Italy's Giorgia Meloni called a deal 'light years away', while the Netherlands' Rob Jetten saw 'no need to hurry'. France's Emmanuel Macron set an ultimatum, a deal by 31 December or he walks away, and called the proposed cuts a 'strategic mistake'. Other states read the ultimatum as a bargaining tactic.",
+        "Other items on the agenda were squeezed. Before the budget talks began, leaders settled Christine Lagarde's succession as European Central Bank president. The summit was meant to discuss a 45 billion euro support loan for Ukraine, which faces a growing wartime deficit, but the budget fight pushed Ukraine into the background. Costa announced early that talks would not continue on Friday as planned, and the article gives no date for the next round."
+      ],
+      "chart": {
+        "title": "TWO CAMPS ON THE EU BUDGET",
+        "subtitle": "Number of countries in each camp",
+        "labels": [
+          "Frugals",
+          "Cohesion camp"
+        ],
+        "values": [
+          7,
+          17
+        ],
+        "max": 20,
+        "value_prefix": "",
+        "highlight_after": 0,
+        "caption": "The seven Frugals want deep cuts; the 17 Friends of Cohesion (the Cohesion camp) oppose further cuts."
+      },
+      "why": "The EU budget decides what the bloc can spend from 2028 and how much each country pays in. When leaders cannot agree, the money behind every shared project waits.",
+      "analyst": "Why might the seven Frugals and the 17 Friends of Cohesion read the same 1.78 trillion euro proposal so differently? What would you want to know about each country before judging whose red lines are fairer?",
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "EU summit ends in disarray as leaders cling to red lines",
+          "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+        }
+      ]
+    },
+    "briefs": {
+      "items": [
+        "Space: NASA's Voyager 1 reached one light-day from Earth on 18 November 2026, at a distance of 16.094 billion miles (25.902 billion km), while engineers keep switching off instruments to save power.",
+        "United States: The Federal Communications Commission authorised SpaceX to deploy one million satellites, called Starmind, that would work as data centres in orbit, with at least one to be deployed by 2033.",
+        "Argentina: The economy shrank 1.8% in July-September after a 1% fall in the previous quarter, which meets the definition of a technical recession, two straight quarterly falls.",
+        "India: Communications Minister Jyotiraditya Scindia announced 2,632 crore rupees for India Post's operations and estates schemes from 2026-27 to 2030-31."
+      ]
+    },
+    "vocab": {
+      "items": [
+        {
+          "word": "Anomaly",
+          "def": "A measurement's difference from the normal or average value. Today: the Nino 3.4 anomaly forecast at about +3.7C tells scientists how far the tropical Pacific is above normal."
+        },
+        {
+          "word": "Spectroscopy",
+          "def": "Splitting an object's light into a spectrum to learn what it is made of. Today: follow-up spectroscopy classified SN 2026ahvu as a Type Ia supernova."
+        },
+        {
+          "word": "King tide",
+          "def": "An unusually high tide that happens when the sun and moon's gravitational pulls align. Today: king tides led to coastal flood warnings from Southern California to Washington."
+        },
+        {
+          "word": "Frugal",
+          "def": "Careful about spending money. Today: the seven 'Frugals' want deep cuts to the EU's seven-year budget."
+        }
+      ]
+    },
+    "did_you_know": {
+      "text": "A light-year measures distance, not time: it is how far light travels in a year. Because NGC 1433 is about 50 million light-years away, the light from its new supernova began its journey about 50 million years ago."
+    },
+    "explainer": {
+      "title": "How radar finds things in the sky",
+      "body": [
+        "Radar works like an echo. A radar sends out radio waves, and when the waves hit an object such as an aircraft, some bounce back. By timing how long the echo takes to return, the radar can work out how far away the object is, and by tracking the echoes over time it can follow the object's movement.",
+        "Radio waves travel in straight lines, so the curve of the Earth and hills can block a radar on the ground. That is why NATO's AWACS planes carry the radar up high: from the air, its view reaches much farther than from a ground station."
+      ],
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+          "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "Five questions on this issue",
+      "body": [
+        "<b>1.</b> What does the Nino 3.4 anomaly measure?",
+        "(a) How warm the tropical Pacific is compared with normal  (b) How many storms hit the US  (c) How tall ocean waves are",
+        "<b>2.</b> What is the radar dome on NATO's E-3 Sentry planes about?",
+        "(a) Three metres across  (b) Nine metres across  (c) Ninety metres across",
+        "<b>3.</b> Which kind of telescopes first reported supernova SN 2026ahvu?",
+        "(a) A space station crew  (b) A set of robotic telescopes called ATLAS  (c) A telescope on Voyager 1",
+        "<b>4.</b> What causes king tides, according to the story?",
+        "(a) The sun and moon's gravitational pulls aligning  (b) Volcanoes under the sea  (c) Melting ice in the Arctic",
+        "<b>5.</b> How many countries are in the 'Friends of Cohesion' camp on the EU budget?",
+        "(a) 7  (b) 17  (c) 27",
+        "<b>Answers.</b> 1 (a): How warm the tropical Pacific is compared with normal. 2 (b): Nine metres across. 3 (b): A set of robotic telescopes called ATLAS. 4 (a): The sun and moon's gravitational pulls aligning. 5 (b): 17."
+      ],
+      "sources": []
+    },
+    "discussion": {
+      "title": "DISCUSS",
+      "body": [
+        "El Nino is measured as an anomaly, a difference from normal, rather than as a plain temperature. Why might a difference from normal be more useful than the temperature itself when comparing years?",
+        "Radar high in the air can see farther than radar on the ground. What other tools get better when they are moved to a higher or different place, and what new problems might that create?",
+        "With no vaccine or treatment for Ebola, health teams depend on isolating patients, monitoring contacts and safe burials. Why might fighting make each of those jobs harder?"
+      ],
+      "sources": []
+    },
+    "quote": {
+      "text": "A number is only useful when you know what it is being compared with.",
+      "by": "The Editor"
+    }
+  },
+  "sources": [
+    {
+      "outlet": "WMO",
+      "title": "State of the Climate Update for COP31",
+      "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
+    },
+    {
+      "outlet": "WMO",
+      "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+      "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+    },
+    {
+      "outlet": "WMO",
+      "title": "El Niño set to become very strong, raising risks of extreme weather into 2027",
+      "url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+    },
+    {
+      "outlet": "France 24",
+      "title": "El impacto de El Niño esta semana en el mundo",
+      "url": "https://france24.com/es/minuto-a-minuto/20261125-el-impacto-de-el-ni%C3%B1o-esta-semana-en-el-mundo"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+      "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace"
+    },
+    {
+      "outlet": "Space.com",
+      "title": "Supernova explodes before astronomers' eyes",
+      "url": "https://www.space.com/astronomy/a-newfound-supernova-explodes-50-million-light-years-away-space-photo-of-the-day-for-nov-18-2026"
+    },
+    {
+      "outlet": "Science News",
+      "title": "A cosmically close supernova may spill the stellar explosion's secrets",
+      "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf"
+    },
+    {
+      "outlet": "arXiv",
+      "title": "SN 2026ahvu in NGC 1433 may be a prompt Type Ia supernova",
+      "url": "https://arxiv.org/pdf/2611.09875"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
+      "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Ebola cases in Congo surpass 12,000 in fastest-growing outbreak",
+      "url": "https://www.euronews.com/2026/11/26/ebola-cases-in-congo-surpass-12000-in-fastest-growing-outbreak"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "EU summit ends in disarray as leaders cling to red lines",
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+    },
+    {
+      "outlet": "NASA",
+      "title": "NASA's Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "US says SpaceX can deploy 1 million satellites to build data centres in space",
+      "url": "https://www.euronews.com/2026/11/26/us-says-spacex-can-deploy-1-million-satellites-to-build-data-centres-in-space"
+    },
+    {
+      "outlet": "Euronews",
+      "title": "Argentina enters technical recession",
+      "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains"
+    },
+    {
+      "outlet": "DD News",
+      "title": "India Post set for major modernisation drive",
+      "url": "https://ddnews.gov.in/en/india-post-set-for-major-modernisation-drive-with-%e2%82%b92632-crore-investment/"
+    }
+  ],
+  "play": {
+    "analyst": {
+      "domino": null,
+      "call": null
+    },
+    "quiz": [
+      {
+        "q": "What does the WMO expect El Nino to reach by December 2026?",
+        "options": [
+          "Record strength",
+          "A complete end",
+          "Half its present strength"
+        ],
+        "answer": 0,
+        "why": "The WMO says El Nino has intensified since August and is expected to reach record strength by December 2026.",
+        "story": "lead"
+      },
+      {
+        "q": "Why can an AWACS radar see farther than a ground-based radar?",
+        "options": [
+          "It is flying high",
+          "It uses no radio waves",
+          "It is much louder"
+        ],
+        "answer": 0,
+        "why": "Flying high lets the radar see farther than ground radar, which can be blocked by the Earth's curvature and terrain.",
+        "story": "world"
+      },
+      {
+        "q": "How did astronomers classify supernova SN 2026ahvu?",
+        "options": [
+          "By weighing the galaxy",
+          "By follow-up spectroscopy",
+          "By listening to radio static"
+        ],
+        "answer": 1,
+        "why": "Follow-up spectroscopy with the Keck telescope's DEIMOS instrument classified it as a Type Ia supernova.",
+        "story": "science_and_technology"
+      },
+      {
+        "q": "What are king tides, according to the story?",
+        "options": [
+          "Tides that happen when the sun and moon's pulls align",
+          "Waves made by strong winds",
+          "Tides caused by melting snow"
+        ],
+        "answer": 0,
+        "why": "King tides occur when the sun and moon's gravitational pulls align to raise water levels.",
+        "story": "climate_and_environment"
+      },
+      {
+        "q": "Which three steps does Ebola containment need, according to the article?",
+        "options": [
+          "Closing borders, washing cars and fining travellers",
+          "Isolating patients, monitoring people exposed and burying the dead safely",
+          "Giving every person a vaccine, a pill and a mask"
+        ],
+        "answer": 1,
+        "why": "Containment needs rapid isolation of patients, monitoring of people who may have been exposed, and safe burial of the dead.",
+        "story": "health"
+      }
+    ],
+    "fact_or_fiction": [
+      {
+        "claim": "The WMO says the El Nino forecast covers data up to September 2026 and does not yet reflect its most recent impacts.",
+        "true": true,
+        "why": "The WMO update covers data to September 2026.",
+        "story": "lead"
+      },
+      {
+        "claim": "NATO's AWACS radar dome is about 90 metres across.",
+        "true": false,
+        "why": "The rotating radar dome is about nine metres across.",
+        "story": "world"
+      },
+      {
+        "claim": "The Thanksgiving storm forced Macy's to postpone its 100th parade until Saturday.",
+        "true": true,
+        "why": "Macy's postponed the parade in Manhattan until Saturday because of concerns about the wind and the giant balloons.",
+        "story": "climate_and_environment"
+      }
+    ],
+    "where": [
+      {
+        "story": "lead",
+        "place": "Pacific Ocean",
+        "lat": 0.0,
+        "lon": -140.0,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "world",
+        "place": "Poland",
+        "lat": 52.0,
+        "lon": 19.4,
+        "countries": [
+          "Poland"
+        ]
+      },
+      {
+        "story": "science_and_technology",
+        "place": "Chile",
+        "lat": -30.2,
+        "lon": -70.7,
+        "countries": [
+          "Chile"
+        ]
+      },
+      {
+        "story": "climate_and_environment",
+        "place": "New Jersey",
+        "lat": 39.5,
+        "lon": -74.5,
+        "countries": [
+          "United States"
+        ]
+      },
+      {
+        "story": "health",
+        "place": "Bunia",
+        "lat": 1.57,
+        "lon": 30.25,
+        "countries": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "story": "history_and_geography",
+        "place": "Brussels",
+        "lat": 50.85,
+        "lon": 4.35,
+        "countries": [
+          "Belgium"
+        ]
+      }
+    ],
+    "numbers": [
+      {
+        "story": "lead",
+        "q": "What seasonal average Nino 3.4 anomaly (in degrees C above normal) does the WMO forecast for October to December?",
+        "answer": 3.7,
+        "prefix": "+",
+        "unit": "C",
+        "min": 0,
+        "max": 8,
+        "why": "The WMO forecasts the October to December average at about +3.7C, peaking around December."
+      },
+      {
+        "story": "health",
+        "q": "How many confirmed Ebola cases has Congo's health ministry reported?",
+        "answer": 12021,
+        "prefix": "",
+        "unit": "cases",
+        "min": 2000,
+        "max": 30000,
+        "why": "The health ministry reports 12,021 confirmed cases in eastern Congo."
+      }
+    ],
+    "easy": {
+      "lead": {
+        "headline": "El Nino Is Getting Stronger",
+        "body": [
+          "El Nino is a patch of warm water in the Pacific Ocean. It changes the weather in many places. The World Meteorological Organization, or WMO, says it has grown stronger since August.",
+          "The WMO thinks El Nino will reach record strength by December 2026. Scientists measure it with an anomaly. An anomaly is how far something is above normal. The WMO forecasts about +3.7C for October to December.",
+          "The WMO says El Nino will very likely last until February 2027. It also says the past four years, 2023 to 2026, are the four warmest on record. El Nino can change rain and heat, so it matters for farms, floods and droughts."
+        ]
+      },
+      "world": {
+        "headline": "A Radar Plane Goes to Poland",
+        "body": [
+          "On 20 November, Polish prosecutors said three Russian cruise missiles crashed in Poland. Three days later, NATO sent a special radar plane there. It is called an AWACS.",
+          "The plane has a round radar dome about nine metres across. It flies high. From up high, its radar can see much farther than a radar on the ground. Hills and the curve of the Earth can block a ground radar.",
+          "The crew checks what the radar sees. Then they share the picture with fighter jets, ships and ground centres. NATO has used these planes on its eastern edge since 2022."
+        ]
+      },
+      "science_and_technology": {
+        "headline": "Astronomers Spot a Star Exploding",
+        "body": [
+          "A supernova is a star that explodes. On 2 November 2026, robotic telescopes called ATLAS spotted a new one. It is named SN 2026ahvu.",
+          "It is in a galaxy called NGC 1433, about 50 million light-years from Earth. A light-year is the distance light travels in one year. So the light we see left the galaxy a very long time ago.",
+          "Astronomers split the light into a rainbow, called a spectrum, to find out what kind of explosion it was. It is a Type Ia supernova. They also found it had not yet reached its brightest point. That helps scientists learn how these explosions begin."
+        ]
+      },
+      "climate_and_environment": {
+        "headline": "A Big Storm Hits the US on Thanksgiving",
+        "body": [
+          "A big storm hit the United States on Thanksgiving, 26 November. More than 600,000 homes and businesses lost electricity. Most were on the East Coast.",
+          "Some streets in New Jersey flooded. Strong winds of 80 km/h or more were expected. Macy's moved its 100th parade to Saturday because of the wind. Near St. Louis, up to 33 cm of snow was expected.",
+          "On the West Coast, there were flood warnings because of king tides. A king tide happens when the pulls of the sun and moon line up. That makes the water rise higher than usual."
+        ]
+      },
+      "health": {
+        "headline": "Ebola Cases Pass 12,000 in Congo",
+        "body": [
+          "Congo's health ministry reports 12,021 confirmed cases of Ebola. The outbreak is in the east of the country. It started in May. A rare virus called Bundibugyo causes it. No approved vaccine or treatment exists for it.",
+          "Ebola spreads through contact with the blood or bodily fluids of sick or dead people. To stop it, teams isolate patients, watch people who may be exposed and bury the dead safely.",
+          "Fighting makes this work harder. The WHO says fighting has kept teams from reaching some communities. Roads are poor, and some people do not trust the health teams."
+        ]
+      },
+      "history_and_geography": {
+        "headline": "EU Leaders Cannot Agree on Their Budget",
+        "body": [
+          "The European Union plans its spending in seven-year budgets. On 26 November, leaders met in Brussels to agree the next one. They left without a deal.",
+          "One plan was worth 1.78 trillion euros over seven years. That was a 10% cut from the first draft. Seven countries, called the Frugals, want deep cuts. Seventeen countries, called the Friends of Cohesion, do not want more cuts.",
+          "The next budget must start on 1 January 2028. France's president, Emmanuel Macron, wants a deal by 31 December. No date is set for the next round of talks."
+        ]
+      }
+    }
+  }
+}
